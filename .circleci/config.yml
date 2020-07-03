@@ -1,4 +1,26 @@
 version: 2.1
+commands:
+  curlcommitpush:
+    description: "Updating the language base file from the original repository"
+    parameters:
+      project:
+        type: string
+      basefilepath:
+        type: string
+    steps:
+      - run:
+          command: |
+            mkdir -p << parameters.project >>
+            cd << parameters.project >>
+            [ -e en.json ] && rm en.json
+            git config user.email "language.basefile.puller@mattermost-server"
+            git config user.name "Language Basefile Puller"
+            curl -OL https://raw.githubusercontent.com/mattermost/<< parameters.project >>/master/<< parameters.basefilepath >>
+            git add en.json
+            git status
+            git commit -m "Updated << parameters.project >>. [ci skip]" --allow-empty
+            git push origin ${CIRCLE_BRANCH}
+
 jobs:
   commit:
     docker:
@@ -9,19 +31,15 @@ jobs:
           fingerprints:
             - "77:7b:d5:ce:1f:fb:f9:13:8b:5d:90:83:32:ae:13:f9"
       - checkout
-      - run:
-          command: |
-            mkdir -p mattermost-server
-            cd mattermost-server
-            [ -e en.json ] && rm en.json
-            git config user.email "language.basefile.puller@mattermost-server"
-            git config user.name "Language Basefile Puller"
-            curl -OL https://raw.githubusercontent.com/mattermost/mattermost-server/master/i18n/en.json
-            git add en.json
-            git status
-            git diff
-            git commit -m "Updated mattermost-server. [ci skip]" --allow-empty
-            git push origin ${CIRCLE_BRANCH}
+      - curlcommitpush:
+          project: "mattermost-server"
+          basefilepath: "i18n/en.json"
+      - curlcommitpush:
+          project: "mattermost-webapp"
+          basefilepath: "i18n/en.json"
+      - curlcommitpush:
+          project: "mattermost-mobile"
+          basefilepath: "assets/base/i18n/en.json"
 
 workflows:
   version: 2
@@ -31,7 +49,7 @@ workflows:
   scheduled-pull:
     triggers:
       - schedule:
-          cron: "0 * * * *"
+          cron: "20,25,30 * * * *"
           filters:
             branches:
               only:
