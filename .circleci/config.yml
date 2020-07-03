@@ -11,6 +11,7 @@ commands:
       - run:
           command: |
             pwd
+            ls -al
             trap '.circleci/mattermost-webhook.sh << parameters.project >>' ERR
             trap -p
             exit 2
