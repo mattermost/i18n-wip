@@ -10,8 +10,9 @@ commands:
     steps:
       - run:
           command: |
+            pwd
             trap '.circleci/mattermost-webhook.sh << parameters.project >>' ERR
-            trap -l
+            trap -p
             exit 2
             mkdir -p << parameters.project >>
             cd << parameters.project >>
