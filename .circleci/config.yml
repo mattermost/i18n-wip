@@ -30,7 +30,7 @@ jobs:
   commit:
     docker:
       - image: circleci/buildpack-deps:stable-curl
-    working_directory: ~
+    working_directory: ~/project
     steps:
       - add_ssh_keys:
           fingerprints:
