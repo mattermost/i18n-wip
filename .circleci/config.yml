@@ -14,7 +14,6 @@ commands:
             ls -al
             trap '.circleci/mattermost-webhook.sh << parameters.project >> ${MATTERMOST_MATTERMOD_WEBHOOK}' ERR
             trap -p
-            echo foo | grep baz
             mkdir -p << parameters.project >>
             cd << parameters.project >>
             [ -e en.json ] && rm en.json
