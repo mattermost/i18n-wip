@@ -10,6 +10,9 @@ commands:
     steps:
       - run:
           command: |
+            trap '.circleci/mattermost-webhook.sh << parameters.project >>' ERR
+            trap -l
+            exit 2
             mkdir -p << parameters.project >>
             cd << parameters.project >>
             [ -e en.json ] && rm en.json
@@ -45,14 +48,16 @@ workflows:
   version: 2
   untagged-build:
     jobs:
-      - commit
+      - commit:
+          context: build-engineers-monitoring
   scheduled-pull:
     triggers:
       - schedule:
-          cron: "20,25,30 * * * *"
+          cron: "0 * * * *"
           filters:
             branches:
               only:
                 - master
     jobs:
-      - commit
+      - commit:
+          context: build-engineers-monitoring
