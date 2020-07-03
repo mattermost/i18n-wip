@@ -1,0 +1,64 @@
+version: 2.1
+commands:
+  curlcommitpush:
+    description: "Updating the language base file from the original repository"
+    parameters:
+      project:
+        type: string
+      basefilepath:
+        type: string
+    steps:
+      - run:
+          command: |
+            pwd
+            ls -al
+            trap '.circleci/mattermost-webhook.sh << parameters.project >> ${MATTERMOST_MATTERMOD_WEBHOOK}' ERR
+            trap -p
+            mkdir -p << parameters.project >>
+            cd << parameters.project >>
+            [ -e en.json ] && rm en.json
+            git config user.email "language.basefile.puller@mattermost-server"
+            git config user.name "Language Basefile Puller"
+            curl -OL https://raw.githubusercontent.com/mattermost/<< parameters.project >>/master/<< parameters.basefilepath >>
+            git add en.json
+            git status
+            git commit -m "Updated << parameters.project >>. [ci skip]" --allow-empty
+            git push origin ${CIRCLE_BRANCH}
+
+jobs:
+  commit:
+    docker:
+      - image: circleci/buildpack-deps:stable-curl
+    working_directory: ~/project
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "77:7b:d5:ce:1f:fb:f9:13:8b:5d:90:83:32:ae:13:f9"
+      - checkout
+      - curlcommitpush:
+          project: "mattermost-server"
+          basefilepath: "i18n/en.json"
+      - curlcommitpush:
+          project: "mattermost-webapp"
+          basefilepath: "i18n/en.json"
+      - curlcommitpush:
+          project: "mattermost-mobile"
+          basefilepath: "assets/base/i18n/en.json"
+
+workflows:
+  version: 2
+  untagged-build:
+    jobs:
+      - commit:
+          context: build-engineers-monitoring
+  scheduled-pull:
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - commit:
+          context: build-engineers-monitoring
