@@ -11,8 +11,9 @@ jobs:
       - checkout
       - run:
           command: |
+            mkdir -p mattermost-server
             cd mattermost-server
-            rm en.json
+            [ -e en.json ] && rm en.json
             git config user.email "language.basefile.puller@mattermost-server"
             git config user.name "Language Basefile Puller"
             curl -OL https://raw.githubusercontent.com/mattermost/mattermost-server/master/i18n/en.json
