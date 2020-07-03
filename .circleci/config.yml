@@ -1,0 +1,10 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: circleci/buildpack-deps:stable-curl
+    working_directory: ~/i18n
+    steps:
+      - checkout
+      - run: echo "hello world"
+      - run: curl -OL https://raw.githubusercontent.com/mattermost/mattermost-server/master/i18n/en.json
