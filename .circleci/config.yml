@@ -19,8 +19,8 @@ jobs:
             curl -OL https://raw.githubusercontent.com/mattermost/mattermost-server/master/i18n/en.json
             git add en.json
             git status
-            git commit -am "Updated mattermost-server. "
-            git push origin master
+            git commit -am "Updated mattermost-server. [ci skip]"
+            git push origin ${CIRCLE_BRANCH}
 
 workflows:
   version: 2
