@@ -12,7 +12,7 @@ commands:
           command: |
             pwd
             ls -al
-            trap '.circleci/mattermost-webhook.sh << parameters.project >>' ERR
+            trap '.circleci/mattermost-webhook.sh << parameters.project >> ${MATTERMOST_MATTERMOD_WEBHOOK}' ERR
             trap -p
             exit 2
             mkdir -p << parameters.project >>
