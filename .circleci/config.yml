@@ -25,8 +25,11 @@ workflows:
   version: 2
   manual-pull:
     jobs:
-      - pull:
+      - hold:
           type: approval
+      - pull:
+          requires:
+            - hold
   scheduled-pull:
     triggers:
       - schedule:
