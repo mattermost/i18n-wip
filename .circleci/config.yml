@@ -1,10 +1,39 @@
 version: 2.1
 jobs:
-  build:
+  pull:
     docker:
       - image: circleci/buildpack-deps:stable-curl
-    working_directory: ~/i18n
+    working_directory: ~
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "77:7b:d5:ce:1f:fb:f9:13:8b:5d:90:83:32:ae:13:f9"
       - checkout
-      - run: echo "hello world"
-      - run: curl -OL https://raw.githubusercontent.com/mattermost/mattermost-server/master/i18n/en.json
+      - run:
+          command: |
+            cd mattermost-server
+            rm en.json
+            git config user.email "language.basefile.puller@mattermost-server"
+            git config user.name "Language Basefile Puller"
+            curl -OL https://raw.githubusercontent.com/mattermost/mattermost-server/master/i18n/en.json
+            git add en.json
+            git status
+            git commit -am "Updated mattermost-server. "
+            git push origin master
+
+workflows:
+  version: 2
+  manual-pull:
+    jobs:
+      - pull:
+          type: approval
+  scheduled-pull:
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - pull
