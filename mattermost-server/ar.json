@@ -1906,5 +1906,9 @@
     {
         "id": "April",
         "translation": "أبريل"
+    },
+    {
+        "id": "app.reaction.save.save.app_error",
+        "translation": "حدث خطأ عند تحديث المحادثة"
     }
 ]
