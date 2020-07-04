@@ -1,1 +1,1126 @@
-{}
+[
+    {
+        "id": "store.sql_webhooks.update_outgoing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.update_incoming.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.save_outgoing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.save_incoming.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.permanent_delete_outgoing_by_user.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.permanent_delete_outgoing_by_channel.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.permanent_delete_incoming_by_user.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.permanent_delete_incoming_by_channel.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.get_outgoing_by_team.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.get_outgoing_by_channel.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.get_outgoing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.get_incoming_by_user.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.get_incoming_by_channel.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.get_incoming.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.delete_outgoing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.delete_incoming.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.analytics_outgoing_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_webhooks.analytics_incoming_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user_access_token.update_token_enable.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user_access_token.update_token_disable.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user_access_token.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user_access_token.get_by_user.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user_access_token.get_by_token.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user_access_token.get_all.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user_access_token.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user_access_token.delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.update_last_picture_update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.update_auth_data.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.update_active_for_multiple_users.updating.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.update.find.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.promote_guest.user_update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.promote_guest.team_members_update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.promote_guest.channel_members_update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.permanent_delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.missing_account.const",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.demote_user_to_guest.user_update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.demote_user_to_guest.channel_members_update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.update.find.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.save_member.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.remove_member.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.permanent_delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.migrate_team_members.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_members_by_ids.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_members.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_member_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_member.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_by_names.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_by_name.missing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_by_name.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_by_invite_id.finding.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_by_invite_id.find.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get_active_member_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.get.find.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.clear_all_custom_role_assignments.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.clear_all_custom_role_assignments.select.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.analytics_team_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.analytics_public_team_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_team.analytics_private_team_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_session.update_roles.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_session.update_device_id.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_session.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_session.remove_all_sessions_for_team.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_session.remove.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_session.analytics_session_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.scheme.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.scheme.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_role.save.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_role.save.insert.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_role.get_by_names.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_role.get_by_name.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_role.get_all.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_role.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_role.delete.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_recover.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_recover.delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.reaction.save.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_preference.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_preference.insert.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.permanent_delete_by_channel.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.permanent_delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.overwrite.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.get_posts_by_ids.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.get_flagged_posts.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.get_direct_posts.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_post.delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_oauth.update_app.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_oauth.update_app.find.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_oauth.save_app.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_oauth.save_access_data.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_oauth.remove_access_data.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_oauth.get_app_by_user.find.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_job.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_job.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_job.get_all.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_job.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_job.delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_file_info.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_file_info.get_with_options.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_file_info.get_for_user_id.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_file_info.get_for_post.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_file_info.get_by_path.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_file_info.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_file_info.delete_for_post.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_file_info.attach_to_post.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.emoji.delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command_webhooks.try_use.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command_webhooks.save.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command_webhooks.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command.save.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command.save.saving.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command.save.get_team.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command.save.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command.save.delete_perm.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command.save.delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command.get_by_trigger.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_command.analytics_command_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.channel.update.bad_id",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.remove_member.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.permanent_delete_members_by_user.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.migrate_channel_members.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_public_channels.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_pinnedpost_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_members_by_ids.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_members.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_member_count.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_member.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.channel.get_deleted.existing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_channels_by_ids.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_channels_by_ids.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_channel_counts.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_all_direct.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get_all.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.get.existing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.clear_all_custom_role_assignments.update.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "store.sql_channel.clear_all_custom_role_assignments.select.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "manaultesting.test_autolink.unable.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.saml.service_disable.app_error",
+        "translation": "SAML 2.0 не е конфигуриран или поддържан на този сървър."
+    },
+    {
+        "id": "ent.saml.metadata.app_error",
+        "translation": "Грешка при създаването на Service Provider Metadata."
+    },
+    {
+        "id": "ent.message_export.global_relay.create_file_in_zip.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.message_export.global_relay.close_zip_file.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.elasticsearch.index_user.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.elasticsearch.index_post.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.elasticsearch.index_channel.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.elasticsearch.delete_user.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.elasticsearch.delete_post.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.elasticsearch.delete_channel.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.compliance.csv.zip.creation.appError",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.compliance.csv.warning.appError",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.compliance.csv.metadata.json.zipfile.appError",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.account_migration.get_saml_users_failed",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "ent.account_migration.get_all_failed",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "bleveengine.index_user.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "bleveengine.index_post.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "bleveengine.index_channel.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "bleveengine.delete_user.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "bleveengine.delete_post.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "bleveengine.delete_channel.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.submit_interactive_dialog.json_error",
+        "translation": "Получи се грешка при кодиране на JSON за интерактивния прозорец."
+    },
+    {
+        "id": "app.plugin.remove.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.plugin.get_plugins.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.plugin.deactivate.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.import.import_direct_channel.update_header_failed.error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.channel.post_update_channel_purpose_message.updated_to",
+        "translation": "%s премахна името на канала (беше: %s)"
+    },
+    {
+        "id": "app.channel.post_update_channel_purpose_message.updated_from",
+        "translation": "%s актуализирани цел на канала: %s: %s"
+    },
+    {
+        "id": "app.channel.post_update_channel_purpose_message.removed",
+        "translation": "%s премахна името на канала (беше: %s)"
+    },
+    {
+        "id": "app.channel.create_direct_channel.internal_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.channel.create_channel.internal_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.bot.permenent_delete.bad_id",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.bot.patchbot.internal_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.bot.getbots.internal_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.bot.getbot.internal_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "app.bot.createbot.internal_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.user.upload_profile_user.too_large.app_error",
+        "translation": "Не може да се качи файл. Файлът е прекалено голям."
+    },
+    {
+        "id": "api.user.upload_profile_user.storage.app_error",
+        "translation": "Невъзможно качване на изображение. Мястото за съхранение на изображения не е конфигурирано."
+    },
+    {
+        "id": "api.user.upload_profile_user.open.app_error",
+        "translation": "Сертификатът не може да бъде отворен."
+    },
+    {
+        "id": "api.user.upload_profile_user.no_file.app_error",
+        "translation": "Липсва файл в полето 'сертификат' на заявката."
+    },
+    {
+        "id": "api.user.upload_profile_user.array.app_error",
+        "translation": "Заявката съдържа празен масив под 'image'"
+    },
+    {
+        "id": "api.user.update_active.permissions.app_error",
+        "translation": "Нямате необходимите права"
+    },
+    {
+        "id": "api.user.saml.not_available.app_error",
+        "translation": "SAML 2.0 не е конфигуриран или поддържан на този сървър."
+    },
+    {
+        "id": "api.team.set_team_icon.too_large.app_error",
+        "translation": "Не може да се качи файл. Файлът е прекалено голям."
+    },
+    {
+        "id": "api.team.set_team_icon.storage.app_error",
+        "translation": "Невъзможно качване на изображение. Мястото за съхранение на изображения не е конфигурирано."
+    },
+    {
+        "id": "api.team.set_team_icon.open.app_error",
+        "translation": "Сертификатът не може да бъде отворен."
+    },
+    {
+        "id": "api.team.set_team_icon.no_file.app_error",
+        "translation": "Липсва файл в полето 'сертификат' на заявката."
+    },
+    {
+        "id": "api.team.set_team_icon.array.app_error",
+        "translation": "Заявката съдържа празен масив под 'image'"
+    },
+    {
+        "id": "api.team.import_team.open.app_error",
+        "translation": "Сертификатът не може да бъде отворен."
+    },
+    {
+        "id": "api.team.import_team.no_file.app_error",
+        "translation": "Липсва файл в полето 'сертификат' на заявката."
+    },
+    {
+        "id": "api.team.import_team.array.app_error",
+        "translation": "Заявката съдържа празен масив под 'image'"
+    },
+    {
+        "id": "api.team.add_user_to_team.added",
+        "translation": "%v беше добавен в канала от %v."
+    },
+    {
+        "id": "api.preference.update_preferences.set.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.preference.preferences_category.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.preference.delete_preferences.delete.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.post_get_post_by_id.get.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.post.update_post.find.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.license.add_license.open.app_error",
+        "translation": "Сертификатът не може да бъде отворен."
+    },
+    {
+        "id": "api.license.add_license.no_file.app_error",
+        "translation": "Липсва файл в полето 'сертификат' на заявката."
+    },
+    {
+        "id": "api.license.add_license.array.app_error",
+        "translation": "Заявката съдържа празен масив под 'image'"
+    },
+    {
+        "id": "api.file.upload_file.storage.app_error",
+        "translation": "Невъзможно качване на изображение. Мястото за съхранение на изображения не е конфигурирано."
+    },
+    {
+        "id": "api.context.permissions.app_error",
+        "translation": "Нямате необходимите права"
+    },
+    {
+        "id": "api.command_msg.missing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.command_join.missing.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.command_channel_rename.direct_group.app_error",
+        "translation": "Невъзможно напускането на канал за лични съобщения"
+    },
+    {
+        "id": "api.channel.update_channel.deleted.app_error",
+        "translation": "Каналът е архивиран или изтрит"
+    },
+    {
+        "id": "api.channel.remove_user_from_channel.app_error",
+        "translation": "Невъзможно добавянето на потребител към канал от този тип"
+    },
+    {
+        "id": "api.channel.remove.default.app_error",
+        "translation": "Невъзможно напускането на канала по подразбиране {{.Channel}}"
+    },
+    {
+        "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
+        "translation": "%s премахна името на канала (беше: %s)"
+    },
+    {
+        "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
+        "translation": "%s актуализиран заглавието на канала: %s: %s"
+    },
+    {
+        "id": "api.channel.post_update_channel_header_message_and_forget.removed",
+        "translation": "%s премахна името на канала (беше: %s)"
+    },
+    {
+        "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
+        "translation": "%s актуализиран показват името на канала: %s: %s"
+    },
+    {
+        "id": "api.channel.post_channel_privacy_message.error",
+        "translation": "Неуспешно обновяване на съобщението за поверителност на канала."
+    },
+    {
+        "id": "api.channel.patch_update_channel.forbidden.app_error",
+        "translation": "Неуспешно обновяване на канала"
+    },
+    {
+        "id": "api.channel.leave.left",
+        "translation": "%v напусна канала."
+    },
+    {
+        "id": "api.channel.leave.last_member.app_error",
+        "translation": "Вие сте единствения оставащ участник, опитайте да изтриете частната група вместо да я напуснете."
+    },
+    {
+        "id": "api.channel.leave.direct.app_error",
+        "translation": "Невъзможно напускането на канал за лични съобщения"
+    },
+    {
+        "id": "api.channel.leave.default.app_error",
+        "translation": "Невъзможно напускането на канала по подразбиране {{.Channel}}"
+    },
+    {
+        "id": "api.channel.join_channel.post_and_forget",
+        "translation": "%v се присъедини към канала."
+    },
+    {
+        "id": "api.channel.join_channel.permissions.app_error",
+        "translation": "Нямате необходимите права"
+    },
+    {
+        "id": "api.channel.delete_channel.type.invalid",
+        "translation": "Невъзможно изтриването на директни или групови канали"
+    },
+    {
+        "id": "api.channel.delete_channel.deleted.app_error",
+        "translation": "Каналът е архивиран или изтрит"
+    },
+    {
+        "id": "api.channel.delete_channel.cannot.app_error",
+        "translation": "Невъзможно изтриването на канала по подразбиране {{.Channel}}"
+    },
+    {
+        "id": "api.channel.delete_channel.archived",
+        "translation": "%v архивира канала."
+    },
+    {
+        "id": "api.channel.create_group.bad_user.app_error",
+        "translation": "Един от зададените потребители не съществува"
+    },
+    {
+        "id": "api.channel.create_group.bad_size.app_error",
+        "translation": "Груповите канали трябва да съдържат поне 3 и не повече от 8 потребителя"
+    },
+    {
+        "id": "api.channel.create_direct_channel.invalid_user.app_error",
+        "translation": "Невалидно ID на потребител за създаването на канал за лични съобщения"
+    },
+    {
+        "id": "api.channel.create_default_channels.town_square",
+        "translation": "Площад"
+    },
+    {
+        "id": "api.channel.create_default_channels.off_topic",
+        "translation": "Off-Topic"
+    },
+    {
+        "id": "api.channel.create_channel.max_channel_limit.app_error",
+        "translation": "Невъзможно създаването на повече от {{.MaxChannelsPerTeam}} канали за текущия екип"
+    },
+    {
+        "id": "api.channel.create_channel.direct_channel.app_error",
+        "translation": "Трябва да използвате услугата на API createDirectChannel за създаването на канал за лични съобщения."
+    },
+    {
+        "id": "api.channel.convert_channel_to_private.private_channel_error",
+        "translation": "Каналът който се опитахте да конвертирате е вече частен канал."
+    },
+    {
+        "id": "api.channel.convert_channel_to_private.default_channel_error",
+        "translation": "Този канал по подразбиране не може да бъде конвертиран в частен канал."
+    },
+    {
+        "id": "api.channel.change_channel_privacy.public_to_private",
+        "translation": "Този канал е конвертиран в частен канал."
+    },
+    {
+        "id": "api.channel.change_channel_privacy.private_to_public",
+        "translation": "Този канал е конвертиран в публичен канал и всеки член от екипа може да се присъедини."
+    },
+    {
+        "id": "api.channel.add_user_to_channel.type.app_error",
+        "translation": "Невъзможно добавянето на потребител към канал от този тип"
+    },
+    {
+        "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
+        "translation": "Неуспешно добавяне на потребителя към канала поради изключването му от екипа."
+    },
+    {
+        "id": "api.channel.add_user.to.channel.failed.app_error",
+        "translation": "Неуспешно добавяне на потребителя към канала"
+    },
+    {
+        "id": "api.channel.add_member.added",
+        "translation": "%v беше добавен в канала от %v."
+    },
+    {
+        "id": "api.channel.add_guest.added",
+        "translation": "%v беше добавен в канала от %v."
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.too_large.app_error",
+        "translation": "Не може да се качи файл. Файлът е прекалено голям."
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.open.app_error",
+        "translation": "Сертификатът не може да бъде отворен."
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.no_file.app_error",
+        "translation": "Липсва файл в полето 'сертификат' на заявката."
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.array.app_error",
+        "translation": "Заявката съдържа празен масив под 'image'"
+    },
+    {
+        "id": "api.admin.upload_brand_image.too_large.app_error",
+        "translation": "Не може да се качи файл. Файлът е прекалено голям."
+    },
+    {
+        "id": "api.admin.upload_brand_image.storage.app_error",
+        "translation": "Невъзможно качване на изображение. Мястото за съхранение на изображения не е конфигурирано."
+    },
+    {
+        "id": "api.admin.upload_brand_image.no_file.app_error",
+        "translation": "Липсва файл в полето 'сертификат' на заявката."
+    },
+    {
+        "id": "api.admin.upload_brand_image.array.app_error",
+        "translation": "Заявката съдържа празен масив под 'image'"
+    },
+    {
+        "id": "api.admin.test_s3.missing_s3_bucket",
+        "translation": "Изисква се S3 Bucket"
+    },
+    {
+        "id": "api.admin.test_email.subject",
+        "translation": "Mattermost - Тест на email настройките"
+    },
+    {
+        "id": "api.admin.test_email.reenter_password",
+        "translation": "SMTP сървъра, порта или потребителя са променени. Моля, въведете SMTP паролата за да тествате връзката."
+    },
+    {
+        "id": "api.admin.test_email.missing_server",
+        "translation": "SMTP сървъра е задължителен"
+    },
+    {
+        "id": "api.admin.test_email.body",
+        "translation": "Изглежда че вашият Mattermost email е настроен успешно!"
+    },
+    {
+        "id": "api.admin.saml.not_available.app_error",
+        "translation": "SAML 2.0 не е конфигуриран или поддържан на този сървър."
+    },
+    {
+        "id": "api.admin.saml.metadata.app_error",
+        "translation": "Грешка при създаването на Service Provider Metadata."
+    },
+    {
+        "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
+        "translation": "Неуспешно запазване на сертификат файла."
+    },
+    {
+        "id": "api.admin.get_brand_image.storage.app_error",
+        "translation": "Съхраняването на картинки не е конфигурирано."
+    },
+    {
+        "id": "api.admin.file_read_error",
+        "translation": "Грешка при четене на лог файл."
+    },
+    {
+        "id": "api.admin.add_certificate.saving.app_error",
+        "translation": "Неуспешно запазване на сертификат файла."
+    },
+    {
+        "id": "api.admin.add_certificate.open.app_error",
+        "translation": "Сертификатът не може да бъде отворен."
+    },
+    {
+        "id": "api.admin.add_certificate.no_file.app_error",
+        "translation": "Липсва файл в полето 'сертификат' на заявката."
+    },
+    {
+        "id": "api.admin.add_certificate.array.app_error",
+        "translation": "Липсва файл в полето 'сертификат' на заявката."
+    },
+    {
+        "id": "actiance.export.marshalToXml.appError",
+        "translation": "Невъзможно конвертиране на експорта в XML."
+    },
+    {
+        "id": "September",
+        "translation": "Септември"
+    },
+    {
+        "id": "October",
+        "translation": "Октомври"
+    },
+    {
+        "id": "November",
+        "translation": "Ноември"
+    },
+    {
+        "id": "May",
+        "translation": "Май"
+    },
+    {
+        "id": "March",
+        "translation": "Март"
+    },
+    {
+        "id": "June",
+        "translation": "Юни"
+    },
+    {
+        "id": "July",
+        "translation": "Юли"
+    },
+    {
+        "id": "January",
+        "translation": "Януари"
+    },
+    {
+        "id": "February",
+        "translation": "Февруари"
+    },
+    {
+        "id": "December",
+        "translation": "Декември"
+    },
+    {
+        "id": "August",
+        "translation": "Август"
+    },
+    {
+        "id": "April",
+        "translation": "Април"
+    }
+]
