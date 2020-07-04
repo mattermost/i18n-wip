@@ -1,1 +1,50 @@
-{}
+[
+    {
+        "id": "September",
+        "translation": "Septemba"
+    },
+    {
+        "id": "October",
+        "translation": "Oktoba"
+    },
+    {
+        "id": "November",
+        "translation": "Novemba"
+    },
+    {
+        "id": "May",
+        "translation": "Mei"
+    },
+    {
+        "id": "March",
+        "translation": "Machi"
+    },
+    {
+        "id": "June",
+        "translation": "Juni"
+    },
+    {
+        "id": "July",
+        "translation": "Julai"
+    },
+    {
+        "id": "January",
+        "translation": "Januari"
+    },
+    {
+        "id": "February",
+        "translation": "Februari"
+    },
+    {
+        "id": "December",
+        "translation": "Disemba"
+    },
+    {
+        "id": "August",
+        "translation": "Agosti"
+    },
+    {
+        "id": "April",
+        "translation": "Aprili"
+    }
+]
