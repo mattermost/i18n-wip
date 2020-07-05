@@ -1,1 +1,5 @@
-{}
+{
+  "mobile.about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Sva prava pridržana",
+  "mobile.share_extension.error_close": "Zatvori",
+  "about.date": "Datum izgradnje:"
+}
