@@ -1,1 +1,21 @@
-{}
+{
+  "web.root.signup_info": "Танай баг, хамт олны нэг цэгт төвлөрсөн мэдээлэл солилцох хэрэгсэл. Та хаанаас ч холбогдох боломжтой.",
+  "sidebar_right_menu.logout": "Гарах",
+  "mobile.server_url.invalid_format": "http:// аль эсвэл https:// гэж эхлэх ёстой",
+  "mobile.search.from_modifier_title": "Хэрэглэгчийн нэр",
+  "mobile.about.copyright": "© Mattermost, Inc 2015 - {currentYear} он. Бүх эрх хуулиар хамгаалагдсан",
+  "channel_header.viewMembers": "Гишүүдийн жагсаалт",
+  "mobile.share_extension.error_close": "Хааx",
+  "mobile.share_extension.channel": "Суваг",
+  "channel_modal.name": "Нэр",
+  "mobile.routes.tableImage": "Зураг",
+  "integrations.add": "Нэмэх",
+  "about.teamEditiont0": "\"Team\" хувилбар",
+  "about.teamEditionSt": "Танай баг, хамт олны нэг цэгт төвлөрсөн мэдээлэл солилцох хэрэгсэл. Та хаанаас ч холбогдох боломжтой.",
+  "about.teamEditionLearn": "\"Mattermost\" багийн хамт олонтой нэгдэхийг хүсвэл:",
+  "about.hashee": "EE бүтээцийн түлхүүр:",
+  "about.hash": "Бүтээцийн түлхүүр:",
+  "about.enterpriseEditionSt": "Харилцаа холбооны орчин үеийн шийдлийг хувийн сервер үүсгэн зохион байгуулаарай.",
+  "about.enterpriseEditionLearn": "\"Enterprise\" хувилбарын тухай илүү их мэдээллийг эндээс үзнэ үү.",
+  "about.date": "Бүтээцийн огноо:"
+}
