@@ -1,1 +1,19 @@
-{}
+{
+  "web.root.signup_info": "Цялата комуникация на вашия екип на едно място, с възможност за търсене и достъпна отвсякъде.",
+  "sidebar_right_menu.logout": "Изход",
+  "mobile.search.from_modifier_title": "потребителско име",
+  "mobile.notification_settings.modal_cancel": "ОТМЕНИ",
+  "mobile.about.copyright": "Copyright 2015-{currentYear} Mattermost, Inc. Всички права запазени",
+  "mobile.share_extension.error_close": "Затвори",
+  "channel_modal.name": "Име",
+  "mobile.routes.tableImage": "Снимка",
+  "integrations.add": "Добавяне",
+  "about.teamEditiont0": "Отборна версия",
+  "about.teamEditionSt": "Цялата комуникация на вашия екип на едно място, с възможност за търсене и достъпна отвсякъде.",
+  "about.teamEditionLearn": "Присъединете се към общността около Mattermost на",
+  "about.hashee": "Хеш на EE версията:",
+  "about.hash": "Хеш на версията:",
+  "about.enterpriseEditionSt": "Модерна комуникация и зад вашия firewall.",
+  "about.enterpriseEditionLearn": "Научете повече за Бизнев Версията на",
+  "about.date": "Време на създаване:"
+}
