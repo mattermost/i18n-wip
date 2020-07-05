@@ -1,1 +1,226 @@
-{}
+[
+    {
+        "id": "ent.saml.service_disable.app_error",
+        "translation": "Uređivanje vizualnog identiteta nije postavljeno ili podržano na ovom serveru"
+    },
+    {
+        "id": "api.user.upload_profile_user.too_large.app_error",
+        "translation": "Nije moguće postaviti datoteku. Datoteka je prevelika."
+    },
+    {
+        "id": "api.user.upload_profile_user.storage.app_error",
+        "translation": "Nije moguće postaviti sliku. Potrebno je urediti postavke za pohranu."
+    },
+    {
+        "id": "api.user.upload_profile_user.parse.app_error",
+        "translation": "Ne može se pročitati obrazac s više dijelova"
+    },
+    {
+        "id": "api.user.upload_profile_user.open.app_error",
+        "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    },
+    {
+        "id": "api.user.upload_profile_user.no_file.app_error",
+        "translation": "Nedostaje datoteka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.user.upload_profile_user.array.app_error",
+        "translation": "Prazan skup podataka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.user.saml.not_available.app_error",
+        "translation": "Uređivanje vizualnog identiteta nije postavljeno ili podržano na ovom serveru"
+    },
+    {
+        "id": "api.team.set_team_icon.too_large.app_error",
+        "translation": "Nije moguće postaviti datoteku. Datoteka je prevelika."
+    },
+    {
+        "id": "api.team.set_team_icon.storage.app_error",
+        "translation": "Nije moguće postaviti sliku. Potrebno je urediti postavke za pohranu."
+    },
+    {
+        "id": "api.team.set_team_icon.parse.app_error",
+        "translation": "Ne može se pročitati obrazac s više dijelova"
+    },
+    {
+        "id": "api.team.set_team_icon.open.app_error",
+        "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    },
+    {
+        "id": "api.team.set_team_icon.no_file.app_error",
+        "translation": "Nedostaje datoteka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.team.set_team_icon.array.app_error",
+        "translation": "Prazan skup podataka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.team.import_team.parse.app_error",
+        "translation": "Ne može se pročitati obrazac s više dijelova"
+    },
+    {
+        "id": "api.team.import_team.open.app_error",
+        "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    },
+    {
+        "id": "api.team.import_team.no_file.app_error",
+        "translation": "Nedostaje datoteka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.team.import_team.array.app_error",
+        "translation": "Prazan skup podataka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.license.add_license.open.app_error",
+        "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    },
+    {
+        "id": "api.license.add_license.no_file.app_error",
+        "translation": "Nedostaje datoteka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.license.add_license.array.app_error",
+        "translation": "Prazan skup podataka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.file.upload_file.storage.app_error",
+        "translation": "Nije moguće postaviti sliku. Potrebno je urediti postavke za pohranu."
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.too_large.app_error",
+        "translation": "Nije moguće postaviti datoteku. Datoteka je prevelika."
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.parse.app_error",
+        "translation": "Ne može se pročitati obrazac s više dijelova"
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.open.app_error",
+        "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.no_file.app_error",
+        "translation": "Nedostaje datoteka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.array.app_error",
+        "translation": "Prazan skup podataka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.admin.upload_brand_image.too_large.app_error",
+        "translation": "Nije moguće postaviti datoteku. Datoteka je prevelika."
+    },
+    {
+        "id": "api.admin.upload_brand_image.storage.app_error",
+        "translation": "Nije moguće postaviti sliku. Potrebno je urediti postavke za pohranu."
+    },
+    {
+        "id": "api.admin.upload_brand_image.parse.app_error",
+        "translation": "Ne može se pročitati obrazac s više dijelova"
+    },
+    {
+        "id": "api.admin.upload_brand_image.no_file.app_error",
+        "translation": "Nedostaje datoteka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.admin.upload_brand_image.array.app_error",
+        "translation": "Prazan skup podataka u 'image' zahtjevu"
+    },
+    {
+        "id": "api.admin.test_email.subject",
+        "translation": "Mattermost - Testiranje mail postavki"
+    },
+    {
+        "id": "api.admin.test_email.reenter_password",
+        "translation": "SMTP server, port, ili korisničko ime su promijenjeni. Molimo ponovno unesite SMTP lozinku za testiranje veze."
+    },
+    {
+        "id": "api.admin.test_email.missing_server",
+        "translation": "Potreban je SMTP server"
+    },
+    {
+        "id": "api.admin.test_email.body",
+        "translation": "<br/><br/><br/>Mattermost mail je pravilno postavljen!"
+    },
+    {
+        "id": "api.admin.saml.not_available.app_error",
+        "translation": "Uređivanje vizualnog identiteta nije postavljeno ili podržano na ovom serveru"
+    },
+    {
+        "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
+        "translation": "Neuspjelo spremanje datoteke s crtifikatom"
+    },
+    {
+        "id": "api.admin.get_brand_image.storage.app_error",
+        "translation": "Spremište za slike nije postavljeno"
+    },
+    {
+        "id": "api.admin.file_read_error",
+        "translation": "Greška kod čitanja log datoteke"
+    },
+    {
+        "id": "api.admin.add_certificate.saving.app_error",
+        "translation": "Neuspjelo spremanje datoteke s crtifikatom"
+    },
+    {
+        "id": "api.admin.add_certificate.open.app_error",
+        "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    },
+    {
+        "id": "api.admin.add_certificate.no_file.app_error",
+        "translation": "Nije potrebna datoteka u polju 'certifikat'"
+    },
+    {
+        "id": "api.admin.add_certificate.array.app_error",
+        "translation": "Nije potrebna datoteka u polju 'certifikat'"
+    },
+    {
+        "id": "September",
+        "translation": "rujan"
+    },
+    {
+        "id": "October",
+        "translation": "listopad"
+    },
+    {
+        "id": "November",
+        "translation": "studeni"
+    },
+    {
+        "id": "May",
+        "translation": "svibanj"
+    },
+    {
+        "id": "March",
+        "translation": "ožujak"
+    },
+    {
+        "id": "June",
+        "translation": "lipanj"
+    },
+    {
+        "id": "July",
+        "translation": "srpanj"
+    },
+    {
+        "id": "January",
+        "translation": "siječanj"
+    },
+    {
+        "id": "February",
+        "translation": "veljača"
+    },
+    {
+        "id": "December",
+        "translation": "prosinac"
+    },
+    {
+        "id": "August",
+        "translation": "kolovoz"
+    },
+    {
+        "id": "April",
+        "translation": "travanj"
+    }
+]
