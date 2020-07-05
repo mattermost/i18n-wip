@@ -54,7 +54,7 @@ workflows:
   scheduled-pull:
     triggers:
       - schedule:
-          cron: "0 * * * *"
+          cron: "0 0,12 * * *"
           filters:
             branches:
               only:
