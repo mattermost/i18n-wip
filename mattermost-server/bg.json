@@ -925,11 +925,11 @@
     },
     {
         "id": "api.channel.create_group.bad_size.app_error",
-        "translation": "Груповите канали трябва да съдържат поне 3 и не повече от 8 потребителя"
+        "translation": "Груповите канали трябва да съдържат поне 3 и не повече от 8 потребителя."
     },
     {
         "id": "api.channel.create_direct_channel.invalid_user.app_error",
-        "translation": "Невалидно ID на потребител за създаването на канал за лични съобщения"
+        "translation": "Невалидно ID на потребител за създаването на канал за лични съобщения."
     },
     {
         "id": "api.channel.create_default_channels.town_square",
@@ -937,11 +937,11 @@
     },
     {
         "id": "api.channel.create_default_channels.off_topic",
-        "translation": "Off-Topic"
+        "translation": "Извън темата"
     },
     {
         "id": "api.channel.create_channel.max_channel_limit.app_error",
-        "translation": "Невъзможно създаването на повече от {{.MaxChannelsPerTeam}} канали за текущия екип"
+        "translation": "Невъзможно създаването на повече от {{.MaxChannelsPerTeam}} канали за текущия екип."
     },
     {
         "id": "api.channel.create_channel.direct_channel.app_error",
@@ -965,7 +965,7 @@
     },
     {
         "id": "api.channel.add_user_to_channel.type.app_error",
-        "translation": "Невъзможно добавянето на потребител към канал от този тип"
+        "translation": "Невъзможно добавянето на потребител към канал от този тип."
     },
     {
         "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
@@ -973,7 +973,7 @@
     },
     {
         "id": "api.channel.add_user.to.channel.failed.app_error",
-        "translation": "Неуспешно добавяне на потребителя към канала"
+        "translation": "Неуспешно добавяне на потребителя към канала."
     },
     {
         "id": "api.channel.add_member.added",
@@ -997,7 +997,7 @@
     },
     {
         "id": "api.bot.set_bot_icon_image.array.app_error",
-        "translation": "Заявката съдържа празен масив под 'image'"
+        "translation": "Заявката съдържа празен масив под 'image'."
     },
     {
         "id": "api.admin.upload_brand_image.too_large.app_error",
@@ -1013,7 +1013,7 @@
     },
     {
         "id": "api.admin.upload_brand_image.array.app_error",
-        "translation": "Заявката съдържа празен масив под 'image'"
+        "translation": "Заявката съдържа празен масив под 'image'."
     },
     {
         "id": "api.admin.test_s3.missing_s3_bucket",
