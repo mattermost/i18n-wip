@@ -24,6 +24,18 @@ commands:
             git status
             git commit -m "Updated << parameters.project >>. [ci skip]" --allow-empty
             git push origin ${CIRCLE_BRANCH}
+  notify-weblate:
+    description: "Notify weblate instance that new changes were pushed"
+    parameters:
+      component:
+        type: string
+    steps:
+      - run:
+          command: |
+            curl \
+                -d operation=pull \
+                -H "Authorization: Token ${WEBLATE_TOKEN}" \
+                http://translate.mattermost.com/api/components/i18n-wip/<< parameters.component >>/repository/
 
 jobs:
   commit:
@@ -44,6 +56,15 @@ jobs:
       - curlcommitpush:
           project: "mattermost-mobile"
           basefilepath: "assets/base/i18n/en.json"
+  notify:
+    docker:
+      - image: circleci/buildpack-deps:stable-curl
+    working_directory: ~/project
+    steps:
+      - notify-weblate:
+          component: "mattermost-server-wip"
+      - notify-weblate:
+          component: "mattermost-mobile-wip"
 
 workflows:
   version: 2
@@ -51,10 +72,12 @@ workflows:
     jobs:
       - commit:
           context: build-engineers-monitoring
+      - notify:
+          context: weblate
   scheduled-pull:
     triggers:
       - schedule:
-          cron: "0 * * * *"
+          cron: "0 0,12 * * *"
           filters:
             branches:
               only:
