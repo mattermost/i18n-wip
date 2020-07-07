@@ -1910,5 +1910,37 @@
     {
         "id": "app.reaction.save.save.app_error",
         "translation": "حدث خطأ عند تحديث المحادثة"
+    },
+    {
+        "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+        "translation": "نوع المحتوى مفقود."
+    },
+    {
+        "id": "api.admin.saml.invalid_xml_missing_keydescriptor.app_error",
+        "translation": "عقد الوصف الرئيسية لمجهز الهوية مفقودة في XML."
+    },
+    {
+        "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
+        "translation": "حدث خلل اثناء محاولة تفسير المعلومات المتضمنة التي قدمها مجهز الهوية على شكل شهادة."
+    },
+    {
+        "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
+        "translation": "هوية ضامن خاصية (الدخول الوحيد الى الموقع) مفقودة في سطور عقد الوصف"
+    },
+    {
+        "id": "api.admin.saml.invalid_xml_missing_ssoservices.app_error",
+        "translation": "مجهز هوية (ضامن الدخول الوحيد الى الموقع) مفقود."
+    },
+    {
+        "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+        "translation": "نوع المحتوى غير صحيح."
+    },
+    {
+        "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+        "translation": "نص الشهادة غير صحيح."
+    },
+    {
+        "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
+        "translation": "فشل محاولة الحصول على معلومات ضمنية من قبل الرابط المجهز للهوية"
     }
 ]
