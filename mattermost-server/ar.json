@@ -1942,5 +1942,33 @@
     {
         "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
         "translation": "فشل محاولة الحصول على معلومات ضمنية من قبل الرابط المجهز للهوية"
+    },
+    {
+        "id": "app.terms_of_service.get.app_error",
+        "translation": "تعذر الحصول على شروط الخدمة"
+    },
+    {
+        "id": "app.user_terms_of_service.delete.app_error",
+        "translation": "تعذر حذف شروط الخدمة"
+    },
+    {
+        "id": "app.user_terms_of_service.get_by_user.app_error",
+        "translation": "تعذر الحصول على شروط الخدمة"
+    },
+    {
+        "id": "app.user_terms_of_service.save.app_error",
+        "translation": "لا يمكن حفظ شروط الخدمة"
+    },
+    {
+        "id": "app.user_access_token.invalid_or_missing",
+        "translation": "الرمز مفقود او غير صحيح"
+    },
+    {
+        "id": "app.user_access_token.disabled",
+        "translation": "معرفات الدخول تم تعطيلها من قبل خادم الانترنيت. الرجاء التواصل مع المشرف لمزيد من التفاصيل"
+    },
+    {
+        "id": "app.user_terms_of_service.get_by_user.no_rows.app_error",
+        "translation": "شروط الخدمة غير متوفرة"
     }
 ]
