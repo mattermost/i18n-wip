@@ -1122,5 +1122,17 @@
     {
         "id": "April",
         "translation": "Април"
+    },
+    {
+        "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
+        "translation": "Неуспешно получаване на мета данни от URL адреса на доставчика на идентичност."
+    },
+    {
+        "id": "api.admin.remove_certificate.delete.app_error",
+        "translation": "Възникна грешка при изтриване на сертификата."
+    },
+    {
+        "id": "api.admin.delete_brand_image.storage.not_found",
+        "translation": "Изображението на марката не може да бъде изтрито, не е намерено."
     }
 ]
