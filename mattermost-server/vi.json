@@ -3945,7 +3945,7 @@
     },
     {
         "id": "api.templates.email_info1",
-        "translation": "Hãy gửi email cho chúng tôi khi có bất kỳ câu hỏi nào:"
+        "translation": "Hãy gửi email cho chúng tôi khi có bất kỳ câu hỏi nào: "
     },
     {
         "id": "api.templates.email_footer",
@@ -4917,7 +4917,7 @@
     },
     {
         "id": "app.plugin.get_plugins.app_error",
-        "translation": "Không thể kích \u001dhoạt plugins"
+        "translation": "Không thể kích hoạt plugins"
     },
     {
         "id": "app.plugin.get_cluster_plugin_statuses.app_error",
