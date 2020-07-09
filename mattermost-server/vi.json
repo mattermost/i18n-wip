@@ -4601,7 +4601,7 @@
     },
     {
         "id": "ent.compliance.run_failed.error",
-        "translation": "Kết xuất thất bại: '{{.JobName}}' \bcho '{{.FilePath}}'"
+        "translation": "Kết xuất thất bại: '{{.JobName}}' cho '{{.FilePath}}'"
     },
     {
         "id": "ent.compliance.run_export.template_watcher.appError",
