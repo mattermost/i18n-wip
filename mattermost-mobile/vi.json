@@ -264,7 +264,7 @@
   "mobile.channel_list.not_member": "KHÔNG PHẢI LÀ THÀNH VIÊN",
   "mobile.channel_list.members": "CÁC THÀNH VIÊN",
   "mobile.channel_list.channels": "CHANNELS",
-  "mobile.channel_list.archived": "\bLƯU TRỮ",
+  "mobile.channel_list.archived": "LƯU TRỮ",
   "mobile.channel_info.unarchive_failed": "Chúng tôi không thể mở một tin nhắn trực tiếp với {displayName}. Vui lòng kiểm tra kết nối của bạn và thử lại.",
   "mobile.channel_info.publicChannel": "kênh cộng đồng",
   "mobile.channel_info.privateChannel": "Kênh riêng",
