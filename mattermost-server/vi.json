@@ -925,11 +925,11 @@
     },
     {
         "id": "model.config.is_valid.elastic_search.enable_searching.app_error",
-        "translation": "Cài đặt Elasticsearch IndexingEnabled phải được \u001dbật lên khi Elastic Search SearchEnabled được \u001dbật."
+        "translation": "Cài đặt Elasticsearch IndexingEnabled phải được bật lên khi Elastic Search SearchEnabled được bật."
     },
     {
         "id": "model.config.is_valid.elastic_search.enable_autocomplete.app_error",
-        "translation": "Cài đặt Elasticsearch IndexingEnabled phải được \u001dbật lên khi Elastic Search AutocompleteEnabled được \u001dbật."
+        "translation": "Cài đặt Elasticsearch IndexingEnabled phải được bật lên khi Elastic Search AutocompleteEnabled được bật."
     },
     {
         "id": "model.config.is_valid.elastic_search.connection_url.app_error",
@@ -965,11 +965,11 @@
     },
     {
         "id": "model.config.is_valid.bleve_search.enable_searching.app_error",
-        "translation": "Cài đặt Elasticsearch IndexingEnabled phải được \u001dbật lên khi Elastic Search SearchEnabled được \u001dbật."
+        "translation": "Cài đặt Elasticsearch IndexingEnabled phải được bật lên khi Elastic Search SearchEnabled được bật."
     },
     {
         "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
-        "translation": "Cài đặt Elasticsearch IndexingEnabled phải được \u001dbật lên khi Elastic Search AutocompleteEnabled được \u001dbật."
+        "translation": "Cài đặt Elasticsearch IndexingEnabled phải được bật lên khi Elastic Search AutocompleteEnabled được bật."
     },
     {
         "id": "model.config.is_valid.bleve_search.bulk_indexing_time_window_seconds.app_error",
