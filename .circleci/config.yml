@@ -19,6 +19,7 @@ commands:
             [ -e en.json ] && rm en.json
             git config user.email "language.basefile.puller@mattermost-server"
             git config user.name "Language Basefile Puller"
+            git pull origin ${CIRCLE_BRANCH}
             curl -OL https://raw.githubusercontent.com/mattermost/<< parameters.project >>/master/<< parameters.basefilepath >>
             git add en.json
             git status
