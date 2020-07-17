@@ -86,3 +86,5 @@ workflows:
     jobs:
       - commit:
           context: build-engineers-monitoring
+      - notify:
+          context: weblate
