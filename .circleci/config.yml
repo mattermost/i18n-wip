@@ -75,6 +75,8 @@ workflows:
           context: build-engineers-monitoring
       - notify:
           context: weblate
+          requires:
+            - commit
   scheduled-pull:
     triggers:
       - schedule:
@@ -88,3 +90,5 @@ workflows:
           context: build-engineers-monitoring
       - notify:
           context: weblate
+          requires:
+            - commit
