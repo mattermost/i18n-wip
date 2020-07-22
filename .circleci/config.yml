@@ -33,7 +33,7 @@ commands:
     steps:
       - run:
           command: |
-            curl \
+            curl --fail --show-error \
                 -d operation=pull \
                 -H "Authorization: Token ${WEBLATE_TOKEN}" \
                 https://translate.mattermost.com/api/components/i18n-wip/<< parameters.component >>/repository/
