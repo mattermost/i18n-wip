@@ -36,7 +36,7 @@ commands:
             curl \
                 -d operation=pull \
                 -H "Authorization: Token ${WEBLATE_TOKEN}" \
-                http://translate.mattermost.com/api/components/i18n-wip/<< parameters.component >>/repository/
+                https://translate.mattermost.com/api/components/i18n-wip/<< parameters.component >>/repository/
 
 jobs:
   commit:
