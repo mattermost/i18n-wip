@@ -2953,7 +2953,7 @@
     },
     {
         "id": "app.bot.get_disable_bot_sysadmin_message",
-        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které byly nyní též zneplatněny.\n\n{{.BotNames}}{{else}}Uživatel {{.UserName}} was deactivated. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, které byly nyní též zneplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Můžeš převzít vlastníctví každého robota tím, že to povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které jsou stále zplatněny.\n\n{{.BotNames}}\n{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů,  , které jsou stále zplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Silně doporučujeme převzít vlastiství nad těmito roboty tím, že je povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nPokud chceš, aby se účty robotů automaticky zneplatniIy po zneplatnění uživatele, nastav na \"pravdaL položku \"Zneplatnit účty robotů po zneplatnění uživatele\" v nabídce **Konzola Systému > Integrace > Účty robotů**.{{end}}"
+        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které byly nyní též zneplatněny.\n\n{{.BotNames}}{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, které byly nyní též zneplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Můžeš převzít vlastnictví každého robota tím, že to povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které jsou stále zplatněny.\n\n{{.BotNames}}\n{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů,  , které jsou stále zplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Silně doporučujeme převzít vlastiství nad těmito roboty tím, že je povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nPokud chceš, aby se účty robotů automaticky zneplatniIy po zneplatnění uživatele, nastav na hodnotu \"pravda\" položku \"Zneplatnit účty robotů po zneplatnění uživatele\" v nabídce **Konzola Systému > Integrace > Účty robotů**.{{end}}"
     },
     {
         "id": "app.bot.createbot.internal_error",
@@ -3069,15 +3069,15 @@
     },
     {
         "id": "api.user.upload_profile_user.open.app_error",
-        "translation": "Nelze otevřít soubor s obrázkem"
+        "translation": "Soubor obrázku se nepodařilo otevřít."
     },
     {
         "id": "api.user.upload_profile_user.no_file.app_error",
-        "translation": "Žádný soubor pod \"image\" v žádosti"
+        "translation": "Žádný soubor pod \"image\" v žádosti."
     },
     {
         "id": "api.user.upload_profile_user.encode.app_error",
-        "translation": "Nelze enkódovat obrázek profilu"
+        "translation": "Nepodařilo se zakódovat profilový obrázek."
     },
     {
         "id": "api.user.upload_profile_user.decode_config.app_error",
@@ -3085,11 +3085,11 @@
     },
     {
         "id": "api.user.upload_profile_user.decode.app_error",
-        "translation": "Nelze dekódovat profilový obrázek"
+        "translation": "Nepodařilo se dekódovat profilový obrázek."
     },
     {
         "id": "api.user.upload_profile_user.array.app_error",
-        "translation": "Prázdné pole pod \"image\" v žádosti"
+        "translation": "Prázdné pole pod \"image\" v žádosti."
     },
     {
         "id": "api.user.update_user.accepted_guest_domain.app_error",
@@ -3105,7 +3105,7 @@
     },
     {
         "id": "api.user.update_password.oauth.app_error",
-        "translation": "Aktualizovat heslo se nezdařilo, protože uživatel je přihlášen prostřednictvím služby OAuth"
+        "translation": "Aktualizovat heslo se nezdařilo, protože uživatel je přihlášen prostřednictvím služby OAuth."
     },
     {
         "id": "api.user.update_password.menu",
@@ -3121,7 +3121,7 @@
     },
     {
         "id": "api.user.update_password.context.app_error",
-        "translation": "Změna hesla není možná, protože hodnota user_id se neshoduje s user_id"
+        "translation": "Změna hesla není možná, protože hodnota user_id se neshoduje s user_id."
     },
     {
         "id": "api.user.update_oauth_user_attrs.get_user.app_error",
@@ -3157,11 +3157,11 @@
     },
     {
         "id": "api.user.send_password_reset.sso.app_error",
-        "translation": "Heslo pro SSO nelze resetovat"
+        "translation": "Heslo k účtům SSO nelze obnovit."
     },
     {
         "id": "api.user.send_password_reset.send.app_error",
-        "translation": "Nelze odeslat e-mail s žádostí o změnu hesla"
+        "translation": "Odeslání e-mailu s žádostí o změnu hesla se nezdařilo."
     },
     {
         "id": "api.user.send_password_change_email_and_forget.error",
@@ -3197,7 +3197,7 @@
     },
     {
         "id": "api.user.reset_password.sso.app_error",
-        "translation": "Heslo pro SSO nelze resetovat"
+        "translation": "Heslo k účtům SSO nelze obnovit."
     },
     {
         "id": "api.user.reset_password.method",
@@ -3205,39 +3205,39 @@
     },
     {
         "id": "api.user.reset_password.link_expired.app_error",
-        "translation": "Platnost odkazu pro obnovení hesla vypršela"
+        "translation": "Platnost odkazu pro obnovení hesla vypršela."
     },
     {
         "id": "api.user.reset_password.invalid_link.app_error",
-        "translation": "Odkaz na obnovení hesla není platný"
+        "translation": "Odkaz na obnovení hesla není platný."
     },
     {
         "id": "api.user.reset_password.broken_token.app_error",
-        "translation": "Token pro obnovení hesla není platný"
+        "translation": "Token pro obnovení hesla není platný."
     },
     {
         "id": "api.user.promote_guest_to_user.no_guest.app_error",
-        "translation": "Nelze zkonvertovat host do uživatele, protože uzivatel není v roli host"
+        "translation": "Hosta nelze převést na běžného uživatele, protože už není host."
     },
     {
         "id": "api.user.oauth_to_email.not_available.app_error",
-        "translation": "Autentizační přenos není na tomto serveru dostupný nebo nakonfigurovaný"
+        "translation": "Autentizační přenos není na tomto serveru dostupný nebo nakonfigurovaný."
     },
     {
         "id": "api.user.oauth_to_email.context.app_error",
-        "translation": "Aktualizace hesla se nezdařilo, protože obsah user_id neodpovídal poskytnutému ID uživatele"
+        "translation": "Změna hesla není možná, protože hodnota user_id se neshoduje se zadaným ID uživatele."
     },
     {
         "id": "api.user.login_ldap.not_available.app_error",
-        "translation": "AD/LDAP je na tomto serveru nedostupný"
+        "translation": "Funkce AD/LDAP je na tomto serveru nedostupná."
     },
     {
         "id": "api.user.login_by_oauth.parse.app_error",
-        "translation": "Nelze analyzovat auth data z uživatelského objektu {{.Service}}"
+        "translation": "Nelze zpracovat auth data z uživatelského objektu {{.Service}}."
     },
     {
         "id": "api.user.login_by_oauth.not_available.app_error",
-        "translation": "{{.Service}} SSO prostřednictvím OAuth 2.0 není na tomto serveru k dispozici"
+        "translation": "{{.Service}} SSO prostřednictvím OAuth 2.0 není na tomto serveru k dispozici."
     },
     {
         "id": "model.config.is_valid.ldap_id",
@@ -4005,11 +4005,11 @@
     },
     {
         "id": "api.user.login.use_auth_service.app_error",
-        "translation": "Přihlaste se prosím použitím {{.AuthService}}"
+        "translation": "Přihlaste se prosím pomocí {{.AuthService}}."
     },
     {
         "id": "api.user.login.not_verified.app_error",
-        "translation": "Přihlášení se nezdařilo, protože e-mailová adresa nebyla ověřena"
+        "translation": "Přihlášení se nezdařilo, protože e-mailová adresa dosud nebyla ověřena."
     },
     {
         "id": "api.user.login.invalid_credentials_username",
@@ -4025,7 +4025,7 @@
     },
     {
         "id": "api.user.login.invalid_credentials_email",
-        "translation": "Zadejte platný e-mail a nebo heslo."
+        "translation": "Zadejte platný e-mail nebo heslo"
     },
     {
         "id": "api.user.login.inactive.app_error",
@@ -4041,15 +4041,15 @@
     },
     {
         "id": "api.user.login.client_side_cert.license.app_error",
-        "translation": "Pokus o použití experimentální funkce ClientSideCertEnable bez platné licence"
+        "translation": "Pokus o použití experimentální funkce ClientSideCertEnable bez platné licence Enterprise."
     },
     {
         "id": "api.user.login.client_side_cert.certificate.app_error",
-        "translation": "Pokusili jste se přihlásit pomocí experimentální funkce ClientSideCert bez poskytnutí platného certifikátu"
+        "translation": "Pokusili jste se přihlásit pomocí experimentální funkce ClientSideCert bez poskytnutí platného certifikátu."
     },
     {
         "id": "api.user.login.bot_login_forbidden.app_error",
-        "translation": "Přihlášení robota je zakázáno"
+        "translation": "Přihlášení robota je zakázáno."
     },
     {
         "id": "api.user.login.blank_pwd.app_error",
@@ -4057,11 +4057,11 @@
     },
     {
         "id": "api.user.ldap_to_email.not_ldap_account.app_error",
-        "translation": "Tento uživatelský účet nepoužívá službu AD/LDAP"
+        "translation": "Tento uživatelský účet nepoužívá AD/LDAP."
     },
     {
         "id": "api.user.ldap_to_email.not_available.app_error",
-        "translation": "AD/LDAP je na tomto serveru nedostupný"
+        "translation": "Funkce AD/LDAP je na tomto serveru nedostupná."
     },
     {
         "id": "api.user.get_user_by_email.permissions.app_error",
@@ -4069,7 +4069,7 @@
     },
     {
         "id": "api.user.get_authorization_code.unsupported.app_error",
-        "translation": "Nepodporovaný poskytovatel služeb OAuth"
+        "translation": "Nepodporovaný poskytovatel služby OAuth."
     },
     {
         "id": "api.user.email_to_oauth.not_available.app_error",
@@ -4077,19 +4077,19 @@
     },
     {
         "id": "api.user.email_to_ldap.not_available.app_error",
-        "translation": "AD/LDAP je na tomto serveru nedostupný"
+        "translation": "Funkce AD/LDAP je na tomto serveru nedostupná."
     },
     {
         "id": "api.user.demote_user_to_guest.already_guest.app_error",
-        "translation": "Nelze konvertovat uživatele do role host, protože už v roli host je"
+        "translation": "Uživatele se nepodařilo změnit na hosta, protože už hostem je."
     },
     {
         "id": "api.user.create_user.signup_link_invalid.app_error",
-        "translation": "Tento registrační odkaz není platný"
+        "translation": "Tento registrační odkaz není platný."
     },
     {
         "id": "api.user.create_user.signup_link_expired.app_error",
-        "translation": "Platnost odkazu na registraci vypršela"
+        "translation": "Platnost registračního odkazu vypršela."
     },
     {
         "id": "api.user.create_user.signup_email_disabled.app_error",
@@ -4105,7 +4105,7 @@
     },
     {
         "id": "api.user.create_user.guest_accounts.license.app_error",
-        "translation": "vaše licence nepodporuje účty typu Host"
+        "translation": "Vaše licence nepodporuje účty typu host."
     },
     {
         "id": "api.user.create_user.guest_accounts.disabled.app_error",
@@ -4121,15 +4121,15 @@
     },
     {
         "id": "api.user.create_profile_image.initial.app_error",
-        "translation": "Nelze přidat počáteční nastavení uživatele k výchozímu profilovému obrázku"
+        "translation": "Do výchozího profilového obrázku se nepodařilo přidat iniciály uživatele."
     },
     {
         "id": "api.user.create_profile_image.encode.app_error",
-        "translation": "Nelze dekódovat profilový obrázek"
+        "translation": "Nepodařilo se dekódovat profilový obrázek."
     },
     {
         "id": "api.user.create_profile_image.default_font.app_error",
-        "translation": "Nelze vytvořit výchozí font obrázku profilu"
+        "translation": "Nelze vytvořit výchozí font obrázku profilu."
     },
     {
         "id": "api.user.create_password_token.error",
@@ -4137,11 +4137,11 @@
     },
     {
         "id": "api.user.create_oauth_user.not_available.app_error",
-        "translation": "{{.Service}} SSO prostřednictvím OAuth 2.0 není na tomto serveru k dispozici"
+        "translation": "{{.Service}} SSO prostřednictvím OAuth 2.0 není na tomto serveru k dispozici."
     },
     {
         "id": "api.user.create_oauth_user.create.app_error",
-        "translation": "Nelze vytvořit uživatele z {{.Service}} dle objektu uživatele"
+        "translation": "Nelze vytvořit uživatele dle objektu uživatele {{.Service}}."
     },
     {
         "id": "api.user.create_oauth_user.already_attached.app_error",
@@ -4149,23 +4149,23 @@
     },
     {
         "id": "api.user.create_email_token.error",
-        "translation": "Nepodařilo se vytvořit token pro emailovú verifikaci."
+        "translation": "Nepodařilo se vytvořit token pro ověření e-mailu"
     },
     {
         "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-        "translation": "{{.Service}} SSO prostřednictvím OAuth 2.0 není na tomto serveru k dispozici"
+        "translation": "{{.Service}} SSO prostřednictvím OAuth 2.0 není na tomto serveru k dispozici."
     },
     {
         "id": "api.user.complete_switch_with_oauth.parse.app_error",
-        "translation": "Nelze analyzovat auth data z uživatelského objektu {{.Service}}"
+        "translation": "Nelze zpracovat auth data z uživatelského objektu {{.Service}}."
     },
     {
         "id": "api.user.complete_switch_with_oauth.blank_email.app_error",
-        "translation": "Prázdný email"
+        "translation": "Prázdný email."
     },
     {
         "id": "api.user.check_user_password.invalid.app_error",
-        "translation": "Přihlášení se nezdařilo z důvodu neplatného hesla"
+        "translation": "Přihlášení se nezdařilo z důvodu neplatného hesla."
     },
     {
         "id": "api.user.check_user_mfa.bad_code.app_error",
@@ -4177,19 +4177,19 @@
     },
     {
         "id": "api.user.authorize_oauth_user.unsupported.app_error",
-        "translation": "Nepodporovaný poskytovatel služeb OAuth"
+        "translation": "Nepodporovaný poskytovatel služby OAuth."
     },
     {
         "id": "api.user.authorize_oauth_user.token_failed.app_error",
-        "translation": "Požadavek tokenu selhal"
+        "translation": "Požadavek tokenu selhal."
     },
     {
         "id": "api.user.authorize_oauth_user.service.app_error",
-        "translation": "Požadavek tokenu na službu {{.Service}} se nezdařil"
+        "translation": "Požadavek tokenu na službu {{.Service}} se nezdařil."
     },
     {
         "id": "api.user.authorize_oauth_user.response.app_error",
-        "translation": "Přijatá neplatná odpověď od poskytovatele služeb OAuth"
+        "translation": "Od poskytovatele služby OAuth přišla neplatná odpověď."
     },
     {
         "id": "api.user.authorize_oauth_user.missing.app_error",
@@ -4313,7 +4313,7 @@
     },
     {
         "id": "api.templates.reset_body.info1",
-        "translation": "Pro změnu vašeho hesla klikněte na \"Obnovit Heslo\""
+        "translation": "Chcete-li změnit své heslo, klikněte níže na Obnovit heslo."
     },
     {
         "id": "api.templates.reset_body.button",
@@ -4417,7 +4417,7 @@
     },
     {
         "id": "api.team.invite_guests.channel_in_invalid_team.app_error",
-        "translation": "Pozvánka Kanálu musí být součástí pozvánky Týmu"
+        "translation": "Kanály v pozvánce musí patřit k týmu v pozvánce."
     },
     {
         "id": "api.team.invate_guests_to_channels.license.error",
@@ -4425,7 +4425,7 @@
     },
     {
         "id": "api.team.invate_guests_to_channels.disabled.error",
-        "translation": "Účet typu Host je vypnut."
+        "translation": "Účty typu host jsou vypnuté"
     },
     {
         "id": "api.team.invalidate_all_email_invites.app_error",
@@ -4465,7 +4465,7 @@
     },
     {
         "id": "api.team.get_team_icon.filesettings_no_driver.app_error",
-        "translation": "Neplatný název ovladače pro nastavení souboru.  Musí být 'local' nebo 'amazons3'"
+        "translation": "Neplatný název ovladače pro nastavení souboru.  Musí být 'local' nebo 'amazons3'."
     },
     {
         "id": "api.team.get_invite_info.not_open_team",
@@ -4473,7 +4473,7 @@
     },
     {
         "id": "api.team.get_all_teams.insufficient_permissions",
-        "translation": "Nemáte dostatečná práva pro změnu záhlaví kanálu."
+        "translation": "K zobrazení výčtu všech týmů nemáte oprávnění"
     },
     {
         "id": "api.team.demote_user_to_guest.license.error",
@@ -4641,7 +4641,7 @@
     },
     {
         "id": "api.restricted_system_admin",
-        "translation": "Tato operace není k dispozici pro systémového zprávce s omezenými právami. "
+        "translation": "Tato operace není k dispozici pro systémového správce s omezenými právy."
     },
     {
         "id": "api.reaction.town_square_read_only",
@@ -4669,7 +4669,7 @@
     },
     {
         "id": "api.push_notifications_ack.forward.app_error",
-        "translation": "Při odesílání doručenky do služby push došlo k chybě"
+        "translation": "Při odesílání push notifikace s doručenkou došlo k chybě."
     },
     {
         "id": "api.push_notifications.message.parse.app_error",
@@ -4729,15 +4729,15 @@
     },
     {
         "id": "api.post.send_notifications_and_forget.push_image_only",
-        "translation": "přiložil soubor."
+        "translation": " přiložil/a soubor."
     },
     {
         "id": "api.post.send_notifications_and_forget.push_general_message",
-        "translation": "odeslal zprávu."
+        "translation": " napsal/a zprávu."
     },
     {
         "id": "api.post.send_notifications_and_forget.push_explicit_mention",
-        "translation": "vás zmínil."
+        "translation": " vás zmínil/a."
     },
     {
         "id": "api.post.send_notification_and_forget.push_comment_on_thread",
@@ -4745,11 +4745,11 @@
     },
     {
         "id": "api.post.send_notification_and_forget.push_comment_on_post",
-        "translation": "okomentoval váš příspěvek."
+        "translation": " okomentoval/a váš příspěvek."
     },
     {
         "id": "api.post.send_notification_and_forget.push_channel_mention",
-        "translation": "upozornil kanál."
+        "translation": " upozornil/a kanál."
     },
     {
         "id": "api.post.save_is_pinned_post.town_square_read_only",
@@ -5153,19 +5153,19 @@
     },
     {
         "id": "api.oauth.get_access_token.credentials.app_error",
-        "translation": "invalid_client: Neplatné uživatelské jméno nebo heslo"
+        "translation": "invalid_client: Neplatné uživatelské údaje."
     },
     {
         "id": "api.oauth.get_access_token.bad_grant.app_error",
-        "translation": "Invalid_request: Špatný grant_type"
+        "translation": "invalid_request: Špatný grant_type."
     },
     {
         "id": "api.oauth.get_access_token.bad_client_secret.app_error",
-        "translation": "invalid_request: Chybějící client_secret"
+        "translation": "invalid_request: Chybí client_secret."
     },
     {
         "id": "api.oauth.get_access_token.bad_client_id.app_error",
-        "translation": "invalid_request: Špatné client_id"
+        "translation": "invalid_request: Špatné client_id."
     },
     {
         "id": "api.oauth.authorize_oauth.disabled.app_error",
@@ -5177,7 +5177,7 @@
     },
     {
         "id": "api.oauth.allow_oauth.redirect_callback.app_error",
-        "translation": "invalid_request: poskytnuté redirect_uri neodpovídá registrované callback_url"
+        "translation": "invalid_request: Zadané redirect_uri neodpovídá registrované callback_url."
     },
     {
         "id": "api.marshal_error",
@@ -5185,11 +5185,11 @@
     },
     {
         "id": "api.license.remove_expired_license.failed.error",
-        "translation": "Nelze odeslat email o deaktivaci účtu"
+        "translation": "E-mail o deaktivaci licence se nepodařilo odeslat."
     },
     {
         "id": "api.license.client.old_format.app_error",
-        "translation": "Nový  formát pro klientské konfigurace ještě není podporován Prosím doplňte format=old do dotazu."
+        "translation": "Nový formát klientské licence ještě není podporován. Doplňte do dotazu: format=old."
     },
     {
         "id": "api.license.add_license.unique_users.app_error",
@@ -5217,7 +5217,7 @@
     },
     {
         "id": "api.license.add_license.invalid.app_error",
-        "translation": "Neplatný licenční  soubor."
+        "translation": "Neplatný licenční soubor."
     },
     {
         "id": "api.license.add_license.expired.app_error",
@@ -5245,7 +5245,7 @@
     },
     {
         "id": "api.incoming_webhook.invalid_username.app_error",
-        "translation": "Neplatné uživatelské jméno"
+        "translation": "Neplatné uživatelské jméno."
     },
     {
         "id": "api.incoming_webhook.disabled.app_error",
@@ -5273,7 +5273,7 @@
     },
     {
         "id": "api.file.upload_file.rejected_by_plugin.app_error",
-        "translation": "Nelze nahrát soubor {{.Filename}}. Zamítnuto pluginem:  {{.Reason}}"
+        "translation": "Nelze nahrát soubor {{.Filename}}. Zamítnuto pluginem: {{.Reason}}"
     },
     {
         "id": "api.file.upload_file.read_request.app_error",
@@ -5446,9 +5446,9 @@
     {
         "id": "api.email_batching.send_batched_email_notification.subject",
         "translation": {
-            "one": "[{{.SiteName}}] Nové upozornění pro {{.Month}} {{.Day}}, {{.Year}}[{{.SiteName}}] Nové upozornění pro {{.Month}} {{.Day}}, {{.Year}}",
-            "few": "[{{.SiteName}}] Nové upozornění pro {{.Month}} {{.Day}}, {{.Year}}[{{.SiteName}}] Nové upozornění pro {{.Month}} {{.Day}}, {{.Year}}",
-            "other": "[{{.SiteName}}] Nové upozornění pro {{.Month}} {{.Day}}, {{.Year}}[{{.SiteName}}] Nové upozornění pro {{.Month}} {{.Day}}, {{.Year}}"
+            "one": "[{{.SiteName}}] Nové upozornění k datu {{.Day}}. {{.Month}} {{.Year}}",
+            "few": "[{{.SiteName}}] Nová upozornění k datu {{.Day}}. {{.Month}} {{.Year}}",
+            "other": "[{{.SiteName}}] Nová upozornění k datu {{.Day}}. {{.Month}} {{.Year}}"
         }
     },
     {
@@ -5465,7 +5465,7 @@
     },
     {
         "id": "api.email_batching.render_batched_post.group_message",
-        "translation": "Skupinová zpráva od"
+        "translation": "Skupinová zpráva od "
     },
     {
         "id": "api.email_batching.render_batched_post.go_to_post",
@@ -5473,7 +5473,7 @@
     },
     {
         "id": "api.email_batching.render_batched_post.direct_message",
-        "translation": "Přímá zpráva od"
+        "translation": "Přímá zpráva od "
     },
     {
         "id": "api.email_batching.render_batched_post.date",
@@ -5541,7 +5541,7 @@
     },
     {
         "id": "api.config.client.old_format.app_error",
-        "translation": "Nový  formát for klientské konfigurace ještě není podporován Prosím doplňte format=old do dotazu."
+        "translation": "Nový formát klientské konfigurace ještě není podporován. Doplňte do dotazu: format=old."
     },
     {
         "id": "api.command_shrug.name",
@@ -5613,7 +5613,7 @@
     },
     {
         "id": "api.command_remove.message.app_error",
-        "translation": "Příkaz /remove nebo /kick vyžaduje zadanou zprávu. "
+        "translation": "Příkaz /remove nebo /kick vyžaduje zadanou zprávu."
     },
     {
         "id": "api.command_remove.hint",
@@ -5629,7 +5629,7 @@
     },
     {
         "id": "api.command_remove.desc",
-        "translation": "Odstranit uživatele z kanálu."
+        "translation": "Odstraňte uživatele z kanálu"
     },
     {
         "id": "api.command_open.name",
@@ -5805,7 +5805,7 @@
     },
     {
         "id": "api.command_invite.private_channel.app_error",
-        "translation": "Nelze najít kanál {{.Channel}}. Použijte seznam kanálů k identifikaci kanálu. "
+        "translation": "Nelze najít kanál {{.Channel}}. K identifikaci použijte název kanálu."
     },
     {
         "id": "api.command_invite.permission.app_error",
@@ -5841,7 +5841,7 @@
     },
     {
         "id": "api.command_invite.desc",
-        "translation": "Pozvat uživatele do kanálů."
+        "translation": "Pozvěte uživatele do kanálu"
     },
     {
         "id": "api.command_invite.channel.error",
@@ -5913,7 +5913,7 @@
     },
     {
         "id": "api.command_expand.desc",
-        "translation": "Vypnout automatické sbalování náhledu obrázků."
+        "translation": "Vypnout automatické sbalování náhledu obrázků"
     },
     {
         "id": "api.command_echo.name",
@@ -5921,7 +5921,7 @@
     },
     {
         "id": "api.command_echo.message.app_error",
-        "translation": "Příkaz /echo vyžaduje zadanou zprávu. "
+        "translation": "Příkaz /echo vyžaduje zadanou zprávu."
     },
     {
         "id": "api.command_echo.hint",
@@ -5965,7 +5965,7 @@
     },
     {
         "id": "api.templates.email_organization",
-        "translation": "Zasláno od"
+        "translation": "Odeslal/a "
     },
     {
         "id": "api.templates.email_info3",
@@ -5977,7 +5977,7 @@
     },
     {
         "id": "api.templates.email_info1",
-        "translation": "Všechny dotazy nám směřujte na emailovou adresu:"
+        "translation": "Jakékoli dotazy nám posílejte e-mailem: "
     },
     {
         "id": "api.templates.email_footer",
@@ -6033,7 +6033,7 @@
     },
     {
         "id": "api.team.update_team_scheme.license.error",
-        "translation": "Vaše licence nepodporuje aktualizaci týmového schéma."
+        "translation": "Vaše licence nepodporuje aktualizaci týmového schématu"
     },
     {
         "id": "api.team.update_team_member_roles.guest_and_user.app_error",
@@ -6129,7 +6129,7 @@
     },
     {
         "id": "api.command_collapse.desc",
-        "translation": "Vypnout automatické sbalování náhledu obrázků."
+        "translation": "Zapnout automatické sbalování náhledu obrázků"
     },
     {
         "id": "api.command_code.name",
@@ -6137,7 +6137,7 @@
     },
     {
         "id": "api.command_code.message.app_error",
-        "translation": "Příkaz /code vyžaduje zadanou zprávu. "
+        "translation": "Příkaz /code vyžaduje zadanou zprávu."
     },
     {
         "id": "api.command_code.hint",
@@ -6169,7 +6169,7 @@
     },
     {
         "id": "api.command_channel_rename.message.app_error",
-        "translation": "Příkaz /rename vyžaduje zadanou zprávu. "
+        "translation": "Příkaz /rename vyžaduje zadanou zprávu."
     },
     {
         "id": "api.command_channel_rename.hint",
@@ -6205,7 +6205,7 @@
     },
     {
         "id": "api.command_channel_purpose.message.app_error",
-        "translation": "Příkaz /purpose vyžaduje zadanou zprávu. "
+        "translation": "Příkaz /purpose vyžaduje zadanou zprávu."
     },
     {
         "id": "api.command_channel_purpose.hint",
@@ -6217,7 +6217,7 @@
     },
     {
         "id": "api.command_channel_purpose.desc",
-        "translation": "Změnte popis kanálu."
+        "translation": "Změňte popis kanálu"
     },
     {
         "id": "api.command_channel_purpose.channel.app_error",
@@ -6233,7 +6233,7 @@
     },
     {
         "id": "api.command_channel_header.name",
-        "translation": "hlavička:"
+        "translation": "hlavička"
     },
     {
         "id": "api.command_channel_header.message.app_error",
@@ -6305,7 +6305,7 @@
     },
     {
         "id": "api.command.execute_command.start.app_error",
-        "translation": "Trigger příkazu nebyl nalezen"
+        "translation": "Trigger příkazu nebyl nalezen."
     },
     {
         "id": "api.command.execute_command.not_found.app_error",
@@ -6449,7 +6449,7 @@
     },
     {
         "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
-        "translation": "Nepodařilo se odeslat aktualizaci záhlaví zprávy kanálu "
+        "translation": "Nepodařilo se odeslat zprávu o aktualizaci záhlaví kanálu"
     },
     {
         "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
@@ -6473,7 +6473,7 @@
     },
     {
         "id": "api.channel.patch_channel_moderations.license.error",
-        "translation": "Vaše licence nepodporuje moderaci kanálů."
+        "translation": "Vaše licence nepodporuje moderování kanálů"
     },
     {
         "id": "api.channel.leave.left",
@@ -6601,7 +6601,7 @@
     },
     {
         "id": "api.bot.teams_channels.add_message_mobile",
-        "translation": "Prosím přidejte mne do teamu a kanálů ve kterých chcete abych pracoval. Pro tuto akci využijte prohlížeč nebo aplikaci Mattermost Desktop "
+        "translation": "Přidejte mě prosím do týmů a kanálů, ve kterých chcete abych pracoval. Pro tuto akci využijte prohlížeč nebo aplikaci Mattermost Desktop."
     },
     {
         "id": "api.bot.set_bot_icon_image.too_large.app_error",
@@ -6633,7 +6633,7 @@
     },
     {
         "id": "api.bot.delete_bot_icon_image.app_error",
-        "translation": "Nelze smazat profilový obrázek"
+        "translation": "Ikonu se nepodařilo odstranit."
     },
     {
         "id": "api.bot.create_disabled",
@@ -6653,7 +6653,7 @@
     },
     {
         "id": "api.admin.upload_brand_image.no_file.app_error",
-        "translation": "Žádný soubor pod 'image' v žádosti"
+        "translation": "Žádný soubor pod 'image' v žádosti."
     },
     {
         "id": "api.admin.upload_brand_image.array.app_error",
@@ -6806,5 +6806,173 @@
     {
         "id": "April",
         "translation": "Duben"
+    },
+    {
+        "id": "app.bot.permanent_delete.internal_error",
+        "translation": "Bota se nepodařilo trvale odstranit."
+    },
+    {
+        "id": "app.audit.get.limit.app_error",
+        "translation": "Byl překročen limit pro stránkování."
+    },
+    {
+        "id": "api.user.delete_user.not_enabled.app_error",
+        "translation": "Funkce trvalého odstranění uživatele není povolena. Obraťte se na svého systémového administrátora."
+    },
+    {
+        "id": "api.user.delete_team.not_enabled.app_error",
+        "translation": "Funkce trvalého odstranění týmu není povolena. Obraťte se na svého systémového administrátora."
+    },
+    {
+        "id": "api.templates.warn_metric_ack.footer",
+        "translation": "S případnými dotazy se obraťte na support@mattermost.com"
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.site_url_header",
+        "translation": "URL stránky: "
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.registered_users_header",
+        "translation": "Celkem aktivních uživatelů: "
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.contact_name_header",
+        "translation": "Kontakt: "
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.contact_email_header",
+        "translation": "E-mail: "
+    },
+    {
+        "id": "api.templates.remove_expired_license.subject",
+        "translation": "Licence Mattermost Enterprise byla zastavena."
+    },
+    {
+        "id": "api.templates.remove_expired_license.body.title",
+        "translation": "Platnost licence Enterprise vypršela a některé funkce mohou být vypnuty. Obnovte licenci."
+    },
+    {
+        "id": "api.templates.remove_expired_license.body.renew_button",
+        "translation": "Obnovit licenci"
+    },
+    {
+        "id": "api.team.join_user_to_team.allowed_domains.app_error",
+        "translation": "Uživatele nelze přidat, protože doména přiřazená tomuto účtu není povolena. Další podrobnosti žádejte od svého systémového administrátora."
+    },
+    {
+        "id": "api.team.is_team_creation_allowed.domain.app_error",
+        "translation": "Uživatele nelze přidat, protože doména přiřazená tomuto účtu není povolena. Další podrobnosti žádejte od svého systémového administrátora."
+    },
+    {
+        "id": "api.team.import_team.unknown_import_from.app_error",
+        "translation": "Neznámý zdroj importu."
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
+        "translation": "Získejte vylepšenou edici Mattermost Enterprise"
+    },
+    {
+        "id": "api.server.warn_metric.email_us",
+        "translation": "Napište nám e-mail"
+    },
+    {
+        "id": "api.server.warn_metric.contacting_us",
+        "translation": "Kontaktujte nás"
+    },
+    {
+        "id": "api.server.warn_metric.contact_us",
+        "translation": "Kontaktujte nás"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.notification_success.message",
+        "translation": "Děkujeme, že jste se obrátili na Mattermost. Brzy se vám ozveme."
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.notification_failure.message",
+        "translation": "Zprávu se nepodařilo odeslat."
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.notification_failure.body",
+        "translation": "Napište nám e-mail."
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_site_url_header",
+        "translation": "URL stránky: {{.SiteUrl}}"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_registered_users_header",
+        "translation": "Celkem aktivních uživatelů: {{.NoRegisteredUsers}}"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_footer",
+        "translation": "S případnými dotazy se obraťte na support@mattermost.com"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_email_header",
+        "translation": "E-mail: {{.Email}}"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_contact_header",
+        "translation": "Kontakt: {{.Contact}}"
+    },
+    {
+        "id": "api.post.check_for_out_of_channel_group_users.message.none",
+        "translation": "@{{.GroupName}} nemá členy z tohoto týmu"
+    },
+    {
+        "id": "api.license.request_trial_license.no-site-url.app_error",
+        "translation": "Nelze požádat o zkušební licenci. Nakonfigurujte URL stránky v nastavení webového serveru v systémové konzoli Mattermostu."
+    },
+    {
+        "id": "api.license.request_trial_license.app_error",
+        "translation": "Zkušební licenci nelze získat, zkuste to znovu nebo se obraťte na support@mattermost.com."
+    },
+    {
+        "id": "api.license.request-trial.bad-request.terms-not-accepted",
+        "translation": "Chcete-li požádat o licenci, musíte odsouhlasit Dohodu o vyhodnocování softwaru Mattermost a Zásady ochrany osobních údajů."
+    },
+    {
+        "id": "api.license.request-trial.bad-request",
+        "translation": "Požadovaný počet uživatelů je nesprávný."
+    },
+    {
+        "id": "api.ldap_groups.existing_user_name_error",
+        "translation": "tento název skupiny už existuje jako uživatelské jméno"
+    },
+    {
+        "id": "api.ldap_groups.existing_reserved_name_error",
+        "translation": "tento název skupiny je rezervován"
+    },
+    {
+        "id": "api.invalid_channel",
+        "translation": "Kanál uvedený v požadavku nenáleží tomuto uživateli"
+    },
+    {
+        "id": "api.image.get.app_error",
+        "translation": "Požadovanou adresu URL obrázku nelze zpracovat."
+    },
+    {
+        "id": "api.file.upload_file.incorrect_channelId.app_error",
+        "translation": "Soubor nelze nahrát. Nesprávné ID kanálu: {{.channelId}}"
+    },
+    {
+        "id": "api.emoji.create.internal_error",
+        "translation": "server_error: Při vytváření smajlíku došlo k interní chybě serveru."
+    },
+    {
+        "id": "api.email.send_warn_metric_ack.missing_server.app_error",
+        "translation": "Je vyžadován SMTP server"
+    },
+    {
+        "id": "api.config.update_config.clear_siteurl.app_error",
+        "translation": "URL stránky nelze smazat."
+    },
+    {
+        "id": "api.command.execute_command.format.app_error",
+        "translation": "Před klíčovým slovem příkazu chybí lomítko"
+    },
+    {
+        "id": "api.channel.move_channel.type.invalid",
+        "translation": "Kanály přímých či skupinových zpráv nelze přesunout"
     }
 ]
