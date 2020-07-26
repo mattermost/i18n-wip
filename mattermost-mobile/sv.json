@@ -235,5 +235,9 @@
   "about.hash": "Bygg Hash:",
   "about.enterpriseEditionSt": "Modern kommunikation bakom din brandvägg.",
   "about.enterpriseEditionLearn": "Läs mer om Enterprise Edition på ",
-  "about.date": "Byggdatum:"
+  "about.date": "Byggdatum:",
+  "api.channel.add_member.added": "{addedUsername} tillagd i kanalen av {username}.",
+  "about.teamEditiont1": "Enterprise Edition",
+  "about.enterpriseEditione1": "Enterprise Edition",
+  "announcment_banner.dont_show_again": "Visa inte igen"
 }
