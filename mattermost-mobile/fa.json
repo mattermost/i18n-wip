@@ -1,1 +1,21 @@
-{}
+{
+  "channel_header.pinnedPosts": "پیام‌های سنجاق شده",
+  "channel_header.manageMembers": "مدیریت اعضا",
+  "channel_header.directchannel.you": "{displayname} (شما) ",
+  "channel_header.addMembers": "اضافه کردن عضو",
+  "center_panel.archived.closeChannel": "کانال را ببند",
+  "archivedChannelMessage": "درحال مشاهده **کانال آرشیو شده** هستید. امکان ارسال پیام جدید وجود ندارد.",
+  "api.channel.add_member.added": "{addedUsername} توسط {username} به کانال اضافه شد.",
+  "announcment_banner.dont_show_again": "دیگر نشان داده نشود",
+  "about.title": "درباره {appTitle}",
+  "about.teamEditiont1": "نسخه تجاری",
+  "about.teamEditiont0": "نسخه تیمی",
+  "about.enterpriseEditionSt": "ارتباطات مدرن از پشت دیوار آتش شما.",
+  "about.enterpriseEditionLearn": "در اینجا در مورد نسخه تجاری بیشتر بدانید ",
+  "about.teamEditionSt": "تمام ارتباطات تیم شما از یکجا، قابل جستجوی سریع و قابل دسترس از همه جا.",
+  "about.teamEditionLearn": "از اینجا عضو جامعه مترمست شوید ",
+  "about.hashee": "هش ساخت نسخه تجاری:",
+  "about.hash": "هش ساخت:",
+  "about.enterpriseEditione1": "نسخه تجاری",
+  "about.date": "تاریخ ساخت:"
+}
