@@ -66,6 +66,8 @@ jobs:
           component: "mattermost-server-wip"
       - notify-weblate:
           component: "mattermost-mobile-wip"
+      - notify-weblate:
+          component: "mattermost-webapp-wip"
 
 workflows:
   version: 2
