@@ -6974,5 +6974,13 @@
     {
         "id": "api.channel.move_channel.type.invalid",
         "translation": "Kanály přímých či skupinových zpráv nelze přesunout"
+    },
+    {
+        "id": "model.group.name.invalid_length.app_error",
+        "translation": "Název musí obsahovat 1 až 64 malých alfanumerických znaků"
+    },
+    {
+        "id": "web.error.unsupported_browser.system_browser_or",
+        "translation": "nebo"
     }
 ]
