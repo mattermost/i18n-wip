@@ -46,7 +46,8 @@ commands:
     steps:
       - run:
           command: |
-            for languagecode in $(curl --fail --show-error --request GET --url https://translate.mattermost.com/api/projects/i18n-wip/languages/ --header 'content-type: application/json' | jq -r '.[] | .code' | tr '\n' ' ')
+            languagecodes=$(curl --fail --show-error --request GET --url https://translate.mattermost.com/api/projects/i18n-wip/languages/ --header 'content-type: application/json' | jq -r '.[] | .code' | tr '\n' ' ')
+            for languagecode in $languagecodes
             do
               for component in "mattermost-mobile-wip" "mattermost-server-wip" "mattermost-webapp-wip"
               do
