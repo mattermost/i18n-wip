@@ -92,5 +92,14 @@
     "about.hash": "بناء تشفير هاش:",
     "about.enterpriseEditionSt": "الاتصالات الحديثة من وراء جدار الحماية الخاص بك.",
     "about.enterpriseEditionLearn": "المزيد عن Enterprise Edition في ",
-    "about.date": "تاريخ البناء:"
+    "about.date": "تاريخ البناء:",
+    "user.settings.general.imageTooLarge": "لا يمكن رفع الملف. حجم الملف كبير جداً.",
+    "sidebar_left.sidebar_channel_menu.leaveChannel": "أنشئ قناة جديدة",
+    "sidebar_left.sidebar_channel_menu.addMembers": "إضافة أعضاء جدد",
+    "members_popover.button.message": "رسالة",
+    "generic_icons.userGuide": "مساعدة",
+    "general_tab.teamIconTooLarge": "لا يمكن رفع الملف. حجم الملف كبير جداً.",
+    "channel_header.userHelpGuide": "مساعدة",
+    "admin.jobTable.downloadLink": "تحميل",
+    "admin.channel_settings.channel_details.isDefaultDescr": "لا يمكن تحويل هذه القناة الإفتراضية إلى قناة خاصة"
 }
