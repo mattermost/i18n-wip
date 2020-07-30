@@ -17,7 +17,7 @@ commands:
             mkdir -p << parameters.project >>
             cd << parameters.project >>
             [ -e en.json ] && rm en.json
-            git config user.email "language.basefile.puller@mattermost-server"
+            git config user.email "language.basefile.puller@mattermost"
             git config user.name "Language Basefile Puller"
             git pull origin ${CIRCLE_BRANCH}
             curl -OL https://raw.githubusercontent.com/mattermost/<< parameters.project >>/master/<< parameters.basefilepath >>
@@ -46,7 +46,7 @@ commands:
     steps:
       - run:
           command: |
-            for languagecode in $(curl --fail --show-error --request GET --url https://translate.mattermost.com/api/projects/i18n-wip/languages/ --header 'content-type: application/json' | jq -r '.[] | .code')
+            for languagecode in $(curl --fail --show-error --request GET --url https://translate.mattermost.com/api/projects/i18n-wip/languages/ --header 'content-type: application/json' | jq -r '.[] | .code' | tr '\n' ' ')
             do
               for component in "mattermost-mobile-wip" "mattermost-server-wip" "mattermost-webapp-wip"
               do
@@ -67,7 +67,7 @@ commands:
             done
 
 jobs:
-  commit:
+  updatecommit:
     docker:
       - image: circleci/buildpack-deps:stable-curl
     working_directory: ~/project
@@ -85,6 +85,24 @@ jobs:
       - curlcommitpush:
           project: "mattermost-mobile"
           basefilepath: "assets/base/i18n/en.json"
+  emptycommit:
+    description: "Empty commit to not run into ci skip"
+    docker:
+      - image: circleci/buildpack-deps:stable-curl
+    working_directory: ~/project
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "77:7b:d5:ce:1f:fb:f9:13:8b:5d:90:83:32:ae:13:f9"
+      - checkout
+      - run:
+          command: |
+            git config user.email "autotranslate.scheduler@mattermost"
+            git config user.name "Autotranslate Scheduler"
+            git pull origin ${CIRCLE_BRANCH}
+            git status
+            git commit -m "Empty commit. " --allow-empty
+            git push origin ${CIRCLE_BRANCH}
   notify:
     docker:
       - image: circleci/buildpack-deps:stable-curl
@@ -114,18 +132,21 @@ workflows:
               only:
                 - master
     jobs:
+      - emptycommit
       - autotranslate:
           context: weblate
+          requires:
+            - emptycommit
   untagged-build:
     jobs:
       - autotranslate:
           context: weblate
-      - commit:
+      - updatecommit:
           context: build-engineers-monitoring
       - notify:
           context: weblate
           requires:
-            - commit
+            - updatecommit
   scheduled-pull:
     triggers:
       - schedule:
@@ -135,9 +156,9 @@ workflows:
               only:
                 - master
     jobs:
-      - commit:
+      - updatecommit:
           context: build-engineers-monitoring
       - notify:
           context: weblate
           requires:
-            - commit
+            - updatecommit
