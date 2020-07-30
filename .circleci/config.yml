@@ -46,7 +46,7 @@ commands:
     steps:
       - run:
           command: |
-            for languagecode in $(curl --request GET --url https://translate.mattermost.com/api/projects/i18n-wip/languages/ --header 'content-type: application/json' | jq -r '.[] | .code')
+            for languagecode in $(curl --fail --show-error --request GET --url https://translate.mattermost.com/api/projects/i18n-wip/languages/ --header 'content-type: application/json' | jq -r '.[] | .code')
             do
               for component in "mattermost-mobile-wip" "mattermost-server-wip" "mattermost-webapp-wip"
               do
@@ -105,8 +105,21 @@ jobs:
 
 workflows:
   version: 2
+  scheduled-autotranslate:
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - autotranslate:
+          context: weblate
   untagged-build:
     jobs:
+      - autotranslate:
+          context: weblate
       - commit:
           context: build-engineers-monitoring
       - notify:
@@ -128,22 +141,3 @@ workflows:
           context: weblate
           requires:
             - commit
-  scheduled-autotranslate:
-    triggers:
-      - schedule:
-          cron: "0 2,14 * * *"
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - autotranslate:
-          context: weblate
-  autotranslate:
-    jobs:
-      - approve:
-          type: approval
-      - autotranslate:
-          context: weblate
-          requires:
-            - approve
