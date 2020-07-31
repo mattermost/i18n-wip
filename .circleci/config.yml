@@ -112,7 +112,7 @@ workflows:
   scheduled-autotranslate:
     triggers:
       - schedule:
-          cron: "0 * * * *"
+          cron: "0 2,14 * * *"
           filters:
             branches:
               only:
