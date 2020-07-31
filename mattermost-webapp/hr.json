@@ -12,5 +12,7 @@
     "bot.create_token.close": "Zatvori",
     "admin.team_channel_settings.usersToBeRemovedModal.close": "Zatvori",
     "admin.team_channel_settings.groupMembers.close": "Zatvori",
-    "about.date": "Datum izgradnje:"
+    "about.date": "Datum izgradnje:",
+    "about.database": "Baza podataka:",
+    "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Sva prava pridržana"
 }
