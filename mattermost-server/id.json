@@ -3990,5 +3990,9 @@
     {
         "id": "April",
         "translation": "April"
+    },
+    {
+        "id": "model.group.name.invalid_length.app_error",
+        "translation": "Nama harus berupa 1 hingga 64 huruf kecil karakter alfanumerik "
     }
 ]
