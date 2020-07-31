@@ -65,6 +65,7 @@ commands:
                     "threshold": "80"
                 }'
               done
+            sleep 5
             done
 
 jobs:
