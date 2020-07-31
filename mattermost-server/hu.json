@@ -3003,5 +3003,9 @@
     {
         "id": "April",
         "translation": "Április"
+    },
+    {
+        "id": "web.error.unsupported_browser.system_browser_or",
+        "translation": "vagy"
     }
 ]
