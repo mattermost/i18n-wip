@@ -6427,5 +6427,9 @@
     {
         "id": "April",
         "translation": "april"
+    },
+    {
+        "id": "model.group.name.invalid_length.app_error",
+        "translation": "Ime mora vsebovati od 1 do 64 malih alfanumeričnih znakov"
     }
 ]
