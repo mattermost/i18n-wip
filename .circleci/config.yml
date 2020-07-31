@@ -89,24 +89,6 @@ jobs:
       - curlcommitpush:
           project: "mattermost-mobile"
           basefilepath: "assets/base/i18n/en.json"
-  emptycommit:
-    description: "Empty commit to not run into ci skip"
-    docker:
-      - image: circleci/buildpack-deps:stable-curl
-    working_directory: ~/project
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "77:7b:d5:ce:1f:fb:f9:13:8b:5d:90:83:32:ae:13:f9"
-      - checkout
-      - run:
-          command: |
-            git config user.email "autotranslate.scheduler@mattermost"
-            git config user.name "Autotranslate Scheduler"
-            git pull origin ${CIRCLE_BRANCH}
-            git status
-            git commit -m "Empty commit. " --allow-empty
-            git push origin ${CIRCLE_BRANCH}
   notify:
     docker:
       - image: circleci/buildpack-deps:stable-curl
@@ -136,11 +118,8 @@ workflows:
               only:
                 - master
     jobs:
-      - emptycommit
       - autotranslate:
           context: weblate
-          requires:
-            - emptycommit
   untagged-build:
     jobs:
       - autotranslate:
