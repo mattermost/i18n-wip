@@ -419,5 +419,6 @@
   "about.hash": "Kód sestavení:",
   "about.enterpriseEditionSt": "Moderní komunikace zpoza vašeho firewallu.",
   "about.enterpriseEditionLearn": "Více o Enterprise Edition se dozvíte na",
-  "about.date": "Datum sestavení:"
+  "about.date": "Datum sestavení:",
+  "mobile.share_extension.too_long_title": "Zpráva je příliš dlouhá!"
 }

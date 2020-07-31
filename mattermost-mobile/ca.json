@@ -16,5 +16,6 @@
   "about.hash": "Suma de comprovació de la construcció:",
   "about.enterpriseEditionSt": "Comunicació moderna des de darrere del teu tallafoc.",
   "about.enterpriseEditionLearn": "Més informació sobre l'edició empresarial a ",
-  "about.date": "Data de compilació:"
+  "about.date": "Data de compilació:",
+  "mobile.share_extension.too_long_title": "El missatge és massa llarg"
 }
