@@ -1,1 +1,16 @@
-{}
+{
+    "user.settings.security.close": "Zatvori",
+    "user.settings.general.imageTooLarge": "Nije moguće postaviti datoteku. Datoteka je prevelika.",
+    "user.settings.general.close": "Zatvori",
+    "rhs_header.closeSidebarTooltip": "Zatvori",
+    "get_link.close": "Zatvori",
+    "general_tab.teamIconTooLarge": "Nije moguće postaviti datoteku. Datoteka je prevelika.",
+    "general_button.close": "Zatvori",
+    "full_screen_modal.close": "Zatvori",
+    "emoji_picker.close": "Zatvori",
+    "change_url.close": "Zatvori",
+    "bot.create_token.close": "Zatvori",
+    "admin.team_channel_settings.usersToBeRemovedModal.close": "Zatvori",
+    "admin.team_channel_settings.groupMembers.close": "Zatvori",
+    "about.date": "Datum izgradnje:"
+}
