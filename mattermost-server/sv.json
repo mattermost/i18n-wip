@@ -6561,5 +6561,9 @@
     {
         "id": "actiance.export.marshalToXml.appError",
         "translation": "Kunde inte konvertera exporten till XML."
+    },
+    {
+        "id": "model.group.name.invalid_length.app_error",
+        "translation": "Namnet måste bestå av 1 till 64 gemena alfanumeriska tecken."
     }
 ]
