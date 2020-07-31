@@ -64,5 +64,8 @@
   "about.hash": "Хеш градње:",
   "about.enterpriseEditionSt": "Савремени вид комуникације иза вашег заштитног зида.",
   "about.enterpriseEditionLearn": "Више о предузетничком издању на ",
-  "about.date": "Датум градње:"
+  "about.date": "Датум градње:",
+  "post_info.message.show_more": "Прикажи више...",
+  "more_channels.showPublicChannels": "Нови јавни канал",
+  "mobile.post_info.pin": "Закачи на канал"
 }

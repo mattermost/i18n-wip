@@ -404,5 +404,10 @@
   "about.hash": "Koontiversion Hash:",
   "about.enterpriseEditionSt": "Nykyaikainen viestintätapa oman palomuurisi sisäpuolelta.",
   "about.enterpriseEditionLearn": "Lue lisää Enterprise Editionista: ",
-  "about.date": "Koontiversio luotu:"
+  "about.date": "Koontiversio luotu:",
+  "mobile.terms_of_service.alert_retry": "Yritä uudestaan",
+  "mobile.share_extension.too_long_title": "Viesti on liian pitkä",
+  "mobile.routes.settings": "Asetukset",
+  "mobile.post.failed_retry": "Yritä uudestaan",
+  "mobile.permission_denied_retry": "Asetukset"
 }

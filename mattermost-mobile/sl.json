@@ -176,5 +176,16 @@
   "about.teamEditionLearn": "Pridruži se Mattermost skupnosti na",
   "mobile.privacy_link": "Pravilnik o zasebnosti",
   "about.enterpriseEditionSt": "Moderna komunikacija izza vaše požarne pregrade.",
-  "about.enterpriseEditionLearn": "Izvedi več o Poslovni izdaji na "
+  "about.enterpriseEditionLearn": "Izvedi več o Poslovni izdaji na ",
+  "status_dropdown.set_online": "Prisoten",
+  "status_dropdown.set_dnd": "Ne moti",
+  "status_dropdown.set_away": "Odsoten",
+  "mobile.terms_of_service.alert_retry": "Poskusi znova",
+  "mobile.share_extension.too_long_title": "Sporočilo je predolgo",
+  "mobile.set_status.online": "Prisoten",
+  "mobile.set_status.dnd": "Ne moti",
+  "mobile.set_status.away": "Odsoten",
+  "mobile.routes.settings": "Nastavitve",
+  "mobile.post.failed_retry": "Poskusi znova",
+  "mobile.permission_denied_retry": "Nastavitve"
 }

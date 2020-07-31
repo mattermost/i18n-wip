@@ -239,5 +239,19 @@
   "api.channel.add_member.added": "{addedUsername} tillagd i kanalen av {username}.",
   "about.teamEditiont1": "Enterprise Edition",
   "about.enterpriseEditione1": "Enterprise Edition",
-  "announcment_banner.dont_show_again": "Visa inte igen"
+  "announcment_banner.dont_show_again": "Visa inte igen",
+  "status_dropdown.set_dnd": "Stör ej",
+  "status_dropdown.set_away": "Tillfälligt borta",
+  "post_info.system": "System",
+  "mobile.terms_of_service.alert_retry": "Försök igen",
+  "mobile.share_extension.too_long_title": "Meddelandet är för långt",
+  "mobile.set_status.dnd": "Stör ej",
+  "mobile.set_status.away": "Tillfälligt borta",
+  "mobile.routes.settings": "Inställningar",
+  "mobile.post.failed_retry": "Försök igen",
+  "mobile.permission_denied_retry": "Inställningar",
+  "mobile.edit_channel": "Flagga",
+  "mobile.account.settings.save": "Flagga",
+  "login.or": "eller",
+  "edit_post.save": "Flagga"
 }

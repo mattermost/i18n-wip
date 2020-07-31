@@ -63,5 +63,7 @@
   "about.hash": "Build Hash:",
   "about.enterpriseEditionSt": "Modern kommunikáció a tűzfalad mögött.",
   "about.enterpriseEditionLearn": "Tudjon meg többet a vállalati verzióról a ",
-  "about.date": "Build dátuma:"
+  "about.date": "Build dátuma:",
+  "status_dropdown.set_away": "Nincs a gépnél",
+  "mobile.set_status.away": "Nincs a gépnél"
 }

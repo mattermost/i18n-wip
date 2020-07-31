@@ -398,5 +398,15 @@
   "about.hash": "Build Hash:",
   "about.enterpriseEditionSt": "Hiện đại thông tin từ phía sau tường lửa.",
   "about.enterpriseEditionLearn": "Tìm hiểu thêm về Bản Doanh ở ",
-  "about.date": "Ngày Xây Dựng:"
+  "about.date": "Ngày Xây Dựng:",
+  "status_dropdown.set_online": "Trực tuyến",
+  "status_dropdown.set_dnd": "Đừng làm phiền",
+  "mobile.terms_of_service.alert_retry": "Thử lại",
+  "mobile.share_extension.too_long_title": "Tin nhắn quá dài",
+  "mobile.set_status.online": "Trực tuyến",
+  "mobile.set_status.dnd": "Đừng làm phiền",
+  "mobile.routes.settings": "Cài đặt",
+  "mobile.post.failed_retry": "Thử lại",
+  "mobile.permission_denied_retry": "Cài đặt",
+  "login.or": "hoặc"
 }

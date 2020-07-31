@@ -420,5 +420,15 @@
   "about.enterpriseEditionSt": "Moderní komunikace zpoza vašeho firewallu.",
   "about.enterpriseEditionLearn": "Více o Enterprise Edition se dozvíte na",
   "about.date": "Datum sestavení:",
-  "mobile.share_extension.too_long_title": "Zpráva je příliš dlouhá!"
+  "mobile.share_extension.too_long_title": "Zpráva je příliš dlouhá!",
+  "status_dropdown.set_online": "Připojen",
+  "status_dropdown.set_dnd": "Nerušit",
+  "status_dropdown.set_away": "Nepřítomen",
+  "mobile.terms_of_service.alert_retry": "Zkusit znovu",
+  "mobile.set_status.online": "Připojen",
+  "mobile.set_status.dnd": "Nerušit",
+  "mobile.set_status.away": "Nepřítomen",
+  "mobile.routes.settings": "Nastavení",
+  "mobile.post.failed_retry": "Zkusit znovu",
+  "mobile.permission_denied_retry": "Nastavení"
 }
