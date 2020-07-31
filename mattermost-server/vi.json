@@ -7336,5 +7336,9 @@
     {
         "id": "April",
         "translation": "Tháng Tư"
+    },
+    {
+        "id": "model.group.name.invalid_length.app_error",
+        "translation": "Tên phải từ 1 đến 64 ký tự thường hoặc chữ số"
     }
 ]
