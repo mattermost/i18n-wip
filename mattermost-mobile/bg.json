@@ -228,5 +228,14 @@
   "mobile.about.appVersion": "Приложение версия: {version} (издание {number})",
   "login.userNotFound": "Не намерихме профил, отговарящ на данните Ви за вход.",
   "login.username": "Потребителско име",
-  "login.signIn": "Влизане"
+  "login.signIn": "Влизане",
+  "user.settings.general.username": "Потребителско име",
+  "user.settings.general.email": "Ел. поща",
+  "post_info.del": "Изтрий",
+  "mobile.terms_of_service.alert_cancel": "Откажи",
+  "mobile.reset_status.alert_cancel": "Откажи",
+  "mobile.post.cancel": "Откажи",
+  "mobile.post_textbox.entire_channel.cancel": "Откажи",
+  "mobile.notification_settings.email": "Ел. поща",
+  "mobile.edit_channel": "Запиши"
 }
