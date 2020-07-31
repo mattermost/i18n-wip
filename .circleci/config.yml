@@ -46,6 +46,9 @@ commands:
     steps:
       - run:
           command: |
+            rateLimitHeader=$(curl -I -H "Authorization: Token ${WEBLATE_TOKEN}" https://translate.mattermost.com/api/ | grep x-ratelimit-remaining)
+            rateLimit=$(echo ${rateLimitHeader##*:}) # remove everything until colon
+            echo $rateLimit
             languagecodes=$(curl --fail --show-error --request GET --url https://translate.mattermost.com/api/projects/i18n-wip/languages/ --header 'content-type: application/json' | jq -r '.[] | .code' | tr '\n' ' ')
             for languagecode in $languagecodes
             do
@@ -65,7 +68,6 @@ commands:
                     "threshold": "80"
                 }'
               done
-            sleep 5
             done
 
 jobs:
