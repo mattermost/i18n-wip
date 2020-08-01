@@ -5929,5 +5929,9 @@
     {
         "id": "April",
         "translation": "Abril"
+    },
+    {
+        "id": "model.group.name.invalid_length.app_error",
+        "translation": "El nom ha de tenir entre 1 i 64 caràcters alfanumèrics en minúscula"
     }
 ]

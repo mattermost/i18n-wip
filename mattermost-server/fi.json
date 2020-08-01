@@ -6897,5 +6897,13 @@
     {
         "id": "April",
         "translation": "Huhtikuu"
+    },
+    {
+        "id": "model.group.name.invalid_length.app_error",
+        "translation": "Nimen oltava 1-64 pientä kirjainta tai numeroa"
+    },
+    {
+        "id": "web.error.unsupported_browser.system_browser_or",
+        "translation": "tai"
     }
 ]

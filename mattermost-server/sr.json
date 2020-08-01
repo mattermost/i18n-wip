@@ -1190,5 +1190,9 @@
     {
         "id": "April",
         "translation": "Април"
+    },
+    {
+        "id": "api.command_groupmsg.name",
+        "translation": "порука"
     }
 ]
