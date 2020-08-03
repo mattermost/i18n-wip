@@ -2058,5 +2058,8 @@
     "add_emoji.save": "Flagga",
     "add_command.save": "Flagga",
     "about.teamEditiont1": "Enterprise Edition",
-    "about.enterpriseEditione1": "Enterprise Edition"
+    "about.enterpriseEditione1": "Enterprise Edition",
+    "channel_header.directchannel.you": "{displayname} (du) ",
+    "center_panel.archived.closeChannel": "Stäng kanalen",
+    "archivedChannelMessage": "Du tittar på en **arkiverad kanal**. Du kan inte skapa nya meddelanden här."
 }
