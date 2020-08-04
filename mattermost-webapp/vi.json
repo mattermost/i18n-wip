@@ -448,7 +448,7 @@
     "user.settings.security.method": "Phương thức đăng nhập",
     "list_modal.paginatorCount": "{startCount, number} - {endCount, number} của {total, number}",
     "leave_team_modal.title": "Rời khỏi nhóm?",
-    "leave_team_modal.desc": "Bạn sẽ bị xóa khỏi tất cả các kênh công \bkhai và riêng tư.  Nếu nhóm ở chế độ riêng tư, bạn sẽ không thể tham gia lại nhóm.  Bạn có chắc không?",
+    "leave_team_modal.desc": "Bạn sẽ bị xóa khỏi tất cả các kênh công khai và riêng tư.  Nếu nhóm ở chế độ riêng tư, bạn sẽ không thể tham gia lại nhóm.  Bạn có chắc không?",
     "leave_private_channel_modal.leave": "Vâng, rời khỏi kênh",
     "last_users_message.removed_from_team.type": "Bạn đã **removed from the channel**.",
     "last_users_message.removed_from_channel.type": "Bạn đã **removed from the channel**.",
