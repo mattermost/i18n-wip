@@ -253,5 +253,9 @@
   "mobile.edit_channel": "Flagga",
   "mobile.account.settings.save": "Flagga",
   "login.or": "eller",
-  "edit_post.save": "Flagga"
+  "edit_post.save": "Flagga",
+  "channel_header.pinnedPosts": "Nålad post",
+  "channel_header.directchannel.you": "{displayname} (du) ",
+  "center_panel.archived.closeChannel": "Stäng kanalen",
+  "archivedChannelMessage": "Du tittar på en **arkiverad kanal**. Du kan inte skapa nya meddelanden här."
 }
