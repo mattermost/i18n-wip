@@ -226,7 +226,7 @@
   "channel_info.purpose": "Beskrivning:",
   "channel_header.viewMembers": "Visa medlemmar",
   "channel_header.manageMembers": "Hantera medlemmar",
-  "channel_header.addMembers": "Alla medlemmar",
+  "channel_header.addMembers": "Lägg till medlemmar",
   "about.title": "Om {appTitle}",
   "about.teamEditiont0": "Grupp utgåva",
   "about.teamEditionSt": "Hela gruppens kommunikation på ett ställe, direkt sökbart och tillgänglig överallt.",
