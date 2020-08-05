@@ -257,5 +257,9 @@
   "channel_header.pinnedPosts": "Nålad post",
   "channel_header.directchannel.you": "{displayname} (du) ",
   "center_panel.archived.closeChannel": "Stäng kanalen",
-  "archivedChannelMessage": "Du tittar på en **arkiverad kanal**. Du kan inte skapa nya meddelanden här."
+  "archivedChannelMessage": "Du tittar på en **arkiverad kanal**. Du kan inte skapa nya meddelanden här.",
+  "channel_modal.descriptionHelp": "Beskriv hur kanalen är tänkta att användas.",
+  "channel_modal.cancel": "Avbryt",
+  "channel_loader.someone": "Någon",
+  "channel_info.header": "Kanalinformation:"
 }
