@@ -261,5 +261,10 @@
   "channel_modal.descriptionHelp": "Beskriv hur kanalen är tänkta att användas.",
   "channel_modal.cancel": "Avbryt",
   "channel_loader.someone": "Någon",
-  "channel_info.header": "Kanalinformation:"
+  "channel_info.header": "Kanalinformation:",
+  "mobile.terms_of_service.alert_cancel": "Avbryt",
+  "mobile.reset_status.alert_cancel": "Avbryt",
+  "mobile.post.cancel": "Avbryt",
+  "mobile.post_textbox.entire_channel.cancel": "Avbryt",
+  "mobile.alert_dialog.alertCancel": "Avbryt"
 }
