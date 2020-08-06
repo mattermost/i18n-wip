@@ -17,5 +17,15 @@
   "about.hashee": "هش ساخت نسخه تجاری:",
   "about.hash": "هش ساخت:",
   "about.enterpriseEditione1": "نسخه تجاری",
-  "about.date": "تاریخ ساخت:"
+  "about.date": "تاریخ ساخت:",
+  "channel_modal.header": "عنوان",
+  "channel_modal.headerEx": "",
+  "channel_modal.name": "نام",
+  "channel_info.header": "عنوان:",
+  "channel_modal.descriptionHelp": "نحوه استفاده از این کانال را شرح دهید.",
+  "channel_modal.cancel": "انصراف",
+  "channel_members_modal.remove": "حذف",
+  "channel_loader.someone": "کسی",
+  "channel_info.purpose": "هدف:",
+  "channel_header.viewMembers": "مشاهده عضوها"
 }
