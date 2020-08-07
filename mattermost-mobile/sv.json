@@ -336,5 +336,8 @@
   "intro_messages.onlyInvited": " Endast inbjudna medlemmar kan se denna privata kanal.",
   "intro_messages.noCreator": "Detta är början av {name}-kanalen, skapad {date}.",
   "intro_messages.group_message": "Detta är början av gruppens meddelandehistorik med dessa teammedlemmar. Meddelanden och filer som delas här visas inte för människor utanför denna yta.",
-  "intro_messages.creatorPrivate": "Detta är början på den privata kanalen {name}, skapad {date} av {creator}."
+  "intro_messages.creatorPrivate": "Detta är början på den privata kanalen {name}, skapad {date} av {creator}.",
+  "user.settings.general.username": "Användarnamn",
+  "user.settings.general.email": "E-post",
+  "mobile.notification_settings.email": "E-post"
 }
