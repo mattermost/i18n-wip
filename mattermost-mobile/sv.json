@@ -395,5 +395,6 @@
   "mobile.about.powered_by": "{site} funkar med hjälp av Mattermost",
   "mobile.about.licensed": "Licensierad till: {company}",
   "mobile.about.appVersion": "App-version: {version} (Build {number})",
-  "login.userNotFound": "Inget konto hittades med de kontouppgifter som angetts."
+  "login.userNotFound": "Inget konto hittades med de kontouppgifter som angetts.",
+  "post_info.del": "Ta bort"
 }
