@@ -303,5 +303,6 @@
     "about.dbversion": "Версия на схемата на базата данни:",
     "about.database": "База от данни",
     "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Всички права запазени",
-    "about.buildnumber": "Номер на версия:"
+    "about.buildnumber": "Номер на версия:",
+    "members_popover.button.message": "съобщение"
 }
