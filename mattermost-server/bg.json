@@ -833,51 +833,51 @@
     },
     {
         "id": "api.command_msg.missing.app_error",
-        "translation": "Неуспешно обновяване на канала"
+        "translation": "Не може да се намери потребителя."
     },
     {
         "id": "api.command_join.missing.app_error",
-        "translation": "Неуспешно обновяване на канала"
+        "translation": "Не можа да се намери канала."
     },
     {
         "id": "api.command_channel_rename.direct_group.app_error",
-        "translation": "Невъзможно напускането на канал за лични съобщения"
+        "translation": "Не могат да се преименуват канали за лични съобщения."
     },
     {
         "id": "api.channel.update_channel.deleted.app_error",
-        "translation": "Каналът е архивиран или изтрит"
+        "translation": "Каналът е архивиран или изтрит."
     },
     {
         "id": "api.channel.remove_user_from_channel.app_error",
-        "translation": "Невъзможно добавянето на потребител към канал от този тип"
+        "translation": "Потребител не може да премахва този тип канал."
     },
     {
         "id": "api.channel.remove.default.app_error",
-        "translation": "Невъзможно напускането на канала по подразбиране {{.Channel}}"
+        "translation": "Потребител не може да бъде премахнат от канала по подразбиране {{.Channel}}."
     },
     {
         "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
-        "translation": "%s премахна името на канала (беше: %s)"
+        "translation": "%s обнови заглавието на канала до: %s"
     },
     {
         "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
-        "translation": "%s актуализиран заглавието на канала: %s: %s"
+        "translation": "%s обнови заглавието на канала от: %s на: %s"
     },
     {
         "id": "api.channel.post_update_channel_header_message_and_forget.removed",
-        "translation": "%s премахна името на канала (беше: %s)"
+        "translation": "%s премахна заглавието на канала (беше: %s)"
     },
     {
         "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
-        "translation": "%s актуализиран показват името на канала: %s: %s"
+        "translation": "%s актуализира показваното име на канала от: %s на: %s"
     },
     {
         "id": "api.channel.post_channel_privacy_message.error",
-        "translation": "Неуспешно обновяване на съобщението за поверителност на канала."
+        "translation": "Неуспешно публикуване на съобщението за обновяване поверителността на канала."
     },
     {
         "id": "api.channel.patch_update_channel.forbidden.app_error",
-        "translation": "Неуспешно обновяване на канала"
+        "translation": "Неуспешно обновяване на канала."
     },
     {
         "id": "api.channel.leave.left",
@@ -885,15 +885,15 @@
     },
     {
         "id": "api.channel.leave.last_member.app_error",
-        "translation": "Вие сте единствения оставащ участник, опитайте да изтриете частната група вместо да я напуснете."
+        "translation": "Вие сте единствения останал участник, опитайте да изтриете частния канал, вместо да го напускате."
     },
     {
         "id": "api.channel.leave.direct.app_error",
-        "translation": "Невъзможно напускането на канал за лични съобщения"
+        "translation": "Не може да се напусне канал за лични съобщения."
     },
     {
         "id": "api.channel.leave.default.app_error",
-        "translation": "Невъзможно напускането на канала по подразбиране {{.Channel}}"
+        "translation": "Каналът по подразбиране {{.Channel}} не може да се напусне."
     },
     {
         "id": "api.channel.join_channel.post_and_forget",
@@ -901,23 +901,23 @@
     },
     {
         "id": "api.channel.join_channel.permissions.app_error",
-        "translation": "Нямате необходимите права"
+        "translation": "Нямате необходимите права."
     },
     {
         "id": "api.channel.delete_channel.type.invalid",
-        "translation": "Невъзможно изтриването на директни или групови канали"
+        "translation": "Не може да се изтриват канали за групови или лични съобщения"
     },
     {
         "id": "api.channel.delete_channel.deleted.app_error",
-        "translation": "Каналът е архивиран или изтрит"
+        "translation": "Каналът е архивиран или изтрит."
     },
     {
         "id": "api.channel.delete_channel.cannot.app_error",
-        "translation": "Невъзможно изтриването на канала по подразбиране {{.Channel}}"
+        "translation": "Не може да се изтрие канала по подразбиране {{.Channel}}."
     },
     {
         "id": "api.channel.delete_channel.archived",
-        "translation": "%v архивира канала."
+        "translation": "%v архивирани канала."
     },
     {
         "id": "api.channel.create_group.bad_user.app_error",
@@ -941,7 +941,7 @@
     },
     {
         "id": "api.channel.create_channel.max_channel_limit.app_error",
-        "translation": "Невъзможно създаването на повече от {{.MaxChannelsPerTeam}} канали за текущия екип."
+        "translation": "Не може да се създаде повече от {{.MaxChannelsPerTeam}} канали за текущия екип."
     },
     {
         "id": "api.channel.create_channel.direct_channel.app_error",
@@ -949,7 +949,7 @@
     },
     {
         "id": "api.channel.convert_channel_to_private.private_channel_error",
-        "translation": "Каналът който се опитахте да конвертирате е вече частен канал."
+        "translation": "Каналът, който се опитахте да преобразувате е вече частен канал."
     },
     {
         "id": "api.channel.convert_channel_to_private.default_channel_error",
@@ -957,19 +957,19 @@
     },
     {
         "id": "api.channel.change_channel_privacy.public_to_private",
-        "translation": "Този канал е конвертиран в частен канал."
+        "translation": "Този канал е преобразуван в частен канал."
     },
     {
         "id": "api.channel.change_channel_privacy.private_to_public",
-        "translation": "Този канал е конвертиран в публичен канал и всеки член от екипа може да се присъедини."
+        "translation": "Този канал е преобразуван в публичен и всеки член от екипа може да се присъедини."
     },
     {
         "id": "api.channel.add_user_to_channel.type.app_error",
-        "translation": "Невъзможно добавянето на потребител към канал от този тип."
+        "translation": "Не може да се добави потребител към този тип канали."
     },
     {
         "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
-        "translation": "Неуспешно добавяне на потребителя към канала поради изключването му от екипа."
+        "translation": "Неуспешно добавяне на потребител към канала, тъй като беше премахнат от екипа."
     },
     {
         "id": "api.channel.add_user.to.channel.failed.app_error",
@@ -981,39 +981,39 @@
     },
     {
         "id": "api.channel.add_guest.added",
-        "translation": "%v беше добавен в канала от %v."
+        "translation": "%v беше добавен в канала като гост от %v."
     },
     {
         "id": "api.bot.set_bot_icon_image.too_large.app_error",
-        "translation": "Не може да се качи файл. Файлът е прекалено голям."
+        "translation": "Не можа да се качи изображение на иконата. Файлът е твърде голям."
     },
     {
         "id": "api.bot.set_bot_icon_image.open.app_error",
-        "translation": "Сертификатът не може да бъде отворен."
+        "translation": "Файла с изображението не може да се отвори."
     },
     {
         "id": "api.bot.set_bot_icon_image.no_file.app_error",
-        "translation": "Липсва файл в полето 'сертификат' на заявката."
+        "translation": "Липсва файл в 'image' на заявката."
     },
     {
         "id": "api.bot.set_bot_icon_image.array.app_error",
-        "translation": "Заявката съдържа празен масив под 'image'."
+        "translation": "Празен масив в 'image' на заявката."
     },
     {
         "id": "api.admin.upload_brand_image.too_large.app_error",
-        "translation": "Не може да се качи файл. Файлът е прекалено голям."
+        "translation": "Файлът не може да се качи. Файлът е твърде голям."
     },
     {
         "id": "api.admin.upload_brand_image.storage.app_error",
-        "translation": "Невъзможно качване на изображение. Мястото за съхранение на изображения не е конфигурирано."
+        "translation": "Не може да се качи изображение. Съхранението на изображения не е конфигурирано."
     },
     {
         "id": "api.admin.upload_brand_image.no_file.app_error",
-        "translation": "Липсва файл в полето 'сертификат' на заявката."
+        "translation": "Липсва файл в 'image' на заявката."
     },
     {
         "id": "api.admin.upload_brand_image.array.app_error",
-        "translation": "Заявката съдържа празен масив под 'image'."
+        "translation": "Празен масив под 'image' в заявката."
     },
     {
         "id": "api.admin.test_s3.missing_s3_bucket",
@@ -1021,7 +1021,7 @@
     },
     {
         "id": "api.admin.test_email.subject",
-        "translation": "Mattermost - Тест на email настройките"
+        "translation": "Mattermost - Тестване на настройките за имейл"
     },
     {
         "id": "api.admin.test_email.reenter_password",
@@ -1033,7 +1033,7 @@
     },
     {
         "id": "api.admin.test_email.body",
-        "translation": "Изглежда че вашият Mattermost email е настроен успешно!"
+        "translation": "Изглежда вашият Mattermost email е настроен правилно!"
     },
     {
         "id": "api.admin.saml.not_available.app_error",
@@ -1041,7 +1041,7 @@
     },
     {
         "id": "api.admin.saml.metadata.app_error",
-        "translation": "Грешка при създаването на Service Provider Metadata."
+        "translation": "Възникна грешка при изграждането на метаданни на доставчика на услуги."
     },
     {
         "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
@@ -1049,7 +1049,7 @@
     },
     {
         "id": "api.admin.get_brand_image.storage.app_error",
-        "translation": "Съхраняването на картинки не е конфигурирано."
+        "translation": "Съхраняването на изображения не е конфигурирано."
     },
     {
         "id": "api.admin.file_read_error",
@@ -1142,5 +1142,668 @@
     {
         "id": "web.error.unsupported_browser.system_browser_or",
         "translation": "или"
+    },
+    {
+        "id": "api.command_mute.no_channel.error",
+        "translation": "Не е намерен зададения канал. Моля, използвайте [псевдонима на канала](https://about.mattermost.com/default-channel-handle-documentation) за да определяте канали."
+    },
+    {
+        "id": "api.command_mute.name",
+        "translation": "заглуши"
+    },
+    {
+        "id": "api.command_mute.hint",
+        "translation": "~[канал]"
+    },
+    {
+        "id": "api.command_mute.error",
+        "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [псевдонима на канала](https://about.mattermost.com/default-channel-handle-documentation) за да определяте канали."
+    },
+    {
+        "id": "api.command_mute.desc",
+        "translation": "Изключи настолните, имейл и изскачащи известия за текущия или за зададен [канал]."
+    },
+    {
+        "id": "api.command_msg.permission.app_error",
+        "translation": "Нямате необходимите права за да изпратите лично съобщение до този потребител."
+    },
+    {
+        "id": "api.command_msg.name",
+        "translation": "съобщение"
+    },
+    {
+        "id": "api.command_msg.hint",
+        "translation": "@[потр.име] 'съобщение'"
+    },
+    {
+        "id": "api.command_msg.fail.app_error",
+        "translation": "При съобщаването на потребител възникна грешка."
+    },
+    {
+        "id": "api.command_msg.dm_fail.app_error",
+        "translation": "Възникна грешка при създаване на лично съобщение."
+    },
+    {
+        "id": "api.command_msg.desc",
+        "translation": "Изпрати лично съобщение до потребител"
+    },
+    {
+        "id": "api.command_me.name",
+        "translation": "мен"
+    },
+    {
+        "id": "api.command_me.hint",
+        "translation": "[съобщение]"
+    },
+    {
+        "id": "api.command_me.desc",
+        "translation": "Изпълни действие"
+    },
+    {
+        "id": "api.command_logout.name",
+        "translation": "излез"
+    },
+    {
+        "id": "api.command_logout.desc",
+        "translation": "Излез от Mattermost"
+    },
+    {
+        "id": "api.command_leave.name",
+        "translation": "напусни"
+    },
+    {
+        "id": "api.command_leave.fail.app_error",
+        "translation": "Възникна грешка при напускане на канала."
+    },
+    {
+        "id": "api.command_leave.desc",
+        "translation": "Напусни текущият канал"
+    },
+    {
+        "id": "api.command_kick.name",
+        "translation": "изхвърли"
+    },
+    {
+        "id": "api.command_join.name",
+        "translation": "присъедини"
+    },
+    {
+        "id": "api.command_join.list.app_error",
+        "translation": "При показване списъка с канали възникна грешка."
+    },
+    {
+        "id": "api.command_join.hint",
+        "translation": "~[канал]"
+    },
+    {
+        "id": "api.command_join.fail.app_error",
+        "translation": "При присъединяването в канала възникна грешка."
+    },
+    {
+        "id": "api.command_join.desc",
+        "translation": "Присъедини се в отворения канал"
+    },
+    {
+        "id": "api.command_invite_people.permission.app_error",
+        "translation": "Нямате права да каните нови потребители в този сървър."
+    },
+    {
+        "id": "api.command_invite.user_not_in_team.app_error",
+        "translation": "@{{.Username}} не е член на екипа."
+    },
+    {
+        "id": "api.command_invite.user_already_in_channel.app_error",
+        "translation": "{{.User}} е вече в канала."
+    },
+    {
+        "id": "api.command_invite.success",
+        "translation": "{{.User}} е добавен в канала {{.Channel}}."
+    },
+    {
+        "id": "api.command_invite.private_channel.app_error",
+        "translation": "Не намерихме канала {{.Channel}}. Моля, ползвайте псевдонима на канала за да определяте канали."
+    },
+    {
+        "id": "api.command_invite.permission.app_error",
+        "translation": "Нямате достатъчно права за да добавите {{.User}} в {{.Channel}}."
+    },
+    {
+        "id": "api.command_invite.name",
+        "translation": "покани"
+    },
+    {
+        "id": "api.command_invite.missing_user.app_error",
+        "translation": "Не намерихме потребителя. Може да е деактивиран от системния администратор."
+    },
+    {
+        "id": "api.command_invite.missing_message.app_error",
+        "translation": "Липсва потр. име и канал."
+    },
+    {
+        "id": "api.command_invite.hint",
+        "translation": "@[потр.име] ~[канал]"
+    },
+    {
+        "id": "api.command_invite.group_constrained_user_denied",
+        "translation": "Този канал се управлява от групи. Този потребител не е част от група, която е свързана с този канал."
+    },
+    {
+        "id": "api.command_invite.fail.app_error",
+        "translation": "При присъединяването в канала възникна грешка."
+    },
+    {
+        "id": "api.command_invite.directchannel.app_error",
+        "translation": "Не може да добавяте някой в канал за лични съобщения."
+    },
+    {
+        "id": "api.command_invite.desc",
+        "translation": "Поканете потребител в канала"
+    },
+    {
+        "id": "api.command_invite.channel.error",
+        "translation": "Не е намерен канала {{.Channel}}. Мола, използвайте [псевдонима на канала](https://about.mattermost.com/default-channel-handle-documentation) за да определяте канали."
+    },
+    {
+        "id": "api.command_invite.channel.app_error",
+        "translation": "Грешка при получаване на текущия канал."
+    },
+    {
+        "id": "api.command_help.name",
+        "translation": "помощ"
+    },
+    {
+        "id": "api.command_help.desc",
+        "translation": "Отвори помощната страница на Mattermost"
+    },
+    {
+        "id": "api.command_groupmsg.permission.app_error",
+        "translation": "Нямате необходимите права за създаване на групово съобщение."
+    },
+    {
+        "id": "api.command_groupmsg.name",
+        "translation": "съобщение"
+    },
+    {
+        "id": "api.command_groupmsg.min_users.app_error",
+        "translation": "Груповите съобщения са ограничени до минимум {{.MinUsers}} потребители."
+    },
+    {
+        "id": "api.command_groupmsg.max_users.app_error",
+        "translation": "Груповите съобщения са ограничени до максимум {{.MaxUsers}} потребители."
+    },
+    {
+        "id": "api.command_groupmsg.invalid_user.app_error",
+        "translation": {
+            "one": "Този потребител не може да бъде намерен: {{.Users}}",
+            "other": "Тези потребители не могат да бъдат намерени: {{.Users}}"
+        }
+    },
+    {
+        "id": "api.command_groupmsg.hint",
+        "translation": "@[username1],@[username2] 'съобщение'"
+    },
+    {
+        "id": "api.command_groupmsg.group_fail.app_error",
+        "translation": "При създаването на групово съобщение възникна грешка."
+    },
+    {
+        "id": "api.command_groupmsg.fail.app_error",
+        "translation": "При съобщаването на потребителите възникна грешка."
+    },
+    {
+        "id": "api.command_groupmsg.desc",
+        "translation": "Изпрати групово съобщение до посочените потребители"
+    },
+    {
+        "id": "api.command_expand_collapse.fail.app_error",
+        "translation": "Възникна грешка при разширяване на визуализациите."
+    },
+    {
+        "id": "api.command_expand.success",
+        "translation": "Връзките към изображения сега се разширяват по подразбиране"
+    },
+    {
+        "id": "api.command_expand.name",
+        "translation": "разшири"
+    },
+    {
+        "id": "api.command_expand.desc",
+        "translation": "Изключи автоматичното свиване визуализациите на изображения"
+    },
+    {
+        "id": "api.command_echo.name",
+        "translation": "echo (ехо)"
+    },
+    {
+        "id": "api.command_echo.message.app_error",
+        "translation": "Съобщението трябва да се предостави с командата /echo."
+    },
+    {
+        "id": "api.command_echo.hint",
+        "translation": "'съобщение' [закъснение в секунди]"
+    },
+    {
+        "id": "api.command_echo.high_volume.app_error",
+        "translation": "Голям обем на echo заявката, невъзможно обработването и."
+    },
+    {
+        "id": "api.command_echo.delay.app_error",
+        "translation": "Закъснението трябва да е под 10000 секунди."
+    },
+    {
+        "id": "api.command_dnd.success",
+        "translation": "Не безпокойте е активирано. Няма да получавате настолни или мобилни изскачащи известия докато не го изключите."
+    },
+    {
+        "id": "api.command_dnd.name",
+        "translation": "не безпокой"
+    },
+    {
+        "id": "api.command_dnd.error",
+        "translation": "Грешка при получаване състоянието на потребител."
+    },
+    {
+        "id": "api.command_dnd.disabled",
+        "translation": "Не безпокой е деактивирано."
+    },
+    {
+        "id": "api.command_dnd.desc",
+        "translation": "Не безпокой забранява изскачащите известия на настолни и мобилни устройства."
+    },
+    {
+        "id": "api.command_collapse.success",
+        "translation": "Връзките към изображения сега се свиват по подразбиране"
+    },
+    {
+        "id": "api.command_collapse.name",
+        "translation": "свиване"
+    },
+    {
+        "id": "api.command_collapse.desc",
+        "translation": "Включи автоматично свиване на визуализациите на изображения"
+    },
+    {
+        "id": "api.command_code.name",
+        "translation": "код"
+    },
+    {
+        "id": "api.command_code.message.app_error",
+        "translation": "Съобщението трябва да се предостави с командата /code."
+    },
+    {
+        "id": "api.command_code.hint",
+        "translation": "[текст]"
+    },
+    {
+        "id": "api.command_code.desc",
+        "translation": "Показване на текст като блок с код"
+    },
+    {
+        "id": "api.command_channel_rename.update_channel.app_error",
+        "translation": "Грешка при обновяване на текущия канал."
+    },
+    {
+        "id": "api.command_channel_rename.too_short.app_error",
+        "translation": "Името на канала трябва да бъде {{.Length}} или повече знаци."
+    },
+    {
+        "id": "api.command_channel_rename.too_long.app_error",
+        "translation": "Името на канала трябва да бъде {{.Length}} или по-малко знаци."
+    },
+    {
+        "id": "api.command_channel_rename.permission.app_error",
+        "translation": "Нямате подходящи права за преименуване на канала."
+    },
+    {
+        "id": "api.command_channel_rename.name",
+        "translation": "преименувай"
+    },
+    {
+        "id": "api.command_channel_rename.message.app_error",
+        "translation": "Съобщението трябва да се предостави с командата /rename."
+    },
+    {
+        "id": "api.command_channel_rename.hint",
+        "translation": "[текст]"
+    },
+    {
+        "id": "api.command_channel_rename.desc",
+        "translation": "Преименувайте канала"
+    },
+    {
+        "id": "api.command_channel_remove.channel.app_error",
+        "translation": "Грешка при премахване на текущия канал."
+    },
+    {
+        "id": "api.command_channel_rename.channel.app_error",
+        "translation": "Грешка при преименуване на текущия канал."
+    },
+    {
+        "id": "api.command_channel_purpose.update_channel.app_error",
+        "translation": "Грешка при обновяване на текущия канал."
+    },
+    {
+        "id": "api.command_channel_purpose.permission.app_error",
+        "translation": "Нямате необходимите права за редактиране целта на канала."
+    },
+    {
+        "id": "api.command_channel_purpose.name",
+        "translation": "цел"
+    },
+    {
+        "id": "api.command_channel_purpose.message.app_error",
+        "translation": "Съобщението трябва да се предостави с командата /purpose."
+    },
+    {
+        "id": "api.command_channel_purpose.hint",
+        "translation": "[текст]"
+    },
+    {
+        "id": "api.command_channel_purpose.direct_group.app_error",
+        "translation": "Не може да се зададе цел на канали за лични съобщения. Използвайте /header, за да зададете заглавието вместо това."
+    },
+    {
+        "id": "api.command_channel_purpose.desc",
+        "translation": "Редактиране целта на канала"
+    },
+    {
+        "id": "api.command_channel_purpose.channel.app_error",
+        "translation": "Грешка при получаване на текущия канал."
+    },
+    {
+        "id": "api.command_channel_header.update_channel.app_error",
+        "translation": "Грешка при обновяване на текущия канал."
+    },
+    {
+        "id": "api.command_channel_header.permission.app_error",
+        "translation": "Нямате необходимите права да редактирате заглавието на канала."
+    },
+    {
+        "id": "api.command_channel_header.name",
+        "translation": "заглавие"
+    },
+    {
+        "id": "api.command_channel_header.message.app_error",
+        "translation": "Текстът трябва да бъде предоставен с командата /header."
+    },
+    {
+        "id": "api.command_channel_header.hint",
+        "translation": "[Текст]"
+    },
+    {
+        "id": "api.command_channel_header.desc",
+        "translation": "Редактирайте заглавието на канала"
+    },
+    {
+        "id": "api.command_channel_header.channel.app_error",
+        "translation": "Грешка при получаване на текущия канал."
+    },
+    {
+        "id": "api.command_away.success",
+        "translation": "Вече сте 'отсъстващ'"
+    },
+    {
+        "id": "api.command_away.name",
+        "translation": "отсъства"
+    },
+    {
+        "id": "api.command_away.desc",
+        "translation": "Задайте статуса си на 'отсъства'"
+    },
+    {
+        "id": "api.command.team_mismatch.app_error",
+        "translation": "Не може да се актуализират команди между екипи."
+    },
+    {
+        "id": "api.command.invite_people.sent",
+        "translation": "Поканите по имейл са изпратени"
+    },
+    {
+        "id": "api.command.invite_people.no_email",
+        "translation": "Моля, посочете един или повече валидни имейл адреси"
+    },
+    {
+        "id": "api.command.invite_people.name",
+        "translation": "покани_хора"
+    },
+    {
+        "id": "api.command.invite_people.invite_off",
+        "translation": "Създаването на потребители е деактивирано на този сървър, не са изпратени покани"
+    },
+    {
+        "id": "api.command.invite_people.hint",
+        "translation": "[име@домейн.com ...]"
+    },
+    {
+        "id": "api.command.invite_people.fail",
+        "translation": "Възникна грешка при изпращане на покани по имейл"
+    },
+    {
+        "id": "api.command.invite_people.email_off",
+        "translation": "Имейлът не е конфигуриран, покани не са изпратени"
+    },
+    {
+        "id": "api.command.invite_people.email_invitations_off",
+        "translation": "Поканите по имейл са деактивирани, не са изпратени покани"
+    },
+    {
+        "id": "api.command.invite_people.desc",
+        "translation": "Изпратете имейл с покана във вашия екип на Mattermost"
+    },
+    {
+        "id": "api.command.execute_command.start.app_error",
+        "translation": "Не е намерен тригер на командата."
+    },
+    {
+        "id": "api.command.execute_command.not_found.app_error",
+        "translation": "Команда с тригер \"{{.Trigger}}\" не е намерена. За да изпратите съобщение, започващо с \"/\", опитайте да добавите празно място в началото на съобщението."
+    },
+    {
+        "id": "api.command.execute_command.format.app_error",
+        "translation": "В думата за задействане на командата липсва водещият символ на наклонена черта"
+    },
+    {
+        "id": "api.command.execute_command.failed_resp.app_error",
+        "translation": "Командата с тригер на '{{.Trigger}}' върнат отговор {{.Status}}."
+    },
+    {
+        "id": "api.command.execute_command.failed_empty.app_error",
+        "translation": "Командата с тригер на '{{.Trigger}}' върна празен отговор."
+    },
+    {
+        "id": "api.command.execute_command.failed.app_error",
+        "translation": "Командата с тригер на '{{.Trigger}}' се провали."
+    },
+    {
+        "id": "api.command.execute_command.create_post_failed.app_error",
+        "translation": "Командата '{{.Trigger}}' не изпраща отговор. Моля, свържете се със системния си администратор."
+    },
+    {
+        "id": "api.command.duplicate_trigger.app_error",
+        "translation": "Тази задействаща дума вече се използва. Моля, изберете друга дума."
+    },
+    {
+        "id": "api.command.disabled.app_error",
+        "translation": "Командите са деактивирани от системния администратор."
+    },
+    {
+        "id": "api.command.command_post.forbidden.app_error",
+        "translation": "Посоченият потребител не е член на зададения канал."
+    },
+    {
+        "id": "api.command.admin_only.app_error",
+        "translation": "Интеграциите са ограничени само до администраторите."
+    },
+    {
+        "id": "api.channel.update_team_member_roles.scheme_role.app_error",
+        "translation": "Предоставената роля се управлява от схема и следователно не може да се прилага директно към член на екипа."
+    },
+    {
+        "id": "api.channel.update_team_member_roles.changing_guest_role.app_error",
+        "translation": "Невалидно обновяване на член от екипа: Не можете да добавяте или премахвате ролята на гостите ръчно."
+    },
+    {
+        "id": "api.channel.update_channel_scheme.scheme_scope.error",
+        "translation": "Не може да се зададе схемата за канала, тъй като предоставената схема не е канална схема."
+    },
+    {
+        "id": "api.channel.update_channel_scheme.license.error",
+        "translation": "Лицензът ви не поддържа обновяване на каналната схема"
+    },
+    {
+        "id": "api.channel.update_channel_privacy.default_channel_error",
+        "translation": "Каналът по подразбиране не може да бъде личен."
+    },
+    {
+        "id": "api.channel.update_channel_member_roles.scheme_role.app_error",
+        "translation": "Предоставената роля се управлява от схема и следователно не може да се прилага директно към член на канала."
+    },
+    {
+        "id": "api.channel.update_channel_member_roles.guest_and_user.app_error",
+        "translation": "Невалидно обновяване на члена на канала: Потребителят трябва да е гост или потребител, но не и двете."
+    },
+    {
+        "id": "api.channel.update_channel_member_roles.changing_guest_role.app_error",
+        "translation": "Невалидно обновяване на член на канала: Не можете да добавяте или премахвате ролята на гостите ръчно."
+    },
+    {
+        "id": "api.channel.update_channel.typechange.app_error",
+        "translation": "Типът на канала не може да бъде обновен."
+    },
+    {
+        "id": "api.channel.update_channel.tried.app_error",
+        "translation": "Опит да се извърши невалидно обновяване на канала по подразбиране {{.Channel}}."
+    },
+    {
+        "id": "api.channel.restore_channel.unarchived",
+        "translation": "{{.Username}} разархивира канала."
+    },
+    {
+        "id": "api.channel.restore_channel.restored.app_error",
+        "translation": "Каналът не може да бъде разархивиран. Каналът не е архивиран."
+    },
+    {
+        "id": "api.channel.rename_channel.cant_rename_group_messages.app_error",
+        "translation": "Не можете да преименувате канал за групови съобщения."
+    },
+    {
+        "id": "api.channel.rename_channel.cant_rename_direct_messages.app_error",
+        "translation": "Не можете да преименувате канал за лични съобщения."
+    },
+    {
+        "id": "api.channel.remove_members.denied",
+        "translation": "Премахването на членство в канала е отказано за следните потребители поради групови ограничения: {{ .UserIDs }}"
+    },
+    {
+        "id": "api.channel.remove_member.removed",
+        "translation": "%v премахнат от канала."
+    },
+    {
+        "id": "api.channel.remove_member.group_constrained.app_error",
+        "translation": "Не може да се премахне потребител от групово ограничен канал."
+    },
+    {
+        "id": "api.channel.remove_channel_member.type.app_error",
+        "translation": "Потребителят не може да бъде премахнат от канала."
+    },
+    {
+        "id": "api.channel.post_user_add_remove_message_and_forget.error",
+        "translation": "Неуспешно публикуване на съобщение за присъединяване/напускане"
+    },
+    {
+        "id": "api.channel.post_update_channel_header_message_and_forget.retrieve_user.error",
+        "translation": "Неуспешно извличане на потребителя при обновяване на заглавието на канала"
+    },
+    {
+        "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
+        "translation": "Неуспешно публикуване на съобщението за обновяване заглавието на канала"
+    },
+    {
+        "id": "api.channel.post_update_channel_displayname_message_and_forget.retrieve_user.error",
+        "translation": "Неуспешно извличане на потребителя при обновяване на полето за показвано име на канала"
+    },
+    {
+        "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
+        "translation": "Неуспешно публикуване на съобщението за обновяване на показваното име"
+    },
+    {
+        "id": "api.channel.patch_channel_moderations.license.error",
+        "translation": "Вашият лиценз не поддържа модериране на канал"
+    },
+    {
+        "id": "api.channel.move_channel.type.invalid",
+        "translation": "Не могат да се преместват канали за лични или групови съобщения"
+    },
+    {
+        "id": "api.channel.guest_join_channel.post_and_forget",
+        "translation": "%v се присъедини към канала като гост."
+    },
+    {
+        "id": "api.channel.get_channel_moderations.license.error",
+        "translation": "Вашият лиценз не поддържа модериране на канала"
+    },
+    {
+        "id": "api.channel.channel_member_counts_by_group.license.error",
+        "translation": "Вашият лиценз не поддържа групи"
+    },
+    {
+        "id": "api.channel.add_members.user_denied",
+        "translation": "Членството в канала е отказано на следните потребители поради ограничения в групата: {{ .UserIDs }}"
+    },
+    {
+        "id": "api.channel.add_members.error",
+        "translation": "Грешка при добавяне на членове в канала."
+    },
+    {
+        "id": "api.bot.teams_channels.add_message_mobile",
+        "translation": "Моля, добавете ме към екипи и канали, в които искате да взаимодействам. За целта използвайте браузъра или Mattermost DesktopApp."
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.parse.app_error",
+        "translation": "Формуляра от множество части не можа да се обработи."
+    },
+    {
+        "id": "api.bot.set_bot_icon_image.app_error",
+        "translation": "Изображението на иконата не можа да се качи."
+    },
+    {
+        "id": "api.bot.get_bot_icon_image.read.app_error",
+        "translation": "Не може да се прочете файла с изображение на иконата."
+    },
+    {
+        "id": "api.bot.delete_bot_icon_image.app_error",
+        "translation": "Изображението на иконата не можа да бъде изтрито."
+    },
+    {
+        "id": "api.bot.create_disabled",
+        "translation": "Създаването на бот е забранено."
+    },
+    {
+        "id": "api.admin.upload_brand_image.parse.app_error",
+        "translation": "Формуляра от множество части не можа да се обработи."
+    },
+    {
+        "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+        "translation": "Липсва тип съдържание."
+    },
+    {
+        "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+        "translation": "Невалиден тип съдържание."
+    },
+    {
+        "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+        "translation": "Невалиден текст на сертификата."
+    },
+    {
+        "id": "api.admin.saml.invalid_xml_missing_ssoservices.app_error",
+        "translation": "Липсващ възел в XML - доставчик идентичност на SSO услуги."
+    },
+    {
+        "id": "api.admin.saml.invalid_xml_missing_keydescriptor.app_error",
+        "translation": "Липсващ възел в XML - доставчик на идентификационни ключове."
+    },
+    {
+        "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
+        "translation": "Липсващ възел в XML - доставчик на идентичност SSO описаниe ."
     }
 ]
