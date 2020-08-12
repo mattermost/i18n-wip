@@ -793,31 +793,31 @@
     },
     {
         "id": "api.preference.update_preferences.set.app_error",
-        "translation": "Неуспешно обновяване на канала"
+        "translation": "Не можаха да се зададат потребителските предпочитания."
     },
     {
         "id": "api.preference.preferences_category.get.app_error",
-        "translation": "Неуспешно обновяване на канала"
+        "translation": "Не можаха да се получат потребителските предпочитания."
     },
     {
         "id": "api.preference.delete_preferences.delete.app_error",
-        "translation": "Неуспешно обновяване на канала"
+        "translation": "Неуспешно изтриване на потребителски предпочитания."
     },
     {
         "id": "api.post_get_post_by_id.get.app_error",
-        "translation": "Неуспешно обновяване на канала"
+        "translation": "Не може да се получи публикация."
     },
     {
         "id": "api.post.update_post.find.app_error",
-        "translation": "Неуспешно обновяване на канала"
+        "translation": "Не може да се намери съществуващата публикация или коментар за обновяване."
     },
     {
         "id": "api.license.add_license.open.app_error",
-        "translation": "Сертификатът не може да бъде отворен."
+        "translation": "Лицензният файл не може да бъде отворен."
     },
     {
         "id": "api.license.add_license.no_file.app_error",
-        "translation": "Липсва файл в полето 'сертификат' на заявката."
+        "translation": "Липсва файл в полето 'лиценз' на заявката."
     },
     {
         "id": "api.license.add_license.array.app_error",
@@ -825,11 +825,11 @@
     },
     {
         "id": "api.file.upload_file.storage.app_error",
-        "translation": "Невъзможно качване на изображение. Мястото за съхранение на изображения не е конфигурирано."
+        "translation": "Невъзможно качване на файл. Хранилището за изображения не е конфигурирано."
     },
     {
         "id": "api.context.permissions.app_error",
-        "translation": "Нямате необходимите права"
+        "translation": "Нямате необходимите права."
     },
     {
         "id": "api.command_msg.missing.app_error",
@@ -1805,5 +1805,921 @@
     {
         "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
         "translation": "Липсващ възел в XML - доставчик на идентичност SSO описаниe ."
+    },
+    {
+        "id": "api.server.start_server.forward80to443.enabled_but_listening_on_wrong_port",
+        "translation": "Не може да се препрати порт 80 към порт 443, докато слушате на порт %s: забранете Forward80To443, ако използвате прокси сървър"
+    },
+    {
+        "id": "api.server.start_server.forward80to443.disabled_while_using_lets_encrypt",
+        "translation": "Трябва да разрешите Forward80To443, когато използвате LetsEncrypt"
+    },
+    {
+        "id": "api.scheme.patch_scheme.license.error",
+        "translation": "Вашият лиценз не поддържа обновяване на схеми за права"
+    },
+    {
+        "id": "api.scheme.get_teams_for_scheme.scope.error",
+        "translation": "Не може да се получат екипите от схемата, тъй като предоставената схема не е екипна схема."
+    },
+    {
+        "id": "api.scheme.get_channels_for_scheme.scope.error",
+        "translation": "Не могат да се получат каналите от схемата, тъй като предоставената схема не е канална схема."
+    },
+    {
+        "id": "api.scheme.delete_scheme.license.error",
+        "translation": "Вашият лиценз не поддържа схеми с права за изтриване"
+    },
+    {
+        "id": "api.scheme.create_scheme.license.error",
+        "translation": "Вашият лиценз не поддържа създаване на схеми за права."
+    },
+    {
+        "id": "api.roles.patch_roles.license.error",
+        "translation": "Вашият лиценз не поддържа разширени права."
+    },
+    {
+        "id": "api.restricted_system_admin",
+        "translation": "Това действие е забранено за ограничен системен администратор."
+    },
+    {
+        "id": "api.reaction.town_square_read_only",
+        "translation": "Реагирането на публикации не е възможно в канали само за четене."
+    },
+    {
+        "id": "api.reaction.save_reaction.user_id.app_error",
+        "translation": "Не можете да запазите реакцията за друг потребител."
+    },
+    {
+        "id": "api.reaction.save_reaction.invalid.app_error",
+        "translation": "Реакцията не е валидна."
+    },
+    {
+        "id": "api.reaction.save.archived_channel.app_error",
+        "translation": "Не можете да реагирате в архивиран канал."
+    },
+    {
+        "id": "api.reaction.delete.archived_channel.app_error",
+        "translation": "Не можете да премахнете реакция в архивиран канал."
+    },
+    {
+        "id": "api.push_notifications_ack.message.parse.app_error",
+        "translation": "Възникна грешка при изграждането на ack съобщение за изскачащо известие."
+    },
+    {
+        "id": "api.push_notifications_ack.forward.app_error",
+        "translation": "Възникна грешка при изпращане на разписка до услугата за изскачащи известия."
+    },
+    {
+        "id": "api.push_notifications.session.expired",
+        "translation": "Сесията изтече: Моля, влезте за да продължите да получавате известия. Сесиите за {{.siteName}} са конфигурирани от Вашия системен администратор, да изтичат на всеки {{.daysCount}} дни."
+    },
+    {
+        "id": "api.push_notifications.message.parse.app_error",
+        "translation": "Възникна грешка при изграждане на изскачащото известие."
+    },
+    {
+        "id": "api.push_notification.id_loaded.fetch.app_error",
+        "translation": "Възникна грешка при извличането на ID-зареденото изскачащо известие."
+    },
+    {
+        "id": "api.push_notification.id_loaded.default_message",
+        "translation": "Получихте ново съобщение."
+    },
+    {
+        "id": "api.push_notification.disabled.app_error",
+        "translation": "Изскачащите известия са деактивирани на този сървър."
+    },
+    {
+        "id": "api.preference.update_preferences.update_sidebar.app_error",
+        "translation": "Не можа да се обнови страничната лента в съответствие с обновените предпочитания"
+    },
+    {
+        "id": "api.preference.delete_preferences.update_sidebar.app_error",
+        "translation": "Не може да се обнови страничната лента в съответствие с изтрити предпочитания"
+    },
+    {
+        "id": "api.post.update_post.system_message.app_error",
+        "translation": "Системно съобщение не може да се обновява."
+    },
+    {
+        "id": "api.post.update_post.permissions_time_limit.app_error",
+        "translation": "Редактирането на публикации е разрешено само за {{.timeLimit}} секунди. Попитайте системния администратор за подробности."
+    },
+    {
+        "id": "api.post.update_post.permissions_details.app_error",
+        "translation": "Вече изтрит id={{.PostId}}."
+    },
+    {
+        "id": "api.post.update_post.can_not_update_post_in_deleted.error",
+        "translation": "Не може да се обнови публикация в изтрит канал."
+    },
+    {
+        "id": "api.post.send_notifications_and_forget.push_message",
+        "translation": "изпрати съобщение."
+    },
+    {
+        "id": "api.post.send_notifications_and_forget.push_image_only",
+        "translation": " прикачи файл."
+    },
+    {
+        "id": "api.post.send_notifications_and_forget.push_general_message",
+        "translation": " публикува съобщение."
+    },
+    {
+        "id": "api.post.send_notifications_and_forget.push_explicit_mention",
+        "translation": " Ви спомена."
+    },
+    {
+        "id": "api.post.send_notification_and_forget.push_comment_on_thread",
+        "translation": " коментира разговор, в който сте участвали."
+    },
+    {
+        "id": "api.post.send_notification_and_forget.push_comment_on_post",
+        "translation": " коментира публикацията Ви."
+    },
+    {
+        "id": "api.post.send_notification_and_forget.push_channel_mention",
+        "translation": " уведоми канала."
+    },
+    {
+        "id": "api.post.save_is_pinned_post.town_square_read_only",
+        "translation": "Този канал е само за четене. Само членове с разрешение могат да закачат или откачат публикации тук."
+    },
+    {
+        "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
+        "translation": "Не може да се обнови публикация в изтрит канал."
+    },
+    {
+        "id": "api.post.link_preview_disabled.app_error",
+        "translation": "Визуализациите на връзки са деактивирани от системния администратор."
+    },
+    {
+        "id": "api.post.get_message_for_notification.images_sent",
+        "translation": {
+            "one": "{{.Count}} изпратено изображение: {{.Filenames}}",
+            "other": "{{.Count}} изпратени изображения: {{.Filenames}}"
+        }
+    },
+    {
+        "id": "api.post.get_message_for_notification.files_sent",
+        "translation": {
+            "one": "{{.Count}} изпратен файл: {{.Filenames}}",
+            "other": "{{.Count}} изпратени файлове: {{.Filenames}}"
+        }
+    },
+    {
+        "id": "api.post.error_get_post_id.pending",
+        "translation": "Не можа да се получи чакащата публикация."
+    },
+    {
+        "id": "api.post.do_action.action_integration.app_error",
+        "translation": "Грешка в интеграцията на действието."
+    },
+    {
+        "id": "api.post.do_action.action_id.app_error",
+        "translation": "Невалиден id на действие."
+    },
+    {
+        "id": "api.post.disabled_here",
+        "translation": "@here е деактивиран, тъй като каналът има повече от {{.Users}} потребители."
+    },
+    {
+        "id": "api.post.disabled_channel",
+        "translation": "@channel е деактивиран, тъй като каналът има повече от {{.Users}} потребители."
+    },
+    {
+        "id": "api.post.disabled_all",
+        "translation": "@all е деактивиран, тъй като каналът има повече от {{.Users}} потребители."
+    },
+    {
+        "id": "api.post.delete_post.can_not_delete_post_in_deleted.error",
+        "translation": "Не може да се изтрие публикация в изтрит канал."
+    },
+    {
+        "id": "api.post.deduplicate_create_post.pending",
+        "translation": "Отхвърлен пост, тъй като друг клиент прави същата заявка."
+    },
+    {
+        "id": "api.post.deduplicate_create_post.failed_to_get",
+        "translation": "Неуспешно извличане на оригинална публикация след премахване на повторения на клиент, повтарящ същата заявка."
+    },
+    {
+        "id": "api.post.create_webhook_post.creating.app_error",
+        "translation": "Грешка при създаване на публикация."
+    },
+    {
+        "id": "api.post.create_post.town_square_read_only",
+        "translation": "Този канал е само за четене. Тук могат да публикуват само членове с разрешение."
+    },
+    {
+        "id": "api.post.create_post.root_id.app_error",
+        "translation": "Невалиден RootId параметър."
+    },
+    {
+        "id": "api.post.create_post.parent_id.app_error",
+        "translation": "Невалиден ParentId параметър."
+    },
+    {
+        "id": "api.post.create_post.channel_root_id.app_error",
+        "translation": "Невалиден ChannelId за RootId параметър."
+    },
+    {
+        "id": "api.post.create_post.can_not_post_to_deleted.error",
+        "translation": "Не може да се публикува в изтрит канал."
+    },
+    {
+        "id": "api.post.check_for_out_of_channel_mentions.message.one",
+        "translation": "@{{.Username}} не е уведомен при това споменаване, защото не е в канала."
+    },
+    {
+        "id": "api.post.check_for_out_of_channel_mentions.message.multiple",
+        "translation": "@{{.Usernames}} и @{{.LastUsername}} не са били уведомени при това споменаване, защото не са в канала."
+    },
+    {
+        "id": "api.post.check_for_out_of_channel_groups_mentions.message.one",
+        "translation": "@{{.Username}} не е уведомен при това споменаване, защото не е в канала. Не може да бъде добавен към канала, тъй като не е член на свързаните групи. За да го добавите към този канал, трябва да бъде добавен към свързаните групи."
+    },
+    {
+        "id": "api.post.check_for_out_of_channel_groups_mentions.message.multiple",
+        "translation": "@{{.Usernames}} и @{{.LastUsername}} не са били уведомени при това споменаване, защото не са в канала. Те не могат да бъдат добавени към канала, тъй като не са членове на свързаните групи. За да ги добавите към този канал, те трябва да бъдат добавени към свързаните групи."
+    },
+    {
+        "id": "api.post.check_for_out_of_channel_group_users.message.none",
+        "translation": "@{{.GroupName}} няма членове на този екип"
+    },
+    {
+        "id": "api.plugin.verify_plugin.app_error",
+        "translation": "Не може да се провери подписа на приставката."
+    },
+    {
+        "id": "api.plugin.upload.no_file.app_error",
+        "translation": "Липсващ файл в multipart/form заявката."
+    },
+    {
+        "id": "api.plugin.upload.file.app_error",
+        "translation": "Не може да се отвори файл в multipart/form заявката."
+    },
+    {
+        "id": "api.plugin.upload.array.app_error",
+        "translation": "Файловият масив е празен в multipart/form заявката."
+    },
+    {
+        "id": "api.plugin.install.download_failed.app_error",
+        "translation": "При изтеглянето на приставката възникна грешка."
+    },
+    {
+        "id": "api.plugin.add_public_key.open.app_error",
+        "translation": "Възникна грешка при отварянето на файла с публичен ключ."
+    },
+    {
+        "id": "api.outgoing_webhook.disabled.app_error",
+        "translation": "Изходящите webhooks са деактивирани от системния администратор."
+    },
+    {
+        "id": "api.oauth.singup_with_oauth.invalid_link.app_error",
+        "translation": "Връзката за регистрация изглежда е невалидна."
+    },
+    {
+        "id": "api.oauth.singup_with_oauth.expired_link.app_error",
+        "translation": "Връзката за регистрация е изтекла."
+    },
+    {
+        "id": "api.oauth.singup_with_oauth.disabled.app_error",
+        "translation": "Регистрацията на потребители е деактивирана."
+    },
+    {
+        "id": "api.oauth.revoke_access_token.get.app_error",
+        "translation": "Грешка при получаване на токън за достъп от базата данни преди изтриване."
+    },
+    {
+        "id": "api.oauth.revoke_access_token.del_token.app_error",
+        "translation": "Грешка при изтриване на токън за достъп от базата данни."
+    },
+    {
+        "id": "api.oauth.revoke_access_token.del_session.app_error",
+        "translation": "Грешка при изтриване на сесия от базата данни."
+    },
+    {
+        "id": "api.oauth.register_oauth_app.turn_off.app_error",
+        "translation": "Системният администратор е изключил доставчика на услуги OAuth2."
+    },
+    {
+        "id": "api.oauth.invalid_state_token.app_error",
+        "translation": "Невалиден токън за състояние."
+    },
+    {
+        "id": "api.oauth.get_access_token.refresh_token.app_error",
+        "translation": "invalid_grant: Невалиден токън за опресняване."
+    },
+    {
+        "id": "api.oauth.get_access_token.redirect_uri.app_error",
+        "translation": "invalid_request: Предоставеният redirect_uri не съвпада с redirect_uri от кода за разрешение."
+    },
+    {
+        "id": "api.oauth.get_access_token.missing_refresh_token.app_error",
+        "translation": "invalid_request: Липсващ refresh_token."
+    },
+    {
+        "id": "api.oauth.get_access_token.missing_code.app_error",
+        "translation": "invalid_request: Липсващ код."
+    },
+    {
+        "id": "api.oauth.get_access_token.internal_user.app_error",
+        "translation": "server_error: Среща вътрешна грешка на сървъра, докато се извлича потребител от базата данни."
+    },
+    {
+        "id": "api.oauth.get_access_token.internal_session.app_error",
+        "translation": "server_error: Възникна вътрешна грешка на сървъра, докато запазва сесията в базата данни."
+    },
+    {
+        "id": "api.oauth.get_access_token.internal_saving.app_error",
+        "translation": "server_error: Възникна вътрешна грешка на сървъра при запазване на токъна за достъп в базата данни."
+    },
+    {
+        "id": "api.oauth.get_access_token.internal.app_error",
+        "translation": "server_error: Възникна вътрешна грешка на сървъра при достъп до базата данни."
+    },
+    {
+        "id": "api.oauth.get_access_token.expired_code.app_error",
+        "translation": "invalid_grant: Невалиден или изтекъл authorization code."
+    },
+    {
+        "id": "api.oauth.get_access_token.disabled.app_error",
+        "translation": "Системният администратор е изключил доставчика на услуги OAuth2."
+    },
+    {
+        "id": "api.oauth.get_access_token.credentials.app_error",
+        "translation": "invalid_client: Невалидни идентификационни данни на клиента."
+    },
+    {
+        "id": "api.oauth.get_access_token.bad_grant.app_error",
+        "translation": "invalid_request: Непавилен grant_type."
+    },
+    {
+        "id": "api.oauth.get_access_token.bad_client_secret.app_error",
+        "translation": "invalid_request: Липсващ client_secret."
+    },
+    {
+        "id": "api.oauth.get_access_token.bad_client_id.app_error",
+        "translation": "invalid_request: неправилен client_id."
+    },
+    {
+        "id": "api.oauth.authorize_oauth.disabled.app_error",
+        "translation": "Системният администратор е изключил доставчика на услуги OAuth2."
+    },
+    {
+        "id": "api.oauth.allow_oauth.turn_off.app_error",
+        "translation": "Системният администратор е изключил доставчика на услуги OAuth2."
+    },
+    {
+        "id": "api.oauth.allow_oauth.redirect_callback.app_error",
+        "translation": "invalid_request: Предоставеният redirect_url не съвпада с регистрирания callback_url."
+    },
+    {
+        "id": "api.marshal_error",
+        "translation": "marshal грешка"
+    },
+    {
+        "id": "api.license.request_trial_license.no-site-url.app_error",
+        "translation": "Не може да се поиска пробен лиценз. Моля, конфигурирайте URL адрес на сайта в секцията за уеб сървъра на Mattermost System Console."
+    },
+    {
+        "id": "api.license.request_trial_license.app_error",
+        "translation": "Не можете да получите пробен лиценз, моля опитайте отново или се свържете със support@mattermost.com."
+    },
+    {
+        "id": "api.license.request-trial.bad-request.terms-not-accepted",
+        "translation": "Трябва да приемете Mattermost Software Evaluation Agreement и политиката за поверителност, за да поискате лиценз."
+    },
+    {
+        "id": "api.license.request-trial.bad-request",
+        "translation": "Броят на заявените потребители не е правилен."
+    },
+    {
+        "id": "api.license.remove_expired_license.failed.error",
+        "translation": "Неуспешно изпращането на имейла за деактивиране на лиценз."
+    },
+    {
+        "id": "api.license.client.old_format.app_error",
+        "translation": "Новия формат за клиентски лиценз все още не се поддържа. Моля, посочете format = old в низа на заявката."
+    },
+    {
+        "id": "api.license.add_license.unique_users.app_error",
+        "translation": "Този лиценз поддържа само {{.Users}} потребители, когато системата ви има {{.Count}} уникални потребители. Уникалните потребители се броят ясно по имейл адрес. Можете да видите общия брой потребители от Отчети на сайта -> Преглед на статистиката."
+    },
+    {
+        "id": "api.license.add_license.save_active.app_error",
+        "translation": "Активния лицензен ID не е записан правилно."
+    },
+    {
+        "id": "api.license.add_license.save.app_error",
+        "translation": "Лиценза не е записан правилно."
+    },
+    {
+        "id": "api.license.add_license.invalid_count.app_error",
+        "translation": "Не може да се преброят общо уникалните потребители."
+    },
+    {
+        "id": "api.license.add_license.invalid.app_error",
+        "translation": "Невалиден лицензен файл."
+    },
+    {
+        "id": "api.license.add_license.expired.app_error",
+        "translation": "Лицензът е изтекъл или все още не е стартиран."
+    },
+    {
+        "id": "api.ldap_groups.license_error",
+        "translation": "Вашият лиценз не поддържа ldap групи"
+    },
+    {
+        "id": "api.ldap_groups.existing_user_name_error",
+        "translation": "името на група вече съществува като потребителско име"
+    },
+    {
+        "id": "api.ldap_groups.existing_reserved_name_error",
+        "translation": "името на група вече съществува като запазено име"
+    },
+    {
+        "id": "api.ldap_groups.existing_group_name_error",
+        "translation": "името на група вече съществува"
+    },
+    {
+        "id": "api.ldap_group.not_found",
+        "translation": "ldap групата не съществува"
+    },
+    {
+        "id": "api.job.unable_to_download_job",
+        "translation": "Не може да се свали тази задача"
+    },
+    {
+        "id": "api.io_error",
+        "translation": "Входно/изходна грешка"
+    },
+    {
+        "id": "api.invalid_channel",
+        "translation": "Каналът, посочен в заявката, не е свързан с потребителя"
+    },
+    {
+        "id": "api.incoming_webhook.invalid_username.app_error",
+        "translation": "Невалидно потребителско име."
+    },
+    {
+        "id": "api.incoming_webhook.disabled.app_error",
+        "translation": "Входящите webhooks са деактивирани от системния администратор."
+    },
+    {
+        "id": "api.image.get.app_error",
+        "translation": "Заявеният URL адрес на изображение не може да бъде анализиран."
+    },
+    {
+        "id": "api.file.write_file_locally.writing.app_error",
+        "translation": "Възникна грешка при запис във файловото хранилище на локалния сървър."
+    },
+    {
+        "id": "api.file.write_file_locally.create_dir.app_error",
+        "translation": "Възникна грешка при създаването на директория за новия файл."
+    },
+    {
+        "id": "api.file.write_file.s3.app_error",
+        "translation": "Възникна грешка при запис в S3."
+    },
+    {
+        "id": "api.file.upload_file.too_large_detailed.app_error",
+        "translation": "Не може да се качи файла {{.Filename}}. {{.Length}} байта надхвърля максималните {{.Limit}} байта."
+    },
+    {
+        "id": "api.file.upload_file.rejected_by_plugin.app_error",
+        "translation": "Не може да се качи файла {{.Filename}}. Отхвърлен от плъгин: {{.Reason}}"
+    },
+    {
+        "id": "api.file.upload_file.read_request.app_error",
+        "translation": "Не могат да се качат файлове. Грешка при четене или анализ данните на заявката."
+    },
+    {
+        "id": "api.file.upload_file.read_form_value.app_error",
+        "translation": "Не могат да се качат файлове. Грешка при четене на стойност от {{.Formname}}."
+    },
+    {
+        "id": "api.file.upload_file.multiple_channel_ids.app_error",
+        "translation": "Не могат да се качат файлове. Множество конфликтни channel_ids."
+    },
+    {
+        "id": "api.file.upload_file.large_image_detailed.app_error",
+        "translation": "Размерите на {{.Filename}} ({{.Width}} на {{.Height}} пиксела) превишават ограничението."
+    },
+    {
+        "id": "api.file.upload_file.large_image.app_error",
+        "translation": "Файл над максималните размери не може да бъде качен: {{.Filename}}"
+    },
+    {
+        "id": "api.file.upload_file.incorrect_number_of_files.app_error",
+        "translation": "Невъзможно качването на файл. Зададен е неправилен брой файлове."
+    },
+    {
+        "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
+        "translation": "Невъзможно качването на файл. Има {{.NumClientIds}} client_ids за {{.NumFiles}} файла."
+    },
+    {
+        "id": "api.file.upload_file.incorrect_channelId.app_error",
+        "translation": "Невъзможно качването на файл. Неправилно ID на канала: {{.channelId}}"
+    },
+    {
+        "id": "api.file.test_connection.s3.connection.app_error",
+        "translation": "Лоша връзка към S3 или minio."
+    },
+    {
+        "id": "api.file.test_connection.s3.bucket_exists.app_error",
+        "translation": "Грешка при проверка за съществуване на S3 bucket."
+    },
+    {
+        "id": "api.file.test_connection.s3.bucked_create.app_error",
+        "translation": "Не можа да се създаде S3 bucket."
+    },
+    {
+        "id": "api.file.test_connection.local.connection.app_error",
+        "translation": "Нямате права за запис в указан локален път или друга грешка."
+    },
+    {
+        "id": "api.file.reader.s3.app_error",
+        "translation": "Възникна грешка при отваряне на четец за S3 хранилище."
+    },
+    {
+        "id": "api.file.reader.reading_local.app_error",
+        "translation": "Възникна грешка при отваряне на четец за файловото хранилище в локалния сървър."
+    },
+    {
+        "id": "api.file.read_file.s3.app_error",
+        "translation": "Възникна грешка при четене от S3 хранилище."
+    },
+    {
+        "id": "api.file.read_file.reading_local.app_error",
+        "translation": "Възникна грешка при четене на файловото хранилище в локалния сървър."
+    },
+    {
+        "id": "api.file.no_driver.app_error",
+        "translation": "Няма избран файлов драйвер."
+    },
+    {
+        "id": "api.file.move_file.rename.app_error",
+        "translation": "Не можа да се премести файл локално."
+    },
+    {
+        "id": "api.file.move_file.delete_from_s3.app_error",
+        "translation": "Не можа да се изтрие файл в S3."
+    },
+    {
+        "id": "api.file.move_file.copy_within_s3.app_error",
+        "translation": "Не можа да се копира файл в S3."
+    },
+    {
+        "id": "api.file.get_public_link.no_post.app_error",
+        "translation": "Не можа да се вземе публичната връзка към файл. Файлът трябва да бъде прикачен към публикация, която може да бъде прочетена от текущия потребител."
+    },
+    {
+        "id": "api.file.get_public_link.disabled.app_error",
+        "translation": "Публичните връзки са деактивирани."
+    },
+    {
+        "id": "api.file.get_file_thumbnail.no_thumbnail.app_error",
+        "translation": "Файлът няма миниатюрно изображение."
+    },
+    {
+        "id": "api.file.get_file_preview.no_preview.app_error",
+        "translation": "Файлът няма изображение за предварителен преглед."
+    },
+    {
+        "id": "api.file.get_file.public_invalid.app_error",
+        "translation": "Публичната връзка изглежда не е валидна."
+    },
+    {
+        "id": "api.file.file_exists.s3.app_error",
+        "translation": "Не може да се провери дали файлът съществува."
+    },
+    {
+        "id": "api.file.file_exists.exists_local.app_error",
+        "translation": "Не може да се провери дали файлът съществува."
+    },
+    {
+        "id": "api.file.attachments.disabled.app_error",
+        "translation": "Прикачените файлове са деактивирани на този сървър."
+    },
+    {
+        "id": "api.emoji.upload.open.app_error",
+        "translation": "Невъзможно създаването на емоджи. Възникна грешка при отваряне на прикаченото изображение."
+    },
+    {
+        "id": "api.emoji.upload.large_image.too_large.app_error",
+        "translation": "Невъзможно създаването на емоджи. Изображението трябва да е по-малко от {{.MaxWidth}} на {{.MaxHeight}}."
+    },
+    {
+        "id": "api.emoji.upload.large_image.gif_encode_error",
+        "translation": "Невъзможно създаването на емоджи. Възникна грешка при кодиране на GIF изображението."
+    },
+    {
+        "id": "api.emoji.upload.large_image.gif_decode_error",
+        "translation": "Невъзможно създаването на емоджи. Възникна грешка при декодиране на GIF изображението."
+    },
+    {
+        "id": "api.emoji.upload.large_image.encode_error",
+        "translation": "Невъзможно създаването на емоджи. Възникна грешка при кодиране на изображението."
+    },
+    {
+        "id": "api.emoji.upload.large_image.decode_error",
+        "translation": "Невъзможно създаването на емоджи. Възникна грешка при декодиране на изображението."
+    },
+    {
+        "id": "api.emoji.upload.image.app_error",
+        "translation": "Невъзможно създаването на емоджи. Файла трябва да е PNG, JPEG или GIF."
+    },
+    {
+        "id": "api.emoji.storage.app_error",
+        "translation": "Съхранението на файлове не е конфигурирано правилно. Моля, конфигурирайте за S3 или локално съхраняване на файлове в сървъра."
+    },
+    {
+        "id": "api.emoji.get_image.read.app_error",
+        "translation": "Не можа да се прочете файла с изображение за емоджи."
+    },
+    {
+        "id": "api.emoji.get_image.decode.app_error",
+        "translation": "Не можа да се декодира файла с изображение за емоджи."
+    },
+    {
+        "id": "api.emoji.disabled.app_error",
+        "translation": "Персонализираните емоджи са деактивирани от системния администратор."
+    },
+    {
+        "id": "api.emoji.create.too_large.app_error",
+        "translation": "Невъзможно създаването на емоджи. Изображението трябва да е по-малко от 1 MB."
+    },
+    {
+        "id": "api.emoji.create.parse.app_error",
+        "translation": "Невъзможно създаването на емоджи. Заявката не можа да се разбере."
+    },
+    {
+        "id": "api.emoji.create.other_user.app_error",
+        "translation": "Невалидно потребителско id."
+    },
+    {
+        "id": "api.emoji.create.internal_error",
+        "translation": "server_error: Възникна вътрешна грешка в сървъра при създаването на емоджита."
+    },
+    {
+        "id": "api.emoji.create.duplicate.app_error",
+        "translation": "Не може да се създаде емоджи. Съществува друго емоджи със същото име."
+    },
+    {
+        "id": "api.email_batching.send_batched_email_notification.subject",
+        "translation": {
+            "one": "[{{.SiteName}}] Ново известие към {{.Day}}.{{.Month}}.{{.Year}}",
+            "other": "[{{.SiteName}}] Нови известия към {{.Day}}.{{.Month}}.{{.Year}}"
+        }
+    },
+    {
+        "id": "api.email_batching.send_batched_email_notification.body_text",
+        "translation": {
+            "one": "Имате ново съобщение.",
+            "other": "Имате {{.Count}} нови съобщения."
+        }
+    },
+    {
+        "id": "api.email_batching.render_batched_post.notification",
+        "translation": "Известие от "
+    },
+    {
+        "id": "api.email_batching.render_batched_post.group_message",
+        "translation": "Групово съобщение от "
+    },
+    {
+        "id": "api.email_batching.render_batched_post.go_to_post",
+        "translation": "Иди на публикация"
+    },
+    {
+        "id": "api.email_batching.render_batched_post.direct_message",
+        "translation": "Лично съобщение от "
+    },
+    {
+        "id": "api.email_batching.render_batched_post.date",
+        "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Day}} {{.Month}}"
+    },
+    {
+        "id": "api.email_batching.add_notification_email_to_batch.channel_full.app_error",
+        "translation": "Приемният канал за серийно получаване на имейли е пълен. Моля, увеличете размера на EmailBatchingBufferSize."
+    },
+    {
+        "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",
+        "translation": "Серийните имейли са деактивирани от системния администратор."
+    },
+    {
+        "id": "api.email.send_warn_metric_ack.missing_server.app_error",
+        "translation": "SMTP сървъра е задължителен"
+    },
+    {
+        "id": "api.email.send_warn_metric_ack.invalid_warn_metric.app_error",
+        "translation": "Не можа да намери warn metric."
+    },
+    {
+        "id": "api.email.send_warn_metric_ack.failure.app_error",
+        "translation": "Неуспешно изпращане на имейл за потвърждение от администратор"
+    },
+    {
+        "id": "api.create_terms_of_service.empty_text.app_error",
+        "translation": "Въведете текста на Вашите персонализирани условия за ползване."
+    },
+    {
+        "id": "api.create_terms_of_service.custom_terms_of_service_disabled.app_error",
+        "translation": "Функцията персонализирани условия за ползване е забранена."
+    },
+    {
+        "id": "api.context.token_provided.app_error",
+        "translation": "Сесията не е OAuth, но е предоставен токън в низа на заявката."
+    },
+    {
+        "id": "api.context.session_expired.app_error",
+        "translation": "Невалидна или изтекла сесия, моля влезте отново."
+    },
+    {
+        "id": "api.context.server_busy.app_error",
+        "translation": "Сървъра е зает. Некритичните услуги са временно недостъпни."
+    },
+    {
+        "id": "api.context.mfa_required.app_error",
+        "translation": "Многофакторно удостоверяване се изисква на този сървър."
+    },
+    {
+        "id": "api.context.local_origin_required.app_error",
+        "translation": "Тази крайна точка изисква локален произход на заявката."
+    },
+    {
+        "id": "api.context.invalid_url_param.app_error",
+        "translation": "Невалиден или липсващ параметър {{.Name}} в URL на заявката."
+    },
+    {
+        "id": "api.context.invalid_token.error",
+        "translation": "Невалиден токън на сесия={{.Token}}, гр.={{.Error}}"
+    },
+    {
+        "id": "api.context.invalid_param.app_error",
+        "translation": "Невалиден {{.Name}} параметър."
+    },
+    {
+        "id": "api.context.invalid_body_param.app_error",
+        "translation": "Невалиден или липсващ {{.Name}} в тялото на заявката."
+    },
+    {
+        "id": "api.context.get_user.app_error",
+        "translation": "Не можа да се вземе потребителя от UserID на сесията."
+    },
+    {
+        "id": "api.context.404.app_error",
+        "translation": "Съжаляваме, страницата не е намерена."
+    },
+    {
+        "id": "api.config.update_config.restricted_merge.app_error",
+        "translation": "Неуспешно сливане на зададената конфигурация."
+    },
+    {
+        "id": "api.config.update_config.clear_siteurl.app_error",
+        "translation": "URL на сайта не може да бъде изчистен."
+    },
+    {
+        "id": "api.config.client.old_format.app_error",
+        "translation": "Новия формат за клиентската конфигурация все още не се поддържа. Моля, посочете format = old в низа на заявката."
+    },
+    {
+        "id": "api.command_shrug.name",
+        "translation": "свий"
+    },
+    {
+        "id": "api.command_shrug.hint",
+        "translation": "[съобщение]"
+    },
+    {
+        "id": "api.command_shrug.desc",
+        "translation": "Добавя ¯\\_(ツ)_/¯ в съобщението"
+    },
+    {
+        "id": "api.command_shortcuts.unsupported.app_error",
+        "translation": "Командата бързи клавиши не се поддържа на Вашето устройство."
+    },
+    {
+        "id": "api.command_shortcuts.name",
+        "translation": "бързи клавиши"
+    },
+    {
+        "id": "api.command_shortcuts.desc",
+        "translation": "Покажи списък с бързи клавиши"
+    },
+    {
+        "id": "api.command_settings.unsupported.app_error",
+        "translation": "Командата настройки не се поддържа на Вашето устройство."
+    },
+    {
+        "id": "api.command_settings.name",
+        "translation": "настройки"
+    },
+    {
+        "id": "api.command_settings.desc",
+        "translation": "Отвори диалог с настройки на профила"
+    },
+    {
+        "id": "api.command_search.unsupported.app_error",
+        "translation": "Командата търсене не се поддържа на Вашето устройство."
+    },
+    {
+        "id": "api.command_search.name",
+        "translation": "търси"
+    },
+    {
+        "id": "api.command_search.hint",
+        "translation": "[текст]"
+    },
+    {
+        "id": "api.command_search.desc",
+        "translation": "Търси текст в съобщенията"
+    },
+    {
+        "id": "api.command_remove.user_not_in_channel",
+        "translation": "@{{.Username}} не е член на този канал."
+    },
+    {
+        "id": "api.command_remove.permission.app_error",
+        "translation": "Нямате подходящи права да премахнете члена."
+    },
+    {
+        "id": "api.command_remove.name",
+        "translation": "премахни"
+    },
+    {
+        "id": "api.command_remove.missing.app_error",
+        "translation": "Не намерихме потребителя. Може да е деактивиран от системния администратор."
+    },
+    {
+        "id": "api.command_remove.message.app_error",
+        "translation": "Съобщението трябва да се предостави с командата /remove или /kick."
+    },
+    {
+        "id": "api.command_remove.hint",
+        "translation": "@[потр.име]"
+    },
+    {
+        "id": "api.command_remove.group_constrained_user_denied",
+        "translation": "Не можете да премахнете потребителя от канала, тъй като е член на групите, свързани с този канал. За да го премахнете от този канал, трябва да бъде премахнати от свързаните групи."
+    },
+    {
+        "id": "api.command_remove.direct_group.app_error",
+        "translation": "Не може да премахнете някой от канал за лични съобщения."
+    },
+    {
+        "id": "api.command_remove.desc",
+        "translation": "Премахни член от канала"
+    },
+    {
+        "id": "api.command_open.name",
+        "translation": "отвори"
+    },
+    {
+        "id": "api.command_online.success",
+        "translation": "Вече сте 'на линия'"
+    },
+    {
+        "id": "api.command_online.name",
+        "translation": "на линия"
+    },
+    {
+        "id": "api.command_online.desc",
+        "translation": "Задайте статуса си на 'на линия'"
+    },
+    {
+        "id": "api.command_offline.success",
+        "translation": "Вече сте 'извън линия'"
+    },
+    {
+        "id": "api.command_offline.name",
+        "translation": "извън линия"
+    },
+    {
+        "id": "api.command_offline.desc",
+        "translation": "Задайте статуса си на 'извън линия'"
+    },
+    {
+        "id": "api.command_mute.success_unmute_direct_msg",
+        "translation": "Този канал вече не е заглушен."
+    },
+    {
+        "id": "api.command_mute.success_unmute",
+        "translation": "{{.Channel}} вече не е заглушен."
+    },
+    {
+        "id": "api.command_mute.success_mute_direct_msg",
+        "translation": "Няма да получавате известия за този канал, докато е заглушен."
+    },
+    {
+        "id": "api.command_mute.success_mute",
+        "translation": "Няма да получавате известия за канала {{.Channel}}, докато е заглушен."
+    },
+    {
+        "id": "api.command_mute.not_member.error",
+        "translation": "Не може да заглушите канала {{.Channel}} защото не сте член."
     }
 ]
