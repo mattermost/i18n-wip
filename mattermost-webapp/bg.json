@@ -304,5 +304,13 @@
     "about.database": "База от данни",
     "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Всички права запазени",
     "about.buildnumber": "Номер на версия:",
-    "members_popover.button.message": "съобщение"
+    "members_popover.button.message": "съобщение",
+    "warn_metric_ack_modal.contact_support": "Свържете се с нас",
+    "signup_user_completed.no_open_server": "Този сървър не позволява отворени регистрации. Моля, говорете с вашия администратор, за да получите покана.",
+    "post_info.system": "Система",
+    "announcement_bar.error.number_active_users_warn_metric_status_ack.text": "Благодарим ви, че се свързахте с Mattermost. Ще се свържем с вас скоро.",
+    "admin.user_item.resetPwd": "Нулиране на парола",
+    "admin.reset_password.titleReset": "Нулиране на парола",
+    "admin.group_settings.group_detail.invalid_length": "Името трябва да е от 1 до 64 малки буквено-цифрови знака.",
+    "create_post.read_only": "Този канал е само за четене. Тук могат да публикуват само членове с разрешение."
 }
