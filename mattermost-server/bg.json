@@ -745,11 +745,11 @@
     },
     {
         "id": "api.user.upload_profile_user.array.app_error",
-        "translation": "Заявката съдържа празен масив под 'image'"
+        "translation": "Заявката съдържа празен масив под 'image'."
     },
     {
         "id": "api.user.update_active.permissions.app_error",
-        "translation": "Нямате необходимите права"
+        "translation": "Нямате необходимите права."
     },
     {
         "id": "api.user.saml.not_available.app_error",
@@ -773,7 +773,7 @@
     },
     {
         "id": "api.team.set_team_icon.array.app_error",
-        "translation": "Заявката съдържа празен масив под 'image'"
+        "translation": "Заявката съдържа празен масив под 'image'."
     },
     {
         "id": "api.team.import_team.open.app_error",
@@ -785,7 +785,7 @@
     },
     {
         "id": "api.team.import_team.array.app_error",
-        "translation": "Заявката съдържа празен масив под 'file'"
+        "translation": "Заявката съдържа празен масив под 'file'."
     },
     {
         "id": "api.team.add_user_to_team.added",
@@ -821,7 +821,7 @@
     },
     {
         "id": "api.license.add_license.array.app_error",
-        "translation": "Заявката съдържа празен масив под 'image'"
+        "translation": "Заявката съдържа празен масив под 'image'."
     },
     {
         "id": "api.file.upload_file.storage.app_error",
@@ -921,7 +921,7 @@
     },
     {
         "id": "api.channel.create_group.bad_user.app_error",
-        "translation": "Един от зададените потребители не съществува"
+        "translation": "Един от зададените потребители не съществува."
     },
     {
         "id": "api.channel.create_group.bad_size.app_error",
@@ -2868,7 +2868,7 @@
     },
     {
         "id": "api.slackimport.slack_add_channels.added",
-        "translation": "\nКанала добавени:\n"
+        "translation": "\nДобавени канали:\n"
     },
     {
         "id": "api.slackimport.slack_add_bot_user.unable_import",
@@ -2976,7 +2976,7 @@
     },
     {
         "id": "store.sql_team.migrate_team_members.select.app_error",
-        "translation": "Неуспешно избиране на партидата от членовете на екипа."
+        "translation": " Неуспешно избиране на група от членове на екипа."
     },
     {
         "id": "bleveengine.stop_user_index.error",
@@ -3032,7 +3032,7 @@
     },
     {
         "id": "model.file_info.is_valid.id.app_error",
-        "translation": "Невалидна стойност за идентификатор"
+        "translation": "Невалидна стойност за id."
     },
     {
         "id": "api.command_echo.desc",
@@ -3044,7 +3044,7 @@
     },
     {
         "id": "model.oauth.is_valid.creator_id.app_error",
-        "translation": "Невалиден идентификатор на създател"
+        "translation": "Невалиден id на създател."
     },
     {
         "id": "app.notification.subject.group_message.full",
@@ -3124,7 +3124,7 @@
     },
     {
         "id": "model.access.is_valid.redirect_uri.app_error",
-        "translation": "Невалиден ури за пренасочване"
+        "translation": "Невалиден redirect uri."
     },
     {
         "id": "store.sql_channel.save.archived_channel.app_error",
@@ -3160,7 +3160,7 @@
     },
     {
         "id": "model.compliance.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер"
+        "translation": "Невалиден id."
     },
     {
         "id": "app.import.validate_reply_import_data.message_length.error",
@@ -3252,7 +3252,7 @@
     },
     {
         "id": "web.error.unsupported_browser.open_system_browser.edge",
-        "translation": "Open Edge"
+        "translation": "Опън едж (Open Edge)"
     },
     {
         "id": "app.session.analytics_session_count.app_error",
@@ -3344,7 +3344,7 @@
     },
     {
         "id": "model.team.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер"
+        "translation": "Невалиден id."
     },
     {
         "id": "model.config.is_valid.ldap_id",
@@ -3372,7 +3372,7 @@
     },
     {
         "id": "ent.ldap.create_fail",
-        "translation": "Потребителят на LDAP не може да бъде създаден"
+        "translation": "Не успя да се създаде LDAP потребител."
     },
     {
         "id": "api.templates.invite_body.button",
@@ -3420,7 +3420,7 @@
     },
     {
         "id": "model.channel.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер"
+        "translation": "Невалиден id."
     },
     {
         "id": "model.config.is_valid.saml_guest_attribute.app_error",
@@ -3532,7 +3532,7 @@
     },
     {
         "id": "api.templates.warn_metric_ack.body.contact_name_header",
-        "translation": "За контакти:"
+        "translation": "За контакти: "
     },
     {
         "id": "model.config.is_valid.image_proxy_type.app_error",
@@ -3548,7 +3548,7 @@
     },
     {
         "id": "model.command.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер"
+        "translation": "Невалиден id."
     },
     {
         "id": "store.sql_channel.update_last_viewed_at_post.app_error",
@@ -4016,11 +4016,11 @@
     },
     {
         "id": "app.bot.get_disable_bot_sysadmin_message",
-        "translation": "{{if .disableBotsSetting}} {{if .printAllBots}} {{. UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани. {{.BotNames}} {{else}} {{. UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното: {{.BotNames}} {{край}} Можете да вземете собственост върху всеки бот, като го активирате на ** Интеграции> Бот акаунти ** и създаване на нови маркери за бота. За повече информация вижте нашата [документация] (https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled). {{else}} {{if .printAllBots}} {{. UserName}} е деактивиран. Те управляваха следните бот акаунти, които все още са активирани. {{.BotNames}} {{else}} {{. UserName}} е деактивиран. Те управляваха {{.NumBots}} бот акаунти, които все още са активирани, включително следното: {{.BotNames}} {{край}} Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на ** Интеграции> Бот акаунт*сздаване на нови маркери за бота. За повече информация вижте нашата [документация] (https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled) , Ако искате бот акаунти да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот акаунти, когато собственикът е деактивиран“ в ** Системна конзола> Интеграции> Бот акаунти ** на истина. {{End}}"
+        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създдете на нови токъни за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот акаунти, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създдете на нови токъни за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nАко искате бот акаунти да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот акаунти, когато собственикът е деактивиран“ в **истемна конзола> Интеграции> Бот профили** на да.{{end}}"
     },
     {
         "id": "model.access.is_valid.client_id.app_error",
-        "translation": "Невалиден идентификационен номер на клиента"
+        "translation": "Невалиден id на клиента."
     },
     {
         "id": "store.sql_channel.remove_all_deactivated_members.app_error",
@@ -4164,7 +4164,7 @@
     },
     {
         "id": "model.channel.is_valid.creator_id.app_error",
-        "translation": "Невалиден идентификатор на създател"
+        "translation": "Невалиден id на създател."
     },
     {
         "id": "app.import.validate_channel_import_data.name_missing.error",
@@ -4312,7 +4312,7 @@
     },
     {
         "id": "model.command.is_valid.display_name.app_error",
-        "translation": "Невалидно заглавие"
+        "translation": "Невалидно заглавие."
     },
     {
         "id": "app.notification.body.text.direct.generic",
@@ -4380,7 +4380,7 @@
     },
     {
         "id": "model.user_access_token.is_valid.id.app_error",
-        "translation": "Невалидна стойност за идентификатор"
+        "translation": "Невалидна стойност за id."
     },
     {
         "id": "app.job.download_export_results_not_enabled",
@@ -4564,7 +4564,7 @@
     },
     {
         "id": "model.authorize.is_valid.redirect_uri.app_error",
-        "translation": "Невалиден ури за пренасочване"
+        "translation": "Невалиден redirect uri."
     },
     {
         "id": "app.import.validate_channel_import_data.display_name_missing.error",
@@ -4604,7 +4604,7 @@
     },
     {
         "id": "model.job.is_valid.id.app_error",
-        "translation": "Невалиден идентификатор на работа"
+        "translation": "Невалиден id на работа."
     },
     {
         "id": "model.user.is_valid.create_at.app_error",
@@ -4828,7 +4828,7 @@
     },
     {
         "id": "api.templates.warn_metric_ack.body.contact_email_header",
-        "translation": "Електронна поща:"
+        "translation": "Електронна поща: "
     },
     {
         "id": "model.team.is_valid.create_at.app_error",
@@ -4940,7 +4940,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_max_page_size.app_error",
-        "translation": "Невалидна стойност на максималния размер на страницата"
+        "translation": "Невалидна стойност на максималния размер на страницата."
     },
     {
         "id": "store.sql_channel.get_member.missing.app_error",
@@ -5008,7 +5008,7 @@
     },
     {
         "id": "model.command_hook.parent_id.app_error",
-        "translation": "Невалиден идентификационен номер на родител"
+        "translation": "Невалиден родителски id."
     },
     {
         "id": "api.templates.deactivate_subject",
@@ -5112,7 +5112,7 @@
     },
     {
         "id": "model.command_hook.root_id.app_error",
-        "translation": "Невалиден идентификатор на корен"
+        "translation": "Невалиден root id."
     },
     {
         "id": "app.team.rename_team.name_occupied",
@@ -5352,7 +5352,7 @@
     },
     {
         "id": "model.post.is_valid.root_id.app_error",
-        "translation": "Невалиден идентификатор на корен"
+        "translation": "Невалиден root id."
     },
     {
         "id": "store.sql_channel.save_channel.existing.app_error",
@@ -5496,7 +5496,7 @@
     },
     {
         "id": "model.authorize.is_valid.client_id.app_error",
-        "translation": "Невалиден идентификационен номер на клиента"
+        "translation": "Невалиден id на клиента."
     },
     {
         "id": "bleveengine.delete_channel_posts.error",
@@ -5736,7 +5736,7 @@
     },
     {
         "id": "web.error.unsupported_browser.browser_title.chrome",
-        "translation": "Google Chrome"
+        "translation": "Гугъл Chrome"
     },
     {
         "id": "api.server.warn_metric.email_us",
@@ -6056,7 +6056,7 @@
     },
     {
         "id": "model.emoji.user_id.app_error",
-        "translation": "Невалиден идентификатор на създател"
+        "translation": "Невалиден id на създател."
     },
     {
         "id": "app.oauth.get_access_data_by_user_for_app.app_error",
@@ -6084,7 +6084,7 @@
     },
     {
         "id": "model.bot.is_valid.creator_id.app_error",
-        "translation": "Невалиден идентификатор на създател"
+        "translation": "Невалиден id на създател."
     },
     {
         "id": "brand.save_brand_image.open.app_error",
@@ -6140,7 +6140,7 @@
     },
     {
         "id": "model.reaction.is_valid.post_id.app_error",
-        "translation": "Невалиден идентификатор на публикацията"
+        "translation": "Невалиден id на публикацията."
     },
     {
         "id": "model.oauth.is_valid.client_secret.app_error",
@@ -6260,11 +6260,11 @@
     },
     {
         "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
-        "translation": "Диагностичен идентификатор:"
+        "translation": "Диагностичен ID: "
     },
     {
         "id": "model.authorize.is_valid.auth_code.app_error",
-        "translation": "Невалиден код за упълномощаване"
+        "translation": "Невалиден код за удостоверяване."
     },
     {
         "id": "bleveengine.indexer.do_job.bulk_index_posts.batch_error",
@@ -6500,7 +6500,7 @@
     },
     {
         "id": "model.user.is_valid.auth_data.app_error",
-        "translation": "Невалидни данни за автентичност"
+        "translation": "Невалидни данни за автентичност."
     },
     {
         "id": "model.command_hook.create_at.app_error",
@@ -6616,7 +6616,7 @@
     },
     {
         "id": "model.command_hook.id.app_error",
-        "translation": "Невалиден идентификационен номер на куката на командата"
+        "translation": "Невалиден hook id на командата."
     },
     {
         "id": "app.plugin.sync.list_filestore.app_error",
@@ -6672,7 +6672,7 @@
     },
     {
         "id": "api.user.verify_email.broken_token.app_error",
-        "translation": "Неправилен тип проверка на имейл имейл."
+        "translation": "Неправилен тип проверка на имейл токън."
     },
     {
         "id": "store.sql_user.get_by_username.app_error",
@@ -6788,7 +6788,7 @@
     },
     {
         "id": "api.templates.email_organization",
-        "translation": "Изпратен от"
+        "translation": "Изпратен от "
     },
     {
         "id": "store.sql_user.save.email_exists.ldap_app_error",
@@ -6916,7 +6916,7 @@
     },
     {
         "id": "model.post.is_valid.original_id.app_error",
-        "translation": "Невалиден оригинален идентификатор"
+        "translation": "Невалиден оригинален id."
     },
     {
         "id": "app.notification.body.intro.group_message.full",
@@ -7064,7 +7064,7 @@
     },
     {
         "id": "api.templates.warn_metric_ack.body.site_url_header",
-        "translation": "URL адрес на сайта:"
+        "translation": "URL адрес на сайта: "
     },
     {
         "id": "ent.elasticsearch.delete_user_posts.error",
@@ -7116,7 +7116,7 @@
     },
     {
         "id": "api.templates.warn_metric_ack.body.registered_users_header",
-        "translation": "Общо активни потребители:"
+        "translation": "Общо активни потребители: "
     },
     {
         "id": "app.import.validate_role_import_data.description_invalid.error",
@@ -7156,7 +7156,7 @@
     },
     {
         "id": "app.import.import_user_channels.channel_not_found.error",
-        "translation": "Грешка при импортирането на потребителски канали. Каналът не е намерен"
+        "translation": "Грешка при внасянето на потребителски канали. Каналът не е намерен."
     },
     {
         "id": "store.sql_channel.sidebar_categories.delete_invalid.app_error",
@@ -7200,7 +7200,7 @@
     },
     {
         "id": "api.templates.email_info1",
-        "translation": "Всякакви въпроси, пишете ни по всяко време:"
+        "translation": "Всякакви въпроси, пишете ни по всяко време: "
     },
     {
         "id": "model.team.is_valid.reserved.app_error",
@@ -7252,7 +7252,7 @@
     },
     {
         "id": "bleveengine.create_user_index.error",
-        "translation": "Грешка при създаването на потребителския индекс"
+        "translation": "Грешка при създаването на индекс бивши потребители."
     },
     {
         "id": "model.reaction.is_valid.user_id.app_error",
@@ -7280,7 +7280,7 @@
     },
     {
         "id": "app.notification.body.text.notification.generic",
-        "translation": "{{.Hour}}:{{. Минути}} {{.TimeZone}}, {{.Day}}.{{.Month}} "
+        "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}}.{{.Month}}"
     },
     {
         "id": "app.channel.post_update_channel_purpose_message.post.error",
@@ -7320,7 +7320,7 @@
     },
     {
         "id": "model.post.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер"
+        "translation": "Невалиден id."
     },
     {
         "id": "app.system_install_date.parse_int.app_error",
@@ -7344,7 +7344,7 @@
     },
     {
         "id": "model.oauth.is_valid.app_id.app_error",
-        "translation": "Невалиден идентификатор на приложението"
+        "translation": "Невалиден id на приложението."
     },
     {
         "id": "model.link_metadata.is_valid.data_type.app_error",
@@ -7488,7 +7488,7 @@
     },
     {
         "id": "model.emoji.id.app_error",
-        "translation": "Невалиден идентификатор на емоджи"
+        "translation": "Невалиден id на емоджи."
     },
     {
         "id": "system.message.name",
@@ -7524,7 +7524,7 @@
     },
     {
         "id": "ent.migration.migratetoldap.user_not_found",
-        "translation": "Не може да се намери потребител на AD / LDAP сървър:"
+        "translation": "Не може да се намери потребител на AD / LDAP сървър: "
     },
     {
         "id": "store.sql_channel.sidebar_categories.commit_transaction.app_error",
@@ -7552,7 +7552,7 @@
     },
     {
         "id": "model.incoming_hook.id.app_error",
-        "translation": "Невалиден идентификационен номер"
+        "translation": "Невалиден id."
     },
     {
         "id": "ent.elasticsearch.aggregator_worker.index_job_failed.error",
@@ -7712,7 +7712,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер"
+        "translation": "Невалиден id."
     },
     {
         "id": "model.config.is_valid.sql_conn_max_lifetime_milliseconds.app_error",
@@ -7768,7 +7768,7 @@
     },
     {
         "id": "model.post.is_valid.parent_id.app_error",
-        "translation": "Невалиден идентификационен номер на родител"
+        "translation": "Невалиден родителски id."
     },
     {
         "id": "app.import.validate_user_import_data.notify_props_email_invalid.error",
@@ -7852,7 +7852,7 @@
     },
     {
         "id": "model.job.is_valid.status.app_error",
-        "translation": "Невалиден статус на работа"
+        "translation": "Невалиден статус на работа."
     },
     {
         "id": "api.user.login_by_oauth.not_available.app_error",
@@ -7952,7 +7952,7 @@
     },
     {
         "id": "model.incoming_hook.display_name.app_error",
-        "translation": "Невалидно заглавие"
+        "translation": "Невалидно заглавие."
     },
     {
         "id": "app.import.validate_post_import_data.create_at_zero.error",
@@ -7976,7 +7976,7 @@
     },
     {
         "id": "manaultesting.manual_test.parse.app_error",
-        "translation": "URL адресът не може да се анализира"
+        "translation": "URL адресът не може да се анализира."
     },
     {
         "id": "app.import.validate_scheme_import_data.description_invalid.error",
@@ -8056,7 +8056,7 @@
     },
     {
         "id": "model.cluster.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер"
+        "translation": "Невалиден id."
     },
     {
         "id": "model.job.is_valid.create_at.app_error",
@@ -8116,7 +8116,7 @@
     },
     {
         "id": "web.error.unsupported_browser.browser_title.edge",
-        "translation": "Microsoft Edge"
+        "translation": "Майкрософт Edge"
     },
     {
         "id": "store.sql_channel.update_last_viewed_at.app_error",
@@ -8136,7 +8136,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.display_name.app_error",
-        "translation": "Невалидно заглавие"
+        "translation": "Невалидно заглавие."
     },
     {
         "id": "ent.elasticsearch.aggregator_worker.get_indexes.error",
@@ -8265,5 +8265,69 @@
     {
         "id": "api.web_socket_router.no_action.app_error",
         "translation": "Без действие на уебсакет."
+    },
+    {
+        "id": "app.import.import_user_teams.save_members.conflict.app_error",
+        "translation": "Неуспешно внасяне на нови членства за екип, понеже вече съществуват"
+    },
+    {
+        "id": "app.team.join_user_to_team.save_member.max_accounts.app_error",
+        "translation": "Неуспешно създаване на ново членство за екип, понеже е достигнато ограничението за брой членове"
+    },
+    {
+        "id": "app.team.join_user_to_team.save_member.conflict.app_error",
+        "translation": "Неуспешно създаване на ново членство за екип, понеже вече съществува"
+    },
+    {
+        "id": "app.team.join_user_to_team.save_member.app_error",
+        "translation": "Неуспешно създаване на ново членство в екипа"
+    },
+    {
+        "id": "app.post.update.app_error",
+        "translation": "Неуспешно обновяване на публикация."
+    },
+    {
+        "id": "app.post.save.existing.app_error",
+        "translation": "Не можете да обновите публикацията."
+    },
+    {
+        "id": "app.post.save.app_error",
+        "translation": "Неуспешен запис на публикацията."
+    },
+    {
+        "id": "app.post.permanent_delete_by_user.app_error",
+        "translation": "Не можаха да се изберат публикациите за изтриване на потребителя."
+    },
+    {
+        "id": "app.post.permanent_delete_by_channel.app_error",
+        "translation": "Не можаха да се изтрият публикациите по канал."
+    },
+    {
+        "id": "app.post.get.app_error",
+        "translation": "Не можа да се получи публикацията."
+    },
+    {
+        "id": "app.post.delete.app_error",
+        "translation": "Не можа да се изтрие публикацията."
+    },
+    {
+        "id": "app.import.import_user_teams.save_members.max_accounts.app_error",
+        "translation": "Неуспешно внасяне на членствата в екип, понеже няма повече членове допустими за този екип"
+    },
+    {
+        "id": "app.import.import_user_teams.save_members.error",
+        "translation": "Неуспешно внасяне на членства в екип"
+    },
+    {
+        "id": "app.create_basic_user.save_member.max_accounts.app_error",
+        "translation": "Неуспешно създаване на членствата по подразбиране за екип, понеже няма повече членове допустими за този екип"
+    },
+    {
+        "id": "app.create_basic_user.save_member.conflict.app_error",
+        "translation": "Неуспешно създаване на членствата по подразбиране за екип, понеже вече съществуват"
+    },
+    {
+        "id": "app.create_basic_user.save_member.app_error",
+        "translation": "Неуспешно създаване на членствата по подразбиране за екип"
     }
 ]
