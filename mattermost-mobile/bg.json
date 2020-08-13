@@ -237,5 +237,7 @@
   "mobile.post.cancel": "Откажи",
   "mobile.post_textbox.entire_channel.cancel": "Откажи",
   "mobile.notification_settings.email": "Ел. поща",
-  "mobile.edit_channel": "Запиши"
+  "mobile.edit_channel": "Запиши",
+  "post_info.system": "Система",
+  "mobile.share_extension.too_long_title": "Съобщението е твърде дълго"
 }
