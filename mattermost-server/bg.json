@@ -8329,5 +8329,61 @@
     {
         "id": "app.create_basic_user.save_member.app_error",
         "translation": "Неуспешно създаване на членствата по подразбиране за екип"
+    },
+    {
+        "id": "migrations.system.save.app_error",
+        "translation": "Срещнахме грешка при запазването на системното свойство."
+    },
+    {
+        "id": "app.system.save.app_error",
+        "translation": "Срещнахме грешка при запазването на системното свойство."
+    },
+    {
+        "id": "app.system.permanent_delete_by_name.app_error",
+        "translation": "Не можахме да изтрием окончателно записа на системната таблица."
+    },
+    {
+        "id": "app.system.get_by_name.app_error",
+        "translation": "Не може да се намери системната променлива."
+    },
+    {
+        "id": "app.system.get.app_error",
+        "translation": "Срещнахме грешка при намирането на системните свойства."
+    },
+    {
+        "id": "app.status.get.missing.app_error",
+        "translation": "Няма запис за този статус."
+    },
+    {
+        "id": "app.status.get.app_error",
+        "translation": "Възникна грешка при извличане на състоянието."
+    },
+    {
+        "id": "app.plugin_store.save.app_error",
+        "translation": "Не можа да се запази или актуализира стойността на ключа на приставката."
+    },
+    {
+        "id": "app.plugin_store.list.app_error",
+        "translation": "Невъзможно е да се изброят всички ключове за приставки."
+    },
+    {
+        "id": "app.plugin_store.get.app_error",
+        "translation": "Стойността на ключа за приставката не можа да бъде получена."
+    },
+    {
+        "id": "app.plugin_store.delete.app_error",
+        "translation": "Стойността на ключа за приставката не може да бъде изтрита."
+    },
+    {
+        "id": "app.email.setup_rate_limiter.app_error",
+        "translation": "Възникна грешка в ограничителя."
+    },
+    {
+        "id": "app.email.rate_limit_exceeded.app_error",
+        "translation": "Превишено е ограничението за покани по ел. поща. Таймерът ще бъде нулиран след {{.ResetAfter}} секунди. Моля, опитайте след {{.RetryAfter}} секунди."
+    },
+    {
+        "id": "app.email.no_rate_limiter.app_error",
+        "translation": "Ограничителят не е настроен."
     }
 ]
