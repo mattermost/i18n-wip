@@ -1816,5 +1816,7 @@
     "admin.cluster.GossipPortDesc": "Port použitý pro gossip protokol. Oba protokoly UDP a TCP by měly být povoleny na tomto portu.",
     "admin.cluster.GossipPort": "Gossip port:",
     "admin.cluster.enableTitle": "Povolení režimu vysoké dostupnosti:",
-    "admin.cluster.enableDescription": "Když pravda, Mattermost umožňuje běh v režimu vysoké dostupnosti, viz v [dokumentaci](!http://docs.mattermost.com/deployment/cluster.html) najdete další informace o konfiguraci vysoké dostupnosti pro Mattermost."
+    "admin.cluster.enableDescription": "Když pravda, Mattermost umožňuje běh v režimu vysoké dostupnosti, viz v [dokumentaci](!http://docs.mattermost.com/deployment/cluster.html) najdete další informace o konfiguraci vysoké dostupnosti pro Mattermost.",
+    "activity_log.logout": "Odhlásit se",
+    "about.enterpriseEditione1": "Enterprise Edition"
 }
