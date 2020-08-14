@@ -408,5 +408,7 @@
   "mobile.routes.settings": "Cài đặt",
   "mobile.post.failed_retry": "Thử lại",
   "mobile.permission_denied_retry": "Cài đặt",
-  "login.or": "hoặc"
+  "login.or": "hoặc",
+  "about.teamEditiont1": "Phiên bản doanh nghiệp",
+  "about.enterpriseEditione1": "Phiên bản doanh nghiệp"
 }
