@@ -2077,5 +2077,10 @@
     "about.date": "Ngày Xây Dựng:",
     "about.database": "Cơ sở dữ liệu:",
     "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved",
-    "about.buildnumber": "Xây Dựng Số:"
+    "about.buildnumber": "Xây Dựng Số:",
+    "activity_log.logout": "Đăng Xuất",
+    "accessibility.sections.rhs": "Khu vực miễn phí của {regionTitle}",
+    "accessibility.button.dialog": "Hộp thoại {dialogName}",
+    "about.teamEditiont1": "Phiên bản doanh nghiệp",
+    "about.enterpriseEditione1": "Phiên bản doanh nghiệp"
 }
