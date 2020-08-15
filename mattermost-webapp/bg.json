@@ -312,5 +312,11 @@
     "admin.user_item.resetPwd": "Нулиране на парола",
     "admin.reset_password.titleReset": "Нулиране на парола",
     "admin.group_settings.group_detail.invalid_length": "Името трябва да е от 1 до 64 малки буквено-цифрови знака.",
-    "create_post.read_only": "Този канал е само за четене. Тук могат да публикуват само членове с разрешение."
+    "create_post.read_only": "Този канал е само за четене. Тук могат да публикуват само членове с разрешение.",
+    "quick_switch_modal.teams": "Екипи",
+    "no_results.channel_search.subtitle": "Проверете правописа или опитайте друго търсене.",
+    "admin.team_settings.title": "Екипи",
+    "admin.sidebar.teams": "Екипи",
+    "admin.permissions.group.teams.name": "Екипи",
+    "admin.permissions.group.teams_team_scope.name": "Екипи"
 }
