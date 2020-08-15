@@ -431,5 +431,6 @@
   "mobile.routes.settings": "Nastavení",
   "mobile.post.failed_retry": "Zkusit znovu",
   "mobile.permission_denied_retry": "Nastavení",
-  "about.enterpriseEditione1": "Enterprise Edition"
+  "about.enterpriseEditione1": "Enterprise Edition",
+  "about.teamEditiont1": "Enterprise Edition"
 }
