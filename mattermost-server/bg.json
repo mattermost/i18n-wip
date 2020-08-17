@@ -8385,5 +8385,61 @@
     {
         "id": "app.email.no_rate_limiter.app_error",
         "translation": "Ограничителят не е настроен."
+    },
+    {
+        "id": "ent.user.complete_switch_with_oauth.blank_email.app_error",
+        "translation": "Не може да се извърши вход в SAML с празен имейл адрес."
+    },
+    {
+        "id": "ent.saml.save_user.username_exists.saml_app_error",
+        "translation": "Профил с това потребителско име вече съществува. Моля, свържете се с вашия администратор."
+    },
+    {
+        "id": "ent.saml.save_user.email_exists.saml_app_error",
+        "translation": "Този акаунт не използва SAML удостоверяване. Моля, влезте с имейл и парола."
+    },
+    {
+        "id": "ent.ldap.save_user.username_exists.ldap_app_error",
+        "translation": "Профил с това потребителско име вече съществува. Моля, свържете се с вашия администратор."
+    },
+    {
+        "id": "ent.ldap.save_user.email_exists.ldap_app_error",
+        "translation": "Този акаунт не използва AD / LDAP удостоверяване. Моля, влезте с имейл и парола."
+    },
+    {
+        "id": "ent.jobs.start_synchronize_job.timeout",
+        "translation": "Изтече времето за AD / LDAP задачата за синхронизация."
+    },
+    {
+        "id": "ent.jobs.do_job.batch_start_timestamp.parse_error",
+        "translation": "Не може да се анализира заданието за експортиране на съобщение ExportFromTimestamp."
+    },
+    {
+        "id": "ent.jobs.do_job.batch_size.parse_error",
+        "translation": "Не може да се анализира заданието за експортиране на съобщения BatchSize."
+    },
+    {
+        "id": "ent.cluster.model.client.connecting.app_error",
+        "translation": "Възникна грешка при свързването със сървъра."
+    },
+    {
+        "id": "ent.cluster.404.app_error",
+        "translation": "Крайната точка на клъстер API не е намерена."
+    },
+    {
+        "id": "ent.api.post.send_notifications_and_forget.push_image_only",
+        "translation": " прикачи файл."
+    },
+    {
+        "id": "ent.actiance.export.marshalToXml.appError",
+        "translation": "Невъзможно конвертиране на експорта в XML."
+    },
+    {
+        "id": "api.user.delete_channel.not_enabled.app_error",
+        "translation": "Окончателното изтриване на канал изключено. Моля, свържете се със системният администратор."
+    },
+    {
+        "id": "api.config.migrate_config.app_error",
+        "translation": "Грешка при мигриране на конфигурационното хранилище."
     }
 ]
