@@ -2210,5 +2210,6 @@
     "add_command.description.help": "Beskriv din inkommande webhook.",
     "add_command.description": "Beskrivning",
     "add_command.autocomplete": "Komplettera automatiskt",
-    "activity_log.logout": "Logga ut"
+    "activity_log.logout": "Logga ut",
+    "user.settings.modal.sidebar": "Sidofält"
 }
