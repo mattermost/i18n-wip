@@ -630,5 +630,8 @@
   "mobile.failed_network_action.retry": "Опитай пак",
   "mobile.extension.title": "Споделете в Mattermost",
   "mobile.extension.team_required": "Трябва да принадлежите на екип, преди да можете да споделяте файлове.",
-  "mobile.extension.permission": "Mattermost се нуждае от достъп до хранилището на устройството, за да споделя файлове."
+  "mobile.extension.permission": "Mattermost се нуждае от достъп до хранилището на устройството, за да споделя файлове.",
+  "mobile.youtube_playback_error.description": "Възникна грешка при опит за възпроизвеждане на видеоклипа в YouTube.\nДетайли: {details}",
+  "mobile.managed.not_secured.ios.touchId": "Това устройство трябва да бъде защитено с парола за използване на Mattermost.\n\nОтидете в Настройки> докосване ID и парола.",
+  "mobile.managed.not_secured.ios": "Това устройство трябва да бъде защитено с парола за използване на Mattermost.\n\nОтидете в Настройки> лицево ID и парола."
 }

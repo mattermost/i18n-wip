@@ -396,5 +396,12 @@
   "mobile.about.licensed": "Licensierad till: {company}",
   "mobile.about.appVersion": "App-version: {version} (Build {number})",
   "login.userNotFound": "Inget konto hittades med de kontouppgifter som angetts.",
-  "post_info.del": "Ta bort"
+  "post_info.del": "Ta bort",
+  "mobile.display_settings.sidebar": "Sidofält",
+  "mobile.components.select_server_view.siteUrlPlaceholder": "https://mattermost.example.com",
+  "mobile.components.select_server_view.proceed": "Fortsätt",
+  "mobile.components.select_server_view.enterServerUrl": "Ange serveradress",
+  "mobile.components.select_server_view.connecting": "Ansluter...",
+  "mobile.components.error_list.dismiss_all": "Avfärda alla",
+  "mobile.client_upgrade.no_upgrade_title": "Du har den senaste uppdateringen"
 }
