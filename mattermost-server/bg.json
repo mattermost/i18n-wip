@@ -1301,7 +1301,7 @@
     },
     {
         "id": "api.command_invite.channel.error",
-        "translation": "Не е намерен канала {{.Channel}}. Мола, използвайте [псевдонима на канала](https://about.mattermost.com/default-channel-handle-documentation) за да определяте канали."
+        "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [псевдонима на канала](https://about.mattermost.com/default-channel-handle-documentation) за да определяте канали."
     },
     {
         "id": "api.command_invite.channel.app_error",
@@ -3460,7 +3460,7 @@
     },
     {
         "id": "app.import.validate_direct_channel_import_data.unknown_favoriter.error",
-        "translation": "Директният канал може да бъде предпочитан само от членове. \"{{.Uname име}}\" не е член."
+        "translation": "Директният канал може да бъде предпочитан само от членове. \"{{.Username}}\" не е член."
     },
     {
         "id": "store.sql_user.update_failed_pwd_attempts.app_error",
@@ -4176,7 +4176,7 @@
     },
     {
         "id": "app.notification.body.text.direct.full",
-        "translation": "{{.SenderName}} - {{.Hour}}: {{. Минути}} {{.TimeZone}}, {{.Month}} {{.Day}}"
+        "translation": "{{.SenderName}} - {{.Hour}}: {{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
     },
     {
         "id": "app.import.validate_direct_channel_import_data.members_too_many.error",
@@ -4316,7 +4316,7 @@
     },
     {
         "id": "app.notification.body.text.direct.generic",
-        "translation": "{{.Hour}}: {{. Минути}} {{.TimeZone}}, {{.Month}} {{.Day}}"
+        "translation": "{{.Hour}}: {{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
     },
     {
         "id": "ent.elasticsearch.generic.disabled",
@@ -4336,7 +4336,7 @@
     },
     {
         "id": "app.notification.body.text.notification.full2",
-        "translation": "{{.SenderName}} - {{.Hour}}: {{. Минути}} {{.TimeZone}}, {{.Month}} {{.Day}}"
+        "translation": "{{.SenderName}} - {{.Hour}}: {{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
     },
     {
         "id": "app.import.validate_user_channels_import_data.invalid_notify_props_mark_unread.error",
@@ -4360,7 +4360,7 @@
     },
     {
         "id": "app.notification.body.text.group_message.full2",
-        "translation": "{{.SenderName}} - {{.Hour}}: {{. Минути}} {{.TimeZone}}, {{.Month}} {{.Day}}"
+        "translation": "{{.SenderName}} - {{.Hour}}: {{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
     },
     {
         "id": "api.user.update_active.cannot_enable_guest_when_guest_feature_is_disabled.app_error",
@@ -4492,7 +4492,7 @@
     },
     {
         "id": "app.notification.body.text.group_message.generic",
-        "translation": "{{.Hour}}: {{. Минути}} {{.TimeZone}}, {{.Month}} {{.Day}}"
+        "translation": "{{.Hour}}: {{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
     },
     {
         "id": "api.webhook.team_mismatch.app_error",
@@ -7644,7 +7644,7 @@
     },
     {
         "id": "api.user.add_direct_channels_and_forget.failed.error",
-        "translation": "Неуспешно добавяне на предпочитания за директни канали за потребител user_id = {{. UserId}}, team_id = {{. TeamId}}, err = {{. Грешка}}"
+        "translation": "Неуспешно добавяне на предпочитания за директни канали за потребител user_id = {{. UserId}}, team_id = {{. TeamId}}, err = {{.Error}}"
     },
     {
         "id": "store.sql_channel.save_member.open_transaction.app_error",
@@ -8441,5 +8441,117 @@
     {
         "id": "api.config.migrate_config.app_error",
         "translation": "Грешка при мигриране на конфигурационното хранилище."
+    },
+    {
+        "id": "store.sql_post.search.app_error",
+        "translation": "Грешка при търсене на публикация"
+    },
+    {
+        "id": "ent.message_export.global_relay_export.get_attachment_error",
+        "translation": "Неуспешно получаване на файлова информация за публикация."
+    },
+    {
+        "id": "ent.message_export.csv_export.get_attachment_error",
+        "translation": "Неуспешно получаване на файлова информация за публикация."
+    },
+    {
+        "id": "ent.message_export.actiance_export.get_attachment_error",
+        "translation": "Неуспешно получаване на файлова информация за публикация."
+    },
+    {
+        "id": "ent.elasticsearch.indexer.do_job.get_oldest_entity.error",
+        "translation": "Най-стария обект (потребител, канал или публикация) не може да бъде извлечен от базата данни"
+    },
+    {
+        "id": "ent.data_retention.file_infos_batch.internal_error",
+        "translation": "Срещнахме грешка при трайно изтриване на поредица от файлова информация."
+    },
+    {
+        "id": "app.job.update.app_error",
+        "translation": "Професията не може да се обнови."
+    },
+    {
+        "id": "app.job.save.app_error",
+        "translation": "Професията не може да се запази."
+    },
+    {
+        "id": "app.job.get_newest_job_by_status_and_type.app_error",
+        "translation": "Не може да се получи най-новата работа по статус и тип."
+    },
+    {
+        "id": "app.job.get_count_by_status_and_type.app_error",
+        "translation": "Не може да се получи броя на заданията по статус и тип."
+    },
+    {
+        "id": "app.job.get_all.app_error",
+        "translation": "Заданието не може да се вземе."
+    },
+    {
+        "id": "app.job.get.app_error",
+        "translation": "Заданието не може да се вземе."
+    },
+    {
+        "id": "app.file_info.save.app_error",
+        "translation": "Информацията за файла не може да бъде запазена."
+    },
+    {
+        "id": "app.file_info.permanent_delete_by_user.app_error",
+        "translation": "Не може да се изтрият прикачени файлове на потребителя."
+    },
+    {
+        "id": "app.file_info.get_with_options.app_error",
+        "translation": "Не може да се получи информация за файла с опции"
+    },
+    {
+        "id": "app.file_info.get_for_post.app_error",
+        "translation": "Не може да се получи информация за файла за публикацията."
+    },
+    {
+        "id": "app.file_info.get.app_error",
+        "translation": "Информацията за файла не може да бъде получена."
+    },
+    {
+        "id": "api.upgrade_to_enterprise_status.signature.app_error",
+        "translation": "Mattermost не можа да надстрои до корпоративна версия. Цифровия подпис на сваления двоичен файл не може да се провери."
+    },
+    {
+        "id": "api.upgrade_to_enterprise_status.app_error",
+        "translation": "Mattermost не може да се надстрои до корпоративна версия."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
+        "translation": "Mattermost не можа да надстрои до корпоративна версия. Тази функция ще работи само в Linux системи с x86-64 архитектура."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.invalid-user.app_error",
+        "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    },
+    {
+        "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
+        "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    },
+    {
+        "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
+        "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира разрешенията за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    },
+    {
+        "id": "api.upgrade_to_enterprise.generic_error.app_error",
+        "translation": "Mattermost не може да се надстрои до корпоративна версия."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.app_error",
+        "translation": "Надстройката до Mattermost корпоративна версия е вече пусната."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
+        "translation": "Не можете да надстроите, защото вече използвате Mattermost корпоративна версия."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.already-done.app_error",
+        "translation": "Вече надградихте до Mattermost корпоративна версия. Моля, рестартирайте сървъра, за да завършите надстройката."
+    },
+    {
+        "id": "api.team.invite_members.limit_reached.app_error",
+        "translation": "Достигнахте потребителския лимит за текущия си слой"
     }
 ]
