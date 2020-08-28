@@ -88,5 +88,6 @@
     "add_incoming_webhook.cancel": "انصراف",
     "add_emoji.name": "نام",
     "add_emoji.cancel": "انصراف",
-    "add_command.cancel": "انصراف"
+    "add_command.cancel": "انصراف",
+    "remove_next_steps_modal.confirm": "حذف"
 }
