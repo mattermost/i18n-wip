@@ -1819,5 +1819,8 @@
     "admin.cluster.enableDescription": "Když pravda, Mattermost umožňuje běh v režimu vysoké dostupnosti, viz v [dokumentaci](!http://docs.mattermost.com/deployment/cluster.html) najdete další informace o konfiguraci vysoké dostupnosti pro Mattermost.",
     "activity_log.logout": "Odhlásit se",
     "about.enterpriseEditione1": "Enterprise Edition",
-    "about.teamEditiont1": "Enterprise Edition"
+    "about.teamEditiont1": "Enterprise Edition",
+    "remove_next_steps_modal.confirm": "Odstranit",
+    "next_steps_view.invite_members_step.send": "Odeslat",
+    "next_steps_view.invite_members_step.copy_button": "Zkopírovat odkaz"
 }
