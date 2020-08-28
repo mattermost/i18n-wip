@@ -1839,5 +1839,7 @@
     "about.date": "Koontiversio luotu:",
     "about.database": "Tietokanta:",
     "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Kaikki oikeudet pidätetään",
-    "about.buildnumber": "Koontikäännöksen numero:"
+    "about.buildnumber": "Koontikäännöksen numero:",
+    "remove_next_steps_modal.confirm": "Poista",
+    "next_steps_view.invite_members_step.copy_button": "Kopioi linkki"
 }
