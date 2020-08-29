@@ -1222,5 +1222,8 @@
     "about.enterpriseEditionLearn": "Izvedi več o Poslovni izdaji na ",
     "about.dbversion": "Verzija sheme podatkovne zbirke:",
     "about.database": "Podatkovna zbirka:",
-    "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Vse pravice pridržane"
+    "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Vse pravice pridržane",
+    "remove_next_steps_modal.confirm": "Odstrani",
+    "next_steps_view.invite_members_step.send": "Pošlji",
+    "next_steps_view.invite_members_step.copy_button": "Kopiraj povezavo"
 }

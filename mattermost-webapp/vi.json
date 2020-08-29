@@ -2082,5 +2082,7 @@
     "accessibility.sections.rhs": "Khu vực miễn phí của {regionTitle}",
     "accessibility.button.dialog": "Hộp thoại {dialogName}",
     "about.teamEditiont1": "Phiên bản doanh nghiệp",
-    "about.enterpriseEditione1": "Phiên bản doanh nghiệp"
+    "about.enterpriseEditione1": "Phiên bản doanh nghiệp",
+    "remove_next_steps_modal.confirm": "Loại bỏ",
+    "next_steps_view.invite_members_step.copy_button": "Sao chép đường dẫn"
 }

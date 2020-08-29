@@ -748,5 +748,6 @@
     "about.dbversion": "Database version:",
     "about.database": "Database:",
     "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Alle rettigheder forbeholdes",
-    "about.buildnumber": "Build nummer:"
+    "about.buildnumber": "Build nummer:",
+    "remove_next_steps_modal.confirm": "Fjern"
 }

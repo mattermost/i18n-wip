@@ -2211,5 +2211,8 @@
     "add_command.description": "Beskrivning",
     "add_command.autocomplete": "Komplettera automatiskt",
     "activity_log.logout": "Logga ut",
-    "user.settings.modal.sidebar": "Sidofält"
+    "user.settings.modal.sidebar": "Sidofält",
+    "remove_next_steps_modal.confirm": "Radera",
+    "next_steps_view.invite_members_step.send": "Skicka",
+    "next_steps_view.invite_members_step.copy_button": "Kopiera länk"
 }
