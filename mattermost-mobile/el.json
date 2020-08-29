@@ -62,5 +62,10 @@
   "about.enterpriseEditionSt": "Σύγχρονη επικοινωνία πίσω από το firewall σας.",
   "about.enterpriseEditionLearn": "Μάθετε περισσότερα για την Enterprise έκδοση στο: ",
   "about.enterpriseEditione1": "Enterprise Έκδοση",
-  "about.date": "Ημερομηνία Δημιουργίας:"
+  "about.date": "Ημερομηνία Δημιουργίας:",
+  "mobile.terms_of_service.alert_cancel": "Ακύρωση",
+  "mobile.reset_status.alert_cancel": "Ακύρωση",
+  "mobile.post.cancel": "Ακύρωση",
+  "mobile.post_textbox.entire_channel.cancel": "Ακύρωση",
+  "mobile.alert_dialog.alertCancel": "Ακύρωση"
 }
