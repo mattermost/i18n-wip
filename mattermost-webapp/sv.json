@@ -61,7 +61,7 @@
     "suggestion.search.direct": "(Privat meddelande)",
     "suggestion.mention.members": "Medlemmar i kanal",
     "suggestion.mention.channels": "Tysta kanalen",
-    "suggestion.archive": "Arkivera kanaler",
+    "suggestion.archive": "Arkiverade kanaler",
     "signup.office365": "Office 365",
     "signup.email": "E-post och Lösenord",
     "sidebar.types.unreads": "OLÄSTA",
@@ -141,7 +141,7 @@
     "emoji_list.name": "Namn",
     "emoji_list.image": "Bild",
     "edit_command.update": "Uppdatera",
-    "create_post.deactivated": "Du visar en arkiverad kanal med ett avstängt användarkonto.",
+    "create_post.deactivated": "Du visar en arkiverad kanal med ett **avstängt användarkonto**. Nya meddelanden kan inte postas.",
     "copy_url_context_menu.getChannelLink": "Kopiera länk",
     "claim.ldap_to_email.pwd": "Lösenord",
     "claim.email_to_oauth.pwd": "Lösenord",
@@ -2214,5 +2214,11 @@
     "user.settings.modal.sidebar": "Sidofält",
     "remove_next_steps_modal.confirm": "Radera",
     "next_steps_view.invite_members_step.send": "Skicka",
-    "next_steps_view.invite_members_step.copy_button": "Kopiera länk"
+    "next_steps_view.invite_members_step.copy_button": "Kopiera länk",
+    "unarchive_channel.viewArchived.question": "Är du säker på att du vill återställa **{display_name}** från arkivet?",
+    "delete_channel.viewArchived.question": "Du kommer arkivera kanalen från teamet. Kanalens medlemmar kommer kunna komma åt innehållet i kanalen. \n \nÄr du säker på att du vill arkivera kanalen **{display_name}**?",
+    "delete_channel.question": "Du kommer arkivera kanalen från teamet och ta bort den från användargränssnittet. Det går att plockade tillbaka kanalen från arkivet om det behövs. \n \nÄr du säker på att du vill arkivera kanalen {display_name}?",
+    "admin.viewArchivedChannelsHelpText": "(Beta) När aktiverad så tillåts användare visa, dela och söka innehåll i kanaler som arkiverats. Användare kan bara visa innehåll från kanaler som de var medlemmar i innan kanalen akriverades.",
+    "api.channel.restore_channel.unarchived": "{username} plockade tillbaka kanalen från arkivet.",
+    "api.channel.delete_channel.archived": "{username} arkiverade kanalen."
 }
