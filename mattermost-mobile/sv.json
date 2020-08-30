@@ -557,5 +557,6 @@
   "mobile.downloader.complete": "Nedladdning slutförd",
   "mobile.downloader.android_failed": "Nedladdningen misslyckades",
   "mobile.downloader.android_complete": "Nedladdning slutförd",
-  "mobile.commands.error_title": "Fel när kommandot utfördes"
+  "mobile.commands.error_title": "Fel när kommandot utfördes",
+  "post_info.edit": "Editera"
 }
