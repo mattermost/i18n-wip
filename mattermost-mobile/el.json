@@ -67,5 +67,7 @@
   "mobile.reset_status.alert_cancel": "Ακύρωση",
   "mobile.post.cancel": "Ακύρωση",
   "mobile.post_textbox.entire_channel.cancel": "Ακύρωση",
-  "mobile.alert_dialog.alertCancel": "Ακύρωση"
+  "mobile.alert_dialog.alertCancel": "Ακύρωση",
+  "mobile.edit_channel": "Αποθήκευση",
+  "mobile.account.settings.save": "Αποθήκευση"
 }
