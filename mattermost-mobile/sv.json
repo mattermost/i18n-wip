@@ -558,5 +558,9 @@
   "mobile.downloader.android_failed": "Nedladdningen misslyckades",
   "mobile.downloader.android_complete": "Nedladdning slutförd",
   "mobile.commands.error_title": "Fel när kommandot utfördes",
-  "post_info.edit": "Editera"
+  "post_info.edit": "Editera",
+  "user.settings.notifications.never": "Aldrig",
+  "suggestion.search.public": "Publika kanaler",
+  "user.settings.push_notification.offline": "Offline",
+  "status_dropdown.set_offline": "Offline"
 }
