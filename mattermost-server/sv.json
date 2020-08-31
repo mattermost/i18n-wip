@@ -6565,5 +6565,49 @@
     {
         "id": "model.group.name.invalid_length.app_error",
         "translation": "Namnet måste bestå av 1 till 64 gemena alfanumeriska tecken."
+    },
+    {
+        "id": "api.license.request-trial.bad-request",
+        "translation": "Antalet användare är inte korrekt."
+    },
+    {
+        "id": "api.job.unable_to_download_job",
+        "translation": "Kunde inte ladda ner jobbet"
+    },
+    {
+        "id": "api.invalid_channel",
+        "translation": "Kanal listad i anrop hör inte till anvädaren"
+    },
+    {
+        "id": "api.file.upload_file.incorrect_channelId.app_error",
+        "translation": "Kunde inte ladda upp filen. Felaktigt kanal-id: {{channelId}}"
+    },
+    {
+        "id": "api.emoji.create.internal_error",
+        "translation": "server_error: Ett internt fel uppstod när emoji skapades."
+    },
+    {
+        "id": "api.email.send_warn_metric_ack.missing_server.app_error",
+        "translation": "SMTP-server är nödvändig"
+    },
+    {
+        "id": "api.email.send_warn_metric_ack.failure.app_error",
+        "translation": "Misslyckades att skicka administratörs-bekräftelsemejl"
+    },
+    {
+        "id": "api.context.get_user.app_error",
+        "translation": "Kunde inte få fram användaren från sessionens UserID."
+    },
+    {
+        "id": "api.config.update_config.clear_siteurl.app_error",
+        "translation": "SajtURL kan inte vara tom."
+    },
+    {
+        "id": "api.config.migrate_config.app_error",
+        "translation": "Misslyckades att migrera konfigurationen."
+    },
+    {
+        "id": "api.channel.move_channel.type.invalid",
+        "translation": "Kan inte flytta kanaler med direkt eller gruppmeddelanden"
     }
 ]
