@@ -4016,5 +4016,7 @@
     "admin.gitlab.enableDescription": "Когато е true, Mattermost позволява създаване на екип и регистрация на акаунти с помощта на GitLab OAuth.\n \n1. Влезте в профила си в GitLab и отидете на Настройки на профила -> Приложения.\n2. Въведете Redirect URIs \"<вашия-mattermost-url>/login/gitlab/complete\" (например: http://localhost:8065/login/gitlab/complete) and \"<your-mattermost-url>/signup/gitlab/complete\".\n3. Използвайте полетата \"Application Secret Key\" и \"Application ID\" от GitLab за да завършите опциите по-долу.\n4. Попълнете Endpoint URLs по-долу.",
     "remove_next_steps_modal.confirm": "Премахни",
     "next_steps_view.invite_members_step.send": "Изпрати",
-    "next_steps_view.invite_members_step.copy_button": "Копирай връзка"
+    "next_steps_view.invite_members_step.copy_button": "Копирай връзка",
+    "admin.billing.payment_info_edit.cancel": "Откажи",
+    "admin.billing.company_info_edit.cancel": "Откажи"
 }
