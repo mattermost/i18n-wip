@@ -2279,5 +2279,7 @@
     "admin.permissions.permissionsSchemeSummary.edit": "Editera",
     "admin.group_settings.group_row.edit": "Editera",
     "admin.channel_settings.channel_row.configure": "Editera",
-    "no_results.channel_search.subtitle": "Kontrollera stavning eller sök igen."
+    "no_results.channel_search.subtitle": "Kontrollera stavning eller sök igen.",
+    "admin.billing.payment_info_edit.cancel": "Avbryt",
+    "admin.billing.company_info_edit.cancel": "Avbryt"
 }
