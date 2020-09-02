@@ -89,5 +89,7 @@
     "add_emoji.name": "نام",
     "add_emoji.cancel": "انصراف",
     "add_command.cancel": "انصراف",
-    "remove_next_steps_modal.confirm": "حذف"
+    "remove_next_steps_modal.confirm": "حذف",
+    "admin.billing.payment_info_edit.cancel": "انصراف",
+    "admin.billing.company_info_edit.cancel": "انصراف"
 }
