@@ -1,1 +1,7 @@
-{}
+{
+  "mobile.terms_of_service.alert_cancel": "キャンセル",
+  "mobile.reset_status.alert_cancel": "キャンセル",
+  "mobile.post.cancel": "キャンセル",
+  "mobile.post_textbox.entire_channel.cancel": "キャンセル",
+  "mobile.alert_dialog.alertCancel": "キャンセル"
+}
