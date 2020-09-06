@@ -95,5 +95,8 @@
   "combined_system_message.removed_from_team.many_expanded": "{users} και {lastUser} **αφαιρέθηκαν από την ομάδα**.",
   "combined_system_message.removed_from_channel.two": "{firstUser} και {secondUser} **αφαιρέθηκαν από το κανάλι**.",
   "combined_system_message.removed_from_channel.one_you": "Έχετε **αφαιρεθεί από το κανάλι**.",
-  "combined_system_message.removed_from_channel.one": "{firstUser} **αφαιρέθηκε από το κανάλι**."
+  "combined_system_message.removed_from_channel.one": "{firstUser} **αφαιρέθηκε από το κανάλι**.",
+  "user.settings.general.username": "Όνομα χρήστη",
+  "user.settings.general.email": "Email",
+  "mobile.notification_settings.email": "Email"
 }
