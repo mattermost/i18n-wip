@@ -2133,5 +2133,9 @@
     {
         "id": "April",
         "translation": "Απρίλιος"
+    },
+    {
+        "id": "web.error.unsupported_browser.system_browser_or",
+        "translation": "ή"
     }
 ]
