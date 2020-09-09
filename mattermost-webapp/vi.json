@@ -2165,5 +2165,21 @@
     "add_outgoing_webhook.save": "Lưu",
     "add_outgoing_webhook.cancel": "Hủy",
     "add_incoming_webhook.username": "Tên tài khoản",
-    "add_incoming_webhook.save": "Lưu"
+    "add_incoming_webhook.save": "Lưu",
+    "add_outgoing_webhook.displayName.help": "Chỉ định tiêu đề cho trang cài đặt webhook. Tiêu đề có thể chứa tối đa 64 ký tự.",
+    "add_outgoing_webhook.displayName": "Tiêu đề",
+    "add_outgoing_webhook.description": "Mô tả",
+    "add_outgoing_webhook.contentType.help3": "Để máy chủ định dạng nội dung yêu cầu là JSON, hãy chọn ứng dụng / json.",
+    "add_outgoing_webhook.contentType.help2": "Để máy chủ mã hóa các tham số ở định dạng URL trong phần nội dung yêu cầu, hãy chọn application / x-www-form-urlencoded.",
+    "add_outgoing_webhook.contentType.help1": "Chỉ định loại nội dung để gửi Request (yêu cầu).",
+    "add_outgoing_webhook.channel.help": "Trường này là tùy chọn nếu chỉ định ít nhất một từ kích hoạt. Chỉ định kênh công khai cung cấp Payload cho Webhook.",
+    "add_outgoing_webhook.callbackUrlsRequired": "Bắt buộc có một hoặc nhiều Callback URL",
+    "add_outgoing_webhook.callbackUrls": "Các Callback URL (mỗi dòng 1 url)",
+    "add_oauth_app.name.help": "Chỉ định tên hiển thị của ứng dụng OAuth 2.0. Có thể sử dụng tối đa 64 ký tự.",
+    "add_oauth_app.icon.help": "(Tùy chọn) Chỉ định URL của hình ảnh cho ứng dụng OAuth 2.0. Sử dụng HTTP hoặc HTTPS trong URL.",
+    "add_oauth_app.homepage.help": "Đây là URL cho trang chủ của ứng dụng OAuth 2.0. Tùy thuộc vào cấu hình máy chủ, hãy sử dụng HTTP hoặc HTTPS trong URL.",
+    "add_oauth_app.doneUrlHelp": "Đây là các URL chuyển hướng được ủy quyền.",
+    "add_oauth_app.callbackUrlsRequired": "Bắt buộc một hoặc nhiều Callback URL",
+    "add_incoming_webhook.username.help": "Chỉ định tên người dùng mà tích hợp này sẽ đăng. Tên người dùng phải ở dạng chữ thường, có tối đa 22 ký tự và có thể chứa số và các ký hiệu \"-\", \"_\" và \".\" . Nếu để trống, tên do người tạo webhook chỉ định sẽ được sử dụng.",
+    "add_incoming_webhook.saving": "Đang lưu..."
 }
