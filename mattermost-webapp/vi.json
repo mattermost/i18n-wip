@@ -2084,5 +2084,6 @@
     "about.teamEditiont1": "Phiên bản doanh nghiệp",
     "about.enterpriseEditione1": "Phiên bản doanh nghiệp",
     "remove_next_steps_modal.confirm": "Loại bỏ",
-    "next_steps_view.invite_members_step.copy_button": "Sao chép đường dẫn"
+    "next_steps_view.invite_members_step.copy_button": "Sao chép đường dẫn",
+    "add_command.autocomplete": "Tự động hoàn thành"
 }
