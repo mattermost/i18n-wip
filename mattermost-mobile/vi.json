@@ -410,5 +410,16 @@
   "mobile.permission_denied_retry": "Cài đặt",
   "login.or": "hoặc",
   "about.teamEditiont1": "Phiên bản doanh nghiệp",
-  "about.enterpriseEditione1": "Phiên bản doanh nghiệp"
+  "about.enterpriseEditione1": "Phiên bản doanh nghiệp",
+  "user.settings.general.username": "Tên tài khoản",
+  "mobile.terms_of_service.alert_cancel": "Hủy",
+  "mobile.reset_status.alert_cancel": "Hủy",
+  "mobile.post.cancel": "Hủy",
+  "mobile.post_textbox.entire_channel.cancel": "Hủy",
+  "mobile.edit_channel": "Lưu",
+  "mobile.alert_dialog.alertCancel": "Hủy",
+  "mobile.account.settings.save": "Lưu",
+  "login.username": "Tên tài khoản",
+  "edit_post.save": "Lưu",
+  "channel_modal.cancel": "Hủy"
 }
