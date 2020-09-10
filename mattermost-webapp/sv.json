@@ -2281,5 +2281,12 @@
     "admin.channel_settings.channel_row.configure": "Editera",
     "no_results.channel_search.subtitle": "Kontrollera stavning eller sök igen.",
     "admin.billing.payment_info_edit.cancel": "Avbryt",
-    "admin.billing.company_info_edit.cancel": "Avbryt"
+    "admin.billing.company_info_edit.cancel": "Avbryt",
+    "no_results.mentions.subtitle": "Meddelande som innehåller ditt användarnamn eller andra ord som triggar ett omnämnande kommer sparas här.",
+    "admin.permissions.permission.use_group_mentions.name": "Gruppomnämnanden",
+    "admin.permissions.group.guest_use_group_mentions.name": "Gruppomnämnanden",
+    "user.settings.notifications.email.immediately": "Omgående",
+    "suggestion.mention.special": "Speciella omnämnanden",
+    "suggestion.mention.morechannels": "Andra kanaler",
+    "suggestion.mention.groups": "Gruppomnämnanden"
 }
