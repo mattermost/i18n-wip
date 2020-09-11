@@ -36,5 +36,14 @@
   "about.hash": "ანაწყობის ჰეში:",
   "about.enterpriseEditionSt": "თანამედროვე კოუნიკაცია თქვენი ფაირვოლის მიღმა.",
   "about.enterpriseEditione1": "საწარმოოს ვერსია",
-  "about.date": "აწყობის თარიღი:"
+  "about.date": "აწყობის თარიღი:",
+  "search_bar.search": "ძიება",
+  "mobile.tos_link": "მომსახურების პირობები",
+  "mobile.terms_of_service.alert_cancel": "გაუქმება",
+  "mobile.routes.channelInfo": "ინფო",
+  "mobile.reset_status.alert_cancel": "გაუქმება",
+  "mobile.privacy_link": "Კონფიდენციალურობის პოლიტიკა",
+  "mobile.post.cancel": "გაუქმება",
+  "mobile.post_textbox.entire_channel.cancel": "გაუქმება",
+  "mobile.alert_dialog.alertCancel": "გაუქმება"
 }
