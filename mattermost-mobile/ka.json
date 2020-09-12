@@ -65,5 +65,9 @@
   "mobile.share_extension.team": "გუნდი",
   "mobile.routes.user_profile.edit": "შეცვლა",
   "mobile.notification_settings.email": "ელ-ფოსტა",
-  "login.email": "ელ-ფოსტა"
+  "login.email": "ელ-ფოსტა",
+  "permalink.error.access": "პერმანენტული ბმული ეკუთვნის წაშლილ შეტყობინებას ან არხს, რომელზეც არ გაქვთ წვდომა.",
+  "password_send.reset": "ჩემი პაროლის აღდგენა",
+  "password_send.link": "თუ ანგარიში არსებობს, პაროლის აღდგენის ელ-ფოსტა გაიგზავნება მისამართზე:",
+  "password_send.error": "შეიყვანეთ კორექტული ელ-ფოსტის მისამართი."
 }
