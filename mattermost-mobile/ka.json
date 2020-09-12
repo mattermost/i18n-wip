@@ -53,5 +53,17 @@
   "mobile.account.settings.save": "შენახვა",
   "login.username": "მომხმარებელი",
   "integrations.add": "დამატება",
-  "edit_post.save": "შენახვა"
+  "edit_post.save": "შენახვა",
+  "password_form.title": "პაროლის აღდგენა",
+  "mobile.advanced_settings.title": "დამატებითი პარამეტრები",
+  "channel_notifications.preference.never": "არასდროს",
+  "channel_header.notificationPreference.none": "არასდროს",
+  "user.settings.notifications.never": "არასდროს",
+  "user.settings.notifications.email.never": "არასდროს",
+  "user.settings.general.email": "ელ-ფოსტა",
+  "post_info.edit": "შეცვლა",
+  "mobile.share_extension.team": "გუნდი",
+  "mobile.routes.user_profile.edit": "შეცვლა",
+  "mobile.notification_settings.email": "ელ-ფოსტა",
+  "login.email": "ელ-ფოსტა"
 }
