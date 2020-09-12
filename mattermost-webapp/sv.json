@@ -2288,5 +2288,8 @@
     "user.settings.notifications.email.immediately": "Omgående",
     "suggestion.mention.special": "Speciella omnämnanden",
     "suggestion.mention.morechannels": "Andra kanaler",
-    "suggestion.mention.groups": "Gruppomnämnanden"
+    "suggestion.mention.groups": "Gruppomnämnanden",
+    "warn_metric_ack_modal.header.title": "Väx med Mattermost",
+    "warn_metric_ack_modal.contact_support": "Godkänna",
+    "announcement_bar.error.number_active_users_warn_metric_status_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig."
 }
