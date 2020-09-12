@@ -45,5 +45,13 @@
   "mobile.privacy_link": "Კონფიდენციალურობის პოლიტიკა",
   "mobile.post.cancel": "გაუქმება",
   "mobile.post_textbox.entire_channel.cancel": "გაუქმება",
-  "mobile.alert_dialog.alertCancel": "გაუქმება"
+  "mobile.alert_dialog.alertCancel": "გაუქმება",
+  "user.settings.general.username": "მომხმარებელი",
+  "mobile.share_extension.channel": "არხი",
+  "mobile.routes.tableImage": "გამოსახულება",
+  "mobile.edit_channel": "შენახვა",
+  "mobile.account.settings.save": "შენახვა",
+  "login.username": "მომხმარებელი",
+  "integrations.add": "დამატება",
+  "edit_post.save": "შენახვა"
 }
