@@ -633,5 +633,10 @@
   "mobile.extension.permission": "Mattermost се нуждае от достъп до хранилището на устройството, за да споделя файлове.",
   "mobile.youtube_playback_error.description": "Възникна грешка при опит за възпроизвеждане на видеоклипа в YouTube.\nДетайли: {details}",
   "mobile.managed.not_secured.ios.touchId": "Това устройство трябва да бъде защитено с парола за използване на Mattermost.\n\nОтидете в Настройки> докосване ID и парола.",
-  "mobile.managed.not_secured.ios": "Това устройство трябва да бъде защитено с парола за използване на Mattermost.\n\nОтидете в Настройки> лицево ID и парола."
+  "mobile.managed.not_secured.ios": "Това устройство трябва да бъде защитено с парола за използване на Mattermost.\n\nОтидете в Настройки> лицево ID и парола.",
+  "channel_notifications.preference.never": "никога",
+  "channel_notifications.preference.all_activity": "За всяка дейност",
+  "channel_header.notificationPreference.none": "никога",
+  "channel_header.notificationPreference.default": "По подразбиране",
+  "channel_header.notificationPreference.all": "всичко"
 }

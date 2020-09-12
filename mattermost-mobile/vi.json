@@ -421,5 +421,8 @@
   "mobile.account.settings.save": "Lưu",
   "login.username": "Tên tài khoản",
   "edit_post.save": "Lưu",
-  "channel_modal.cancel": "Hủy"
+  "channel_modal.cancel": "Hủy",
+  "channel_notifications.preference.all_activity": "Cho tất cả các hoạt động",
+  "channel_header.notificationPreference.default": "Mặc định",
+  "channel_header.notificationPreference.all": "Tất cả"
 }

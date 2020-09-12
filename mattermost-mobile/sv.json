@@ -629,5 +629,9 @@
   "user.settings.notifications.email.immediately": "Omgående",
   "suggestion.mention.special": "Speciella omnämnanden",
   "suggestion.mention.morechannels": "Andra kanaler",
-  "suggestion.mention.groups": "Gruppomnämnanden"
+  "suggestion.mention.groups": "Gruppomnämnanden",
+  "channel_notifications.preference.never": "Aldrig",
+  "channel_notifications.preference.all_activity": "För all aktivitet",
+  "channel_header.notificationPreference.none": "Aldrig",
+  "channel_header.notificationPreference.all": "Alla"
 }

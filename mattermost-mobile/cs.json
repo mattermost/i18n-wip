@@ -432,5 +432,7 @@
   "mobile.post.failed_retry": "Zkusit znovu",
   "mobile.permission_denied_retry": "Nastavení",
   "about.enterpriseEditione1": "Enterprise Edition",
-  "about.teamEditiont1": "Enterprise Edition"
+  "about.teamEditiont1": "Enterprise Edition",
+  "channel_notifications.preference.all_activity": "Pro všechny aktivity",
+  "channel_header.notificationPreference.all": "Vše"
 }
