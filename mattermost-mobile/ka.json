@@ -75,5 +75,7 @@
   "mobile.suggestion.members": "წევრები",
   "mobile.routes.mfa": "მულტი-ფქტორიანი აუთენტიფიკაცია",
   "mobile.routes.channelInfo.unarchive_channel": "არხის გამოარქივება",
-  "mobile.routes.channelInfo.delete_channel": "არხის დაარქივება"
+  "mobile.routes.channelInfo.delete_channel": "არხის დაარქივება",
+  "mobile.channel_list.alertNo": "არა",
+  "mobile.channel_info.alertNo": "არა"
 }
