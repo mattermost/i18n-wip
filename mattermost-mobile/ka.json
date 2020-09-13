@@ -69,5 +69,11 @@
   "permalink.error.access": "პერმანენტული ბმული ეკუთვნის წაშლილ შეტყობინებას ან არხს, რომელზეც არ გაქვთ წვდომა.",
   "password_send.reset": "ჩემი პაროლის აღდგენა",
   "password_send.link": "თუ ანგარიში არსებობს, პაროლის აღდგენის ელ-ფოსტა გაიგზავნება მისამართზე:",
-  "password_send.error": "შეიყვანეთ კორექტული ელ-ფოსტის მისამართი."
+  "password_send.error": "შეიყვანეთ კორექტული ელ-ფოსტის მისამართი.",
+  "file_attachment.download": "ჩამოტვირთვა",
+  "search_item.channelArchived": "დაარქივებული",
+  "mobile.suggestion.members": "წევრები",
+  "mobile.routes.mfa": "მულტი-ფქტორიანი აუთენტიფიკაცია",
+  "mobile.routes.channelInfo.unarchive_channel": "არხის გამოარქივება",
+  "mobile.routes.channelInfo.delete_channel": "არხის დაარქივება"
 }
