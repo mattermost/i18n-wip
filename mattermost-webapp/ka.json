@@ -590,5 +590,15 @@
     "admin.cluster.OverrideHostnameDesc": "ნაგულისხმევი მნიშვნელობა  '<blank>' შეეცდება გაიგოს ჰოსტის სახელი საოპერაციო სისტემისგან ან გამოიყენებს IP მისამართს. თქვენ შეგიძლიათ ჰოსტის სახელის უგულვებელყოფა ამ პარამეტრით. არ არის რეკომენდებული ჰოსტის სახელის უგულვებელყოფა საჭიროების გარეშე. ასევე ამ პარამეტრში თუ საჭირო გახდა შეგიძლიათ მიუთითოთ სპეციფიური IP მისამართი.",
     "admin.cluster.OverrideHostname": "ჰოსტის სახელის უგულვებელყოფა:",
     "admin.cluster.noteDescription": "ამ სექციაში პარამეტრების ცვლილება მოითხოვს სერვერის გადატვირთვას მათი გააქტიურებისთვის.",
-    "admin.cluster.loadedFrom": "ეს კონფიგურაციის ფაილი ჩაიტვირთა Node ID {clusterId}-დან. გთხოვთ ნახოთ შეცდომების გასწორების სახელმძღვანელო ჩვენს [დოკუმენტაციაში](!http://docs.mattermost.com/deployment/cluster.html) თუ შესული ხართ სისტემის კონსოლში დატვირთვის ბალანსერით და გაქვთ პრობლემები."
+    "admin.cluster.loadedFrom": "ეს კონფიგურაციის ფაილი ჩაიტვირთა Node ID {clusterId}-დან. გთხოვთ ნახოთ შეცდომების გასწორების სახელმძღვანელო ჩვენს [დოკუმენტაციაში](!http://docs.mattermost.com/deployment/cluster.html) თუ შესული ხართ სისტემის კონსოლში დატვირთვის ბალანსერით და გაქვთ პრობლემები.",
+    "leave_team_modal.no": "არა",
+    "installed_oauth_apps.trusted.no": "არა",
+    "view_image_popover.download": "ჩამოტვირთვა",
+    "admin.jobTable.downloadLink": "ჩამოტვირთვა",
+    "user.settings.mfa.title": "მულტი-ფქტორიანი აუთენტიფიკაცია",
+    "search_item.channelArchived": "დაარქივებული",
+    "channel_header.unarchive": "არხის გამოარქივება",
+    "channel_header.delete": "არხის დაარქივება",
+    "channel_header.channelMembers": "წევრები",
+    "admin.team_settings.team_detail.membersTitle": "წევრები"
 }
