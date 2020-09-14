@@ -1,23 +1,23 @@
 [
     {
         "id": "September",
-        "translation": "Septemba"
+        "translation": "September"
     },
     {
         "id": "October",
-        "translation": "Oktoba"
+        "translation": "Oktober"
     },
     {
         "id": "November",
-        "translation": "Novemba"
+        "translation": "November"
     },
     {
         "id": "May",
-        "translation": "Mei"
+        "translation": "Maj"
     },
     {
         "id": "March",
-        "translation": "Machi"
+        "translation": "Mars"
     },
     {
         "id": "June",
@@ -25,7 +25,7 @@
     },
     {
         "id": "July",
-        "translation": "Julai"
+        "translation": "Juli"
     },
     {
         "id": "January",
@@ -37,15 +37,15 @@
     },
     {
         "id": "December",
-        "translation": "Disemba"
+        "translation": "December"
     },
     {
         "id": "August",
-        "translation": "Agosti"
+        "translation": "Augusti"
     },
     {
         "id": "April",
-        "translation": "Aprili"
+        "translation": "April"
     },
     {
         "id": "web.get_access_token.internal_saving.app_error",
@@ -1609,7 +1609,7 @@
     },
     {
         "id": "model.config.is_valid.restrict_direct_message.app_error",
-        "translation": "Felaktigt begränsning för direktmeddelande.  Måste vara 'any' eller 'team'."
+        "translation": "Felaktigt begränsning för direktmeddelande. Måste vara 'any' eller 'team'."
     },
     {
         "id": "model.config.is_valid.read_timeout.app_error",
@@ -2397,7 +2397,7 @@
     },
     {
         "id": "ent.ldap.do_login.user_filtered.app_error",
-        "translation": "Ditt  AD/LDAP-konto har inte behörighet för att använda denna Mattermost-server. Be din systemadministratör att kolla  användarfiltret för AD/LDAP."
+        "translation": "Ditt AD/LDAP-konto har inte behörighet för att använda denna Mattermost-server. Be din systemadministratör att kolla användarfiltret för AD/LDAP."
     },
     {
         "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -2637,7 +2637,7 @@
     },
     {
         "id": "ent.compliance.run_export.template_watcher.appError",
-        "translation": "Kunde inte ladda exportmallar. Försök igen!"
+        "translation": "Kunde inte ladda exportmallar. Försök igen."
     },
     {
         "id": "ent.compliance.licence_disable.app_error",
@@ -2709,11 +2709,11 @@
     },
     {
         "id": "app.import.validate_reply_import_data.user_missing.error",
-        "translation": "Det saknas en obligatorisk egenskap för svaret: User. "
+        "translation": "Saknar en obligatorisk egenskap för svaret: User."
     },
     {
         "id": "app.import.validate_reply_import_data.message_missing.error",
-        "translation": "Det saknas en obligatorisk egenskap för svaret: Message. "
+        "translation": "Saknar en obligatorisk egenskap för svaret: Message."
     },
     {
         "id": "app.import.validate_reply_import_data.message_length.error",
@@ -2733,11 +2733,11 @@
     },
     {
         "id": "app.import.validate_reaction_import_data.user_missing.error",
-        "translation": "Det saknasen obligatorisk egenskap för reaktionen: User. "
+        "translation": "Saknar en obligatorisk egenskap för reaktionen: User."
     },
     {
         "id": "app.import.validate_reaction_import_data.emoji_name_missing.error",
-        "translation": "Det saknas en obligatorisk egenskap för reaktionen: EmojiName. "
+        "translation": "Saknar en obligatorisk egenskap för reaktionen: EmojiName."
     },
     {
         "id": "app.import.validate_reaction_import_data.emoji_name_length.error",
@@ -2757,15 +2757,15 @@
     },
     {
         "id": "app.import.validate_post_import_data.user_missing.error",
-        "translation": "Fattas en obligatorisk egenskap för posten: användaren. "
+        "translation": "Saknar en obligatorisk egenskap för posten: User."
     },
     {
         "id": "app.import.validate_post_import_data.team_missing.error",
-        "translation": "Obligatorisk egenskap saknas för inlägg: Grupp. "
+        "translation": "Saknar en obligatorisk egenskap för inlägg: Team."
     },
     {
         "id": "app.import.validate_post_import_data.message_missing.error",
-        "translation": "Det saknas en obligatorisk egenskap för posten: Message. "
+        "translation": "Saknar en obligatorisk egenskap för posten: Message."
     },
     {
         "id": "app.import.validate_post_import_data.message_length.error",
@@ -2777,7 +2777,7 @@
     },
     {
         "id": "app.import.validate_post_import_data.create_at_missing.error",
-        "translation": "Saknas en obligatorisk egenskap för posten: create_at (skapat_vid)"
+        "translation": "Saknar en obligatorisk egenskap för posten: create_at."
     },
     {
         "id": "app.import.validate_post_import_data.channel_missing.error",
@@ -2853,7 +2853,7 @@
     },
     {
         "id": "app.import.validate_channel_import_data.type_missing.error",
-        "translation": "Det fattas en obligatorisk kanalegenskap: type"
+        "translation": "Saknar en obligatorisk kanalegenskap: type."
     },
     {
         "id": "app.import.validate_channel_import_data.type_invalid.error",
@@ -3089,7 +3089,7 @@
     },
     {
         "id": "app.bot.get_disable_bot_sysadmin_message",
-        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} har inaktiverats. De hanterar följande bot-konton som nu är inaktiverade.\n\n{{.BotNames}}{{else}}{{.UserName}} ar inaktiverats. De hanterade {{.NumBots}} bot-konton som nu är avstängda, inkluderat:\n\n{{.BotNames}}{{end}}Du kan ta ägandeskap över respektive bot genom att aktivera den på **Integrations > Bot Accounts** och där skapa nya tokens för bot:en.\n\nFör mer information, läs [dokumentationen](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} har inaktiverats. De hanterar följande bot-konton som fortfarande är aktiverade.\n\n{{.BotNames}}\n{{else}}{{.UserName}} har inaktiverats. De hanterade {{.NumBots}} bot-konton som som fortfarande är aktiverade, inkluderat:\n\n{{.BotNames}}{{end}}Vi rekommenderar starkt att du tar ägandeskap över respektive bot genom att aktivera dem på **Integrations > Bot Accounts** och skapa nya tokens för bot:en.\n\nFör mer information, läs [dokumentationen](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nOm du vill inaktivera botkonton automatiskt om du inaktiverar en användare, gå till **System console > Integration's > Bot Accounts** och aktivera \"Disable bot accounts when owner is deactivated\".{{end}}"
+        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} har inaktiverats. De hanterar följande bot-konton som nu är inaktiverade.\n\n{{.BotNames}}{{else}}{{.UserName}} har inaktiverats. De hanterade {{.NumBots}} bot-konton som nu är avstängda, inkluderat:\n\n{{.BotNames}}{{end}}Du kan ta ägandeskap över respektive bot genom att aktivera den på **Integrations > Bot Accounts** och där skapa nya tokens för bot:en.\n\nFör mer information, läs [dokumentationen](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} har inaktiverats. De hanterar följande bot-konton som fortfarande är aktiverade.\n\n{{.BotNames}}\n{{else}}{{.UserName}} har inaktiverats. De hanterade {{.NumBots}} bot-konton som som fortfarande är aktiverade, inkluderat:\n\n{{.BotNames}}{{end}}Vi rekommenderar starkt att du tar ägandeskap över respektive bot genom att aktivera dem på **Integrations > Bot Accounts** och skapa nya tokens för bot:en.\n\nFör mer information, läs [dokumentationen](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nOm du vill inaktivera bot-konton automatiskt när du inaktiverar en användare, gå till **System console > Integration's > Bot Accounts** och aktivera \"Disable bot accounts when owner is deactivated\".{{end}}"
     },
     {
         "id": "app.bot.createbot.internal_error",
@@ -3181,7 +3181,7 @@
     },
     {
         "id": "api.user.verify_email.broken_token.app_error",
-        "translation": "Felaktigt token i bekräftelse-epost"
+        "translation": "Felaktigt token i bekräftelse-epost."
     },
     {
         "id": "api.user.verify_email.bad_link.app_error",
@@ -3397,7 +3397,7 @@
     },
     {
         "id": "api.user.login.invalid_credentials_email_username",
-        "translation": "Ange en giltig e-postadress eller användarnamn och/eller lösenord"
+        "translation": "Ange en giltig e-postadress eller användarnamn och/eller lösenord."
     },
     {
         "id": "api.user.login.invalid_credentials_email",
@@ -3413,7 +3413,7 @@
     },
     {
         "id": "api.user.login.guest_accounts.disabled.error",
-        "translation": "Gäståtkomst har inaktiverats."
+        "translation": "Gäståtkomst har inaktiverats"
     },
     {
         "id": "api.user.login.client_side_cert.license.app_error",
@@ -3789,7 +3789,7 @@
     },
     {
         "id": "api.templates.deactivate_body.title",
-        "translation": "Ditt konto på {{.ServerURL}} har stängts av."
+        "translation": "Ditt konto på {{.ServerURL}} har stängts av"
     },
     {
         "id": "api.templates.deactivate_body.info",
@@ -3905,7 +3905,7 @@
     },
     {
         "id": "api.team.is_team_creation_allowed.disabled.app_error",
-        "translation": "Möjligheten att skapa Grupp är inaktiverad. Kontakta din Systemadministratör"
+        "translation": "Möjligheten att skapa Grupp är inaktiverad. Kontakta din Systemadministratör."
     },
     {
         "id": "api.team.invite_members.no_one.app_error",
@@ -3929,7 +3929,7 @@
     },
     {
         "id": "api.team.invate_guests_to_channels.disabled.error",
-        "translation": "Gäståtkomst har inaktiverats."
+        "translation": "Gäståtkomst har inaktiverats"
     },
     {
         "id": "api.team.invalidate_all_email_invites.app_error",
@@ -3961,7 +3961,7 @@
     },
     {
         "id": "api.team.import_team.array.app_error",
-        "translation": "Tom 'fil'-tabell i förfrågan. "
+        "translation": "Tom 'fil'-tabell i förfrågan."
     },
     {
         "id": "api.team.get_team_icon.read_file.app_error",
@@ -3997,7 +3997,7 @@
     },
     {
         "id": "api.team.add_user_to_team.added",
-        "translation": "%v tillagd i gruppen av %v"
+        "translation": "%v tillagd i gruppen av %v."
     },
     {
         "id": "api.team.add_members.user_denied",
@@ -4005,7 +4005,7 @@
     },
     {
         "id": "api.team.add_members.error",
-        "translation": "Misslyckades att lägga till gruppmedlemmar"
+        "translation": "Misslyckades att lägga till gruppmedlemmar."
     },
     {
         "id": "api.system.id_loaded.not_available.app_error",
@@ -4133,7 +4133,7 @@
     },
     {
         "id": "api.scheme.delete_scheme.license.error",
-        "translation": "Licensen tillåter inte raderande av behörighetsscheman."
+        "translation": "Licensen tillåter inte raderande av behörighetsscheman"
     },
     {
         "id": "api.scheme.create_scheme.license.error",
@@ -4371,7 +4371,7 @@
     },
     {
         "id": "brand.save_brand_image.save_image.app_error",
-        "translation": "Kunde inte spara bildfilen på din lagringsyta. Kolla din uppkoppling och försök igen!"
+        "translation": "Kunde inte spara bildfilen på din lagringsyta. Kolla din uppkoppling och försök igen."
     },
     {
         "id": "brand.save_brand_image.open.app_error",
@@ -4379,7 +4379,7 @@
     },
     {
         "id": "brand.save_brand_image.encode.app_error",
-        "translation": "Kunde inte konvertera bilddatat till PNG-format. Försök igen!"
+        "translation": "Kunde inte konvertera bilddatat till PNG-format. Försök igen."
     },
     {
         "id": "brand.save_brand_image.decode_config.app_error",
@@ -4559,7 +4559,7 @@
     },
     {
         "id": "app.plugin.marketplace_plugin_request.app_error",
-        "translation": "Kunde inte avkoda anropet mot Marketplace-pluginet"
+        "translation": "Kunde inte avkoda anropet mot Marketplace-pluginet."
     },
     {
         "id": "app.plugin.marketplace_disabled.app_error",
@@ -4619,7 +4619,7 @@
     },
     {
         "id": "app.plugin.flag_managed.app_error",
-        "translation": "Kunde inte använda plugin-filen"
+        "translation": "Kan inte att ange plugin som hanteras av filarkivet."
     },
     {
         "id": "app.plugin.filesystem.app_error",
@@ -4735,7 +4735,7 @@
     },
     {
         "id": "app.import.validate_user_import_data.username_missing.error",
-        "translation": "Det saknas en obligatorisk användaregenskap: username. "
+        "translation": "Saknar en obligatorisk användaregenskap: username."
     },
     {
         "id": "app.import.validate_user_import_data.username_invalid.error",
@@ -4855,7 +4855,7 @@
     },
     {
         "id": "app.import.validate_team_import_data.type_missing.error",
-        "translation": "Obligatorisk gruppegenskap saknas: typ"
+        "translation": "Saknar en obligatorisk teamegenskap: type."
     },
     {
         "id": "app.import.validate_team_import_data.type_invalid.error",
@@ -4871,7 +4871,7 @@
     },
     {
         "id": "app.import.validate_team_import_data.name_missing.error",
-        "translation": "Obligatorisk gruppegenskap saknas: namn"
+        "translation": "Saknar en obligatorisk teamegenskap: name."
     },
     {
         "id": "app.import.validate_team_import_data.name_length.error",
@@ -5143,7 +5143,7 @@
     },
     {
         "id": "api.image.get.app_error",
-        "translation": "Kan inte tolka den begärda bildens URL"
+        "translation": "Kan inte tolka den begärda bildens URL."
     },
     {
         "id": "api.file.write_file_locally.writing.app_error",
@@ -5159,7 +5159,7 @@
     },
     {
         "id": "api.file.upload_file.too_large_detailed.app_error",
-        "translation": "Kunde inte ladda upp filen {{.Filename}}. Storleken {{.Length}} byte är över det tillåtna {{.Limit}} byte. "
+        "translation": "Kunde inte ladda upp filen {{.Filename}}. Storleken {{.Length}} byte är över det tillåtna {{.Limit}} byte."
     },
     {
         "id": "api.file.upload_file.storage.app_error",
@@ -5211,7 +5211,7 @@
     },
     {
         "id": "api.file.test_connection.local.connection.app_error",
-        "translation": "Har inte rättighet att skriva till den angivna lokala filsökvägen, eller annat fel. "
+        "translation": "Har inte rättighet att skriva till den angivna lokala filsökvägen, eller annat fel."
     },
     {
         "id": "api.file.reader.s3.app_error",
@@ -5908,15 +5908,15 @@
     },
     {
         "id": "api.command_dnd.error",
-        "translation": "Misslyckades att ta emot användare status"
+        "translation": "Misslyckades att hämta användarens status."
     },
     {
         "id": "api.command_dnd.disabled",
-        "translation": "Stör EJ är avaktiverad"
+        "translation": "Stör Ej är avaktiverad."
     },
     {
         "id": "api.command_dnd.desc",
-        "translation": "Stör EJ avaktiverar skrivbords och mobil push notifiering"
+        "translation": "Stör Ej avaktiverar skrivbords och mobil push-notifiering."
     },
     {
         "id": "api.command_collapse.success",
@@ -5988,7 +5988,7 @@
     },
     {
         "id": "api.command_channel_remove.channel.app_error",
-        "translation": "Fel vid hämtning av nuvarande kanal"
+        "translation": "Fel vid hämtning av nuvarande kanal."
     },
     {
         "id": "api.command_channel_purpose.update_channel.app_error",
@@ -6048,7 +6048,7 @@
     },
     {
         "id": "api.command_channel_header.channel.app_error",
-        "translation": "Fel vid hämtning av nuvarande kanal"
+        "translation": "Fel vid hämtning av nuvarande kanal."
     },
     {
         "id": "api.command_away.success",
@@ -6156,7 +6156,7 @@
     },
     {
         "id": "api.channel.update_channel_scheme.scheme_scope.error",
-        "translation": "Kan inte applicera schemat på kanalen då det bifogade schemat inte är ett kanalschema"
+        "translation": "Kan inte applicera schemat på kanalen då det bifogade schemat inte är ett kanalschema."
     },
     {
         "id": "api.channel.update_channel_scheme.license.error",
@@ -6224,7 +6224,7 @@
     },
     {
         "id": "api.channel.remove_channel_member.type.app_error",
-        "translation": "Misslyckades med att ta bort användaren från kanalen"
+        "translation": "Misslyckades med att ta bort användaren från kanalen."
     },
     {
         "id": "api.channel.remove.default.app_error",
@@ -6268,7 +6268,7 @@
     },
     {
         "id": "api.channel.post_channel_privacy_message.error",
-        "translation": "Det gick inte att spara kanalens sekretessmeddelande"
+        "translation": "Det gick inte att spara kanalens sekretessmeddelande."
     },
     {
         "id": "api.channel.patch_update_channel.forbidden.app_error",
@@ -6276,7 +6276,7 @@
     },
     {
         "id": "api.channel.patch_channel_moderations.license.error",
-        "translation": "Din licens ger inte stöd att moderera kanalen."
+        "translation": "Din licens ger inte stöd att moderera kanalen"
     },
     {
         "id": "api.channel.leave.left",
@@ -6308,7 +6308,7 @@
     },
     {
         "id": "api.channel.get_channel_moderations.license.error",
-        "translation": "Din licens ger inte stöd för moderering i kanalen."
+        "translation": "Din licens ger inte stöd för moderering i kanalen"
     },
     {
         "id": "api.channel.delete_channel.type.invalid",
@@ -6372,7 +6372,7 @@
     },
     {
         "id": "api.channel.change_channel_privacy.private_to_public",
-        "translation": "Denna kanal har konverterats till en offentlig kanal vilken alla gruppmedlemmar kan ansluta till"
+        "translation": "Denna kanal har konverterats till en offentlig kanal vilken alla gruppmedlemmar kan ansluta till."
     },
     {
         "id": "api.channel.add_user_to_channel.type.app_error",
@@ -6524,7 +6524,7 @@
     },
     {
         "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
-        "translation": "Lyckades inte fånga metadata från Identity Provider URL"
+        "translation": "Lyckades inte fånga metadata från Identity Provider URL."
     },
     {
         "id": "api.admin.remove_certificate.delete.app_error",
@@ -6536,7 +6536,7 @@
     },
     {
         "id": "api.admin.file_read_error",
-        "translation": "Fel vid läsningen av loggfilen"
+        "translation": "Fel vid läsningen av loggfilen."
     },
     {
         "id": "api.admin.delete_brand_image.storage.not_found",
@@ -6544,11 +6544,11 @@
     },
     {
         "id": "api.admin.add_certificate.saving.app_error",
-        "translation": "Gick inte att spara certifikatfilen"
+        "translation": "Kunder inte spara certifikatfilen."
     },
     {
         "id": "api.admin.add_certificate.open.app_error",
-        "translation": "Kunde inte öppna certifikatfil"
+        "translation": "Kunde inte öppna certifikatfil."
     },
     {
         "id": "api.admin.add_certificate.no_file.app_error",
@@ -6633,5 +6633,545 @@
     {
         "id": "api.admin.ldap.not_available.app_error",
         "translation": "LDAP är inte tillgängligt."
+    },
+    {
+        "id": "app.preference.delete.app_error",
+        "translation": "Vi stötte på ett fel när inställningar skulle raderas."
+    },
+    {
+        "id": "app.post.update.app_error",
+        "translation": "Kunde inte uppdatera meddelandet."
+    },
+    {
+        "id": "app.post.save.existing.app_error",
+        "translation": "Du kan inte uppdatera ett befintligt meddelande."
+    },
+    {
+        "id": "app.post.save.app_error",
+        "translation": "Kunde inte spara meddelandet."
+    },
+    {
+        "id": "app.post.permanent_delete_by_user.app_error",
+        "translation": "Kunde inte utröna meddelanden att radera utifrån användare."
+    },
+    {
+        "id": "app.post.permanent_delete_by_channel.app_error",
+        "translation": "Kunde inte radera meddelanden utifrån kanal."
+    },
+    {
+        "id": "app.post.get_posts_since.app_error",
+        "translation": "Kunde inte hämta kanalens meddelanden."
+    },
+    {
+        "id": "app.post.get_posts_around.get.app_error",
+        "translation": "Kunde inte hämta kanalens meddelanden."
+    },
+    {
+        "id": "app.post.get_post_id_around.app_error",
+        "translation": "Kunde inte hämta meddelanden utifrån ungefärlig tid."
+    },
+    {
+        "id": "app.post.get_post_after_time.app_error",
+        "translation": "Kunde inte hämta meddelanden utifrån tidsspann."
+    },
+    {
+        "id": "app.post.get_flagged_posts.app_error",
+        "translation": "Kunde inte hämta flaggade meddelanden."
+    },
+    {
+        "id": "app.post.get.app_error",
+        "translation": "Kunde inte hämta meddelandet."
+    },
+    {
+        "id": "app.post.delete.app_error",
+        "translation": "Kunde inte radera meddelandet."
+    },
+    {
+        "id": "app.plugin_store.save.app_error",
+        "translation": "Kunde inte spara eller uppdatera plugin-parametern."
+    },
+    {
+        "id": "app.plugin_store.list.app_error",
+        "translation": "Kunde inte lista alla plugin-parametrar."
+    },
+    {
+        "id": "app.plugin_store.get.app_error",
+        "translation": "Kunde inte hämta plugin-parametrar."
+    },
+    {
+        "id": "app.plugin_store.delete.app_error",
+        "translation": "Kunde inte radera plugin-parameterns värde."
+    },
+    {
+        "id": "app.job.update.app_error",
+        "translation": "Kunde inte uppdatera jobbet."
+    },
+    {
+        "id": "app.job.save.app_error",
+        "translation": "Kunde inte spara jobbet."
+    },
+    {
+        "id": "app.job.get_newest_job_by_status_and_type.app_error",
+        "translation": "Kunde inte hämta de senaste jobben utifrån status och typ."
+    },
+    {
+        "id": "app.job.get_count_by_status_and_type.app_error",
+        "translation": "Kunde inte hämta antalet jobb utifrån status och typ."
+    },
+    {
+        "id": "app.job.get_all.app_error",
+        "translation": "Kunde inte hämta jobben."
+    },
+    {
+        "id": "app.job.get.app_error",
+        "translation": "Kunde inte hämta jobbet."
+    },
+    {
+        "id": "app.job.download_export_results_not_enabled",
+        "translation": "Alternativet DownloadExportResults i config.json är satt till false. Sätt alternativet till true för att kunna ladda ner resultatet från jobbet."
+    },
+    {
+        "id": "app.import.validate_post_import_data.props_too_large.error",
+        "translation": "Meddelandeegenskaper är längre än maximalt tillåten längd."
+    },
+    {
+        "id": "app.import.import_user_teams.save_members.max_accounts.app_error",
+        "translation": "Kunde inte importera teammedlemsskapet eftersom det inte tillåts fler medlemmar i teamet"
+    },
+    {
+        "id": "app.import.import_user_teams.save_members.conflict.app_error",
+        "translation": "Kunde inte importera teammedlemsskapet eftersom det redan finns"
+    },
+    {
+        "id": "app.import.import_user_teams.save_members.error",
+        "translation": "Kunde inte importera teammedlemsskap"
+    },
+    {
+        "id": "app.file_info.save.app_error",
+        "translation": "Kunde inte spara filinformationen."
+    },
+    {
+        "id": "app.file_info.permanent_delete_by_user.app_error",
+        "translation": "Kunde inte radera användarens bilagor."
+    },
+    {
+        "id": "app.file_info.get_with_options.app_error",
+        "translation": "Kunde inte hämta filinformationen med urvalet"
+    },
+    {
+        "id": "app.file_info.get_for_post.app_error",
+        "translation": "Kunde inte hämta filinformationen för meddelandet."
+    },
+    {
+        "id": "app.file_info.get.app_error",
+        "translation": "Kunde inte hämta filinformationen."
+    },
+    {
+        "id": "app.emoji.get_list.internal_error",
+        "translation": "Kunde inte hämta emoijen."
+    },
+    {
+        "id": "app.emoji.get_by_name.no_result",
+        "translation": "Vi kunde inte hitta emoijen."
+    },
+    {
+        "id": "app.emoji.get_by_name.app_error",
+        "translation": "Kunde inte hämta emoijen."
+    },
+    {
+        "id": "app.emoji.get.no_result",
+        "translation": "Vi kunde inte hitta emoijen."
+    },
+    {
+        "id": "app.emoji.get.app_error",
+        "translation": "Kunde inte hämta emoij."
+    },
+    {
+        "id": "app.emoji.create.internal_error",
+        "translation": "Kunde inte spara emoij."
+    },
+    {
+        "id": "app.email.setup_rate_limiter.app_error",
+        "translation": "Ett fel uppstod i mängdbegränsningen (Rate limiter)."
+    },
+    {
+        "id": "app.email.rate_limit_exceeded.app_error",
+        "translation": "Gränsen för antal e-postmeddelanden har nåtts. Timer kommer återställas efter {{.ResetAfter}} sekunder. Försök igen efter {{.RetryAfter}} sekunder."
+    },
+    {
+        "id": "app.email.no_rate_limiter.app_error",
+        "translation": "Mängdbegränsning (Rate limiter) är inte konfigurerad."
+    },
+    {
+        "id": "app.create_basic_user.save_member.max_accounts.app_error",
+        "translation": "Kunde inte skapa medlemskap i standardteam eftersom fler medlemmar i teamet inte tillåts"
+    },
+    {
+        "id": "app.create_basic_user.save_member.conflict.app_error",
+        "translation": "Kunde inte skapa medlemskap i standardteam eftersom de redan är skapade."
+    },
+    {
+        "id": "app.create_basic_user.save_member.app_error",
+        "translation": "Kunde inte skapa medlemskap i standardteam."
+    },
+    {
+        "id": "app.command_webhook.try_use.invalid",
+        "translation": "Ogiltig webhook."
+    },
+    {
+        "id": "app.command_webhook.handle_command_webhook.parse",
+        "translation": "Kunde inte tolka inkommande data."
+    },
+    {
+        "id": "app.command_webhook.get.missing",
+        "translation": "Kunde inte hitta webhooken."
+    },
+    {
+        "id": "app.command_webhook.get.internal_error",
+        "translation": "Kunde inte hämta webhooken."
+    },
+    {
+        "id": "app.command.movecommand.internal_error",
+        "translation": "Kunde inte flytta kommandot."
+    },
+    {
+        "id": "app.command.listteamcommands.internal_error",
+        "translation": "Kunde inte lista team-kommandon."
+    },
+    {
+        "id": "app.command.listallcommands.internal_error",
+        "translation": "Kunde inte lista kommandon."
+    },
+    {
+        "id": "app.command.getcommand.internal_error",
+        "translation": "Kunde inte hämta kommandot."
+    },
+    {
+        "id": "app.command.createcommand.internal_error",
+        "translation": "Kunde inte spara kommandot."
+    },
+    {
+        "id": "app.channel.update_channel.internal_error",
+        "translation": "Kunde inte uppdatera kanalen."
+    },
+    {
+        "id": "app.channel.restore.app_error",
+        "translation": "Kunde inte återställa kanalen."
+    },
+    {
+        "id": "app.channel.permanent_delete.app_error",
+        "translation": "Kunde inte radera kanalen."
+    },
+    {
+        "id": "app.channel.get_public_channels.get.app_error",
+        "translation": "Kunde inte hämta publika kanaler."
+    },
+    {
+        "id": "app.channel.get_private_channels.get.app_error",
+        "translation": "Kunde inte hämta privata kanaler."
+    },
+    {
+        "id": "app.channel.get_more_channels.get.app_error",
+        "translation": "Kunde inte hämta kanalerna."
+    },
+    {
+        "id": "app.channel.get_for_post.app_error",
+        "translation": "Kunde inte hämta kanalen som meddelandet finns i."
+    },
+    {
+        "id": "app.channel.get_channels_by_ids.get.app_error",
+        "translation": "Kunde inte hämta kanalerna."
+    },
+    {
+        "id": "app.channel.get_channels_by_ids.app_error",
+        "translation": "Kunde inte hämta kanalerna utifrån ID:n."
+    },
+    {
+        "id": "app.channel.get_channels.get.app_error",
+        "translation": "Kunde inte hämta kanalerna."
+    },
+    {
+        "id": "app.channel.get_channel_counts.get.app_error",
+        "translation": "Kunde inte hämta antalet kanaler."
+    },
+    {
+        "id": "app.channel.get_by_name.existing.app_error",
+        "translation": "Kunde inte hämta den existerande kanalen."
+    },
+    {
+        "id": "app.channel.get_all_channels.app_error",
+        "translation": "Kunde inte hämta alla kanaler."
+    },
+    {
+        "id": "app.channel.get.find.app_error",
+        "translation": "Ett fel uppstod då kanalen hämtades."
+    },
+    {
+        "id": "app.channel.get.existing.app_error",
+        "translation": "Kunde inte hämta den existerande kanalen."
+    },
+    {
+        "id": "app.channel.create_initial_sidebar_categories.internal_error",
+        "translation": "Kunde inte skapa kategorierna i den initiala sidomenyn för användaren."
+    },
+    {
+        "id": "app.channel.create_direct_channel.internal_error",
+        "translation": "Kunde inte spara kanalen för direktmeddelanden."
+    },
+    {
+        "id": "app.channel.create_channel.internal_error",
+        "translation": "Kunde inte spara kanalen."
+    },
+    {
+        "id": "app.audit.get.limit.app_error",
+        "translation": "Sid-gränsen överskriden."
+    },
+    {
+        "id": "app.analytics.getanalytics.internal_error",
+        "translation": "Kunde inte hämta analysvärden."
+    },
+    {
+        "id": "api.user.update_password.user_and_hashed.app_error",
+        "translation": "Endast systemadministratören kan ange hash-ade lösenord."
+    },
+    {
+        "id": "api.user.login_cws.license.error",
+        "translation": "CWS-login är inte tillåten."
+    },
+    {
+        "id": "api.user.login_by_cws.invalid_token.app_error",
+        "translation": "CWS-token är ogiltigt"
+    },
+    {
+        "id": "api.user.delete_user.not_enabled.app_error",
+        "translation": "Funktionen att radera användare permanent är inte aktiverad. Kontakta din systemadministratör."
+    },
+    {
+        "id": "api.user.delete_team.not_enabled.app_error",
+        "translation": "Funktionen att radera team permanent är inte aktiverad. Kontakta din systemadministratör."
+    },
+    {
+        "id": "api.user.delete_channel.not_enabled.app_error",
+        "translation": "Funktionen att radera kanaler permanent är inte aktiverad. Kontakta din systemadministratör."
+    },
+    {
+        "id": "api.user.autocomplete_users.missing_team_id.app_error",
+        "translation": "Parametern Team id krävs för automatkomplettering per kanal."
+    },
+    {
+        "id": "api.team.invite_members.limit_reached.app_error",
+        "translation": "Du har nått användarnivågränsen för den kostnadsfria versionen"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.number_of_users.mailto_body",
+        "translation": ""
+    },
+    {
+        "id": "app.channel.get_channels_by_ids.not_found.app_error",
+        "translation": "Hittade inga kanaler."
+    },
+    {
+        "id": "app.channel.get_all_channels_count.app_error",
+        "translation": "Kunde inte räkna alla kanaler."
+    },
+    {
+        "id": "app.channel.delete.app_error",
+        "translation": "Kunde inte radera kanalen."
+    },
+    {
+        "id": "app.bot.permenent_delete.bad_id",
+        "translation": "Kunde inte radera bot:en."
+    },
+    {
+        "id": "app.bot.patchbot.internal_error",
+        "translation": "Kunde inte uppdatera bot:en."
+    },
+    {
+        "id": "app.bot.getbots.internal_error",
+        "translation": "Kunde inte hämta bottar."
+    },
+    {
+        "id": "app.bot.getbot.internal_error",
+        "translation": "Kunde inte hämta bot."
+    },
+    {
+        "id": "api.upgrade_to_enterprise_status.signature.app_error",
+        "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Signaturen på den nedladdade filen kunde inte verifieras rätt."
+    },
+    {
+        "id": "api.upgrade_to_enterprise_status.app_error",
+        "translation": "Mattermost kunde inte uppgradera till Enterprise Edition."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
+        "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Denna funktion fungerar bara på Linux-system med x86-64-arkitektur."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
+        "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Mattermost system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där Mattermost är installerat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera Mattermost igen. När Mattermost är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    },
+    {
+        "id": "api.upgrade_to_enterprise.invalid-user.app_error",
+        "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Mattermost system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där Mattermost är installerat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera Mattermost igen. När Mattermost är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    },
+    {
+        "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
+        "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Mattermost system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där Mattermost är installerat:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera Mattermost igen. När Mattermost är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    },
+    {
+        "id": "api.upgrade_to_enterprise.generic_error.app_error",
+        "translation": "Mattermost kunde inte uppgradera till Mattermost Enterprise Edition."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.app_error",
+        "translation": "En uppgradering till Mattermost Enterprise Edition är redan startad."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
+        "translation": "Du kan inte uppgradera då du redan kör Mattermost Enterprise Edition."
+    },
+    {
+        "id": "api.upgrade_to_enterprise.already-done.app_error",
+        "translation": "Du har redan uppgraderat till Mattermost Enterprise Edition. Starta om servern för att slutföra uppgraderingen."
+    },
+    {
+        "id": "api.templates.warn_metric_ack.subject",
+        "translation": "Mattermost Contact Us request"
+    },
+    {
+        "id": "api.templates.warn_metric_ack.number_of_active_users.body",
+        "translation": "Mattermost Contact Us request. My team has now {{ .Limit }} users and I am considering Mattermost Enterprise Edition."
+    },
+    {
+        "id": "api.templates.warn_metric_ack.footer",
+        "translation": "Om du har fler frågor, kontakta support@mattermost.com"
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.site_url_header",
+        "translation": "Sajt-URL: "
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.registered_users_header",
+        "translation": "Totalt antal aktiva användare: "
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
+        "translation": "Diagnos-id: "
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.contact_name_header",
+        "translation": "Kontakt: "
+    },
+    {
+        "id": "api.templates.warn_metric_ack.body.contact_email_header",
+        "translation": "E-post: "
+    },
+    {
+        "id": "api.team.join_user_to_team.allowed_domains.app_error",
+        "translation": "Användaren kan inte läggas in då domänen inte tillåts. Kontakta din systemadministratör för mer information."
+    },
+    {
+        "id": "api.team.is_team_creation_allowed.domain.app_error",
+        "translation": "Användaren kan inte läggas in då domänen inte tillåts. Kontakta din systemadministratör för mer information."
+    },
+    {
+        "id": "api.team.import_team.unknown_import_from.app_error",
+        "translation": "Okänd importkälla."
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
+        "translation": "Väx med Mattermost"
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
+        "translation": "Mattermost rekommenderar att installationer med fler än 500 användare tar nytta av funktionerna för användarhantering, klusterteknik och prestandamätning. Kontakta oss för att veta mer och berätta på vilket sätt vi hjälpa till.\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_400.notification_title",
+        "translation": "Väx med Mattermost"
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
+        "translation": "Din Mattermost-installation har nu 200 användare. När din användarskara växer går det åt mycket tid att skapa nya konton. Vi rekommenderar att du integrerar din organisations Active Directory/LDAP så att alla med ett konto kan använda Mattermost.\n\n[Läs mer om integration med AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
+    },
+    {
+        "id": "api.server.warn_metric.contact_us",
+        "translation": "Godkänna"
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
+        "translation": "Väx med Mattermost"
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_400.notification_body",
+        "translation": "Din Mattermost-installation har nu 400 användare. När du ansluter Mattermost med din organisations inloggningslösningkan dina användare ges åtkomst till Mattermost utan att behöva ange sina inloggningsuppgifter igen. Vi rekommenderar att du ansluter din SAML 2.0-utfärdare till din Mattermost server.\n\n[Läs mer om att ansluta SAML 2.0](https://docs.mattermost.com/deployment/sso-saml.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
+    },
+    {
+        "id": "api.server.warn_metric.contacting_us",
+        "translation": "Godkänner"
+    },
+    {
+        "id": "api.server.warn_metric.email_us",
+        "translation": "E-posta oss"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.notification_success.message",
+        "translation": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig."
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.notification_failure.message",
+        "translation": "Meddelandet kunde inte skickas."
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.notification_failure.body",
+        "translation": "Eposta oss."
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_contact_header",
+        "translation": "Kontakt: {{.Contact}}"
+    },
+    {
+        "id": "api.push_notifications.session.expired",
+        "translation": "Sessionen har utgått: Logga in för att fortsätta ta emot notifieringar. Systemadministratören har konfigurerat {{.siteName}} sessioner att gälla i {{.daysCount}} dagar."
+    },
+    {
+        "id": "api.preference.update_preferences.update_sidebar.app_error",
+        "translation": "Kunde inte uppdatera sidomenyn med de uppdaterade inställningarna"
+    },
+    {
+        "id": "api.preference.delete_preferences.update_sidebar.app_error",
+        "translation": "Kunde inte uppdatera sidomenyn med de raderade inställningarna"
+    },
+    {
+        "id": "api.post.search_posts.invalid_body.app_error",
+        "translation": "Kunde inte tolka förfrågan."
+    },
+    {
+        "id": "api.post.error_get_post_id.pending",
+        "translation": "Kunde inte hämta det väntande meddelandet."
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_subject",
+        "translation": "Mattermost Contact Us request"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_site_url_header",
+        "translation": "Sajt-URL: {{.SiteUrl}}"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_registered_users_header",
+        "translation": "Totalt antal aktiva användare: {{.NoRegisteredUsers}}"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_footer",
+        "translation": "Om du har fler frågor kan du kontakta support@mattermost.com"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_email_header",
+        "translation": "E-post: {{.Email}}"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_diagnostic_id_header",
+        "translation": "Diagnostik-id: {{.DiagnosticId}}"
     }
 ]
