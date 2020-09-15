@@ -2291,5 +2291,7 @@
     "suggestion.mention.groups": "Gruppomnämnanden",
     "warn_metric_ack_modal.header.title": "Väx med Mattermost",
     "warn_metric_ack_modal.contact_support": "Godkänna",
-    "announcement_bar.error.number_active_users_warn_metric_status_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig."
+    "announcement_bar.error.number_active_users_warn_metric_status_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig.",
+    "add_outgoing_webhook.callbackUrls": "Callback-URL:er (en per rad)",
+    "add_oauth_app.callbackUrlsRequired": "En eller flera callback-URL:er krävs"
 }
