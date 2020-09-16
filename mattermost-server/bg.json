@@ -897,7 +897,7 @@
     },
     {
         "id": "api.channel.join_channel.post_and_forget",
-        "translation": "%v се присъедини към канала."
+        "translation": "%v се присъедини в канала."
     },
     {
         "id": "api.channel.join_channel.permissions.app_error",
@@ -917,7 +917,7 @@
     },
     {
         "id": "api.channel.delete_channel.archived",
-        "translation": "%v архивирани канала."
+        "translation": "%v архивира канала."
     },
     {
         "id": "api.channel.create_group.bad_user.app_error",
@@ -929,7 +929,7 @@
     },
     {
         "id": "api.channel.create_direct_channel.invalid_user.app_error",
-        "translation": "Невалидно ID на потребител за създаването на канал за лични съобщения."
+        "translation": "Невалидно ID на потребител при създаването на канал за лични съобщения."
     },
     {
         "id": "api.channel.create_default_channels.town_square",
@@ -949,15 +949,15 @@
     },
     {
         "id": "api.channel.convert_channel_to_private.private_channel_error",
-        "translation": "Каналът, който се опитахте да преобразувате е вече частен канал."
+        "translation": "Каналът, който се опитахте да преобразувате е вече частен."
     },
     {
         "id": "api.channel.convert_channel_to_private.default_channel_error",
-        "translation": "Този канал по подразбиране не може да бъде конвертиран в частен канал."
+        "translation": "Този канал по подразбиране не може да бъде преобразуван в частен."
     },
     {
         "id": "api.channel.change_channel_privacy.public_to_private",
-        "translation": "Този канал е преобразуван в частен канал."
+        "translation": "Този канал е преобразуван в частен."
     },
     {
         "id": "api.channel.change_channel_privacy.private_to_public",
@@ -985,7 +985,7 @@
     },
     {
         "id": "api.bot.set_bot_icon_image.too_large.app_error",
-        "translation": "Не можа да се качи изображение на иконата. Файлът е твърде голям."
+        "translation": "Не можа да се качи изображение на профила. Файлът е твърде голям."
     },
     {
         "id": "api.bot.set_bot_icon_image.open.app_error",
@@ -1005,7 +1005,7 @@
     },
     {
         "id": "api.admin.upload_brand_image.storage.app_error",
-        "translation": "Не може да се качи изображение. Съхранението на изображения не е конфигурирано."
+        "translation": "Не може да се качи изображение. Хранилището на изображения не е конфигурирано."
     },
     {
         "id": "api.admin.upload_brand_image.no_file.app_error",
@@ -1049,7 +1049,7 @@
     },
     {
         "id": "api.admin.get_brand_image.storage.app_error",
-        "translation": "Съхраняването на изображения не е конфигурирано."
+        "translation": "Хранилището на изображения не е конфигурирано."
     },
     {
         "id": "api.admin.file_read_error",
@@ -1057,7 +1057,7 @@
     },
     {
         "id": "api.admin.add_certificate.saving.app_error",
-        "translation": "Неуспешно запазване на сертификат файла."
+        "translation": "Неуспешно запазване файла на сертификата."
     },
     {
         "id": "api.admin.add_certificate.open.app_error",
@@ -1137,7 +1137,7 @@
     },
     {
         "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
-        "translation": "Възникна грешка при добавянето на метаданните, получени от доставчика на идентичност към сертификата."
+        "translation": "Възникна грешка при анализа на метаданните, получени от доставчика на идентичност към сертификата."
     },
     {
         "id": "web.error.unsupported_browser.system_browser_or",
@@ -1334,8 +1334,8 @@
     {
         "id": "api.command_groupmsg.invalid_user.app_error",
         "translation": {
-            "one": "Този потребител не може да бъде намерен: {{.Users}}",
-            "other": "Тези потребители не могат да бъдат намерени: {{.Users}}"
+            "one": "Не е намерен потребител: {{.Users}}",
+            "other": "Не са намерени потребители: {{.Users}}"
         }
     },
     {
@@ -1596,7 +1596,7 @@
     },
     {
         "id": "api.command.execute_command.not_found.app_error",
-        "translation": "Команда с тригер \"{{.Trigger}}\" не е намерена. За да изпратите съобщение, започващо с \"/\", опитайте да добавите празно място в началото на съобщението."
+        "translation": "Команда с тригер '{{.Trigger}}' не е намерена. За да изпратите съобщение, започващо с '/', опитайте да добавите празно място в началото на съобщението."
     },
     {
         "id": "api.command.execute_command.format.app_error",
@@ -1748,11 +1748,11 @@
     },
     {
         "id": "api.channel.add_members.user_denied",
-        "translation": "Членството в канала е отказано на следните потребители поради ограничения в групата: {{ .UserIDs }}"
+        "translation": "Членството в канала е отказано на следният потребител поради ограничения в групата: {{ .UserIDs }}"
     },
     {
         "id": "api.channel.add_members.error",
-        "translation": "Грешка при добавяне на членове в канала."
+        "translation": "Грешка при добавяне на участници в канала."
     },
     {
         "id": "api.bot.teams_channels.add_message_mobile",
@@ -1760,19 +1760,19 @@
     },
     {
         "id": "api.bot.set_bot_icon_image.parse.app_error",
-        "translation": "Формуляра от множество части не можа да се обработи."
+        "translation": "Съставния формуляр не можа да се обработи."
     },
     {
         "id": "api.bot.set_bot_icon_image.app_error",
-        "translation": "Изображението на иконата не можа да се качи."
+        "translation": "Изображението на профила не можа да се качи."
     },
     {
         "id": "api.bot.get_bot_icon_image.read.app_error",
-        "translation": "Не може да се прочете файла с изображение на иконата."
+        "translation": "Не може да се прочете файла с изображение на профила."
     },
     {
         "id": "api.bot.delete_bot_icon_image.app_error",
-        "translation": "Изображението на иконата не можа да бъде изтрито."
+        "translation": "Изображението на профила не можа да бъде изтрито."
     },
     {
         "id": "api.bot.create_disabled",
@@ -1780,7 +1780,7 @@
     },
     {
         "id": "api.admin.upload_brand_image.parse.app_error",
-        "translation": "Формуляра от множество части не можа да се обработи."
+        "translation": "Съставния формуляр не можа да се обработи."
     },
     {
         "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -1957,15 +1957,15 @@
     {
         "id": "api.post.get_message_for_notification.images_sent",
         "translation": {
-            "one": "{{.Count}} изпратено изображение: {{.Filenames}}",
-            "other": "{{.Count}} изпратени изображения: {{.Filenames}}"
+            "one": "{{.Count}} изображение изпратено: {{.Filenames}}",
+            "other": "{{.Count}} изображения изпратени: {{.Filenames}}"
         }
     },
     {
         "id": "api.post.get_message_for_notification.files_sent",
         "translation": {
-            "one": "{{.Count}} изпратен файл: {{.Filenames}}",
-            "other": "{{.Count}} изпратени файлове: {{.Filenames}}"
+            "one": "{{.Count}} файл изпратен: {{.Filenames}}",
+            "other": "{{.Count}} файла изпратени: {{.Filenames}}"
         }
     },
     {
@@ -2471,15 +2471,15 @@
     {
         "id": "api.email_batching.send_batched_email_notification.subject",
         "translation": {
-            "one": "[{{.SiteName}}] Ново известие към {{.Day}}.{{.Month}}.{{.Year}}",
-            "other": "[{{.SiteName}}] Нови известия към {{.Day}}.{{.Month}}.{{.Year}}"
+            "one": "[{{.SiteName}}] Ново уведомление за {{.Day}} {{.Month}}, {{.Year}}",
+            "other": "[{{.SiteName}}] Нови уведомления за {{.Day}} {{.Month}}, {{.Year}}"
         }
     },
     {
         "id": "api.email_batching.send_batched_email_notification.body_text",
         "translation": {
-            "one": "Имате ново съобщение.",
-            "other": "Имате {{.Count}} нови съобщения."
+            "one": "Имате ново уведомление.",
+            "other": "Имате {{.Count}} нови уведомления."
         }
     },
     {
@@ -2796,87 +2796,87 @@
     },
     {
         "id": "api.slackimport.slack_import.zip.file_too_large",
-        "translation": "{{.Filename}} в zip архива е твърде голям, за да се обработи от Slack импорта\n"
+        "translation": "{{.Filename}} в zip архива е твърде голям, за да се обработи от Slack импорта"
     },
     {
         "id": "api.slackimport.slack_import.zip.app_error",
-        "translation": "Не успя да се отвори Slack export zip файла.\n"
+        "translation": "Не успя да се отвори Slack export zip файла."
     },
     {
         "id": "api.slackimport.slack_import.team_fail",
-        "translation": "Не можа да се вземе екипът за импортиране.\n"
+        "translation": "Не можа да се вземе екипът за импортиране."
     },
     {
         "id": "api.slackimport.slack_import.open.app_error",
-        "translation": "Не можа да се отвори файла: {{.Filename}}.\n"
+        "translation": "Не можа да се отвори файла: {{.Filename}}."
     },
     {
         "id": "api.slackimport.slack_import.notes",
-        "translation": "\nБележки:\n"
+        "translation": "Бележки:"
     },
     {
         "id": "api.slackimport.slack_import.note3",
-        "translation": "- В лог файловете на сървъра може да се намерят допълнителни грешки.\n"
+        "translation": "- В лог файловете на сървъра може да се намерят допълнителни грешки."
     },
     {
         "id": "api.slackimport.slack_import.note2",
-        "translation": "- Понастоящем Slack бот съобщенията не се поддържат.\n"
+        "translation": "- Понастоящем Slack бот съобщенията не се поддържат."
     },
     {
         "id": "api.slackimport.slack_import.note1",
-        "translation": "- Някои съобщения може да не са импортирани, защото не са били поддържани от този импортьор.\n"
+        "translation": "- Някои съобщения може да не са импортирани, защото не са били поддържани от този импортьор."
     },
     {
         "id": "api.slackimport.slack_import.log",
-        "translation": "Mattermost Slack импорт лог\n"
+        "translation": "Mattermost Slack импорт лог"
     },
     {
         "id": "api.slackimport.slack_add_users.unable_import",
-        "translation": "Неуспешен импорт на Slack потребителя: {{.Username}}.\n"
+        "translation": "Неуспешен импорт на Slack потребителя: {{.Username}}."
     },
     {
         "id": "api.slackimport.slack_add_users.missing_email_address",
-        "translation": "Потребителя {{.Username}} няма имейл адрес в Slack експорта. Използван е {{.Email}} като заместител. Потребителят трябва да актуализира имейл адреса си, след като влезе в системата.\n"
+        "translation": "Потребителя {{.Username}} няма имейл адрес в Slack експорта. Използван е {{.Email}} като заместител. Потребителят трябва да актуализира имейл адреса си, след като влезе в системата."
     },
     {
         "id": "api.slackimport.slack_add_users.merge_existing_failed",
-        "translation": "Slack потребител е обединен с Mattermost потребител поради съвпадащи имейл {{.Email}} и потребителско име {{.Username}}., но потребителя не може да бъде добавен към отбора.\n"
+        "translation": "Slack потребител е обединен с Mattermost потребител поради съвпадащи имейл {{.Email}} и потребителско име {{.Username}}., но потребителя не може да бъде добавен към отбора."
     },
     {
         "id": "api.slackimport.slack_add_users.merge_existing",
-        "translation": "Slack потребител е обединен с Mattermost поради съвпадащи имейл {{.Email}} и потребителско име {{.Username}}.\n"
+        "translation": "Slack потребител е обединен с Mattermost поради съвпадащи имейл {{.Email}} и потребителско име {{.Username}}."
     },
     {
         "id": "api.slackimport.slack_add_users.email_pwd",
-        "translation": "Slack потребител с имейл {{.Email}} и парола {{.Password}} беше импортиран.\n"
+        "translation": "Slack потребител с имейл {{.Email}} и парола {{.Password}} беше импортиран."
     },
     {
         "id": "api.slackimport.slack_add_users.created",
-        "translation": "\nСъздадени потребители:\n"
+        "translation": "Създадени потребители:"
     },
     {
         "id": "api.slackimport.slack_add_channels.merge",
-        "translation": "Slack канала {{.DisplayName}} вече съществува като активен Mattermost канал. Двата канала са обединени.\n"
+        "translation": "Slack канала {{.DisplayName}} вече съществува като активен Mattermost канал. Двата канала са обединени."
     },
     {
         "id": "api.slackimport.slack_add_channels.import_failed",
-        "translation": "Неуспешен импорт на Slack канала {{.DisplayName}}.\n"
+        "translation": "Неуспешен импорт на Slack канала {{.DisplayName}}."
     },
     {
         "id": "api.slackimport.slack_add_channels.failed_to_add_user",
-        "translation": "Неуспешно добавяне на Slack потребител {{.Username}} в канала.\n"
+        "translation": "Неуспешно добавяне на Slack потребител {{.Username}} в канала."
     },
     {
         "id": "api.slackimport.slack_add_channels.added",
-        "translation": "\nДобавени канали:\n"
+        "translation": "Добавени канали:"
     },
     {
         "id": "api.slackimport.slack_add_bot_user.unable_import",
-        "translation": "Не можа да се импортира интегрирщият/Slack Bot потребител {{.Username}}.\n"
+        "translation": "Не можа да се импортира интегрирщият/Slack Bot потребител {{.Username}}."
     },
     {
         "id": "api.slackimport.slack_add_bot_user.email_pwd",
-        "translation": "Интегрирщият/Slack Bot потребител с имейл {{.Email}} и парола {{.Password}} е импортиран.\n"
+        "translation": "Интегрирщият/Slack Bot потребител с имейл {{.Email}} и парола {{.Password}} е импортиран."
     },
     {
         "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
@@ -2904,7 +2904,7 @@
     },
     {
         "id": "api.server.warn_metric.bot_response.number_of_users.mailto_body",
-        "translation": "Mattermost свържете се с нас заявка. Моят екип вече има {{.Limit}} потребители и обмислям Mattermost Enterprise Edition.\n"
+        "translation": "Mattermost свържете се с нас заявка. Моят екип вече има {{.Limit}} потребители и обмислям Mattermost Enterprise Edition."
     },
     {
         "id": "api.server.warn_metric.bot_response.mailto_subject",
@@ -3076,7 +3076,7 @@
     },
     {
         "id": "app.import.import_line.null_team.error",
-        "translation": "Линията за импортиране на данни има тип \"екип\", но обектът на екипа е нулев."
+        "translation": "Линията за импортиране на данни има тип 'екип', но обектът на екипа е нулев."
     },
     {
         "id": "api.server.warn_metric.bot_response.mailto_footer",
@@ -3096,7 +3096,7 @@
     },
     {
         "id": "app.import.import_line.null_scheme.error",
-        "translation": "Редът за импортиране на данни има тип \"схема\", но обектът на схемата е нулев."
+        "translation": "Редът за импортиране на данни има тип 'схема', но обектът на схемата е нулев."
     },
     {
         "id": "model.authorize.is_valid.scope.app_error",
@@ -3148,7 +3148,7 @@
     },
     {
         "id": "app.import.import_line.null_direct_post.error",
-        "translation": "Линията за импортиране на данни има тип \"direct_post\", но обектът direct_post е нулев."
+        "translation": "Линията за импортиране на данни има тип 'direct_post', но обектът direct_post е нулев."
     },
     {
         "id": "model.outgoing_hook.icon_url.app_error",
@@ -3244,7 +3244,7 @@
     },
     {
         "id": "app.import.emoji.bad_file.error",
-        "translation": "Грешка при четене на изображение за импортиране на емоджи. Emoji с име: \"{{.EmojiName}}\""
+        "translation": "Грешка при четене на изображение за импортиране на емоджи. Emoji с име: {{.EmojiName}}"
     },
     {
         "id": "api.user.update_password.menu",
@@ -3380,7 +3380,7 @@
     },
     {
         "id": "app.import.attachment.bad_file.error",
-        "translation": "Грешка при четене на файла на: \"{{.FilePath}}\""
+        "translation": "Грешка при четене на файла на: {{.FilePath}}"
     },
     {
         "id": "store.sql_channel.pinned_posts.app_error",
@@ -3444,7 +3444,7 @@
     },
     {
         "id": "store.update_error",
-        "translation": "грешка в актуализацията"
+        "translation": "грешка при актуализация"
     },
     {
         "id": "api.user.demote_user_to_guest.already_guest.app_error",
@@ -3460,7 +3460,7 @@
     },
     {
         "id": "app.import.validate_direct_channel_import_data.unknown_favoriter.error",
-        "translation": "Директният канал може да бъде предпочитан само от членове. \"{{.Username}}\" не е член."
+        "translation": "Директният канал може да бъде предпочитан само от членове. '{{.Username}}' не е член."
     },
     {
         "id": "store.sql_user.update_failed_pwd_attempts.app_error",
@@ -3524,7 +3524,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_number_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне едно число и поне един символ (напр. \"~! @ # $% ^ & * ()\")."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне едно число и поне един символ (напр. '~! @ # $% ^ & * ()')."
     },
     {
         "id": "ent.saml.license_disable.app_error",
@@ -3564,7 +3564,7 @@
     },
     {
         "id": "app.import.import_line.null_post.error",
-        "translation": "Редът за импортиране на данни има тип \"публикуване\", но обектът за публикуване е нулев."
+        "translation": "Редът за импортиране на данни има тип 'публикуване', но обектът за публикуване е нулев."
     },
     {
         "id": "app.recover.save.app_error",
@@ -3732,7 +3732,7 @@
     },
     {
         "id": "model.oauth.is_valid.icon_url.app_error",
-        "translation": "URL адресът на иконата трябва да е валиден URL адрес и да започне с http: // или https: //."
+        "translation": "URL адресът на иконата трябва да е валиден URL адрес и да започне с http:// или https://."
     },
     {
         "id": "app.import.validate_user_import_data.email_length.error",
@@ -3760,7 +3760,7 @@
     },
     {
         "id": "app.import.import_post.user_not_found.error",
-        "translation": "Грешка при импортирането на публикация. Потребител с потребителско име \"{{.Username}}\" не можа да бъде намерен."
+        "translation": "Грешка при импортирането на публикация. Потребител с потребителско име '{{.Username}}' не можа да бъде намерен."
     },
     {
         "id": "app.import.process_import_data_file_version_line.invalid_version.error",
@@ -3856,7 +3856,7 @@
     },
     {
         "id": "app.import.import_channel.team_not_found.error",
-        "translation": "Грешка при импортирането на канал. Екип с име \"{{.TeamName}}\" не можа да бъде намерен."
+        "translation": "Грешка при импортирането на канал. Екип с име '{{.TeamName}}' не можа да бъде намерен."
     },
     {
         "id": "web.error.unsupported_browser.download",
@@ -3924,7 +3924,7 @@
     },
     {
         "id": "model.oauth.is_valid.homepage.app_error",
-        "translation": "Началната страница трябва да е валиден URL адрес и да започне с http: // или https: //."
+        "translation": "Началната страница трябва да е валиден URL адрес и да започне с http:// или https://."
     },
     {
         "id": "app.import.validate_user_import_data.username_invalid.error",
@@ -3996,7 +3996,7 @@
     },
     {
         "id": "model.reaction.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "'Създадено в' трябва да е валидно време."
     },
     {
         "id": "model.access.is_valid.access_token.app_error",
@@ -4016,7 +4016,7 @@
     },
     {
         "id": "app.bot.get_disable_bot_sysadmin_message",
-        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създдете на нови токъни за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот акаунти, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създдете на нови токъни за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nАко искате бот акаунти да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот акаунти, когато собственикът е деактивиран“ в **истемна конзола> Интеграции> Бот профили** на да.{{end}}"
+        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създдете на нови токъни за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот акаунти, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създдете на нови токъни за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nАко искате бот акаунти да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот акаунти, когато собственикът е деактивиран“ в **истемна конзола> Интеграции> Бот профили** на да.{{end}}"
     },
     {
         "id": "model.access.is_valid.client_id.app_error",
@@ -4136,7 +4136,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_uppercase_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне една главна буква и поне един символ (напр. \"~! @ # $% ^ & * ()\")."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне една главна буква и поне един символ (напр. '~! @ # $% ^ & * ()')."
     },
     {
         "id": "api.user.check_user_password.invalid.app_error",
@@ -4156,7 +4156,7 @@
     },
     {
         "id": "store.select_error",
-        "translation": "изберете грешка"
+        "translation": "грешка при избор"
     },
     {
         "id": "store.sql_user.update.finding.app_error",
@@ -4232,7 +4232,7 @@
     },
     {
         "id": "store.sql_group.permanent_delete_members_by_user.app_error",
-        "translation": "Не може да се премахне членът на групата с UserID \"{{.UserId}}\"."
+        "translation": "Не може да се премахне членът на групата с UserID '{{.UserId}}'."
     },
     {
         "id": "model.channel.is_valid.purpose.app_error",
@@ -4276,7 +4276,7 @@
     },
     {
         "id": "app.import.import_line.unknown_line_type.error",
-        "translation": "В реда за импортиране на данни има неизвестен тип \"{{.Type}}\"."
+        "translation": "В реда за импортиране на данни има неизвестен тип '{{.Type}}'."
     },
     {
         "id": "model.config.is_valid.tls_overwrite_cipher.app_error",
@@ -4660,7 +4660,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_uppercase_number_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне една главна буква, поне едно число и поне един символ (напр. \"~! @ # $% ^ & * ()\")."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне една главна буква, поне едно число и поне един символ (напр. '~! @ # $% ^ & * ()')."
     },
     {
         "id": "api.user.create_profile_image.default_font.app_error",
@@ -4812,7 +4812,7 @@
     },
     {
         "id": "store.sql_post.analytics_posts_count_by_day.app_error",
-        "translation": "Не може да получавате броя на публикациите през ден."
+        "translation": "Невъзможно получаването  на броя публикации за ден."
     },
     {
         "id": "migrations.worker.run_migration.unknown_key",
@@ -4824,7 +4824,7 @@
     },
     {
         "id": "app.import.import_post.channel_not_found.error",
-        "translation": "Грешка при импортирането на публикация. Канал с име „{{.ChannelName}}“ не можа да бъде намерен."
+        "translation": "Грешка при импортирането на публикация. Канал с име '{{.ChannelName}' не можа да бъде намерен."
     },
     {
         "id": "api.templates.warn_metric_ack.body.contact_email_header",
@@ -4832,7 +4832,7 @@
     },
     {
         "id": "model.team.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "''Създадено в' трябва да е валидно време."
     },
     {
         "id": "model.config.is_valid.group_unread_channels.app_error",
@@ -5348,7 +5348,7 @@
     },
     {
         "id": "model.user.is_valid.username.app_error",
-        "translation": "Потребителското име трябва да започва с буква и да съдържа между 3 и 22 малки букви, съставени от цифри, букви и символите \".\", \"-\" и \"_\"."
+        "translation": "Потребителското име трябва да започва с буква и да съдържа между 3 и 22 малки букви, съставени от цифри, букви и символите '.', '-' и '_'."
     },
     {
         "id": "model.post.is_valid.root_id.app_error",
@@ -5600,11 +5600,11 @@
     },
     {
         "id": "store.insert_error",
-        "translation": "вмъкнете грешка"
+        "translation": "грешка при вмъкване"
     },
     {
         "id": "store.sql_group.group_syncable_already_deleted",
-        "translation": "груповата синхронизация вече беше изтрита"
+        "translation": "синхронизируемата група е вече изтрита"
     },
     {
         "id": "store.sql_job.get_newest_job_by_status_and_type.app_error",
@@ -5656,7 +5656,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_login_id",
-        "translation": "AD / LDAP поле \"Атрибут за идентификационен номер за вход\" е задължително."
+        "translation": "AD / LDAP поле 'Атрибут за идентификационен номер за вход' е задължително."
     },
     {
         "id": "model.channel.is_valid.display_name.app_error",
@@ -5968,7 +5968,7 @@
     },
     {
         "id": "model.team.is_valid.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "'Обновено в' трябва да е валидно време."
     },
     {
         "id": "api.templates.warn_metric_ack.subject",
@@ -6068,7 +6068,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_number_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне едно число и поне един символ (напр. \"~! @ # $% ^ & * ()\")."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне едно число и поне един символ (напр. '~! @ # $% ^ & * ()')."
     },
     {
         "id": "api.user.ldap_to_email.not_ldap_account.app_error",
@@ -6116,7 +6116,7 @@
     },
     {
         "id": "store.sql_user.save.existing.app_error",
-        "translation": "Трябва да се актуализира обаждането за съществуващ потребител."
+        "translation": "Трябва да се извика актуализация за съществуващ потребител."
     },
     {
         "id": "model.config.is_valid.encrypt_sql.app_error",
@@ -6480,7 +6480,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_uppercase_number_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне една главна буква, поне едно число и поне един символ (напр. \"~! @ # $% ^ & * () \")."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне една главна буква, поне едно число и поне един символ (напр. '~! @ # $% ^ & * ()')."
     },
     {
         "id": "api.team.get_team_icon.read_file.app_error",
@@ -6644,7 +6644,7 @@
     },
     {
         "id": "model.compliance.is_valid.start_at.app_error",
-        "translation": "От трябва да е валидно време."
+        "translation": "'От' трябва да е валидно време."
     },
     {
         "id": "model.post.is_valid.channel_id.app_error",
@@ -6652,7 +6652,7 @@
     },
     {
         "id": "model.post.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "'Създадено в' трябва да е валидно време."
     },
     {
         "id": "app.oauth.update_app.find.app_error",
@@ -6716,11 +6716,11 @@
     },
     {
         "id": "app.import.import_line.null_channel.error",
-        "translation": "Линията за импортиране на данни има тип \"канал\", но обектът на канала е нулев."
+        "translation": "Линията за импортиране на данни има тип 'канал', но обектът на канала е нулев."
     },
     {
         "id": "model.compliance.is_valid.start_end_at.app_error",
-        "translation": "За да бъде по-голям от От."
+        "translation": "'До' трябва да е по-голямо от 'От'"
     },
     {
         "id": "api.templates.invite_body.extra_info",
@@ -6756,7 +6756,7 @@
     },
     {
         "id": "model.config.is_valid.elastic_search.posts_aggregator_job_start_time.app_error",
-        "translation": "Настройката на Elasticsearch PostsAggregatorJobStartTime трябва да бъде време във формат \"hh: mm\"."
+        "translation": "Настройката на Elasticsearch PostsAggregatorJobStartTime трябва да бъде време във формат 'hh: mm'."
     },
     {
         "id": "bleveengine.search_posts.error",
@@ -6772,7 +6772,7 @@
     },
     {
         "id": "app.import.import_line.null_direct_channel.error",
-        "translation": "Линията за импортиране на данни има тип \"direct_channel\", но обектът direct_channel е нулев."
+        "translation": "Линията за импортиране на данни има тип 'direct_channel', но обектът direct_channel е нулев."
     },
     {
         "id": "app.webhooks.get_outgoing_by_channel.app_error",
@@ -6824,7 +6824,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "'Обновено в' трябва да е валидно време."
     },
     {
         "id": "api.templates.reset_body.info1",
@@ -6872,7 +6872,7 @@
     },
     {
         "id": "app.import.attachment.file_upload.error",
-        "translation": "Грешка при качването на файла: \"{{.FilePath}}\""
+        "translation": "Грешка при качването на файла: {{.FilePath}}"
     },
     {
         "id": "api.user.login_by_oauth.parse.app_error",
@@ -6884,7 +6884,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне една малка буква и поне един символ (напр. \"~! @ # $% ^ & * ()\")."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне една малка буква и поне един символ (напр. '~! @ # $% ^ & * ()')."
     },
     {
         "id": "app.import.validate_team_import_data.name_missing.error",
@@ -6964,7 +6964,7 @@
     },
     {
         "id": "app.import.import_line.null_emoji.error",
-        "translation": "Редът за импортиране на данни има тип \"емоджи\", но обектът емоджи е нулев."
+        "translation": "Редът за импортиране на данни има тип 'емоджи', но обектът емоджи е нулев."
     },
     {
         "id": "app.user_terms_of_service.get_by_user.app_error",
@@ -6980,7 +6980,7 @@
     },
     {
         "id": "model.config.is_valid.teammate_name_display.app_error",
-        "translation": "Невалиден дисплей на съотборника. Трябва да са \"пълно име\", \"псевдоним_ пълно_ име\" или \"потребителско име\"."
+        "translation": "Невалиден дисплей на съотборника. Трябва да са 'пълно име', 'псевдоним_ пълно_ име' или 'потребителско име'."
     },
     {
         "id": "store.sql_user.get_for_login.multiple_users",
@@ -7196,7 +7196,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_uppercase_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една главна буква и поне един символ (напр. \"~! @ # $% ^ & * ()\")."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една главна буква и поне един символ (напр. '~! @ # $% ^ & * ()')."
     },
     {
         "id": "api.templates.email_info1",
@@ -7440,7 +7440,7 @@
     },
     {
         "id": "plugin_api.send_mail.missing_to",
-        "translation": "Липсващ адрес на ТО."
+        "translation": "Липсващ адрес в 'До'"
     },
     {
         "id": "api.team.update_member_roles.not_a_member",
@@ -7636,7 +7636,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_server",
-        "translation": "AD / LDAP поле \"AD / LDAP Server\" е задължително."
+        "translation": "AD / LDAP поле 'AD / LDAP Server' е задължително."
     },
     {
         "id": "store.sql_status.get.app_error",
@@ -7660,7 +7660,7 @@
     },
     {
         "id": "model.config.is_valid.websocket_url.app_error",
-        "translation": "URL адресът на уебсакета трябва да е валиден URL адрес и да започне с ws: // или wss: //."
+        "translation": "URL адресът на уебсакета трябва да е валиден URL адрес и да започне с ws:// или wss://."
     },
     {
         "id": "ent.elasticsearch.search_posts.unmarshall_post_failed",
@@ -7668,7 +7668,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне един символ (напр. \"~! @ # $% ^ & * ()\")."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне един символ (напр. '~! @ # $% ^ & * ()')."
     },
     {
         "id": "ent.compliance.csv.file.creation.appError",
@@ -7728,7 +7728,7 @@
     },
     {
         "id": "model.post.is_valid.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "'Обновено в' трябва да е валидно време."
     },
     {
         "id": "store.sql.build_query.app_error",
@@ -7756,7 +7756,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_username",
-        "translation": "Поле AD / LDAP \"Атрибут на потребителско име\" е задължително."
+        "translation": "Поле AD / LDAP 'Атрибут на потребителско име' е задължително."
     },
     {
         "id": "store.sql_post.get_post_id_around.app_error",
@@ -7964,7 +7964,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_basedn",
-        "translation": "AD / LDAP полето \"BaseDN\" е задължително."
+        "translation": "AD / LDAP полето 'BaseDN' е задължително."
     },
     {
         "id": "app.plugin.get_public_key.get_file.app_error",
@@ -8024,7 +8024,7 @@
     },
     {
         "id": "app.import.validate_direct_post_import_data.unknown_flagger.error",
-        "translation": "Директната публикация може да бъде маркирана само от членове на канала, в който се намира. \"{{.Username}}\" не е член."
+        "translation": "Директната публикация може да бъде маркирана само от членове на канала, в който се намира. '{{.Username}}' не е член."
     },
     {
         "id": "model.config.is_valid.saml_spidentifier_attribute.app_error",
@@ -8088,7 +8088,7 @@
     },
     {
         "id": "model.compliance.is_valid.end_at.app_error",
-        "translation": "Трябва да е валидно време."
+        "translation": "'До' трябва да е валидно време."
     },
     {
         "id": "store.sql_team.get_all_team_listing.app_error",
@@ -8168,7 +8168,7 @@
     },
     {
         "id": "store.sql_post.permanent_delete_batch.app_error",
-        "translation": "Срещнахме грешка, която трайно изтрива партидата от публикации."
+        "translation": "Срещнахме грешка при пакетно окончателно изтриване на съобщения."
     },
     {
         "id": "ent.cluster.save_config.error",
