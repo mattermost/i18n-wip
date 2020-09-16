@@ -1421,7 +1421,7 @@
     "api.channel.restore_channel.unarchived": "{username} разархивира канала.",
     "user.settings.push_notification.allActivityOnline": "За всички дейности, когато сте онлайн, извън или офлайн",
     "channel_members_dropdown.make_channel_admin": "Направете администратор на канала",
-    "add_command.username": "Потребителско име за отговор",
+    "add_command.username": "Потребителско име за отговора",
     "admin.permissions.permission.edit_post.name": "Редактиране на собствени публикации",
     "admin.channel_settings.channel_moderation.createPosts": "Създавайте публикации",
     "general_tab.getTeamInviteLink": "Вземете връзка за покани на екип",
