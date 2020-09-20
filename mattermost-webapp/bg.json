@@ -2361,7 +2361,7 @@
     "installed_incoming_webhooks.empty": "Не са намерени входящи уеб-куки",
     "admin.ldap.groupFilterEx": "Например: \"(objectClass = група)\"",
     "help.composing.title": "Изпращане на съобщения",
-    "admin.customization.enableLatexDesc": "Активиране на изобразяването на Latex код. Ако е невярно, Latex код ще бъде само маркиран.",
+    "admin.customization.enableLatexDesc": "Разрешава изобразяването на Latex код. Ако е false, Latex кода ще бъде само маркиран.",
     "team_settings_modal.title": "Настройки на екипа",
     "atmos/camo": "Atmos / камуфлаж",
     "admin.permissions.group.guest_use_channel_mentions.name": "Споменавания за канал",
