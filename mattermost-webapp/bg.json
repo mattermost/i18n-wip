@@ -1223,7 +1223,7 @@
     "edit_category_modal.helpText": "Плъзнете канали в тази категория, за да организирате страничната си лента.",
     "navbar.viewPinnedPosts": "Преглед на фиксирани публикации",
     "general_tab.teamIconInvalidFileType": "Само BMP, JPG или PNG изображения могат да се използват за икони на екип",
-    "admin.complianceExport.exportFormat.globalrelay": "Глобални Relay EML",
+    "admin.complianceExport.exportFormat.globalrelay": "Global Relay EML",
     "admin.cluster.unknown": "неизвестен",
     "admin.filter.no_results": "Не съвпадат никакви елементи",
     "admin.environment.notifications.enable.help": "Обикновено се задава  \"да\" в готовото приложение. При стойност \"да\" Mattermost се опитва да изпрати съобщение по ел. поща. При стойност \"не\" имейл съобщенията с покани и промени в настройките на потребителския акаунт все още се изпращат, докато SMTP сървърът е конфигуриран. Разработчиците могат да поставят стойност \"не\" в това поле, за да пропуснат настройките за ел. поща за ускоряване на разработката.",
