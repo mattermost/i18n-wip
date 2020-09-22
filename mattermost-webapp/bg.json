@@ -1197,7 +1197,7 @@
     "error.generic.link_login": "Назад към страницата за вход",
     "reaction.removeReact.ariaLabel": "отстранете реакцията",
     "intro_messages.offTopic": "Това е началото на {display_name}, канал за разговори, които не са свързани с работата.",
-    "admin.elasticsearch.enableAutocompleteTitle": "Активиране на Elasticsearch за автоматично завършване на заявки:",
+    "admin.elasticsearch.enableAutocompleteTitle": "Активиране на Elasticsearch за autocomplete заявки:",
     "user.settings.sidebar.channelSwitcherSectionTitle": "Превключвател на канали",
     "textbox.bold": "** удебелен **",
     "admin.service.readTimeout": "Прочетете изчакване:",
