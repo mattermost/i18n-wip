@@ -1789,7 +1789,7 @@
     "admin.compliance.newComplianceExportBanner": "Тази функция се заменя с новата [Експорт на съответствие] ({siteURL}/admin_console/compliance/export) и ще бъде премахната в бъдеща версия. Препоръчваме да преминете към новата система.",
     "admin.service.testSiteURLFail": "Тестът е неуспешен: {error}",
     "channel_members_dropdown.channel_admins": "Канал администратори",
-    "admin.elasticsearch.purgeIndexesButton": "Индекс на прочистване",
+    "admin.elasticsearch.purgeIndexesButton": "Прочистете индексите",
     "help.formatting.tables.title": "Маси",
     "bots.manage.emptySearch": "Няма съвпадение на бот акаунти **{searchTerm}**",
     "admin.elasticsearch.purgeIndexesButton.success": "Индексите са прочистени успешно.",
