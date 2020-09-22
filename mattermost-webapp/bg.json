@@ -2188,7 +2188,7 @@
     "accessibility.sections.centerFooter": "допълнителна област за писане на съобщения",
     "admin.ldap.maxPageSizeHelpText": "Максималният брой потребители, които Mattermost сървърът ще поиска от AD / LDAP сървъра наведнъж. 0 е неограничен.",
     "delete_post.question": "Наистина ли искате да изтриете този {term}?",
-    "admin.elasticsearch.elasticsearch_test_button": "Тестова връзка",
+    "admin.elasticsearch.elasticsearch_test_button": "Тествайте връзката",
     "invitation_modal.guests.add_people.title": "Поканете хора",
     "modal.manual_status.cancel_dnd": "Не, дръжте го като \"Не безпокойте\"",
     "admin.environment.notifications.enable.label": "Активиране на известията по имейл:",
