@@ -3239,7 +3239,7 @@
     "user.settings.custom_theme.sidebarTextHoverBg": "Задържане на текст на страничната лента BG",
     "user.settings.security.passwordError": "Паролата ви трябва да съдържа между {min} и {max} знаци.",
     "user_profile.add_user_to_channel.icon": "Добавяне на потребител към иконата на канала",
-    "admin.email.requireVerificationDescription": "Обикновено настроен на истина в производството. Когато е вярно, Mattermost изисква потвърждаване по имейл след създаване на акаунт, преди да позволи влизането. Разработчиците могат да зададат това поле на фалшиво, за да пропуснат изпращането на имейли за потвърждение за по-бързо развитие.",
+    "admin.email.requireVerificationDescription": "Обикновено true в production среда. Когато е вярно, Mattermost изисква потвърждаване по имейл след създаване на акаунт, преди да позволи влизането. Програмистите могат да зададат това поле на false, за да пропуснат изпращането на имейли за потвърждение за по-бързо програмиране.",
     "admin.team_settings.team_details.syncGroupMembersDescr": "Когато е активирано, добавянето и премахването на потребители от групи ще ги добави или премахне от този екип. Единственият начин да поканите членове в този екип е чрез добавяне на групите, към които принадлежат. [Научете повече] (!https://www.mattermost.com/pl/default-ldap-group-constrained-team-channel.html)",
     "error.oauth_missing_code.forum.link": "Форум за отстраняване на проблеми",
     "group_list_modal.addGroupButton": "Добавяне на групи",
