@@ -1473,7 +1473,7 @@
     "bot.add.role.member": "Член",
     "claim.email_to_oauth.switchTo": "Превключете профила към {uiType}",
     "admin.environment.smtp.smtpSuccess": "Няма съобщения за грешки при изпращане на имейл. Моля, проверете входящата си поща, за да сте сигурни.",
-    "admin.environment.notifications.feedbackEmail.placeholder": "Например: \"материално@yourcompany.com\", \"admin@yourcompany.com\"",
+    "admin.environment.notifications.feedbackEmail.placeholder": "Например: \"mattermost@yourcompany.com\", \"admin@yourcompany.com\"",
     "installed_outgoing_webhooks.header": "Изходящи уебшокове",
     "admin.data_retention.enableFileDeletion.description": "Задайте колко дълго Mattermost пази качените файлове в канали и директни съобщения.",
     "multiselect.go": "Отивам",
