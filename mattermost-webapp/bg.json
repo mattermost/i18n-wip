@@ -2568,7 +2568,7 @@
     "bot.manage.enable": "Активиране",
     "admin.environment.smtp.smtpServer.placeholder": "Например: \"smtp.yourcompany.com\", \"email-smtp.us-east-1.amazonaws.com\"",
     "user.settings.sidebar.channelSidebarOrganizationSection.desc": "Когато е активирана, достъп до експериментални функции на страничната лента на канала, включително сгъваеми секции и непрочетено филтриране. [Научете повече] (!https://about.mattermost.com/default-sidebar/) или [дайте ни обратна връзка] (!https://about.mattermost.com/default-sidebar-survey/)",
-    "admin.elasticsearch.usernameExample": "Например: \"Elastic\"",
+    "admin.elasticsearch.usernameExample": "Например: \"elastic\"",
     "admin.data_retention.confirmChangesModal.title": "Потвърдете политиката за запазване на данни",
     "help.formatting.ordered": "Направете го подреден списък, като вместо това използвате номера:",
     "admin.permissions.systemSchemeBannerButton": "Редактиране на схема",
