@@ -1256,7 +1256,7 @@
     "admin.filter.apply": "Приложи",
     "user.settings.custom_theme.errorTextColor": "Цвят за текста на грешката",
     "admin.environment.webServer": "Уеб сървър",
-    "admin.elasticsearch.sniffDescription": "Когато е истина, cluster sniffing намира и се свързва автоматично с всички възли на данни във вашия клъстер.",
+    "admin.elasticsearch.sniffDescription": "Когато е true, cluster sniffing намира и се свързва автоматично с всички възли на данни във вашия клъстер.",
     "admin.service.siteURL": "URL адрес на сайта:",
     "admin.plugin.enable": "Активиране",
     "admin.group_settings.group_details.group_teams_and_channels_row.privateTeam": "Екип (частен)",
