@@ -2142,7 +2142,7 @@
     "sidebar_left.sidebar_channel_menu.muteConversation": "Безшумен разговор",
     "signup_user_completed.haveAccount": "Вече имате акаунт?",
     "invitation_modal.confirm.members_title": "**Членове** поканени в **{teamName}**",
-    "admin.environment.smtp.skipServerCertificateVerification.title": "Пропуснете потвърждение на сървъра:",
+    "admin.environment.smtp.skipServerCertificateVerification.title": "Пропуснете потвърждение на сертификата на сървъра:",
     "admin.webserverModeGzip": "софтуерна",
     "admin.permissions.permissionsSchemeSummary.deleting": "Изтриване на ...",
     "invitation_modal.confirm.members_subtitle": "** {sentCount, number} {sentCount, plural, one {person} other {people}}** {sentCount, plural, one {has} other {have}} са поканени и ** {notSentCount, number} {notSentCount, plural, one {invitation} other {invitations}} ** {notSentCount, plural, one {was} other {were}} не са изпратени",
