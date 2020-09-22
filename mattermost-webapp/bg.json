@@ -2218,7 +2218,7 @@
     "admin.experimental.timeBetweenUserTypingUpdatesMilliseconds.title": "Време за изчакване на потребителя:",
     "admin.data_retention.createJob.help": "Инициира незабавно задание за изтриване на данни.",
     "admin.image.maxFileSizeTitle": "Максимален размер на файла:",
-    "admin.elasticsearch.purgeIndexesButton.label": "Индекс на продувката:",
+    "admin.elasticsearch.purgeIndexesButton.label": "Прочистете индексите:",
     "add_command.iconUrl.help": "(Незадължително) Въведете URL адреса на .png или .jpg файл, който да използвате като икона, когато публикувате отговори на тази / команда. Файлът трябва да бъде най-малко 128 пиксела на 128 пиксела. Ако оставите празно, използва се вашата снимка на профила.",
     "add_command.triggerInvalidSlash": "Ключовата дума не може да започва с /",
     "sidebar.createChannel": "Създайте обществен канал",
