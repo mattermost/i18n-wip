@@ -2753,7 +2753,7 @@
     "post_body.check_for_out_of_channel_mentions.message.multiple": "не получихте уведомление за това споменаване, тъй като не са в канала. Бихте ли искали ",
     "channel_header.recentMentions": "Последни отбелязвания",
     "admin.user_item.userAccessTokenYes": "(може да създаде лични маркери за достъп)",
-    "admin.elasticsearch.sniffTitle": "Активиране на кластеризацията:",
+    "admin.elasticsearch.sniffTitle": "Активиране на Cluster Sniffing:",
     "admin.environment.notifications.pushContents.idLoaded": "Пълно съдържание на съобщението, получено от сървъра при получаване",
     "admin.guest_access.mfaTitle": "Прилагане на многофакторна идентификация: ",
     "invitation_modal.members.invite_button": "Поканете членове",
