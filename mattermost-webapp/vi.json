@@ -2183,5 +2183,6 @@
     "add_incoming_webhook.username.help": "Chỉ định tên người dùng mà tích hợp này sẽ đăng. Tên người dùng phải ở dạng chữ thường, có tối đa 22 ký tự và có thể chứa số và các ký hiệu \"-\", \"_\" và \".\" . Nếu để trống, tên do người tạo webhook chỉ định sẽ được sử dụng.",
     "add_incoming_webhook.saving": "Đang lưu...",
     "about.enterpriseEditionSst": "Nền tảng tin nhắn độ tin cậy cao cho doanh nghiệp",
-    "about.cloudEdition": "Cloud"
+    "about.cloudEdition": "Cloud",
+    "add_command.autocomplete.help": "(Tùy chọn) Hiển thị lệnh gạch chéo của bạn trên danh sách tự động hoàn thành khi nhập / vào ô nhập liệu."
 }
