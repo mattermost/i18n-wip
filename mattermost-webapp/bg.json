@@ -2415,7 +2415,7 @@
     "navbar_dropdown.create": "Създайте екип",
     "user.settings.display.messageDisplayCompactDes": "Поставете колкото се може повече съобщения на екрана.",
     "help.formatting.inline.description": "Създайте редови моноразмерен шрифт, заобикаляйки го със заден план.",
-    "accessibility.sidebar.types.mention": "споменаване",
+    "accessibility.sidebar.types.mention": "споменавам",
     "team_members_dropdown.leave_team": "Премахване от екипа",
     "admin.site.posts": "Публикации",
     "admin.environment.notifications.enableConfirmNotificationsToChannel.label": "Показване на диалогов прозорец за потвърждение при @channel, @all и групово споменаване:",
