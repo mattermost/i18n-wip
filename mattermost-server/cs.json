@@ -6982,5 +6982,77 @@
     {
         "id": "web.error.unsupported_browser.system_browser_or",
         "translation": "nebo"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_subject",
+        "translation": "Mattermost Kontaktujte nás požadavek"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.mailto_diagnostic_id_header",
+        "translation": "ID diagnózy: {{.DiagnosticId}}"
+    },
+    {
+        "id": "api.push_notifications.session.expired",
+        "translation": "Platnost relace vypršela: Chcete-li nadále dostávat oznámení, přihlaste se. Relace na webu {{.siteName}} jsou konfigurovány vaším správcem systému tak, aby vypršely každý(ch) {{.daysCount}} den/dnů."
+    },
+    {
+        "id": "api.preference.update_preferences.update_sidebar.app_error",
+        "translation": "Postranní panel nelze aktualizovat, aby odpovídal aktualizovaným předvolbám"
+    },
+    {
+        "id": "api.preference.delete_preferences.update_sidebar.app_error",
+        "translation": "Postranní panel nelze aktualizovat, aby odpovídal smazaným předvolbám"
+    },
+    {
+        "id": "api.post.search_posts.invalid_body.app_error",
+        "translation": "Tělo požadavku nelze analyzovat."
+    },
+    {
+        "id": "api.migrate_to_saml.error",
+        "translation": "Nelze migrovat SAML."
+    },
+    {
+        "id": "api.job.unable_to_download_job",
+        "translation": "Tuto úlohu nelze stáhnout"
+    },
+    {
+        "id": "api.file.append_file.writing.app_error",
+        "translation": "Při zápisu na S3 došlo k chybě."
+    },
+    {
+        "id": "api.file.append_file.s3.app_error",
+        "translation": "Došlo k chybě při připisování do souboru v S3."
+    },
+    {
+        "id": "api.file.append_file.opening.app_error",
+        "translation": "Při otevírání souboru došlo k chybě."
+    },
+    {
+        "id": "api.file.append_file.no_exist.app_error",
+        "translation": "Soubor neexistuje."
+    },
+    {
+        "id": "api.email.send_warn_metric_ack.invalid_warn_metric.app_error",
+        "translation": "Nelze najít varovnou metriku."
+    },
+    {
+        "id": "api.email.send_warn_metric_ack.failure.app_error",
+        "translation": "Nepodařilo se odeslat potvrzovací e-mail správce"
+    },
+    {
+        "id": "api.context.get_user.app_error",
+        "translation": "Nelze získat uživatele z relace UserID."
+    },
+    {
+        "id": "api.config.migrate_config.app_error",
+        "translation": "Migrace úložiště konfigurace se nezdařila."
+    },
+    {
+        "id": "api.admin.ldap.not_available.app_error",
+        "translation": "LDAP není dostupný."
+    },
+    {
+        "id": "api.admin.add_certificate.parseform.app_error",
+        "translation": "Chyba při rozboru multipart požadavku"
     }
 ]
