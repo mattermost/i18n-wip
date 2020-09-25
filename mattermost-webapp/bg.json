@@ -3210,7 +3210,7 @@
     "admin.guest_access.whitelistedDomainsTitle": "Доверени домейни за гости:",
     "admin.email.mhpnsHelp": "Изтеглете [Mattermost iOS приложение](!https://about.mattermost.com/mattermost-ios-app/) от iTunes. Изтеглете [Mattermost Android приложение](!https://about.mattermost.com/mattermost-android-app/) от Google Play. Научете повече за [HPNS](!https://about.mattermost.com/default-hpns/).",
     "admin.data_retention.messageRetentionDays.description": "Задайте колко дни се пазят съобщенията в Mattermost. Съобщенията, включително прикачените файлове, по-стари от зададената от вас продължителност, ще се изтриват всяка вечер. Минималното време е един ден.",
-    "admin.service.ssoSessionDays": "Дължина на SSO сесията (дни):",
+    "admin.service.ssoSessionDays": "Дължина на сесията SSO (дни):",
     "admin.channel_settings.channel_moderation.channelMentions": "Споменавания в канала",
     "add_command.token": "**Маркер**: {token}",
     "admin.system_users.system_admin": "Системен администратор",
