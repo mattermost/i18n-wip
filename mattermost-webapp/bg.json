@@ -1377,7 +1377,7 @@
     "admin.webserverModeHelpText": "gzip компресия се прилага за файлове със статично съдържание. Препоръчва се да активирате gzip за подобряване на производителността, освен ако средата ви няма конкретни ограничения, като уеб прокси, който разпределя лошо gzip файловете.",
     "admin.elasticsearch.enableSearchingDescription": "Изисква успешна връзка със сървъра Elasticsearch. Когато е true, Elasticsearch ще се използва за всички заявки за търсене, използвайки най-новия индекс. Резултатите от търсенето може да са непълни, докато не бъде завършен груповия индекс на съществуващата база данни с публикации. Когато е false, се използва търсене в база данни.",
     "audit_table.successfullReset": "Паролата е нулирана успешно",
-    "add_outgoing_webhook.triggerWordsTriggerWhen.help": "Укажете кога да задействате изходящата webhook.",
+    "add_outgoing_webhook.triggerWordsTriggerWhen.help": "Укажете кога да задействате изходящия webhook.",
     "admin.team_settings.team_list.mappingHeader": "Управление",
     "discard_changes_modal.title": "Отхвърлите промените?",
     "audit_table.nameUpdated": "Актуализирайте {channelName} името на канала",
