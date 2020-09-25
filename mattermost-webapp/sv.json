@@ -2491,5 +2491,7 @@
     "admin.authentication.signup": "Skapa konto",
     "admin.advance.cluster": "Hög tillgänglighet",
     "about.enterpriseEditionSst": "Tillförlitlig meddelandetjänst för organisationer",
-    "about.cloudEdition": "Cloud"
+    "about.cloudEdition": "Cloud",
+    "user.settings.display.theme.customTheme": "Anpassat tema",
+    "channel_notifications.levels.default": "Standard"
 }
