@@ -7173,5 +7173,9 @@
     {
         "id": "api.server.warn_metric.bot_response.mailto_diagnostic_id_header",
         "translation": "Diagnostik-id: {{.DiagnosticId}}"
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
+        "translation": "Väx med Mattermost"
     }
 ]
