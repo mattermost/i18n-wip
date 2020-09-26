@@ -4165,5 +4165,9 @@
     "announcement_bar.warn_metric_status.number_of_users.text": "Вече имате над 500 потребители. Силно препоръчваме да използвате разширени функции за широкомащабни сървъри.",
     "announcement_bar.warn_metric_status.number_of_posts.text": "Вече имате над 2 000 000 публикации. Силно препоръчваме да използвате разширени функции, за да избегнете влошена производителност.",
     "announcement_bar.number_of_posts_warn_metric_status.text": "Вече имате над {limit} публикации. Силно препоръчваме да използвате разширени функции, за да избегнете влошена производителност.",
-    "announcement_bar.number_active_users_warn_metric_status.text": "Вече имате над {limit} потребители. Силно препоръчваме да използвате разширени функции за широкомащабни сървъри."
+    "announcement_bar.number_active_users_warn_metric_status.text": "Вече имате над {limit} потребители. Силно препоръчваме да използвате разширени функции за широкомащабни сървъри.",
+    "warn_metric_ack_modal.number_of_users.header.title": "Интегрирай AD/LDAP",
+    "announcement_bar.warn_metric_status.number_of_users_ack.text": "Благодарим ви, че се свързахте с Mattermost. Ще се свържем с вас скоро.",
+    "announcement_bar.warn_metric_status.number_of_posts_ack.text": "Благодарим ви, че се свързахте с Mattermost. Ще се свържем с вас скоро.",
+    "announcement_bar.warn_metric_status_ack.text": "Благодарим ви, че се свързахте с Mattermost. Ще се свържем с вас скоро."
 }
