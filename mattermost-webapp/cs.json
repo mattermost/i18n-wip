@@ -1855,5 +1855,15 @@
     "add_user_to_channel_modal.cancel": "Zrušit",
     "add_outgoing_webhook.cancel": "Zrušit",
     "add_incoming_webhook.cancel": "Zrušit",
-    "add_emoji.cancel": "Zrušit"
+    "add_emoji.cancel": "Zrušit",
+    "add_command.iconUrl.help": "(Volitelné) Zadejte adresu URL souboru .png nebo .jpg, který se použije jako ikona při odesílání odpovědí na tento příkaz. Soubor musí mít alespoň 128 x 128 pixelů. Pokud je pole zanecháte prázdné, použije se váš profilový obrázek.",
+    "add_command.displayName.help": "Zadejte název dlouhý až 64 znaků pro stránku nastavení příkazu.",
+    "add_command.displayName": "Název",
+    "add_command.description.help": "Popište svůj příchozí webhook.",
+    "add_command.description": "Popis",
+    "add_command.cancel": "Zrušit",
+    "add_command.autocompleteHint.help": "(Volitelné) Určete argumenty spojené s vaším příkazem.",
+    "add_command.autocomplete.help": "(Volitelné) Zobrazí příkaz v seznamu automatického doplňování, když někdo zadá / do vstupního pole.",
+    "add_command.autocomplete": "Automatické doplňování",
+    "about.enterpriseEditionSst": "Vysoká důvěryhodnost zpráv pro podnik"
 }
