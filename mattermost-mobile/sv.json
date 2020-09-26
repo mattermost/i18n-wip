@@ -633,5 +633,21 @@
   "channel_notifications.preference.never": "Aldrig",
   "channel_notifications.preference.all_activity": "För all aktivitet",
   "channel_header.notificationPreference.none": "Aldrig",
-  "channel_header.notificationPreference.all": "Alla"
+  "channel_header.notificationPreference.all": "Alla",
+  "user.settings.display.custom_theme": "Anpassat tema",
+  "mobile.notification_settings.auto_responder.message_title": "ANPASSAT MEDDELANDE",
+  "mobile.emoji_picker.custom": "ANPASSAT",
+  "status_dropdown.set_ooo": "Ej tillgänglig",
+  "navbar.search.hint": "Öppnar sökfönstret för kanaler",
+  "navbar.search.button": "Sök kanal",
+  "navbar.more_options.hint": "Öppnar den högra sidomenyn med fler inställningar",
+  "navbar.more_options.button": "Fler alternativ",
+  "mobile.server_url.empty": "Ange en giltig server-URL",
+  "channel_notifications.preference.save_error": "Det gick inte att spara inställningen för omnämnande. Kontrollera din anslutning och försök igen.",
+  "channel_notifications.preference.only_mentions": "Endast omnämnanden och direktmeddelanden",
+  "channel_notifications.preference.header": "Skicka notifieringar",
+  "channel_notifications.preference.global_default": "Global standard (omnämnanden)",
+  "channel_header.notificationPreference.mention": "Omnämnanden",
+  "channel_header.notificationPreference.default": "Standard",
+  "channel_header.notificationPreference": "Mobilnotifieringar"
 }
