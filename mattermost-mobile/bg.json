@@ -15,7 +15,7 @@
   "about.hash": "Хеш на компилация:",
   "about.enterpriseEditionSt": "Модерна комуникация дори зад вашия firewall.",
   "about.enterpriseEditionLearn": "Научете повече за корпоративна версия на ",
-  "about.date": "Дата на създаване:",
+  "about.date": "Дата на компилация:",
   "login.password": "Парола",
   "login.or": "или",
   "login.noUsernameLdapUsername": "Въведете потр. си име или {ldapUsername}",
