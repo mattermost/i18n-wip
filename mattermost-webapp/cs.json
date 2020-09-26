@@ -1822,5 +1822,8 @@
     "about.teamEditiont1": "Enterprise Edition",
     "remove_next_steps_modal.confirm": "Odstranit",
     "next_steps_view.invite_members_step.send": "Odeslat",
-    "next_steps_view.invite_members_step.copy_button": "Zkopírovat odkaz"
+    "next_steps_view.invite_members_step.copy_button": "Zkopírovat odkaz",
+    "announcement_bar.warn_metric_status.number_of_users_ack.text": "Děkujeme, že jste se obrátili na Mattermost. Brzy se vám ozveme.",
+    "announcement_bar.warn_metric_status.number_of_posts_ack.text": "Děkujeme, že jste se obrátili na Mattermost. Brzy se vám ozveme.",
+    "announcement_bar.warn_metric_status_ack.text": "Děkujeme, že jste se obrátili na Mattermost. Brzy se vám ozveme."
 }
