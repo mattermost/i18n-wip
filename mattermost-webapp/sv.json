@@ -2587,5 +2587,9 @@
     "admin.permissions.permission.import_team.description": "Importera team",
     "admin.permissions.permission.edit_post.name": "Editera egen \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEditera egna meddel",
     "admin.permissions.permission.edit_other_users.name": "Editera andra användare",
-    "admin.permissions.permission.edit_other_users.description": "Editera andra användare"
+    "admin.permissions.permission.edit_other_users.description": "Editera andra användare",
+    "warn_metric_ack_modal.number_of_users.header.title": "Väx med Mattermost",
+    "announcement_bar.warn_metric_status.number_of_users_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig.",
+    "announcement_bar.warn_metric_status.number_of_posts_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig.",
+    "announcement_bar.warn_metric_status_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig."
 }
