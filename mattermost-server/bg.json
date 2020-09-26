@@ -8553,5 +8553,9 @@
     {
         "id": "api.team.invite_members.limit_reached.app_error",
         "translation": "Достигнахте потребителския лимит за текущия си слой"
+    },
+    {
+        "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
+        "translation": "Интегрирай AD/LDAP"
     }
 ]
