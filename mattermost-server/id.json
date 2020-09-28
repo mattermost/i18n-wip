@@ -3921,7 +3921,7 @@
     },
     {
         "id": "api.admin.file_read_error",
-        "translation": "Gagal membaca berkas log"
+        "translation": "Gagal membaca berkas log."
     },
     {
         "id": "api.admin.add_certificate.saving.app_error",
@@ -3929,11 +3929,11 @@
     },
     {
         "id": "api.admin.add_certificate.open.app_error",
-        "translation": "Tidak dapat membuka berkas sertifikat"
+        "translation": "Tidak dapat membuka berkas sertifikat."
     },
     {
         "id": "api.admin.add_certificate.no_file.app_error",
-        "translation": "Tidak ada berkas 'sertifikat' di dalam permintaan"
+        "translation": "Tidak ada berkas 'sertifikat' di dalam permintaan."
     },
     {
         "id": "api.admin.add_certificate.array.app_error",
@@ -3994,5 +3994,13 @@
     {
         "id": "model.group.name.invalid_length.app_error",
         "translation": "Nama harus berupa 1 hingga 64 huruf kecil karakter alfanumerik "
+    },
+    {
+        "id": "api.admin.delete_brand_image.storage.not_found",
+        "translation": "Tidak dapat menghapus gambar merek, tidak ditemukan."
+    },
+    {
+        "id": "api.admin.ldap.not_available.app_error",
+        "translation": "LDAP tidak tersedia."
     }
 ]
