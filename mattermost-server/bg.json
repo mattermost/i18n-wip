@@ -2796,75 +2796,75 @@
     },
     {
         "id": "api.slackimport.slack_import.zip.file_too_large",
-        "translation": "{{.Filename}} в zip архива е твърде голям, за да се обработи от Slack импорта"
+        "translation": "{{.Filename}} в zip архива е твърде голям, за да се обработи от Slack импорта\n"
     },
     {
         "id": "api.slackimport.slack_import.zip.app_error",
-        "translation": "Не успя да се отвори Slack export zip файла."
+        "translation": "Не успя да се отвори Slack export zip файла.\n"
     },
     {
         "id": "api.slackimport.slack_import.team_fail",
-        "translation": "Не можа да се вземе екипът за импортиране."
+        "translation": "Не можа да се вземе екипът, в който да ще се импортира.\n"
     },
     {
         "id": "api.slackimport.slack_import.open.app_error",
-        "translation": "Не можа да се отвори файла: {{.Filename}}."
+        "translation": "Не успя да се отвори файла: {{.Filename}}.\n"
     },
     {
         "id": "api.slackimport.slack_import.notes",
-        "translation": "Бележки:"
+        "translation": "\nБележки:\n"
     },
     {
         "id": "api.slackimport.slack_import.note3",
-        "translation": "- В лог файловете на сървъра може да се намерят допълнителни грешки."
+        "translation": "- В лог файловете на сървъра може да се намерят допълнителни грешки.\n"
     },
     {
         "id": "api.slackimport.slack_import.note2",
-        "translation": "- Понастоящем Slack бот съобщенията не се поддържат."
+        "translation": "- Понастоящем Slack бот съобщенията не се поддържат.\n"
     },
     {
         "id": "api.slackimport.slack_import.note1",
-        "translation": "- Някои съобщения може да не са импортирани, защото не са били поддържани от този импортьор."
+        "translation": "- Някои съобщения може да не са импортирани, защото не се поддържат от този импортьор.\n"
     },
     {
         "id": "api.slackimport.slack_import.log",
-        "translation": "Mattermost Slack импорт лог"
+        "translation": "Mattermost Slack импорт дневник\n"
     },
     {
         "id": "api.slackimport.slack_add_users.unable_import",
-        "translation": "Неуспешен импорт на Slack потребителя: {{.Username}}."
+        "translation": "Неуспешен импорт на Slack потребителя: {{.Username}}.\n"
     },
     {
         "id": "api.slackimport.slack_add_users.missing_email_address",
-        "translation": "Потребителя {{.Username}} няма имейл адрес в Slack експорта. Използван е {{.Email}} като заместител. Потребителят трябва да актуализира имейл адреса си, след като влезе в системата."
+        "translation": "Потребителя {{.Username}} няма адрес ел.поща в Slack експорта. Използван е {{.Email}} като заместител. Потребителят трябва да актуализира адреса си на ел.поща, след като влезе в системата.\n"
     },
     {
         "id": "api.slackimport.slack_add_users.merge_existing_failed",
-        "translation": "Slack потребител е обединен с Mattermost потребител поради съвпадащи имейл {{.Email}} и потребителско име {{.Username}}., но потребителя не може да бъде добавен към отбора."
+        "translation": "Slack потребител е обединен с Mattermost потребител поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}., но потребителя не може да бъде добавен към екипа.\n"
     },
     {
         "id": "api.slackimport.slack_add_users.merge_existing",
-        "translation": "Slack потребител е обединен с Mattermost поради съвпадащи имейл {{.Email}} и потребителско име {{.Username}}."
+        "translation": "Slack потребител е обединен с Mattermost поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}.\n"
     },
     {
         "id": "api.slackimport.slack_add_users.email_pwd",
-        "translation": "Slack потребител с имейл {{.Email}} и парола {{.Password}} беше импортиран."
+        "translation": "Slack потребител с ел.поща {{.Email}} и парола {{.Password}} беше импортиран.\n"
     },
     {
         "id": "api.slackimport.slack_add_users.created",
-        "translation": "Създадени потребители:"
+        "translation": "\nСъздадени потребители:\n"
     },
     {
         "id": "api.slackimport.slack_add_channels.merge",
-        "translation": "Slack канала {{.DisplayName}} вече съществува като активен Mattermost канал. Двата канала са обединени."
+        "translation": "Slack канала {{.DisplayName}} вече съществува като активен Mattermost канал. Двата канала са обединени.\n"
     },
     {
         "id": "api.slackimport.slack_add_channels.import_failed",
-        "translation": "Неуспешен импорт на Slack канала {{.DisplayName}}."
+        "translation": "Неуспешен импорт на Slack канала {{.DisplayName}}.\n"
     },
     {
         "id": "api.slackimport.slack_add_channels.failed_to_add_user",
-        "translation": "Неуспешно добавяне на Slack потребител {{.Username}} в канала."
+        "translation": "Неуспешно добавяне на Slack потребител {{.Username}} в канала.\n"
     },
     {
         "id": "api.slackimport.slack_add_channels.added",
@@ -4016,7 +4016,7 @@
     },
     {
         "id": "app.bot.get_disable_bot_sysadmin_message",
-        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създдете на нови токъни за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот акаунти, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създдете на нови токъни за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nАко искате бот акаунти да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот акаунти, когато собственикът е деактивиран“ в **истемна конзола> Интеграции> Бот профили** на да.{{end}}"
+        "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот профили, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nАко искате бот профили да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот профили, когато собственикът е деактивиран“ в **Системна конзола > Интеграции > Бот профили** на true.{{end}}"
     },
     {
         "id": "model.access.is_valid.client_id.app_error",
@@ -6720,7 +6720,7 @@
     },
     {
         "id": "model.compliance.is_valid.start_end_at.app_error",
-        "translation": "'До' трябва да е по-голямо от 'От'"
+        "translation": "'До' трябва да е по-голямо от 'От'."
     },
     {
         "id": "api.templates.invite_body.extra_info",
@@ -7440,7 +7440,7 @@
     },
     {
         "id": "plugin_api.send_mail.missing_to",
-        "translation": "Липсващ адрес в 'До'"
+        "translation": "Липсващ адрес в 'До'."
     },
     {
         "id": "api.team.update_member_roles.not_a_member",
