@@ -91,5 +91,13 @@
     "add_command.cancel": "انصراف",
     "remove_next_steps_modal.confirm": "حذف",
     "admin.billing.payment_info_edit.cancel": "انصراف",
-    "admin.billing.company_info_edit.cancel": "انصراف"
+    "admin.billing.company_info_edit.cancel": "انصراف",
+    "about.licensed": "مجوز داده شده به:",
+    "about.hashwebapp": "هش بیلد وب‌اپ:",
+    "about.enterpriseEditionSst": "پیام‌رسانی بسیار معتمد برای سازمان",
+    "about.database": "پایگاه داده:",
+    "about.cloudEdition": "ابری",
+    "about.dbversion": "نسخهٔ انترپرایز",
+    "about.copyright": "تحت پوشش حق تآلیف {currentYear}  - ۲۰۱۵  .شرکت مترموست. تمامی حقوق محفوظ است.",
+    "about.buildnumber": "شمارهٔ بیلد:"
 }
