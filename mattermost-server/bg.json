@@ -2876,11 +2876,11 @@
     },
     {
         "id": "api.slackimport.slack_add_bot_user.email_pwd",
-        "translation": "Интегрирщият/Slack Bot потребител с имейл {{.Email}} и парола {{.Password}} е импортиран."
+        "translation": "Интегрирщият/Slack Bot потребител с имейл {{.Email}} и парола {{.Password}} е импортиран.\n"
     },
     {
         "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-        "translation": "Mattermost настоятелно препоръчва внедряването за над 500 потребители надстройка до Mattermost Enterprise Edition, която предлага функции като управление на потребители, клъстериране на сървъри и мониторинг на производителността.\n\nПри свързване с поддръжката се изпраща вашата информация за контакт на Mattermost, Inc. [Научете повече](https://mattermost.com/pl/default-admin-advisory)"
+        "translation": "Mattermost настоятелно препоръчва инсталации с над 500 потребители да се възползват от функции като управление на потребители, клъстеризиране на сървъри и мониторинг на производителността. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\nС натискане върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Научете повече](https://mattermost.com/pl/default-admin-advisory)"
     },
     {
         "id": "api.server.warn_metric.number_of_active_users_400.notification_title",
@@ -2896,7 +2896,7 @@
     },
     {
         "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-        "translation": "Вашата система Mattermost вече има 200 потребители. С нарастването на вашата потребителска база предоставянето на нови акаунти може да отнеме време. Препоръчваме ви да надстроите до Mattermost Enterprise Edition и да интегрирате Active Directory/LDAP на вашата организация, което ще позволи на всеки с акаунт достъп до Mattermost. Потребителите могат да влизат, без да се налага да създават нови потребителски имена и пароли, а администраторите спестяват време за управление на акаунти.\n\n[Научете повече за интегрирането с AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nПри свързване с поддръжката се изпраща вашата информация за контакт до Mattermost, Inc. [Научете повече](https://mattermost.com/pl/default-admin-advisory)"
+        "translation": "Вашата система Mattermost вече има 200 потребители. Когато свържете Mattermost с доставчика за влизане на вашата организация, потребителите могат да получат достъп до Mattermost, без да се налага да въвеждат повторно своите идентификационни данни. Препоръчваме ви да интегрирате вашия доставчик на SAML 2.0 с вашия сървър Mattermost. [Научете повече за интегрирането със SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nС натискане върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Научете повече](https://mattermost.com/pl/default-admin-advisory)"
     },
     {
         "id": "api.server.warn_metric.contacting_us",
@@ -8552,7 +8552,7 @@
     },
     {
         "id": "api.team.invite_members.limit_reached.app_error",
-        "translation": "Достигнахте потребителския лимит за текущия си слой"
+        "translation": "Достигнахте лимита за безплатен потребителски абонамент"
     },
     {
         "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
