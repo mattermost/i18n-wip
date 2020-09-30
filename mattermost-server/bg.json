@@ -2868,7 +2868,7 @@
     },
     {
         "id": "api.slackimport.slack_add_channels.added",
-        "translation": "Добавени канали:"
+        "translation": "\nДобавени канали:\n"
     },
     {
         "id": "api.slackimport.slack_add_bot_user.unable_import",
