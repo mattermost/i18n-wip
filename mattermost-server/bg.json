@@ -2872,7 +2872,7 @@
     },
     {
         "id": "api.slackimport.slack_add_bot_user.unable_import",
-        "translation": "Не можа да се импортира интегрирщият/Slack Bot потребител {{.Username}}."
+        "translation": "Не можа да се импортира интегрирщият/Slack Bot потребител {{.Username}}.\n"
     },
     {
         "id": "api.slackimport.slack_add_bot_user.email_pwd",
