@@ -2688,7 +2688,7 @@
     },
     {
         "id": "api.command_online.desc",
-        "translation": "Задайте статуса си на 'на линия'"
+        "translation": "Задайте статуса си в 'на линия'"
     },
     {
         "id": "api.command_offline.success",
@@ -8557,5 +8557,9 @@
     {
         "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
         "translation": "Интегрирай AD/LDAP"
+    },
+    {
+        "id": "api.system.update_notices.parse_failed",
+        "translation": "Анализирането на продуктовите известия е неуспешно"
     }
 ]
