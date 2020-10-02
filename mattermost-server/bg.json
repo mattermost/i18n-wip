@@ -3924,7 +3924,7 @@
     },
     {
         "id": "model.oauth.is_valid.homepage.app_error",
-        "translation": "Началната страница трябва да е валиден URL адрес и да започне с http:// или https://."
+        "translation": "Началната страница трябва да е валиден URL адрес и да започва с http:// или https://."
     },
     {
         "id": "app.import.validate_user_import_data.username_invalid.error",
@@ -5656,7 +5656,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_login_id",
-        "translation": "AD / LDAP поле 'Атрибут за идентификационен номер за вход' е задължително."
+        "translation": "AD/LDAP полето \"Login ID Attribute\" е задължително."
     },
     {
         "id": "model.channel.is_valid.display_name.app_error",
@@ -6980,7 +6980,7 @@
     },
     {
         "id": "model.config.is_valid.teammate_name_display.app_error",
-        "translation": "Невалиден дисплей на съотборника. Трябва да са 'пълно име', 'псевдоним_ пълно_ име' или 'потребителско име'."
+        "translation": "Невалидно показване на съекипник. Трябва да е 'full_name', 'nickname_full_name' или 'username'."
     },
     {
         "id": "store.sql_user.get_for_login.multiple_users",
@@ -7636,7 +7636,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_server",
-        "translation": "AD / LDAP поле 'AD / LDAP Server' е задължително."
+        "translation": "AD/LDAP полето \"AD/LDAP Server\" е задължително."
     },
     {
         "id": "store.sql_status.get.app_error",
@@ -7660,7 +7660,7 @@
     },
     {
         "id": "model.config.is_valid.websocket_url.app_error",
-        "translation": "URL адресът на уебсакета трябва да е валиден URL адрес и да започне с ws:// или wss://."
+        "translation": "URL адресът на websocket трябва да е валиден URL адрес и да започва с ws:// или wss://."
     },
     {
         "id": "ent.elasticsearch.search_posts.unmarshall_post_failed",
@@ -7756,7 +7756,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_username",
-        "translation": "Поле AD / LDAP 'Атрибут на потребителско име' е задължително."
+        "translation": "AD/LDAP полето  \"Username Attribute\" е задължително."
     },
     {
         "id": "store.sql_post.get_post_id_around.app_error",
@@ -7964,7 +7964,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_basedn",
-        "translation": "AD / LDAP полето 'BaseDN' е задължително."
+        "translation": "AD/LDAP полето \"BaseDN\" е задължително."
     },
     {
         "id": "app.plugin.get_public_key.get_file.app_error",
@@ -8820,7 +8820,7 @@
     },
     {
         "id": "app.upload.create.cannot_upload_to_deleted_channel.app_error",
-        "translation": "Не може да се публикува в изтрит канал."
+        "translation": "Не може да се качва в изтрит канал."
     },
     {
         "id": "app.team.update.updating.app_error",
@@ -8853,5 +8853,9 @@
     {
         "id": "app.upload.upload_data.large_image.app_error",
         "translation": "Размерите на {{.Filename}} ({{.Width}} на {{.Height}} пиксела) превишават ограничението."
+    },
+    {
+        "id": "app.upload.create.upload_too_large.app_error",
+        "translation": "Не може да се качи файл. Файлът е прекалено голям."
     }
 ]
