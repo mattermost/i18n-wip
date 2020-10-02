@@ -8844,7 +8844,7 @@
     },
     {
         "id": "model.upload_session.is_valid.id.app_error",
-        "translation": "Невалидна стойност за идентификатор"
+        "translation": "Невалидна стойност за id"
     },
     {
         "id": "model.upload_session.is_valid.create_at.app_error",
