@@ -8817,5 +8817,21 @@
     {
         "id": "app.team.get_all_team_listing.app_error",
         "translation": "Не успяхме да вземем всички екипи."
+    },
+    {
+        "id": "app.upload.create.cannot_upload_to_deleted_channel.app_error",
+        "translation": "Не може да се публикува в изтрит канал."
+    },
+    {
+        "id": "app.team.update.updating.app_error",
+        "translation": "Срещнахме грешка при актуализиране на екипа."
+    },
+    {
+        "id": "app.team.search_private_team.app_error",
+        "translation": "Срещнахме грешка при търсене на частни екипи."
+    },
+    {
+        "id": "app.team.search_open_team.app_error",
+        "translation": "Срещнахме грешка при търсене на отворени екипи."
     }
 ]
