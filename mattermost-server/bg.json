@@ -5604,7 +5604,7 @@
     },
     {
         "id": "store.sql_group.group_syncable_already_deleted",
-        "translation": "синхронизируемата група е вече изтрита"
+        "translation": "груповата синхронизация вече беше изтрита"
     },
     {
         "id": "store.sql_job.get_newest_job_by_status_and_type.app_error",
