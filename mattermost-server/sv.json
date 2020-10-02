@@ -5429,7 +5429,7 @@
     },
     {
         "id": "api.context.404.app_error",
-        "translation": "Tyvär, vi kunde inte hitta sidan."
+        "translation": "Tyvärr, vi kunde inte hitta sidan."
     },
     {
         "id": "api.config.update_config.restricted_merge.app_error",
@@ -7177,5 +7177,13 @@
     {
         "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
         "translation": "Väx med Mattermost"
+    },
+    {
+        "id": "api.cloud.app_error",
+        "translation": ""
+    },
+    {
+        "id": "api.admin.add_certificate.parseform.app_error",
+        "translation": ""
     }
 ]
