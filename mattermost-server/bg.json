@@ -8753,5 +8753,17 @@
     {
         "id": "app.channel.remove_member.app_error",
         "translation": "Членът на канала не можа да бъде премахнат."
+    },
+    {
+        "id": "app.team.get_all.app_error",
+        "translation": "Не успяхме да вземем всички отбори."
+    },
+    {
+        "id": "app.team.get.finding.app_error",
+        "translation": "Срещнахме грешка при намирането на екипа."
+    },
+    {
+        "id": "app.post.get_posts_since.app_error",
+        "translation": "Не може да се получат публикациите за канала."
     }
 ]
