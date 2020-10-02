@@ -1334,8 +1334,8 @@
     {
         "id": "api.command_groupmsg.invalid_user.app_error",
         "translation": {
-            "one": "Не е намерен потребител: {{.Users}}",
-            "other": "Не са намерени потребители: {{.Users}}"
+            "one": "Не е намерен потребителя: {{.Users}}",
+            "other": "Не са намерени потребителите: {{.Users}}"
         }
     },
     {
@@ -1596,7 +1596,7 @@
     },
     {
         "id": "api.command.execute_command.not_found.app_error",
-        "translation": "Команда с тригер '{{.Trigger}}' не е намерена. За да изпратите съобщение, започващо с '/', опитайте да добавите празно място в началото на съобщението."
+        "translation": "Команда, задействана с '{{.Trigger}}' не е намерена. За да изпратите съобщение, започващо с '/', опитайте да добавите интервал в началото на съобщението."
     },
     {
         "id": "api.command.execute_command.format.app_error",
@@ -2478,8 +2478,8 @@
     {
         "id": "api.email_batching.send_batched_email_notification.body_text",
         "translation": {
-            "one": "Имате ново уведомление.",
-            "other": "Имате {{.Count}} нови уведомления."
+            "one": "Имате ново известие.",
+            "other": "Имате {{.Count}} нови известия."
         }
     },
     {
