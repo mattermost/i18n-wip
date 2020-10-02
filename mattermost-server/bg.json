@@ -8652,7 +8652,7 @@
     },
     {
         "id": "app.channel.analytics_type_count.app_error",
-        "translation": "Не може да се получи броя на каналите."
+        "translation": "Не може да се получи броя на каналите по тип."
     },
     {
         "id": "api.user.login_cws.license.error",
@@ -8661,5 +8661,65 @@
     {
         "id": "app.channel.pinned_posts.app_error",
         "translation": "Не могат да се намерят прикрепените публикации."
+    },
+    {
+        "id": "app.channel.permanent_delete_members_by_user.app_error",
+        "translation": "Членът на канала не можа да бъде премахнат."
+    },
+    {
+        "id": "app.channel.increment_mention_count.app_error",
+        "translation": "Броят на споменаванията не може да се увеличи."
+    },
+    {
+        "id": "app.channel.get_public_channels.get.app_error",
+        "translation": "Не може да се получат публичните канали."
+    },
+    {
+        "id": "app.channel.get_private_channels.get.app_error",
+        "translation": "Не може да се получат частните канали."
+    },
+    {
+        "id": "app.channel.get_pinnedpost_count.app_error",
+        "translation": "Броят на закачените публикации в канала не може да бъде получен."
+    },
+    {
+        "id": "app.channel.get_members.app_error",
+        "translation": "Членовете на канала не могат да бъдат получени."
+    },
+    {
+        "id": "app.channel.get_member_count.app_error",
+        "translation": "Броят на членовете на канала не може да бъде получен."
+    },
+    {
+        "id": "app.channel.get_member.missing.app_error",
+        "translation": "Не е намерен член на канала с този потребителски ID и ID на канала."
+    },
+    {
+        "id": "app.channel.get_member.app_error",
+        "translation": "Не може да се получи член на канала."
+    },
+    {
+        "id": "app.channel.get_for_post.app_error",
+        "translation": "Каналът за дадената публикация не може да се получи."
+    },
+    {
+        "id": "app.channel.get_channels_by_ids.not_found.app_error",
+        "translation": "Не е намерен канал."
+    },
+    {
+        "id": "app.channel.get_channels_by_ids.get.app_error",
+        "translation": "Невъзможно получаване на каналите."
+    },
+    {
+        "id": "app.channel.get_channels_by_ids.app_error",
+        "translation": "Невъзможно получаването на канали по ID."
+    },
+    {
+        "id": "app.channel.get_channel_counts.get.app_error",
+        "translation": "Броят на каналите не може да бъде получен."
+    },
+    {
+        "id": "app.channel.count_posts_since.app_error",
+        "translation": "Не може да се преброят съобщенията, след зададената дата."
     }
 ]
