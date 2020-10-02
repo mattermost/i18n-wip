@@ -8841,5 +8841,17 @@
     {
         "id": "app.team.search_all_team.app_error",
         "translation": "Срещнахме грешка при търсене на екипи."
+    },
+    {
+        "id": "model.upload_session.is_valid.id.app_error",
+        "translation": "Невалидна стойност за идентификатор"
+    },
+    {
+        "id": "model.upload_session.is_valid.create_at.app_error",
+        "translation": "Невалидна стойност за create_at."
+    },
+    {
+        "id": "app.upload.upload_data.large_image.app_error",
+        "translation": "Размерите на {{.Filename}} ({{.Width}} на {{.Height}} пиксела) превишават ограничението."
     }
 ]
