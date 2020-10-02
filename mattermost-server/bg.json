@@ -1957,8 +1957,8 @@
     {
         "id": "api.post.get_message_for_notification.images_sent",
         "translation": {
-            "one": "{{.Count}} изображение изпратено: {{.Filenames}}",
-            "other": "{{.Count}} изображения изпратени: {{.Filenames}}"
+            "one": "{{.Count}} изпратено изображение: {{.Filenames}}",
+            "other": "{{.Count}} изпратени изображения: {{.Filenames}}"
         }
     },
     {
@@ -8649,5 +8649,9 @@
     {
         "id": "api.server.warn_metric.mfa.contact_us.email_body",
         "translation": "Заявка Mattermost свържете с нас. Интересно ми е да науча повече за използването на многофакторно удостоверяване.\n"
+    },
+    {
+        "id": "app.channel.analytics_type_count.app_error",
+        "translation": "Не може да се получи броя на каналите."
     }
 ]
