@@ -985,7 +985,7 @@
     },
     {
         "id": "api.bot.set_bot_icon_image.too_large.app_error",
-        "translation": "Не можа да се качи изображение на профила. Файлът е твърде голям."
+        "translation": "Не можа да се качи изображение на икона. Файлът е твърде голям."
     },
     {
         "id": "api.bot.set_bot_icon_image.open.app_error",
@@ -993,11 +993,11 @@
     },
     {
         "id": "api.bot.set_bot_icon_image.no_file.app_error",
-        "translation": "Липсва файл в 'image' на заявката."
+        "translation": "Липсва файл под 'image' в заявката."
     },
     {
         "id": "api.bot.set_bot_icon_image.array.app_error",
-        "translation": "Празен масив в 'image' на заявката."
+        "translation": "Празен масив под 'image' в заявката."
     },
     {
         "id": "api.admin.upload_brand_image.too_large.app_error",
@@ -1009,7 +1009,7 @@
     },
     {
         "id": "api.admin.upload_brand_image.no_file.app_error",
-        "translation": "Липсва файл в 'image' на заявката."
+        "translation": "Липсва файл под 'image' на заявката."
     },
     {
         "id": "api.admin.upload_brand_image.array.app_error",
@@ -1021,7 +1021,7 @@
     },
     {
         "id": "api.admin.test_email.subject",
-        "translation": "Mattermost - Тестване на настройките за имейл"
+        "translation": "Mattermost - Тестване на настройките за ел.поща"
     },
     {
         "id": "api.admin.test_email.reenter_password",
@@ -1045,7 +1045,7 @@
     },
     {
         "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
-        "translation": "Неуспешно запазване на сертификат файла."
+        "translation": "Неуспешно запазване файла на сертификат."
     },
     {
         "id": "api.admin.get_brand_image.storage.app_error",
@@ -1764,15 +1764,15 @@
     },
     {
         "id": "api.bot.set_bot_icon_image.app_error",
-        "translation": "Изображението на профила не можа да се качи."
+        "translation": "Изображението на икона не можа да се качи."
     },
     {
         "id": "api.bot.get_bot_icon_image.read.app_error",
-        "translation": "Не може да се прочете файла с изображение на профила."
+        "translation": "Не може да се прочете файла с изображение на икона."
     },
     {
         "id": "api.bot.delete_bot_icon_image.app_error",
-        "translation": "Изображението на профила не можа да бъде изтрито."
+        "translation": "Не може да се изтрие изображението на икона."
     },
     {
         "id": "api.bot.create_disabled",
@@ -8561,5 +8561,93 @@
     {
         "id": "api.system.update_notices.parse_failed",
         "translation": "Анализирането на продуктовите известия е неуспешно"
+    },
+    {
+        "id": "api.server.warn_metric.email_domain.start_trial_notification_success.message",
+        "translation": "Пробният ви период за Enterprise вече е активен. Отидете на **Системна конзола > Удостоверяване > Достъп за гости**, за да разрешите профили за гости."
+    },
+    {
+        "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
+        "translation": "Проектите често включват хора както от организацията, така и извън нея. С профилите за гости можете да привлечете външни партньори във вашата система Mattermost и да посочите с кого да работят и какво могат да виждат.\n\n[Научете повече за разрешаване акаунтите за гости](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nС натискането върху Старт пробна версия, се съгласявам с [споразумение на Mattermost за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [политика за поверителност](https://mattermost.com/privacy-policy/), и получаване на ел.поща за продукта."
+    },
+    {
+        "id": "api.server.warn_metric.email_domain.notification_title",
+        "translation": "Създаване на профили за гости"
+    },
+    {
+        "id": "api.server.warn_metric.email_domain.notification_body",
+        "translation": "Проектите често включват хора както от организацията, така и извън нея. С профилите за гости можете да привлечете външни партньори във вашата система Mattermost и да посочите с кого да работят и какво могат да виждат.\n\n[Научете повече за разрешаване акаунтите за гости](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nС натискането върху Свържете се с нас, ще споделяте информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    },
+    {
+        "id": "api.server.warn_metric.email_domain.contact_us.email_body",
+        "translation": "Заявка Mattermost свържете с нас. Интересно ми е да науча повече за използването на профили за гости.\n"
+    },
+    {
+        "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
+        "translation": "Пробният лиценз не можа да бъде извлечен. Посетете https://mattermost.com/trial/, за да поискате лиценз."
+    },
+    {
+        "id": "api.post.search_posts.invalid_body.app_error",
+        "translation": "Не може да се анализира тялото на заявката."
+    },
+    {
+        "id": "api.migrate_to_saml.error",
+        "translation": "Невъзможно мигриране в SAML."
+    },
+    {
+        "id": "api.license.request_trial_license.fail_get_user_count.app_error",
+        "translation": "Не можете да получите пробен лиценз, моля, опитайте отново или се свържете със support@mattermost.com. Не може да се получи броят на регистрираните потребители."
+    },
+    {
+        "id": "api.file.test_connection.s3.list_objects.app_error",
+        "translation": "Грешка при опит за създаване списък на обекти."
+    },
+    {
+        "id": "api.file.test_connection.s3.bucket_create.app_error",
+        "translation": "Не можа да се създаде S3 bucket."
+    },
+    {
+        "id": "api.file.append_file.writing.app_error",
+        "translation": "Възникна грешка при запис в S3."
+    },
+    {
+        "id": "api.file.append_file.opening.app_error",
+        "translation": "Възникна грешка при отваряне на файла."
+    },
+    {
+        "id": "api.file.append_file.s3.app_error",
+        "translation": "Възникна грешка при добавяне към файл в S3."
+    },
+    {
+        "id": "api.file.append_file.no_exist.app_error",
+        "translation": "Файлът не съществува."
+    },
+    {
+        "id": "api.cloud.request_error",
+        "translation": "Грешка при обработка на заявката до CWS."
+    },
+    {
+        "id": "api.cloud.license_error",
+        "translation": "Вашият лиценз не поддържа заявки към облак."
+    },
+    {
+        "id": "api.cloud.app_error",
+        "translation": "Вътрешна грешка при на заявка към облачния API."
+    },
+    {
+        "id": "api.admin.add_certificate.parseform.app_error",
+        "translation": "Грешка при анализа на многоформна заявка"
+    },
+    {
+        "id": "api.admin.ldap.not_available.app_error",
+        "translation": "LDAP не е налично."
+    },
+    {
+        "id": "api.server.warn_metric.mfa.notification_title",
+        "translation": "Изисквай многофакторно удостоверяване"
+    },
+    {
+        "id": "api.server.warn_metric.mfa.contact_us.email_body",
+        "translation": "Заявка Mattermost свържете с нас. Интересно ми е да науча повече за използването на многофакторно удостоверяване.\n"
     }
 ]
