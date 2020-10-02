@@ -8865,5 +8865,9 @@
     {
         "id": "model.upload_session.is_valid.type.app_error",
         "translation": "Невалидна стойност за Type"
+    },
+    {
+        "id": "model.upload_session.is_valid.user_id.app_error",
+        "translation": "Невалидна стойност за user_id."
     }
 ]
