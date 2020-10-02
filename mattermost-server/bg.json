@@ -8721,5 +8721,9 @@
     {
         "id": "app.channel.count_posts_since.app_error",
         "translation": "Не може да се преброят съобщенията, след зададената дата."
+    },
+    {
+        "id": "app.post.get_posts_around.get.app_error",
+        "translation": "Не може да се получат публикациите за канала."
     }
 ]
