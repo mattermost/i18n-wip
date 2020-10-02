@@ -8789,5 +8789,9 @@
     {
         "id": "app.team.get_all_private_team_listing.app_error",
         "translation": "Не успяхме да вземем всички частни екипи."
+    },
+    {
+        "id": "app.team.save.existing.app_error",
+        "translation": "Трябва да се актуализира обаждането за съществуващ екип."
     }
 ]
