@@ -897,7 +897,7 @@
     },
     {
         "id": "api.channel.join_channel.post_and_forget",
-        "translation": "%v се присъедини в канала."
+        "translation": "%v се присъедини към канала."
     },
     {
         "id": "api.channel.join_channel.permissions.app_error",
@@ -917,7 +917,7 @@
     },
     {
         "id": "api.channel.delete_channel.archived",
-        "translation": "%v архивира канала."
+        "translation": "%v архивирани канала."
     },
     {
         "id": "api.channel.create_group.bad_user.app_error",
@@ -1748,11 +1748,11 @@
     },
     {
         "id": "api.channel.add_members.user_denied",
-        "translation": "Членството в канала е отказано на следният потребител поради ограничения в групата: {{ .UserIDs }}"
+        "translation": "Членството в канала е отказано на следните потребители поради ограничения в групата: {{ .UserIDs }}"
     },
     {
         "id": "api.channel.add_members.error",
-        "translation": "Грешка при добавяне на участници в канала."
+        "translation": "Грешка при добавяне на членове в канала."
     },
     {
         "id": "api.bot.teams_channels.add_message_mobile",
@@ -1760,7 +1760,7 @@
     },
     {
         "id": "api.bot.set_bot_icon_image.parse.app_error",
-        "translation": "Съставния формуляр не можа да се обработи."
+        "translation": "Формуляра от множество части не можа да се обработи."
     },
     {
         "id": "api.bot.set_bot_icon_image.app_error",
@@ -1772,7 +1772,7 @@
     },
     {
         "id": "api.bot.delete_bot_icon_image.app_error",
-        "translation": "Не може да се изтрие изображението на икона."
+        "translation": "Изображението на иконата не можа да бъде изтрито."
     },
     {
         "id": "api.bot.create_disabled",
@@ -1780,7 +1780,7 @@
     },
     {
         "id": "api.admin.upload_brand_image.parse.app_error",
-        "translation": "Съставния формуляр не можа да се обработи."
+        "translation": "Формуляра от множество части не можа да се обработи."
     },
     {
         "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -1964,8 +1964,8 @@
     {
         "id": "api.post.get_message_for_notification.files_sent",
         "translation": {
-            "one": "{{.Count}} файл изпратен: {{.Filenames}}",
-            "other": "{{.Count}} файла изпратени: {{.Filenames}}"
+            "one": "{{.Count}} изпратен файл: {{.Filenames}}",
+            "other": "{{.Count}} изпратени файлове: {{.Filenames}}"
         }
     },
     {
@@ -2471,8 +2471,8 @@
     {
         "id": "api.email_batching.send_batched_email_notification.subject",
         "translation": {
-            "one": "[{{.SiteName}}] Ново уведомление за {{.Day}} {{.Month}}, {{.Year}}",
-            "other": "[{{.SiteName}}] Нови уведомления за {{.Day}} {{.Month}}, {{.Year}}"
+            "one": "[{{.SiteName}}] Ново известие към {{.Day}}.{{.Month}}.{{.Year}}",
+            "other": "[{{.SiteName}}] Нови известия към {{.Day}}.{{.Month}}.{{.Year}}"
         }
     },
     {
