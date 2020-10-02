@@ -8860,7 +8860,7 @@
     },
     {
         "id": "model.upload_session.is_valid.path.app_error",
-        "translation": "Невалидна стойност за пътя."
+        "translation": "Невалидна стойност за Path"
     },
     {
         "id": "model.upload_session.is_valid.type.app_error",
