@@ -8765,5 +8765,21 @@
     {
         "id": "app.post.get_posts_since.app_error",
         "translation": "Не може да се получат публикациите за канала."
+    },
+    {
+        "id": "app.team.get.find.app_error",
+        "translation": "Не можа да се намери съществуващ екип."
+    },
+    {
+        "id": "app.team.analytics_team_count.app_error",
+        "translation": "Не може да се броят екипите."
+    },
+    {
+        "id": "app.team.analytics_public_team_count.app_error",
+        "translation": "Не могат да се броят публичните екипи."
+    },
+    {
+        "id": "app.team.analytics_private_team_count.app_error",
+        "translation": "Не могат да се броят частните екипи."
     }
 ]
