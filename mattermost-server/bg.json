@@ -8756,7 +8756,7 @@
     },
     {
         "id": "app.team.get_all.app_error",
-        "translation": "Не успяхме да вземем всички отбори."
+        "translation": "Не успяхме да вземем всички екипи."
     },
     {
         "id": "app.team.get.finding.app_error",
