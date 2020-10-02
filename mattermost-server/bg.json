@@ -8784,7 +8784,7 @@
     },
     {
         "id": "app.team.get_all_private_team_page_listing.app_error",
-        "translation": "Не успяхме да съберем всички частни екипи на страница."
+        "translation": "Не успяхме да вземем всички частни екипи в страницата."
     },
     {
         "id": "app.team.get_all_private_team_listing.app_error",
@@ -8793,5 +8793,29 @@
     {
         "id": "app.team.save.existing.app_error",
         "translation": "Трябва да се актуализира обаждането за съществуващ екип."
+    },
+    {
+        "id": "app.team.save.app_error",
+        "translation": "Не може да се запише екипът."
+    },
+    {
+        "id": "app.team.permanent_delete.app_error",
+        "translation": "Не можа да се изтрие съществуващ екип."
+    },
+    {
+        "id": "app.team.get_by_name.missing.app_error",
+        "translation": "Не можа да се намери съществуващ екип."
+    },
+    {
+        "id": "app.team.get_by_name.app_error",
+        "translation": "Не можа да се намери съществуващ екип."
+    },
+    {
+        "id": "app.team.get_by_invite_id.finding.app_error",
+        "translation": "Не можа да се намери съществуващ екип."
+    },
+    {
+        "id": "app.team.get_all_team_listing.app_error",
+        "translation": "Не успяхме да вземем всички екипи."
     }
 ]
