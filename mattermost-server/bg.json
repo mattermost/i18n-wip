@@ -8657,5 +8657,9 @@
     {
         "id": "api.user.login_cws.license.error",
         "translation": "Входа в CWS е забранен."
+    },
+    {
+        "id": "app.channel.pinned_posts.app_error",
+        "translation": "Не могат да се намерят прикрепените публикации."
     }
 ]
