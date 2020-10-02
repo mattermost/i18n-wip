@@ -3076,7 +3076,7 @@
     },
     {
         "id": "app.import.import_line.null_team.error",
-        "translation": "Линията за импортиране на данни има тип 'екип', но обектът на екипа е нулев."
+        "translation": "Реда за внасяне на данни е от тип \"team\", но обектът team е null."
     },
     {
         "id": "api.server.warn_metric.bot_response.mailto_footer",
@@ -3096,7 +3096,7 @@
     },
     {
         "id": "app.import.import_line.null_scheme.error",
-        "translation": "Редът за импортиране на данни има тип 'схема', но обектът на схемата е нулев."
+        "translation": "Реда за внасяне на данни е от тип \"scheme\", но обектът scheme е null."
     },
     {
         "id": "model.authorize.is_valid.scope.app_error",
@@ -3148,7 +3148,7 @@
     },
     {
         "id": "app.import.import_line.null_direct_post.error",
-        "translation": "Линията за импортиране на данни има тип 'direct_post', но обектът direct_post е нулев."
+        "translation": "Реда за внасяне на данни е от тип \"direct_post\", но обектът direct_post е null."
     },
     {
         "id": "model.outgoing_hook.icon_url.app_error",
@@ -3244,7 +3244,7 @@
     },
     {
         "id": "app.import.emoji.bad_file.error",
-        "translation": "Грешка при четене на изображение за импортиране на емоджи. Emoji с име: {{.EmojiName}}"
+        "translation": "Грешка при четене файл с изображение за емотикон. Име на емотикона: \"{{.EmojiName}}\""
     },
     {
         "id": "api.user.update_password.menu",
@@ -3380,7 +3380,7 @@
     },
     {
         "id": "app.import.attachment.bad_file.error",
-        "translation": "Грешка при четене на файла на: {{.FilePath}}"
+        "translation": "Грешка при четене на файла на: \"{{.FilePath}}\""
     },
     {
         "id": "store.sql_channel.pinned_posts.app_error",
@@ -3460,7 +3460,7 @@
     },
     {
         "id": "app.import.validate_direct_channel_import_data.unknown_favoriter.error",
-        "translation": "Директният канал може да бъде предпочитан само от членове. '{{.Username}}' не е член."
+        "translation": "Директният канал може да бъде любим само за членове. \"{{.Username}}\" не е член."
     },
     {
         "id": "store.sql_user.update_failed_pwd_attempts.app_error",
@@ -3564,7 +3564,7 @@
     },
     {
         "id": "app.import.import_line.null_post.error",
-        "translation": "Редът за импортиране на данни има тип 'публикуване', но обектът за публикуване е нулев."
+        "translation": "Реда за внасяне на данни е от тип \"post\", но обектът post е null."
     },
     {
         "id": "app.recover.save.app_error",
@@ -3760,7 +3760,7 @@
     },
     {
         "id": "app.import.import_post.user_not_found.error",
-        "translation": "Грешка при импортирането на публикация. Потребител с потребителско име '{{.Username}}' не можа да бъде намерен."
+        "translation": "Грешка при внасяне на публикация. Потребител с потребителско име \"{{.Username}}\" не можа да бъде намерен."
     },
     {
         "id": "app.import.process_import_data_file_version_line.invalid_version.error",
@@ -3856,7 +3856,7 @@
     },
     {
         "id": "app.import.import_channel.team_not_found.error",
-        "translation": "Грешка при импортирането на канал. Екип с име '{{.TeamName}}' не можа да бъде намерен."
+        "translation": "Грешка при внасянето на канал. Екип с име \"{{.TeamName}}\" не можа да бъде намерен."
     },
     {
         "id": "web.error.unsupported_browser.download",
@@ -4276,7 +4276,7 @@
     },
     {
         "id": "app.import.import_line.unknown_line_type.error",
-        "translation": "В реда за импортиране на данни има неизвестен тип '{{.Type}}'."
+        "translation": "В реда за внасяне на данни има неизвестен тип \"{{.Type}}\"."
     },
     {
         "id": "model.config.is_valid.tls_overwrite_cipher.app_error",
@@ -4824,7 +4824,7 @@
     },
     {
         "id": "app.import.import_post.channel_not_found.error",
-        "translation": "Грешка при импортирането на публикация. Канал с име '{{.ChannelName}' не можа да бъде намерен."
+        "translation": "Грешка при внасяне на публикация. Канал с име \"{{.ChannelName}}\" не можа да бъде намерен."
     },
     {
         "id": "api.templates.warn_metric_ack.body.contact_email_header",
@@ -6716,7 +6716,7 @@
     },
     {
         "id": "app.import.import_line.null_channel.error",
-        "translation": "Линията за импортиране на данни има тип 'канал', но обектът на канала е нулев."
+        "translation": "Реда за внасяне на данни е от тип \"channel\", но обектът channel е null."
     },
     {
         "id": "model.compliance.is_valid.start_end_at.app_error",
@@ -6772,7 +6772,7 @@
     },
     {
         "id": "app.import.import_line.null_direct_channel.error",
-        "translation": "Линията за импортиране на данни има тип 'direct_channel', но обектът direct_channel е нулев."
+        "translation": "Реда за внасяне на данни е от тип \"direct_channel\", но обектът direct_channel е null."
     },
     {
         "id": "app.webhooks.get_outgoing_by_channel.app_error",
@@ -6872,7 +6872,7 @@
     },
     {
         "id": "app.import.attachment.file_upload.error",
-        "translation": "Грешка при качването на файла: {{.FilePath}}"
+        "translation": "Грешка при качването на файла: \"{{.FilePath}}\""
     },
     {
         "id": "api.user.login_by_oauth.parse.app_error",
@@ -6964,7 +6964,7 @@
     },
     {
         "id": "app.import.import_line.null_emoji.error",
-        "translation": "Редът за импортиране на данни има тип 'емоджи', но обектът емоджи е нулев."
+        "translation": "Реда за внасяне на данни е от тип \"emoji\", но обектът emoji е null."
     },
     {
         "id": "app.user_terms_of_service.get_by_user.app_error",
@@ -8024,7 +8024,7 @@
     },
     {
         "id": "app.import.validate_direct_post_import_data.unknown_flagger.error",
-        "translation": "Директната публикация може да бъде маркирана само от членове на канала, в който се намира. '{{.Username}}' не е член."
+        "translation": "На директната публикация може да бъде поставен флаг само от членове на канала, в който се намира. \"{{.Username}}\" не е член."
     },
     {
         "id": "model.config.is_valid.saml_spidentifier_attribute.app_error",
@@ -8660,7 +8660,7 @@
     },
     {
         "id": "app.channel.pinned_posts.app_error",
-        "translation": "Не могат да се намерят прикрепените публикации."
+        "translation": "Не могат да се намерят закачените публикации."
     },
     {
         "id": "app.channel.permanent_delete_members_by_user.app_error",
@@ -8725,5 +8725,33 @@
     {
         "id": "app.post.get_posts_around.get.app_error",
         "translation": "Не може да се получат публикациите за канала."
+    },
+    {
+        "id": "app.post.get_post_id_around.app_error",
+        "translation": "Невъзможно получаването на публикувано около определен момент."
+    },
+    {
+        "id": "app.post.get_post_after_time.app_error",
+        "translation": "Невъзможно получаването на публикувано след определен момент."
+    },
+    {
+        "id": "app.post.get_flagged_posts.app_error",
+        "translation": "Невъзможно получаването на публикации с флаг."
+    },
+    {
+        "id": "app.channel.update_last_viewed_at_post.app_error",
+        "translation": "Каналът не може да се отбележи като непрочетен."
+    },
+    {
+        "id": "app.channel.update_last_viewed_at.app_error",
+        "translation": "Не можа да се обнови времето на последно преглеждане."
+    },
+    {
+        "id": "app.channel.sidebar_categories.app_error",
+        "translation": "Неуспешно вмъкване на запис в базата данни."
+    },
+    {
+        "id": "app.channel.remove_member.app_error",
+        "translation": "Членът на канала не можа да бъде премахнат."
     }
 ]
