@@ -8864,6 +8864,6 @@
     },
     {
         "id": "model.upload_session.is_valid.type.app_error",
-        "translation": "Невалидна стойност за идентификатор"
+        "translation": "Невалидна стойност за Type"
     }
 ]
