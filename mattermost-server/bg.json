@@ -1965,7 +1965,7 @@
         "id": "api.post.get_message_for_notification.files_sent",
         "translation": {
             "one": "{{.Count}} изпратен файл: {{.Filenames}}",
-            "other": "{{.Count}} изпратени файлове: {{.Filenames}}"
+            "other": "{{.Count}} изпратени файла: {{.Filenames}}"
         }
     },
     {
@@ -8653,5 +8653,9 @@
     {
         "id": "app.channel.analytics_type_count.app_error",
         "translation": "Не може да се получи броя на каналите."
+    },
+    {
+        "id": "api.user.login_cws.license.error",
+        "translation": "Входа в CWS е забранен."
     }
 ]
