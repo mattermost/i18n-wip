@@ -600,5 +600,6 @@
     "channel_header.unarchive": "არხის გამოარქივება",
     "channel_header.delete": "არხის დაარქივება",
     "channel_header.channelMembers": "წევრები",
-    "admin.team_settings.team_detail.membersTitle": "წევრები"
+    "admin.team_settings.team_detail.membersTitle": "წევრები",
+    "about.cloudEdition": "ქართ"
 }
