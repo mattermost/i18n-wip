@@ -649,5 +649,7 @@
   "channel_notifications.preference.only_mentions": "Само споменавания и директни съобщения",
   "channel_notifications.preference.header": "Изпратени известия",
   "channel_notifications.preference.global_default": "Глобално по подразбиране (Споменаване)",
-  "channel_header.notificationPreference": "Мобилни известия"
+  "channel_header.notificationPreference": "Мобилни известия",
+  "mobile.mailTo.error.title": "Грешка",
+  "mobile.link.error.title": "Грешка"
 }
