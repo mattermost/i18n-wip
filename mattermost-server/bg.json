@@ -841,7 +841,7 @@
     },
     {
         "id": "api.command_channel_rename.direct_group.app_error",
-        "translation": "Не могат да се преименуват канали за лични съобщения."
+        "translation": "Не могат да се преименуват канали за директни съобщения."
     },
     {
         "id": "api.channel.update_channel.deleted.app_error",
@@ -889,7 +889,7 @@
     },
     {
         "id": "api.channel.leave.direct.app_error",
-        "translation": "Не може да се напусне канал за лични съобщения."
+        "translation": "Не може да се напусне канал за директни съобщения."
     },
     {
         "id": "api.channel.leave.default.app_error",
@@ -905,7 +905,7 @@
     },
     {
         "id": "api.channel.delete_channel.type.invalid",
-        "translation": "Не може да се изтриват канали за групови или лични съобщения"
+        "translation": "Не може да се изтриват канали за групови или директни съобщения"
     },
     {
         "id": "api.channel.delete_channel.deleted.app_error",
@@ -929,11 +929,11 @@
     },
     {
         "id": "api.channel.create_direct_channel.invalid_user.app_error",
-        "translation": "Невалидно ID на потребител при създаването на канал за лични съобщения."
+        "translation": "Невалидно ID на потребител при създаването на канал за директни съобщения."
     },
     {
         "id": "api.channel.create_default_channels.town_square",
-        "translation": "Площад"
+        "translation": "Площада"
     },
     {
         "id": "api.channel.create_default_channels.off_topic",
@@ -945,7 +945,7 @@
     },
     {
         "id": "api.channel.create_channel.direct_channel.app_error",
-        "translation": "Трябва да използвате услугата на API createDirectChannel за създаването на канал за лични съобщения."
+        "translation": "Трябва да използвате услугата на API createDirectChannel за създаването на канал за директни съобщения."
     },
     {
         "id": "api.channel.convert_channel_to_private.private_channel_error",
@@ -973,7 +973,7 @@
     },
     {
         "id": "api.channel.add_user.to.channel.failed.app_error",
-        "translation": "Неуспешно добавяне на потребителя към канала."
+        "translation": "Неуспешно добавяне на потребител към канала."
     },
     {
         "id": "api.channel.add_member.added",
@@ -1033,7 +1033,7 @@
     },
     {
         "id": "api.admin.test_email.body",
-        "translation": "Изглежда вашият Mattermost email е настроен правилно!"
+        "translation": "Изглежда вашата Mattermost ел.поща е настроена правилно!"
     },
     {
         "id": "api.admin.saml.not_available.app_error",
@@ -1053,7 +1053,7 @@
     },
     {
         "id": "api.admin.file_read_error",
-        "translation": "Грешка при четене на лог файл."
+        "translation": "Грешка при четене на дневника от файл."
     },
     {
         "id": "api.admin.add_certificate.saving.app_error",
@@ -1293,7 +1293,7 @@
     },
     {
         "id": "api.command_invite.directchannel.app_error",
-        "translation": "Не може да добавяте някой в канал за лични съобщения."
+        "translation": "Не може да добавяте някой в канал за директни съобщения."
     },
     {
         "id": "api.command_invite.desc",
@@ -1500,7 +1500,7 @@
     },
     {
         "id": "api.command_channel_purpose.direct_group.app_error",
-        "translation": "Не може да се зададе цел на канали за лични съобщения. Използвайте /header, за да зададете заглавието вместо това."
+        "translation": "Не може да се зададе цел на канали за директни съобщения. Използвайте /header, за да зададете заглавието вместо това."
     },
     {
         "id": "api.command_channel_purpose.desc",
@@ -1604,15 +1604,15 @@
     },
     {
         "id": "api.command.execute_command.failed_resp.app_error",
-        "translation": "Командата с тригер на '{{.Trigger}}' върнат отговор {{.Status}}."
+        "translation": "Командата със задействане на '{{.Trigger}}' върна отговор {{.Status}}."
     },
     {
         "id": "api.command.execute_command.failed_empty.app_error",
-        "translation": "Командата с тригер на '{{.Trigger}}' върна празен отговор."
+        "translation": "Командата със задействане на '{{.Trigger}}' върна празен отговор."
     },
     {
         "id": "api.command.execute_command.failed.app_error",
-        "translation": "Командата с тригер на '{{.Trigger}}' се провали."
+        "translation": "Командата със задействане на '{{.Trigger}}' се провали."
     },
     {
         "id": "api.command.execute_command.create_post_failed.app_error",
@@ -1644,15 +1644,15 @@
     },
     {
         "id": "api.channel.update_channel_scheme.scheme_scope.error",
-        "translation": "Не може да се зададе схемата за канала, тъй като предоставената схема не е канална схема."
+        "translation": "Не може да се зададе схемата за канала, тъй като предоставената схема не е схема за канал."
     },
     {
         "id": "api.channel.update_channel_scheme.license.error",
-        "translation": "Лицензът ви не поддържа обновяване на каналната схема"
+        "translation": "Лицензът ви не поддържа обновяване на схема за канал"
     },
     {
         "id": "api.channel.update_channel_privacy.default_channel_error",
-        "translation": "Каналът по подразбиране не може да бъде личен."
+        "translation": "Каналът по подразбиране не може да бъде частен."
     },
     {
         "id": "api.channel.update_channel_member_roles.scheme_role.app_error",
@@ -1688,7 +1688,7 @@
     },
     {
         "id": "api.channel.rename_channel.cant_rename_direct_messages.app_error",
-        "translation": "Не можете да преименувате канал за лични съобщения."
+        "translation": "Не можете да преименувате канал за директни съобщения."
     },
     {
         "id": "api.channel.remove_members.denied",
@@ -1732,7 +1732,7 @@
     },
     {
         "id": "api.channel.move_channel.type.invalid",
-        "translation": "Не могат да се преместват канали за лични или групови съобщения"
+        "translation": "Не могат да се преместват канали за директни или групови съобщения"
     },
     {
         "id": "api.channel.guest_join_channel.post_and_forget",
@@ -1740,7 +1740,7 @@
     },
     {
         "id": "api.channel.get_channel_moderations.license.error",
-        "translation": "Вашият лиценз не поддържа модериране на канала"
+        "translation": "Вашият лиценз не поддържа модериране на канали"
     },
     {
         "id": "api.channel.channel_member_counts_by_group.license.error",
@@ -1756,7 +1756,7 @@
     },
     {
         "id": "api.bot.teams_channels.add_message_mobile",
-        "translation": "Моля, добавете ме към екипи и канали, в които искате да взаимодействам. За целта използвайте браузъра или Mattermost DesktopApp."
+        "translation": "Моля, добавете ме към екипи и канали, в които искате да взаимодействам. За целта използвайте браузър или Mattermost настолното приложение."
     },
     {
         "id": "api.bot.set_bot_icon_image.parse.app_error",
@@ -2668,7 +2668,7 @@
     },
     {
         "id": "api.command_remove.direct_group.app_error",
-        "translation": "Не може да премахнете някой от канал за лични съобщения."
+        "translation": "Не може да премахнете някой от канал за директни съобщения."
     },
     {
         "id": "api.command_remove.desc",
@@ -3524,7 +3524,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_number_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне едно число и поне един символ (напр. '~! @ # $% ^ & * ()')."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, поне едно число и един символ (напр. \"~!@#$%^&*()\")."
     },
     {
         "id": "ent.saml.license_disable.app_error",
@@ -4136,7 +4136,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_uppercase_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне една главна буква и поне един символ (напр. '~! @ # $% ^ & * ()')."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една малка буква, една главна буква и един символ (напр. \"~!@#$%^&*()\")."
     },
     {
         "id": "api.user.check_user_password.invalid.app_error",
@@ -4232,7 +4232,7 @@
     },
     {
         "id": "store.sql_group.permanent_delete_members_by_user.app_error",
-        "translation": "Не може да се премахне членът на групата с UserID '{{.UserId}}'."
+        "translation": "Не може да се премахне членът на групата с UserID \"{{.UserId}}\"."
     },
     {
         "id": "model.channel.is_valid.purpose.app_error",
@@ -4660,7 +4660,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_uppercase_number_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне една главна буква, поне едно число и поне един символ (напр. '~! @ # $% ^ & * ()')."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, поне една главна буква, едно число и един символ (напр. \"~!@#$%^&*()\")."
     },
     {
         "id": "api.user.create_profile_image.default_font.app_error",
@@ -5348,7 +5348,7 @@
     },
     {
         "id": "model.user.is_valid.username.app_error",
-        "translation": "Потребителското име трябва да започва с буква и да съдържа между 3 и 22 малки букви, съставени от цифри, букви и символите '.', '-' и '_'."
+        "translation": "Потребителското име трябва да започва с буква и да съдържа между 3 и 22 малки букви, съставено от цифри, букви и символите \".\", \"-\", и \"_\"."
     },
     {
         "id": "model.post.is_valid.root_id.app_error",
@@ -5604,7 +5604,7 @@
     },
     {
         "id": "store.sql_group.group_syncable_already_deleted",
-        "translation": "синхронизируемата група е вече изтрита"
+        "translation": "груповата синхронизация вече беше изтрита"
     },
     {
         "id": "store.sql_job.get_newest_job_by_status_and_type.app_error",
@@ -6068,7 +6068,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_number_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне едно число и поне един символ (напр. '~! @ # $% ^ & * ()')."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една малка буква, едно число и един символ (напр. \"~!@#$%^&*()\")."
     },
     {
         "id": "api.user.ldap_to_email.not_ldap_account.app_error",
@@ -6480,7 +6480,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_uppercase_number_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне една главна буква, поне едно число и поне един символ (напр. '~! @ # $% ^ & * ()')."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една малка буква, една главна буква, едно число и един символ (напр. \"~!@#$%^&*()\")."
     },
     {
         "id": "api.team.get_team_icon.read_file.app_error",
@@ -6884,7 +6884,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне една малка буква и поне един символ (напр. '~! @ # $% ^ & * ()')."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, поне една малка буква и един символ (напр. \"~!@#$%^&*()\")."
     },
     {
         "id": "app.import.validate_team_import_data.name_missing.error",
@@ -7196,7 +7196,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_uppercase_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една главна буква и поне един символ (напр. '~! @ # $% ^ & * ()')."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една главна буква и един символ (напр. \"~!@#$%^&*()\")."
     },
     {
         "id": "api.templates.email_info1",
@@ -7668,7 +7668,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_symbol.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци, съставени от поне един символ (напр. '~! @ # $% ^ & * ()')."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знаци и поне един символ (напр. \"~!@#$%^&*()\")."
     },
     {
         "id": "ent.compliance.csv.file.creation.appError",
@@ -7756,7 +7756,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_username",
-        "translation": "AD/LDAP полето  \"Username Attribute\" е задължително."
+        "translation": "AD/LDAP полето \"Username Attribute\" е задължително."
     },
     {
         "id": "store.sql_post.get_post_id_around.app_error",
@@ -8672,7 +8672,7 @@
     },
     {
         "id": "app.channel.get_public_channels.get.app_error",
-        "translation": "Не може да се получат публичните канали."
+        "translation": "Не може да се получат пубдиректните канали."
     },
     {
         "id": "app.channel.get_private_channels.get.app_error",
@@ -8848,7 +8848,7 @@
     },
     {
         "id": "model.upload_session.is_valid.create_at.app_error",
-        "translation": "Невалидна стойност за create_at."
+        "translation": "Невалидна стойност за CreateAt"
     },
     {
         "id": "app.upload.upload_data.large_image.app_error",
@@ -8868,6 +8868,6 @@
     },
     {
         "id": "model.upload_session.is_valid.user_id.app_error",
-        "translation": "Невалидна стойност за user_id."
+        "translation": "Невалидна стойност за UserId"
     }
 ]
