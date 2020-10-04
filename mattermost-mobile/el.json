@@ -453,5 +453,7 @@
   "mobile.routes.login": "Σύνδεση",
   "mobile.routes.edit_profile": "Επεξεργασία Προφίλ",
   "mobile.routes.code.noLanguage": "Κωδικός",
-  "mobile.routes.code": "{language} Κωδικός"
+  "mobile.routes.code": "{language} Κωδικός",
+  "mobile.routes.mfa": "Έλεγχος Ταυτότητας Πολλαπλών Παραγόντων",
+  "mobile.routes.loginOptions": "Επιλογή Σύνδεσης"
 }
