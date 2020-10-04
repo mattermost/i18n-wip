@@ -436,5 +436,6 @@
   "mobile.routes.settings": "Ρυθμίσεις",
   "mobile.rename_channel.name_minLength": "Η διεύθυνση URL πρέπει να είναι {minLength, number} ή περισσότερους χαρακτήρες",
   "mobile.request.invalid_response": "Λήφθηκε μη έγκυρη απάντηση από το σέρβερ.",
-  "mobile.reply_post.failed": "Η αποστολή του μηνύματος απέτυχε."
+  "mobile.reply_post.failed": "Η αποστολή του μηνύματος απέτυχε.",
+  "mobile.terms_of_service.alert_retry": "Προσπαθήστε Ξανά"
 }
