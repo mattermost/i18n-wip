@@ -432,5 +432,6 @@
   "post_info.del": "Διαγραφή",
   "mobile.reaction_header.all_emojis": "Όλα",
   "mobile.rename_channel.name_maxLength": "Η διεύθυνση URL πρέπει να είναι μικρότερη από {maxLength, number} χαρακτήρες",
-  "mobile.rename_channel.name_lowercase": "Η διεύθυνση URL πρέπει να περιλαμβάνει πεζούς αλφαριθμητικούς χαρακτήρες"
+  "mobile.rename_channel.name_lowercase": "Η διεύθυνση URL πρέπει να περιλαμβάνει πεζούς αλφαριθμητικούς χαρακτήρες",
+  "mobile.routes.settings": "Ρυθμίσεις"
 }
