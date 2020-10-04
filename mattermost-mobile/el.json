@@ -430,5 +430,9 @@
   "user.settings.notifications.email.never": "Ποτέ",
   "user.settings.notifications.allActivity": "Για όλες τις δραστηριότητες",
   "post_info.del": "Διαγραφή",
-  "mobile.reaction_header.all_emojis": "Όλα"
+  "mobile.reaction_header.all_emojis": "Όλα",
+  "mobile.rename_channel.name_maxLength": "Η διεύθυνση URL πρέπει να είναι μικρότερη από {maxLength, number} χαρακτήρες",
+  "mobile.rename_channel.name_lowercase": "Η διεύθυνση URL πρέπει να περιλαμβάνει πεζούς αλφαριθμητικούς χαρακτήρες",
+  "mobile.routes.settings": "Ρυθμίσεις",
+  "mobile.rename_channel.name_minLength": "Η διεύθυνση URL πρέπει να είναι {minLength, number} ή περισσότερους χαρακτήρες"
 }
