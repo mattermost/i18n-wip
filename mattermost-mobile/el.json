@@ -425,5 +425,10 @@
   "channel_header.notificationPreference.mention": "Αναφορές",
   "channel_header.notificationPreference.default": "Προκαθορισμένο",
   "channel_header.notificationPreference.all": "Όλα",
-  "channel_header.notificationPreference": "Mobile Ειδοποιήσεις"
+  "channel_header.notificationPreference": "Mobile Ειδοποιήσεις",
+  "user.settings.notifications.never": "Ποτέ",
+  "user.settings.notifications.email.never": "Ποτέ",
+  "user.settings.notifications.allActivity": "Για όλες τις δραστηριότητες",
+  "post_info.del": "Διαγραφή",
+  "mobile.reaction_header.all_emojis": "Όλα"
 }
