@@ -462,5 +462,10 @@
   "mobile.routes.sso": "Single Sign-On",
   "mobile.routes.tableImage": "Εικόνα",
   "mobile.routes.table": "Πίνακας",
-  "mobile.routes.thread": "{channelName} Συνομιλία"
+  "mobile.routes.thread": "{channelName} Συνομιλία",
+  "mobile.routes.user_profile.send_message": "Αποστολή Μηνύματος",
+  "mobile.routes.user_profile.local_time": "ΤΟΠΙΚΗ ΩΡΑ",
+  "mobile.routes.user_profile.edit": "Επεξεργασία",
+  "mobile.routes.user_profile": "Προφίλ",
+  "mobile.routes.thread_dm": "Συνομιλία Άμεσου Μηνύματος"
 }
