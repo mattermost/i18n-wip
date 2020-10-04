@@ -459,5 +459,7 @@
   "mobile.routes.selectChannel": "Επιλέξτε Κανάλι",
   "mobile.rename_channel.name_required": "Απαιτείται διεύθυνση URL",
   "mobile.routes.selectTeam": "Επιλέξτε Ομάδα",
-  "mobile.routes.sso": "Single Sign-On"
+  "mobile.routes.sso": "Single Sign-On",
+  "mobile.routes.tableImage": "Εικόνα",
+  "mobile.routes.table": "Πίνακας"
 }
