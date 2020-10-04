@@ -455,5 +455,7 @@
   "mobile.routes.code.noLanguage": "Κωδικός",
   "mobile.routes.code": "{language} Κωδικός",
   "mobile.routes.mfa": "Έλεγχος Ταυτότητας Πολλαπλών Παραγόντων",
-  "mobile.routes.loginOptions": "Επιλογή Σύνδεσης"
+  "mobile.routes.loginOptions": "Επιλογή Σύνδεσης",
+  "mobile.routes.selectChannel": "Επιλέξτε Κανάλι",
+  "mobile.rename_channel.name_required": "Απαιτείται διεύθυνση URL"
 }
