@@ -65,5 +65,18 @@
   "about.enterpriseEditionLearn": "Tudjon meg többet a vállalati verzióról a ",
   "about.date": "Build dátuma:",
   "status_dropdown.set_away": "Nincs a gépnél",
-  "mobile.set_status.away": "Nincs a gépnél"
+  "mobile.set_status.away": "Nincs a gépnél",
+  "user.settings.notifications.never": "Soha",
+  "user.settings.notifications.email.never": "Soha",
+  "user.settings.notifications.allActivity": "Minden tevékenységhez",
+  "mobile.reaction_header.all_emojis": "Mind",
+  "user.settings.general.email": "E-mail",
+  "mobile.terms_of_service.alert_cancel": "Mégsem",
+  "mobile.reset_status.alert_cancel": "Mégsem",
+  "mobile.post.cancel": "Mégsem",
+  "mobile.post_textbox.entire_channel.cancel": "Mégsem",
+  "mobile.notification_settings.email": "E-mail",
+  "mobile.edit_channel": "Mentés",
+  "mobile.alert_dialog.alertCancel": "Mégsem",
+  "mobile.account.settings.save": "Mentés"
 }
