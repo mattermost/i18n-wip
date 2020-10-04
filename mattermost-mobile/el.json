@@ -467,5 +467,10 @@
   "mobile.routes.user_profile.local_time": "ΤΟΠΙΚΗ ΩΡΑ",
   "mobile.routes.user_profile.edit": "Επεξεργασία",
   "mobile.routes.user_profile": "Προφίλ",
-  "mobile.routes.thread_dm": "Συνομιλία Άμεσου Μηνύματος"
+  "mobile.routes.thread_dm": "Συνομιλία Άμεσου Μηνύματος",
+  "mobile.search.in_modifier_description": "για να βρείτε αναρτήσεις σε συγκεκριμένα κανάλια",
+  "mobile.search.from_modifier_title": "όνομα χρήστη",
+  "mobile.search.from_modifier_description": "για να βρείτε αναρτήσεις από συγκεκριμένους χρήστες",
+  "mobile.search.before_modifier_description": "για να βρείτε αναρτήσεις πριν από μια συγκεκριμένη ημερομηνία",
+  "mobile.search.after_modifier_description": "για να βρείτε αναρτήσεις μετά από μια συγκεκριμένη ημερομηνία"
 }
