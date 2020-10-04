@@ -2591,5 +2591,6 @@
     "warn_metric_ack_modal.number_of_users.header.title": "Väx med Mattermost",
     "announcement_bar.warn_metric_status.number_of_users_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig.",
     "announcement_bar.warn_metric_status.number_of_posts_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig.",
-    "announcement_bar.warn_metric_status_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig."
+    "announcement_bar.warn_metric_status_ack.text": "Tack för att du kontaktar Mattermost. Vi återkommer snart till dig.",
+    "error.generic.title": "Fel"
 }
