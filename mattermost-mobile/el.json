@@ -478,5 +478,7 @@
   "mobile.search.no_results": "Δεν βρέθηκαν αποτελέσματα",
   "mobile.search.jump": "Μετάβαση σε πρόσφατα μηνύματα",
   "mobile.search.in_modifier_title": "όνομα-καναλιού",
-  "post_info.edit": "Επεξεργασία"
+  "post_info.edit": "Επεξεργασία",
+  "mobile.select_team.join_open": "Ελεύθερες ομάδες στις οποίες μπορείτε να συμμετάσχετε",
+  "mobile.select_team.guest_cant_join_team": "Ο λογαριασμός επισκέπτη δεν έχει ανατεθεί σε ομάδες ή κανάλια. Επικοινωνήστε με έναν διαχειριστή."
 }
