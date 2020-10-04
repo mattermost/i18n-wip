@@ -440,5 +440,8 @@
   "mobile.terms_of_service.alert_retry": "Προσπαθήστε Ξανά",
   "mobile.retry_message": "Η ανανέωση μηνυμάτων απέτυχε. Τραβήξτε προς τα πάνω για να δοκιμάσετε ξανά.",
   "mobile.reset_status.title_ooo": "Απενεργοποίηση \"Εκτός Γραφείου\";",
-  "mobile.reset_status.alert_ok": "Εντάξει"
+  "mobile.reset_status.alert_ok": "Εντάξει",
+  "mobile.routes.channel_members.action_message": "Πρέπει να επιλέξετε τουλάχιστον ένα μέλος για αφαίρεση από το κανάλι.",
+  "mobile.routes.channel_members.action_message_confirm": "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε τα επιλεγμένα μέλη από το κανάλι;",
+  "mobile.routes.channel_members.action": "Αφαίρεση Μελών"
 }
