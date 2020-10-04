@@ -461,5 +461,6 @@
   "mobile.routes.selectTeam": "Επιλέξτε Ομάδα",
   "mobile.routes.sso": "Single Sign-On",
   "mobile.routes.tableImage": "Εικόνα",
-  "mobile.routes.table": "Πίνακας"
+  "mobile.routes.table": "Πίνακας",
+  "mobile.routes.thread": "{channelName} Συνομιλία"
 }
