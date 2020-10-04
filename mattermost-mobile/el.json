@@ -443,5 +443,8 @@
   "mobile.reset_status.alert_ok": "Εντάξει",
   "mobile.routes.channel_members.action_message": "Πρέπει να επιλέξετε τουλάχιστον ένα μέλος για αφαίρεση από το κανάλι.",
   "mobile.routes.channel_members.action_message_confirm": "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε τα επιλεγμένα μέλη από το κανάλι;",
-  "mobile.routes.channel_members.action": "Αφαίρεση Μελών"
+  "mobile.routes.channel_members.action": "Αφαίρεση Μελών",
+  "mobile.routes.channelInfo.delete_channel": "Αρχειοθέτηση Καναλιού",
+  "mobile.routes.channelInfo.createdBy": "Δημιουργήθηκε από {creator} στις ",
+  "mobile.routes.channelInfo": "Πληροφορίες"
 }
