@@ -437,5 +437,8 @@
   "mobile.rename_channel.name_minLength": "Η διεύθυνση URL πρέπει να είναι {minLength, number} ή περισσότερους χαρακτήρες",
   "mobile.request.invalid_response": "Λήφθηκε μη έγκυρη απάντηση από το σέρβερ.",
   "mobile.reply_post.failed": "Η αποστολή του μηνύματος απέτυχε.",
-  "mobile.terms_of_service.alert_retry": "Προσπαθήστε Ξανά"
+  "mobile.terms_of_service.alert_retry": "Προσπαθήστε Ξανά",
+  "mobile.retry_message": "Η ανανέωση μηνυμάτων απέτυχε. Τραβήξτε προς τα πάνω για να δοκιμάσετε ξανά.",
+  "mobile.reset_status.title_ooo": "Απενεργοποίηση \"Εκτός Γραφείου\";",
+  "mobile.reset_status.alert_ok": "Εντάξει"
 }
