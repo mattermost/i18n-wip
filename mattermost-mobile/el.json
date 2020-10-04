@@ -446,5 +446,8 @@
   "mobile.routes.channel_members.action": "Αφαίρεση Μελών",
   "mobile.routes.channelInfo.delete_channel": "Αρχειοθέτηση Καναλιού",
   "mobile.routes.channelInfo.createdBy": "Δημιουργήθηκε από {creator} στις ",
-  "mobile.routes.channelInfo": "Πληροφορίες"
+  "mobile.routes.channelInfo": "Πληροφορίες",
+  "mobile.routes.channelInfo.unarchive_channel": "Επαναφορά Καναλιού",
+  "mobile.routes.channelInfo.groupManaged": "Η διαχείριση των μελών γίνεται από συνδεδεμένες ομάδες",
+  "mobile.routes.channelInfo.favorite": "Αγαπημένα"
 }
