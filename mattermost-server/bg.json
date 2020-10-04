@@ -669,7 +669,7 @@
     },
     {
         "id": "app.submit_interactive_dialog.json_error",
-        "translation": "Получи се грешка при кодиране на JSON за интерактивния прозорец."
+        "translation": "Получи се грешка при кодиране на JSON за интерактивния диалог."
     },
     {
         "id": "app.plugin.remove.app_error",
@@ -2928,7 +2928,7 @@
     },
     {
         "id": "app.webhooks.update_outgoing.app_error",
-        "translation": "Не може да се актуализира уебхоката."
+        "translation": "Не може да се актуализира webhook."
     },
     {
         "id": "ent.elasticsearch.search_channels.search_failed",
@@ -2964,7 +2964,7 @@
     },
     {
         "id": "bleveengine.create_post_index.error",
-        "translation": "Грешка при създаването на индекса на кривото."
+        "translation": "Грешка при създаването индекса на bleve публикации."
     },
     {
         "id": "model.compliance.is_valid.create_at.app_error",
@@ -3220,7 +3220,7 @@
     },
     {
         "id": "app.webhooks.save_outgoing.app_error",
-        "translation": "Изходящата уеб кука не може да бъде запазена."
+        "translation": "Изходящата webhook не може да бъде запазена."
     },
     {
         "id": "api.templates.email_change_verify_subject",
@@ -3256,7 +3256,7 @@
     },
     {
         "id": "app.session.analytics_session_count.app_error",
-        "translation": "Не може да се броят сесиите."
+        "translation": "Не може да се преброят сесиите."
     },
     {
         "id": "ent.compliance.csv.header.export.appError",
@@ -3632,7 +3632,7 @@
     },
     {
         "id": "app.reaction.delete_all_with_emoji_name.get_reactions.app_error",
-        "translation": "Не може да се получат всички реакции с това име на емоджи."
+        "translation": "Не може да се получат всички реакции с това име на емотикон."
     },
     {
         "id": "app.export.export_write_line.json_marshall.error",
@@ -3660,7 +3660,7 @@
     },
     {
         "id": "app.session.update_device_id.app_error",
-        "translation": "Не може да се актуализира идентификационният номер на устройството."
+        "translation": "Не може да се актуализира ID на устройството."
     },
     {
         "id": "app.command.deletecommand.internal_error",
@@ -3852,7 +3852,7 @@
     },
     {
         "id": "app.team.join_user_to_team.max_accounts.app_error",
-        "translation": "Този екип достигна максималния брой разрешени акаунти. Свържете се със системния си администратор, за да зададете по-висок лимит."
+        "translation": "Този екип достигна максималния брой разрешени профили. Свържете се със системния си администратор, за да зададете по-висок лимит."
     },
     {
         "id": "app.import.import_channel.team_not_found.error",
@@ -4428,7 +4428,7 @@
     },
     {
         "id": "app.role.get.app_error",
-        "translation": "Не може да се получи роля."
+        "translation": "Не можа да се получи роля."
     },
     {
         "id": "app.import.import_user.save_preferences.error",
@@ -4872,7 +4872,7 @@
     },
     {
         "id": "bleveengine.create_channel_index.error",
-        "translation": "Грешка при създаването на индекса на кривия канал."
+        "translation": "Грешка при създаването на индекса на bleve канали."
     },
     {
         "id": "model.post.is_valid.msg.app_error",
@@ -5052,7 +5052,7 @@
     },
     {
         "id": "app.team.invite_token.group_constrained.error",
-        "translation": "Не може да се присъедини към групово ограничен екип чрез означение."
+        "translation": "Не може да се присъедини към групово ограничен екип чрез маркер."
     },
     {
         "id": "app.plugin.marketplace_client.app_error",
@@ -5156,7 +5156,7 @@
     },
     {
         "id": "bleveengine.indexer.do_job.bulk_index_channels.batch_error",
-        "translation": "Неуспешно индексиране на партиден канал."
+        "translation": "Неуспешно пакетно индексиране на канал."
     },
     {
         "id": "api.templates.username_change_body.info",
@@ -5400,7 +5400,7 @@
     },
     {
         "id": "app.webhooks.save_incoming.app_error",
-        "translation": "IncomingWebhook не може да се запази."
+        "translation": "Входящия webhook не може да се запази."
     },
     {
         "id": "store.sql_command.update.missing.app_error",
@@ -5464,7 +5464,7 @@
     },
     {
         "id": "app.terms_of_service.create.app_error",
-        "translation": "Условията за обслужване не могат да бъдат запазени."
+        "translation": "Условията за ползване не могат да бъдат запазени."
     },
     {
         "id": "app.command_webhook.try_use.internal_error",
@@ -5624,7 +5624,7 @@
     },
     {
         "id": "app.user_access_token.get_all.app_error",
-        "translation": "Не могат да се получат всички символи за личен достъп."
+        "translation": "Не могат да се получат всички маркери за личен достъп."
     },
     {
         "id": "model.config.is_valid.saml_username_attribute.app_error",
@@ -5632,7 +5632,7 @@
     },
     {
         "id": "app.webhooks.get_incoming.app_error",
-        "translation": "Мрежата не може да се получи."
+        "translation": "Webhook не може да се получи."
     },
     {
         "id": "app.channel.get_by_name.missing.app_error",
@@ -5716,7 +5716,7 @@
     },
     {
         "id": "app.webhooks.get_incoming_by_channel.app_error",
-        "translation": "Мрежата не може да се получи."
+        "translation": "Webhook не може да се получи."
     },
     {
         "id": "app.oauth.delete_app.app_error",
@@ -5744,7 +5744,7 @@
     },
     {
         "id": "app.webhooks.update_incoming.app_error",
-        "translation": "IncomingWebhook не може да се актуализира."
+        "translation": "Входящия webhook не може да се актуализира."
     },
     {
         "id": "api.templates.reset_subject",
@@ -5920,7 +5920,7 @@
     },
     {
         "id": "app.webhooks.save_outgoing.override.app_error",
-        "translation": "Не можете да презапишете съществуваща изходяща уебкамера."
+        "translation": "Не можете да презапишете съществуващ изходящ webhook."
     },
     {
         "id": "app.import.validate_post_import_data.props_too_large.error",
@@ -5996,7 +5996,7 @@
     },
     {
         "id": "app.webhooks.save_incoming.existing.app_error",
-        "translation": "Не можете да презапишете съществуваща IncomingWebhook."
+        "translation": "Не можете да презапишете съществуващия входящ webhook."
     },
     {
         "id": "app.import.import_direct_post.create_direct_channel.error",
@@ -6172,7 +6172,7 @@
     },
     {
         "id": "app.webhooks.analytics_incoming_count.app_error",
-        "translation": "Невъзможно е да се броят входящите уебшокове."
+        "translation": "Невъзможно е да се броят входящите webhooks."
     },
     {
         "id": "store.sql_channel.search.app_error",
@@ -6244,7 +6244,7 @@
     },
     {
         "id": "app.webhooks.get_outgoing.app_error",
-        "translation": "Мрежата не може да се получи."
+        "translation": "Webhook не може да се получи."
     },
     {
         "id": "app.import.validate_scheme_import_data.null_scope.error",
@@ -6268,7 +6268,7 @@
     },
     {
         "id": "bleveengine.indexer.do_job.bulk_index_posts.batch_error",
-        "translation": "Индексирането на партидата не бе успешно."
+        "translation": "Пакетното индексиране на публикации не бе успешно."
     },
     {
         "id": "model.preference.is_valid.id.app_error",
@@ -6436,7 +6436,7 @@
     },
     {
         "id": "bleveengine.indexer.do_job.bulk_index_users.batch_error",
-        "translation": "Неуспешно индексиране на потребителска партида."
+        "translation": "Пакетното индексиране на потребители не бе успешно."
     },
     {
         "id": "api.templates.signin_change_email.body.method_email",
@@ -6444,11 +6444,11 @@
     },
     {
         "id": "app.session.get.app_error",
-        "translation": "Намерихме грешка при намирането на сесията."
+        "translation": "Срещнахме грешка при намирането на сесията."
     },
     {
         "id": "app.user_access_token.disabled",
-        "translation": "Личните маркери за достъп са деактивирани на този сървър. Моля, свържете се със системния си администратор за подробности."
+        "translation": "Личните маркери за достъп са забранени на този сървър. Моля, свържете се със системния си администратор за подробности."
     },
     {
         "id": "api.user.update_password.failed.app_error",
@@ -6572,7 +6572,7 @@
     },
     {
         "id": "app.webhooks.get_outgoing_by_team.app_error",
-        "translation": "Мрежата не може да се получи."
+        "translation": "Webhook не може да се получи."
     },
     {
         "id": "api.team.import_team.parse.app_error",
@@ -6732,7 +6732,7 @@
     },
     {
         "id": "app.terms_of_service.create.existing.app_error",
-        "translation": "Не трябва да се обажда освен за съществуващите условия на обслужване."
+        "translation": "Не трябва да се извиква запис за съществуващите условия на ползване."
     },
     {
         "id": "model.post.is_valid.filenames.app_error",
@@ -6776,7 +6776,7 @@
     },
     {
         "id": "app.webhooks.get_outgoing_by_channel.app_error",
-        "translation": "Мрежата не може да се получи."
+        "translation": "Webhook не може да се получи."
     },
     {
         "id": "app.channel.get_channels.get.app_error",
@@ -6968,7 +6968,7 @@
     },
     {
         "id": "app.user_terms_of_service.get_by_user.app_error",
-        "translation": "Условията за обслужване не могат да се получат."
+        "translation": "Условията за ползване не могат да се получат."
     },
     {
         "id": "app.webhooks.permanent_delete_outgoing_by_user.app_error",
@@ -7056,7 +7056,7 @@
     },
     {
         "id": "app.role.save.invalid_role.app_error",
-        "translation": "Ролята не беше валидна."
+        "translation": "Ролята не е валидна."
     },
     {
         "id": "store.sql_system.save.commit_transaction.app_error",
@@ -7188,11 +7188,11 @@
     },
     {
         "id": "app.terms_of_service.get.app_error",
-        "translation": "Условията за обслужване не могат да се получат."
+        "translation": "Условията за ползване не могат да се получат."
     },
     {
         "id": "bleveengine.indexer.do_job.engine_inactive",
-        "translation": "Неуспешно изпълнение на задачата за Bleve index: двигателят е неактивен."
+        "translation": "Неуспешно изпълнение на задачата за Bleve index: модула е неактивен."
     },
     {
         "id": "model.user.is_valid.pwd_uppercase_symbol.app_error",
@@ -7216,7 +7216,7 @@
     },
     {
         "id": "app.webhooks.analytics_outgoing_count.app_error",
-        "translation": "Неуспешно преброяване на изходящите уебшокове."
+        "translation": "Неуспешно преброяване на изходящите webhook."
     },
     {
         "id": "api.server.warn_metric.bot_response.notification_success.message",
@@ -7252,7 +7252,7 @@
     },
     {
         "id": "bleveengine.create_user_index.error",
-        "translation": "Грешка при създаването на индекс бивши потребители."
+        "translation": "Грешка при създаването индекса на bleve потребители."
     },
     {
         "id": "model.reaction.is_valid.user_id.app_error",
@@ -7360,7 +7360,7 @@
     },
     {
         "id": "app.system.warn_metric.bot_displayname",
-        "translation": "Най-важният съветник"
+        "translation": "Mattermost съветник"
     },
     {
         "id": "app.oauth.save_app.save.app_error",
@@ -7376,7 +7376,7 @@
     },
     {
         "id": "app.role.get_by_name.app_error",
-        "translation": "Не може да се получи роля."
+        "translation": "Не можа да се получи роля."
     },
     {
         "id": "ent.message_export.global_relay.generate_email.app_error",
@@ -7504,7 +7504,7 @@
     },
     {
         "id": "app.webhooks.get_incoming_by_user.app_error",
-        "translation": "Мрежата не може да се получи."
+        "translation": "Webhook не може да се получи."
     },
     {
         "id": "model.incoming_hook.update_at.app_error",
@@ -7764,7 +7764,7 @@
     },
     {
         "id": "app.user_terms_of_service.get_by_user.no_rows.app_error",
-        "translation": "Не са намерени условия за обслужване."
+        "translation": "Не са намерени условия за ползване."
     },
     {
         "id": "model.post.is_valid.parent_id.app_error",
@@ -7916,7 +7916,7 @@
     },
     {
         "id": "app.system.warn_metric.bot_description",
-        "translation": "[Научете повече за най-важния съветник] (https://about.mattermost.com/default-channel-handle-documentation)"
+        "translation": "[Научете повече за Mattermost съветника](https://about.mattermost.com/default-channel-handle-documentation)"
     },
     {
         "id": "model.config.is_valid.max_burst.app_error",
@@ -8048,7 +8048,7 @@
     },
     {
         "id": "app.user_terms_of_service.save.app_error",
-        "translation": "Условията за обслужване не могат да бъдат запазени."
+        "translation": "Условията за ползване не могат да бъдат запазени."
     },
     {
         "id": "app.import.validate_reply_import_data.message_missing.error",
