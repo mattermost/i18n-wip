@@ -4112,7 +4112,7 @@
     },
     {
         "id": "app.plugin.signature_decode.app_error",
-        "translation": "Не може да се декодира подпис под base64."
+        "translation": "Не може да се декодира base64 подпис."
     },
     {
         "id": "app.emoji.get_by_name.no_result",
@@ -4500,7 +4500,7 @@
     },
     {
         "id": "app.plugin.store_bundle.app_error",
-        "translation": "Не може да се съхранява приставката в конфигурирания магазин на файлове."
+        "translation": "Не може да се съхрани приставката в конфигурираното хранилище за файлове."
     },
     {
         "id": "model.file_info.is_valid.update_at.app_error",
@@ -4856,7 +4856,7 @@
     },
     {
         "id": "app.plugin.webapp_bundle.app_error",
-        "translation": "Webapp пакет не може да се генерира."
+        "translation": "Не може да се генерира Webapp пакет с приставки."
     },
     {
         "id": "store.sql_user.demote_user_to_guest.commit_transaction.app_error",
@@ -4916,7 +4916,7 @@
     },
     {
         "id": "app.plugin.mvdir.app_error",
-        "translation": "Не може да се премести плъгин от временна директория до крайната дестинация. Друг плъгин може да използва същото име на директория."
+        "translation": "Не може да се премести приставка от временна директория до крайното местоназначение. Друга приставка може да използва същото име на директория."
     },
     {
         "id": "store.sql_team.user_belongs_to_teams.app_error",
@@ -4948,11 +4948,11 @@
     },
     {
         "id": "app.plugin.marshal.app_error",
-        "translation": "Неуспешни приставки за маршал на пазара."
+        "translation": "Неуспешно организиране на приставките в пазара."
     },
     {
         "id": "app.plugin.marketplace_plugins.signature_not_found.app_error",
-        "translation": "Не може да се намери исканият подпис на плъгин на пазара."
+        "translation": "Не може да се намери исканият подпис на плъгин от пазара."
     },
     {
         "id": "web.incoming_webhook.invalid.app_error",
@@ -6224,7 +6224,7 @@
     },
     {
         "id": "app.plugin.store_signature.app_error",
-        "translation": "Подписът на приставката не може да се запази в конфигурирания магазин на файлове."
+        "translation": "Подписът на приставката не може да се запази в конфигурираното хранилище за файлове."
     },
     {
         "id": "api.templates.warn_metric_ack.footer",
@@ -6620,7 +6620,7 @@
     },
     {
         "id": "app.plugin.sync.list_filestore.app_error",
-        "translation": "Грешка при четене на файлове от папката с приставки в магазина на файлове."
+        "translation": "Грешка при четене на файлове от папката с приставки в хранилището за файлове."
     },
     {
         "id": "store.sql_user.get_for_login.app_error",
@@ -7016,7 +7016,7 @@
     },
     {
         "id": "app.plugin.upload_disabled.app_error",
-        "translation": "Приставките и / или качването на приставки са деактивирани."
+        "translation": "Приставките и/или качването на приставки е забранено."
     },
     {
         "id": "app.command.listallcommands.internal_error",
@@ -7580,7 +7580,7 @@
     },
     {
         "id": "app.plugin.remove_bundle.app_error",
-        "translation": "Не може да се премахне пакет приставки от магазина на файлове."
+        "translation": "Не може да се премахне пакета приставки от хранилището за файлове."
     },
     {
         "id": "api.team.remove_team_icon.get_team.app_error",
@@ -8296,7 +8296,7 @@
     },
     {
         "id": "app.post.permanent_delete_by_user.app_error",
-        "translation": "Не можаха да се изберат публикациите за изтриване на потребителя."
+        "translation": "Не можаха да се изберат публикациите за изтриване по потребител."
     },
     {
         "id": "app.post.permanent_delete_by_channel.app_error",
@@ -8360,11 +8360,11 @@
     },
     {
         "id": "app.plugin_store.save.app_error",
-        "translation": "Не можа да се запази или актуализира стойността на ключа на приставката."
+        "translation": "Не можа да се запази или обнови стойността на ключа на приставката."
     },
     {
         "id": "app.plugin_store.list.app_error",
-        "translation": "Невъзможно е да се изброят всички ключове за приставки."
+        "translation": "Невъзможно е да се изредят всички ключове за приставки."
     },
     {
         "id": "app.plugin_store.get.app_error",
@@ -9261,5 +9261,61 @@
     {
         "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
         "translation": "Вашата система Mattermost има над 100 потребители. С нарастването на вашата потребителска база предоставянето на нови профили може да отнеме много време. Препоръчваме ви да интегрирате Active Directory / LDAP на вашата организация, което ще позволи на всеки с профил да има достъп до Mattermost.\n\n[Научете повече за интегрирането с AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nКогато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    },
+    {
+        "id": "ent.elasticsearch.index_channels_batch.error",
+        "translation": "Не можа да се получи пакета с канали за индексиране."
+    },
+    {
+        "id": "app.channel.user_belongs_to_channels.app_error",
+        "translation": "Не може да се определи дали потребителят принадлежи към списък с канали."
+    },
+    {
+        "id": "app.channel.search_group_channels.app_error",
+        "translation": "Груповите канали за дадения потребител и срок не могат да се получат."
+    },
+    {
+        "id": "app.channel.search.app_error",
+        "translation": "Срещнахме грешка при търсене на канали."
+    },
+    {
+        "id": "app.channel.reset_all_channel_schemes.app_error",
+        "translation": "Не успяхме да нулираме схемите на канала."
+    },
+    {
+        "id": "app.channel.remove_all_deactivated_members.app_error",
+        "translation": "Не можахме да премахнем деактивираните потребители от канала."
+    },
+    {
+        "id": "app.channel.migrate_channel_members.select.app_error",
+        "translation": "Неуспешно избиране на пакета от членове на канала."
+    },
+    {
+        "id": "app.channel.get_unread.app_error",
+        "translation": "Неуспешно получаване на непрочетени съобщения на канала."
+    },
+    {
+        "id": "app.channel.get_members_by_ids.app_error",
+        "translation": "Членовете на канала не могат да бъдат получени."
+    },
+    {
+        "id": "app.channel.get_channels_batch_for_indexing.get.app_error",
+        "translation": "Не можа да се получи пакета с канали за индексиране."
+    },
+    {
+        "id": "app.channel.get_by_scheme.app_error",
+        "translation": "Каналите за предоставената схема не могат да се получат."
+    },
+    {
+        "id": "app.channel.get_all_direct.app_error",
+        "translation": "Не могат да се получат всички директни канали."
+    },
+    {
+        "id": "app.channel.get_all.app_error",
+        "translation": "Не могат да се получат всички канали."
+    },
+    {
+        "id": "app.channel.clear_all_custom_role_assignments.select.app_error",
+        "translation": "Неуспешно извличане членовете на канала."
     }
 ]
