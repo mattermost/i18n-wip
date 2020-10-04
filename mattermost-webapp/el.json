@@ -326,5 +326,9 @@
     "bots.token.confirm": "Διαγραφή",
     "admin.team_channel_settings.convertConfirmModal.toPrivateTitle": "Μετατροπή του {displayName} σε ιδιωτικό κανάλι;",
     "admin.revoke_token_button.delete": "Διαγραφή",
-    "admin.permissions.permissionsSchemeSummary.delete": "Διαγραφή"
+    "admin.permissions.permissionsSchemeSummary.delete": "Διαγραφή",
+    "next_steps_view.invite_members_step.send": "Αποστολή",
+    "no_results.mentions.subtitle": "Τα μηνύματα όπου κάποιος σας αναφέρει ή περιλαμβάνουν τις λέξεις ενεργοποίησης που έχετε επιλέξει αποθηκεύονται εδώ.",
+    "marketplace_modal.list.try_again": "Προσπαθήστε Ξανά",
+    "about.privacy": "Πολιτική Απορρήτου"
 }
