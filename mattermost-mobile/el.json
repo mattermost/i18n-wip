@@ -477,5 +477,6 @@
   "mobile.search.on_modifier_description": "για να βρείτε αναρτήσεις σε μια συγκεκριμένη ημερομηνία",
   "mobile.search.no_results": "Δεν βρέθηκαν αποτελέσματα",
   "mobile.search.jump": "Μετάβαση σε πρόσφατα μηνύματα",
-  "mobile.search.in_modifier_title": "όνομα-καναλιού"
+  "mobile.search.in_modifier_title": "όνομα-καναλιού",
+  "post_info.edit": "Επεξεργασία"
 }
