@@ -449,5 +449,9 @@
   "mobile.routes.channelInfo": "Πληροφορίες",
   "mobile.routes.channelInfo.unarchive_channel": "Επαναφορά Καναλιού",
   "mobile.routes.channelInfo.groupManaged": "Η διαχείριση των μελών γίνεται από συνδεδεμένες ομάδες",
-  "mobile.routes.channelInfo.favorite": "Αγαπημένα"
+  "mobile.routes.channelInfo.favorite": "Αγαπημένα",
+  "mobile.routes.login": "Σύνδεση",
+  "mobile.routes.edit_profile": "Επεξεργασία Προφίλ",
+  "mobile.routes.code.noLanguage": "Κωδικός",
+  "mobile.routes.code": "{language} Κωδικός"
 }
