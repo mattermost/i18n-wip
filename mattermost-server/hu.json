@@ -3007,5 +3007,9 @@
     {
         "id": "web.error.unsupported_browser.system_browser_or",
         "translation": "vagy"
+    },
+    {
+        "id": "app.import.validate_direct_post_import_data.message_length.error",
+        "translation": "Az üzenet túl hosszú"
     }
 ]
