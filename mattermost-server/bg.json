@@ -589,15 +589,15 @@
     },
     {
         "id": "ent.saml.metadata.app_error",
-        "translation": "Грешка при създаването на Service Provider Metadata."
+        "translation": "Възникна грешка при изграждането на метаданни на доставчика на услуги."
     },
     {
         "id": "ent.message_export.global_relay.create_file_in_zip.app_error",
-        "translation": "Не може да се създаде eml файла."
+        "translation": "Неуспешно създаване eml файла."
     },
     {
         "id": "ent.message_export.global_relay.close_zip_file.app_error",
-        "translation": "Zip файла не може да се затвори."
+        "translation": "Неуспешно затваряне на Zip файла."
     },
     {
         "id": "ent.elasticsearch.index_user.error",
@@ -3064,7 +3064,7 @@
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.close.app_error",
-        "translation": "Не може да се достави имейла до Global Relay."
+        "translation": "Не може да се достави ел.поща до Global Relay."
     },
     {
         "id": "model.group.delete_at.app_error",
@@ -3120,7 +3120,7 @@
     },
     {
         "id": "ent.ldap.validate_admin_filter.app_error",
-        "translation": "Невалиден AD / LDAP филтър за администратор."
+        "translation": "Невалиден AD/LDAP филтър за администратори."
     },
     {
         "id": "model.access.is_valid.redirect_uri.app_error",
@@ -3180,7 +3180,7 @@
     },
     {
         "id": "ent.ldap.validate_guest_filter.app_error",
-        "translation": "Невалиден AD / LDAP филтър за гости."
+        "translation": "Невалиден AD/LDAP филтър за гости."
     },
     {
         "id": "ent.compliance.actiance.attachment.copy.appError",
@@ -3196,7 +3196,7 @@
     },
     {
         "id": "ent.message_export.global_relay.attach_file.app_error",
-        "translation": "Не може да се добави прикачен файл към експорта на глобалната реле."
+        "translation": "Не може да се добави прикачен файл към Global Relay износа."
     },
     {
         "id": "app.system.warn_metric.store.app_error",
@@ -3332,7 +3332,7 @@
     },
     {
         "id": "ent.ldap.syncronize.get_all.app_error",
-        "translation": "Не могат да се получат всички потребители, използващи AD / LDAP."
+        "translation": "Не могат да се получат всички потребители, използващи AD/LDAP."
     },
     {
         "id": "web.error.unsupported_browser.min_os_version.mac",
@@ -3520,7 +3520,7 @@
     },
     {
         "id": "ent.ldap.disabled.app_error",
-        "translation": "AD / LDAP деактивиран или лицензът не поддържа AD / LDAP."
+        "translation": "AD/LDAP е забранен или лиценза не поддържа AD/LDAP."
     },
     {
         "id": "model.user.is_valid.pwd_number_symbol.app_error",
@@ -3580,7 +3580,7 @@
     },
     {
         "id": "interactive_message.decode_trigger_id.signature_decode_failed",
-        "translation": "Неуспешно декодиране base64 подпис на идентификатор на тригер за интерактивен диалог."
+        "translation": "Неуспешно декодиране base64 подписа на задействащо ID на интерактивен диалог."
     },
     {
         "id": "model.user.is_valid.nickname.app_error",
@@ -3780,7 +3780,7 @@
     },
     {
         "id": "ent.elasticsearch.search_posts.disabled",
-        "translation": "Търсенето на elastsesearch е деактивирано на този сървър"
+        "translation": "Търсенето elasticsearch е забранено на този сървър"
     },
     {
         "id": "bleveengine.stop_channel_index.error",
@@ -3932,7 +3932,7 @@
     },
     {
         "id": "ent.ldap.do_login.licence_disable.app_error",
-        "translation": "Функцията AD / LDAP е деактивирана с настоящ лиценз. Моля, свържете се със системния си администратор относно актуализацията на корпоративния ви лиценз."
+        "translation": "Функцията AD/LDAP е забранена от настоящия лиценз. Моля, свържете се със системния си администратор относно актуализацията на корпоративния ви лиценз."
     },
     {
         "id": "web.incoming_webhook.channel_locked.app_error",
@@ -3964,7 +3964,7 @@
     },
     {
         "id": "ent.migration.migratetosaml.email_already_used_by_other_user",
-        "translation": "Имейл вече е използван от друг потребител на SAML."
+        "translation": "Ел.поща вече се използва от друг потребител на SAML."
     },
     {
         "id": "api.server.warn_metric.bot_response.mailto_contact_header",
@@ -4120,7 +4120,7 @@
     },
     {
         "id": "ent.elasticsearch.test_config.connect_failed",
-        "translation": "Свързването към Elasticsearch сървъра не бе успешно."
+        "translation": "Неуспешно свързване с Elasticsearch сървъра."
     },
     {
         "id": "store.sql_channel.reset_all_channel_schemes.app_error",
@@ -4228,7 +4228,7 @@
     },
     {
         "id": "ent.elasticsearch.search_users.search_failed",
-        "translation": "Търсенето не завърши"
+        "translation": "Търсенето неуспешно"
     },
     {
         "id": "store.sql_group.permanent_delete_members_by_user.app_error",
@@ -4400,7 +4400,7 @@
     },
     {
         "id": "ent.ldap.syncronize.get_all_groups.app_error",
-        "translation": "извличане на групи за грешки."
+        "translation": "грешка при извличане на групи."
     },
     {
         "id": "store.sql_user.save.email_exists.saml_app_error",
@@ -4420,11 +4420,11 @@
     },
     {
         "id": "ent.saml.configure.load_idp_cert.app_error",
-        "translation": "Публичен файл на сертификат за доставчик на самоличност не бе намерен. Моля, свържете се със системния си администратор."
+        "translation": "Файла с публичния сертификат на доставчик на самоличност не бе намерен. Моля, свържете се със системния администратор."
     },
     {
         "id": "ent.ldap.app_error",
-        "translation": "ldap интерфейсът беше нулев."
+        "translation": "ldap интерфейсът е празен."
     },
     {
         "id": "app.role.get.app_error",
@@ -4452,11 +4452,11 @@
     },
     {
         "id": "ent.id_loaded.license_disable.app_error",
-        "translation": "Лицензът ви не поддържа натоварвания с идентификационни данни, натоварени с ID."
+        "translation": "Лицензът ви не поддържа ID заредени изскачащи известия."
     },
     {
         "id": "interactive_message.generate_trigger_id.signing_failed",
-        "translation": "Неуспешно подписване на генериран идентификатор на тригер за интерактивен диалог."
+        "translation": "Неуспешно подписване на генерираното задействащо ID за интерактивен диалог."
     },
     {
         "id": "model.oauth.is_valid.update_at.app_error",
@@ -4540,7 +4540,7 @@
     },
     {
         "id": "ent.ldap.do_login.search_ldap_server.app_error",
-        "translation": "Неуспешно търсене на AD / LDAP сървър."
+        "translation": "Неуспешно търсене на AD/LDAP сървър."
     },
     {
         "id": "api.user.delete_user.not_enabled.app_error",
@@ -4652,7 +4652,7 @@
     },
     {
         "id": "ent.saml.build_request.encoding.app_error",
-        "translation": "Възникна грешка при кодирането на заявката за доставчика на идентичност. Моля, свържете се със системния си администратор."
+        "translation": "Възникна грешка при кодирането на заявката за доставчика на идентичност. Моля, свържете се със системния администратор."
     },
     {
         "id": "store.sql_plugin_store.get.app_error",
@@ -4768,7 +4768,7 @@
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.from_address.app_error",
-        "translation": "Не може да се зададе имейл от адрес."
+        "translation": "Не може да се зададе ел.поща от адреса."
     },
     {
         "id": "app.import.validate_user_import_data.notify_props_channel_trigger_invalid.error",
@@ -4808,7 +4808,7 @@
     },
     {
         "id": "interactive_message.decode_trigger_id.missing_data",
-        "translation": "В тригерния идентификатор липсват необходимите данни за интерактивен диалог."
+        "translation": "В задействащо ID липсват необходимите данни за интерактивен диалог."
     },
     {
         "id": "store.sql_post.analytics_posts_count_by_day.app_error",
@@ -4868,7 +4868,7 @@
     },
     {
         "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
-        "translation": "Потребителят не е намерен във файла на потребителите."
+        "translation": "Потребителят не е намерен във файла с потребителите."
     },
     {
         "id": "bleveengine.create_channel_index.error",
@@ -5076,7 +5076,7 @@
     },
     {
         "id": "interactive_message.decode_trigger_id.verify_signature_failed",
-        "translation": "Проверката на подписа не бе успешна на идентификатора на задействане за интерактивен диалог."
+        "translation": "Неуспешна проверка подписа на задействащо ID за интерактивен диалог."
     },
     {
         "id": "app.oauth.permanent_delete_auth_data_by_user.app_error",
@@ -5100,11 +5100,11 @@
     },
     {
         "id": "ent.ldap.do_login.user_filtered.app_error",
-        "translation": "Вашият AD / LDAP акаунт няма разрешение за използване на този най-важен сървър. Моля, помолете вашия системен администратор да провери AD / LDAP потребителския филтър."
+        "translation": "Вашият AD/LDAP профил няма разрешение за използване на този Mattermost сървър. Моля, помолете вашия системен администратор да провери AD/LDAP потребителския филтър."
     },
     {
         "id": "groups.unsupported_syncable_type",
-        "translation": "Неподдържан тип за синхронизиране '{{.Value}}'."
+        "translation": "Неподдържан синхронизируем тип '{{.Value}}'."
     },
     {
         "id": "store.sql_post.get_posts_around.get_parent.app_error",
@@ -5216,7 +5216,7 @@
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.msg_data.app_error",
-        "translation": "Не мога да напиша имейл съобщението."
+        "translation": "Не мога да напиша съобщението за ел.поща."
     },
     {
         "id": "store.sql_post.permanent_delete_by_user.app_error",
@@ -5312,7 +5312,7 @@
     },
     {
         "id": "ent.ldap_groups.reachable_groups_error",
-        "translation": "извличане на грешки за потребители"
+        "translation": "грешка при извличане на групи за член"
     },
     {
         "id": "api.user.update_password.oauth.app_error",
@@ -5592,7 +5592,7 @@
     },
     {
         "id": "ent.elasticsearch.search_channels.disabled",
-        "translation": "Търсенето elasticsearch е забраненио на този сървър"
+        "translation": "Търсенето elasticsearch е забранено на този сървър"
     },
     {
         "id": "app.user_access_token.get_by_user.app_error",
@@ -5684,7 +5684,7 @@
     },
     {
         "id": "ent.migration.migratetoldap.duplicate_field",
-        "translation": "Не може да се мигрират AD / LDAP потребители с посочено поле. Открит е дублиран запис. Моля, премахнете всички дубликати и опитайте отново."
+        "translation": "Не може да се мигрират AD/LDAP потребители с посочено поле. Открит е дублиран запис. Моля, премахнете всички дубликати и опитайте отново."
     },
     {
         "id": "app.plugin.marketplace_plugin_request.app_error",
@@ -5704,7 +5704,7 @@
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.unable_to_get_file_info.app_error",
-        "translation": "Не може да се получи информацията за временния файл за експортиране."
+        "translation": "Не може да се получи информацията за временния файл за износ."
     },
     {
         "id": "app.oauth.get_app_by_user.find.app_error",
@@ -5728,7 +5728,7 @@
     },
     {
         "id": "ent.saml.configure.load_private_key.app_error",
-        "translation": "Влизането в SAML не бе успешно, тъй като частният ключ на доставчика на услуги не бе намерен. Моля, свържете се със системния си администратор."
+        "translation": "Влизането в SAML не бе успешно, тъй като частният ключ на доставчика на услуги не бе намерен. Моля, свържете се със системния администратор."
     },
     {
         "id": "store.sql_post.permanent_delete_by_user.too_many.app_error",
@@ -5776,7 +5776,7 @@
     },
     {
         "id": "ent.saml.build_request.app_error",
-        "translation": "Възникна грешка при инициирането на заявката до доставчика на идентичност. Моля, свържете се със системния си администратор."
+        "translation": "Възникна грешка при инициирането на заявката до доставчика на идентичност. Моля, свържете се със системния администратор."
     },
     {
         "id": "model.oauth.is_valid.name.app_error",
@@ -5912,11 +5912,11 @@
     },
     {
         "id": "ent.ldap_groups.members_of_group_error",
-        "translation": "грешка при извличане на членове от групата"
+        "translation": "грешка при извличане членове на групата"
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.to_address.app_error",
-        "translation": "Неуспешно задаване на имейл адреса."
+        "translation": "Неуспешно задаване на адреса за ел.поща."
     },
     {
         "id": "app.webhooks.save_outgoing.override.app_error",
@@ -6016,7 +6016,7 @@
     },
     {
         "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-        "translation": "Превишен е ограничението на размера. Опитайте да проверите [максимален размер на страницата] (https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded )."
+        "translation": "Превишено е ограничението на размера. Опитайте да проверите Вашия [максимален размер на страницата](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded )."
     },
     {
         "id": "api.user.update_user.accepted_guest_domain.app_error",
@@ -6048,7 +6048,7 @@
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.unable_to_open_email_file.app_error",
-        "translation": "Неуспешно получаване на имейла от временния файл."
+        "translation": "Неуспешно получаване на ел.поща от временния файл."
     },
     {
         "id": "api.templates.remove_expired_license.body.title",
@@ -6104,7 +6104,7 @@
     },
     {
         "id": "ent.elasticsearch.search_posts.parse_matches_failed",
-        "translation": "Неуспешно анализиране на съвпаденията на резултатите от търсенето"
+        "translation": "Неуспешно анализиране на съвпаденията в резултатите от търсенето"
     },
     {
         "id": "api.user.check_user_mfa.bad_code.app_error",
@@ -6280,7 +6280,7 @@
     },
     {
         "id": "ent.ldap.syncronize.populate_syncables",
-        "translation": "грешка при попълване на syncables"
+        "translation": "грешка при попълване на синхронизуеми"
     },
     {
         "id": "ent.ldap_groups.group_search_error",
@@ -6292,7 +6292,7 @@
     },
     {
         "id": "ent.saml.do_login.parse.app_error",
-        "translation": "Възникна грешка при анализа на отговора от доставчика на идентичност. Моля, свържете се със системния си администратор."
+        "translation": "Възникна грешка при анализа на отговора от доставчика на идентичност. Моля, свържете се със системния администратор."
     },
     {
         "id": "api.templates.welcome_subject",
@@ -6300,7 +6300,7 @@
     },
     {
         "id": "ent.saml.configure.encryption_not_enabled.app_error",
-        "translation": "Влизането в SAML не бе успешно, тъй като криптирането не е активирано. Моля, свържете се със системния си администратор."
+        "translation": "Влизането в SAML не бе успешно, тъй като криптирането не е активирано. Моля, свържете се със системния администратор."
     },
     {
         "id": "store.sql_plugin_store.list.app_error",
@@ -6384,7 +6384,7 @@
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.parse_mail.app_error",
-        "translation": "Информацията за имейла не може да се прочете."
+        "translation": "Информацията за ел.поща не може да се прочете."
     },
     {
         "id": "model.access.is_valid.user_id.app_error",
@@ -6396,7 +6396,7 @@
     },
     {
         "id": "group_not_associated_to_synced_team",
-        "translation": "Групата не може да бъде асоциирана с канала, докато първо не бъде свързана с екипа на родителската група, синхронизирана."
+        "translation": "Групата не може да бъде асоциирана с канала, докато първо не бъде свързана с родителския групово синхронизиран екип."
     },
     {
         "id": "model.config.is_valid.site_url.app_error",
@@ -6420,7 +6420,7 @@
     },
     {
         "id": "ent.ldap.do_login.unable_to_connect.app_error",
-        "translation": "Не може да се свърже към AD / LDAP сървър."
+        "translation": "Неуспешно свързване с AD/LDAP сървър."
     },
     {
         "id": "app.notification.body.intro.direct.generic",
@@ -6492,7 +6492,7 @@
     },
     {
         "id": "ent.ldap.do_login.bind_admin_user.app_error",
-        "translation": "Не може да се свърже към AD / LDAP сървър. Проверете BindUsername и BindPassword."
+        "translation": "Неуспешно свързване към AD/LDAP сървър. Проверете BindUsername и BindPassword."
     },
     {
         "id": "jobs.request_cancellation.status.error",
@@ -6928,7 +6928,7 @@
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.msg.app_error",
-        "translation": "Неуспешно задаване на имейл съобщението."
+        "translation": "Неуспешно задаване на съобщението за ел.поща."
     },
     {
         "id": "app.preference.get_category.app_error",
@@ -7228,7 +7228,7 @@
     },
     {
         "id": "ent.saml.do_login.validate.app_error",
-        "translation": "При проверката на отговора от доставчика на идентичност възникна грешка. Моля, свържете се със системния си администратор."
+        "translation": "При проверката на отговора от доставчика на идентичност възникна грешка. Моля, свържете се със системния администратор."
     },
     {
         "id": "utils.file.remove_directory.local.app_error",
@@ -7372,7 +7372,7 @@
     },
     {
         "id": "ent.elasticsearch.search_posts.search_failed",
-        "translation": "Търсенето не завърши"
+        "translation": "Търсенето неуспешно"
     },
     {
         "id": "app.role.get_by_name.app_error",
@@ -7380,7 +7380,7 @@
     },
     {
         "id": "ent.message_export.global_relay.generate_email.app_error",
-        "translation": "Не може да се генерират данни за eml файлове."
+        "translation": "Неуспешно генериране данни за eml файлове."
     },
     {
         "id": "bleveengine.already_started.error",
@@ -7412,7 +7412,7 @@
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.unable_to_open_zip_file_data.app_error",
-        "translation": "Временният файл за експортиране не може да се отвори."
+        "translation": "Временният файл за износа не може да се отвори."
     },
     {
         "id": "model.config.is_valid.message_export.batch_size.app_error",
@@ -7424,7 +7424,7 @@
     },
     {
         "id": "ent.ldap.do_login.matched_to_many_users.app_error",
-        "translation": "Даденото потребителско име съвпада с множество потребители."
+        "translation": "Зададеното потребителско име съвпада с множество потребители."
     },
     {
         "id": "app.import.validate_user_teams_import_data.invalid_team_theme.error",
@@ -7432,7 +7432,7 @@
     },
     {
         "id": "ent.ldap.syncronize.search_failure.app_error",
-        "translation": "Неуспешно търсене на потребители в AD / LDAP. Проверете дали най-важният сървър може да се свърже с вашия AD / LDAP сървър и опитайте отново."
+        "translation": "Неуспешно търсене на потребители в AD/LDAP. Проверете дали Mattermost сървъра може да се свърже с вашия AD/LDAP сървър и опитайте отново."
     },
     {
         "id": "app.import.validate_user_import_data.profile_image.error",
@@ -7456,7 +7456,7 @@
     },
     {
         "id": "ent.elasticsearch.test_config.indexing_disabled.error",
-        "translation": "Elasticsearch е деактивиран."
+        "translation": "Elasticsearch е забранен."
     },
     {
         "id": "model.bot.is_valid.create_at.app_error",
@@ -7480,7 +7480,7 @@
     },
     {
         "id": "ent.get_users_in_channel_during",
-        "translation": "Неуспешно привличане на потребители в канал през определен период от време."
+        "translation": "Неуспешно извличане на потребителите в канал през определен период от време."
     },
     {
         "id": "store.sql_channel.save_member.commit_transaction.app_error",
@@ -7524,7 +7524,7 @@
     },
     {
         "id": "ent.migration.migratetoldap.user_not_found",
-        "translation": "Не може да се намери потребител на AD / LDAP сървър: "
+        "translation": "Не може да се намери потребител на AD/LDAP сървъра: "
     },
     {
         "id": "store.sql_channel.sidebar_categories.commit_transaction.app_error",
@@ -7676,7 +7676,7 @@
     },
     {
         "id": "interactive_message.decode_trigger_id.base64_decode_failed",
-        "translation": "Неуспешно декодиране base64 за ID на задействане за интерактивен диалог."
+        "translation": "Неуспешно декодиране base64 за задействащо ID на интерактивен диалог."
     },
     {
         "id": "model.command.is_valid.plugin_id.app_error",
@@ -7692,7 +7692,7 @@
     },
     {
         "id": "ent.ldap.validate_filter.app_error",
-        "translation": "Невалиден AD / LDAP филтър."
+        "translation": "Невалиден AD/LDAP филтър."
     },
     {
         "id": "utils.mail.connect_smtp.helo.app_error",
@@ -7720,7 +7720,7 @@
     },
     {
         "id": "interactive_message.decode_trigger_id.expired",
-        "translation": "Идентификационният номер за задействане на интерактивен диалог е изтекъл. Идентификационните номера на задействащите играят за максимум {{.Seconds}} секунди."
+        "translation": "Задействащо ID на интерактивен диалог е изтекло. Задействащите ID са валидни максимум {{.Seconds}} секунди."
     },
     {
         "id": "ent.compliance.licence_disable.app_error",
@@ -7784,7 +7784,7 @@
     },
     {
         "id": "ent.saml.do_login.decrypt.app_error",
-        "translation": "Влизането в SAML не бе успешно, тъй като възникна грешка при дешифриране на отговора от доставчика на идентичност. Моля, свържете се със системния си администратор."
+        "translation": "Влизането в SAML не бе успешно, тъй като възникна грешка при дешифриране на отговора от доставчика на идентичност. Моля, свържете се със системния администратор."
     },
     {
         "id": "model.command.is_valid.autocomplete_data.app_error",
@@ -7972,7 +7972,7 @@
     },
     {
         "id": "interactive_message.decode_trigger_id.base64_decode_failed_signature",
-        "translation": "Неуспешно декодиране base64 подпис на идентификатор на тригер за интерактивен диалог."
+        "translation": "Неуспешно декодиране base64 подпис за задействащо ID на интерактивен диалог."
     },
     {
         "id": "manaultesting.manual_test.parse.app_error",
@@ -8004,11 +8004,11 @@
     },
     {
         "id": "ent.elasticsearch.start.get_server_version.app_error",
-        "translation": "Неуспешно получаване на версия на сървъра Elasticsearch."
+        "translation": "Неуспешно получаване версията на сървъра Elasticsearch."
     },
     {
         "id": "ent.saml.configure.not_encrypted_response.app_error",
-        "translation": "Влизането в SAML не бе успешно, тъй като отговорът на доставчика на идентичност не е шифрован. Моля, свържете се със системния си администратор."
+        "translation": "Влизането в SAML не бе успешно, тъй като отговорът на доставчика на идентичност не е шифрован. Моля, свържете се със системния администратор."
     },
     {
         "id": "app.import.validate_user_import_data.advanced_props_email_interval.error",
@@ -8196,7 +8196,7 @@
     },
     {
         "id": "ent.ldap.do_login.user_not_registered.app_error",
-        "translation": "Потребителят не е регистриран на AD / LDAP сървър."
+        "translation": "Потребителят не е регистриран на AD/LDAP сървъра."
     },
     {
         "id": "web.incoming_webhook.user.app_error",
@@ -8224,7 +8224,7 @@
     },
     {
         "id": "ent.message_export.run_export.app_error",
-        "translation": "Неуспешно избиране на данни за експортиране на съобщения."
+        "translation": "Неуспешно избиране на данни за износ на съобщения."
     },
     {
         "id": "ent.elasticsearch.search_users.unmarshall_user_failed",
@@ -8388,7 +8388,7 @@
     },
     {
         "id": "ent.user.complete_switch_with_oauth.blank_email.app_error",
-        "translation": "Не може да се извърши вход в SAML с празен имейл адрес."
+        "translation": "Не може да се извърши вход в SAML с празен адрес ел.поща."
     },
     {
         "id": "ent.saml.save_user.username_exists.saml_app_error",
@@ -8396,7 +8396,7 @@
     },
     {
         "id": "ent.saml.save_user.email_exists.saml_app_error",
-        "translation": "Този акаунт не използва SAML удостоверяване. Моля, влезте с имейл и парола."
+        "translation": "Този профил не използва SAML удостоверяване. Моля, влезте с ел.поща и парола."
     },
     {
         "id": "ent.ldap.save_user.username_exists.ldap_app_error",
@@ -8404,19 +8404,19 @@
     },
     {
         "id": "ent.ldap.save_user.email_exists.ldap_app_error",
-        "translation": "Този акаунт не използва AD / LDAP удостоверяване. Моля, влезте с имейл и парола."
+        "translation": "Този профил не използва AD/LDAP удостоверяване. Моля, влезте с ел.поща и парола."
     },
     {
         "id": "ent.jobs.start_synchronize_job.timeout",
-        "translation": "Изтече времето за AD / LDAP задачата за синхронизация."
+        "translation": "Изтече времето на AD/LDAP задачата за синхронизация."
     },
     {
         "id": "ent.jobs.do_job.batch_start_timestamp.parse_error",
-        "translation": "Не може да се анализира заданието за експортиране на съобщение ExportFromTimestamp."
+        "translation": "Не може да се анализира заданието за износ на съобщения ExportFromTimestamp."
     },
     {
         "id": "ent.jobs.do_job.batch_size.parse_error",
-        "translation": "Не може да се анализира заданието за експортиране на съобщения BatchSize."
+        "translation": "Не може да се анализира заданието за износ на съобщения BatchSize."
     },
     {
         "id": "ent.cluster.model.client.connecting.app_error",
