@@ -86,5 +86,9 @@
   "channel_modal.name": "Nome",
   "channel_modal.headerHelp": "Estabelecer o texto que aparecerá na cabeceira da canle xunto ao nome da canle. Por exemplo, incluír ligazóns de uso frecuente escribindo [Título da ligazón] (http://exemplo.com).",
   "channel.hasGuests": "Esta mensaxe de grupo ten convidados",
-  "channel.channelHasGuests": "Esta canle ten convidados"
+  "channel.channelHasGuests": "Esta canle ten convidados",
+  "create_comment.addComment": "Engadir un comentario…",
+  "combined_system_message.you": "Vostede",
+  "combined_system_message.removed_from_team.two": "{firstUser} e {secondUser} foron **retirados do equipo**.",
+  "combined_system_message.removed_from_team.one_you": "Vostede foi **retirado do equipo**."
 }
