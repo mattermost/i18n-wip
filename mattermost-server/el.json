@@ -2137,5 +2137,13 @@
     {
         "id": "web.error.unsupported_browser.system_browser_or",
         "translation": "ή"
+    },
+    {
+        "id": "system.message.name",
+        "translation": "Σύστημα"
+    },
+    {
+        "id": "app.import.validate_direct_post_import_data.message_length.error",
+        "translation": "Το μήνυμα είναι πολύ μεγάλο"
     }
 ]
