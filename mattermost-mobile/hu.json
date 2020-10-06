@@ -143,5 +143,14 @@
   "announcment_banner.dont_show_again": "Ne mutassa még egyszer",
   "about.title": "Névjegy {appTitle}",
   "about.teamEditiont1": "Enterprise Kiadás",
-  "about.enterpriseEditione1": "Enterprise Kiadás"
+  "about.enterpriseEditione1": "Enterprise Kiadás",
+  "suggestion.search.public": "Publikus csatornák",
+  "status_dropdown.set_online": "Elérhető",
+  "status_dropdown.set_dnd": "Ne zavarj",
+  "mobile.routes.settings": "Beállítások",
+  "mobile.post_info.reply": "Válasz",
+  "status_dropdown.set_offline": "Elérhetetlen (Offline)",
+  "mobile.routes.user_profile.edit": "Szerkesztés",
+  "mobile.advanced_settings.delete": "Törlés",
+  "login.username": "Felhasználói név"
 }
