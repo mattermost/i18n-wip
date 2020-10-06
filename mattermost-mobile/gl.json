@@ -18,5 +18,8 @@
   "archivedChannelMessage": "Vostede está a ver unha **canle arquivada**. Non é posíbel publicar novas mensaxes.",
   "api.channel.add_member.added": "{addedUsername} foi engadido á canle por {username}.",
   "announcment_banner.dont_show_again": "Non volver amosar",
-  "about.title": "Sobre {appTitle}"
+  "about.title": "Sobre {appTitle}",
+  "user.settings.notifications.never": "Nunca",
+  "user.settings.notifications.email.never": "Nunca",
+  "channel_notifications.preference.never": "Nunca"
 }
