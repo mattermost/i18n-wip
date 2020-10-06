@@ -50,5 +50,5 @@
   "combined_system_message.added_to_team.two": "{firstUser} e {secondUser} foron **engadidos ao equipo** por {actor}.",
   "combined_system_message.added_to_team.one_you": "Vostede foi **engadido ao equipo** por {actor}.",
   "combined_system_message.joined_channel.one": "{firstUser} **uniuse á canle**.",
-  "combined_system_message.joined_channel.many_expanded": "{users} e {lastUser} **unironse á canle**."
+  "combined_system_message.joined_channel.many_expanded": "{users} e {lastUser} **uníronse á canle**."
 }
