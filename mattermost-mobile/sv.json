@@ -651,5 +651,8 @@
   "channel_header.notificationPreference.default": "Standard",
   "channel_header.notificationPreference": "Mobilnotifieringar",
   "mobile.mailTo.error.title": "Fel",
-  "mobile.link.error.title": "Fel"
+  "mobile.link.error.title": "Fel",
+  "mobile.mailTo.error.text": "Kunde inte starta en e-postklient.",
+  "mobile.link.error.text": "Kunde inte öppna länken.",
+  "mobile.file_upload.disabled": "Filuppladdning från mobil är avstängd. Kontakta din systemadministratör för mer information."
 }
