@@ -9317,5 +9317,9 @@
     {
         "id": "app.channel.clear_all_custom_role_assignments.select.app_error",
         "translation": "Неуспешно извличане членовете на канала."
+    },
+    {
+        "id": "ent.saml.do_login.invalid_time.app_error",
+        "translation": "Получихме невалидно време в отговора от доставчика на идентичност. Моля, свържете се със системния администратор."
     }
 ]
