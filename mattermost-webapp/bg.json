@@ -4172,5 +4172,8 @@
     "announcement_bar.warn_metric_status_ack.text": "Благодарим ви, че се свързахте с Mattermost. Ще се свържем с вас скоро.",
     "upgrade.cloud_banner_reached": "Достигнахте лимита потребители за безплатното ниво",
     "upgrade.cloud_banner_over": "Понастоящем надхвърляте лимита на потребителите за безплатното ниво",
-    "admin.license.enterprise.upgrade.accept-terms": "С натискане върху **Надстройка до корпоративна версия**, аз се съгласявам с условията на лиценза за Mattermost корпоративна версия."
+    "admin.license.enterprise.upgrade.accept-terms": "С натискане върху **Надстройка до корпоративна версия**, аз се съгласявам с условията на лиценза за Mattermost корпоративна версия.",
+    "admin.billing.subscriptions.billing_summary.noBillingHistory.title": "Все още няма история на таксуването",
+    "admin.billing.subscriptions.billing_summary.noBillingHistory.description": "В бъдеще това е мястото, където ще се показва обобщение на вашите последни таксувания.",
+    "admin.billing.subscriptions.billing_summary.noBillingHistory.link": "Вижте как работи таксуването"
 }
