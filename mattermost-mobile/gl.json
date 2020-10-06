@@ -25,5 +25,11 @@
   "channel_header.pinnedPosts": "Mensaxes fixadas",
   "channel_header.notificationPreference.none": "Nunca",
   "channel_header.notificationPreference.mention": "Mencións",
-  "channel_header.notificationPreference.default": "Predeterminado"
+  "channel_header.notificationPreference.default": "Predeterminado",
+  "channel_modal.cancel": "Cancelar",
+  "channel_members_modal.remove": "Retirar",
+  "channel_loader.someone": "Alguén",
+  "channel_info.purpose": "Propósito:",
+  "channel_info.header": "Cabeceira:",
+  "channel_header.viewMembers": "Ver os membros"
 }
