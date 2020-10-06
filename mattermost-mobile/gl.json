@@ -31,5 +31,10 @@
   "channel_loader.someone": "Alguén",
   "channel_info.purpose": "Propósito:",
   "channel_info.header": "Cabeceira:",
-  "channel_header.viewMembers": "Ver os membros"
+  "channel_header.viewMembers": "Ver os membros",
+  "mobile.terms_of_service.alert_cancel": "Cancelar",
+  "mobile.reset_status.alert_cancel": "Cancelar",
+  "mobile.post.cancel": "Cancelar",
+  "mobile.post_textbox.entire_channel.cancel": "Cancelar",
+  "mobile.alert_dialog.alertCancel": "Cancelar"
 }
