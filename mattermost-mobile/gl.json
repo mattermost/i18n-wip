@@ -45,5 +45,6 @@
   "combined_system_message.added_to_channel.one": "{firstUser} foi **engadido á canle** por {actor}.",
   "combined_system_message.added_to_channel.two": "{firstUser} e {secondUser} foron **engadidos á canle** por {actor}.",
   "combined_system_message.added_to_channel.one_you": "Vostede foi **engadido á canle** por {actor}.",
-  "combined_system_message.added_to_team.many_expanded": "{user} e {lastUser} foron **engadidos ao equipo** por {actor}."
+  "combined_system_message.added_to_team.many_expanded": "{user} e {lastUser} foron **engadidos ao equipo** por {actor}.",
+  "combined_system_message.added_to_team.one": "{firstUser} foi **engadido ao equipo** por {actor}."
 }
