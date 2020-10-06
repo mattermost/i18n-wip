@@ -21,5 +21,9 @@
   "about.title": "Sobre {appTitle}",
   "user.settings.notifications.never": "Nunca",
   "user.settings.notifications.email.never": "Nunca",
-  "channel_notifications.preference.never": "Nunca"
+  "channel_notifications.preference.never": "Nunca",
+  "channel_header.pinnedPosts": "Mensaxes fixadas",
+  "channel_header.notificationPreference.none": "Nunca",
+  "channel_header.notificationPreference.mention": "Mencións",
+  "channel_header.notificationPreference.default": "Predeterminado"
 }
