@@ -36,5 +36,7 @@
   "mobile.reset_status.alert_cancel": "Cancelar",
   "mobile.post.cancel": "Cancelar",
   "mobile.post_textbox.entire_channel.cancel": "Cancelar",
-  "mobile.alert_dialog.alertCancel": "Cancelar"
+  "mobile.alert_dialog.alertCancel": "Cancelar",
+  "channel_modal.header": "Cabeceira",
+  "channel_modal.descriptionHelp": "Describir como se debe usar esta canle."
 }
