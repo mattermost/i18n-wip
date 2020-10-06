@@ -8,5 +8,15 @@
   "about.enterpriseEditionLearn": "Máis información sobre a edición empresarial en ",
   "about.enterpriseEditione1": "Edición empresarial",
   "about.date": "Data de compilación:",
-  "about.teamEditiont1": "Edición empresarial"
+  "about.teamEditiont1": "Edición empresarial",
+  "channel_header.notificationPreference.all": "Todo",
+  "channel_header.notificationPreference": "Notificacións móbiles",
+  "channel_header.manageMembers": "Xestionar os membros",
+  "channel_header.directchannel.you": "{displayname} (vostede) ",
+  "channel_header.addMembers": "Engadir membros",
+  "center_panel.archived.closeChannel": "Pechar a canle",
+  "archivedChannelMessage": "Vostede está a ver unha **canle arquivada**. Non é posíbel publicar novas mensaxes.",
+  "api.channel.add_member.added": "{addedUsername} foi engadido á canle por {username}.",
+  "announcment_banner.dont_show_again": "Non volver amosar",
+  "about.title": "Sobre {appTitle}"
 }
