@@ -601,31 +601,31 @@
     },
     {
         "id": "ent.elasticsearch.index_user.error",
-        "translation": "Неуспешно индексиране на потребителя"
+        "translation": "Неуспешно индексиране на потребители"
     },
     {
         "id": "ent.elasticsearch.index_post.error",
-        "translation": "Индексирането на публикацията не бе успешно"
+        "translation": "Неуспешно индексиране на публикации"
     },
     {
         "id": "ent.elasticsearch.index_channel.error",
-        "translation": "Индексирането на канала не бе успешно"
+        "translation": "Неуспешно индексиране на канали"
     },
     {
         "id": "ent.elasticsearch.delete_user.error",
-        "translation": "Изтриването на потребителя не бе успешно"
+        "translation": "Неуспешно изтриване на потребител"
     },
     {
         "id": "ent.elasticsearch.delete_post.error",
-        "translation": "Изтриването на публикацията не бе успешно"
+        "translation": "Неуспешно изтриване на публикации"
     },
     {
         "id": "ent.elasticsearch.delete_channel.error",
-        "translation": "Изтриването на канала не бе успешно"
+        "translation": "Неуспешно изтриване на канала"
     },
     {
         "id": "ent.compliance.csv.zip.creation.appError",
-        "translation": "Не може да се създаде ZIP файл за експортиране."
+        "translation": "Не може да се създаде ZIP файл за износ."
     },
     {
         "id": "ent.compliance.csv.warning.appError",
@@ -2932,7 +2932,7 @@
     },
     {
         "id": "ent.elasticsearch.search_channels.search_failed",
-        "translation": "Търсенето не завърши"
+        "translation": "Търсенето неуспешно"
     },
     {
         "id": "bleveengine.indexer.do_job.get_oldest_post.error",
@@ -2980,7 +2980,7 @@
     },
     {
         "id": "bleveengine.stop_user_index.error",
-        "translation": "Потребителският индекс не бе затворен."
+        "translation": "Индексът на потребители не бе затворен."
     },
     {
         "id": "model.authorize.is_valid.user_id.app_error",
@@ -3260,7 +3260,7 @@
     },
     {
         "id": "ent.compliance.csv.header.export.appError",
-        "translation": "Не може да се добави заглавка към CSV експортирането."
+        "translation": "Не може да се добави заглавка към CSV износа."
     },
     {
         "id": "model.user.is_valid.first_name.app_error",
@@ -3320,7 +3320,7 @@
     },
     {
         "id": "ent.cluster.timeout.error",
-        "translation": "Изчаква се изчакване за отговор на клъстера"
+        "translation": "Изтече времето на изчакване за отговор от клъстера"
     },
     {
         "id": "app.import.validate_direct_channel_import_data.header_length.error",
@@ -3408,7 +3408,7 @@
     },
     {
         "id": "bleveengine.indexer.do_job.parse_end_time.error",
-        "translation": "Служителят за индексиране на Bleve не успя да анализира крайния час."
+        "translation": "Работника по индексиране на Bleve не успя да анализира крайния час."
     },
     {
         "id": "model.channel_member.is_valid.push_level.app_error",
@@ -3484,7 +3484,7 @@
     },
     {
         "id": "bleveengine.indexer.index_batch.nothing_left_to_index.error",
-        "translation": "Опит за индексиране на нова партида, когато всички единици са завършени."
+        "translation": "Опит за индексиране на нова партида, когато всички елементи са завършени."
     },
     {
         "id": "api.user.upload_profile_user.decode.app_error",
@@ -3808,7 +3808,7 @@
     },
     {
         "id": "ent.compliance.global_relay.rewind_temporary_file.appError",
-        "translation": "Файлът за временен експорт на Global Relay не може да се прочете отново."
+        "translation": "Временния файл за износ на Global Relay не може да се прочете отново."
     },
     {
         "id": "api.user.authorize_oauth_user.bad_token.app_error",
@@ -3944,7 +3944,7 @@
     },
     {
         "id": "ent.compliance.run_export.template_watcher.appError",
-        "translation": "Шаблоните за експортиране не могат да се заредят. Моля, опитайте отново."
+        "translation": "Шаблоните за износ не могат да се заредят. Моля, опитайте отново."
     },
     {
         "id": "model.link_metadata.is_valid.data.app_error",
@@ -4008,11 +4008,11 @@
     },
     {
         "id": "ent.compliance.global_relay.open_temporary_file.appError",
-        "translation": "Временният експортен файл не може да се отвори."
+        "translation": "Временният файл за износ не може да се отвори."
     },
     {
         "id": "ent.elasticsearch.indexer.do_job.parse_start_time.error",
-        "translation": "Работникът с индексирането на Elasticsearch не успя да анализира началното време"
+        "translation": "Работникът за индексиране на Elasticsearch не успя да анализира началното време"
     },
     {
         "id": "app.bot.get_disable_bot_sysadmin_message",
@@ -4040,7 +4040,7 @@
     },
     {
         "id": "ent.compliance.run_failed.error",
-        "translation": "Експортирането на съответствие не бе успешно за работа '{{.JobName}}' в '{{.FilePath}}'"
+        "translation": "Износа на съответствие не бе успешно за задачата '{{.JobName}}' в '{{.FilePath}}'"
     },
     {
         "id": "ent.elasticsearch.create_client.connect_failed",
@@ -4212,7 +4212,7 @@
     },
     {
         "id": "bleveengine.purge_user_index.error",
-        "translation": "Неуспешно изчистване на потребителски индекси."
+        "translation": "Неуспешно прочистване на потребителски индекси."
     },
     {
         "id": "api.templates.verify_body.title",
@@ -4320,7 +4320,7 @@
     },
     {
         "id": "ent.elasticsearch.generic.disabled",
-        "translation": "На този сървър не е активирано търсене на elastsesearch"
+        "translation": "На този сървър не е активирано търсене elastsesearch"
     },
     {
         "id": "model.channel_member.is_valid.unread_level.app_error",
@@ -4372,7 +4372,7 @@
     },
     {
         "id": "ent.data_retention.flags_batch.internal_error",
-        "translation": "Ние срещнахме грешка при почистването на партидата флагове."
+        "translation": "Срещнахме грешка при прочистването на партида от флагове."
     },
     {
         "id": "model.incoming_hook.parse_data.app_error",
@@ -4624,7 +4624,7 @@
     },
     {
         "id": "ent.compliance.csv.attachment.copy.appError",
-        "translation": "Приложението не може да се копира в zip файла."
+        "translation": "Прикачването не може да се копира в zip файла."
     },
     {
         "id": "model.config.is_valid.sql_query_timeout.app_error",
@@ -4804,7 +4804,7 @@
     },
     {
         "id": "bleveengine.stop_post_index.error",
-        "translation": "Индексът не бе затворен."
+        "translation": "Индексът на публикации не бе затворен."
     },
     {
         "id": "interactive_message.decode_trigger_id.missing_data",
@@ -5208,7 +5208,7 @@
     },
     {
         "id": "bleveengine.indexer.do_job.parse_start_time.error",
-        "translation": "Служителят за индексиране на Bleve не успя да анализира началното време."
+        "translation": "Работника по индексиране на Bleve не успя да анализира началното време."
     },
     {
         "id": "store.sql_status.reset_all.app_error",
@@ -5592,7 +5592,7 @@
     },
     {
         "id": "ent.elasticsearch.search_channels.disabled",
-        "translation": "Търсенето на elastsesearch е деактивирано на този сървър"
+        "translation": "Търсенето elasticsearch е забраненио на този сървър"
     },
     {
         "id": "app.user_access_token.get_by_user.app_error",
@@ -5936,7 +5936,7 @@
     },
     {
         "id": "brand.save_brand_image.encode.app_error",
-        "translation": "Невъзможно е да преобразувате данните от изображението във формат PNG. Моля, опитайте отново."
+        "translation": "Неуспешно преобразуване на данните от изображението във формат PNG. Моля, опитайте отново."
     },
     {
         "id": "model.outgoing_hook.is_valid.words.app_error",
@@ -6368,7 +6368,7 @@
     },
     {
         "id": "ent.elasticsearch.purge_indexes.delete_failed",
-        "translation": "Изтриването на индекса на Elasticsearch не бе успешно"
+        "translation": "Неуспешно изтриване индекса на Elasticsearch"
     },
     {
         "id": "model.outgoing_hook.is_valid.content_type.app_error",
@@ -6536,7 +6536,7 @@
     },
     {
         "id": "cli.outgoing_webhook.inconsistent_state.app_error",
-        "translation": "Изходящата уебшока се изтрива, но не може да създаде нова поради някаква грешка."
+        "translation": "Изходящия webhook се изтрива, но не може да създаде нов поради някаква грешка."
     },
     {
         "id": "model.channel_member.is_valid.ignore_channel_mentions_value.app_error",
@@ -6808,7 +6808,7 @@
     },
     {
         "id": "ent.compliance.global_relay.attachments_removed.appError",
-        "translation": "Каченият файл бе премахнат от експортирането на Global Relay, защото беше твърде голям за изпращане."
+        "translation": "Каченият файл бе премахнат от износа на Global Relay, защото беше твърде голям за изпращане."
     },
     {
         "id": "model.cluster.is_valid.name.app_error",
@@ -6924,7 +6924,7 @@
     },
     {
         "id": "ent.data_retention.generic.license.error",
-        "translation": "Вашият лиценз не поддържа запазване на данни."
+        "translation": "Вашият лиценз не поддържа съхранение на данни."
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.msg.app_error",
@@ -6944,7 +6944,7 @@
     },
     {
         "id": "ent.elasticsearch.create_template_users_if_not_exists.template_create_failed",
-        "translation": "Неуспешно създаване на шаблон на Elasticsearch за потребителите"
+        "translation": "Неуспешно създаване на шаблон на Elasticsearch за потребители"
     },
     {
         "id": "store.sql_group.more_than_one_row_changed",
@@ -6956,11 +6956,11 @@
     },
     {
         "id": "ent.cluster.config_changed.info",
-        "translation": "Конфигурацията на клъстера се промени за id = {{.id}}. Клъстерът може да стане нестабилен и се изисква рестартиране. За да сте сигурни, че клъстерът е конфигуриран правилно, трябва незабавно да извършите подвижен рестарт."
+        "translation": "Конфигурацията на клъстера се промени за id = {{.id}}. Клъстерът може да стане нестабилен и се изисква рестартиране. За да сте сигурни, че клъстерът е конфигуриран правилно, трябва незабавно да извършите допълнителен рестарт."
     },
     {
         "id": "ent.compliance.csv.attachment.export.appError",
-        "translation": "Не може да се добави прикачен файл към CSV експортирането."
+        "translation": "Не може да се добави прикачен файл към CSV износа."
     },
     {
         "id": "app.import.import_line.null_emoji.error",
@@ -7004,11 +7004,11 @@
     },
     {
         "id": "ent.elasticsearch.indexer.index_batch.nothing_left_to_index.error",
-        "translation": "Опит за индексиране на нова партида, когато всички единици са завършени"
+        "translation": "Опит за индексиране на нова партида, когато всички елементи са завършени"
     },
     {
         "id": "ent.elasticsearch.indexer.do_job.parse_end_time.error",
-        "translation": "Работникът с индексирането на Elasticsearch не успя да анализира крайния час"
+        "translation": "Работникът за индексиране на Elasticsearch не успя да анализира крайния час"
     },
     {
         "id": "api.team.invate_guests_to_channels.disabled.error",
@@ -7052,7 +7052,7 @@
     },
     {
         "id": "ent.data_retention.reactions_batch.internal_error",
-        "translation": "Ние срещнахме грешка, която изтрива трайно партидата от реакции."
+        "translation": "Срещнахме грешка при трайното изтриване партида от реакции."
     },
     {
         "id": "app.role.save.invalid_role.app_error",
@@ -7068,7 +7068,7 @@
     },
     {
         "id": "ent.elasticsearch.delete_user_posts.error",
-        "translation": "Изтриването на потребителските публикации не бе успешно"
+        "translation": "Неуспешно изтриване публикации на потребител"
     },
     {
         "id": "api.websocket_handler.server_busy.app_error",
@@ -7556,7 +7556,7 @@
     },
     {
         "id": "ent.elasticsearch.aggregator_worker.index_job_failed.error",
-        "translation": "Работещият в агрегатора на Elasticsearch се провали поради неуспешна работа по индексиране"
+        "translation": "Работникът в агрегатора на Elasticsearch се провали поради неуспешна задача по индексиране"
     },
     {
         "id": "app.import.validate_role_import_data.name_invalid.error",
@@ -7672,7 +7672,7 @@
     },
     {
         "id": "ent.compliance.csv.file.creation.appError",
-        "translation": "Не може да се създаде временен CSV файл за експортиране."
+        "translation": "Не може да се създаде временен CSV файл за износ."
     },
     {
         "id": "interactive_message.decode_trigger_id.base64_decode_failed",
@@ -7928,7 +7928,7 @@
     },
     {
         "id": "ent.elasticsearch.delete_channel_posts.error",
-        "translation": "Изтриването на публикациите на канала не бе успешно"
+        "translation": "Неуспешно изтриване на публикации в канал"
     },
     {
         "id": "app.user.complete_switch_with_oauth.blank_email.app_error",
@@ -8172,7 +8172,7 @@
     },
     {
         "id": "ent.cluster.save_config.error",
-        "translation": "Системната конзола е настроена само за четене, когато е активирана High Availability, освен ако ReadOnlyConfig не е деактивиран в конфигурационния файл."
+        "translation": "Системната конзола е настроена само за четене, когато е активирана High Availability, освен ако ReadOnlyConfig не е забранен в конфигурационния файл."
     },
     {
         "id": "api.user.login.guest_accounts.license.error",
@@ -8464,7 +8464,7 @@
     },
     {
         "id": "ent.data_retention.file_infos_batch.internal_error",
-        "translation": "Срещнахме грешка при трайно изтриване на поредица от файлова информация."
+        "translation": "Срещнахме грешка при трайно изтриване на пакет от файлова информация."
     },
     {
         "id": "app.job.update.app_error",
