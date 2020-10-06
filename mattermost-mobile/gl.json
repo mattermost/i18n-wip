@@ -56,5 +56,6 @@
   "combined_system_message.joined_channel.two": "{firstUser} e {secondUser} **uníronse á canle**.",
   "combined_system_message.joined_team.one_you": "Vostede **uniuse ao equipo**.",
   "combined_system_message.joined_team.one": "{firstUser} **uniuse ao equipo**.",
-  "combined_system_message.joined_team.two": "{firstUser} e {secondUser} **uníronse ao equipo**."
+  "combined_system_message.joined_team.two": "{firstUser} e {secondUser} **uníronse ao equipo**.",
+  "user.settings.notifications.allActivity": "Para toda actividade"
 }
