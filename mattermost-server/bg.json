@@ -109,39 +109,39 @@
     },
     {
         "id": "store.sql_user.update_auth_data.app_error",
-        "translation": "Не може да се актуализират данните за автентичност."
+        "translation": "Не може да се актуализират данните за удостоверяване."
     },
     {
         "id": "store.sql_user.update_active_for_multiple_users.updating.app_error",
-        "translation": "Дезактивирането на гостите не може."
+        "translation": "Неуспешно деактивиране на гости."
     },
     {
         "id": "store.sql_user.update.find.app_error",
-        "translation": "Не може да се намери съществуващият акаунт за актуализиране."
+        "translation": "Не може да се намери съществуващ профил за актуализиране."
     },
     {
         "id": "store.sql_user.update.app_error",
-        "translation": "Профилът не може да се актуализира."
+        "translation": "Профилът не можа да се актуализира."
     },
     {
         "id": "store.sql_user.save.app_error",
-        "translation": "Акаунтът не може да бъде запазен."
+        "translation": "Профила не можа да бъде запазен."
     },
     {
         "id": "store.sql_user.promote_guest.user_update.app_error",
-        "translation": "Неуспешно актуализиране на потребителя."
+        "translation": "Неуспешно актуализиране на потребител."
     },
     {
         "id": "store.sql_user.promote_guest.team_members_update.app_error",
-        "translation": "Неуспешно актуализиране на членствата на потребителските екипи."
+        "translation": "Неуспешно актуализиране членствата на потребители в екипи."
     },
     {
         "id": "store.sql_user.promote_guest.channel_members_update.app_error",
-        "translation": "Неуспешно актуализиране на членствата на потребителските канали."
+        "translation": "Неуспешно актуализиране членствата на потребителите в канали."
     },
     {
         "id": "store.sql_user.permanent_delete.app_error",
-        "translation": "Изтриването на съществуващия акаунт не може."
+        "translation": "Не можа да се изтрие съществуващ профил."
     },
     {
         "id": "store.sql_user.missing_account.const",
@@ -149,15 +149,15 @@
     },
     {
         "id": "store.sql_user.demote_user_to_guest.user_update.app_error",
-        "translation": "Неуспешно актуализиране на потребителя."
+        "translation": "Неуспешно актуализиране на потребител."
     },
     {
         "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
-        "translation": "Неуспешно актуализиране на членствата на потребителските екипи."
+        "translation": "Неуспешно актуализиране членствата на потребители в екипи."
     },
     {
         "id": "store.sql_user.demote_user_to_guest.channel_members_update.app_error",
-        "translation": "Неуспешно актуализиране на членствата на потребителските канали."
+        "translation": "Неуспешно актуализиране на членствата в потребителските канали."
     },
     {
         "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
@@ -165,7 +165,7 @@
     },
     {
         "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Неуспешно изтегляне на потребителите."
+        "translation": "Неуспешно извличане на потребителите."
     },
     {
         "id": "store.sql_team.update.find.app_error",
@@ -485,7 +485,7 @@
     },
     {
         "id": "store.sql_command.save.get.app_error",
-        "translation": "Не може да се получи командата."
+        "translation": "Не можа да се получи командата."
     },
     {
         "id": "store.sql_command.save.delete_perm.app_error",
@@ -2960,7 +2960,7 @@
     },
     {
         "id": "model.config.is_valid.message_export.global_relay.email_address.app_error",
-        "translation": "Задача за експортиране на съобщения GlobalRelaySettings.EmailAddress трябва да бъде зададен на валиден имейл адрес."
+        "translation": "В задача за експортиране на съобщения GlobalRelaySettings.EmailAddress трябва да бъде зададен на валиден адрес ел.поща."
     },
     {
         "id": "bleveengine.create_post_index.error",
@@ -2968,7 +2968,7 @@
     },
     {
         "id": "model.compliance.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "'Създадено в' трябва да е валидно време."
     },
     {
         "id": "api.user.login_ldap.not_available.app_error",
@@ -2984,7 +2984,7 @@
     },
     {
         "id": "model.authorize.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "ent.compliance.actiance.warning.creation.appError",
@@ -3000,7 +3000,7 @@
     },
     {
         "id": "model.command_hook.channel_id.app_error",
-        "translation": "Невалиден идентификатор на канала."
+        "translation": "Невалиден id на канал."
     },
     {
         "id": "api.user.verify_email.link_expired.app_error",
@@ -3012,7 +3012,7 @@
     },
     {
         "id": "store.sql_user.get_users_batch_for_indexing.get_users.app_error",
-        "translation": "Потребителите не могат да получат партида за индексиране."
+        "translation": "Не може да се получи пакета потребители за индексиране."
     },
     {
         "id": "bleveengine.search_users_in_channel.nuchan.error",
@@ -3020,7 +3020,7 @@
     },
     {
         "id": "model.cluster.is_valid.hostname.app_error",
-        "translation": "Името на хоста трябва да бъде зададено."
+        "translation": "Hostname трябва да бъде зададено."
     },
     {
         "id": "app.import.validate_post_import_data.message_length.error",
@@ -3028,7 +3028,7 @@
     },
     {
         "id": "model.group.remote_id.app_error",
-        "translation": "невалидна отдалечена собственост на идентификатор за група."
+        "translation": "невалидно remote id свойство за група."
     },
     {
         "id": "model.file_info.is_valid.id.app_error",
@@ -3060,7 +3060,7 @@
     },
     {
         "id": "store.sql_user.clear_all_custom_role_assignments.commit_transaction.app_error",
-        "translation": "Не успя да извърши транзакцията с база данни."
+        "translation": "Не успя да извърши транзакцията с базата данни."
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.close.app_error",
@@ -3068,7 +3068,7 @@
     },
     {
         "id": "model.group.delete_at.app_error",
-        "translation": "невалидно изтриване при свойство за група."
+        "translation": "невалидно delete at свойство за група."
     },
     {
         "id": "app.command_webhook.handle_command_webhook.parse",
@@ -3108,7 +3108,7 @@
     },
     {
         "id": "model.config.is_valid.email_security.app_error",
-        "translation": "Невалидна защита на връзката за настройките на електронната поща. Трябва да е '', 'TLS' или 'STARTTLS'."
+        "translation": "Невалидна защита на връзката в настройките за ел.поща. Трябва да е '', 'TLS' или 'STARTTLS'."
     },
     {
         "id": "app.import.validate_team_import_data.display_name_length.error",
@@ -3124,7 +3124,7 @@
     },
     {
         "id": "model.access.is_valid.redirect_uri.app_error",
-        "translation": "Невалиден redirect uri."
+        "translation": "Невалиден uri за пренасочване."
     },
     {
         "id": "store.sql_channel.save.archived_channel.app_error",
@@ -3156,7 +3156,7 @@
     },
     {
         "id": "utils.file.remove_directory.s3.app_error",
-        "translation": "Среща грешка при премахване на директория от S3."
+        "translation": "Среща грешка при изтриване на директория от S3."
     },
     {
         "id": "model.compliance.is_valid.id.app_error",
@@ -3188,7 +3188,7 @@
     },
     {
         "id": "model.config.is_valid.message_export.global_relay.smtp_password.app_error",
-        "translation": "Задача за експортиране на съобщения GlobalRelaySettings.SmtpPassword трябва да бъде зададен."
+        "translation": "В задача за експортиране на съобщения GlobalRelaySettings.SmtpPassword трябва да бъде зададен."
     },
     {
         "id": "app.import.validate_user_import_data.password_length.error",
@@ -3228,7 +3228,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_uppercase.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква и поне една главна буква."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една малка буква и една главна буква."
     },
     {
         "id": "ent.compliance.actiance.xml.creation.appError",
@@ -3236,7 +3236,7 @@
     },
     {
         "id": "store.sql_command.get.missing.app_error",
-        "translation": "Команда не съществува."
+        "translation": "Командата не съществува."
     },
     {
         "id": "app.session.save.app_error",
@@ -3252,7 +3252,7 @@
     },
     {
         "id": "web.error.unsupported_browser.open_system_browser.edge",
-        "translation": "Опън едж (Open Edge)"
+        "translation": "Open Edge"
     },
     {
         "id": "app.session.analytics_session_count.app_error",
@@ -3288,7 +3288,7 @@
     },
     {
         "id": "model.config.is_valid.saml_email_attribute.app_error",
-        "translation": "Невалиден атрибут на имейл. Трябва да е настроен."
+        "translation": "Невалиден атрибут на ел.поща. Трябва да е настроен."
     },
     {
         "id": "app.import.validate_reaction_import_data.create_at_zero.error",
@@ -3308,7 +3308,7 @@
     },
     {
         "id": "store.sql_user.save.email_exists.app_error",
-        "translation": "Профил с този имейл вече съществува."
+        "translation": "Профил с тази ел.поща вече съществува."
     },
     {
         "id": "app.notification.body.intro.notification.full",
@@ -3316,7 +3316,7 @@
     },
     {
         "id": "mfa.activate.save_active.app_error",
-        "translation": "Не може да се актуализира активното състояние на MFA за потребителя."
+        "translation": "Не може да се актуализира статуса на активност за МФУ потребител."
     },
     {
         "id": "ent.cluster.timeout.error",
@@ -3348,7 +3348,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_id",
-        "translation": "AD / LDAP поле „Идентификационен номер на ID“ е задължително."
+        "translation": "AD/LDAP полето \"ID Attribute\" е задължително."
     },
     {
         "id": "app.import.validate_user_import_data.advanced_props_formatting.error",
@@ -3412,7 +3412,7 @@
     },
     {
         "id": "model.channel_member.is_valid.push_level.app_error",
-        "translation": "Невалидно ниво на известие за натискане."
+        "translation": "Невалидно ниво на изскачащи известия."
     },
     {
         "id": "store.sql_channel.get_private_channels.get.app_error",
@@ -3424,7 +3424,7 @@
     },
     {
         "id": "model.config.is_valid.saml_guest_attribute.app_error",
-        "translation": "Невалиден атрибут на гост. Трябва да е във формата „поле = стойност“."
+        "translation": "Невалиден атрибут на гост. Трябва да е във формата „поле=стойност“."
     },
     {
         "id": "app.import.validate_team_import_data.description_length.error",
@@ -3436,7 +3436,7 @@
     },
     {
         "id": "model.channel.is_valid.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "Актуализирано в, трябва да е валидно време."
     },
     {
         "id": "ent.elasticsearch.start.parse_server_version.app_error",
@@ -3452,7 +3452,7 @@
     },
     {
         "id": "model.config.is_valid.read_timeout.app_error",
-        "translation": "Невалидна стойност за изчакване за четене."
+        "translation": "Невалидна стойност за изчакване при четене."
     },
     {
         "id": "app.import.validate_channel_import_data.name_characters.error",
@@ -3464,15 +3464,15 @@
     },
     {
         "id": "store.sql_user.update_failed_pwd_attempts.app_error",
-        "translation": "Невъзможно е да се актуализират неуспешните_темати."
+        "translation": "Невъзможно е да се актуализират failed_attempts."
     },
     {
         "id": "model.group_member.group_id.app_error",
-        "translation": "невалидна собственост на идентификатор на група за член на групата."
+        "translation": "невалидно group id свойство за член на група."
     },
     {
         "id": "model.config.is_valid.email_notification_contents_type.app_error",
-        "translation": "Невалиден тип съдържание на известия по имейл за настройки на имейла. Трябва да е един от „пълните“ или „родовите“."
+        "translation": "Невалиден тип съдържание на известия по ел.поща в настройките. Трябва да е 'full' или 'generic'."
     },
     {
         "id": "model.team.is_valid.url.app_error",
@@ -3536,7 +3536,7 @@
     },
     {
         "id": "model.config.is_valid.image_proxy_type.app_error",
-        "translation": "Невалиден тип прокси изображение на изображението. Трябва да е „местно“ или „атмосферата“."
+        "translation": "Невалиден тип прокси за изображения. Трябва да е 'local' или 'atmos/camo'."
     },
     {
         "id": "model.user_access_token.is_valid.description.app_error",
@@ -3560,7 +3560,7 @@
     },
     {
         "id": "store.sql_channel.save_channel.exists.app_error",
-        "translation": "В същия екип вече съществува канал с това име."
+        "translation": "В този екип вече съществува канал с това име."
     },
     {
         "id": "app.import.import_line.null_post.error",
@@ -3576,7 +3576,7 @@
     },
     {
         "id": "model.incoming_hook.channel_id.app_error",
-        "translation": "Невалиден идентификатор на канала."
+        "translation": "Невалиден id на канал."
     },
     {
         "id": "interactive_message.decode_trigger_id.signature_decode_failed",
@@ -3584,7 +3584,7 @@
     },
     {
         "id": "model.user.is_valid.nickname.app_error",
-        "translation": "Невалиден прякор."
+        "translation": "Невалиден псевдоним."
     },
     {
         "id": "app.admin.test_email.failure",
@@ -3604,7 +3604,7 @@
     },
     {
         "id": "model.config.is_valid.file_driver.app_error",
-        "translation": "Невалидно име на драйвер за настройките на файла. Трябва да са „местни“ или „амазони3“."
+        "translation": "Невалидно име на драйвер в настройките за файл. Трябва да e 'local' or 'amazons3'."
     },
     {
         "id": "app.preference.permanent_delete_by_user.app_error",
@@ -3624,7 +3624,7 @@
     },
     {
         "id": "model.group_syncable.group_id.app_error",
-        "translation": "невалидно свойство на идентификатор на група за синхронизиране на група."
+        "translation": "невалидно group id свойство за синхронизация на група."
     },
     {
         "id": "app.import.validate_user_import_data.notify_props_desktop_sound_invalid.error",
@@ -3656,7 +3656,7 @@
     },
     {
         "id": "model.config.is_valid.listen_address.app_error",
-        "translation": "Невалиден адрес за слушане за настройките на услугата Трябва да бъде зададен."
+        "translation": "Невалиден адрес за слушане в настройките на услугата, трябва да бъде зададен."
     },
     {
         "id": "app.session.update_device_id.app_error",
@@ -3684,15 +3684,15 @@
     },
     {
         "id": "model.config.is_valid.bleve_search.bulk_indexing_time_window_seconds.app_error",
-        "translation": "Прозорецът за време за индексиране на насипно състояние на Bleve трябва да бъде най-малко 1 секунда."
+        "translation": "Времевия прозорец на Bleve Bulk трябва да бъде най-малко 1 секунда."
     },
     {
         "id": "model.user.is_valid.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "'Обновено в' трябва да е валидно време."
     },
     {
         "id": "model.guest.is_valid.email.app_error",
-        "translation": "Грешен имейл."
+        "translation": "Грешна ел.поща."
     },
     {
         "id": "api.templates.email_change_verify_body.button",
@@ -3704,7 +3704,7 @@
     },
     {
         "id": "store.sql_channel.get.find.app_error",
-        "translation": "Срещнахме грешка при намирането на канала."
+        "translation": "Възникна грешка при намирането на канала."
     },
     {
         "id": "app.import.validate_team_import_data.type_invalid.error",
@@ -3720,7 +3720,7 @@
     },
     {
         "id": "model.token.is_valid.expiry",
-        "translation": "Изтичане на невалидното означение"
+        "translation": "Невалиден срок маркера"
     },
     {
         "id": "app.preference.delete.app_error",
@@ -3748,7 +3748,7 @@
     },
     {
         "id": "model.config.is_valid.sql_data_src.app_error",
-        "translation": "Невалиден източник на данни за SQL настройки. Трябва да е настроен."
+        "translation": "Невалиден източник на данни в SQL настройките. Трябва да е настроен."
     },
     {
         "id": "model.config.is_valid.bleve_search.filename.app_error",
@@ -3800,7 +3800,7 @@
     },
     {
         "id": "store.sql_user.update_mfa_secret.app_error",
-        "translation": "Ние срещнахме грешка при актуализиране на тайната на MFA на потребителя."
+        "translation": "Срещнахме грешка при актуализиране на МФУ тайната на потребителя."
     },
     {
         "id": "api.templates.remove_expired_license.subject",
@@ -3864,7 +3864,7 @@
     },
     {
         "id": "model.bot.is_valid.update_at.app_error",
-        "translation": "Невалидната актуализация в."
+        "translation": "Невалидно актуализирано в."
     },
     {
         "id": "api.team.search_teams.pagination_not_implemented.public_team_search",
@@ -3892,7 +3892,7 @@
     },
     {
         "id": "model.authorize.is_valid.expires.app_error",
-        "translation": "Срокът на валидност трябва да бъде зададен."
+        "translation": "Изтича на, трябва да бъде зададен."
     },
     {
         "id": "model.utils.decode_json.app_error",
@@ -3908,19 +3908,19 @@
     },
     {
         "id": "store.sql_user.promote_guest.open_transaction.app_error",
-        "translation": "Неуспешно стартиране на транзакцията с база данни."
+        "translation": "Неуспешно стартиране на транзакция с базата данни."
     },
     {
         "id": "model.group.description.app_error",
-        "translation": "невалидно описание за група."
+        "translation": "невалидно description свойство за група."
     },
     {
         "id": "searchengine.bleve.disabled.error",
-        "translation": "Грешка при пречистване на Bleve индекси: двигателят е деактивиран"
+        "translation": "Грешка при прочистване на Bleve индекси: двигателят е забранен"
     },
     {
         "id": "model.team_member.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "model.oauth.is_valid.homepage.app_error",
@@ -3936,7 +3936,7 @@
     },
     {
         "id": "web.incoming_webhook.channel_locked.app_error",
-        "translation": "Тази уеб кука не е позволена да публикува в искания канал."
+        "translation": "На тази webhook не е позволено да публикува в искания канал."
     },
     {
         "id": "app.import.validate_user_import_data.advanced_props_feature_markdown_preview.error",
@@ -3948,7 +3948,7 @@
     },
     {
         "id": "model.link_metadata.is_valid.data.app_error",
-        "translation": "Данните за метаданни за връзка не могат да бъдат нулеви."
+        "translation": "Данните за метаданни на връзка не могат да бъдат празни."
     },
     {
         "id": "store.sql_team.update.finding.app_error",
@@ -3956,7 +3956,7 @@
     },
     {
         "id": "model.user_access_token.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "api.templates.invite_body_guest.info",
@@ -3972,7 +3972,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.callback.app_error",
-        "translation": "Невалидни URL адреси за обратно извикване."
+        "translation": "Невалидни URL адреси за обратно повикване."
     },
     {
         "id": "api.user.login.invalid_credentials_sso",
@@ -4052,7 +4052,7 @@
     },
     {
         "id": "model.websocket_client.connect_fail.app_error",
-        "translation": "Не може да се свърже със сървъра WebSocket."
+        "translation": "Не може да се свърже с WebSocket сървъра."
     },
     {
         "id": "api.user.send_user_access_token.error",
@@ -4060,7 +4060,7 @@
     },
     {
         "id": "model.config.is_valid.tls_cert_file.app_error",
-        "translation": "Невалидна стойност за файл със сертификат TLS - Използвайте LetsEncrypt или задайте път към съществуващия сертификатен файл."
+        "translation": "Невалидна стойност за файл със сертификат TLS - Използвайте LetsEncrypt или задайте път към съществуващ файл на сертификата."
     },
     {
         "id": "app.preference.get_all.app_error",
@@ -4068,7 +4068,7 @@
     },
     {
         "id": "utils.file.list_directory.local.app_error",
-        "translation": "Срещна директория за грешка в списъка за съхранение на файлове в локален сървър."
+        "translation": "Срещнахме грешка при показване на директория в локалното хранилище за файлове на сървъра."
     },
     {
         "id": "model.channel.is_valid.2_or_more.app_error",
@@ -4080,7 +4080,7 @@
     },
     {
         "id": "store.sql_user.clear_all_custom_role_assignments.open_transaction.app_error",
-        "translation": "Неуспешно стартиране на транзакцията с база данни."
+        "translation": "Неуспешно стартиране на транзакция с базата данни."
     },
     {
         "id": "store.sql_status.save.app_error",
@@ -4104,7 +4104,7 @@
     },
     {
         "id": "model.group_syncable.type.app_error",
-        "translation": "невалиден тип свойство за групово синхронизиране."
+        "translation": "невалидно type свойство за синхронизация на група."
     },
     {
         "id": "app.session.remove.app_error",
@@ -4148,7 +4148,7 @@
     },
     {
         "id": "store.sql_user.update.email_taken.app_error",
-        "translation": "Този имейл вече е взет. Моля, изберете друг."
+        "translation": "Тази ел.поща вече е заета. Моля, изберете друга."
     },
     {
         "id": "store.sql_post.get_root_posts.app_error",
@@ -4160,7 +4160,7 @@
     },
     {
         "id": "store.sql_user.update.finding.app_error",
-        "translation": "Срещнахме грешка при намирането на акаунта."
+        "translation": "Срещнахме грешка при намирането на профила."
     },
     {
         "id": "model.channel.is_valid.creator_id.app_error",
@@ -4200,7 +4200,7 @@
     },
     {
         "id": "model.config.is_valid.message_export.export_from.app_error",
-        "translation": "Задача за експортиране на съобщения ExportFromTimestamp трябва да бъде отметка (изразена в секунди от Unix epoch). Само съобщенията, изпратени след тази часова марка, ще бъдат експортирани."
+        "translation": "ExportFromTimestamp на задачата за експортиране на съобщения трябва да бъде времева отметка (изразена в секунди след Unix epoch). Само съобщенията, изпратени след тази времева отметка, ще бъдат експортирани."
     },
     {
         "id": "model.bot.is_valid.username.app_error",
@@ -4272,7 +4272,7 @@
     },
     {
         "id": "store.sql_user.get_by_auth.other.app_error",
-        "translation": "Срещнахме грешка при опит да намерим акаунта според типа на удостоверяване."
+        "translation": "Срещнахме грешка при опит да намерим профил според типа на удостоверяване."
     },
     {
         "id": "app.import.import_line.unknown_line_type.error",
@@ -4304,7 +4304,7 @@
     },
     {
         "id": "model.config.is_valid.rate_sec.app_error",
-        "translation": "Невалидна за секунда за настройки на ограничението на скоростта. Трябва да е положително число."
+        "translation": "Невалидно per sec в настройките за ограничение на трафика. Трябва да е положително число."
     },
     {
         "id": "model.license_record.is_valid.create_at.app_error",
@@ -4324,7 +4324,7 @@
     },
     {
         "id": "model.channel_member.is_valid.unread_level.app_error",
-        "translation": "Невалидно ниво на непрочетена марка."
+        "translation": "Невалидно ниво на маркирай като непрочетени."
     },
     {
         "id": "api.user.promote_guest_to_user.no_guest.app_error",
@@ -4352,7 +4352,7 @@
     },
     {
         "id": "model.config.is_valid.saml_idp_cert.app_error",
-        "translation": "Липсва публично удостоверение за доставчик на самоличност Забравихте ли да го качите?"
+        "translation": "Липсва публичен сертификат на доставчика на самоличност. Забравихте ли да го качите?"
     },
     {
         "id": "api.user.login.use_auth_service.app_error",
@@ -4368,7 +4368,7 @@
     },
     {
         "id": "model.emoji.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "'Създадено в' трябва да е валидно време."
     },
     {
         "id": "ent.data_retention.flags_batch.internal_error",
@@ -4376,7 +4376,7 @@
     },
     {
         "id": "model.incoming_hook.parse_data.app_error",
-        "translation": "Не може да се анализира входящите данни."
+        "translation": "Неуспешно анализиране на входящите данни."
     },
     {
         "id": "model.user_access_token.is_valid.id.app_error",
@@ -4436,15 +4436,15 @@
     },
     {
         "id": "model.config.is_valid.ldap_email",
-        "translation": "Поле AD / LDAP „Атрибут на имейл“ е задължително."
+        "translation": "AD/LDAP полето \"Email Attribute\" е задължително."
     },
     {
         "id": "model.user.is_valid.pwd_uppercase.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една главна буква."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, и поне една главна буква."
     },
     {
         "id": "model.user.is_valid.pwd_uppercase_number.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една главна буква и поне едно число."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една главна буква и едно число."
     },
     {
         "id": "model.config.is_valid.sitename_length.app_error",
@@ -4460,7 +4460,7 @@
     },
     {
         "id": "model.oauth.is_valid.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "'Обновено в' трябва да е валидно време."
     },
     {
         "id": "app.channel.get.find.app_error",
@@ -4468,7 +4468,7 @@
     },
     {
         "id": "model.job.is_valid.type.app_error",
-        "translation": "Невалиден тип работа."
+        "translation": "Невалиден тип задача."
     },
     {
         "id": "app.webhooks.permanent_delete_outgoing_by_channel.app_error",
@@ -4488,7 +4488,7 @@
     },
     {
         "id": "model.config.is_valid.message_export.global_relay.config_missing.app_error",
-        "translation": "Задача за експортиране на съобщения ExportFormat е зададена на 'globalrelay', но GlobalRelaySettings липсват."
+        "translation": "ExportFormat на задача за експортиране на съобщения е зададена на 'globalrelay', но GlobalRelaySettings липсват."
     },
     {
         "id": "app.notification.body.text.group_message.generic",
@@ -4520,15 +4520,15 @@
     },
     {
         "id": "model.config.is_valid.tls_key_file.app_error",
-        "translation": "Невалидна стойност за ключов файл на TLS - Използвайте LetsEncrypt или задайте път към съществуващия ключов файл."
+        "translation": "Невалидна стойност за ключов файл на TLS - Използвайте LetsEncrypt или задайте път към съществуващ файл на ключа."
     },
     {
         "id": "store.sql_user.update.updating.app_error",
-        "translation": "Ние срещнахме грешка при актуализирането на акаунта."
+        "translation": "Срещнахме грешка при актуализирането на профила."
     },
     {
         "id": "model.config.is_valid.data_retention.deletion_job_start_time.app_error",
-        "translation": "Началното време на заданието за задържане на данни трябва да бъде 24-часов печат във формата HH: MM."
+        "translation": "Времето на започване на заданието за съхранение на данни трябва да бъде 24-часова отметка във формата HH: MM."
     },
     {
         "id": "store.sql_channel.sidebar_categories.open_transaction.app_error",
@@ -4560,11 +4560,11 @@
     },
     {
         "id": "model.command.is_valid.team_id.app_error",
-        "translation": "Невалиден идентификационен номер на екипа."
+        "translation": "Невалиден ID на екип."
     },
     {
         "id": "model.authorize.is_valid.redirect_uri.app_error",
-        "translation": "Невалиден redirect uri."
+        "translation": "Невалиден uri за пренасочване."
     },
     {
         "id": "app.import.validate_channel_import_data.display_name_missing.error",
@@ -4572,15 +4572,15 @@
     },
     {
         "id": "model.group_syncable.syncable_id.app_error",
-        "translation": "невалиден синхронизиращ идентификатор за групово синхронизиране."
+        "translation": "невалидно syncable id свойство за синхронизация на група."
     },
     {
         "id": "model.group.source.app_error",
-        "translation": "невалидно свойство на източник за група."
+        "translation": "невалидно source свойство за група."
     },
     {
         "id": "model.config.is_valid.email_batching_interval.app_error",
-        "translation": "Невалиден интервал за изпращане на имейл за настройките на имейла. Трябва да е 30 секунди или повече."
+        "translation": "Невалиден интервал за пакетно изпращане на ел.поща в настройките. Трябва да е 30 секунди или повече."
     },
     {
         "id": "app.import.validate_scheme_import_data.wrong_roles_for_scope.error",
@@ -4588,7 +4588,7 @@
     },
     {
         "id": "mfa.generate_qr_code.save_secret.app_error",
-        "translation": "Грешка при запазването на тайната на МВнР."
+        "translation": "Грешка при запазване на МФУ тайната."
     },
     {
         "id": "api.templates.email_info3",
@@ -4604,11 +4604,11 @@
     },
     {
         "id": "model.job.is_valid.id.app_error",
-        "translation": "Невалиден id на работа."
+        "translation": "Невалиден id на задача."
     },
     {
         "id": "model.user.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "''Създадено в' трябва да е валидно време."
     },
     {
         "id": "app.terms_of_service.get.no_rows.app_error",
@@ -4628,11 +4628,11 @@
     },
     {
         "id": "model.config.is_valid.sql_query_timeout.app_error",
-        "translation": "Невалиден период на изчакване на заявката за настройките на SQL. Трябва да е положително число."
+        "translation": "Невалиден период на изчакване на заявката в настройките на SQL. Трябва да е положително число."
     },
     {
         "id": "store.sql_post.search.disabled",
-        "translation": "Търсенето е деактивирано на този сървър. Моля, свържете се със системния си администратор."
+        "translation": "Търсенето е забранено на този сървър. Моля, свържете се със системния администратор."
     },
     {
         "id": "app.cluster.404.app_error",
@@ -4708,7 +4708,7 @@
     },
     {
         "id": "store.sql_user.promote_guest.commit_transaction.app_error",
-        "translation": "Не успя да извърши транзакцията с база данни."
+        "translation": "Не успя да извърши транзакцията с базата данни."
     },
     {
         "id": "app.import.validate_user_channels_import_data.invalid_notify_props_desktop.error",
@@ -4728,7 +4728,7 @@
     },
     {
         "id": "model.config.is_valid.saml_idp_descriptor_url.app_error",
-        "translation": "URL адресът на издателя на доставчик на идентичност трябва да бъде валиден URL адрес и да започне с http: // или https: //."
+        "translation": "URL-а на издателя на доставчика на идентичност трябва да бъде валиден URL адрес и да започва с http:// или https://."
     },
     {
         "id": "app.plugin.install_id.app_error",
@@ -4744,7 +4744,7 @@
     },
     {
         "id": "model.link_metadata.is_valid.timestamp.app_error",
-        "translation": "Времевата марка за метаданни за връзка трябва да е ненулева и закръглена до най-близкия час."
+        "translation": "Времевата отметка в метаданните на връзката трябва да е ненулева и закръглена до най-близкия час."
     },
     {
         "id": "store.sql_team.analytics_get_team_count_for_scheme.app_error",
@@ -4752,7 +4752,7 @@
     },
     {
         "id": "model.plugin_key_value.is_valid.plugin_id.app_error",
-        "translation": "Невалиден идентификатор на плъгин, трябва да е повече от {{.Min}} и максимум {{.Max}} знака."
+        "translation": "Невалиден ID на приставка, трябва да е повече от {{.Min}} и максимум {{.Max}} знака."
     },
     {
         "id": "web.error.unsupported_browser.browser_get_latest.chrome",
@@ -4796,7 +4796,7 @@
     },
     {
         "id": "model.command.is_valid.url.app_error",
-        "translation": "Невалиден адрес."
+        "translation": "Невалиден URL."
     },
     {
         "id": "app.import.validate_user_import_data.auth_data_length.error",
@@ -4816,7 +4816,7 @@
     },
     {
         "id": "migrations.worker.run_migration.unknown_key",
-        "translation": "Невъзможно е да стартирате миграционна задача поради неизвестен ключ за миграция."
+        "translation": "Невъзможно е стартиране на миграционна задача поради неизвестен ключ за миграция."
     },
     {
         "id": "api.templates.reset_body.button",
@@ -4836,7 +4836,7 @@
     },
     {
         "id": "model.config.is_valid.group_unread_channels.app_error",
-        "translation": "Невалидни групови непрочетени канали за настройките на услугата. Трябва да е „деактивиран“, „по подразбиране_он“ или „по подразбиране_изключен“."
+        "translation": "Невалидно 'групиране непрочетените канали' в настройките на услугата. Трябва да е 'disabled', 'default_on', или 'default_off'."
     },
     {
         "id": "model.channel.is_valid.type.app_error",
@@ -4844,7 +4844,7 @@
     },
     {
         "id": "model.post.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "api.user.get_user_by_email.permissions.app_error",
@@ -4852,7 +4852,7 @@
     },
     {
         "id": "model.plugin_kvset_options.is_valid.old_value.app_error",
-        "translation": "Невалидна стара стойност, тя не трябва да се задава, когато операцията не е атомна."
+        "translation": "Невалидна стара стойност, тя не трябва да се задава, когато операцията не е неделима."
     },
     {
         "id": "app.plugin.webapp_bundle.app_error",
@@ -4860,7 +4860,7 @@
     },
     {
         "id": "store.sql_user.demote_user_to_guest.commit_transaction.app_error",
-        "translation": "Не успя да извърши транзакцията с база данни."
+        "translation": "Не успя да извърши транзакция с базата данни."
     },
     {
         "id": "oauth.gitlab.tos.error",
@@ -4880,7 +4880,7 @@
     },
     {
         "id": "store.sql_user.get_known_users.get_users.app_error",
-        "translation": "Не могат да се запознаят потребителите от базата данни."
+        "translation": "Не могат да се получат известните потребители от базата данни."
     },
     {
         "id": "api.templates.deactivate_body.info",
@@ -4900,11 +4900,11 @@
     },
     {
         "id": "model.post.is_valid.root_parent.app_error",
-        "translation": "Невалиден идентификатор на root трябва да бъде зададен, ако родителският идентификатор е зададен."
+        "translation": "Невалиден идентификатор на корена, трябва да бъде зададен, ако родителският идентификатор е зададен."
     },
     {
         "id": "model.post.channel_notifications_disabled_in_channel.message",
-        "translation": "Известията за канали са деактивирани в {{.ChannelName}}. {{.Mention}} не задейства известия."
+        "translation": "Известията за канали са забранени в {{.ChannelName}}. {{.Mention}} не задейства известия."
     },
     {
         "id": "app.channel.get_channels.not_found.app_error",
@@ -4912,7 +4912,7 @@
     },
     {
         "id": "model.incoming_hook.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребителя."
     },
     {
         "id": "app.plugin.mvdir.app_error",
@@ -4928,11 +4928,11 @@
     },
     {
         "id": "plugin_api.send_mail.missing_htmlbody",
-        "translation": "Липсва HTML тело."
+        "translation": "Липсва HTML тяло."
     },
     {
         "id": "model.config.is_valid.saml_assertion_consumer_service_url.app_error",
-        "translation": "URL адресът за вход на доставчика на услуги трябва да е валиден URL адрес и да започне с http: // или https: //."
+        "translation": "URL-а за вход на доставчика на услуги трябва да е валиден URL и да започва с http:// или https://."
     },
     {
         "id": "api.user.authorize_oauth_user.bad_response.app_error",
@@ -4956,11 +4956,11 @@
     },
     {
         "id": "web.incoming_webhook.invalid.app_error",
-        "translation": "Невалидна уеб кука."
+        "translation": "Невалиден webhook."
     },
     {
         "id": "store.sql_team.save_member.exists.app_error",
-        "translation": "Член на екипа с този идентификационен номер вече съществува."
+        "translation": "Член на екипа с този ID вече съществува."
     },
     {
         "id": "app.import.validate_user_import_data.notify_props_comments_trigger_invalid.error",
@@ -4980,11 +4980,11 @@
     },
     {
         "id": "model.config.is_valid.atmos_camo_image_proxy_options.app_error",
-        "translation": "Невалидни RemoteImageProxyOptions за atmos / camo. Трябва да е настроен на вашия споделен ключ."
+        "translation": "Невалидно RemoteImageProxyOptions за atmos/camo. Трябва да е настроен във вашия споделен ключ."
     },
     {
         "id": "store.sql_bot.get.missing.app_error",
-        "translation": "Бот не съществува."
+        "translation": "Бота не съществува."
     },
     {
         "id": "store.sql_channel.save_member.exists.app_error",
@@ -5016,7 +5016,7 @@
     },
     {
         "id": "model.user.is_valid.email.app_error",
-        "translation": "Грешен имейл."
+        "translation": "Грешна ел.поща."
     },
     {
         "id": "store.sql_post.analytics_posts_count.app_error",
@@ -5024,7 +5024,7 @@
     },
     {
         "id": "model.channel_member.is_valid.channel_id.app_error",
-        "translation": "Невалиден идентификатор на канала."
+        "translation": "Невалиден id на канал."
     },
     {
         "id": "app.role.save.insert.app_error",
@@ -5036,7 +5036,7 @@
     },
     {
         "id": "model.command_hook.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "app.command.listautocompletecommands.internal_error",
@@ -5072,7 +5072,7 @@
     },
     {
         "id": "model.config.is_valid.sql_idle.app_error",
-        "translation": "Невалидна връзка за максимално празен ход за настройките на SQL. Трябва да е положително число."
+        "translation": "Невалидни максимум неактивни връзки в настройките на SQL. Трябва да е положително число."
     },
     {
         "id": "interactive_message.decode_trigger_id.verify_signature_failed",
@@ -5092,11 +5092,11 @@
     },
     {
         "id": "model.group.update_at.app_error",
-        "translation": "невалидна актуализация в свойството за група."
+        "translation": "невалидно update at свойство за група."
     },
     {
         "id": "model.channel.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "Създадено в трябва да е валидно време."
     },
     {
         "id": "ent.ldap.do_login.user_filtered.app_error",
@@ -5136,7 +5136,7 @@
     },
     {
         "id": "model.group.id.app_error",
-        "translation": "невалиден идентификационен номер за група."
+        "translation": "невалидно id свойство за група."
     },
     {
         "id": "model.config.is_valid.data_retention.message_retention_days_too_low.app_error",
@@ -5144,7 +5144,7 @@
     },
     {
         "id": "store.sql_user.analytics_get_system_admin_count.app_error",
-        "translation": "Броят на системния администратор не може да се получи."
+        "translation": "Броят системни администратори не може да се получи."
     },
     {
         "id": "ent.saml.do_login.empty_response.app_error",
@@ -5168,7 +5168,7 @@
     },
     {
         "id": "store.sql_user.get.app_error",
-        "translation": "Срещнахме грешка при намирането на акаунта."
+        "translation": "Срещнахме грешка при намирането на профила."
     },
     {
         "id": "app.import.validate_direct_post_import_data.channel_members_too_many.error",
@@ -5188,11 +5188,11 @@
     },
     {
         "id": "model.group_member.user_id.app_error",
-        "translation": "невалидна собственост на потребителски идентификатор за член на групата."
+        "translation": "невалидно user id свойство за член на група."
     },
     {
         "id": "model.channel_member.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "app.audit.save.saving.app_error",
@@ -5224,7 +5224,7 @@
     },
     {
         "id": "utils.mail.send_mail.msg.app_error",
-        "translation": "Неуспешно писане на имейл съобщение."
+        "translation": "Неуспешно писане на съобщение за ел.поща."
     },
     {
         "id": "app.import.validate_channel_import_data.type_missing.error",
@@ -5232,7 +5232,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_uppercase_number.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква, поне една главна буква и поне едно число."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една малка буква, една главна буква и едно число."
     },
     {
         "id": "store.sql_channel.get_channels_batch_for_indexing.get.app_error",
@@ -5244,7 +5244,7 @@
     },
     {
         "id": "model.config.is_valid.elastic_search.bulk_indexing_time_window_seconds.app_error",
-        "translation": "Времевият прозорец за индексиране на еластични изследвания трябва да бъде най-малко 1 секунда."
+        "translation": "Времевият прозорец за групово индексиране на Elasticsearch трябва да бъде най-малко 1 секунда."
     },
     {
         "id": "app.webhooks.delete_incoming.app_error",
@@ -5268,7 +5268,7 @@
     },
     {
         "id": "store.sql_group.uniqueness_error",
-        "translation": "член на групата вече съществува"
+        "translation": "члена на групата вече съществува"
     },
     {
         "id": "app.audit.get.finding.app_error",
@@ -5276,7 +5276,7 @@
     },
     {
         "id": "model.config.is_valid.ldap_sync_interval.app_error",
-        "translation": "Невалидно време за интервал на синхронизация. Трябва да е поне една минута."
+        "translation": "Невалидно време на интервал за синхронизация. Трябва да е поне една минута."
     },
     {
         "id": "app.import.validate_scheme_import_data.display_name_invalid.error",
@@ -5320,11 +5320,11 @@
     },
     {
         "id": "model.command.is_valid.url_http.app_error",
-        "translation": "Невалиден адрес. Трябва да е валиден URL адрес и да започнете с http: // или https: //."
+        "translation": "Невалиден URL. Трябва да е валиден URL адрес и да започва с http:// или https://."
     },
     {
         "id": "model.user.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "app.reaction.bulk_get_for_post_ids.app_error",
@@ -5352,7 +5352,7 @@
     },
     {
         "id": "model.post.is_valid.root_id.app_error",
-        "translation": "Невалиден root id."
+        "translation": "Невалиден id на корена."
     },
     {
         "id": "store.sql_channel.save_channel.existing.app_error",
@@ -5364,15 +5364,15 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.trigger_words.app_error",
-        "translation": "Невалидни думи за задействане."
+        "translation": "Невалидни задействащи думи."
     },
     {
         "id": "mfa.activate.bad_token.app_error",
-        "translation": "Невалиден маркер на MFA."
+        "translation": "Невалиден маркер на МФУ."
     },
     {
         "id": "model.access.is_valid.refresh_token.app_error",
-        "translation": "Невалиден означение за опресняване."
+        "translation": "Невалиден маркер за опресняване."
     },
     {
         "id": "model.team.is_valid.characters.app_error",
@@ -5388,15 +5388,15 @@
     },
     {
         "id": "model.authorize.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "Създадено в, трябва да е валидно време."
     },
     {
         "id": "model.config.is_valid.message_export.daily_runtime.app_error",
-        "translation": "Работата за експортиране на съобщения DailyRuntime трябва да е 24-часов печат във формата HH: MM."
+        "translation": "DailyRuntime на задачата за експортиране на съобщения трябва да е 24-часова отметка във формата HH: MM."
     },
     {
         "id": "model.token.is_valid.size",
-        "translation": "Невалиден Жетон."
+        "translation": "Невалиден маркер."
     },
     {
         "id": "app.webhooks.save_incoming.app_error",
@@ -5432,7 +5432,7 @@
     },
     {
         "id": "model.link_metadata.is_valid.url.app_error",
-        "translation": "URL адресът на метаданни за връзка трябва да бъде зададен."
+        "translation": "URL-а в метаданните на връзката трябва да бъде зададен."
     },
     {
         "id": "api.web_socket_router.bad_action.app_error",
@@ -5444,11 +5444,11 @@
     },
     {
         "id": "store.sql_channel.save_channel.limit.app_error",
-        "translation": "Достигнахте лимита на броя на разрешените канали."
+        "translation": "Достигнахте ограничението за броя разрешени канали."
     },
     {
         "id": "model.config.is_valid.atmos_camo_image_proxy_url.app_error",
-        "translation": "Невалиден RemoteImageProxyURL за atmos / camo. Трябва да е настроен на вашия споделен ключ."
+        "translation": "Невалидно RemoteImageProxyURL за atmos/camo. Трябва да е настроен на вашия споделен ключ."
     },
     {
         "id": "store.sql_system.update.app_error",
@@ -5460,7 +5460,7 @@
     },
     {
         "id": "store.sql_user.get_by_auth.missing_account.app_error",
-        "translation": "Не може да се намери съществуващ акаунт, отговарящ на типа ви за удостоверяване за този екип. Този екип може да изисква покана от собственика на екипа, за да се присъедини."
+        "translation": "Не може да се намери съществуващ профил, отговарящ на типа ви за удостоверяване за този екип. Този екип може да изисква покана от собственика на екипа, за да се присъедини."
     },
     {
         "id": "app.terms_of_service.create.app_error",
@@ -5472,7 +5472,7 @@
     },
     {
         "id": "model.config.is_valid.max_file_size.app_error",
-        "translation": "Невалиден размер на файла за настройките на файла. Трябва да е цяло число по-голямо от нула."
+        "translation": "Невалиден размер на файла в настройките на файла. Трябва да е цяло число по-голямо от нула."
     },
     {
         "id": "api.user.send_email_change_email_and_forget.error",
@@ -5480,7 +5480,7 @@
     },
     {
         "id": "model.config.is_valid.elastic_search.request_timeout_seconds.app_error",
-        "translation": "Времето за заявка за заявка за еластична изиска трябва да бъде поне 1 секунда."
+        "translation": "Времето за изчакване на заявка на Elasticsearch трябва да бъде поне 1 секунда."
     },
     {
         "id": "store.sql_channel.analytics_type_count.app_error",
@@ -5488,7 +5488,7 @@
     },
     {
         "id": "model.config.is_valid.message_export.global_relay.smtp_username.app_error",
-        "translation": "Задача за експортиране на съобщения GlobalRelaySettings.SmtpUsername трябва да бъде зададена."
+        "translation": "В задачата за експортиране на съобщения GlobalRelaySettings.SmtpUsername трябва да бъде зададен."
     },
     {
         "id": "app.scheme.permanent_delete_all.app_error",
@@ -5504,7 +5504,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.token.app_error",
-        "translation": "Невалиден Жетон."
+        "translation": "Невалиден маркер."
     },
     {
         "id": "store.sql_user.app_error",
@@ -5524,7 +5524,7 @@
     },
     {
         "id": "mfa.deactivate.save_secret.app_error",
-        "translation": "Грешка при изчистване на тайната на МВнР."
+        "translation": "Грешка при изчистване на МФУ тайната."
     },
     {
         "id": "app.plugin.flag_managed.app_error",
@@ -5544,7 +5544,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.channel_id.app_error",
-        "translation": "Невалиден идентификатор на канала."
+        "translation": "Невалиден id на канала."
     },
     {
         "id": "api.user.login.inactive.app_error",
@@ -5568,7 +5568,7 @@
     },
     {
         "id": "web.incoming_webhook.split_props_length.app_error",
-        "translation": "Реквизитите за уебхокинг не могат да се разделят на {{.Max}} символни части."
+        "translation": "Свойствата на webhook не могат да се разделят на {{.Max}} символни части."
     },
     {
         "id": "app.import.validate_emoji_import_data.empty.error",
@@ -5576,11 +5576,11 @@
     },
     {
         "id": "model.team.is_valid.invite_id.app_error",
-        "translation": "Невалиден идентификационен номер на поканата."
+        "translation": "Невалиден id на поканата."
     },
     {
         "id": "model.command.is_valid.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "Актуализирано в, трябва да е валидно време."
     },
     {
         "id": "ent.elasticsearch.start.start_bulk_processor_failed.app_error",
@@ -5616,7 +5616,7 @@
     },
     {
         "id": "model.config.is_valid.login_attempts.app_error",
-        "translation": "Невалидни опити за максимално влизане за настройките на услугата. Трябва да е положително число."
+        "translation": "Невалидно максимални опити за влизане в настройките на услугата. Трябва да е положително число."
     },
     {
         "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
@@ -5640,11 +5640,11 @@
     },
     {
         "id": "model.config.is_valid.directory.app_error",
-        "translation": "Невалиден указател за локално съхранение. Трябва да е непразен низ."
+        "translation": "Невалидна директория на локалното хранилище. Трябва да е непразен низ."
     },
     {
         "id": "model.config.is_valid.restrict_direct_message.app_error",
-        "translation": "Невалидно ограничение за директно съобщение. Трябва да е „всеки“ или „екип“."
+        "translation": "Невалидно ограничение за директно съобщение. Трябва да е 'any' или 'team'."
     },
     {
         "id": "api.user.create_user.signup_link_invalid.app_error",
@@ -5660,11 +5660,11 @@
     },
     {
         "id": "model.channel.is_valid.display_name.app_error",
-        "translation": "Невалидно екранно име."
+        "translation": "Невалидно показвано име."
     },
     {
         "id": "model.command.is_valid.token.app_error",
-        "translation": "Невалиден Жетон."
+        "translation": "Невалиден маркер."
     },
     {
         "id": "api.team.invate_guests_to_channels.license.error",
@@ -5692,7 +5692,7 @@
     },
     {
         "id": "model.config.is_valid.max_notify_per_channel.app_error",
-        "translation": "Невалидни максимални известия на канал за настройките на екипа. Трябва да е положително число."
+        "translation": "Невалидни максимално известия за канал в настройките на екипа. Трябва да е положително число."
     },
     {
         "id": "api.user.upload_profile_user.parse.app_error",
@@ -5736,7 +5736,7 @@
     },
     {
         "id": "web.error.unsupported_browser.browser_title.chrome",
-        "translation": "Гугъл Chrome"
+        "translation": "Google Chrome"
     },
     {
         "id": "api.server.warn_metric.email_us",
@@ -5764,7 +5764,7 @@
     },
     {
         "id": "model.config.is_valid.max_users.app_error",
-        "translation": "Невалидни максимални потребители на екип за настройките на екипа. Трябва да е положително число."
+        "translation": "Невалидни максимално потребители на екип в настройките на екипа. Трябва да е положително число."
     },
     {
         "id": "store.sql_channel.clear_all_custom_role_assignments.commit_transaction.app_error",
@@ -5784,7 +5784,7 @@
     },
     {
         "id": "model.config.is_valid.sql_driver.app_error",
-        "translation": "Невалидно име на драйвер за настройките на SQL. Трябва да е „mysql“ или „postgres“."
+        "translation": "Невалидно име на драйвер в настройките на SQL. Трябва да е 'mysql' или 'postgres'."
     },
     {
         "id": "app.oauth.get_apps.find.app_error",
@@ -5796,11 +5796,11 @@
     },
     {
         "id": "utils.file.remove_file.s3.app_error",
-        "translation": "Възникна грешка при премахване на файл от S3."
+        "translation": "Възникна грешка при изтриване на файл от S3."
     },
     {
         "id": "model.config.is_valid.ldap_security.app_error",
-        "translation": "Невалидна защита на връзката за настройките на AD / LDAP. Трябва да е '', 'TLS' или 'STARTTLS'."
+        "translation": "Невалидна защита на връзката за настройките на AD/LDAP. Трябва да е 'TLS' или 'STARTTLS'."
     },
     {
         "id": "web.error.unsupported_browser.download_the_app",
@@ -5812,7 +5812,7 @@
     },
     {
         "id": "utils.file.list_directory.s3.app_error",
-        "translation": "Срещна директория за грешка в списъка от S3."
+        "translation": "Срещнахме грешка при показване на директория от S3."
     },
     {
         "id": "store.sql_user.save.username_exists.saml_app_error",
@@ -5828,7 +5828,7 @@
     },
     {
         "id": "model.config.is_valid.message_export.enable.app_error",
-        "translation": "Задача за експортиране на съобщение Настройката EnableExport трябва да бъде вярна или невярна."
+        "translation": "Настройката EnableExport на задачата за износ на съобщения трябва да бъде true или false."
     },
     {
         "id": "api.user.create_oauth_user.not_available.app_error",
@@ -5856,7 +5856,7 @@
     },
     {
         "id": "model.config.is_valid.time_between_user_typing.app_error",
-        "translation": "Времето между потребителите, които въвеждат актуализации, не трябва да се задава на по-малко от 1000 милисекунди."
+        "translation": "Времето за обновяване на \"Потребител пише\", не трябва да се задава на по-малко от 1000 милисекунди."
     },
     {
         "id": "api.templates.password_change_body.title",
@@ -5880,7 +5880,7 @@
     },
     {
         "id": "model.file_info.is_valid.path.app_error",
-        "translation": "Невалидна стойност за пътя."
+        "translation": "Невалидна стойност за path."
     },
     {
         "id": "api.server.warn_metric.bot_response.mailto_diagnostic_id_header",
@@ -5904,7 +5904,7 @@
     },
     {
         "id": "store.sql_user.update_active_for_multiple_users.getting_changed_users.app_error",
-        "translation": "Невъзможно е да се получи списъкът с деактивиращите идентификационни номера на гостите."
+        "translation": "Не можа да се получи списъкът с id-та на гости за деактивиране."
     },
     {
         "id": "app.import.validate_user_import_data.first_name_length.error",
@@ -5928,7 +5928,7 @@
     },
     {
         "id": "mfa.validate_token.authenticate.app_error",
-        "translation": "Невалиден маркер на MFA."
+        "translation": "Невалиден маркер на МФУ."
     },
     {
         "id": "store.sql_post.get_posts_created_att.app_error",
@@ -5940,11 +5940,11 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.words.app_error",
-        "translation": "Невалидни думи за задействане."
+        "translation": "Невалидни задействащи думи."
     },
     {
         "id": "model.config.is_valid.cluster_email_batching.app_error",
-        "translation": "Невъзможно е да се активира пакетирането по имейл, когато е активирано клъстерирането."
+        "translation": "Невъзможно е да се активира пакетирането по ел.поща, когато е активирано клъстеризирането."
     },
     {
         "id": "app.notification.subject.direct.full",
@@ -5960,11 +5960,11 @@
     },
     {
         "id": "model.team.is_valid.email.app_error",
-        "translation": "Грешен имейл."
+        "translation": "Грешна ел.поща."
     },
     {
         "id": "model.group.name.invalid_chars.app_error",
-        "translation": "невалидни знаци в свойството име за група"
+        "translation": "невалидни символи в name свойството за група"
     },
     {
         "id": "model.team.is_valid.update_at.app_error",
@@ -6008,7 +6008,7 @@
     },
     {
         "id": "model.config.is_valid.message_export.global_relay.customer_type.app_error",
-        "translation": "Износ на съобщения GlobalRelaySettings.CustomerType трябва да бъде зададен на един от „A9“ или „A10“."
+        "translation": "В износа на съобщения GlobalRelaySettings.CustomerType трябва да бъде зададено 'A9' or 'A10'."
     },
     {
         "id": "api.templates.email_change_body.info",
@@ -6024,7 +6024,7 @@
     },
     {
         "id": "model.channel.is_valid.name.app_error",
-        "translation": "Невалидно име на канала. Потребителските идентификационни номера не са разрешени в името на канала за не-директни канали за съобщения."
+        "translation": "Невалидно име на канала. Id-та на потребител не са разрешени в името на канали за не-директни съобщения."
     },
     {
         "id": "store.sql_post.permanent_delete_all_comments_by_user.app_error",
@@ -6064,7 +6064,7 @@
     },
     {
         "id": "store.sql_user.update.can_not_change_ldap.app_error",
-        "translation": "Не може да променя полета, зададени от AD / LDAP."
+        "translation": "Не може да се променят полета, зададени от AD/LDAP."
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_number_symbol.app_error",
@@ -6076,7 +6076,7 @@
     },
     {
         "id": "store.sql.convert_string_array",
-        "translation": "FromDb: Не може да конвертира StringArray в низ *"
+        "translation": "FromDb: Не може да конвертира StringArray в *низ"
     },
     {
         "id": "app.import.validate_direct_post_import_data.user_missing.error",
@@ -6100,7 +6100,7 @@
     },
     {
         "id": "model.incoming_hook.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "''Създадено в' трябва да е валидно време."
     },
     {
         "id": "ent.elasticsearch.search_posts.parse_matches_failed",
@@ -6120,7 +6120,7 @@
     },
     {
         "id": "model.config.is_valid.encrypt_sql.app_error",
-        "translation": "Невалиден ключ за криптиране в покой за настройки на SQL. Трябва да е 32 знака или повече."
+        "translation": "Невалиден ключ за 'at rest' криптиране в настройки на SQL. Трябва да е 32 знака или повече."
     },
     {
         "id": "api.user.upload_profile_user.decode_config.app_error",
@@ -6160,15 +6160,15 @@
     },
     {
         "id": "store.sql_user.demote_user_to_guest.open_transaction.app_error",
-        "translation": "Неуспешно стартиране на транзакцията с база данни."
+        "translation": "Неуспешно стартиране на транзакция с базата данни."
     },
     {
         "id": "utils.mail.sendMail.attachments.write_error",
-        "translation": "Неуспешно писане на прикачен файл към имейл"
+        "translation": "Неуспешен запис на прикачен файл към ел.поща"
     },
     {
         "id": "model.outgoing_hook.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребителя."
     },
     {
         "id": "app.webhooks.analytics_incoming_count.app_error",
@@ -6188,7 +6188,7 @@
     },
     {
         "id": "mfa.mfa_disabled.app_error",
-        "translation": "Многофакторната автентификация е деактивирана на този сървър."
+        "translation": "Многофакторното удостоверяване е забранено на този сървър."
     },
     {
         "id": "api.team.import_team.unknown_import_from.app_error",
@@ -6208,15 +6208,15 @@
     },
     {
         "id": "model.config.is_valid.sql_max_conn.app_error",
-        "translation": "Невалидна максимално отворена връзка за настройките на SQL. Трябва да е положително число."
+        "translation": "Невалидна максимално отворени връзки в настройките на SQL. Трябва да е положително число."
     },
     {
         "id": "model.cluster.is_valid.create_at.app_error",
-        "translation": "CreateAt трябва да бъде зададен."
+        "translation": "CreateAt трябва да бъде зададено."
     },
     {
         "id": "model.channel_member.is_valid.email_value.app_error",
-        "translation": "Невалидна стойност за уведомяване по имейл."
+        "translation": "Невалидна стойност за уведомяване по ел.поща."
     },
     {
         "id": "app.import.validate_emoji_import_data.name_missing.error",
@@ -6240,7 +6240,7 @@
     },
     {
         "id": "model.config.is_valid.write_timeout.app_error",
-        "translation": "Невалидна стойност за изчакване на запис."
+        "translation": "Невалидна стойност за изчакване при запис."
     },
     {
         "id": "app.webhooks.get_outgoing.app_error",
@@ -6272,11 +6272,11 @@
     },
     {
         "id": "model.preference.is_valid.id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "model.outgoing_hook.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "''Създадено в' трябва да е валидно време."
     },
     {
         "id": "ent.ldap.syncronize.populate_syncables",
@@ -6320,7 +6320,7 @@
     },
     {
         "id": "model.config.is_valid.data_retention.file_retention_days_too_low.app_error",
-        "translation": "Задържането на файлове трябва да бъде един ден или повече."
+        "translation": "Съхранението на файлове трябва да бъде един ден или повече."
     },
     {
         "id": "api.team.get_invite_info.not_open_team",
@@ -6344,7 +6344,7 @@
     },
     {
         "id": "model.emoji.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "'Обновено в' трябва да е валидно време."
     },
     {
         "id": "app.import.get_teams_by_names.some_teams_not_found.error",
@@ -6352,7 +6352,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase_number.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква и поне едно число."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една главна буква и едно число."
     },
     {
         "id": "app.channel.post_update_channel_purpose_message.retrieve_user.error",
@@ -6360,7 +6360,7 @@
     },
     {
         "id": "model.group.display_name.app_error",
-        "translation": "невалидно свойство на дисплейното име за групата."
+        "translation": "невалидно display name свойство за група."
     },
     {
         "id": "api.templates.signin_change_email.subject",
@@ -6376,11 +6376,11 @@
     },
     {
         "id": "model.config.is_valid.elastic_search.connection_url.app_error",
-        "translation": "Elasticsearch ConnectionUrl настройката трябва да бъде предоставена, когато е активирана индексирането на Elasticsearch."
+        "translation": "Настройката на Elasticsearch ConnectionUrl трябва да бъде предоставена, когато е активирано индексирането на Elasticsearch."
     },
     {
         "id": "store.sql_user.update_update.app_error",
-        "translation": "Не може да се актуализира датата на последната актуализация на потребителя."
+        "translation": "Не може да се актуализира датата на последна актуализация на потребителя."
     },
     {
         "id": "ent.message_export.global_relay_export.deliver.parse_mail.app_error",
@@ -6388,7 +6388,7 @@
     },
     {
         "id": "model.access.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "app.import.validate_user_import_data.notify_props_mobile_push_status_invalid.error",
@@ -6400,11 +6400,11 @@
     },
     {
         "id": "model.config.is_valid.site_url.app_error",
-        "translation": "URL адресът на сайта трябва да е валиден URL адрес и да започне с http: // или https: //."
+        "translation": "URL-а на сайта трябва да е валиден URL адрес и да започне с http:// или https://."
     },
     {
         "id": "model.config.is_valid.saml_idp_url.app_error",
-        "translation": "URL адресът на SAML SSO трябва да бъде валиден URL адрес и да започне с http: // или https: //."
+        "translation": "URL адресът на SAML SSO трябва да бъде валиден URL адрес и да започва с http:// или https://."
     },
     {
         "id": "api.status.user_not_found.app_error",
@@ -6412,7 +6412,7 @@
     },
     {
         "id": "model.config.is_valid.email_batching_buffer_size.app_error",
-        "translation": "Невалиден размер на буфера за изпращане на имейл за настройките на електронната поща. Трябва да е нула или положително число."
+        "translation": "Невалиден размер на буфера за пакетно изпращане на ел.поща в настройките. Трябва да е нула или положително число."
     },
     {
         "id": "app.import.validate_direct_post_import_data.channel_members_too_few.error",
@@ -6432,7 +6432,7 @@
     },
     {
         "id": "jobs.set_job_error.update.error",
-        "translation": "Неуспешно задаване на състояние на работа на грешка"
+        "translation": "Неуспешно задаване състоянието на задача в \"грешка\""
     },
     {
         "id": "bleveengine.indexer.do_job.bulk_index_users.batch_error",
@@ -6472,7 +6472,7 @@
     },
     {
         "id": "model.config.is_valid.saml_private_key.app_error",
-        "translation": "Личен ключ на доставчика на услуги липсва. Забравихте ли да го качите?"
+        "translation": "Частния ключ на доставчика на услуги липсва. Забравихте ли да го качите?"
     },
     {
         "id": "store.sql_team.get_user_team_ids.app_error",
@@ -6488,7 +6488,7 @@
     },
     {
         "id": "store.sql_user.verify_email.app_error",
-        "translation": "Полето за потвърждаване на имейла не може да се актуализира."
+        "translation": "Полето за потвърждаване на ел.поща не може да се актуализира."
     },
     {
         "id": "ent.ldap.do_login.bind_admin_user.app_error",
@@ -6496,15 +6496,15 @@
     },
     {
         "id": "jobs.request_cancellation.status.error",
-        "translation": "Не може да се поиска отмяна за работа, която не е в състояние за отмяна."
+        "translation": "Не може да се поиска отмяна на задача, която не е в отменимо състояние."
     },
     {
         "id": "model.user.is_valid.auth_data.app_error",
-        "translation": "Невалидни данни за автентичност."
+        "translation": "Невалидни данни за удостоверяване."
     },
     {
         "id": "model.command_hook.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "Създадено в, трябва да е валидно време."
     },
     {
         "id": "store.sql_user.get_unread_count_for_channel.app_error",
@@ -6512,7 +6512,7 @@
     },
     {
         "id": "model.group.name.app_error",
-        "translation": "невалидно име на име за група."
+        "translation": "невалидно name свойство за група."
     },
     {
         "id": "store.sql_team.save.existing.app_error",
@@ -6528,7 +6528,7 @@
     },
     {
         "id": "model.group.create_at.app_error",
-        "translation": "невалидно създаване в свойство за група."
+        "translation": "невалидно create at свойство за група."
     },
     {
         "id": "store.sql_channel.clear_all_custom_role_assignments.open_transaction.app_error",
@@ -6540,7 +6540,7 @@
     },
     {
         "id": "model.channel_member.is_valid.ignore_channel_mentions_value.app_error",
-        "translation": "Невалидното игнориране на канала споменава състоянието."
+        "translation": "Невалидното състояние на игнорирай споменаване на канала."
     },
     {
         "id": "app.import.bulk_import.file_scan.error",
@@ -6584,11 +6584,11 @@
     },
     {
         "id": "plugin_api.send_mail.missing_subject",
-        "translation": "Липсва тема на имейла."
+        "translation": "Липсва тема на ел.поща."
     },
     {
         "id": "store.sql_user.get_recently_active_users.app_error",
-        "translation": "Намерихме грешка при намирането на наскоро активните потребители."
+        "translation": "Срещнахме грешка при намирането на наскоро активните потребители."
     },
     {
         "id": "model.team.is_valid.domains.app_error",
@@ -6596,7 +6596,7 @@
     },
     {
         "id": "model.oauth.is_valid.callback.app_error",
-        "translation": "URL адресът за обратно повикване трябва да е валиден URL адрес и да започне с http: // или https: //."
+        "translation": "URL-а за обратно повикване трябва да е валиден URL адрес и да започва с http:// или https://."
     },
     {
         "id": "api.user.login.not_verified.app_error",
@@ -6608,7 +6608,7 @@
     },
     {
         "id": "model.team_member.is_valid.team_id.app_error",
-        "translation": "Невалиден идентификационен номер на екипа."
+        "translation": "Невалиден ID на екипа."
     },
     {
         "id": "api.user.upload_profile_user.upload_profile.app_error",
@@ -6624,7 +6624,7 @@
     },
     {
         "id": "store.sql_user.get_for_login.app_error",
-        "translation": "Не може да се намери съществуващ акаунт, отговарящ на вашите идентификационни данни. Този екип може да изисква покана от собственика на екипа, за да се присъедини."
+        "translation": "Не може да се намери съществуващ профил, отговарящ на вашите идентификационни данни. Този екип може да изисква покана от собственика на екипа, за да се присъедините."
     },
     {
         "id": "model.user_access_token.is_valid.token.app_error",
@@ -6636,7 +6636,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_number.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне едно число."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака и поне едно число."
     },
     {
         "id": "store.sql_team.clear_all_custom_role_assignments.open_transaction.app_error",
@@ -6648,7 +6648,7 @@
     },
     {
         "id": "model.post.is_valid.channel_id.app_error",
-        "translation": "Невалиден идентификатор на канала."
+        "translation": "Невалиден id на канала."
     },
     {
         "id": "model.post.is_valid.create_at.app_error",
@@ -6660,7 +6660,7 @@
     },
     {
         "id": "plugin_api.get_file_link.no_post.app_error",
-        "translation": "Не може да се получи обществена връзка за файл. Файлът трябва да бъде прикачен към публикация, която може да бъде прочетена."
+        "translation": "Не може да се получи публична връзка за файл. Файлът трябва да бъде прикачен към публикация, която може да бъде прочетена."
     },
     {
         "id": "api.templates.email_footer",
@@ -6676,7 +6676,7 @@
     },
     {
         "id": "store.sql_user.get_by_username.app_error",
-        "translation": "Не може да се намери съществуващ акаунт, отговарящ на потребителското ви име за този екип. Този екип може да изисква покана от собственика на екипа, за да се присъедини."
+        "translation": "Не може да се намери съществуващ профил, отговарящ на потребителското Ви име за този екип. Този екип може да изисква покана от собственика на екипа, за да се присъедините."
     },
     {
         "id": "store.sql_channel.update_member.app_error",
@@ -6684,15 +6684,15 @@
     },
     {
         "id": "model.config.is_valid.max_channels.app_error",
-        "translation": "Невалидни максимални канали за екип за настройки на екипа. Трябва да е положително число."
+        "translation": "Невалиден максимум канали за екип в настройките на екипа. Трябва да е положително число."
     },
     {
         "id": "model.config.is_valid.rate_mem.app_error",
-        "translation": "Невалиден размер на паметта за настройки на лимита на скоростта. Трябва да е положително число."
+        "translation": "Невалиден размер на паметта в настройките за ограничение на трафика. Трябва да е положително число."
     },
     {
         "id": "model.command_hook.command_id.app_error",
-        "translation": "Невалиден идентификатор на команда."
+        "translation": "Невалиден id на команда."
     },
     {
         "id": "app.system.warn_metric.notification.invalid_metric.app_error",
@@ -6712,7 +6712,7 @@
     },
     {
         "id": "web.incoming_webhook.parse.app_error",
-        "translation": "Не може да се анализира входящите данни."
+        "translation": "Неуспешно анализиране на входящите данни."
     },
     {
         "id": "app.import.import_line.null_channel.error",
@@ -6752,7 +6752,7 @@
     },
     {
         "id": "store.sql_user.get_system_install_date.app_error",
-        "translation": "Не може да се заключи системната дата въз основа на първата дата на създаване на потребителя."
+        "translation": "Не може да се изведе системната дата въз основа дата на създаване на първия потребителя."
     },
     {
         "id": "model.config.is_valid.elastic_search.posts_aggregator_job_start_time.app_error",
@@ -6784,7 +6784,7 @@
     },
     {
         "id": "model.config.is_valid.message_export.export_type.app_error",
-        "translation": "Задача за експортиране на съобщения ExportFormat трябва да бъде един от „actiance“, „csv“ или „globalrelay“."
+        "translation": "ExportFormat на задачата за експортиране на съобщения трябва да бъде 'actiance', 'csv' или 'globalrelay'."
     },
     {
         "id": "api.templates.email_organization",
@@ -6812,7 +6812,7 @@
     },
     {
         "id": "model.cluster.is_valid.name.app_error",
-        "translation": "Трябва да се зададе ClusterName."
+        "translation": "ClusterName трябва да бъде зададено."
     },
     {
         "id": "app.oauth.update_app.updating.app_error",
@@ -6844,7 +6844,7 @@
     },
     {
         "id": "store.sql_user.update_mfa_active.app_error",
-        "translation": "Срещнахме грешка при актуализиране на активното състояние на MFA на потребителя."
+        "translation": "Срещнахме грешка при актуализиране МФУ активното състояние на потребителя."
     },
     {
         "id": "api.templates.welcome_body.info3",
@@ -6892,7 +6892,7 @@
     },
     {
         "id": "store.sql_channel.save_direct_channel.not_direct.app_error",
-        "translation": "Не е направен опит за създаване на директен канал с SaveDirectChannel."
+        "translation": "Не е правен опит за създаване на директен канал със SaveDirectChannel."
     },
     {
         "id": "web.error.unsupported_browser.browser_get_latest.firefox",
@@ -6940,7 +6940,7 @@
     },
     {
         "id": "store.sql_user.update_auth_data.email_exists.app_error",
-        "translation": "Не можете да превключите акаунта на {{.Service}}. Акаунт, използващ имейла {{.Email}}, вече съществува."
+        "translation": "Не можете да превключите профила на {{.Service}}. Профил, използващ ел.поща {{.Email}}, вече съществува."
     },
     {
         "id": "ent.elasticsearch.create_template_users_if_not_exists.template_create_failed",
@@ -6984,7 +6984,7 @@
     },
     {
         "id": "store.sql_user.get_for_login.multiple_users",
-        "translation": "Открихме множество потребители, които отговарят на вашите идентификационни данни и не успяхме да влезете в системата. Моля, свържете се с администратор."
+        "translation": "Открихме множество потребители, които отговарят на вашите идентификационни данни и не можете да влезете в системата. Моля, свържете се с администратор."
     },
     {
         "id": "api.user.login.bot_login_forbidden.app_error",
@@ -7024,7 +7024,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.url.app_error",
-        "translation": "Невалидни URL адреси за обратно извикване. Всеки трябва да е валиден URL адрес и започнете с http: // или https: //."
+        "translation": "Невалидни URL-и за обратно повикване. Всеки трябва да е валиден URL адрес и започва с http:// или https://."
     },
     {
         "id": "api.user.delete_team.not_enabled.app_error",
@@ -7032,7 +7032,7 @@
     },
     {
         "id": "web.incoming_webhook.disabled.app_error",
-        "translation": "Входящите уебшокове са деактивирани от системния администратор."
+        "translation": "Входящите webhook са забранени от системния администратор."
     },
     {
         "id": "app.channel.get_by_name.existing.app_error",
@@ -7076,7 +7076,7 @@
     },
     {
         "id": "model.incoming_hook.team_id.app_error",
-        "translation": "Невалиден идентификационен номер на екипа."
+        "translation": "Невалиден ID на екипа."
     },
     {
         "id": "app.plugin.write_file.read.app_error",
@@ -7092,7 +7092,7 @@
     },
     {
         "id": "model.user.is_valid.auth_data_type.app_error",
-        "translation": "Невалиден потребител, автентичните данни трябва да бъдат зададени с тип auth."
+        "translation": "Невалиден потребител, данните за удостоверяване трябва да бъдат зададени с типа удостоверяване."
     },
     {
         "id": "app.import.validate_reaction_import_data.emoji_name_length.error",
@@ -7100,7 +7100,7 @@
     },
     {
         "id": "mfa.activate.authenticate.app_error",
-        "translation": "Грешка при опит за удостоверяване на маркера на MFA."
+        "translation": "Грешка при опит за удостоверяване на МФУ маркера."
     },
     {
         "id": "app.import.import_direct_channel.create_group_channel.error",
@@ -7124,7 +7124,7 @@
     },
     {
         "id": "store.sql.convert_string_map",
-        "translation": "FromDb: Не може да конвертира StringMap в * низ"
+        "translation": "FromDb: Не може да конвертира StringMap в *низ"
     },
     {
         "id": "app.emoji.delete.no_results",
@@ -7132,7 +7132,7 @@
     },
     {
         "id": "model.config.is_valid.localization.available_locales.app_error",
-        "translation": "Наличните езици трябва да съдържат клиентски език по подразбиране."
+        "translation": "Налични езици трябва да съдържа клиентски език по подразбиране."
     },
     {
         "id": "store.sql_team.get_all.app_error",
@@ -7184,7 +7184,7 @@
     },
     {
         "id": "store.sql.convert_string_interface",
-        "translation": "FromDb: Не може да конвертира StringInterface в * низ"
+        "translation": "FromDb: Не може да конвертира StringInterface в *низ"
     },
     {
         "id": "app.terms_of_service.get.app_error",
@@ -7204,7 +7204,7 @@
     },
     {
         "id": "model.team.is_valid.reserved.app_error",
-        "translation": "Този URL адрес не е наличен. Моля, опитайте друго."
+        "translation": "Този URL адрес не е наличен. Моля, опитайте друг."
     },
     {
         "id": "app.command_webhook.get.missing",
@@ -7232,7 +7232,7 @@
     },
     {
         "id": "utils.file.remove_directory.local.app_error",
-        "translation": "Среща грешка при премахване на директория от локално съхранение на файлови сървъри."
+        "translation": "Срещнахме грешка при изтриване на директория от локалното хранилище за файлове на сървъра."
     },
     {
         "id": "model.user.is_valid.password_limit.app_error",
@@ -7256,7 +7256,7 @@
     },
     {
         "id": "model.reaction.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "app.bot.permanent_delete.internal_error",
@@ -7300,7 +7300,7 @@
     },
     {
         "id": "model.command.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "app.channel.get_more_channels.get.app_error",
@@ -7312,7 +7312,7 @@
     },
     {
         "id": "model.config.is_valid.site_url_email_batching.app_error",
-        "translation": "Не може да се активира пакетирането по имейл, когато SiteURL не е зададен."
+        "translation": "Не може да се разреши пакетирането по ел.поща, когато SiteURL не е зададен."
     },
     {
         "id": "app.plugin.config.app_error",
@@ -7340,19 +7340,19 @@
     },
     {
         "id": "store.sql_user.get_users_batch_for_indexing.get_channel_members.app_error",
-        "translation": "Не може да се получат членовете на канала за групата на потребителите за индексиране."
+        "translation": "Не може да се получат членовете на канала за пакета потребители за индексиране."
     },
     {
         "id": "model.oauth.is_valid.app_id.app_error",
-        "translation": "Невалиден id на приложението."
+        "translation": "Невалиден id на приложение."
     },
     {
         "id": "model.link_metadata.is_valid.data_type.app_error",
-        "translation": "Данните за метаданни за връзка не съвпадат с дадения тип."
+        "translation": "Данните за метаданни на връзка не съвпадат със зададения тип."
     },
     {
         "id": "store.sql_user.get_users_batch_for_indexing.get_team_members.app_error",
-        "translation": "Не може да се получат членовете на екипа за потребителите на партида за индексиране."
+        "translation": "Не може да се получат членовете на екипа за пакета потребители за индексиране."
     },
     {
         "id": "app.import.get_users_by_username.some_users_not_found.error",
@@ -7368,7 +7368,7 @@
     },
     {
         "id": "model.user.is_valid.pwd_lowercase.app_error",
-        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, съставени от поне една малка буква."
+        "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака и поне една малка буква."
     },
     {
         "id": "ent.elasticsearch.search_posts.search_failed",
@@ -7416,11 +7416,11 @@
     },
     {
         "id": "model.config.is_valid.message_export.batch_size.app_error",
-        "translation": "Задачата за експортиране на съобщения BatchSize трябва да е положително цяло число."
+        "translation": "BatchSize на задачата за износ на съобщения трябва да е положително цяло число."
     },
     {
         "id": "model.reaction.is_valid.emoji_name.app_error",
-        "translation": "Невалидно име на емоджи."
+        "translation": "Невалидно име на емотикон."
     },
     {
         "id": "ent.ldap.do_login.matched_to_many_users.app_error",
@@ -7448,7 +7448,7 @@
     },
     {
         "id": "model.config.is_valid.file_salt.app_error",
-        "translation": "Невалидна сол на обществена връзка за настройките на файла. Трябва да е 32 знака или повече."
+        "translation": "Невалидна сол на публична връзка в настройките за файла. Трябва да е 32 знака или повече."
     },
     {
         "id": "app.plugin.install_id_failed_remove.app_error",
@@ -7460,7 +7460,7 @@
     },
     {
         "id": "model.bot.is_valid.create_at.app_error",
-        "translation": "Невалидно създаване в."
+        "translation": "Невалидно създадено в."
     },
     {
         "id": "app.plugin.disabled.app_error",
@@ -7476,7 +7476,7 @@
     },
     {
         "id": "model.config.is_valid.display.custom_url_schemes.app_error",
-        "translation": "Персонализираната схема на URL адреси {{.Scheme}} е невалидна. Персонализираните схеми за URL адреси трябва да започват с буква и да съдържат само букви, цифри, плюс (+), период (.) И тире (-)."
+        "translation": "Персонализираната схема на URL адреси {{.Scheme}} е невалидна. Персонализираните схеми за URL адреси трябва да започват с буква и да съдържат само букви, цифри, плюс (+), точка (.) и тире (-)."
     },
     {
         "id": "ent.get_users_in_channel_during",
@@ -7488,7 +7488,7 @@
     },
     {
         "id": "model.emoji.id.app_error",
-        "translation": "Невалиден id на емоджи."
+        "translation": "Невалиден id на емотикон."
     },
     {
         "id": "system.message.name",
@@ -7508,7 +7508,7 @@
     },
     {
         "id": "model.incoming_hook.update_at.app_error",
-        "translation": "Актуализацията трябва да е валидно време."
+        "translation": "'Обновено в' трябва да е валидно време."
     },
     {
         "id": "store.sql_team.get_by_names.missing.app_error",
@@ -7520,7 +7520,7 @@
     },
     {
         "id": "model.user.is_valid.auth_data_pwd.app_error",
-        "translation": "Невалидни данни за потребител, парола и автентификация не могат да бъдат зададени и двете."
+        "translation": "Невалидни данни за потребител, парола и удостоверяване, не могат да бъдат зададени и двете."
     },
     {
         "id": "ent.migration.migratetoldap.user_not_found",
@@ -7544,7 +7544,7 @@
     },
     {
         "id": "web.error.unsupported_browser.browser_title.safari",
-        "translation": "сафари"
+        "translation": "Safari"
     },
     {
         "id": "store.sql_channel.count_posts_since.app_error",
@@ -7572,7 +7572,7 @@
     },
     {
         "id": "store.sql_user.update.username_taken.app_error",
-        "translation": "Това потребителско име вече е заето. Моля, изберете друг."
+        "translation": "Това потребителско име вече е заето. Моля, изберете друго."
     },
     {
         "id": "app.import.validate_team_import_data.scheme_invalid.error",
@@ -7680,11 +7680,11 @@
     },
     {
         "id": "model.command.is_valid.plugin_id.app_error",
-        "translation": "Невалиден идентификатор на приставката."
+        "translation": "Невалиден id на приставка."
     },
     {
         "id": "model.post.is_valid.file_ids.app_error",
-        "translation": "Невалидни идентификатори на файлове. Обърнете внимание, че качванията са ограничени до 5 файла максимум. Моля, използвайте допълнителни публикации за повече файлове."
+        "translation": "Невалидни id на файлове. Обърнете внимание, че качванията са ограничени до 5 файла максимум. Моля, използвайте допълнителни публикации за повече файлове."
     },
     {
         "id": "api.team.demote_user_to_guest.license.error",
@@ -7716,7 +7716,7 @@
     },
     {
         "id": "model.config.is_valid.sql_conn_max_lifetime_milliseconds.app_error",
-        "translation": "Невалиден максимален живот на връзката за настройките на SQL. Трябва да е неотрицателно число."
+        "translation": "Невалидна максимална валидност на връзката в настройките на SQL. Трябва да е неотрицателно число."
     },
     {
         "id": "interactive_message.decode_trigger_id.expired",
@@ -7776,7 +7776,7 @@
     },
     {
         "id": "model.cluster.is_valid.type.app_error",
-        "translation": "Тип трябва да бъде зададен."
+        "translation": "Type трябва да бъде зададено."
     },
     {
         "id": "api.user.send_sign_in_change_email_and_forget.error",
@@ -7788,7 +7788,7 @@
     },
     {
         "id": "model.command.is_valid.autocomplete_data.app_error",
-        "translation": "Невалидни данни за автоматично попълване"
+        "translation": "Невалидни данни за автопопълване"
     },
     {
         "id": "store.sql_channel.get_channels_by_ids.not_found.app_error",
@@ -7816,7 +7816,7 @@
     },
     {
         "id": "model.user.is_valid.position.app_error",
-        "translation": "Невалидна позиция: не трябва да е по-дълга от 128 знака."
+        "translation": "Невалидна длъжност: не трябва да е по-дълга от 128 знака."
     },
     {
         "id": "app.notification.body.text.group_message.full",
@@ -7824,7 +7824,7 @@
     },
     {
         "id": "model.file_info.get.gif.app_error",
-        "translation": "Gif не може да се декодира."
+        "translation": "Gif-а не може да се декодира."
     },
     {
         "id": "api.user.update_password.valid_account.app_error",
@@ -7852,7 +7852,7 @@
     },
     {
         "id": "model.job.is_valid.status.app_error",
-        "translation": "Невалиден статус на работа."
+        "translation": "Невалиден статус на задача."
     },
     {
         "id": "api.user.login_by_oauth.not_available.app_error",
@@ -7860,7 +7860,7 @@
     },
     {
         "id": "model.command.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "'Създадено в' трябва да е валидно време."
     },
     {
         "id": "app.command.createcommand.internal_error",
@@ -7868,7 +7868,7 @@
     },
     {
         "id": "mattermost.bulletin.subject",
-        "translation": "Бюлетин за сигурност"
+        "translation": "Mattermost бюлетин за сигурност"
     },
     {
         "id": "store.sql_team.search_all_team.app_error",
@@ -7876,7 +7876,7 @@
     },
     {
         "id": "model.link_metadata.is_valid.type.app_error",
-        "translation": "Невалиден тип метаданни за връзка."
+        "translation": "Невалиден тип метаданни на връзка."
     },
     {
         "id": "app.command_webhook.create_command_webhook.internal_error",
@@ -7908,7 +7908,7 @@
     },
     {
         "id": "utils.file.remove_file.local.app_error",
-        "translation": "Среща грешка при премахване на файл от локално съхранение на файлови сървъри."
+        "translation": "Срещнахме грешка при изтриване на файл от локалното хранилище за файлове на сървъра."
     },
     {
         "id": "model.team.is_valid.type.app_error",
@@ -7920,7 +7920,7 @@
     },
     {
         "id": "model.config.is_valid.max_burst.app_error",
-        "translation": "Максималният размер на спукване трябва да бъде по-голям от нула."
+        "translation": "Максималният размер на серия трябва да бъде по-голям от нула."
     },
     {
         "id": "store.sql_team.migrate_team_members.open_transaction.app_error",
@@ -7940,7 +7940,7 @@
     },
     {
         "id": "utils.mail.send_mail.msg_data.app_error",
-        "translation": "Неуспешно добавяне на данни за имейл съобщения."
+        "translation": "Неуспешно добавяне на данни за съобщения по ел.поща."
     },
     {
         "id": "model.user.is_valid.last_name.app_error",
@@ -8000,7 +8000,7 @@
     },
     {
         "id": "model.bot.is_valid.user_id.app_error",
-        "translation": "Невалиден идентификационен номер на потребителя."
+        "translation": "Невалиден id на потребител."
     },
     {
         "id": "ent.elasticsearch.start.get_server_version.app_error",
@@ -8016,7 +8016,7 @@
     },
     {
         "id": "model.post.is_valid.hashtags.app_error",
-        "translation": "Невалидни hashtags."
+        "translation": "Невалидни хаштагове."
     },
     {
         "id": "store.sql_post.populate_reply_count.app_error",
@@ -8040,11 +8040,11 @@
     },
     {
         "id": "model.command.is_valid.trigger.app_error",
-        "translation": "Невалиден спусък."
+        "translation": "Невалидно задействане."
     },
     {
         "id": "model.oauth.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "''Създадено в' трябва да е валидно време."
     },
     {
         "id": "app.user_terms_of_service.save.app_error",
@@ -8060,7 +8060,7 @@
     },
     {
         "id": "model.job.is_valid.create_at.app_error",
-        "translation": "Създаването в трябва да е валидно време."
+        "translation": "''Създадено в' трябва да е валидно време."
     },
     {
         "id": "ent.elasticsearch.stop.already_stopped.app_error",
@@ -8068,11 +8068,11 @@
     },
     {
         "id": "model.config.is_valid.saml_admin_attribute.app_error",
-        "translation": "Невалиден атрибут на администратора. Трябва да е във формата „поле = стойност“."
+        "translation": "Невалиден атрибут на администратора. Трябва да е във формата „поле =стойност“."
     },
     {
         "id": "model.post.is_valid.props.app_error",
-        "translation": "Невалидни реквизити."
+        "translation": "Невалидни свойства."
     },
     {
         "id": "app.channel.get_all_channels_count.app_error",
@@ -8116,7 +8116,7 @@
     },
     {
         "id": "web.error.unsupported_browser.browser_title.edge",
-        "translation": "Майкрософт Edge"
+        "translation": "Microsoft Edge"
     },
     {
         "id": "store.sql_channel.update_last_viewed_at.app_error",
@@ -8124,7 +8124,7 @@
     },
     {
         "id": "mfa.deactivate.save_active.app_error",
-        "translation": "Не може да се актуализира активното състояние на MFA за потребителя."
+        "translation": "Не може да се актуализира статуса на активност за МФУ потребител."
     },
     {
         "id": "ent.ldap_groups.groups_search_error",
@@ -8148,7 +8148,7 @@
     },
     {
         "id": "model.guest.is_valid.emails.app_error",
-        "translation": "Невалидни имейли."
+        "translation": "Невалидни ел.пощи."
     },
     {
         "id": "api.user.create_profile_image.encode.app_error",
@@ -8164,7 +8164,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.team_id.app_error",
-        "translation": "Невалиден идентификационен номер на екипа."
+        "translation": "Невалиден ID на екипа."
     },
     {
         "id": "store.sql_post.permanent_delete_batch.app_error",
@@ -8192,7 +8192,7 @@
     },
     {
         "id": "plugin_api.bot_cant_create_bot",
-        "translation": "Потребител на бот не може да създаде бот потребител."
+        "translation": "Бот потребител не може да създаде друг бот потребител."
     },
     {
         "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -8232,7 +8232,7 @@
     },
     {
         "id": "web.incoming_webhook.permissions.app_error",
-        "translation": "Неподходящи разрешения за канал."
+        "translation": "Неподходящи права за канал."
     },
     {
         "id": "app.import.validate_channel_import_data.type_invalid.error",
@@ -8260,7 +8260,7 @@
     },
     {
         "id": "web.command_webhook.parse.app_error",
-        "translation": "Не може да се анализира входящите данни."
+        "translation": "Не може да се анализират входящите данни."
     },
     {
         "id": "api.web_socket_router.no_action.app_error",
