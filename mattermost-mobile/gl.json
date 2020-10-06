@@ -40,5 +40,6 @@
   "channel_modal.header": "Cabeceira",
   "channel_modal.descriptionHelp": "Describir como se debe usar esta canle.",
   "channel_modal.headerEx": "P. ex.: \"[Título da ligazón](http://exemplo.com)\"",
-  "channel.isGuest": "Esta persoa é un convidado"
+  "channel.isGuest": "Esta persoa é un convidado",
+  "combined_system_message.added_to_channel.many_expanded": "{users} e {lastUser} foron **engadidos á canle** por {actor}."
 }
