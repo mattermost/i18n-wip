@@ -90,5 +90,15 @@
   "create_comment.addComment": "Engadir un comentario…",
   "combined_system_message.you": "Vostede",
   "combined_system_message.removed_from_team.two": "{firstUser} e {secondUser} foron **retirados do equipo**.",
-  "combined_system_message.removed_from_team.one_you": "Vostede foi **retirado do equipo**."
+  "combined_system_message.removed_from_team.one_you": "Vostede foi **retirado do equipo**.",
+  "post_info.del": "Eliminar",
+  "user.settings.general.username": "Nome de usuario",
+  "user.settings.general.email": "Correo-e",
+  "search_bar.search": "Buscar",
+  "mobile.tos_link": "Termos do servizo",
+  "mobile.routes.channelInfo": "Información",
+  "mobile.privacy_link": "Directiva de privacidade",
+  "mobile.notification_settings.email": "Correo-e",
+  "mobile.edit_channel": "Gardar",
+  "mobile.account.settings.save": "Gardar"
 }
