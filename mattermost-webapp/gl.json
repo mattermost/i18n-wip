@@ -260,5 +260,8 @@
     "add_emoji.save": "Gardar",
     "add_emoji.header": "Engadir",
     "add_command.save": "Gardar",
-    "reaction.you": "Vostede"
+    "reaction.you": "Vostede",
+    "admin.group_settings.group_details.group_teams_and_channels_row.publicChannel": "Canle",
+    "add_outgoing_webhook.channel": "Canle",
+    "emoji_list.image": "Imaxe"
 }
