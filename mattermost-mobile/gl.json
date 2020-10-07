@@ -169,5 +169,6 @@
   "date_separator.yesterday": "Onte",
   "date_separator.today": "Hoxe",
   "create_post.deactivated": "Está a ver unha canle arquivada cun usuario desactivado.",
-  "mobile.routes.tableImage": "Imaxe"
+  "mobile.routes.tableImage": "Imaxe",
+  "mobile.share_extension.channel": "Canle"
 }
