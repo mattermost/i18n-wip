@@ -168,5 +168,6 @@
   "edit_post.save": "Gardar",
   "date_separator.yesterday": "Onte",
   "date_separator.today": "Hoxe",
-  "create_post.deactivated": "Está a ver unha canle arquivada cun usuario desactivado."
+  "create_post.deactivated": "Está a ver unha canle arquivada cun usuario desactivado.",
+  "mobile.routes.tableImage": "Imaxe"
 }
