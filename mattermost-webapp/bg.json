@@ -3468,7 +3468,7 @@
     "add_emoji.preview": "Предварителен преглед",
     "admin.service.cmdsDesc": "Когато е true, ще бъдат разрешени персонализирани команди с наклонена черта. Вижте [документация](!http://docs.mattermost.com/developer/slash-commands.html), за да научите повече.",
     "general_button.esc": "Esc",
-    "quick_switch_modal.help_no_team": "Въведете, за да намерите канал. Използвайте **▲▼**, за да прегледате, **ENTER**, за да изберете, **ESC**, за да откажете.",
+    "quick_switch_modal.help_no_team": "Въведете, за да намерите канал. Използвайте **ГОРЕ/ДОЛУ**, за да прегледате, **ENTER**, за да изберете, **ESC**, за да откажете.",
     "integrations.help": "Посетете {appDirectory}, за да намерите собствени хоствани приложения и интеграции за Mattermost.",
     "admin.team_channel_settings.convertAndRemoveConfirmModal.toPrivateTitle": "Преобразуване на канал в частен и премахване на {amount, number} {amount, plural, one {потребител} other {потребителя}}?",
     "rhs_header.collapseSidebarTooltip.icon": "Икона за свиване на страничната лента",
