@@ -1865,5 +1865,6 @@
     "add_command.autocompleteHint.help": "(Volitelné) Určete argumenty spojené s vaším příkazem.",
     "add_command.autocomplete.help": "(Volitelné) Zobrazí příkaz v seznamu automatického doplňování, když někdo zadá / do vstupního pole.",
     "add_command.autocomplete": "Automatické doplňování",
-    "about.enterpriseEditionSst": "Vysoká důvěryhodnost zpráv pro podnik"
+    "about.enterpriseEditionSst": "Vysoká důvěryhodnost zpráv pro podnik",
+    "admin.billing.subscription.upgrade": "Vylepšení"
 }
