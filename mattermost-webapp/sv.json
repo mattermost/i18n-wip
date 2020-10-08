@@ -2662,5 +2662,6 @@
     "admin.manage_roles.postAllPublicRoleTitle": "post:channels",
     "admin.license.enterprise.upgrade.accept-terms": "Genom att klicka på **Uppgradera till Enterprise Edition** godkänner du villkoren i Mattermost Enterprise Edition License.",
     "admin.ldap.guestFilterFilterDesc": "",
-    "admin.experimental.experimentalChannelSidebarOrganization.always_on": "Ständigt på"
+    "admin.experimental.experimentalChannelSidebarOrganization.always_on": "Ständigt på",
+    "admin.billing.subscription.upgrade": "Uppdatera"
 }
