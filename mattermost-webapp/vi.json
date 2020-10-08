@@ -2184,5 +2184,6 @@
     "add_incoming_webhook.saving": "Đang lưu...",
     "about.enterpriseEditionSst": "Nền tảng tin nhắn độ tin cậy cao cho doanh nghiệp",
     "about.cloudEdition": "Cloud",
-    "add_command.autocomplete.help": "(Tùy chọn) Hiển thị lệnh gạch chéo của bạn trên danh sách tự động hoàn thành khi nhập / vào ô nhập liệu."
+    "add_command.autocomplete.help": "(Tùy chọn) Hiển thị lệnh gạch chéo của bạn trên danh sách tự động hoàn thành khi nhập / vào ô nhập liệu.",
+    "admin.billing.subscription.upgrade": "Nâng cấp"
 }
