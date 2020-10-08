@@ -162,6 +162,7 @@
   "add_outgoing_webhook.description": "Descrición",
   "add_outgoing_webhook.description.help": "Describa o seu gancho web saínte.",
   "add_outgoing_webhook.displayName": "Título",
+  "add_outgoing_webhook.displayName.help": "Especifique un título para a páxina de configuración do gancho web. O título pode conter ata 64 caracteres.",
   "add_outgoing_webhook.icon_url": "Imaxe de perfil",
   "add_outgoing_webhook.save": "Gardar",
   "add_outgoing_webhook.saving": "Gardando…",
