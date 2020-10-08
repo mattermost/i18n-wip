@@ -36,10 +36,6 @@
         "translation": "Neporozuměl jsem příchozím datům"
     },
     {
-        "id": "web.command_webhook.invalid.app_error",
-        "translation": "Nevalidní webhook"
-    },
-    {
         "id": "web.command_webhook.command.app_error",
         "translation": "Nelze aktualizovat role"
     },
@@ -70,122 +66,6 @@
     {
         "id": "system.message.name",
         "translation": "Systém"
-    },
-    {
-        "id": "store.sql_webhooks.update_outgoing.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.update_incoming.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.save_outgoing.override.app_error",
-        "translation": "Nemůžete přepsat existující OutgoingWebhook"
-    },
-    {
-        "id": "store.sql_webhooks.save_outgoing.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.save_incoming.existing.app_error",
-        "translation": "Nemůžete přepsat existující OutgoingWebhook"
-    },
-    {
-        "id": "store.sql_webhooks.save_incoming.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_outgoing_by_user.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_outgoing_by_channel.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_incoming_by_user.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_incoming_by_channel.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing_by_team.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing_by_channel.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming_by_user.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming_by_channel.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.delete_outgoing.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_webhooks.delete_incoming.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_webhooks.analytics_outgoing_count.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_webhooks.analytics_incoming_count.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_user_access_token.update_token_enable.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_user_access_token.update_token_disable.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_user_access_token.search.app_error",
-        "translation": "Došlo k chybě při vyhledávání přístupového tokenu"
-    },
-    {
-        "id": "store.sql_user_access_token.save.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_user_access_token.get_by_user.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_user_access_token.get_by_token.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_user_access_token.get_all.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_user_access_token.get.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_user_access_token.delete.app_error",
-        "translation": "Nelze aktualizovat role"
     },
     {
         "id": "store.sql_user.verify_email.app_error",
@@ -248,36 +128,12 @@
         "translation": "Nepodařilo se získat příspěvek"
     },
     {
-        "id": "store.sql_user.save.username_exists.saml_app_error",
-        "translation": "Účet s tímto uživatelským jménem již existuje. Kontaktujte prosím vašeho administrátora."
-    },
-    {
-        "id": "store.sql_user.save.username_exists.ldap_app_error",
-        "translation": "Účet s tímto uživatelským jménem již existuje. Kontaktujte prosím vašeho administrátora."
-    },
-    {
         "id": "store.sql_user.save.username_exists.app_error",
         "translation": "Účet s tímto uživatelským jménem již existuje"
     },
     {
-        "id": "store.sql_user.save.member_count.app_error",
-        "translation": "Nepodařilo se získat aktuální počet členů týmu"
-    },
-    {
-        "id": "store.sql_user.save.max_accounts.app_error",
-        "translation": "Tento tým dosáhl maximálního počtu povolených účtu. Kontaktujte prosím systémového administrátora a nechte nastavit vyšší limit."
-    },
-    {
         "id": "store.sql_user.save.existing.app_error",
         "translation": "Musí být vyvolána aktualizace pro existující kanál"
-    },
-    {
-        "id": "store.sql_user.save.email_exists.saml_app_error",
-        "translation": "Tento účet nepoužívá ověření SAML. Vložte prosím email a heslo."
-    },
-    {
-        "id": "store.sql_user.save.email_exists.ldap_app_error",
-        "translation": "Tento účet nepoužívá ověření AD/LDAP. Vložte prosím email a heslo."
     },
     {
         "id": "store.sql_user.save.email_exists.app_error",
@@ -408,56 +264,12 @@
         "translation": "Nezdařilo se udělat rollback datbázové transakce"
     },
     {
-        "id": "store.sql_command.save.get_team.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
         "id": "store.sql_command.save.get.app_error",
         "translation": "Nepodařilo se získat příspěvek"
     },
     {
-        "id": "store.sql_command.save.delete_perm.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_command.save.delete.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_command.get_by_trigger.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_command.analytics_command_count.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_channel.update_member.app_error",
-        "translation": "Došlo k chybě při aktualizaci člena kanálu"
-    },
-    {
-        "id": "store.sql_channel.update_last_viewed_at.app_error",
-        "translation": "Nemohli jsme aktualizovat poslední zobrazené"
-    },
-    {
         "id": "app.channel.update.bad_id",
         "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_channel.search.app_error",
-        "translation": "Došlo k chybě v hledání otevřených týmů"
-    },
-    {
-        "id": "store.sql_channel.save_member.open_transaction.app_error",
-        "translation": "Nelze otevřít transakci"
-    },
-    {
-        "id": "store.sql_channel.save_member.exists.app_error",
-        "translation": "Člen týmu s daným ID již existuje"
-    },
-    {
-        "id": "store.sql_channel.save_member.commit_transaction.app_error",
-        "translation": "Nelze vytvořit transakci"
     },
     {
         "id": "store.sql_channel.save_channel.exists.app_error",
@@ -476,104 +288,16 @@
         "translation": "Nelze upravit archivovaný kanál."
     },
     {
-        "id": "store.sql_channel.reset_all_channel_schemes.open_transaction.app_error",
-        "translation": "Nelze otevřít transakci"
-    },
-    {
-        "id": "store.sql_channel.reset_all_channel_schemes.commit_transaction.app_error",
-        "translation": "Nelze vytvořit transakci"
-    },
-    {
-        "id": "store.sql_channel.remove_member.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_channel.permanent_delete_members_by_user.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.update.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.open_transaction.app_error",
-        "translation": "Nezdařilo se udělat rollback datbázové transakce"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.commit_transaction.app_error",
-        "translation": "Nezdařilo se udělat rollback datbázové transakce"
-    },
-    {
-        "id": "store.sql_channel.get_unread.app_error",
-        "translation": "Nepodařilo se získat nepřečtené zprávy kanálu"
-    },
-    {
-        "id": "store.sql_channel.get_public_channels.get.app_error",
-        "translation": "Nepodařilo se načíst kanály"
-    },
-    {
-        "id": "store.sql_channel.get_pinnedpost_count.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_channel.get_members_by_ids.app_error",
-        "translation": "Nelze přidat členy přímých kanálů"
-    },
-    {
-        "id": "store.sql_channel.get_members.app_error",
-        "translation": "Nelze přidat členy přímých kanálů"
-    },
-    {
-        "id": "store.sql_channel.get_member_for_post.app_error",
-        "translation": "Nepodařilo se zjistit člena kanálu pro daný příspěvek"
-    },
-    {
-        "id": "store.sql_channel.get_member_count.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_channel.get_member.app_error",
-        "translation": "Nelze přidat členy přímých kanálů"
-    },
-    {
-        "id": "store.sql_channel.get_for_post.app_error",
-        "translation": "Nepodařilo se zjistit člena kanálu pro daný příspěvek"
-    },
-    {
         "id": "app.channel.get_deleted.existing.app_error",
         "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.get.app_error",
-        "translation": "Nepodařilo se načíst kanály"
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.app_error",
-        "translation": "Nepodařilo se načíst kanály"
     },
     {
         "id": "app.channel.get_channels.not_found.app_error",
         "translation": "Žádné kanály nebyly nalezeny."
     },
     {
-        "id": "store.sql_channel.get_channel_counts.get.app_error",
-        "translation": "Nelze přidat členy přímých kanálů"
-    },
-    {
-        "id": "store.sql_channel.get_by_scheme.app_error",
-        "translation": "Nepodařilo se získat seznam kanálů pro danou schému"
-    },
-    {
         "id": "app.channel.get_by_name.missing.app_error",
         "translation": "Kanál neexistuje"
-    },
-    {
-        "id": "store.sql_channel.get_all_direct.app_error",
-        "translation": "Nepodařilo se načíst kanály"
-    },
-    {
-        "id": "store.sql_channel.get_all.app_error",
-        "translation": "Nepodařilo se načíst kanály"
     },
     {
         "id": "store.sql_channel.get.find.app_error",
@@ -581,30 +305,6 @@
     },
     {
         "id": "store.sql_channel.get.existing.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.update.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.open_transaction.app_error",
-        "translation": "Nezdařilo se udělat rollback datbázové transakce"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.commit_transaction.app_error",
-        "translation": "Nezdařilo se udělat rollback datbázové transakce"
-    },
-    {
-        "id": "store.sql_channel.analytics_type_count.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_channel.analytics_deleted_type_count.app_error",
         "translation": "Nelze aktualizovat role"
     },
     {
@@ -1340,10 +1040,6 @@
         "translation": "Indexovacímu procesu Elasticsearch se nepodařilo pročíst čas konce"
     },
     {
-        "id": "ent.elasticsearch.indexer.do_job.get_oldest_post.error",
-        "translation": "Nepodařilo se načíst z databáze nejstarší zprávu."
-    },
-    {
         "id": "ent.elasticsearch.index_user.error",
         "translation": "Nepodařilo se vytvořit index uživatele"
     },
@@ -1600,10 +1296,6 @@
         "translation": "Podpora pro osobní přístupové tokeny je na tomto serveru vypnutá. Prosím kontaktujte svého administrátora."
     },
     {
-        "id": "app.user.complete_switch_with_oauth.blank_email.app_error",
-        "translation": "Přihlášení pomocí SAML se nezdařilo, chybí emailová adresa."
-    },
-    {
         "id": "app.team.rename_team.name_occupied",
         "translation": "Nelze přejmenovat tým, jméno je již použito."
     },
@@ -1768,236 +1460,8 @@
         "translation": "Nelze aktualizovat role"
     },
     {
-        "id": "store.sql_team.update.updating.app_error",
-        "translation": "Došlo k chybě při aktualizaci týmu"
-    },
-    {
-        "id": "store.sql_team.update.finding.app_error",
-        "translation": "Došlo k chybě při hledání týmu"
-    },
-    {
-        "id": "store.sql_team.update.find.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_team.update.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.search_private_team.app_error",
-        "translation": "Došlo k chybě v hledání otevřených týmů"
-    },
-    {
-        "id": "store.sql_team.search_open_team.app_error",
-        "translation": "Došlo k chybě v hledání otevřených týmů"
-    },
-    {
-        "id": "store.sql_team.search_all_team.app_error",
-        "translation": "Došlo k chybě v hledání otevřených týmů"
-    },
-    {
-        "id": "store.sql_team.save_member.save.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
         "id": "store.sql_team.save_member.exists.app_error",
         "translation": "Člen týmu s daným ID již existuje"
-    },
-    {
-        "id": "store.sql_team.save.existing.app_error",
-        "translation": "Musí být vyvolána aktualizace pro existující kanál"
-    },
-    {
-        "id": "store.sql_team.save.domain_exists.app_error",
-        "translation": "Tým s tímto názvem již existuje"
-    },
-    {
-        "id": "store.sql_team.save.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.remove_member.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.permanent_delete.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.update.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.open_transaction.app_error",
-        "translation": "Nezdařilo se udělat rollback datbázové transakce"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.commit_transaction.app_error",
-        "translation": "Nezdařilo se udělat rollback datbázové transakce"
-    },
-    {
-        "id": "store.sql_team.get_unread.app_error",
-        "translation": "Nemohli jsme získat počet nepřečtených zpráv týmu"
-    },
-    {
-        "id": "store.sql_team.get_members_by_ids.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.get_members.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.get_member_count.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.get_member.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.get_by_scheme.app_error",
-        "translation": "Nepodařilo se získat seznam kanálů pro danou schému"
-    },
-    {
-        "id": "store.sql_team.get_by_names.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.get_by_name.missing.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_team.get_by_name.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_team.get_by_invite_id.finding.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_team.get_by_invite_id.find.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_team.get_active_member_count.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.get.finding.app_error",
-        "translation": "Došlo k chybě při hledání týmu"
-    },
-    {
-        "id": "store.sql_team.get.find.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.update.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.open_transaction.app_error",
-        "translation": "Nezdařilo se udělat rollback datbázové transakce"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.commit_transaction.app_error",
-        "translation": "Nezdařilo se udělat rollback datbázové transakce"
-    },
-    {
-        "id": "store.sql_team.analytics_team_count.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.analytics_public_team_count.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_team.analytics_private_team_count.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_system.update.app_error",
-        "translation": "Došlo k chybě při aktualizaci přístupového tokenu"
-    },
-    {
-        "id": "store.sql_system.save.app_error",
-        "translation": "Došlo k chybě při aktualizaci přístupového tokenu"
-    },
-    {
-        "id": "store.sql_system.get.app_error",
-        "translation": "Došlo k chybě při aktualizaci přístupového tokenu"
-    },
-    {
-        "id": "store.sql_status.update.app_error",
-        "translation": "Došlo k chybě při načítání stavu"
-    },
-    {
-        "id": "store.sql_status.save.app_error",
-        "translation": "Došlo k chybě při načítání stavu"
-    },
-    {
-        "id": "store.sql_status.reset_all.app_error",
-        "translation": "Došlo k chybě při načítání stavu"
-    },
-    {
-        "id": "store.sql_status.get_total_active_users_count.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_status.get.missing.app_error",
-        "translation": "Pro tento stav neexistuje žádná položka"
-    },
-    {
-        "id": "store.sql_status.get.app_error",
-        "translation": "Došlo k chybě při načítání stavu"
-    },
-    {
-        "id": "store.sql_session.update_roles.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_session.update_last_activity.app_error",
-        "translation": "Nepodařilo se aktualizovat last_activity_at"
-    },
-    {
-        "id": "store.sql_session.update_device_id.app_error",
-        "translation": "Nelze smazat uživatelské předvolby."
-    },
-    {
-        "id": "store.sql_session.save.existing.app_error",
-        "translation": "Nelze aktualizovat existující sezení"
-    },
-    {
-        "id": "store.sql_session.save.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_session.remove_all_sessions_for_team.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_session.remove.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_session.permanent_delete_sessions_by_user.app_error",
-        "translation": "Nelze odstranit všechna uživatelská sezení"
-    },
-    {
-        "id": "store.sql_session.get_sessions.app_error",
-        "translation": "Během vyhledávání relací uživatele došlo k chybě"
-    },
-    {
-        "id": "store.sql_session.get.app_error",
-        "translation": "Došlo k chybě při hledání týmu"
-    },
-    {
-        "id": "store.sql_session.analytics_session_count.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
     },
     {
         "id": "app.scheme.save.app_error",
@@ -2008,42 +1472,6 @@
         "translation": "Nepodařilo se načíst kanály"
     },
     {
-        "id": "store.sql_role.save.update.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_role.save.insert.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_role.get_by_names.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_role.get_by_name.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_role.get_all.app_error",
-        "translation": "Nepodařilo se načíst kanály"
-    },
-    {
-        "id": "store.sql_role.get.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_role.delete.update.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_recover.save.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_recover.delete.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
         "id": "app.reaction.save.save.app_error",
         "translation": "Chyba při mazání příspěvku"
     },
@@ -2052,244 +1480,8 @@
         "translation": "Nelze odstranit reakce s daným jménem emotikonu"
     },
     {
-        "id": "store.sql_preference.update.app_error",
-        "translation": "Nelze smazat uživatelské předvolby."
-    },
-    {
-        "id": "store.sql_preference.save.updating.app_error",
-        "translation": "Při aktualizaci předvolby došlo k chybě"
-    },
-    {
-        "id": "store.sql_preference.save.open_transaction.app_error",
-        "translation": "Nelze se vráti zpět pro obnovení nastavení"
-    },
-    {
-        "id": "store.sql_preference.save.missing_driver.app_error",
-        "translation": "Při aktualizaci předvolby došlo k chybě"
-    },
-    {
-        "id": "store.sql_preference.save.commit_transaction.app_error",
-        "translation": "Nelze se vráti zpět pro obnovení nastavení"
-    },
-    {
-        "id": "store.sql_preference.permanent_delete_by_user.app_error",
-        "translation": "Při aktualizaci předvolby došlo k chybě"
-    },
-    {
-        "id": "store.sql_preference.insert.save.app_error",
-        "translation": "Nelze nastavit uživatelské předvolby."
-    },
-    {
-        "id": "store.sql_preference.get_category.app_error",
-        "translation": "Při hledání preferencí se vyskytla chyba"
-    },
-    {
-        "id": "store.sql_preference.get_all.app_error",
-        "translation": "Při hledání preferencí se vyskytla chyba"
-    },
-    {
-        "id": "store.sql_preference.get.app_error",
-        "translation": "Při hledání preferencí se vyskytla chyba"
-    },
-    {
-        "id": "store.sql_preference.delete.app_error",
-        "translation": "Při aktualizaci předvolby došlo k chybě"
-    },
-    {
-        "id": "store.sql_post.update.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
         "id": "store.sql_post.search.disabled",
         "translation": "Hledání bylo zakázáno na tomto serveru. Obraťte se na správce systému."
-    },
-    {
-        "id": "store.sql_post.save.existing.app_error",
-        "translation": "Aktuální příspěvek nelze aktualizovat"
-    },
-    {
-        "id": "store.sql_post.save.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_by_channel.app_error",
-        "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
-    },
-    {
-        "id": "store.sql_post.permanent_delete.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_post.overwrite.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_post.get_root_posts.app_error",
-        "translation": "Nepodařilo se získat rodiče zpráv zprávy pro kanál"
-    },
-    {
-        "id": "store.sql_post.get_posts_since.app_error",
-        "translation": "Nepodařilo se získat rodiče zpráv zprávy pro kanál"
-    },
-    {
-        "id": "store.sql_post.get_posts_created_att.app_error",
-        "translation": "Nepodařilo se získat rodiče zpráv zprávy pro kanál"
-    },
-    {
-        "id": "store.sql_post.get_posts_by_ids.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_post.get_posts_around.get_parent.app_error",
-        "translation": "Nepodařilo se získat rodiče zpráv zprávy pro kanál"
-    },
-    {
-        "id": "store.sql_post.get_posts_around.get.app_error",
-        "translation": "Nepodařilo se získat rodiče zpráv zprávy pro kanál"
-    },
-    {
-        "id": "store.sql_post.get_posts.app_error",
-        "translation": "Byl překročen limit pro stránkování"
-    },
-    {
-        "id": "store.sql_post.get_parents_posts.app_error",
-        "translation": "Nepodařilo se získat rodiče zpráv zprávy pro kanál"
-    },
-    {
-        "id": "store.sql_post.get_flagged_posts.app_error",
-        "translation": "Nelze přidat členy přímých kanálů"
-    },
-    {
-        "id": "store.sql_post.get_direct_posts.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_post.get.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_post.delete.app_error",
-        "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_post.analytics_user_counts_posts_by_day.app_error",
-        "translation": "Nepodaľilo se získat počty uživatelů spolu s jejich zprávami"
-    },
-    {
-        "id": "store.sql_plugin_store.save.app_error",
-        "translation": "Nepodařilo se uložit nebo aktualizovat hodnotu klíče pluginu"
-    },
-    {
-        "id": "store.sql_oauth.update_app.updating.app_error",
-        "translation": "Došlo k chybě při aktualizaci aplikace"
-    },
-    {
-        "id": "store.sql_oauth.update_app.update.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_oauth.update_app.finding.app_error",
-        "translation": "ošlo k chybě při hledání aplikace"
-    },
-    {
-        "id": "store.sql_oauth.update_app.find.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_oauth.update_access_data.app_error",
-        "translation": "Došlo k chybě při aktualizaci přístupového tokenu"
-    },
-    {
-        "id": "store.sql_oauth.save_auth_data.app_error",
-        "translation": "Nelze uložit autorizační kód."
-    },
-    {
-        "id": "store.sql_oauth.save_app.save.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_oauth.save_app.existing.app_error",
-        "translation": "Musí být vyvolána aktualizace pro existující kanál"
-    },
-    {
-        "id": "store.sql_oauth.save_access_data.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_oauth.remove_auth_data.app_error",
-        "translation": "Nelze odstranit autorizační kód"
-    },
-    {
-        "id": "store.sql_oauth.remove_access_data.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_oauth.permanent_delete_auth_data_by_user.app_error",
-        "translation": "Nelze odstranit autorizační kód"
-    },
-    {
-        "id": "store.sql_oauth.get_previous_access_data.app_error",
-        "translation": "Došlo k chybě při vyhledávání přístupového tokenu"
-    },
-    {
-        "id": "store.sql_oauth.get_auth_data.finding.app_error",
-        "translation": "Došlo k chybě při hledání autorizačního kódu"
-    },
-    {
-        "id": "store.sql_oauth.get_auth_data.find.app_error",
-        "translation": "Nelze najít existující autorizační kód"
-    },
-    {
-        "id": "store.sql_oauth.get_apps.find.app_error",
-        "translation": "Došlo k chybě při mazání OAuth2 aplikace"
-    },
-    {
-        "id": "store.sql_oauth.get_app_by_user.find.app_error",
-        "translation": "Nelze aktualizovat role"
-    },
-    {
-        "id": "store.sql_oauth.get_app.finding.app_error",
-        "translation": "ošlo k chybě při hledání aplikace"
-    },
-    {
-        "id": "store.sql_oauth.get_access_data_by_user_for_app.app_error",
-        "translation": "Došlo k chybě při hledání všech přístupových tokenů"
-    },
-    {
-        "id": "store.sql_oauth.get_access_data.app_error",
-        "translation": "Došlo k chybě při vyhledávání přístupového tokenu"
-    },
-    {
-        "id": "store.sql_oauth.delete_app.app_error",
-        "translation": "Došlo k chybě při mazání OAuth2 aplikace"
-    },
-    {
-        "id": "store.sql_oauth.delete.open_transaction.app_error",
-        "translation": "Nelze otevřít transakci pro odstranění aplikace OAuth2"
-    },
-    {
-        "id": "store.sql_oauth.delete.commit_transaction.app_error",
-        "translation": "Nelze vytvořit transakci"
-    },
-    {
-        "id": "store.sql_job.update.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_job.save.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_job.get_all.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_job.get.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_job.delete.app_error",
-        "translation": "Chyba při mazání příspěvku"
     },
     {
         "id": "store.sql_group.uniqueness_error",
@@ -2300,80 +1492,12 @@
         "translation": "Tým s tímto názvem již existuje"
     },
     {
-        "id": "store.sql_file_info.save.app_error",
-        "translation": "Nemohli jsme smazat informace o souboru u příspěvku"
-    },
-    {
-        "id": "store.sql_file_info.get_with_options.app_error",
-        "translation": "Nemohli jsme smazat informace o souboru u příspěvku"
-    },
-    {
-        "id": "store.sql_file_info.get_for_user_id.app_error",
-        "translation": "Nemohli jsme smazat informace o souboru u příspěvku"
-    },
-    {
-        "id": "store.sql_file_info.get_for_post.app_error",
-        "translation": "Nemohli jsme smazat informace o souboru u příspěvku"
-    },
-    {
-        "id": "store.sql_file_info.get_by_path.app_error",
-        "translation": "Nemohli jsme smazat informace o souboru u příspěvku"
-    },
-    {
-        "id": "store.sql_file_info.get.app_error",
-        "translation": "Nemohli jsme smazat informace o souboru u příspěvku"
-    },
-    {
-        "id": "store.sql_file_info.delete_for_post.app_error",
-        "translation": "Nemohli jsme smazat informace o souboru u příspěvku"
-    },
-    {
-        "id": "store.sql_file_info.attach_to_post.app_error",
-        "translation": "Nemohli jsme smazat informace o souboru u příspěvku"
-    },
-    {
         "id": "app.emoji.delete.no_results",
         "translation": "Nelze najít emoji určené ke smazání"
     },
     {
         "id": "app.emoji.delete.app_error",
         "translation": "Chyba při mazání příspěvku"
-    },
-    {
-        "id": "store.sql_compliance.save.saving.app_error",
-        "translation": "Došlo k chybě při ukládání zprávy o shodě"
-    },
-    {
-        "id": "store.sql_compliance.get.finding.app_error",
-        "translation": "Došlo k chybě při načítání reportů shody"
-    },
-    {
-        "id": "store.sql_command_webhooks.try_use.invalid.app_error",
-        "translation": "Nevalidní webhook"
-    },
-    {
-        "id": "store.sql_command_webhooks.try_use.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_command_webhooks.save.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_command_webhooks.get.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_command.save.update.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
-    },
-    {
-        "id": "store.sql_command.save.saving_overwrite.app_error",
-        "translation": "Nelze přepsat existující příkaz"
-    },
-    {
-        "id": "store.sql_command.save.saving.app_error",
-        "translation": "Nepodařilo se získat příspěvek"
     },
     {
         "id": "app.plugin.get_plugins.app_error",
@@ -2894,10 +2018,6 @@
     {
         "id": "app.export.export_custom_emoji.copy_emoji_images.error",
         "translation": "Nelze zkopírovat uživatelské emoji obrázky"
-    },
-    {
-        "id": "app.cluster.404.app_error",
-        "translation": "Koncový bod clusteru API nebyl nalezen."
     },
     {
         "id": "app.channel.post_update_channel_purpose_message.updated_to",
@@ -3484,10 +2604,6 @@
         "translation": "CreateAt musí být nastaveno"
     },
     {
-        "id": "model.client.connecting.app_error",
-        "translation": "Při připojování k serveru došlo k chybě"
-    },
-    {
         "id": "model.channel_member.is_valid.user_id.app_error",
         "translation": "Neplatné uživatelské id"
     },
@@ -3690,10 +2806,6 @@
     {
         "id": "manaultesting.manual_test.parse.app_error",
         "translation": "Nelze zpracovat URL"
-    },
-    {
-        "id": "jobs.start_synchronize_job.timeout",
-        "translation": "Časový limit synchronizace AD/LDAP vypršel."
     },
     {
         "id": "jobs.set_job_error.update.error",
@@ -5312,10 +4424,6 @@
         "translation": "Chyba při ověření existence zásobníku."
     },
     {
-        "id": "api.file.test_connection.s3.bucked_create.app_error",
-        "translation": "Nelze vytvořit zásobník."
-    },
-    {
         "id": "api.file.test_connection.local.connection.app_error",
         "translation": "Nemáte dostatečné oprávnění k zápisu do specifikované lokální cesty nebo nastala jiná chyba."
     },
@@ -6754,10 +5862,6 @@
     {
         "id": "api.admin.add_certificate.array.app_error",
         "translation": "Požadavek neobsahuje žádný soubor s ‘certifikátem’."
-    },
-    {
-        "id": "actiance.export.marshalToXml.appError",
-        "translation": "Nelze konvertovat export do XML."
     },
     {
         "id": "September",

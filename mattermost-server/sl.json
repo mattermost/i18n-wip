@@ -36,10 +36,6 @@
         "translation": "Dohodnih podatkov ni mogoče razbrati"
     },
     {
-        "id": "web.command_webhook.invalid.app_error",
-        "translation": "Neveljavna metoda"
-    },
-    {
         "id": "web.command_webhook.command.app_error",
         "translation": "Ukaza ni bilo mogoče najti"
     },
@@ -116,124 +112,8 @@
         "translation": "napaka posodabljanja"
     },
     {
-        "id": "store.sql_webhooks.update_outgoing.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.update_incoming.app_error",
-        "translation": "Ni mogoče posodobiti IncomingWebhook"
-    },
-    {
-        "id": "store.sql_webhooks.save_outgoing.override.app_error",
-        "translation": "Obstoječega OutgoingWebhook ne morete prepisati"
-    },
-    {
-        "id": "store.sql_webhooks.save_outgoing.app_error",
-        "translation": "OutgoingWebhook ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_webhooks.save_incoming.existing.app_error",
-        "translation": "Obstoječega IncomingWebhook ne morete prepisati"
-    },
-    {
-        "id": "store.sql_webhooks.save_incoming.app_error",
-        "translation": "Ni mogoče shraniti IncomingWebhook"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_outgoing_by_user.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_outgoing_by_channel.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_incoming_by_user.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_incoming_by_channel.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing_by_team.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing_by_channel.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming_by_user.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming_by_channel.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.delete_outgoing.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.delete_incoming.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_webhooks.analytics_outgoing_count.app_error",
-        "translation": "Ne najdemo kanala"
-    },
-    {
-        "id": "store.sql_webhooks.analytics_incoming_count.app_error",
-        "translation": "Ne najdemo kanala"
-    },
-    {
         "id": "app.user_terms_of_service.delete.app_error",
         "translation": "Pogojev storitve ni mogoče izbrisati."
-    },
-    {
-        "id": "store.sql_user_access_token.update_token_enable.app_error",
-        "translation": "Dostopnega žetona ni mogoče omogočiti"
-    },
-    {
-        "id": "store.sql_user_access_token.update_token_disable.app_error",
-        "translation": "Dostopnega žetona ni mogoče onemogočiti"
-    },
-    {
-        "id": "store.sql_user_access_token.search.app_error",
-        "translation": "Prišlo je do napake pri iskanju žetonov za dostop uporabnika"
-    },
-    {
-        "id": "store.sql_user_access_token.save.app_error",
-        "translation": "Osebnega dostopnega žetona ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_user_access_token.get_by_user.app_error",
-        "translation": "Žetona osebnega dostopa ni mogoče dobiti z uporabnikom"
-    },
-    {
-        "id": "store.sql_user_access_token.get_by_token.app_error",
-        "translation": "Žetona osebnega dostopa ni mogoče dobiti z žetonom"
-    },
-    {
-        "id": "store.sql_user_access_token.get_all.app_error",
-        "translation": "Ni možno dobiti vseh osebnih žetonov za dostop"
-    },
-    {
-        "id": "store.sql_user_access_token.get.app_error",
-        "translation": "Ni možno dobiti osebnega žetona za dostop"
-    },
-    {
-        "id": "store.sql_user_access_token.delete.app_error",
-        "translation": "Osebnega dostopnega žetona ni mogoče izbrisati"
     },
     {
         "id": "store.sql_user.verify_email.app_error",
@@ -308,36 +188,12 @@
         "translation": "Ni mogoče najti uporabnika, ki bi ustrezal parametrom iskanja"
     },
     {
-        "id": "store.sql_user.save.username_exists.saml_app_error",
-        "translation": "Račun s tem uporabniškim imenom že obstaja. Obrnite se na skrbnika."
-    },
-    {
-        "id": "store.sql_user.save.username_exists.ldap_app_error",
-        "translation": "Račun s tem uporabniškim imenom že obstaja. Obrnite se na skrbnika."
-    },
-    {
         "id": "store.sql_user.save.username_exists.app_error",
         "translation": "Račun s tem uporabniškim imenom že obstaja."
     },
     {
-        "id": "store.sql_user.save.member_count.app_error",
-        "translation": "Trenutno štetje članov ekipe ni uspelo"
-    },
-    {
-        "id": "store.sql_user.save.max_accounts.app_error",
-        "translation": "Ta ekipa je dosegla največje dovoljeno število računov. Obrnite se na skrbnika sistema, da nastavite višjo omejitev."
-    },
-    {
         "id": "store.sql_user.save.existing.app_error",
         "translation": "Za obstoječega uporabnika se mora izvesti posodobitev"
-    },
-    {
-        "id": "store.sql_user.save.email_exists.saml_app_error",
-        "translation": "Ta račun ne uporablja overjanja SAML. Prijavite se z e-poštnim naslovom in geslom."
-    },
-    {
-        "id": "store.sql_user.save.email_exists.ldap_app_error",
-        "translation": "Ta račun ne uporablja overjanja AD/LDAP. Prijavite se z e-poštnim naslovom in geslom."
     },
     {
         "id": "store.sql_user.save.email_exists.app_error",
@@ -488,192 +344,8 @@
         "translation": "Aktivnih uporabnikov v zahtevanem obdobju ni mogoče dobiti"
     },
     {
-        "id": "store.sql_team.update_last_team_icon_update.app_error",
-        "translation": "Ni mogoče posodobiti datuma zadnje posodobitve ikone ekipe"
-    },
-    {
-        "id": "store.sql_team.update.updating.app_error",
-        "translation": "Prišlo je do napake pri posodabljanju ekipe"
-    },
-    {
-        "id": "store.sql_team.update.finding.app_error",
-        "translation": "Pri iskanju skupine smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_team.update.find.app_error",
-        "translation": "Ni mogoče najti obstoječe ekipe za posodobitev"
-    },
-    {
-        "id": "store.sql_team.update.app_error",
-        "translation": "Ekipe ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_team.search_private_team.app_error",
-        "translation": "Pri iskanju odprtih ekip je prišlo do napake"
-    },
-    {
-        "id": "store.sql_team.search_open_team.app_error",
-        "translation": "Pri iskanju odprtih ekip je prišlo do napake"
-    },
-    {
-        "id": "store.sql_team.search_all_team.app_error",
-        "translation": "Prišlo je do napake pri iskanju ekip"
-    },
-    {
-        "id": "store.sql_team.save_member.save.app_error",
-        "translation": "Člana ekipe ni mogoče shraniti"
-    },
-    {
         "id": "store.sql_team.save_member.exists.app_error",
         "translation": "Član ekipe s tem ID-jem že obstaja"
-    },
-    {
-        "id": "store.sql_team.save.existing.app_error",
-        "translation": "Za obstoječo ekipo mora biti izvedena posodobitev"
-    },
-    {
-        "id": "store.sql_team.save.domain_exists.app_error",
-        "translation": "Ekipa s tem imenom že obstaja"
-    },
-    {
-        "id": "store.sql_team.save.app_error",
-        "translation": "Ekipe ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_team.reset_all_team_schemes.app_error",
-        "translation": "Shem ekipe ni bilo mogoče ponastaviti"
-    },
-    {
-        "id": "store.sql_team.remove_member.app_error",
-        "translation": "Člana ekipe ni mogoče odstraniti"
-    },
-    {
-        "id": "store.sql_team.permanent_delete.app_error",
-        "translation": "Obstoječe ekipe ni mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.update.app_error",
-        "translation": "Posodobitev člana ekipe ni bila mogoča"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.select.app_error",
-        "translation": " Paketa članov ekipe ni bilo mogoče izbrati"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.open_transaction.app_error",
-        "translation": "Transakcije baze podatkov ni bilo mogoče odpreti"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.commit_transaction.app_error",
-        "translation": "Transakcije baze podatkov ni bilo mogoče začeti"
-    },
-    {
-        "id": "store.sql_team.get_unread.app_error",
-        "translation": "Ni možno pridobiti neprebrana sporočila ekip"
-    },
-    {
-        "id": "store.sql_team.get_members_by_ids.app_error",
-        "translation": "Ni možno pridobiti člane ekipe"
-    },
-    {
-        "id": "store.sql_team.get_members.app_error",
-        "translation": "Ni možno pridobiti člane ekipe"
-    },
-    {
-        "id": "store.sql_team.get_member_count.app_error",
-        "translation": "Ni možno prešteti članov skupine"
-    },
-    {
-        "id": "store.sql_team.get_member.missing.app_error",
-        "translation": "Za ID uporabnika in ID ekipe se ni našlo nobenega člana ekipe"
-    },
-    {
-        "id": "store.sql_team.get_member.app_error",
-        "translation": "Ni možno pridobiti člana ekipe"
-    },
-    {
-        "id": "store.sql_team.get_by_scheme.app_error",
-        "translation": "Ni mogoče dobiti kanalov za zagotovljeno shemo"
-    },
-    {
-        "id": "store.sql_team.get_by_names.app_error",
-        "translation": "Ni možno pridobiti člana ekipe"
-    },
-    {
-        "id": "store.sql_team.get_by_name.missing.app_error",
-        "translation": "Ni mogoče najti obstoječe ekipe"
-    },
-    {
-        "id": "store.sql_team.get_by_name.app_error",
-        "translation": "Ni mogoče najti obstoječe ekipe"
-    },
-    {
-        "id": "store.sql_team.get_by_invite_id.finding.app_error",
-        "translation": "Ni mogoče najti obstoječe ekipe"
-    },
-    {
-        "id": "store.sql_team.get_by_invite_id.find.app_error",
-        "translation": "Ni mogoče najti obstoječe ekipe"
-    },
-    {
-        "id": "store.sql_team.get_all_team_listing.app_error",
-        "translation": "Vseh ekip ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_team.get_all_private_team_listing.app_error",
-        "translation": "Vseh ekip ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_team.get_all.app_error",
-        "translation": "Vseh ekip ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_team.get_active_member_count.app_error",
-        "translation": "Ni možno prešteti članov skupine"
-    },
-    {
-        "id": "store.sql_team.get.finding.app_error",
-        "translation": "Pri iskanju skupine smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_team.get.find.app_error",
-        "translation": "Ni mogoče najti obstoječe ekipe"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.update.app_error",
-        "translation": "Posodobitev člana ekipe ni bila mogoča"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Članov skupine ni bilo mogoče pridobiti"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.open_transaction.app_error",
-        "translation": "Transakcije baze podatkov ni bilo mogoče začeti"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.commit_transaction.app_error",
-        "translation": "Transakcije baze podatkov ni bilo mogoče začeti"
-    },
-    {
-        "id": "store.sql_team.analytics_team_count.app_error",
-        "translation": "Ekip ni mogoče prešteti"
-    },
-    {
-        "id": "store.sql_team.analytics_public_team_count.app_error",
-        "translation": "Ekip ni mogoče prešteti"
-    },
-    {
-        "id": "store.sql_team.analytics_private_team_count.app_error",
-        "translation": "Ekip ni mogoče prešteti"
-    },
-    {
-        "id": "store.sql_team.analytics_get_team_count_for_scheme.app_error",
-        "translation": "Števila kanalov ni mogoče dobiti za shemo."
-    },
-    {
-        "id": "store.sql_file_info.PermanentDeleteByUser.app_error",
-        "translation": "Prilogo uporabnika ni mogoče izbrisati"
     },
     {
         "id": "app.emoji.delete.no_results",
@@ -684,80 +356,8 @@
         "translation": "Čustvenih simbolov ni mogoče izbrisati"
     },
     {
-        "id": "store.sql_compliance.save.saving.app_error",
-        "translation": "Prišlo je do napake pri shranjevanju poročila o skladnosti"
-    },
-    {
-        "id": "store.sql_compliance.get.finding.app_error",
-        "translation": "Prišlo je do napake pri pridobivanju poročil o skladnosti"
-    },
-    {
-        "id": "store.sql_command_webhooks.try_use.invalid.app_error",
-        "translation": "Neveljavna metoda"
-    },
-    {
-        "id": "store.sql_command_webhooks.try_use.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_command_webhooks.save.app_error",
-        "translation": "Ne najdemo kanala"
-    },
-    {
-        "id": "store.sql_command_webhooks.get.app_error",
-        "translation": "Ni mogoče najti kanala"
-    },
-    {
-        "id": "store.sql_command.save.update.app_error",
-        "translation": "Ukaza ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_command.save.saving_overwrite.app_error",
-        "translation": "Obstoječega ukaza ne morete prepisati"
-    },
-    {
-        "id": "store.sql_command.save.saving.app_error",
-        "translation": "Ukaza ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_command.save.get_team.app_error",
-        "translation": "Ukazov ni mogoče dobiti"
-    },
-    {
         "id": "store.sql_command.save.get.app_error",
         "translation": "Ukaza ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_command.save.delete_perm.app_error",
-        "translation": "Ukaza ni mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_command.save.delete.app_error",
-        "translation": "Ukaza ni mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_command.get_by_trigger.app_error",
-        "translation": "Ukaza ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_command.analytics_command_count.app_error",
-        "translation": "Ukazov ni mogoče prešteti"
-    },
-    {
-        "id": "store.sql_cluster_discovery.save.app_error",
-        "translation": "Vrstice ClusterDiscovery ni bilo mogoče shraniti"
-    },
-    {
-        "id": "store.sql_cluster_discovery.exists.app_error",
-        "translation": "Ni bilo mogoče preveriti, ali obstaja"
-    },
-    {
-        "id": "store.sql_cluster_discovery.delete.app_error",
-        "translation": "Brisanje ni bilo mogoče"
-    },
-    {
-        "id": "store.sql_cluster_discovery.cleanup.app_error",
-        "translation": "Vrstice ClusterDiscovery ni bilo mogoče shraniti"
     },
     {
         "id": "app.channel_member_history.log_leave_event.internal_error",
@@ -768,28 +368,8 @@
         "translation": "Zgodovina članov kanala ni bila posneta"
     },
     {
-        "id": "store.sql_channel.update_member.app_error",
-        "translation": "Prišlo je do napake pri posodabljanju člana kanala"
-    },
-    {
         "id": "app.channel.update.bad_id",
         "translation": "Kanala ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_channel.search.app_error",
-        "translation": "Prišlo je do napake pri iskanju kanalov"
-    },
-    {
-        "id": "store.sql_channel.save_member.open_transaction.app_error",
-        "translation": "Transakcije ni mogoče odpreti"
-    },
-    {
-        "id": "store.sql_channel.save_member.exists.app_error",
-        "translation": "Član kanala s tem ID-jem že obstaja"
-    },
-    {
-        "id": "store.sql_channel.save_member.commit_transaction.app_error",
-        "translation": "Transakcije ni mogoče odpreti"
     },
     {
         "id": "store.sql_channel.save_channel.limit.app_error",
@@ -812,94 +392,6 @@
         "translation": "Arhiviranega kanala ne morete spremeniti"
     },
     {
-        "id": "store.sql_channel.reset_all_channel_schemes.open_transaction.app_error",
-        "translation": "Transakcije ni mogoče odpreti"
-    },
-    {
-        "id": "store.sql_channel.reset_all_channel_schemes.commit_transaction.app_error",
-        "translation": "Transakcije ni mogoče odpreti"
-    },
-    {
-        "id": "store.sql_channel.reset_all_channel_schemes.app_error",
-        "translation": "Programov kanalov ni bilo mogoče ponastaviti"
-    },
-    {
-        "id": "store.sql_channel.remove_member.app_error",
-        "translation": "Člana kanala ni mogoče odstraniti"
-    },
-    {
-        "id": "store.sql_channel.remove_all_deactivated_members.app_error",
-        "translation": "Iz kanala ni bilo mogoče odstraniti deaktiviranih uporabnikov"
-    },
-    {
-        "id": "store.sql_channel.pinned_posts.app_error",
-        "translation": "Pripetih objav ni mogoče najti"
-    },
-    {
-        "id": "store.sql_channel.permanent_delete_members_by_user.app_error",
-        "translation": "Člana kanala ni mogoče odstraniti"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.update.app_error",
-        "translation": "Posodobitev člana kanala ni bilo mogoče"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.select.app_error",
-        "translation": "Paketa članov kanala ni bilo možno izbrati"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.open_transaction.app_error",
-        "translation": "Transakcije baze podatkov ni bilo mogoče odpreti"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.commit_transaction.app_error",
-        "translation": "Transakcije baze podatkov ni bilo mogoče začeti"
-    },
-    {
-        "id": "store.sql_channel.increment_mention_count.app_error",
-        "translation": "Število točk za omembo ni mogoče povečati"
-    },
-    {
-        "id": "store.sql_channel.get_unread.app_error",
-        "translation": "Ni bilo mogoče dobiti neprebranih sporočil kanala"
-    },
-    {
-        "id": "store.sql_channel.get_public_channels.get.app_error",
-        "translation": "Ni mogoče dobiti javnih kanalov"
-    },
-    {
-        "id": "store.sql_channel.get_pinnedpost_count.app_error",
-        "translation": "Ni mogoče prebrati števila članov kanala"
-    },
-    {
-        "id": "store.sql_channel.get_members_by_ids.app_error",
-        "translation": "Članov kanala ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_channel.get_members.app_error",
-        "translation": "Članov kanala ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_channel.get_member_for_post.app_error",
-        "translation": "Ni mogoče dobiti člana kanala za dano objavo"
-    },
-    {
-        "id": "store.sql_channel.get_member_count.app_error",
-        "translation": "Ni mogoče prebrati števila članov kanala"
-    },
-    {
-        "id": "store.sql_channel.get_member.missing.app_error",
-        "translation": "Za uporabniški ID in ID kanala ni mogoče najti člana kanala"
-    },
-    {
-        "id": "store.sql_channel.get_member.app_error",
-        "translation": "Ni mogoče dobiti člana kanala"
-    },
-    {
-        "id": "store.sql_channel.get_for_post.app_error",
-        "translation": "Kanala za dano objavo ni mogoče dobiti"
-    },
-    {
         "id": "app.channel.get_deleted.missing.app_error",
         "translation": "Izbrisani kanali ne obstajajo"
     },
@@ -908,44 +400,12 @@
         "translation": "Obstoječega izbrisanega kanala ni mogoče najti"
     },
     {
-        "id": "store.sql_channel.get_channels_by_ids.not_found.app_error",
-        "translation": "Ni najdenega kanala"
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.get.app_error",
-        "translation": "Ni mogoče dobiti kanalov"
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.app_error",
-        "translation": "Ni mogoče najti kanalov"
-    },
-    {
-        "id": "store.sql_channel.get_channels_batch_for_indexing.get.app_error",
-        "translation": "Paketa objav za indeksiranje ni mogoče dobiti"
-    },
-    {
         "id": "app.channel.get_channels.not_found.app_error",
         "translation": "Ni bilo najdenih kanalov"
     },
     {
-        "id": "store.sql_channel.get_channel_counts.get.app_error",
-        "translation": "Števila kanalov ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_channel.get_by_scheme.app_error",
-        "translation": "Ni mogoče dobiti kanalov za zagotovljeno shemo"
-    },
-    {
         "id": "app.channel.get_by_name.missing.app_error",
         "translation": "Kanal ne obstaja"
-    },
-    {
-        "id": "store.sql_channel.get_all_direct.app_error",
-        "translation": "Ni mogoče dobiti vseh kanalov"
-    },
-    {
-        "id": "store.sql_channel.get_all.app_error",
-        "translation": "Ni mogoče dobiti vseh kanalov"
     },
     {
         "id": "store.sql_channel.get.find.app_error",
@@ -954,30 +414,6 @@
     {
         "id": "store.sql_channel.get.existing.app_error",
         "translation": "Ni mogoče najti obstoječega kanala"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.update.app_error",
-        "translation": "Posodobitev člana kanala ni bilo mogoče"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Članov kanala ni bilo mogoče pridobiti"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.open_transaction.app_error",
-        "translation": "Transakcije baze podatkov ni bilo mogoče začeti"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.commit_transaction.app_error",
-        "translation": "Transakcije baze podatkov ni bilo mogoče začeti"
-    },
-    {
-        "id": "store.sql_channel.analytics_type_count.app_error",
-        "translation": "Števila vrst kanalov ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_channel.analytics_deleted_type_count.app_error",
-        "translation": "Število izbrisanih vrst kanalov ni mogoče dobiti"
     },
     {
         "id": "app.audit.save.saving.app_error",
@@ -1904,10 +1340,6 @@
         "translation": "Elasticsearch ni zagnan"
     },
     {
-        "id": "ent.elasticsearch.indexer.do_job.get_oldest_post.error",
-        "translation": "Najstarejše objave ni bilo mogoče pridobiti iz baze podatkov."
-    },
-    {
         "id": "ent.elasticsearch.index_user.error",
         "translation": "Objave ni bilo mogoče indeksirati"
     },
@@ -1984,98 +1416,6 @@
         "translation": "Objave ni mogoče izvoziti."
     },
     {
-        "id": "store.sql_system.update.app_error",
-        "translation": "Prišlo je do napake pri posodabljanju sistemskih lastnosti"
-    },
-    {
-        "id": "store.sql_system.save.app_error",
-        "translation": "Prišlo je do napake pri shranjevanju sistemskih lastnosti"
-    },
-    {
-        "id": "store.sql_system.permanent_delete_by_name.app_error",
-        "translation": "Vnos sistemske tabele ni bilo mogoče trajno izbrisati"
-    },
-    {
-        "id": "store.sql_system.get_by_name.app_error",
-        "translation": "Sistemske spremenljivke ni mogoče najti."
-    },
-    {
-        "id": "store.sql_system.get.app_error",
-        "translation": "Prišlo je do napake pri iskanju lastnosti sistema"
-    },
-    {
-        "id": "store.sql_status.update_last_activity_at.app_error",
-        "translation": "Ni mogoče posodobiti zadnjega datuma in časa dejavnosti uporabnika"
-    },
-    {
-        "id": "store.sql_status.update.app_error",
-        "translation": "Prišlo je do napake pri posodabljanju stanja"
-    },
-    {
-        "id": "store.sql_status.save.app_error",
-        "translation": "Prišlo je do napake pri shranjevanju stanja"
-    },
-    {
-        "id": "store.sql_status.reset_all.app_error",
-        "translation": "Pri ponastavitvi vseh stanj je prišlo do napake"
-    },
-    {
-        "id": "store.sql_status.get_total_active_users_count.app_error",
-        "translation": "Ni mogoče prešteti aktivnih uporabnikov"
-    },
-    {
-        "id": "store.sql_status.get.missing.app_error",
-        "translation": "Vnos za to stanje ne obstaja"
-    },
-    {
-        "id": "store.sql_status.get.app_error",
-        "translation": "Prišlo je do napake pri pridobivanju stanja"
-    },
-    {
-        "id": "store.sql_session.update_roles.app_error",
-        "translation": "Vlog ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_session.update_last_activity.app_error",
-        "translation": "last_activity_at ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_session.update_device_id.app_error",
-        "translation": "ID naprave ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_session.save.existing.app_error",
-        "translation": "Obstoječe seje ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_session.save.app_error",
-        "translation": "Seje ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_session.remove_all_sessions_for_team.app_error",
-        "translation": "Ni mogoče odstraniti vseh sej"
-    },
-    {
-        "id": "store.sql_session.remove.app_error",
-        "translation": "Seje ni mogoče odstraniti"
-    },
-    {
-        "id": "store.sql_session.permanent_delete_sessions_by_user.app_error",
-        "translation": "Ni mogoče odstraniti vseh sej za uporabnika"
-    },
-    {
-        "id": "store.sql_session.get_sessions.app_error",
-        "translation": "Pri iskanju uporabniških sej je prišlo do napake"
-    },
-    {
-        "id": "store.sql_session.get.app_error",
-        "translation": "Pri iskanju seje je prišlo do napake"
-    },
-    {
-        "id": "store.sql_session.analytics_session_count.app_error",
-        "translation": "Sej ni mogoče prešteti"
-    },
-    {
         "id": "app.scheme.save.invalid_scheme.app_error",
         "translation": "Navedena shema ni veljavna"
     },
@@ -2092,62 +1432,6 @@
         "translation": "Ni mogoče dobiti sheme"
     },
     {
-        "id": "store.sql_role.save_role.commit_transaction.app_error",
-        "translation": "Transakcije ni bilo mogoče odpreti za shranjevanje vloge"
-    },
-    {
-        "id": "store.sql_role.save.update.app_error",
-        "translation": "Vloge ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_role.save.open_transaction.app_error",
-        "translation": "Transakcije ni bilo mogoče odpreti za shranjevanje vloge"
-    },
-    {
-        "id": "store.sql_role.save.invalid_role.app_error",
-        "translation": "Vloga ni bila veljavna"
-    },
-    {
-        "id": "store.sql_role.save.insert.app_error",
-        "translation": "Nove vloge ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_role.permanent_delete_all.app_error",
-        "translation": "Trajno brisanje vseh vlog ni mogoče"
-    },
-    {
-        "id": "store.sql_role.get_by_names.app_error",
-        "translation": "Vlog ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_role.get_by_name.app_error",
-        "translation": "Vloge ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_role.get_all.app_error",
-        "translation": "Ni mogoče dobiti vseh kanalov"
-    },
-    {
-        "id": "store.sql_role.get.app_error",
-        "translation": "Vloge ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_role.delete.update.app_error",
-        "translation": "Vloge ni mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_recover.save.app_error",
-        "translation": "Žetona ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_recover.get_by_code.app_error",
-        "translation": "Žetona s to kodo ni mogoče dobiti "
-    },
-    {
-        "id": "store.sql_recover.delete.app_error",
-        "translation": "Žetona ni mogoče izbrisati"
-    },
-    {
         "id": "app.reaction.save.save.app_error",
         "translation": "Reakcije ni mogoče shraniti"
     },
@@ -2160,288 +1444,8 @@
         "translation": "Ni mogoče dobiti vseh reakcij s tem imenom čustvenega simbola"
     },
     {
-        "id": "store.sql_preference.update.app_error",
-        "translation": "Nastavitve ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_preference.save.updating.app_error",
-        "translation": "Med posodabljanjem nastavitev smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_preference.save.open_transaction.app_error",
-        "translation": "Transakcije ni mogoče odpreti za shranjevanje nastavitev"
-    },
-    {
-        "id": "store.sql_preference.save.missing_driver.app_error",
-        "translation": "Med posodabljanjem nastavitev smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_preference.save.commit_transaction.app_error",
-        "translation": "Transakcije ni mogoče odpreti za shranjevanje nastavitev"
-    },
-    {
-        "id": "store.sql_preference.permanent_delete_by_user.app_error",
-        "translation": "Pri brisanju nastavitev smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_preference.insert.save.app_error",
-        "translation": "Nastavitve ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_preference.insert.exists.app_error",
-        "translation": "Nastavitev s tem ID-jem uporabnika, kategorijo in imenom že obstaja"
-    },
-    {
-        "id": "store.sql_preference.get_category.app_error",
-        "translation": "Pri iskanju nastavitev smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_preference.get_all.app_error",
-        "translation": "Pri iskanju nastavitev smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_preference.get.app_error",
-        "translation": "Pri iskanju nastavitev smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_preference.delete.app_error",
-        "translation": "Pri brisanju nastavitev smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_post.update.app_error",
-        "translation": "Objave ni mogoče posodobiti"
-    },
-    {
         "id": "store.sql_post.search.disabled",
         "translation": "Iskanje je bilo na tem strežniku onemogočeno. Obrnite se na skrbnika sistema."
-    },
-    {
-        "id": "store.sql_post.save.existing.app_error",
-        "translation": "Obstoječe objave ne morete posodobiti"
-    },
-    {
-        "id": "store.sql_post.save.app_error",
-        "translation": "Objave ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_by_user.too_many.app_error",
-        "translation": "Ni mogoče izbrati objav za uporabnika (preveč objav). Znova zaženite"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_by_user.app_error",
-        "translation": "Ni mogoče izbrati objav uporabnika za brisanje"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_by_channel.app_error",
-        "translation": "Objav po kanalih ni mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_batch.app_error",
-        "translation": "Pri trajnem brisanju svežnja objav je prišlo do napake"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_all_comments_by_user.app_error",
-        "translation": "Komentarjev za uporabnika ni mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_post.permanent_delete.app_error",
-        "translation": "Objave ni mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_post.overwrite.app_error",
-        "translation": "Objave ni mogoče prepisati"
-    },
-    {
-        "id": "store.sql_post.get_root_posts.app_error",
-        "translation": "Ni mogoče dobiti objav za kanal"
-    },
-    {
-        "id": "store.sql_post.get_posts_since.app_error",
-        "translation": "Ni mogoče dobiti objav za kanal"
-    },
-    {
-        "id": "store.sql_post.get_posts_created_att.app_error",
-        "translation": "Ni mogoče dobiti objav za kanal"
-    },
-    {
-        "id": "store.sql_post.get_posts_by_ids.app_error",
-        "translation": "Objav ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_post.get_posts_batch_for_indexing.get.app_error",
-        "translation": "Paketa objav za indeksiranje ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_post.get_posts_around.get_parent.app_error",
-        "translation": "Ni mogoče dobiti objav za kanal"
-    },
-    {
-        "id": "store.sql_post.get_posts_around.get.app_error",
-        "translation": "Ni mogoče dobiti objav za kanal"
-    },
-    {
-        "id": "store.sql_post.get_parents_posts.app_error",
-        "translation": "Ni mogoče dobiti objav za kanal"
-    },
-    {
-        "id": "store.sql_post.get_flagged_posts.app_error",
-        "translation": "Označenih objav ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_post.get_direct_posts.app_error",
-        "translation": "Objav ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_post.get.app_error",
-        "translation": "Objave ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_post.delete.app_error",
-        "translation": "Objave ni mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_post.compliance_export.app_error",
-        "translation": "Ni mogoče dobiti obvestil o izvozu skladnosti."
-    },
-    {
-        "id": "store.sql_post.analytics_user_counts_posts_by_day.app_error",
-        "translation": "Števila uporabnikov z objavami ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_post.analytics_posts_count_by_day.app_error",
-        "translation": "Števila objav po dnevih ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_post.analytics_posts_count.app_error",
-        "translation": "Števila objav ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_plugin_store.save.app_error",
-        "translation": "Ni mogoče shraniti ali posodobiti vrednosti ključa vtičnika"
-    },
-    {
-        "id": "store.sql_plugin_store.get.app_error",
-        "translation": "Vrednosti ključa vtičnika ni bilo mogoče dobiti"
-    },
-    {
-        "id": "store.sql_plugin_store.delete.app_error",
-        "translation": "Vrednosti ključa vtičnika ni bilo mogoče izbrisati"
-    },
-    {
-        "id": "store.sql_oauth.update_app.updating.app_error",
-        "translation": "Pri posodobitvi aplikacije smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_oauth.update_app.update.app_error",
-        "translation": "Aplikacije ni mogoče posodobiti"
-    },
-    {
-        "id": "store.sql_oauth.update_app.finding.app_error",
-        "translation": "Pri iskanju aplikacije smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_oauth.update_app.find.app_error",
-        "translation": "Obstoječe aplikacije ni mogoče najti za posodobitev"
-    },
-    {
-        "id": "store.sql_oauth.update_access_data.app_error",
-        "translation": "Prišlo je do napake pri posodabljanju žetona za dostop"
-    },
-    {
-        "id": "store.sql_oauth.save_auth_data.app_error",
-        "translation": "Ni mogoče shraniti avtorizacijske kode."
-    },
-    {
-        "id": "store.sql_oauth.save_app.save.app_error",
-        "translation": "Aplikacije ni mogoče shraniti."
-    },
-    {
-        "id": "store.sql_oauth.save_app.existing.app_error",
-        "translation": "Za obstoječo ekipo mora biti izvedena posodobitev"
-    },
-    {
-        "id": "store.sql_oauth.save_access_data.app_error",
-        "translation": "Žetona dostopa ni mogoče shraniti."
-    },
-    {
-        "id": "store.sql_oauth.remove_auth_data.app_error",
-        "translation": "Ni mogoče odstraniti avtorizacijske kode"
-    },
-    {
-        "id": "store.sql_oauth.remove_access_data.app_error",
-        "translation": "Žetona dostopa ni mogoče odstraniti"
-    },
-    {
-        "id": "store.sql_oauth.permanent_delete_auth_data_by_user.app_error",
-        "translation": "Ni mogoče odstraniti avtorizacijske kode"
-    },
-    {
-        "id": "store.sql_oauth.get_previous_access_data.app_error",
-        "translation": "Pri iskanju žetona za dostop smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_oauth.get_auth_data.finding.app_error",
-        "translation": "Prišlo je do napake pri iskanju avtorizacijske kode"
-    },
-    {
-        "id": "store.sql_oauth.get_auth_data.find.app_error",
-        "translation": "Ni mogoče najti obstoječe avtorizacijske kode"
-    },
-    {
-        "id": "store.sql_oauth.get_apps.find.app_error",
-        "translation": "Pri iskanju aplikacij OAuth2 je prišlo do napake"
-    },
-    {
-        "id": "store.sql_oauth.get_app_by_user.find.app_error",
-        "translation": "Ni mogoče najti obstoječih aplikacij"
-    },
-    {
-        "id": "store.sql_oauth.get_app.finding.app_error",
-        "translation": "Pri iskanju aplikacije smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_oauth.get_app.find.app_error",
-        "translation": "Zahtevane aplikacije ni mogoče najti"
-    },
-    {
-        "id": "store.sql_oauth.get_access_data_by_user_for_app.app_error",
-        "translation": "Prišlo je do napake pri iskanju vseh žetonov za dostop"
-    },
-    {
-        "id": "store.sql_oauth.get_access_data.app_error",
-        "translation": "Pri iskanju žetona za dostop smo naleteli na napako"
-    },
-    {
-        "id": "store.sql_oauth.delete_app.app_error",
-        "translation": "Pri brisanju aplikacije OAuth2 je prišlo do napake"
-    },
-    {
-        "id": "store.sql_oauth.delete.open_transaction.app_error",
-        "translation": "Transakcije ni mogoče odpreti za brisanje aplikacije OAuth2"
-    },
-    {
-        "id": "store.sql_oauth.delete.commit_transaction.app_error",
-        "translation": "Transakcije ni mogoče odpreti"
-    },
-    {
-        "id": "store.sql_job.update.app_error",
-        "translation": "Ne najdemo kanala"
-    },
-    {
-        "id": "store.sql_job.save.app_error",
-        "translation": "Ne najdemo kanala"
-    },
-    {
-        "id": "store.sql_job.get_all.app_error",
-        "translation": "Ne najdemo kanala"
-    },
-    {
-        "id": "store.sql_job.get.app_error",
-        "translation": "Ne najdemo kanala"
-    },
-    {
-        "id": "store.sql_job.delete.app_error",
-        "translation": "Ne najdemo kanala"
     },
     {
         "id": "store.sql_group.uniqueness_error",
@@ -2452,52 +1456,8 @@
         "translation": "skupina s tem imenom že obstaja"
     },
     {
-        "id": "store.sql_group.no_rows_changed",
-        "translation": "vrstice niso spremenjene"
-    },
-    {
         "id": "store.sql_group.no_rows",
         "translation": "ni bila najdena ustrezna skupina"
-    },
-    {
-        "id": "store.sql_file_info.save.app_error",
-        "translation": "Informacije o datoteki ni mogoče shraniti"
-    },
-    {
-        "id": "store.sql_file_info.permanent_delete_batch.app_error",
-        "translation": "Prišlo je do napake pri trajnem brisanju paketa informacij o datoteki"
-    },
-    {
-        "id": "store.sql_file_info.permanent_delete.app_error",
-        "translation": "Informacije o datoteki ni mogoče trajno izbrisati"
-    },
-    {
-        "id": "store.sql_file_info.get_with_options.app_error",
-        "translation": "Podatkov o datoteki ni mogoče dobiti s potjo"
-    },
-    {
-        "id": "store.sql_file_info.get_for_user_id.app_error",
-        "translation": "Informacije o datoteki za uporabnika ni bilo mogoče dobiti"
-    },
-    {
-        "id": "store.sql_file_info.get_for_post.app_error",
-        "translation": "Informacije o datoteki za objavo ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_file_info.get_by_path.app_error",
-        "translation": "Podatkov o datoteki ni mogoče dobiti s potjo"
-    },
-    {
-        "id": "store.sql_file_info.get.app_error",
-        "translation": "Informacije o datoteki ni mogoče dobiti"
-    },
-    {
-        "id": "store.sql_file_info.delete_for_post.app_error",
-        "translation": "Ne najdemo kanala"
-    },
-    {
-        "id": "store.sql_file_info.attach_to_post.app_error",
-        "translation": "Informacije o datoteki ni mogoče priložiti objavi"
     },
     {
         "id": "ent.compliance.csv.metadata.json.zipfile.appError",
@@ -2630,10 +1590,6 @@
     {
         "id": "app.user_access_token.disabled",
         "translation": "Osebni žetoni za dostop so onemogočeni na tem strežniku. Za podrobnosti se obrnite na skrbnika sistema."
-    },
-    {
-        "id": "app.user.complete_switch_with_oauth.blank_email.app_error",
-        "translation": "Prijava s SAML s praznim e-poštnim naslovom ni mogoča."
     },
     {
         "id": "app.team.join_user_to_team.max_accounts.app_error",
@@ -2994,10 +1950,6 @@
     {
         "id": "app.export.export_write_line.io_writer.error",
         "translation": "Pri pisanju izvoznih podatkov je prišlo do napake."
-    },
-    {
-        "id": "app.cluster.404.app_error",
-        "translation": "Končne točke API gruče ni bilo mogoče najti."
     },
     {
         "id": "app.channel.post_update_channel_purpose_message.updated_to",
@@ -3770,10 +2722,6 @@
     {
         "id": "model.cluster.is_valid.create_at.app_error",
         "translation": "CreateAt mora biti nastavljen"
-    },
-    {
-        "id": "model.client.connecting.app_error",
-        "translation": "Pri povezavi s strežnikom je prišlo do napake"
     },
     {
         "id": "model.channel_member.is_valid.user_id.app_error",
@@ -6375,10 +5323,6 @@
     {
         "id": "api.admin.add_certificate.array.app_error",
         "translation": "V zahtevi ni datoteke 'certificate'."
-    },
-    {
-        "id": "actiance.export.marshalToXml.appError",
-        "translation": "Izvoz v XML ni uspel."
     },
     {
         "id": "September",

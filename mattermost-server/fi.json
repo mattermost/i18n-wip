@@ -44,10 +44,6 @@
         "translation": "Ei voitu lukea sisääntulevaa dataa"
     },
     {
-        "id": "web.command_webhook.invalid.app_error",
-        "translation": "Virheellinen webhook"
-    },
-    {
         "id": "web.command_webhook.command.app_error",
         "translation": "Ei löydetty komentoa"
     },
@@ -124,86 +120,6 @@
         "translation": "päivitysvirhe"
     },
     {
-        "id": "store.sql_webhooks.update_outgoing.app_error",
-        "translation": "Ei voida päivittää webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.update_incoming.app_error",
-        "translation": "Ei voida päivittää IncomingWebhookia"
-    },
-    {
-        "id": "store.sql_webhooks.save_outgoing.override.app_error",
-        "translation": "Et voi ylikirjoittaa olemassaolevaa OutgoingWebhookia"
-    },
-    {
-        "id": "store.sql_webhooks.save_outgoing.app_error",
-        "translation": "Ei voitu tallentaa OutgoingWebhookia"
-    },
-    {
-        "id": "store.sql_webhooks.save_incoming.existing.app_error",
-        "translation": "Et voi ylikirjoittaa olemassaolevaa IncomingWebhookia"
-    },
-    {
-        "id": "store.sql_webhooks.save_incoming.app_error",
-        "translation": "Ei voitu tallentaa IncomingWebhookia"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_outgoing_by_user.app_error",
-        "translation": "Ei voitu poistaa webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_outgoing_by_channel.app_error",
-        "translation": "Ei voitu poistaa webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_incoming_by_user.app_error",
-        "translation": "Ei voitu poistaa webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_incoming_by_channel.app_error",
-        "translation": "Ei voitu poistaa webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing_by_team.app_error",
-        "translation": "Ei voitu hakea webhookeja"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing_by_channel.app_error",
-        "translation": "Ei voitu hakea webhookeja"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing.app_error",
-        "translation": "Ei voitu hakea webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming_by_user.app_error",
-        "translation": "Ei voitu hakea webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming_by_channel.app_error",
-        "translation": "Ei voitu hakea webhookeja"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming.app_error",
-        "translation": "Ei voitu hakea webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.delete_outgoing.app_error",
-        "translation": "Ei voitu poistaa webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.delete_incoming.app_error",
-        "translation": "Ei voitu poistaa webhookia"
-    },
-    {
-        "id": "store.sql_webhooks.analytics_outgoing_count.app_error",
-        "translation": "Ei voida laskea ulosmeneviä webhookeja"
-    },
-    {
-        "id": "store.sql_webhooks.analytics_incoming_count.app_error",
-        "translation": "Ei voida laskea sisääntulevia webhookeja"
-    },
-    {
         "id": "app.user_terms_of_service.delete.app_error",
         "translation": "Ei voitu poistaa palveluehtoja."
     },
@@ -236,280 +152,8 @@
         "translation": "Ei saa kutsua tallennusta olemassaolevalle palveluehdolle."
     },
     {
-        "id": "store.sql_team.update_last_team_icon_update.app_error",
-        "translation": "Ei voida päivittää tiimin viimeistä ikoninpäivitysaikaa"
-    },
-    {
-        "id": "store.sql_team.update.updating.app_error",
-        "translation": "Kohdattiin virhe päivitettäessä tiimiä"
-    },
-    {
-        "id": "store.sql_team.update.finding.app_error",
-        "translation": "Kohdattiin virhe etsittäessä tiimiä"
-    },
-    {
-        "id": "store.sql_team.update.find.app_error",
-        "translation": "Ei löydetty olemassaolevaa päivitettävää tiimiä"
-    },
-    {
-        "id": "store.sql_team.update.app_error",
-        "translation": "Ei voida päivittää tiimiä"
-    },
-    {
-        "id": "store.sql_team.search_private_team.app_error",
-        "translation": "Kohdattiin virhe etsittäessä avoimia tiimejä"
-    },
-    {
-        "id": "store.sql_team.search_open_team.app_error",
-        "translation": "Kohdattiin virhe etsittäessä avoimia tiimejä"
-    },
-    {
-        "id": "store.sql_team.search_all_team.app_error",
-        "translation": "Kohdattiin virhe etsittäessä tiimejä"
-    },
-    {
-        "id": "store.sql_team.save_member.save.app_error",
-        "translation": "Ei voitu tallentaa tiiminjäsentä"
-    },
-    {
         "id": "store.sql_team.save_member.exists.app_error",
         "translation": "Tiiminjäsen jolla tämä ID on jo olemassa"
-    },
-    {
-        "id": "store.sql_team.save.existing.app_error",
-        "translation": "Kutsuttava päivitystä olemassaolevalle tiimille"
-    },
-    {
-        "id": "store.sql_team.save.domain_exists.app_error",
-        "translation": "Nimi on jo käytössä tiimillä"
-    },
-    {
-        "id": "store.sql_team.save.app_error",
-        "translation": "Ei voitu tallentaa tiimiä"
-    },
-    {
-        "id": "store.sql_team.reset_all_team_schemes.app_error",
-        "translation": "Ei voitu palauttaa tiimin järjestelyjä"
-    },
-    {
-        "id": "store.sql_team.remove_member.app_error",
-        "translation": "Ei voitu poistaa tiiminjäsentä"
-    },
-    {
-        "id": "store.sql_team.permanent_delete.app_error",
-        "translation": "Ei voitu poistaa olemassaolevaa tiimiä"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.update.app_error",
-        "translation": "Ei voitu päivittää tiimin jäsentä"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.select.app_error",
-        "translation": " Ei voitu valita tiimijäsenjoukkoa"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.open_transaction.app_error",
-        "translation": "Ei voitu avata tietokantatransaktiota"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.commit_transaction.app_error",
-        "translation": "Tietokantatransaktion suoritus epäonnistui"
-    },
-    {
-        "id": "store.sql_team.get_unread.app_error",
-        "translation": "Ei voitu hakea tiimin lukemattomia viestejä"
-    },
-    {
-        "id": "store.sql_team.get_members_by_ids.app_error",
-        "translation": "Ei voitu hakea tiimin jäseniä"
-    },
-    {
-        "id": "store.sql_team.get_members.app_error",
-        "translation": "Ei voitu hakea tiimin jäseniä"
-    },
-    {
-        "id": "store.sql_team.get_member_count.app_error",
-        "translation": "Ei voida laskea tiimin jäseniä"
-    },
-    {
-        "id": "store.sql_team.get_member.missing.app_error",
-        "translation": "Tiiminjäsentä ei löydetty käyttäjä-ID:llä ja tiimi-ID:llä"
-    },
-    {
-        "id": "store.sql_team.get_member.app_error",
-        "translation": "Ei voitu hakea tiiminjäsentä"
-    },
-    {
-        "id": "store.sql_team.get_by_scheme.app_error",
-        "translation": "Ei voitu hakea kanavia annetulle järjestelylle"
-    },
-    {
-        "id": "store.sql_team.get_by_names.app_error",
-        "translation": "Ei voitu hakea tiiminjäsentä"
-    },
-    {
-        "id": "store.sql_team.get_by_name.missing.app_error",
-        "translation": "Ei löydetty olemassaolevaa tiimiä"
-    },
-    {
-        "id": "store.sql_team.get_by_name.app_error",
-        "translation": "Ei löydetty olemassaolevaa tiimiä"
-    },
-    {
-        "id": "store.sql_team.get_by_invite_id.finding.app_error",
-        "translation": "Ei löydetty olemassaolevaa tiimiä"
-    },
-    {
-        "id": "store.sql_team.get_by_invite_id.find.app_error",
-        "translation": "Ei löydetty olemassaolevaa tiimiä"
-    },
-    {
-        "id": "store.sql_team.get_all_team_listing.app_error",
-        "translation": "Ei voitu hakea kaikkia tiimejä"
-    },
-    {
-        "id": "store.sql_team.get_all_private_team_listing.app_error",
-        "translation": "Ei voitu hakea kaikkia tiimejä"
-    },
-    {
-        "id": "store.sql_team.get_all.app_error",
-        "translation": "Ei voitu hakea kaikkia tiimejä"
-    },
-    {
-        "id": "store.sql_team.get_active_member_count.app_error",
-        "translation": "Ei voida laskea tiimin jäseniä"
-    },
-    {
-        "id": "store.sql_team.get.finding.app_error",
-        "translation": "Kohdattiin virhe etsittäessä tiimiä"
-    },
-    {
-        "id": "store.sql_team.get.find.app_error",
-        "translation": "Ei löydetty olemassaolevaa tiimiä"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.update.app_error",
-        "translation": "Ei voitu päivittää tiimin jäsentä"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Ei voitu noutaa tiimin jäseniä"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.open_transaction.app_error",
-        "translation": "Tietokantatransaktion aloitus epäonnistui"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.commit_transaction.app_error",
-        "translation": "Tietokantatransaktion suoritus epäonnistui"
-    },
-    {
-        "id": "store.sql_team.analytics_team_count.app_error",
-        "translation": "Ei voida laskea tiimejä"
-    },
-    {
-        "id": "store.sql_team.analytics_public_team_count.app_error",
-        "translation": "Ei voida laskea tiimejä"
-    },
-    {
-        "id": "store.sql_team.analytics_private_team_count.app_error",
-        "translation": "Ei voida laskea tiimejä"
-    },
-    {
-        "id": "store.sql_team.analytics_get_team_count_for_scheme.app_error",
-        "translation": "Ei voitu hakea kanavamäärää järjestelylle."
-    },
-    {
-        "id": "store.sql_system.update.app_error",
-        "translation": "Kohdattiin virhe päivitettäessä järjestelmäasetusta"
-    },
-    {
-        "id": "store.sql_system.save.app_error",
-        "translation": "Kohdattiin virhe tallennettaessa järjestelmäasetusta"
-    },
-    {
-        "id": "store.sql_system.permanent_delete_by_name.app_error",
-        "translation": "Ei voitu poistaa pysyvästi järjestelmätaulun merkintää"
-    },
-    {
-        "id": "store.sql_system.get_by_name.app_error",
-        "translation": "Ei löydetty järjestelmävariaabelia."
-    },
-    {
-        "id": "store.sql_system.get.app_error",
-        "translation": "Kohdattiin virhe etsittäessä järjestelmäasetuksia"
-    },
-    {
-        "id": "store.sql_status.update_last_activity_at.app_error",
-        "translation": "Ei voida päivittää käyttäjän viimeistä aktiivisuusaikaa"
-    },
-    {
-        "id": "store.sql_status.update.app_error",
-        "translation": "Kohdattiin virhe päivitettäessä tilaa"
-    },
-    {
-        "id": "store.sql_status.save.app_error",
-        "translation": "Kohdattiin virhe tallennettaessa tilaa"
-    },
-    {
-        "id": "store.sql_status.reset_all.app_error",
-        "translation": "Kohdattiin virhe palautettaessa tiloja"
-    },
-    {
-        "id": "store.sql_status.get_total_active_users_count.app_error",
-        "translation": "Emme pystyneet laskemaan aktiivisia käyttäjiä"
-    },
-    {
-        "id": "store.sql_status.get.missing.app_error",
-        "translation": "Ei olemassa syötettä jolla tuo tila"
-    },
-    {
-        "id": "store.sql_status.get.app_error",
-        "translation": "Kohdattiin virhe haettaessa tilaa"
-    },
-    {
-        "id": "store.sql_session.update_roles.app_error",
-        "translation": "Ei voida päivittää roolia"
-    },
-    {
-        "id": "store.sql_session.update_last_activity.app_error",
-        "translation": "Ei voida päivittää last_activity_at arvoa"
-    },
-    {
-        "id": "store.sql_session.update_device_id.app_error",
-        "translation": "Ei voida päivittää laitteen id:tä"
-    },
-    {
-        "id": "store.sql_session.save.existing.app_error",
-        "translation": "Ei voida päivittää olemassaolevaa sessiota"
-    },
-    {
-        "id": "store.sql_session.save.app_error",
-        "translation": "Ei voitu tallentaa sessiota"
-    },
-    {
-        "id": "store.sql_session.remove_all_sessions_for_team.app_error",
-        "translation": "Ei voitu poistaa kaikkia sessioita"
-    },
-    {
-        "id": "store.sql_session.remove.app_error",
-        "translation": "Ei voitu poistaa sessiota"
-    },
-    {
-        "id": "store.sql_session.permanent_delete_sessions_by_user.app_error",
-        "translation": "Ei voitu poistaa kaikkia käyttäjän sessioita"
-    },
-    {
-        "id": "store.sql_session.get_sessions.app_error",
-        "translation": "Kohdattiin virhe etsittäessä käyttäjäsessioita"
-    },
-    {
-        "id": "store.sql_session.get.app_error",
-        "translation": "Kohdattiin virhe etsittäessä sessiota"
-    },
-    {
-        "id": "store.sql_session.analytics_session_count.app_error",
-        "translation": "Ei voida laskea sessioita"
     },
     {
         "id": "app.scheme.save.invalid_scheme.app_error",
@@ -528,62 +172,6 @@
         "translation": "Ei voitu hakea järjestelyä"
     },
     {
-        "id": "store.sql_role.save_role.commit_transaction.app_error",
-        "translation": "Ei voitu suorittaa roolin tallennustransaktiota"
-    },
-    {
-        "id": "store.sql_role.save.update.app_error",
-        "translation": "Ei voida päivittää roolia"
-    },
-    {
-        "id": "store.sql_role.save.open_transaction.app_error",
-        "translation": "Ei voitu avata roolin tallennustransaktiota"
-    },
-    {
-        "id": "store.sql_role.save.invalid_role.app_error",
-        "translation": "Rooli oli viallinen"
-    },
-    {
-        "id": "store.sql_role.save.insert.app_error",
-        "translation": "Ei voitu tallentaa uutta roolia"
-    },
-    {
-        "id": "store.sql_role.permanent_delete_all.app_error",
-        "translation": "Ei voitu poistaa pysyvästi kaikkia rooleja"
-    },
-    {
-        "id": "store.sql_role.get_by_names.app_error",
-        "translation": "Ei voitu hakea rooleja"
-    },
-    {
-        "id": "store.sql_role.get_by_name.app_error",
-        "translation": "Ei voitu hakea roolia"
-    },
-    {
-        "id": "store.sql_role.get_all.app_error",
-        "translation": "Ei voitu hakea kaikkia kanavia"
-    },
-    {
-        "id": "store.sql_role.get.app_error",
-        "translation": "Ei voitu hakea roolia"
-    },
-    {
-        "id": "store.sql_role.delete.update.app_error",
-        "translation": "Ei voitu poistaa roolia"
-    },
-    {
-        "id": "store.sql_recover.save.app_error",
-        "translation": "Ei voitu tallentaa tokenia"
-    },
-    {
-        "id": "store.sql_recover.get_by_code.app_error",
-        "translation": "Ei voitu hakea tokenia tällä koodilla"
-    },
-    {
-        "id": "store.sql_recover.delete.app_error",
-        "translation": "Ei voitu poistaa tokenia"
-    },
-    {
         "id": "app.reaction.save.save.app_error",
         "translation": "Ei voitu tallentaa reaktiota"
     },
@@ -596,304 +184,8 @@
         "translation": "Ei voitu hakea reaktioita joissa tämä emojin nimi"
     },
     {
-        "id": "store.sql_preference.update.app_error",
-        "translation": "Ei voida päivittää asetusta"
-    },
-    {
-        "id": "store.sql_preference.save.updating.app_error",
-        "translation": "Kohdattiin virhe päivitettäessä asetuksia"
-    },
-    {
-        "id": "store.sql_preference.save.open_transaction.app_error",
-        "translation": "Ei voitu avata transaktiota asetusten tallentamiseksi"
-    },
-    {
-        "id": "store.sql_preference.save.missing_driver.app_error",
-        "translation": "Kohdattiin virhe päivitettäessä asetuksia"
-    },
-    {
-        "id": "store.sql_preference.save.commit_transaction.app_error",
-        "translation": "Ei voida suorittaa asetusten tallennustransaktiota"
-    },
-    {
-        "id": "store.sql_preference.permanent_delete_by_user.app_error",
-        "translation": "Kohdattiin virhe poistettaessa asetuksia"
-    },
-    {
-        "id": "store.sql_preference.insert.save.app_error",
-        "translation": "Ei voitu tallentaa asetusta"
-    },
-    {
-        "id": "store.sql_preference.insert.exists.app_error",
-        "translation": "Asetus tällä käyttäjä-id:llä, kategorialla ja nimellä on jo olemassa"
-    },
-    {
-        "id": "store.sql_preference.get_category.app_error",
-        "translation": "Kohdattiin virhe etsittäessä asetuksia"
-    },
-    {
-        "id": "store.sql_preference.get_all.app_error",
-        "translation": "Kohdattiin virhe etsittäessä asetuksia"
-    },
-    {
-        "id": "store.sql_preference.get.app_error",
-        "translation": "Kohdattiin virhe etsittäessä asetuksia"
-    },
-    {
-        "id": "store.sql_preference.delete.app_error",
-        "translation": "Kohdattiin virhe poistettaessa asetuksia"
-    },
-    {
-        "id": "store.sql_preference.cleanup_flags_batch.app_error",
-        "translation": "Kohdattiin virhe puhdistettaessa lippujoukkoa"
-    },
-    {
-        "id": "store.sql_post.update.app_error",
-        "translation": "Ei voida päivittää viestiä"
-    },
-    {
         "id": "store.sql_post.search.disabled",
         "translation": "Etsintä on kytketty pois tällä palvelimella. Ota yhteys järjestelmänvalvojaan."
-    },
-    {
-        "id": "store.sql_post.save.existing.app_error",
-        "translation": "Et voi päivittää olemassaolevaa viestiä"
-    },
-    {
-        "id": "store.sql_post.save.app_error",
-        "translation": "Ei voitu tallentaa viestiä"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_by_user.too_many.app_error",
-        "translation": "Ei voitu valita poistettavia käyttäjän viestejä (liian monta), yritä uudestaan"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_by_user.app_error",
-        "translation": "Ei voitu valita poistettavia käyttäjän viestejä"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_by_channel.app_error",
-        "translation": "Ei voitu poistaa kanavan viestejä"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_batch.app_error",
-        "translation": "Kohdattiin virhe poistettaessa pysyvästi viestijoukkoa"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_all_comments_by_user.app_error",
-        "translation": "Ei voitu poistaa käyttäjän kommentteja"
-    },
-    {
-        "id": "store.sql_post.permanent_delete.app_error",
-        "translation": "Ei voitu poistaa viestiä"
-    },
-    {
-        "id": "store.sql_post.overwrite.app_error",
-        "translation": "Ei voida ylikirjoittaa viestiä"
-    },
-    {
-        "id": "store.sql_post.get_root_posts.app_error",
-        "translation": "Ei voitu hakea kanavan viestejä"
-    },
-    {
-        "id": "store.sql_post.get_posts_since.app_error",
-        "translation": "Ei voitu hakea kanavan viestejä"
-    },
-    {
-        "id": "store.sql_post.get_posts_created_att.app_error",
-        "translation": "Ei voitu hakea kanavan viestejä"
-    },
-    {
-        "id": "store.sql_post.get_posts_by_ids.app_error",
-        "translation": "Ei voitu hakea viestejä"
-    },
-    {
-        "id": "store.sql_post.get_posts_batch_for_indexing.get.app_error",
-        "translation": "Ei voitu hakea viestijoukkoa indeksointia varten"
-    },
-    {
-        "id": "store.sql_post.get_posts_around.get_parent.app_error",
-        "translation": "Ei voitu hakea kanavan emoviestejä"
-    },
-    {
-        "id": "store.sql_post.get_posts_around.get.app_error",
-        "translation": "Ei voitu hakea kanavan viestejä"
-    },
-    {
-        "id": "store.sql_post.get_posts.app_error",
-        "translation": "Sivutuksen rajoitus ylitetty"
-    },
-    {
-        "id": "store.sql_post.get_parents_posts.app_error",
-        "translation": "Ei voitu hakea kanavan emoviestiä"
-    },
-    {
-        "id": "store.sql_post.get_flagged_posts.app_error",
-        "translation": "Ei voitu hakea liputettuja viestejä"
-    },
-    {
-        "id": "store.sql_post.get_direct_posts.app_error",
-        "translation": "Ei voitu hakea viestejä"
-    },
-    {
-        "id": "store.sql_post.get.app_error",
-        "translation": "Ei voitu hakea viestiä"
-    },
-    {
-        "id": "store.sql_post.delete.app_error",
-        "translation": "Ei voitu poistaa viestiä"
-    },
-    {
-        "id": "store.sql_post.compliance_export.app_error",
-        "translation": "Ei voitu hakea compliance raporttiviestejä."
-    },
-    {
-        "id": "store.sql_post.analytics_user_counts_posts_by_day.app_error",
-        "translation": "Ei voitu hakea käyttäjämääriä joilla viestejä"
-    },
-    {
-        "id": "store.sql_post.analytics_posts_count_by_day.app_error",
-        "translation": "Ei voitu hakea viestimääriä päivän perusteella"
-    },
-    {
-        "id": "store.sql_post.analytics_posts_count.app_error",
-        "translation": "Ei voitu hakea viestimääriä"
-    },
-    {
-        "id": "store.sql_plugin_store.save.app_error",
-        "translation": "Ei voitu tallentaa tai päivittää lisäosan avainarvoa"
-    },
-    {
-        "id": "store.sql_plugin_store.get.app_error",
-        "translation": "Ei voitu hakea lisäosan avainarvoa"
-    },
-    {
-        "id": "store.sql_plugin_store.delete.app_error",
-        "translation": "Ei voitu poistaa lisäosan avainarvoa"
-    },
-    {
-        "id": "store.sql_oauth.update_app.updating.app_error",
-        "translation": "Kohdattiin virhe päivitettäessä appia"
-    },
-    {
-        "id": "store.sql_oauth.update_app.update.app_error",
-        "translation": "Ei voitu päivittää appia"
-    },
-    {
-        "id": "store.sql_oauth.update_app.finding.app_error",
-        "translation": "Kohdattiin virhe haettaessa appia"
-    },
-    {
-        "id": "store.sql_oauth.update_app.find.app_error",
-        "translation": "Ei löydetty olemassaolevaa päivitettävää appia"
-    },
-    {
-        "id": "store.sql_oauth.update_access_data.app_error",
-        "translation": "Kohdattiin virhe päivitettäessä access tokenia"
-    },
-    {
-        "id": "store.sql_oauth.save_auth_data.app_error",
-        "translation": "Ei voitu tallentaa auktorisointikoodia."
-    },
-    {
-        "id": "store.sql_oauth.save_app.save.app_error",
-        "translation": "Ei voitu tallentaa appia."
-    },
-    {
-        "id": "store.sql_oauth.save_app.existing.app_error",
-        "translation": "Kutsuttava päivitystä olemassaolevalle apille"
-    },
-    {
-        "id": "store.sql_oauth.save_access_data.app_error",
-        "translation": "Ei voitu tallentaa access tokenia."
-    },
-    {
-        "id": "store.sql_oauth.remove_auth_data.app_error",
-        "translation": "Ei voitu poistaa auktorisointikoodia"
-    },
-    {
-        "id": "store.sql_oauth.remove_access_data.app_error",
-        "translation": "Ei voitu poistaa access tokenia"
-    },
-    {
-        "id": "store.sql_oauth.permanent_delete_auth_data_by_user.app_error",
-        "translation": "Ei voitu poistaa auktorisointikoodia"
-    },
-    {
-        "id": "store.sql_oauth.get_previous_access_data.app_error",
-        "translation": "Kohdattiin virhe haettaessa access tokenia"
-    },
-    {
-        "id": "store.sql_oauth.get_auth_data.finding.app_error",
-        "translation": "Kohdattiin virhe haettaessa auktorisointikoodia"
-    },
-    {
-        "id": "store.sql_oauth.get_auth_data.find.app_error",
-        "translation": "Ei löydetty olemassaolevaa auktorisointikoodia"
-    },
-    {
-        "id": "store.sql_oauth.get_apps.find.app_error",
-        "translation": "Tapahtui virhe etsittäessä OAuth2 Appeja"
-    },
-    {
-        "id": "store.sql_oauth.get_app_by_user.find.app_error",
-        "translation": "Ei löydetty olemassaolevia appeja"
-    },
-    {
-        "id": "store.sql_oauth.get_app.finding.app_error",
-        "translation": "Kohdattiin virhe haettaessa appia"
-    },
-    {
-        "id": "store.sql_oauth.get_app.find.app_error",
-        "translation": "Ei löydetty pyydettyä appia"
-    },
-    {
-        "id": "store.sql_oauth.get_access_data_by_user_for_app.app_error",
-        "translation": "Kohdattiin virhe haettaessa kaikkia access tokeneita"
-    },
-    {
-        "id": "store.sql_oauth.get_access_data.app_error",
-        "translation": "Kohdattiin virhe haettaessa access tokenia"
-    },
-    {
-        "id": "store.sql_oauth.delete_app.app_error",
-        "translation": "Tapahtui virhe poistettaessa OAuth2 Appia"
-    },
-    {
-        "id": "store.sql_oauth.delete.open_transaction.app_error",
-        "translation": "Ei voitu avata transaktiota OAuth2 apin poistamiseksi"
-    },
-    {
-        "id": "store.sql_oauth.delete.commit_transaction.app_error",
-        "translation": "Ei voitu suorittaa transaktiota"
-    },
-    {
-        "id": "store.sql_job.update.app_error",
-        "translation": "Ei voitu hakea päivittää työtä"
-    },
-    {
-        "id": "store.sql_job.save.app_error",
-        "translation": "Ei voitu tallentaa työtä"
-    },
-    {
-        "id": "store.sql_job.get_newest_job_by_status_and_type.app_error",
-        "translation": "Ei voitu hakea uusinta työtä tilan ja tyypin perusteella"
-    },
-    {
-        "id": "store.sql_job.get_count_by_status_and_type.app_error",
-        "translation": "Ei voitu hakea työmäärää tilan ja tyypin perusteella"
-    },
-    {
-        "id": "store.sql_job.get_all.app_error",
-        "translation": "Ei voitu hakea töitä"
-    },
-    {
-        "id": "store.sql_job.get.app_error",
-        "translation": "Ei voitu hakea työtä"
-    },
-    {
-        "id": "store.sql_job.delete.app_error",
-        "translation": "Ei voitu poistaa työtä"
     },
     {
         "id": "store.sql_group.uniqueness_error",
@@ -902,10 +194,6 @@
     {
         "id": "store.sql_group.unique_constraint",
         "translation": "ryhmän nimi on jo olemassa"
-    },
-    {
-        "id": "store.sql_group.no_rows_changed",
-        "translation": "rivejä ei muutettu"
     },
     {
         "id": "store.sql_group.no_rows",
@@ -920,50 +208,6 @@
         "translation": "virhe kyselyn luomisessa"
     },
     {
-        "id": "store.sql_file_info.save.app_error",
-        "translation": "Ei voitu tallentaa tiedostoinfoa"
-    },
-    {
-        "id": "store.sql_file_info.permanent_delete_batch.app_error",
-        "translation": "Kohdattiin virhe poistettaessa pysyvästi tiedostotietojoukkoa"
-    },
-    {
-        "id": "store.sql_file_info.permanent_delete.app_error",
-        "translation": "Ei voitu pysyvästi poistaa tiedostoinfoa"
-    },
-    {
-        "id": "store.sql_file_info.get_with_options.app_error",
-        "translation": "Ei voitu hakea tiedostoinfoa polun perusteella"
-    },
-    {
-        "id": "store.sql_file_info.get_for_user_id.app_error",
-        "translation": "Ei voitu hakea tiedostoinfoa käyttäjälle"
-    },
-    {
-        "id": "store.sql_file_info.get_for_post.app_error",
-        "translation": "Ei voitu hakea tiedostoinfoa viestille"
-    },
-    {
-        "id": "store.sql_file_info.get_by_path.app_error",
-        "translation": "Ei voitu hakea tiedostoinfoa polun perusteella"
-    },
-    {
-        "id": "store.sql_file_info.get.app_error",
-        "translation": "Ei voitu hakea tiedostoinfoa"
-    },
-    {
-        "id": "store.sql_file_info.delete_for_post.app_error",
-        "translation": "Ei voitu poistaa viestin tiedostoinfoa"
-    },
-    {
-        "id": "store.sql_file_info.attach_to_post.app_error",
-        "translation": "Ei voitu liittää tiedostoinfoa viestiin"
-    },
-    {
-        "id": "store.sql_file_info.PermanentDeleteByUser.app_error",
-        "translation": "Ei voitu poistaa käyttäjän liitteitä"
-    },
-    {
         "id": "app.emoji.delete.no_results",
         "translation": "Ei löydetty poistettavaa emojia"
     },
@@ -972,96 +216,8 @@
         "translation": "Ei voitu poistaa emojia"
     },
     {
-        "id": "store.sql_compliance.save.saving.app_error",
-        "translation": "Kohdattiin virhe tallennettaessa compliance raportteja"
-    },
-    {
-        "id": "store.sql_compliance.message_export.app_error",
-        "translation": "Ei voitu valita viestin vientidataa"
-    },
-    {
-        "id": "store.sql_compliance.get.finding.app_error",
-        "translation": "Kohdattiin virhe haettaessa compliance raportteja"
-    },
-    {
-        "id": "store.sql_command_webhooks.try_use.invalid.app_error",
-        "translation": "Virheellinen webhook"
-    },
-    {
-        "id": "store.sql_command_webhooks.try_use.app_error",
-        "translation": "Ei voitu käyttää webhookia"
-    },
-    {
-        "id": "store.sql_command_webhooks.save.existing.app_error",
-        "translation": "Et voi päivittää olemassaolevaa CommandWebhookia"
-    },
-    {
-        "id": "store.sql_command_webhooks.save.app_error",
-        "translation": "Ei voitu tallentaa CommandWebhookia"
-    },
-    {
-        "id": "store.sql_command_webhooks.get.app_error",
-        "translation": "Ei voitu hakea webhookia"
-    },
-    {
-        "id": "store.sql_command.save.update.app_error",
-        "translation": "Ei voitu päivittää komentoa"
-    },
-    {
-        "id": "store.sql_command.save.saving_overwrite.app_error",
-        "translation": "Ei voitu ylikirjoittaa olemassaolevaa komentoa"
-    },
-    {
-        "id": "store.sql_command.save.saving.app_error",
-        "translation": "Ei voitu tallentaa komentoa"
-    },
-    {
-        "id": "store.sql_command.save.get_team.app_error",
-        "translation": "Ei voitu hakea komentoja"
-    },
-    {
         "id": "store.sql_command.save.get.app_error",
         "translation": "Ei voitu hakea komentoa"
-    },
-    {
-        "id": "store.sql_command.save.delete_perm.app_error",
-        "translation": "Ei voitu poistaa komentoa"
-    },
-    {
-        "id": "store.sql_command.save.delete.app_error",
-        "translation": "Ei voitu poistaa komentoa"
-    },
-    {
-        "id": "store.sql_command.get_by_trigger.app_error",
-        "translation": "Ei voitu hakea komentoa"
-    },
-    {
-        "id": "store.sql_command.analytics_command_count.app_error",
-        "translation": "Ei voitu laskea komentoja"
-    },
-    {
-        "id": "store.sql_cluster_discovery.set_last_ping.app_error",
-        "translation": "Ei voitu päivittää viimeistä ping-aikaa"
-    },
-    {
-        "id": "store.sql_cluster_discovery.save.app_error",
-        "translation": "Ei voitu hakea tallentaa ClusterDiscovery riviä"
-    },
-    {
-        "id": "store.sql_cluster_discovery.get_all.app_error",
-        "translation": "Ei voitu hakea kaikkia löytörivejä"
-    },
-    {
-        "id": "store.sql_cluster_discovery.exists.app_error",
-        "translation": "Ei voitu tarkistaa onko olemassa"
-    },
-    {
-        "id": "store.sql_cluster_discovery.delete.app_error",
-        "translation": "Ei voitu poistaa"
-    },
-    {
-        "id": "store.sql_cluster_discovery.cleanup.app_error",
-        "translation": "Ei voitu hakea tallentaa ClusterDiscovery riviä"
     },
     {
         "id": "app.channel_member_history.log_leave_event.internal_error",
@@ -1420,42 +576,6 @@
         "translation": "Virheellinen tiimin ID"
     },
     {
-        "id": "store.sql_user_access_token.update_token_enable.app_error",
-        "translation": "Ei voida kytkeä access tokenia käyttöön"
-    },
-    {
-        "id": "store.sql_user_access_token.update_token_disable.app_error",
-        "translation": "Ei voida kytkeä access tokenia pois"
-    },
-    {
-        "id": "store.sql_user_access_token.search.app_error",
-        "translation": "Kohdattiin virhe etsittäessä käyttäjän access tokeneita"
-    },
-    {
-        "id": "store.sql_user_access_token.save.app_error",
-        "translation": "Ei voitu tallentaa henkilökohtaista access tokenia"
-    },
-    {
-        "id": "store.sql_user_access_token.get_by_user.app_error",
-        "translation": "Ei voitu hakea henkilökohtaisia access tokeneita käyttäjittäin"
-    },
-    {
-        "id": "store.sql_user_access_token.get_by_token.app_error",
-        "translation": "Ei voitu hakea henkilökohtaista access tokenia tokenin perusteella"
-    },
-    {
-        "id": "store.sql_user_access_token.get_all.app_error",
-        "translation": "Ei voitu hakea kaikkia henkilökohtaisia access tokeneita"
-    },
-    {
-        "id": "store.sql_user_access_token.get.app_error",
-        "translation": "Ei voitu hakea henkilökohtaista access tokenia"
-    },
-    {
-        "id": "store.sql_user_access_token.delete.app_error",
-        "translation": "Ei voitu poistaa henkilökohtaista access tokenia"
-    },
-    {
         "id": "store.sql_user.verify_email.app_error",
         "translation": "Ei voida päivittää sähköpostin vahvistuskenttää"
     },
@@ -1528,36 +648,12 @@
         "translation": "Ei löydetty hakuehtoja vastaavaa käyttäjää"
     },
     {
-        "id": "store.sql_user.save.username_exists.saml_app_error",
-        "translation": "Tilin käyttäjänimi on jo olemassa. Ota yhteyttä ylläpitäjääsi."
-    },
-    {
-        "id": "store.sql_user.save.username_exists.ldap_app_error",
-        "translation": "Tilin käyttäjänimi on jo olemassa. Ota yhteyttä ylläpitäjääsi."
-    },
-    {
         "id": "store.sql_user.save.username_exists.app_error",
         "translation": "Käyttäjänimi on jo käytössä tilillä."
     },
     {
-        "id": "store.sql_user.save.member_count.app_error",
-        "translation": "Ei voitu hakea nykyistä tiiminjäsenmäärää"
-    },
-    {
-        "id": "store.sql_user.save.max_accounts.app_error",
-        "translation": "Tiimi on saavuttanut tilien määrän rajoituksen. Ota yhteys järjestelmänvalvojaan rajan nostamiseksi."
-    },
-    {
         "id": "store.sql_user.save.existing.app_error",
         "translation": "Kutsuttava päivitystä olemassaolevalle käyttäjälle"
-    },
-    {
-        "id": "store.sql_user.save.email_exists.saml_app_error",
-        "translation": "Tämä tili ei käytä SAML autentikointia. Kirjaudu sisään sähköpostilla ja salasanalla."
-    },
-    {
-        "id": "store.sql_user.save.email_exists.ldap_app_error",
-        "translation": "Tämä tili ei käytä AD/LDAP autentikointia. Kirjaudu sisään sähköpostilla ja salasanalla."
     },
     {
         "id": "store.sql_user.save.email_exists.app_error",
@@ -1726,10 +822,6 @@
     {
         "id": "model.cluster.is_valid.create_at.app_error",
         "translation": "CreateAt on asetettava"
-    },
-    {
-        "id": "model.client.connecting.app_error",
-        "translation": "Virhe yritettäessä yhdistää palvelimeen"
     },
     {
         "id": "model.channel_member.is_valid.user_id.app_error",
@@ -1932,24 +1024,12 @@
         "translation": "Ei voitu parsia URL arvoa"
     },
     {
-        "id": "jobs.start_synchronize_job.timeout",
-        "translation": "AD/LDAP synkronointityö päätettiin aikakatkaisuun."
-    },
-    {
         "id": "jobs.set_job_error.update.error",
         "translation": "Ei voitu asettaa työtä tilaan virhe"
     },
     {
         "id": "jobs.request_cancellation.status.error",
         "translation": "Ei voitu pyytää työn peruutusta koska työ ei ole peruutettavassa tilassa."
-    },
-    {
-        "id": "jobs.do_job.batch_start_timestamp.parse_error",
-        "translation": "Ei voitu parsia viestin vientityön ExportFromTimestamp arvoa."
-    },
-    {
-        "id": "jobs.do_job.batch_size.parse_error",
-        "translation": "Ei voitu parsia viestin vientityön BatchSize arvoa."
     },
     {
         "id": "interactive_message.generate_trigger_id.signing_failed",
@@ -2548,32 +1628,8 @@
         "translation": "Puuttuva vaadittu yksityisviestin ominaisuus: create_at"
     },
     {
-        "id": "store.sql_channel.update_member.app_error",
-        "translation": "Kohdattiin virhe päivitettäessä kanavan jäsentä"
-    },
-    {
-        "id": "store.sql_channel.update_last_viewed_at.app_error",
-        "translation": "Ei voitu päivittää viimeistä katseluaikaa"
-    },
-    {
         "id": "app.channel.update.bad_id",
         "translation": "Ei voitu päivittää kanavaa"
-    },
-    {
-        "id": "store.sql_channel.search.app_error",
-        "translation": "Kohdattiin virhe etsittäessä kanavia"
-    },
-    {
-        "id": "store.sql_channel.save_member.open_transaction.app_error",
-        "translation": "Ei voitu avata transaktiota"
-    },
-    {
-        "id": "store.sql_channel.save_member.exists.app_error",
-        "translation": "Kanavan jäsen jolla on sama ID on jo olemassa"
-    },
-    {
-        "id": "store.sql_channel.save_member.commit_transaction.app_error",
-        "translation": "Ei voitu suorittaa transaktiota"
     },
     {
         "id": "store.sql_channel.save_direct_channel.not_direct.app_error",
@@ -2598,14 +1654,6 @@
     {
         "id": "store.sql_channel.save.archived_channel.app_error",
         "translation": "Et voi muokata arkistoitua kanavaa"
-    },
-    {
-        "id": "store.sql_channel.reset_all_channel_schemes.open_transaction.app_error",
-        "translation": "Ei voitu avata transaktiota"
-    },
-    {
-        "id": "store.sql_channel.reset_all_channel_schemes.commit_transaction.app_error",
-        "translation": "Ei voitu suorittaa transaktiota"
     },
     {
         "id": "store.sql_bot.get.missing.app_error",
@@ -2638,10 +1686,6 @@
     {
         "id": "store.sql.convert_string_array",
         "translation": "FromDb: Ei voitu muuttaa StringArrayta muotoon *string"
-    },
-    {
-        "id": "store.sql.build_query.app_error",
-        "translation": "virhe kyselyn luomisessa"
     },
     {
         "id": "store.select_error",
@@ -3580,10 +2624,6 @@
         "translation": "Tapahtui virhe kirjoitettaessa vientidataa."
     },
     {
-        "id": "app.cluster.404.app_error",
-        "translation": "Cluster API rajapintaa ei löydetty."
-    },
-    {
         "id": "app.channel.post_update_channel_purpose_message.updated_to",
         "translation": "%s päivitti kanavan tarkoitukseksi: %s"
     },
@@ -4232,86 +3272,6 @@
         "translation": "Slack-käyttäjä yhdistetty olemassaolevaan Mattermost-käyttäjään jolla sama sähköpostiosoite {{.Email}} ja käyttäjänimi {{.Username}}, mutta ei voitu lisätä käyttäjää tiimiin.\r\n"
     },
     {
-        "id": "store.sql_channel.reset_all_channel_schemes.app_error",
-        "translation": "Ei voitu palauttaa kanavan järjestelyjä"
-    },
-    {
-        "id": "store.sql_channel.remove_member.app_error",
-        "translation": "Ei voitu poistaa kanavan jäsentä"
-    },
-    {
-        "id": "store.sql_channel.remove_all_deactivated_members.app_error",
-        "translation": "Ei voitu poistaa deaktivoituja käyttäjiä kanavalta"
-    },
-    {
-        "id": "store.sql_channel.pinned_posts.app_error",
-        "translation": "Ei löydetty merkittyjä viestejä"
-    },
-    {
-        "id": "store.sql_channel.permanent_delete_members_by_user.app_error",
-        "translation": "Ei voitu poistaa kanavan jäsentä"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.update.app_error",
-        "translation": "Ei voitu päivittää kanavan jäsentä"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.select.app_error",
-        "translation": "Ei voitu valita kanavan jäsenjoukkoa"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.open_transaction.app_error",
-        "translation": "Ei voitu avata tietokantatransaktiota"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.commit_transaction.app_error",
-        "translation": "Tietokantatransaktion suoritus epäonnistui"
-    },
-    {
-        "id": "store.sql_channel.increment_mention_count.app_error",
-        "translation": "Ei voitu nostaa mainintamäärää"
-    },
-    {
-        "id": "store.sql_channel.get_unread.app_error",
-        "translation": "Ei voitu hakea kanavan lukemattomia viestejä"
-    },
-    {
-        "id": "store.sql_channel.get_public_channels.get.app_error",
-        "translation": "Ei voitu hakea julkisia kanavia"
-    },
-    {
-        "id": "store.sql_channel.get_pinnedpost_count.app_error",
-        "translation": "Ei voitu hakea kanavan jäsenmäärää"
-    },
-    {
-        "id": "store.sql_channel.get_members_by_ids.app_error",
-        "translation": "Ei voitu hakea kanavan jäseniä"
-    },
-    {
-        "id": "store.sql_channel.get_members.app_error",
-        "translation": "Ei voitu hakea kanavan jäseniä"
-    },
-    {
-        "id": "store.sql_channel.get_member_for_post.app_error",
-        "translation": "Ei voitu hakea kanavan jäsentä annetulle viestille"
-    },
-    {
-        "id": "store.sql_channel.get_member_count.app_error",
-        "translation": "Ei voitu hakea kanavan jäsenmäärää"
-    },
-    {
-        "id": "store.sql_channel.get_member.missing.app_error",
-        "translation": "Kanavan jäsentä ei löytynyt annettulla käyttäjän ja kanavan ID:llä"
-    },
-    {
-        "id": "store.sql_channel.get_member.app_error",
-        "translation": "Ei voitu hakea kanavan jäsentä"
-    },
-    {
-        "id": "store.sql_channel.get_for_post.app_error",
-        "translation": "Ei voitu hakea kanavaa jolla annettu viesti"
-    },
-    {
         "id": "app.channel.get_deleted.missing.app_error",
         "translation": "Poistettuja kanavia ei olemassa"
     },
@@ -4320,44 +3280,12 @@
         "translation": "Ei löydetty olemassaolevaa poistettua kanavaa"
     },
     {
-        "id": "store.sql_channel.get_channels_by_ids.not_found.app_error",
-        "translation": "Kanavaa ei löydetty"
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.get.app_error",
-        "translation": "Ei voitu hakea kanavia"
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.app_error",
-        "translation": "Ei voitu hakea kanavia"
-    },
-    {
-        "id": "store.sql_channel.get_channels_batch_for_indexing.get.app_error",
-        "translation": "Ei voitu hakea viestijoukkoa indeksointia varten"
-    },
-    {
         "id": "app.channel.get_channels.not_found.app_error",
         "translation": "Kanavia ei löytynyt"
     },
     {
-        "id": "store.sql_channel.get_channel_counts.get.app_error",
-        "translation": "Ei voitu hakea kanavamääriä"
-    },
-    {
-        "id": "store.sql_channel.get_by_scheme.app_error",
-        "translation": "Ei voitu hakea kanavia annetulle järjestelylle"
-    },
-    {
         "id": "app.channel.get_by_name.missing.app_error",
         "translation": "Kanavaa ei ole olemassa"
-    },
-    {
-        "id": "store.sql_channel.get_all_direct.app_error",
-        "translation": "Ei voitu hakea kaikkia kanavia"
-    },
-    {
-        "id": "store.sql_channel.get_all.app_error",
-        "translation": "Ei voitu hakea kaikkia kanavia"
     },
     {
         "id": "store.sql_channel.get.find.app_error",
@@ -4366,30 +3294,6 @@
     {
         "id": "store.sql_channel.get.existing.app_error",
         "translation": "Ei löydetty olemassaolevaa kanavaa"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.update.app_error",
-        "translation": "Ei voitu päivittää kanavan jäsentä"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Ei voitu hakea kanavan jäseniä"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.open_transaction.app_error",
-        "translation": "Tietokantatransaktion aloitus epäonnistui"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.commit_transaction.app_error",
-        "translation": "Tietokantatransaktion suoritus epäonnistui"
-    },
-    {
-        "id": "store.sql_channel.analytics_type_count.app_error",
-        "translation": "Ei voitu hakea kanavatyypin määriä"
-    },
-    {
-        "id": "store.sql_channel.analytics_deleted_type_count.app_error",
-        "translation": "Ei voitu hakea poistetun kanavatyypin määriä"
     },
     {
         "id": "ent.ldap.app_error",
@@ -4482,10 +3386,6 @@
     {
         "id": "ent.elasticsearch.indexer.do_job.parse_end_time.error",
         "translation": "Elasticsearch-indeksointityöskentelijä ei voinut parsia loppuaikaa"
-    },
-    {
-        "id": "ent.elasticsearch.indexer.do_job.get_oldest_post.error",
-        "translation": "Vanhinta viestiä ei voitu hakea tietokannasta."
     },
     {
         "id": "ent.elasticsearch.index_user.error",
@@ -4722,10 +3622,6 @@
     {
         "id": "app.user_access_token.disabled",
         "translation": "Henkilökohtaiset access tokenit on kytketty pois tällä palvelimella. Kysy järjestelmänvalvojalta lisätietoja."
-    },
-    {
-        "id": "app.user.complete_switch_with_oauth.blank_email.app_error",
-        "translation": "SAML kirjautumista ei voida suorittaa tyhjällä sähköpostiosoitteella."
     },
     {
         "id": "app.team.rename_team.name_occupied",
@@ -5372,10 +4268,6 @@
     {
         "id": "api.file.test_connection.s3.bucket_exists.app_error",
         "translation": "Virhe bucketin olemassaolon tarkistuksessa."
-    },
-    {
-        "id": "api.file.test_connection.s3.bucked_create.app_error",
-        "translation": "Ei voitu luoda bucketia."
     },
     {
         "id": "api.file.test_connection.local.connection.app_error",
@@ -6845,10 +5737,6 @@
     {
         "id": "api.admin.add_certificate.array.app_error",
         "translation": "Ei tiedostoa pyynnön kohdassa 'certificate'."
-    },
-    {
-        "id": "actiance.export.marshalToXml.appError",
-        "translation": "Vientiä ei voitu kääntää XML-muotoon."
     },
     {
         "id": "September",

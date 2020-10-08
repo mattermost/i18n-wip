@@ -16,10 +16,6 @@
         "translation": "No s'ha pogut trobar el canal"
     },
     {
-        "id": "web.command_webhook.invalid.app_error",
-        "translation": "Mètode no vàlid"
-    },
-    {
         "id": "web.command_webhook.command.app_error",
         "translation": "No s'ha pogut trobar l'ordre"
     },
@@ -38,114 +34,6 @@
     {
         "id": "utils.file.list_directory.local.app_error",
         "translation": "S'ha trobat un error en llistar el directori de l'emmagatzematge al servidor local."
-    },
-    {
-        "id": "store.sql_webhooks.update_outgoing.app_error",
-        "translation": "No es pot actualitzar el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.update_incoming.app_error",
-        "translation": "No es pot actualitzar el «webhook» entrant"
-    },
-    {
-        "id": "store.sql_webhooks.save_outgoing.app_error",
-        "translation": "No es pot desar el «webhook» sortint"
-    },
-    {
-        "id": "store.sql_webhooks.save_incoming.app_error",
-        "translation": "No es pot desar el «webhook» entrant"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_outgoing_by_user.app_error",
-        "translation": "No es pot eliminar el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_outgoing_by_channel.app_error",
-        "translation": "No es pot eliminar el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_incoming_by_user.app_error",
-        "translation": "No es pot eliminar el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.permanent_delete_incoming_by_channel.app_error",
-        "translation": "No es pot eliminar el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing_by_team.app_error",
-        "translation": "No es pot obtenir els «webhooks»"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing_by_channel.app_error",
-        "translation": "No es pot obtenir els «webhooks»"
-    },
-    {
-        "id": "store.sql_webhooks.get_outgoing.app_error",
-        "translation": "No es pot obtenir el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming_by_user.app_error",
-        "translation": "No es pot obtenir el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming_by_channel.app_error",
-        "translation": "No es pot obtenir els «webhooks»"
-    },
-    {
-        "id": "store.sql_webhooks.get_incoming.app_error",
-        "translation": "No es pot obtenir el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.delete_outgoing.app_error",
-        "translation": "No es pot eliminar el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.delete_incoming.app_error",
-        "translation": "No es pot eliminar el «webhook»"
-    },
-    {
-        "id": "store.sql_webhooks.analytics_outgoing_count.app_error",
-        "translation": "No es pot comptar els «webhooks» sortints"
-    },
-    {
-        "id": "store.sql_webhooks.analytics_incoming_count.app_error",
-        "translation": "No es pot comptar els «webhooks» entrants"
-    },
-    {
-        "id": "store.sql_user_access_token.update_token_enable.app_error",
-        "translation": "No es pot activar el testimoni d'accés"
-    },
-    {
-        "id": "store.sql_user_access_token.update_token_disable.app_error",
-        "translation": "No es pot desactivar el testimoni d'accés"
-    },
-    {
-        "id": "store.sql_user_access_token.search.app_error",
-        "translation": "Hem trobat un error en cercar el testimoni d'accés d'usuaris"
-    },
-    {
-        "id": "store.sql_user_access_token.save.app_error",
-        "translation": "No es pot desar el testimoni d'accés personal"
-    },
-    {
-        "id": "store.sql_user_access_token.get_by_user.app_error",
-        "translation": "No es pot obtenir el testimonis d'accés personal per usuari"
-    },
-    {
-        "id": "store.sql_user_access_token.get_by_token.app_error",
-        "translation": "No es pot obtenir el testimoni d'accés personal per testimoni"
-    },
-    {
-        "id": "store.sql_user_access_token.get_all.app_error",
-        "translation": "No es pot obtenir tots els testimonis d'accés personal"
-    },
-    {
-        "id": "store.sql_user_access_token.get.app_error",
-        "translation": "No es pot obtenir el testimoni d'accés personal"
-    },
-    {
-        "id": "store.sql_user_access_token.delete.app_error",
-        "translation": "No es pot eliminar el testimoni d'accés personal"
     },
     {
         "id": "store.sql_user.update_last_picture_update.app_error",
@@ -174,10 +62,6 @@
     {
         "id": "store.sql_user.update.app_error",
         "translation": "No es pot actualitzar el compte"
-    },
-    {
-        "id": "store.sql_user.save.max_accounts.app_error",
-        "translation": "Aquest equip ha arribat al màxim número de comptes permesos. Contacta amb l'administrador del sistema per establir un límit superior."
     },
     {
         "id": "store.sql_user.save.app_error",
@@ -256,472 +140,20 @@
         "translation": "No hem pogut comptar els usuaris inactius"
     },
     {
-        "id": "store.sql_team.update.updating.app_error",
-        "translation": "Hem detectat un error en actualitzar l'equip"
-    },
-    {
-        "id": "store.sql_team.update.finding.app_error",
-        "translation": "Hem trobat un error en cercar l'equip"
-    },
-    {
-        "id": "store.sql_team.update.find.app_error",
-        "translation": "No es pot trobar l'equip existent per actualitzar-lo"
-    },
-    {
-        "id": "store.sql_team.update.app_error",
-        "translation": "No es pot actualitzar l'equip"
-    },
-    {
-        "id": "store.sql_team.search_private_team.app_error",
-        "translation": "Hem trobat un error en cercar equips privats"
-    },
-    {
-        "id": "store.sql_team.search_open_team.app_error",
-        "translation": "Hem trobat un error en cercar equips oberts"
-    },
-    {
-        "id": "store.sql_team.search_all_team.app_error",
-        "translation": "Hem trobat un error en cercar equips"
-    },
-    {
-        "id": "store.sql_team.save_member.save.app_error",
-        "translation": "No es pot desar el membre de l'equip"
-    },
-    {
-        "id": "store.sql_team.save.app_error",
-        "translation": "No es pot desar l'equip"
-    },
-    {
-        "id": "store.sql_team.remove_member.app_error",
-        "translation": "No es pot eliminar el membre de l'equip"
-    },
-    {
-        "id": "store.sql_team.permanent_delete.app_error",
-        "translation": "No es pot eliminar l'equip existent"
-    },
-    {
-        "id": "store.sql_team.migrate_team_members.update.app_error",
-        "translation": "No s'ha pogut actualitzar el membre de l'equip"
-    },
-    {
-        "id": "store.sql_team.get_members_by_ids.app_error",
-        "translation": "No es pot obtenir els membres de l'equip"
-    },
-    {
-        "id": "store.sql_team.get_members.app_error",
-        "translation": "No es pot obtenir els membres de l'equip"
-    },
-    {
-        "id": "store.sql_team.get_member_count.app_error",
-        "translation": "No es pot comptar els membres de l'equip"
-    },
-    {
-        "id": "store.sql_team.get_member.app_error",
-        "translation": "No es pot obtenir el membre de l'equip"
-    },
-    {
-        "id": "store.sql_team.get_by_names.app_error",
-        "translation": "No es pot obtenir el membre de l'equip"
-    },
-    {
-        "id": "store.sql_team.get_by_name.missing.app_error",
-        "translation": "No es pot trobar l'equip existent"
-    },
-    {
-        "id": "store.sql_team.get_by_name.app_error",
-        "translation": "No es pot trobar l'equip existent"
-    },
-    {
-        "id": "store.sql_team.get_by_invite_id.finding.app_error",
-        "translation": "No es pot trobar l'equip existent"
-    },
-    {
-        "id": "store.sql_team.get_by_invite_id.find.app_error",
-        "translation": "No es pot trobar l'equip existent"
-    },
-    {
-        "id": "store.sql_team.get_active_member_count.app_error",
-        "translation": "No es pot comptar els membres de l'equip"
-    },
-    {
-        "id": "store.sql_team.get.finding.app_error",
-        "translation": "Hem trobat un error en cercar l'equip"
-    },
-    {
-        "id": "store.sql_team.get.find.app_error",
-        "translation": "No es pot trobar l'equip existent"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.update.app_error",
-        "translation": "No s'ha pogut actualitzar el membre de l'equip"
-    },
-    {
-        "id": "store.sql_team.clear_all_custom_role_assignments.select.app_error",
-        "translation": "No s'ha pogut recuperar els membres de l'equip"
-    },
-    {
-        "id": "store.sql_team.analytics_team_count.app_error",
-        "translation": "No es pot comptar els equips"
-    },
-    {
-        "id": "store.sql_team.analytics_public_team_count.app_error",
-        "translation": "No es pot comptar els equips"
-    },
-    {
-        "id": "store.sql_team.analytics_private_team_count.app_error",
-        "translation": "No es pot comptar els equips"
-    },
-    {
-        "id": "store.sql_system.update.app_error",
-        "translation": "Hem trobat un error en actualitzar la propietat del sistema"
-    },
-    {
-        "id": "store.sql_system.save.app_error",
-        "translation": "Hem trobat un error en desar la propietat del sistema"
-    },
-    {
-        "id": "store.sql_system.get.app_error",
-        "translation": "Hem trobat un error en cercar les propietats del sistema"
-    },
-    {
-        "id": "store.sql_status.update.app_error",
-        "translation": "S'ha trobat un error en actualitzar l'estat"
-    },
-    {
-        "id": "store.sql_status.save.app_error",
-        "translation": "S'ha trobat un error en desar l'estat"
-    },
-    {
-        "id": "store.sql_status.reset_all.app_error",
-        "translation": "S'ha trobat un error en restablir tots els estats"
-    },
-    {
-        "id": "store.sql_status.get_total_active_users_count.app_error",
-        "translation": "No hem pogut comptar els usuaris actius"
-    },
-    {
-        "id": "store.sql_status.get.app_error",
-        "translation": "S'ha trobat un error en recuperar l'estat"
-    },
-    {
-        "id": "store.sql_session.update_roles.app_error",
-        "translation": "No es pot actualitzar els rols"
-    },
-    {
-        "id": "store.sql_session.update_device_id.app_error",
-        "translation": "No s'ha pogut eliminar les preferències de l'usuari."
-    },
-    {
-        "id": "store.sql_session.save.app_error",
-        "translation": "No es pot desar la sessió"
-    },
-    {
-        "id": "store.sql_session.remove_all_sessions_for_team.app_error",
-        "translation": "No es pot eliminar totes les sessions"
-    },
-    {
-        "id": "store.sql_session.remove.app_error",
-        "translation": "No es pot eliminar la sessió"
-    },
-    {
-        "id": "store.sql_session.get_sessions.app_error",
-        "translation": "Hem trobat un error en cercar les sessions d'usuaris"
-    },
-    {
-        "id": "store.sql_session.get.app_error",
-        "translation": "Hem trobat un error en cercar la sessió"
-    },
-    {
-        "id": "store.sql_role.get_by_names.app_error",
-        "translation": "No es pot obtenir els rols"
-    },
-    {
-        "id": "store.sql_role.get_by_name.app_error",
-        "translation": "No es pot obtenir el rol"
-    },
-    {
-        "id": "store.sql_role.get_all.app_error",
-        "translation": "No es poden obtenir tots els rols"
-    },
-    {
-        "id": "store.sql_role.get.app_error",
-        "translation": "No es pot obtenir el rol"
-    },
-    {
-        "id": "store.sql_role.delete.update.app_error",
-        "translation": "No es pot eliminar el rol"
-    },
-    {
-        "id": "store.sql_recover.save.app_error",
-        "translation": "No es pot desar el testimoni"
-    },
-    {
-        "id": "store.sql_recover.delete.app_error",
-        "translation": "No es pot eliminar el testimoni"
-    },
-    {
         "id": "app.reaction.save.save.app_error",
         "translation": "No es pot desar la reacció"
-    },
-    {
-        "id": "store.sql_preference.update.app_error",
-        "translation": "No s'ha pogut eliminar les preferències de l'usuari."
-    },
-    {
-        "id": "store.sql_preference.save.updating.app_error",
-        "translation": "Hem detectat un error en actualitzar les preferències"
-    },
-    {
-        "id": "store.sql_preference.save.missing_driver.app_error",
-        "translation": "Hem detectat un error en actualitzar les preferències"
-    },
-    {
-        "id": "store.sql_preference.permanent_delete_by_user.app_error",
-        "translation": "Hem detectat un error en suprimir les preferències"
-    },
-    {
-        "id": "store.sql_preference.insert.save.app_error",
-        "translation": "No s'ha pogut establir les preferències de l'usuari."
-    },
-    {
-        "id": "store.sql_preference.get_category.app_error",
-        "translation": "Hem trobat un error en cercar les preferències"
-    },
-    {
-        "id": "store.sql_preference.get_all.app_error",
-        "translation": "Hem trobat un error en cercar les preferències"
-    },
-    {
-        "id": "store.sql_preference.get.app_error",
-        "translation": "Hem trobat un error en cercar les preferències"
-    },
-    {
-        "id": "store.sql_preference.delete.app_error",
-        "translation": "Hem trobat un error en suprimir les preferències"
-    },
-    {
-        "id": "store.sql_post.update.app_error",
-        "translation": "No es pot actualitzar la publicació"
-    },
-    {
-        "id": "store.sql_post.save.app_error",
-        "translation": "No es pot desar la publicació"
-    },
-    {
-        "id": "store.sql_post.permanent_delete_by_channel.app_error",
-        "translation": "No es pot eliminar les publicacions per canal"
-    },
-    {
-        "id": "store.sql_post.permanent_delete.app_error",
-        "translation": "No es pot eliminar la publicació"
-    },
-    {
-        "id": "store.sql_post.overwrite.app_error",
-        "translation": "No es pot sobreescriure la publicació"
-    },
-    {
-        "id": "store.sql_post.get_posts_by_ids.app_error",
-        "translation": "No es pot obtenir les publicacions"
-    },
-    {
-        "id": "store.sql_post.get_flagged_posts.app_error",
-        "translation": "No es poden obtenir les publicacions marcades"
-    },
-    {
-        "id": "store.sql_post.get_direct_posts.app_error",
-        "translation": "No es pot obtenir les publicacions directes"
-    },
-    {
-        "id": "store.sql_post.get.app_error",
-        "translation": "No es pot obtenir la publicació"
-    },
-    {
-        "id": "store.sql_post.delete.app_error",
-        "translation": "No es pot eliminar la publicació"
-    },
-    {
-        "id": "store.sql_oauth.update_app.updating.app_error",
-        "translation": "Hem trobat un error en actualitzar l'aplicació"
-    },
-    {
-        "id": "store.sql_oauth.update_app.update.app_error",
-        "translation": "No es pot actualitzar l'aplicació"
-    },
-    {
-        "id": "store.sql_oauth.update_app.finding.app_error",
-        "translation": "Hem trobat un error en cercar l'aplicació"
-    },
-    {
-        "id": "store.sql_oauth.update_app.find.app_error",
-        "translation": "No es pot trobar l'aplicació existent per actualitzar-la"
-    },
-    {
-        "id": "store.sql_oauth.update_access_data.app_error",
-        "translation": "Hem detectat un error en actualitzar el testimoni d'accés"
-    },
-    {
-        "id": "store.sql_oauth.save_app.save.app_error",
-        "translation": "No es pot desar l'aplicació."
-    },
-    {
-        "id": "store.sql_oauth.save_access_data.app_error",
-        "translation": "No es pot desar el testimoni d'accés."
-    },
-    {
-        "id": "store.sql_oauth.remove_access_data.app_error",
-        "translation": "No es pot eliminar el testimoni d'accés"
-    },
-    {
-        "id": "store.sql_oauth.get_previous_access_data.app_error",
-        "translation": "Hem trobat un error en cercar el testimoni d'accés"
-    },
-    {
-        "id": "store.sql_oauth.get_apps.find.app_error",
-        "translation": "S'ha produït un error en trobar les aplicacions OAuth2"
-    },
-    {
-        "id": "store.sql_oauth.get_app_by_user.find.app_error",
-        "translation": "No es poden trobar aplicacions existents"
-    },
-    {
-        "id": "store.sql_oauth.get_app.finding.app_error",
-        "translation": "Hem trobat un error en cercar l'aplicació"
-    },
-    {
-        "id": "store.sql_oauth.get_access_data_by_user_for_app.app_error",
-        "translation": "Hem trobat un error en cercar tots els testimonis d'accés"
-    },
-    {
-        "id": "store.sql_oauth.get_access_data.app_error",
-        "translation": "Hem trobat un error en cercar el testimoni d'accés"
-    },
-    {
-        "id": "store.sql_oauth.delete_app.app_error",
-        "translation": "S'ha produït un error en suprimir l'aplicació OAuth2"
-    },
-    {
-        "id": "store.sql_job.update.app_error",
-        "translation": "No es pot actualitzar la feina"
-    },
-    {
-        "id": "store.sql_job.save.app_error",
-        "translation": "No es pot desar la feina"
-    },
-    {
-        "id": "store.sql_job.get_all.app_error",
-        "translation": "No es pot obtenir els treballs"
-    },
-    {
-        "id": "store.sql_job.get.app_error",
-        "translation": "No es pot obtenir el treball"
-    },
-    {
-        "id": "store.sql_job.delete.app_error",
-        "translation": "No es pot eliminar la feina"
-    },
-    {
-        "id": "store.sql_file_info.save.app_error",
-        "translation": "No es pot desar la informació del fitxer"
-    },
-    {
-        "id": "store.sql_file_info.get_with_options.app_error",
-        "translation": "No es pot obtenir la informació del fitxer per la ruta"
-    },
-    {
-        "id": "store.sql_file_info.get_for_user_id.app_error",
-        "translation": "No es pot obtenir la informació del fitxer per a l'usuari"
-    },
-    {
-        "id": "store.sql_file_info.get_for_post.app_error",
-        "translation": "No es pot obtenir la informació del fitxer per a la publicació"
-    },
-    {
-        "id": "store.sql_file_info.get_by_path.app_error",
-        "translation": "No es pot obtenir la informació del fitxer per la ruta"
-    },
-    {
-        "id": "store.sql_file_info.get.app_error",
-        "translation": "No es pot obtenir la informació del fitxer"
-    },
-    {
-        "id": "store.sql_file_info.delete_for_post.app_error",
-        "translation": "No es pot eliminar la informació del fitxer de la publicació"
-    },
-    {
-        "id": "store.sql_file_info.attach_to_post.app_error",
-        "translation": "No es pot adjuntar la informació del fitxer de la publicació"
     },
     {
         "id": "app.emoji.delete.app_error",
         "translation": "No es pot eliminar l'emoji"
     },
     {
-        "id": "store.sql_compliance.save.saving.app_error",
-        "translation": "Hem trobat un error en desar l'informe de conformitat"
-    },
-    {
-        "id": "store.sql_compliance.get.finding.app_error",
-        "translation": "Hem trobat un error en recuperar els informes de conformitat"
-    },
-    {
-        "id": "store.sql_command_webhooks.try_use.invalid.app_error",
-        "translation": "Mètode no vàlid"
-    },
-    {
-        "id": "store.sql_command_webhooks.try_use.app_error",
-        "translation": "No es pot utilitzar el «webhook»"
-    },
-    {
-        "id": "store.sql_command_webhooks.save.app_error",
-        "translation": "No es pot desar el «CommandWebhook»"
-    },
-    {
-        "id": "store.sql_command_webhooks.get.app_error",
-        "translation": "No es pot obtenir el «webhook»"
-    },
-    {
-        "id": "store.sql_command.save.update.app_error",
-        "translation": "No es pot actualitzar l'ordre"
-    },
-    {
-        "id": "store.sql_command.save.saving.app_error",
-        "translation": "No es pot desar l'ordre"
-    },
-    {
-        "id": "store.sql_command.save.get_team.app_error",
-        "translation": "No es pot obtenir les ordres"
-    },
-    {
         "id": "store.sql_command.save.get.app_error",
         "translation": "No es pot obtenir l'ordre"
     },
     {
-        "id": "store.sql_command.save.delete_perm.app_error",
-        "translation": "No es pot eliminar la comanda"
-    },
-    {
-        "id": "store.sql_command.save.delete.app_error",
-        "translation": "No es pot eliminar la comanda"
-    },
-    {
-        "id": "store.sql_command.get_by_trigger.app_error",
-        "translation": "No es pot obtenir l'ordre"
-    },
-    {
-        "id": "store.sql_command.analytics_command_count.app_error",
-        "translation": "No es pot comptar les ordres"
-    },
-    {
-        "id": "store.sql_channel.update_member.app_error",
-        "translation": "Hem trobat un error en actualitzar el membre del canal"
-    },
-    {
         "id": "app.channel.update.bad_id",
         "translation": "No es pot actualitzar el canal"
-    },
-    {
-        "id": "store.sql_channel.search.app_error",
-        "translation": "Hem trobat un error en cercar els canals"
     },
     {
         "id": "store.sql_channel.save_channel.limit.app_error",
@@ -732,64 +164,8 @@
         "translation": "No pots modificar un canal arxivat"
     },
     {
-        "id": "store.sql_channel.remove_member.app_error",
-        "translation": "No es pot eliminar el membre del canal"
-    },
-    {
-        "id": "store.sql_channel.permanent_delete_members_by_user.app_error",
-        "translation": "No es pot eliminar el membre del canal"
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.update.app_error",
-        "translation": "No s'ha pogut actualitzar el membre del canal"
-    },
-    {
-        "id": "store.sql_channel.get_public_channels.get.app_error",
-        "translation": "No es poden obtenir els canals públics"
-    },
-    {
-        "id": "store.sql_channel.get_pinnedpost_count.app_error",
-        "translation": "No es pot obtenir el número de membres del canal"
-    },
-    {
-        "id": "store.sql_channel.get_members_by_ids.app_error",
-        "translation": "No es pot obtenir els membres del canal"
-    },
-    {
-        "id": "store.sql_channel.get_members.app_error",
-        "translation": "No es pot obtenir els membres del canal"
-    },
-    {
-        "id": "store.sql_channel.get_member_count.app_error",
-        "translation": "No es pot obtenir el número de membres del canal"
-    },
-    {
-        "id": "store.sql_channel.get_member.app_error",
-        "translation": "No es pot obtenir el membre del canal"
-    },
-    {
         "id": "app.channel.get_deleted.existing.app_error",
         "translation": "No es pot trobar el canal eliminat existent"
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.get.app_error",
-        "translation": "No es poden obtenir els canals"
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.app_error",
-        "translation": "No s'han pogut obtenir els canals per ID"
-    },
-    {
-        "id": "store.sql_channel.get_channel_counts.get.app_error",
-        "translation": "No es pot obtenir el número de canals"
-    },
-    {
-        "id": "store.sql_channel.get_all_direct.app_error",
-        "translation": "No es poden obtenir tots els canals directes"
-    },
-    {
-        "id": "store.sql_channel.get_all.app_error",
-        "translation": "No es poden obtenir tots els canals"
     },
     {
         "id": "store.sql_channel.get.find.app_error",
@@ -798,22 +174,6 @@
     {
         "id": "store.sql_channel.get.existing.app_error",
         "translation": "No es pot trobar el canal existent"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.update.app_error",
-        "translation": "No s'ha pogut actualitzar el membre del canal"
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.select.app_error",
-        "translation": "No s'han pogut recuperar els membres del canal"
-    },
-    {
-        "id": "store.sql_channel.analytics_type_count.app_error",
-        "translation": "No s'ha pogut obtenir la quantitat de canals d'aquest tipus"
-    },
-    {
-        "id": "store.sql_channel.analytics_deleted_type_count.app_error",
-        "translation": "No s'ha pogut obtenir la quantitat de canals esborrats d'aquest tipus"
     },
     {
         "id": "app.audit.save.saving.app_error",
@@ -1352,10 +712,6 @@
         "translation": "El treball d'indexació d'Elasticsearch no ha pogut analitzar l'hora de finalització"
     },
     {
-        "id": "ent.elasticsearch.indexer.do_job.get_oldest_post.error",
-        "translation": "No s'ha pogut recuperar la publicació més antiga de la base de dades."
-    },
-    {
         "id": "ent.elasticsearch.index_user.error",
         "translation": "No s'ha pogut indexar l'usuari"
     },
@@ -1594,10 +950,6 @@
     {
         "id": "app.user_access_token.disabled",
         "translation": "S'han desactivat els testimonis d'accés personal en aquest servidor. Contacta amb l'administrador del sistema per obtenir-ne més detalls."
-    },
-    {
-        "id": "app.user.complete_switch_with_oauth.blank_email.app_error",
-        "translation": "No es pot completar l'inici de sessió amb SAML amb una adreça de correu buida."
     },
     {
         "id": "app.team.join_user_to_team.max_accounts.app_error",
@@ -1956,24 +1308,12 @@
         "translation": "Descripció de l'esquema no vàlid."
     },
     {
-        "id": "store.sql_session.analytics_session_count.app_error",
-        "translation": "No es pot comptar les sessions"
-    },
-    {
         "id": "app.scheme.save.app_error",
         "translation": "No es pot crear l'esquema"
     },
     {
         "id": "app.scheme.get.app_error",
         "translation": "No es pot obtenir l'esquema"
-    },
-    {
-        "id": "store.sql_role.save.update.app_error",
-        "translation": "No es pot actualitzar el rol"
-    },
-    {
-        "id": "store.sql_role.save.insert.app_error",
-        "translation": "No es pot desar el nou rol"
     },
     {
         "id": "app.import.validate_role_import_data.name_invalid.error",
@@ -3064,10 +2404,6 @@
         "translation": "«CreateAt» s'ha de configurar"
     },
     {
-        "id": "model.client.connecting.app_error",
-        "translation": "Hem trobat un error en connectar al servidor"
-    },
-    {
         "id": "model.channel_member.is_valid.user_id.app_error",
         "translation": "ID d'usuari no vàlid"
     },
@@ -3268,24 +2604,12 @@
         "translation": "No es pot analitzar l'URL"
     },
     {
-        "id": "jobs.start_synchronize_job.timeout",
-        "translation": "S'ha superat el temps d'espera del treball de sincronització d'AD/LDAP."
-    },
-    {
         "id": "jobs.set_job_error.update.error",
         "translation": "No s'ha pogut establir l'estat del treball a error"
     },
     {
         "id": "jobs.request_cancellation.status.error",
         "translation": "No s'ha pogut sol·licitar la cancel·lació per a un treball que no es troba en un estat cancel·lable."
-    },
-    {
-        "id": "jobs.do_job.batch_start_timestamp.parse_error",
-        "translation": "No s'ha pogut analitzar la data i hora d'inici de l'exportació de missatges."
-    },
-    {
-        "id": "jobs.do_job.batch_size.parse_error",
-        "translation": "No s'ha pogut analitzar la mida del bloc de dades de l'exportació de missatges."
     },
     {
         "id": "interactive_message.generate_trigger_id.signing_failed",
@@ -4118,10 +3442,6 @@
         "translation": "S'ha produït un error en comprovar si existeix el cub."
     },
     {
-        "id": "api.file.test_connection.s3.bucked_create.app_error",
-        "translation": "No s'ha pogut crear el cub."
-    },
-    {
         "id": "api.file.test_connection.local.connection.app_error",
         "translation": "No tens permisos per escriure a la ruta d'accés local especificada o un altre error."
     },
@@ -4558,10 +3878,6 @@
     {
         "id": "app.export.export_custom_emoji.copy_emoji_images.error",
         "translation": "No s'han pogut copiar les imatges d'emoticones personalitzats"
-    },
-    {
-        "id": "app.cluster.404.app_error",
-        "translation": "No s'ha trobat el punt final de l'API del clúster."
     },
     {
         "id": "app.channel.post_update_channel_purpose_message.updated_to",
@@ -5877,10 +5193,6 @@
     {
         "id": "api.admin.add_certificate.array.app_error",
         "translation": "Cap fitxer sota «certificat» a la petició."
-    },
-    {
-        "id": "actiance.export.marshalToXml.appError",
-        "translation": "No es pot convertir l'exportació a XML."
     },
     {
         "id": "September",

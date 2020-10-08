@@ -1,13 +1,5 @@
 [
     {
-        "id": "store.sql_oauth.get_apps.find.app_error",
-        "translation": "Der opstod en fejl under sletningen af ​​certifikatet"
-    },
-    {
-        "id": "store.sql_oauth.delete_app.app_error",
-        "translation": "Der opstod en fejl under sletningen af ​​certifikatet"
-    },
-    {
         "id": "interactive_message.generate_trigger_id.signing_failed",
         "translation": "Kunne ikke underskrive genereret trigger ID til interaktiv dialog."
     },
@@ -326,10 +318,6 @@
     {
         "id": "api.admin.add_certificate.array.app_error",
         "translation": "Ingen fil under \"certifikat\" i anmodningen."
-    },
-    {
-        "id": "actiance.export.marshalToXml.appError",
-        "translation": "Ude af stand til at konvertere eksport til XML."
     },
     {
         "id": "September",

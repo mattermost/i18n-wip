@@ -1140,10 +1140,6 @@
         "translation": "Нема фајла под 'certificate' у захтеву."
     },
     {
-        "id": "actiance.export.marshalToXml.appError",
-        "translation": "Није могуће претворити експорт у XML-а."
-    },
-    {
         "id": "September",
         "translation": "Септембар"
     },

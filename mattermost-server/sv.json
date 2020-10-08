@@ -204,28 +204,8 @@
         "translation": "Den här e-postadressen används redan. Välj en annan."
     },
     {
-        "id": "store.sql_user.save.username_exists.saml_app_error",
-        "translation": "Ett konto med det användarnamnet finns redan. Kontakta din systemadministratör."
-    },
-    {
-        "id": "store.sql_user.save.username_exists.ldap_app_error",
-        "translation": "Ett konto med det användarnamnet finns redan. Kontakta din systemadministratör."
-    },
-    {
         "id": "store.sql_user.save.username_exists.app_error",
         "translation": "Ett konto med det användarnamnet finns redan."
-    },
-    {
-        "id": "store.sql_user.save.max_accounts.app_error",
-        "translation": "Denna grupp har nått maximalt antal tillåtna konton. Be systemadministratören att sätta en högre gräns. "
-    },
-    {
-        "id": "store.sql_user.save.email_exists.saml_app_error",
-        "translation": "Det här kontot använder inte SAML-autentisering. Logga in med användarnamn och lösenord."
-    },
-    {
-        "id": "store.sql_user.save.email_exists.ldap_app_error",
-        "translation": "Det här kontot använder inte AD/LDAP-autentisering. Logga in med användarnamn och lösenord."
     },
     {
         "id": "store.sql_user.save.email_exists.app_error",
@@ -272,88 +252,8 @@
         "translation": "Kan inte anropa spara för befintliga användarvillkor."
     },
     {
-        "id": "store.sql_team.get_by_names.missing.app_error",
-        "translation": "Kunde inte hitta några av de efterfrågade teamen"
-    },
-    {
-        "id": "store.sql_team.analytics_get_team_count_for_scheme.app_error",
-        "translation": "Kunde inte få fram antal kanaler som schemat finns på."
-    },
-    {
-        "id": "store.sql_system.get_by_name.app_error",
-        "translation": "Kunde inte hitta systemvariabeln."
-    },
-    {
         "id": "store.sql_post.search.disabled",
         "translation": "Sökfunktionen är avstängd på denna server. Kontakta din systemadministratör."
-    },
-    {
-        "id": "store.sql_post.populate_reply_count.app_error",
-        "translation": "Kunde inte hämta antal svar på inlägget"
-    },
-    {
-        "id": "store.sql_post.get_post_id_around.app_error",
-        "translation": "Det gick inte att hämta meddelanden runt angiven tid,"
-    },
-    {
-        "id": "store.sql_post.get_post_after_time.app_error",
-        "translation": "Det gick inte att hämta meddelanden efter angiven tid."
-    },
-    {
-        "id": "store.sql_post.get_parents_posts.app_error",
-        "translation": "Det gick inte att få fram modermeddelandet i kanalen."
-    },
-    {
-        "id": "store.sql_post.get_flagged_posts.app_error",
-        "translation": "Det gick inte att få det markerade meddelandet."
-    },
-    {
-        "id": "store.sql_post.get_direct_posts.app_error",
-        "translation": "Kunde inte ta fram direktmeddelanden."
-    },
-    {
-        "id": "store.sql_post.get.app_error",
-        "translation": "Det gick inte att få fram meddelandet."
-    },
-    {
-        "id": "store.sql_post.delete.app_error",
-        "translation": "Det gick inte att radera meddelandet."
-    },
-    {
-        "id": "store.sql_post.analytics_user_counts_posts_by_day.app_error",
-        "translation": "Det gick inte att få fram antal användare som postat meddelanden."
-    },
-    {
-        "id": "store.sql_post.analytics_posts_count_by_day.app_error",
-        "translation": "Det gick inte att få fram antal meddelanden per dag."
-    },
-    {
-        "id": "store.sql_post.analytics_posts_count.app_error",
-        "translation": "Det gick inte att få fram antalet meddelanden."
-    },
-    {
-        "id": "store.sql_plugin_store.save.app_error",
-        "translation": "Kunde inte spara eller uppdatera värdet för plugin-parametern."
-    },
-    {
-        "id": "store.sql_plugin_store.list.app_error",
-        "translation": "Kunde inte lista alla plugin-nycklar."
-    },
-    {
-        "id": "store.sql_plugin_store.get.app_error",
-        "translation": "Kunde inte få fram värdet för plugin-parametern."
-    },
-    {
-        "id": "store.sql_plugin_store.delete.app_error",
-        "translation": "Kunde inte radera värdet för plugin-parametern."
-    },
-    {
-        "id": "store.sql_plugin_store.compare_and_set.too_many_rows.app_error",
-        "translation": "Hittade mer än en rad i MySQL efter KVCompareAndSet med oförändrade värden."
-    },
-    {
-        "id": "store.sql_plugin_store.compare_and_set.mysql_select.app_error",
-        "translation": "Misslyckades fråga efter en befintlig rad i MySQL efter KVCompareAndSet med oförändrade värden."
     },
     {
         "id": "app.oauth.update_app.updating.app_error",
@@ -404,34 +304,6 @@
         "translation": "Ett fel uppstod när OAuth2 applikationen skulle raderas."
     },
     {
-        "id": "store.sql_job.update.app_error",
-        "translation": "Det gick inte att uppdatera jobbet."
-    },
-    {
-        "id": "store.sql_job.save.app_error",
-        "translation": "Det gick inte att spara jobbet,"
-    },
-    {
-        "id": "store.sql_job.get_newest_job_by_status_and_type.app_error",
-        "translation": "Det gick inte att få senaste jobb per status och typ."
-    },
-    {
-        "id": "store.sql_job.get_count_by_status_and_type.app_error",
-        "translation": "Det gick inte att få fram antal jobb per status och typ."
-    },
-    {
-        "id": "store.sql_job.get_all.app_error",
-        "translation": "Det gick inte att få fram jobben."
-    },
-    {
-        "id": "store.sql_job.get.app_error",
-        "translation": "Det gick inte att få fram jobbet."
-    },
-    {
-        "id": "store.sql_job.delete.app_error",
-        "translation": "Det gick inte att radera jobbet."
-    },
-    {
         "id": "store.sql_group.uniqueness_error",
         "translation": "gruppmedlemmen finns redan"
     },
@@ -454,50 +326,6 @@
     {
         "id": "store.sql_group.app_error",
         "translation": "misslyckades att skapa frågan."
-    },
-    {
-        "id": "store.sql_file_info.save.app_error",
-        "translation": "Det gick inte att spara filinformationen."
-    },
-    {
-        "id": "store.sql_file_info.permanent_delete_batch.app_error",
-        "translation": "Ett fel påträffades vid batchkörningen av filinformationsradering."
-    },
-    {
-        "id": "store.sql_file_info.permanent_delete.app_error",
-        "translation": "Det gick inte att radera filinformationen."
-    },
-    {
-        "id": "store.sql_file_info.get_with_options.app_error",
-        "translation": "Det gick inte att få fram filinformationen och alternativ"
-    },
-    {
-        "id": "store.sql_file_info.get_for_user_id.app_error",
-        "translation": "Det gick inte att få fram filinformationen för användaren."
-    },
-    {
-        "id": "store.sql_file_info.get_for_post.app_error",
-        "translation": "Det gick inte att få fram meddelandets filinformation."
-    },
-    {
-        "id": "store.sql_file_info.get_by_path.app_error",
-        "translation": "Det gick inte att få fram filinformationen via sökväg."
-    },
-    {
-        "id": "store.sql_file_info.get.app_error",
-        "translation": "Det gick inte att få fram filinformationen."
-    },
-    {
-        "id": "store.sql_file_info.delete_for_post.app_error",
-        "translation": "Det gick inte att radera filinformationen i meddelandet."
-    },
-    {
-        "id": "store.sql_file_info.attach_to_post.app_error",
-        "translation": "Det gick inte att bifoga filinformation till meddelandet."
-    },
-    {
-        "id": "store.sql_file_info.PermanentDeleteByUser.app_error",
-        "translation": "Kunde inte radera användarens bifogade filer."
     },
     {
         "id": "app.emoji.delete.no_results",
@@ -560,44 +388,8 @@
         "translation": "Misslyckades att hämta medlemmar i kanalen under den angivna tidsperioden."
     },
     {
-        "id": "store.sql_channel.user_belongs_to_channels.app_error",
-        "translation": "Kunde inte avgöra om användaren tillhör en list av kanaler."
-    },
-    {
-        "id": "store.sql_channel.update_member.app_error",
-        "translation": "Ett fel påträffades vid uppdatering av kanalmedlemmar."
-    },
-    {
-        "id": "store.sql_channel.update_last_viewed_at_post.app_error",
-        "translation": "Kunde inte markera kanalen som oläst."
-    },
-    {
-        "id": "store.sql_channel.update_last_viewed_at.app_error",
-        "translation": "Kunde inte uppdatera tiden för senast visad."
-    },
-    {
         "id": "app.channel.update.bad_id",
         "translation": "Det gick inte att uppdatera kanalen."
-    },
-    {
-        "id": "store.sql_channel.search_group_channels.app_error",
-        "translation": "Det gick inte att ta fram grupp-kanaler för den angiven användare och team."
-    },
-    {
-        "id": "store.sql_channel.search.app_error",
-        "translation": "Ett fel påträffades vid genomsökning av kanaler."
-    },
-    {
-        "id": "store.sql_channel.save_member.open_transaction.app_error",
-        "translation": "Det gick inte att starta transaktionen."
-    },
-    {
-        "id": "store.sql_channel.save_member.exists.app_error",
-        "translation": "En kanalmedlem med det ID finns redan."
-    },
-    {
-        "id": "store.sql_channel.save_member.commit_transaction.app_error",
-        "translation": "Det gick inte att ta genomföra transaktionen."
     },
     {
         "id": "store.sql_channel.save_direct_channel.not_direct.app_error",
@@ -624,94 +416,6 @@
         "translation": "Du kan inte ändra en arkiverad kanal."
     },
     {
-        "id": "store.sql_channel.reset_all_channel_schemes.open_transaction.app_error",
-        "translation": "Det gick inte att starta transaktionen."
-    },
-    {
-        "id": "store.sql_channel.reset_all_channel_schemes.commit_transaction.app_error",
-        "translation": "Det gick inte att genomföra transaktionen."
-    },
-    {
-        "id": "store.sql_channel.reset_all_channel_schemes.app_error",
-        "translation": "Vi kunde inte återställa alla kanalscheman."
-    },
-    {
-        "id": "store.sql_channel.remove_member.app_error",
-        "translation": "Det gick inte att ta bort kanalmedlemmen."
-    },
-    {
-        "id": "store.sql_channel.remove_all_deactivated_members.app_error",
-        "translation": "Det gick inte att ta bort alla avstängda användare från kanalen."
-    },
-    {
-        "id": "store.sql_channel.pinned_posts.app_error",
-        "translation": "Det gick inte att hitta fastnålade inlägg."
-    },
-    {
-        "id": "store.sql_channel.permanent_delete_members_by_user.app_error",
-        "translation": "Det gick inte att ta bort kanalmedlemmen."
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.update.app_error",
-        "translation": "Misslyckades att uppdatera kanalmedlemmen."
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.select.app_error",
-        "translation": "Misslyckades med att välja batchen av kanalens medlemmar."
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.open_transaction.app_error",
-        "translation": "Misslyckades att öppna databastransaktionen."
-    },
-    {
-        "id": "store.sql_channel.migrate_channel_members.commit_transaction.app_error",
-        "translation": "Misslyckades att genomföra databastransaktionen."
-    },
-    {
-        "id": "store.sql_channel.increment_mention_count.app_error",
-        "translation": "Det gick inte att räkna upp räknaren för omnämnanden."
-    },
-    {
-        "id": "store.sql_channel.get_unread.app_error",
-        "translation": "Det gick inte att hämta kanalens olästa meddelanden."
-    },
-    {
-        "id": "store.sql_channel.get_public_channels.get.app_error",
-        "translation": "Det gick inte att hämta publika kanaler."
-    },
-    {
-        "id": "store.sql_channel.get_pinnedpost_count.app_error",
-        "translation": "Det gick inte att hämta antalet fastnålade meddelanden."
-    },
-    {
-        "id": "store.sql_channel.get_members_by_ids.app_error",
-        "translation": "Det gick inte att ta fram kanalmedlemmarna."
-    },
-    {
-        "id": "store.sql_channel.get_members.app_error",
-        "translation": "Det gick inte att ta fram kanalmedlemmarna."
-    },
-    {
-        "id": "store.sql_channel.get_member_for_post.app_error",
-        "translation": "Det gick inte att hitta kanalmedlemmen för angivet meddelande."
-    },
-    {
-        "id": "store.sql_channel.get_member_count.app_error",
-        "translation": "Det gick inte att få fram antalet kanalmedlemmar."
-    },
-    {
-        "id": "store.sql_channel.get_member.missing.app_error",
-        "translation": "Ingen kanalmedlem hittad med det användar-id och kanal-id."
-    },
-    {
-        "id": "store.sql_channel.get_member.app_error",
-        "translation": "Det gick inte att hitta kanalmedlemmen."
-    },
-    {
-        "id": "store.sql_channel.get_for_post.app_error",
-        "translation": "Det gick inte att hitta kanalen för inlägget."
-    },
-    {
         "id": "app.channel.get_deleted.missing.app_error",
         "translation": "Inga raderade kanaler finns."
     },
@@ -720,44 +424,12 @@
         "translation": "Det gick inte att hitta den raderade kanalen."
     },
     {
-        "id": "store.sql_channel.get_channels_by_ids.not_found.app_error",
-        "translation": "Inga kanaler hittades."
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.get.app_error",
-        "translation": "Det gick inte hämta kanalerna."
-    },
-    {
-        "id": "store.sql_channel.get_channels_by_ids.app_error",
-        "translation": "Det gick inte att hämta kanaler identifierade med id."
-    },
-    {
-        "id": "store.sql_channel.get_channels_batch_for_indexing.get.app_error",
-        "translation": "Det gick inte att hämta kanalerna för batchindexering."
-    },
-    {
         "id": "app.channel.get_channels.not_found.app_error",
         "translation": "Inga kanaler hittades."
     },
     {
-        "id": "store.sql_channel.get_channel_counts.get.app_error",
-        "translation": "Det gick inte att hämta antalet kanaler."
-    },
-    {
-        "id": "store.sql_channel.get_by_scheme.app_error",
-        "translation": "Det gick inte att hitta kanalerna för det bifogade schemat."
-    },
-    {
         "id": "app.channel.get_by_name.missing.app_error",
         "translation": "Kanalen finns inte."
-    },
-    {
-        "id": "store.sql_channel.get_all_direct.app_error",
-        "translation": "Det gick inte att hämta alla direktmeddelande-kanaler."
-    },
-    {
-        "id": "store.sql_channel.get_all.app_error",
-        "translation": "Det gick inte att hämta alla kanaler."
     },
     {
         "id": "store.sql_channel.get.find.app_error",
@@ -766,34 +438,6 @@
     {
         "id": "store.sql_channel.get.existing.app_error",
         "translation": "Det gick inte att hitta en befintlig kanal."
-    },
-    {
-        "id": "store.sql_channel.count_posts_since.app_error",
-        "translation": "Kunde inte räkna meddelanden från angivet datum."
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.update.app_error",
-        "translation": "Misslyckades att uppdatera kanalmedlemmen."
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Misslyckades att ta emot kanalmedlemmar."
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.open_transaction.app_error",
-        "translation": "Misslyckades att starta databastransaktionen."
-    },
-    {
-        "id": "store.sql_channel.clear_all_custom_role_assignments.commit_transaction.app_error",
-        "translation": "Misslyckades att genomföra databastransaktionen."
-    },
-    {
-        "id": "store.sql_channel.analytics_type_count.app_error",
-        "translation": "Det gick inte att hämta antalet kanaltyper."
-    },
-    {
-        "id": "store.sql_channel.analytics_deleted_type_count.app_error",
-        "translation": "Det gick inte att hämta antalet borttagna kanaltyper."
     },
     {
         "id": "store.sql_bot.get.missing.app_error",
@@ -822,10 +466,6 @@
     {
         "id": "store.sql.convert_string_array",
         "translation": "Från Db: Kunde inte konvertera StringArray till *string"
-    },
-    {
-        "id": "store.sql.build_query.app_error",
-        "translation": "misslyckades att skapa frågan."
     },
     {
         "id": "store.select_error",
@@ -1944,10 +1584,6 @@
         "translation": "CreateAt måste anges."
     },
     {
-        "id": "model.client.connecting.app_error",
-        "translation": "Ett problem uppstod vid anslutning till servern."
-    },
-    {
         "id": "model.channel_member.is_valid.user_id.app_error",
         "translation": "Ogiltigt användarid."
     },
@@ -2152,24 +1788,12 @@
         "translation": "Kan inte tolka URL:en."
     },
     {
-        "id": "jobs.start_synchronize_job.timeout",
-        "translation": "AD/LDAP-synkroniseringsjobbet timade ut."
-    },
-    {
         "id": "jobs.set_job_error.update.error",
         "translation": "Kunde inte sätta jobbstatusen till error"
     },
     {
         "id": "jobs.request_cancellation.status.error",
         "translation": "Jobbet kan inte avbryta då status är \"avbryt ej\""
-    },
-    {
-        "id": "jobs.do_job.batch_start_timestamp.parse_error",
-        "translation": "Kunde inte tolka meddelandeexportjobbets ExportFromTimestamp."
-    },
-    {
-        "id": "jobs.do_job.batch_size.parse_error",
-        "translation": "Kunde inte tolka meddelandeexportjobbets BatchSize."
     },
     {
         "id": "interactive_message.generate_trigger_id.signing_failed",
@@ -3050,10 +2674,6 @@
     {
         "id": "app.export.export_custom_emoji.copy_emoji_images.error",
         "translation": "Kunde inte kopiera Custom Emoij-bilder"
-    },
-    {
-        "id": "app.cluster.404.app_error",
-        "translation": "Slutpunktsadress för Cluster API hittades inte."
     },
     {
         "id": "app.channel.post_update_channel_purpose_message.updated_to",
@@ -4450,10 +4070,6 @@
         "translation": "PErsonliga access_token är avaktiverade på denna server. Kontakta din systemadministratör för mer information."
     },
     {
-        "id": "app.user.complete_switch_with_oauth.blank_email.app_error",
-        "translation": "Kunde inte slutföra SAML-inloggning med tom e-postadress."
-    },
-    {
         "id": "app.team.join_user_to_team.max_accounts.app_error",
         "translation": "Denna grupp har nått maximalt antal tillåtna konton. Be systemadministratören att höja maxantalet."
     },
@@ -5204,10 +4820,6 @@
     {
         "id": "api.file.test_connection.s3.bucket_exists.app_error",
         "translation": "Fel vid kontroll om bucket finns."
-    },
-    {
-        "id": "api.file.test_connection.s3.bucked_create.app_error",
-        "translation": "Kunde inte skapa S3-burk."
     },
     {
         "id": "api.file.test_connection.local.connection.app_error",
@@ -6559,10 +6171,6 @@
         "translation": "Ingen fil under förfrågan om 'certifikat'."
     },
     {
-        "id": "actiance.export.marshalToXml.appError",
-        "translation": "Kunde inte konvertera exporten till XML."
-    },
-    {
         "id": "model.group.name.invalid_length.app_error",
         "translation": "Namnet måste bestå av 1 till 64 gemena alfanumeriska tecken."
     },
@@ -6963,10 +6571,6 @@
         "translation": "Du har nått användarnivågränsen för den kostnadsfria versionen"
     },
     {
-        "id": "api.server.warn_metric.bot_response.number_of_users.mailto_body",
-        "translation": ""
-    },
-    {
         "id": "app.channel.get_channels_by_ids.not_found.app_error",
         "translation": "Hittade inga kanaler."
     },
@@ -7039,10 +6643,6 @@
         "translation": "Mattermost Contact Us request"
     },
     {
-        "id": "api.templates.warn_metric_ack.number_of_active_users.body",
-        "translation": "Mattermost Contact Us request. My team has now {{ .Limit }} users and I am considering Mattermost Enterprise Edition."
-    },
-    {
         "id": "api.templates.warn_metric_ack.footer",
         "translation": "Om du har fler frågor, kontakta support@mattermost.com"
     },
@@ -7087,10 +6687,6 @@
         "translation": "Mattermost rekommenderar att installationer med fler än 500 användare tar nytta av funktionerna för användarhantering, klusterteknik och prestandamätning. Kontakta oss för att veta mer och berätta på vilket sätt vi hjälpa till.\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
     },
     {
-        "id": "api.server.warn_metric.number_of_active_users_400.notification_title",
-        "translation": "Väx med Mattermost"
-    },
-    {
         "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
         "translation": "Din Mattermost-installation har nu 200 användare. När din användarskara växer går det åt mycket tid att skapa nya konton. Vi rekommenderar att du integrerar din organisations Active Directory/LDAP så att alla med ett konto kan använda Mattermost.\n\n[Läs mer om integration med AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
     },
@@ -7101,10 +6697,6 @@
     {
         "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
         "translation": "Väx med Mattermost"
-    },
-    {
-        "id": "api.server.warn_metric.number_of_active_users_400.notification_body",
-        "translation": "Din Mattermost-installation har nu 400 användare. När du ansluter Mattermost med din organisations inloggningslösningkan dina användare ges åtkomst till Mattermost utan att behöva ange sina inloggningsuppgifter igen. Vi rekommenderar att du ansluter din SAML 2.0-utfärdare till din Mattermost server.\n\n[Läs mer om att ansluta SAML 2.0](https://docs.mattermost.com/deployment/sso-saml.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
     },
     {
         "id": "api.server.warn_metric.contacting_us",
