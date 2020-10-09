@@ -439,6 +439,7 @@
   "user.settings.general.incorrectPassword": "O seu contrasinal é incorrecto.",
   "user.settings.general.username": "Nome de usuario",
   "user.settings.import_theme.cancel": "Cancelar",
+  "user.settings.mfa.title": "Autenticación multifactor",
   "user.settings.notifications.allActivity": "Para toda actividade",
   "user.settings.notifications.desktop.allSoundHidden": "Para toda actividade",
   "user.settings.notifications.email.never": "Nunca",
