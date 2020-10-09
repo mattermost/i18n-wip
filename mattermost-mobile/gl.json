@@ -170,5 +170,6 @@
   "date_separator.today": "Hoxe",
   "create_post.deactivated": "Está a ver unha canle arquivada cun usuario desactivado.",
   "mobile.routes.tableImage": "Imaxe",
-  "mobile.share_extension.channel": "Canle"
+  "mobile.share_extension.channel": "Canle",
+  "mobile.routes.mfa": "Autenticación multifactor"
 }
