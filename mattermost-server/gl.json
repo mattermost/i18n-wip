@@ -1,66 +1,70 @@
 [
-    {
-        "id": "web.error.unsupported_browser.system_browser_or",
-        "translation": "ou"
-    },
-    {
-        "id": "api.admin.add_certificate.open.app_error",
-        "translation": "Non foi posíbel abrir o ficheiro do certificado."
-    },
-    {
-        "id": "api.admin.add_certificate.no_file.app_error",
-        "translation": "Non hai ningún ficheiro baixo «certificado» na solicitude."
-    },
-    {
-        "id": "api.admin.add_certificate.array.app_error",
-        "translation": "Non hai ningún ficheiro baixo «certificado» na solicitude."
-    },
-    {
-        "id": "September",
-        "translation": "Setembro"
-    },
-    {
-        "id": "October",
-        "translation": "Outubro"
-    },
-    {
-        "id": "November",
-        "translation": "Novembro"
-    },
-    {
-        "id": "May",
-        "translation": "Maio"
-    },
-    {
-        "id": "March",
-        "translation": "marzo"
-    },
-    {
-        "id": "June",
-        "translation": "Xuño"
-    },
-    {
-        "id": "July",
-        "translation": "Xullo"
-    },
-    {
-        "id": "January",
-        "translation": "Xaneiro"
-    },
-    {
-        "id": "February",
-        "translation": "Febreiro"
-    },
-    {
-        "id": "December",
-        "translation": "Decembro"
-    },
-    {
-        "id": "August",
-        "translation": "Agosto"
-    },
-    {
-        "id": "April",
-        "translation": "Abril"
-    }
+  {
+    "id": "web.error.unsupported_browser.system_browser_or",
+    "translation": "ou"
+  },
+  {
+    "id": "api.admin.add_certificate.open.app_error",
+    "translation": "Non foi posíbel abrir o ficheiro do certificado."
+  },
+  {
+    "id": "api.admin.add_certificate.no_file.app_error",
+    "translation": "Non hai ningún ficheiro baixo «certificado» na solicitude."
+  },
+  {
+    "id": "api.admin.add_certificate.array.app_error",
+    "translation": "Non hai ningún ficheiro baixo «certificado» na solicitude."
+  },
+  {
+    "id": "September",
+    "translation": "Setembro"
+  },
+  {
+    "id": "October",
+    "translation": "Outubro"
+  },
+  {
+    "id": "November",
+    "translation": "Novembro"
+  },
+  {
+    "id": "May",
+    "translation": "Maio"
+  },
+  {
+    "id": "March",
+    "translation": "marzo"
+  },
+  {
+    "id": "June",
+    "translation": "Xuño"
+  },
+  {
+    "id": "July",
+    "translation": "Xullo"
+  },
+  {
+    "id": "January",
+    "translation": "Xaneiro"
+  },
+  {
+    "id": "February",
+    "translation": "Febreiro"
+  },
+  {
+    "id": "December",
+    "translation": "Decembro"
+  },
+  {
+    "id": "August",
+    "translation": "Agosto"
+  },
+  {
+    "id": "April",
+    "translation": "Abril"
+  },
+  {
+    "id": "api.channel.convert_channel_to_private.default_channel_error",
+    "translation": "Non é posíbel converter esta canle predeterminada nunha canle privada."
+  }
 ]
