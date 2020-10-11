@@ -174,5 +174,7 @@
   "mobile.routes.mfa": "Autenticación multifactor",
   "search_item.channelArchived": "Arquivado",
   "mobile.suggestion.members": "Membros",
-  "mobile.client_upgrade.listener.upgrade_button": "Anovar"
+  "mobile.client_upgrade.listener.upgrade_button": "Anovar",
+  "mobile.share_extension.team": "Equipo",
+  "mobile.routes.channelInfo.unarchive_channel": "Canle sen arquivar"
 }
