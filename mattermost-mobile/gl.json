@@ -78,7 +78,7 @@
   "channel_notifications.preference.global_default": "Predeterminado global (Mencións)",
   "channel_notifications.preference.all_activity": "Para toda actividade",
   "channel_notifications.muteChannel.settings": "Silenciar a canle",
-  "channel_notifications.ignoreChannelMentions.settings": "Ignorar @canle, @aquí, @todo",
+  "channel_notifications.ignoreChannelMentions.settings": "Ignorar @channel, @here, @all",
   "channel_modal.purposeEx": "P. ex.: «Unha canle para arquivar fallos e melloras»",
   "channel_modal.purpose": "Propósito",
   "channel_modal.optional": "(opcional)",
