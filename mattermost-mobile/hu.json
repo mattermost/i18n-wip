@@ -257,5 +257,6 @@
   "user.settings.general.lastName": "Családnév",
   "user.settings.general.firstName": "Keresztnév",
   "user.settings.modal.display": "Megjelenítés",
-  "user.settings.notifications.email.immediately": "Azonnal"
+  "user.settings.notifications.email.immediately": "Azonnal",
+  "mobile.privacy_link": "Adatvédelmi irányelvek"
 }
