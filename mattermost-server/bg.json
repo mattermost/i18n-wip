@@ -8305,5 +8305,13 @@
   {
     "id": "ent.saml.do_login.invalid_time.app_error",
     "translation": "Получихме невалидно време в отговора от доставчика на идентичност. Моля, свържете се със системния администратор."
+  },
+  {
+    "id": "app.upload.run_plugins_hook.rejected",
+    "translation": "Не може да се качи файла {{.Filename}}. Отхвърлен от приставката: {{.Reason}}"
+  },
+  {
+    "id": "app.upload.run_plugins_hook.move_fail",
+    "translation": "Неуспешно преместване на файл."
   }
 ]
