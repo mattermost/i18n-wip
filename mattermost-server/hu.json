@@ -2495,5 +2495,105 @@
   {
     "id": "app.import.validate_direct_post_import_data.message_length.error",
     "translation": "Az üzenet túl hosszú"
+  },
+  {
+    "id": "api.license.request_trial_license.fail_get_user_count.app_error",
+    "translation": "Nem sikerült megszerezni a próbalicencet, próbálkozzon újra, vagy forduljon a support@mattermost.com e-mail címhez. Nem lehet megszerezni a regisztrált felhasználók számát."
+  },
+  {
+    "id": "api.license.request_trial_license.app_error",
+    "translation": "Nem sikerült megszerezni a próbalicencet, próbálkozzon újra, vagy forduljon a support@mattermost.com e-mail címhez."
+  },
+  {
+    "id": "api.license.request-trial.bad-request.terms-not-accepted",
+    "translation": "A licenc igényléséhez el kell fogadnia a Mattermost szoftverértékelési megállapodását és az adatvédelmi irányelveit."
+  },
+  {
+    "id": "api.license.request-trial.bad-request",
+    "translation": "A kért felhasználók száma nem megfelelő."
+  },
+  {
+    "id": "api.job.unable_to_download_job",
+    "translation": "Nem lehet letölteni a munkát"
+  },
+  {
+    "id": "api.invalid_channel",
+    "translation": "A kérésben felsorolt csatorna nem tartozik a felhasználóhoz"
+  },
+  {
+    "id": "api.file.upload_file.incorrect_channelId.app_error",
+    "translation": "Nem lehet feltölteni a fájlt. Helytelen csatorna ID: {{.channelId}}"
+  },
+  {
+    "id": "api.file.test_connection.s3.list_objects.app_error",
+    "translation": "Hiba történt az objektumok felsorolásakor."
+  },
+  {
+    "id": "api.file.test_connection.s3.bucket_create.app_error",
+    "translation": "Nem sikerült létrehozni a vödröt."
+  },
+  {
+    "id": "api.file.append_file.writing.app_error",
+    "translation": "Hiba történt az S3 -ba való íráskor."
+  },
+  {
+    "id": "api.file.append_file.s3.app_error",
+    "translation": "Hiba történt az S3 fájlhoz való csatoláskor."
+  },
+  {
+    "id": "api.file.append_file.opening.app_error",
+    "translation": "Hiba történt a fájl megnyitása során."
+  },
+  {
+    "id": "api.file.append_file.no_exist.app_error",
+    "translation": "A fájl nem létezik."
+  },
+  {
+    "id": "api.emoji.create.internal_error",
+    "translation": "server_error: Belső szerverhiba történt az emoji létrehozásakor."
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.missing_server.app_error",
+    "translation": "SMTP szerver szükséges"
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.invalid_warn_metric.app_error",
+    "translation": "Nem található a figyelmeztető mutató."
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.failure.app_error",
+    "translation": "Nem sikerült elküldeni az adminisztrátor nyugtázó e-mailt"
+  },
+  {
+    "id": "api.context.get_user.app_error",
+    "translation": "A felhasználót nem sikerült lekérni a munkamenet UserID-ből."
+  },
+  {
+    "id": "api.config.update_config.clear_siteurl.app_error",
+    "translation": "A webhely URL-je nem törölhető."
+  },
+  {
+    "id": "api.config.migrate_config.app_error",
+    "translation": "Nem sikerült migrálni a konfigurációs tárolót."
+  },
+  {
+    "id": "api.cloud.request_error",
+    "translation": "Hiba történt a CWS-re irányuló kérelem feldolgozása során."
+  },
+  {
+    "id": "api.cloud.license_error",
+    "translation": "A licence nem támogatja a felhőalapú kéréseket."
+  },
+  {
+    "id": "api.cloud.app_error",
+    "translation": "Belső hiba cloud api kérés közben."
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "Nem lehet közvetlen vagy csoportos üzenetcsatornákat áthelyezni"
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "LDAP nem elérhető."
   }
 ]
