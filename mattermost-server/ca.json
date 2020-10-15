@@ -3430,10 +3430,6 @@
     "translation": "No es poden penjar els fitxers. Hi ha {{.NumClientIds}} «clients_ids» per a {{.NumFiles}} fitxers."
   },
   {
-    "id": "api.file.test_connection.s3.connection.app_error",
-    "translation": "Connexió a l'S3 o minio incorrecta."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_exists.app_error",
     "translation": "S'ha produït un error en comprovar si existeix el cub."
   },

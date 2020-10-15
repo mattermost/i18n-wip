@@ -4648,10 +4648,6 @@
     "translation": "Không thể tải tệp tin. Có {{.NumClientIds}} client_ids cho {{.NumFiles}} tệp tin."
   },
   {
-    "id": "api.file.test_connection.s3.connection.app_error",
-    "translation": "Kết nối không tốt từ S3 hoặc minio."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_exists.app_error",
     "translation": "Lỗi kiểm tra sự tồn tại của bucket."
   },

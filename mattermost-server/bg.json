@@ -1833,10 +1833,6 @@
     "translation": "Невъзможно качването на файл. Неправилно ID на канала: {{.channelId}}"
   },
   {
-    "id": "api.file.test_connection.s3.connection.app_error",
-    "translation": "Лоша връзка към S3 или minio."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_exists.app_error",
     "translation": "Грешка при проверка за съществуване на S3 bucket."
   },

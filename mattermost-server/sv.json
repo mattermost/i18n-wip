@@ -4810,10 +4810,6 @@
     "translation": "Kunde inte ladda upp fil(er). Har {{.NumClientIds}} client_ids för {{.NumFiles}} filer."
   },
   {
-    "id": "api.file.test_connection.s3.connection.app_error",
-    "translation": "Dålig anslutning till S3 eller minio."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_exists.app_error",
     "translation": "Fel vid kontroll om bucket finns."
   },

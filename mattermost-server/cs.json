@@ -4412,10 +4412,6 @@
     "translation": "Soubor(y) nelze nahrát. Máte {{.NumClientIds}} client_ids pro {{.NumFiles}} souborů."
   },
   {
-    "id": "api.file.test_connection.s3.connection.app_error",
-    "translation": "Chyba připojení k S3 nebo minio."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_exists.app_error",
     "translation": "Chyba při ověření existence zásobníku."
   },

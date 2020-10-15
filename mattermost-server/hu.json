@@ -980,10 +980,6 @@
     "translation": "Nem sikerült feltölteni a fájlokat. Ennyi: {{.NumClientIds}} client_ids nem sikerült ennyi: {{.NumFiles}} a fájlból."
   },
   {
-    "id": "api.file.test_connection.s3.connection.app_error",
-    "translation": "Hibás csatlakozás az S3-hoz vagy a minio-hoz."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_exists.app_error",
     "translation": "Hiba ellenőrzés, ha az S3 bucket létezik."
   },
