@@ -4955,8 +4955,8 @@
   {
     "id": "api.email_batching.send_batched_email_notification.body_text",
     "translation": {
-      "one": "Du har ny notifikation.Du har {{.Count}} nya notifikationer.",
-      "other": ""
+      "one": "Du har en ny notifikation.",
+      "other": "Du har {{.Count}} nya notifikationer."
     }
   },
   {
@@ -6684,7 +6684,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Din Mattermost-installation har nu 200 användare. När din användarskara växer går det åt mycket tid att skapa nya konton. Vi rekommenderar att du integrerar din organisations Active Directory/LDAP så att alla med ett konto kan använda Mattermost.\n\n[Läs mer om integration med AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Din Mattermost-installation har nu 200 användare. När din användarskara växer går det åt mycket tid att skapa nya konton. Vi rekommenderar att du integrerar din organisations Active Directory/LDAP så att alla med ett konto kan använda Mattermost[Läs mer om integration med AD/LDAP] (https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap).\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.contact_us",
@@ -6773,5 +6773,17 @@
   {
     "id": "api.admin.add_certificate.parseform.app_error",
     "translation": ""
+  },
+  {
+    "id": "api.file.append_file.writing.app_error",
+    "translation": "Ett fel uppstod vid skrivning till S3."
+  },
+  {
+    "id": "api.file.append_file.no_exist.app_error",
+    "translation": "Filen existerar inte."
+  },
+  {
+    "id": "web.incoming_webhook.user.app_error",
+    "translation": "Kan inte hitta användaren."
   }
 ]
