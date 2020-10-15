@@ -257,6 +257,7 @@
   "admin.billing.subscription.planDetails.features.selfServiceDocumentation": "Документация за самообслужване и поддръжка във форума",
   "admin.billing.subscription.planDetails.features.unlimitedIntegrations": "Неограничени интеграции",
   "admin.billing.subscription.planDetails.features.unlimitedTeamsAndChannels": "Неограничени екипи, канали и история на търсенията",
+  "admin.billing.subscription.planDetails.freeForTenUsers": "Винаги безплатно за до 10 потребителя",
   "admin.billing.subscription.planDetails.howBillingWorks": "Вижте как работи таксуването",
   "admin.billing.subscription.planDetails.numberOfSeats": "{numberOfSeats} членства",
   "admin.billing.subscription.planDetails.numberOfSeatsRegistered": "({userCount} регистрирани в момента)",
