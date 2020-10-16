@@ -258,5 +258,6 @@
   "user.settings.general.firstName": "Keresztnév",
   "user.settings.modal.display": "Megjelenítés",
   "user.settings.notifications.email.immediately": "Azonnal",
-  "mobile.privacy_link": "Adatvédelmi irányelvek"
+  "mobile.privacy_link": "Adatvédelmi irányelvek",
+  "mobile.post_info.flag": "Mentés"
 }

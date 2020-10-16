@@ -181,5 +181,6 @@
   "mobile.routes.user_profile.edit": "Editar",
   "mobile.reaction_header.all_emojis": "Todo",
   "mobile.routes.channelInfo.delete_channel": "Canle arquivada",
-  "mobile.notification_settings_mobile.no_sound": "Ningún"
+  "mobile.notification_settings_mobile.no_sound": "Ningún",
+  "mobile.post_info.flag": "Gardar"
 }

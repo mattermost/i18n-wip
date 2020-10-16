@@ -77,5 +77,6 @@
   "mobile.routes.channelInfo.unarchive_channel": "არხის გამოარქივება",
   "mobile.routes.channelInfo.delete_channel": "არხის დაარქივება",
   "mobile.channel_list.alertNo": "არა",
-  "mobile.channel_info.alertNo": "არა"
+  "mobile.channel_info.alertNo": "არა",
+  "mobile.post_info.flag": "შენახვა"
 }
