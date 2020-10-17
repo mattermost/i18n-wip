@@ -10,5 +10,6 @@
   "about.teamEditiont1": "एंटरप्राइज़ एडिशन",
   "about.teamEditiont0": "टीम संस्करण",
   "announcment_banner.dont_show_again": "फेरि नदेखाउनुहोस्",
-  "about.title": "{appTitle} बारेमा"
+  "about.title": "{appTitle} बारेमा",
+  "api.channel.add_member.added": "{addedUsername} {username} द्वारा च्यानलमा थपियो।"
 }
