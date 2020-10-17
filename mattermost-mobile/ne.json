@@ -18,5 +18,6 @@
   "channel_header.notificationPreference.all": "सबै",
   "channel_header.notificationPreference": "मोबाइल सूचनाहरू",
   "channel_header.manageMembers": "सदस्यहरू प्रबन्ध गर्नुहोस्",
-  "channel_header.directchannel.you": "{displayname} (तपाईं) "
+  "channel_header.directchannel.you": "{displayname} (तपाईं) ",
+  "mobile.reaction_header.all_emojis": "सबै"
 }
