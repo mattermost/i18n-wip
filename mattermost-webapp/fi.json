@@ -71,6 +71,7 @@
   "add_emoji.header": "Lisää",
   "add_emoji.image": "Kuva",
   "add_emoji.imageRequired": "Hymiö vaatii kuvan",
+  "add_emoji.imageTooLarge": "Ei voitu luoda emojia. Kuvan pitää olla pienempi kuin 1 Mt.",
   "add_emoji.name": "Nimi",
   "add_emoji.nameInvalid": "Hymiön nimi voi koostua vain numeroista, kirjaimista sekä '-' ja '_' merkeistä.",
   "add_emoji.nameRequired": "Hymiö vaatii nimen",

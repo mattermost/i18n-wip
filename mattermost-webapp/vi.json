@@ -103,6 +103,7 @@
   "add_emoji.image.button": "Lựa chọn",
   "add_emoji.image.help": "Chỉ định tập tin .gif, .png hoặc .jpg cho biểu tượng cảm xúc của bạn. Tập tin có thể lên đến 1 MB. Kích thước được tự động thay đổi kích thước thành 128 pixel x 128 pixel trong khi vẫn giữ nguyên tỷ lệ khung hình.",
   "add_emoji.imageRequired": "Một hình ảnh là cần thiết cho biểu tượng cảm xúc",
+  "add_emoji.imageTooLarge": "Không thể tạo emoji. Hình ảnh phải có kích thước nhỏ hơn 1 MB.",
   "add_emoji.name": "Tên",
   "add_emoji.name.help": "Chỉ định tên biểu tượng cảm xúc có tối đa 64 ký tự. Nó có thể chứa các chữ cái thường, số và các ký hiệu '-' và '_'.",
   "add_emoji.nameInvalid": "Tên của biểu tượng cảm xúc chỉ có thể chứa số, chữ cái và ký hiệu '-' và '_'.",
