@@ -14,5 +14,9 @@
   "api.channel.add_member.added": "{addedUsername} {username} द्वारा च्यानलमा थपियो।",
   "channel_header.addMembers": "सदस्यहरू थप्नुहोस्",
   "center_panel.archived.closeChannel": "च्यानल बन्द गर्नुहोस्",
-  "archivedChannelMessage": "तपाईं एक ** संग्रहीत च्यानल ** हेर्दै हुनुहुन्छ। नयाँ सन्देशहरू पोस्ट गर्न सकिदैन।"
+  "archivedChannelMessage": "तपाईं एक ** संग्रहीत च्यानल ** हेर्दै हुनुहुन्छ। नयाँ सन्देशहरू पोस्ट गर्न सकिदैन।",
+  "channel_header.notificationPreference.all": "सबै",
+  "channel_header.notificationPreference": "मोबाइल सूचनाहरू",
+  "channel_header.manageMembers": "सदस्यहरू प्रबन्ध गर्नुहोस्",
+  "channel_header.directchannel.you": "{displayname} (तपाईं) "
 }
