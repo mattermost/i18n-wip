@@ -37,5 +37,7 @@
   "channel_modal.header": "हेडर",
   "channel_modal.purpose": "उद्देश्य",
   "channel_modal.optional": "(वैकल्पिक)",
-  "channel_modal.nameEx": "उदाहरण: \"\" बगहरू \",\" मार्केटिंग \",\" 客户 支持 \""
+  "channel_modal.nameEx": "उदाहरण: \"\" बगहरू \",\" मार्केटिंग \",\" 客户 支持 \"",
+  "channel_notifications.ignoreChannelMentions.settings": "@ च्यानललाई बेवास्ता गर्नुहोस्, @ यहाँ, @ सबै",
+  "channel_modal.purposeEx": "उदाहरण: \"बग र सुधार गर्न एउटा च्यानल\""
 }
