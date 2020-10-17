@@ -69,5 +69,9 @@
   "combined_system_message.left_channel.one": "{firstUser} ले **च्यानल छोडे**।",
   "combined_system_message.left_channel.many_expanded": "{users} र {lastUser}ले **च्यानल छोडे**।",
   "combined_system_message.left_channel.two": "{firstUser} र {secondUser}ले **च्यानल छोडे**।",
-  "combined_system_message.left_channel.one_you": "तपाइले **च्यानल छोड्नुभयो**।"
+  "combined_system_message.left_channel.one_you": "तपाइले **च्यानल छोड्नुभयो**।",
+  "combined_system_message.left_team.two": "{firstUser} र {secondUser} ले **टीम छोडे**।",
+  "combined_system_message.left_team.one_you": "तपाइले **टीम छोड्नुभयो**।",
+  "combined_system_message.left_team.one": "{firstUser} ले **टीम छोडे**।",
+  "combined_system_message.left_team.many_expanded": "{users} र {lastUser}ले **टीम छोडे**।"
 }
