@@ -49,5 +49,6 @@
   "channel.isGuest": "यो व्यक्ति पाहुना हुन्",
   "channel.hasGuests": "यो समूह सन्देशसँग पाहुनाहरू छन्",
   "channel.channelHasGuests": "यस च्यानलमा पाहुनाहरू छन्",
-  "channel_notifications.preference.save_error": "हामी सूचना प्राथमिकता बचत गर्न सकेनौं। कृपया तपाईंको जडान जाँच्नुहोस् र पुन: प्रयास गर्नुहोस्।"
+  "channel_notifications.preference.save_error": "हामी सूचना प्राथमिकता बचत गर्न सकेनौं। कृपया तपाईंको जडान जाँच्नुहोस् र पुन: प्रयास गर्नुहोस्।",
+  "combined_system_message.added_to_channel.many_expanded": "{प्रयोगकर्ता} र {lastUser} **च्यानल** {अभिनेता } द्वारा थपियो।"
 }
