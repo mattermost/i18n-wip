@@ -91,6 +91,7 @@
   "add_emoji.header": "Přidat",
   "add_emoji.image": "Obrázek",
   "add_emoji.imageRequired": "Pro emoji je požadován obrázek",
+  "add_emoji.imageTooLarge": "Nemohu vytvořit emotikon. Obrázek musí bát menší než 1 MB.",
   "add_emoji.name": "Jméno",
   "add_emoji.nameInvalid": "Jméno emotikonu může obsahovat pouze čísla, písmena a symboly \"-\" a \"_\".",
   "add_emoji.nameRequired": "Pro emotikon je vyžadován název",
