@@ -8,5 +8,21 @@
   "about.hash": "ह्याश निर्माण :",
   "about.hashee": "EE निर्माण ह्याश:",
   "about.teamEditionLearn": "Join the Mattermost community at ",
-  "about.teamEditiont1": "उद्यम संस्करण"
+  "about.teamEditionSt": "तपाईका सबै टोली संचार एक ठाउँमा गर्नुहोस्, द्रुत खोजी योग्य र कहिँ पनि पहुँचयोग्य।",
+  "about.teamEditiont0": "टीम संस्करण",
+  "about.teamEditiont1": "उद्यम संस्करण",
+  "about.title": "{appTitle} बारेमा",
+  "admin.channel_settings.channel_moderation.manageMembers": "सदस्यहरू प्रबन्ध गर्नुहोस्",
+  "admin.team_settings.team_details.add_members": "सदस्यहरू थप्नुहोस्",
+  "api.channel.add_member.added": "{addedUsername} {username} द्वारा च्यानलमा थपियो।",
+  "archivedChannelMessage": "तपाईं एक ** संग्रहीत च्यानल ** हेर्दै हुनुहुन्छ। नयाँ सन्देशहरू पोस्ट गर्न सकिदैन।",
+  "center_panel.archived.closeChannel": "च्यानल बन्द गर्नुहोस्",
+  "channel_header.directchannel.you": "{displayname} (तपाईं) ",
+  "channel_header.manageMembers": "सदस्यहरू प्रबन्ध गर्नुहोस्",
+  "channel_notifications.levels.all": "सबै",
+  "members_popover.manageMembers": "सदस्यहरू प्रबन्ध गर्नुहोस्",
+  "navbar.addMembers": "सदस्यहरू थप्नुहोस्",
+  "navbar_dropdown.about": "{appTitle} बारेमा",
+  "navbar_dropdown.manageMembers": "सदस्यहरू प्रबन्ध गर्नुहोस्",
+  "sidebar_left.sidebar_channel_menu.addMembers": "सदस्यहरू थप्नुहोस्"
 }
