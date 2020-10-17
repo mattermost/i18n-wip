@@ -88,5 +88,6 @@
   "edit_post.editPost": "पोष्ट सम्पादन गर्नुहोस् ...",
   "date_separator.yesterday": "हिजो",
   "date_separator.today": "आज",
-  "create_post.write": "{channelDisplayName}मा लेख्नुहोस्"
+  "create_post.write": "{channelDisplayName}मा लेख्नुहोस्",
+  "edit_post.save": "सेब"
 }
