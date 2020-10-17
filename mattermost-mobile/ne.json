@@ -647,5 +647,12 @@
   "integrations.add": "थप्नुहोस्",
   "get_post_link_modal.title": "लिंक प्रतिलिपि गर्नुहोस्",
   "file_upload.fileAbove": "फाईलहरू {max} भन्दा कम हुनुपर्दछ",
-  "file_attachment.download": "डाउनलोड"
+  "file_attachment.download": "डाउनलोड",
+  "post_info.del": "डिलित",
+  "user.settings.general.username": "प्रयोगकर्तानाम",
+  "user.settings.general.email": "ईमेल",
+  "user.settings.notifications.allActivity": "सबै गतिविधि को लागी",
+  "mobile.post_info.flag": "सेब",
+  "mobile.edit_channel": "सेब",
+  "mobile.account.settings.save": "सेब"
 }
