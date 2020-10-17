@@ -39,5 +39,11 @@
   "channel_modal.optional": "(वैकल्पिक)",
   "channel_modal.nameEx": "उदाहरण: \"\" बगहरू \",\" मार्केटिंग \",\" 客户 支持 \"",
   "channel_notifications.ignoreChannelMentions.settings": "@ च्यानललाई बेवास्ता गर्नुहोस्, @ यहाँ, @ सबै",
-  "channel_modal.purposeEx": "उदाहरण: \"बग र सुधार गर्न एउटा च्यानल\""
+  "channel_modal.purposeEx": "उदाहरण: \"बग र सुधार गर्न एउटा च्यानल\"",
+  "channel_notifications.preference.only_mentions": "केवल उल्लेख र सीधा सन्देशहरू",
+  "channel_notifications.preference.never": "कहिले पनि हुँदैन",
+  "channel_notifications.preference.header": "सूचनाहरू पठाउनुहोस्",
+  "channel_notifications.preference.global_default": "ग्लोबल पूर्वनिर्धारित (उल्लेख)",
+  "channel_notifications.preference.all_activity": "सबै गतिविधि को लागी",
+  "channel_notifications.muteChannel.settings": "च्यानल म्यूट गर्नुहोस्"
 }
