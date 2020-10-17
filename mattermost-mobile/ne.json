@@ -84,5 +84,9 @@
   "combined_system_message.removed_from_team.one_you": "तपाइलाई **टोलीबाट हटाइयो**।",
   "create_post.deactivated": "तपाईं एक निस्क्रिय प्रयोगकर्ताको साथ अभिलेख च्यानल हेरिरहनु भएको छ।",
   "create_comment.addComment": "एक टिप्पणी जोड्नुहोस् ...",
-  "combined_system_message.you": "तपाई"
+  "combined_system_message.you": "तपाई",
+  "edit_post.editPost": "पोष्ट सम्पादन गर्नुहोस् ...",
+  "date_separator.yesterday": "हिजो",
+  "date_separator.today": "आज",
+  "create_post.write": "{channelDisplayName}मा लेख्नुहोस्"
 }
