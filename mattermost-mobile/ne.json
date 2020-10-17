@@ -45,5 +45,9 @@
   "channel_notifications.preference.header": "सूचनाहरू पठाउनुहोस्",
   "channel_notifications.preference.global_default": "ग्लोबल पूर्वनिर्धारित (उल्लेख)",
   "channel_notifications.preference.all_activity": "सबै गतिविधि को लागी",
-  "channel_notifications.muteChannel.settings": "च्यानल म्यूट गर्नुहोस्"
+  "channel_notifications.muteChannel.settings": "च्यानल म्यूट गर्नुहोस्",
+  "channel.isGuest": "यो व्यक्ति पाहुना हुन्",
+  "channel.hasGuests": "यो समूह सन्देशसँग पाहुनाहरू छन्",
+  "channel.channelHasGuests": "यस च्यानलमा पाहुनाहरू छन्",
+  "channel_notifications.preference.save_error": "हामी सूचना प्राथमिकता बचत गर्न सकेनौं। कृपया तपाईंको जडान जाँच्नुहोस् र पुन: प्रयास गर्नुहोस्।"
 }
