@@ -52,5 +52,10 @@
   "channel_notifications.preference.save_error": "हामी सूचना प्राथमिकता बचत गर्न सकेनौं। कृपया तपाईंको जडान जाँच्नुहोस् र पुन: प्रयास गर्नुहोस्।",
   "combined_system_message.added_to_channel.many_expanded": "{users} र {lastUser} **च्यानलमा** {actor } द्वारा थपियो।",
   "combined_system_message.added_to_channel.one": "{firstUser} **च्यानलमा** {actor} द्वारा थपियो।",
-  "combined_system_message.added_to_channel.one_you": "तपाईं **च्यानलमा** {actor} द्वारा थप गर्नुभयो।"
+  "combined_system_message.added_to_channel.one_you": "तपाईं **च्यानलमा** {actor} द्वारा थप गर्नुभयो।",
+  "combined_system_message.added_to_team.two": "{firstUser} र {secondUser} **च्यानलमा** {actor } द्वारा थपियो।",
+  "combined_system_message.added_to_team.one_you": "तपाईं **च्यानलमा** {actor } द्वारा थपियो।",
+  "combined_system_message.added_to_team.one": "{firstUser} **च्यानलमा** {actor } द्वारा थपियो।",
+  "combined_system_message.added_to_team.many_expanded": "{users} र {lastUser} **च्यानलमा** {actor } द्वारा थपियो।",
+  "combined_system_message.added_to_channel.two": "{firstUser} र {secondUser} **च्यानलमा** {actor } द्वारा थपियो।"
 }
