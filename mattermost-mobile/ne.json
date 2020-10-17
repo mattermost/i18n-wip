@@ -79,5 +79,7 @@
   "combined_system_message.removed_from_channel.many_expanded": "{users} र {lastUser}लाई **च्यानलबाट हटाइयो**।",
   "combined_system_message.removed_from_channel.two": "{firstUser} र {secondUser}लाई **च्यानलबाट हटाइयो**।",
   "combined_system_message.removed_from_team.one": "{firstUser}लाई **टोलीबाट हटाइयो**।",
-  "combined_system_message.removed_from_team.many_expanded": "{users} र {lastUser}लाई **टोलीबाट हटाइयो**।"
+  "combined_system_message.removed_from_team.many_expanded": "{users} र {lastUser}लाई **टोलीबाट हटाइयो**।",
+  "combined_system_message.removed_from_team.two": "{firstUser} र {secondUser}लाई  ** टोलीबाट हटाइयो**।",
+  "combined_system_message.removed_from_team.one_you": "तपाइलाई **टोलीबाट हटाइयो**।"
 }
