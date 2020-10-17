@@ -31,5 +31,11 @@
   "about.enterpriseEditionSt": "ファイアウォールの内側で、現代的なコミュニケーションを実現します。",
   "about.enterpriseEditionLearn": "Enterprise Editionについて詳しく知る ",
   "about.enterpriseEditione1": "Enterprise Edition",
-  "about.date": "ビルド日時:"
+  "about.date": "ビルド日時:",
+  "channel_notifications.ignoreChannelMentions.settings": "＠channelと@hereと@allを見逃して",
+  "channel_modal.purposeEx": "次のような例えば、「バグと修正を届けるようなチャネル」",
+  "channel_modal.optional": "任意",
+  "channel_modal.nameEx": "次のような例えば、「バグ」、「販売」",
+  "channel_modal.name": "名前",
+  "channel_modal.headerHelp": "チャネルのヘッダーの中 に見る本文はチャネルの名前の近くに書きます。例えば、多いリンクを入れるように[Link Title]を書いてください。(http://example.com)"
 }
