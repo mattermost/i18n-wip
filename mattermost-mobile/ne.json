@@ -89,5 +89,12 @@
   "date_separator.yesterday": "हिजो",
   "date_separator.today": "आज",
   "create_post.write": "{channelDisplayName}मा लेख्नुहोस्",
-  "edit_post.save": "सेब"
+  "edit_post.save": "सेब",
+  "user.settings.notifications.never": "कहिले पनि हुँदैन",
+  "user.settings.notifications.email.never": "कहिले पनि हुँदैन",
+  "mobile.terms_of_service.alert_cancel": "क्यानसेल",
+  "mobile.reset_status.alert_cancel": "क्यानसेल",
+  "mobile.post.cancel": "क्यानसेल",
+  "mobile.post_textbox.entire_channel.cancel": "क्यानसेल",
+  "mobile.alert_dialog.alertCancel": "क्यानसेल"
 }
