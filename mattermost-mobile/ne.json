@@ -30,5 +30,9 @@
   "channel_header.pinnedPosts": "पिन गरिएका सन्देशहरू",
   "channel_header.notificationPreference.none": "कहिले पनि हुँदैन",
   "channel_header.notificationPreference.mention": "उल्लेख",
-  "channel_header.notificationPreference.default": "पूर्वनिर्धारित"
+  "channel_header.notificationPreference.default": "पूर्वनिर्धारित",
+  "channel_modal.name": "नाम",
+  "channel_modal.headerHelp": "च्यानल सेट गर्नुहोस् जुन च्यानलको नामको छेउमा हेडरमा देखा पर्नेछ। उदाहरण को लागी, [लिंक शीर्षक] (http://example.com) टाइप गरेर अक्सर प्रयोग लिंकहरू समावेश गर्नुहोस्।",
+  "channel_modal.headerEx": "उदाहरण: \"[लिंक शीर्षक] (http://example.com)\"",
+  "channel_modal.header": "हेडर"
 }
