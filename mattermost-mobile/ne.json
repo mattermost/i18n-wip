@@ -11,5 +11,8 @@
   "about.teamEditiont0": "टीम संस्करण",
   "announcment_banner.dont_show_again": "फेरि नदेखाउनुहोस्",
   "about.title": "{appTitle} बारेमा",
-  "api.channel.add_member.added": "{addedUsername} {username} द्वारा च्यानलमा थपियो।"
+  "api.channel.add_member.added": "{addedUsername} {username} द्वारा च्यानलमा थपियो।",
+  "channel_header.addMembers": "सदस्यहरू थप्नुहोस्",
+  "center_panel.archived.closeChannel": "च्यानल बन्द गर्नुहोस्",
+  "archivedChannelMessage": "तपाईं एक ** संग्रहीत च्यानल ** हेर्दै हुनुहुन्छ। नयाँ सन्देशहरू पोस्ट गर्न सकिदैन।"
 }
