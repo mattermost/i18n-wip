@@ -28,9 +28,16 @@
   "channel_modal.header": "हेडर",
   "channel_modal.headerEx": "उदाहरण: \"[लिंक शीर्षक] (http://example.com)\"",
   "channel_notifications.levels.all": "सबै",
+  "channel_notifications.levels.default": "पूर्वनिर्धारित",
+  "channel_notifications.never": "कहिले पनि हुँदैन",
   "members_popover.manageMembers": "सदस्यहरू प्रबन्ध गर्नुहोस्",
+  "members_popover.viewMembers": "सदस्यहरू हेर्नुहोस्",
   "navbar.addMembers": "सदस्यहरू थप्नुहोस्",
   "navbar_dropdown.about": "{appTitle} बारेमा",
   "navbar_dropdown.manageMembers": "सदस्यहरू प्रबन्ध गर्नुहोस्",
-  "sidebar_left.sidebar_channel_menu.addMembers": "सदस्यहरू थप्नुहोस्"
+  "navbar_dropdown.viewMembers": "सदस्यहरू हेर्नुहोस्",
+  "sidebar_left.sidebar_channel_menu.addMembers": "सदस्यहरू थप्नुहोस्",
+  "user.settings.notifications.email.never": "कहिले पनि हुँदैन",
+  "user.settings.notifications.never": "कहिले पनि हुँदैन",
+  "user.settings.sidebar.never": "कहिले पनि हुँदैन"
 }
