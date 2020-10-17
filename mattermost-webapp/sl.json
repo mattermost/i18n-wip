@@ -52,6 +52,7 @@
   "add_emoji.header": "Dodaj",
   "add_emoji.image": "Slika",
   "add_emoji.imageRequired": "Za emoji je potrebna slika",
+  "add_emoji.imageTooLarge": "Slika za emoji prevelika. Max 1 MB.",
   "add_emoji.name": "Ime",
   "add_emoji.nameInvalid": "Ime čustvenega simbola lahko vsebuje samo številke, črke in simbole '-' in '_'.",
   "add_emoji.nameRequired": "Za emoji je zahtevano ime",

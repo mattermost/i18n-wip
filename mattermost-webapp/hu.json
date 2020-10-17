@@ -85,6 +85,7 @@
   "add_emoji.header": "Hozzáadás",
   "add_emoji.image": "Kép",
   "add_emoji.imageRequired": "Kép kell a hangulatjelhez",
+  "add_emoji.imageTooLarge": "Nem lehet emoji-t létrehozni. A képnek 1MB-nál kisebbnek kell lennie.",
   "add_emoji.name": "Név",
   "add_emoji.nameInvalid": "A hangulatjel neve csak számokból, betűkből, '-' és '_' karakterekből állhat.",
   "add_emoji.nameRequired": "Név kell a hangulatjelnek",
