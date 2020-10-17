@@ -80,6 +80,9 @@
   "combined_system_message.removed_from_channel.two": "{firstUser} र {secondUser}लाई **च्यानलबाट हटाइयो**।",
   "combined_system_message.removed_from_team.one": "{firstUser}लाई **टोलीबाट हटाइयो**।",
   "combined_system_message.removed_from_team.many_expanded": "{users} र {lastUser}लाई **टोलीबाट हटाइयो**।",
-  "combined_system_message.removed_from_team.two": "{firstUser} र {secondUser}लाई  ** टोलीबाट हटाइयो**।",
-  "combined_system_message.removed_from_team.one_you": "तपाइलाई **टोलीबाट हटाइयो**।"
+  "combined_system_message.removed_from_team.two": "{firstUser} र {secondUser}लाई **टोलीबाट हटाइयो**।",
+  "combined_system_message.removed_from_team.one_you": "तपाइलाई **टोलीबाट हटाइयो**।",
+  "create_post.deactivated": "तपाईं एक निस्क्रिय प्रयोगकर्ताको साथ अभिलेख च्यानल हेरिरहनु भएको छ।",
+  "create_comment.addComment": "एक टिप्पणी जोड्नुहोस् ...",
+  "combined_system_message.you": "तपाई"
 }
