@@ -57,5 +57,6 @@
   "combined_system_message.added_to_team.one_you": "तपाईं **च्यानलमा** {actor } द्वारा थपियो।",
   "combined_system_message.added_to_team.one": "{firstUser} **च्यानलमा** {actor } द्वारा थपियो।",
   "combined_system_message.added_to_team.many_expanded": "{users} र {lastUser} **च्यानलमा** {actor } द्वारा थपियो।",
-  "combined_system_message.added_to_channel.two": "{firstUser} र {secondUser} **च्यानलमा** {actor } द्वारा थपियो।"
+  "combined_system_message.added_to_channel.two": "{firstUser} र {secondUser} **च्यानलमा** {actor } द्वारा थपियो।",
+  "combined_system_message.joined_channel.many_expanded": "{users} र {lastUser} **च्यानलमा सामेल भए**।"
 }
