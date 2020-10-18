@@ -66,5 +66,9 @@
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",
     "translation": "Non é posíbel converter esta canle predeterminada nunha canle privada."
+  },
+  {
+    "id": "api.emoji.create.too_large.app_error",
+    "translation": "Non foi posíbel crear o «emoji». A imaxe debe ter un tamaño inferior a 1 MB."
   }
 ]
