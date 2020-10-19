@@ -70,5 +70,25 @@
   {
     "id": "api.emoji.create.too_large.app_error",
     "translation": "Non foi posíbel crear o «emoji». A imaxe debe ter un tamaño inferior a 1 MB."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_grant.app_error",
+    "translation": "invalid_request: «grant_type» incorrecto."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_secret.app_error",
+    "translation": "invalid_request: Falta o «client_secret»."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_id.app_error",
+    "translation": "invalid_request: «client_id» incorrecto."
+  },
+  {
+    "id": "api.context.token_provided.app_error",
+    "translation": "A sesión non é OAuth, mais forneceuse un testemuño na cadea de consulta."
+  },
+  {
+    "id": "api.context.invalid_token.error",
+    "translation": "O testemuño de sesión {{.Token}} non é válido, err={{.Error}}"
   }
 ]
