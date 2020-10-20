@@ -8309,5 +8309,13 @@
   {
     "id": "app.upload.run_plugins_hook.move_fail",
     "translation": "Неуспешно преместване на файл."
+  },
+  {
+    "id": "app.channel.autofollow.app_error",
+    "translation": "Актуализирането на членство в разговор на споменат потребител не бе успешно"
+  },
+  {
+    "id": "api.file.new_backend.s3.app_error",
+    "translation": "Възникна грешка при отваряне на връзка към S3."
   }
 ]
