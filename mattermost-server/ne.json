@@ -1,0 +1,14 @@
+[
+  {
+    "id": "system.message.name",
+    "translation": "प्रणाली"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.message_length.error",
+    "translation": "सन्देश धेरै लामो छ"
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_or",
+    "translation": "वा"
+  }
+]

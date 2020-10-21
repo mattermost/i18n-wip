@@ -420,10 +420,6 @@
         "translation": "അപേക്ഷയിൽ 'സർട്ടിഫിക്കറ്റിന്റ്റെ' അടിയിൽ ഫയൽ ഇല്ല."
     },
     {
-        "id": "actiance.export.marshalToXml.appError",
-        "translation": "XML ലേക്ക് കയറ്റുമതി രൂപാന്തരപ്പെടുത്തുവാൻ സാധ്യമായില്ല"
-    },
-    {
         "id": "September",
         "translation": "സെപ്റ്റംബർ"
     },

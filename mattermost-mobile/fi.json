@@ -409,5 +409,8 @@
   "mobile.share_extension.too_long_title": "Viesti on liian pitkä",
   "mobile.routes.settings": "Asetukset",
   "mobile.post.failed_retry": "Yritä uudestaan",
-  "mobile.permission_denied_retry": "Asetukset"
+  "mobile.permission_denied_retry": "Asetukset",
+  "channel_notifications.preference.all_activity": "Kaikesta toiminnasta",
+  "channel_header.notificationPreference.default": "Oletus",
+  "channel_header.notificationPreference.all": "Kaikki"
 }

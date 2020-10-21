@@ -1,0 +1,94 @@
+[
+  {
+    "id": "web.error.unsupported_browser.system_browser_or",
+    "translation": "ou"
+  },
+  {
+    "id": "api.admin.add_certificate.open.app_error",
+    "translation": "Non foi posíbel abrir o ficheiro do certificado."
+  },
+  {
+    "id": "api.admin.add_certificate.no_file.app_error",
+    "translation": "Non hai ningún ficheiro baixo «certificado» na solicitude."
+  },
+  {
+    "id": "api.admin.add_certificate.array.app_error",
+    "translation": "Non hai ningún ficheiro baixo «certificado» na solicitude."
+  },
+  {
+    "id": "September",
+    "translation": "Setembro"
+  },
+  {
+    "id": "October",
+    "translation": "Outubro"
+  },
+  {
+    "id": "November",
+    "translation": "Novembro"
+  },
+  {
+    "id": "May",
+    "translation": "Maio"
+  },
+  {
+    "id": "March",
+    "translation": "marzo"
+  },
+  {
+    "id": "June",
+    "translation": "Xuño"
+  },
+  {
+    "id": "July",
+    "translation": "Xullo"
+  },
+  {
+    "id": "January",
+    "translation": "Xaneiro"
+  },
+  {
+    "id": "February",
+    "translation": "Febreiro"
+  },
+  {
+    "id": "December",
+    "translation": "Decembro"
+  },
+  {
+    "id": "August",
+    "translation": "Agosto"
+  },
+  {
+    "id": "April",
+    "translation": "Abril"
+  },
+  {
+    "id": "api.channel.convert_channel_to_private.default_channel_error",
+    "translation": "Non é posíbel converter esta canle predeterminada nunha canle privada."
+  },
+  {
+    "id": "api.emoji.create.too_large.app_error",
+    "translation": "Non foi posíbel crear o «emoji». A imaxe debe ter un tamaño inferior a 1 MB."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_grant.app_error",
+    "translation": "invalid_request: «grant_type» incorrecto."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_secret.app_error",
+    "translation": "invalid_request: Falta o «client_secret»."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_id.app_error",
+    "translation": "invalid_request: «client_id» incorrecto."
+  },
+  {
+    "id": "api.context.token_provided.app_error",
+    "translation": "A sesión non é OAuth, mais forneceuse un testemuño na cadea de consulta."
+  },
+  {
+    "id": "api.context.invalid_token.error",
+    "translation": "O testemuño de sesión {{.Token}} non é válido, err={{.Error}}"
+  }
+]

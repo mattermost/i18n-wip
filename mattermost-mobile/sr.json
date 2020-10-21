@@ -67,5 +67,6 @@
   "about.date": "Датум градње:",
   "post_info.message.show_more": "Прикажи више...",
   "more_channels.showPublicChannels": "Нови јавни канал",
-  "mobile.post_info.pin": "Закачи на канал"
+  "mobile.post_info.pin": "Закачи на канал",
+  "channel_notifications.preference.all_activity": "За све активности"
 }
