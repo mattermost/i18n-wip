@@ -37,39 +37,6 @@ commands:
                 -d operation=pull \
                 -H "Authorization: Token ${WEBLATE_TOKEN}" \
                 https://translate.mattermost.com/api/components/i18n-wip/<< parameters.component >>/repository/
-  autotranslate:
-    description: "Autotranslate already translated strings inside the mattermost wip weblate project"
-    parameters:
-      project:
-        type: string
-        default: i18n-wip
-    steps:
-      - run:
-          command: |
-            rateLimitHeader=$(curl -I -H "Authorization: Token ${WEBLATE_TOKEN}" https://translate.mattermost.com/api/ | grep x-ratelimit-remaining)
-            rateLimit=$(echo ${rateLimitHeader##*:}) # remove everything until colon
-            echo $rateLimit
-            languagecodes=$(curl --fail --show-error --request GET --url https://translate.mattermost.com/api/projects/i18n-wip/languages/ --header 'content-type: application/json' | jq -r '.[] | .code' | tr '\n' ' ' | sed 's/en //g')
-            for languagecode in $languagecodes
-            do
-              for component in "mattermost-mobile-wip" "mattermost-server-wip" "mattermost-webapp-wip"
-              do
-                curl --request POST \
-                  --fail --show-error \
-                  --url https://translate.mattermost.com/api/translations/<< parameters.project >>/$component/$languagecode/autotranslate/ \
-                  -H "Authorization: Token ${WEBLATE_TOKEN}" \
-                  -H "Content-Type: application/json" \
-                  --data '{
-                    "mode": "translate",
-                    "filter_type": "nottranslated",
-                    "auto_source": "others",
-                    "component": "",
-                    "engines": ["weblate", "weblate-translation-memory"],
-                    "threshold": "80"
-                }'
-              done
-            done
-
 jobs:
   updatecommit:
     docker:
@@ -109,21 +76,8 @@ jobs:
 
 workflows:
   version: 2
-  scheduled-autotranslate:
-    triggers:
-      - schedule:
-          cron: "0 2,14 * * *"
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - autotranslate:
-          context: weblate
   untagged-build:
     jobs:
-      - autotranslate:
-          context: weblate
       - updatecommit:
           context: build-engineers-monitoring
       - notify:
