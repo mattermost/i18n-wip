@@ -6768,7 +6768,7 @@
   },
   {
     "id": "api.admin.add_certificate.parseform.app_error",
-    "translation": ""
+    "translation": "Fel vid läsning av multiform förfrågan"
   },
   {
     "id": "api.file.append_file.writing.app_error",
