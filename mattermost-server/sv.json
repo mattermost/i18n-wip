@@ -241,7 +241,7 @@
   },
   {
     "id": "store.sql_user.get_by_auth.other.app_error",
-    "translation": "Ett fel påträffades vid sökning efter kontot med hjälp av autentiseringstypen"
+    "translation": "Ett fel påträffades vid sökning efter kontot med hjälp av autentiseringstypen."
   },
   {
     "id": "store.sql_user.get_by_auth.missing_account.app_error",
@@ -477,7 +477,7 @@
   },
   {
     "id": "searchengine.bleve.disabled.error",
-    "translation": "Fel vid rensning av Bleve index: Funktionen är inaktiv."
+    "translation": "Fel vid rensning av Bleve-index: Funktionen är inaktiverad"
   },
   {
     "id": "plugin_api.send_mail.missing_to",
@@ -501,7 +501,7 @@
   },
   {
     "id": "plugin_api.bot_cant_create_bot",
-    "translation": "Bot-användare kan inte skapa BOT:ar"
+    "translation": "Bot-användare kan inte skapa BOT:ar."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -817,7 +817,7 @@
   },
   {
     "id": "model.outgoing_hook.username.app_error",
-    "translation": "Ogiltigt användarnamn"
+    "translation": "Ogiltigt användarnamn."
   },
   {
     "id": "model.outgoing_hook.is_valid.words.app_error",
@@ -1145,7 +1145,7 @@
   },
   {
     "id": "model.config.is_valid.tls_overwrite_cipher.app_error",
-    "translation": "Ogiltigt värde angavs för TLS owerwrite cipher. Kolla dokumentationen för giltiga värden"
+    "translation": "Ogiltigt värde angavs för TLS \"overwrite cipher\". Kontrollera dokumentationen för giltiga värden."
   },
   {
     "id": "model.config.is_valid.tls_key_file.app_error",
@@ -1301,7 +1301,7 @@
   },
   {
     "id": "model.config.is_valid.message_export.daily_runtime.app_error",
-    "translation": "DailyRuntime för meddelandeexport måste vara 24-timmars tidsangivelse i formatet HH:MM"
+    "translation": "DailyRuntime för meddelandeexport måste vara 24-timmars tidsangivelse i formatet HH:MM."
   },
   {
     "id": "model.config.is_valid.message_export.batch_size.app_error",
@@ -1409,7 +1409,7 @@
   },
   {
     "id": "model.config.is_valid.email_notification_contents_type.app_error",
-    "translation": "Ogiltig innehållstyp för e-postnotifiering i e-postinställningarna. Måste vara antingen 'full' eller 'generic'"
+    "translation": "Ogiltig innehållstyp för e-postnotifiering i e-postinställningarna. Måste vara antingen 'full' eller 'generic'."
   },
   {
     "id": "model.config.is_valid.email_batching_interval.app_error",
@@ -1425,7 +1425,7 @@
   },
   {
     "id": "model.config.is_valid.display.custom_url_schemes.app_error",
-    "translation": "Det anpassade URL-schemat {{.Scheme}} är felaktigt. Anpassade URL-scheman måste börja med en bokstav och bara innehålla bokstäver, siffror, plustecken (+), punkt (.) och bindestreck (-). "
+    "translation": "Det anpassade URL-schemat {{.Scheme}} är felaktigt. Anpassade URL-scheman måste börja med en bokstav och får endast innehålla bokstäver, siffror, plustecken (+), punkt (.) och bindestreck (-)."
   },
   {
     "id": "model.config.is_valid.data_retention.message_retention_days_too_low.app_error",
@@ -1557,7 +1557,7 @@
   },
   {
     "id": "model.command.is_valid.autocomplete_data.app_error",
-    "translation": "Ogiltig autocomplete-data."
+    "translation": "Ogiltig autocomplete-data"
   },
   {
     "id": "model.cluster.is_valid.type.app_error",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": "jobs.request_cancellation.status.error",
-    "translation": "Jobbet kan inte avbryta då status är \"avbryt ej\""
+    "translation": "Jobbet kan inte avbryta då status är \"avbryt ej\"."
   },
   {
     "id": "interactive_message.generate_trigger_id.signing_failed",
@@ -1841,7 +1841,7 @@
   },
   {
     "id": "ent.saml.license_disable.app_error",
-    "translation": "Din licens ger inte tillgång till SAML-autentisering"
+    "translation": "Din licens ger inte tillgång till SAML-autentisering."
   },
   {
     "id": "ent.saml.do_login.validate.app_error",
@@ -1901,7 +1901,7 @@
   },
   {
     "id": "ent.migration.migratetoldap.user_not_found",
-    "translation": "Kunde inte hitta användaren på AD/LDAP-servern."
+    "translation": "Kunde inte hitta användaren på AD/LDAP-servern: "
   },
   {
     "id": "ent.migration.migratetoldap.duplicate_field",
@@ -2053,7 +2053,7 @@
   },
   {
     "id": "ent.ldap.create_fail",
-    "translation": "Kunde inte skapa LDAP-användare"
+    "translation": "Kunde inte skapa LDAP-användare."
   },
   {
     "id": "ent.ldap.app_error",
@@ -2061,7 +2061,7 @@
   },
   {
     "id": "ent.id_loaded.license_disable.app_error",
-    "translation": "Din licens tillåter inte pushnotifiering via meddelande-ID"
+    "translation": "Din licens tillåter inte pushnotifiering via meddelande-ID."
   },
   {
     "id": "ent.elasticsearch.test_config.reenter_password",
@@ -2233,7 +2233,7 @@
   },
   {
     "id": "ent.elasticsearch.create_client.connect_failed",
-    "translation": "Misslyckades med att sätta upp Elasticsearch-klienten."
+    "translation": "Misslyckades med att sätta upp Elasticsearch-klienten"
   },
   {
     "id": "ent.elasticsearch.aggregator_worker.index_job_failed.error",
@@ -2421,7 +2421,7 @@
   },
   {
     "id": "app.import.validate_direct_post_import_data.user_missing.error",
-    "translation": "Det saknas en obligatorisk egenskap för direktposten: user "
+    "translation": "Det saknas en obligatorisk egenskap för direktpost: användare"
   },
   {
     "id": "app.import.validate_direct_post_import_data.unknown_flagger.error",
@@ -2429,7 +2429,7 @@
   },
   {
     "id": "app.import.validate_direct_post_import_data.message_missing.error",
-    "translation": "Det saknas en obligatorisk egenskap för direktposten: message "
+    "translation": "Det saknas en obligatorisk egenskap för direktposten: message"
   },
   {
     "id": "app.import.validate_direct_post_import_data.message_length.error",
@@ -2709,7 +2709,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} har inaktiverats. De hanterar följande bot-konton som nu är inaktiverade.\n\n{{.BotNames}}{{else}}{{.UserName}} har inaktiverats. De hanterade {{.NumBots}} bot-konton som nu är avstängda, inkluderat:\n\n{{.BotNames}}{{end}}Du kan ta ägandeskap över respektive bot genom att aktivera den på **Integrations > Bot Accounts** och där skapa nya tokens för bot:en.\n\nFör mer information, läs [dokumentationen](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} har inaktiverats. De hanterar följande bot-konton som fortfarande är aktiverade.\n\n{{.BotNames}}\n{{else}}{{.UserName}} har inaktiverats. De hanterade {{.NumBots}} bot-konton som som fortfarande är aktiverade, inkluderat:\n\n{{.BotNames}}{{end}}Vi rekommenderar starkt att du tar ägandeskap över respektive bot genom att aktivera dem på **Integrations > Bot Accounts** och skapa nya tokens för bot:en.\n\nFör mer information, läs [dokumentationen](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nOm du vill inaktivera bot-konton automatiskt när du inaktiverar en användare, gå till **System console > Integration's > Bot Accounts** och aktivera \"Disable bot accounts when owner is deactivated\".{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} har inaktiverats. De hanterar följande bot-konton som nu är inaktiverade.\n\n{{.BotNames}}{{else}}{{.UserName}} har inaktiverats. De hanterade {{.NumBots}} bot-konton som nu är avstängda, inkluderat:\n\n{{.BotNames}}{{end}}Du kan ta ägandeskap över respektive bot genom att aktivera den på **Integrations > Bot Accounts** och där skapa nya tokens för bot:en.\n\nFör mer information, läs [dokumentationen](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} har inaktiverats. De hanterar följande bot-konton som fortfarande är aktiverade.\n\n{{.BotNames}}\n{{else}}{{.UserName}} har inaktiverats. De hanterade {{.NumBots}} bot-konton som fortfarande är aktiverade, inkluderat:\n\n{{.BotNames}}{{end}}Vi rekommenderar starkt att du tar ägandeskap över respektive bot genom att aktivera dem på **Integrations > Bot Accounts** och skapa nya tokens för bot:en.\n\nFör mer information, läs [dokumentationen](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nOm du vill inaktivera bot-konton automatiskt när du inaktiverar en användare, gå till **System console > Integration's > Bot Accounts** och aktivera \"Disable bot accounts when owner is deactivated\".{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -3237,7 +3237,7 @@
   },
   {
     "id": "api.templates.signin_change_email.subject",
-    "translation": "[{{.SiteName}}] Din inloggningsmetod är uppdaterad "
+    "translation": "[{{.SiteName}}] Din inloggningsmetod är uppdaterad"
   },
   {
     "id": "api.templates.signin_change_email.body.title",
@@ -4119,11 +4119,11 @@
   },
   {
     "id": "app.plugin.sync.read_local_folder.app_error",
-    "translation": "Ett fel inträffade vid läsning av lokal plugin katalog"
+    "translation": "Ett fel inträffade vid läsning av lokal pluginkatalog."
   },
   {
     "id": "app.plugin.sync.list_filestore.app_error",
-    "translation": "Ett fel inträffade vid läsning av pluginkatalogen"
+    "translation": "Ett fel inträffade vid läsning av pluginkatalogen."
   },
   {
     "id": "app.plugin.store_signature.app_error",
@@ -4131,7 +4131,7 @@
   },
   {
     "id": "app.plugin.store_bundle.app_error",
-    "translation": "Kunde inte spara plugin-filen på den utpekade platsen"
+    "translation": "Kunde inte spara plugin-filen på den utpekade platsen."
   },
   {
     "id": "app.plugin.signature_decode.app_error",
@@ -4139,11 +4139,11 @@
   },
   {
     "id": "app.plugin.restart.app_error",
-    "translation": "Kunde inte starta plugin-filen efter uppgradering"
+    "translation": "Kunde inte starta plugin-filen efter uppgradering."
   },
   {
     "id": "app.plugin.remove_bundle.app_error",
-    "translation": "Kunde inte ta bort plugin-filen"
+    "translation": "Kunde inte ta bort plugin-filen."
   },
   {
     "id": "app.plugin.remove.app_error",
@@ -4957,7 +4957,7 @@
   },
   {
     "id": "api.email_batching.render_batched_post.notification",
-    "translation": "Notifikation från"
+    "translation": "Notifikation från "
   },
   {
     "id": "api.email_batching.render_batched_post.group_message",
@@ -6408,11 +6408,11 @@
   },
   {
     "id": "app.create_basic_user.save_member.conflict.app_error",
-    "translation": "Kunde inte skapa medlemskap i standardteam eftersom de redan är skapade."
+    "translation": "Kunde inte skapa medlemskap i standardteam eftersom de redan är skapade"
   },
   {
     "id": "app.create_basic_user.save_member.app_error",
-    "translation": "Kunde inte skapa medlemskap i standardteam."
+    "translation": "Kunde inte skapa medlemskap i standardteam"
   },
   {
     "id": "app.command_webhook.try_use.invalid",
@@ -6676,7 +6676,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost rekommenderar att installationer med fler än 500 användare tar nytta av funktionerna för användarhantering, klusterteknik och prestandamätning. Kontakta oss för att veta mer och berätta på vilket sätt vi hjälpa till.\n\nGenom att klicka på Godkänna delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Mattermost rekommenderar att installationer med fler än 500 användare nyttjar funktionerna för användarhantering, klusterteknik och prestandamätning. Kontakta oss för att veta mer och berätta på vilket sätt vi kan hjälpa till.\n\nGenom att klicka på Kontakta oss delar du information med Mattermost Inc. och lär dig mer om uppgradering. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
@@ -6684,7 +6684,7 @@
   },
   {
     "id": "api.server.warn_metric.contact_us",
-    "translation": "Godkänna"
+    "translation": "Kontakta oss"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
@@ -6692,7 +6692,7 @@
   },
   {
     "id": "api.server.warn_metric.contacting_us",
-    "translation": "Godkänner"
+    "translation": "Kontakta oss"
   },
   {
     "id": "api.server.warn_metric.email_us",
@@ -6764,7 +6764,7 @@
   },
   {
     "id": "api.cloud.app_error",
-    "translation": ""
+    "translation": "Internt fel under API-förfrågan till moln."
   },
   {
     "id": "api.admin.add_certificate.parseform.app_error",
@@ -6781,5 +6781,13 @@
   {
     "id": "web.incoming_webhook.user.app_error",
     "translation": "Kan inte hitta användaren."
+  },
+  {
+    "id": "api.system.update_notices.parse_failed",
+    "translation": "Tolkningen av produktmeddelanden misslyckades"
+  },
+  {
+    "id": "api.system.update_notices.validating_failed",
+    "translation": "Validering av produktuppdateringsmeddelanden misslyckades"
   }
 ]
