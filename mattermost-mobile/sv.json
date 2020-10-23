@@ -119,7 +119,7 @@
   "mobile.post_pre_header.pinned": "Fäst",
   "mobile.post_info.unflag": "Ta bort flaggan",
   "mobile.post_info.pin": "Fäst i kanal",
-  "mobile.post_info.flag": "Flagga",
+  "mobile.post_info.flag": "Spara",
   "mobile.post_info.add_reaction": "Lägg till reaktion",
   "mobile.photo_library_permission_denied_description": "För att ladda upp videor från ditt bibliotek, ändra inställningarna för behörighet.",
   "mobile.offlineIndicator.connected": "Ansluten",
