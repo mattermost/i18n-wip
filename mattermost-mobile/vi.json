@@ -136,7 +136,6 @@
   "mobile.open_gm.error": "Chúng tôi không thể mở một tin nhắn nhóm với những người dùng đó. Vui lòng kiểm tra kết nối của bạn và thử lại.",
   "mobile.open_dm.error": "Chúng tôi không thể mở một tin nhắn trực tiếp với {displayName}. Vui lòng kiểm tra kết nối của bạn và thử lại.",
   "mobile.offlineIndicator.connected": "Đã kết nối",
-  "mobile.notification.in": " trong ",
   "mobile.notification_settings.save_failed_title": "Sự cố kết nối",
   "mobile.notification_settings.save_failed_description": "Cài đặt thông báo không thể lưu do sự cố kết nối, vui lòng thử lại.",
   "mobile.notification_settings.ooo_auto_responder": "Trả lời tin nhắn trực tiếp tự động",

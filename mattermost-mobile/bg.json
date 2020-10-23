@@ -278,7 +278,6 @@
   "mobile.server_upgrade.description": "\nЗа да използвате приложението Mattermost, е необходимо обновяване на сървъра. Моля, попитайте вашия системен администратор за подробности.\n",
   "mobile.server_ssl.error.text": "Сертификатът от {host} не е доверен.\n\nМоля, свържете се със системния администратор, за да разрешите проблемите със сертификата и да позволите връзките с този сървър.",
   "mobile.routes.channelInfo.createdBy": "Създадено от {creator} на ",
-  "mobile.notification.in": " в ",
   "mobile.notification_settings.auto_responder.enabled": "Разрешено",
   "mobile.user_removed.title": "Премахнато от {channelName}",
   "mobile.user_removed.message": "Бяхте премахнати от канала.",

@@ -470,7 +470,6 @@
   "mobile.open_dm.error": "Vi kunde inte öppna ett direktmeddelande med {displayName}. Kontrollera din nätanslutning och försök igen.",
   "mobile.offlineIndicator.offline": "Ingen nätanslutning",
   "mobile.offlineIndicator.connecting": "Ansluter...",
-  "mobile.notification.in": " i ",
   "mobile.notification_settings.save_failed_title": "Nätverksfel",
   "mobile.notification_settings.save_failed_description": "Inställningen för notifiering gick fel beroende på ett nätverksfel. Försök igen.",
   "mobile.notification_settings.modal_save": "SPARA",

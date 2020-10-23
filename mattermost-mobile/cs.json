@@ -320,7 +320,6 @@
   "mobile.open_gm.error": "Nemohli jsme otevřít skupinovou zprávu s těmito uživateli. Prosím zkontrolujte vaše připojení a zkuste to znovu.",
   "mobile.open_dm.error": "Nepodařilo se otevřít přímou zprávu s {displayName}. Prosím zkontrolujte vaše připojení a zkuste to znovu.",
   "mobile.offlineIndicator.connected": "Připojeno",
-  "mobile.notification.in": " v ",
   "mobile.notification_settings.save_failed_title": "Chyba připojení",
   "mobile.notification_settings.save_failed_description": "Nastavení upozornění se nezdařilo kvůli problému s připojením. Zkuste to prosím znovu.",
   "mobile.notification_settings.ooo_auto_responder": "Automatické odpovědi na přímé zprávy",

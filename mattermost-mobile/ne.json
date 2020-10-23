@@ -247,7 +247,6 @@
   "mobile.offlineIndicator.offline": "कुनै इन्टरनेट जडान छैन",
   "mobile.offlineIndicator.connecting": "जडान गर्दै...",
   "mobile.offlineIndicator.connected": "जडित",
-  "mobile.notification.in": " भित्र ",
   "mobile.notification_settings.save_failed_title": "जडान मुद्दा",
   "mobile.notification_settings.save_failed_description": "अधिसूचना सेटिंग्स को एक कनेक्शन को कारण बचाउन को लागी विफल, कृपया पुन: प्रयास गर्नुहोस्।",
   "mobile.notification_settings.ooo_auto_responder": "स्वचालित प्रत्यक्ष सन्देश जवाफ",

@@ -186,7 +186,6 @@
   "mobile.offlineIndicator.offline": "Δεν υπάρχει σύνδεση στο διαδίκτυο",
   "mobile.offlineIndicator.connecting": "Σύνδεση...",
   "mobile.offlineIndicator.connected": "Συνδεδεμένος",
-  "mobile.notification.in": " σε ",
   "mobile.notification_settings.save_failed_title": "Πρόβλημα σύνδεσης",
   "mobile.notification_settings.save_failed_description": "Η αποθήκευση των ρυθμίσεων ειδοποιήσεων απέτυχε λόγω προβλήματος σύνδεσης, δοκιμάστε ξανά.",
   "mobile.notification_settings.ooo_auto_responder": "Αυτόματες Απαντήσεις Άμεσων Μηνυμάτων",
