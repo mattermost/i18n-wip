@@ -2297,6 +2297,7 @@
   "post_info.unpin": "\"o\"-nåla från kanalen",
   "post_info.unread": "Markera som oläst",
   "post_message_view.edited": "(editerad)",
+  "post_pre_header.flagged": "Sparad",
   "post_pre_header.pinned": "Fäst",
   "posts_view.newMsg": "Nya meddelanden",
   "quick_switch_modal.channelsShortcut.windows": "- CTRL+K",
