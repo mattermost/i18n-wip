@@ -61,7 +61,7 @@
   },
   {
     "id": "web.error.unsupported_browser.open_system_browser.edge",
-    "translation": "Open Edge"
+    "translation": "Öppna Edge"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
@@ -5213,7 +5213,7 @@
   },
   {
     "id": "api.command_msg.hint",
-    "translation": "@[username] 'message'"
+    "translation": "@[username] 'meddelande'"
   },
   {
     "id": "api.command_msg.fail.app_error",
@@ -5261,7 +5261,7 @@
   },
   {
     "id": "api.command_kick.name",
-    "translation": "kick"
+    "translation": "sparka"
   },
   {
     "id": "api.command_join.name",
@@ -6772,11 +6772,11 @@
   },
   {
     "id": "api.file.append_file.writing.app_error",
-    "translation": "Ett fel uppstod vid skrivning till S3."
+    "translation": "Ett fel inträffade vid skrivförsök till S3."
   },
   {
     "id": "api.file.append_file.no_exist.app_error",
-    "translation": "Filen existerar inte."
+    "translation": "Filen existerar ej."
   },
   {
     "id": "web.incoming_webhook.user.app_error",
@@ -6784,10 +6784,38 @@
   },
   {
     "id": "api.system.update_notices.parse_failed",
-    "translation": "Tolkningen av produktmeddelanden misslyckades"
+    "translation": "Tolkning av produktmeddelanden misslyckades"
   },
   {
     "id": "api.system.update_notices.validating_failed",
     "translation": "Validering av produktuppdateringsmeddelanden misslyckades"
+  },
+  {
+    "id": "app.channel.update_last_viewed_at_post.app_error",
+    "translation": "Kan inte markera kanalen som oläst."
+  },
+  {
+    "id": "api.user.get_uploads_for_user.forbidden.app_error",
+    "translation": "Misslyckades hämta uppladdningar."
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_length",
+    "translation": "Inkorrekt Content-Length."
+  },
+  {
+    "id": "api.upload.get_upload.forbidden.app_error",
+    "translation": "Misslyckades med att  hämta uppladdning."
+  },
+  {
+    "id": "api.team.add_team_member.invalid_body.app_error",
+    "translation": "Misslyckades att analysera den valda filen."
+  },
+  {
+    "id": "api.system.update_notices.fetch_failed",
+    "translation": "Hämtning av produktmeddelanden misslyckades"
+  },
+  {
+    "id": "api.file.append_file.opening.app_error",
+    "translation": "Ett fel inträffade vid försök att öppna filen."
   }
 ]
