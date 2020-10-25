@@ -228,6 +228,7 @@
   "admin.billing.payment_info.add": "Lägg till betalinformation",
   "admin.billing.payment_info.billingAddress": "Fakturaadress",
   "admin.billing.payment_info.cardBrandAndDigits": "{brand} tar slut om {digits}",
+  "admin.billing.payment_info.cardExpiry": "Giltig till {month}/{year}",
   "admin.billing.payment_info.title": "Betalinformation",
   "admin.billing.payment_info_display.allCardsAccepted": "Alla större kreditkort accepteras.",
   "admin.billing.payment_info_display.noPaymentInfo": "Det finns inget kreditkort registrerat.",
