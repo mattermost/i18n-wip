@@ -6817,5 +6817,129 @@
   {
     "id": "api.file.append_file.opening.app_error",
     "translation": "Ett fel inträffade vid försök att öppna filen."
+  },
+  {
+    "id": "app.scheme.save.app_error",
+    "translation": "Kunde inte skapa schemat."
+  },
+  {
+    "id": "app.scheme.permanent_delete_all.app_error",
+    "translation": "Kunde inte radera schemat permanent."
+  },
+  {
+    "id": "app.scheme.get.app_error",
+    "translation": "Kunde inte hämta schema."
+  },
+  {
+    "id": "app.scheme.delete.app_error",
+    "translation": "Kunde inte radera detta schema."
+  },
+  {
+    "id": "app.reaction.save.save.app_error",
+    "translation": "Kunde inte spara reaktionen."
+  },
+  {
+    "id": "app.reaction.get_for_post.app_error",
+    "translation": "Kunde inte hämta meddelandets reaktioner."
+  },
+  {
+    "id": "app.reaction.delete_all_with_emoji_name.get_reactions.app_error",
+    "translation": "Kunde inte hämta alla reaktioner med detta emoji-namn."
+  },
+  {
+    "id": "app.reaction.bulk_get_for_post_ids.app_error",
+    "translation": "Kunde inte hämta meddelandets reaktioner."
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.notification_title",
+    "translation": "Skapa Gäst-konton"
+  },
+  {
+    "id": "api.server.warn_metric.starting_trial",
+    "translation": "Hämtar testperiod"
+  },
+  {
+    "id": "api.server.warn_metric.start_trial",
+    "translation": "Starta testperiod"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.notification_title",
+    "translation": "Använda avancerade behörigheter"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
+    "translation": "Mattermost contact us request. I'm interested in learning more about Advanced Permissions with Team Schemes.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
+    "translation": "Förbättra prestandan"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
+    "translation": "Mattermost contact us request. I'm interested in learning more about improving performance with Elasticsearch.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
+    "translation": "Mattermost contact us request. I'm interested in learning more about using Advanced Permissions with System Schemes.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
+    "translation": "Mattermost contact us request. My team now has 500 users, and I'm considering Mattermost Enterprise Edition.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
+    "translation": "Mattermost contact us request. I'm interested in learning more about creating read-only Announcement Channels.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
+    "translation": "Mattermost contact us request. My team now has 200 users, and I'm considering Mattermost Enterprise Edition.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
+    "translation": "Mattermost contact us request. My team now has 100 users, and I'm considering Mattermost Enterprise Edition.\n"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.contact_us.email_body",
+    "translation": "Mattermost contact us request. I'm interested in learning more about enforcing Multi-Factor Authentication.\n"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.start_trial_notification_success.message",
+    "translation": "Din Enterprise trial är nu aktiv. Gå till **Systemkonsol > Autentisering > Gäståtkomst** för att aktivera gäst-konton."
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
+    "translation": "I projekt involveras ofta personer både från din organisation och från andra. Med Gäst-konton kan externa parter bli en del av ditt Mattermost-system och du kan ange vem de kan jobba tillsammans med och vad de kan se.\n\n[Läs mer om att tillåta gäst-konton](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nGenom att klicka på Starta testperiod godkänner jag [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) och att ta emot produktmejl."
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.notification_body",
+    "translation": "I projekt involveras ofta personer både från din organisation och från andra. Med Gäst-konton kan externa parter bli en del av ditt Mattermost-system och du kan ange vem de kan jobba tillsammans med och vad de kan se.\n\n[Läs mer om att tillåta gäst-konton](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nGenom att klicka på Kontakta oss kommer du dela med dig av din information med MAttermost Inc. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.contact_us.email_body",
+    "translation": "Mattermost contact us request. I'm interested in learning more about using Guest Accounts.\n"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
+    "translation": "Testlicensen kunde inte hämtas. Besök https://mattermost.com/trial/ för att be om en testlicens."
+  },
+  {
+    "id": "api.license.request_trial_license.fail_get_user_count.app_error",
+    "translation": "Kunde inte få en prova-på-licens, försök igen eller kontakta support@mattermost.com. Kunde inte ta fram antalet registrerade användare."
+  },
+  {
+    "id": "api.file.test_connection.s3.list_objects.app_error",
+    "translation": "Fel då objekten skulle listas."
+  },
+  {
+    "id": "api.file.test_connection.s3.bucket_create.app_error",
+    "translation": "Kunde inte skapa bucket."
+  },
+  {
+    "id": "api.cloud.request_error",
+    "translation": "Fel när anrop till CWS hanterades."
+  },
+  {
+    "id": "api.cloud.license_error",
+    "translation": "Din licens tillåter inte moln-anrop."
   }
 ]
