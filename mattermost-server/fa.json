@@ -1,1 +1,62 @@
-{}
+[
+  {
+    "id": "app.channel.post_update_channel_purpose_message.updated_to",
+    "translation": "{username} هدف کانال را به روز کرد: {new}"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.updated_from",
+    "translation": "{username} هدف کانال را از: {old} به: {new} به روز کرد"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.removed",
+    "translation": "{username}  هدف کانال را حذف کرد (بود: {old})"
+  },
+  {
+    "id": "api.team.remove_user_from_team.removed",
+    "translation": "{removeUsername} از تیم حذف شد."
+  },
+  {
+    "id": "api.team.leave.left",
+    "translation": "{username} تیم را ترک کرد."
+  },
+  {
+    "id": "api.team.join_team.post_and_forget",
+    "translation": "{username} به تیم پیوست."
+  },
+  {
+    "id": "api.channel.remove_member.removed",
+    "translation": "{removeUsername} از کانال حذف شد"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
+    "translation": "{username} عنوان کانال را به روز کرد: {new}"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
+    "translation": "{username} عنوان کانال را از: {old} به: {new} به روز کرد"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.removed",
+    "translation": "{username} عنوان کانال را حذف کرد (بود: {old})"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
+    "translation": "{username} نام نمایش کانال را از: {old} به: {new} به روز کرد"
+  },
+  {
+    "id": "api.channel.leave.left",
+    "translation": "{username} کانال را ترک کرد."
+  },
+  {
+    "id": "api.channel.join_channel.post_and_forget",
+    "translation": "{username} به کانال پیوست."
+  },
+  {
+    "id": "api.channel.delete_channel.archived",
+    "translation": "{username} کانال را بایگانی کرد."
+  },
+  {
+    "id": "api.channel.add_member.added",
+    "translation": "{addUsername} توسط {username} به کانال اضافه شد."
+  }
+]
