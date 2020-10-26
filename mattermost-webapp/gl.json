@@ -518,6 +518,7 @@
   "admin.customization.gfycatApiKey": "Chave da API de Gfycat:",
   "admin.customization.gfycatApiKeyDescription": "Solicite unha chave da API en [https://developers.gfycat.com/signup/#](!https://developers.gfycat.com/signup/#). Introduza o ID de cliente que reciba por correo neste campo. Cando está en branco, usa a chave API predeterminada fornecida por Gfycat.",
   "admin.customization.gfycatApiSecret": "Secreto da API de Gfycat:",
+  "admin.customization.gfycatApiSecretDescription": "O segredo da API xerado por Gfycat para a súa chave da API. Cando está en branco, usa o segredo da API predeterminado fornecido por Gfycat.",
   "admin.environment.notifications.feedbackOrganization.help": "O nome e o enderezo da organización amosanse nas notificacións por correo-e de Mattermost, como «© ABC Corporation, 565 Knight Way, Palo Alto, California, 94305, EUA». Se o campo queda baleiro, non se amosarán nin o nome nin o enderezo da organización.",
   "admin.environment.notifications.feedbackOrganization.placeholder": "Ex: «© ABC Corporation, 565 Knight Way, Palo Alto, California, 94305, EUA»",
   "admin.environment.smtp.connectionSecurity.option.none": "Ningún",
