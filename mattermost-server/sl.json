@@ -120,16 +120,8 @@
     "translation": "To e-poštno sporočilo je že zasedeno. Izberite drugo."
   },
   {
-    "id": "store.sql_user.get_unread_count_for_channel.app_error",
-    "translation": "Števila neprebranih sporočil za uporabnika in kanala nismo mogli dobiti"
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Ni mogoče najti obstoječega računa, ki se ujema z vašimi poverilnicami. Ta ekipa lahko potrebuje vabilo lastnika ekipe za pridružitev."
-  },
-  {
-    "id": "store.sql_user.analytics_daily_active_users.app_error",
-    "translation": "Aktivnih uporabnikov v zahtevanem obdobju ni mogoče dobiti"
   },
   {
     "id": "store.sql_team.save_member.exists.app_error",

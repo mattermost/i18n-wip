@@ -1,9 +1,5 @@
 [
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
-    "translation": "ቻናሉን ማስተካከል አልተቻለም."
-  },
-  {
     "id": "app.scheme.save.app_error",
     "translation": "ቻናሉን ማስተካከል አልተቻለም."
   },

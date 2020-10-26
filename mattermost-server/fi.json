@@ -556,10 +556,6 @@
     "translation": "Sähköposti on jo käytössä. Valitse toinen."
   },
   {
-    "id": "store.sql_user.get_unread_count_for_channel.app_error",
-    "translation": "Ei voitu hakea lukemattomien viestien määrää käyttäjälle ja kanavalle"
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Ei löydetty olemassaolevaa tiliä jolla tunnuksesi. Tiimi voi vaatia kutsun tiiminomistajalta ennen liittymistä."
   },

@@ -36,10 +36,6 @@
     "translation": "S'ha trobat un error en llistar el directori de l'emmagatzematge al servidor local."
   },
   {
-    "id": "store.sql_user.get_recently_active_users.app_error",
-    "translation": "Hem trobat un error en cercar els usuaris recentment actius"
-  },
-  {
     "id": "app.reaction.save.save.app_error",
     "translation": "No es pot desar la reacció"
   },

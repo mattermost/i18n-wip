@@ -8,10 +8,6 @@
     "translation": "Δεν είναι δυνατή η αποθήκευση των όρων χρήσης της υπηρεσίας."
   },
   {
-    "id": "store.sql_user.get_profiles.app_error",
-    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-  },
-  {
     "id": "app.terms_of_service.create.existing.app_error",
     "translation": "Δεν πρέπει να κληθεί εκτός των υφιστάμενων όρων χρήσης."
   },

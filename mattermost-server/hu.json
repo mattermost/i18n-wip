@@ -32,10 +32,6 @@
     "translation": "Rendszer"
   },
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
-    "translation": "Nem találtuk a csatornát."
-  },
-  {
     "id": "model.token.is_valid.size",
     "translation": "Érvénytelen felhasználói azonosító"
   },

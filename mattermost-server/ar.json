@@ -12,10 +12,6 @@
     "translation": "تعذر إيجاد المستخدم"
   },
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
-    "translation": "حدث خطأ عند تحديث المحادثة"
-  },
-  {
     "id": "store.sql_command.save.get.app_error",
     "translation": "حدث خطأ عند تحديث المحادثة"
   },

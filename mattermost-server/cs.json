@@ -72,10 +72,6 @@
     "translation": "Tento email již někdo používá. Zvolte si prosím jiný."
   },
   {
-    "id": "store.sql_user.get_total_users_count.app_error",
-    "translation": "Nelze aktualizovat role"
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Nelze najít existující účet odpovídající vašim pověřením. Tento tým může vyžadovat pozvání od vlastníka týmu, aby se připojil."
   },

@@ -184,16 +184,8 @@
     "translation": "E-mail này đã được sử dụng. Vui lòng chọn cái khác."
   },
   {
-    "id": "store.sql_user.get_users_batch_for_indexing.get_team_members.app_error",
-    "translation": "Không thể lấy các thành viên trong nhóm cho nhóm người dùng để lập chỉ mục"
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Không thể tìm thấy một tài khoản hiện có phù hợp với thông tin của bạn. Đội này có thể yêu cầu lời mời từ chủ nhóm để tham gia."
-  },
-  {
-    "id": "store.sql_user.analytics_get_inactive_users_count.app_error",
-    "translation": "Chúng tôi không thể tìm thấy người dùng không hoạt động"
   },
   {
     "id": "app.terms_of_service.create.existing.app_error",

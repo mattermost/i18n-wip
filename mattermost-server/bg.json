@@ -1,9 +1,5 @@
 [
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
-    "translation": "Неуспешно извличане на потребителите."
-  },
-  {
     "id": "app.scheme.save.app_error",
     "translation": "Не може да се създаде схемата."
   },
