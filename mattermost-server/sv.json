@@ -192,10 +192,6 @@
     "translation": "Det gick inte att radera användarvillkoren."
   },
   {
-    "id": "store.sql_user.update_auth_data.email_exists.app_error",
-    "translation": "Det gick inte att växla kontot till {{.Service}}. Ett konto som använder e-postadressen {{.Email}} finns redan."
-  },
-  {
     "id": "store.sql_user.update.username_taken.app_error",
     "translation": "Det här användarnamnet används redan. Välj ett annat."
   },
@@ -204,48 +200,24 @@
     "translation": "Den här e-postadressen används redan. Välj en annan."
   },
   {
-    "id": "store.sql_user.save.username_exists.app_error",
-    "translation": "Ett konto med det användarnamnet finns redan."
-  },
-  {
     "id": "store.sql_user.save.email_exists.app_error",
     "translation": "Ett konto med den e-postadressen finns redan."
-  },
-  {
-    "id": "store.sql_user.save.app_error",
-    "translation": "Det gick inte att spara kontot."
   },
   {
     "id": "store.sql_user.missing_account.const",
     "translation": "Det gick inte att hitta användaren."
   },
   {
-    "id": "store.sql_user.get_system_install_date.app_error",
-    "translation": "Det går inte att häleda systemdatumet utifrån datum för den först skapade användaren."
-  },
-  {
     "id": "store.sql_user.get_known_users.get_users.app_error",
     "translation": "Kunde inte hämta kända användare från databasen."
-  },
-  {
-    "id": "store.sql_user.get_for_login.multiple_users",
-    "translation": "Vi hittade multipla användarkonton som matchar din autentisering och kunde inte logga in dig. Kontakta systemadministratören."
   },
   {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Kan inte hitta ett existerande konto som matchar din autentisering. Denna grupp kan behöva en inbjudan av ägaren till gruppen för att gå med."
   },
   {
-    "id": "store.sql_user.get_by_username.app_error",
-    "translation": "Kan inte hitta ett existerande konto som matchar ditt användar-id för denna grupp. Denna grupp kan behöva en inbjudan av ägaren till gruppen för att gå med."
-  },
-  {
     "id": "store.sql_user.get_by_auth.other.app_error",
     "translation": "Ett fel påträffades vid sökning efter kontot med hjälp av autentiseringstypen."
-  },
-  {
-    "id": "store.sql_user.get_by_auth.missing_account.app_error",
-    "translation": "Kan inte hitta ett existerande konto som matchar din autentiseringstyp för denna grupp. Denna grupp kan behöva en inbjudan av ägaren till gruppen för att gå med."
   },
   {
     "id": "app.terms_of_service.create.existing.app_error",

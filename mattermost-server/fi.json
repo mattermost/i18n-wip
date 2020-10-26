@@ -124,24 +124,12 @@
     "translation": "Ei voitu poistaa palveluehtoja."
   },
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
-    "translation": "Ei voitu hakea käyttäjiä"
-  },
-  {
     "id": "store.sql_user.clear_all_custom_role_assignments.open_transaction.app_error",
     "translation": "Tietokantatransaktion aloitus epäonnistui"
   },
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.commit_transaction.app_error",
-    "translation": "Tietokantatransaktion suoritus epäonnistui"
-  },
-  {
     "id": "store.sql_user.analytics_get_system_admin_count.app_error",
     "translation": "Ei voitu hakea järjestelmänvalvojamäärää"
-  },
-  {
-    "id": "store.sql_user.analytics_get_inactive_users_count.app_error",
-    "translation": "Ei voitu laskea epäaktiivisia käyttäjiä"
   },
   {
     "id": "store.sql_user.analytics_daily_active_users.app_error",
@@ -576,56 +564,28 @@
     "translation": "Virheellinen tiimin ID"
   },
   {
-    "id": "store.sql_user.verify_email.app_error",
-    "translation": "Ei voida päivittää sähköpostin vahvistuskenttää"
-  },
-  {
     "id": "store.sql_user.update_update.app_error",
     "translation": "Ei voida päivittää käyttäjän viimeisen päivityksen aikaa"
-  },
-  {
-    "id": "store.sql_user.update_password.app_error",
-    "translation": "Ei voida päivittää käyttäjän salasanaa"
   },
   {
     "id": "store.sql_user.update_mfa_secret.app_error",
     "translation": "Kohdattiin virhe päivitettäessä käyttäjän MFA salaisuutta"
   },
   {
-    "id": "store.sql_user.update_mfa_active.app_error",
-    "translation": "Kohdattiin virhe päivitettäessä käyttäjän MFA aktiivisuustilaa"
-  },
-  {
     "id": "store.sql_user.update_last_picture_update.app_error",
     "translation": "Ei voitu muuttaa update_at arvoa"
-  },
-  {
-    "id": "store.sql_user.update_failed_pwd_attempts.app_error",
-    "translation": "Ei voida päivittää failed_attempts arvoa"
   },
   {
     "id": "store.sql_user.update_auth_data.email_exists.app_error",
     "translation": "Ei voida vaihtaa tiliä palveluun {{.Service}}. Tili jolla on sähköposti {{.Email}} on jo olemassa."
   },
   {
-    "id": "store.sql_user.update_auth_data.app_error",
-    "translation": "Ei voida päivittää autentikoitidataa"
-  },
-  {
     "id": "store.sql_user.update_active_for_multiple_users.updating.app_error",
     "translation": "Ei voida kytkeä lisäosaa pois"
   },
   {
-    "id": "store.sql_user.update.username_taken.app_error",
-    "translation": "Käyttäjänimi on jo käytössä. Valitse toinen."
-  },
-  {
     "id": "store.sql_user.update.updating.app_error",
     "translation": "Kohdattiin virhe päivitettäessä tiliä"
-  },
-  {
-    "id": "store.sql_user.update.finding.app_error",
-    "translation": "Kohdattiin virhe etsittäessä tiliä"
   },
   {
     "id": "store.sql_user.update.find.app_error",
@@ -636,95 +596,47 @@
     "translation": "Sähköposti on jo käytössä. Valitse toinen."
   },
   {
-    "id": "store.sql_user.update.can_not_change_ldap.app_error",
-    "translation": "AD/LDAPin asettamia kenttiä ei voi muuttaa"
-  },
-  {
     "id": "store.sql_user.update.app_error",
     "translation": "Ei voida päivittää tiliä"
-  },
-  {
-    "id": "store.sql_user.search.app_error",
-    "translation": "Ei löydetty hakuehtoja vastaavaa käyttäjää"
   },
   {
     "id": "store.sql_user.save.username_exists.app_error",
     "translation": "Käyttäjänimi on jo käytössä tilillä."
   },
   {
-    "id": "store.sql_user.save.existing.app_error",
-    "translation": "Kutsuttava päivitystä olemassaolevalle käyttäjälle"
-  },
-  {
     "id": "store.sql_user.save.email_exists.app_error",
     "translation": "On jo olemassa tili jolla tämä sähköposti."
-  },
-  {
-    "id": "store.sql_user.save.app_error",
-    "translation": "Ei voitu tallentaa tiliä."
   },
   {
     "id": "store.sql_user.promote_guest.user_update.app_error",
     "translation": "Ei voitu päivittää käyttäjää"
   },
   {
-    "id": "store.sql_user.promote_guest.team_members_update.app_error",
-    "translation": "Ei voitu päivittää kanavan jäsentä"
-  },
-  {
     "id": "store.sql_user.promote_guest.open_transaction.app_error",
     "translation": "Tietokantatransaktion aloitus epäonnistui"
-  },
-  {
-    "id": "store.sql_user.promote_guest.commit_transaction.app_error",
-    "translation": "Tietokantatransaktion suoritus epäonnistui"
   },
   {
     "id": "store.sql_user.promote_guest.channel_members_update.app_error",
     "translation": "Ei voitu päivittää kanavan jäsentä"
   },
   {
-    "id": "store.sql_user.permanent_delete.app_error",
-    "translation": "Ei voitu poistaa olemassaolevaa tiliä"
-  },
-  {
     "id": "store.sql_user.missing_account.const",
     "translation": "Ei löydetty käyttäjää."
-  },
-  {
-    "id": "store.sql_user.get_users_batch_for_indexing.get_users.app_error",
-    "translation": "Ei voitu hakea viestijoukkoa indeksointia varten"
   },
   {
     "id": "store.sql_user.get_unread_count_for_channel.app_error",
     "translation": "Ei voitu hakea lukemattomien viestien määrää käyttäjälle ja kanavalle"
   },
   {
-    "id": "store.sql_user.get_unread_count.app_error",
-    "translation": "Ei voitu hakea lukemattomien viestien määrää käyttäjälle"
-  },
-  {
     "id": "store.sql_user.get_total_users_count.app_error",
     "translation": "Emme pystyneet laskemaan käyttäjiä"
-  },
-  {
-    "id": "store.sql_user.get_system_install_date.app_error",
-    "translation": "Ei voitu päätellä järjestelmäaikaa ensimmäisen käyttäjän luontiajan perusteella."
   },
   {
     "id": "store.sql_user.get_sysadmin_profiles.app_error",
     "translation": "Kohdattiin virhe etsittäessä käyttäjäprofiileja"
   },
   {
-    "id": "store.sql_user.get_recently_active_users.app_error",
-    "translation": "Kohdattiin virhe etsittäessä äskettäin aktiivisia käyttäjiä"
-  },
-  {
     "id": "store.sql_user.get_profiles.app_error",
-    "translation": "Kohdattiin virhe etsittäessä käyttäjäprofiileja"
-  },
-  {
-    "id": "store.sql_user.get_profile_by_group_channel_ids_for_user.app_error",
     "translation": "Kohdattiin virhe etsittäessä käyttäjäprofiileja"
   },
   {
@@ -732,48 +644,24 @@
     "translation": "Kohdattiin virhe etsittäessä uusia käyttäjiä"
   },
   {
-    "id": "store.sql_user.get_for_login.multiple_users",
-    "translation": "Löydettiin useita tunnuksiasi vastaavia käyttäjiä joten et voi kirjautua. Ota yhteys järjestelmänvalvojaan."
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Ei löydetty olemassaolevaa tiliä jolla tunnuksesi. Tiimi voi vaatia kutsun tiiminomistajalta ennen liittymistä."
-  },
-  {
-    "id": "store.sql_user.get_by_username.app_error",
-    "translation": "Ei löydetty tiimiltä olemassaolevaa tiliä jolla käyttäjänimi. Tiimi voi vaatia kutsun tiiminomistajalta ennen liittymistä."
   },
   {
     "id": "store.sql_user.get_by_auth.other.app_error",
     "translation": "Kohdattiin virhe etsittäessä tiliä autentikointityypin perusteella."
   },
   {
-    "id": "store.sql_user.get_by_auth.missing_account.app_error",
-    "translation": "Ei löydetty tiimiltä olemassaolevaa tiliä jolla autentikointityyppi. Tiimi voi vaatia kutsun tiiminomistajalta ennen liittymistä."
-  },
-  {
     "id": "store.sql_user.get.app_error",
     "translation": "Kohdattiin virhe etsittäessä tiliä"
-  },
-  {
-    "id": "store.sql_user.demote_user_to_guest.user_update.app_error",
-    "translation": "Ei voitu päivittää käyttäjää"
   },
   {
     "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
     "translation": "Ei voitu päivittää kanavan jäsentä"
   },
   {
-    "id": "store.sql_user.demote_user_to_guest.open_transaction.app_error",
-    "translation": "Tietokantatransaktion aloitus epäonnistui"
-  },
-  {
     "id": "store.sql_user.demote_user_to_guest.commit_transaction.app_error",
     "translation": "Tietokantatransaktion suoritus epäonnistui"
-  },
-  {
-    "id": "store.sql_user.demote_user_to_guest.channel_members_update.app_error",
-    "translation": "Ei voitu päivittää kanavan jäsentä"
   },
   {
     "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
@@ -1670,10 +1558,6 @@
   {
     "id": "app.audit.get.finding.app_error",
     "translation": "Kohdattiin virhe etsiessä auditeja"
-  },
-  {
-    "id": "store.sql_user.app_error",
-    "translation": "Virhe kyselyä luodessa."
   },
   {
     "id": "store.sql.convert_string_map",

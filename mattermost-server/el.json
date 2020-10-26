@@ -1,1509 +1,1461 @@
 [
-    {
-        "id": "web.incoming_webhook.disabled.app_error",
-        "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
-    },
-    {
-        "id": "app.user_terms_of_service.delete.app_error",
-        "translation": "Δεν είναι δυνατή η αποθήκευση των όρων χρήσης της υπηρεσίας."
-    },
-    {
-        "id": "store.sql_user.update_last_picture_update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.update_auth_data.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.update_active_for_multiple_users.updating.app_error",
-        "translation": "Αδυναμία διαγραφής της αντίδρασης"
-    },
-    {
-        "id": "store.sql_user.update.updating.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_user.update.finding.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_user.update.find.app_error",
-        "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.save.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.promote_guest.user_update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.promote_guest.team_members_update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.promote_guest.channel_members_update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.permanent_delete.app_error",
-        "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.missing_account.const",
-        "translation": "Δεν είναι δυνατή η εύρεση του χρήστη"
-    },
-    {
-        "id": "store.sql_user.get_sysadmin_profiles.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_user.get_recently_active_users.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_user.get_profiles.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_user.get_profile_by_group_channel_ids_for_user.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_user.get_new_users.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_user.get.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_user.demote_user_to_guest.user_update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.demote_user_to_guest.channel_members_update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.terms_of_service.create.existing.app_error",
-        "translation": "Δεν πρέπει να κληθεί εκτός των υφιστάμενων όρων χρήσης."
-    },
-    {
-        "id": "app.scheme.get.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.reaction.save.save.app_error",
-        "translation": "Αδυναμία διαγραφής της αντίδρασης"
-    },
-    {
-        "id": "app.emoji.delete.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "store.sql_command.save.get.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.channel.update.bad_id",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.channel.get_deleted.existing.app_error",
-        "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
-    },
-    {
-        "id": "store.sql_channel.get.find.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "store.sql_channel.get.existing.app_error",
-        "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
-    },
-    {
-        "id": "app.audit.save.saving.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "app.audit.permanent_delete_by_user.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "app.audit.get.finding.app_error",
-        "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-    },
-    {
-        "id": "mfa.mfa_disabled.app_error",
-        "translation": "Έλεγχος ταυτότητας πολλαπλών παραγόντων απαιτείται σε αυτόν το διακομιστή."
-    },
-    {
-        "id": "manaultesting.test_autolink.unable.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "interactive_message.generate_trigger_id.signing_failed",
-        "translation": "Δεν ήταν δυνατή η υπογραφή του αναγνωριστικού ενεργοποίησης που δημιουργήθηκε για το αναδυόμενο παράθυρο."
-    },
-    {
-        "id": "interactive_message.decode_trigger_id.verify_signature_failed",
-        "translation": "Απέτυχε η επαλήθευση υπογραφής του αναγνωριστικό ενεργοποίησης."
-    },
-    {
-        "id": "interactive_message.decode_trigger_id.signature_decode_failed",
-        "translation": "Απέτυχε η αποκωδικοποίηση base64 του αναγνωριστικού ενεργοποίησης."
-    },
-    {
-        "id": "interactive_message.decode_trigger_id.missing_data",
-        "translation": "Το αναγνωριστικό ενεργοποίησης δεν διαθέτει τα απαιτούμενα δεδομένα για το αναδυόμενο παράθυρο."
-    },
-    {
-        "id": "interactive_message.decode_trigger_id.expired",
-        "translation": "Το αναγνωριστικό ενεργοποίησης έχει λήξει. Τα αναγνωριστικά ενεργοποίησης διαρκούν το μέγιστο για {{.Seconds}} δευτερόλεπτα."
-    },
-    {
-        "id": "interactive_message.decode_trigger_id.base64_decode_failed_signature",
-        "translation": "Απέτυχε η αποκωδικοποίηση base64 του αναγνωριστικού ενεργοποίησης."
-    },
-    {
-        "id": "interactive_message.decode_trigger_id.base64_decode_failed",
-        "translation": "Απέτυχε η αποκωδικοποίηση base64 για το αναγνωριστικό του αναδυόμενου παράθυρου."
-    },
-    {
-        "id": "ent.saml.service_disable.app_error",
-        "translation": "Το SAML 2.0 δεν έχει ρυθμιστεί ή δεν υποστηρίζεται από αυτό τον διακομιστή  "
-    },
-    {
-        "id": "ent.saml.metadata.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την κατασκευή παροχέα υπηρεσιών μεταδεδομένων."
-    },
-    {
-        "id": "ent.message_export.global_relay.create_file_in_zip.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.message_export.global_relay.close_zip_file.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.elasticsearch.index_user.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.elasticsearch.index_post.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.elasticsearch.index_channel.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.elasticsearch.delete_user.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.elasticsearch.delete_post.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.elasticsearch.delete_channel.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.compliance.csv.zip.creation.appError",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.compliance.csv.warning.appError",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.compliance.csv.metadata.json.zipfile.appError",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.account_migration.get_saml_users_failed",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "ent.account_migration.get_all_failed",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "bleveengine.index_user.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "bleveengine.index_post.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "bleveengine.index_channel.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "bleveengine.delete_user.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "bleveengine.delete_post.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "bleveengine.delete_channel.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.submit_interactive_dialog.json_error",
-        "translation": "Παρουσιάστηκε σφάλμα στη κωδικοποίηση του JSON του αναδυόμενου παράθυρου."
-    },
-    {
-        "id": "app.plugin.write_file.saving.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την αποχώρηση από το κανάλι."
-    },
-    {
-        "id": "app.plugin.write_file.read.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την αποχώρηση από το κανάλι."
-    },
-    {
-        "id": "app.plugin.remove.app_error",
-        "translation": "Αδυναμία διαγραφής της αντίδρασης"
-    },
-    {
-        "id": "app.plugin.get_plugins.app_error",
-        "translation": "Αδυναμία διαγραφής της αντίδρασης"
-    },
-    {
-        "id": "app.plugin.delete_public_key.delete.app_error",
-        "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη διαγραφή του πιστοποιητικού"
-    },
-    {
-        "id": "app.plugin.deactivate.app_error",
-        "translation": "Αδυναμία διαγραφής της αντίδρασης"
-    },
-    {
-        "id": "app.import.import_direct_channel.update_header_failed.error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.channel.post_update_channel_purpose_message.updated_to",
-        "translation": "%s ενημέρωσε την κεφαλίδα του καναλιού σε: %s"
-    },
-    {
-        "id": "app.channel.post_update_channel_purpose_message.updated_from",
-        "translation": "%s ενημέρωσε την κεφαλίδα του καναλιού από: %s σε: %s"
-    },
-    {
-        "id": "app.channel.post_update_channel_purpose_message.retrieve_user.error",
-        "translation": "Αποτυχία ανάκτησης του χρήστη κατά την ενημέρωση της κεφαλίδας του καναλιού  %v"
-    },
-    {
-        "id": "app.channel.post_update_channel_purpose_message.removed",
-        "translation": "%s αφαίρεσε τη κεφαλίδα του καναλιού (ήταν: %s)"
-    },
-    {
-        "id": "app.channel.post_update_channel_purpose_message.post.error",
-        "translation": "Αποτυχία δημοσίευσης μηνύματος συμμετοχής/αποχώρησης"
-    },
-    {
-        "id": "app.channel.create_direct_channel.internal_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.channel.create_channel.internal_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.bot.permenent_delete.bad_id",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.bot.patchbot.internal_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.bot.getbots.internal_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.bot.getbot.internal_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "app.bot.createbot.internal_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "api.websocket_handler.invalid_param.app_error",
-        "translation": "Μη έγκυρη παράμετρος {{.Name}}"
-    },
-    {
-        "id": "api.webhook.team_mismatch.app_error",
-        "translation": "Δεν είναι δυνατή η ενημέρωση εντολών στις ομάδες"
-    },
-    {
-        "id": "api.user.upload_profile_user.too_large.app_error",
-        "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
-    },
-    {
-        "id": "api.user.upload_profile_user.storage.app_error",
-        "translation": "Αδυναμία μεταφόρτωσης της εικόνας. Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
-    },
-    {
-        "id": "api.user.upload_profile_user.parse.app_error",
-        "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
-    },
-    {
-        "id": "api.user.upload_profile_user.open.app_error",
-        "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
-    },
-    {
-        "id": "api.user.upload_profile_user.no_file.app_error",
-        "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
-    },
-    {
-        "id": "api.user.upload_profile_user.array.app_error",
-        "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
-    },
-    {
-        "id": "api.user.update_active.permissions.app_error",
-        "translation": "Δεν έχετε τα κατάλληλα δικαιώματα"
-    },
-    {
-        "id": "api.user.saml.not_available.app_error",
-        "translation": "Το SAML 2.0 δεν μπορεί να ρυθμιστεί η δεν υποστηρίζεται από αυτό τον διακομιστή."
-    },
-    {
-        "id": "api.team.update_team_scheme.scheme_scope.error",
-        "translation": "Δεν είναι δυνατή η ρύθμιση του σχήματος για το κανάλι, επειδή το παρεχόμενο σχήμα δεν είναι κατάλληλο σχήμα καναλιού."
-    },
-    {
-        "id": "api.team.update_team_scheme.license.error",
-        "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
-    },
-    {
-        "id": "api.team.update_member_roles.not_a_member",
-        "translation": "Ο χρήστης δεν είναι μέλος του συγκεκριμένου καναλιού."
-    },
-    {
-        "id": "api.team.set_team_icon.too_large.app_error",
-        "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
-    },
-    {
-        "id": "api.team.set_team_icon.storage.app_error",
-        "translation": "Αδυναμία μεταφόρτωσης της εικόνας. Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
-    },
-    {
-        "id": "api.team.set_team_icon.parse.app_error",
-        "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
-    },
-    {
-        "id": "api.team.set_team_icon.open.app_error",
-        "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
-    },
-    {
-        "id": "api.team.set_team_icon.no_file.app_error",
-        "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
-    },
-    {
-        "id": "api.team.set_team_icon.array.app_error",
-        "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
-    },
-    {
-        "id": "api.team.remove_user_from_team.removed",
-        "translation": "%v αφαιρέθηκε από το κανάλι."
-    },
-    {
-        "id": "api.team.move_channel.post.error",
-        "translation": "Αποτυχία δημοσίευσης μηνύματος συμμετοχής/αποχώρησης"
-    },
-    {
-        "id": "api.team.import_team.parse.app_error",
-        "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
-    },
-    {
-        "id": "api.team.import_team.open.app_error",
-        "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
-    },
-    {
-        "id": "api.team.import_team.no_file.app_error",
-        "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
-    },
-    {
-        "id": "api.team.import_team.array.app_error",
-        "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
-    },
-    {
-        "id": "api.team.get_all_teams.insufficient_permissions",
-        "translation": "Δεν έχετε δικαιώματα για να επεξεργαστείτε τη κεφαλίδα."
-    },
-    {
-        "id": "api.team.add_user_to_team.added",
-        "translation": "%v προστέθηκε στο κανάλι από τον/τη %v"
-    },
-    {
-        "id": "api.scheme.patch_scheme.license.error",
-        "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
-    },
-    {
-        "id": "api.scheme.get_teams_for_scheme.scope.error",
-        "translation": "Δεν είναι δυνατή η ρύθμιση του σχήματος για το κανάλι, επειδή το παρεχόμενο σχήμα δεν είναι κατάλληλο σχήμα καναλιού."
-    },
-    {
-        "id": "api.scheme.get_channels_for_scheme.scope.error",
-        "translation": "Δεν είναι δυνατή η ρύθμιση του σχήματος για το κανάλι, επειδή το παρεχόμενο σχήμα δεν είναι κατάλληλο σχήμα καναλιού."
-    },
-    {
-        "id": "api.scheme.delete_scheme.license.error",
-        "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
-    },
-    {
-        "id": "api.scheme.create_scheme.license.error",
-        "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
-    },
-    {
-        "id": "api.roles.patch_roles.license.error",
-        "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
-    },
-    {
-        "id": "api.restricted_system_admin",
-        "translation": "Αυτή η ενέργεια επιτρέπεται μόνο από τον διαχειριστή του συστήματος."
-    },
-    {
-        "id": "api.preference.update_preferences.set.app_error",
-        "translation": "Αδυναμία αποθήκευσης της ρύθμισης"
-    },
-    {
-        "id": "api.preference.preferences_category.get.app_error",
-        "translation": "Αδυναμία αποθήκευσης της ρύθμισης"
-    },
-    {
-        "id": "api.preference.delete_preferences.delete.app_error",
-        "translation": "Αδυναμία ενημέρωσης της ρύθμισης"
-    },
-    {
-        "id": "api.post_get_post_by_id.get.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "api.post.update_post.find.app_error",
-        "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
-    },
-    {
-        "id": "api.plugin.add_public_key.open.app_error",
-        "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη διαγραφή του πιστοποιητικού"
-    },
-    {
-        "id": "api.outgoing_webhook.disabled.app_error",
-        "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
-    },
-    {
-        "id": "api.license.add_license.open.app_error",
-        "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
-    },
-    {
-        "id": "api.license.add_license.no_file.app_error",
-        "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
-    },
-    {
-        "id": "api.license.add_license.array.app_error",
-        "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
-    },
-    {
-        "id": "api.incoming_webhook.disabled.app_error",
-        "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
-    },
-    {
-        "id": "api.file.upload_file.storage.app_error",
-        "translation": "Αδυναμία μεταφόρτωσης της εικόνας. Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
-    },
-    {
-        "id": "api.emoji.disabled.app_error",
-        "translation": "Τα προσαρμοσμένα emoji έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
-    },
-    {
-        "id": "api.context.session_expired.app_error",
-        "translation": "Μη έγκυρη ή έχει λήξει η συνεδρία, παρακαλώ συνδεθείτε ξανά."
-    },
-    {
-        "id": "api.context.permissions.app_error",
-        "translation": "Δεν έχετε τα κατάλληλα δικαιώματα"
-    },
-    {
-        "id": "api.context.mfa_required.app_error",
-        "translation": "Έλεγχος ταυτότητας πολλαπλών παραγόντων απαιτείται σε αυτόν το διακομιστή."
-    },
-    {
-        "id": "api.context.invalid_param.app_error",
-        "translation": "Μη έγκυρη παράμετρος {{.Name}}"
-    },
-    {
-        "id": "api.context.invalid_body_param.app_error",
-        "translation": "Μη έγκυρο ή λείπει το {{.Name}} στο αίτημα σας."
-    },
-    {
-        "id": "api.context.404.app_error",
-        "translation": "Συγνώμη, δεν μπορέσαμε να βρούμε τη σελίδα."
-    },
-    {
-        "id": "api.config.update_config.restricted_merge.app_error",
-        "translation": "Απέτυχε η συγχώνευση της ρύθμισης που έχει δοθεί."
-    },
-    {
-        "id": "api.command_shrug.name",
-        "translation": "σήκωμα των ώμων"
-    },
-    {
-        "id": "api.command_shrug.hint",
-        "translation": "[μήνυμα]"
-    },
-    {
-        "id": "api.command_shrug.desc",
-        "translation": "Προσθέτει ¯\\_(ツ)_/¯ στο μήνυμά σας"
-    },
-    {
-        "id": "api.command_shortcuts.unsupported.app_error",
-        "translation": "Οι εντολή settings δεν υποστηρίζεται στη συσκευή σας"
-    },
-    {
-        "id": "api.command_shortcuts.name",
-        "translation": "συντομεύσεις"
-    },
-    {
-        "id": "api.command_shortcuts.desc",
-        "translation": "Εμφανίζει μια λίστα με συντομεύσεις πληκτρολογίου"
-    },
-    {
-        "id": "api.command_settings.unsupported.app_error",
-        "translation": "Οι εντολή settings δεν υποστηρίζεται στη συσκευή σας"
-    },
-    {
-        "id": "api.command_settings.name",
-        "translation": "Ρυθμίσεις"
-    },
-    {
-        "id": "api.command_settings.desc",
-        "translation": "Ανοίξτε το πλαίσιο διαλόγου Ρυθμίσεις Λογαριασμού"
-    },
-    {
-        "id": "api.command_search.unsupported.app_error",
-        "translation": "Η εντολή search δεν υποστηρίζεται στη συσκευή σας"
-    },
-    {
-        "id": "api.command_search.name",
-        "translation": "αναζήτηση"
-    },
-    {
-        "id": "api.command_search.hint",
-        "translation": "[κείμενο]"
-    },
-    {
-        "id": "api.command_search.desc",
-        "translation": "Αναζήτηση κειμένου σε μηνύματα"
-    },
-    {
-        "id": "api.command_remove.user_not_in_channel",
-        "translation": "{{.Username}} δεν είναι μέλος αυτού του καναλιού."
-    },
-    {
-        "id": "api.command_remove.permission.app_error",
-        "translation": "Δεν έχετε δικαιώματα να αφαιρέσετε τον χρήστη."
-    },
-    {
-        "id": "api.command_remove.name",
-        "translation": "Αφαίρεση"
-    },
-    {
-        "id": "api.command_remove.missing.app_error",
-        "translation": "Δεν μπορούσαμε να βρούμε το χρήστη. Μπορεί να έχουν απενεργοποιηθεί από τον Διαχειριστή του Συστήματος."
-    },
-    {
-        "id": "api.command_remove.message.app_error",
-        "translation": "Ένα μήνυμα πρέπει να παρέχεται με τη εντολή /remove ή με τη εντολή /kick ."
-    },
-    {
-        "id": "api.command_remove.hint",
-        "translation": "@[όνομα χρήστη]"
-    },
-    {
-        "id": "api.command_remove.direct_group.app_error",
-        "translation": "Δεν μπορείτε να αφαιρέσετε κάποιον από ένα κανάλι άμεσων μηνυμάτων."
-    },
-    {
-        "id": "api.command_remove.desc",
-        "translation": "Αφαιρέσετε ένα μέλος από το κανάλι"
-    },
-    {
-        "id": "api.command_open.name",
-        "translation": "Ανοιχτό"
-    },
-    {
-        "id": "api.command_online.success",
-        "translation": "Τώρα είστε σε κατάσταση Διαθέσιμος"
-    },
-    {
-        "id": "api.command_online.name",
-        "translation": "Διαθέσιμος"
-    },
-    {
-        "id": "api.command_online.desc",
-        "translation": "Ορίστε τη κατάσταση σας σε Διαθέσιμος"
-    },
-    {
-        "id": "api.command_offline.success",
-        "translation": "Τώρα είστε σε κατάσταση εκτός σύνδεσης"
-    },
-    {
-        "id": "api.command_offline.name",
-        "translation": "Εκτός σύνδεσης"
-    },
-    {
-        "id": "api.command_offline.desc",
-        "translation": "Ορίστε την κατάσταση σας ως εκτός σύνδεσης"
-    },
-    {
-        "id": "api.command_mute.success_unmute_direct_msg",
-        "translation": "Αυτό το κανάλι δεν είναι πλέον σε λειτουργία σίγασης."
-    },
-    {
-        "id": "api.command_mute.success_unmute",
-        "translation": "Το κανάλι {{.Channel}} δεν είναι πλέον σε λειτουργία σίγασης."
-    },
-    {
-        "id": "api.command_mute.success_mute_direct_msg",
-        "translation": "Δεν θα λάβετε ειδοποιήσεις για αυτό το κανάλι μέχρι να απενεργοποιηθεί η σίγαση του καναλιού."
-    },
-    {
-        "id": "api.command_mute.success_mute",
-        "translation": "Δεν θα λάβετε ειδοποιήσεις για το {{.Channel}} μέχρι να απενεργοποιηθεί η σίγαση του καναλιού"
-    },
-    {
-        "id": "api.command_mute.not_member.error",
-        "translation": "Δεν ήταν δυνατή η σίγαση του καναλιού {{.Channel}} καθώς δεν είστε μέλος."
-    },
-    {
-        "id": "api.command_mute.no_channel.error",
-        "translation": "Δεν ήταν δυνατή η εύρεση του συγκεκριμένου καναλιού. Χρησιμοποιήστε τη διαχείριση καναλιού για τον εντοπισμό καναλιών."
-    },
-    {
-        "id": "api.command_mute.name",
-        "translation": "Σίγαση"
-    },
-    {
-        "id": "api.command_mute.hint",
-        "translation": "~[κανάλι]"
-    },
-    {
-        "id": "api.command_mute.error",
-        "translation": "Δεν ήταν δυνατή η εύρεση του καναλιού {{.Channel}}. Χρησιμοποιήστε τη [διαχείριση καναλιού] για τον εντοπισμό καναλιών."
-    },
-    {
-        "id": "api.command_mute.desc",
-        "translation": "Απενεργοποιεί τις ειδοποιήσεις επιφάνειας εργασίας, ηλεκτρονικού ταχυδρομείου και ώθησης για το τρέχον κανάλι ή το καθορισμένο κανάλι."
-    },
-    {
-        "id": "api.command_msg.permission.app_error",
-        "translation": "Δεν έχετε δικαιώματα για άμεσο μήνυμα σε αυτό τον χρήστη."
-    },
-    {
-        "id": "api.command_msg.name",
-        "translation": "μήνυμα"
-    },
-    {
-        "id": "api.command_msg.missing.app_error",
-        "translation": "Δεν είναι δυνατή η εύρεση του χρήστη"
-    },
-    {
-        "id": "api.command_msg.hint",
-        "translation": "@[username] \"μήνυμα\""
-    },
-    {
-        "id": "api.command_msg.fail.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την αποστολή μηνυμάτων στον χρήστη."
-    },
-    {
-        "id": "api.command_msg.dm_fail.app_error",
-        "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη δημιουργία του άμεσου μηνύματος."
-    },
-    {
-        "id": "api.command_msg.desc",
-        "translation": "Στείλτε απευθείας μήνυμα σε ένα χρήστη"
-    },
-    {
-        "id": "api.command_me.name",
-        "translation": "εγώ"
-    },
-    {
-        "id": "api.command_me.hint",
-        "translation": "[μήνυμα]"
-    },
-    {
-        "id": "api.command_me.desc",
-        "translation": "Κάντε μία ενέργεια"
-    },
-    {
-        "id": "api.command_logout.name",
-        "translation": "Αποσύνδεση"
-    },
-    {
-        "id": "api.command_logout.desc",
-        "translation": "Αποσύνδεση"
-    },
-    {
-        "id": "api.command_leave.name",
-        "translation": "Αποχώρηση"
-    },
-    {
-        "id": "api.command_leave.fail.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την αποχώρηση από το κανάλι."
-    },
-    {
-        "id": "api.command_leave.desc",
-        "translation": "Αποχωρήστε από το τρέχον κανάλι"
-    },
-    {
-        "id": "api.command_kick.name",
-        "translation": "Αποβολή"
-    },
-    {
-        "id": "api.command_join.name",
-        "translation": "Συμμετοχή"
-    },
-    {
-        "id": "api.command_join.missing.app_error",
-        "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
-    },
-    {
-        "id": "app.scheme.save.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "api.command_join.list.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την καταχώρηση καναλιών."
-    },
-    {
-        "id": "api.command_join.hint",
-        "translation": "~[κανάλι]"
-    },
-    {
-        "id": "api.command_join.fail.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά τη σύνδεση στο κανάλι."
-    },
-    {
-        "id": "api.command_join.desc",
-        "translation": "Συμμετάσχετε στο ανοικτό κανάλι"
-    },
-    {
-        "id": "api.command_invite_people.permission.app_error",
-        "translation": "Δεν έχετε δικαίωμα να προσκαλέσετε νέους χρήστες σε αυτόν τον διακομιστή."
-    },
-    {
-        "id": "api.command_invite.user_not_in_team.app_error",
-        "translation": "{{.Username}} δεν είναι μέλος αυτού του καναλιού."
-    },
-    {
-        "id": "api.command_invite.user_already_in_channel.app_error",
-        "translation": "Ο χρήστης {{.User}} είναι ήδη στο κανάλι."
-    },
-    {
-        "id": "api.command_invite.success",
-        "translation": "Ο χρήστης {{.User}} προστέθηκε στο κανάλι {{.Το Channel}}."
-    },
-    {
-        "id": "api.command_invite.private_channel.app_error",
-        "translation": "Δεν ήταν δυνατή η εύρεση του καναλιού {{.Channel}}. Χρησιμοποιήστε τη διαχείριση του καναλιού για να αναγνωρίσετε κανάλια."
-    },
-    {
-        "id": "api.command_invite.permission.app_error",
-        "translation": "Δεν έχετε δικαιώματα για να προσθέσετε τον χρήστη {{.User}} στο κανάλι {{.Channel}}."
-    },
-    {
-        "id": "api.command_invite.name",
-        "translation": "Πρόσκληση"
-    },
-    {
-        "id": "api.command_invite.missing_user.app_error",
-        "translation": "Δεν μπορούσαμε να βρούμε το χρήστη. Μπορεί να έχουν απενεργοποιηθεί από τον Διαχειριστή του Συστήματος."
-    },
-    {
-        "id": "api.command_invite.missing_message.app_error",
-        "translation": "Λείπει το όνομα Χρήστη και το Κανάλι."
-    },
-    {
-        "id": "api.command_invite.hint",
-        "translation": "@[όνομα χρήστη] ~[κανάλι]"
-    },
-    {
-        "id": "api.command_invite.fail.app_error",
-        "translation": "Παρουσιάστηκε ένα σφάλμα κατά την είσοδό στο κανάλι."
-    },
-    {
-        "id": "api.command_invite.directchannel.app_error",
-        "translation": "Δεν μπορείτε να προσθέσετε κάποιον σε ένα απευθείας κανάλι μηνυμάτων."
-    },
-    {
-        "id": "api.command_invite.desc",
-        "translation": "Προσκαλέστε ένα χρήστη σε ένα κανάλι"
-    },
-    {
-        "id": "api.command_invite.channel.error",
-        "translation": "Δεν ήταν δυνατή η εύρεση του καναλιού {{.Channel}}. Χρησιμοποιήστε τη [διαχείριση καναλιού] για τον εντοπισμό καναλιών."
-    },
-    {
-        "id": "api.command_invite.channel.app_error",
-        "translation": "Σφάλμα κατά την ανάκτηση του τρέχον καναλιού."
-    },
-    {
-        "id": "api.command_help.name",
-        "translation": "Βοήθεια"
-    },
-    {
-        "id": "api.command_help.desc",
-        "translation": "Ανοίξτε τη σελίδα βοήθειας"
-    },
-    {
-        "id": "api.command_groupmsg.permission.app_error",
-        "translation": "Δεν έχετε δικαιώματα για να δημιουργήσετε μήνυμα ομάδας."
-    },
-    {
-        "id": "api.command_groupmsg.name",
-        "translation": "μήνυμα"
-    },
-    {
-        "id": "api.command_groupmsg.min_users.app_error",
-        "translation": "Τα μηνύματα ομάδας περιορίζονται το ελάχιστο σε {{.MinUsers} χρήστες."
-    },
-    {
-        "id": "api.command_groupmsg.max_users.app_error",
-        "translation": "Τα μηνύματα ομάδας περιορίζονται το μέγιστο σε {{.MaxUsers}} χρήστες."
-    },
-    {
-        "id": "api.command_groupmsg.invalid_user.app_error",
-        "translation": {
-            "one": "Δεν είναι δυνατή η εύρεση του χρήστη: {{.Users}}",
-            "other": "Δεν είναι δυνατή η εύρεση των χρηστών: {{.Users}}"
-        }
-    },
-    {
-        "id": "api.command_groupmsg.hint",
-        "translation": "@[username1],@[username2] 'μήνυμα'"
-    },
-    {
-        "id": "api.command_groupmsg.group_fail.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά τη δημιουργία του μηνύματος ομάδας."
-    },
-    {
-        "id": "api.command_groupmsg.fail.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την αποστολή μηνυμάτων στους χρήστες."
-    },
-    {
-        "id": "api.command_groupmsg.desc",
-        "translation": "Στέλνει ένα μήνυμα ομάδας προς τους συγκεκριμένους χρήστες"
-    },
-    {
-        "id": "api.command_expand_collapse.fail.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την αποστολή μηνυμάτων στους χρήστες."
-    },
-    {
-        "id": "api.command_expand.name",
-        "translation": "Επέκταση"
-    },
-    {
-        "id": "api.command_expand.desc",
-        "translation": "Ενεργοποιήστε την αυτόματη σύμπτυξη των προεπισκοπήσεων εικόνας"
-    },
-    {
-        "id": "api.command_echo.message.app_error",
-        "translation": "Ένα μήνυμα πρέπει να παρέχεται με την εντολή /echo"
-    },
-    {
-        "id": "api.command_echo.delay.app_error",
-        "translation": "Οι καθυστερήσεις πρέπει να είναι το μέγιστο 10000 δευτερόλεπτα"
-    },
-    {
-        "id": "api.command_dnd.success",
-        "translation": "Η λειτουργία Μην ενοχλείτε είναι ενεργοποιημένη. Δεν θα λάβετε ειδοποιήσεις push για κινητά ή υπολογιστές μέχρι να απενεργοποιηθεί η επιλογή Μην ενοχλείτε."
-    },
-    {
-        "id": "api.command_dnd.name",
-        "translation": "Μην ενοχλείτε"
-    },
-    {
-        "id": "api.command_dnd.error",
-        "translation": "Σφάλμα κατά την ανάκτηση της κατάστασης του χρήστη."
-    },
-    {
-        "id": "api.command_dnd.disabled",
-        "translation": "Η κατάσταση \"Μην ενοχλείτε\" είναι απενεργοποιημένη."
-    },
-    {
-        "id": "api.command_dnd.desc",
-        "translation": "Η κατάσταση \"Μην ενοχλείτε\" απενεργοποιεί τις ειδοποιήσεις push για υπολογιστές και κινητά."
-    },
-    {
-        "id": "api.command_collapse.desc",
-        "translation": "Ενεργοποιήστε την αυτόματη συμπίεση των προεπισκοπήσεων εικόνας"
-    },
-    {
-        "id": "api.command_code.name",
-        "translation": "κώδικας"
-    },
-    {
-        "id": "api.command_code.message.app_error",
-        "translation": "Ένα μήνυμα πρέπει να παρέχεται με την εντολή /code"
-    },
-    {
-        "id": "api.command_code.hint",
-        "translation": "[κείμενο]"
-    },
-    {
-        "id": "api.command_code.desc",
-        "translation": "Εμφάνιση κειμένου ως μπλοκ κώδικα"
-    },
-    {
-        "id": "api.command_channel_rename.update_channel.app_error",
-        "translation": "Σφάλμα ενημέρωσης του τρέχοντος καναλιού."
-    },
-    {
-        "id": "api.command_channel_rename.too_short.app_error",
-        "translation": "Το όνομα του καναλιού πρέπει να είναι τουλάχιστον {{.Length}} χαρακτήρες"
-    },
-    {
-        "id": "api.command_channel_rename.too_long.app_error",
-        "translation": "Το όνομα καναλιού πρέπει να είναι το μέγιστο {{.Length}} χαρακτήρες"
-    },
-    {
-        "id": "api.command_channel_rename.permission.app_error",
-        "translation": "Δεν έχετε δικαιώματα για να μετονομάσετε το κανάλι."
-    },
-    {
-        "id": "api.command_channel_rename.name",
-        "translation": "Μετονομασία"
-    },
-    {
-        "id": "api.command_channel_rename.message.app_error",
-        "translation": "Ένα μήνυμα πρέπει να παρέχεται με την εντολή /rename."
-    },
-    {
-        "id": "api.command_channel_rename.hint",
-        "translation": "[κείμενο]"
-    },
-    {
-        "id": "api.command_channel_rename.direct_group.app_error",
-        "translation": "Αδύνατο να αφήσεις ένα άμεσο μήνυμα στο κανάλι"
-    },
-    {
-        "id": "api.command_channel_rename.desc",
-        "translation": "Μετονομασία καναλιού"
-    },
-    {
-        "id": "api.command_channel_rename.channel.app_error",
-        "translation": "Σφάλμα κατά την ανάκτηση το τρέχον καναλιού."
-    },
-    {
-        "id": "api.command_channel_remove.channel.app_error",
-        "translation": "Σφάλμα κατά την ανάκτηση το τρέχον καναλιού."
-    },
-    {
-        "id": "api.command_channel_purpose.update_channel.app_error",
-        "translation": "Σφάλμα κατά την ενημέρωση του τρέχον καναλιού."
-    },
-    {
-        "id": "api.command_channel_purpose.permission.app_error",
-        "translation": "Δεν έχετε δικαιώματα για να επεξεργαστείτε το κανάλι."
-    },
-    {
-        "id": "api.command_channel_purpose.name",
-        "translation": "Πρόταση"
-    },
-    {
-        "id": "api.command_channel_purpose.message.app_error",
-        "translation": "Ένα μήνυμα πρέπει να παρέχεται με εντολή /purpose ."
-    },
-    {
-        "id": "api.command_channel_purpose.hint",
-        "translation": "[κείμενο]"
-    },
-    {
-        "id": "api.command_channel_purpose.channel.app_error",
-        "translation": "Σφάλμα κατά την ανάκτηση του τρέχον καναλιού."
-    },
-    {
-        "id": "api.command_channel_header.update_channel.app_error",
-        "translation": "Σφάλμα κατά την ενημέρωση του τρέχον καναλιού."
-    },
-    {
-        "id": "api.command_channel_header.permission.app_error",
-        "translation": "Δεν έχετε δικαιώματα για να επεξεργαστείτε τη κεφαλίδα."
-    },
-    {
-        "id": "api.command_channel_header.name",
-        "translation": "Κεφαλίδα"
-    },
-    {
-        "id": "api.command_channel_header.message.app_error",
-        "translation": "Ένα μήνυμα πρέπει να παρέχεται με την εντολή /header."
-    },
-    {
-        "id": "api.command_channel_header.hint",
-        "translation": "[κείμενο]"
-    },
-    {
-        "id": "api.command_channel_header.desc",
-        "translation": "Επεξεργαστείτε τη κεφαλίδα του καναλιού"
-    },
-    {
-        "id": "api.command_channel_header.channel.app_error",
-        "translation": "Σφάλμα για να ανακτήσετε το τρέχον κανάλι."
-    },
-    {
-        "id": "api.command_away.success",
-        "translation": "Τώρα είσαι σε κατάσταση 'Λείπω'"
-    },
-    {
-        "id": "api.command_away.name",
-        "translation": "Λείπω"
-    },
-    {
-        "id": "api.command_away.desc",
-        "translation": "Ορίσετε την κατάστασή σας ως 'Λείπω'"
-    },
-    {
-        "id": "api.command.team_mismatch.app_error",
-        "translation": "Δεν είναι δυνατή η ενημέρωση εντολών στις ομάδες"
-    },
-    {
-        "id": "api.command.invite_people.sent",
-        "translation": "Οι προσκλήσεις στάλθηκαν με email"
-    },
-    {
-        "id": "api.command.invite_people.no_email",
-        "translation": "Προσδιορίστε μία ή περισσότερες έγκυρες διευθύνσεις ηλεκτρονικού ταχυδρομείου"
-    },
-    {
-        "id": "api.command.invite_people.name",
-        "translation": "Προσκαλέστε φίλους"
-    },
-    {
-        "id": "api.command.invite_people.invite_off",
-        "translation": "Η δημιουργία λογαριασμών έχει απενεργοποιηθεί σε αυτόν τον διακομιστή, δεν έχουν αποσταλεί προσκλήσεις"
-    },
-    {
-        "id": "api.command.invite_people.hint",
-        "translation": "[όνομα@domain.com ...]"
-    },
-    {
-        "id": "api.command.invite_people.fail",
-        "translation": "Παρουσιάστηκε ένα σφάλμα κατά την αποστολή e-mail πρόσκλησης"
-    },
-    {
-        "id": "api.command.invite_people.email_off",
-        "translation": "Το μήνυμα ηλεκτρονικού ταχυδρομείου δεν έχει ρυθμιστεί, δεν έχουν αποσταλεί προσκλήσεις"
-    },
-    {
-        "id": "api.command.invite_people.email_invitations_off",
-        "translation": "Οι προσκλήσεις μέσω ηλεκτρονικού ταχυδρομείου είναι απενεργοποιημένες, δεν έχουν αποσταλεί προσκλήσεις"
-    },
-    {
-        "id": "api.command.invite_people.desc",
-        "translation": "Στείλτε ένα μήνυμα ηλεκτρονικού ταχυδρομείου στην ομάδα Mattermost"
-    },
-    {
-        "id": "api.command.execute_command.failed.app_error",
-        "translation": "H πυροδότησης '{{.Trigger}}' της εντολής απέτυχε"
-    },
-    {
-        "id": "api.command.execute_command.create_post_failed.app_error",
-        "translation": "Εντολή '{{.Trigger}}' απέτυχε να δημοσιεύσετε απάντηση. Παρακαλείστε να επικοινωνήσετε με το Διαχειριστή του συστήματός σας."
-    },
-    {
-        "id": "api.command.duplicate_trigger.app_error",
-        "translation": "Αυτή η λέξη είναι ήδη σε χρήση. Παρακαλώ επιλέξτε μια άλλη λέξη."
-    },
-    {
-        "id": "api.command.disabled.app_error",
-        "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
-    },
-    {
-        "id": "api.command.command_post.forbidden.app_error",
-        "translation": "Ο χρήστης δεν είναι μέλος του συγκεκριμένου καναλιού."
-    },
-    {
-        "id": "api.command.admin_only.app_error",
-        "translation": "Oι ενσωματώσεις περιορίζονται μόνο στους διαχειριστές."
-    },
-    {
-        "id": "api.channel.update_team_member_roles.scheme_role.app_error",
-        "translation": "O παρεχόμενος ρόλος διαχειρίζεται από ένα Σχήμα και επομένως δεν μπορεί να εφαρμοστεί απευθείας σε Μέλος της ομάδας"
-    },
-    {
-        "id": "api.channel.update_channel_scheme.scheme_scope.error",
-        "translation": "Δεν είναι δυνατή η ρύθμιση του σχήματος για το κανάλι, επειδή το παρεχόμενο σχήμα δεν είναι κατάλληλο σχήμα καναλιού."
-    },
-    {
-        "id": "api.channel.update_channel_scheme.license.error",
-        "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
-    },
-    {
-        "id": "api.channel.update_channel_member_roles.scheme_role.app_error",
-        "translation": "Ο ρόλος που παρέχεται διαχειρίζεται ένα Σχέδιο και επομένως δεν μπορεί να εφαρμοστεί απευθείας σε Μέλος του Καναλιού"
-    },
-    {
-        "id": "api.channel.update_channel.tried.app_error",
-        "translation": "Προσπαθήσατε να εκτελέσετε μια μη έγκυρη ενημέρωση του προεπιλεγμένου καναλιού {{.Channel}}"
-    },
-    {
-        "id": "api.channel.update_channel.deleted.app_error",
-        "translation": "Το κανάλι έχει αρχειοθετηθεί ή διαγραφεί"
-    },
-    {
-        "id": "api.channel.rename_channel.cant_rename_group_messages.app_error",
-        "translation": "Δεν μπορείτε να μετονομάσετε ένα μήνυμά ομάδας καναλιού"
-    },
-    {
-        "id": "api.channel.rename_channel.cant_rename_direct_messages.app_error",
-        "translation": "Δεν μπορείτε να μετονομάσετε ένα άμεσο μήνυμα καναλιού"
-    },
-    {
-        "id": "api.channel.remove_user_from_channel.app_error",
-        "translation": "Δε είναι δυνατόν να προστεθεί ο χρήστης σε αυτόν τον τύπο καναλιού"
-    },
-    {
-        "id": "api.channel.remove_member.removed",
-        "translation": "%v αφαιρέθηκε από το κανάλι."
-    },
-    {
-        "id": "api.channel.remove_channel_member.type.app_error",
-        "translation": "Δεν είναι δυνατή η αφαίρεση χρήστη από ένα κανάλι."
-    },
-    {
-        "id": "api.channel.remove.default.app_error",
-        "translation": "Δεν είναι δυνατή η αφαίρεση του χρήστη από το προεπιλεγμένο κανάλι {{.Channel}}"
-    },
-    {
-        "id": "api.channel.post_user_add_remove_message_and_forget.error",
-        "translation": "Αποτυχία δημοσίευσης μηνύματος συμμετοχής/αποχώρησης"
-    },
-    {
-        "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
-        "translation": "%s ενημέρωσε την κεφαλίδα του καναλιού σε: %s"
-    },
-    {
-        "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
-        "translation": "%s ενημέρωσε την κεφαλίδα του καναλιού από: %s σε: %s"
-    },
-    {
-        "id": "api.channel.post_update_channel_header_message_and_forget.retrieve_user.error",
-        "translation": "Αποτυχία ανάκτησης του χρήστη κατά την ενημέρωση της κεφαλίδας του καναλιού"
-    },
-    {
-        "id": "api.channel.post_update_channel_header_message_and_forget.removed",
-        "translation": "%s αφαίρεσε τη κεφαλίδα του καναλιού (ήταν: %s)"
-    },
-    {
-        "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
-        "translation": "Αποτυχία ενημέρωσης μηνύματος επικεφαλίδας καναλιού."
-    },
-    {
-        "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
-        "translation": "%s ενημέρωσε το εμφανιζόμενο όνομα καναλιού από: %s σε: %s"
-    },
-    {
-        "id": "api.channel.post_update_channel_displayname_message_and_forget.retrieve_user.error",
-        "translation": "Απέτυχε η ανάκτηση χρήστη κατά την ενημέρωση του πεδίου εμφανιζόμενο όνομα στο κανάλι"
-    },
-    {
-        "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
-        "translation": "Αποτυχία δημοσίευσης μηνύματος ενημέρωσης εμφάνισης"
-    },
-    {
-        "id": "api.channel.post_channel_privacy_message.error",
-        "translation": "Αποτυχία δημοσίευσης μηνύματος ενημέρωσης απορρήτου καναλιού."
-    },
-    {
-        "id": "api.channel.patch_update_channel.forbidden.app_error",
-        "translation": "Απέτυχε η ενημέρωση του καναλιού"
-    },
-    {
-        "id": "api.channel.leave.left",
-        "translation": "%v έφυγε από το κανάλι."
-    },
-    {
-        "id": "api.channel.leave.last_member.app_error",
-        "translation": "Είσαι το μόνο μέλος που έμεινε στο κανάλι, δοκίμασε να αλλάξεις 'Ιδιωτικό Κανάλι', αντί να το φύγεις."
-    },
-    {
-        "id": "api.channel.leave.direct.app_error",
-        "translation": "Αδύνατο να αφήσεις ένα άμεσο μήνυμα στο κανάλι"
-    },
-    {
-        "id": "api.channel.leave.default.app_error",
-        "translation": "Δεν είναι δυνατή η έξοδος από το προεπιλεγμένο κανάλι {{.Channel}}"
-    },
-    {
-        "id": "api.channel.join_channel.post_and_forget",
-        "translation": "%v έγινε μέλος του καναλιού."
-    },
-    {
-        "id": "api.channel.join_channel.permissions.app_error",
-        "translation": "Δεν έχετε τα κατάλληλα δικαιώματα"
-    },
-    {
-        "id": "api.channel.delete_channel.type.invalid",
-        "translation": "Δεν είναι δυνατή η διαγραφή άμεσων ή ομαδικών μηνυμάτων σε κανάλια"
-    },
-    {
-        "id": "api.channel.delete_channel.deleted.app_error",
-        "translation": "Το κανάλι έχει αρχειοθετηθεί ή διαγραφεί"
-    },
-    {
-        "id": "api.channel.delete_channel.cannot.app_error",
-        "translation": "Δεν είναι δυνατή η διαγραφή του προεπιλεγμένου καναλιού {{.Channel}}"
-    },
-    {
-        "id": "api.channel.delete_channel.archived",
-        "translation": "%v αρχειοθέτησε το κανάλι."
-    },
-    {
-        "id": "api.channel.create_group.bad_user.app_error",
-        "translation": "Ένας από τους χρήστες δεν υπάρχει"
-    },
-    {
-        "id": "api.channel.create_group.bad_size.app_error",
-        "translation": "Τα ομαδικά μηνύματα πρέπει να περιέχουν από 3 έως 8 χρήστες"
-    },
-    {
-        "id": "api.channel.create_direct_channel.invalid_user.app_error",
-        "translation": "Μη έγκυρο αναγνωριστικό χρήστη για άμεση δημιουργία καναλιού"
-    },
-    {
-        "id": "api.channel.create_default_channels.town_square",
-        "translation": "Town Square"
-    },
-    {
-        "id": "api.channel.create_default_channels.off_topic",
-        "translation": "Off-Topic"
-    },
-    {
-        "id": "api.channel.create_channel.max_channel_limit.app_error",
-        "translation": "Δεν είναι δυνατή η δημιουργία περισσότερων από {{.MaxChannelsPerTeam}} καναλιών στην τρέχουσα ομάδα."
-    },
-    {
-        "id": "api.channel.create_channel.direct_channel.app_error",
-        "translation": "Πρέπει να χρησιμοποιήσετε την υπηρεσία API createDirectChannel για την άμεση δημιουργία καναλιών."
-    },
-    {
-        "id": "api.channel.convert_channel_to_private.private_channel_error",
-        "translation": "Το κανάλι είναι ήδη ιδιωτικό."
-    },
-    {
-        "id": "api.channel.convert_channel_to_private.default_channel_error",
-        "translation": "Το προεπιλεγμένο κανάλι δεν μπορεί να μετατραπεί σε ιδιωτικό."
-    },
-    {
-        "id": "api.channel.change_channel_privacy.public_to_private",
-        "translation": "Αυτό το κανάλι έχει γίνει ιδιωτικό."
-    },
-    {
-        "id": "api.channel.change_channel_privacy.private_to_public",
-        "translation": "Αυτό το κανάλι έχει μετατραπεί σε δημόσιο κανάλι και μπορεί να συμμετέχει οποιοδήποτε μέλος της ομάδας."
-    },
-    {
-        "id": "api.channel.add_user_to_channel.type.app_error",
-        "translation": "Δε είναι δυνατόν να προστεθεί ο χρήστης σε αυτόν τον τύπο καναλιού"
-    },
-    {
-        "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
-        "translation": "Αποτυχία προσθήκης χρήστών στο κανάλι, επειδή έχουν αφαιρεθεί από την ομάδα."
-    },
-    {
-        "id": "api.channel.add_user.to.channel.failed.app_error",
-        "translation": "Αποτυχία προσθήκης χρήστη στο κανάλι"
-    },
-    {
-        "id": "api.channel.add_member.added",
-        "translation": "%v προστέθηκε στο κανάλι από τον/τη %v"
-    },
-    {
-        "id": "api.channel.add_guest.added",
-        "translation": "%v προστέθηκε στο κανάλι από τον/τη %v"
-    },
-    {
-        "id": "api.bot.set_bot_icon_image.too_large.app_error",
-        "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
-    },
-    {
-        "id": "api.bot.set_bot_icon_image.parse.app_error",
-        "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
-    },
-    {
-        "id": "api.bot.set_bot_icon_image.open.app_error",
-        "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
-    },
-    {
-        "id": "api.bot.set_bot_icon_image.no_file.app_error",
-        "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
-    },
-    {
-        "id": "api.bot.set_bot_icon_image.array.app_error",
-        "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
-    },
-    {
-        "id": "api.admin.upload_brand_image.too_large.app_error",
-        "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
-    },
-    {
-        "id": "api.admin.upload_brand_image.storage.app_error",
-        "translation": "Αδυναμία μεταφόρτωσης της εικόνας. Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
-    },
-    {
-        "id": "api.admin.upload_brand_image.parse.app_error",
-        "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
-    },
-    {
-        "id": "api.admin.upload_brand_image.no_file.app_error",
-        "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
-    },
-    {
-        "id": "api.admin.upload_brand_image.array.app_error",
-        "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
-    },
-    {
-        "id": "api.admin.test_s3.missing_s3_bucket",
-        "translation": "Απαιτείται S3 Bucket"
-    },
-    {
-        "id": "api.admin.test_email.subject",
-        "translation": "Δοκιμή ρυθμίσεων Email"
-    },
-    {
-        "id": "api.admin.test_email.reenter_password",
-        "translation": "Ο διακομιστής SMTP, η θύρα ή το username έχουν αλλάξει. Παρακαλούμε εισάγετε ξανά το SMTP password για δοκιμή της SMTP σύνδεσης."
-    },
-    {
-        "id": "api.admin.test_email.missing_server",
-        "translation": "Ο διακομιστής SMTP είναι υποχρεωτικός"
-    },
-    {
-        "id": "api.admin.test_email.body",
-        "translation": "Φαίνεται ότι το email έχει ρυθμιστεί σωστά!"
-    },
-    {
-        "id": "api.admin.saml.not_available.app_error",
-        "translation": "Το SAML 2.0 δεν έχει ρυθμιστεί ή δεν υποστηρίζεται από αυτόν τον διακομιστή."
-    },
-    {
-        "id": "api.admin.saml.metadata.app_error",
-        "translation": "Παρουσιάστηκε σφάλμα κατά την κατασκευή μεταδεδομένων του παροχέα υπηρεσιών "
-    },
-    {
-        "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
-        "translation": "Αδυναμία αποθήκευσης αρχείου πιστοποιητικού"
-    },
-    {
-        "id": "api.admin.remove_certificate.delete.app_error",
-        "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη διαγραφή του πιστοποιητικού"
-    },
-    {
-        "id": "api.admin.get_brand_image.storage.app_error",
-        "translation": "Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
-    },
-    {
-        "id": "api.admin.file_read_error",
-        "translation": "Σφάλμα ανάγνωσης αρχείου καταγραφής "
-    },
-    {
-        "id": "api.admin.add_certificate.saving.app_error",
-        "translation": "Αδυναμία αποθήκευσης αρχείου πιστοποιητικού"
-    },
-    {
-        "id": "api.admin.add_certificate.open.app_error",
-        "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
-    },
-    {
-        "id": "api.admin.add_certificate.no_file.app_error",
-        "translation": "Δεν υπάρχει αρχείο στο αίτημα για το 'πιστοποιητικό'."
-    },
-    {
-        "id": "api.admin.add_certificate.array.app_error",
-        "translation": "Δεν υπάρχει αρχείο κάτω από το πιστοποιητικό της αίτησης"
-    },
-    {
-        "id": "September",
-        "translation": "Σεπτέμβριος"
-    },
-    {
-        "id": "October",
-        "translation": "Οκτώβριος"
-    },
-    {
-        "id": "November",
-        "translation": "Νοέμβριος"
-    },
-    {
-        "id": "May",
-        "translation": "Μάιος"
-    },
-    {
-        "id": "March",
-        "translation": "Μάρτιος"
-    },
-    {
-        "id": "June",
-        "translation": "Ιούνιος"
-    },
-    {
-        "id": "July",
-        "translation": "Ιούλιος"
-    },
-    {
-        "id": "January",
-        "translation": "IΙανουάριος"
-    },
-    {
-        "id": "February",
-        "translation": "Φεβρουάριος"
-    },
-    {
-        "id": "December",
-        "translation": "Δεκέμβριος"
-    },
-    {
-        "id": "August",
-        "translation": "Αύγουστος"
-    },
-    {
-        "id": "April",
-        "translation": "Απρίλιος"
-    },
-    {
-        "id": "web.error.unsupported_browser.system_browser_or",
-        "translation": "ή"
-    },
-    {
-        "id": "system.message.name",
-        "translation": "Σύστημα"
-    },
-    {
-        "id": "app.import.validate_direct_post_import_data.message_length.error",
-        "translation": "Το μήνυμα είναι πολύ μεγάλο"
+  {
+    "id": "web.incoming_webhook.disabled.app_error",
+    "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
+  },
+  {
+    "id": "app.user_terms_of_service.delete.app_error",
+    "translation": "Δεν είναι δυνατή η αποθήκευση των όρων χρήσης της υπηρεσίας."
+  },
+  {
+    "id": "store.sql_user.update_auth_data.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "store.sql_user.update.updating.app_error",
+    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+  },
+  {
+    "id": "store.sql_user.update.find.app_error",
+    "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
+  },
+  {
+    "id": "store.sql_user.save.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "store.sql_user.promote_guest.team_members_update.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "store.sql_user.permanent_delete.app_error",
+    "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
+  },
+  {
+    "id": "store.sql_user.get_sysadmin_profiles.app_error",
+    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+  },
+  {
+    "id": "store.sql_user.get_profiles.app_error",
+    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+  },
+  {
+    "id": "store.sql_user.get_new_users.app_error",
+    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+  },
+  {
+    "id": "store.sql_user.demote_user_to_guest.user_update.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "store.sql_user.demote_user_to_guest.channel_members_update.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.terms_of_service.create.existing.app_error",
+    "translation": "Δεν πρέπει να κληθεί εκτός των υφιστάμενων όρων χρήσης."
+  },
+  {
+    "id": "app.scheme.get.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.reaction.save.save.app_error",
+    "translation": "Αδυναμία διαγραφής της αντίδρασης"
+  },
+  {
+    "id": "app.emoji.delete.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "store.sql_command.save.get.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.channel.update.bad_id",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.channel.get_deleted.existing.app_error",
+    "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
+  },
+  {
+    "id": "store.sql_channel.get.find.app_error",
+    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+  },
+  {
+    "id": "store.sql_channel.get.existing.app_error",
+    "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
+  },
+  {
+    "id": "app.audit.save.saving.app_error",
+    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+  },
+  {
+    "id": "app.audit.permanent_delete_by_user.app_error",
+    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+  },
+  {
+    "id": "app.audit.get.finding.app_error",
+    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+  },
+  {
+    "id": "mfa.mfa_disabled.app_error",
+    "translation": "Έλεγχος ταυτότητας πολλαπλών παραγόντων απαιτείται σε αυτόν το διακομιστή."
+  },
+  {
+    "id": "manaultesting.test_autolink.unable.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "interactive_message.generate_trigger_id.signing_failed",
+    "translation": "Δεν ήταν δυνατή η υπογραφή του αναγνωριστικού ενεργοποίησης που δημιουργήθηκε για το αναδυόμενο παράθυρο."
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.verify_signature_failed",
+    "translation": "Απέτυχε η επαλήθευση υπογραφής του αναγνωριστικό ενεργοποίησης."
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.signature_decode_failed",
+    "translation": "Απέτυχε η αποκωδικοποίηση base64 του αναγνωριστικού ενεργοποίησης."
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.missing_data",
+    "translation": "Το αναγνωριστικό ενεργοποίησης δεν διαθέτει τα απαιτούμενα δεδομένα για το αναδυόμενο παράθυρο."
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.expired",
+    "translation": "Το αναγνωριστικό ενεργοποίησης έχει λήξει. Τα αναγνωριστικά ενεργοποίησης διαρκούν το μέγιστο για {{.Seconds}} δευτερόλεπτα."
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.base64_decode_failed_signature",
+    "translation": "Απέτυχε η αποκωδικοποίηση base64 του αναγνωριστικού ενεργοποίησης."
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.base64_decode_failed",
+    "translation": "Απέτυχε η αποκωδικοποίηση base64 για το αναγνωριστικό του αναδυόμενου παράθυρου."
+  },
+  {
+    "id": "ent.saml.service_disable.app_error",
+    "translation": "Το SAML 2.0 δεν έχει ρυθμιστεί ή δεν υποστηρίζεται από αυτό τον διακομιστή  "
+  },
+  {
+    "id": "ent.saml.metadata.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την κατασκευή παροχέα υπηρεσιών μεταδεδομένων."
+  },
+  {
+    "id": "ent.message_export.global_relay.create_file_in_zip.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.message_export.global_relay.close_zip_file.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.elasticsearch.index_user.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.elasticsearch.index_post.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.elasticsearch.index_channel.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.elasticsearch.delete_user.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.elasticsearch.delete_post.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.elasticsearch.delete_channel.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.compliance.csv.zip.creation.appError",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.compliance.csv.warning.appError",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.compliance.csv.metadata.json.zipfile.appError",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.account_migration.get_saml_users_failed",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "ent.account_migration.get_all_failed",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "bleveengine.index_user.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "bleveengine.index_post.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "bleveengine.index_channel.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "bleveengine.delete_user.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "bleveengine.delete_post.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "bleveengine.delete_channel.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.submit_interactive_dialog.json_error",
+    "translation": "Παρουσιάστηκε σφάλμα στη κωδικοποίηση του JSON του αναδυόμενου παράθυρου."
+  },
+  {
+    "id": "app.plugin.write_file.saving.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την αποχώρηση από το κανάλι."
+  },
+  {
+    "id": "app.plugin.write_file.read.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την αποχώρηση από το κανάλι."
+  },
+  {
+    "id": "app.plugin.remove.app_error",
+    "translation": "Αδυναμία διαγραφής της αντίδρασης"
+  },
+  {
+    "id": "app.plugin.get_plugins.app_error",
+    "translation": "Αδυναμία διαγραφής της αντίδρασης"
+  },
+  {
+    "id": "app.plugin.delete_public_key.delete.app_error",
+    "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη διαγραφή του πιστοποιητικού"
+  },
+  {
+    "id": "app.plugin.deactivate.app_error",
+    "translation": "Αδυναμία διαγραφής της αντίδρασης"
+  },
+  {
+    "id": "app.import.import_direct_channel.update_header_failed.error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.updated_to",
+    "translation": "%s ενημέρωσε την κεφαλίδα του καναλιού σε: %s"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.updated_from",
+    "translation": "%s ενημέρωσε την κεφαλίδα του καναλιού από: %s σε: %s"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.retrieve_user.error",
+    "translation": "Αποτυχία ανάκτησης του χρήστη κατά την ενημέρωση της κεφαλίδας του καναλιού  %v"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.removed",
+    "translation": "%s αφαίρεσε τη κεφαλίδα του καναλιού (ήταν: %s)"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.post.error",
+    "translation": "Αποτυχία δημοσίευσης μηνύματος συμμετοχής/αποχώρησης"
+  },
+  {
+    "id": "app.channel.create_direct_channel.internal_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.channel.create_channel.internal_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.bot.permenent_delete.bad_id",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.bot.patchbot.internal_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.bot.getbots.internal_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.bot.getbot.internal_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "app.bot.createbot.internal_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "api.websocket_handler.invalid_param.app_error",
+    "translation": "Μη έγκυρη παράμετρος {{.Name}}"
+  },
+  {
+    "id": "api.webhook.team_mismatch.app_error",
+    "translation": "Δεν είναι δυνατή η ενημέρωση εντολών στις ομάδες"
+  },
+  {
+    "id": "api.user.upload_profile_user.too_large.app_error",
+    "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
+  },
+  {
+    "id": "api.user.upload_profile_user.storage.app_error",
+    "translation": "Αδυναμία μεταφόρτωσης της εικόνας. Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
+  },
+  {
+    "id": "api.user.upload_profile_user.parse.app_error",
+    "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
+  },
+  {
+    "id": "api.user.upload_profile_user.open.app_error",
+    "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
+  },
+  {
+    "id": "api.user.upload_profile_user.no_file.app_error",
+    "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
+  },
+  {
+    "id": "api.user.upload_profile_user.array.app_error",
+    "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
+  },
+  {
+    "id": "api.user.update_active.permissions.app_error",
+    "translation": "Δεν έχετε τα κατάλληλα δικαιώματα"
+  },
+  {
+    "id": "api.user.saml.not_available.app_error",
+    "translation": "Το SAML 2.0 δεν μπορεί να ρυθμιστεί η δεν υποστηρίζεται από αυτό τον διακομιστή."
+  },
+  {
+    "id": "api.team.update_team_scheme.scheme_scope.error",
+    "translation": "Δεν είναι δυνατή η ρύθμιση του σχήματος για το κανάλι, επειδή το παρεχόμενο σχήμα δεν είναι κατάλληλο σχήμα καναλιού."
+  },
+  {
+    "id": "api.team.update_team_scheme.license.error",
+    "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
+  },
+  {
+    "id": "api.team.update_member_roles.not_a_member",
+    "translation": "Ο χρήστης δεν είναι μέλος του συγκεκριμένου καναλιού."
+  },
+  {
+    "id": "api.team.set_team_icon.too_large.app_error",
+    "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
+  },
+  {
+    "id": "api.team.set_team_icon.storage.app_error",
+    "translation": "Αδυναμία μεταφόρτωσης της εικόνας. Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
+  },
+  {
+    "id": "api.team.set_team_icon.parse.app_error",
+    "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
+  },
+  {
+    "id": "api.team.set_team_icon.open.app_error",
+    "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
+  },
+  {
+    "id": "api.team.set_team_icon.no_file.app_error",
+    "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
+  },
+  {
+    "id": "api.team.set_team_icon.array.app_error",
+    "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
+  },
+  {
+    "id": "api.team.remove_user_from_team.removed",
+    "translation": "%v αφαιρέθηκε από το κανάλι."
+  },
+  {
+    "id": "api.team.move_channel.post.error",
+    "translation": "Αποτυχία δημοσίευσης μηνύματος συμμετοχής/αποχώρησης"
+  },
+  {
+    "id": "api.team.import_team.parse.app_error",
+    "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
+  },
+  {
+    "id": "api.team.import_team.open.app_error",
+    "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
+  },
+  {
+    "id": "api.team.import_team.no_file.app_error",
+    "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
+  },
+  {
+    "id": "api.team.import_team.array.app_error",
+    "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
+  },
+  {
+    "id": "api.team.get_all_teams.insufficient_permissions",
+    "translation": "Δεν έχετε δικαιώματα για να επεξεργαστείτε τη κεφαλίδα."
+  },
+  {
+    "id": "api.team.add_user_to_team.added",
+    "translation": "%v προστέθηκε στο κανάλι από τον/τη %v"
+  },
+  {
+    "id": "api.scheme.patch_scheme.license.error",
+    "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
+  },
+  {
+    "id": "api.scheme.get_teams_for_scheme.scope.error",
+    "translation": "Δεν είναι δυνατή η ρύθμιση του σχήματος για το κανάλι, επειδή το παρεχόμενο σχήμα δεν είναι κατάλληλο σχήμα καναλιού."
+  },
+  {
+    "id": "api.scheme.get_channels_for_scheme.scope.error",
+    "translation": "Δεν είναι δυνατή η ρύθμιση του σχήματος για το κανάλι, επειδή το παρεχόμενο σχήμα δεν είναι κατάλληλο σχήμα καναλιού."
+  },
+  {
+    "id": "api.scheme.delete_scheme.license.error",
+    "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
+  },
+  {
+    "id": "api.scheme.create_scheme.license.error",
+    "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
+  },
+  {
+    "id": "api.roles.patch_roles.license.error",
+    "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
+  },
+  {
+    "id": "api.restricted_system_admin",
+    "translation": "Αυτή η ενέργεια επιτρέπεται μόνο από τον διαχειριστή του συστήματος."
+  },
+  {
+    "id": "api.preference.update_preferences.set.app_error",
+    "translation": "Αδυναμία αποθήκευσης της ρύθμισης"
+  },
+  {
+    "id": "api.preference.preferences_category.get.app_error",
+    "translation": "Αδυναμία αποθήκευσης της ρύθμισης"
+  },
+  {
+    "id": "api.preference.delete_preferences.delete.app_error",
+    "translation": "Αδυναμία ενημέρωσης της ρύθμισης"
+  },
+  {
+    "id": "api.post_get_post_by_id.get.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "api.post.update_post.find.app_error",
+    "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
+  },
+  {
+    "id": "api.plugin.add_public_key.open.app_error",
+    "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη διαγραφή του πιστοποιητικού"
+  },
+  {
+    "id": "api.outgoing_webhook.disabled.app_error",
+    "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
+  },
+  {
+    "id": "api.license.add_license.open.app_error",
+    "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
+  },
+  {
+    "id": "api.license.add_license.no_file.app_error",
+    "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
+  },
+  {
+    "id": "api.license.add_license.array.app_error",
+    "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
+  },
+  {
+    "id": "api.incoming_webhook.disabled.app_error",
+    "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
+  },
+  {
+    "id": "api.file.upload_file.storage.app_error",
+    "translation": "Αδυναμία μεταφόρτωσης της εικόνας. Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
+  },
+  {
+    "id": "api.emoji.disabled.app_error",
+    "translation": "Τα προσαρμοσμένα emoji έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
+  },
+  {
+    "id": "api.context.session_expired.app_error",
+    "translation": "Μη έγκυρη ή έχει λήξει η συνεδρία, παρακαλώ συνδεθείτε ξανά."
+  },
+  {
+    "id": "api.context.permissions.app_error",
+    "translation": "Δεν έχετε τα κατάλληλα δικαιώματα"
+  },
+  {
+    "id": "api.context.mfa_required.app_error",
+    "translation": "Έλεγχος ταυτότητας πολλαπλών παραγόντων απαιτείται σε αυτόν το διακομιστή."
+  },
+  {
+    "id": "api.context.invalid_param.app_error",
+    "translation": "Μη έγκυρη παράμετρος {{.Name}}"
+  },
+  {
+    "id": "api.context.invalid_body_param.app_error",
+    "translation": "Μη έγκυρο ή λείπει το {{.Name}} στο αίτημα σας."
+  },
+  {
+    "id": "api.context.404.app_error",
+    "translation": "Συγνώμη, δεν μπορέσαμε να βρούμε τη σελίδα."
+  },
+  {
+    "id": "api.config.update_config.restricted_merge.app_error",
+    "translation": "Απέτυχε η συγχώνευση της ρύθμισης που έχει δοθεί."
+  },
+  {
+    "id": "api.command_shrug.name",
+    "translation": "σήκωμα των ώμων"
+  },
+  {
+    "id": "api.command_shrug.hint",
+    "translation": "[μήνυμα]"
+  },
+  {
+    "id": "api.command_shrug.desc",
+    "translation": "Προσθέτει ¯\\_(ツ)_/¯ στο μήνυμά σας"
+  },
+  {
+    "id": "api.command_shortcuts.unsupported.app_error",
+    "translation": "Οι εντολή settings δεν υποστηρίζεται στη συσκευή σας"
+  },
+  {
+    "id": "api.command_shortcuts.name",
+    "translation": "συντομεύσεις"
+  },
+  {
+    "id": "api.command_shortcuts.desc",
+    "translation": "Εμφανίζει μια λίστα με συντομεύσεις πληκτρολογίου"
+  },
+  {
+    "id": "api.command_settings.unsupported.app_error",
+    "translation": "Οι εντολή settings δεν υποστηρίζεται στη συσκευή σας"
+  },
+  {
+    "id": "api.command_settings.name",
+    "translation": "Ρυθμίσεις"
+  },
+  {
+    "id": "api.command_settings.desc",
+    "translation": "Ανοίξτε το πλαίσιο διαλόγου Ρυθμίσεις Λογαριασμού"
+  },
+  {
+    "id": "api.command_search.unsupported.app_error",
+    "translation": "Η εντολή search δεν υποστηρίζεται στη συσκευή σας"
+  },
+  {
+    "id": "api.command_search.name",
+    "translation": "αναζήτηση"
+  },
+  {
+    "id": "api.command_search.hint",
+    "translation": "[κείμενο]"
+  },
+  {
+    "id": "api.command_search.desc",
+    "translation": "Αναζήτηση κειμένου σε μηνύματα"
+  },
+  {
+    "id": "api.command_remove.user_not_in_channel",
+    "translation": "{{.Username}} δεν είναι μέλος αυτού του καναλιού."
+  },
+  {
+    "id": "api.command_remove.permission.app_error",
+    "translation": "Δεν έχετε δικαιώματα να αφαιρέσετε τον χρήστη."
+  },
+  {
+    "id": "api.command_remove.name",
+    "translation": "Αφαίρεση"
+  },
+  {
+    "id": "api.command_remove.missing.app_error",
+    "translation": "Δεν μπορούσαμε να βρούμε το χρήστη. Μπορεί να έχουν απενεργοποιηθεί από τον Διαχειριστή του Συστήματος."
+  },
+  {
+    "id": "api.command_remove.message.app_error",
+    "translation": "Ένα μήνυμα πρέπει να παρέχεται με τη εντολή /remove ή με τη εντολή /kick ."
+  },
+  {
+    "id": "api.command_remove.hint",
+    "translation": "@[όνομα χρήστη]"
+  },
+  {
+    "id": "api.command_remove.direct_group.app_error",
+    "translation": "Δεν μπορείτε να αφαιρέσετε κάποιον από ένα κανάλι άμεσων μηνυμάτων."
+  },
+  {
+    "id": "api.command_remove.desc",
+    "translation": "Αφαιρέσετε ένα μέλος από το κανάλι"
+  },
+  {
+    "id": "api.command_open.name",
+    "translation": "Ανοιχτό"
+  },
+  {
+    "id": "api.command_online.success",
+    "translation": "Τώρα είστε σε κατάσταση Διαθέσιμος"
+  },
+  {
+    "id": "api.command_online.name",
+    "translation": "Διαθέσιμος"
+  },
+  {
+    "id": "api.command_online.desc",
+    "translation": "Ορίστε τη κατάσταση σας σε Διαθέσιμος"
+  },
+  {
+    "id": "api.command_offline.success",
+    "translation": "Τώρα είστε σε κατάσταση εκτός σύνδεσης"
+  },
+  {
+    "id": "api.command_offline.name",
+    "translation": "Εκτός σύνδεσης"
+  },
+  {
+    "id": "api.command_offline.desc",
+    "translation": "Ορίστε την κατάσταση σας ως εκτός σύνδεσης"
+  },
+  {
+    "id": "api.command_mute.success_unmute_direct_msg",
+    "translation": "Αυτό το κανάλι δεν είναι πλέον σε λειτουργία σίγασης."
+  },
+  {
+    "id": "api.command_mute.success_unmute",
+    "translation": "Το κανάλι {{.Channel}} δεν είναι πλέον σε λειτουργία σίγασης."
+  },
+  {
+    "id": "api.command_mute.success_mute_direct_msg",
+    "translation": "Δεν θα λάβετε ειδοποιήσεις για αυτό το κανάλι μέχρι να απενεργοποιηθεί η σίγαση του καναλιού."
+  },
+  {
+    "id": "api.command_mute.success_mute",
+    "translation": "Δεν θα λάβετε ειδοποιήσεις για το {{.Channel}} μέχρι να απενεργοποιηθεί η σίγαση του καναλιού"
+  },
+  {
+    "id": "api.command_mute.not_member.error",
+    "translation": "Δεν ήταν δυνατή η σίγαση του καναλιού {{.Channel}} καθώς δεν είστε μέλος."
+  },
+  {
+    "id": "api.command_mute.no_channel.error",
+    "translation": "Δεν ήταν δυνατή η εύρεση του συγκεκριμένου καναλιού. Χρησιμοποιήστε τη διαχείριση καναλιού για τον εντοπισμό καναλιών."
+  },
+  {
+    "id": "api.command_mute.name",
+    "translation": "Σίγαση"
+  },
+  {
+    "id": "api.command_mute.hint",
+    "translation": "~[κανάλι]"
+  },
+  {
+    "id": "api.command_mute.error",
+    "translation": "Δεν ήταν δυνατή η εύρεση του καναλιού {{.Channel}}. Χρησιμοποιήστε τη [διαχείριση καναλιού] για τον εντοπισμό καναλιών."
+  },
+  {
+    "id": "api.command_mute.desc",
+    "translation": "Απενεργοποιεί τις ειδοποιήσεις επιφάνειας εργασίας, ηλεκτρονικού ταχυδρομείου και ώθησης για το τρέχον κανάλι ή το καθορισμένο κανάλι."
+  },
+  {
+    "id": "api.command_msg.permission.app_error",
+    "translation": "Δεν έχετε δικαιώματα για άμεσο μήνυμα σε αυτό τον χρήστη."
+  },
+  {
+    "id": "api.command_msg.name",
+    "translation": "μήνυμα"
+  },
+  {
+    "id": "api.command_msg.missing.app_error",
+    "translation": "Δεν είναι δυνατή η εύρεση του χρήστη"
+  },
+  {
+    "id": "api.command_msg.hint",
+    "translation": "@[username] \"μήνυμα\""
+  },
+  {
+    "id": "api.command_msg.fail.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την αποστολή μηνυμάτων στον χρήστη."
+  },
+  {
+    "id": "api.command_msg.dm_fail.app_error",
+    "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη δημιουργία του άμεσου μηνύματος."
+  },
+  {
+    "id": "api.command_msg.desc",
+    "translation": "Στείλτε απευθείας μήνυμα σε ένα χρήστη"
+  },
+  {
+    "id": "api.command_me.name",
+    "translation": "εγώ"
+  },
+  {
+    "id": "api.command_me.hint",
+    "translation": "[μήνυμα]"
+  },
+  {
+    "id": "api.command_me.desc",
+    "translation": "Κάντε μία ενέργεια"
+  },
+  {
+    "id": "api.command_logout.name",
+    "translation": "Αποσύνδεση"
+  },
+  {
+    "id": "api.command_logout.desc",
+    "translation": "Αποσύνδεση"
+  },
+  {
+    "id": "api.command_leave.name",
+    "translation": "Αποχώρηση"
+  },
+  {
+    "id": "api.command_leave.fail.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την αποχώρηση από το κανάλι."
+  },
+  {
+    "id": "api.command_leave.desc",
+    "translation": "Αποχωρήστε από το τρέχον κανάλι"
+  },
+  {
+    "id": "api.command_kick.name",
+    "translation": "Αποβολή"
+  },
+  {
+    "id": "api.command_join.name",
+    "translation": "Συμμετοχή"
+  },
+  {
+    "id": "api.command_join.missing.app_error",
+    "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
+  },
+  {
+    "id": "app.scheme.save.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "api.command_join.list.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την καταχώρηση καναλιών."
+  },
+  {
+    "id": "api.command_join.hint",
+    "translation": "~[κανάλι]"
+  },
+  {
+    "id": "api.command_join.fail.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά τη σύνδεση στο κανάλι."
+  },
+  {
+    "id": "api.command_join.desc",
+    "translation": "Συμμετάσχετε στο ανοικτό κανάλι"
+  },
+  {
+    "id": "api.command_invite_people.permission.app_error",
+    "translation": "Δεν έχετε δικαίωμα να προσκαλέσετε νέους χρήστες σε αυτόν τον διακομιστή."
+  },
+  {
+    "id": "api.command_invite.user_not_in_team.app_error",
+    "translation": "{{.Username}} δεν είναι μέλος αυτού του καναλιού."
+  },
+  {
+    "id": "api.command_invite.user_already_in_channel.app_error",
+    "translation": "Ο χρήστης {{.User}} είναι ήδη στο κανάλι."
+  },
+  {
+    "id": "api.command_invite.success",
+    "translation": "Ο χρήστης {{.User}} προστέθηκε στο κανάλι {{.Το Channel}}."
+  },
+  {
+    "id": "api.command_invite.private_channel.app_error",
+    "translation": "Δεν ήταν δυνατή η εύρεση του καναλιού {{.Channel}}. Χρησιμοποιήστε τη διαχείριση του καναλιού για να αναγνωρίσετε κανάλια."
+  },
+  {
+    "id": "api.command_invite.permission.app_error",
+    "translation": "Δεν έχετε δικαιώματα για να προσθέσετε τον χρήστη {{.User}} στο κανάλι {{.Channel}}."
+  },
+  {
+    "id": "api.command_invite.name",
+    "translation": "Πρόσκληση"
+  },
+  {
+    "id": "api.command_invite.missing_user.app_error",
+    "translation": "Δεν μπορούσαμε να βρούμε το χρήστη. Μπορεί να έχουν απενεργοποιηθεί από τον Διαχειριστή του Συστήματος."
+  },
+  {
+    "id": "api.command_invite.missing_message.app_error",
+    "translation": "Λείπει το όνομα Χρήστη και το Κανάλι."
+  },
+  {
+    "id": "api.command_invite.hint",
+    "translation": "@[όνομα χρήστη] ~[κανάλι]"
+  },
+  {
+    "id": "api.command_invite.fail.app_error",
+    "translation": "Παρουσιάστηκε ένα σφάλμα κατά την είσοδό στο κανάλι."
+  },
+  {
+    "id": "api.command_invite.directchannel.app_error",
+    "translation": "Δεν μπορείτε να προσθέσετε κάποιον σε ένα απευθείας κανάλι μηνυμάτων."
+  },
+  {
+    "id": "api.command_invite.desc",
+    "translation": "Προσκαλέστε ένα χρήστη σε ένα κανάλι"
+  },
+  {
+    "id": "api.command_invite.channel.error",
+    "translation": "Δεν ήταν δυνατή η εύρεση του καναλιού {{.Channel}}. Χρησιμοποιήστε τη [διαχείριση καναλιού] για τον εντοπισμό καναλιών."
+  },
+  {
+    "id": "api.command_invite.channel.app_error",
+    "translation": "Σφάλμα κατά την ανάκτηση του τρέχον καναλιού."
+  },
+  {
+    "id": "api.command_help.name",
+    "translation": "Βοήθεια"
+  },
+  {
+    "id": "api.command_help.desc",
+    "translation": "Ανοίξτε τη σελίδα βοήθειας"
+  },
+  {
+    "id": "api.command_groupmsg.permission.app_error",
+    "translation": "Δεν έχετε δικαιώματα για να δημιουργήσετε μήνυμα ομάδας."
+  },
+  {
+    "id": "api.command_groupmsg.name",
+    "translation": "μήνυμα"
+  },
+  {
+    "id": "api.command_groupmsg.min_users.app_error",
+    "translation": "Τα μηνύματα ομάδας περιορίζονται το ελάχιστο σε {{.MinUsers} χρήστες."
+  },
+  {
+    "id": "api.command_groupmsg.max_users.app_error",
+    "translation": "Τα μηνύματα ομάδας περιορίζονται το μέγιστο σε {{.MaxUsers}} χρήστες."
+  },
+  {
+    "id": "api.command_groupmsg.invalid_user.app_error",
+    "translation": {
+      "one": "Δεν είναι δυνατή η εύρεση του χρήστη: {{.Users}}",
+      "other": "Δεν είναι δυνατή η εύρεση των χρηστών: {{.Users}}"
     }
+  },
+  {
+    "id": "api.command_groupmsg.hint",
+    "translation": "@[username1],@[username2] 'μήνυμα'"
+  },
+  {
+    "id": "api.command_groupmsg.group_fail.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά τη δημιουργία του μηνύματος ομάδας."
+  },
+  {
+    "id": "api.command_groupmsg.fail.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την αποστολή μηνυμάτων στους χρήστες."
+  },
+  {
+    "id": "api.command_groupmsg.desc",
+    "translation": "Στέλνει ένα μήνυμα ομάδας προς τους συγκεκριμένους χρήστες"
+  },
+  {
+    "id": "api.command_expand_collapse.fail.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την αποστολή μηνυμάτων στους χρήστες."
+  },
+  {
+    "id": "api.command_expand.name",
+    "translation": "Επέκταση"
+  },
+  {
+    "id": "api.command_expand.desc",
+    "translation": "Ενεργοποιήστε την αυτόματη σύμπτυξη των προεπισκοπήσεων εικόνας"
+  },
+  {
+    "id": "api.command_echo.message.app_error",
+    "translation": "Ένα μήνυμα πρέπει να παρέχεται με την εντολή /echo"
+  },
+  {
+    "id": "api.command_echo.delay.app_error",
+    "translation": "Οι καθυστερήσεις πρέπει να είναι το μέγιστο 10000 δευτερόλεπτα"
+  },
+  {
+    "id": "api.command_dnd.success",
+    "translation": "Η λειτουργία Μην ενοχλείτε είναι ενεργοποιημένη. Δεν θα λάβετε ειδοποιήσεις push για κινητά ή υπολογιστές μέχρι να απενεργοποιηθεί η επιλογή Μην ενοχλείτε."
+  },
+  {
+    "id": "api.command_dnd.name",
+    "translation": "Μην ενοχλείτε"
+  },
+  {
+    "id": "api.command_dnd.error",
+    "translation": "Σφάλμα κατά την ανάκτηση της κατάστασης του χρήστη."
+  },
+  {
+    "id": "api.command_dnd.disabled",
+    "translation": "Η κατάσταση \"Μην ενοχλείτε\" είναι απενεργοποιημένη."
+  },
+  {
+    "id": "api.command_dnd.desc",
+    "translation": "Η κατάσταση \"Μην ενοχλείτε\" απενεργοποιεί τις ειδοποιήσεις push για υπολογιστές και κινητά."
+  },
+  {
+    "id": "api.command_collapse.desc",
+    "translation": "Ενεργοποιήστε την αυτόματη συμπίεση των προεπισκοπήσεων εικόνας"
+  },
+  {
+    "id": "api.command_code.name",
+    "translation": "κώδικας"
+  },
+  {
+    "id": "api.command_code.message.app_error",
+    "translation": "Ένα μήνυμα πρέπει να παρέχεται με την εντολή /code"
+  },
+  {
+    "id": "api.command_code.hint",
+    "translation": "[κείμενο]"
+  },
+  {
+    "id": "api.command_code.desc",
+    "translation": "Εμφάνιση κειμένου ως μπλοκ κώδικα"
+  },
+  {
+    "id": "api.command_channel_rename.update_channel.app_error",
+    "translation": "Σφάλμα ενημέρωσης του τρέχοντος καναλιού."
+  },
+  {
+    "id": "api.command_channel_rename.too_short.app_error",
+    "translation": "Το όνομα του καναλιού πρέπει να είναι τουλάχιστον {{.Length}} χαρακτήρες"
+  },
+  {
+    "id": "api.command_channel_rename.too_long.app_error",
+    "translation": "Το όνομα καναλιού πρέπει να είναι το μέγιστο {{.Length}} χαρακτήρες"
+  },
+  {
+    "id": "api.command_channel_rename.permission.app_error",
+    "translation": "Δεν έχετε δικαιώματα για να μετονομάσετε το κανάλι."
+  },
+  {
+    "id": "api.command_channel_rename.name",
+    "translation": "Μετονομασία"
+  },
+  {
+    "id": "api.command_channel_rename.message.app_error",
+    "translation": "Ένα μήνυμα πρέπει να παρέχεται με την εντολή /rename."
+  },
+  {
+    "id": "api.command_channel_rename.hint",
+    "translation": "[κείμενο]"
+  },
+  {
+    "id": "api.command_channel_rename.direct_group.app_error",
+    "translation": "Αδύνατο να αφήσεις ένα άμεσο μήνυμα στο κανάλι"
+  },
+  {
+    "id": "api.command_channel_rename.desc",
+    "translation": "Μετονομασία καναλιού"
+  },
+  {
+    "id": "api.command_channel_rename.channel.app_error",
+    "translation": "Σφάλμα κατά την ανάκτηση το τρέχον καναλιού."
+  },
+  {
+    "id": "api.command_channel_remove.channel.app_error",
+    "translation": "Σφάλμα κατά την ανάκτηση το τρέχον καναλιού."
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.app_error",
+    "translation": "Σφάλμα κατά την ενημέρωση του τρέχον καναλιού."
+  },
+  {
+    "id": "api.command_channel_purpose.permission.app_error",
+    "translation": "Δεν έχετε δικαιώματα για να επεξεργαστείτε το κανάλι."
+  },
+  {
+    "id": "api.command_channel_purpose.name",
+    "translation": "Πρόταση"
+  },
+  {
+    "id": "api.command_channel_purpose.message.app_error",
+    "translation": "Ένα μήνυμα πρέπει να παρέχεται με εντολή /purpose ."
+  },
+  {
+    "id": "api.command_channel_purpose.hint",
+    "translation": "[κείμενο]"
+  },
+  {
+    "id": "api.command_channel_purpose.channel.app_error",
+    "translation": "Σφάλμα κατά την ανάκτηση του τρέχον καναλιού."
+  },
+  {
+    "id": "api.command_channel_header.update_channel.app_error",
+    "translation": "Σφάλμα κατά την ενημέρωση του τρέχον καναλιού."
+  },
+  {
+    "id": "api.command_channel_header.permission.app_error",
+    "translation": "Δεν έχετε δικαιώματα για να επεξεργαστείτε τη κεφαλίδα."
+  },
+  {
+    "id": "api.command_channel_header.name",
+    "translation": "Κεφαλίδα"
+  },
+  {
+    "id": "api.command_channel_header.message.app_error",
+    "translation": "Ένα μήνυμα πρέπει να παρέχεται με την εντολή /header."
+  },
+  {
+    "id": "api.command_channel_header.hint",
+    "translation": "[κείμενο]"
+  },
+  {
+    "id": "api.command_channel_header.desc",
+    "translation": "Επεξεργαστείτε τη κεφαλίδα του καναλιού"
+  },
+  {
+    "id": "api.command_channel_header.channel.app_error",
+    "translation": "Σφάλμα για να ανακτήσετε το τρέχον κανάλι."
+  },
+  {
+    "id": "api.command_away.success",
+    "translation": "Τώρα είσαι σε κατάσταση 'Λείπω'"
+  },
+  {
+    "id": "api.command_away.name",
+    "translation": "Λείπω"
+  },
+  {
+    "id": "api.command_away.desc",
+    "translation": "Ορίσετε την κατάστασή σας ως 'Λείπω'"
+  },
+  {
+    "id": "api.command.team_mismatch.app_error",
+    "translation": "Δεν είναι δυνατή η ενημέρωση εντολών στις ομάδες"
+  },
+  {
+    "id": "api.command.invite_people.sent",
+    "translation": "Οι προσκλήσεις στάλθηκαν με email"
+  },
+  {
+    "id": "api.command.invite_people.no_email",
+    "translation": "Προσδιορίστε μία ή περισσότερες έγκυρες διευθύνσεις ηλεκτρονικού ταχυδρομείου"
+  },
+  {
+    "id": "api.command.invite_people.name",
+    "translation": "Προσκαλέστε φίλους"
+  },
+  {
+    "id": "api.command.invite_people.invite_off",
+    "translation": "Η δημιουργία λογαριασμών έχει απενεργοποιηθεί σε αυτόν τον διακομιστή, δεν έχουν αποσταλεί προσκλήσεις"
+  },
+  {
+    "id": "api.command.invite_people.hint",
+    "translation": "[όνομα@domain.com ...]"
+  },
+  {
+    "id": "api.command.invite_people.fail",
+    "translation": "Παρουσιάστηκε ένα σφάλμα κατά την αποστολή e-mail πρόσκλησης"
+  },
+  {
+    "id": "api.command.invite_people.email_off",
+    "translation": "Το μήνυμα ηλεκτρονικού ταχυδρομείου δεν έχει ρυθμιστεί, δεν έχουν αποσταλεί προσκλήσεις"
+  },
+  {
+    "id": "api.command.invite_people.email_invitations_off",
+    "translation": "Οι προσκλήσεις μέσω ηλεκτρονικού ταχυδρομείου είναι απενεργοποιημένες, δεν έχουν αποσταλεί προσκλήσεις"
+  },
+  {
+    "id": "api.command.invite_people.desc",
+    "translation": "Στείλτε ένα μήνυμα ηλεκτρονικού ταχυδρομείου στην ομάδα Mattermost"
+  },
+  {
+    "id": "api.command.execute_command.failed.app_error",
+    "translation": "H πυροδότησης '{{.Trigger}}' της εντολής απέτυχε"
+  },
+  {
+    "id": "api.command.execute_command.create_post_failed.app_error",
+    "translation": "Εντολή '{{.Trigger}}' απέτυχε να δημοσιεύσετε απάντηση. Παρακαλείστε να επικοινωνήσετε με το Διαχειριστή του συστήματός σας."
+  },
+  {
+    "id": "api.command.duplicate_trigger.app_error",
+    "translation": "Αυτή η λέξη είναι ήδη σε χρήση. Παρακαλώ επιλέξτε μια άλλη λέξη."
+  },
+  {
+    "id": "api.command.disabled.app_error",
+    "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
+  },
+  {
+    "id": "api.command.command_post.forbidden.app_error",
+    "translation": "Ο χρήστης δεν είναι μέλος του συγκεκριμένου καναλιού."
+  },
+  {
+    "id": "api.command.admin_only.app_error",
+    "translation": "Oι ενσωματώσεις περιορίζονται μόνο στους διαχειριστές."
+  },
+  {
+    "id": "api.channel.update_team_member_roles.scheme_role.app_error",
+    "translation": "O παρεχόμενος ρόλος διαχειρίζεται από ένα Σχήμα και επομένως δεν μπορεί να εφαρμοστεί απευθείας σε Μέλος της ομάδας"
+  },
+  {
+    "id": "api.channel.update_channel_scheme.scheme_scope.error",
+    "translation": "Δεν είναι δυνατή η ρύθμιση του σχήματος για το κανάλι, επειδή το παρεχόμενο σχήμα δεν είναι κατάλληλο σχήμα καναλιού."
+  },
+  {
+    "id": "api.channel.update_channel_scheme.license.error",
+    "translation": "Η άδειά σας δεν υποστηρίζει την ενημέρωση ενός σχήματος καναλιού"
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.scheme_role.app_error",
+    "translation": "Ο ρόλος που παρέχεται διαχειρίζεται ένα Σχέδιο και επομένως δεν μπορεί να εφαρμοστεί απευθείας σε Μέλος του Καναλιού"
+  },
+  {
+    "id": "api.channel.update_channel.tried.app_error",
+    "translation": "Προσπαθήσατε να εκτελέσετε μια μη έγκυρη ενημέρωση του προεπιλεγμένου καναλιού {{.Channel}}"
+  },
+  {
+    "id": "api.channel.update_channel.deleted.app_error",
+    "translation": "Το κανάλι έχει αρχειοθετηθεί ή διαγραφεί"
+  },
+  {
+    "id": "api.channel.rename_channel.cant_rename_group_messages.app_error",
+    "translation": "Δεν μπορείτε να μετονομάσετε ένα μήνυμά ομάδας καναλιού"
+  },
+  {
+    "id": "api.channel.rename_channel.cant_rename_direct_messages.app_error",
+    "translation": "Δεν μπορείτε να μετονομάσετε ένα άμεσο μήνυμα καναλιού"
+  },
+  {
+    "id": "api.channel.remove_user_from_channel.app_error",
+    "translation": "Δε είναι δυνατόν να προστεθεί ο χρήστης σε αυτόν τον τύπο καναλιού"
+  },
+  {
+    "id": "api.channel.remove_member.removed",
+    "translation": "%v αφαιρέθηκε από το κανάλι."
+  },
+  {
+    "id": "api.channel.remove_channel_member.type.app_error",
+    "translation": "Δεν είναι δυνατή η αφαίρεση χρήστη από ένα κανάλι."
+  },
+  {
+    "id": "api.channel.remove.default.app_error",
+    "translation": "Δεν είναι δυνατή η αφαίρεση του χρήστη από το προεπιλεγμένο κανάλι {{.Channel}}"
+  },
+  {
+    "id": "api.channel.post_user_add_remove_message_and_forget.error",
+    "translation": "Αποτυχία δημοσίευσης μηνύματος συμμετοχής/αποχώρησης"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
+    "translation": "%s ενημέρωσε την κεφαλίδα του καναλιού σε: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
+    "translation": "%s ενημέρωσε την κεφαλίδα του καναλιού από: %s σε: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.retrieve_user.error",
+    "translation": "Αποτυχία ανάκτησης του χρήστη κατά την ενημέρωση της κεφαλίδας του καναλιού"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.removed",
+    "translation": "%s αφαίρεσε τη κεφαλίδα του καναλιού (ήταν: %s)"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
+    "translation": "Αποτυχία ενημέρωσης μηνύματος επικεφαλίδας καναλιού."
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
+    "translation": "%s ενημέρωσε το εμφανιζόμενο όνομα καναλιού από: %s σε: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.retrieve_user.error",
+    "translation": "Απέτυχε η ανάκτηση χρήστη κατά την ενημέρωση του πεδίου εμφανιζόμενο όνομα στο κανάλι"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
+    "translation": "Αποτυχία δημοσίευσης μηνύματος ενημέρωσης εμφάνισης"
+  },
+  {
+    "id": "api.channel.post_channel_privacy_message.error",
+    "translation": "Αποτυχία δημοσίευσης μηνύματος ενημέρωσης απορρήτου καναλιού."
+  },
+  {
+    "id": "api.channel.patch_update_channel.forbidden.app_error",
+    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+  },
+  {
+    "id": "api.channel.leave.left",
+    "translation": "%v έφυγε από το κανάλι."
+  },
+  {
+    "id": "api.channel.leave.last_member.app_error",
+    "translation": "Είσαι το μόνο μέλος που έμεινε στο κανάλι, δοκίμασε να αλλάξεις 'Ιδιωτικό Κανάλι', αντί να το φύγεις."
+  },
+  {
+    "id": "api.channel.leave.direct.app_error",
+    "translation": "Αδύνατο να αφήσεις ένα άμεσο μήνυμα στο κανάλι"
+  },
+  {
+    "id": "api.channel.leave.default.app_error",
+    "translation": "Δεν είναι δυνατή η έξοδος από το προεπιλεγμένο κανάλι {{.Channel}}"
+  },
+  {
+    "id": "api.channel.join_channel.post_and_forget",
+    "translation": "%v έγινε μέλος του καναλιού."
+  },
+  {
+    "id": "api.channel.join_channel.permissions.app_error",
+    "translation": "Δεν έχετε τα κατάλληλα δικαιώματα"
+  },
+  {
+    "id": "api.channel.delete_channel.type.invalid",
+    "translation": "Δεν είναι δυνατή η διαγραφή άμεσων ή ομαδικών μηνυμάτων σε κανάλια"
+  },
+  {
+    "id": "api.channel.delete_channel.deleted.app_error",
+    "translation": "Το κανάλι έχει αρχειοθετηθεί ή διαγραφεί"
+  },
+  {
+    "id": "api.channel.delete_channel.cannot.app_error",
+    "translation": "Δεν είναι δυνατή η διαγραφή του προεπιλεγμένου καναλιού {{.Channel}}"
+  },
+  {
+    "id": "api.channel.delete_channel.archived",
+    "translation": "%v αρχειοθέτησε το κανάλι."
+  },
+  {
+    "id": "api.channel.create_group.bad_user.app_error",
+    "translation": "Ένας από τους χρήστες δεν υπάρχει"
+  },
+  {
+    "id": "api.channel.create_group.bad_size.app_error",
+    "translation": "Τα ομαδικά μηνύματα πρέπει να περιέχουν από 3 έως 8 χρήστες"
+  },
+  {
+    "id": "api.channel.create_direct_channel.invalid_user.app_error",
+    "translation": "Μη έγκυρο αναγνωριστικό χρήστη για άμεση δημιουργία καναλιού"
+  },
+  {
+    "id": "api.channel.create_default_channels.town_square",
+    "translation": "Town Square"
+  },
+  {
+    "id": "api.channel.create_default_channels.off_topic",
+    "translation": "Off-Topic"
+  },
+  {
+    "id": "api.channel.create_channel.max_channel_limit.app_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία περισσότερων από {{.MaxChannelsPerTeam}} καναλιών στην τρέχουσα ομάδα."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.app_error",
+    "translation": "Πρέπει να χρησιμοποιήσετε την υπηρεσία API createDirectChannel για την άμεση δημιουργία καναλιών."
+  },
+  {
+    "id": "api.channel.convert_channel_to_private.private_channel_error",
+    "translation": "Το κανάλι είναι ήδη ιδιωτικό."
+  },
+  {
+    "id": "api.channel.convert_channel_to_private.default_channel_error",
+    "translation": "Το προεπιλεγμένο κανάλι δεν μπορεί να μετατραπεί σε ιδιωτικό."
+  },
+  {
+    "id": "api.channel.change_channel_privacy.public_to_private",
+    "translation": "Αυτό το κανάλι έχει γίνει ιδιωτικό."
+  },
+  {
+    "id": "api.channel.change_channel_privacy.private_to_public",
+    "translation": "Αυτό το κανάλι έχει μετατραπεί σε δημόσιο κανάλι και μπορεί να συμμετέχει οποιοδήποτε μέλος της ομάδας."
+  },
+  {
+    "id": "api.channel.add_user_to_channel.type.app_error",
+    "translation": "Δε είναι δυνατόν να προστεθεί ο χρήστης σε αυτόν τον τύπο καναλιού"
+  },
+  {
+    "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
+    "translation": "Αποτυχία προσθήκης χρήστών στο κανάλι, επειδή έχουν αφαιρεθεί από την ομάδα."
+  },
+  {
+    "id": "api.channel.add_user.to.channel.failed.app_error",
+    "translation": "Αποτυχία προσθήκης χρήστη στο κανάλι"
+  },
+  {
+    "id": "api.channel.add_member.added",
+    "translation": "%v προστέθηκε στο κανάλι από τον/τη %v"
+  },
+  {
+    "id": "api.channel.add_guest.added",
+    "translation": "%v προστέθηκε στο κανάλι από τον/τη %v"
+  },
+  {
+    "id": "api.bot.set_bot_icon_image.too_large.app_error",
+    "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
+  },
+  {
+    "id": "api.bot.set_bot_icon_image.parse.app_error",
+    "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
+  },
+  {
+    "id": "api.bot.set_bot_icon_image.open.app_error",
+    "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
+  },
+  {
+    "id": "api.bot.set_bot_icon_image.no_file.app_error",
+    "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
+  },
+  {
+    "id": "api.bot.set_bot_icon_image.array.app_error",
+    "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
+  },
+  {
+    "id": "api.admin.upload_brand_image.too_large.app_error",
+    "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
+  },
+  {
+    "id": "api.admin.upload_brand_image.storage.app_error",
+    "translation": "Αδυναμία μεταφόρτωσης της εικόνας. Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
+  },
+  {
+    "id": "api.admin.upload_brand_image.parse.app_error",
+    "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
+  },
+  {
+    "id": "api.admin.upload_brand_image.no_file.app_error",
+    "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
+  },
+  {
+    "id": "api.admin.upload_brand_image.array.app_error",
+    "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
+  },
+  {
+    "id": "api.admin.test_s3.missing_s3_bucket",
+    "translation": "Απαιτείται S3 Bucket"
+  },
+  {
+    "id": "api.admin.test_email.subject",
+    "translation": "Δοκιμή ρυθμίσεων Email"
+  },
+  {
+    "id": "api.admin.test_email.reenter_password",
+    "translation": "Ο διακομιστής SMTP, η θύρα ή το username έχουν αλλάξει. Παρακαλούμε εισάγετε ξανά το SMTP password για δοκιμή της SMTP σύνδεσης."
+  },
+  {
+    "id": "api.admin.test_email.missing_server",
+    "translation": "Ο διακομιστής SMTP είναι υποχρεωτικός"
+  },
+  {
+    "id": "api.admin.test_email.body",
+    "translation": "Φαίνεται ότι το email έχει ρυθμιστεί σωστά!"
+  },
+  {
+    "id": "api.admin.saml.not_available.app_error",
+    "translation": "Το SAML 2.0 δεν έχει ρυθμιστεί ή δεν υποστηρίζεται από αυτόν τον διακομιστή."
+  },
+  {
+    "id": "api.admin.saml.metadata.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την κατασκευή μεταδεδομένων του παροχέα υπηρεσιών "
+  },
+  {
+    "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
+    "translation": "Αδυναμία αποθήκευσης αρχείου πιστοποιητικού"
+  },
+  {
+    "id": "api.admin.remove_certificate.delete.app_error",
+    "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη διαγραφή του πιστοποιητικού"
+  },
+  {
+    "id": "api.admin.get_brand_image.storage.app_error",
+    "translation": "Ο χώρος αποθήκευσης των εικόνων δεν έχει ρυθμιστεί."
+  },
+  {
+    "id": "api.admin.file_read_error",
+    "translation": "Σφάλμα ανάγνωσης αρχείου καταγραφής "
+  },
+  {
+    "id": "api.admin.add_certificate.saving.app_error",
+    "translation": "Αδυναμία αποθήκευσης αρχείου πιστοποιητικού"
+  },
+  {
+    "id": "api.admin.add_certificate.open.app_error",
+    "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
+  },
+  {
+    "id": "api.admin.add_certificate.no_file.app_error",
+    "translation": "Δεν υπάρχει αρχείο στο αίτημα για το 'πιστοποιητικό'."
+  },
+  {
+    "id": "api.admin.add_certificate.array.app_error",
+    "translation": "Δεν υπάρχει αρχείο κάτω από το πιστοποιητικό της αίτησης"
+  },
+  {
+    "id": "September",
+    "translation": "Σεπτέμβριος"
+  },
+  {
+    "id": "October",
+    "translation": "Οκτώβριος"
+  },
+  {
+    "id": "November",
+    "translation": "Νοέμβριος"
+  },
+  {
+    "id": "May",
+    "translation": "Μάιος"
+  },
+  {
+    "id": "March",
+    "translation": "Μάρτιος"
+  },
+  {
+    "id": "June",
+    "translation": "Ιούνιος"
+  },
+  {
+    "id": "July",
+    "translation": "Ιούλιος"
+  },
+  {
+    "id": "January",
+    "translation": "IΙανουάριος"
+  },
+  {
+    "id": "February",
+    "translation": "Φεβρουάριος"
+  },
+  {
+    "id": "December",
+    "translation": "Δεκέμβριος"
+  },
+  {
+    "id": "August",
+    "translation": "Αύγουστος"
+  },
+  {
+    "id": "April",
+    "translation": "Απρίλιος"
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_or",
+    "translation": "ή"
+  },
+  {
+    "id": "system.message.name",
+    "translation": "Σύστημα"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.message_length.error",
+    "translation": "Το μήνυμα είναι πολύ μεγάλο"
+  }
 ]

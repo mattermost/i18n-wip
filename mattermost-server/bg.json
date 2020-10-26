@@ -1,63 +1,31 @@
 [
   {
-    "id": "store.sql_user.update_last_picture_update.app_error",
-    "translation": "Не може да се актуализира update_at."
-  },
-  {
     "id": "store.sql_user.update_auth_data.app_error",
     "translation": "Не може да се актуализират данните за удостоверяване."
-  },
-  {
-    "id": "store.sql_user.update_active_for_multiple_users.updating.app_error",
-    "translation": "Неуспешно деактивиране на гости."
   },
   {
     "id": "store.sql_user.update.find.app_error",
     "translation": "Не може да се намери съществуващ профил за актуализиране."
   },
   {
-    "id": "store.sql_user.update.app_error",
-    "translation": "Профилът не можа да се актуализира."
-  },
-  {
     "id": "store.sql_user.save.app_error",
     "translation": "Профила не можа да бъде запазен."
-  },
-  {
-    "id": "store.sql_user.promote_guest.user_update.app_error",
-    "translation": "Неуспешно актуализиране на потребител."
   },
   {
     "id": "store.sql_user.promote_guest.team_members_update.app_error",
     "translation": "Неуспешно актуализиране членствата на потребители в екипи."
   },
   {
-    "id": "store.sql_user.promote_guest.channel_members_update.app_error",
-    "translation": "Неуспешно актуализиране членствата на потребителите в канали."
-  },
-  {
     "id": "store.sql_user.permanent_delete.app_error",
     "translation": "Не можа да се изтрие съществуващ профил."
-  },
-  {
-    "id": "store.sql_user.missing_account.const",
-    "translation": "Потребителят не може да бъде намерен."
   },
   {
     "id": "store.sql_user.demote_user_to_guest.user_update.app_error",
     "translation": "Неуспешно актуализиране на потребител."
   },
   {
-    "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
-    "translation": "Неуспешно актуализиране членствата на потребители в екипи."
-  },
-  {
     "id": "store.sql_user.demote_user_to_guest.channel_members_update.app_error",
     "translation": "Неуспешно актуализиране на членствата в потребителските канали."
-  },
-  {
-    "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
-    "translation": "Неуспешно актуализиране на потребителя."
   },
   {
     "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
@@ -2423,20 +2391,12 @@
     "translation": "Най-старата публикация не може да бъде извлечена от базата данни."
   },
   {
-    "id": "store.sql_user.get_profile_by_group_channel_ids_for_user.app_error",
-    "translation": "Срещнахме грешка при намирането на потребителски профили."
-  },
-  {
     "id": "app.export.export_custom_emoji.copy_emoji_images.error",
     "translation": "Невъзможно е да се копират изображения за персонализирани емотикони"
   },
   {
     "id": "app.import.validate_user_channels_import_data.channel_name_missing.error",
     "translation": "Името на канала липсва в \"Членство на потребителите в канали\"."
-  },
-  {
-    "id": "store.sql_user.count.app_error",
-    "translation": "UserCountOptions нямат смисъл."
   },
   {
     "id": "app.import.validate_post_import_data.team_missing.error",
@@ -2487,10 +2447,6 @@
     "translation": "Невъзможно е да се преобразуват метаданните в json."
   },
   {
-    "id": "store.sql_user.get_users_batch_for_indexing.get_users.app_error",
-    "translation": "Не може да се получи пакета потребители за индексиране."
-  },
-  {
     "id": "bleveengine.search_users_in_channel.nuchan.error",
     "translation": "Потребителското търсене не завърши."
   },
@@ -2535,10 +2491,6 @@
     "translation": "Личният маркер за достъп не може да бъде изтрит."
   },
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.commit_transaction.app_error",
-    "translation": "Не успя да извърши транзакцията с базата данни."
-  },
-  {
     "id": "ent.message_export.global_relay_export.deliver.close.app_error",
     "translation": "Не може да се достави ел.поща до Global Relay."
   },
@@ -2561,10 +2513,6 @@
   {
     "id": "app.import.bulk_import.json_decode.error",
     "translation": "JSON декодирането на реда не бе успешно."
-  },
-  {
-    "id": "store.sql_user.get_total_users_count.app_error",
-    "translation": "Не можахме да преброим потребителите."
   },
   {
     "id": "app.plugin.modify_saml.app_error",
@@ -2759,10 +2707,6 @@
     "translation": "Връзката за възстановяване на паролата е изтекла."
   },
   {
-    "id": "store.sql_user.save.email_exists.app_error",
-    "translation": "Профил с тази ел.поща вече съществува."
-  },
-  {
     "id": "app.notification.body.intro.notification.full",
     "translation": "Имате ново известие."
   },
@@ -2901,10 +2845,6 @@
   {
     "id": "app.import.validate_direct_channel_import_data.unknown_favoriter.error",
     "translation": "Директният канал може да бъде любим само за членове. \"{{.Username}}\" не е член."
-  },
-  {
-    "id": "store.sql_user.update_failed_pwd_attempts.app_error",
-    "translation": "Невъзможно е да се актуализират failed_attempts."
   },
   {
     "id": "model.group_member.group_id.app_error",
@@ -3231,10 +3171,6 @@
     "translation": "Профилът ви е деактивиран на {{.ServerURL}}"
   },
   {
-    "id": "store.sql_user.update_mfa_secret.app_error",
-    "translation": "Срещнахме грешка при актуализиране на МФУ тайната на потребителя."
-  },
-  {
     "id": "api.templates.remove_expired_license.subject",
     "translation": "Лицензът за Mattermost корпоративна е деактивиран."
   },
@@ -3333,10 +3269,6 @@
   {
     "id": "api.user.update_user.accepted_domain.app_error",
     "translation": "Ел.поща, която сте предоставили, не принадлежи на приеман домейн. Моля, свържете се с вашия администратор или се регистрирайте с друга ел.поща."
-  },
-  {
-    "id": "store.sql_user.promote_guest.open_transaction.app_error",
-    "translation": "Неуспешно стартиране на транзакция с базата данни."
   },
   {
     "id": "model.group.description.app_error",
@@ -3491,10 +3423,6 @@
     "translation": "Името трябва да има 2 или повече буквено-цифрови символи."
   },
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.open_transaction.app_error",
-    "translation": "Неуспешно стартиране на транзакция с базата данни."
-  },
-  {
     "id": "app.role.get_by_names.app_error",
     "translation": "Не могат да получат роли."
   },
@@ -3553,10 +3481,6 @@
   {
     "id": "store.select_error",
     "translation": "грешка при избор"
-  },
-  {
-    "id": "store.sql_user.update.finding.app_error",
-    "translation": "Срещнахме грешка при намирането на профила."
   },
   {
     "id": "model.channel.is_valid.creator_id.app_error",
@@ -3661,10 +3585,6 @@
   {
     "id": "api.user.update_active.not_enable.app_error",
     "translation": "Не можете да се деактивирате, защото тази функция не е разрешена. Моля, свържете се със системния си администратор."
-  },
-  {
-    "id": "store.sql_user.get_by_auth.other.app_error",
-    "translation": "Срещнахме грешка при опит да намерим профил според типа на удостоверяване."
   },
   {
     "id": "app.import.import_line.unknown_line_type.error",
@@ -3855,10 +3775,6 @@
     "translation": "Webhook не може да се изтрие."
   },
   {
-    "id": "store.sql_user.get_unread_count.app_error",
-    "translation": "Не можахме да получим броя на непрочетените съобщения за потребителя."
-  },
-  {
     "id": "api.user.get_authorization_code.unsupported.app_error",
     "translation": "Неподдържан доставчик на услуги на OAuth."
   },
@@ -3901,10 +3817,6 @@
   {
     "id": "model.config.is_valid.tls_key_file.app_error",
     "translation": "Невалидна стойност за ключов файл на TLS - Използвайте LetsEncrypt или задайте път към съществуващ файл на ключа."
-  },
-  {
-    "id": "store.sql_user.update.updating.app_error",
-    "translation": "Срещнахме грешка при актуализирането на профила."
   },
   {
     "id": "model.config.is_valid.data_retention.deletion_job_start_time.app_error",
@@ -4003,10 +3915,6 @@
     "translation": "Търсенето е забранено на този сървър. Моля, свържете се със системния администратор."
   },
   {
-    "id": "store.sql_user.search.app_error",
-    "translation": "Не може да се намери потребител, отговарящ на параметрите за търсене."
-  },
-  {
     "id": "plugin.api.get_users_in_channel",
     "translation": "Невъзможно е да се получат потребителите, невалидни критерии за сортиране."
   },
@@ -4049,10 +3957,6 @@
   {
     "id": "model.authorize.is_valid.response_type.app_error",
     "translation": "Невалиден тип отговор."
-  },
-  {
-    "id": "store.sql_user.promote_guest.commit_transaction.app_error",
-    "translation": "Не успя да извърши транзакцията с базата данни."
   },
   {
     "id": "app.import.validate_user_channels_import_data.invalid_notify_props_desktop.error",
@@ -4191,10 +4095,6 @@
     "translation": "Не може да се генерира Webapp пакет с приставки."
   },
   {
-    "id": "store.sql_user.demote_user_to_guest.commit_transaction.app_error",
-    "translation": "Не успя да извърши транзакция с базата данни."
-  },
-  {
     "id": "oauth.gitlab.tos.error",
     "translation": "Общите условия на GitLab са актуализирани. Моля, отидете на gitlab.com, за да ги приемете и след това опитайте да влезете в Mattermost отново."
   },
@@ -4209,10 +4109,6 @@
   {
     "id": "model.post.is_valid.msg.app_error",
     "translation": "Невалидно съобщение."
-  },
-  {
-    "id": "store.sql_user.get_known_users.get_users.app_error",
-    "translation": "Не могат да се получат известните потребители от базата данни."
   },
   {
     "id": "api.templates.deactivate_body.info",
@@ -4435,10 +4331,6 @@
     "translation": "Съхраняването на съобщение трябва да бъде един ден или повече."
   },
   {
-    "id": "store.sql_user.analytics_get_system_admin_count.app_error",
-    "translation": "Броят системни администратори не може да се получи."
-  },
-  {
     "id": "ent.saml.do_login.empty_response.app_error",
     "translation": "Получихме празен отговор от доставчика на самоличност."
   },
@@ -4453,10 +4345,6 @@
   {
     "id": "web.error.unsupported_browser.min_browser_version.edge",
     "translation": "Версия 44+"
-  },
-  {
-    "id": "store.sql_user.get.app_error",
-    "translation": "Срещнахме грешка при намирането на профила."
   },
   {
     "id": "app.import.validate_direct_post_import_data.channel_members_too_many.error",
@@ -4719,10 +4607,6 @@
     "translation": "Невалидна стойност за сигурност на връзката на уеб сървъра."
   },
   {
-    "id": "store.sql_user.get_by_auth.missing_account.app_error",
-    "translation": "Не може да се намери съществуващ профил, отговарящ на типа ви за удостоверяване за този екип. Този екип може да изисква покана от собственика на екипа, за да се присъедини."
-  },
-  {
     "id": "app.terms_of_service.create.app_error",
     "translation": "Условията за ползване не могат да бъдат запазени."
   },
@@ -4761,10 +4645,6 @@
   {
     "id": "model.outgoing_hook.is_valid.token.app_error",
     "translation": "Невалиден маркер."
-  },
-  {
-    "id": "store.sql_user.app_error",
-    "translation": "Неуспешно изграждане на заявка."
   },
   {
     "id": "utils.mail.new_client.auth.app_error",
@@ -5055,10 +4935,6 @@
     "translation": "{{.Service}} SSO чрез OAuth 2.0 не е наличен на този сървър."
   },
   {
-    "id": "store.sql_user.get_new_users.app_error",
-    "translation": "При откриването на новите потребители срещнахме грешка."
-  },
-  {
     "id": "brand.save_brand_image.decode_config.app_error",
     "translation": "Не могат да се получат метаданни за изображения."
   },
@@ -5117,10 +4993,6 @@
   {
     "id": "utils.mail.send_mail.to_address.app_error",
     "translation": "Грешка при настройка „До адрес“."
-  },
-  {
-    "id": "store.sql_user.update_active_for_multiple_users.getting_changed_users.app_error",
-    "translation": "Не можа да се получи списъкът с id-та на гости за деактивиране."
   },
   {
     "id": "app.import.validate_user_import_data.first_name_length.error",
@@ -5259,10 +5131,6 @@
     "translation": "Срещнахме грешка при намирането на всички маркери за достъп."
   },
   {
-    "id": "store.sql_user.update.can_not_change_ldap.app_error",
-    "translation": "Не може да се променят полета, зададени от AD/LDAP."
-  },
-  {
     "id": "model.user.is_valid.pwd_lowercase_number_symbol.app_error",
     "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака, поне една малка буква, едно число и един символ (напр. \"~!@#$%^&*()\")."
   },
@@ -5311,10 +5179,6 @@
     "translation": "LastPingAt трябва да бъде зададен."
   },
   {
-    "id": "store.sql_user.save.existing.app_error",
-    "translation": "Трябва да се извика актуализация за съществуващ потребител."
-  },
-  {
     "id": "model.config.is_valid.encrypt_sql.app_error",
     "translation": "Невалиден ключ за 'at rest' криптиране в настройки на SQL. Трябва да е 32 знака или повече."
   },
@@ -5345,10 +5209,6 @@
   {
     "id": "app.import.validate_channel_import_data.name_length.error",
     "translation": "Името на канала е твърде дълго."
-  },
-  {
-    "id": "store.sql_user.demote_user_to_guest.open_transaction.app_error",
-    "translation": "Неуспешно стартиране на транзакция с базата данни."
   },
   {
     "id": "utils.mail.sendMail.attachments.write_error",
@@ -5387,10 +5247,6 @@
     "translation": "Неуспешно записване на историята на членовете на канала. Неуспешно актуализиране на съществуващ запис за присъединяване"
   },
   {
-    "id": "store.sql_user.get_sysadmin_profiles.app_error",
-    "translation": "Срещнахме грешка при намирането на потребителски профили."
-  },
-  {
     "id": "model.config.is_valid.sql_max_conn.app_error",
     "translation": "Невалидна максимално отворени връзки в настройките на SQL. Трябва да е положително число."
   },
@@ -5413,10 +5269,6 @@
   {
     "id": "api.templates.warn_metric_ack.footer",
     "translation": "Ако имате някакви допълнителни запитвания, моля, свържете се с support@mattermost.com"
-  },
-  {
-    "id": "store.sql_user.analytics_daily_active_users.app_error",
-    "translation": "Не може да се получат активните потребители през искания период."
   },
   {
     "id": "app.command.listteamcommands.internal_error",
@@ -5555,10 +5407,6 @@
     "translation": "Настройката на Elasticsearch ConnectionUrl трябва да бъде предоставена, когато е активирано индексирането на Elasticsearch."
   },
   {
-    "id": "store.sql_user.update_update.app_error",
-    "translation": "Не може да се актуализира датата на последна актуализация на потребителя."
-  },
-  {
     "id": "ent.message_export.global_relay_export.deliver.parse_mail.app_error",
     "translation": "Информацията за ел.поща не може да се прочете."
   },
@@ -5659,10 +5507,6 @@
     "translation": "Файлът с иконата на екипа не може да се прочете."
   },
   {
-    "id": "store.sql_user.verify_email.app_error",
-    "translation": "Полето за потвърждаване на ел.поща не може да се актуализира."
-  },
-  {
     "id": "ent.ldap.do_login.bind_admin_user.app_error",
     "translation": "Неуспешно свързване към AD/LDAP сървър. Проверете BindUsername и BindPassword."
   },
@@ -5677,10 +5521,6 @@
   {
     "id": "model.command_hook.create_at.app_error",
     "translation": "Създадено в, трябва да е валидно време."
-  },
-  {
-    "id": "store.sql_user.get_unread_count_for_channel.app_error",
-    "translation": "Не можахме да получим броя на непрочетените съобщения за потребителя и канала."
   },
   {
     "id": "model.group.name.app_error",
@@ -5747,10 +5587,6 @@
     "translation": "Липсва тема на ел.поща."
   },
   {
-    "id": "store.sql_user.get_recently_active_users.app_error",
-    "translation": "Срещнахме грешка при намирането на наскоро активните потребители."
-  },
-  {
     "id": "model.team.is_valid.domains.app_error",
     "translation": "Невалидни разрешени домейни."
   },
@@ -5791,10 +5627,6 @@
     "translation": "Невалиден маркер за достъп."
   },
   {
-    "id": "store.sql_user.update_password.app_error",
-    "translation": "Потребителската парола не може да се актуализира."
-  },
-  {
     "id": "model.user.is_valid.pwd_number.app_error",
     "translation": "Вашата парола трябва да съдържа най-малко {{.Min}} знака и поне едно число."
   },
@@ -5829,10 +5661,6 @@
   {
     "id": "api.user.verify_email.broken_token.app_error",
     "translation": "Неуспешна проверка на типа маркер за ел.поща."
-  },
-  {
-    "id": "store.sql_user.get_by_username.app_error",
-    "translation": "Не може да се намери съществуващ профил, отговарящ на потребителското Ви име за този екип. Този екип може да изисква покана от собственика на екипа, за да се присъедините."
   },
   {
     "id": "model.config.is_valid.max_channels.app_error",
@@ -5901,10 +5729,6 @@
   {
     "id": "app.notification.subject.group_message.generic",
     "translation": "[{{.SiteName}}] Ново групово съобщение на {{.Day}} {{.Month}}, {{.Year}}"
-  },
-  {
-    "id": "store.sql_user.get_system_install_date.app_error",
-    "translation": "Не може да се изведе системната дата въз основа дата на създаване на първия потребителя."
   },
   {
     "id": "model.config.is_valid.elastic_search.posts_aggregator_job_start_time.app_error",
@@ -5981,10 +5805,6 @@
   {
     "id": "api.templates.mfa_activated_body.title",
     "translation": "Добавено е многофакторно удостоверяване"
-  },
-  {
-    "id": "store.sql_user.update_mfa_active.app_error",
-    "translation": "Срещнахме грешка при актуализиране МФУ активното състояние на потребителя."
   },
   {
     "id": "api.templates.welcome_body.info3",
@@ -6079,10 +5899,6 @@
     "translation": "Версия 12+"
   },
   {
-    "id": "store.sql_user.update_auth_data.email_exists.app_error",
-    "translation": "Не можете да превключите профила на {{.Service}}. Профил, използващ ел.поща {{.Email}}, вече съществува."
-  },
-  {
     "id": "ent.elasticsearch.create_template_users_if_not_exists.template_create_failed",
     "translation": "Неуспешно създаване на шаблон на Elasticsearch за потребители"
   },
@@ -6117,10 +5933,6 @@
   {
     "id": "model.config.is_valid.teammate_name_display.app_error",
     "translation": "Невалидно показване на съекипник. Трябва да е 'full_name', 'nickname_full_name' или 'username'."
-  },
-  {
-    "id": "store.sql_user.get_for_login.multiple_users",
-    "translation": "Открихме множество потребители, които отговарят на вашите идентификационни данни и не можете да влезете в системата. Моля, свържете се с администратор."
   },
   {
     "id": "api.user.login.bot_login_forbidden.app_error",
@@ -6261,10 +6073,6 @@
   {
     "id": "app.admin.test_site_url.failure",
     "translation": "Това не е валиден действащ URL адрес"
-  },
-  {
-    "id": "store.sql_user.analytics_get_inactive_users_count.app_error",
-    "translation": "Не можахме да преброим неактивните потребители."
   },
   {
     "id": "app.import.import_user_channels.channel_not_found.error",
@@ -6419,20 +6227,12 @@
     "translation": "Грешка при стартиране на сървъра, грешка:% v"
   },
   {
-    "id": "store.sql_user.get_users_batch_for_indexing.get_channel_members.app_error",
-    "translation": "Не може да се получат членовете на канала за пакета потребители за индексиране."
-  },
-  {
     "id": "model.oauth.is_valid.app_id.app_error",
     "translation": "Невалиден id на приложение."
   },
   {
     "id": "model.link_metadata.is_valid.data_type.app_error",
     "translation": "Данните за метаданни на връзка не съвпадат със зададения тип."
-  },
-  {
-    "id": "store.sql_user.get_users_batch_for_indexing.get_team_members.app_error",
-    "translation": "Не може да се получат членовете на екипа за пакета потребители за индексиране."
   },
   {
     "id": "app.import.get_users_by_username.some_users_not_found.error",
@@ -6629,10 +6429,6 @@
   {
     "id": "api.templates.reset_body.info2",
     "translation": "Ако не искате да нулирате паролата си, моля, игнорирайте тази ел.поща и вашата парола ще остане същата. Връзката за нулиране на паролата изтича след 24 часа."
-  },
-  {
-    "id": "store.sql_user.update.username_taken.app_error",
-    "translation": "Това потребителско име вече е заето. Моля, изберете друго."
   },
   {
     "id": "app.import.validate_team_import_data.scheme_invalid.error",
@@ -6875,10 +6671,6 @@
     "translation": "Потребителско име вече се използва от друг потребител на Mattermost."
   },
   {
-    "id": "store.sql_user.get_profiles.app_error",
-    "translation": "Срещнахме грешка при намирането на потребителски профили."
-  },
-  {
     "id": "app.notification.body.intro.direct.full",
     "translation": "Имате ново директно съобщение."
   },
@@ -6913,10 +6705,6 @@
   {
     "id": "app.command_webhook.create_command_webhook.internal_error",
     "translation": "Не може да се запази CommandWebhook."
-  },
-  {
-    "id": "store.sql_user.save.username_exists.app_error",
-    "translation": "Профил с това потребителско име вече съществува."
   },
   {
     "id": "api.user.reset_password.method",
@@ -7849,10 +7637,6 @@
   {
     "id": "model.upload_session.is_valid.user_id.app_error",
     "translation": "Невалидна стойност за UserId"
-  },
-  {
-    "id": "store.sql_user.analytics_get_external_users.app_error",
-    "translation": "Не можахме да преброим потребителите с ел.поща, които не са в локални домейни"
   },
   {
     "id": "model.upload_session.is_valid.filename.app_error",
