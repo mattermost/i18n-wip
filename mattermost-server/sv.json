@@ -6941,5 +6941,9 @@
   {
     "id": "api.cloud.license_error",
     "translation": "Din licens tillåter inte moln-anrop."
+  },
+  {
+    "id": "app.team.rename_team.name_occupied",
+    "translation": "Kan inte byta namn på teamet då namnet redan används."
   }
 ]
