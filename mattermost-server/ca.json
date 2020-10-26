@@ -36,16 +36,8 @@
     "translation": "S'ha trobat un error en llistar el directori de l'emmagatzematge al servidor local."
   },
   {
-    "id": "store.sql_user.save.app_error",
-    "translation": "No es pot desar el compte."
-  },
-  {
     "id": "store.sql_user.get_recently_active_users.app_error",
     "translation": "Hem trobat un error en cercar els usuaris recentment actius"
-  },
-  {
-    "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
-    "translation": "No s'ha pogut actualitzar l'usuari"
   },
   {
     "id": "app.reaction.save.save.app_error",

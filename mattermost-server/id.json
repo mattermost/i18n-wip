@@ -1,19 +1,11 @@
 [
   {
-    "id": "store.sql_user.update.app_error",
-    "translation": "Tidak dapat memuat kiriman"
-  },
-  {
     "id": "store.sql_user.get_sysadmin_profiles.app_error",
     "translation": "Kami mengalami masalah saat mencari akun"
   },
   {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Kami tidak dapat menemukan akun yang telah ada yang sesuai dengan email Anda untuk tim ini. Tim ini mungkin membutuhkan undangan dari pemilik tim untuk bergabung."
-  },
-  {
-    "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
-    "translation": "Tidak dapat memuat kiriman"
   },
   {
     "id": "app.scheme.save.app_error",

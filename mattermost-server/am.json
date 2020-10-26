@@ -1,9 +1,5 @@
 [
   {
-    "id": "store.sql_user.promote_guest.team_members_update.app_error",
-    "translation": "ቻናሉን ማስተካከል አልተቻለም."
-  },
-  {
     "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
     "translation": "ቻናሉን ማስተካከል አልተቻለም."
   },

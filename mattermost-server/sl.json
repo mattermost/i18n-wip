@@ -116,32 +116,16 @@
     "translation": "Pogojev storitve ni mogoče izbrisati."
   },
   {
-    "id": "store.sql_user.update_auth_data.email_exists.app_error",
-    "translation": "Računa ni mogoče spremeniti v {{.Service}}. Račun, ki uporablja e-pošto {{.Email}} že obstaja."
-  },
-  {
     "id": "store.sql_user.update.email_taken.app_error",
     "translation": "To e-poštno sporočilo je že zasedeno. Izberite drugo."
-  },
-  {
-    "id": "store.sql_user.promote_guest.user_update.app_error",
-    "translation": "Uporabnika ni bilo mogoče posodobiti"
   },
   {
     "id": "store.sql_user.get_unread_count_for_channel.app_error",
     "translation": "Števila neprebranih sporočil za uporabnika in kanala nismo mogli dobiti"
   },
   {
-    "id": "store.sql_user.get_new_users.app_error",
-    "translation": "Pri iskanju novih uporabnikov je prišlo do napake"
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Ni mogoče najti obstoječega računa, ki se ujema z vašimi poverilnicami. Ta ekipa lahko potrebuje vabilo lastnika ekipe za pridružitev."
-  },
-  {
-    "id": "store.sql_user.demote_user_to_guest.commit_transaction.app_error",
-    "translation": "Transakcije baze podatkov ni bilo mogoče začeti"
   },
   {
     "id": "store.sql_user.analytics_daily_active_users.app_error",
