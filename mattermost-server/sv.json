@@ -192,32 +192,16 @@
     "translation": "Det gick inte att radera användarvillkoren."
   },
   {
-    "id": "store.sql_user.update.username_taken.app_error",
-    "translation": "Det här användarnamnet används redan. Välj ett annat."
-  },
-  {
     "id": "store.sql_user.update.email_taken.app_error",
     "translation": "Den här e-postadressen används redan. Välj en annan."
-  },
-  {
-    "id": "store.sql_user.save.email_exists.app_error",
-    "translation": "Ett konto med den e-postadressen finns redan."
   },
   {
     "id": "store.sql_user.missing_account.const",
     "translation": "Det gick inte att hitta användaren."
   },
   {
-    "id": "store.sql_user.get_known_users.get_users.app_error",
-    "translation": "Kunde inte hämta kända användare från databasen."
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Kan inte hitta ett existerande konto som matchar din autentisering. Denna grupp kan behöva en inbjudan av ägaren till gruppen för att gå med."
-  },
-  {
-    "id": "store.sql_user.get_by_auth.other.app_error",
-    "translation": "Ett fel påträffades vid sökning efter kontot med hjälp av autentiseringstypen."
   },
   {
     "id": "app.terms_of_service.create.existing.app_error",

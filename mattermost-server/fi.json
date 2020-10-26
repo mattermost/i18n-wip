@@ -124,16 +124,8 @@
     "translation": "Ei voitu poistaa palveluehtoja."
   },
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.open_transaction.app_error",
-    "translation": "Tietokantatransaktion aloitus epäonnistui"
-  },
-  {
     "id": "store.sql_user.analytics_get_system_admin_count.app_error",
     "translation": "Ei voitu hakea järjestelmänvalvojamäärää"
-  },
-  {
-    "id": "store.sql_user.analytics_daily_active_users.app_error",
-    "translation": "Ei voitu hakea pyydetyn jakson aktiivisia käyttäjiä"
   },
   {
     "id": "app.terms_of_service.create.existing.app_error",
@@ -564,79 +556,39 @@
     "translation": "Virheellinen tiimin ID"
   },
   {
-    "id": "store.sql_user.update_update.app_error",
-    "translation": "Ei voida päivittää käyttäjän viimeisen päivityksen aikaa"
-  },
-  {
     "id": "store.sql_user.update_mfa_secret.app_error",
     "translation": "Kohdattiin virhe päivitettäessä käyttäjän MFA salaisuutta"
-  },
-  {
-    "id": "store.sql_user.update_last_picture_update.app_error",
-    "translation": "Ei voitu muuttaa update_at arvoa"
   },
   {
     "id": "store.sql_user.update_auth_data.email_exists.app_error",
     "translation": "Ei voida vaihtaa tiliä palveluun {{.Service}}. Tili jolla on sähköposti {{.Email}} on jo olemassa."
   },
   {
-    "id": "store.sql_user.update_active_for_multiple_users.updating.app_error",
-    "translation": "Ei voida kytkeä lisäosaa pois"
-  },
-  {
     "id": "store.sql_user.update.updating.app_error",
     "translation": "Kohdattiin virhe päivitettäessä tiliä"
-  },
-  {
-    "id": "store.sql_user.update.find.app_error",
-    "translation": "Ei löydetty olemassaolevaa päivitettävää tiliä"
   },
   {
     "id": "store.sql_user.update.email_taken.app_error",
     "translation": "Sähköposti on jo käytössä. Valitse toinen."
   },
   {
-    "id": "store.sql_user.update.app_error",
-    "translation": "Ei voida päivittää tiliä"
-  },
-  {
     "id": "store.sql_user.save.username_exists.app_error",
     "translation": "Käyttäjänimi on jo käytössä tilillä."
-  },
-  {
-    "id": "store.sql_user.save.email_exists.app_error",
-    "translation": "On jo olemassa tili jolla tämä sähköposti."
   },
   {
     "id": "store.sql_user.promote_guest.user_update.app_error",
     "translation": "Ei voitu päivittää käyttäjää"
   },
   {
-    "id": "store.sql_user.promote_guest.open_transaction.app_error",
-    "translation": "Tietokantatransaktion aloitus epäonnistui"
-  },
-  {
     "id": "store.sql_user.promote_guest.channel_members_update.app_error",
     "translation": "Ei voitu päivittää kanavan jäsentä"
-  },
-  {
-    "id": "store.sql_user.missing_account.const",
-    "translation": "Ei löydetty käyttäjää."
   },
   {
     "id": "store.sql_user.get_unread_count_for_channel.app_error",
     "translation": "Ei voitu hakea lukemattomien viestien määrää käyttäjälle ja kanavalle"
   },
   {
-    "id": "store.sql_user.get_total_users_count.app_error",
-    "translation": "Emme pystyneet laskemaan käyttäjiä"
-  },
-  {
     "id": "store.sql_user.get_sysadmin_profiles.app_error",
-    "translation": "Kohdattiin virhe etsittäessä käyttäjäprofiileja"
-  },
-  {
-    "id": "store.sql_user.get_profiles.app_error",
     "translation": "Kohdattiin virhe etsittäessä käyttäjäprofiileja"
   },
   {
@@ -648,24 +600,12 @@
     "translation": "Ei löydetty olemassaolevaa tiliä jolla tunnuksesi. Tiimi voi vaatia kutsun tiiminomistajalta ennen liittymistä."
   },
   {
-    "id": "store.sql_user.get_by_auth.other.app_error",
-    "translation": "Kohdattiin virhe etsittäessä tiliä autentikointityypin perusteella."
-  },
-  {
     "id": "store.sql_user.get.app_error",
     "translation": "Kohdattiin virhe etsittäessä tiliä"
   },
   {
-    "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
-    "translation": "Ei voitu päivittää kanavan jäsentä"
-  },
-  {
     "id": "store.sql_user.demote_user_to_guest.commit_transaction.app_error",
     "translation": "Tietokantatransaktion suoritus epäonnistui"
-  },
-  {
-    "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
-    "translation": "Ei voitu päivittää käyttäjää"
   },
   {
     "id": "model.command.is_valid.method.app_error",

@@ -180,120 +180,60 @@
     "translation": "Không thể xóa điều khoản dịch vụ."
   },
   {
-    "id": "store.sql_user.update_update.app_error",
-    "translation": "Không thể cập nhật ngày cập nhật cuối cùng của người dùng"
-  },
-  {
     "id": "store.sql_user.update_mfa_secret.app_error",
     "translation": "Chúng tôi đã gặp lỗi khi cập nhật bí mật MFA của người dùng"
-  },
-  {
-    "id": "store.sql_user.update_last_picture_update.app_error",
-    "translation": "Không thể cập nhật trường update_at"
   },
   {
     "id": "store.sql_user.update_auth_data.email_exists.app_error",
     "translation": "Không thể chuyển tài khoản sang {{.Service}}. Tài khoản sử dụng email {{.Email}} đã tồn tại."
   },
   {
-    "id": "store.sql_user.update_active_for_multiple_users.updating.app_error",
-    "translation": "Không thể vô hiệu hoá plugin"
-  },
-  {
     "id": "store.sql_user.update.updating.app_error",
     "translation": "Chúng tôi đã gặp lỗi khi cập nhật tài khoản"
-  },
-  {
-    "id": "store.sql_user.update.find.app_error",
-    "translation": "Không thể tìm thấy tài khoản tồn tại để cập nhật"
   },
   {
     "id": "store.sql_user.update.email_taken.app_error",
     "translation": "E-mail này đã được sử dụng. Vui lòng chọn cái khác."
   },
   {
-    "id": "store.sql_user.update.app_error",
-    "translation": "Không thể cập nhật tài khoản"
-  },
-  {
     "id": "store.sql_user.save.username_exists.app_error",
     "translation": "Đã đăng nhập với tên người dùng đã có."
-  },
-  {
-    "id": "store.sql_user.save.email_exists.app_error",
-    "translation": "Một tài khoản với email đó đã tồn tại."
   },
   {
     "id": "store.sql_user.promote_guest.user_update.app_error",
     "translation": "Không thể cập nhật người dùng"
   },
   {
-    "id": "store.sql_user.promote_guest.open_transaction.app_error",
-    "translation": "Không thể bắt đầu giao dịch cơ sở dữ liệu"
-  },
-  {
     "id": "store.sql_user.promote_guest.channel_members_update.app_error",
     "translation": "Không thể cập nhật các kênh của user."
-  },
-  {
-    "id": "store.sql_user.missing_account.const",
-    "translation": "Không thể tìm thấy người dùng."
   },
   {
     "id": "store.sql_user.get_users_batch_for_indexing.get_team_members.app_error",
     "translation": "Không thể lấy các thành viên trong nhóm cho nhóm người dùng để lập chỉ mục"
   },
   {
-    "id": "store.sql_user.get_unread_count_for_channel.app_error",
-    "translation": "Chúng tôi không thể có được số lượng tin nhắn chưa đọc cho người dùng và kênh"
-  },
-  {
     "id": "store.sql_user.get_total_users_count.app_error",
     "translation": "Chúng tôi không thể tìm thấy người dùng"
-  },
-  {
-    "id": "store.sql_user.get_sysadmin_profiles.app_error",
-    "translation": "Chúng tôi đã gặp lỗi khi tìm hồ sơ người dùng"
   },
   {
     "id": "store.sql_user.get_profiles.app_error",
     "translation": "Chúng tôi đã gặp lỗi khi tìm hồ sơ người dùng"
   },
   {
-    "id": "store.sql_user.get_new_users.app_error",
-    "translation": "Chúng tôi đã gặp lỗi khi tìm người dùng mới"
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Không thể tìm thấy một tài khoản hiện có phù hợp với thông tin của bạn. Đội này có thể yêu cầu lời mời từ chủ nhóm để tham gia."
-  },
-  {
-    "id": "store.sql_user.get_by_auth.other.app_error",
-    "translation": "Chúng tôi đã gặp lỗi khi cố gắng tìm tài khoản theo loại xác thực."
   },
   {
     "id": "store.sql_user.get.app_error",
     "translation": "Chúng tôi đã gặp lỗi khi tìm tài khoản"
   },
   {
-    "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
-    "translation": "Không thể cập nhật các nhóm đã tham gia của user."
-  },
-  {
     "id": "store.sql_user.demote_user_to_guest.commit_transaction.app_error",
     "translation": "Không thể thực hiện giao dịch cơ sở dữ liệu"
   },
   {
-    "id": "store.sql_user.count.app_error",
-    "translation": "UserCountOptions không có ý nghĩa"
-  },
-  {
     "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
     "translation": "Không thể truy vấn các người dùng"
-  },
-  {
-    "id": "store.sql_user.clear_all_custom_role_assignments.commit_transaction.app_error",
-    "translation": "Không thể thực hiện giao dịch cơ sở dữ liệu"
   },
   {
     "id": "store.sql_user.analytics_get_inactive_users_count.app_error",

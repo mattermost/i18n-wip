@@ -32,15 +32,7 @@
     "translation": "Rendszer"
   },
   {
-    "id": "store.sql_user.update_auth_data.app_error",
-    "translation": "Nem találtuk a csatornát"
-  },
-  {
     "id": "store.sql_user.update.find.app_error",
-    "translation": "Nem találtuk a csatornát"
-  },
-  {
-    "id": "store.sql_user.save.app_error",
     "translation": "Nem találtuk a csatornát"
   },
   {
@@ -48,24 +40,12 @@
     "translation": "Nem találtuk a csatornát."
   },
   {
-    "id": "store.sql_user.permanent_delete.app_error",
-    "translation": "Nem találtuk a csatornát"
-  },
-  {
     "id": "store.sql_user.get_total_users_count.app_error",
     "translation": "Nem találtuk a felhasználót"
   },
   {
-    "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
-    "translation": "Nem találtuk a csatornát."
-  },
-  {
     "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",
     "translation": "Nem találtuk a csatornát."
-  },
-  {
-    "id": "store.sql_user.analytics_get_inactive_users_count.app_error",
-    "translation": "Nem találtuk a felhasználót"
   },
   {
     "id": "model.token.is_valid.size",
