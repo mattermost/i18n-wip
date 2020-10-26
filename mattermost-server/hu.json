@@ -32,16 +32,8 @@
     "translation": "Rendszer"
   },
   {
-    "id": "store.sql_user.update.find.app_error",
-    "translation": "Nem találtuk a csatornát"
-  },
-  {
     "id": "store.sql_user.promote_guest.team_members_update.app_error",
     "translation": "Nem találtuk a csatornát."
-  },
-  {
-    "id": "store.sql_user.get_total_users_count.app_error",
-    "translation": "Nem találtuk a felhasználót"
   },
   {
     "id": "store.sql_user.clear_all_custom_role_assignments.update.app_error",

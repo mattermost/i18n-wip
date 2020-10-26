@@ -1,31 +1,15 @@
 [
   {
-    "id": "store.sql_user.update.updating.app_error",
-    "translation": "Kami mengalami masalah saat mencari akun"
-  },
-  {
     "id": "store.sql_user.update.app_error",
     "translation": "Tidak dapat memuat kiriman"
-  },
-  {
-    "id": "store.sql_user.promote_guest.channel_members_update.app_error",
-    "translation": "Tidak dapat memperoleh kanal"
   },
   {
     "id": "store.sql_user.get_sysadmin_profiles.app_error",
     "translation": "Kami mengalami masalah saat mencari akun"
   },
   {
-    "id": "store.sql_user.get_new_users.app_error",
-    "translation": "Kami mengalami masalah saat mencari akun"
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Kami tidak dapat menemukan akun yang telah ada yang sesuai dengan email Anda untuk tim ini. Tim ini mungkin membutuhkan undangan dari pemilik tim untuk bergabung."
-  },
-  {
-    "id": "store.sql_user.demote_user_to_guest.user_update.app_error",
-    "translation": "Tidak dapat memperoleh kanal"
   },
   {
     "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
