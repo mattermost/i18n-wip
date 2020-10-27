@@ -7859,10 +7859,6 @@
     "translation": "یک عضو تیم با این شناسه از قبل وجود دارد."
   },
   {
-    "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
-    "translation": "کاربران بازیابی نشدند."
-  },
-  {
     "id": "store.sql_user.get.app_error",
     "translation": "در پیدا کردن حساب خطایی روی داد."
   },
@@ -7871,24 +7867,12 @@
     "translation": "یافتن یک حساب موجود منطبق با اعتبار شما امکان پذیر نیست. این تیم ممکن است برای عضویت به دعوت مالک تیم احتیاج داشته باشد."
   },
   {
-    "id": "store.sql_user.get_system_install_date.app_error",
-    "translation": "بر اساس اولین تاریخ ایجاد کاربر ، نمی توان تاریخ سیستم را استنباط کرد."
-  },
-  {
     "id": "store.sql_user.permanent_delete.app_error",
     "translation": "حذف حساب موجود امکان پذیر نیست."
   },
   {
-    "id": "store.sql_user.save.existing.app_error",
-    "translation": "باید برای کاربر موجود به روزرسانی شود."
-  },
-  {
     "id": "store.sql_user.update.email_taken.app_error",
     "translation": "این ایمیل قبلا گرفته شده است. لطفاً دیگری را انتخاب کنید."
-  },
-  {
-    "id": "store.sql_user.update_auth_data.email_exists.app_error",
-    "translation": "تغییر حساب به {{.Service}} امکان پذیر نیست. حسابی با استفاده از ایمیل {{.Email}} از قبل وجود دارد."
   },
   {
     "id": "store.update_error",
