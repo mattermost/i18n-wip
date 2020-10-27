@@ -7859,96 +7859,48 @@
     "translation": "یک عضو تیم با این شناسه از قبل وجود دارد."
   },
   {
-    "id": "store.sql_user.analytics_get_external_users.app_error",
-    "translation": "ما نمی توانیم کاربران را با ایمیل های غیر دامنه محلی محاسبه کنیم"
-  },
-  {
     "id": "store.sql_user.analytics_get_system_admin_count.app_error",
     "translation": "شمارش سرپرست سیستم امکان پذیر نیست."
-  },
-  {
-    "id": "store.sql_user.clear_all_custom_role_assignments.commit_transaction.app_error",
-    "translation": "انجام معامله پایگاه داده انجام نشد."
   },
   {
     "id": "store.sql_user.clear_all_custom_role_assignments.select.app_error",
     "translation": "کاربران بازیابی نشدند."
   },
   {
-    "id": "store.sql_user.count.app_error",
-    "translation": "گزینه های تعداد کاربر معنی ندارد."
-  },
-  {
     "id": "store.sql_user.demote_user_to_guest.commit_transaction.app_error",
     "translation": "انجام معامله پایگاه داده انجام نشد."
-  },
-  {
-    "id": "store.sql_user.demote_user_to_guest.team_members_update.app_error",
-    "translation": "عضویت در تیم های کاربر به روز نشد."
   },
   {
     "id": "store.sql_user.get.app_error",
     "translation": "در پیدا کردن حساب خطایی روی داد."
   },
   {
-    "id": "store.sql_user.get_by_auth.other.app_error",
-    "translation": "هنگام تلاش برای یافتن حساب با نوع تأیید اعتبار خطایی روی داد."
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "یافتن یک حساب موجود منطبق با اعتبار شما امکان پذیر نیست. این تیم ممکن است برای عضویت به دعوت مالک تیم احتیاج داشته باشد."
-  },
-  {
-    "id": "store.sql_user.get_known_users.get_users.app_error",
-    "translation": "نمی توان کاربران را از پایگاه داده شناخت."
   },
   {
     "id": "store.sql_user.get_profile_by_group_channel_ids_for_user.app_error",
     "translation": "هنگام یافتن نمایه های کاربر با خطایی روبرو شدیم."
   },
   {
-    "id": "store.sql_user.get_recently_active_users.app_error",
-    "translation": "هنگام یافتن کاربران اخیراً فعال ، با خطایی روبرو شدیم."
-  },
-  {
     "id": "store.sql_user.get_system_install_date.app_error",
     "translation": "بر اساس اولین تاریخ ایجاد کاربر ، نمی توان تاریخ سیستم را استنباط کرد."
-  },
-  {
-    "id": "store.sql_user.get_unread_count.app_error",
-    "translation": "ما نتوانستیم تعداد پیام های خوانده نشده را برای کاربر دریافت کنیم."
   },
   {
     "id": "store.sql_user.get_users_batch_for_indexing.get_channel_members.app_error",
     "translation": "نمی توان اعضای کانال را برای دسته بندی کاربران برای ایندکس سازی دریافت کرد."
   },
   {
-    "id": "store.sql_user.get_users_batch_for_indexing.get_users.app_error",
-    "translation": "نمی توان دسته بندی کاربران را برای ایندکس سازی انجام داد."
-  },
-  {
     "id": "store.sql_user.permanent_delete.app_error",
     "translation": "حذف حساب موجود امکان پذیر نیست."
-  },
-  {
-    "id": "store.sql_user.promote_guest.commit_transaction.app_error",
-    "translation": "انجام معامله پایگاه داده انجام نشد."
   },
   {
     "id": "store.sql_user.promote_guest.team_members_update.app_error",
     "translation": "عضویت در تیم های کاربر به روز نشد."
   },
   {
-    "id": "store.sql_user.save.app_error",
-    "translation": "ذخیره حساب امکان پذیر نیست."
-  },
-  {
     "id": "store.sql_user.save.existing.app_error",
     "translation": "باید برای کاربر موجود به روزرسانی شود."
-  },
-  {
-    "id": "store.sql_user.search.app_error",
-    "translation": "یافتن هیچ کاربری مطابق با پارامترهای جستجو امکان پذیر نیست."
   },
   {
     "id": "store.sql_user.update.can_not_change_ldap.app_error",
@@ -7959,32 +7911,16 @@
     "translation": "این ایمیل قبلا گرفته شده است. لطفاً دیگری را انتخاب کنید."
   },
   {
-    "id": "store.sql_user.update.finding.app_error",
-    "translation": "در پیدا کردن حساب خطایی روی داد."
-  },
-  {
     "id": "store.sql_user.update.username_taken.app_error",
     "translation": "این نام کاربری قبلاً گرفته شده است. لطفاً یکی دیگر را انتخاب کنید."
-  },
-  {
-    "id": "store.sql_user.update_active_for_multiple_users.updating.app_error",
-    "translation": "غیرفعال کردن مهمانها امکان پذیر نیست."
   },
   {
     "id": "store.sql_user.update_auth_data.email_exists.app_error",
     "translation": "تغییر حساب به {{.Service}} امکان پذیر نیست. حسابی با استفاده از ایمیل {{.Email}} از قبل وجود دارد."
   },
   {
-    "id": "store.sql_user.update_last_picture_update.app_error",
-    "translation": "به روزرسانی updated_at امکان پذیر نیست."
-  },
-  {
     "id": "store.sql_user.update_mfa_secret.app_error",
     "translation": "در به روزرسانی راز MFA کاربر با خطایی روبرو شد."
-  },
-  {
-    "id": "store.sql_user.update_update.app_error",
-    "translation": "نمی توان تاریخ آخرین به روزرسانی کاربر را به روز کرد."
   },
   {
     "id": "store.update_error",
