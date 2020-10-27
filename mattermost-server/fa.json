@@ -7859,16 +7859,8 @@
     "translation": "یک عضو تیم با این شناسه از قبل وجود دارد."
   },
   {
-    "id": "store.sql_user.get.app_error",
-    "translation": "در پیدا کردن حساب خطایی روی داد."
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "یافتن یک حساب موجود منطبق با اعتبار شما امکان پذیر نیست. این تیم ممکن است برای عضویت به دعوت مالک تیم احتیاج داشته باشد."
-  },
-  {
-    "id": "store.sql_user.permanent_delete.app_error",
-    "translation": "حذف حساب موجود امکان پذیر نیست."
   },
   {
     "id": "store.sql_user.update.email_taken.app_error",
