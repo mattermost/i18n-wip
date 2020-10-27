@@ -6913,5 +6913,9 @@
   {
     "id": "api.file.new_backend.s3.app_error",
     "translation": "Ett problem uppstod vid start av anslutningen till S3."
+  },
+  {
+    "id": "api.file.append_file.s3.app_error",
+    "translation": "Ett fel uppstod vid läsning av en fil i S3."
   }
 ]
