@@ -238,6 +238,7 @@
   "admin.billing.history.title": "Historial de facturación",
   "admin.billing.history.total": "Total",
   "admin.billing.history.transactions": "Transaccións",
+  "admin.billing.history.usersAndRates": "{fullUsers} usuarios a tarifa completa, {partialUsers} usuarios con cargos parciais",
   "admin.billing.payment_info.add": "Engadir unha tarxeta de crédito",
   "admin.billing.payment_info.billingAddress": "Enderezo de facturación",
   "admin.billing.payment_info.cardBrandAndDigits": "{brand} rematando en {digits}",
