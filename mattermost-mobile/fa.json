@@ -32,5 +32,8 @@
   "mobile.reset_status.alert_cancel": "انصراف",
   "mobile.post.cancel": "انصراف",
   "mobile.post_textbox.entire_channel.cancel": "انصراف",
-  "mobile.alert_dialog.alertCancel": "انصراف"
+  "mobile.alert_dialog.alertCancel": "انصراف",
+  "login.or": "یا",
+  "mobile.share_extension.too_long_title": "پیام خیلی طولانی است",
+  "post_info.system": "سیستم"
 }
