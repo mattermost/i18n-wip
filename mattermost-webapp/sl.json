@@ -1118,8 +1118,6 @@
   "search_bar.search": "Išči",
   "search_bar.usage.title": "Možnosti iskanja",
   "search_header.loading": "Iskanje ...",
-  "search_header.results": "Zadetki iskanja",
-  "search_header.title2": "Nedavne omembe",
   "search_item.channelArchived": "Arhivirano",
   "search_item.direct": "Neposredno sporočilo (z {username})",
   "search_results.usage.dataRetention": "Vrnejo se samo sporočila, objavljena v zadnjih {days} dneh. Za več podrobnosti se obrnite na skrbnika sistema.",

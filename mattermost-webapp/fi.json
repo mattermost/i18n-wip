@@ -1554,8 +1554,6 @@
   "search_bar.search": "Etsi",
   "search_bar.usage.title": "Hakuvalinnat",
   "search_header.loading": "Etsitään...",
-  "search_header.results": "Hakutulokset",
-  "search_header.title2": "Viimeaikaiset maininnat",
   "search_item.channelArchived": "Arkistoidut",
   "search_item.direct": "Suoraviesti (käyttäjän {username} kanssa)",
   "select_team.private.icon": "Yksityinen tiimi",
