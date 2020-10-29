@@ -189,7 +189,7 @@
   },
   {
     "id": "app.user_terms_of_service.delete.app_error",
-    "translation": "Det gick inte att radera användarvillkoren."
+    "translation": "Det gick inte att radera användningsvillkoren."
   },
   {
     "id": "store.sql_user.update.email_taken.app_error",
@@ -201,7 +201,7 @@
   },
   {
     "id": "app.terms_of_service.create.existing.app_error",
-    "translation": "Kan inte anropa spara för befintliga användarvillkor."
+    "translation": "Kan inte anropa spara för befintliga användningsvillkor."
   },
   {
     "id": "store.sql_post.search.disabled",
@@ -465,7 +465,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLab's användarvillkor har uppdaterats. Logga in på gitlab.com för att acceptera dem och logga sedan in i Mattermost igen."
+    "translation": "GitLab's användningsvillkor har uppdaterats. Logga in på gitlab.com för att acceptera dem och logga sedan in i Mattermost igen."
   },
   {
     "id": "model.websocket_client.connect_fail.app_error",
@@ -4937,7 +4937,7 @@
   },
   {
     "id": "api.create_terms_of_service.empty_text.app_error",
-    "translation": "Skriv in text för Allmänna tjänstevillkor."
+    "translation": "Skriv in text för anpassade användningsvillkor."
   },
   {
     "id": "api.create_terms_of_service.custom_terms_of_service_disabled.app_error",
@@ -6512,7 +6512,7 @@
   },
   {
     "id": "api.team.invite_members.limit_reached.app_error",
-    "translation": "Du har nått användarnivågränsen för den kostnadsfria versionen"
+    "translation": "Du har nått gränsen för antal användare i den kostnadsfria versionen"
   },
   {
     "id": "app.channel.get_channels_by_ids.not_found.app_error",
@@ -7013,5 +7013,817 @@
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
     "translation": "Din Mattermostinstallation har nu fler än 100 användare. När användarbasen växer kan kontoskapande vara tidskrävande. Vi rekommenderar att integrera din organisations Active Directory/LDAP med Mattermost så att alla med ett konto får tillgång till Mattermost.\n\n[Läs mer om integration med AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nGenom att klicka på Kontakta oss kommer du dela information med Mattermost Inc. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "ent.elasticsearch.delete_user_posts.error",
+    "translation": "Kunde inte radera användarens meddelanden"
+  },
+  {
+    "id": "ent.elasticsearch.delete_channel_posts.error",
+    "translation": "Kunde inte radera kanalmeddelanden"
+  },
+  {
+    "id": "ent.compliance.csv.warning.appError",
+    "translation": "Kunde inte skapa varningsfilen."
+  },
+  {
+    "id": "ent.compliance.csv.metadata.json.zipfile.appError",
+    "translation": "Kunde inte skapa zip-filen"
+  },
+  {
+    "id": "ent.cluster.timeout.error",
+    "translation": "Timeout vid väntan på svar från kluster"
+  },
+  {
+    "id": "ent.cluster.model.client.connecting.app_error",
+    "translation": "Ett fel uppstod vid anslutning till servern."
+  },
+  {
+    "id": "ent.cluster.404.app_error",
+    "translation": "Kluster-API endpoint hittades inte."
+  },
+  {
+    "id": "ent.cloud.request_error",
+    "translation": "Fel när anrop till CWS bearbetades"
+  },
+  {
+    "id": "ent.cloud.json_encode.error",
+    "translation": "Interna fel avbröt anrop till CWS"
+  },
+  {
+    "id": "ent.cloud.authentication_failed",
+    "translation": "Kunde inte autentisera med CWS"
+  },
+  {
+    "id": "ent.api.post.send_notifications_and_forget.push_image_only",
+    "translation": " bifogade en fil."
+  },
+  {
+    "id": "ent.actiance.export.marshalToXml.appError",
+    "translation": "Kunde inte konvertera exporten till XML."
+  },
+  {
+    "id": "bleveengine.search_users_in_team.error",
+    "translation": "Användarsök slutfördes felaktigt."
+  },
+  {
+    "id": "bleveengine.search_users_in_channel.uchan.error",
+    "translation": "Användarsök slutfördes felaktigt."
+  },
+  {
+    "id": "bleveengine.search_users_in_channel.nuchan.error",
+    "translation": "Användarsök slutfördes felaktigt."
+  },
+  {
+    "id": "bleveengine.search_posts.error",
+    "translation": "Meddelandesök slutfördes felaktigt."
+  },
+  {
+    "id": "bleveengine.search_channels.error",
+    "translation": "Kanalsök slutfördes felaktigt."
+  },
+  {
+    "id": "bleveengine.indexer.index_batch.nothing_left_to_index.error",
+    "translation": "Försöker indexera en ny batch när alla objekt är klara."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.parse_start_time.error",
+    "translation": "Bleve:s indexeringsjobb kunde inte tolka starttiden."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.parse_end_time.error",
+    "translation": "Bleve:s indexeringsjobb kunde inte tolka sluttiden."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.get_oldest_post.error",
+    "translation": "Det äldsta meddelandet kunde inte hämtas från databasen."
+  },
+  {
+    "id": "bleveengine.index_user.error",
+    "translation": "Misslyckades att indexera användaren."
+  },
+  {
+    "id": "bleveengine.index_post.error",
+    "translation": "Misslyckades att indexera meddelandet."
+  },
+  {
+    "id": "bleveengine.index_channel.error",
+    "translation": "Misslyckades att indexera kanalen."
+  },
+  {
+    "id": "bleveengine.delete_user_posts.error",
+    "translation": "Misslyckades att radera användarens meddelande"
+  },
+  {
+    "id": "bleveengine.delete_user.error",
+    "translation": "Misslyckades att radera användaren."
+  },
+  {
+    "id": "bleveengine.delete_post.error",
+    "translation": "Misslyckades att radera meddelandet."
+  },
+  {
+    "id": "bleveengine.delete_channel_posts.error",
+    "translation": "Misslyckades att radera kanalens meddelande"
+  },
+  {
+    "id": "bleveengine.delete_channel.error",
+    "translation": "Misslyckades att radera kanalen."
+  },
+  {
+    "id": "app.webhooks.update_outgoing.app_error",
+    "translation": "Kunde inte uppdatera webhooken."
+  },
+  {
+    "id": "app.webhooks.update_incoming.app_error",
+    "translation": "Kunde inte uppdatera den inkommande webhooken."
+  },
+  {
+    "id": "app.webhooks.save_outgoing.override.app_error",
+    "translation": "Det går inte att skriva över en befintlig utgående webhooken."
+  },
+  {
+    "id": "app.webhooks.save_outgoing.app_error",
+    "translation": "Kunde inte spara den utgående webhooken."
+  },
+  {
+    "id": "app.webhooks.save_incoming.existing.app_error",
+    "translation": "Det går inte att skriva över en befintlig inkommande webhooken."
+  },
+  {
+    "id": "app.webhooks.save_incoming.app_error",
+    "translation": "Kunde inte spara den inkommande webhooken."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_user.app_error",
+    "translation": "Kunde inte radera webhooken."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_channel.app_error",
+    "translation": "Kunde inte radera webhooken."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_user.app_error",
+    "translation": "Kunde inte radera webhooken."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_channel.app_error",
+    "translation": "Kunde inte radera webhooken."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_team.app_error",
+    "translation": "Kunde inte ta fram webhooken."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_channel.app_error",
+    "translation": "Kunde inte ta fram webhooken."
+  },
+  {
+    "id": "app.webhooks.get_outgoing.app_error",
+    "translation": "Kunde inte ta fram webhooken."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_user.app_error",
+    "translation": "Kunde inte ta fram webhooken."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_channel.app_error",
+    "translation": "Kunde inte ta fram webhooken."
+  },
+  {
+    "id": "app.webhooks.get_incoming.app_error",
+    "translation": "Kunde inte ta fram webhooken."
+  },
+  {
+    "id": "app.webhooks.delete_outgoing.app_error",
+    "translation": "Kunde inte radera webhooken."
+  },
+  {
+    "id": "app.webhooks.delete_incoming.app_error",
+    "translation": "Kunde inte radera webhooken."
+  },
+  {
+    "id": "app.webhooks.analytics_outgoing_count.app_error",
+    "translation": "Kunde inte räkna antalet utgående webhooks."
+  },
+  {
+    "id": "app.webhooks.analytics_incoming_count.app_error",
+    "translation": "Kunde inte räkna antalet inkommande webhooks."
+  },
+  {
+    "id": "app.user_access_token.update_token_enable.app_error",
+    "translation": "Kunde inte aktivera token."
+  },
+  {
+    "id": "app.user_access_token.update_token_disable.app_error",
+    "translation": "Kunde inte inaktivera token."
+  },
+  {
+    "id": "app.user_access_token.save.app_error",
+    "translation": "Kunde inte spara personligt token."
+  },
+  {
+    "id": "app.user_access_token.get_by_user.app_error",
+    "translation": "Kunde inte ta fram personliga tokens utifrån användare."
+  },
+  {
+    "id": "app.user_access_token.get_all.app_error",
+    "translation": "Kunde inte ta fram alla personliga tokens."
+  },
+  {
+    "id": "app.user_access_token.delete.app_error",
+    "translation": "Kunde inte radera personligt token."
+  },
+  {
+    "id": "app.user.convert_bot_to_user.app_error",
+    "translation": "Kunde inte konvertera bot:en till en användare."
+  },
+  {
+    "id": "app.upload.upload_data.update.app_error",
+    "translation": "Kunde inte uppdatera uppladdningssessionen."
+  },
+  {
+    "id": "app.upload.upload_data.save.app_error",
+    "translation": "Kunde inte spara filinformation."
+  },
+  {
+    "id": "app.upload.upload_data.read_file.app_error",
+    "translation": "Kunde inte läsa filen."
+  },
+  {
+    "id": "app.upload.upload_data.large_image.app_error",
+    "translation": "{{.Filename}} storlek på ({{.Width}} x {{.Height}} pixel) överskrider gränsen."
+  },
+  {
+    "id": "app.upload.run_plugins_hook.rejected",
+    "translation": "Kunde inte ladda upp filen {{.Filename}}. Avvisad av plugin: {{.Reason}}"
+  },
+  {
+    "id": "app.upload.get_for_user.app_error",
+    "translation": "Kunde inte ta fram användarens uppladdningar."
+  },
+  {
+    "id": "app.upload.get.app_error",
+    "translation": "Kunde inte ta fram den uppladdade flen."
+  },
+  {
+    "id": "app.upload.create.upload_too_large.app_error",
+    "translation": "Kunde inte ladda upp. Filen är för stor."
+  },
+  {
+    "id": "app.upload.create.save.app_error",
+    "translation": "Misslyckades att spara det uppladdade."
+  },
+  {
+    "id": "app.upload.create.incorrect_channel_id.app_error",
+    "translation": "Kan inte ladda upp till angiven kanal."
+  },
+  {
+    "id": "app.upload.create.cannot_upload_to_deleted_channel.app_error",
+    "translation": "Kan inte ladda upp till en raderad kanal."
+  },
+  {
+    "id": "app.team.user_belongs_to_teams.app_error",
+    "translation": "Kunde inte utröna om användaren tillhör listan av team."
+  },
+  {
+    "id": "app.team.update.find.app_error",
+    "translation": "Kunde inte hitta befintligt team att uppdatera."
+  },
+  {
+    "id": "app.team.save_member.save.app_error",
+    "translation": "Kunde inte spara teammedlemmen."
+  },
+  {
+    "id": "app.team.save.existing.app_error",
+    "translation": "Måste anropa update för redan existerande team."
+  },
+  {
+    "id": "app.team.save.app_error",
+    "translation": "Kunde inte spara teamet."
+  },
+  {
+    "id": "app.team.reset_all_team_schemes.app_error",
+    "translation": "Det gick inte att återställa teamets schema."
+  },
+  {
+    "id": "app.team.remove_member.app_error",
+    "translation": "Kunde inte radera teammedlemmen."
+  },
+  {
+    "id": "app.team.permanent_delete.app_error",
+    "translation": "Kunde inte radera befintligt team."
+  },
+  {
+    "id": "app.team.migrate_team_members.update.app_error",
+    "translation": "Misslyckades att uppdatera teammedlemmen."
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.app_error",
+    "translation": "Kunde inte skapa teammedlemsskapet"
+  },
+  {
+    "id": "app.team.get_user_team_ids.app_error",
+    "translation": "Kunde inte ta fram listan med användarens team."
+  },
+  {
+    "id": "app.team.get_unread.app_error",
+    "translation": "Kunde inte ta fram olästa meddelanden i teamet."
+  },
+  {
+    "id": "app.team.get_members_by_ids.app_error",
+    "translation": "Kunde inte ta fram teammedlemmarna."
+  },
+  {
+    "id": "app.team.get_members.app_error",
+    "translation": "Kunde inte ta fram teammedlemmarna."
+  },
+  {
+    "id": "app.team.get_member_count.app_error",
+    "translation": "Kunde inte räkan antal teammedlemmar."
+  },
+  {
+    "id": "app.team.get_member.missing.app_error",
+    "translation": "Ingen teammedlem hittad med angivet user ID och team ID."
+  },
+  {
+    "id": "app.team.get_member.app_error",
+    "translation": "Kunde inte ta fram teammedlemmar."
+  },
+  {
+    "id": "app.team.get_by_scheme.app_error",
+    "translation": "Kunde inte hitta kanaler med bifogat schema."
+  },
+  {
+    "id": "app.team.get_by_name.missing.app_error",
+    "translation": "Kunde inte hitta befintligt team."
+  },
+  {
+    "id": "app.team.get_by_name.app_error",
+    "translation": "Kunde inte hitta befintligt team."
+  },
+  {
+    "id": "app.team.get_by_invite_id.finding.app_error",
+    "translation": "Kunde inte hitta befintligt team."
+  },
+  {
+    "id": "app.team.get_all_team_listing.app_error",
+    "translation": "Det gick inte att ta fram alla team."
+  },
+  {
+    "id": "app.team.get_all.app_error",
+    "translation": "Det gick inte att ta fram alla team."
+  },
+  {
+    "id": "app.team.get_active_member_count.app_error",
+    "translation": "Kunde inte räkna antal teammedlemmar."
+  },
+  {
+    "id": "app.team.get.finding.app_error",
+    "translation": "Ett fel uppstod när teamet eftersöktes."
+  },
+  {
+    "id": "app.team.get.find.app_error",
+    "translation": "Kunde inte hitta existerande team."
+  },
+  {
+    "id": "app.team.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Misslyckades att hämta teamets medlemmar."
+  },
+  {
+    "id": "app.team.analytics_team_count.app_error",
+    "translation": "Kan inte räkna antal team."
+  },
+  {
+    "id": "app.team.analytics_public_team_count.app_error",
+    "translation": "Kunde inte räkna antal publika team."
+  },
+  {
+    "id": "app.team.analytics_private_team_count.app_error",
+    "translation": "Kunde inte räkna antal privata team."
+  },
+  {
+    "id": "app.system.warn_metric.store.app_error",
+    "translation": "Misslyckades spara värdet för {{.WarnMetricName}}"
+  },
+  {
+    "id": "app.system.warn_metric.notification.empty_admin_list.app_error",
+    "translation": "Listan med administratörer är tom."
+  },
+  {
+    "id": "app.system.warn_metric.bot_description",
+    "translation": "[Läs mer om Mattermost Advisor](https://about.mattermost.com/default-channel-handle-documentation)"
+  },
+  {
+    "id": "app.system.save.app_error",
+    "translation": "Ett fel uppstod när systemparametern skulle sparas."
+  },
+  {
+    "id": "app.system.get_by_name.app_error",
+    "translation": "Kunde inte hitta systemvariabeln."
+  },
+  {
+    "id": "app.session.update_device_id.app_error",
+    "translation": "Kunde inte uppdatera device-id."
+  },
+  {
+    "id": "app.session.save.existing.app_error",
+    "translation": "Kunde inte uppdatera befintlig session."
+  },
+  {
+    "id": "app.session.save.app_error",
+    "translation": "Kunde inte spara sessionen."
+  },
+  {
+    "id": "app.session.remove_all_sessions_for_team.app_error",
+    "translation": "Kunde inte radera alla sessioner."
+  },
+  {
+    "id": "app.session.remove.app_error",
+    "translation": "Kunde inte radera sessionen."
+  },
+  {
+    "id": "app.session.permanent_delete_sessions_by_user.app_error",
+    "translation": "Det gick inte att radera användarens alla sessioner."
+  },
+  {
+    "id": "app.session.get_sessions.app_error",
+    "translation": "Det uppstod ett fel när användarsessionen skulle hittas."
+  },
+  {
+    "id": "app.session.get.app_error",
+    "translation": "Det uppstod ett fel när sessionen skulle hittas."
+  },
+  {
+    "id": "app.session.analytics_session_count.app_error",
+    "translation": "Kunde inte räkna alla sessioner."
+  },
+  {
+    "id": "app.scheme.save.invalid_scheme.app_error",
+    "translation": "Det bifogade schemat är ogiltigt."
+  },
+  {
+    "id": "app.role.save.invalid_role.app_error",
+    "translation": "Rollen var inte giltig."
+  },
+  {
+    "id": "app.role.save.insert.app_error",
+    "translation": "Kunde inte spara ny roll."
+  },
+  {
+    "id": "app.role.permanent_delete_all.app_error",
+    "translation": "Det gick inte att radera alla roller."
+  },
+  {
+    "id": "app.role.get_all.app_error",
+    "translation": "Kunde inte ta fram alla roller."
+  },
+  {
+    "id": "app.recover.save.app_error",
+    "translation": "Kunde inte spara token."
+  },
+  {
+    "id": "app.preference.save.updating.app_error",
+    "translation": "Ett fel uppstod när inställningar uppdaterades."
+  },
+  {
+    "id": "app.preference.permanent_delete_by_user.app_error",
+    "translation": "Ett fel uppstod när inställningar raderades.."
+  },
+  {
+    "id": "app.preference.get_category.app_error",
+    "translation": "Ett fel uppstod när inställningar hämtades."
+  },
+  {
+    "id": "app.preference.get_all.app_error",
+    "translation": "Ett fel uppstod när inställningar hämtades."
+  },
+  {
+    "id": "app.preference.get.app_error",
+    "translation": "Ett fel uppstod när inställningar hämtades."
+  },
+  {
+    "id": "app.post.overwrite.app_error",
+    "translation": "Kunde inte skriva över meddelandet."
+  },
+  {
+    "id": "app.post.get_root_posts.app_error",
+    "translation": "Kunde inte ta fram kanalens meddelanden."
+  },
+  {
+    "id": "app.post.get_posts_created_at.app_error",
+    "translation": "Kunde inte ta fram kanalens meddelanden."
+  },
+  {
+    "id": "app.post.get_posts_batch_for_indexing.get.app_error",
+    "translation": "Kunde inte ta fram batchen av meddelanden för indexering."
+  },
+  {
+    "id": "app.post.get_posts.app_error",
+    "translation": "Gränsen för paginering nådd."
+  },
+  {
+    "id": "app.post.get_direct_posts.app_error",
+    "translation": "Kunde inte ta fram direktmeddelanden."
+  },
+  {
+    "id": "app.post.analytics_user_counts_posts_by_day.app_error",
+    "translation": "Kunde inte ta fram antal användare med meddelanden."
+  },
+  {
+    "id": "app.post.analytics_posts_count_by_day.app_error",
+    "translation": "Kunde inte ta fram antal meddelanden per dag."
+  },
+  {
+    "id": "app.post.analytics_posts_count.app_error",
+    "translation": "Kunde inte ta fram antal meddelanden."
+  },
+  {
+    "id": "app.command.tryexecutecustomcommand.internal_error",
+    "translation": "Kunde inte utföra det anpassade kommandot."
+  },
+  {
+    "id": "app.command.regencommandtoken.internal_error",
+    "translation": "Kunde inte förnya token för kommandorad."
+  },
+  {
+    "id": "app.channel.user_belongs_to_channels.app_error",
+    "translation": "Kunde inte utröna om användaren hör till en lista av kanaler."
+  },
+  {
+    "id": "app.channel.update_last_viewed_at.app_error",
+    "translation": "Kunde inte uppdatera tiden i senast visad."
+  },
+  {
+    "id": "app.channel.sidebar_categories.app_error",
+    "translation": "Misslyckades med insert i databasen."
+  },
+  {
+    "id": "app.channel.search.app_error",
+    "translation": "Det uppstod ett fel vid sökning av kanaler."
+  },
+  {
+    "id": "app.channel.reset_all_channel_schemes.app_error",
+    "translation": "Det går inte att återställa kanalens schema."
+  },
+  {
+    "id": "app.channel.remove_member.app_error",
+    "translation": "Kunde inte radera kanalmedlemmen."
+  },
+  {
+    "id": "app.channel.remove_all_deactivated_members.app_error",
+    "translation": "Det gick inte att radera de avaktiverade medlemmarna från kanalen."
+  },
+  {
+    "id": "app.channel.pinned_posts.app_error",
+    "translation": "Kunde inte hitta det nålade meddelandet."
+  },
+  {
+    "id": "app.channel.permanent_delete_members_by_user.app_error",
+    "translation": "Kunde inte radera kanalmedlemmen."
+  },
+  {
+    "id": "app.channel.migrate_channel_members.select.app_error",
+    "translation": "Misslyckades att ta fram batchen med kanalmedlemmar."
+  },
+  {
+    "id": "app.channel.increment_mention_count.app_error",
+    "translation": "Kunde inte öka värdet för antal omnämnanden."
+  },
+  {
+    "id": "app.channel.get_unread.app_error",
+    "translation": "Kunde inte ta fram olästa meddelanden i kanalen."
+  },
+  {
+    "id": "app.channel.get_pinnedpost_count.app_error",
+    "translation": "Kunde inte ta fram antal nålade meddelanden."
+  },
+  {
+    "id": "app.channel.get_members_by_ids.app_error",
+    "translation": "Kunde inte ta fram kanalens medlemmar."
+  },
+  {
+    "id": "app.channel.get_members.app_error",
+    "translation": "Kunde inte ta fram kanalens medlemmar."
+  },
+  {
+    "id": "app.channel.get_member_count.app_error",
+    "translation": "Kunde inte ta fram antal kanalmedlemmar."
+  },
+  {
+    "id": "app.channel.get_member.missing.app_error",
+    "translation": "Ingen kanalmedlem hittad med angivet user ID och channel ID"
+  },
+  {
+    "id": "app.channel.get_member.app_error",
+    "translation": "Kunde inte ta fram kanalens medlemmar."
+  },
+  {
+    "id": "app.channel.get_by_scheme.app_error",
+    "translation": "Kunde inte få fram kanaler för angivet schema."
+  },
+  {
+    "id": "app.channel.get_all_direct.app_error",
+    "translation": "Kunde inte få fram alla direktkanaler."
+  },
+  {
+    "id": "app.channel.get_all.app_error",
+    "translation": "Kunde inte få fram alla kanaler."
+  },
+  {
+    "id": "app.channel.count_posts_since.app_error",
+    "translation": "Kunde inte räkna antal meddelanden sedan angivet datum."
+  },
+  {
+    "id": "app.channel.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Misslyckades att hämta kanalmedlemmar."
+  },
+  {
+    "id": "app.channel.autofollow.app_error",
+    "translation": "Misslyckades att uppdatera trådmedlemskap för omnämnd användare"
+  },
+  {
+    "id": "app.channel.analytics_type_count.app_error",
+    "translation": "Kunde inte få fram antal kanaler per typ."
+  },
+  {
+    "id": "app.user_terms_of_service.save.app_error",
+    "translation": "Kunde inte spara användningsvillkor."
+  },
+  {
+    "id": "app.user_terms_of_service.get_by_user.no_rows.app_error",
+    "translation": "Inga användningsvillkor hittade."
+  },
+  {
+    "id": "app.user_terms_of_service.get_by_user.app_error",
+    "translation": "Kunde inte hämta användningsvillkor."
+  },
+  {
+    "id": "app.terms_of_service.get.no_rows.app_error",
+    "translation": "Inga användningsvillkor hittade."
+  },
+  {
+    "id": "app.terms_of_service.get.app_error",
+    "translation": "Kunde inte hämta användningsvillkor."
+  },
+  {
+    "id": "app.terms_of_service.create.app_error",
+    "translation": "Kunde inte spara användningsvillkor."
+  },
+  {
+    "id": "app.upload.run_plugins_hook.move_fail",
+    "translation": "Misslyckades att flytta filen."
+  },
+  {
+    "id": "app.user_access_token.invalid_or_missing",
+    "translation": "Token felaktigt eller saknas."
+  },
+  {
+    "id": "app.user.permanentdeleteuser.internal_error",
+    "translation": "Kan inte radera användare."
+  },
+  {
+    "id": "app.team.permanentdeleteteam.internal_error",
+    "translation": "Kan inte radera team."
+  },
+  {
+    "id": "app.system.warn_metric.notification.invalid_metric.app_error",
+    "translation": "Kunde inte hitta mätdata."
+  },
+  {
+    "id": "app.system.warn_metric.bot_displayname",
+    "translation": "Mattermost Advisor"
+  },
+  {
+    "id": "app.role.get_by_names.app_error",
+    "translation": "Kunde inte hämta roller."
+  },
+  {
+    "id": "app.role.get_by_name.app_error",
+    "translation": "Kunde inte hämta roll."
+  },
+  {
+    "id": "app.role.get.app_error",
+    "translation": "Kunde inte hämta roll."
+  },
+  {
+    "id": "app.recover.delete.app_error",
+    "translation": "Kunde inte radera token."
+  },
+  {
+    "id": "app.post.search.app_error",
+    "translation": "Fel vid sökning efter meddelanden"
+  },
+  {
+    "id": "web.incoming_webhook.text.app_error",
+    "translation": "ingen text angiven."
+  },
+  {
+    "id": "web.incoming_webhook.parse.app_error",
+    "translation": "Kunde inte tolka inkommande data."
+  },
+  {
+    "id": "web.incoming_webhook.invalid.app_error",
+    "translation": "Felaktig webhook."
+  },
+  {
+    "id": "web.incoming_webhook.channel_locked.app_error",
+    "translation": "Denna webhook tillåts inte posta meddelanden i angiven kanal."
+  },
+  {
+    "id": "web.incoming_webhook.channel.app_error",
+    "translation": "Kunde inte hitta kanalen."
+  },
+  {
+    "id": "web.command_webhook.parse.app_error",
+    "translation": "Kunde inte tolka inkommande data."
+  },
+  {
+    "id": "web.command_webhook.command.app_error",
+    "translation": "Kan inte hitta kommandot."
+  },
+  {
+    "id": "utils.mail.send_mail.to_address.app_error",
+    "translation": "Fel när \"To Address\" skulle sättas."
+  },
+  {
+    "id": "utils.mail.send_mail.msg_data.app_error",
+    "translation": "Misslyckades att tillföra meddelandedatat till mejlet."
+  },
+  {
+    "id": "utils.mail.send_mail.msg.app_error",
+    "translation": "Misslyckades skriva mejl-meddelandet."
+  },
+  {
+    "id": "utils.mail.send_mail.close.app_error",
+    "translation": "Misslyckades avsluta kommunikationen med SMTP-servern."
+  },
+  {
+    "id": "utils.mail.new_client.auth.app_error",
+    "translation": "Misslyckad autentisering på SMTP-servern."
+  },
+  {
+    "id": "utils.mail.connect_smtp.open.app_error",
+    "translation": "Misslyckades att starta kommunikationen."
+  },
+  {
+    "id": "utils.mail.connect_smtp.open_tls.app_error",
+    "translation": "Misslyckades att starta TLS-kommunikationen."
+  },
+  {
+    "id": "utils.mail.connect_smtp.helo.app_error",
+    "translation": "Misslyckades sätta HELO."
+  },
+  {
+    "id": "store.sql_team.save_member.exists.app_error",
+    "translation": "En teammedlem med det ID finns redan."
+  },
+  {
+    "id": "store.sql_group.more_than_one_row_changed",
+    "translation": "Fler än en rad är ändrad."
+  },
+  {
+    "id": "store.sql_command.update.missing.app_error",
+    "translation": "Kommandot existerar inte."
+  },
+  {
+    "id": "store.sql_command.get.missing.app_error",
+    "translation": "Kommandot existerar inte."
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_type",
+    "translation": "Felaktigt Content-Type i multipart-uppladdningen."
+  },
+  {
+    "id": "api.upload.upload_data.multipart_error",
+    "translation": "Misslyckades att hantera datat i multipart."
+  },
+  {
+    "id": "api.templates.over_limit_info1",
+    "translation": "Det ser ut som om du har fler än 10 användare i din miljö och det är över gränsen för den kostnadsfria versionen av Mattermost Cloud Professional. För att undvika avbrott i din Mattermostmiljö bör du uppgradera."
+  },
+  {
+    "id": "api.templates.over_limit_title",
+    "translation": "Din miljö är över gränsen för antal användare i den kostnadsfria versionen"
+  },
+  {
+    "id": "api.templates.at_limit_title",
+    "translation": "Du har nått gränsen för antal användare i den kostnadsfria versionen "
+  },
+  {
+    "id": "api.templates.email_us_anytime_at",
+    "translation": "E-posta när som helst till "
+  },
+  {
+    "id": "api.templates.copyright",
+    "translation": "© 2017 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+  },
+  {
+    "id": "api.templates.at_limit_subject",
+    "translation": "Du har nått gränsen för antal användare i Mattermost Cloud"
+  },
+  {
+    "id": "api.templates.at_limit_info2",
+    "translation": "Alternativt kan du öppna upp möjligheter för nya användare och hålla dig under användargränsen genom att spärra konton via Administrationskonsolen."
   }
 ]
