@@ -90,5 +90,61 @@
   {
     "id": "api.context.invalid_token.error",
     "translation": "O testemuño de sesión {{.Token}} non é válido, err={{.Error}}"
+  },
+  {
+    "id": "api.team.leave.left",
+    "translation": "% v deixou o equipo."
+  },
+  {
+    "id": "api.command_leave.name",
+    "translation": "saír"
+  },
+  {
+    "id": "api.channel.leave.default.app_error",
+    "translation": "Non é posíbel saír da canle predeterminada {{.Channel}}."
+  },
+  {
+    "id": "app.channel_member_history.log_leave_event.internal_error",
+    "translation": "Produciuse un fallo ao gravar o historial de membros da canle. Non foi posíbel actualizar o rexistro de entrada existente"
+  },
+  {
+    "id": "api.command_leave.fail.app_error",
+    "translation": "Produciuse un erro ao saír da canle."
+  },
+  {
+    "id": "api.command_leave.desc",
+    "translation": "Sae da canle actual"
+  },
+  {
+    "id": "api.channel.post_user_add_remove_message_and_forget.error",
+    "translation": "Non foi posíbel publicar a mensaxe de entrar/saír"
+  },
+  {
+    "id": "api.channel.leave.direct.app_error",
+    "translation": "Non é posíbel saír dunha canle de mensaxe directa."
+  },
+  {
+    "id": "api.channel.leave.left",
+    "translation": "%v saíu da canle."
+  },
+  {
+    "id": "api.channel.leave.last_member.app_error",
+    "translation": "Vostede é o único membro que queda, tente eliminar a canle privada no canto de marchar."
+  },
+  {
+    "id": "api.reaction.town_square_read_only",
+    "translation": "Non é posible reaccionar ás publicacións nas canles de só lectura."
+  },
+  {
+    "id": "api.post.save_is_pinned_post.town_square_read_only",
+    "translation": "Esta canle é de só lectura. Só os membros con permiso poden fixar ou desprender publicacións aquí."
+  },
+  {
+    "id": "api.post.create_post.town_square_read_only",
+    "translation": "Esta canle é de só lectura. Só os membros con permiso poden publicar aquí."
+  },
+  {
+    "id": "api.channel.create_default_channels.town_square",
+    "translation": "Praza pública"
   }
 ]
