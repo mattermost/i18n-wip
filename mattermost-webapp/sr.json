@@ -413,8 +413,6 @@
   "rhs_header.closeSidebarTooltip": "Затвори",
   "search_bar.search": "Претрага",
   "search_header.loading": "Претражујем...",
-  "search_header.results": "Резултати претраге",
-  "search_header.title2": "Недавна спомињања",
   "shortcuts.msgs.edit": "Уреди последњу поруку на каналу:\tСтрелица нагоре",
   "shortcuts.msgs.reply": "Одговори на последњу поруку у каналу:\tShift|Up",
   "shortcuts.nav.direct_messages_menu": "Мени директних порука:\tCtrl|Shift|K",

@@ -360,8 +360,6 @@
   "rhs_thread.rootPostDeletedMessage.body": "यस थ्रेडको अंश डाटा रिटेन्सन नीतिका कारण हटाइएको छ। तपाईं अब यो सूत्रमा जवाफ दिन सक्नुहुन्न।",
   "save_button.save": "सेब",
   "search_bar.search": "खोज्नुहोस्",
-  "search_header.results": "खोज परिणामहरू",
-  "search_header.title2": "भर्खरका उल्लेख",
   "search_item.channelArchived": "अभिलेख राखियो",
   "setting_item_max.cancel": "क्यानसेल",
   "setting_item_min.edit": "सम्पादन गर्नुहोस्",
