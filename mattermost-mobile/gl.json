@@ -184,5 +184,6 @@
   "mobile.notification_settings_mobile.no_sound": "Ningún",
   "mobile.post_info.flag": "Gardar",
   "user.settings.modal.display": "Amosar",
-  "user.settings.modal.notifications": "Notificacións"
+  "user.settings.modal.notifications": "Notificacións",
+  "user.settings.display.custom_theme": "Tema personalizado"
 }
