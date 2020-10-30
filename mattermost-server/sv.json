@@ -209,7 +209,7 @@
   },
   {
     "id": "app.oauth.update_app.updating.app_error",
-    "translation": "Ett fel påträffades vid uppdatering av appen."
+    "translation": "Ett fel uppstod vid uppdatering av appen."
   },
   {
     "id": "app.oauth.update_app.find.app_error",
@@ -241,7 +241,7 @@
   },
   {
     "id": "app.oauth.get_app.finding.app_error",
-    "translation": "Ett fel påträffades när vi letade efter appen."
+    "translation": "Ett fel uppstod när vi letade efter appen."
   },
   {
     "id": "app.oauth.get_app.find.app_error",
@@ -289,7 +289,7 @@
   },
   {
     "id": "app.compliance.save.saving.app_error",
-    "translation": "Ett fel påträffades då efterlevnadskontrollrapporten skulle sparas."
+    "translation": "Ett fel uppstod då efterlevnadskontrollrapporten skulle sparas."
   },
   {
     "id": "ent.message_export.run_export.app_error",
@@ -297,7 +297,7 @@
   },
   {
     "id": "app.compliance.get.finding.app_error",
-    "translation": "Ett fel påträffades vid insamlandet av efterlevnadskontroll-rapporterna."
+    "translation": "Ett fel uppstod vid insamlandet av efterlevnadskontroll-rapporterna."
   },
   {
     "id": "app.command_webhook.try_use.internal_error",
@@ -385,7 +385,7 @@
   },
   {
     "id": "store.sql_channel.get.find.app_error",
-    "translation": "Ett fel påträffades vid sökning efter kanalen."
+    "translation": "Ett fel uppstod vid sökning efter kanalen."
   },
   {
     "id": "store.sql_channel.get.existing.app_error",
@@ -397,15 +397,15 @@
   },
   {
     "id": "app.audit.save.saving.app_error",
-    "translation": "Ett fel påträffades när audits sparades."
+    "translation": "Ett fel uppstod när audits sparades."
   },
   {
     "id": "app.audit.permanent_delete_by_user.app_error",
-    "translation": "Ett fel påträffades vid radering av audits."
+    "translation": "Ett fel uppstod vid radering av audits."
   },
   {
     "id": "app.audit.get.finding.app_error",
-    "translation": "Ett fel påträffades i sökandet efter audits."
+    "translation": "Ett fel uppstod i sökandet efter audits."
   },
   {
     "id": "store.sql.convert_string_map",
@@ -977,7 +977,7 @@
   },
   {
     "id": "model.group_syncable.type.app_error",
-    "translation": "felaktig typ-egenskap för synkroniseringsbar grupp."
+    "translation": "felaktig \"type\"-egenskap för synkroniseringsbar grupp."
   },
   {
     "id": "model.group_syncable.syncable_id.app_error",
@@ -993,7 +993,7 @@
   },
   {
     "id": "model.group_member.group_id.app_error",
-    "translation": "Felaktigt group-id-egenskap på gruppmedlemmen."
+    "translation": "Felaktigt \"group-id\"-egenskap på gruppmedlemmen."
   },
   {
     "id": "model.group.update_at.app_error",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "model.group.name.invalid_chars.app_error",
-    "translation": "otillåtna tecken i gruppens namn"
+    "translation": "otillåtna tecken i egenskapen name på gruppen"
   },
   {
     "id": "model.group.name.app_error",
@@ -1509,7 +1509,7 @@
   },
   {
     "id": "model.command.is_valid.autocomplete_data.app_error",
-    "translation": "Ogiltig autocomplete-data"
+    "translation": "Ogiltig autokompletteringsdata"
   },
   {
     "id": "model.cluster.is_valid.type.app_error",
@@ -4451,7 +4451,7 @@
   },
   {
     "id": "app.import.validate_team_import_data.display_name_missing.error",
-    "translation": "Obligatorisk gruppegenskap saknas: visningsnamn."
+    "translation": "Obligatorisk gruppegenskap saknas: display_name."
   },
   {
     "id": "app.import.validate_team_import_data.display_name_length.error",
@@ -6188,7 +6188,7 @@
   },
   {
     "id": "app.preference.delete.app_error",
-    "translation": "Vi stötte på ett fel när inställningar skulle raderas."
+    "translation": "Ett fel uppstod när inställningar skulle raderas."
   },
   {
     "id": "app.post.update.app_error",
@@ -6508,7 +6508,7 @@
   },
   {
     "id": "api.user.autocomplete_users.missing_team_id.app_error",
-    "translation": "Parametern Team id krävs för automatkomplettering per kanal."
+    "translation": "Parametern Team id krävs för autokomplettering per kanal."
   },
   {
     "id": "api.team.invite_members.limit_reached.app_error",
@@ -7448,11 +7448,11 @@
   },
   {
     "id": "app.session.get_sessions.app_error",
-    "translation": "Det uppstod ett fel när användarsessionen skulle hittas."
+    "translation": "Ett fel uppstod när användarsessionen skulle hittas."
   },
   {
     "id": "app.session.get.app_error",
-    "translation": "Det uppstod ett fel när sessionen skulle hittas."
+    "translation": "Ett fel uppstod när sessionen skulle hittas."
   },
   {
     "id": "app.session.analytics_session_count.app_error",
@@ -7560,7 +7560,7 @@
   },
   {
     "id": "app.channel.search.app_error",
-    "translation": "Det uppstod ett fel vid sökning av kanaler."
+    "translation": "Ett fel uppstod vid sökning av kanaler."
   },
   {
     "id": "app.channel.reset_all_channel_schemes.app_error",
@@ -7824,6 +7824,410 @@
   },
   {
     "id": "api.templates.at_limit_info2",
+    "translation": "Alternativt kan du öppna upp möjligheter för nya användare och hålla dig under användargränsen genom att spärra konton via Administrationskonsolen."
+  },
+  {
+    "id": "ent.jobs.do_job.batch_start_timestamp.parse_error",
+    "translation": "Kunde inte tolka värdet ExportFromTimestamp i export job."
+  },
+  {
+    "id": "ent.jobs.do_job.batch_size.parse_error",
+    "translation": "Kunde inte tolka värdet BatchSize i export job."
+  },
+  {
+    "id": "app.team.get_all_private_team_page_listing.app_error",
+    "translation": "Det gick inte att ta fram alla privata team på en sida."
+  },
+  {
+    "id": "app.system.permanent_delete_by_name.app_error",
+    "translation": "Det gick inte att radera systemtabellen."
+  },
+  {
+    "id": "app.system.get.app_error",
+    "translation": "Ett fel uppstod vid sökning efter systemparametern."
+  },
+  {
+    "id": "app.status.get.missing.app_error",
+    "translation": "Inget värde finns för status."
+  },
+  {
+    "id": "migrations.system.save.app_error",
+    "translation": "Ett fel uppstod när systemparametern skulle sparas."
+  },
+  {
+    "id": "ent.data_retention.reactions_batch.internal_error",
+    "translation": "Ett fel uppstod när batchen av reaktioner skulle raderas."
+  },
+  {
+    "id": "ent.data_retention.posts_permanent_delete_batch.internal_error",
+    "translation": "Ett fel uppstod när batchen av meddelanden skulle raderas."
+  },
+  {
+    "id": "ent.data_retention.flags_batch.internal_error",
+    "translation": "Ett fel uppstod när batchen av flaggor skulle rensas."
+  },
+  {
+    "id": "ent.data_retention.file_infos_batch.internal_error",
+    "translation": "Ett fel uppstod när batchen av filinformation skulle raderas."
+  },
+  {
+    "id": "app.user_access_token.search.app_error",
+    "translation": "Ett fel uppstod vid sökning efter användartokens."
+  },
+  {
+    "id": "app.user.update.finding.app_error",
+    "translation": "Ett fel uppstod vid sökning efter kontot."
+  },
+  {
+    "id": "app.user.get_recently_active_users.app_error",
+    "translation": "Ett fel uppstod vid sökning efter nyligen aktiva användare."
+  },
+  {
+    "id": "app.user.get_profiles.app_error",
+    "translation": "Ett fel uppstod vid sökning efter användarprofiler."
+  },
+  {
+    "id": "app.user.get_profile_by_group_channel_ids_for_user.app_error",
+    "translation": "Ett fel uppstod vid sökning efter användarprofiler."
+  },
+  {
+    "id": "app.user.get_new_users.app_error",
+    "translation": "Ett fel uppstod vid sökning efter nya användare."
+  },
+  {
+    "id": "app.user.get_by_auth.other.app_error",
+    "translation": "Ett fel uppstod vid sökning efter kontot utifrån autentiseringsmetod."
+  },
+  {
+    "id": "app.user.get.app_error",
+    "translation": "Ett fel uppstod vid sökning efter kontot."
+  },
+  {
+    "id": "app.team.update.updating.app_error",
+    "translation": "Ett fel uppstod vid uppdatering av teamet."
+  },
+  {
+    "id": "app.team.search_private_team.app_error",
+    "translation": "Ett fel uppstod vid sökning efter privata team."
+  },
+  {
+    "id": "app.team.search_open_team.app_error",
+    "translation": "Ett fel uppstod vid sökning efter öppna team."
+  },
+  {
+    "id": "app.team.search_all_team.app_error",
+    "translation": "Ett fel uppstod vid sökning efter team."
+  },
+  {
+    "id": "app.command.listautocompletecommands.internal_error",
+    "translation": "Kunde inte lista autokompletteringskommandon."
+  },
+  {
+    "id": "web.incoming_webhook.permissions.app_error",
+    "translation": "Opassande kanalbehörigheter."
+  },
+  {
+    "id": "model.upload_session.is_valid.user_id.app_error",
+    "translation": "Ogiltigt värde för UserId"
+  },
+  {
+    "id": "model.upload_session.is_valid.type.app_error",
+    "translation": "Ogiltigt värde för Type"
+  },
+  {
+    "id": "model.upload_session.is_valid.path.app_error",
+    "translation": "Ogiltigt värde för Path"
+  },
+  {
+    "id": "model.upload_session.is_valid.id.app_error",
+    "translation": "Ogiltigt värde för Id"
+  },
+  {
+    "id": "model.upload_session.is_valid.filename.app_error",
+    "translation": "Ogiltigt värde för Filename"
+  },
+  {
+    "id": "model.upload_session.is_valid.file_size.app_error",
+    "translation": "Ogiltigt värde för FileSize"
+  },
+  {
+    "id": "model.upload_session.is_valid.file_offset.app_error",
+    "translation": "Ogiltigt värde för FileOffset"
+  },
+  {
+    "id": "model.upload_session.is_valid.channel_id.app_error",
+    "translation": "Ogiltigt värde för ChannelId."
+  },
+  {
+    "id": "model.upload_session.is_valid.create_at.app_error",
+    "translation": "Ogiltigt värde för CreateAt"
+  },
+  {
+    "id": "ent.elasticsearch.post.get_posts_batch_for_indexing.error",
+    "translation": "Kunde inte ta fram batch av meddelanden för indexering."
+  },
+  {
+    "id": "ent.elasticsearch.indexer.index_batch.nothing_left_to_index.error",
+    "translation": "Försöker indexera en ny batch när alla objekt är avklarade"
+  },
+  {
+    "id": "model.search_params_list.is_valid.include_deleted_channels.app_error",
+    "translation": "All IncludeDeletedChannels params should have the same value."
+  },
+  {
+    "id": "model.plugin_command_error.error.app_error",
+    "translation": "Plugin för kommandot /{{.Command}} fungerar inte. Kontakta din systemadministratör"
+  },
+  {
+    "id": "model.plugin_command_crash.error.app_error",
+    "translation": "KOmmandot /{{.Command}} krashade {{.PluginId}} plugin. Kontakta din systemadministratör"
+  },
+  {
+    "id": "model.config.is_valid.saml_spidentifier_attribute.app_error",
+    "translation": "Service Provider Identifier måste anges"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.enable_searching.app_error",
+    "translation": "Inställningen för Elasticsearch EnableIndexing måste vara aktiv när Elasticsearch EnableSearching är satt till aktiv"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.enable_autocomplete.app_error",
+    "translation": "Inställningen för Elasticsearch EnableIndexing måste vara aktiv när Elasticsearch EnableAutocomplete är satt till aktiv"
+  },
+  {
+    "id": "model.config.is_valid.directory.app_error",
+    "translation": "Ogiltig värde för Local Storage Directory. Kan inte vara en tom sträng."
+  },
+  {
+    "id": "model.config.is_valid.bleve_search.filename.app_error",
+    "translation": "Inställningen för Bleve IndexingDir måste sättas till aktiv när Bleve EnableIndexing är satt till aktiv"
+  },
+  {
+    "id": "model.config.is_valid.bleve_search.enable_searching.app_error",
+    "translation": "Inställningen för Bleve EnableIndexing måste sättas till aktiv när Bleve EnableSearching är satt till aktiv"
+  },
+  {
+    "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
+    "translation": "Inställningen för Bleve EnableIndexing måste sättas till aktiv när Bleve EnableAutocomplete är satt till aktiv"
+  },
+  {
+    "id": "model.config.is_valid.bleve_search.bulk_indexing_time_window_seconds.app_error",
+    "translation": "Tidsgränsen för Bleve Bulk-indexering måste vara minst 1 sekund."
+  },
+  {
+    "id": "model.command.is_valid.plugin_id.app_error",
+    "translation": "Ogiltigt plugin-id."
+  },
+  {
+    "id": "ent.user.complete_switch_with_oauth.blank_email.app_error",
+    "translation": "Kunde inte slutföra SAML-inloggningen med en tom e-postadress."
+  },
+  {
+    "id": "ent.saml.save_user.username_exists.saml_app_error",
+    "translation": "Ett konto med detta användarnamn finns redan. Kontakta din systemadministratör."
+  },
+  {
+    "id": "ent.saml.save_user.email_exists.saml_app_error",
+    "translation": "Detta konto använder inte SAML-autentisering. Logga in med e-postadress och lösenord."
+  },
+  {
+    "id": "ent.saml.do_login.invalid_time.app_error",
+    "translation": "En felaktig tidsstämpel mottogs från Identity Provider. Kontakta din systemadministratör."
+  },
+  {
+    "id": "ent.saml.do_login.invalid_signature.app_error",
+    "translation": "En felaktig signatur mottogs från Identity Provider. Kontakta din systemadministratör."
+  },
+  {
+    "id": "ent.message_export.global_relay_export.get_attachment_error",
+    "translation": "Misslyckades att ta fram filinformationen för ett meddelande."
+  },
+  {
+    "id": "ent.message_export.csv_export.get_attachment_error",
+    "translation": "Misslyckades att ta fram filinformationen för ett meddelande."
+  },
+  {
+    "id": "ent.message_export.actiance_export.get_attachment_error",
+    "translation": "Misslyckades att ta fram filinformationen för ett meddelande."
+  },
+  {
+    "id": "ent.ldap_id_migrate.app_error",
+    "translation": "kan inte migrera."
+  },
+  {
+    "id": "ent.ldap.save_user.username_exists.ldap_app_error",
+    "translation": "Ett konto med det användarnamnet finns redan. Kontakta din systemadministratör."
+  },
+  {
+    "id": "ent.ldap.save_user.email_exists.ldap_app_error",
+    "translation": "Detta konto använder inte AD/LDAP-autentisering. Logga in med e-postadress och lösenord."
+  },
+  {
+    "id": "ent.ldap.no.users.checkcertificate",
+    "translation": "Inga LDAP-användare hittades. Kontrollera sökfilter och certifikat."
+  },
+  {
+    "id": "ent.ldap.do_login.x509.app_error",
+    "translation": "Fel då nyckelpar skapades"
+  },
+  {
+    "id": "ent.ldap.do_login.key.app_error",
+    "translation": "Fel när LDAP TLS nyckel-filen skulle laddas."
+  },
+  {
+    "id": "ent.ldap.do_login.certificate.app_error",
+    "translation": "Fel när LDAP TLS Certifikats-filen skulle laddas."
+  },
+  {
+    "id": "ent.jobs.start_synchronize_job.timeout",
+    "translation": "Nådde timeout för AD/LDAP-synkronisering."
+  },
+  {
+    "id": "ent.elasticsearch.refresh_indexes.refresh_failed",
+    "translation": "Misslyckades att uppdatera Elasticsearch-index"
+  },
+  {
+    "id": "ent.elasticsearch.indexer.do_job.get_oldest_entity.error",
+    "translation": "Det äldsta objektet (användare, kanal eller meddelande) kunde inte hämtas från databasen"
+  },
+  {
+    "id": "ent.elasticsearch.index_channels_batch.error",
+    "translation": "Kunde inte ta fram batch av kanaler att indexera."
+  },
+  {
+    "id": "app.user.verify_email.app_error",
+    "translation": "Kunde inte uppdatera fältet e-post verifierad."
+  },
+  {
+    "id": "app.user.update_update.app_error",
+    "translation": "Kunde inte ange datum för senast uppdatering av användaren."
+  },
+  {
+    "id": "app.user.update_password.app_error",
+    "translation": "Kunde inte uppdatera användarens lösenord."
+  },
+  {
+    "id": "app.user.update_failed_pwd_attempts.app_error",
+    "translation": "Kunde inte uppdatera failed_attempts."
+  },
+  {
+    "id": "app.user.update_auth_data.email_exists.app_error",
+    "translation": "Unable to switch account to {{.Service}}. An account using the email {{.Email}} already exists."
+  },
+  {
+    "id": "app.user.update_auth_data.app_error",
+    "translation": "Kunde inte uppdatera auth-data."
+  },
+  {
+    "id": "app.user.update_active_for_multiple_users.updating.app_error",
+    "translation": "Kunde inte avaktivera gäster."
+  },
+  {
+    "id": "app.user.update.find.app_error",
+    "translation": "Kunde inte hitta befintligt konto att uppdatera."
+  },
+  {
+    "id": "app.user.search.app_error",
+    "translation": "Kunde inte hitta någon användare med angivna parametrar."
+  },
+  {
+    "id": "app.user.save.existing.app_error",
+    "translation": "Måste anropa Update för befintliga användare."
+  },
+  {
+    "id": "app.user.save.app_error",
+    "translation": "Kunde inte spara kontot."
+  },
+  {
+    "id": "app.user.promote_guest.user_update.app_error",
+    "translation": "Misslyckades att uppdatera användaren."
+  },
+  {
+    "id": "app.user.permanent_delete.app_error",
+    "translation": "Kunde inte radera det befintliga kontot."
+  },
+  {
+    "id": "app.user.missing_account.const",
+    "translation": "Kunde inte hitta användaren."
+  },
+  {
+    "id": "app.user.get_users_batch_for_indexing.get_users.app_error",
+    "translation": "Kunde inte ta fram batch av användare att indexera."
+  },
+  {
+    "id": "app.user.get_unread_count.app_error",
+    "translation": "Det gick inte att ta fram användarens antal olästa meddelanden."
+  },
+  {
+    "id": "app.user.get_total_users_count.app_error",
+    "translation": "Det gick inte att räkna antalet användare."
+  },
+  {
+    "id": "app.user.get_known_users.get_users.app_error",
+    "translation": "Kunde inte ta fram kända användare från databasen."
+  },
+  {
+    "id": "app.user.get_by_username.app_error",
+    "translation": "Kunde inte hitta ett konto som matchar ditt användarnamn för detta team. Du kan behöva en inbjudan från team-ägaren för att få gå med."
+  },
+  {
+    "id": "app.user.get_by_auth.missing_account.app_error",
+    "translation": "Kunde inte hitta ett konto som matchar ditt autentiseringssätt för detta team. Du kan behöva en inbjudan från team-ägaren för att få gå med."
+  },
+  {
+    "id": "app.user.demote_user_to_guest.user_update.app_error",
+    "translation": "Misslyckades att uppdatera användaren."
+  },
+  {
+    "id": "app.user.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Misslyckades att ta fram användaren."
+  },
+  {
+    "id": "app.user.analytics_get_inactive_users_count.app_error",
+    "translation": "Kunde inte räkna antalet inaktiva användare."
+  },
+  {
+    "id": "app.user.analytics_daily_active_users.app_error",
+    "translation": "Kunde inte ta fram aktiva användare under angiven tidsperiod."
+  },
+  {
+    "id": "app.upload.upload_data.first_part_too_small.app_error",
+    "translation": "Misslyckades att ladda upp data. Första delen måste vara minst {{.Size}} Bytes."
+  },
+  {
+    "id": "app.upload.upload_data.concurrent.app_error",
+    "translation": "Kan inte ladda upp data från mer än ett anrop."
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.max_accounts.app_error",
+    "translation": "Kunde inte lägga till det nya teammedlemskapet eftersom teamet har nått gränsen för antal användare"
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.conflict.app_error",
+    "translation": "Kunde inte lägga till det nya teammedlemskapet eftersom det redan finns"
+  },
+  {
+    "id": "app.team.get_all_private_team_listing.app_error",
+    "translation": "Det gick inte att ta fram alla privata team."
+  },
+  {
+    "id": "app.channel.search_group_channels.app_error",
+    "translation": "Kunde inte ta fram gruppkanalerna för angiven användare och term."
+  },
+  {
+    "id": "app.channel.get_channels_batch_for_indexing.get.app_error",
+    "translation": "Kunde inte ta fram batch av kanaler för indexering."
+  },
+  {
+    "id": "api.templates.upgrade_mattermost_cloud",
+    "translation": "Uppgradera"
+  },
+  {
+    "id": "api.templates.over_limit_subject",
+    "translation": "Över användargränsen i Mattermost Cloud Workspace"
+  },
+  {
+    "id": "api.templates.over_limit_info2",
     "translation": "Alternativt kan du öppna upp möjligheter för nya användare och hålla dig under användargränsen genom att spärra konton via Administrationskonsolen."
   }
 ]
