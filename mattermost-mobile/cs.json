@@ -439,5 +439,10 @@
   "mobile.post.cancel": "Zrušit",
   "mobile.post_textbox.entire_channel.cancel": "Zrušit",
   "mobile.alert_dialog.alertCancel": "Zrušit",
-  "channel_modal.cancel": "Zrušit"
+  "channel_modal.cancel": "Zrušit",
+  "mobile.account.settings.save": "Uložit",
+  "login.username": "Uživatelské jméno",
+  "edit_post.save": "Uložit",
+  "mobile.edit_channel": "Uložit",
+  "user.settings.general.username": "Uživatelské jméno"
 }
