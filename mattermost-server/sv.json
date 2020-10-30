@@ -6756,7 +6756,7 @@
   },
   {
     "id": "api.upload.get_upload.forbidden.app_error",
-    "translation": "Misslyckades med att  hämta uppladdning."
+    "translation": "Misslyckades med att hämta uppladdning."
   },
   {
     "id": "api.team.add_team_member.invalid_body.app_error",
@@ -7048,7 +7048,7 @@
   },
   {
     "id": "ent.cloud.json_encode.error",
-    "translation": "Interna fel avbröt anrop till CWS"
+    "translation": "Internt fel uppstod när anrop till CWS rangerades"
   },
   {
     "id": "ent.cloud.authentication_failed",
@@ -7612,7 +7612,7 @@
   },
   {
     "id": "app.channel.get_member.missing.app_error",
-    "translation": "Ingen kanalmedlem hittad med angivet user ID och channel ID"
+    "translation": "Ingen kanalmedlem hittad med angivet user ID och channel ID."
   },
   {
     "id": "app.channel.get_member.app_error",
@@ -7972,7 +7972,7 @@
   },
   {
     "id": "model.search_params_list.is_valid.include_deleted_channels.app_error",
-    "translation": "All IncludeDeletedChannels params should have the same value."
+    "translation": "Alla IncludeDeletedChannels-parametrar behöver ha samma värde."
   },
   {
     "id": "model.plugin_command_error.error.app_error",
@@ -8112,7 +8112,7 @@
   },
   {
     "id": "app.user.update_auth_data.email_exists.app_error",
-    "translation": "Unable to switch account to {{.Service}}. An account using the email {{.Email}} already exists."
+    "translation": "Kunde inte byta kontot till {{.Service}}. Ett konto som använder e-postadress {{.Email}} finns redan."
   },
   {
     "id": "app.user.update_auth_data.app_error",
@@ -8229,5 +8229,13 @@
   {
     "id": "api.templates.over_limit_info2",
     "translation": "Alternativt kan du öppna upp möjligheter för nya användare och hålla dig under användargränsen genom att spärra konton via Administrationskonsolen."
+  },
+  {
+    "id": "app.status.get.app_error",
+    "translation": "Ett fel uppstod när status hämtades."
+  },
+  {
+    "id": "ent.cluster.json_encode.error",
+    "translation": "Fel uppstod när JSON-anrop rangerades"
   }
 ]
