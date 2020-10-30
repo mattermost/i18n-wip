@@ -653,5 +653,6 @@
   "mobile.link.error.title": "Fel",
   "mobile.mailTo.error.text": "Kunde inte starta en e-postklient.",
   "mobile.link.error.text": "Kunde inte öppna länken.",
-  "mobile.file_upload.disabled": "Filuppladdning från mobil är avstängd. Kontakta din systemadministratör för mer information."
+  "mobile.file_upload.disabled": "Filuppladdning från mobil är avstängd. Kontakta din systemadministratör för mer information.",
+  "mobile.file_upload.disabled2": "Filuppladdning från mobil är inaktiverat."
 }
