@@ -2,5 +2,14 @@
   "about.enterpriseEditionLearn": "एंटरप्राइज़ संस्करण के बारे में और जानें",
   "about.enterpriseEditione1": "एंटरप्राइज़ संस्करण",
   "about.date": "निर्माण की तारीख",
-  "about.teamEditiont1": "एंटरप्राइज़ एडिशन"
+  "about.teamEditiont1": "एंटरप्राइज़ एडिशन",
+  "mobile.notification_settings.email": "ईमेल",
+  "mobile.edit_channel": "सहेजें",
+  "user.settings.general.email": "ईमेल",
+  "user.settings.general.username": "उपयोगकर्ता नाम",
+  "mobile.post_info.flag": "सहेजें",
+  "mobile.post_textbox.entire_channel.cancel": "रद्द करना",
+  "mobile.post.cancel": "रद्द करना",
+  "mobile.reset_status.alert_cancel": "रद्द करना",
+  "mobile.terms_of_service.alert_cancel": "रद्द करना"
 }
