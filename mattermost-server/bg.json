@@ -8069,5 +8069,181 @@
   {
     "id": "api.file.new_backend.s3.app_error",
     "translation": "Възникна грешка при отваряне на връзка към S3."
+  },
+  {
+    "id": "app.user.verify_email.app_error",
+    "translation": "Полето за потвърждаване на ел.поща не може да се актуализира."
+  },
+  {
+    "id": "app.user.update_update.app_error",
+    "translation": "Не може да се актуализира датата на последната актуализация на потребителя."
+  },
+  {
+    "id": "app.user.update_password.app_error",
+    "translation": "Потребителската парола не може да се актуализира."
+  },
+  {
+    "id": "app.user.update_failed_pwd_attempts.app_error",
+    "translation": "Невъзможно е да се актуализират failed_attempts."
+  },
+  {
+    "id": "app.user.update_auth_data.email_exists.app_error",
+    "translation": "Не можете да превключите профила на {{.Service}}. Профил, използващ ел.поща {{.Email}}, вече съществува."
+  },
+  {
+    "id": "app.user.update_auth_data.app_error",
+    "translation": "Неуспешно актуализиране на данните за удостоверяване."
+  },
+  {
+    "id": "app.user.update_active_for_multiple_users.updating.app_error",
+    "translation": "Неуспешно деактивиране на гости."
+  },
+  {
+    "id": "app.user.update.finding.app_error",
+    "translation": "Срещнахме грешка при намирането на акаунта."
+  },
+  {
+    "id": "app.user.update.find.app_error",
+    "translation": "Не може да се намери съществуващ профил за актуализиране."
+  },
+  {
+    "id": "app.user.search.app_error",
+    "translation": "Не може да се намери потребител, отговарящ на параметрите за търсене."
+  },
+  {
+    "id": "app.user.save.username_exists.app_error",
+    "translation": "Профил с това потребителско име вече съществува."
+  },
+  {
+    "id": "app.user.save.existing.app_error",
+    "translation": "Трябва да се извика актуализация за съществуващ потребител."
+  },
+  {
+    "id": "app.user.save.email_exists.app_error",
+    "translation": "Профил с тази ел.поща вече съществува."
+  },
+  {
+    "id": "app.user.save.app_error",
+    "translation": "Профилът не може да бъде запазен."
+  },
+  {
+    "id": "app.user.promote_guest.user_update.app_error",
+    "translation": "Неуспешно актуализиране на потребителя."
+  },
+  {
+    "id": "app.user.permanent_delete.app_error",
+    "translation": "Не можа да се изтрие съществуващ профил."
+  },
+  {
+    "id": "app.user.missing_account.const",
+    "translation": "Не може да се намери потребителя."
+  },
+  {
+    "id": "app.user.get_users_batch_for_indexing.get_users.app_error",
+    "translation": "Не може да се получи пакета потребители за индексиране."
+  },
+  {
+    "id": "app.user.get_unread_count.app_error",
+    "translation": "Не можахме да получим броя на непрочетените съобщения за потребителя."
+  },
+  {
+    "id": "app.user.get_total_users_count.app_error",
+    "translation": "Не можахме да преброим потребителите."
+  },
+  {
+    "id": "app.user.get_recently_active_users.app_error",
+    "translation": "Срещнахме грешка при намирането на наскоро активните потребители."
+  },
+  {
+    "id": "app.user.get_profiles.app_error",
+    "translation": "Срещнахме грешка при намирането на потребителски профили."
+  },
+  {
+    "id": "app.user.get_profile_by_group_channel_ids_for_user.app_error",
+    "translation": "Срещнахме грешка при намирането на потребителски профили."
+  },
+  {
+    "id": "app.user.get_new_users.app_error",
+    "translation": "При откриването на новите потребители срещнахме грешка."
+  },
+  {
+    "id": "app.user.get_known_users.get_users.app_error",
+    "translation": "Не могат да се получат известните потребители от базата данни."
+  },
+  {
+    "id": "app.user.get_by_username.app_error",
+    "translation": "Не може да се намери съществуващ профил, отговарящ на потребителското Ви име за този екип. Този екип може да изисква покана от собственика на екипа, за да се присъедините."
+  },
+  {
+    "id": "app.user.get_by_auth.other.app_error",
+    "translation": "Срещнахме грешка при опит да намерим профил според типа на удостоверяване."
+  },
+  {
+    "id": "app.user.get_by_auth.missing_account.app_error",
+    "translation": "Не може да се намери съществуващ профил, отговарящ на типа ви за удостоверяване за този екип. Този екип може да изисква покана от собственика на екипа, за да се присъедини."
+  },
+  {
+    "id": "app.user.get.app_error",
+    "translation": "Срещнахме грешка при намирането на профила."
+  },
+  {
+    "id": "app.user.demote_user_to_guest.user_update.app_error",
+    "translation": "Неуспешно актуализиране на потребителя."
+  },
+  {
+    "id": "app.user.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Неуспешно извличане на потребителите."
+  },
+  {
+    "id": "app.user.analytics_get_inactive_users_count.app_error",
+    "translation": "Не можахме да преброим неактивните потребители."
+  },
+  {
+    "id": "app.user.analytics_daily_active_users.app_error",
+    "translation": "Не може да се получат активните потребители през искания период."
+  },
+  {
+    "id": "api.templates.upgrade_mattermost_cloud",
+    "translation": "Надстрой"
+  },
+  {
+    "id": "api.templates.over_limit_title",
+    "translation": "Вашето работно пространство превишава лимита на потребители за безплатното ниво"
+  },
+  {
+    "id": "api.templates.over_limit_subject",
+    "translation": "Mattermost Cloud работното пространство превишава потребителското ограничение"
+  },
+  {
+    "id": "api.templates.over_limit_info2",
+    "translation": "Като алтернатива можете да деактивирате потребителите в Системна конзола, за да отворите места за повече потребители или да останете под безплатния потребителски лимит."
+  },
+  {
+    "id": "api.templates.over_limit_info1",
+    "translation": "Изглежда, че имате повече от 10 потребители във вашето работно пространство, което е извън ограниченията на безплатното ниво в Mattermost Cloud Professional. За да избегнете прекъсвания във вашето работно пространство Mattermost, моля надстройте."
+  },
+  {
+    "id": "api.templates.email_us_anytime_at",
+    "translation": "Изпратете ни ел.поща по всяко време на "
+  },
+  {
+    "id": "api.templates.copyright",
+    "translation": "© 2017 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+  },
+  {
+    "id": "api.templates.at_limit_title",
+    "translation": "Достигнахте ограничението за потребители на безплатното ниво "
+  },
+  {
+    "id": "api.templates.at_limit_subject",
+    "translation": "Достигнато е Mattermost Cloud ограничението за потребители"
+  },
+  {
+    "id": "api.templates.at_limit_info2",
+    "translation": "Като алтернатива можете да деактивирате потребителите в Системна конзола, за да отворите места за повече потребители или да останете под безплатния потребителски лимит."
+  },
+  {
+    "id": "api.templates.at_limit_info1",
+    "translation": "Изглежда, че вече имате 10 или повече потребители в работното си пространство - това е страхотно! Ако искате да поканите повече членове на екипа, помислете за надграждане на Mattermost Cloud Professional сега."
   }
 ]
