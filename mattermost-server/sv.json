@@ -8237,5 +8237,13 @@
   {
     "id": "ent.cluster.json_encode.error",
     "translation": "Fel uppstod när JSON-anrop rangerades"
+  },
+  {
+    "id": "app.user.save.email_exists.app_error",
+    "translation": "Det finns redan ett konto med den e-postadressen."
+  },
+  {
+    "id": "app.user.save.username_exists.app_error",
+    "translation": "Det finns redan ett konto med det användarnamnet."
   }
 ]
