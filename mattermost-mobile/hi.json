@@ -233,5 +233,10 @@
   "about.hash": "हैश बनाएँ:",
   "about.enterpriseEditionSt": "आपके फ़ायरवॉल के पीछे से आधुनिक संचार।",
   "archivedChannelMessage": "आप एक ** संग्रहीत चैनल ** देख रहे हैं। नए संदेश पोस्ट नहीं किए जा सकते।",
-  "center_panel.archived.closeChannel": "चैनल बंद करें"
+  "center_panel.archived.closeChannel": "चैनल बंद करें",
+  "user.settings.notifications.allActivity": "सभी गतिविधि के लिए",
+  "user.settings.notifications.email.never": "कभी नहीँ",
+  "user.settings.notifications.never": "कभी नहीँ",
+  "mobile.reaction_header.all_emojis": "सब",
+  "post_info.del": "हटाएं"
 }
