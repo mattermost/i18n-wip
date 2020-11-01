@@ -117,7 +117,7 @@
   },
   {
     "id": "api.channel.post_user_add_remove_message_and_forget.error",
-    "translation": "Non foi posíbel publicar a mensaxe de entrar/saír"
+    "translation": "Non foi posíbel publicar a mensaxe de unirse/saír"
   },
   {
     "id": "api.channel.leave.direct.app_error",
