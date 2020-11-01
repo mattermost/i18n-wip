@@ -722,6 +722,8 @@
   "admin.experimental.experimentalDataPrefetch.title": "Precarga mensaxes en canles sen ler",
   "admin.experimental.experimentalEnableAuthenticationTransfer.desc": "Cando é verdadeiro, os usuarios poden cambiar o seu método de inicio de sesión por calquera que estea habilitado no servidor, ben a través dos Axustes da conta ou das API. Cando é falso, os usuarios non poden cambiar o seu método de inicio de sesión, independentemente de que opcións de autenticación estean habilitadas.",
   "admin.experimental.experimentalEnableAuthenticationTransfer.title": "Permitir a transferencia da autenticación:",
+  "admin.experimental.experimentalEnableAutomaticReplies.desc": "Cando é verdadeiro, os usuarios poden activar as respostas automáticas en **Axustes da conta > Notificacións**. Os usuarios configuran unha mensaxe personalizada que se enviará automaticamente en resposta ás mensaxes directas. Cando é falso, desactiva a función «Respostas automáticas a mensaxes directa» e agóchaa nos Axustes da conta.",
+  "admin.experimental.experimentalEnableAutomaticReplies.title": "Activar respostas automáticas:",
   "admin.experimental.experimentalPrimaryTeam.example": "P. ex.: «nomedoequipo»",
   "admin.experimental.experimentalPrimaryTeam.title": "Equipo principal:",
   "admin.group_settings.group_details.group_teams_and_channels_row.publicChannel": "Canle",
