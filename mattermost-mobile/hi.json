@@ -238,5 +238,6 @@
   "user.settings.notifications.email.never": "कभी नहीँ",
   "user.settings.notifications.never": "कभी नहीँ",
   "mobile.reaction_header.all_emojis": "सब",
-  "post_info.del": "हटाएं"
+  "post_info.del": "हटाएं",
+  "mobile.display_settings.sidebar": "साइडबार"
 }
