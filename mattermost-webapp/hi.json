@@ -248,6 +248,7 @@
   "user.settings.general.incorrectPassword": "आपका पासवर्ड गलत है।",
   "user.settings.general.username": "उपयोगकर्ता नाम",
   "user.settings.import_theme.cancel": "रद्द करना",
+  "user.settings.modal.sidebar": "साइडबार",
   "user.settings.notifications.allActivity": "सभी गतिविधि के लिए",
   "user.settings.notifications.desktop.allSoundHidden": "सभी गतिविधि के लिए",
   "user.settings.notifications.email.never": "कभी नहीँ",
