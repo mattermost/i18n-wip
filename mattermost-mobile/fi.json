@@ -412,5 +412,6 @@
   "mobile.permission_denied_retry": "Asetukset",
   "channel_notifications.preference.all_activity": "Kaikesta toiminnasta",
   "channel_header.notificationPreference.default": "Oletus",
-  "channel_header.notificationPreference.all": "Kaikki"
+  "channel_header.notificationPreference.all": "Kaikki",
+  "channel_notifications.preference.global_default": "Globaali oletus ({notifyLevel})"
 }

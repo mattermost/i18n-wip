@@ -186,5 +186,9 @@
   "user.settings.modal.display": "Amosar",
   "user.settings.modal.notifications": "Notificacións",
   "user.settings.display.custom_theme": "Tema personalizado",
-  "navbar.leave": "Abandonar a canle"
+  "navbar.leave": "Abandonar a canle",
+  "mobile.channel_list.alertYes": "Si",
+  "mobile.channel_list.alertNo": "Non",
+  "mobile.channel_info.alertYes": "Si",
+  "mobile.channel_info.alertNo": "Non"
 }

@@ -444,5 +444,6 @@
   "login.username": "Uživatelské jméno",
   "edit_post.save": "Uložit",
   "mobile.edit_channel": "Uložit",
-  "user.settings.general.username": "Uživatelské jméno"
+  "user.settings.general.username": "Uživatelské jméno",
+  "channel_notifications.preference.global_default": "Globálně výchozí ({notifyLevel})"
 }
