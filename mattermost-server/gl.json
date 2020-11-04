@@ -97,11 +97,11 @@
   },
   {
     "id": "api.command_leave.name",
-    "translation": "saír"
+    "translation": "abandonar"
   },
   {
     "id": "api.channel.leave.default.app_error",
-    "translation": "Non é posíbel saír da canle predeterminada {{.Channel}}."
+    "translation": "Non é posíbel abandonar a canle predeterminada {{.Channel}}."
   },
   {
     "id": "app.channel_member_history.log_leave_event.internal_error",
@@ -109,19 +109,19 @@
   },
   {
     "id": "api.command_leave.fail.app_error",
-    "translation": "Produciuse un erro ao saír da canle."
+    "translation": "Produciuse un erro ao abandonar a canle."
   },
   {
     "id": "api.command_leave.desc",
-    "translation": "Sae da canle actual"
+    "translation": "Abandona a canle actual"
   },
   {
     "id": "api.channel.post_user_add_remove_message_and_forget.error",
-    "translation": "Non foi posíbel publicar a mensaxe de unirse/saír"
+    "translation": "Non foi posíbel publicar a mensaxe de unirse/abandonar"
   },
   {
     "id": "api.channel.leave.direct.app_error",
-    "translation": "Non é posíbel saír dunha canle de mensaxe directa."
+    "translation": "Non é posíbel abandonar unha canle de mensaxe directa."
   },
   {
     "id": "api.channel.leave.left",
@@ -129,7 +129,7 @@
   },
   {
     "id": "api.channel.leave.last_member.app_error",
-    "translation": "Vostede é o único membro que queda, tente eliminar a canle privada no canto de marchar."
+    "translation": "Vostede é o único membro que queda, tente eliminar a canle privada no canto de abandonar."
   },
   {
     "id": "api.reaction.town_square_read_only",
