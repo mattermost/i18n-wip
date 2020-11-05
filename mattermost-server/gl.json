@@ -146,5 +146,13 @@
   {
     "id": "api.channel.create_default_channels.town_square",
     "translation": "Praza pública"
+  },
+  {
+    "id": "model.emoji.name.app_error",
+    "translation": "O nome debe ter de 1 a 64 caracteres alfanuméricos en minúscula."
+  },
+  {
+    "id": "model.group.name.invalid_length.app_error",
+    "translation": "O nome debe ter de 1 a 64 caracteres alfanuméricos en minúscula."
   }
 ]
