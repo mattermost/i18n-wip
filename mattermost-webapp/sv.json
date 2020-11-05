@@ -2332,6 +2332,7 @@
   "channel_modal.purposeEx": "T.ex.: \"En kanal för att rapportera buggar och föreslå förbättringar\"",
   "channel_modal.type": "Typ",
   "channel_notifications.allActivity": "För all aktivitet",
+  "channel_notifications.globalDefault": "Global standard ({notifyLevel})",
   "channel_notifications.ignoreChannelMentions": "Ignorera omnämnanden för @channel, @here och @all",
   "channel_notifications.ignoreChannelMentions.help": "När aktiverad kommer omnämnanden med @channel, @here och @all inte skapa notifieringar i kanalen.",
   "channel_notifications.ignoreChannelMentions.off.title": "Av",
