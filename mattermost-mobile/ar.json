@@ -42,7 +42,6 @@
   "login.ldapUsernameLower": "اسم AD/LDAP",
   "login.ldapUsername": "اسم AD/LDAP",
   "integrations.add": "إضافة",
-  "file_attachment.download": "تحميل",
   "channel_modal.purpose": "الهدف:",
   "channel_modal.name": "الاسم",
   "channel_loader.someone": "أحد ما",
