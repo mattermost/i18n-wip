@@ -310,7 +310,6 @@
   "mobile.downloader.failed_title": "Η λήψη απέτυχε",
   "mobile.downloader.failed_description": "Παρουσιάστηκε σφάλμα κατά τη λήψη του αρχείου. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά.\n",
   "mobile.downloader.disabled_description": "Οι λήψεις αρχείων είναι απενεργοποιημένες σε αυτόν τον διακομιστή. Για περισσότερες λεπτομέρειες, επικοινωνήστε με τον διαχειριστή του συστήματός σας.\n",
-  "mobile.downloader.android_failed": "Η λήψη απέτυχε",
   "mobile.document_preview.failed_title": "Το άνοιγμα του εγγράφου απέτυχε",
   "mobile.document_preview.failed_description": "Παρουσιάστηκε σφάλμα κατά το άνοιγμα του εγγράφου. Βεβαιωθείτε ότι έχετε εγκαταστήσει ένα πρόγραμμα προβολής {fileType} και δοκιμάστε ξανά.\n",
   "mobile.display_settings.theme": "Θέμα",

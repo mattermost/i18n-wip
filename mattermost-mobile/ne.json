@@ -495,7 +495,6 @@
   "mobile.downloader.failed_description": "फाईल डाउनलोड गर्दा इरोर देखा पर्‍यो। कृपया तपाइँको इन्टर्नेट जडान जाँच गर्नुहोस् र फेरि प्रयास गर्नुहोस्।\n",
   "mobile.downloader.disabled_title": "डाउनलोड असक्षम पारियो",
   "mobile.downloader.disabled_description": "यस सर्भरमा फाईल डाउनलोडहरू अक्षम गरिएका छन्। अधिक जानकारीको लागि कृपया तपाईंको प्रणाली प्रशासकलाई सम्पर्क गर्नुहोस्।\n",
-  "mobile.downloader.android_failed": "डाउनलोड असफल भयो",
   "mobile.document_preview.failed_title": "खुला कागजात असफल भयो",
   "mobile.document_preview.failed_description": "कागजात खोल्दा इरोर देखा पर्‍यो। कृपया निश्चित गर्नुहोस् कि तपाईंसँग {fileType} भियर स्थापना भएको छ र फेरि प्रयास गर्नुहोस्।\n",
   "mobile.display_settings.theme": "थिम",

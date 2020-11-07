@@ -541,7 +541,6 @@
   "mobile.edit_profile.remove_profile_photo": "Ta bort foto",
   "mobile.edit_post.title": "Editerar meddelande",
   "mobile.downloader.failed_title": "Nedladdning misslyckades",
-  "mobile.downloader.android_complete": "Nedladdning slutförd",
   "mobile.commands.error_title": "Fel när kommandot utfördes",
   "post_info.edit": "Editera",
   "user.settings.notifications.never": "Aldrig",
