@@ -186,7 +186,6 @@
   "mobile.routes.channelInfo": "Infó",
   "mobile.routes.edit_profile": "Profil szerkesztése",
   "mobile.routes.code.noLanguage": "Kód",
-  "mobile.video.save_error_message": "A videó fájl mentéséhez előbb le kell tölteni.",
   "mobile.video_playback.failed_title": "Videó lejátszás nem sikerült",
   "mobile.video_playback.failed_description": "Hiba történt a videó lejátszása közben.\n",
   "mobile.user.settings.notifications.email.fifteenMinutes": "15 percenként",

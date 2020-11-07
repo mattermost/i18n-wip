@@ -35,7 +35,6 @@
   "modal.manual_status.auto_responder.message_": "Želite spremeniti stanje v \"{status}\" in onemogočiti samodejne odgovore?",
   "mobile.youtube_playback_error.title": "Napaka pri predvajanju v YouTubu",
   "mobile.youtube_playback_error.description": "Pri poskusu predvajanja videoposnetka v YouTubu je prišlo do napake.\nPodrobnosti: {details}",
-  "mobile.video.save_error_message": "Če želite shraniti video datoteko, jo morate najprej prenesti.",
   "mobile.video_playback.failed_title": "Predvajanje videoposnetka ni uspelo",
   "mobile.video_playback.failed_description": "Pri poskusu predvajanja videoposnetka je prišlo do napake.\n",
   "mobile.user.settings.notifications.email.fifteenMinutes": "Vsakih 15 minut",
