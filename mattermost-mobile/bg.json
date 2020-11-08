@@ -631,7 +631,7 @@
   "channel_notifications.preference.save_error": "Не можахме да запазим предпочитанията за известяване. Проверете връзката си и опитайте отново.",
   "channel_notifications.preference.only_mentions": "Само споменавания и директни съобщения",
   "channel_notifications.preference.header": "Изпратени известия",
-  "channel_notifications.preference.global_default": "Глобално по подразбиране (Споменаване)",
+  "channel_notifications.preference.global_default": "Глобално по подразбиране ({notifyLevel})",
   "channel_header.notificationPreference": "Мобилни известия",
   "mobile.mailTo.error.title": "Грешка",
   "mobile.link.error.title": "Грешка",
