@@ -7664,15 +7664,15 @@
   },
   {
     "id": "ent.cloud.request_error",
-    "translation": "Грешка при обработка на заявката до CWS"
+    "translation": ""
   },
   {
     "id": "ent.cloud.json_encode.error",
-    "translation": "Вътрешна грешка при заявка за делегиране до CWS"
+    "translation": ""
   },
   {
     "id": "ent.cloud.authentication_failed",
-    "translation": "Неуспешно удостоверяване в CWS"
+    "translation": ""
   },
   {
     "id": "app.upload.upload_data.update.app_error",
@@ -8245,5 +8245,21 @@
   {
     "id": "api.templates.at_limit_info1",
     "translation": "Изглежда, че вече имате 10 или повече потребители в работното си пространство - това е страхотно! Ако искате да поканите повече членове на екипа, помислете за надграждане на Mattermost Cloud Professional сега."
+  },
+  {
+    "id": "app.user.update_threads_read_for_user.app_error",
+    "translation": "Неуспешно обновяване на всички разговори като прочетени"
+  },
+  {
+    "id": "app.user.update_thread_read_for_user.app_error",
+    "translation": "Неуспешно обновяване състоянието прочетен на разговор"
+  },
+  {
+    "id": "app.user.update_thread_follow_for_user.app_error",
+    "translation": "Неуспешно обновяване следването на разговор"
+  },
+  {
+    "id": "app.user.get_threads_for_user.app_error",
+    "translation": "Неуспешно получаване разговорите на потребител"
   }
 ]
