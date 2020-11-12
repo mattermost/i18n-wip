@@ -7044,15 +7044,15 @@
   },
   {
     "id": "ent.cloud.request_error",
-    "translation": "Fel när anrop till CWS bearbetades"
+    "translation": ""
   },
   {
     "id": "ent.cloud.json_encode.error",
-    "translation": "Internt fel uppstod när anrop till CWS rangerades"
+    "translation": ""
   },
   {
     "id": "ent.cloud.authentication_failed",
-    "translation": "Kunde inte autentisera med CWS"
+    "translation": ""
   },
   {
     "id": "ent.api.post.send_notifications_and_forget.push_image_only",
@@ -7860,7 +7860,7 @@
   },
   {
     "id": "ent.data_retention.posts_permanent_delete_batch.internal_error",
-    "translation": "Ett fel uppstod när batchen av meddelanden skulle raderas."
+    "translation": ""
   },
   {
     "id": "ent.data_retention.flags_batch.internal_error",
@@ -7964,7 +7964,7 @@
   },
   {
     "id": "ent.elasticsearch.post.get_posts_batch_for_indexing.error",
-    "translation": "Kunde inte ta fram batch av meddelanden för indexering."
+    "translation": ""
   },
   {
     "id": "ent.elasticsearch.indexer.index_batch.nothing_left_to_index.error",
@@ -8032,11 +8032,11 @@
   },
   {
     "id": "ent.saml.do_login.invalid_time.app_error",
-    "translation": "En felaktig tidsstämpel mottogs från Identity Provider. Kontakta din systemadministratör."
+    "translation": ""
   },
   {
     "id": "ent.saml.do_login.invalid_signature.app_error",
-    "translation": "En felaktig signatur mottogs från Identity Provider. Kontakta din systemadministratör."
+    "translation": ""
   },
   {
     "id": "ent.message_export.global_relay_export.get_attachment_error",
@@ -8092,7 +8092,7 @@
   },
   {
     "id": "ent.elasticsearch.index_channels_batch.error",
-    "translation": "Kunde inte ta fram batch av kanaler att indexera."
+    "translation": ""
   },
   {
     "id": "app.user.verify_email.app_error",
@@ -8245,5 +8245,21 @@
   {
     "id": "app.user.save.username_exists.app_error",
     "translation": "Det finns redan ett konto med det användarnamnet."
+  },
+  {
+    "id": "app.user.update_threads_read_for_user.app_error",
+    "translation": "Kunde inte uppdatera alla användartrådar som lästa"
+  },
+  {
+    "id": "app.user.update_thread_read_for_user.app_error",
+    "translation": "Kunde inte uppdatera läs-status för tråden"
+  },
+  {
+    "id": "app.user.update_thread_follow_for_user.app_error",
+    "translation": "Kunde inte uppdatera följer-status för tråden"
+  },
+  {
+    "id": "app.user.get_threads_for_user.app_error",
+    "translation": "Kunde inte hämta användarens trådar"
   }
 ]
