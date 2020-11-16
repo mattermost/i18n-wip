@@ -8261,5 +8261,49 @@
   {
     "id": "app.user.get_threads_for_user.app_error",
     "translation": "Неуспешно получаване разговорите на потребител"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_title",
+    "translation": "Спиране на Mattermost облачното работно пространство"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_subject",
+    "translation": " Действайте, за да запазите абонамента си за Mattermost Cloud"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item3",
+    "translation": "Ще загубите достъп до историята на съобщенията си"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item2",
+    "translation": "Няма да можете да актуализирате данните за плащане, без да се свържете с нашия екип за поддръжка"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item1",
+    "translation": "Няма да можете да влезете в работното си пространство"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2",
+    "translation": "Ако не се предприемат действия, работното ви пространство ще бъде спряно"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info1",
+    "translation": "Все още има време да поддържате работното си пространство на Mattermost Cloud активно чрез разрешаване на проблема с начина на плащане. За да избегнете спиране, актуализирайте начина си на плащане."
+  },
+  {
+    "id": "api.templates.over_limit_14_days_title",
+    "translation": "Не е получено плащане"
+  },
+  {
+    "id": "api.templates.over_limit_14_days_subject",
+    "translation": "Плащането е просрочено за вашия Mattermost Cloud абонамент"
+  },
+  {
+    "id": "api.templates.over_limit_14_days_info1",
+    "translation": "Само напомняне, че не сме получили плащане за вашия Mattermost абонамент, фактуриран на {{.OverLimitDate}}. Скоро ще започнем процес за спиране на вашата услуга, ако не бъде получено плащане."
+  },
+  {
+    "id": "api.roles.patch_roles.not_allowed_permission.error",
+    "translation": "Едно или повече от следните права, които се опитвате да добавите или премахнете, не са разрешени"
   }
 ]
