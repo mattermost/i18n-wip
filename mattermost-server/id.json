@@ -44,10 +44,6 @@
     "translation": "Kanal tidak ada"
   },
   {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Kami mengalami masalah saat mencari akun"
-  },
-  {
     "id": "store.sql_channel.get.existing.app_error",
     "translation": "Tidak dapat menemukan kanal"
   },

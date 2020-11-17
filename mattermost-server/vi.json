@@ -172,10 +172,6 @@
     "translation": "Hệ thống"
   },
   {
-    "id": "store.update_error",
-    "translation": "cập nhật lỗi"
-  },
-  {
     "id": "app.user_terms_of_service.delete.app_error",
     "translation": "Không thể xóa điều khoản dịch vụ."
   },
@@ -1832,10 +1828,6 @@
     "translation": "Kênh không hợp lệ"
   },
   {
-    "id": "model.group_syncable.type.app_error",
-    "translation": "Thuộc tính type không hợp lệ cho đồng bộ nhóm"
-  },
-  {
     "id": "model.group_syncable.syncable_id.app_error",
     "translation": "id đồng bộ hóa không hợp lệ cho đồng bộ nhóm"
   },
@@ -1868,20 +1860,12 @@
     "translation": " tên tài sản cho nhóm không hợp lệ"
   },
   {
-    "id": "model.group.id.app_error",
-    "translation": " id tài sản cho nhóm không hợp lệ"
-  },
-  {
     "id": "model.group.display_name.app_error",
     "translation": "thuộc tính tên cho nhóm hiển thị không hợp lệ"
   },
   {
     "id": "model.group.description.app_error",
     "translation": "tài sản mô tả cho nhóm không hợp lệ"
-  },
-  {
-    "id": "model.group.delete_at.app_error",
-    "translation": "Hành vi xoá không hợp lệ với thuộc tính của nhóm"
   },
   {
     "id": "model.group.create_at.app_error",
@@ -3012,24 +2996,12 @@
     "translation": "Người dùng được chỉ định không phải là thành viên của kênh được chỉ định."
   },
   {
-    "id": "store.sql_group.uniqueness_error",
-    "translation": "thành viên nhóm đã tồn tại"
-  },
-  {
     "id": "store.sql_group.unique_constraint",
     "translation": "một nhóm với tên đó đã tồn tại"
   },
   {
-    "id": "store.sql_group.no_rows",
-    "translation": "không tìm thấy nhóm phù hợp"
-  },
-  {
     "id": "store.sql_group.group_syncable_already_deleted",
     "translation": "nhóm có thể đồng bộ hóa đã bị xóa"
-  },
-  {
-    "id": "store.sql_group.app_error",
-    "translation": "không thể xây dựng truy vấn"
   },
   {
     "id": "app.emoji.delete.no_results",
@@ -3106,10 +3078,6 @@
   {
     "id": "store.sql.convert_string_array",
     "translation": "FromDb: Không thể chuyển đổi StringArray sang *string"
-  },
-  {
-    "id": "store.select_error",
-    "translation": "chọn lỗi"
   },
   {
     "id": "store.insert_error",
@@ -4686,10 +4654,6 @@
   {
     "id": "app.channel.get_by_name.missing.app_error",
     "translation": "Kênh không tồn tại"
-  },
-  {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Chúng tôi đã gặp lỗi khi tìm kênh"
   },
   {
     "id": "store.sql_channel.get.existing.app_error",

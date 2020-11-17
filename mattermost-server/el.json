@@ -36,10 +36,6 @@
     "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
   },
   {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
-  },
-  {
     "id": "store.sql_channel.get.existing.app_error",
     "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
   },

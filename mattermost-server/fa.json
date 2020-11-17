@@ -7071,20 +7071,12 @@
     "translation": "ایجاد نامعتبر در ویژگی برای گروه."
   },
   {
-    "id": "model.group.delete_at.app_error",
-    "translation": "حذف نامعتبر در ویژگی برای گروه."
-  },
-  {
     "id": "model.group.description.app_error",
     "translation": "ویژگی توصیف نامعتبر برای گروه."
   },
   {
     "id": "model.group.display_name.app_error",
     "translation": "ویژگی نام نمایشی نامعتبر برای گروه."
-  },
-  {
-    "id": "model.group.id.app_error",
-    "translation": "ویژگی شناسه نامعتبر برای گروه."
   },
   {
     "id": "model.group.name.app_error",
@@ -7125,10 +7117,6 @@
   {
     "id": "model.group_syncable.syncable_id.app_error",
     "translation": "شناسه همگام سازی نامعتبر برای همگام سازی گروهی."
-  },
-  {
-    "id": "model.group_syncable.type.app_error",
-    "translation": "ویژگی نامعتبر برای گروه قابل همگام سازی."
   },
   {
     "id": "model.guest.is_valid.channel.app_error",
@@ -7755,10 +7743,6 @@
     "translation": "خطا در پاکسازی شاخص های Bleve: موتور غیرفعال است"
   },
   {
-    "id": "store.insert_error",
-    "translation": "وارد کردن خطا"
-  },
-  {
     "id": "store.select_error",
     "translation": "انتخاب خطا"
   },
@@ -7781,10 +7765,6 @@
   {
     "id": "store.sql_channel.get.existing.app_error",
     "translation": "یافتن کانال موجود امکان پذیر نیست."
-  },
-  {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "در یافتن کانال با خطایی روبرو شدیم."
   },
   {
     "id": "store.sql_channel.save.archived_channel.app_error",
@@ -7823,32 +7803,16 @@
     "translation": "فرمان وجود ندارد."
   },
   {
-    "id": "store.sql_group.app_error",
-    "translation": "موفق به ساخت پرس و جو نشد."
-  },
-  {
     "id": "store.sql_group.group_syncable_already_deleted",
     "translation": "همگام سازی گروه قبلاً حذف شده است"
-  },
-  {
-    "id": "store.sql_group.more_than_one_row_changed",
-    "translation": "بیش از یک ردیف تغییر کرده است."
   },
   {
     "id": "store.sql_group.no_rows",
     "translation": "هیچ گروه منطبقی یافت نشد"
   },
   {
-    "id": "store.sql_group.permanent_delete_members_by_user.app_error",
-    "translation": "حذف عضو گروه با شناسه کاربر \"{{.UserId}}\" امکان پذیر نیست."
-  },
-  {
     "id": "store.sql_group.unique_constraint",
     "translation": "گروهی با این نام از قبل وجود دارد"
-  },
-  {
-    "id": "store.sql_group.uniqueness_error",
-    "translation": "عضو گروه از قبل وجود دارد"
   },
   {
     "id": "store.sql_post.search.disabled",
@@ -7865,10 +7829,6 @@
   {
     "id": "store.sql_user.update.email_taken.app_error",
     "translation": "این ایمیل قبلا گرفته شده است. لطفاً دیگری را انتخاب کنید."
-  },
-  {
-    "id": "store.update_error",
-    "translation": "خطای به روز رسانی"
   },
   {
     "id": "system.message.name",

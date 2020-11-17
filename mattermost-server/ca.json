@@ -64,10 +64,6 @@
     "translation": "No es pot trobar el canal eliminat existent"
   },
   {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Hem trobat un error en cercar el canal"
-  },
-  {
     "id": "store.sql_channel.get.existing.app_error",
     "translation": "No es pot trobar el canal existent"
   },

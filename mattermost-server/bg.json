@@ -2399,10 +2399,6 @@
     "translation": "Невалиден канал."
   },
   {
-    "id": "store.sql_group.app_error",
-    "translation": "не успя да изгради заявка."
-  },
-  {
     "id": "model.command_hook.channel_id.app_error",
     "translation": "Невалиден id на канал."
   },
@@ -2461,10 +2457,6 @@
   {
     "id": "ent.message_export.global_relay_export.deliver.close.app_error",
     "translation": "Не може да се достави ел.поща до Global Relay."
-  },
-  {
-    "id": "model.group.delete_at.app_error",
-    "translation": "невалидно delete at свойство за група."
   },
   {
     "id": "app.command_webhook.handle_command_webhook.parse",
@@ -2795,10 +2787,6 @@
     "translation": "Неуспешен анализ на версията на сървъра Elasticsearch."
   },
   {
-    "id": "store.update_error",
-    "translation": "грешка при актуализация"
-  },
-  {
     "id": "api.user.demote_user_to_guest.already_guest.app_error",
     "translation": "Не може да се преобразува потребителят в гост, защото вече е гост."
   },
@@ -3045,10 +3033,6 @@
   {
     "id": "api.user.create_user.invalid_invitation_type.app_error",
     "translation": "Не можа да се създаде потребител, невалидна покана."
-  },
-  {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Възникна грешка при намирането на канала."
   },
   {
     "id": "app.import.validate_team_import_data.type_invalid.error",
@@ -3403,10 +3387,6 @@
     "translation": "Параметърът на екип ID е необходим за автоматично завършване по канал."
   },
   {
-    "id": "model.group_syncable.type.app_error",
-    "translation": "невалидно type свойство за синхронизация на група."
-  },
-  {
     "id": "app.session.remove.app_error",
     "translation": "Сесията не може да бъде премахната."
   },
@@ -3445,10 +3425,6 @@
   {
     "id": "store.sql_user.update.email_taken.app_error",
     "translation": "Тази ел.поща вече е заета. Моля, изберете друга."
-  },
-  {
-    "id": "store.select_error",
-    "translation": "грешка при избор"
   },
   {
     "id": "model.channel.is_valid.creator_id.app_error",
@@ -3513,10 +3489,6 @@
   {
     "id": "ent.elasticsearch.search_users.search_failed",
     "translation": "Търсенето неуспешно"
-  },
-  {
-    "id": "store.sql_group.permanent_delete_members_by_user.app_error",
-    "translation": "Не може да се премахне членът на групата с UserID \"{{.UserId}}\"."
   },
   {
     "id": "model.channel.is_valid.purpose.app_error",
@@ -4291,10 +4263,6 @@
     "translation": "Липсва задължително свойство за директна публикация: съобщение"
   },
   {
-    "id": "model.group.id.app_error",
-    "translation": "невалидно id свойство за група."
-  },
-  {
     "id": "model.config.is_valid.data_retention.message_retention_days_too_low.app_error",
     "translation": "Съхраняването на съобщение трябва да бъде един ден или повече."
   },
@@ -4393,10 +4361,6 @@
   {
     "id": "api.templates.mfa_change_subject",
     "translation": "[{{.SiteName}}] Вашето МФУ е актуализирано"
-  },
-  {
-    "id": "store.sql_group.uniqueness_error",
-    "translation": "члена на групата вече съществува"
   },
   {
     "id": "app.audit.get.finding.app_error",
@@ -4683,20 +4647,12 @@
     "translation": "Неуспешно стартиране на групов процесор Elasticsearch."
   },
   {
-    "id": "store.sql_group.unique_constraint",
-    "translation": "група с това име вече съществува"
-  },
-  {
     "id": "ent.elasticsearch.search_channels.disabled",
     "translation": "Търсенето elasticsearch е забранено на този сървър"
   },
   {
     "id": "app.user_access_token.get_by_user.app_error",
     "translation": "Личните маркери за достъп не могат да се получат от потребителя."
-  },
-  {
-    "id": "store.insert_error",
-    "translation": "грешка при вмъкване"
   },
   {
     "id": "store.sql_group.group_syncable_already_deleted",
@@ -4761,10 +4717,6 @@
   {
     "id": "api.team.invate_guests_to_channels.license.error",
     "translation": "Вашият лиценз не поддържа профили за гости"
-  },
-  {
-    "id": "store.sql_group.no_rows",
-    "translation": "не е намерена съвпадаща група"
   },
   {
     "id": "app.plugin.marketplace_disabled.app_error",
@@ -5869,10 +5821,6 @@
   {
     "id": "ent.elasticsearch.create_template_users_if_not_exists.template_create_failed",
     "translation": "Неуспешно създаване на шаблон на Elasticsearch за потребители"
-  },
-  {
-    "id": "store.sql_group.more_than_one_row_changed",
-    "translation": "Променен е повече от един ред."
   },
   {
     "id": "ent.cluster.config_changed.info",

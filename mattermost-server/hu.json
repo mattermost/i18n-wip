@@ -1226,10 +1226,6 @@
     "translation": "Nem találtuk a csatornát"
   },
   {
-    "id": "store.sql_group.uniqueness_error",
-    "translation": "A csoportnév már létezik."
-  },
-  {
     "id": "app.emoji.delete.app_error",
     "translation": "Nem találtuk a csatornát"
   },

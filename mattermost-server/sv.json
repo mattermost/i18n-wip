@@ -184,10 +184,6 @@
     "translation": "System"
   },
   {
-    "id": "store.update_error",
-    "translation": "uppdateringsfel"
-  },
-  {
     "id": "app.user_terms_of_service.delete.app_error",
     "translation": "Det gick inte att radera användningsvillkoren."
   },
@@ -256,24 +252,12 @@
     "translation": "Ett fel uppstod när OAuth2 applikationen skulle raderas."
   },
   {
-    "id": "store.sql_group.uniqueness_error",
-    "translation": "gruppmedlemmen finns redan"
-  },
-  {
     "id": "store.sql_group.unique_constraint",
     "translation": "en grupp med detta namn finns redan"
   },
   {
-    "id": "store.sql_group.permanent_delete_members_by_user.app_error",
-    "translation": "Kunde inte ta bort gruppmedlemmen med UserID \"{{.UserId}}\"."
-  },
-  {
     "id": "store.sql_group.no_rows",
     "translation": "ingen matchande grupp hittad"
-  },
-  {
-    "id": "store.sql_group.group_syncable_already_deleted",
-    "translation": "gruppen att synkronisera var redan raderad"
   },
   {
     "id": "store.sql_group.app_error",
@@ -384,10 +368,6 @@
     "translation": "Kanalen finns inte."
   },
   {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Ett fel uppstod vid sökning efter kanalen."
-  },
-  {
     "id": "store.sql_channel.get.existing.app_error",
     "translation": "Det gick inte att hitta en befintlig kanal."
   },
@@ -418,10 +398,6 @@
   {
     "id": "store.sql.convert_string_array",
     "translation": "Från Db: Kunde inte konvertera StringArray till *string"
-  },
-  {
-    "id": "store.select_error",
-    "translation": "select error"
   },
   {
     "id": "store.insert_error",
@@ -976,10 +952,6 @@
     "translation": "Ogiltig kanal."
   },
   {
-    "id": "model.group_syncable.type.app_error",
-    "translation": "felaktig \"type\"-egenskap för synkroniseringsbar grupp."
-  },
-  {
     "id": "model.group_syncable.syncable_id.app_error",
     "translation": "Felaktig \"syncable id\" för synkroniseringsbar grupp."
   },
@@ -1016,20 +988,12 @@
     "translation": "Felaktig \"name\"-egenskap på gruppen."
   },
   {
-    "id": "model.group.id.app_error",
-    "translation": "Felaktig \"id\"-egenskap på gruppen."
-  },
-  {
     "id": "model.group.display_name.app_error",
     "translation": "Felaktig \"display name\"-egenskap på gruppen."
   },
   {
     "id": "model.group.description.app_error",
     "translation": "Felaktig \"description\"-egenskap på gruppen."
-  },
-  {
-    "id": "model.group.delete_at.app_error",
-    "translation": "Felaktig \"delete at\"-egenskap på gruppen."
   },
   {
     "id": "model.group.create_at.app_error",
@@ -7777,10 +7741,6 @@
   {
     "id": "store.sql_team.save_member.exists.app_error",
     "translation": "En teammedlem med det ID finns redan."
-  },
-  {
-    "id": "store.sql_group.more_than_one_row_changed",
-    "translation": "Fler än en rad är ändrad."
   },
   {
     "id": "store.sql_command.update.missing.app_error",

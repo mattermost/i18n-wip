@@ -112,10 +112,6 @@
     "translation": "Kanál neexistuje"
   },
   {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Došlo k chybě při hledání kanálu"
-  },
-  {
     "id": "store.sql_channel.get.existing.app_error",
     "translation": "Nelze aktualizovat role"
   },
@@ -1290,10 +1286,6 @@
   {
     "id": "store.sql_post.search.disabled",
     "translation": "Hledání bylo zakázáno na tomto serveru. Obraťte se na správce systému."
-  },
-  {
-    "id": "store.sql_group.uniqueness_error",
-    "translation": "člen skupiny už existuje"
   },
   {
     "id": "store.sql_group.unique_constraint",

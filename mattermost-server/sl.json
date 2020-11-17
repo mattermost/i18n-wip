@@ -108,10 +108,6 @@
     "translation": "Sistem"
   },
   {
-    "id": "store.update_error",
-    "translation": "napaka posodabljanja"
-  },
-  {
     "id": "app.user_terms_of_service.delete.app_error",
     "translation": "Pogojev storitve ni mogoče izbrisati."
   },
@@ -188,10 +184,6 @@
     "translation": "Kanal ne obstaja"
   },
   {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Pri iskanju kanala smo naleteli na napako"
-  },
-  {
     "id": "store.sql_channel.get.existing.app_error",
     "translation": "Ni mogoče najti obstoječega kanala"
   },
@@ -218,10 +210,6 @@
   {
     "id": "store.sql.convert_string_array",
     "translation": "FromDb: StringArray ni mogoče pretvoriti v *string"
-  },
-  {
-    "id": "store.select_error",
-    "translation": "napaka izbiranja"
   },
   {
     "id": "store.insert_error",
@@ -732,10 +720,6 @@
     "translation": "Neveljaven ID kanala"
   },
   {
-    "id": "model.group_syncable.type.app_error",
-    "translation": "neveljavna lastnost ID skupine za člana skupine"
-  },
-  {
     "id": "model.group_syncable.group_id.app_error",
     "translation": "neveljavna lastnost ID skupine za člana skupine"
   },
@@ -1228,16 +1212,8 @@
     "translation": "Iskanje je bilo na tem strežniku onemogočeno. Obrnite se na skrbnika sistema."
   },
   {
-    "id": "store.sql_group.uniqueness_error",
-    "translation": "član skupine že obstaja"
-  },
-  {
     "id": "store.sql_group.unique_constraint",
     "translation": "skupina s tem imenom že obstaja"
-  },
-  {
-    "id": "store.sql_group.no_rows",
-    "translation": "ni bila najdena ustrezna skupina"
   },
   {
     "id": "ent.compliance.csv.metadata.json.zipfile.appError",
@@ -2108,20 +2084,12 @@
     "translation": "neveljavno ime lastnosti za skupino"
   },
   {
-    "id": "model.group.id.app_error",
-    "translation": "neveljavna lastnost ID za skupino"
-  },
-  {
     "id": "model.group.display_name.app_error",
     "translation": "neveljavna lastnost prikaznega imena za skupino"
   },
   {
     "id": "model.group.description.app_error",
     "translation": "neveljavna lastnost opisa za skupino"
-  },
-  {
-    "id": "model.group.delete_at.app_error",
-    "translation": "neveljavno brisanje na lastnosti za skupino"
   },
   {
     "id": "model.group.create_at.app_error",

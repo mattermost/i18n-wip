@@ -116,10 +116,6 @@
     "translation": "Järjestelmä"
   },
   {
-    "id": "store.update_error",
-    "translation": "päivitysvirhe"
-  },
-  {
     "id": "app.user_terms_of_service.delete.app_error",
     "translation": "Ei voitu poistaa palveluehtoja."
   },
@@ -164,24 +160,12 @@
     "translation": "Etsintä on kytketty pois tällä palvelimella. Ota yhteys järjestelmänvalvojaan."
   },
   {
-    "id": "store.sql_group.uniqueness_error",
-    "translation": "ryhmän jäsen on jo olemassa"
-  },
-  {
     "id": "store.sql_group.unique_constraint",
     "translation": "ryhmän nimi on jo olemassa"
   },
   {
-    "id": "store.sql_group.no_rows",
-    "translation": "vastaavaa ryhmää ei löydetty"
-  },
-  {
     "id": "store.sql_group.group_syncable_already_deleted",
     "translation": "ryhmän synkronoitava on jo poistettu"
-  },
-  {
-    "id": "store.sql_group.app_error",
-    "translation": "virhe kyselyn luomisessa"
   },
   {
     "id": "app.emoji.delete.no_results",
@@ -1464,10 +1448,6 @@
     "translation": "FromDb: Ei voitu muuttaa StringArrayta muotoon *string"
   },
   {
-    "id": "store.select_error",
-    "translation": "valintavirhe"
-  },
-  {
     "id": "store.insert_error",
     "translation": "lisäysvirhe"
   },
@@ -2012,10 +1992,6 @@
     "translation": "Virheellinen kanavan id"
   },
   {
-    "id": "model.group_syncable.type.app_error",
-    "translation": "virheellinen tyyppi ryhmän synkronoitavalla"
-  },
-  {
     "id": "model.group_syncable.syncable_id.app_error",
     "translation": "virheellinen synkronoitava id ryhmän synkronoitavalla"
   },
@@ -2048,20 +2024,12 @@
     "translation": "virheellinen nimi ryhmällä"
   },
   {
-    "id": "model.group.id.app_error",
-    "translation": "virheellinen id ryhmällä"
-  },
-  {
     "id": "model.group.display_name.app_error",
     "translation": "virheellinen näyttönimi ryhmällä"
   },
   {
     "id": "model.group.description.app_error",
     "translation": "virheellinen description arvo ryhmällä"
-  },
-  {
-    "id": "model.group.delete_at.app_error",
-    "translation": "virheellinen poistettu arvo ryhmällä"
   },
   {
     "id": "model.group.create_at.app_error",
@@ -3062,10 +3030,6 @@
   {
     "id": "app.channel.get_by_name.missing.app_error",
     "translation": "Kanavaa ei ole olemassa"
-  },
-  {
-    "id": "store.sql_channel.get.find.app_error",
-    "translation": "Kohdattiin virhe etsittäessä kanavaa"
   },
   {
     "id": "store.sql_channel.get.existing.app_error",
