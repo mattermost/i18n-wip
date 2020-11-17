@@ -252,16 +252,8 @@
     "translation": "Ett fel uppstod när OAuth2 applikationen skulle raderas."
   },
   {
-    "id": "store.sql_group.unique_constraint",
-    "translation": "en grupp med detta namn finns redan"
-  },
-  {
     "id": "store.sql_group.no_rows",
     "translation": "ingen matchande grupp hittad"
-  },
-  {
-    "id": "store.sql_group.app_error",
-    "translation": "misslyckades att skapa frågan."
   },
   {
     "id": "app.emoji.delete.no_results",
@@ -398,10 +390,6 @@
   {
     "id": "store.sql.convert_string_array",
     "translation": "Från Db: Kunde inte konvertera StringArray till *string"
-  },
-  {
-    "id": "store.insert_error",
-    "translation": "insert error"
   },
   {
     "id": "searchengine.bleve.disabled.error",

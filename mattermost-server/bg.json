@@ -4655,10 +4655,6 @@
     "translation": "Личните маркери за достъп не могат да се получат от потребителя."
   },
   {
-    "id": "store.sql_group.group_syncable_already_deleted",
-    "translation": "груповата синхронизация вече беше изтрита"
-  },
-  {
     "id": "app.command_webhook.create_command_webhook.existing",
     "translation": "Не можете да актуализирате съществуващ CommandWebhook."
   },

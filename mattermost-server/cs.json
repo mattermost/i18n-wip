@@ -1288,10 +1288,6 @@
     "translation": "Hledání bylo zakázáno na tomto serveru. Obraťte se na správce systému."
   },
   {
-    "id": "store.sql_group.unique_constraint",
-    "translation": "Tým s tímto názvem již existuje"
-  },
-  {
     "id": "app.emoji.delete.no_results",
     "translation": "Nelze najít emoji určené ke smazání"
   },

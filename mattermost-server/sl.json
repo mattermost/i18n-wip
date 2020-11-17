@@ -212,10 +212,6 @@
     "translation": "FromDb: StringArray ni mogoče pretvoriti v *string"
   },
   {
-    "id": "store.insert_error",
-    "translation": "napaka vstavljanja"
-  },
-  {
     "id": "plugin_api.send_mail.missing_to",
     "translation": "Manjkajoči ZA naslov."
   },
@@ -1210,10 +1206,6 @@
   {
     "id": "store.sql_post.search.disabled",
     "translation": "Iskanje je bilo na tem strežniku onemogočeno. Obrnite se na skrbnika sistema."
-  },
-  {
-    "id": "store.sql_group.unique_constraint",
-    "translation": "skupina s tem imenom že obstaja"
   },
   {
     "id": "ent.compliance.csv.metadata.json.zipfile.appError",

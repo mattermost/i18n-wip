@@ -7743,10 +7743,6 @@
     "translation": "خطا در پاکسازی شاخص های Bleve: موتور غیرفعال است"
   },
   {
-    "id": "store.select_error",
-    "translation": "انتخاب خطا"
-  },
-  {
     "id": "store.sql.convert_string_array",
     "translation": "FromDb: تبدیل StringArray به *string امکان پذیر نیست"
   },
@@ -7803,16 +7799,8 @@
     "translation": "فرمان وجود ندارد."
   },
   {
-    "id": "store.sql_group.group_syncable_already_deleted",
-    "translation": "همگام سازی گروه قبلاً حذف شده است"
-  },
-  {
     "id": "store.sql_group.no_rows",
     "translation": "هیچ گروه منطبقی یافت نشد"
-  },
-  {
-    "id": "store.sql_group.unique_constraint",
-    "translation": "گروهی با این نام از قبل وجود دارد"
   },
   {
     "id": "store.sql_post.search.disabled",

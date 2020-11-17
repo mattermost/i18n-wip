@@ -2996,10 +2996,6 @@
     "translation": "Người dùng được chỉ định không phải là thành viên của kênh được chỉ định."
   },
   {
-    "id": "store.sql_group.unique_constraint",
-    "translation": "một nhóm với tên đó đã tồn tại"
-  },
-  {
     "id": "store.sql_group.group_syncable_already_deleted",
     "translation": "nhóm có thể đồng bộ hóa đã bị xóa"
   },
@@ -3078,10 +3074,6 @@
   {
     "id": "store.sql.convert_string_array",
     "translation": "FromDb: Không thể chuyển đổi StringArray sang *string"
-  },
-  {
-    "id": "store.insert_error",
-    "translation": "lỗi chèn"
   },
   {
     "id": "plugin_api.send_mail.missing_to",

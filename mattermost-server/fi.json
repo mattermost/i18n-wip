@@ -160,10 +160,6 @@
     "translation": "Etsintä on kytketty pois tällä palvelimella. Ota yhteys järjestelmänvalvojaan."
   },
   {
-    "id": "store.sql_group.unique_constraint",
-    "translation": "ryhmän nimi on jo olemassa"
-  },
-  {
     "id": "store.sql_group.group_syncable_already_deleted",
     "translation": "ryhmän synkronoitava on jo poistettu"
   },
@@ -1446,10 +1442,6 @@
   {
     "id": "store.sql.convert_string_array",
     "translation": "FromDb: Ei voitu muuttaa StringArrayta muotoon *string"
-  },
-  {
-    "id": "store.insert_error",
-    "translation": "lisäysvirhe"
   },
   {
     "id": "plugin_api.send_mail.missing_to",
