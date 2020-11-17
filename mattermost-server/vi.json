@@ -2996,10 +2996,6 @@
     "translation": "Người dùng được chỉ định không phải là thành viên của kênh được chỉ định."
   },
   {
-    "id": "store.sql_group.group_syncable_already_deleted",
-    "translation": "nhóm có thể đồng bộ hóa đã bị xóa"
-  },
-  {
     "id": "app.emoji.delete.no_results",
     "translation": "Chúng tôi không thể tìm thấy biểu tượng cảm xúc để xóa"
   },

@@ -7799,10 +7799,6 @@
     "translation": "فرمان وجود ندارد."
   },
   {
-    "id": "store.sql_group.no_rows",
-    "translation": "هیچ گروه منطبقی یافت نشد"
-  },
-  {
     "id": "store.sql_post.search.disabled",
     "translation": "جستجو در این سرور غیرفعال شده است. لطفا با سرپرست سیستم خود تماس بگیرید."
   },

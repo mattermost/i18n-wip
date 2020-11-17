@@ -252,10 +252,6 @@
     "translation": "Ett fel uppstod när OAuth2 applikationen skulle raderas."
   },
   {
-    "id": "store.sql_group.no_rows",
-    "translation": "ingen matchande grupp hittad"
-  },
-  {
     "id": "app.emoji.delete.no_results",
     "translation": "Kunde inte hitta emoij att radera."
   },

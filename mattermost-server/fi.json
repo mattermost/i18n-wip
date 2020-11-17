@@ -160,10 +160,6 @@
     "translation": "Etsintä on kytketty pois tällä palvelimella. Ota yhteys järjestelmänvalvojaan."
   },
   {
-    "id": "store.sql_group.group_syncable_already_deleted",
-    "translation": "ryhmän synkronoitava on jo poistettu"
-  },
-  {
     "id": "app.emoji.delete.no_results",
     "translation": "Ei löydetty poistettavaa emojia"
   },
