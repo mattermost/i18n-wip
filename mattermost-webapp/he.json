@@ -2,9 +2,15 @@
   "about.enterpriseEditione1": "רשיון מסחרי",
   "about.teamEditiont0": "רשיון קבוצתי",
   "about.teamEditiont1": "רשיון מסחרי",
+  "admin.channel_settings.channel_moderation.manageMembers": "ניהול חברים",
+  "admin.team_settings.team_details.add_members": "הוסף חברים",
   "api.channel.add_member.added": "{addedUsername} צורף לערוץ ע\"י {username}.",
   "archivedChannelMessage": "ערוץ זה ב**מצב ארכיון**. לא ניתן לשלוח הודעות חדשות.",
   "center_panel.archived.closeChannel": "סגור ערוץ",
   "channel_header.directchannel.you": "{displayname} (את/ה) ",
-  "channel_header.manageMembers": "ניהול חברים"
+  "channel_header.manageMembers": "ניהול חברים",
+  "members_popover.manageMembers": "ניהול חברים",
+  "navbar.addMembers": "הוסף חברים",
+  "navbar_dropdown.manageMembers": "ניהול חברים",
+  "sidebar_left.sidebar_channel_menu.addMembers": "הוסף חברים"
 }
