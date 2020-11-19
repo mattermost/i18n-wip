@@ -702,8 +702,6 @@
   "admin.experimental.clientSideCertEnable.title": "Activar a certificación do lado do cliente:",
   "admin.experimental.closeUnusedDirectMessages.desc": "Cando sexa verdadeiro, as conversas de mensaxes directas sen actividade durante 7 días agocharanse na barra lateral. Cando é falso, as conversas permanecen na barra lateral ata que se pechan manualmente.",
   "admin.experimental.closeUnusedDirectMessages.title": "Pechar automaticamente as mensaxes directas na barra lateral:",
-  "admin.experimental.cloudBilling.desc": "Amosar a nova vista de facturación na nube",
-  "admin.experimental.cloudBilling.title": "Facturación na nube:",
   "admin.experimental.defaultTheme.desc": "Establecer un tema predeterminado que se aplique a todos os novos usuarios do sistema.",
   "admin.experimental.defaultTheme.title": "Tema predeterminado:",
   "admin.experimental.emailBatchingBufferSize.desc": "Especifique o número máximo de notificacións por lotes nun só correo-e.",

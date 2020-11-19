@@ -702,8 +702,6 @@
   "admin.experimental.clientSideCertEnable.title": "Aktivera certifiering från klient-sidan:",
   "admin.experimental.closeUnusedDirectMessages.desc": "När satt till sant kommer direkt-meddelanden utan aktivitet de senaste 7 dagarna vara dolda i sidopanelen. När satt till falskt kommer meddelandena vara synliga i sidopanelen tills de stängs manuellt.",
   "admin.experimental.closeUnusedDirectMessages.title": "Stäng meddelanden i sidopanelen automatiskt:",
-  "admin.experimental.cloudBilling.desc": "Visa den nya betal-vyn för moln",
-  "admin.experimental.cloudBilling.title": "Molnbetalning:",
   "admin.experimental.defaultTheme.desc": "Sätt ett standard-tema för alla nya användare.",
   "admin.experimental.defaultTheme.title": "Standardtema:",
   "admin.experimental.emailBatchingBufferSize.desc": "Ange max antal meddelanden som kan bifogas i ett enda e-postmeddelande.",

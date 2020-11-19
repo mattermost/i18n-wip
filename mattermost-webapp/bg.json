@@ -702,8 +702,6 @@
   "admin.experimental.clientSideCertEnable.title": "Разреши сертифициране от страна на клиента:",
   "admin.experimental.closeUnusedDirectMessages.desc": "Когато е true, директните разговори, без активност в продължение на 7 дни ще бъдат скрити от страничната лента. При false, разговорите остават в страничната лента, докато не бъдат затворени ръчно.",
   "admin.experimental.closeUnusedDirectMessages.title": "Автоматично затваряне на директни съобщения в страничната лента:",
-  "admin.experimental.cloudBilling.desc": "Покажи новото виждане за таксуване с Cloud",
-  "admin.experimental.cloudBilling.title": "Cloud таксуване:",
   "admin.experimental.defaultTheme.desc": "Задайте тема по подразбиране, която се прилага за всички нови потребители в системата.",
   "admin.experimental.defaultTheme.title": "Тема по подразбиране:",
   "admin.experimental.emailBatchingBufferSize.desc": "Посочете максималния брой известия, събрани в едно писмо.",
