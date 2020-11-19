@@ -102,7 +102,6 @@
   "mobile.retry_message": "Làm mới tin nhắn thất bại. Kéo lên để thử lại.",
   "mobile.reset_status.alert_ok": "Ok",
   "mobile.request.invalid_response": "Nhận được phản hồi không hợp lệ từ máy chủ.",
-  "mobile.reply_post.failed": "Tin nhắn không gửi được.",
   "mobile.rename_channel.name_required": "URL được yêu cầu",
   "mobile.rename_channel.name_maxLength": "Tên kênh phải ít hơn {maxLength, number} ký tự",
   "mobile.rename_channel.display_name_required": "Tên kênh là bắt buộc",

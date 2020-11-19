@@ -101,7 +101,6 @@
   "mobile.routes.channel_members.action": "Ta bort användare",
   "mobile.retry_message": "Misslyckades att ladda om meddelanden. Dra uppåt för att försöka igen.",
   "mobile.request.invalid_response": "Mottog ett ogiltigt svar från servern.",
-  "mobile.reply_post.failed": "Sändning misslyckades.",
   "mobile.rename_channel.name_minLength": "URL måste vara {minLength, number} eller fler tecken",
   "mobile.rename_channel.name_maxLength": "Namnet på kanalen måste innehålla färre än {maxLength, number} tecken",
   "mobile.rename_channel.name_lowercase": "Måste vara alfanumeriska gemener",

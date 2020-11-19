@@ -317,7 +317,6 @@
   "mobile.reset_status.title_ooo": "Kytke pois \"Poissa Toimistolta\"?",
   "mobile.reset_status.alert_ok": "OK",
   "mobile.request.invalid_response": "Vastaanotettiin virheellinen vastaus palvelimelta.",
-  "mobile.reply_post.failed": "Viestin lähetys epäonnistui.",
   "mobile.rename_channel.name_required": "URL on pakollinen",
   "mobile.rename_channel.name_minLength": "URLin oltava vähintään {minLength, number} merkkiä",
   "mobile.rename_channel.name_maxLength": "URLin pituuden on oltava vähemmän kuin {maxLength, number} merkkiä",

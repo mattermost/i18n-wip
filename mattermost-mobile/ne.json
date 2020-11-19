@@ -191,7 +191,6 @@
   "mobile.reset_status.title_ooo": "\"Out Of Office\" असक्षम गर्ने?",
   "mobile.reset_status.alert_ok": "ठिक छ",
   "mobile.request.invalid_response": "सर्भरबाट अवैध प्रतिक्रिया प्राप्त भयो।",
-  "mobile.reply_post.failed": "सन्देश पठाउन असफल भयो।",
   "mobile.rename_channel.name_required": "यूआरएल आवश्यक छ",
   "mobile.rename_channel.name_minLength": "यूआरएल {minLength, number} वा अधिक वर्णहरू हुनुपर्दछ",
   "mobile.rename_channel.name_maxLength": "यूआरएल {maxLength, number} वर्ण भन्दा कम हुनुपर्दछ",

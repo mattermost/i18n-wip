@@ -278,7 +278,6 @@
   "mobile.reset_status.title_ooo": "Vypnout \"Mimo kancelář\"?",
   "mobile.reset_status.alert_ok": "Budiž",
   "mobile.request.invalid_response": "Byla přijata neplatná odpověď ze serveru.",
-  "mobile.reply_post.failed": "Chyba při odeslání zprávy.",
   "mobile.rename_channel.name_required": "URL je vyžadováno",
   "mobile.rename_channel.name_minLength": "URL musí být {minLength, number} nebo více znaků",
   "mobile.rename_channel.name_maxLength": "URL musí být kratší než {maxLength, number} znaků",

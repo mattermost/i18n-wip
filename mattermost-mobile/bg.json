@@ -474,7 +474,6 @@
   "mobile.reset_status.title_ooo": "Деактивирайте „Извън офиса“?",
   "mobile.reset_status.alert_ok": "Добре",
   "mobile.request.invalid_response": "Получи невалиден отговор от сървъра.",
-  "mobile.reply_post.failed": "Съобщението не бе изпратено.",
   "mobile.rename_channel.name_required": "Необходим е URL адрес",
   "mobile.rename_channel.name_minLength": "URL адресът трябва да бъде {minLength, number} или повече знака",
   "mobile.rename_channel.name_maxLength": "URL адресът трябва да бъде по-малък от {maxLength, number} знака",
