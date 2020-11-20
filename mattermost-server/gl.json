@@ -154,5 +154,101 @@
   {
     "id": "model.group.name.invalid_length.app_error",
     "translation": "O nome debe ter de 1 a 64 caracteres alfanuméricos en minúscula."
+  },
+  {
+    "id": "mfa.validate_token.authenticate.app_error",
+    "translation": "Testemuño AMF non válido."
+  },
+  {
+    "id": "mfa.generate_qr_code.save_secret.app_error",
+    "translation": "Produciuse un erro ao gardar o segredo da AMF."
+  },
+  {
+    "id": "mfa.generate_qr_code.create_code.app_error",
+    "translation": "Produciuse un erro ao xerar o código QR."
+  },
+  {
+    "id": "mfa.deactivate.save_secret.app_error",
+    "translation": "Produciuse un erro ao limpar o segredo da AMF."
+  },
+  {
+    "id": "mfa.deactivate.save_active.app_error",
+    "translation": "Non é posíbel actualizar o estado activo da AMF para o usuario."
+  },
+  {
+    "id": "mfa.activate.save_active.app_error",
+    "translation": "Non é posíbel actualizar o estado activo da AMF para o usuario."
+  },
+  {
+    "id": "mfa.activate.bad_token.app_error",
+    "translation": "Testemuño AMF non válido."
+  },
+  {
+    "id": "mfa.activate.authenticate.app_error",
+    "translation": "Produciuse un erro ao tentar autenticar o testemuño AMF."
+  },
+  {
+    "id": "api.user.send_mfa_change_email.error",
+    "translation": "Non é posíbel enviar unha notificación por correo-e por cambio na AMF."
+  },
+  {
+    "id": "api.user.check_user_mfa.bad_code.app_error",
+    "translation": "Testemuño AMF non válido."
+  },
+  {
+    "id": "api.user.activate_mfa.email_and_ldap_only.app_error",
+    "translation": "A AMF non está dispoñíbel para este tipo de conta."
+  },
+  {
+    "id": "api.templates.mfa_change_subject",
+    "translation": "[{{.SiteName}}] Actualizouse a súa AMF"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
+    "translation": "A súa proba de Enterprise xa está activa. Vaia a **Consola do sistema > Autenticación > AMF** para aplicar a autenticación de múltiples factores."
+  },
+  {
+    "id": "mfa.mfa_disabled.app_error",
+    "translation": "Desactivouse a autenticación de múltiples factores neste servidor."
+  },
+  {
+    "id": "api.templates.mfa_deactivated_body.title",
+    "translation": "Retirouse a autenticación de múltiples factores"
+  },
+  {
+    "id": "api.templates.mfa_deactivated_body.info",
+    "translation": "Retirouse a autenticación de múltiples factores da súa conta en {{.SiteURL}}."
+  },
+  {
+    "id": "api.templates.mfa_activated_body.title",
+    "translation": "Engadiuse a autenticación de múltiples factores"
+  },
+  {
+    "id": "api.templates.mfa_activated_body.info",
+    "translation": "Engadiuse a autenticación de múltiples factores á súa conta en {{.SiteURL}}."
+  },
+  {
+    "id": "api.server.warn_metric.mfa.notification_title",
+    "translation": "Aplicar a autenticación de múltiples factores"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.contact_us.email_body",
+    "translation": "Solicitude de contacto con Mattermost. Estou interesado en saber máis sobre como aplicar a autenticación de múltiples factores.\n"
+  },
+  {
+    "id": "api.context.mfa_required.app_error",
+    "translation": "Neste servidor é necesaria a autenticación de múltiples factores."
+  },
+  {
+    "id": "ent.cluster.save_config.error",
+    "translation": "A consola do sistema está configurada só para lectura cando a Alta dispoñibilidade está habilitada a menos que ReadOnlyConfig estea desactivado no ficheiro de configuración."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_success.message",
+    "translation": "A súa proba de Enterprise xa está activa. Vaia á consola do sistema para activar as funcións avanzadas."
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.start_trial_notification_success.message",
+    "translation": "A súa proba de Enterprise xa está activa. Vaia a **Consola do sistema > Autenticación > Acceso de convidado** para activar as contas de convidado."
   }
 ]
