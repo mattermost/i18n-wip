@@ -8313,5 +8313,41 @@
   {
     "id": "api.roles.patch_roles.admin_role.error",
     "translation": "Rollen systemadministratör kan inte redigeras eller ändras"
+  },
+  {
+    "id": "app.group.group_syncable_already_deleted",
+    "translation": "synkroniseringsgruppen var redan borttagen"
+  },
+  {
+    "id": "app.group.no_rows",
+    "translation": "ingen matchande grupp hittad"
+  },
+  {
+    "id": "app.group.id.app_error",
+    "translation": "ogiltigt ID-attribut för grupp."
+  },
+  {
+    "id": "model.config.is_valid.collapsed_threads.app_error",
+    "translation": "Inställningen för CollapsedThreads ska vara antingen disabled, default_in eller default_off"
+  },
+  {
+    "id": "app.insert_error",
+    "translation": "fel vid tillägg"
+  },
+  {
+    "id": "app.select_error",
+    "translation": "fel vid sökning"
+  },
+  {
+    "id": "app.update_error",
+    "translation": "fel vid uppdatering"
+  },
+  {
+    "id": "app.group.uniqueness_error",
+    "translation": "gruppmedlem finns redan"
+  },
+  {
+    "id": "app.group.permanent_delete_members_by_user.app_error",
+    "translation": "Kunde inte ta bort gruppmedlem med UserID \"{{.UserId}}\"."
   }
 ]
