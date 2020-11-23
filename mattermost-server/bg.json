@@ -847,10 +847,6 @@
     "translation": "не безпокой"
   },
   {
-    "id": "api.command_dnd.error",
-    "translation": "Грешка при получаване състоянието на потребител."
-  },
-  {
     "id": "api.command_dnd.disabled",
     "translation": "Не безпокой е деактивирано."
   },

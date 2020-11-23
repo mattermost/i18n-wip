@@ -4895,10 +4895,6 @@
     "translation": "älä häiritse"
   },
   {
-    "id": "api.command_dnd.error",
-    "translation": "Virhe käyttäjän statuksen hakemisessa."
-  },
-  {
     "id": "api.command_dnd.disabled",
     "translation": "Älä häiritse on poistettu käytöstä."
   },

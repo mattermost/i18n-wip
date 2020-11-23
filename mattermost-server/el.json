@@ -847,10 +847,6 @@
     "translation": "Μην ενοχλείτε"
   },
   {
-    "id": "api.command_dnd.error",
-    "translation": "Σφάλμα κατά την ανάκτηση της κατάστασης του χρήστη."
-  },
-  {
     "id": "api.command_dnd.disabled",
     "translation": "Η κατάσταση \"Μην ενοχλείτε\" είναι απενεργοποιημένη."
   },

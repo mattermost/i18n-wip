@@ -4437,10 +4437,6 @@
     "translation": "dnd"
   },
   {
-    "id": "api.command_dnd.error",
-    "translation": "Napaka pri pridobivanju uporabnikovega stanja."
-  },
-  {
     "id": "api.command_dnd.disabled",
     "translation": "Ne moti je onemogočeno."
   },

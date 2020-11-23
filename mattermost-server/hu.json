@@ -1605,10 +1605,6 @@
     "translation": "dnd"
   },
   {
-    "id": "api.command_dnd.error",
-    "translation": "Hiba történt a felhasználói állapot lekérésekor."
-  },
-  {
     "id": "api.command_dnd.disabled",
     "translation": "A be zavarjanak ki van kapcsolva."
   },

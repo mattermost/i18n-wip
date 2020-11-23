@@ -4315,10 +4315,6 @@
     "translation": "dnd"
   },
   {
-    "id": "api.command_dnd.error",
-    "translation": "S'ha produït un error en recuperar l'estat de l'usuari."
-  },
-  {
     "id": "api.command_dnd.disabled",
     "translation": "No molestar està desactivat."
   },

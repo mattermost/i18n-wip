@@ -5411,10 +5411,6 @@
     "translation": "stör ej"
   },
   {
-    "id": "api.command_dnd.error",
-    "translation": "Misslyckades att hämta användarens status."
-  },
-  {
     "id": "api.command_dnd.disabled",
     "translation": "Stör Ej är avaktiverad."
   },

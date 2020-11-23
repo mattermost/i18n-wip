@@ -5086,10 +5086,6 @@
     "translation": "dnd"
   },
   {
-    "id": "api.command_dnd.error",
-    "translation": "Lỗi khi truy xuất trạng thái người dùng."
-  },
-  {
     "id": "api.command_dnd.disabled",
     "translation": "Không làm phiền bị tắt."
   },

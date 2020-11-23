@@ -716,10 +716,6 @@
     "translation": "مزاحم نشوید در پوش نوتیفیکیشن دسک تاپ و موبایل را غیرفعال می کند."
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "مزاحم نشوید غیرفعال است."
-  },
-  {
     "id": "api.command_dnd.error",
     "translation": "خطا در بازیابی وضعیت کاربر."
   },
