@@ -847,10 +847,6 @@
     "translation": "не безпокой"
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "Не безпокой е деактивирано."
-  },
-  {
     "id": "api.command_dnd.desc",
     "translation": "Не безпокой забранява настолните и изскачащите мобилни известия."
   },

@@ -5086,10 +5086,6 @@
     "translation": "dnd"
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "Không làm phiền bị tắt."
-  },
-  {
     "id": "api.command_dnd.desc",
     "translation": "Không làm phiền vô hiệu hóa thông báo đẩy trên thiết bị di động và máy tính để bàn."
   },

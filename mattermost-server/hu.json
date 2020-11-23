@@ -1605,10 +1605,6 @@
     "translation": "dnd"
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "A be zavarjanak ki van kapcsolva."
-  },
-  {
     "id": "api.command_dnd.desc",
     "translation": "A ne zavarjanak az asztali és mobil push értesítések letiltja."
   },

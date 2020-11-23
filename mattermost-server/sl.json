@@ -4437,10 +4437,6 @@
     "translation": "dnd"
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "Ne moti je onemogočeno."
-  },
-  {
     "id": "api.command_dnd.desc",
     "translation": "Ne moti izklopi vsa potisna obvestila."
   },

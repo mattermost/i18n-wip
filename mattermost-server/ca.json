@@ -4315,10 +4315,6 @@
     "translation": "dnd"
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "No molestar està desactivat."
-  },
-  {
     "id": "api.command_dnd.desc",
     "translation": "No molestar desactiva les notificacions de tramesa automàtica d'escriptoris i mòbils."
   },

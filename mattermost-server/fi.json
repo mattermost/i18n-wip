@@ -4895,10 +4895,6 @@
     "translation": "älä häiritse"
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "Älä häiritse on poistettu käytöstä."
-  },
-  {
     "id": "api.command_dnd.desc",
     "translation": "Älä häiritse poistaa työpöytä- ja mobiiliohjelmien push-viestit."
   },

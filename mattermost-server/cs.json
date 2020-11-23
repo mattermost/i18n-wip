@@ -5004,10 +5004,6 @@
     "translation": "%v byl odstraněn z týmu."
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "Stav Nerušit je vypnutý."
-  },
-  {
     "id": "api.command_dnd.desc",
     "translation": "Status \"nerušit\" vypne desktopové a mobilní push upozornění."
   },

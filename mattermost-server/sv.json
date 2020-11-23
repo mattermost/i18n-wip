@@ -5411,10 +5411,6 @@
     "translation": "stör ej"
   },
   {
-    "id": "api.command_dnd.disabled",
-    "translation": "Stör Ej är avaktiverad."
-  },
-  {
     "id": "api.command_dnd.desc",
     "translation": "Stör Ej avaktiverar skrivbords och mobil push-notifiering."
   },
