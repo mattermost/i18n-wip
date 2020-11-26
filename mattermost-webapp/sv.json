@@ -3769,6 +3769,7 @@
   "sidebar_left.sidebar_category_menu.muteCategory": "Inaktivera kategorin",
   "sidebar_left.sidebar_category_menu.renameCategory": "Döp om kategori",
   "sidebar_left.sidebar_category_menu.unmuteCategory": "Aktivera kategorin",
+  "sidebar_left.sidebar_channel.selectedCount": "{count} valda",
   "sidebar_left.sidebar_channel_menu.addMembers": "Alla medlemmar",
   "sidebar_left.sidebar_channel_menu.copyLink": "Kopiera länk",
   "sidebar_left.sidebar_channel_menu.dropdownAriaLabel": "Redigera kanalmeny",
