@@ -3769,6 +3769,7 @@
   "sidebar_left.sidebar_category_menu.muteCategory": "Заглуши категорията",
   "sidebar_left.sidebar_category_menu.renameCategory": "Преименуване на категория",
   "sidebar_left.sidebar_category_menu.unmuteCategory": "Включи звука на категорията",
+  "sidebar_left.sidebar_channel.selectedCount": "{count} избрани",
   "sidebar_left.sidebar_channel_menu.addMembers": "Добави потребители",
   "sidebar_left.sidebar_channel_menu.copyLink": "Копирай връзка",
   "sidebar_left.sidebar_channel_menu.dropdownAriaLabel": "Редактиране менюто на канала",
