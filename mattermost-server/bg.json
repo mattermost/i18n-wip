@@ -8337,5 +8337,9 @@
   {
     "id": "api.roles.patch_roles.admin_role.error",
     "translation": "Ролята системен администратор не може да се редактира или променя"
+  },
+  {
+    "id": "model.config.is_valid.collapsed_threads.app_error",
+    "translation": "Настройката СвивайРазговори трябва да е Деактивирано, Включено по подразбиране и Изключено по подразбиране"
   }
 ]
