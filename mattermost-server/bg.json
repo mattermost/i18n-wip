@@ -8341,5 +8341,25 @@
   {
     "id": "model.config.is_valid.collapsed_threads.app_error",
     "translation": "Настройката СвивайРазговори трябва да е Деактивирано, Включено по подразбиране и Изключено по подразбиране"
+  },
+  {
+    "id": "api.templates.payment_failed.title",
+    "translation": "Неуспешно плащане"
+  },
+  {
+    "id": "api.templates.payment_failed.subject",
+    "translation": "Изисква се действие: Неуспешно плащане за Mattermost Cloud"
+  },
+  {
+    "id": "api.templates.payment_failed.info3",
+    "translation": "За да осигурите непрекъснат абонамент за Mattermost Cloud, моля, свържете се с вашата финансова институция, за да отстраните проблема или актуализирайте данните си за плащане. След като се актуализира информацията за плащане, Mattermost ще се опита да уреди неплатеното салдо."
+  },
+  {
+    "id": "api.templates.payment_failed.info2",
+    "translation": "Посочена е следната причина:"
+  },
+  {
+    "id": "api.templates.payment_failed.info1",
+    "translation": "Вашата финансова институция отказа плащане от вашата {{.CardBrand}} **** {{. LastFour}}, свързана с вашето работно пространство в Mattermost Cloud."
   }
 ]
