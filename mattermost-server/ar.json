@@ -989,7 +989,7 @@
   },
   {
     "id": "api.channel.remove_channel_member.type.app_error",
-    "translation": "لا يمكن حذف المستخدِم من المحادثة"
+    "translation": "لا يمكن حذف المستخدِم من القناة."
   },
   {
     "id": "api.channel.remove.default.app_error",
@@ -1037,7 +1037,7 @@
   },
   {
     "id": "api.channel.patch_update_channel.forbidden.app_error",
-    "translation": "حدث خطأ عند تحديث المحادثة"
+    "translation": "حدث خطأ عند تحديث المحادثة."
   },
   {
     "id": "api.channel.leave.left",
@@ -1077,7 +1077,7 @@
   },
   {
     "id": "api.channel.delete_channel.cannot.app_error",
-    "translation": "لايمكن حذف القناة الافتراضية {{Channel.}}"
+    "translation": "لايمكن حذف القناة الافتراضية {{Channel.}}."
   },
   {
     "id": "api.channel.delete_channel.archived",
@@ -1113,23 +1113,23 @@
   },
   {
     "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "القناة المراد تحويلها هي بالأصل قناة خاصة"
+    "translation": "القناة المراد تحويلها هي بالأصل قناة خاصة."
   },
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "لا يمكن تحويل هذه القناة الإفتراضية إلى قناة خاصة"
+    "translation": "لا يمكن تحويل هذه القناة الإفتراضية إلى قناة خاصة."
   },
   {
     "id": "api.channel.change_channel_privacy.public_to_private",
-    "translation": "تم تحويل هذه القناة إلى قناة خاصة"
+    "translation": "تم تحويل هذه القناة إلى قناة خاصة."
   },
   {
     "id": "api.channel.change_channel_privacy.private_to_public",
-    "translation": "تم تحويل هذه القناة إلى قناة عامة وبإمكان أي من أفراد الفريق الإنضمام إليها"
+    "translation": "تم تحويل هذه القناة إلى قناة عامة وبإمكان أي فرد من أفراد الفريق الإنضمام إليها."
   },
   {
     "id": "api.channel.add_user_to_channel.type.app_error",
-    "translation": "لا يمكن إضافة المستخدك لقناة من هذا النوع"
+    "translation": "لا يمكن إضافة مستخدم لقناة من هذا النوع."
   },
   {
     "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
@@ -1165,7 +1165,7 @@
   },
   {
     "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "لم نتمكن من قراءة طلب Multipart"
+    "translation": "‪لم نتمكن من قراءة طلب Multipart."
   },
   {
     "id": "api.bot.set_bot_icon_image.open.app_error",
@@ -1173,7 +1173,7 @@
   },
   {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
-    "translation": "لا يوجد ملف تحت عنوان \"image\" في الطلب"
+    "translation": "لا يوجد ملف تحت عنوان \"image\" في الطلب."
   },
   {
     "id": "api.bot.set_bot_icon_image.array.app_error",
@@ -1201,19 +1201,19 @@
   },
   {
     "id": "api.admin.upload_brand_image.storage.app_error",
-    "translation": "غير قادر على تحميل الصورة. لم يتم إعداد مخزن الصور"
+    "translation": "غير قادر على تحميل الصورة. لم يتم إعداد مخزن الصور."
   },
   {
     "id": "api.admin.upload_brand_image.parse.app_error",
-    "translation": "لم نتمكن من قراءة طلب Multipart"
+    "translation": "تعذر تحليل نموذج متعدد الأجزاء."
   },
   {
     "id": "api.admin.upload_brand_image.no_file.app_error",
-    "translation": "لا يوجد ملف تحت عنوان \"image\" في الطلب"
+    "translation": "لا يوجد ملف تحت عنوان \"image\" في الطلب."
   },
   {
     "id": "api.admin.upload_brand_image.array.app_error",
-    "translation": "المصفوفة التي تحت 'الصور' في الطلب فارغة"
+    "translation": "المصفوفة التي تحت 'الصور' في الطلب فارغة."
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -1390,5 +1390,45 @@
   {
     "id": "app.user_terms_of_service.get_by_user.no_rows.app_error",
     "translation": "شروط الخدمة غير متوفرة"
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.guest_and_user.app_error",
+    "translation": "تحديث غير صالح لعضو القناة: يجب أن يكون المستخدم ضيفًا أو مستخدمًا ولكن ليس كلاهما."
+  },
+  {
+    "id": "api.channel.update_channel.typechange.app_error",
+    "translation": "لا يمكن تحديث نوع القناة."
+  },
+  {
+    "id": "api.channel.restore_channel.unarchived",
+    "translation": "{{.Username}} الغى ارشفة القناة."
+  },
+  {
+    "id": "api.channel.restore_channel.restored.app_error",
+    "translation": "تعذر إلغاء أرشفة القناة. لم يتم أرشفة القناة."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.license.error",
+    "translation": "رخصتك لا تدعم الإشراف على القناة"
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "تعذر نقل قنوات الرسائل المباشرة أو الجماعية"
+  },
+  {
+    "id": "api.channel.get_channel_moderations.license.error",
+    "translation": "الترخيص الخاص بك لا يدعم الإشراف على القناة"
+  },
+  {
+    "id": "api.channel.channel_member_counts_by_group.license.error",
+    "translation": "الترخيص الخاص بك لا يدعم المجموعات"
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "LDAP غير متوفر."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "خطأ في تحليل الطلب متعدد الأشكال"
   }
 ]
