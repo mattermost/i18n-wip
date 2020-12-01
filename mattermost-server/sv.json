@@ -8341,5 +8341,25 @@
   {
     "id": "app.group.permanent_delete_members_by_user.app_error",
     "translation": "Kunde inte ta bort gruppmedlem med UserID \"{{.UserId}}\"."
+  },
+  {
+    "id": "api.templates.payment_failed.title",
+    "translation": "Misslyckad betalning"
+  },
+  {
+    "id": "api.templates.payment_failed.subject",
+    "translation": "Åtgärd krävs: Betalning för Mattermost Cloud misslyckades"
+  },
+  {
+    "id": "api.templates.payment_failed.info3",
+    "translation": "För att säkerställa en fortsatt prenumeration på Mattermost Cloud bör du kontakta din kortutgivare för att åtgärda problemet, alternativt uppdatera dina betaluppgifter. När betalinformationen är uppdaterad kommer Mattermost försöka reglera eventuellt utestående saldo."
+  },
+  {
+    "id": "api.templates.payment_failed.info2",
+    "translation": "Följande anledning har angetts:"
+  },
+  {
+    "id": "api.templates.payment_failed.info1",
+    "translation": "Den senaste betalningen med betalkort {{.CardBrand}} ****{{.LastFour}} som angetts för Mattermost Cloud workspace gick inte igenom."
   }
 ]
