@@ -8361,5 +8361,73 @@
   {
     "id": "api.templates.payment_failed.info1",
     "translation": "Den senaste betalningen med betalkort {{.CardBrand}} ****{{.LastFour}} som angetts för Mattermost Cloud workspace gick inte igenom."
+  },
+  {
+    "id": "model.config.is_valid.import.retention_days_too_low.app_error",
+    "translation": "Ogiltigt värde för Datalagringsdagar. Värdet är för lågt."
+  },
+  {
+    "id": "model.config.is_valid.import.directory.app_error",
+    "translation": "Ogiltigt värde för Directory."
+  },
+  {
+    "id": "import_process.worker.do_job.unzip",
+    "translation": "Kunde inte hantera importen: kunde inte packa upp filen."
+  },
+  {
+    "id": "import_process.worker.do_job.tmp_dir",
+    "translation": "Kunde inte hantera importen: misslyckades med att skapa temporär mapp."
+  },
+  {
+    "id": "import_process.worker.do_job.open_file",
+    "translation": "Kunde inte hantera importen: kunde inte öppna filen."
+  },
+  {
+    "id": "import_process.worker.do_job.missing_jsonl",
+    "translation": "Kunde inte hantera importen: JSONL-filen saknas."
+  },
+  {
+    "id": "import_process.worker.do_job.missing_file",
+    "translation": "Kunde inte hantera importen: parametern import_file saknas."
+  },
+  {
+    "id": "import_process.worker.do_job.file_exists",
+    "translation": "Kunde inte hantera importen: filen finns inte."
+  },
+  {
+    "id": "app.upload.upload_data.move_file.app_error",
+    "translation": "Misslyckades att flytta den uppladdade filen."
+  },
+  {
+    "id": "app.import.marshal.app_error",
+    "translation": "Kunde inte rangera svaret."
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.title",
+    "translation": "Din faktura för Mattermost Cloud förfaller"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.subject",
+    "translation": "Betalning för Matermost Cloud-prenumerationen förfaller"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.info3",
+    "translation": "Välj Betala nu för att kontrollera din faktura och lägga till betalmetoder."
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.info1",
+    "translation": "Mattermost Cloud-fakturan för den senaste perioden har skapats. Men, vi saknar dina kort-uppgifter för betalning."
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.button",
+    "translation": "Betala nu"
+  },
+  {
+    "id": "api.file.file_size.s3.app_error",
+    "translation": "Kunde inte hämta filstorleken."
+  },
+  {
+    "id": "api.file.file_size.local.app_error",
+    "translation": "Kunde inte hämta filstorleken."
   }
 ]
