@@ -4063,7 +4063,7 @@
   },
   {
     "id": "app.plugin.marshal.app_error",
-    "translation": "Misslyckades att gå igenom marketplace-plugins."
+    "translation": "Misslyckades att rangera marketplace-plugins."
   },
   {
     "id": "app.plugin.marketplace_plugins.signature_not_found.app_error",
@@ -4579,7 +4579,7 @@
   },
   {
     "id": "api.marshal_error",
-    "translation": "generalfel"
+    "translation": "rangeringsfel"
   },
   {
     "id": "api.license.remove_expired_license.failed.error",
@@ -6984,15 +6984,15 @@
   },
   {
     "id": "ent.cloud.request_error",
-    "translation": ""
+    "translation": "Fel vid bearbetning av begäran till CWS"
   },
   {
     "id": "ent.cloud.json_encode.error",
-    "translation": ""
+    "translation": "Internt fel vid rangering av begäran till CWS"
   },
   {
     "id": "ent.cloud.authentication_failed",
-    "translation": ""
+    "translation": "Kunde inte autentisera mot CWS"
   },
   {
     "id": "ent.api.post.send_notifications_and_forget.push_image_only",
@@ -7796,7 +7796,7 @@
   },
   {
     "id": "ent.data_retention.posts_permanent_delete_batch.internal_error",
-    "translation": ""
+    "translation": "Ett fel uppstod när batchen av meddelanden skulle raderas."
   },
   {
     "id": "ent.data_retention.flags_batch.internal_error",
@@ -7900,7 +7900,7 @@
   },
   {
     "id": "ent.elasticsearch.post.get_posts_batch_for_indexing.error",
-    "translation": ""
+    "translation": "Kunde inte ta fram batch av meddelanden för indexering."
   },
   {
     "id": "ent.elasticsearch.indexer.index_batch.nothing_left_to_index.error",
@@ -7968,11 +7968,11 @@
   },
   {
     "id": "ent.saml.do_login.invalid_time.app_error",
-    "translation": ""
+    "translation": "En felaktig tidsstämpel mottogs i svaret från Identity Provider. Kontakta din systemadministratör."
   },
   {
     "id": "ent.saml.do_login.invalid_signature.app_error",
-    "translation": ""
+    "translation": "En felaktig signatur mottogs i svaret från Identity Provider. Kontakta din systemadministratör."
   },
   {
     "id": "ent.message_export.global_relay_export.get_attachment_error",
@@ -8028,7 +8028,7 @@
   },
   {
     "id": "ent.elasticsearch.index_channels_batch.error",
-    "translation": ""
+    "translation": "Kunde inte ta fram batch av kanaler att indexera."
   },
   {
     "id": "app.user.verify_email.app_error",
@@ -8429,5 +8429,25 @@
   {
     "id": "api.file.file_size.local.app_error",
     "translation": "Kunde inte hämta filstorleken."
+  },
+  {
+    "id": "app.channel.save_member.exists.app_error",
+    "translation": "En kanalmedlem med det ID finns redan."
+  },
+  {
+    "id": "api.user.update_user_roles.license.app_error",
+    "translation": "Anpassat behörighetsschema stöds inte i nuvarande licens"
+  },
+  {
+    "id": "api.system.update_viewed_notices.failed",
+    "translation": "Uppdatering av visade meddelanden misslyckades"
+  },
+  {
+    "id": "api.config.patch_config.restricted_merge.app_error",
+    "translation": "Misslyckades att sammanfoga givna konfigurationer."
+  },
+  {
+    "id": "api.config.get_config.restricted_merge.app_error",
+    "translation": "Misslyckades att sammanfoga givna konfigurationer."
   }
 ]
