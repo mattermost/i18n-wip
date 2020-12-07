@@ -637,5 +637,14 @@
   "mobile.mailTo.error.text": "Kunde inte starta en e-postklient.",
   "mobile.link.error.text": "Kunde inte öppna länken.",
   "mobile.file_upload.disabled": "Filuppladdning från mobil är avstängd. Kontakta din systemadministratör för mer information.",
-  "mobile.file_upload.disabled2": "Filuppladdning från mobil är inaktiverat."
+  "mobile.file_upload.disabled2": "Filuppladdning från mobil är inaktiverat.",
+  "mobile.public_link.copied": "Publik länk kopierad",
+  "mobile.prepare_file.text": "Förbereder",
+  "mobile.prepare_file.failed_title": "Förberedelser misslyckades",
+  "mobile.prepare_file.failed_description": "Ett fel uppstod när filen förbereddes. Försök igen.\n",
+  "mobile.gallery.title": "{index} av {total}",
+  "gallery.unsuppored": "Förhandsgranskning är inte tillgänglig för denna filtyp",
+  "gallery.open_file": "Öppna fil",
+  "gallery.footer.channel_name": "Delad i {channelName}",
+  "gallery.download_file": "Ladda ner fil"
 }
