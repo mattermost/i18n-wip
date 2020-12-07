@@ -1,1 +1,8 @@
-{}
+{
+  "about.buildnumber": "বিল্ড সংখ্যা:",
+  "about.cloudEdition": "ক্লাউড",
+  "about.database": "ডাটাবেস:",
+  "about.date": "বিল্ড তারিখ:",
+  "about.enterpriseEditione1": "এন্টারপ্রাইজ সংস্করণ",
+  "about.hash": "বিল্ড হ্যাশ:"
+}
