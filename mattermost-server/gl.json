@@ -290,5 +290,57 @@
   {
     "id": "api.admin.add_certificate.parseform.app_error",
     "translation": "Produciuse un erro ao analizar a solicitude multiforme"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.title",
+    "translation": "A súa factura de Mattermost Cloud está pendente de pago"
+  },
+  {
+    "id": "api.templates.upgrade_mattermost_cloud",
+    "translation": "Anovar"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.button",
+    "translation": "Pagar agora"
+  },
+  {
+    "id": "api.templates.over_limit_suspended_contact_support",
+    "translation": "Póñase en contacto co servizo de asistencia"
+  },
+  {
+    "id": "api.templates.over_limit_fix_now",
+    "translation": "Arranxalo agora"
+  },
+  {
+    "id": "api.templates.over_limit_7_days_title",
+    "translation": "Non hai ningún método de pago rexistrado"
+  },
+  {
+    "id": "api.templates.over_limit_14_days_title",
+    "translation": "Non se recibiu o pago"
+  },
+  {
+    "id": "api.templates.email_us_anytime_at",
+    "translation": "Envíenos un correo-e en calquera momento a "
+  },
+  {
+    "id": "api.templates.copyright",
+    "translation": "© 2017 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+  },
+  {
+    "id": "api.roles.patch_roles.not_allowed_permission.error",
+    "translation": "Un ou máis dos seguintes permisos que tenta engadir ou eliminar non está autorizado"
+  },
+  {
+    "id": "api.roles.patch_roles.admin_role.error",
+    "translation": "Non é posíbel editar nin cambiar o rol de administrador do sistema"
+  },
+  {
+    "id": "api.file.file_size.s3.app_error",
+    "translation": "Non é posíbel obter o tamaño do ficheiro."
+  },
+  {
+    "id": "api.file.file_size.local.app_error",
+    "translation": "Non é posíbel obter o tamaño do ficheiro."
   }
 ]
