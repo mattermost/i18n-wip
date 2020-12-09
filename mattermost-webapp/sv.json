@@ -1389,7 +1389,7 @@
   "admin.permissions.sysconsole_section_about.name": "Version och licens",
   "admin.permissions.sysconsole_section_authentication.description": "Granska konfigurationen kring hur användare kan registrera sig och komma åt Mattermost.",
   "admin.permissions.sysconsole_section_authentication.name": "Autentisering",
-  "admin.permissions.sysconsole_section_billing.description": "<platshållare>.",
+  "admin.permissions.sysconsole_section_billing.description": "Visa prenumerationsdetaljer, fakturahistorik, företagsinformation och betaluppgifter.",
   "admin.permissions.sysconsole_section_billing.name": "Fakturering",
   "admin.permissions.sysconsole_section_compliance.description": "Granska konfigurationen kring uppföljning av bland annat gallring, export och verksamhetsloggar.",
   "admin.permissions.sysconsole_section_compliance.name": "Uppföljning",
