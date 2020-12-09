@@ -637,5 +637,14 @@
   "mobile.mailTo.error.text": "Не може да се отвори клиент за ел.поща.",
   "mobile.link.error.text": "Връзката не може да се отвори.",
   "mobile.file_upload.disabled": "Качването на файлове от мобилни устройства е забранено. Моля, свържете се със системния администратор за повече подробности.",
-  "mobile.file_upload.disabled2": "Качването на файлове от мобилни устройства е забранено."
+  "mobile.file_upload.disabled2": "Качването на файлове от мобилни устройства е забранено.",
+  "mobile.public_link.copied": "Публичната връзка е копирана",
+  "mobile.prepare_file.text": "Подготовка",
+  "mobile.prepare_file.failed_title": "Неуспешна подготовка",
+  "mobile.prepare_file.failed_description": "При подготовката на файла възникна грешка. Моля, опитайте отново.\n",
+  "mobile.gallery.title": "{index} от {total}",
+  "gallery.unsuppored": "Прегледът не се поддържа за този тип файл",
+  "gallery.open_file": "Отвори файла",
+  "gallery.footer.channel_name": "Споделено в {channelName}",
+  "gallery.download_file": "Свали файла"
 }
