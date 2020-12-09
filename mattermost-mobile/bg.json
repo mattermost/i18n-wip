@@ -632,7 +632,6 @@
   "channel_notifications.preference.header": "Изпратени известия",
   "channel_notifications.preference.global_default": "Глобално по подразбиране ({notifyLevel})",
   "channel_header.notificationPreference": "Мобилни известия",
-  "mobile.link.error.title": "Грешка",
   "mobile.link.error.text": "Връзката не може да се отвори.",
   "mobile.file_upload.disabled": "Качването на файлове от мобилни устройства е забранено. Моля, свържете се със системния администратор за повече подробности.",
   "mobile.file_upload.disabled2": "Качването на файлове от мобилни устройства е забранено.",
