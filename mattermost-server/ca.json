@@ -1576,10 +1576,6 @@
     "translation": "No s'ha pogut obtenir l'usuari per correu."
   },
   {
-    "id": "api.user.get_authorization_code.unsupported.app_error",
-    "translation": "Proveïdor de serveis OAuth no compatible"
-  },
-  {
     "id": "api.user.email_to_oauth.not_available.app_error",
     "translation": "La transferència d'autenticació no està configurada o disponible en aquest servidor."
   },
@@ -1636,10 +1632,6 @@
     "translation": "No es pot crear el testimoni de recuperació de contrasenyes."
   },
   {
-    "id": "api.user.create_oauth_user.not_available.app_error",
-    "translation": "{{.Service}} SSO a través d'OAuth 2.0 no està disponible en aquest servidor"
-  },
-  {
     "id": "api.user.create_oauth_user.create.app_error",
     "translation": "No s'ha pogut crear l'usuari basant-se en l'objecte de {{.Service}}"
   },
@@ -1650,10 +1642,6 @@
   {
     "id": "api.user.create_email_token.error",
     "translation": "No s'han pogut crear el testimoni de dades per a la verificació del correu"
-  },
-  {
-    "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-    "translation": "{{.Service}} SSO a través d'OAuth 2.0 no està disponible en aquest servidor"
   },
   {
     "id": "api.user.complete_switch_with_oauth.parse.app_error",

@@ -2984,10 +2984,6 @@
     "translation": "Kan inte hämta användare via e-postadress."
   },
   {
-    "id": "api.user.get_authorization_code.unsupported.app_error",
-    "translation": "Osupporterad OAuth service provider."
-  },
-  {
     "id": "api.user.email_to_oauth.not_available.app_error",
     "translation": "Authentication Transfer är inte konfigurerat eller finns inte på denna server."
   },
@@ -3052,10 +3048,6 @@
     "translation": "Kunde inte skapa token för lösenordsåterskapande"
   },
   {
-    "id": "api.user.create_oauth_user.not_available.app_error",
-    "translation": "{{.Service}} SSO via OAuth 2.0 är inte tillgängligt på denna server."
-  },
-  {
     "id": "api.user.create_oauth_user.create.app_error",
     "translation": "Kunde inte skapa användare utifrån {{.Service}} användarobjekt."
   },
@@ -3066,10 +3058,6 @@
   {
     "id": "api.user.create_email_token.error",
     "translation": "Kunde inte skapa token-data för e-postverifiering"
-  },
-  {
-    "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-    "translation": "{{.Service}} SSO via OAuth 2.0 är inte tillgängligt på denna server."
   },
   {
     "id": "api.user.complete_switch_with_oauth.parse.app_error",

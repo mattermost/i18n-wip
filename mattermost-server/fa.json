@@ -2971,10 +2971,6 @@
     "translation": "تجزیه و تحلیل داده های خودکار از مورد کاربر {{.Service}} امکان پذیر نیست."
   },
   {
-    "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-    "translation": "{{.Service}} SSO از طریق OAuth 2.0 در این سرور موجود نیست."
-  },
-  {
     "id": "api.user.create_email_token.error",
     "translation": "داده های رمز برای تأیید ایمیل ایجاد نشد"
   },
@@ -2985,10 +2981,6 @@
   {
     "id": "api.user.create_oauth_user.create.app_error",
     "translation": "نمی توان از شی کاربر {{.Service}} کاربر ایجاد کرد."
-  },
-  {
-    "id": "api.user.create_oauth_user.not_available.app_error",
-    "translation": "{{.Service}} SSO از طریق OAuth 2.0 در این سرور موجود نیست."
   },
   {
     "id": "api.user.create_password_token.error",
@@ -3065,10 +3057,6 @@
   {
     "id": "api.user.email_to_oauth.not_available.app_error",
     "translation": "انتقال احراز هویت در این سرور پیکربندی نشده یا در دسترس نیست."
-  },
-  {
-    "id": "api.user.get_authorization_code.unsupported.app_error",
-    "translation": "ارائه دهنده خدمات OAuth پشتیبانی نمی شود."
   },
   {
     "id": "api.user.get_uploads_for_user.forbidden.app_error",

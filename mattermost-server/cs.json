@@ -2976,10 +2976,6 @@
     "translation": "Nelze najít uživatele podle emailu."
   },
   {
-    "id": "api.user.get_authorization_code.unsupported.app_error",
-    "translation": "Nepodporovaný poskytovatel služby OAuth."
-  },
-  {
     "id": "api.user.email_to_oauth.not_available.app_error",
     "translation": "Autentizační transfer není na tomto serveru dostupný nebo nakonfigurovaný."
   },
@@ -3044,10 +3040,6 @@
     "translation": "Nelze vytvořit token pro obnovení hesla"
   },
   {
-    "id": "api.user.create_oauth_user.not_available.app_error",
-    "translation": "{{.Service}} SSO prostřednictvím OAuth 2.0 není na tomto serveru k dispozici."
-  },
-  {
     "id": "api.user.create_oauth_user.create.app_error",
     "translation": "Nelze vytvořit uživatele dle objektu uživatele {{.Service}}."
   },
@@ -3058,10 +3050,6 @@
   {
     "id": "api.user.create_email_token.error",
     "translation": "Nepodařilo se vytvořit token pro ověření e-mailu"
-  },
-  {
-    "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-    "translation": "{{.Service}} SSO prostřednictvím OAuth 2.0 není na tomto serveru k dispozici."
   },
   {
     "id": "api.user.complete_switch_with_oauth.parse.app_error",

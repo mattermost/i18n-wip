@@ -1996,10 +1996,6 @@
     "translation": "Uporabnika ni mogoče dobiti po e-pošti."
   },
   {
-    "id": "api.user.get_authorization_code.unsupported.app_error",
-    "translation": "Ponudnik storitve OAuth ni podprt"
-  },
-  {
     "id": "api.user.email_to_oauth.not_available.app_error",
     "translation": "Prenos za preverjanje pristnosti ni konfiguriran ali na voljo v tem strežniku."
   },
@@ -2048,20 +2044,12 @@
     "translation": "Ni možno ustvariti privzete pisave za sliko profila"
   },
   {
-    "id": "api.user.create_oauth_user.not_available.app_error",
-    "translation": "{{.Service}} SSO prek OAuth 2.0 ni na voljo na tem strežniku"
-  },
-  {
     "id": "api.user.create_oauth_user.create.app_error",
     "translation": "Uporabnika ni bilo mogoče ustvariti iz uporabniškega objekta {{.Service}}"
   },
   {
     "id": "api.user.create_oauth_user.already_attached.app_error",
     "translation": "S tem e-poštnim naslovom že obstaja račun, ki uporablja način prijave, ki ni {{.Service}}. Prijavite se z uporabo {{.Auth}}."
-  },
-  {
-    "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-    "translation": "{{.Service}} SSO prek OAuth 2.0 ni na voljo na tem strežniku"
   },
   {
     "id": "model.group.source.app_error",

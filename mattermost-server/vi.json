@@ -2664,10 +2664,6 @@
     "translation": "Không thể có được người dùng với thông tin email."
   },
   {
-    "id": "api.user.get_authorization_code.unsupported.app_error",
-    "translation": "Nhà cung cấp dịch vụ OAuth không được hỗ trợ"
-  },
-  {
     "id": "api.user.email_to_oauth.not_available.app_error",
     "translation": "Chuyển giao xác thực không được cấu hình hoặc có sẵn trên máy chủ này."
   },
@@ -4672,10 +4668,6 @@
     "translation": "Không thể tạo mã thông báo khôi phục mật khẩu"
   },
   {
-    "id": "api.user.create_oauth_user.not_available.app_error",
-    "translation": "{{.Service}} SSO qua OAuth 2.0 không khả dụng trên máy chủ này"
-  },
-  {
     "id": "api.user.create_oauth_user.create.app_error",
     "translation": "Không thể tạo người dùng từ {{.Service}}"
   },
@@ -4686,10 +4678,6 @@
   {
     "id": "api.user.create_email_token.error",
     "translation": "Không thể tạo dữ liệu mã thông báo để xác minh email"
-  },
-  {
-    "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-    "translation": "{{.Service}} SSO qua OAuth 2.0 không khả dụng trên máy chủ này"
   },
   {
     "id": "api.user.complete_switch_with_oauth.parse.app_error",

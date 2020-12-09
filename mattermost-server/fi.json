@@ -4416,10 +4416,6 @@
     "translation": "Käyttäjää ei voitu hakea sähköpostin perusteella."
   },
   {
-    "id": "api.user.get_authorization_code.unsupported.app_error",
-    "translation": "OAuth-palveluntarjoajaa ei tueta"
-  },
-  {
     "id": "api.user.email_to_oauth.not_available.app_error",
     "translation": "Autentikointisiirtoa ei ole määritetty tai ei ole tarjolla tällä palvelimella."
   },
@@ -4468,10 +4464,6 @@
     "translation": "Ei voitu luoda oletusprofiilikuvan fonttia"
   },
   {
-    "id": "api.user.create_oauth_user.not_available.app_error",
-    "translation": "{{.Service}} SSO OAuth 2.0:n kautta ei tarjolla tällä palvelimella"
-  },
-  {
     "id": "api.user.create_oauth_user.create.app_error",
     "translation": "Käyttäjää ei voitu luoda palvelun {{.Service}} käyttäjäobjektista"
   },
@@ -4482,10 +4474,6 @@
   {
     "id": "api.user.create_email_token.error",
     "translation": "Ei voitu luoda token dataa sähköpostivahvistukseen"
-  },
-  {
-    "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-    "translation": "{{.Service}} SSO OAuth 2.0:n kautta ei tarjolla tällä palvelimella"
   },
   {
     "id": "api.user.complete_switch_with_oauth.parse.app_error",

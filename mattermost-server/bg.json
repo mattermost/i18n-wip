@@ -2335,10 +2335,6 @@
     "translation": "Невъзможно е да се инициализира хранилището в паметта за ограничаване на трафика. Проверете настройката на конфигурацията MemoryStoreSize."
   },
   {
-    "id": "api.user.complete_switch_with_oauth.unavailable.app_error",
-    "translation": "{{.Service}} SSO чрез OAuth 2.0 не е наличен на този сървър."
-  },
-  {
     "id": "app.webhooks.update_outgoing.app_error",
     "translation": "Не може да се актуализира webhook."
   },
@@ -3707,10 +3703,6 @@
     "translation": "Webhook не може да се изтрие."
   },
   {
-    "id": "api.user.get_authorization_code.unsupported.app_error",
-    "translation": "Неподдържан доставчик на услуги на OAuth."
-  },
-  {
     "id": "api.team.update_team_scheme.license.error",
     "translation": "Вашият лиценз не поддържа актуализиране схемата на екипа"
   },
@@ -4837,10 +4829,6 @@
   {
     "id": "model.config.is_valid.message_export.enable.app_error",
     "translation": "Настройката EnableExport на задачата за износ на съобщения трябва да бъде true или false."
-  },
-  {
-    "id": "api.user.create_oauth_user.not_available.app_error",
-    "translation": "{{.Service}} SSO чрез OAuth 2.0 не е наличен на този сървър."
   },
   {
     "id": "brand.save_brand_image.decode_config.app_error",
