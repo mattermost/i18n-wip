@@ -526,7 +526,6 @@
   "admin.oauth.off": "Zakázat přihlášení pomocí OAuth 2.0 poskytovatele",
   "admin.oauth.office365": "Office 365",
   "admin.oauth.providerTitle": "Povolit poskytovatele OAuth 2.0 služby: ",
-  "admin.oauth.select": "Vyberte poskytovatele služeb OAuth 2.0:",
   "admin.office365.clientIdDescription": "Uživatelské ID které jste získali při registraci vaší aplikace u Google.",
   "admin.office365.clientSecretDescription": "Uživatelské ID které jste získali při registraci vaší aplikace u Google.",
   "admin.office365.clientSecretExample": "Př.: \"shAieM47sNBfgl20f8ci294\"",

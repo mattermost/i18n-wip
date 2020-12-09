@@ -476,7 +476,6 @@
   "admin.oauth.office365": "Office 365",
   "admin.oauth.providerDescription": "Ko je nastavljeno na true, Mattermost lahko deluje kot OAuth 2.0 ponudnik storitev, ki Mattermostu dovoljuje zahteve API od zunanjih aplikacij. Če želite izvedeti več, si poglejte [documentation](!https://docs.mattermost.com/developer/oauth-2-0-applications.html).",
   "admin.oauth.providerTitle": "Omogoči ponudnika storitev OAuth 2.0",
-  "admin.oauth.select": "Izberite ponudnika storitev OAuth 2.0:",
   "admin.office365.clientIdDescription": "ID aplikacije/odjemalca, ki ste ga prejeli ob registraciji v Microsoftu.",
   "admin.office365.clientSecretDescription": "Skrivno geslo aplikacije, ki ste ga ustvarili ob registraciji vaše aplikacije pri Microsoftu.",
   "admin.office365.clientSecretExample": "Npr.: \"shAieM47sNBfgl20f8ci294\"",

@@ -595,7 +595,6 @@
   "admin.nav.troubleshootingForum": "Ongelmanselvitysfoorumi",
   "admin.oauth.office365": "Office 365",
   "admin.oauth.providerTitle": "Ota käyttöön OAuth 2.0 palveluntarjoaja: ",
-  "admin.oauth.select": "Valitse OAuth 2.0 palveluntarjoaja:",
   "admin.office365.clientIdDescription": "Sovellus/asiakas-ID jonka sait kun rekisteröit sovelluksesi Microsoftin kanssa.",
   "admin.office365.clientSecretDescription": "Sovelluksen salainen salasana jonka sait kun rekisteröit sovelluksesi Microsoftin kanssa.",
   "admin.office365.clientSecretExample": "Esim.: \"shAieM47sNBfgl20f8ci294\"",
