@@ -5277,7 +5277,7 @@
   },
   {
     "id": "api.user.authorize_oauth_user.unsupported.app_error",
-    "translation": "Osupporterad OAuth service provider."
+    "translation": "{{.Service}} SSO via OAuth 2.0 är inte tillgänglig på denna server."
   },
   {
     "id": "api.user.authorize_oauth_user.token_failed.app_error",
