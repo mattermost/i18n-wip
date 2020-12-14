@@ -144,8 +144,8 @@
   "mobile.message_length.message": "Ditt meddelande är för långt. Nuvarande antal tecken: {max}/{count}",
   "mobile.managed.secured_by": "Säkrad av {vendor}",
   "mobile.managed.exit": "Redigera",
-  "mobile.loading_members": "Laddar medlemmar...",
-  "mobile.loading_channels": "Laddar kanaler...",
+  "mobile.loading_members": "Hämtar medlemmar...",
+  "mobile.loading_channels": "Hämtar kanaler...",
   "mobile.intro_messages.default_welcome": "Välkommen till {name}!",
   "mobile.help.title": "Hjälp",
   "mobile.flagged_posts.empty_title": "Inga sparade meddelanden ännu",
@@ -436,7 +436,7 @@
   "mobile.post.failed_delete": "Radera meddelande",
   "mobile.post.delete_question": "Är du säker på att du vill radera detta meddelande?",
   "mobile.post_textbox.uploadFailedTitle": "Fel med bilagor",
-  "mobile.post_textbox.uploadFailedDesc": "Uppladdning av några bilagor till servern misslyckades. Är du säker på att du vill posta meddelandet?",
+  "mobile.post_textbox.uploadFailedDesc": "Uppladdning av några bilagor till servern misslyckades. Är du säker på att du vill publicera meddelandet?",
   "mobile.post_textbox.one_group.message.with_timezones": "Genom att använda {mention} kommer du skicka notifieringar till {totalMembers} människor i {timezones, number} {timezones, plural, one {tidzon} other {tidzoner}}. Är du säker på att du vill göra det?",
   "mobile.post_textbox.one_group.message.without_timezones": "Genom att använda {mention} kommer du skicka notifieringar till {totalMembers} människor. Är du säker på att du vill göra det?",
   "mobile.post_textbox.multi_group.message.without_timezones": "Genom att använda {mentions} och {finalMention} kommer du skicka notifieringar till minst {totalMembers} människor. Är du säker på att du vill göra det?",
@@ -642,5 +642,6 @@
   "gallery.unsuppored": "Förhandsgranskning är inte tillgänglig för denna filtyp",
   "gallery.open_file": "Öppna fil",
   "gallery.footer.channel_name": "Delad i {channelName}",
-  "gallery.download_file": "Ladda ner fil"
+  "gallery.download_file": "Ladda ner fil",
+  "mobile.channel_loader.still_loading": "Försöker fortfarande att hämta innehåll..."
 }
