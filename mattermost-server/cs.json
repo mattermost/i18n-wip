@@ -7338,5 +7338,29 @@
   {
     "id": "api.config.patch_config.restricted_merge.app_error",
     "translation": "Selhalo sloučení dané konfigurace."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Chci se dozvědět více o Pokročilých oprávněních s Týmovými schématy.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Až budete mít připraven Elasticsearch server, přejděte do **Systémová konzole > Prostředí > Elasticsearch ** pro nastavení Elasticsearch."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
+    "translation": "Zlepšení výkonnosti"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Zajímalo by mě více o zlepšení výkonnosti s Elasticsearch.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Jděte do **Systémová konzole > Správa uživatelů > Oprávnění ** pro povolení Pokročilých oprávnění."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
+    "translation": "Kanály mohou zlepšit komunikaci, ale s množstvím uživatelů Mattermostu připojujících se a vytvářejících kanály rostou nároky na udržení přehlednosti systému. Pokročilá oprávnění vám umožní nastavit, kteří uživatelé mohou provádět vybrané akce, např. změnit nastavení, spravovat členy kanálu, používat @channel nebo @here pro označení většího počtu uživatelů či vytvářet nové webhooky.\n\n[Dozvědět se více o Pokročilých oprávněních](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Zahájit test souhlasíte se [Smlouvou o používání programu Mattermost ](https://mattermost.com/software-evaluation-agreement/), [Nastavením soukromí](https://mattermost.com/privacy-policy/) a zasíláním obchodních sdělení."
   }
 ]
