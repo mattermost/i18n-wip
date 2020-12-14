@@ -75,7 +75,7 @@
   "channel_notifications.preference.save_error": "Non puidemos gardar a preferencia de notificación. Comprobe a súa conexión e ténteo de novo.",
   "channel_notifications.preference.only_mentions": "Só mencións e mensaxes directas",
   "channel_notifications.preference.header": "Enviar notificacións",
-  "channel_notifications.preference.global_default": "Predeterminado global (Mencións)",
+  "channel_notifications.preference.global_default": "Predeterminado global ({notifyLevel})",
   "channel_notifications.preference.all_activity": "Para toda actividade",
   "channel_notifications.muteChannel.settings": "Silenciar a canle",
   "channel_notifications.ignoreChannelMentions.settings": "Ignorar @channel, @here, @all",
@@ -191,5 +191,6 @@
   "mobile.channel_info.alertNo": "Non",
   "mobile.loading_members": "Cargando afiliados…",
   "mobile.channel_list.members": "AFILIADOS",
-  "mobile.drawer.teamsTitle": "Equipos"
+  "mobile.drawer.teamsTitle": "Equipos",
+  "gallery.download_file": "Descargar ficheiro"
 }
