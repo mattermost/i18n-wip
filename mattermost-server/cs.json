@@ -421,7 +421,7 @@
   },
   {
     "id": "model.post.is_valid.file_ids.app_error",
-    "translation": "Neplatné ID souborů. Maximálně je možné zároveň nahrávat 5 souború. Pokud potřebujete víc, vytvořte další zprávy."
+    "translation": "Neplatné ID souborů. Maximálně je možné zároveň nahrávat 5 souborů. Pokud potřebujete víc, vytvořte další příspěvky."
   },
   {
     "id": "model.post.is_valid.create_at.app_error",
