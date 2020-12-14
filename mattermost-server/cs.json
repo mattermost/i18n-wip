@@ -1221,7 +1221,7 @@
   },
   {
     "id": "app.plugin.marketplace_client.failed_to_fetch",
-    "translation": "Nepodařilo se získat zásuvné moduly ze serveru tržiště."
+    "translation": "Nepodařilo se získat zásuvné moduly ze serveru marketplace."
   },
   {
     "id": "app.plugin.marketplace_client.app_error",
@@ -1233,7 +1233,7 @@
   },
   {
     "id": "app.plugin.invalid_version.app_error",
-    "translation": "Nepodařilo se rozluštit verzi zásuvného modulu."
+    "translation": "Nepodařilo se načíst verzi zásuvného modulu."
   },
   {
     "id": "app.plugin.invalid_id.app_error",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "app.plugin.install_marketplace_plugin.app_error",
-    "translation": "Nepodařilo se nainstalovat zásuvný modul z tržiště."
+    "translation": "Nepodařilo se nainstalovat zásuvný modul z marketplace."
   },
   {
     "id": "app.plugin.install_id_failed_remove.app_error",
