@@ -38,7 +38,7 @@
   "last_users_message.others": "{numOthers} други ",
   "last_users_message.left_team.type": "**напусна екипа**.",
   "last_users_message.left_channel.type": "**напусна канала**.",
-  "last_users_message.joined_team.type": "**присъединени в екипа**.",
+  "last_users_message.joined_team.type": "**се присъединиха към екипа**.",
   "last_users_message.joined_channel.type": "**присъединени в канала**.",
   "last_users_message.first": "{firstUser} и ",
   "last_users_message.added_to_team.type": "бяха **добавени в екипа** от {actor}.",
@@ -69,10 +69,10 @@
   "combined_system_message.left_team.one": "{firstUser} **напусна екипа**.",
   "combined_system_message.left_team.many_expanded": "{users} и {lastUser} **напуснаха екипа**.",
   "combined_system_message.left_channel.many_expanded": "{users} и {lastUser} **напуснаха канала**.",
-  "combined_system_message.joined_team.two": "{firstUser} и {secondUser} **присъединени в екипа**.",
+  "combined_system_message.joined_team.two": "{firstUser} и {secondUser} **се присъединиха към екипа**.",
   "combined_system_message.joined_team.one_you": "Вие се **присъединихте в екипа**.",
-  "combined_system_message.joined_team.one": "{firstUser} **присъединен в екипа**.",
-  "combined_system_message.joined_team.many_expanded": "{users} и {lastUser} **присъединени в екипа**.",
+  "combined_system_message.joined_team.one": "{firstUser} **се присъедини към екипа**.",
+  "combined_system_message.joined_team.many_expanded": "{users} и {lastUser} **се присъединиха към екипа**.",
   "combined_system_message.added_to_team.two": "{firstUser} и {secondUser} **са добавени в екипа** от {actor}.",
   "combined_system_message.added_to_team.one_you": "Вие бяхте **добавен в екипа** от {actor}.",
   "combined_system_message.added_to_team.one": "{firstUser} **е добавен в екипа** от {actor}.",
@@ -642,5 +642,6 @@
   "gallery.unsuppored": "Прегледът не се поддържа за този тип файл",
   "gallery.open_file": "Отвори файла",
   "gallery.footer.channel_name": "Споделено в {channelName}",
-  "gallery.download_file": "Свали файла"
+  "gallery.download_file": "Свали файла",
+  "mobile.channel_loader.still_loading": "Продължава опита за зареждане на Вашето съдържание ..."
 }
