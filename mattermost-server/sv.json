@@ -697,7 +697,7 @@
   },
   {
     "id": "model.post.is_valid.file_ids.app_error",
-    "translation": "Ogiltiga fil-id. Notera begränsningen av maximalt 5 filer. För att ladda upp fler filer, posta fler meddelanden."
+    "translation": "Ogiltiga fil-id. Notera begränsningen av maximalt 10 filer. För att ladda upp fler filer, posta fler meddelanden."
   },
   {
     "id": "model.post.is_valid.create_at.app_error",
