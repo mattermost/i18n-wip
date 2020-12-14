@@ -4932,7 +4932,7 @@
   },
   {
     "id": "api.user.authorize_oauth_user.unsupported.app_error",
-    "translation": "Неподдържан доставчик на услуги на OAuth."
+    "translation": "{{.Service}} SSO чрез OAuth 2.0 не е наличен на този сървър."
   },
   {
     "id": "model.team.is_valid.email.app_error",
