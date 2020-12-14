@@ -5449,7 +5449,7 @@
   },
   {
     "id": "api.channel.add_user_to_channel.type.app_error",
-    "translation": "Nelze přidat uživatele do místnosti tohoto typu."
+    "translation": "Nelze přidat uživatele do kanálu tohoto typu."
   },
   {
     "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
@@ -5457,7 +5457,7 @@
   },
   {
     "id": "api.channel.add_user.to.channel.failed.app_error",
-    "translation": "Nepodařilo se přidat uživatele do místnosti."
+    "translation": "Nepodařilo se přidat uživatele do kanálu."
   },
   {
     "id": "api.channel.add_members.user_denied",
