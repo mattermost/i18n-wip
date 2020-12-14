@@ -7525,7 +7525,7 @@
   },
   {
     "id": "app.channel_member_history.log_leave_event.internal_error",
-    "translation": "Selhal záznam historie uživatelů kanálu. Selhal update existujícího záznamu."
+    "translation": "Selhal záznam historie uživatelů kanálu. Selhal update existujícího záznamu"
   },
   {
     "id": "app.channel_member_history.log_join_event.internal_error",
