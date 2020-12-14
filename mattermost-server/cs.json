@@ -1237,7 +1237,7 @@
   },
   {
     "id": "app.plugin.invalid_id.app_error",
-    "translation": "Plugin ID musí mít délku minimálně {{.Min}} a maximálně {{.Max}} znaků a vyhovovat regulárnímu výrazu {{.Regex}}."
+    "translation": "ID zásuvného modulu musí mít délku minimálně {{.Min}} a maximálně {{.Max}} znaků a vyhovovat regulárnímu výrazu {{.Regex}}."
   },
   {
     "id": "app.plugin.install_marketplace_plugin.app_error",
@@ -1245,11 +1245,11 @@
   },
   {
     "id": "app.plugin.install_id_failed_remove.app_error",
-    "translation": "Nepodařilo se nainstalovat zásuvný modul. Jiný se stejným ID je již nainstalován a nepodařilo se ho odstranit."
+    "translation": "Nepodařilo se nainstalovat zásuvný modul. Modul se stejným ID je již nainstalován a nepodařilo se ho odstranit."
   },
   {
     "id": "app.plugin.install_id.app_error",
-    "translation": "Nepodařilo se nainstalovat zásuvný modul. Jiný se stejným ID je již nainstalován."
+    "translation": "Nepodařilo se nainstalovat zásuvný modul. Modul se stejným ID je již nainstalován."
   },
   {
     "id": "app.plugin.install.app_error",
@@ -1309,11 +1309,11 @@
   },
   {
     "id": "app.plugin.filesystem.app_error",
-    "translation": "Nastala chyba souborového systému."
+    "translation": "Došlo k chybě souborového systému."
   },
   {
     "id": "app.plugin.extract.app_error",
-    "translation": "Při rozbalování balíčku se zásuvným modulem nastala chyba."
+    "translation": "Při rozbalování balíčku se zásuvným modulem došlo k chybě."
   },
   {
     "id": "app.plugin.disabled.app_error",
@@ -1329,7 +1329,7 @@
   },
   {
     "id": "app.plugin.config.app_error",
-    "translation": "Chyba při ukládáni stavu zásuvného modulu."
+    "translation": "Chyba při ukládání stavu zásuvného modulu v konfiguraci."
   },
   {
     "id": "app.plugin.cluster.save_config.app_error",
@@ -1337,19 +1337,19 @@
   },
   {
     "id": "app.notification.subject.notification.full",
-    "translation": "[{{.SiteName}}] Nové upozornění v { {{ .TeamName}} dne {{.Day}}.{{.Month}}.{{.Year}}"
+    "translation": "[{{.SiteName}}] Nové upozornění v {{ .TeamName}} z {{.Day}}.{{.Month}}.{{.Year}}"
   },
   {
     "id": "app.notification.subject.group_message.generic",
-    "translation": "[{{.SiteName}}] Nová skupinová zpráva z {{.Day}}{{.Month}}, {{.Year}}"
+    "translation": "[{{.SiteName}}] Nová skupinová zpráva z {{.Day}}.{{.Month}}.{{.Year}}"
   },
   {
     "id": "app.notification.subject.group_message.full",
-    "translation": "[{{.SiteName}}] Nová skupinová zpráva v {{ .ChannelName}} z {{.Month}} {{.Day}}, {{.Year}}"
+    "translation": "[{{.SiteName}}] Nová skupinová zpráva v {{ .ChannelName}} z {{.Day}}.{{.Month}}.{{.Year}}"
   },
   {
     "id": "app.notification.subject.direct.full",
-    "translation": "[{{.SiteName}}] Nové přímé zprávy od {{.Odesilatel}} on {{.Měsíc}} {{.Den}}, {{.Rok}}"
+    "translation": "[{{.SiteName}}] Nové přímé zprávy od {{.SenderDisplayName}} z {{.Day}}.{{.Month}}.{{.Year}}"
   },
   {
     "id": "app.notification.body.text.notification.generic",
@@ -1385,11 +1385,11 @@
   },
   {
     "id": "app.notification.body.intro.notification.generic",
-    "translation": "Máte novou notifikaci od @{{.SenderName}}"
+    "translation": "Máte nové upozornění od @{{.SenderName}}"
   },
   {
     "id": "app.notification.body.intro.notification.full",
-    "translation": "Máte novou notifikaci."
+    "translation": "Máte nové upozornění."
   },
   {
     "id": "app.notification.body.intro.group_message.generic",
@@ -1409,15 +1409,15 @@
   },
   {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
-    "translation": "V členství chybí název týmu."
+    "translation": "V členství uživatele chybí název týmu."
   },
   {
     "id": "app.import.validate_user_teams_import_data.invalid_team_theme.error",
-    "translation": "Neplatné týmové téma pro uživatele"
+    "translation": "Neplatný motiv vzhledu týmu pro uživatele"
   },
   {
     "id": "app.import.validate_user_teams_import_data.invalid_roles.error",
-    "translation": "Neplatné role pro uživatelovu příslušnost do týmu."
+    "translation": "Neplatné role uživatele pro členství v týmech."
   },
   {
     "id": "app.import.validate_user_import_data.username_missing.error",
@@ -1433,7 +1433,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.profile_image.error",
-    "translation": "Neplatná profilová fotografie."
+    "translation": "Neplatný profilový obrázek."
   },
   {
     "id": "app.import.validate_user_import_data.position_length.error",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.password_length.error",
-    "translation": "Heslo uživatele má neplatnou délku."
+    "translation": "Heslo uživatele nemá platnou délku."
   },
   {
     "id": "app.import.validate_user_import_data.notify_props_mobile_push_status_invalid.error",
@@ -1457,23 +1457,23 @@
   },
   {
     "id": "app.import.validate_user_import_data.notify_props_desktop_sound_invalid.error",
-    "translation": "Neplatná hodnota Desktoop Sound Notify Prop pro uživatele."
+    "translation": "Neplatná hodnota Desktop Sound Notify Prop pro uživatele."
   },
   {
     "id": "app.import.validate_user_import_data.notify_props_desktop_invalid.error",
-    "translation": "Neplatá hodnota Desktop Notify Prop pro uživatele."
+    "translation": "Neplatná hodnota Desktop Notify Prop pro uživatele."
   },
   {
     "id": "app.import.validate_user_import_data.notify_props_comments_trigger_invalid.error",
-    "translation": "Neplatná hodnota Commentss Prop pro uživatele."
+    "translation": "Neplatná hodnota Comments Prop pro uživatele."
   },
   {
     "id": "app.import.validate_user_import_data.notify_props_channel_trigger_invalid.error",
-    "translation": "Neplatný Channel Trigger Notify Prop pro uživatele."
+    "translation": "Neplatná hodnota Channel Trigger Notify Prop pro uživatele."
   },
   {
     "id": "app.import.validate_user_import_data.nickname_length.error",
-    "translation": "Uživatelská přezdívka je příliš dlouhá."
+    "translation": "Přezdívka uživatele je příliš dlouhá."
   },
   {
     "id": "app.import.validate_user_import_data.last_name_length.error",
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.first_name_length.error",
-    "translation": "Jméno je příliš dlouhé."
+    "translation": "Jméno uživatele je příliš dlouhé."
   },
   {
     "id": "app.import.validate_user_import_data.email_missing.error",
@@ -1489,15 +1489,15 @@
   },
   {
     "id": "app.import.validate_user_import_data.email_length.error",
-    "translation": "Emailová adresá má špatnou délku."
+    "translation": "Emailová adresa uživatele má neplatnou délku."
   },
   {
     "id": "app.import.validate_user_import_data.auth_data_length.error",
-    "translation": "Položka User AuthData je moc dlouhá."
+    "translation": "Položka uživatele AuthData je příliš dlouhá."
   },
   {
     "id": "app.import.validate_user_import_data.auth_data_and_password.error",
-    "translation": "Položky User AuthData a Password nemohou být uvedeny zároveň."
+    "translation": "Položky uživatele AuthData a Password nemohou být použity zároveň."
   },
   {
     "id": "app.import.validate_user_import_data.advanced_props_show_unread_section.error",
@@ -1505,7 +1505,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.advanced_props_formatting.error",
-    "translation": "Neplatné nastavení formátování uživatele"
+    "translation": "Neplatné nastavení formátování příspěvků uživatele"
   },
   {
     "id": "app.import.validate_user_import_data.advanced_props_feature_markdown_preview.error",
@@ -1517,23 +1517,23 @@
   },
   {
     "id": "app.import.validate_user_channels_import_data.invalid_roles.error",
-    "translation": "Neplatné role v uživatelském kanálu."
+    "translation": "Neplatná role v záznamech členství uživatele."
   },
   {
     "id": "app.import.validate_user_channels_import_data.invalid_notify_props_mobile.error",
-    "translation": "Neplatné Desktop NotifyProps pro členy uživatelského kanálu."
+    "translation": "Neplatná vlastnost Mobile upozornění v záznamech členství uživatele."
   },
   {
     "id": "app.import.validate_user_channels_import_data.invalid_notify_props_mark_unread.error",
-    "translation": "Neplatné označení nepřečtených upozornění pro členy uživatelského kanálu."
+    "translation": "Neplatná vlastnost MarkUnread upozornění v záznamech členství uživatele."
   },
   {
     "id": "app.import.validate_user_channels_import_data.invalid_notify_props_desktop.error",
-    "translation": "Neplatné Desktop NotifyProps pro členy uživatelského kanálu."
+    "translation": "Neplatná vlastnost Desktop upozornění v záznamech členství uživatele."
   },
   {
     "id": "app.import.validate_user_channels_import_data.channel_name_missing.error",
-    "translation": "V členství uživatele chybí název kanálu."
+    "translation": "V záznamech členství uživatele chybí název kanálu."
   },
   {
     "id": "app.import.validate_team_import_data.type_missing.error",
@@ -1545,7 +1545,7 @@
   },
   {
     "id": "app.import.validate_team_import_data.scheme_invalid.error",
-    "translation": "Špatný název schéma pro team."
+    "translation": "Neplatný název schématu pro tým."
   },
   {
     "id": "app.import.validate_team_import_data.name_reserved.error",
@@ -1557,7 +1557,7 @@
   },
   {
     "id": "app.import.validate_team_import_data.name_length.error",
-    "translation": "Název týmu je příliš dlouhý."
+    "translation": "Jméno týmu je příliš dlouhé."
   },
   {
     "id": "app.import.validate_team_import_data.name_characters.error",
@@ -1577,27 +1577,27 @@
   },
   {
     "id": "app.import.validate_scheme_import_data.wrong_roles_for_scope.error",
-    "translation": "Schéme v tomto rozsahu pravomocí byli přiděleny špatné role."
+    "translation": "Schématu v tomto rámci byly přiděleny špatné role."
   },
   {
     "id": "app.import.validate_scheme_import_data.unknown_scheme.error",
-    "translation": "Neznámý rámec (scope) schematu."
+    "translation": "Neznámý rámec (scope) schématu."
   },
   {
     "id": "app.import.validate_scheme_import_data.null_scope.error",
-    "translation": "Rámec (scope) schematu je povinný."
+    "translation": "Rámec (scope) schématu je povinný."
   },
   {
     "id": "app.import.validate_scheme_import_data.name_invalid.error",
-    "translation": "Neplatné jméno schematu."
+    "translation": "Neplatné jméno schématu."
   },
   {
     "id": "app.import.validate_scheme_import_data.display_name_invalid.error",
-    "translation": "Neplatné zobrazované jméno schematu."
+    "translation": "Neplatné zobrazované jméno schématu."
   },
   {
     "id": "app.import.validate_scheme_import_data.description_invalid.error",
-    "translation": "Neplatný popis schematu."
+    "translation": "Neplatný popis schématu."
   },
   {
     "id": "app.import.validate_role_import_data.name_invalid.error",
@@ -1617,15 +1617,15 @@
   },
   {
     "id": "app.import.validate_reply_import_data.user_missing.error",
-    "translation": "Chybějící požadovaná vlastnost příspěvku: Uživatel."
+    "translation": "Chybějící požadovaná vlastnost odpovědi: Uživatel."
   },
   {
     "id": "app.import.validate_reply_import_data.message_missing.error",
-    "translation": "Chybějící požadovaná položka Reply: Message."
+    "translation": "Chybějící požadovaná položka odpovědi: Message."
   },
   {
     "id": "app.import.validate_reply_import_data.message_length.error",
-    "translation": "Odpovëď na zprávu je příliš dlouhá."
+    "translation": "Položka Message v odpovědi na zprávu je příliš dlouhá."
   },
   {
     "id": "app.import.validate_reply_import_data.create_at_zero.error",
@@ -1641,7 +1641,7 @@
   },
   {
     "id": "app.import.validate_reaction_import_data.user_missing.error",
-    "translation": "Chybí požadovaná vlastnost odpovědi: User."
+    "translation": "Chybí požadovaná vlastnost odpovědi: Uživatel."
   },
   {
     "id": "app.import.validate_reaction_import_data.emoji_name_missing.error",
@@ -1657,7 +1657,7 @@
   },
   {
     "id": "app.import.validate_reaction_import_data.create_at_missing.error",
-    "translation": "Chyběí požadovaná vlastnost odpovědi: create_at."
+    "translation": "Chybějící požadovaná vlastnost odpovědi: create_at."
   },
   {
     "id": "app.import.validate_reaction_import_data.create_at_before_parent.error",
@@ -1665,7 +1665,7 @@
   },
   {
     "id": "app.import.validate_post_import_data.user_missing.error",
-    "translation": "Chybí požadovaná vlastnost příspěvku: User."
+    "translation": "Chybí požadovaná vlastnost příspěvku: Uživatel."
   },
   {
     "id": "app.import.validate_channel_import_data.display_name_length.error",
@@ -1701,7 +1701,7 @@
   },
   {
     "id": "app.import.import_post.user_not_found.error",
-    "translation": "Při importu příspěvku došlo k chybě. Uživatel s uživatelským jménem \"{{.username}}\" nebyl nalezen."
+    "translation": "Při importu příspěvku došlo k chybě. Uživatel s uživatelským jménem \"{{.Username}}\" nebyl nalezen."
   },
   {
     "id": "app.import.import_post.save_preferences.error",
@@ -1777,7 +1777,7 @@
   },
   {
     "id": "app.import.import_channel.scheme_deleted.error",
-    "translation": "Nelze nastavit kanál k použití smazaného schématu."
+    "translation": "Nelze nastavit kanál s použitím smazaného schématu."
   },
   {
     "id": "app.import.emoji.bad_file.error",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": "app.import.bulk_import.file_scan.error",
-    "translation": "Chyba při načítání souboru s daty."
+    "translation": "Chyba při načítání souboru s daty pro import."
   },
   {
     "id": "app.import.attachment.file_upload.error",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "app.import.validate_post_import_data.create_at_missing.error",
-    "translation": "Chybějící požadovaná Post property: create_at."
+    "translation": "Chybějící požadovaná vlastnost Požadavku: create_at."
   },
   {
     "id": "app.import.validate_post_import_data.channel_missing.error",
@@ -3937,11 +3937,11 @@
   },
   {
     "id": "app.import.validate_channel_import_data.team_missing.error",
-    "translation": "Chybí požadovaná položka kanálu: team."
+    "translation": "Chybí požadovaná položka kanálu: team"
   },
   {
     "id": "app.import.validate_channel_import_data.scheme_invalid.error",
-    "translation": "Špatný název schéma pro kanál."
+    "translation": "Špatný název schématu pro kanál."
   },
   {
     "id": "app.import.validate_channel_import_data.purpose_length.error",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "app.import.validate_channel_import_data.name_missing.error",
-    "translation": "Chybějící požadovaná vlastnost kanálu: name"
+    "translation": "Chybějící požadovaná vlastnost kanálu: jméno"
   },
   {
     "id": "app.import.validate_channel_import_data.name_length.error",
@@ -7025,7 +7025,7 @@
   },
   {
     "id": "app.import.marshal.app_error",
-    "translation": "Nemohu sestavit odpověď."
+    "translation": "Nepodařilo se sestavit odpověď."
   },
   {
     "id": "app.group.uniqueness_error",
@@ -7362,5 +7362,309 @@
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
     "translation": "Kanály mohou zlepšit komunikaci, ale s množstvím uživatelů Mattermostu připojujících se a vytvářejících kanály rostou nároky na udržení přehlednosti systému. Pokročilá oprávnění vám umožní nastavit, kteří uživatelé mohou provádět vybrané akce, např. změnit nastavení, spravovat členy kanálu, používat @channel nebo @here pro označení většího počtu uživatelů či vytvářet nové webhooky.\n\n[Dozvědět se více o Pokročilých oprávněních](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Zahájit test souhlasíte se [Smlouvou o používání programu Mattermost ](https://mattermost.com/software-evaluation-agreement/), [Nastavením soukromí](https://mattermost.com/privacy-policy/) a zasíláním obchodních sdělení."
+  },
+  {
+    "id": "app.oauth.update_app.updating.app_error",
+    "translation": "Při aktualizaci aplikace došlo k chybě."
+  },
+  {
+    "id": "app.oauth.update_app.find.app_error",
+    "translation": "Nepodařilo se najít aplikaci k aktualizaci."
+  },
+  {
+    "id": "app.oauth.save_app.existing.app_error",
+    "translation": "Je třeba aktualizovat stávající aplikaci."
+  },
+  {
+    "id": "app.oauth.remove_access_data.app_error",
+    "translation": "Nelze odstranit přístupový token."
+  },
+  {
+    "id": "app.oauth.permanent_delete_auth_data_by_user.app_error",
+    "translation": "Nelze odstranit autorizační kód."
+  },
+  {
+    "id": "app.oauth.get_apps.find.app_error",
+    "translation": "Chyba při hledání OAuth2 aplikací."
+  },
+  {
+    "id": "app.oauth.get_app_by_user.find.app_error",
+    "translation": "Nelze najít žádné existující aplikace."
+  },
+  {
+    "id": "app.oauth.get_app.finding.app_error",
+    "translation": "Chyba při hledání aplikace."
+  },
+  {
+    "id": "app.oauth.get_app.find.app_error",
+    "translation": "Nelze najít požadovanou aplikaci."
+  },
+  {
+    "id": "app.oauth.get_access_data_by_user_for_app.app_error",
+    "translation": "Chyba při hledání všech přístupových tokenů."
+  },
+  {
+    "id": "app.oauth.delete_app.app_error",
+    "translation": "Chyba při odstranění OAuth2 aplikace."
+  },
+  {
+    "id": "app.job.update.app_error",
+    "translation": "Nelze upravit úkol."
+  },
+  {
+    "id": "app.job.save.app_error",
+    "translation": "Nelze uložit úkol."
+  },
+  {
+    "id": "app.job.get_newest_job_by_status_and_type.app_error",
+    "translation": "Nelze načíst poslední úkol pro daný status a typ."
+  },
+  {
+    "id": "app.job.get_count_by_status_and_type.app_error",
+    "translation": "Nelze načíst počet úkolů pro daný status a typ."
+  },
+  {
+    "id": "app.job.get_all.app_error",
+    "translation": "Nelze načíst úkoly."
+  },
+  {
+    "id": "app.job.get.app_error",
+    "translation": "Nelze načíst úkol."
+  },
+  {
+    "id": "app.job.download_export_results_not_enabled",
+    "translation": "DownloadExportResults v config.json nastaveno na false. Nastavte na true pro stažení výsledků úkolu."
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_and_service_dependency.error",
+    "translation": "Musí být použity obě položky uživatele AuthService a AuthData zároveň."
+  },
+  {
+    "id": "app.import.validate_post_import_data.props_too_large.error",
+    "translation": "Položka Props v požadavku je delší než je maximální povolená délka."
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.max_accounts.app_error",
+    "translation": "Nepodařilo se naimportovat členství v týmu, protože nelze přidat dalšího člena do daného týmu"
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.error",
+    "translation": "Nepodařilo se naimportovat členství v týmu"
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.conflict.app_error",
+    "translation": "Nepodařilo se naimportovat nové členství v týmu, protože již existuje"
+  },
+  {
+    "id": "app.import.import_user_channels.channel_not_found.error",
+    "translation": "Nepodařilo se naimportovat kanály uživatele. Kanál nenalezen."
+  },
+  {
+    "id": "app.file_info.save.app_error",
+    "translation": "Nelze uložit soubor s informacemi."
+  },
+  {
+    "id": "app.file_info.permanent_delete_by_user.app_error",
+    "translation": "Nelze smazat přílohy daného uživatele."
+  },
+  {
+    "id": "app.file_info.get_with_options.app_error",
+    "translation": "Nelze načíst soubor s informacemi o nastavení"
+  },
+  {
+    "id": "app.file_info.get.app_error",
+    "translation": "Nelze načíst soubor s informacemi."
+  },
+  {
+    "id": "app.file_info.get_for_post.app_error",
+    "translation": "Nelze načíst soubor s informacemi k danému příspěvku."
+  },
+  {
+    "id": "app.email.setup_rate_limiter.app_error",
+    "translation": "Došlo k chybě v omezovači toku."
+  },
+  {
+    "id": "app.email.rate_limit_exceeded.app_error",
+    "translation": "Překročen počet e-mailových pozvánek. Časové omezení vyprší za {{.ResetAfter}} vteřin. Zkuste znovu za {{.RetryAfter}} vteřin."
+  },
+  {
+    "id": "app.email.no_rate_limiter.app_error",
+    "translation": "Omezovač toku není nastaven."
+  },
+  {
+    "id": "app.create_basic_user.save_member.max_accounts.app_error",
+    "translation": "Nelze vytvořit výchozí členství v týmech, nelze přidat dalšího člena do daného týmu"
+  },
+  {
+    "id": "app.create_basic_user.save_member.conflict.app_error",
+    "translation": "Nelze vytvořit výchozí členství v týmech, protože již existují"
+  },
+  {
+    "id": "app.create_basic_user.save_member.app_error",
+    "translation": "Nelze vytvořit výchozí členství v týmech"
+  },
+  {
+    "id": "app.command_webhook.create_command_webhook.existing",
+    "translation": "Nemůžete upravovat existující CommandWebhook."
+  },
+  {
+    "id": "app.command.tryexecutecustomcommand.internal_error",
+    "translation": "Nelze provést vlastní příkaz."
+  },
+  {
+    "id": "app.command.regencommandtoken.internal_error",
+    "translation": "Nelze obnovit token pro příkaz."
+  },
+  {
+    "id": "app.command.listteamcommands.internal_error",
+    "translation": "Nelze získat seznam týmových příkazů."
+  },
+  {
+    "id": "app.command.listautocompletecommands.internal_error",
+    "translation": "Nelze získat seznam autocomplete příkazů."
+  },
+  {
+    "id": "app.channel_member_history.log_leave_event.internal_error",
+    "translation": "Selhal záznam historie uživatelů kanálu. Selhal update existujícího záznamu."
+  },
+  {
+    "id": "app.channel_member_history.log_join_event.internal_error",
+    "translation": "Selhal záznam historie uživatelů kanálu."
+  },
+  {
+    "id": "app.channel.user_belongs_to_channels.app_error",
+    "translation": "Nepodařilo se zjistit, zda daný uživatel patří do některého kanálu."
+  },
+  {
+    "id": "app.channel.update_last_viewed_at_post.app_error",
+    "translation": "Nelze označit kanál jako nepřečtený."
+  },
+  {
+    "id": "app.channel.sidebar_categories.app_error",
+    "translation": "Selhalo vložení záznamu do databáze."
+  },
+  {
+    "id": "app.channel.search_group_channels.app_error",
+    "translation": "Nepodařilo se sloučit kanály pro daného uživatele a výraz."
+  },
+  {
+    "id": "app.channel.search.app_error",
+    "translation": "Při hledání kanálů došlo k chybě."
+  },
+  {
+    "id": "app.channel.save_member.exists.app_error",
+    "translation": "Uživatel kanálu s daným ID již existuje."
+  },
+  {
+    "id": "app.channel.reset_all_channel_schemes.app_error",
+    "translation": "Nepodařil se reset schémat kanálu."
+  },
+  {
+    "id": "app.channel.remove_member.app_error",
+    "translation": "Nepodařilo se odebrat člena kanálu."
+  },
+  {
+    "id": "app.channel.remove_all_deactivated_members.app_error",
+    "translation": "Nepodařilo se odebrat deaktivované členy kanálu."
+  },
+  {
+    "id": "app.channel.pinned_posts.app_error",
+    "translation": "Nepodařilo se najít připnuté příspěvky."
+  },
+  {
+    "id": "app.channel.permanent_delete_members_by_user.app_error",
+    "translation": "Nepodařilo se odebrat člena kanálu."
+  },
+  {
+    "id": "app.channel.get_all_channels_count.app_error",
+    "translation": "Nepodařilo se zjistit počet kanálů."
+  },
+  {
+    "id": "app.channel.migrate_channel_members.select.app_error",
+    "translation": "Selhal hromadný výběr členů kanálu."
+  },
+  {
+    "id": "app.channel.increment_mention_count.app_error",
+    "translation": "Nepodařilo se navýšit počet sdílení."
+  },
+  {
+    "id": "app.channel.get_unread.app_error",
+    "translation": "Nepodařilo se zjistit počet nepřečtených zpráv v kanálu."
+  },
+  {
+    "id": "app.channel.get_public_channels.get.app_error",
+    "translation": "Nepodařilo se načíst veřejné kanály."
+  },
+  {
+    "id": "app.channel.get_private_channels.get.app_error",
+    "translation": "Nepodařilo se načíst soukromé kanály."
+  },
+  {
+    "id": "app.channel.get_pinnedpost_count.app_error",
+    "translation": "Nepodařilo se načíst počet připnutých příspěvků v kanálu."
+  },
+  {
+    "id": "app.channel.get_members_by_ids.app_error",
+    "translation": "Nepodařilo se načíst členy kanálu."
+  },
+  {
+    "id": "app.channel.get_members.app_error",
+    "translation": "Nepodařilo se načíst členy kanálu."
+  },
+  {
+    "id": "app.channel.get_member_count.app_error",
+    "translation": "Nepodařilo se zjistit počet členů kanálu."
+  },
+  {
+    "id": "app.channel.get_member.missing.app_error",
+    "translation": "Nepodařilo se najít kanál pro dané ID uživatele a ID kanálu."
+  },
+  {
+    "id": "app.channel.get_member.app_error",
+    "translation": "Nepodařilo se získat člena kanálu."
+  },
+  {
+    "id": "app.channel.get_for_post.app_error",
+    "translation": "Nepodařilo se získat kanál pro daný příspěvek."
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.not_found.app_error",
+    "translation": "Nenalezen žádný kanál."
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.app_error",
+    "translation": "Nepodařilo se získat kanály pro daná id."
+  },
+  {
+    "id": "app.channel.get_channels_batch_for_indexing.get.app_error",
+    "translation": "Nepodařilo se získat dávku kanálů pro indexaci."
+  },
+  {
+    "id": "app.channel.get_channel_counts.get.app_error",
+    "translation": "Nepodařilo se získat počet kanálů."
+  },
+  {
+    "id": "app.channel.get_by_scheme.app_error",
+    "translation": "Nepodařilo se získat kanály pro dané schéma."
+  },
+  {
+    "id": "app.channel.get_all_direct.app_error",
+    "translation": "Nepodařilo se získat všechny přímé kanály."
+  },
+  {
+    "id": "app.channel.get_all_channels.app_error",
+    "translation": "Nepodařilo se získat všechny kanály."
+  },
+  {
+    "id": "app.channel.get_all.app_error",
+    "translation": "Nepodařilo se získat všechny kanály."
+  },
+  {
+    "id": "app.channel.get.find.app_error",
+    "translation": "Při hledání kanálu došlo k chybě."
+  },
+  {
+    "id": "app.channel.create_initial_sidebar_categories.internal_error",
+    "translation": "Nepodařilo se vytvořit úvodní panel kategorií pro uživatele."
   }
 ]
