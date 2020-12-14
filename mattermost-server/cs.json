@@ -1,23 +1,23 @@
 [
   {
     "id": "web.incoming_webhook.user.app_error",
-    "translation": "Nelze aktualizovat role"
+    "translation": "Nemohu najít uživatele."
   },
   {
     "id": "web.incoming_webhook.text.app_error",
-    "translation": "Nebyl zadán text"
+    "translation": "Nebyl zadán text."
   },
   {
     "id": "web.incoming_webhook.permissions.app_error",
-    "translation": "Nedostatečná oprávnění ke kanálu"
+    "translation": "Nedostatečná oprávnění ke kanálu."
   },
   {
     "id": "web.incoming_webhook.parse.app_error",
-    "translation": "Neporozuměl jsem příchozím datům"
+    "translation": "Neporozuměl jsem příchozím datům."
   },
   {
     "id": "web.incoming_webhook.invalid.app_error",
-    "translation": "Nevalidní webhook"
+    "translation": "Nevalidní webhook."
   },
   {
     "id": "web.incoming_webhook.disabled.app_error",
@@ -25,31 +25,31 @@
   },
   {
     "id": "web.incoming_webhook.channel.app_error",
-    "translation": "Nelze aktualizovat role"
+    "translation": "Nemohl jsem najít daný kanál."
   },
   {
     "id": "web.get_access_token.internal_saving.app_error",
-    "translation": "Uživatelské heslo nemohlo být změněno"
+    "translation": "Nepodařilo se aktualizovat uživatelova přístupová data."
   },
   {
     "id": "web.command_webhook.parse.app_error",
-    "translation": "Neporozuměl jsem příchozím datům"
+    "translation": "Neporozuměl jsem příchozím datům."
   },
   {
     "id": "web.command_webhook.command.app_error",
-    "translation": "Nelze aktualizovat role"
+    "translation": "Tento příkaz nelze najít."
   },
   {
     "id": "utils.mail.send_mail.msg.app_error",
-    "translation": "Nepodařilo se zapsat e-mailovou zprávu"
+    "translation": "Nepodařilo se zapsat e-mailovou zprávu."
   },
   {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
-    "translation": "Nelze otevřít spojení TLS"
+    "translation": "Nelze navázat spojení TLS."
   },
   {
     "id": "utils.mail.connect_smtp.open.app_error",
-    "translation": "Nelze otevřít spojení TLS"
+    "translation": "Nelze navázat spojení."
   },
   {
     "id": "utils.file.remove_file.local.app_error",
@@ -77,23 +77,23 @@
   },
   {
     "id": "store.sql_command.save.get.app_error",
-    "translation": "Nepodařilo se získat příspěvek"
+    "translation": "Nepodařilo se získat příkaz."
   },
   {
     "id": "app.channel.update.bad_id",
-    "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
+    "translation": "Nepodařilo se aktualizovat kanál."
   },
   {
     "id": "store.sql_channel.save_channel.exists.app_error",
-    "translation": "Kanál s tímto jménem pro stejný tým již existuje"
+    "translation": "Kanál s tímto jménem pro stejný tým již existuje."
   },
   {
     "id": "store.sql_channel.save_channel.existing.app_error",
-    "translation": "Musí být vyvolána aktualizace pro existující kanál"
+    "translation": "Musí být vyvolána aktualizace pro existující kanál."
   },
   {
     "id": "store.sql_channel.save.direct_channel.app_error",
-    "translation": "Pokud chcete vytvořit přímý kanál použijte SaveDirectChannel"
+    "translation": "Pokud chcete vytvořit přímý kanál použijte SaveDirectChannel."
   },
   {
     "id": "store.sql_channel.save.archived_channel.app_error",
@@ -101,7 +101,7 @@
   },
   {
     "id": "app.channel.get_deleted.existing.app_error",
-    "translation": "Nelze aktualizovat role"
+    "translation": "Nelze najít existující smazaný kanál."
   },
   {
     "id": "app.channel.get_channels.not_found.app_error",
@@ -109,27 +109,27 @@
   },
   {
     "id": "app.channel.get_by_name.missing.app_error",
-    "translation": "Kanál neexistuje"
+    "translation": "Kanál neexistuje."
   },
   {
     "id": "store.sql_channel.get.existing.app_error",
-    "translation": "Nelze aktualizovat role"
+    "translation": "Nelze najít daný kanál."
   },
   {
     "id": "app.audit.save.saving.app_error",
-    "translation": "Došlo k chybě při heldání auditů"
+    "translation": "Došlo k chybě při ukládání auditních záznamů."
   },
   {
     "id": "app.audit.permanent_delete_by_user.app_error",
-    "translation": "Došlo k chybě při heldání auditů"
+    "translation": "Došlo k chybě při mazání auditních záznamů."
   },
   {
     "id": "app.audit.get.finding.app_error",
-    "translation": "Došlo k chybě při heldání auditů"
+    "translation": "Došlo k chybě při hledání audit záznamů."
   },
   {
     "id": "store.sql.convert_string_map",
-    "translation": "FromDb: Nelze konvertovat  StringMap to *string"
+    "translation": "FromDb: Nelze konvertovat StringMap to *string"
   },
   {
     "id": "store.sql.convert_string_interface",
@@ -137,7 +137,7 @@
   },
   {
     "id": "store.sql.convert_string_array",
-    "translation": "FromDb: Nelze konvertovat  StringMap to *string"
+    "translation": "FromDb: Nelze konvertovat StringMap to *string"
   },
   {
     "id": "plugin_api.get_file_link.no_post.app_error",
@@ -153,19 +153,19 @@
   },
   {
     "id": "model.utils.decode_json.app_error",
-    "translation": "Nelze dekódovat"
+    "translation": "nelze dekódovat."
   },
   {
     "id": "model.user_access_token.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.user_access_token.is_valid.token.app_error",
-    "translation": "Neplatný přístupový token"
+    "translation": "Neplatný přístupový token."
   },
   {
     "id": "model.user_access_token.is_valid.id.app_error",
-    "translation": "Neplatná hodnota časového limitu čtení."
+    "translation": "Neplatná hodnota pro id."
   },
   {
     "id": "model.user.is_valid.username.app_error",
@@ -173,7 +173,7 @@
   },
   {
     "id": "model.user.is_valid.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.user.is_valid.pwd_uppercase_symbol.app_error",
@@ -181,7 +181,7 @@
   },
   {
     "id": "model.user.is_valid.pwd_uppercase_number_symbol.app_error",
-    "translation": "Heslo musí obsahovat nejméně {{.Min}} znaky, které obsahují alespoň jedno malé písmeno, alespoň jedno číslo a alespoň jeden symbol (např.  \"~!@#$%^&*()\")."
+    "translation": "Heslo musí obsahovat nejméně {{.Min}} znaky, které obsahují alespoň jedno malé písmeno, alespoň jedno číslo a alespoň jeden symbol (např. \"~!@#$%^&*()\")."
   },
   {
     "id": "model.user.is_valid.pwd_uppercase_number.app_error",
@@ -225,7 +225,7 @@
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_number_symbol.app_error",
-    "translation": "Heslo musí obsahovat nejméně {{.Min}} znaky, které obsahují alespoň jedno malé písmeno, alespoň jedno číslo a alespoň jeden symbol (např.  \"~!@#$%^&*()\")."
+    "translation": "Heslo musí obsahovat nejméně {{.Min}} znaky, které obsahují alespoň jedno malé písmeno, alespoň jedno číslo a alespoň jeden symbol (např. \"~!@#$%^&*()\")."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_number.app_error",
@@ -245,35 +245,35 @@
   },
   {
     "id": "model.user.is_valid.nickname.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Nevalidní přezdívka."
   },
   {
     "id": "model.user.is_valid.locale.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Nevalidní locale."
   },
   {
     "id": "model.user.is_valid.last_name.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Nevalidní příjmení."
   },
   {
     "id": "model.user.is_valid.id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.user.is_valid.first_name.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Nevalidní křestní jméno."
   },
   {
     "id": "model.user.is_valid.email.app_error",
-    "translation": "Neplatná e-mailová adresa"
+    "translation": "Neplatná e-mailová adresa."
   },
   {
     "id": "model.user.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.user.is_valid.auth_data_pwd.app_error",
-    "translation": "Neplatné uživatelské jméno, heslo a autentizační data nemohou být nastavena"
+    "translation": "Neplatné uživatelské jméno, heslo a autentizační data nemohou být nastavena."
   },
   {
     "id": "model.user.is_valid.auth_data.app_error",
@@ -281,7 +281,7 @@
   },
   {
     "id": "model.token.is_valid.size",
-    "translation": "Neplatný motiv"
+    "translation": "Neplatný token."
   },
   {
     "id": "model.token.is_valid.expiry",
@@ -289,19 +289,19 @@
   },
   {
     "id": "model.team_member.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.team_member.is_valid.team_id.app_error",
-    "translation": "Neplatné ID týmu"
+    "translation": "Neplatné ID týmu."
   },
   {
     "id": "model.team.is_valid.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.team.is_valid.type.app_error",
-    "translation": "Neplatný typ"
+    "translation": "Neplatný typ."
   },
   {
     "id": "model.team.is_valid.reserved.app_error",
@@ -309,19 +309,19 @@
   },
   {
     "id": "model.team.is_valid.name.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Neplatné jméno."
   },
   {
     "id": "model.team.is_valid.id.app_error",
-    "translation": "Nevalidní Id"
+    "translation": "Nevalidní Id."
   },
   {
     "id": "model.team.is_valid.email.app_error",
-    "translation": "Neplatná e-mailová adresa"
+    "translation": "Neplatná e-mailová adresa."
   },
   {
     "id": "model.team.is_valid.domains.app_error",
-    "translation": "Neplatné povolené domény"
+    "translation": "Neplatné povolené domény."
   },
   {
     "id": "model.team.is_valid.description.app_error",
@@ -329,95 +329,95 @@
   },
   {
     "id": "model.team.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.team.is_valid.company.app_error",
-    "translation": "Neplatné zobrazované jméno"
+    "translation": "Nevalidní název společnosti."
   },
   {
     "id": "model.team.is_valid.characters.app_error",
-    "translation": "Název musí obsahovat 2 nebo více malých alfanumerických znaků"
+    "translation": "Název musí obsahovat 2 nebo více malých alfanumerických znaků."
   },
   {
     "id": "model.reaction.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.reaction.is_valid.post_id.app_error",
-    "translation": "Neplatné ID příspěvku"
+    "translation": "Neplatné ID příspěvku."
   },
   {
     "id": "model.reaction.is_valid.emoji_name.app_error",
-    "translation": "Neplatné ID příspěvku"
+    "translation": "Nevalidní název emoji."
   },
   {
     "id": "model.reaction.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.preference.is_valid.value.app_error",
-    "translation": "Hodnota je příliš dlouhá"
+    "translation": "Hodnota je příliš dlouhá."
   },
   {
     "id": "model.preference.is_valid.theme.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Neplatný motiv."
   },
   {
     "id": "model.preference.is_valid.name.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Neplatné jméno."
   },
   {
     "id": "model.preference.is_valid.id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.preference.is_valid.category.app_error",
-    "translation": "Neplatná kategorie"
+    "translation": "Nevalidní kategorie."
   },
   {
     "id": "model.post.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.post.is_valid.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.post.is_valid.type.app_error",
-    "translation": "Neplatný typ"
+    "translation": "Neplatný typ."
   },
   {
     "id": "model.post.is_valid.root_id.app_error",
-    "translation": "Neplatné ID roota"
+    "translation": "Neplatné ID roota."
   },
   {
     "id": "model.post.is_valid.props.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Nevalidní položky."
   },
   {
     "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "Neplatné ID nadřazeného prvku"
+    "translation": "Neplatné ID nadřazeného prvku."
   },
   {
     "id": "model.post.is_valid.original_id.app_error",
-    "translation": "Neplatné původní ID"
+    "translation": "Neplatné původní ID."
   },
   {
     "id": "model.post.is_valid.msg.app_error",
-    "translation": "Neplatná zpráva"
+    "translation": "Neplatná zpráva."
   },
   {
     "id": "model.post.is_valid.id.app_error",
-    "translation": "Nevalidní Id"
+    "translation": "Nevalidní Id."
   },
   {
     "id": "model.post.is_valid.hashtags.app_error",
-    "translation": "Neplatné hashtagy"
+    "translation": "Neplatné hashtagy."
   },
   {
     "id": "model.post.is_valid.filenames.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Neplatné názvy souborů."
   },
   {
     "id": "model.post.is_valid.file_ids.app_error",
@@ -425,51 +425,51 @@
   },
   {
     "id": "model.post.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.post.is_valid.channel_id.app_error",
-    "translation": "Neplatné id kanálu"
+    "translation": "Neplatné id kanálu."
   },
   {
     "id": "model.outgoing_hook.username.app_error",
-    "translation": "Neplatné uživatelské jméno"
+    "translation": "Neplatné uživatelské jméno."
   },
   {
     "id": "model.outgoing_hook.is_valid.words.app_error",
-    "translation": "Neplatná spouštěcí slova"
+    "translation": "Neplatná spouštěcí slova."
   },
   {
     "id": "model.outgoing_hook.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.outgoing_hook.is_valid.url.app_error",
-    "translation": "Neplatná adresa URL zpětného volání. Každá musí být platná adresa URL a začít  http:// nebo https://"
+    "translation": "Neplatná adresa URL zpětného volání. Každá musí být platná adresa URL a začít http:// nebo https://."
   },
   {
     "id": "model.outgoing_hook.is_valid.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.outgoing_hook.is_valid.trigger_words.app_error",
-    "translation": "Neplatná spouštěcí slova"
+    "translation": "Neplatná spouštěcí slova."
   },
   {
     "id": "model.outgoing_hook.is_valid.token.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Neplatný token."
   },
   {
     "id": "model.outgoing_hook.is_valid.team_id.app_error",
-    "translation": "Neplatné ID týmu"
+    "translation": "Neplatné ID týmu."
   },
   {
     "id": "model.outgoing_hook.is_valid.id.app_error",
-    "translation": "Nevalidní Id"
+    "translation": "Nevalidní Id."
   },
   {
     "id": "model.outgoing_hook.is_valid.display_name.app_error",
-    "translation": "Neplatný název"
+    "translation": "Neplatný název."
   },
   {
     "id": "model.outgoing_hook.is_valid.description.app_error",
@@ -477,23 +477,23 @@
   },
   {
     "id": "model.outgoing_hook.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.outgoing_hook.is_valid.channel_id.app_error",
-    "translation": "Neplatné id kanálu"
+    "translation": "Neplatné id kanálu."
   },
   {
     "id": "model.outgoing_hook.icon_url.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Nevalidní ikona."
   },
   {
     "id": "model.oauth.is_valid.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.oauth.is_valid.name.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Neplatné jméno."
   },
   {
     "id": "model.oauth.is_valid.icon_url.app_error",
@@ -509,15 +509,15 @@
   },
   {
     "id": "model.oauth.is_valid.creator_id.app_error",
-    "translation": "Neplatné ID autora"
+    "translation": "Neplatné ID autora."
   },
   {
     "id": "model.oauth.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.oauth.is_valid.client_secret.app_error",
-    "translation": "Neplatné klientské tajemství"
+    "translation": "Neplatné klientské tajemství."
   },
   {
     "id": "model.oauth.is_valid.callback.app_error",
@@ -525,7 +525,7 @@
   },
   {
     "id": "model.oauth.is_valid.app_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné id aplikace."
   },
   {
     "id": "model.license_record.is_valid.id.app_error",
@@ -537,47 +537,47 @@
   },
   {
     "id": "model.job.is_valid.type.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Nevalidní typ úlohy."
   },
   {
     "id": "model.job.is_valid.id.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Nevalidní id úlohy."
   },
   {
     "id": "model.job.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.incoming_hook.username.app_error",
-    "translation": "Neplatné uživatelské jméno"
+    "translation": "Neplatné uživatelské jméno."
   },
   {
     "id": "model.incoming_hook.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.incoming_hook.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.incoming_hook.team_id.app_error",
-    "translation": "Neplatné ID týmu"
+    "translation": "Neplatné ID týmu."
   },
   {
     "id": "model.incoming_hook.parse_data.app_error",
-    "translation": "Neporozuměl jsem příchozím datům"
+    "translation": "Neporozuměl jsem příchozím datům."
   },
   {
     "id": "model.incoming_hook.id.app_error",
-    "translation": "Nevalidní Id"
+    "translation": "Nevalidní Id."
   },
   {
     "id": "model.incoming_hook.icon_url.app_error",
-    "translation": "Neplatné ID příspěvku"
+    "translation": "Nevalidní ikona příspěvku."
   },
   {
     "id": "model.incoming_hook.display_name.app_error",
-    "translation": "Neplatný název"
+    "translation": "Neplatný název."
   },
   {
     "id": "model.incoming_hook.description.app_error",
@@ -585,51 +585,51 @@
   },
   {
     "id": "model.incoming_hook.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.incoming_hook.channel_id.app_error",
-    "translation": "Neplatné id kanálu"
+    "translation": "Neplatné id kanálu."
   },
   {
     "id": "model.guest.is_valid.emails.app_error",
-    "translation": "Neplatná e-mailová adresa"
+    "translation": "Neplatné e-mailové adresy."
   },
   {
     "id": "model.guest.is_valid.email.app_error",
-    "translation": "Neplatná e-mailová adresa"
+    "translation": "Neplatná e-mailová adresa."
   },
   {
     "id": "model.guest.is_valid.channels.app_error",
-    "translation": "Neplatné id kanálu"
+    "translation": "Neplatné kanály."
   },
   {
     "id": "model.guest.is_valid.channel.app_error",
-    "translation": "Neplatné id kanálu"
+    "translation": "Neplatný kanál."
   },
   {
     "id": "model.file_info.is_valid.user_id.app_error",
-    "translation": "Neplatná hodnota časového limitu čtení."
+    "translation": "Neplatná hodnota pro user_id."
   },
   {
     "id": "model.file_info.is_valid.update_at.app_error",
-    "translation": "Neplatná hodnota časového limitu čtení."
+    "translation": "Neplatná hodnota pro update_at."
   },
   {
     "id": "model.file_info.is_valid.post_id.app_error",
-    "translation": "Neplatná hodnota časového limitu čtení."
+    "translation": "Neplatná hodnota pro post_id."
   },
   {
     "id": "model.file_info.is_valid.path.app_error",
-    "translation": "Neplatná hodnota časového limitu čtení."
+    "translation": "Neplatná hodnota pro path."
   },
   {
     "id": "model.file_info.is_valid.id.app_error",
-    "translation": "Neplatná hodnota časového limitu čtení."
+    "translation": "Neplatná hodnota pro id."
   },
   {
     "id": "model.file_info.is_valid.create_at.app_error",
-    "translation": "Neplatná hodnota časového limitu čtení."
+    "translation": "Neplatná hodnota pro create_at."
   },
   {
     "id": "model.file_info.get.gif.app_error",
@@ -637,23 +637,23 @@
   },
   {
     "id": "model.emoji.user_id.app_error",
-    "translation": "Neplatné ID autora"
+    "translation": "Neplatné ID autora."
   },
   {
     "id": "model.emoji.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.emoji.name.app_error",
-    "translation": "Název musí obsahovat 1 až 64 malých alfanumerických znaků"
+    "translation": "Název musí obsahovat 1 až 64 malých alfanumerických znaků."
   },
   {
     "id": "model.emoji.id.app_error",
-    "translation": "Neplatné ID příspěvku"
+    "translation": "Nevalidní id pro emoji."
   },
   {
     "id": "model.emoji.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.config.is_valid.write_timeout.app_error",
@@ -661,7 +661,7 @@
   },
   {
     "id": "model.config.is_valid.websocket_url.app_error",
-    "translation": "Adresa URL webu musí být platná adresa URL a začínat ws:// nebo wss://"
+    "translation": "Adresa URL webu musí být platná adresa URL a začínat ws:// nebo wss://."
   },
   {
     "id": "model.config.is_valid.time_between_user_typing.app_error",
@@ -681,7 +681,7 @@
   },
   {
     "id": "model.config.is_valid.sql_driver.app_error",
-    "translation": "Neplatný název ovladače pro SQL windows. Musí být 'mysql' nebo 'postgres'"
+    "translation": "Neplatný název ovladače pro SQL windows. Musí být 'mysql' nebo 'postgres'."
   },
   {
     "id": "model.config.is_valid.sql_data_src.app_error",
@@ -697,7 +697,7 @@
   },
   {
     "id": "model.config.is_valid.site_url.app_error",
-    "translation": "Adresa URL ikony musí být platná adresa URL a začít http:// nebo https://"
+    "translation": "Adresa URL ikony musí být platná adresa URL a začít http:// nebo https://."
   },
   {
     "id": "model.config.is_valid.saml_username_attribute.app_error",
@@ -737,7 +737,7 @@
   },
   {
     "id": "model.config.is_valid.restrict_direct_message.app_error",
-    "translation": "Neplatné omezení přímé zprávy. Musí být \"any\" nebo \"team\""
+    "translation": "Neplatné omezení přímé zprávy. Musí být \"any\" nebo \"team\"."
   },
   {
     "id": "model.config.is_valid.read_timeout.app_error",
@@ -745,11 +745,11 @@
   },
   {
     "id": "model.config.is_valid.rate_sec.app_error",
-    "translation": "Neplatné nastavení velikosti úložiště pro omezení rychlosti. Musí být kladné číslo"
+    "translation": "Neplatné nastavení velikosti úložiště pro omezení rychlosti. Musí být kladné číslo."
   },
   {
     "id": "model.config.is_valid.rate_mem.app_error",
-    "translation": "Neplatná velikost úložiště paměti pro nastavení limitu rychlosti. Musí to být kladné číslo"
+    "translation": "Neplatná velikost úložiště paměti pro nastavení limitu rychlosti. Musí to být kladné číslo."
   },
   {
     "id": "model.config.is_valid.password_length.app_error",
@@ -757,35 +757,35 @@
   },
   {
     "id": "model.config.is_valid.message_export.global_relay.smtp_username.app_error",
-    "translation": "Úloha exportu zpráv GlobalRelaySettings.SmtpUsername musí být nastaveno"
+    "translation": "Úloha exportu zpráv GlobalRelaySettings.SmtpUsername musí být nastaveno."
   },
   {
     "id": "model.config.is_valid.message_export.global_relay.smtp_password.app_error",
-    "translation": "Úloha exportu zpráv GlobalRelaySettings.SmtpPassword musí být nastaveno"
+    "translation": "Úloha exportu zpráv GlobalRelaySettings.SmtpPassword musí být nastaveno."
   },
   {
     "id": "model.config.is_valid.message_export.global_relay.email_address.app_error",
-    "translation": "Úloha exportu zpráv GlobalRelaySettings.EmailAddress  musí mít nastavenou platnou emailovou adresu."
+    "translation": "Úloha exportu zpráv GlobalRelaySettings.EmailAddress musí mít nastavenou platnou emailovou adresu."
   },
   {
     "id": "model.config.is_valid.message_export.global_relay.customer_type.app_error",
-    "translation": "Export zpráv GlobalRelaySettings.CustomerType musí být nastave na 'A9' nebo 'A10'"
+    "translation": "Export zpráv GlobalRelaySettings.CustomerType musí být nastave na 'A9' nebo 'A10'."
   },
   {
     "id": "model.config.is_valid.message_export.global_relay.config_missing.app_error",
-    "translation": "Úloha exportu zpráv ExportFormat  je nastavena na 'globalrelay', ale GlobalRelaySettings nejsou nastaveny"
+    "translation": "Úloha exportu zpráv ExportFormat je nastavena na 'globalrelay', ale GlobalRelaySettings nejsou nastaveny."
   },
   {
     "id": "model.config.is_valid.message_export.export_type.app_error",
-    "translation": "Úloha pro export zpráv ExportFormat musí být jedna z následujících 'actiance', 'csv' nebo'globalrelay'"
+    "translation": "Úloha pro export zpráv ExportFormat musí být jedna z následujících 'actiance', 'csv' nebo'globalrelay'."
   },
   {
     "id": "ent.elasticsearch.start.create_bulk_processor_failed.app_error",
-    "translation": "Nepodařilo se vytvořit Elasticsearch dávkový procesor"
+    "translation": "Nepodařilo se vytvořit Elasticsearch dávkový procesor."
   },
   {
     "id": "ent.elasticsearch.start.already_started.app_error",
-    "translation": "Elasticsearch už běží"
+    "translation": "Elasticsearch už běží."
   },
   {
     "id": "ent.elasticsearch.search_users.unmarshall_user_failed",
@@ -829,7 +829,7 @@
   },
   {
     "id": "ent.elasticsearch.purge_indexes.delete_failed",
-    "translation": "Nepodařilo se smazat index pro Elasticsearch "
+    "translation": "Nepodařilo se smazat index pro Elasticsearch"
   },
   {
     "id": "ent.elasticsearch.not_started.error",
@@ -837,7 +837,7 @@
   },
   {
     "id": "ent.elasticsearch.indexer.index_batch.nothing_left_to_index.error",
-    "translation": "Zkouším vytvořit index pro novou dávku, když jsou všechny entity dokončené."
+    "translation": "Zkouším vytvořit index pro novou dávku, když jsou všechny entity dokončené"
   },
   {
     "id": "ent.elasticsearch.indexer.do_job.parse_start_time.error",
@@ -893,7 +893,7 @@
   },
   {
     "id": "ent.elasticsearch.create_template_channels_if_not_exists.template_create_failed",
-    "translation": "Selhala tvoba šablony Elasticsearch pro kanály."
+    "translation": "Selhala tvoba šablony Elasticsearch pro kanály"
   },
   {
     "id": "ent.elasticsearch.create_client.connect_failed",
@@ -933,7 +933,7 @@
   },
   {
     "id": "ent.compliance.global_relay.rewind_temporary_file.appError",
-    "translation": "Nepodařilo se přečíst dočasný soubor Global Relay exportu"
+    "translation": "Nepodařilo se přečíst dočasný soubor Global Relay exportu."
   },
   {
     "id": "ent.compliance.global_relay.open_temporary_file.appError",
@@ -957,7 +957,7 @@
   },
   {
     "id": "ent.compliance.csv.metadata.json.zipfile.appError",
-    "translation": "Nepodařilo se vytvořit eml soubor."
+    "translation": "Nepodařilo se vytvořit zip soubor"
   },
   {
     "id": "ent.compliance.csv.metadata.json.marshalling.appError",
@@ -1037,23 +1037,23 @@
   },
   {
     "id": "bleveengine.search_users_in_team.error",
-    "translation": "Vyhledávání se nezdařilo"
+    "translation": "Vyhledávání uživatele se nezdařilo."
   },
   {
     "id": "bleveengine.search_users_in_channel.uchan.error",
-    "translation": "Vyhledávání se nezdařilo"
+    "translation": "Vyhledávání uživatele se nezdařilo."
   },
   {
     "id": "bleveengine.search_users_in_channel.nuchan.error",
-    "translation": "Vyhledávání se nezdařilo"
+    "translation": "Vyhledávání uživatele se nezdařilo."
   },
   {
     "id": "bleveengine.search_posts.error",
-    "translation": "Vyhledávání se nezdařilo"
+    "translation": "Vyhledávání se nezdařilo."
   },
   {
     "id": "bleveengine.search_channels.error",
-    "translation": "Vyhledávání se nezdařilo"
+    "translation": "Vyhledávání se nezdařilo."
   },
   {
     "id": "bleveengine.indexer.index_batch.nothing_left_to_index.error",
@@ -1061,11 +1061,11 @@
   },
   {
     "id": "bleveengine.indexer.do_job.parse_start_time.error",
-    "translation": "Indexovacímu procesu Elasticsearch se nepodařilo pročíst čas začátku"
+    "translation": "Indexovacímu procesu Elasticsearch se nepodařilo rozluštit čas začátku."
   },
   {
     "id": "bleveengine.indexer.do_job.parse_end_time.error",
-    "translation": "Indexovacímu procesu Elasticsearch se nepodařilo pročíst čas konce"
+    "translation": "Indexovacímu procesu Elasticsearch se nepodařilo rozluštit čas konce."
   },
   {
     "id": "bleveengine.indexer.do_job.get_oldest_post.error",
@@ -1073,31 +1073,31 @@
   },
   {
     "id": "bleveengine.index_user.error",
-    "translation": "Nepodařilo se vytvořit index uživatele"
+    "translation": "Nepodařilo se zaindexovat uživatele."
   },
   {
     "id": "bleveengine.index_post.error",
-    "translation": "Nepodařilo se vytvořit index příspěvků"
+    "translation": "Nepodařilo se zaindexovat příspěvek."
   },
   {
     "id": "bleveengine.index_channel.error",
-    "translation": "Nepodařilo vytvořit index kanálu"
+    "translation": "Nepodařilo se zaindexovat kanál."
   },
   {
     "id": "bleveengine.delete_user.error",
-    "translation": "Nepodařilo se smazat uživatele"
+    "translation": "Nepodařilo se smazat uživatele."
   },
   {
     "id": "bleveengine.delete_post.error",
-    "translation": "Chyba při mazání příspěvku"
+    "translation": "Chyba při mazání příspěvku."
   },
   {
     "id": "bleveengine.delete_channel.error",
-    "translation": "Nepodařilo se smazat kanál"
+    "translation": "Nepodařilo se smazat kanál."
   },
   {
     "id": "app.user_access_token.invalid_or_missing",
-    "translation": "Neplatný nebo chybějící token"
+    "translation": "Neplatný nebo chybějící token."
   },
   {
     "id": "app.user_access_token.disabled",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": "app.system_install_date.parse_int.app_error",
-    "translation": "Nepodařilo se zpracovat datum instalace"
+    "translation": "Nepodařilo se zpracovat datum instalace."
   },
   {
     "id": "app.submit_interactive_dialog.json_error",
@@ -1133,11 +1133,11 @@
   },
   {
     "id": "app.save_config.app_error",
-    "translation": "Při ukládání konfigurace došlo k chybě"
+    "translation": "Při ukládání konfigurace došlo k chybě."
   },
   {
     "id": "app.role.check_roles_exist.role_not_found",
-    "translation": "Role neexistuje."
+    "translation": "Role neexistuje"
   },
   {
     "id": "app.plugin.write_file.saving.app_error",
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "app.plugin.upload_disabled.app_error",
-    "translation": "Podpora pro pluginy je vypnutá."
+    "translation": "Podpora pro zásuvné moduly je vypnutá."
   },
   {
     "id": "app.plugin.sync.read_local_folder.app_error",
@@ -1173,27 +1173,27 @@
   },
   {
     "id": "app.plugin.signature_decode.app_error",
-    "translation": "Nepodařilo se rozluštit Base64 podpis."
+    "translation": "Nepodařilo se rozluštit podpis v base64 formátu."
   },
   {
     "id": "app.plugin.restart.app_error",
-    "translation": "Při upgradu nelze restartovat zásuvný modul."
+    "translation": "Po aktualizaci se nepodařilo restartovat zásuvný modul."
   },
   {
     "id": "app.plugin.remove_bundle.app_error",
-    "translation": "Nelze odebrat balíček zásuvného modulu s úložiště."
+    "translation": "Nelze odebrat balíček zásuvného modulu z úložiště."
   },
   {
     "id": "app.plugin.remove.app_error",
-    "translation": "Nelze vymazat zásuvný modul"
+    "translation": "Nelze vymazat zásuvný modul."
   },
   {
     "id": "app.plugin.not_installed.app_error",
-    "translation": "Plugin není nainstalován"
+    "translation": "Zásuvný modul není nainstalován."
   },
   {
     "id": "app.plugin.mvdir.app_error",
-    "translation": "Nepodařilo se přesunout plugin z dočasného do cílového adresáře. Zdá se že stejný adresář už používá Jiný plugin."
+    "translation": "Nepodařilo se přesunout zásuvný modul z dočasného do cílového adresáře. Zdá se, že stejný adresář už používá jiný modul."
   },
   {
     "id": "app.plugin.modify_saml.app_error",
@@ -1201,23 +1201,23 @@
   },
   {
     "id": "app.plugin.marshal.app_error",
-    "translation": "Nepodařilo se zorganizovat marketplace zásuvných modulů."
+    "translation": "Nepodařilo se připravit zásuvné moduly tržiště."
   },
   {
     "id": "app.plugin.marketplace_plugins.signature_not_found.app_error",
-    "translation": "Nepodařilo se nalézt podpis požadovaného modulu z tržiště."
+    "translation": "Nepodařilo se nalézt podpis požadovaného zásuvného modulu z tržiště."
   },
   {
     "id": "app.plugin.marketplace_plugins.not_found.app_error",
-    "translation": "Nepodařilo se nalézt na tržišti požadovaný zásuvný modul."
+    "translation": "Nepodařilo se nalézt požadovaný zásuvný modul na tržišti."
   },
   {
     "id": "app.plugin.marketplace_plugin_request.app_error",
-    "translation": "Nepodařilo se rozluštit požadavek zásuvného modulu z tržiště."
+    "translation": "Nepodařilo se rozluštit požadavek na tržiště zásuvných modulů."
   },
   {
     "id": "app.plugin.marketplace_disabled.app_error",
-    "translation": "Pluginy jsou vypnuté. Podrobnosti najdete v logu."
+    "translation": "Tržiště je vypnuté. Podrobnosti najdete v logu."
   },
   {
     "id": "app.plugin.marketplace_client.failed_to_fetch",
@@ -1225,15 +1225,15 @@
   },
   {
     "id": "app.plugin.marketplace_client.app_error",
-    "translation": "Nelze vytvořit klienta pro marketplace"
+    "translation": "Nelze vytvořit klienta pro marketplace."
   },
   {
     "id": "app.plugin.manifest.app_error",
-    "translation": "Nepodařilo se najít manifest pluginu."
+    "translation": "Nepodařilo se najít manifest zásuvného modulu."
   },
   {
     "id": "app.plugin.invalid_version.app_error",
-    "translation": "Nepodařilo se získat verzi zásuvného modulu"
+    "translation": "Nepodařilo se rozluštit verzi zásuvného modulu."
   },
   {
     "id": "app.plugin.invalid_id.app_error",
@@ -1245,19 +1245,19 @@
   },
   {
     "id": "app.plugin.install_id_failed_remove.app_error",
-    "translation": "Nepodařilo se nainstalovat plugin. Plugin s rovnakým ID je už nainstalován a nepodařilo se ho odstranit."
+    "translation": "Nepodařilo se nainstalovat zásuvný modul. Jiný se stejným ID je již nainstalován a nepodařilo se ho odstranit."
   },
   {
     "id": "app.plugin.install_id.app_error",
-    "translation": "Nepodařilo se nainstalovat plugin. Plugin s rovnakým ID je už nainstalován."
+    "translation": "Nepodařilo se nainstalovat zásuvný modul. Jiný se stejným ID je již nainstalován."
   },
   {
     "id": "app.plugin.install.app_error",
-    "translation": "Nepodařilo se nainstalovat plugin."
+    "translation": "Nepodařilo se nainstalovat zásuvný modul."
   },
   {
     "id": "app.plugin.get_statuses.app_error",
-    "translation": "Nepodařilo se získat stavy pluginů"
+    "translation": "Nepodařilo se získat stavy zásuvných modulů."
   },
   {
     "id": "app.plugin.get_public_key.get_file.app_error",
@@ -1265,23 +1265,23 @@
   },
   {
     "id": "store.sql_team.save_member.exists.app_error",
-    "translation": "Člen týmu s daným ID již existuje"
+    "translation": "Člen týmu s daným ID již existuje."
   },
   {
     "id": "app.scheme.save.app_error",
-    "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
+    "translation": "Nepodařilo se založit schéma."
   },
   {
     "id": "app.scheme.get.app_error",
-    "translation": "Nepodařilo se načíst kanály"
+    "translation": "Nepodařilo se získat schéma."
   },
   {
     "id": "app.reaction.save.save.app_error",
-    "translation": "Chyba při mazání příspěvku"
+    "translation": "NElze uložit reakci."
   },
   {
     "id": "app.reaction.delete_all_with_emoji_name.get_reactions.app_error",
-    "translation": "Nelze odstranit reakce s daným jménem emotikonu"
+    "translation": "Nelze odstranit reakce s daným jménem emotikonu."
   },
   {
     "id": "store.sql_post.search.disabled",
@@ -1289,19 +1289,19 @@
   },
   {
     "id": "app.emoji.delete.no_results",
-    "translation": "Nelze najít emoji určené ke smazání"
+    "translation": "Nelze najít emoji určené ke smazání."
   },
   {
     "id": "app.emoji.delete.app_error",
-    "translation": "Chyba při mazání příspěvku"
+    "translation": "Nelze smazat emoji."
   },
   {
     "id": "app.plugin.get_plugins.app_error",
-    "translation": "Nezle získat aktivní zásuvné moduly"
+    "translation": "Nelze získat aktivní zásuvné moduly."
   },
   {
     "id": "app.plugin.get_cluster_plugin_statuses.app_error",
-    "translation": "Nepodařilo se získat stavy pluginů z clusteru."
+    "translation": "Nepodařilo se získat stavy zásuvných modulů z clusteru."
   },
   {
     "id": "app.plugin.flag_managed.app_error",
@@ -1309,7 +1309,7 @@
   },
   {
     "id": "app.plugin.filesystem.app_error",
-    "translation": "Nastala chyba souborvého systému"
+    "translation": "Nastala chyba souborového systému."
   },
   {
     "id": "app.plugin.extract.app_error",
@@ -1317,7 +1317,7 @@
   },
   {
     "id": "app.plugin.disabled.app_error",
-    "translation": "Pluginy jsou vypnuté. Podrobnosti najdete v logu."
+    "translation": "Zásuvné moduly jsou vypnuté. Podrobnosti najdete v logu."
   },
   {
     "id": "app.plugin.delete_public_key.delete.app_error",
@@ -1325,15 +1325,15 @@
   },
   {
     "id": "app.plugin.deactivate.app_error",
-    "translation": "Nelze deaktivovat plugin"
+    "translation": "Nelze deaktivovat zásuvný modul."
   },
   {
     "id": "app.plugin.config.app_error",
-    "translation": "Chyba při ukládáni stavu pluginu"
+    "translation": "Chyba při ukládáni stavu zásuvného modulu."
   },
   {
     "id": "app.plugin.cluster.save_config.app_error",
-    "translation": "Konfigurace pluginů ve vašem soubore config.json musí být upravena ručně pokud používáte ReadOnlyConfig spolu s povoleným clustrováním."
+    "translation": "Konfigurace zásuvných modulů ve vašem souboru config.json musí být upravena ručně pokud používáte ReadOnlyConfig s povoleným clustrováním."
   },
   {
     "id": "app.notification.subject.notification.full",
@@ -1341,11 +1341,11 @@
   },
   {
     "id": "app.notification.subject.group_message.generic",
-    "translation": "[{{.SiteName}}] Nové skupinové zprávy z  {{.Day}}{{.Month}}, {{.Year}}"
+    "translation": "[{{.SiteName}}] Nová skupinová zpráva z {{.Day}}{{.Month}}, {{.Year}}"
   },
   {
     "id": "app.notification.subject.group_message.full",
-    "translation": "[{{.SiteName}}] Nové skupinové zprávy z pro  {{ .ChannelName}} z {{.Month}} {{.Day}}, {{.Year}}"
+    "translation": "[{{.SiteName}}] Nová skupinová zpráva v {{ .ChannelName}} z {{.Month}} {{.Day}}, {{.Year}}"
   },
   {
     "id": "app.notification.subject.direct.full",
@@ -1405,7 +1405,7 @@
   },
   {
     "id": "app.notification.body.intro.direct.full",
-    "translation": "Máte novou zprávu"
+    "translation": "Máte novou přímou zprávu."
   },
   {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
@@ -1417,7 +1417,7 @@
   },
   {
     "id": "app.import.validate_user_teams_import_data.invalid_roles.error",
-    "translation": "Neplatné role pro uživatelovu příslušnost do týmu"
+    "translation": "Neplatné role pro uživatelovu příslušnost do týmu."
   },
   {
     "id": "app.import.validate_user_import_data.username_missing.error",
@@ -1425,7 +1425,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.username_invalid.error",
-    "translation": "Uživatelské jméno není platné"
+    "translation": "Uživatelské jméno není platné."
   },
   {
     "id": "app.import.validate_user_import_data.roles_invalid.error",
@@ -1545,7 +1545,7 @@
   },
   {
     "id": "app.import.validate_team_import_data.scheme_invalid.error",
-    "translation": "Špatný název schéma pro tým"
+    "translation": "Špatný název schéma pro team."
   },
   {
     "id": "app.import.validate_team_import_data.name_reserved.error",
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "app.import.validate_reply_import_data.message_missing.error",
-    "translation": "Chybějící požadovaná vlastnost příspěvku: Zpráva"
+    "translation": "Chybějící požadovaná položka Reply: Message."
   },
   {
     "id": "app.import.validate_reply_import_data.message_length.error",
@@ -1841,43 +1841,43 @@
   },
   {
     "id": "app.channel.create_direct_channel.internal_error",
-    "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
+    "translation": "Nepodařilo se aktualizovat kanál."
   },
   {
     "id": "app.channel.create_channel.no_team_id.app_error",
-    "translation": "Musíte zadat ID týmu pro vytvoření kanálu"
+    "translation": "Musíte zadat ID týmu pro vytvoření kanálu."
   },
   {
     "id": "app.channel.create_channel.internal_error",
-    "translation": "Nepodařilo se aktualizovat záhlaví přímého kanálu"
+    "translation": "Nepodařilo se uložit kanál."
   },
   {
     "id": "app.bot.permenent_delete.bad_id",
-    "translation": "Chyba při mazání příspěvku"
+    "translation": "Chyba při mazání účtu bota."
   },
   {
     "id": "app.bot.patchbot.internal_error",
-    "translation": "Nepodařilo se získat příspěvek"
+    "translation": "Nepodařilo se aktualizovat bota."
   },
   {
     "id": "app.bot.getbots.internal_error",
-    "translation": "Nepodařilo se získat příspěvek"
+    "translation": "Nepodařilo se získat seznam botů."
   },
   {
     "id": "app.bot.getbot.internal_error",
-    "translation": "Nepodařilo se získat příspěvek"
+    "translation": "Nepodařilo se získat bota."
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které byly nyní též zneplatněny.\n\n{{.BotNames}}{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, které byly nyní též zneplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Můžeš převzít vlastnictví každého robota tím, že to povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které jsou stále zplatněny.\n\n{{.BotNames}}\n{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů,  , které jsou stále zplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Silně doporučujeme převzít vlastiství nad těmito roboty tím, že je povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nPokud chceš, aby se účty robotů automaticky zneplatniIy po zneplatnění uživatele, nastav na hodnotu \"pravda\" položku \"Zneplatnit účty robotů po zneplatnění uživatele\" v nabídce **Konzola Systému > Integrace > Účty robotů**.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které byly nyní též zneplatněny.\n\n{{.BotNames}}{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, které byly nyní též zneplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Můžeš převzít vlastnictví každého robota tím, že to povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které jsou stále zplatněny.\n\n{{.BotNames}}\n{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, , které jsou stále zplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Silně doporučujeme převzít vlastiství nad těmito roboty tím, že je povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nPokud chceš, aby se účty robotů automaticky zneplatniIy po zneplatnění uživatele, nastav na hodnotu \"pravda\" položku \"Zneplatnit účty robotů po zneplatnění uživatele\" v nabídce **Konzola Systému > Integrace > Účty robotů**.{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
-    "translation": "Nepodařilo se získat příspěvek"
+    "translation": "Nepodařilo se uložit bota."
   },
   {
     "id": "app.admin.test_site_url.failure",
-    "translation": "Toto není platná URL adresa."
+    "translation": "Toto není platná URL adresa"
   },
   {
     "id": "app.admin.test_email.failure",
@@ -1901,7 +1901,7 @@
   },
   {
     "id": "api.websocket_handler.invalid_param.app_error",
-    "translation": "Nevalidní {{.Name}} parametr"
+    "translation": "Nevalidní {{.Name}} parametr."
   },
   {
     "id": "api.webhook.update_outgoing.intersect.app_error",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "api.webhook.team_mismatch.app_error",
-    "translation": "Nepovedlo se aktualizovat webhooky napříč teamy"
+    "translation": "Nepovedlo se aktualizovat webhooky napříč teamy."
   },
   {
     "id": "api.webhook.incoming.error",
@@ -1917,7 +1917,7 @@
   },
   {
     "id": "api.webhook.create_outgoing.triggers.app_error",
-    "translation": "Musí být nastaven buď trigger_words nebo channel_id"
+    "translation": "Musí být nastaven buď trigger_words nebo channel_id."
   },
   {
     "id": "api.webhook.create_outgoing.permissions.app_error",
@@ -1945,15 +1945,15 @@
   },
   {
     "id": "api.web_socket_router.bad_action.app_error",
-    "translation": "Neznámá akce websocketu"
+    "translation": "Neznámá akce websocketu."
   },
   {
     "id": "api.web_socket.connect.upgrade.app_error",
-    "translation": "Nelze aktualizovat připojení přes websocket"
+    "translation": "Nelze aktualizovat připojení přes websocket."
   },
   {
     "id": "api.user.verify_email.token_parse.error",
-    "translation": "Nepodařilo se spracovat token z emailové verifikace."
+    "translation": "Nepodařilo se spracovat token z emailové verifikace"
   },
   {
     "id": "api.user.verify_email.link_expired.app_error",
@@ -1961,7 +1961,7 @@
   },
   {
     "id": "api.user.verify_email.broken_token.app_error",
-    "translation": "Neúspěšná verifikace tokenu z e-mailu"
+    "translation": "Neúspěšná verifikace tokenu z e-mailu."
   },
   {
     "id": "api.user.verify_email.bad_link.app_error",
@@ -1969,7 +1969,7 @@
   },
   {
     "id": "api.user.upload_profile_user.upload_profile.app_error",
-    "translation": "Nelze nahrát profilový obrázek"
+    "translation": "Nelze nahrát profilový obrázek."
   },
   {
     "id": "api.user.upload_profile_user.too_large.app_error",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "api.user.upload_profile_user.parse.app_error",
-    "translation": "Nelze zpracovat vícedílné formuláře"
+    "translation": "Nelze zpracovat vícedílné formuláře."
   },
   {
     "id": "api.user.upload_profile_user.open.app_error",
@@ -2181,7 +2181,7 @@
   },
   {
     "id": "model.config.is_valid.file_driver.app_error",
-    "translation": "Neplatný název ovladače. Musí být 'local' nebo 'amazons3'"
+    "translation": "Neplatný název ovladače. Musí být 'local' nebo 'amazons3'."
   },
   {
     "id": "model.config.is_valid.encrypt_sql.app_error",
@@ -2189,7 +2189,7 @@
   },
   {
     "id": "model.config.is_valid.email_security.app_error",
-    "translation": "Neplatné zabezpečení připojení pro nastavení e-mailu. Musí být  'TLS' nebo 'STARTTLS'"
+    "translation": "Neplatné zabezpečení připojení pro nastavení e-mailu. Musí být 'TLS' nebo 'STARTTLS'."
   },
   {
     "id": "model.config.is_valid.email_notification_contents_type.app_error",
@@ -2205,19 +2205,19 @@
   },
   {
     "id": "model.config.is_valid.elastic_search.posts_aggregator_job_start_time.app_error",
-    "translation": "Elasticsearch PostsAggregatorJobStartTime musí být časový údaj ve formátu \"hh:mm\""
+    "translation": "Elasticsearch PostsAggregatorJobStartTime musí být časový údaj ve formátu \"hh:mm\"."
   },
   {
     "id": "model.config.is_valid.elastic_search.live_indexing_batch_size.app_error",
-    "translation": "Elasticsearch Live Indexing Batch Size musí být nastaven minimálně na 1"
+    "translation": "Elasticsearch Live Indexing Batch Size musí být nastaveno minimálně na 1."
   },
   {
     "id": "model.config.is_valid.elastic_search.enable_searching.app_error",
-    "translation": "Elasticsearch IndexingEnabled musí být nastaven na \"true\" když je Elastic Search SearchEnabled nastaven na \"true\"."
+    "translation": "Nastavení indexace pro Elasticsearch musí být povoleno pokud hodnota Elasticsearch EnableSearching je také povolena"
   },
   {
     "id": "model.config.is_valid.elastic_search.enable_autocomplete.app_error",
-    "translation": "Nastavení Elasticsearch IndexingEnagled musí být nastaveno na \"true\" když je Elastic Search AutocompleteEnabled nastaven na \"true\"."
+    "translation": "Nastavení indexace pro Elasticsearch musí být povoleno pokud hodnota Elasticsearch EnableAutocomplete je také povolena"
   },
   {
     "id": "model.config.is_valid.elastic_search.connection_url.app_error",
@@ -2229,7 +2229,7 @@
   },
   {
     "id": "model.config.is_valid.elastic_search.aggregate_posts_after_days.app_error",
-    "translation": "Elasticsearch AggregatePostsAfterDays musí být číslo větší nebo rovno 1"
+    "translation": "Elasticsearch AggregatePostsAfterDays musí být číslo větší nebo rovno 1."
   },
   {
     "id": "model.config.is_valid.display.custom_url_schemes.app_error",
@@ -2253,11 +2253,11 @@
   },
   {
     "id": "model.config.is_valid.bleve_search.enable_searching.app_error",
-    "translation": "Elasticsearch IndexingEnabled musí být nastaven na \"true\" když je Elastic Search SearchEnabled nastaven na \"true\"."
+    "translation": "Elasticsearch IndexingEnabled musí být nastaven na \"true\" když je Elastic Search SearchEnabled nastaven na \"true\""
   },
   {
     "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
-    "translation": "Nastavení Elasticsearch IndexingEnagled musí být nastaveno na \"true\" když je Elastic Search AutocompleteEnabled nastaven na \"true\"."
+    "translation": "Nastavení indexace pro Bleve musí být povoleno pokud hodnota Bleve EnableAutocomplete je také povolena"
   },
   {
     "id": "model.config.is_valid.bleve_search.bulk_indexing_time_window_seconds.app_error",
@@ -2277,19 +2277,19 @@
   },
   {
     "id": "model.compliance.is_valid.start_end_at.app_error",
-    "translation": "Do musí být větší než Z"
+    "translation": "Do musí být větší než Od."
   },
   {
     "id": "model.compliance.is_valid.start_at.app_error",
-    "translation": "Od musí být platný časový údaj"
+    "translation": "Od musí být platný časový údaj."
   },
   {
     "id": "model.compliance.is_valid.id.app_error",
-    "translation": "Nevalidní Id"
+    "translation": "Nevalidní Id."
   },
   {
     "id": "model.compliance.is_valid.end_at.app_error",
-    "translation": "Musí to být platný čas"
+    "translation": "Do musí být platný časový údaj."
   },
   {
     "id": "model.compliance.is_valid.desc.app_error",
@@ -2297,75 +2297,75 @@
   },
   {
     "id": "model.compliance.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.command_hook.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.command_hook.root_id.app_error",
-    "translation": "Neplatné ID roota"
+    "translation": "Neplatné ID roota."
   },
   {
     "id": "model.command_hook.parent_id.app_error",
-    "translation": "Neplatné ID nadřazeného prvku"
+    "translation": "Neplatné ID nadřazeného prvku."
   },
   {
     "id": "model.command_hook.id.app_error",
-    "translation": "Neplatný command hook ID"
+    "translation": "Neplatný command hook ID."
   },
   {
     "id": "model.command_hook.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.command_hook.command_id.app_error",
-    "translation": "Neplatné ID příkazu"
+    "translation": "Neplatné ID příkazu."
   },
   {
     "id": "model.command_hook.channel_id.app_error",
-    "translation": "Neplatné id kanálu"
+    "translation": "Neplatné id kanálu."
   },
   {
     "id": "model.command.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.command.is_valid.url_http.app_error",
-    "translation": "Neplatné URL. URL webu musí být platná adresa a musí začínat http:// nebo https://"
+    "translation": "Neplatné URL. Musí to být platná adresa a začínat http:// nebo https://."
   },
   {
     "id": "model.command.is_valid.url.app_error",
-    "translation": "Neplatné URL"
+    "translation": "Neplatné URL."
   },
   {
     "id": "model.command.is_valid.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.command.is_valid.trigger.app_error",
-    "translation": "Chybný spouštěč"
+    "translation": "Chybný spouštěč."
   },
   {
     "id": "model.command.is_valid.token.app_error",
-    "translation": "Neplatný motiv"
+    "translation": "Neplatný token."
   },
   {
     "id": "model.command.is_valid.team_id.app_error",
-    "translation": "Neplatné ID týmu"
+    "translation": "Neplatné ID týmu."
   },
   {
     "id": "model.command.is_valid.method.app_error",
-    "translation": "Neplatná metoda"
+    "translation": "Neplatná metoda."
   },
   {
     "id": "model.command.is_valid.id.app_error",
-    "translation": "Nevalidní Id"
+    "translation": "Nevalidní Id."
   },
   {
     "id": "model.command.is_valid.display_name.app_error",
-    "translation": "Neplatný název"
+    "translation": "Neplatný název."
   },
   {
     "id": "model.command.is_valid.description.app_error",
@@ -2373,43 +2373,43 @@
   },
   {
     "id": "model.command.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.cluster.is_valid.type.app_error",
-    "translation": "Type musí být nastaven"
+    "translation": "Type musí být nastaveno."
   },
   {
     "id": "model.cluster.is_valid.name.app_error",
-    "translation": "ClusterName must be set"
+    "translation": "ClusterName musí být nastaveno."
   },
   {
     "id": "model.cluster.is_valid.last_ping_at.app_error",
-    "translation": "LastPingAt musí být nastaven"
+    "translation": "LastPingAt musí být nastaveno."
   },
   {
     "id": "model.cluster.is_valid.id.app_error",
-    "translation": "Nevalidní Id"
+    "translation": "Nevalidní Id."
   },
   {
     "id": "model.cluster.is_valid.hostname.app_error",
-    "translation": "Hostname mustí být nastaveno"
+    "translation": "Hostname musí být nastaveno."
   },
   {
     "id": "model.cluster.is_valid.create_at.app_error",
-    "translation": "CreateAt musí být nastaveno"
+    "translation": "CreateAt musí být nastaveno."
   },
   {
     "id": "model.channel_member.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.channel_member.is_valid.unread_level.app_error",
-    "translation": "Neplatná značka nepřečtené úrovně"
+    "translation": "Neplatná úroveň pro označení nepřečtených."
   },
   {
     "id": "model.channel_member.is_valid.push_level.app_error",
-    "translation": "Neplatná úroveň upozornění push"
+    "translation": "Neplatná úroveň notifikací."
   },
   {
     "id": "model.channel_member.is_valid.notify_level.app_error",
@@ -2417,27 +2417,27 @@
   },
   {
     "id": "model.channel_member.is_valid.ignore_channel_mentions_value.app_error",
-    "translation": "Neplatný stav ignorování kanálu"
+    "translation": "Neplatný stav ignorování zmínek v kanálu."
   },
   {
     "id": "model.channel_member.is_valid.email_value.app_error",
-    "translation": "Neplatná hodnota e-mailové zprávy"
+    "translation": "Neplatná hodnota e-mailu."
   },
   {
     "id": "model.channel_member.is_valid.channel_id.app_error",
-    "translation": "Neplatné id kanálu"
+    "translation": "Neplatné id kanálu."
   },
   {
     "id": "model.channel.is_valid.update_at.app_error",
-    "translation": "Čas aktualizace musí být platný časový údaj"
+    "translation": "Čas aktualizace musí být platný časový údaj."
   },
   {
     "id": "model.channel.is_valid.type.app_error",
-    "translation": "Neplatný typ"
+    "translation": "Neplatný typ."
   },
   {
     "id": "model.channel.is_valid.purpose.app_error",
-    "translation": "Neplatný účel"
+    "translation": "Neplatný účel."
   },
   {
     "id": "model.channel.is_valid.name.app_error",
@@ -2445,39 +2445,39 @@
   },
   {
     "id": "model.channel.is_valid.id.app_error",
-    "translation": "Nevalidní Id"
+    "translation": "Nevalidní Id."
   },
   {
     "id": "model.channel.is_valid.header.app_error",
-    "translation": "Neplatná hlavička"
+    "translation": "Neplatná hlavička."
   },
   {
     "id": "model.channel.is_valid.display_name.app_error",
-    "translation": "Neplatné zobrazované jméno"
+    "translation": "Neplatné zobrazované jméno."
   },
   {
     "id": "model.channel.is_valid.creator_id.app_error",
-    "translation": "Neplatné ID autora"
+    "translation": "Neplatné ID autora."
   },
   {
     "id": "model.channel.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "Název musí obsahovat 2 nebo více malých alfanumerických znaků"
+    "translation": "Název musí obsahovat 2 nebo více malých alfanumerických znaků."
   },
   {
     "id": "model.bot.is_valid.username.app_error",
-    "translation": "Neplatné uživatelské jméno"
+    "translation": "Neplatné uživatelské jméno."
   },
   {
     "id": "model.bot.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.bot.is_valid.update_at.app_error",
-    "translation": "Neplatný datum aktualizace"
+    "translation": "Neplatné datum aktualizace."
   },
   {
     "id": "model.bot.is_valid.description.app_error",
@@ -2485,67 +2485,67 @@
   },
   {
     "id": "model.bot.is_valid.creator_id.app_error",
-    "translation": "Neplatné ID autora"
+    "translation": "Neplatné ID autora."
   },
   {
     "id": "model.bot.is_valid.create_at.app_error",
-    "translation": "Neplatný create at"
+    "translation": "Neplatné create at."
   },
   {
     "id": "model.authorize.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.authorize.is_valid.state.app_error",
-    "translation": "Neplatný stav"
+    "translation": "Neplatný stav."
   },
   {
     "id": "model.authorize.is_valid.scope.app_error",
-    "translation": "Neplatný rozsah"
+    "translation": "Neplatný rozsah."
   },
   {
     "id": "model.authorize.is_valid.response_type.app_error",
-    "translation": "Neplatný typ odpovědi"
+    "translation": "Neplatný typ odpovědi."
   },
   {
     "id": "model.authorize.is_valid.redirect_uri.app_error",
-    "translation": "Neplatné URL přesměrování"
+    "translation": "Neplatné URL přesměrování."
   },
   {
     "id": "model.authorize.is_valid.expires.app_error",
-    "translation": "Expirace musí být nastavena"
+    "translation": "Expirace musí být nastavena."
   },
   {
     "id": "model.authorize.is_valid.create_at.app_error",
-    "translation": "Čas vytvoření musí být platný časový údaj"
+    "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
     "id": "model.authorize.is_valid.client_id.app_error",
-    "translation": "Neplatné ID klienta"
+    "translation": "Neplatné ID klienta."
   },
   {
     "id": "model.authorize.is_valid.auth_code.app_error",
-    "translation": "Neplatný autorizační kód"
+    "translation": "Neplatný autorizační kód."
   },
   {
     "id": "model.access.is_valid.user_id.app_error",
-    "translation": "Neplatné uživatelské id"
+    "translation": "Neplatné uživatelské id."
   },
   {
     "id": "model.access.is_valid.refresh_token.app_error",
-    "translation": "Neplatný token obnovení"
+    "translation": "Neplatný token obnovení."
   },
   {
     "id": "model.access.is_valid.redirect_uri.app_error",
-    "translation": "Neplatné URL přesměrování"
+    "translation": "Neplatné URL přesměrování."
   },
   {
     "id": "model.access.is_valid.client_id.app_error",
-    "translation": "Neplatné ID klienta"
+    "translation": "Neplatné ID klienta."
   },
   {
     "id": "model.access.is_valid.access_token.app_error",
-    "translation": "Neplatný přístupový token"
+    "translation": "Neplatný přístupový token."
   },
   {
     "id": "migrations.worker.run_migration.unknown_key",
@@ -2565,19 +2565,19 @@
   },
   {
     "id": "mfa.generate_qr_code.save_secret.app_error",
-    "translation": "Chyba při ukládání MFA secret"
+    "translation": "Chyba při ukládání VFA tajemství."
   },
   {
     "id": "mfa.generate_qr_code.create_code.app_error",
-    "translation": "Chyba při generování QR kódu!"
+    "translation": "Chyba při generování QR kódu."
   },
   {
     "id": "mfa.deactivate.save_secret.app_error",
-    "translation": "Chyba při mazání MFA secret"
+    "translation": "Chyba při mazání VFA tajemství."
   },
   {
     "id": "mfa.deactivate.save_active.app_error",
-    "translation": "Nelze aktualizovat stav MFA uživatele"
+    "translation": "Nelze aktualizovat stav VFA uživatele."
   },
   {
     "id": "mfa.activate.save_active.app_error",
@@ -2593,15 +2593,15 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost Security Bulletin"
+    "translation": "Bezpečnostní zpravodaj Mattermostu"
   },
   {
     "id": "manaultesting.test_autolink.unable.app_error",
-    "translation": "Nepodařilo se načíst kanály"
+    "translation": "Nepodařilo se načíst kanály."
   },
   {
     "id": "manaultesting.manual_test.parse.app_error",
-    "translation": "Nelze zpracovat URL"
+    "translation": "Nelze zpracovat URL."
   },
   {
     "id": "jobs.set_job_error.update.error",
@@ -2665,7 +2665,7 @@
   },
   {
     "id": "ent.saml.do_login.empty_response.app_error",
-    "translation": "Od Identity Providera jsme obdrželi prázdnou odpověď"
+    "translation": "Od Identity Providera jsme obdrželi prázdnou odpověď."
   },
   {
     "id": "ent.saml.do_login.decrypt.app_error",
@@ -2713,7 +2713,7 @@
   },
   {
     "id": "ent.migration.migratetoldap.user_not_found",
-    "translation": "Nepodařilo se najít uživatele na AD/LDAP serveru:"
+    "translation": "Nepodařilo se najít uživatele na AD/LDAP serveru: "
   },
   {
     "id": "ent.migration.migratetoldap.duplicate_field",
@@ -2721,15 +2721,15 @@
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.unable_to_open_zip_file_data.app_error",
-    "translation": "Nelze otevřít dočasný soubor exportu"
+    "translation": "Nelze otevřít dočasný soubor exportu."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.unable_to_open_email_file.app_error",
-    "translation": "Nelze získat e-mail z dočasného souboru"
+    "translation": "Nelze získat e-mail z dočasného souboru."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.unable_to_get_file_info.app_error",
-    "translation": "Nezdařilo se získat informace o dočasném souboru pro export"
+    "translation": "Nezdařilo se získat informace o dočasném souboru pro export."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.to_address.app_error",
@@ -2793,15 +2793,15 @@
   },
   {
     "id": "ent.ldap.validate_guest_filter.app_error",
-    "translation": "Neplatný AD/LDAP filter na hosty"
+    "translation": "Neplatný AD/LDAP filter na návštěvníky."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
-    "translation": "Neplatný AD/LDAP filter"
+    "translation": "Neplatný AD/LDAP filter."
   },
   {
     "id": "ent.ldap.validate_admin_filter.app_error",
-    "translation": "Neplatný AD/LDAP filter na správce"
+    "translation": "Neplatný AD/LDAP filtr na správce."
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
@@ -2817,11 +2817,11 @@
   },
   {
     "id": "ent.ldap.syncronize.get_all_groups.app_error",
-    "translation": "chyba při načítání ldap skupin"
+    "translation": "chyba při načítání ldap skupin."
   },
   {
     "id": "ent.ldap.syncronize.get_all.app_error",
-    "translation": "Nelze získat všechny uživatele pomocí AD/LDAP"
+    "translation": "Nelze získat všechny uživatele pomocí AD/LDAP."
   },
   {
     "id": "ent.ldap.syncronize.delete_group_constained_memberships",
@@ -2829,7 +2829,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
-    "translation": "Uživatel není registrován na AD/LDAP serveru"
+    "translation": "Uživatel není registrován na AD/LDAP serveru."
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
@@ -2837,15 +2837,15 @@
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
-    "translation": "Nelze se spojit se serverem AD/LDAP"
+    "translation": "Nelze se spojit se serverem AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.search_ldap_server.app_error",
-    "translation": "Nepodařilo se prohledat AD/LDAP server"
+    "translation": "Nepodařilo se prohledat AD/LDAP server."
   },
   {
     "id": "ent.ldap.do_login.matched_to_many_users.app_error",
-    "translation": "Rovnaké uživatelské jméno má vícero uživatelů"
+    "translation": "Dané uživatelské jméno má vícero uživatelů."
   },
   {
     "id": "ent.ldap.do_login.licence_disable.app_error",
@@ -2853,7 +2853,7 @@
   },
   {
     "id": "ent.ldap.do_login.invalid_password.app_error",
-    "translation": "Neplatné heslo"
+    "translation": "Neplatné heslo."
   },
   {
     "id": "ent.ldap.do_login.bind_admin_user.app_error",
@@ -2869,7 +2869,7 @@
   },
   {
     "id": "ent.ldap.app_error",
-    "translation": "ldap interface byl prázdný"
+    "translation": "ldap interface byl prázdný."
   },
   {
     "id": "ent.id_loaded.license_disable.app_error",
@@ -2893,19 +2893,19 @@
   },
   {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
-    "translation": "Elasticsearch je už zastaven"
+    "translation": "Elasticsearch je už zastaven."
   },
   {
     "id": "ent.elasticsearch.start.start_bulk_processor_failed.app_error",
-    "translation": "Nepodařilo se spustit Elasticsearch dávkový procesor"
+    "translation": "Nepodařilo se spustit Elasticsearch dávkový procesor."
   },
   {
     "id": "ent.elasticsearch.start.parse_server_version.app_error",
-    "translation": "Nepodařilo se zpracovat verzi Elastic Search serveru"
+    "translation": "Nepodařilo se zpracovat verzi Elasticsearch serveru."
   },
   {
     "id": "ent.elasticsearch.start.get_server_version.app_error",
-    "translation": "Nepodařilo se získat verzi Elastic Search serveru"
+    "translation": "Nepodařilo se získat verzi Elasticsearch serveru."
   },
   {
     "id": "api.user.login_by_oauth.bot_login_forbidden.app_error",
@@ -3073,7 +3073,7 @@
   },
   {
     "id": "api.user.authorize_oauth_user.unsupported.app_error",
-    "translation": "Nepodporovaný poskytovatel služby OAuth."
+    "translation": "{{.Service}} SSO skrze OAuth 2.0 není dostupné na tomto serveru."
   },
   {
     "id": "api.user.authorize_oauth_user.token_failed.app_error",
@@ -3749,7 +3749,7 @@
   },
   {
     "id": "api.plugin.verify_plugin.app_error",
-    "translation": "Nelze ověřit podpis pluginu."
+    "translation": "Nelze ověřit podpis zásuvného modulu."
   },
   {
     "id": "api.plugin.upload.no_file.app_error",
@@ -3765,7 +3765,7 @@
   },
   {
     "id": "api.plugin.install.download_failed.app_error",
-    "translation": "Při stahování pluginu nastala chyba."
+    "translation": "Při stahování zásuvného modulu nastala chyba."
   },
   {
     "id": "model.config.is_valid.message_export.export_from.app_error",
@@ -3773,7 +3773,7 @@
   },
   {
     "id": "model.config.is_valid.message_export.enable.app_error",
-    "translation": "Nastavení Úlohy exportu zprávy EnableExport musí být \"true\"nebo \"false\""
+    "translation": "Nastavení Úlohy exportu zprávy EnableExport musí být \"true\"nebo \"false\"."
   },
   {
     "id": "model.config.is_valid.message_export.daily_runtime.app_error",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "model.config.is_valid.message_export.batch_size.app_error",
-    "translation": "Parametr exportu zpráv BatchSize musí být kladné celé číslo"
+    "translation": "Parametr exportu zpráv BatchSize musí být kladné celé číslo."
   },
   {
     "id": "model.config.is_valid.max_users.app_error",
@@ -3825,7 +3825,7 @@
   },
   {
     "id": "model.config.is_valid.ldap_security.app_error",
-    "translation": "Neplatné nastavení zabezpečeného připojení AD/LDAP. Musí být '', 'TLS' nebo 'STARTTLS'"
+    "translation": "Neplatné nastavení zabezpečeného připojení AD/LDAP. Musí být '', 'TLS' nebo 'STARTTLS'."
   },
   {
     "id": "model.config.is_valid.ldap_max_page_size.app_error",
@@ -3861,11 +3861,11 @@
   },
   {
     "id": "app.import.validate_emoji_import_data.name_missing.error",
-    "translation": "Název importovaného smajlíku chybí nebo je prázdný. "
+    "translation": "Položka name importovaného smajlíku chybí nebo je prázdná."
   },
   {
     "id": "app.import.validate_emoji_import_data.image_missing.error",
-    "translation": "Importovaný smajlík chybí nebo je prázdný. "
+    "translation": "Importovaný smajlík chybí nebo je prázdný."
   },
   {
     "id": "app.import.validate_emoji_import_data.empty.error",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "app.import.validate_direct_post_import_data.unknown_flagger.error",
-    "translation": "Přímý příspěvek může být označen pouze členy tohoto kanálu. \"{{.Username}}\" není členem. "
+    "translation": "Přímý příspěvek může být označen pouze členy tohoto kanálu. \"{{.Username}}\" není členem."
   },
   {
     "id": "app.import.validate_direct_post_import_data.message_missing.error",
@@ -3885,7 +3885,7 @@
   },
   {
     "id": "app.import.validate_direct_post_import_data.message_length.error",
-    "translation": "Zpráva je příliš dlouhá!"
+    "translation": "Zpráva je příliš dlouhá"
   },
   {
     "id": "app.import.validate_direct_post_import_data.create_at_zero.error",
@@ -3909,7 +3909,7 @@
   },
   {
     "id": "app.import.validate_direct_channel_import_data.unknown_favoriter.error",
-    "translation": "Přímý kanál může být oblíbený pouze členy. \"{{.Username}}\" není členem. "
+    "translation": "Přímý kanál může být zařazen mezi oblíbené pouze jeho členy. \"{{.Username}}\" není členem."
   },
   {
     "id": "app.import.validate_direct_channel_import_data.members_too_many.error",
@@ -3937,11 +3937,11 @@
   },
   {
     "id": "app.import.validate_channel_import_data.team_missing.error",
-    "translation": "Chybí požadovaná vlastnost kanálu: tým."
+    "translation": "Chybí požadovaná položka kanálu: team."
   },
   {
     "id": "app.import.validate_channel_import_data.scheme_invalid.error",
-    "translation": "Špatné schéma názvu kanálu"
+    "translation": "Špatný název schéma pro kanál."
   },
   {
     "id": "app.import.validate_channel_import_data.purpose_length.error",
@@ -3953,7 +3953,7 @@
   },
   {
     "id": "app.import.validate_channel_import_data.name_length.error",
-    "translation": "Název kanálu je příliš dlouhý"
+    "translation": "Název kanálu je příliš dlouhý."
   },
   {
     "id": "app.import.validate_channel_import_data.name_characters.error",
@@ -5741,7 +5741,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "Získejte vylepšenou edici Mattermost Enterprise"
+    "translation": "Škalování Mattermostu"
   },
   {
     "id": "api.server.warn_metric.email_us",
@@ -5849,7 +5849,7 @@
   },
   {
     "id": "model.group.name.invalid_length.app_error",
-    "translation": "Název musí obsahovat 1 až 64 malých alfanumerických znaků"
+    "translation": "Název musí obsahovat 1 až 64 malých alfanumerických znaků."
   },
   {
     "id": "web.error.unsupported_browser.system_browser_or",
@@ -5926,5 +5926,1417 @@
   {
     "id": "api.admin.add_certificate.parseform.app_error",
     "translation": "Chyba při rozboru multipart požadavku"
+  },
+  {
+    "id": "app.system.warn_metric.bot_displayname",
+    "translation": "Rádce Mattermost"
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_make_default",
+    "translation": "Učinit výchozí"
+  },
+  {
+    "id": "web.error.unsupported_browser.open_system_browser.edge",
+    "translation": "Open Edge"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.windows",
+    "translation": "Windows 7+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.mac",
+    "translation": "macOS 10.9+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.safari",
+    "translation": "Verze 12+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.firefox",
+    "translation": "Verze 60+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.edge",
+    "translation": "Verze 44+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.chrome",
+    "translation": "Verze 61+"
+  },
+  {
+    "id": "web.error.unsupported_browser.install_guide.mac",
+    "translation": "Instalační příručka"
+  },
+  {
+    "id": "web.error.unsupported_browser.install_guide.windows",
+    "translation": "Instalační příručka"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.edge",
+    "translation": "Microsoft Edge"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.chrome",
+    "translation": "Google Chrome"
+  },
+  {
+    "id": "model.command.is_valid.autocomplete_data.app_error",
+    "translation": "Nevalidní AutocompleteData"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.safari",
+    "translation": "Safari"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.firefox",
+    "translation": "Firefox"
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_channel.app_error",
+    "translation": "Nepodařilo se získat webhooky."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_team.app_error",
+    "translation": "Nepodařilo se získat webhooky."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_channel.app_error",
+    "translation": "Nepodařilo se získat webhooky."
+  },
+  {
+    "id": "app.webhooks.get_outgoing.app_error",
+    "translation": "Nepodařilo se získat webhook."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_user.app_error",
+    "translation": "Nepodařilo se získat webhook."
+  },
+  {
+    "id": "app.webhooks.get_incoming.app_error",
+    "translation": "Nepodařilo se získat webhook."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_user.app_error",
+    "translation": "Nepodařilo se smazat webhook."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_channel.app_error",
+    "translation": "Nepodařilo se smazat webhook."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_user.app_error",
+    "translation": "Nepodařilo se smazat webhook."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_channel.app_error",
+    "translation": "Nepodařilo se smazat webhook."
+  },
+  {
+    "id": "app.webhooks.delete_outgoing.app_error",
+    "translation": "Nepodařilo se smazat webhook."
+  },
+  {
+    "id": "app.webhooks.delete_incoming.app_error",
+    "translation": "Nepodařilo se smazat webhook."
+  },
+  {
+    "id": "app.system.warn_metric.notification.empty_admin_list.app_error",
+    "translation": "Seznam správců je prázdný."
+  },
+  {
+    "id": "app.oauth.save_app.save.app_error",
+    "translation": "Nepodařilo se uložit aplikaci."
+  },
+  {
+    "id": "app.command_webhook.try_use.internal_error",
+    "translation": "Nepodařilo se použít webhook."
+  },
+  {
+    "id": "app.command_webhook.get.missing",
+    "translation": "Nepodařilo se najít webhook."
+  },
+  {
+    "id": "app.command_webhook.get.internal_error",
+    "translation": "Nepodařilo se získat webhook."
+  },
+  {
+    "id": "app.command_webhook.create_command_webhook.internal_error",
+    "translation": "Nepodařilo se uložit CommandWebhook."
+  },
+  {
+    "id": "app.session.save.existing.app_error",
+    "translation": "Nepodařilo se aktualizovat stávající sezení."
+  },
+  {
+    "id": "app.session.save.app_error",
+    "translation": "Nepodařilo se uložit sezení."
+  },
+  {
+    "id": "app.session.remove.app_error",
+    "translation": "Nepodařilo se odstranit sezení."
+  },
+  {
+    "id": "app.session.analytics_session_count.app_error",
+    "translation": "Nepodařilo se spočítat sezení."
+  },
+  {
+    "id": "app.command.updatecommand.internal_error",
+    "translation": "Nepodařilo se aktualizovat příkaz."
+  },
+  {
+    "id": "app.command.movecommand.internal_error",
+    "translation": "Nepodařilo se přesunout příkaz."
+  },
+  {
+    "id": "app.command.listallcommands.internal_error",
+    "translation": "Nepodařilo se získat seznam příkazů."
+  },
+  {
+    "id": "app.command.deletecommand.internal_error",
+    "translation": "Nepodařilo se smazat příkaz."
+  },
+  {
+    "id": "app.command.createcommand.internal_error",
+    "translation": "Nepodařilo se uložit příkaz."
+  },
+  {
+    "id": "app.recover.save.app_error",
+    "translation": "Nepodařilo se uložit token."
+  },
+  {
+    "id": "web.error.unsupported_browser.learn_more",
+    "translation": "Zjistěte více o podporovaných prohlížečích."
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.safari",
+    "translation": "Použijte poslední verzi prohlížeče Safari"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.firefox",
+    "translation": "Použijte poslední verzi prohlížeče Firefox"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.chrome",
+    "translation": "Použijte poslední verzi prohlížeče Chrome"
+  },
+  {
+    "id": "model.group.description.app_error",
+    "translation": "nevalidní položka popisu skupiny."
+  },
+  {
+    "id": "model.config.is_valid.saml_spidentifier_attribute.app_error",
+    "translation": "Service Provider Identifier je vyžadován"
+  },
+  {
+    "id": "bleveengine.stop_user_index.error",
+    "translation": "Selhalo uzavření indexu uživatelů."
+  },
+  {
+    "id": "bleveengine.stop_post_index.error",
+    "translation": "Selhalo uzavření indexu příspěvků."
+  },
+  {
+    "id": "bleveengine.stop_channel_index.error",
+    "translation": "Selhalo uzavření indexu kanálů."
+  },
+  {
+    "id": "bleveengine.purge_user_index.error",
+    "translation": "Selhalo promazání indexu uživatelů."
+  },
+  {
+    "id": "bleveengine.purge_post_index.error",
+    "translation": "Selhalo promazání indexu příspěvků."
+  },
+  {
+    "id": "bleveengine.purge_channel_index.error",
+    "translation": "Selhalo promazání indexu kanálů."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.bulk_index_users.batch_error",
+    "translation": "Selhala indexace dávky uživatelů."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.bulk_index_posts.batch_error",
+    "translation": "Selhala indexace dávky příspěvků."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.bulk_index_channels.batch_error",
+    "translation": "Selhala indexace dávky kanálů."
+  },
+  {
+    "id": "bleveengine.delete_user_posts.error",
+    "translation": "Selhalo smazání příspěvků uživatele"
+  },
+  {
+    "id": "ent.elasticsearch.delete_user_posts.error",
+    "translation": "Selhalo smazání příspěvků uživatele"
+  },
+  {
+    "id": "ent.elasticsearch.delete_channel_posts.error",
+    "translation": "Selhalo smazání příspěvků v kanálu"
+  },
+  {
+    "id": "bleveengine.delete_channel_posts.error",
+    "translation": "Selhalo smazání příspěvků v kanálu"
+  },
+  {
+    "id": "app.terms_of_service.get.no_rows.app_error",
+    "translation": "Podmínky služby nebyly nalezeny."
+  },
+  {
+    "id": "app.user_terms_of_service.get_by_user.no_rows.app_error",
+    "translation": "Podmínky služby nebyly nalezeny."
+  },
+  {
+    "id": "app.scheme.save.invalid_scheme.app_error",
+    "translation": "Poskytnuté schéma není validní."
+  },
+  {
+    "id": "app.scheme.delete.app_error",
+    "translation": "Nemohu smazat toto schéma."
+  },
+  {
+    "id": "app.emoji.get.no_result",
+    "translation": "Nemohli jsme najít emoji."
+  },
+  {
+    "id": "app.emoji.get_by_name.no_result",
+    "translation": "Nemohli jsme najít emoji."
+  },
+  {
+    "id": "app.emoji.get.app_error",
+    "translation": "Nemohu získat emoji."
+  },
+  {
+    "id": "app.emoji.get_list.internal_error",
+    "translation": "Nemohu získat emoji."
+  },
+  {
+    "id": "app.emoji.get_by_name.app_error",
+    "translation": "Nemohu získat emoji."
+  },
+  {
+    "id": "app.channel.restore.app_error",
+    "translation": "Nemohu obnovit kanál."
+  },
+  {
+    "id": "app.channel.get_channels.get.app_error",
+    "translation": "Nemohu získat kanály."
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.get.app_error",
+    "translation": "Nemohu získat kanály."
+  },
+  {
+    "id": "app.channel.get_more_channels.get.app_error",
+    "translation": "Nemohu získat kanály."
+  },
+  {
+    "id": "app.channel.delete.app_error",
+    "translation": "Nemohu smazat kanál."
+  },
+  {
+    "id": "app.channel.permanent_delete.app_error",
+    "translation": "Nemohu smazat kanál."
+  },
+  {
+    "id": "app.post.get_posts.app_error",
+    "translation": "Byl překročen limit pro stránkování."
+  },
+  {
+    "id": "app.upload.create.save.app_error",
+    "translation": "Chyba při ukládání nahraného souboru."
+  },
+  {
+    "id": "ent.ldap.do_login.x509.app_error",
+    "translation": "Chyba při vytváření klíče"
+  },
+  {
+    "id": "app.role.get_by_names.app_error",
+    "translation": "Nemohu získat role."
+  },
+  {
+    "id": "app.role.get.app_error",
+    "translation": "Nemohu získat roli."
+  },
+  {
+    "id": "app.role.get_by_name.app_error",
+    "translation": "Nemohu získat roli."
+  },
+  {
+    "id": "app.system.warn_metric.notification.invalid_metric.app_error",
+    "translation": "Nemohu najít metriku."
+  },
+  {
+    "id": "store.sql_command.update.missing.app_error",
+    "translation": "Příkaz neexistuje."
+  },
+  {
+    "id": "store.sql_command.get.missing.app_error",
+    "translation": "Příkaz neexistuje."
+  },
+  {
+    "id": "app.user.permanentdeleteuser.internal_error",
+    "translation": "Nemohu smazat uživatele."
+  },
+  {
+    "id": "app.team.permanentdeleteteam.internal_error",
+    "translation": "Nemohu smazat tým."
+  },
+  {
+    "id": "app.recover.delete.app_error",
+    "translation": "Nemohu smazat token."
+  },
+  {
+    "id": "utils.mail.send_mail.to_address.app_error",
+    "translation": "Selhalo nastavení příjemce."
+  },
+  {
+    "id": "utils.mail.send_mail.from_address.app_error",
+    "translation": "Selhalo nastavení odesílatele"
+  },
+  {
+    "id": "model.link_metadata.is_valid.timestamp.app_error",
+    "translation": "Timestamp pro link metadata musí být nenulový a zaokrouhlen na nejbližší hodinu."
+  },
+  {
+    "id": "model.job.is_valid.status.app_error",
+    "translation": "Nevalidní status úkolu."
+  },
+  {
+    "id": "model.group_syncable.syncable_id.app_error",
+    "translation": "Nevalidní syncable id pro skupinové syncable."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.notification_title",
+    "translation": "Použití Advanced Permissions"
+  },
+  {
+    "id": "model.link_metadata.is_valid.url.app_error",
+    "translation": "Je nutné nastavit Link metadata URL."
+  },
+  {
+    "id": "plugin_api.send_mail.missing_to",
+    "translation": "Chybí adresa příjemce."
+  },
+  {
+    "id": "plugin_api.send_mail.missing_subject",
+    "translation": "Chybí předmět emailu."
+  },
+  {
+    "id": "plugin_api.send_mail.missing_htmlbody",
+    "translation": "Chybí HTML obsah."
+  },
+  {
+    "id": "plugin_api.bot_cant_create_bot",
+    "translation": "Bot účet nemůže založit jiný bot účet."
+  },
+  {
+    "id": "plugin.api.update_user_status.bad_status",
+    "translation": "Nelza nastavit stav uživatele. Neznámý stav."
+  },
+  {
+    "id": "plugin.api.get_users_in_channel",
+    "translation": "Nelze získat uživatele, chybná řídící kritéria."
+  },
+  {
+    "id": "model.plugin_key_value.is_valid.plugin_id.app_error",
+    "translation": "Chybné ID zásuvného modulu, musí být dlouhé minimálně {{.Min}} a maximálně {{.Max}} znaků."
+  },
+  {
+    "id": "model.plugin_command_error.error.app_error",
+    "translation": "Zásuvný modul pro /{{.Command}} nefunguje. Prosím kontaktujte správce"
+  },
+  {
+    "id": "model.plugin_command_crash.error.app_error",
+    "translation": "/{{.Command}} způsobil pád zásuvného modulu {{.PluginId}}. Prosím kontaktujte správce"
+  },
+  {
+    "id": "model.command.is_valid.plugin_id.app_error",
+    "translation": "Nevalidní id zásuvného modulu."
+  },
+  {
+    "id": "app.upload.run_plugins_hook.rejected",
+    "translation": "Nelza nahrát soubor {{.Filename}}. Odmítnuto zásuvným modulem: {{.Reason}}"
+  },
+  {
+    "id": "app.upload.run_plugins_hook.move_fail",
+    "translation": "Přesun souboru selhal."
+  },
+  {
+    "id": "app.plugin_store.save.app_error",
+    "translation": "Nelze uložit hodnotu klíče zásuvného modulu."
+  },
+  {
+    "id": "app.plugin_store.list.app_error",
+    "translation": "Nelze získat seznam klíčů zásuvného modulu."
+  },
+  {
+    "id": "app.plugin_store.delete.app_error",
+    "translation": "Nelze odstranit hodnotu klíče zásuvného modulu."
+  },
+  {
+    "id": "app.plugin_store.get.app_error",
+    "translation": "Nelze získat hodnotu klíče zásuvného modulu."
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.start_trial_notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Jděte do **Systémová konzole > Autentizace > Návštěvníci** a povolte návštěvnické účty."
+  },
+  {
+    "id": "api.context.local_origin_required.app_error",
+    "translation": "Tento endpoint vyžaduje lokální request origin."
+  },
+  {
+    "id": "api.config.get_config.restricted_merge.app_error",
+    "translation": "Selhalo sloučení dané konfigurace."
+  },
+  {
+    "id": "api.cloud.request_error",
+    "translation": "Chyba zpracování požadavku na CWS."
+  },
+  {
+    "id": "api.cloud.license_error",
+    "translation": "Vaše licence neumožňuje cloudové dotazy."
+  },
+  {
+    "id": "api.cloud.app_error",
+    "translation": "Interní chyba bězem požadavku na cloud api."
+  },
+  {
+    "id": "model.group_syncable.group_id.app_error",
+    "translation": "neplatná položka group id pro group syncable."
+  },
+  {
+    "id": "model.group.update_at.app_error",
+    "translation": "neplatná položka update at pro skupinu."
+  },
+  {
+    "id": "model.group.source.app_error",
+    "translation": "neplatná položka source pro skupinu."
+  },
+  {
+    "id": "model.group.remote_id.app_error",
+    "translation": "neplatná položka remote id pro skupinu."
+  },
+  {
+    "id": "model.group.name.invalid_chars.app_error",
+    "translation": "neplatná znaky v položce name pro skupinu"
+  },
+  {
+    "id": "model.group.name.app_error",
+    "translation": "neplatné name pro skupinu."
+  },
+  {
+    "id": "model.group_member.group_id.app_error",
+    "translation": "neplatné group id pro člena skupiny."
+  },
+  {
+    "id": "model.group_member.user_id.app_error",
+    "translation": "neplatné user id pro člena skupiny."
+  },
+  {
+    "id": "model.link_metadata.is_valid.data.app_error",
+    "translation": "Data pro link metadata nemohou být neuvedena (nil)."
+  },
+  {
+    "id": "model.link_metadata.is_valid.data_type.app_error",
+    "translation": "Data pro link metadata neodpovídají danému typu."
+  },
+  {
+    "id": "model.link_metadata.is_valid.type.app_error",
+    "translation": "Nevalidní typ pro link metadata."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.callback.app_error",
+    "translation": "Nevalidní callback URL."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.content_type.app_error",
+    "translation": "Neplatná hodnota pro content_type."
+  },
+  {
+    "id": "model.plugin_command.error.app_error",
+    "translation": "Při provádění tohoto příkazu nastala chyba."
+  },
+  {
+    "id": "model.plugin_key_value.is_valid.key.app_error",
+    "translation": "Chybný klíč, jeho délka musí být minimálně {{.Min}} a maximálně {{.Max}} znaků."
+  },
+  {
+    "id": "model.plugin_kvset_options.is_valid.old_value.app_error",
+    "translation": "Chybná původní hodnota, nesmí být zadána pokud není operace atomická."
+  },
+  {
+    "id": "model.post.channel_notifications_disabled_in_channel.message",
+    "translation": "Notifikace jsou zakázány pro kanál {{.ChannelName}}. Zmínka {{.Mention}} nezpůsobila žádnou notifikaci."
+  },
+  {
+    "id": "model.post.is_valid.root_parent.app_error",
+    "translation": "Nevalidní root ID musí být použito pokued parent ID je nastaveno."
+  },
+  {
+    "id": "model.search_params_list.is_valid.include_deleted_channels.app_error",
+    "translation": "Všechny parametry IncludeDeletedChannels musí mít stejnou hodnotu."
+  },
+  {
+    "id": "model.team.is_valid.invite_id.app_error",
+    "translation": "Nevalidní invite id."
+  },
+  {
+    "id": "model.team.is_valid.url.app_error",
+    "translation": "Nevalidní URL."
+  },
+  {
+    "id": "model.upload_session.is_valid.channel_id.app_error",
+    "translation": "Nevalidní hodnota pro ChannelId."
+  },
+  {
+    "id": "model.upload_session.is_valid.create_at.app_error",
+    "translation": "Nevalidní hodnota pro CreateAt"
+  },
+  {
+    "id": "model.upload_session.is_valid.file_offset.app_error",
+    "translation": "Nevalidní hodnota pro FileOffset"
+  },
+  {
+    "id": "model.upload_session.is_valid.file_size.app_error",
+    "translation": "Nevalidní hodnota pro FileSize"
+  },
+  {
+    "id": "model.upload_session.is_valid.filename.app_error",
+    "translation": "Nevalidní hodnota pro Filename"
+  },
+  {
+    "id": "model.upload_session.is_valid.id.app_error",
+    "translation": "Nevalidní hodnota pro Id"
+  },
+  {
+    "id": "model.upload_session.is_valid.path.app_error",
+    "translation": "Nevalidní hodnota pro Path"
+  },
+  {
+    "id": "model.upload_session.is_valid.type.app_error",
+    "translation": "Nevalidní hodnota pro Type"
+  },
+  {
+    "id": "model.upload_session.is_valid.user_id.app_error",
+    "translation": "Nevalidní hodnota pro UserId"
+  },
+  {
+    "id": "model.user.is_valid.auth_data_type.app_error",
+    "translation": "Nevalidní uživatel - „auth data“ musí být zadána s „auth type\"."
+  },
+  {
+    "id": "model.user.is_valid.password_limit.app_error",
+    "translation": "Nelze použít heslo delší jak 72 znaků díky limitaci funkce bcrypt."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Mám zájem zjistit více o Pokročilých oprávněních a Systémových schématech.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Jděte do Systémové konzole chcete-li povolit rozšířené vlastnosti."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
+    "translation": "Mattermost silně doporučuje, aby nasazení serveru s více jak 500 uživateli využilo vlastností jako správa uživatelů, server clustering a monitorování výkonu. Kontaktujte nás a zjistěte více o tom, jak můžeme pomoci.\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
+    "translation": "Mattermost silně doporučuje, aby nasazení serveru s více jak 500 uživateli využilo vlastností jako správa uživatelů, server clustering a monitorování výkonu. Kontaktujte nás a zjistěte více o tom, jak můžeme pomoci.\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Můj tým má nyní 500 uživatelů a zvažuji využít Mattermost Enterprise Edition.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
+    "translation": "Oznamovací kanály"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Jděte do **Systémová konzole > Správa uživatelů > Kanály** chcete-li omezit tvorbu zpráv v kanálu."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
+    "translation": "Při veškeré konverzaci, která se děje napříč Mattermostem, může být obtížné pátrat po důležitých informacích. Pokud chcete rozesílat informace širokému publiku, můžete vytvořit Oznamovací kanály. Ty jsou pouze pro čtení - vyjma adminů, kteří mohou zprávy vytvářet.\n\n[Zjistit více o Oznamovacích kanálech](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
+    "translation": "Při veškeré konverzaci, která se děje napříč Mattermostem, může být obtížné pátrat po důležitých informacích. Pokud chcete rozesílat informace širokému publiku, můžete vytvořit Oznamovací kanály. Ty jsou pouze pro čtení - vyjma adminů, kteří mohou zprávy vytvářet.\n\n[Zjistit více o Oznamovacích kanálech](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Zajímalo by mě více o tvorbě oznamovacích kanálů.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Jděte do **Systémová konzole > Autentizace > SAML 2.0** chcete-li integraci se SAML 2.0."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
+    "translation": "Váš Mattermost má nyní 200 uživatelů. Pokud jej propojíte s vaším řešením SSO (single sign on), uživatelé budou moci využívat Mattermost bez nutnosti znovu zadávat své přihlašovací údaje. Doporučujeme integraci vašeho SAML 2.0 poskytovatele s Mattermost serverem [Zjistit více o integraci se SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
+    "translation": "Škálování Mattermostu"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
+    "translation": "Váš Mattermost má nyní 200 uživatelů. Pokud jej propojíte s vaším řešením SSO (single sign on), uživatelé budou moci využívat Mattermost bez nutnosti znovu zadávat své přihlašovací údaje. Doporučujeme integraci vašeho SAML 2.0 poskytovatele s Mattermost serverem [Zjistit více o integraci se SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Můj tým má nyní 200 uživatelů a zvažuji přejít na Mattermost Enterprise Edition.\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Jděte do **Systémová konzole > Autentizace > AD/LDAP** chcete-li se napojit na vaše AD/LDAP."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
+    "translation": "Váš Mattermost má přes 100 uživatelů. S tím, jak roste uživatelská základna, správa nových účtů se stává časově nákladnou. Doporučujeme integrovat vaši podnikovou databázi AD/LDAP, která umožní každému účtu přístup k Mattermostu.\n\n[Zjistit více o integraci ADL/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
+    "translation": "Škálování s Mattermostem"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.notification_body",
+    "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "utils.mail.connect_smtp.helo.app_error",
+    "translation": "Selhalo odeslání HELO."
+  },
+  {
+    "id": "store.sql_bot.get.missing.app_error",
+    "translation": "Bot účet neexistuje."
+  },
+  {
+    "id": "ent.data_retention.channel_member_history_batch.internal_error",
+    "translation": "Selhalo pročištění záznamů."
+  },
+  {
+    "id": "bleveengine.already_started.error",
+    "translation": "Bleve již běží."
+  },
+  {
+    "id": "app.import.get_users_by_username.some_users_not_found.error",
+    "translation": "Někteří uživatelé nenalezeni"
+  },
+  {
+    "id": "app.import.get_teams_by_names.some_teams_not_found.error",
+    "translation": "Některé týmy nenalezeny"
+  },
+  {
+    "id": "app.emoji.create.internal_error",
+    "translation": "Selhalo uložení emoji."
+  },
+  {
+    "id": "app.channel.update_channel.internal_error",
+    "translation": "Selhala aktualizace kanálu."
+  },
+  {
+    "id": "app.channel.get_deleted.missing.app_error",
+    "translation": "Neexistuje žádný smazaný kanál."
+  },
+  {
+    "id": "app.post.search.app_error",
+    "translation": "Chyba při prohledávání příspěvků"
+  },
+  {
+    "id": "app.channel.count_posts_since.app_error",
+    "translation": "Nepodařilo se spočítat zprávy od zadaného data."
+  },
+  {
+    "id": "app.channel.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Selhalo získání členů v kanálu."
+  },
+  {
+    "id": "app.channel.autofollow.app_error",
+    "translation": "Selhala aktualizace členství ve vlákně pro zmíněného uživatele"
+  },
+  {
+    "id": "app.channel.analytics_type_count.app_error",
+    "translation": "Selhalo získání počtů typů kanálů."
+  },
+  {
+    "id": "app.analytics.getanalytics.internal_error",
+    "translation": "Selhalo získání analytiky."
+  },
+  {
+    "id": "api.user.update_user_roles.license.app_error",
+    "translation": "Vlastní Permission Schemes nejsou povoleny současnou licencí"
+  },
+  {
+    "id": "api.user.update_password.user_and_hashed.app_error",
+    "translation": "Pouze správci mohou nastavovat hash hesel."
+  },
+  {
+    "id": "api.user.login_cws.license.error",
+    "translation": "CWS přihlášení není povoleno."
+  },
+  {
+    "id": "api.user.login_by_cws.invalid_token.app_error",
+    "translation": "Nevalidní CWS oken"
+  },
+  {
+    "id": "api.user.get_uploads_for_user.forbidden.app_error",
+    "translation": "Selhalo získání nahraných souborů."
+  },
+  {
+    "id": "api.user.delete_channel.not_enabled.app_error",
+    "translation": "Trvalé smazání kanálů není povoleno. Obraťte se na svého správce."
+  },
+  {
+    "id": "api.user.autocomplete_users.missing_team_id.app_error",
+    "translation": "Parametr Id týmu je vyžadován pro autocomplete kanálu."
+  },
+  {
+    "id": "api.upload.upload_data.multipart_error",
+    "translation": "Selhalo zpracování multipart obsahu."
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_type",
+    "translation": "Nevalidní Content-Type pro víceobsahový upload."
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_length",
+    "translation": "Nevalidní Content-Length."
+  },
+  {
+    "id": "app.upload.get.app_error",
+    "translation": "Selhalo získání nahraného souboru."
+  },
+  {
+    "id": "api.upload.get_upload.forbidden.app_error",
+    "translation": "Selhalo získání nahraného souboru."
+  },
+  {
+    "id": "api.upgrade_to_enterprise_status.signature.app_error",
+    "translation": "Mattermost nemohl bý aktualizován na Enterprise edici. Digitální podpis staženého binárního souboru nemohl být ověřen."
+  },
+  {
+    "id": "api.upgrade_to_enterprise_status.app_error",
+    "translation": "Mattermost nemohl bý aktualizován na Enterprise edici."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
+    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Toto vylepšení funguje pouze na Linuxových systémech s architekturou x86-64."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-user.app_error",
+    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je Mattermost instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
+    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je Mattermost instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
+    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je Mattermost instalován:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.generic_error.app_error",
+    "translation": "Mattermost nemohl bý aktualizován na Enterprise edici."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.app_error",
+    "translation": "Aktualizace na Mattermost Enterprise edici je již v běhu."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
+    "translation": "Nelze provést aktualizaci, protože již využíváte Mattermost Enterprise edici."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.already-done.app_error",
+    "translation": "Již jste aktualizovali na Mattermost Enterprise edici. Prosím restartujte server k dokončení aktualizace."
+  },
+  {
+    "id": "api.templates.warn_metric_ack.subject",
+    "translation": "Požadavek z Kontaktuje nás"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
+    "translation": "Id diagnostiky: "
+  },
+  {
+    "id": "api.team.invite_members.limit_reached.app_error",
+    "translation": "Dosáhli jste limitu bezplatného pásma"
+  },
+  {
+    "id": "api.team.add_team_member.invalid_body.app_error",
+    "translation": "Selhalo zprasování těla požadavku."
+  },
+  {
+    "id": "api.system.update_viewed_notices.failed",
+    "translation": "Aktualizace zobrazených oznámení selhala"
+  },
+  {
+    "id": "api.system.update_notices.validating_failed",
+    "translation": "Validace podmínek produktových oznámení selhalo"
+  },
+  {
+    "id": "api.system.update_notices.parse_failed",
+    "translation": "Zpracování produktových oznámení selhalo"
+  },
+  {
+    "id": "api.system.update_notices.fetch_failed",
+    "translation": "Získání produktových oznámení selhalo"
+  },
+  {
+    "id": "api.system.update_notices.clear_failed",
+    "translation": "Vyčištění starých oznámení selhalo"
+  },
+  {
+    "id": "api.server.warn_metric.starting_trial",
+    "translation": "Získání testu"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Jděte do **Systémová konzole > Správa uživatelů > Oprávnění ** pro povolení Pokročilých oprávnění."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
+    "translation": "Váš Mattermost má nyní více týmů. Mnoho týmů má své vlastní preference pokud jde o koordinaci a spolupráci, včetně toho, jak jsou zakládány kanály, kdo může pozvat nové členy nebo jak se spravují integrace. Týmová přetížená schémata (Override Schemes) umožňují přizpůsobit oprávnění uživateů pro každý tým zvlášť.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nKliknutím na Zahájit test souhlasíte se [Smlouvou o používání programu Mattermost ](https://mattermost.com/software-evaluation-agreement/), [Nastavením soukromí](https://mattermost.com/privacy-policy/) a zasíláním obchodních sdělení."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.notification_title",
+    "translation": "Použití Advanced Permissions"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.notification_body",
+    "translation": "Váš Mattermost má nyní více týmů. Mnoho týmů má své vlastní preference pokud jde o koordinaci a spolupráci, včetně toho, jak jsou zakládány kanály, kdo může pozvat nové členy nebo jak se spravují integrace. Týmová přetížená schémata (Override Schemes) umožňují přizpůsobit oprávnění uživateů pro každý tým zvlášť.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
+    "translation": "Váš Mattermost má velký počet zpráv. Výchozí databázové hledání začíná mít výkonostní problémy kolem 2.5 mil příspěvků. Pří více jak 5 mil příspěvcích může Elasticsearch výrazně pomoci s výkonem. Kontaktujte nás, chcete-li se dozvědět více jak můžeme pomoci.\n\n[Zjistit více o zvýšení výkonu](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
+    "translation": "Váš Mattermost má velký počet zpráv. Výchozí databázové hledání začíná mít výkonostní problémy kolem 2.5 mil příspěvků. Pří více jak 5 mil příspěvcích může Elasticsearch výrazně pomoci s výkonem. Kontaktujte nás, chcete-li se dozvědět více jak můžeme pomoci.\n\n[Zjistit více o zvýšení výkonu](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.notification_body",
+    "translation": "Kanály umožňují zlepšit komunikaci, ale s tím, jak je uživatelé napříč Mattermostem zakládají a vstupují do nich, rostou nároky na to udržovat systém organizovaný. Advanced Permissions umožní nastavit, kteří uživatelé nebo role mohou provádět určité akce, jako spravovat nastavení kanálů a jejich členů, využívat @channel nebo @here zmínek, či vytváření nových webhooků.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "model.config.is_valid.import.retention_days_too_low.app_error",
+    "translation": "Neplatná hodnota pro RetentionDays. Hodnota je příliš nízká."
+  },
+  {
+    "id": "model.config.is_valid.import.directory.app_error",
+    "translation": "Neplatná hodnota pro Directory."
+  },
+  {
+    "id": "model.config.is_valid.collapsed_threads.app_error",
+    "translation": "Nastavení CollapsedThreads musí být buď disabled,default_on nebo default_off"
+  },
+  {
+    "id": "import_process.worker.do_job.unzip",
+    "translation": "Nepodařilo se zpracovat import: selhalo rozbalení zip souboru."
+  },
+  {
+    "id": "import_process.worker.do_job.tmp_dir",
+    "translation": "Nepodařilo se zpracovat import: selhalo vytvoření dočasného adresáře."
+  },
+  {
+    "id": "import_process.worker.do_job.open_file",
+    "translation": "Nepodařilo se zpracovat import: selhalo otevření souboru."
+  },
+  {
+    "id": "import_process.worker.do_job.missing_jsonl",
+    "translation": "Nepodařilo se zpracovat import: JSONL soubor chybí."
+  },
+  {
+    "id": "import_process.worker.do_job.missing_file",
+    "translation": "Nepodařilo se zpracovat import: parametr import_file chybí."
+  },
+  {
+    "id": "import_process.worker.do_job.file_exists",
+    "translation": "Nepodařilo se zpracovat import: soubor neexistuje."
+  },
+  {
+    "id": "app.user.verify_email.app_error",
+    "translation": "Nepodařilo se aktualizovat pole pro verifikační e-mail."
+  },
+  {
+    "id": "app.user.update_update.app_error",
+    "translation": "Nepodařilo se aktualizovat datum poslední změny uživatele."
+  },
+  {
+    "id": "app.user.update_threads_read_for_user.app_error",
+    "translation": "Nepodařilo se aktualizovat všechny uživatelova vlákna jako přečtená"
+  },
+  {
+    "id": "app.user.update_thread_read_for_user.app_error",
+    "translation": "Nepodařilo se aktualizovat stav o přečtení pro vlákno"
+  },
+  {
+    "id": "app.user.update_thread_follow_for_user.app_error",
+    "translation": "Nepodařilo se aktualizovat stav sledování pro vlákno"
+  },
+  {
+    "id": "app.user.update_password.app_error",
+    "translation": "Selhala aktualizace uživatelského hesla."
+  },
+  {
+    "id": "app.user.update_failed_pwd_attempts.app_error",
+    "translation": "Selhala aktualizace údaje failed_attempts."
+  },
+  {
+    "id": "app.user.update_auth_data.email_exists.app_error",
+    "translation": "Nepodařilo se přepnout účet na {{.Service}}. Účet používající e-mail {{.Email}} již existuje."
+  },
+  {
+    "id": "app.user.update_auth_data.app_error",
+    "translation": "Nepodařilo se aktualizovat autentizační data."
+  },
+  {
+    "id": "app.user.update_active_for_multiple_users.updating.app_error",
+    "translation": "Nepodařilo se deaktivovat návštěvníky."
+  },
+  {
+    "id": "app.user.update.find.app_error",
+    "translation": "Nepodařilo se najít stávající účet určený k aktualizaci."
+  },
+  {
+    "id": "app.user.search.app_error",
+    "translation": "Nepodařilo se nalézt uživatele odpovídající daným kritériím."
+  },
+  {
+    "id": "app.user.save.username_exists.app_error",
+    "translation": "Účet se stejným uživatelským jménem již existuje."
+  },
+  {
+    "id": "app.user.save.existing.app_error",
+    "translation": "Je nutné použít aktualizaci na existujícího uživatele."
+  },
+  {
+    "id": "app.user.save.email_exists.app_error",
+    "translation": "Účet se stejným e-mailem již existuje."
+  },
+  {
+    "id": "app.user.save.app_error",
+    "translation": "Selhalo uložení účtu."
+  },
+  {
+    "id": "app.user.permanent_delete.app_error",
+    "translation": "Nepodařilo se smazat daný účet."
+  },
+  {
+    "id": "app.user.missing_account.const",
+    "translation": "Nepodařilo se najít uživatele."
+  },
+  {
+    "id": "app.user.get_users_batch_for_indexing.get_users.app_error",
+    "translation": "Nepodařilo se získat dávku uživatelů k indexaci."
+  },
+  {
+    "id": "app.user.get_unread_count.app_error",
+    "translation": "Nepodařilo se získat počet nepřečtených zpráv daného uživatele."
+  },
+  {
+    "id": "app.user.get_total_users_count.app_error",
+    "translation": "Nelze spočítat uživatele."
+  },
+  {
+    "id": "app.user.get_threads_for_user.app_error",
+    "translation": "Nelze získat vlákna uživatele"
+  },
+  {
+    "id": "app.user.get_recently_active_users.app_error",
+    "translation": "Vyskytla se chyba při zjišťování naposledy aktivních uživatelů."
+  },
+  {
+    "id": "app.user.get_profiles.app_error",
+    "translation": "Vyskytla se chyba při zjišťování profilů uživatelů."
+  },
+  {
+    "id": "app.user.get_profile_by_group_channel_ids_for_user.app_error",
+    "translation": "Vyskytla se chyba při zjišťování profilů uživatelů."
+  },
+  {
+    "id": "app.user.get_new_users.app_error",
+    "translation": "Při zjišťování nových uživatelů se vyskytla chyba."
+  },
+  {
+    "id": "app.user.get_known_users.get_users.app_error",
+    "translation": "Nelze získat seznam uživatelů z databáze."
+  },
+  {
+    "id": "app.user.get_by_username.app_error",
+    "translation": "Nelze najít existující účet, který by odpovídal uživatelskému jménu v tomto týmu. Je možné, že tým vyžaduje pozvánku od vlastníka týmu."
+  },
+  {
+    "id": "app.user.get_by_auth.other.app_error",
+    "translation": "Vyskytla se chyba při pokusu najít účet podle typu autentizace."
+  },
+  {
+    "id": "app.user.get_by_auth.missing_account.app_error",
+    "translation": "Nelze najít existující účet, který by odpovídal typu autentizace pro tento tým. Je možné, že tým vyžaduje pozvánku od vlastníka týmu."
+  },
+  {
+    "id": "app.user.get.app_error",
+    "translation": "Vyskytla se chyba při hledání účtu."
+  },
+  {
+    "id": "app.user.update.finding.app_error",
+    "translation": "Vyskytla se chyba při hledání účtu."
+  },
+  {
+    "id": "app.user.promote_guest.user_update.app_error",
+    "translation": "Selhala aktualizace uživatele."
+  },
+  {
+    "id": "app.user.demote_user_to_guest.user_update.app_error",
+    "translation": "Selhala aktualizace uživatele."
+  },
+  {
+    "id": "app.user.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Selhalo získání uživatelů."
+  },
+  {
+    "id": "app.user.analytics_get_inactive_users_count.app_error",
+    "translation": "Nemůžeme spočítat neaktivní uživatele."
+  },
+  {
+    "id": "app.user.analytics_daily_active_users.app_error",
+    "translation": "Nelze získat aktivní uživatele pro zadané období."
+  },
+  {
+    "id": "app.upload.upload_data.move_file.app_error",
+    "translation": "Selhal přesun nahraného souboru."
+  },
+  {
+    "id": "app.update_error",
+    "translation": "chyba při update"
+  },
+  {
+    "id": "app.select_error",
+    "translation": "chyba při select"
+  },
+  {
+    "id": "app.insert_error",
+    "translation": "chyba při vložení"
+  },
+  {
+    "id": "app.import.marshal.app_error",
+    "translation": "Nemohu sestavit odpověď."
+  },
+  {
+    "id": "app.group.uniqueness_error",
+    "translation": "člen skupiny již existuje"
+  },
+  {
+    "id": "app.group.permanent_delete_members_by_user.app_error",
+    "translation": "Nelze odstranit člena skupiny s UserID \"{{.UserId}}\"."
+  },
+  {
+    "id": "app.group.no_rows",
+    "translation": "nebyla nalezena žádná opdovídající skupina"
+  },
+  {
+    "id": "app.group.id.app_error",
+    "translation": "nevalidní položka Id pro skupinu."
+  },
+  {
+    "id": "app.group.group_syncable_already_deleted",
+    "translation": "skupinové syncable již bylo smazáno"
+  },
+  {
+    "id": "api.templates.upgrade_mattermost_cloud",
+    "translation": "Vylepšení"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.title",
+    "translation": "Faktura za Mattermost Cloud je v prodlení"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.subject",
+    "translation": "Platba předplatného Mattermost Cloud je ve zpoždění"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.info3",
+    "translation": "Pro kontrolu faktury a zadání platební metody zvolte Zaplatit nyní."
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.info1",
+    "translation": "Faktura za Mattermost Cloud byla zpracována. Nicméně nám chybí Vaše platební údaje."
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.button",
+    "translation": "Zaplatit nyní"
+  },
+  {
+    "id": "api.templates.payment_failed.title",
+    "translation": "Platba neprošla"
+  },
+  {
+    "id": "api.templates.payment_failed.subject",
+    "translation": "Vyžadována akce: selhala platba za Mattermost Cloud"
+  },
+  {
+    "id": "api.templates.payment_failed.info3",
+    "translation": "Chcete-li nadále nepřerušeně využívat Mattermost Cloud, prosím kontaktujte buď svoji bankovní instituci nebo aktualizujte své platební údaje. Poté, co budou údaje o platbě opraveny, Mattermost se pokusí opětovně provést stržení zbývajících částek."
+  },
+  {
+    "id": "api.templates.payment_failed.info2",
+    "translation": "Poskytli následující důvod:"
+  },
+  {
+    "id": "api.templates.payment_failed.info1",
+    "translation": "Vaše bankovní instituce zamítla platbu přes {{.CardBrand}} ****{{.LastFour}} připojené k Vašemu Mattermost Cloud workspace."
+  },
+  {
+    "id": "api.templates.over_limit_title",
+    "translation": "Váš workspace přesáhl limit pro bezplatné pásmo"
+  },
+  {
+    "id": "api.templates.over_limit_suspended_title",
+    "translation": "Pozastavení Mattermost Cloud Workspace"
+  },
+  {
+    "id": "api.templates.over_limit_suspended_subject",
+    "translation": "Předplatné služby Mattermost Cloud bylo pozastaveno"
+  },
+  {
+    "id": "api.templates.over_limit_suspended_info2",
+    "translation": "Kontaktujte nás chcete-li znovu aktivovat workspace."
+  },
+  {
+    "id": "api.templates.over_limit_90_days_subject",
+    "translation": "Vaše předplacená služba Mattermost Cloud bude brzy pozastavena"
+  },
+  {
+    "id": "api.templates.over_limit_90_days_info4",
+    "translation": "Poté, co služba workspace bude pozastavena, veškerý obsah a data z ní budou smazána během 1-3 měsíců."
+  },
+  {
+    "id": "api.templates.over_limit_90_days_info3",
+    "translation": "Poté, co služba workspace bude pozastavena, nebudete se moci přihlásit do svého účtu nebo aktualizovat platební údaje. Budete muset kontaktovat naši podporu a dohodnout novou aktivaci."
+  },
+  {
+    "id": "api.templates.over_limit_90_days_info1",
+    "translation": "Toto je závěrečné upozornění, že jsme doposud neobdrželi platbu za předplatné Mattermost Cloud workspace, která je v prodlení od {{ .OverLimitDate }}. Zítra dojde k pozastavení služeb."
+  },
+  {
+    "id": "api.templates.over_limit_7_days_info1",
+    "translation": "Mattermost nemohl zpracovat poslední automatickou platbu. Chcete-li si zachovat službu, prosím zadejte platební údaje co nejdříve, jinak služba může být pozastavena."
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2",
+    "translation": "V případě, že nebudete jednat, služba workspace bude pozastavena"
+  },
+  {
+    "id": "api.templates.over_limit_14_days_info1",
+    "translation": "Jen se chceme připomenout, že jsem neobdrželi platbu za předplatné Mattermostu fakturovanou dne {{ .OverLimitDate }}.  Zanedlouho přikročíme k pozastavení služeb, pokud platba nedorazí."
+  },
+  {
+    "id": "api.templates.over_limit_suspended_info1",
+    "translation": "Služba Mattermost workspace byla pozastavena. Veškerý obsah a data budou smazána během 1-3 měsíců."
+  },
+  {
+    "id": "api.templates.over_limit_suspended_contact_support",
+    "translation": "Kontaktovat podporu"
+  },
+  {
+    "id": "api.templates.over_limit_subject",
+    "translation": "Mattermost Cloud Workspace dosáhl limitu uživatelů"
+  },
+  {
+    "id": "api.templates.over_limit_info1",
+    "translation": "Vypadá to, že máte více než 10 uživatelů, což přesahuje limit pro bezplatné pásmo u Mattermost Cloud Professional. Chcete-li předejít případným problémům, prosím povyšte své předplatné."
+  },
+  {
+    "id": "api.templates.over_limit_fix_now",
+    "translation": "Vyřešit nyní"
+  },
+  {
+    "id": "api.templates.over_limit_90_days_title",
+    "translation": "Zítra dojde k omezení předplacené služby Mattermost Cloud workspace"
+  },
+  {
+    "id": "api.templates.over_limit_90_days_info2",
+    "translation": "Chcete-li zabránit omezení služeb, zadejte platební údaje"
+  },
+  {
+    "id": "api.templates.over_limit_7_days_title",
+    "translation": "Žádná platební metoda uvedena"
+  },
+  {
+    "id": "api.templates.over_limit_7_days_subject",
+    "translation": "Platba za Mattermost Cloud je ve zpoždění"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_title",
+    "translation": "Omezení služby Mattermost Cloud Workspace"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_subject",
+    "translation": " Jednejte, ať si udržíte své předplatné k Mattermost Cloudu"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item3",
+    "translation": "Ztratíte přístup k historii svých zpráv"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item2",
+    "translation": "Nebudete moci aktualizovat platební údaje bez asistence naší podpory"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item1",
+    "translation": "Nebude vám umožněno přihlásit se do workspace"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info1",
+    "translation": "Stále je čas udržet si Mattermost Cloud workspace vyřešením problémů s platbou. Chcete-li zabránit omezení služeb, prosím aktualizujte si platební údaje."
+  },
+  {
+    "id": "api.templates.over_limit_14_days_title",
+    "translation": "Platba nebyla přijata"
+  },
+  {
+    "id": "api.templates.over_limit_14_days_subject",
+    "translation": "Platba předplatného za Mattermosti Cloud je ve zpoždění"
+  },
+  {
+    "id": "api.templates.email_us_anytime_at",
+    "translation": "Napište nám kdykoliv na "
+  },
+  {
+    "id": "api.templates.copyright",
+    "translation": "© 2017 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+  },
+  {
+    "id": "api.templates.at_limit_title",
+    "translation": "Dosáhli jste limitu počtu uživatelů v bezplatném pásmu "
+  },
+  {
+    "id": "api.templates.at_limit_subject",
+    "translation": "Dosažen limit počtu uživatelů pro Mattermost Cloud"
+  },
+  {
+    "id": "api.templates.over_limit_info2",
+    "translation": "Případně můžete zakázat uživatele ve správcovské konzoli a otevřít sloty pro další uživatele nebo se dostat do bezplatného pásma."
+  },
+  {
+    "id": "api.templates.at_limit_info2",
+    "translation": "Případně můžete zakázat uživatele ve správcovské konzoli a otevřít sloty pro další uživatele nebo se dostat do bezplatného pásma."
+  },
+  {
+    "id": "api.templates.at_limit_info1",
+    "translation": "Vypadá to, že máte 10 či více uživatelů - to je super! Pokud chcete přizvat více členů týmu, zvažte povýšení na Mattermost CLoud Professional."
+  },
+  {
+    "id": "app.command_webhook.handle_command_webhook.parse",
+    "translation": "Neporozuměl jsem příchozím datům."
+  },
+  {
+    "id": "app.command_webhook.try_use.invalid",
+    "translation": "Nevalidní webhook."
+  },
+  {
+    "id": "app.command.getcommand.internal_error",
+    "translation": "Nepodařilo se získat příkaz."
+  },
+  {
+    "id": "app.channel.get.existing.app_error",
+    "translation": "Nelze najít daný kanál."
+  },
+  {
+    "id": "app.channel.get_by_name.existing.app_error",
+    "translation": "Nelze najít daný kanál."
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
+    "translation": "Váš Mattermost má přes 100 uživatelů. S tím, jak roste uživatelská základna, správa nových účtů se stává časově nákladnou. Doporučujeme integrovat vaši podnikovou databázi AD/LDAP, která umožní každému účtu přístup k Mattermostu.\n\n[Zjistit více o integraci ADL/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Můj tým má nyní 100 uživatelů a zvažuji využití Mattermost Enterprise Edice.\n"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
+    "translation": "Váš Enterprise test je nyní aktivní. Jděte do **Systémová konzole > Autentizace > VFA** chcete-li vynutit vícefaktorovou autentizaci."
+  },
+  {
+    "id": "api.server.warn_metric.mfa.start_trial.notification_body",
+    "translation": "Váš Mattermost má povolenu vícefaktorovou autentizaci, což umožňuje uživatelům zabezpečit jejich účty dalším způsobem, nejen heslem. Ke zvýšení zabezpečení napříč systémem můžete vynutit použivání vícefaktorové autentizace u všech účtů.\n\n[Zjistit více o vynucení vícefaktorové autentizace](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+  },
+  {
+    "id": "api.server.warn_metric.mfa.notification_title",
+    "translation": "Vynucení vícefaktorové autentizace"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.notification_body",
+    "translation": "Váš Mattermost má povolenu vícefaktorovou autentizaci, což umožňuje uživatelům zabezpečit jejich účty dalším způsobem, nejen heslem. Ke zvýšení zabezpečení napříč systémem můžete vynutit použivání vícefaktorové autentizace u všech účtů.\n\n[Zjistit více o vynucení vícefaktorové autentizace](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nKliknutím na Kontaktujte nás budete sdílete své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Zajímá mě více o vynucení vícefaktorové autentizace.\n"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
+    "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+  },
+  {
+    "id": "api.server.warn_metric.start_trial",
+    "translation": "Zahájit test"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.notification_title",
+    "translation": "Vytvoření návštěvnických účtů"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.contact_us.email_body",
+    "translation": "Dotaz na Mattermost. Mám zájem zjistit více o návštěvnických účtech.\n"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
+    "translation": "Testovací licenci nelze stáhnout. Navštivte https://mattermost.com/trial/ kde ji lze získat."
+  },
+  {
+    "id": "api.roles.patch_roles.not_allowed_permission.error",
+    "translation": "Jedna nebo více změn v oprávněních, které se pokušíte nastavit, není povolena"
+  },
+  {
+    "id": "api.roles.patch_roles.admin_role.error",
+    "translation": "Role System Admin nemůže být upravována"
+  },
+  {
+    "id": "api.post.error_get_post_id.pending",
+    "translation": "Nelze získat detail čekající zprávy."
+  },
+  {
+    "id": "api.license.request_trial_license.fail_get_user_count.app_error",
+    "translation": "Nelze získat testovací licenci, prosím zkuste znovu nebo kontaktujte podporu na support@mattermost.com. Nelze získat počet registrovaných uživatelů."
+  },
+  {
+    "id": "api.file.test_connection.s3.list_objects.app_error",
+    "translation": "Chyba při pokusu vylistovat objekty."
+  },
+  {
+    "id": "api.file.test_connection.s3.bucket_create.app_error",
+    "translation": "Nelze vytvořit bucket."
+  },
+  {
+    "id": "api.file.new_backend.s3.app_error",
+    "translation": "Vyskytla se chyba při spojování k S3."
+  },
+  {
+    "id": "api.file.file_size.s3.app_error",
+    "translation": "Nelze zjistit velikost souboru."
+  },
+  {
+    "id": "api.file.file_size.local.app_error",
+    "translation": "Nelze zjistit velikost souboru."
+  },
+  {
+    "id": "api.config.patch_config.restricted_merge.app_error",
+    "translation": "Selhalo sloučení dané konfigurace."
   }
 ]
