@@ -56,7 +56,7 @@
   "search_bar.search": "Keresés",
   "about.teamEditiont0": "Csapat kiadás",
   "about.teamEditionSt": "A csapaton belüli kommunikáció egy helyen, azonnal kereshető és hozzáférhető bárhonnan.",
-  "about.teamEditionLearn": "Csatlakozz a Mattermost közzésghez a ",
+  "about.teamEditionLearn": "Csatlakozz a Mattermost közzösségéhez a ",
   "about.hashee": "EE Build Hash:",
   "about.hash": "Build Hash:",
   "about.enterpriseEditionSt": "Modern kommunikáció a tűzfalad mögött.",
@@ -255,5 +255,15 @@
   "user.settings.modal.display": "Megjelenítés",
   "user.settings.notifications.email.immediately": "Azonnal",
   "mobile.privacy_link": "Adatvédelmi irányelvek",
-  "mobile.post_info.flag": "Mentés"
+  "mobile.post_info.flag": "Mentés",
+  "post_body.check_for_out_of_channel_mentions.message_last": "? Hozzáférhetnek az összes üzenetelőzményhez.",
+  "post_body.check_for_out_of_channel_mentions.link.public": "adja hozzá őket a csatornához",
+  "permalink.error.access": "Az állandó link egy törölt üzenethez vagy egy olyan csatornához tartozik, amelyhez nincs hozzáférése.",
+  "password_send.link": "Ha létezik fiók, akkor jelszó-visszaállító e-mailt küldünk a következő címre:",
+  "password_send.error": "Kérjük valós e-mail címet adjon meg.",
+  "password_send.description": "A jelszó visszaállításához írja be a regisztrációhoz használt e-mail címet",
+  "password_send.reset": "Jelszavam visszaállítása",
+  "user.settings.general.emailOffice365CantUpdate": "A bejelentkezés az Office 365-n keresztül történik. Az e-mail nem frissíthető. Az értesítésekhez használt e-mail cím: {email}.",
+  "signup.office365": "Office 365",
+  "create_post.write": "Írj neki {channelDisplayName}"
 }
