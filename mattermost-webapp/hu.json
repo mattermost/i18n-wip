@@ -61,6 +61,7 @@
   "add_command.autocompleteHint": "Automatikus kiegészítési ajánlás",
   "add_command.autocompleteHint.placeholder": "Példa: [Páciens neve]",
   "add_command.cancel": "Mégsem",
+  "add_command.description": "Leírás",
   "add_command.doneHelp": "A perjeles parancsod elkészült. A következő token a kimenő csomagban lesz kiküldve. Kérjük használja a Mattermost csapattól kapott kérés azonosítására (lásd a [Perjeles Parancsok](!https://docs.mattermost.com/developer/slash-commands.html) bejegyzést).",
   "add_command.iconUrl": "Válasz ikon",
   "add_command.iconUrl.placeholder": "https://www.example.com/myicon.png",
@@ -710,6 +711,7 @@
   "view_image_popover.download": "Letöltés",
   "web.footer.help": "Súgó",
   "web.footer.privacy": "Adatvédelem",
+  "web.header.back": "Vissza",
   "web.header.logout": "Kijelentkezés",
   "web.root.signup_info": "A csapaton belüli kommunikáció egy helyen, azonnal kereshető és hozzáférhető bárhonnan"
 }
