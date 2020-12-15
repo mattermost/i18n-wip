@@ -782,7 +782,7 @@
   "admin.experimental.userStatusAwayTimeout.desc": "Тази настройка определя броя секунди, след които индикаторът за състоянието на потребителя се променя на \"Зает\", когато той е далеч от Mattermost.",
   "admin.experimental.userStatusAwayTimeout.example": "Например: \"300\"",
   "admin.experimental.userStatusAwayTimeout.title": "Време на изчакване за състояние \"Зает\":",
-  "admin.false": "фалшив",
+  "admin.false": "false",
   "admin.feature_flags.flag": "Флаг",
   "admin.feature_flags.flag_value": "Стойност",
   "admin.feature_flags.introBanner": "Стойностите за флаг на функциите, показани тук, показват състоянието на функциите, активирани на този сървър. Стойностите тук са само за отстраняване на грешки от екипа за поддръжка на Mattermost.",
