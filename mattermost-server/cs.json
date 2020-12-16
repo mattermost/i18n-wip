@@ -7304,10 +7304,6 @@
     "translation": "Jedna nebo více změn v oprávněních, které se pokušíte nastavit, není povolena"
   },
   {
-    "id": "api.roles.patch_roles.admin_role.error",
-    "translation": "Role System Admin nemůže být upravována"
-  },
-  {
     "id": "api.post.error_get_post_id.pending",
     "translation": "Nelze získat detail čekající zprávy."
   },

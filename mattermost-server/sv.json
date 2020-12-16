@@ -8291,10 +8291,6 @@
     "translation": "En eller flera av följande rättigheter som du försöker lägga till eller ta bort är inte det är inte tillåtet"
   },
   {
-    "id": "api.roles.patch_roles.admin_role.error",
-    "translation": "Rollen systemadministratör kan inte redigeras eller ändras"
-  },
-  {
     "id": "app.group.group_syncable_already_deleted",
     "translation": "synkroniseringsgruppen var redan borttagen"
   },

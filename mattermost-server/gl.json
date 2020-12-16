@@ -332,10 +332,6 @@
     "translation": "Un ou máis dos seguintes permisos que tenta engadir ou eliminar non está autorizado"
   },
   {
-    "id": "api.roles.patch_roles.admin_role.error",
-    "translation": "Non é posíbel editar nin cambiar o rol de administrador do sistema"
-  },
-  {
     "id": "api.file.file_size.s3.app_error",
     "translation": "Non é posíbel obter o tamaño do ficheiro."
   },
