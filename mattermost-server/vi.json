@@ -144,10 +144,6 @@
     "translation": "Không thể đặt Helo"
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Đã gặp lỗi khi mở trình đọc từ bộ lưu trữ tệp máy chủ cục bộ."
-  },
-  {
     "id": "system.message.name",
     "translation": "Hệ thống"
   },
@@ -4342,10 +4338,6 @@
   {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Không thể tải tệp tin. Có {{.NumClientIds}} client_ids cho {{.NumFiles}} tệp tin."
-  },
-  {
-    "id": "api.file.reader.reading_local.app_error",
-    "translation": "Đã gặp lỗi khi mở trình đọc từ bộ lưu trữ tệp máy chủ cục bộ"
   },
   {
     "id": "api.file.read_file.reading_local.app_error",

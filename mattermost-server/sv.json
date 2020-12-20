@@ -156,10 +156,6 @@
     "translation": "Misslyckades att bifoga fil till e-postmeddelandet"
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Stötte på ett fel vid radering av katalog från den lokala serverns fil-lagring."
-  },
-  {
     "id": "system.message.name",
     "translation": "System"
   },
@@ -4664,10 +4660,6 @@
   {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Kunde inte ladda upp fil(er). Har {{.NumClientIds}} client_ids för {{.NumFiles}} filer."
-  },
-  {
-    "id": "api.file.reader.reading_local.app_error",
-    "translation": "Stötte på ett fel vid användandet av en läsare från den lokala serverns fillagring."
   },
   {
     "id": "api.file.read_file.reading_local.app_error",

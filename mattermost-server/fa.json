@@ -1317,10 +1317,6 @@
     "translation": "شکلک ایجاد نمی شود. هنگام تلاش برای باز کردن تصویر پیوست خطایی روی داد."
   },
   {
-    "id": "api.file.append_file.writing.app_error",
-    "translation": "هنگام نوشتن در S3 خطایی روی داد."
-  },
-  {
     "id": "api.file.attachments.disabled.app_error",
     "translation": "پیوستهای پرونده در این سرور غیرفعال شده اند."
   },
@@ -1351,10 +1347,6 @@
   {
     "id": "api.file.read_file.reading_local.app_error",
     "translation": "هنگام خواندن از ذخیره سازی پرونده سرور محلی خطایی روی داد."
-  },
-  {
-    "id": "api.file.test_connection.local.connection.app_error",
-    "translation": "مجوز نوشتن در مسیر محلی مشخص شده یا خطای دیگر را ندارید."
   },
   {
     "id": "api.file.upload_file.incorrect_channelId.app_error",
@@ -7729,10 +7721,6 @@
   {
     "id": "system.message.name",
     "translation": "سیستم"
-  },
-  {
-    "id": "utils.file.remove_directory.s3.app_error",
-    "translation": "هنگام حذف پوشه از S3 خطایی روی داد."
   },
   {
     "id": "utils.mail.connect_smtp.helo.app_error",

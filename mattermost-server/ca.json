@@ -3286,10 +3286,6 @@
     "translation": "No es poden penjar els fitxers. Hi ha {{.NumClientIds}} «clients_ids» per a {{.NumFiles}} fitxers."
   },
   {
-    "id": "api.file.reader.reading_local.app_error",
-    "translation": "S'ha trobat un error en obrir un lector de l'emmagatzematge de fitxers del servidor local"
-  },
-  {
     "id": "api.file.read_file.reading_local.app_error",
     "translation": "S'ha trobat un error en llegir des de l'emmagatzematge de fitxers del servidor local"
   },

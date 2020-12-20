@@ -80,10 +80,6 @@
     "translation": "HELO ni bilo mogoče nastaviti"
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Napaka med brisanjem mape iz lokalne strežniške shrambe."
-  },
-  {
     "id": "system.message.name",
     "translation": "Sistem"
   },
@@ -3772,10 +3768,6 @@
   {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Datotek/e ni mogoče naložiti. Morate imeti {{.NumClientIds}} client_id za {{.NumFiles}} datotek."
-  },
-  {
-    "id": "api.file.read_file.s3.app_error",
-    "translation": "Prišlo je do napake pri branju iz shrambe S3"
   },
   {
     "id": "api.file.read_file.reading_local.app_error",

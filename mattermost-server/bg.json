@@ -1749,10 +1749,6 @@
     "translation": "Невъзможно качването на файл. Неправилно ID на канала: {{.channelId}}"
   },
   {
-    "id": "api.file.reader.reading_local.app_error",
-    "translation": "Възникна грешка при отваряне на четец за файловото хранилище в локалния сървър."
-  },
-  {
     "id": "api.file.read_file.reading_local.app_error",
     "translation": "Възникна грешка при четене от файловото хранилище в локалния сървър."
   },
@@ -7185,10 +7181,6 @@
   {
     "id": "api.license.request_trial_license.fail_get_user_count.app_error",
     "translation": "Не можете да получите пробен лиценз, моля, опитайте отново или се свържете със support@mattermost.com. Не може да се получи броят на регистрираните потребители."
-  },
-  {
-    "id": "api.file.append_file.opening.app_error",
-    "translation": "Възникна грешка при отваряне на файла."
   },
   {
     "id": "api.cloud.request_error",

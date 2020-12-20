@@ -88,10 +88,6 @@
     "translation": "Ei voitu asettaa HELO"
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Virhe poistettaessa hakemisto paikallisesta tiedostovarastosta."
-  },
-  {
     "id": "system.message.name",
     "translation": "Järjestelmä"
   },
@@ -3956,10 +3952,6 @@
   {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Tiedoston lataaminen epäonnistui. {{.NumClientIds}} client_id arvoa {{.NumFiles}} tiedostolle."
-  },
-  {
-    "id": "api.file.reader.reading_local.app_error",
-    "translation": "Virhe avattaessa lukija paikallisesta tiedostopalvelimesta"
   },
   {
     "id": "api.file.read_file.reading_local.app_error",

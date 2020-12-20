@@ -4172,10 +4172,6 @@
     "translation": "Soubor(y) nelze nahrát. Máte {{.NumClientIds}} client_ids pro {{.NumFiles}} souborů."
   },
   {
-    "id": "api.file.reader.reading_local.app_error",
-    "translation": "Nastala chyba při otevření a čtení z lokálního úložiště."
-  },
-  {
     "id": "api.file.read_file.reading_local.app_error",
     "translation": "Nastala chyba při čtení z lokálního úložiště."
   },
@@ -5828,10 +5824,6 @@
     "translation": "Tuto úlohu nelze stáhnout"
   },
   {
-    "id": "api.file.append_file.no_exist.app_error",
-    "translation": "Soubor neexistuje."
-  },
-  {
     "id": "api.email.send_warn_metric_ack.invalid_warn_metric.app_error",
     "translation": "Nelze najít varovnou metriku."
   },
@@ -7238,10 +7230,6 @@
   {
     "id": "api.license.request_trial_license.fail_get_user_count.app_error",
     "translation": "Nelze získat testovací licenci, prosím zkuste znovu nebo kontaktujte podporu na support@mattermost.com. Nelze získat počet registrovaných uživatelů."
-  },
-  {
-    "id": "api.file.file_size.s3.app_error",
-    "translation": "Nelze zjistit velikost souboru."
   },
   {
     "id": "api.config.patch_config.restricted_merge.app_error",

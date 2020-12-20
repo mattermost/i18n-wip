@@ -896,10 +896,6 @@
     "translation": "Nem sikerült feltölteni a fájlokat. Ennyi: {{.NumClientIds}} client_ids nem sikerült ennyi: {{.NumFiles}} a fájlból."
   },
   {
-    "id": "api.file.reader.reading_local.app_error",
-    "translation": "Hiba történt a helyi szerver fájl tároló betöltése közben."
-  },
-  {
     "id": "api.file.read_file.reading_local.app_error",
     "translation": "Hiba történt a helyi szerver fálj tároló betöltése közben."
   },
@@ -2375,10 +2371,6 @@
   {
     "id": "api.file.upload_file.incorrect_channelId.app_error",
     "translation": "Nem lehet feltölteni a fájlt. Helytelen csatorna ID: {{.channelId}}"
-  },
-  {
-    "id": "api.file.append_file.s3.app_error",
-    "translation": "Hiba történt az S3 fájlhoz való csatoláskor."
   },
   {
     "id": "api.emoji.create.internal_error",
