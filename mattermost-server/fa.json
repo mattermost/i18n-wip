@@ -1317,16 +1317,8 @@
     "translation": "شکلک ایجاد نمی شود. هنگام تلاش برای باز کردن تصویر پیوست خطایی روی داد."
   },
   {
-    "id": "api.file.append_file.no_exist.app_error",
-    "translation": "فایل وجود ندارد."
-  },
-  {
     "id": "api.file.append_file.opening.app_error",
     "translation": "هنگام باز کردن پرونده خطایی روی داد."
-  },
-  {
-    "id": "api.file.append_file.s3.app_error",
-    "translation": "با خطای ضمیمه یک پرونده در S3 مواجه شد."
   },
   {
     "id": "api.file.append_file.writing.app_error",
@@ -1335,10 +1327,6 @@
   {
     "id": "api.file.attachments.disabled.app_error",
     "translation": "پیوستهای پرونده در این سرور غیرفعال شده اند."
-  },
-  {
-    "id": "api.file.file_exists.exists_local.app_error",
-    "translation": "بررسی وجود پرونده امکان پذیر نیست."
   },
   {
     "id": "api.file.file_exists.s3.app_error",
@@ -1365,16 +1353,8 @@
     "translation": "دریافت پیوند عمومی برای پرونده امکان پذیر نیست. پرونده باید به پستی پیوست شود که توسط کاربر فعلی قابل خواندن باشد."
   },
   {
-    "id": "api.file.move_file.copy_within_s3.app_error",
-    "translation": "کپی کردن پرونده در S3 امکان پذیر نیست."
-  },
-  {
     "id": "api.file.move_file.delete_from_s3.app_error",
     "translation": "حذف پرونده از S3 امکان پذیر نیست."
-  },
-  {
-    "id": "api.file.move_file.rename.app_error",
-    "translation": "انتقال فایل به صورت محلی امکان پذیر نیست."
   },
   {
     "id": "api.file.no_driver.app_error",
@@ -1385,32 +1365,16 @@
     "translation": "هنگام خواندن از ذخیره سازی پرونده سرور محلی خطایی روی داد."
   },
   {
-    "id": "api.file.read_file.s3.app_error",
-    "translation": "هنگام خواندن از حافظه S3 خطایی روی داد."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "با خطایی در باز کردن خواننده از ذخیره سازی پرونده سرور محلی مواجه شد."
-  },
-  {
-    "id": "api.file.reader.s3.app_error",
-    "translation": "هنگام باز کردن یک خواننده از حافظه S3 خطایی روی داد."
   },
   {
     "id": "api.file.test_connection.local.connection.app_error",
     "translation": "مجوز نوشتن در مسیر محلی مشخص شده یا خطای دیگر را ندارید."
   },
   {
-    "id": "api.file.test_connection.s3.bucket_create.app_error",
-    "translation": "سطل ایجاد نمی شود."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_exists.app_error",
     "translation": "خطا در بررسی وجود سطل."
-  },
-  {
-    "id": "api.file.test_connection.s3.list_objects.app_error",
-    "translation": "خطا در تلاش برای لیست کردن اشیا."
   },
   {
     "id": "api.file.upload_file.incorrect_channelId.app_error",
@@ -1453,16 +1417,8 @@
     "translation": "بارگذاری پرونده {{.Filename}} امکان پذیر نیست. {{.Length}} بایت بیش از حد مجاز{{.Limit}} بایت است."
   },
   {
-    "id": "api.file.write_file.s3.app_error",
-    "translation": "هنگام نوشتن در S3 خطایی روی داد."
-  },
-  {
     "id": "api.file.write_file_locally.create_dir.app_error",
     "translation": "هنگام ایجاد پوشه برای پرونده جدید خطایی رخ داد."
-  },
-  {
-    "id": "api.file.write_file_locally.writing.app_error",
-    "translation": "هنگام ذخیره سازی سرور محلی با خطایی در نوشتن مواجه شد."
   },
   {
     "id": "api.image.get.app_error",
@@ -7799,24 +7755,12 @@
     "translation": "سیستم"
   },
   {
-    "id": "utils.file.list_directory.local.app_error",
-    "translation": "خطایی روی دایرکتوری لیست از ذخیره سازی فایل سرور محلی روی داد."
-  },
-  {
     "id": "utils.file.list_directory.s3.app_error",
     "translation": "خطایی روی دایرکتوری لیست از S3 روی داد."
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "هنگام حذف پوشه از ذخیره سازی پرونده سرور محلی خطایی روی داد."
-  },
-  {
     "id": "utils.file.remove_directory.s3.app_error",
     "translation": "هنگام حذف پوشه از S3 خطایی روی داد."
-  },
-  {
-    "id": "utils.file.remove_file.local.app_error",
-    "translation": "هنگام حذف فایل از ذخیره سازی پرونده سرور محلی خطایی روی داد."
   },
   {
     "id": "utils.file.remove_file.s3.app_error",

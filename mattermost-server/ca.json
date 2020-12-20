@@ -24,16 +24,8 @@
     "translation": "No es pot escriure el missatge del correu."
   },
   {
-    "id": "utils.file.remove_file.local.app_error",
-    "translation": "S'ha trobat un error en eliminar el fitxer de l'emmagatzematge al servidor local."
-  },
-  {
     "id": "utils.file.remove_directory.local.app_error",
     "translation": "S'ha trobat un error en eliminar el directori de l'emmagatzematge al servidor local."
-  },
-  {
-    "id": "utils.file.list_directory.local.app_error",
-    "translation": "S'ha trobat un error en llistar el directori de l'emmagatzematge al servidor local."
   },
   {
     "id": "app.reaction.save.save.app_error",
@@ -3262,16 +3254,8 @@
     "translation": "L'administrador del sistema ha desactivat els «webhooks» entrants."
   },
   {
-    "id": "api.file.write_file_locally.writing.app_error",
-    "translation": "S'ha trobat un error en escriure a l'emmagatzematge del servidor local"
-  },
-  {
     "id": "api.file.write_file_locally.create_dir.app_error",
     "translation": "S'ha trobat un error en crear el directori del nou fitxer"
-  },
-  {
-    "id": "api.file.write_file.s3.app_error",
-    "translation": "S'ha trobat un error en escriure a l'S3"
   },
   {
     "id": "api.file.upload_file.too_large_detailed.app_error",
@@ -3310,24 +3294,12 @@
     "translation": "No es poden penjar els fitxers. Hi ha {{.NumClientIds}} «clients_ids» per a {{.NumFiles}} fitxers."
   },
   {
-    "id": "api.file.test_connection.s3.bucket_exists.app_error",
-    "translation": "S'ha produït un error en comprovar si existeix el cub."
-  },
-  {
     "id": "api.file.test_connection.local.connection.app_error",
     "translation": "No tens permisos per escriure a la ruta d'accés local especificada o un altre error."
   },
   {
-    "id": "api.file.reader.s3.app_error",
-    "translation": "S'ha trobat un error en obrir un lector de l'emmagatzematge de l'S3"
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "S'ha trobat un error en obrir un lector de l'emmagatzematge de fitxers del servidor local"
-  },
-  {
-    "id": "api.file.read_file.s3.app_error",
-    "translation": "S'ha trobat un error en llegir des de l'emmagatzematge de l'S3"
   },
   {
     "id": "api.file.read_file.reading_local.app_error",
@@ -3338,16 +3310,8 @@
     "translation": "No s'ha seleccionat cap gestor de fitxers."
   },
   {
-    "id": "api.file.move_file.rename.app_error",
-    "translation": "No s'ha pogut moure el fitxer localment."
-  },
-  {
     "id": "api.file.move_file.delete_from_s3.app_error",
     "translation": "No s'ha pogut eliminar el fitxer de l'S3."
-  },
-  {
-    "id": "api.file.move_file.copy_within_s3.app_error",
-    "translation": "No s'ha pogut copiar el fitxer dins de l'S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -3368,10 +3332,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "L'enllaç públic no sembla que sigui vàlid"
-  },
-  {
-    "id": "api.file.file_exists.s3.app_error",
-    "translation": "No s'ha pogut comprovar si el fitxer existeix."
   },
   {
     "id": "api.file.file_exists.exists_local.app_error",

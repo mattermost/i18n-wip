@@ -484,15 +484,7 @@
     "translation": "Gagal membuka koneksi"
   },
   {
-    "id": "utils.file.remove_file.local.app_error",
-    "translation": "Terjadi kesalahan saat membaca dari penyimpanan server lokal"
-  },
-  {
     "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Terjadi kesalahan saat membaca dari penyimpanan server lokal"
-  },
-  {
-    "id": "utils.file.list_directory.local.app_error",
     "translation": "Terjadi kesalahan saat membaca dari penyimpanan server lokal"
   },
   {
@@ -1804,40 +1796,20 @@
     "translation": "Webhooks masuk telah dinonaktifkan oleh admin sistem."
   },
   {
-    "id": "api.file.write_file_locally.writing.app_error",
-    "translation": "Terjadi kesalahan saat menulis ke penyimpanan server lokal"
-  },
-  {
     "id": "api.file.write_file_locally.create_dir.app_error",
     "translation": "Terjadi kesalahan saat membuat daftar untuk berkas baru"
-  },
-  {
-    "id": "api.file.write_file.s3.app_error",
-    "translation": "Terjadi kesalahan saat menulis ke S3"
   },
   {
     "id": "api.file.upload_file.storage.app_error",
     "translation": "Tidak dapat mengunggah berkas. Penyimpanan berkas belum diatur."
   },
   {
-    "id": "api.file.reader.s3.app_error",
-    "translation": "Terjadi kesalahan saat membaca dari penyimpanan server lokal"
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
-    "translation": "Terjadi kesalahan saat membaca dari penyimpanan server lokal"
-  },
-  {
-    "id": "api.file.read_file.s3.app_error",
     "translation": "Terjadi kesalahan saat membaca dari penyimpanan server lokal"
   },
   {
     "id": "api.file.read_file.reading_local.app_error",
     "translation": "Terjadi kesalahan saat membaca dari penyimpanan server lokal"
-  },
-  {
-    "id": "api.file.move_file.rename.app_error",
-    "translation": "Tidak dapat memindahkan berkas secara lokal."
   },
   {
     "id": "api.file.move_file.delete_from_s3.app_error",

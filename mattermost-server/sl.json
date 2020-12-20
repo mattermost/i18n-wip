@@ -80,24 +80,12 @@
     "translation": "HELO ni bilo mogoče nastaviti"
   },
   {
-    "id": "utils.file.remove_file.s3.app_error",
-    "translation": "Prišlo je do napake pri odstranjevanju datoteke iz S3."
-  },
-  {
     "id": "utils.file.remove_file.local.app_error",
     "translation": "Napaka med odstranjevanjem datoteke iz lokalne strežniške shrambe."
   },
   {
-    "id": "utils.file.remove_directory.s3.app_error",
-    "translation": "Prišlo je do napake pri odstranjevanju mape iz S3."
-  },
-  {
     "id": "utils.file.remove_directory.local.app_error",
     "translation": "Napaka med brisanjem mape iz lokalne strežniške shrambe."
-  },
-  {
-    "id": "utils.file.list_directory.s3.app_error",
-    "translation": "Prišlo je do napake pri odstranjevanju mape iz S3."
   },
   {
     "id": "utils.file.list_directory.local.app_error",
@@ -3758,16 +3746,8 @@
     "translation": "Vrstica za uvoz podatkov ima tip \"shema\", vendar ima objekt sheme vrednost null."
   },
   {
-    "id": "api.file.write_file_locally.writing.app_error",
-    "translation": "Napaka med pisanjem v lokalno shrambo"
-  },
-  {
     "id": "api.file.write_file_locally.create_dir.app_error",
     "translation": "Napaka med kreiranjem mape za novo datoteko"
-  },
-  {
-    "id": "api.file.write_file.s3.app_error",
-    "translation": "Napaka pri pisanju v S3"
   },
   {
     "id": "api.file.upload_file.too_large_detailed.app_error",
@@ -3806,16 +3786,8 @@
     "translation": "Datotek/e ni mogoče naložiti. Morate imeti {{.NumClientIds}} client_id za {{.NumFiles}} datotek."
   },
   {
-    "id": "api.file.test_connection.local.connection.app_error",
-    "translation": "Nimate dovoljenj za pisanje na podano lokalno pot ali drugo napako."
-  },
-  {
     "id": "api.file.reader.s3.app_error",
     "translation": "Prišlo je do napake pri odpiranju bralnika s shrambe S3"
-  },
-  {
-    "id": "api.file.reader.reading_local.app_error",
-    "translation": "Prišlo je do napake pri odpiranju bralnika iz shrambe datotek lokalnega strežnika"
   },
   {
     "id": "api.file.read_file.s3.app_error",
@@ -3830,16 +3802,8 @@
     "translation": "Ni izbran gonilnik datotek."
   },
   {
-    "id": "api.file.move_file.rename.app_error",
-    "translation": "Datoteke ni mogoče lokalno premakniti."
-  },
-  {
     "id": "api.file.move_file.delete_from_s3.app_error",
     "translation": "Ni mogoče izbrisati datoteke iz S3."
-  },
-  {
-    "id": "api.file.move_file.copy_within_s3.app_error",
-    "translation": "Ni mogoče kopirati datoteke znotraj S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -3860,10 +3824,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "Javna povezave ne izgleda veljavna"
-  },
-  {
-    "id": "api.file.file_exists.s3.app_error",
-    "translation": "Ni možno preveriti obstoj datoteke."
   },
   {
     "id": "api.file.file_exists.exists_local.app_error",

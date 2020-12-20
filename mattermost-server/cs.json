@@ -52,15 +52,7 @@
     "translation": "Nelze navázat spojení."
   },
   {
-    "id": "utils.file.remove_file.local.app_error",
-    "translation": "Nastala chyba při čtení z lokálního uložiště."
-  },
-  {
     "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Nastala chyba při čtení z lokálního uložiště."
-  },
-  {
-    "id": "utils.file.list_directory.local.app_error",
     "translation": "Nastala chyba při čtení z lokálního uložiště."
   },
   {
@@ -4148,16 +4140,8 @@
     "translation": "Příchozí webhooky byly zakázány systémovým administrátorem."
   },
   {
-    "id": "api.file.write_file_locally.writing.app_error",
-    "translation": "Nastala chyba při pokusu o psaní do lokálního úložiště serveru."
-  },
-  {
     "id": "api.file.write_file_locally.create_dir.app_error",
     "translation": "Nastala chyba při vytváření adresáře pro nový soubor."
-  },
-  {
-    "id": "api.file.write_file.s3.app_error",
-    "translation": "Nastala chyba při vkládání do S3."
   },
   {
     "id": "api.file.upload_file.too_large_detailed.app_error",
@@ -4196,24 +4180,12 @@
     "translation": "Soubor(y) nelze nahrát. Máte {{.NumClientIds}} client_ids pro {{.NumFiles}} souborů."
   },
   {
-    "id": "api.file.test_connection.s3.bucket_exists.app_error",
-    "translation": "Chyba při ověření existence zásobníku."
-  },
-  {
     "id": "api.file.test_connection.local.connection.app_error",
     "translation": "Nemáte dostatečné oprávnění k zápisu do specifikované lokální cesty nebo nastala jiná chyba."
   },
   {
-    "id": "api.file.reader.s3.app_error",
-    "translation": "Nastala chyba při otevření a čtení z S3 úložiště."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "Nastala chyba při otevření a čtení z lokálního úložiště."
-  },
-  {
-    "id": "api.file.read_file.s3.app_error",
-    "translation": "Nastala chyba při čtení z S3 úložiště."
   },
   {
     "id": "api.file.read_file.reading_local.app_error",
@@ -4224,16 +4196,8 @@
     "translation": "Není vybrán ovladač souboru."
   },
   {
-    "id": "api.file.move_file.rename.app_error",
-    "translation": "Nelze lokálně přsunout soubor."
-  },
-  {
     "id": "api.file.move_file.delete_from_s3.app_error",
     "translation": "Nelze odstranit soubor z uložiště S3."
-  },
-  {
-    "id": "api.file.move_file.copy_within_s3.app_error",
-    "translation": "Nelze zkopírovat soubor v S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -4254,10 +4218,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "Tento veřejný odkaz se nezdá být v pořádku."
-  },
-  {
-    "id": "api.file.file_exists.s3.app_error",
-    "translation": "Nelze ověřit existenci souboru."
   },
   {
     "id": "api.file.file_exists.exists_local.app_error",
@@ -5888,16 +5848,8 @@
     "translation": "Tuto úlohu nelze stáhnout"
   },
   {
-    "id": "api.file.append_file.writing.app_error",
-    "translation": "Při zápisu na S3 došlo k chybě."
-  },
-  {
     "id": "api.file.append_file.s3.app_error",
     "translation": "Došlo k chybě při připisování do souboru v S3."
-  },
-  {
-    "id": "api.file.append_file.opening.app_error",
-    "translation": "Při otevírání souboru došlo k chybě."
   },
   {
     "id": "api.file.append_file.no_exist.app_error",
@@ -7312,23 +7264,11 @@
     "translation": "Nelze získat testovací licenci, prosím zkuste znovu nebo kontaktujte podporu na support@mattermost.com. Nelze získat počet registrovaných uživatelů."
   },
   {
-    "id": "api.file.test_connection.s3.list_objects.app_error",
-    "translation": "Chyba při pokusu vylistovat objekty."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_create.app_error",
     "translation": "Nelze vytvořit bucket."
   },
   {
-    "id": "api.file.new_backend.s3.app_error",
-    "translation": "Vyskytla se chyba při spojování k S3."
-  },
-  {
     "id": "api.file.file_size.s3.app_error",
-    "translation": "Nelze zjistit velikost souboru."
-  },
-  {
-    "id": "api.file.file_size.local.app_error",
     "translation": "Nelze zjistit velikost souboru."
   },
   {

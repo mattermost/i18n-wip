@@ -1713,16 +1713,8 @@
     "translation": "Заявеният URL адрес на изображение не може да бъде анализиран."
   },
   {
-    "id": "api.file.write_file_locally.writing.app_error",
-    "translation": "Възникна грешка при запис във файловото хранилище на локалния сървър."
-  },
-  {
     "id": "api.file.write_file_locally.create_dir.app_error",
     "translation": "Възникна грешка при създаването на директория за новия файл."
-  },
-  {
-    "id": "api.file.write_file.s3.app_error",
-    "translation": "Възникна грешка при запис в S3."
   },
   {
     "id": "api.file.upload_file.too_large_detailed.app_error",
@@ -1761,24 +1753,12 @@
     "translation": "Невъзможно качването на файл. Неправилно ID на канала: {{.channelId}}"
   },
   {
-    "id": "api.file.test_connection.s3.bucket_exists.app_error",
-    "translation": "Грешка при проверка за съществуване на S3 bucket."
-  },
-  {
     "id": "api.file.test_connection.local.connection.app_error",
     "translation": "Нямате права за запис в указан локален път или друга грешка."
   },
   {
-    "id": "api.file.reader.s3.app_error",
-    "translation": "Възникна грешка при отваряне на четец за S3 хранилище."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "Възникна грешка при отваряне на четец за файловото хранилище в локалния сървър."
-  },
-  {
-    "id": "api.file.read_file.s3.app_error",
-    "translation": "Възникна грешка при четене от S3 хранилище."
   },
   {
     "id": "api.file.read_file.reading_local.app_error",
@@ -1789,16 +1769,8 @@
     "translation": "Няма избран файлов драйвер."
   },
   {
-    "id": "api.file.move_file.rename.app_error",
-    "translation": "Не можа да се премести файл локално."
-  },
-  {
     "id": "api.file.move_file.delete_from_s3.app_error",
     "translation": "Не можа да се изтрие файл от S3."
-  },
-  {
-    "id": "api.file.move_file.copy_within_s3.app_error",
-    "translation": "Не можа да се копира файл в рамките на S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -1819,10 +1791,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "Публичната връзка изглежда не е валидна."
-  },
-  {
-    "id": "api.file.file_exists.s3.app_error",
-    "translation": "Не може да се провери дали файлът съществува."
   },
   {
     "id": "api.file.file_exists.exists_local.app_error",
@@ -2521,10 +2489,6 @@
   {
     "id": "model.outgoing_hook.icon_url.app_error",
     "translation": "Невалидна икона."
-  },
-  {
-    "id": "utils.file.remove_directory.s3.app_error",
-    "translation": "Среща грешка при изтриване на директория от S3."
   },
   {
     "id": "model.compliance.is_valid.id.app_error",
@@ -3353,10 +3317,6 @@
   {
     "id": "app.preference.get_all.app_error",
     "translation": "При откриването на предпочитания срещнахме грешка."
-  },
-  {
-    "id": "utils.file.list_directory.local.app_error",
-    "translation": "Срещнахме грешка при показване на директория в локалното хранилище за файлове на сървъра."
   },
   {
     "id": "model.channel.is_valid.2_or_more.app_error",
@@ -4803,20 +4763,12 @@
     "translation": "Получих невалиден отговор от доставчика на услуги на OAuth."
   },
   {
-    "id": "utils.file.remove_file.s3.app_error",
-    "translation": "Възникна грешка при изтриване на файл от S3."
-  },
-  {
     "id": "model.config.is_valid.ldap_security.app_error",
     "translation": "Невалидна защита на връзката за настройките на AD/LDAP. Трябва да е 'TLS' или 'STARTTLS'."
   },
   {
     "id": "web.error.unsupported_browser.download_the_app",
     "translation": "Изтеглете приложението"
-  },
-  {
-    "id": "utils.file.list_directory.s3.app_error",
-    "translation": "Срещнахме грешка при показване на директория от S3."
   },
   {
     "id": "model.command.is_valid.method.app_error",
@@ -6035,10 +5987,6 @@
     "translation": "При проверката на отговора от доставчика на идентичност възникна грешка. Моля, свържете се със системния администратор."
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Срещнахме грешка при изтриване на директория от локалното хранилище за файлове на сървъра."
-  },
-  {
     "id": "model.user.is_valid.password_limit.app_error",
     "translation": "Не може да се зададе парола над 72 знака поради ограниченията на bcrypt."
   },
@@ -6609,10 +6557,6 @@
   {
     "id": "app.import.validate_user_import_data.advanced_props_show_unread_section.error",
     "translation": "Невалидна настройка за покажи непрочетени секции за потребител"
-  },
-  {
-    "id": "utils.file.remove_file.local.app_error",
-    "translation": "Срещнахме грешка при изтриване на файл от локалното хранилище за файлове на сървъра."
   },
   {
     "id": "model.team.is_valid.type.app_error",
@@ -7259,24 +7203,12 @@
     "translation": "Не можете да получите пробен лиценз, моля, опитайте отново или се свържете със support@mattermost.com. Не може да се получи броят на регистрираните потребители."
   },
   {
-    "id": "api.file.test_connection.s3.list_objects.app_error",
-    "translation": "Грешка при опит за създаване списък на обекти."
-  },
-  {
     "id": "api.file.test_connection.s3.bucket_create.app_error",
     "translation": "Не можа да се създаде S3 bucket."
   },
   {
-    "id": "api.file.append_file.writing.app_error",
-    "translation": "Възникна грешка при запис в S3."
-  },
-  {
     "id": "api.file.append_file.opening.app_error",
     "translation": "Възникна грешка при отваряне на файла."
-  },
-  {
-    "id": "api.file.append_file.s3.app_error",
-    "translation": "Възникна грешка при добавяне към файл в S3."
   },
   {
     "id": "api.file.append_file.no_exist.app_error",
@@ -7991,10 +7923,6 @@
     "translation": "Актуализирането на членство в разговор на споменат потребител не бе успешно"
   },
   {
-    "id": "api.file.new_backend.s3.app_error",
-    "translation": "Възникна грешка при отваряне на връзка към S3."
-  },
-  {
     "id": "app.user.verify_email.app_error",
     "translation": "Полето за потвърждаване на ел.поща не може да се актуализира."
   },
@@ -8417,10 +8345,6 @@
   {
     "id": "api.system.update_viewed_notices.failed",
     "translation": "Неуспешно актуализиране на прегледаните известия"
-  },
-  {
-    "id": "api.file.file_size.s3.app_error",
-    "translation": "Не може да се получи размера на файла."
   },
   {
     "id": "api.file.file_size.local.app_error",
