@@ -1713,10 +1713,6 @@
     "translation": "Заявеният URL адрес на изображение не може да бъде анализиран."
   },
   {
-    "id": "api.file.write_file_locally.create_dir.app_error",
-    "translation": "Възникна грешка при създаването на директория за новия файл."
-  },
-  {
     "id": "api.file.upload_file.too_large_detailed.app_error",
     "translation": "Не може да се качи файла {{.Filename}}. {{.Length}} байта надхвърля максималните {{.Limit}} байта."
   },
@@ -1753,10 +1749,6 @@
     "translation": "Невъзможно качването на файл. Неправилно ID на канала: {{.channelId}}"
   },
   {
-    "id": "api.file.test_connection.local.connection.app_error",
-    "translation": "Нямате права за запис в указан локален път или друга грешка."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "Възникна грешка при отваряне на четец за файловото хранилище в локалния сървър."
   },
@@ -1767,10 +1759,6 @@
   {
     "id": "api.file.no_driver.app_error",
     "translation": "Няма избран файлов драйвер."
-  },
-  {
-    "id": "api.file.move_file.delete_from_s3.app_error",
-    "translation": "Не можа да се изтрие файл от S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -1791,10 +1779,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "Публичната връзка изглежда не е валидна."
-  },
-  {
-    "id": "api.file.file_exists.exists_local.app_error",
-    "translation": "Не може да се провери дали файлът съществува."
   },
   {
     "id": "api.file.attachments.disabled.app_error",
@@ -7203,16 +7187,8 @@
     "translation": "Не можете да получите пробен лиценз, моля, опитайте отново или се свържете със support@mattermost.com. Не може да се получи броят на регистрираните потребители."
   },
   {
-    "id": "api.file.test_connection.s3.bucket_create.app_error",
-    "translation": "Не можа да се създаде S3 bucket."
-  },
-  {
     "id": "api.file.append_file.opening.app_error",
     "translation": "Възникна грешка при отваряне на файла."
-  },
-  {
-    "id": "api.file.append_file.no_exist.app_error",
-    "translation": "Файлът не съществува."
   },
   {
     "id": "api.cloud.request_error",
@@ -8345,10 +8321,6 @@
   {
     "id": "api.system.update_viewed_notices.failed",
     "translation": "Неуспешно актуализиране на прегледаните известия"
-  },
-  {
-    "id": "api.file.file_size.local.app_error",
-    "translation": "Не може да се получи размера на файла."
   },
   {
     "id": "api.config.patch_config.restricted_merge.app_error",

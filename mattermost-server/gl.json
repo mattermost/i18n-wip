@@ -330,9 +330,5 @@
   {
     "id": "api.roles.patch_roles.not_allowed_permission.error",
     "translation": "Un ou máis dos seguintes permisos que tenta engadir ou eliminar non está autorizado"
-  },
-  {
-    "id": "api.file.file_size.local.app_error",
-    "translation": "Non é posíbel obter o tamaño do ficheiro."
   }
 ]

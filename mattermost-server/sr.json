@@ -4,10 +4,6 @@
     "translation": "Долазне веб куке су онемогућене од стране админа система."
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Наишао сам на грешку приликом уклањања фасцикле из локалног серверског складишта."
-  },
-  {
     "id": "model.token.is_valid.size",
     "translation": "Неисправан жетон."
   },
@@ -470,10 +466,6 @@
   {
     "id": "api.file.upload_file.large_image.app_error",
     "translation": "Не може се отпремити датотека која прекорачује највеће димензије: {{.Filename}}"
-  },
-  {
-    "id": "api.file.move_file.delete_from_s3.app_error",
-    "translation": "Не могу да обришем датотеку са S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",

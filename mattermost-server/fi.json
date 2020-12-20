@@ -88,16 +88,8 @@
     "translation": "Ei voitu asettaa HELO"
   },
   {
-    "id": "utils.file.remove_file.local.app_error",
-    "translation": "Virhe poistettaessa tiedostoa paikallisesta tiedostovarastosta."
-  },
-  {
     "id": "utils.file.remove_directory.local.app_error",
     "translation": "Virhe poistettaessa hakemisto paikallisesta tiedostovarastosta."
-  },
-  {
-    "id": "utils.file.list_directory.local.app_error",
-    "translation": "Virhe luettaessa hakemistoa paikallisesta tiedostovarastosta."
   },
   {
     "id": "system.message.name",
@@ -3930,10 +3922,6 @@
     "translation": "Pääkäyttäjä on estänyt sisään tulevat webhookit."
   },
   {
-    "id": "api.file.write_file_locally.create_dir.app_error",
-    "translation": "Virhe luotaessa hakemistoa uudelle tiedostolle"
-  },
-  {
     "id": "api.file.upload_file.too_large_detailed.app_error",
     "translation": "Tiedoston {{.Filename}} lataaminen epäonnistui. {{.Length}} tavua on enemmän kuin suurin sallittu koko {{.Limit}} tavua."
   },
@@ -3970,10 +3958,6 @@
     "translation": "Tiedoston lataaminen epäonnistui. {{.NumClientIds}} client_id arvoa {{.NumFiles}} tiedostolle."
   },
   {
-    "id": "api.file.test_connection.local.connection.app_error",
-    "translation": "Ei oikeutta kirjoittaa määritettyyn paikalliseen sijaintiin tai muu virhe."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "Virhe avattaessa lukija paikallisesta tiedostopalvelimesta"
   },
@@ -3984,10 +3968,6 @@
   {
     "id": "api.file.no_driver.app_error",
     "translation": "Tiedostoajuria ei valittuna."
-  },
-  {
-    "id": "api.file.move_file.delete_from_s3.app_error",
-    "translation": "Tiedostoa ei voida poistaa S3:sta."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -4008,10 +3988,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "Julkinen linkki ei näytä olevan kelvollinen"
-  },
-  {
-    "id": "api.file.file_exists.exists_local.app_error",
-    "translation": "Ei voitu tarkistaa onko tiedosto olemassa."
   },
   {
     "id": "api.file.attachments.disabled.app_error",

@@ -52,10 +52,6 @@
     "translation": "Nelze navázat spojení."
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Nastala chyba při čtení z lokálního uložiště."
-  },
-  {
     "id": "system.message.name",
     "translation": "Systém"
   },
@@ -4140,10 +4136,6 @@
     "translation": "Příchozí webhooky byly zakázány systémovým administrátorem."
   },
   {
-    "id": "api.file.write_file_locally.create_dir.app_error",
-    "translation": "Nastala chyba při vytváření adresáře pro nový soubor."
-  },
-  {
     "id": "api.file.upload_file.too_large_detailed.app_error",
     "translation": "Soubor(y) nelze nahrát. {{.Length}}B překračuje maximální povolenou velikost {{.Limit}}B."
   },
@@ -4180,10 +4172,6 @@
     "translation": "Soubor(y) nelze nahrát. Máte {{.NumClientIds}} client_ids pro {{.NumFiles}} souborů."
   },
   {
-    "id": "api.file.test_connection.local.connection.app_error",
-    "translation": "Nemáte dostatečné oprávnění k zápisu do specifikované lokální cesty nebo nastala jiná chyba."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "Nastala chyba při otevření a čtení z lokálního úložiště."
   },
@@ -4194,10 +4182,6 @@
   {
     "id": "api.file.no_driver.app_error",
     "translation": "Není vybrán ovladač souboru."
-  },
-  {
-    "id": "api.file.move_file.delete_from_s3.app_error",
-    "translation": "Nelze odstranit soubor z uložiště S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -4218,10 +4202,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "Tento veřejný odkaz se nezdá být v pořádku."
-  },
-  {
-    "id": "api.file.file_exists.exists_local.app_error",
-    "translation": "Nelze zkontrolovat, zda soubor existuje."
   },
   {
     "id": "api.file.attachments.disabled.app_error",
@@ -5848,10 +5828,6 @@
     "translation": "Tuto úlohu nelze stáhnout"
   },
   {
-    "id": "api.file.append_file.s3.app_error",
-    "translation": "Došlo k chybě při připisování do souboru v S3."
-  },
-  {
     "id": "api.file.append_file.no_exist.app_error",
     "translation": "Soubor neexistuje."
   },
@@ -7262,10 +7238,6 @@
   {
     "id": "api.license.request_trial_license.fail_get_user_count.app_error",
     "translation": "Nelze získat testovací licenci, prosím zkuste znovu nebo kontaktujte podporu na support@mattermost.com. Nelze získat počet registrovaných uživatelů."
-  },
-  {
-    "id": "api.file.test_connection.s3.bucket_create.app_error",
-    "translation": "Nelze vytvořit bucket."
   },
   {
     "id": "api.file.file_size.s3.app_error",

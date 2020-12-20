@@ -144,15 +144,7 @@
     "translation": "Không thể đặt Helo"
   },
   {
-    "id": "utils.file.remove_file.local.app_error",
-    "translation": "Có lỗi đọc trên server chứa file cục bộ."
-  },
-  {
     "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Đã gặp lỗi khi mở trình đọc từ bộ lưu trữ tệp máy chủ cục bộ."
-  },
-  {
-    "id": "utils.file.list_directory.local.app_error",
     "translation": "Đã gặp lỗi khi mở trình đọc từ bộ lưu trữ tệp máy chủ cục bộ."
   },
   {
@@ -4352,10 +4344,6 @@
     "translation": "Không thể tải tệp tin. Có {{.NumClientIds}} client_ids cho {{.NumFiles}} tệp tin."
   },
   {
-    "id": "api.file.test_connection.local.connection.app_error",
-    "translation": "Không có quyền ghi vào đường dẫn cục bộ được chỉ định hoặc lỗi khác."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "Đã gặp lỗi khi mở trình đọc từ bộ lưu trữ tệp máy chủ cục bộ"
   },
@@ -4366,10 +4354,6 @@
   {
     "id": "api.file.no_driver.app_error",
     "translation": "Không có file driver nào được chọn."
-  },
-  {
-    "id": "api.file.move_file.delete_from_s3.app_error",
-    "translation": "Không thể xoá tệp trong S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -4390,10 +4374,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "Link không hợp lệ"
-  },
-  {
-    "id": "api.file.file_exists.exists_local.app_error",
-    "translation": "Không thể kiểm tra file có tồn tại hay không."
   },
   {
     "id": "api.file.attachments.disabled.app_error",
@@ -5652,10 +5632,6 @@
   {
     "id": "api.incoming_webhook.disabled.app_error",
     "translation": "Các webhooks sắp tới đã bị vô hiệu hóa bởi quản trị viên hệ thống."
-  },
-  {
-    "id": "api.file.write_file_locally.create_dir.app_error",
-    "translation": "Đã gặp lỗi khi tạo thư mục cho tệp mới"
   },
   {
     "id": "api.file.upload_file.too_large_detailed.app_error",

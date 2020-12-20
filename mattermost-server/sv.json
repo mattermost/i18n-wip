@@ -156,16 +156,8 @@
     "translation": "Misslyckades att bifoga fil till e-postmeddelandet"
   },
   {
-    "id": "utils.file.remove_file.local.app_error",
-    "translation": "Stötte på ett fel vid radering av fil från den lokala serverns fil-lagring."
-  },
-  {
     "id": "utils.file.remove_directory.local.app_error",
     "translation": "Stötte på ett fel vid radering av katalog från den lokala serverns fil-lagring."
-  },
-  {
-    "id": "utils.file.list_directory.local.app_error",
-    "translation": "Stötte på ett fel vid kataloglistning från den lokala serverns fil-lagring."
   },
   {
     "id": "system.message.name",
@@ -4638,10 +4630,6 @@
     "translation": "Kan inte tolka den begärda bildens URL."
   },
   {
-    "id": "api.file.write_file_locally.create_dir.app_error",
-    "translation": "Ett fel uppstod vid skapande av katalogen för den nya filen."
-  },
-  {
     "id": "api.file.upload_file.too_large_detailed.app_error",
     "translation": "Kunde inte ladda upp filen {{.Filename}}. Storleken {{.Length}} byte är över det tillåtna {{.Limit}} byte."
   },
@@ -4678,10 +4666,6 @@
     "translation": "Kunde inte ladda upp fil(er). Har {{.NumClientIds}} client_ids för {{.NumFiles}} filer."
   },
   {
-    "id": "api.file.test_connection.local.connection.app_error",
-    "translation": "Har inte rättighet att skriva till den angivna lokala filsökvägen, eller annat fel."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "Stötte på ett fel vid användandet av en läsare från den lokala serverns fillagring."
   },
@@ -4692,10 +4676,6 @@
   {
     "id": "api.file.no_driver.app_error",
     "translation": "Ingen filhanterare vald."
-  },
-  {
-    "id": "api.file.move_file.delete_from_s3.app_error",
-    "translation": "Kan inte ta bort filen från S3."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -4716,10 +4696,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "Den publika länken verkar inte vara giltigt."
-  },
-  {
-    "id": "api.file.file_exists.exists_local.app_error",
-    "translation": "Kunde inte kontrollera om filen finns."
   },
   {
     "id": "api.file.attachments.disabled.app_error",
@@ -6607,10 +6583,6 @@
     "translation": "Fel vid läsning av multiform förfrågan"
   },
   {
-    "id": "api.file.append_file.no_exist.app_error",
-    "translation": "Filen existerar ej."
-  },
-  {
     "id": "web.incoming_webhook.user.app_error",
     "translation": "Kan inte hitta användaren."
   },
@@ -6755,10 +6727,6 @@
     "translation": "Kunde inte få en prova-på-licens, försök igen eller kontakta support@mattermost.com. Kunde inte ta fram antalet registrerade användare."
   },
   {
-    "id": "api.file.test_connection.s3.bucket_create.app_error",
-    "translation": "Kunde inte skapa bucket."
-  },
-  {
     "id": "api.cloud.request_error",
     "translation": "Fel när anrop till CWS hanterades."
   },
@@ -6781,10 +6749,6 @@
   {
     "id": "api.server.warn_metric.mfa.notification_body",
     "translation": "Din Mattermostinstallation har flerfaktorsautentisering aktiverad som ger användaren möjlighet att säkra sitt konto med fler autentiseringslösningar utöver traditionellt lösenord. För att utöka säkerheten för hela installationen kan du kräva flerfaktorsiautentisering av alla anvädare.\n\n[Läs mer om flerfaktorsautentisering](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nGenom att klicka på Kontakta oss kommer du dela information med Mattermost Inc. [Läs mer](https://mattermost.com/pl/default-admin-advisory)"
-  },
-  {
-    "id": "api.file.append_file.s3.app_error",
-    "translation": "Ett fel uppstod vid läsning av en fil i S3."
   },
   {
     "id": "api.templates.at_limit_info1",
@@ -8345,10 +8309,6 @@
   {
     "id": "api.templates.payment_failed_no_card.button",
     "translation": "Betala nu"
-  },
-  {
-    "id": "api.file.file_size.local.app_error",
-    "translation": "Kunde inte hämta filstorleken."
   },
   {
     "id": "app.channel.save_member.exists.app_error",

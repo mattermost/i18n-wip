@@ -16,10 +16,6 @@
     "translation": "Nem találtuk a csatornát"
   },
   {
-    "id": "utils.file.remove_directory.local.app_error",
-    "translation": "Hibatörtént a helyi szerverfálj tároló betöltése közben."
-  },
-  {
     "id": "system.message.name",
     "translation": "Rendszer"
   },
@@ -900,10 +896,6 @@
     "translation": "Nem sikerült feltölteni a fájlokat. Ennyi: {{.NumClientIds}} client_ids nem sikerült ennyi: {{.NumFiles}} a fájlból."
   },
   {
-    "id": "api.file.test_connection.local.connection.app_error",
-    "translation": "Nincs engedély a megadott helyi elérési út írásához, vagy egyéb hiba történt."
-  },
-  {
     "id": "api.file.reader.reading_local.app_error",
     "translation": "Hiba történt a helyi szerver fájl tároló betöltése közben."
   },
@@ -914,10 +906,6 @@
   {
     "id": "api.file.no_driver.app_error",
     "translation": "Nincsen fájl-meghajtórendszer kiválasztva."
-  },
-  {
-    "id": "api.file.move_file.delete_from_s3.app_error",
-    "translation": "Nem sikerült törölni a fáljt az S3-ból."
   },
   {
     "id": "api.file.get_public_link.no_post.app_error",
@@ -938,10 +926,6 @@
   {
     "id": "api.file.get_file.public_invalid.app_error",
     "translation": "A nyilvános link nem tűnik érvényesnek."
-  },
-  {
-    "id": "api.file.file_exists.exists_local.app_error",
-    "translation": "Nem lehet ellenőrizni, hogy létezik-e a fájl."
   },
   {
     "id": "api.file.attachments.disabled.app_error",
@@ -2169,10 +2153,6 @@
     "translation": "A kért url nem értelmezhető."
   },
   {
-    "id": "api.file.write_file_locally.create_dir.app_error",
-    "translation": "Hiba történt az új fájl könyvtárának létrehozásakor."
-  },
-  {
     "id": "api.file.upload_file.too_large_detailed.app_error",
     "translation": "Fájl feltöltése sikertelen: {{.Filename}}. {{.Length}} byte-al haladja meg a megengedett maximális {{.Limit}} byte méretet."
   },
@@ -2397,16 +2377,8 @@
     "translation": "Nem lehet feltölteni a fájlt. Helytelen csatorna ID: {{.channelId}}"
   },
   {
-    "id": "api.file.test_connection.s3.bucket_create.app_error",
-    "translation": "Nem sikerült létrehozni a vödröt."
-  },
-  {
     "id": "api.file.append_file.s3.app_error",
     "translation": "Hiba történt az S3 fájlhoz való csatoláskor."
-  },
-  {
-    "id": "api.file.append_file.no_exist.app_error",
-    "translation": "A fájl nem létezik."
   },
   {
     "id": "api.emoji.create.internal_error",
