@@ -7562,5 +7562,29 @@
   {
     "id": "app.channel.create_initial_sidebar_categories.internal_error",
     "translation": "Nepodařilo se vytvořit úvodní panel kategorií pro uživatele."
+  },
+  {
+    "id": "app.post.get_flagged_posts.app_error",
+    "translation": "Označené příspěvky nelze získat."
+  },
+  {
+    "id": "app.post.get_direct_posts.app_error",
+    "translation": "Zprávy nelze získat."
+  },
+  {
+    "id": "app.post.get.app_error",
+    "translation": "Příspěvek nelze načíst."
+  },
+  {
+    "id": "app.post.delete.app_error",
+    "translation": "Příspěvek nelze smazat."
+  },
+  {
+    "id": "app.post.analytics_user_counts_posts_by_day.app_error",
+    "translation": "Nelze získat počet uživatelů s příspěvky."
+  },
+  {
+    "id": "app.post.analytics_posts_count_by_day.app_error",
+    "translation": "Nelze získat počet příspěvků za den."
   }
 ]
