@@ -3575,6 +3575,7 @@
   "quick_switch_modal.help": "Börja skriv, använd sedan TAB för att växla mellan kanaler/team, **▲▼** för att bläddra, **ENTER** för att välja, **ESC** för att stänga.",
   "quick_switch_modal.help_mobile": "Skriv för att söka en kanal.",
   "quick_switch_modal.help_no_team": "Skriv något för att hitta en kanal. Använd **UPP/NER** för att rulla, **RETUR** för att välja, **ESC** för att avbryta.",
+  "quick_switch_modal.input": "Inmatningsfält för snabba byten",
   "quick_switch_modal.switchChannels": "Byt kanal",
   "quick_switch_modal.teams": "Grupper",
   "quick_switch_modal.teamsShortcut.mac": "- ⌘⌥K",
