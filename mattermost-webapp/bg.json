@@ -3575,6 +3575,7 @@
   "quick_switch_modal.help": "Започнете да пишете, след това използвайте TAB, за да превключвате канали/екипи, **▲▼**, за да разглеждате, **ENTER** за избор, **ESC** за отказ.",
   "quick_switch_modal.help_mobile": "Въведете, за да намерите канал.",
   "quick_switch_modal.help_no_team": "Въведете, за да намерите канал. Използвайте **ГОРЕ/ДОЛУ**, за да прегледате, **ENTER**, за да изберете, **ESC**, за да откажете.",
+  "quick_switch_modal.input": "бързо превключване на входа",
   "quick_switch_modal.switchChannels": "Превключване на канали",
   "quick_switch_modal.teams": "Екипи",
   "quick_switch_modal.teamsShortcut.mac": "- ⌘⌥K",
