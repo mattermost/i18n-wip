@@ -299,7 +299,7 @@
   "admin.billing.subscription.privateCloudCard.description": "Om ditt behov är egen, dedikerad arkitektur kan Mattermost Private Cloud (Beta) vara lösningen för samarbete med tillförlitliga verktyg.",
   "admin.billing.subscription.privateCloudCard.title": "Letar du efter tillförlitliga verktyg i privat moln?",
   "admin.billing.subscription.questions": "Frågor?",
-  "admin.billing.subscription.stateprovince": "State/Province",
+  "admin.billing.subscription.stateprovince": "Stat/provins",
   "admin.billing.subscription.title": "Prenumerationer",
   "admin.billing.subscription.upgrade": "Uppdatera",
   "admin.billing.subscription.upgradeCloudSubscription": "Uppgradera ditt Mattermost Cloud-abonnemang",
