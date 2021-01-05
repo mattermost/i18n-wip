@@ -301,6 +301,7 @@
   "admin.billing.subscription.questions": "Frågor?",
   "admin.billing.subscription.stateprovince": "Stat/provins",
   "admin.billing.subscription.title": "Prenumerationer",
+  "admin.billing.subscription.updatePaymentInfo": "Uppdatera betalinformationen",
   "admin.billing.subscription.upgrade": "Uppdatera",
   "admin.billing.subscription.upgradeCloudSubscription": "Uppgradera ditt Mattermost Cloud-abonnemang",
   "admin.billing.subscription.upgradeMattermostCloud.description": "Den fria tjänsten är **begränsad till 10 användare.** Få tillgång till fler användare, team och andra bra funktioner",
