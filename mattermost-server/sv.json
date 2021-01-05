@@ -8393,5 +8393,9 @@
   {
     "id": "api.file.append_file.app_error",
     "translation": "Det går inte att tillföra data till filen."
+  },
+  {
+    "id": "api.user.get_authorization_code.endpoint.app_error",
+    "translation": "Misslyckades med autorisationskoden."
   }
 ]
