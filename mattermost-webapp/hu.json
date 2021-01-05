@@ -1373,7 +1373,7 @@
   "leave_team_modal.no": "Nem",
   "leave_team_modal.title": "Elhagyja a csapatot?",
   "leave_team_modal.yes": "Igen",
-  "leave_team_modal_guest.desc": "** Eltávolít a csapat {num_of_public_channels} nyilvános { num_of_public_channels,plural,one {channel} other {channel}} és {num_of_private_channels} privát {num_of_private_channels,,plural,one {channel} other {channels}} csoportból. ** Nem tudsz újra csatlakozni a csapat másik tagjának meghívása nélkül. biztos vagy ebben?",
+  "leave_team_modal_guest.desc": "**Eltávolít a csapat {num_of_public_channels} nyilvános { num_of_public_channels,plural,one {channel} other {channel}} és {num_of_private_channels} privát {num_of_private_channels,,plural,one {channel} other {channels}} csoportból.** Nem tudsz újra csatlakozni a csapat másik tagjának meghívása nélkül. biztos vagy ebben?",
   "leave_team_modal_guest_only_private.desc": "** A rendszer eltávolítja a csapat {num_of_private_channels} privát { num_of_private_channels,plural,one {channel} other {channels}} csoportból. ** Nem tudsz újra csatlakozni a csapat másik tagjának meghívása nélkül. biztos vagy ebben?",
   "leave_team_modal_guest_only_public.desc": "** A rendszer eltávolítja a csapat {num_of_public_channels} nyilvános { num_of_public_channels,plural,one {channel} other {channels}} csoportból. ** Nem csatlakozhatsz újra a csapat másik tagjának meghívása nélkül. biztos vagy ebben?",
   "leave_team_modal_private.desc": "**A rendszer eltávolítja a csapat {num_of_private_channels} privát { num_of_private_channels,plural,one {channel} other {channels}} csoportból.** Ha a csapat privát, akkor nem tudsz meghívás nélkül újra csatlakozni a csapathoz. biztos vagy ebben?",
