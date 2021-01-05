@@ -67,12 +67,6 @@ jobs:
           component: "mattermost-mobile-wip"
       - notify-weblate:
           component: "mattermost-webapp-wip"
-  autotranslate:
-    docker:
-      - image: circleci/buildpack-deps:stable-curl
-    working_directory: ~/project
-    steps:
-      - autotranslate
 
 workflows:
   version: 2

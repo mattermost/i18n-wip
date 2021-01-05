@@ -1,0 +1,4 @@
+include:
+  - project: mattermost/ci/i18n-wip
+    ref: master
+    file: private.yml
