@@ -291,5 +291,6 @@
   "search_header.title2": "Legutóbbi említések",
   "user.settings.notifications.emailInfo": "E-mail értesítéseket küldünk említésekről és közvetlen üzenetekről, ha offline vagy 5 percnél hosszabb ideig tartózkodik.",
   "intro_messages.group_message": "Ezzel kezdődik a csoportos üzenettörténet ezeknél a csapattársaknál. Az itt megosztott üzeneteket és fájlokat nem jelenítik meg ezen a területen kívüli személyek.",
-  "suggestion.mention.members": "Csatornatagok"
+  "suggestion.mention.members": "Csatornatagok",
+  "suggestion.search.direct": "Közvetlen üzenet"
 }
