@@ -7658,5 +7658,57 @@
   {
     "id": "api.file.append_file.app_error",
     "translation": "Nelze přidat do souboru data."
+  },
+  {
+    "id": "app.post.permanent_delete_by_channel.app_error",
+    "translation": "Nelze smazat příspěvky dle kanálu."
+  },
+  {
+    "id": "app.post.overwrite.app_error",
+    "translation": "Nelze přepsat příspěvek."
+  },
+  {
+    "id": "app.post.get_root_posts.app_error",
+    "translation": "Nelze načíst příspěvky kanálu."
+  },
+  {
+    "id": "app.post.get_posts_since.app_error",
+    "translation": "Nelze načíst příspěvky kanálu."
+  },
+  {
+    "id": "app.post.get_posts_created_at.app_error",
+    "translation": "Nelze načíst příspěvky kanálu."
+  },
+  {
+    "id": "app.post.get_posts_batch_for_indexing.get.app_error",
+    "translation": "Nelze načíst dávku příspěvků k indexaci."
+  },
+  {
+    "id": "app.post.get_posts_around.get.app_error",
+    "translation": "Nelze načíst příspěvky kanálu."
+  },
+  {
+    "id": "app.post.get_post_id_around.app_error",
+    "translation": "Nelze načíst příspěvek kolem časového omezení."
+  },
+  {
+    "id": "app.post.get_post_after_time.app_error",
+    "translation": "Nelze načíst příspěvek po časovém omezení."
+  },
+  {
+    "id": "app.post.analytics_posts_count.app_error",
+    "translation": "Nelze získat počet příspěvků."
+  },
+  {
+    "id": "app.compliance.get.finding.app_error",
+    "translation": "Při načítání zprávy o shodě došlo k chybě."
+  },
+  {
+    "id": "app.compliance.save.saving.app_error",
+    "translation": "Při ukládání zprávy o shodě došlo k chybě."
+  },
+  {
+    "id": "app.channel.update_last_viewed_at.app_error",
+    "translation": "Nepodařilo se aktualizovat naposledy zobrazeno v čase."
   }
 ]
