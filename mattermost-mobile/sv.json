@@ -643,5 +643,6 @@
   "gallery.open_file": "Öppna fil",
   "gallery.footer.channel_name": "Delad i {channelName}",
   "gallery.download_file": "Ladda ner fil",
-  "mobile.channel_loader.still_loading": "Försöker fortfarande att hämta innehåll..."
+  "mobile.channel_loader.still_loading": "Försöker fortfarande att hämta innehåll...",
+  "mobile.server_link.unreachable_user.error": "Länken tillhör en borttagen användare."
 }
