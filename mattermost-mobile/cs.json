@@ -643,5 +643,6 @@
   "gallery.footer.channel_name": "Sdíleno v {channelName}",
   "gallery.download_file": "Stáhnout",
   "channel_header.notificationPreference.none": "Nikdy",
-  "channel_header.notificationPreference.default": "Výchozí"
+  "channel_header.notificationPreference.default": "Výchozí",
+  "mobile.server_link.unreachable_user.error": "Tento odkaz směřuje ke smazanému uživateli."
 }
