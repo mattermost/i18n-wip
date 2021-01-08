@@ -644,5 +644,9 @@
   "gallery.download_file": "Stáhnout",
   "channel_header.notificationPreference.none": "Nikdy",
   "channel_header.notificationPreference.default": "Výchozí",
-  "mobile.server_link.unreachable_user.error": "Tento odkaz směřuje ke smazanému uživateli."
+  "mobile.server_link.unreachable_user.error": "Tento odkaz směřuje ke smazanému uživateli.",
+  "mobile.mailTo.error.title": "Chyba",
+  "mobile.mailTo.error.text": "Nemohu otevřít e-mailového klienta.",
+  "mobile.link.error.title": "Chyba",
+  "mobile.link.error.text": "Odkaz nelze otevřít."
 }
