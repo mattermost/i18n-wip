@@ -983,7 +983,7 @@
   "admin.purge.button": "Vyčistit všechny mezipaměti",
   "admin.purge.purgeDescription": "Vyčistí všechny paměti cache pro věci, jako je sezení, účty, kanály, atd. Při nasazení v režimu vysoké dostupnosti se pokusí očistit všechny servery v clusteru. Vyprázdnění mezipaměti může mít dopad na výkon.",
   "admin.purge.purgeFail": "Spojení neúspěšné: {error}",
-  "admin.rate.enableLimiterDescription": "Pokud zapnuto, API jsou dotazována ve frekvenci níže uvedené.",
+  "admin.rate.enableLimiterDescription": "Pokud zapnuto, API jsou dotazována ve frekvenci níže uvedené.\n\nOmezení počtu dotazů zabraňuje přetížení serveru. Je to užitečné pro situace, kdy by aplikace třetích stran nebo zamýšlený útok mohly mít dopad na výkon vašeho serveru.",
   "admin.rate.enableLimiterTitle": "Povolit omezení rychlosti: ",
   "admin.rate.httpHeaderExample": "Např.: \"X-Real-IP\", \"X-Forwarded-For\"",
   "admin.rate.maxBurst": "Maximální velikost dávky:",
