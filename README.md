@@ -1,3 +1,16 @@
+# i18n-wip
+## Description
+Work in progress language files for the [mattermost](github.com/mattermost/mattermost-server)
+
+**Important**: 
+Please visit our [translation server](https://translate.mattermost.com/) instead of creating PRs to this repository. 
+If you have questions or feedback, please come and join our community at [mattermost](https://community.mattermost.com/core/channels/localization). 
+
+## Mattermost is currenty shipped with the following languages
+
+
+
+
 |  | [mattermost-server](https://translate.mattermost.com/projects/mattermostmattermost-server_master/) | [mattermost-webapp](https://translate.mattermost.com/projects/mattermostmattermost-webapp_master/) | [mattermost-mobile](https://translate.mattermost.com/projects/mattermostmattermost-mobile_master/) |
  | ------------- | ------------- | ------------- | ------------- |
 | Bulgarian [bg] | [![mattermost](https://translate.mattermost.com/widgets/mattermost/bg/mattermost-server_master/svg-badge.svg)](https://translate.mattermost.com/projects/mattermost/mattermost-server_master/bg/) | [![mattermost](https://translate.mattermost.com/widgets/mattermost/bg/mattermost-webapp_master/svg-badge.svg)](https://translate.mattermost.com/projects/mattermost/mattermost-webapp_master/bg/) | [![mattermost](https://translate.mattermost.com/widgets/mattermost/bg/mattermost-mobile_master/svg-badge.svg)](https://translate.mattermost.com/projects/mattermost/mattermost-mobile_master/bg/) |
