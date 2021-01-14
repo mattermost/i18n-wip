@@ -15,6 +15,7 @@ func main() {
 	webapp := "mattermost-webapp"
 	mobile := "mattermost-mobile"
 	shippedLs := map[string]string{
+		"Bulgarian":             "bg",
 		"Chinese (Simplified)":  "zh_Hans",
 		"Chinese (Traditional)": "zh_Hant",
 		"Dutch":                 "nl",
@@ -30,6 +31,8 @@ func main() {
 		"Spanish":               "es",
 		"Turkish":               "tr",
 		"Ukrainian":             "uk",
+		"Swedish":               "sv",
+
 	}
 	sortedL := getSortedLanguages(shippedLs)
 
