@@ -575,7 +575,6 @@
   "admin.environment.smtp.smtpUsername.title": "Uživatelské jméno pro SMTP server:",
   "admin.environment.smtp.testing": "Testuji...",
   "admin.experimental.emailBatchingBufferSize.example": "Např.: \"30\"",
-  "admin.experimental.experimentalChannelSidebarOrganization.disabled": "Zakázáno",
   "admin.experimental.experimentalPrimaryTeam.example": "Např.: \"přezdívka\"",
   "admin.experimental.experimentalTimezone.title": "Časové pásmo:",
   "admin.experimental.userStatusAwayTimeout.example": "Např.: \"300\"",
