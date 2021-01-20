@@ -1941,7 +1941,6 @@
   "sidebar_header.tutorial.body2": "Quản trị viên nhóm cũng có thể truy cập **Team Settings** của họ từ menu này.",
   "sidebar_header.tutorial.body3": "Quản trị viên hệ thống sẽ tìm thấy tùy chọn **System Console** để quản trị toàn bộ hệ thống.",
   "sidebar_left.add_channel_dropdown.createNewChannel": "Kênh riêng",
-  "sidebar_left.channel_filter.unread": "chưa đọc",
   "sidebar_left.channel_navigator.jumpTo": "Chuyển đến ...",
   "sidebar_left.sidebar_channel_menu.addMembers": "Tất cả thành viên",
   "sidebar_left.sidebar_channel_menu.copyLink": "Sao chép đường dẫn",
