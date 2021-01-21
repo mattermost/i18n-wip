@@ -282,7 +282,6 @@
   "admin.billing.subscription.planDetails.features.selfServiceDocumentation": "Aautoservizo de documentación e foro de asistencia",
   "admin.billing.subscription.planDetails.features.unlimitedIntegrations": "Integracións ilimitadas",
   "admin.billing.subscription.planDetails.features.unlimitedTeamsAndChannels": "Equipos, canles e historial de buscas ilimitados",
-  "admin.billing.subscription.planDetails.freeForTenUsers": "Sempre de balde para ata 10 usuarios",
   "admin.billing.subscription.planDetails.howBillingWorks": "Vexa como funciona a facturación",
   "admin.billing.subscription.planDetails.numberOfSeats": "{numberOfSeats} postos",
   "admin.billing.subscription.planDetails.numberOfSeatsRegistered": "({userCount} rexistrados actualmente)",

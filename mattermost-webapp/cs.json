@@ -282,7 +282,6 @@
   "admin.billing.subscription.planDetails.features.selfServiceDocumentation": "Samoobslužná dokumentace a popora na fórech",
   "admin.billing.subscription.planDetails.features.unlimitedIntegrations": "Neomezené integrace",
   "admin.billing.subscription.planDetails.features.unlimitedTeamsAndChannels": "Neomezený počet týmů, kanálů a historie hledání",
-  "admin.billing.subscription.planDetails.freeForTenUsers": "Vždy bezplatné do 10ti uživatelů",
   "admin.billing.subscription.planDetails.howBillingWorks": "Zobraz jak funguje předplatné",
   "admin.billing.subscription.planDetails.numberOfSeats": "{numberOfSeats} pozic",
   "admin.billing.subscription.planDetails.numberOfSeatsRegistered": "({userCount} aktuálně obsazeno)",

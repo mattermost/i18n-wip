@@ -266,7 +266,6 @@
   "admin.billing.subscription.planDetails.features.selfServiceDocumentation": "Önkiszolgáló dokumentáció és fórum támogatás",
   "admin.billing.subscription.planDetails.features.unlimitedIntegrations": "Korlátlan integrációk",
   "admin.billing.subscription.planDetails.features.unlimitedTeamsAndChannels": "Korlátlan csapatok, csatornák és keresési előzmények",
-  "admin.billing.subscription.planDetails.freeForTenUsers": "Mindig ingyenes akár 10 felhasználó számára",
   "admin.billing.subscription.planDetails.howBillingWorks": "Nézze meg, hogyan működik a számlázás",
   "admin.billing.subscription.planDetails.numberOfSeats": "{numberOfSeats} férőhely",
   "admin.billing.subscription.planDetails.numberOfSeatsRegistered": "({userCount} jelenleg regisztrált)",
