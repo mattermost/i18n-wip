@@ -6800,10 +6800,6 @@
     "translation": "Nepodařilo se aktualizovat stav sledování pro vlákno"
   },
   {
-    "id": "app.user.update_password.app_error",
-    "translation": "Selhala aktualizace uživatelského hesla."
-  },
-  {
     "id": "app.user.update_failed_pwd_attempts.app_error",
     "translation": "Selhala aktualizace údaje failed_attempts."
   },
