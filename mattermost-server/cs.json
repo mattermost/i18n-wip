@@ -5657,7 +5657,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
-    "translation": "Platnost licence Enterprise vypršela a některé funkce mohou být vypnuty. Obnovte licenci."
+    "translation": "Platnost Vaší licence Enterprise vypršela a některé funkce mohou být vypnuty. Obnovte licenci."
   },
   {
     "id": "api.templates.remove_expired_license.body.renew_button",
