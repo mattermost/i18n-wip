@@ -648,5 +648,13 @@
   "mobile.mailTo.error.title": "Chyba",
   "mobile.mailTo.error.text": "Nemohu otevřít e-mailového klienta.",
   "mobile.link.error.title": "Chyba",
-  "mobile.link.error.text": "Odkaz nelze otevřít."
+  "mobile.link.error.text": "Odkaz nelze otevřít.",
+  "signup.google": "Google Apps",
+  "mobile.oauth.try_again": "Zkuste to znovu",
+  "mobile.oauth.switch_to_browser": "Prosím přejděte do prohlížeče a dokončete přihlášení.",
+  "mobile.oauth.something_wrong.okButon": "OK",
+  "mobile.oauth.something_wrong": "Něco se pokazilo",
+  "mobile.oauth.restart_login": "Začít přihlášení znovu",
+  "mobile.oauth.failed_to_open_link": "Odkaz se nepodařilo otevřít. Zkuste to prosím znovu.",
+  "mobile.oauth.failed_to_login": "Pokus o přihlášení selhal. Zkuste to prosím znovu."
 }
