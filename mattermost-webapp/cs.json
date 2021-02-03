@@ -1236,7 +1236,6 @@
   "admin.user_item.member": "Člen",
   "admin.user_item.mfaNo": "**MFA**: Ne",
   "admin.user_item.mfaYes": "**MFA**: Ano",
-  "admin.user_item.promoteToUser": "Povýšit na uživatele",
   "admin.user_item.resetMfa": "Odstranit MFA",
   "admin.user_item.resetPwd": "Obnovit heslo",
   "admin.user_item.switchToEmail": "Přepněte na E-mail/Heslo",

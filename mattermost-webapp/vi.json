@@ -2098,7 +2098,6 @@
   "admin.user_item.menuAriaLabel": "Trình đơn Hành động của Người dùng",
   "admin.user_item.mfaNo": "** MFA **: Không",
   "admin.user_item.mfaYes": "** MFA **: Có",
-  "admin.user_item.promoteToUser": "Quảng cáo tới Người dùng",
   "admin.user_item.resetEmail": "Cập nhật Email",
   "admin.user_item.resetMfa": "Xóa MFA",
   "admin.user_item.resetPwd": "Đặt lại mật khẩu",
