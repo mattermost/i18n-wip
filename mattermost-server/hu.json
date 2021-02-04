@@ -953,7 +953,7 @@
   },
   {
     "id": "api.emoji.upload.image.app_error",
-    "translation": "Nem lehet létrehozni az emoji-t. A fájlnak  PNG, JPEG, vagy GIF kiterjesztésűnek kell lennie."
+    "translation": "Nem lehet létrehozni az emoji-t. A fájlnak PNG, JPEG, vagy GIF kiterjesztésűnek kell lennie."
   },
   {
     "id": "api.emoji.storage.app_error",
@@ -1526,7 +1526,7 @@
   },
   {
     "id": "api.command_echo.message.app_error",
-    "translation": "Az üzenetet el kell látni /echo paranccsal. "
+    "translation": "Az üzenetet el kell látni /echo paranccsal."
   },
   {
     "id": "api.command_echo.hint",
@@ -2246,7 +2246,7 @@
   },
   {
     "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
-    "translation": "Tanúsítványfájl mentése sikertelen. "
+    "translation": "Tanúsítványfájl mentése sikertelen."
   },
   {
     "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
@@ -2419,5 +2419,41 @@
   {
     "id": "api.admin.ldap.not_available.app_error",
     "translation": "LDAP nem elérhető."
+  },
+  {
+    "id": "api.migrate_to_saml.error",
+    "translation": "Nem sikerült áttelepíteni a SAML-t."
+  },
+  {
+    "id": "api.license.request_trial_license.no-site-url.app_error",
+    "translation": "Nem kérhető próbalicenc. Kérjük, konfigurálja a Webhely URL-jét a Mattermost Rendszer konzol webkiszolgáló részében."
+  },
+  {
+    "id": "api.file.file_size.app_error",
+    "translation": "Nem sikerült lekérni a fájl méretét."
+  },
+  {
+    "id": "api.file.file_mod_time.app_error",
+    "translation": "Nem sikerült lekérni a fájl utolsó módosítási idejét."
+  },
+  {
+    "id": "api.file.append_file.app_error",
+    "translation": "Nem lehet adatokat csatolni a fájlhoz."
+  },
+  {
+    "id": "api.config.update_config.not_allowed_security.app_error",
+    "translation": "A {{.Name}} módosítása biztonsági okokból nem engedélyezett."
+  },
+  {
+    "id": "api.config.patch_config.restricted_merge.app_error",
+    "translation": "Nem sikerült egyesíteni a megadott konfigurációt."
+  },
+  {
+    "id": "api.config.get_config.restricted_merge.app_error",
+    "translation": "Nem sikerült egyesíteni a megadott konfigurációt."
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "Vissza ide: {{.SiteName}}"
   }
 ]
