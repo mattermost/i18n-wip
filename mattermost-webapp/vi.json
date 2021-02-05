@@ -3242,7 +3242,6 @@
   "password_send.link": "Nếu tài khoản tồn tại, một email đặt lại mật khẩu sẽ được gửi tới:",
   "password_send.reset": "Đặt lại mật khẩu của tôi",
   "password_send.title": "Đặt lại mật khẩu",
-  "pdf_preview.max_pages": "Tải xuống để đọc các trang khác",
   "pending_post_actions.cancel": "Hủy",
   "pending_post_actions.retry": "Thử lại",
   "permalink.error.access": "Permalink thuộc về một thư đã xóa hoặc một kênh mà bạn không có quyền truy cập.",

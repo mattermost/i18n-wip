@@ -1964,7 +1964,6 @@
   "password_send.link": "Pokud účet existuje, email s resetem hesla bude zaslán na:",
   "password_send.reset": "Resetovat heslo",
   "password_send.title": "Resetování hesla",
-  "pdf_preview.max_pages": "Více stránek ke stažení",
   "pending_post_actions.cancel": "Zrušit",
   "pending_post_actions.retry": "Znovu",
   "permalink.error.access": "Trvalý odkaz patří do odstraněné zprávy nebo do kanálu, ke nimž nemáte přístup.",

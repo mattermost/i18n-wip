@@ -1563,7 +1563,6 @@
   "payment_form.no_credit_card": "Nincs hozzáadva hitelkártya",
   "payment_form.saved_payment_method": "Mentett fizetési mód",
   "payment_form.zipcode": "Irányítószám",
-  "pdf_preview.max_pages": "Töltse le további oldalak olvasásához",
   "pending_post_actions.cancel": "Mégsem",
   "pending_post_actions.retry": "Újra",
   "permalink.error.access": "Az állandó link egy törölt üzenethez vagy egy olyan csatornához tartozik, amelyhez nincs hozzáférése.",

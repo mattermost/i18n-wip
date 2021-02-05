@@ -1049,7 +1049,6 @@
   "password_send.error": "Vnesi veljaven elektronski naslov.",
   "password_send.link": "Če račun obstaja, bo poslan e-poštni naslov za ponastavitev gesla na:",
   "password_send.reset": "Ponastavi geslo",
-  "pdf_preview.max_pages": "Prenesi, da prebereš več strani",
   "pending_post_actions.retry": "Poskusi znova",
   "permalink.error.title": "Sporočila ni bilo mogoče najti",
   "post.ariaLabel.reaction": "Dodaj reakcijo",
