@@ -104,10 +104,6 @@
     "translation": "Không thể tìm thấy lệnh"
   },
   {
-    "id": "utils.mail.connect_smtp.open_tls.app_error",
-    "translation": "Không thể mở kết nối TLS"
-  },
-  {
     "id": "system.message.name",
     "translation": "Hệ thống"
   },

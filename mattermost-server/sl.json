@@ -40,10 +40,6 @@
     "translation": "Ukaza ni bilo mogoče najti"
   },
   {
-    "id": "utils.mail.connect_smtp.open_tls.app_error",
-    "translation": "Povezave TLS ni bilo mogoče odpreti"
-  },
-  {
     "id": "system.message.name",
     "translation": "Sistem"
   },

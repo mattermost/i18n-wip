@@ -7723,10 +7723,6 @@
     "translation": "سیستم"
   },
   {
-    "id": "utils.mail.send_mail.msg.app_error",
-    "translation": "پیام ایمیل نوشته نشد."
-  },
-  {
     "id": "web.command_webhook.command.app_error",
     "translation": "دستور پیدا نشد."
   },
