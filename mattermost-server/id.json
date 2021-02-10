@@ -464,10 +464,6 @@
     "translation": "Tidak dapat menemukan kanal"
   },
   {
-    "id": "utils.mail.send_mail.close.app_error",
-    "translation": "Gagal menutup koneksi ke server SMTP"
-  },
-  {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
     "translation": "Gagal membuka koneksi TLS"
   },

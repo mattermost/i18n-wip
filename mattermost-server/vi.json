@@ -104,24 +104,12 @@
     "translation": "Không thể tìm thấy lệnh"
   },
   {
-    "id": "utils.mail.send_mail.msg_data.app_error",
-    "translation": "Không thể thêm dữ liệu email"
-  },
-  {
     "id": "utils.mail.send_mail.from_address.app_error",
     "translation": "Lỗi thiết lập \"Từ địa chỉ\""
   },
   {
-    "id": "utils.mail.sendMail.attachments.write_error",
-    "translation": "Không thể viết tệp đính kèm vào email"
-  },
-  {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
     "translation": "Không thể mở kết nối TLS"
-  },
-  {
-    "id": "utils.mail.connect_smtp.helo.app_error",
-    "translation": "Không thể đặt Helo"
   },
   {
     "id": "system.message.name",

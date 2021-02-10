@@ -7723,24 +7723,12 @@
     "translation": "سیستم"
   },
   {
-    "id": "utils.mail.connect_smtp.open.app_error",
-    "translation": "اتصال باز نشد."
-  },
-  {
     "id": "utils.mail.new_client.auth.app_error",
     "translation": "تأیید اعتبار در سرور SMTP انجام نشد."
   },
   {
-    "id": "utils.mail.send_mail.close.app_error",
-    "translation": "اتصال به سرور SMTP بسته نشد."
-  },
-  {
     "id": "utils.mail.send_mail.msg.app_error",
     "translation": "پیام ایمیل نوشته نشد."
-  },
-  {
-    "id": "utils.mail.send_mail.to_address.app_error",
-    "translation": "تنظیم خطا \"به آدرس \"."
   },
   {
     "id": "web.command_webhook.command.app_error",

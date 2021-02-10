@@ -40,10 +40,6 @@
     "translation": "Tento příkaz nelze najít."
   },
   {
-    "id": "utils.mail.connect_smtp.open_tls.app_error",
-    "translation": "Nelze navázat spojení TLS."
-  },
-  {
     "id": "system.message.name",
     "translation": "Systém"
   },
@@ -6198,10 +6194,6 @@
   {
     "id": "app.recover.delete.app_error",
     "translation": "Nemohu smazat token."
-  },
-  {
-    "id": "utils.mail.send_mail.from_address.app_error",
-    "translation": "Selhalo nastavení odesílatele"
   },
   {
     "id": "model.link_metadata.is_valid.timestamp.app_error",

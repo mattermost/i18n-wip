@@ -48,24 +48,12 @@
     "translation": "Ei löydetty komentoa"
   },
   {
-    "id": "utils.mail.send_mail.msg_data.app_error",
-    "translation": "Ei voitu lisätä sähköpostidataa"
-  },
-  {
     "id": "utils.mail.send_mail.from_address.app_error",
     "translation": "Virhe asetettaessa \"Lähettäjän osoite\""
   },
   {
-    "id": "utils.mail.sendMail.attachments.write_error",
-    "translation": "Ei voitu kirjoittaa liitettä sähköpostiin"
-  },
-  {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
     "translation": "Ei voitu avata TLS-yhteyttä"
-  },
-  {
-    "id": "utils.mail.connect_smtp.helo.app_error",
-    "translation": "Ei voitu asettaa HELO"
   },
   {
     "id": "system.message.name",

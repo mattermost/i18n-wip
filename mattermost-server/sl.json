@@ -40,24 +40,12 @@
     "translation": "Ukaza ni bilo mogoče najti"
   },
   {
-    "id": "utils.mail.send_mail.msg_data.app_error",
-    "translation": "Ni bilo mogoče dodati podatkov e-poštnega sporočila"
-  },
-  {
     "id": "utils.mail.send_mail.from_address.app_error",
     "translation": "Napaka pri nastavitvi »Od naslova«"
   },
   {
-    "id": "utils.mail.sendMail.attachments.write_error",
-    "translation": "Priloge ni bilo mogoče napisati v e-pošto"
-  },
-  {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
     "translation": "Povezave TLS ni bilo mogoče odpreti"
-  },
-  {
-    "id": "utils.mail.connect_smtp.helo.app_error",
-    "translation": "HELO ni bilo mogoče nastaviti"
   },
   {
     "id": "system.message.name",
