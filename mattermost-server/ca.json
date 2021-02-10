@@ -20,10 +20,6 @@
     "translation": "No s'ha pogut trobar l'ordre"
   },
   {
-    "id": "utils.mail.send_mail.msg.app_error",
-    "translation": "No es pot escriure el missatge del correu."
-  },
-  {
     "id": "app.reaction.save.save.app_error",
     "translation": "No es pot desar la reacció"
   },

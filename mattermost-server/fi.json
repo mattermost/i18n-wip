@@ -48,40 +48,20 @@
     "translation": "Ei löydetty komentoa"
   },
   {
-    "id": "utils.mail.send_mail.to_address.app_error",
-    "translation": "Virhe asetettaessa \"Vastaanottajan osoite\""
-  },
-  {
     "id": "utils.mail.send_mail.msg_data.app_error",
     "translation": "Ei voitu lisätä sähköpostidataa"
-  },
-  {
-    "id": "utils.mail.send_mail.msg.app_error",
-    "translation": "Ei voitus kirjoittaa sähköpostiviestiä"
   },
   {
     "id": "utils.mail.send_mail.from_address.app_error",
     "translation": "Virhe asetettaessa \"Lähettäjän osoite\""
   },
   {
-    "id": "utils.mail.send_mail.close.app_error",
-    "translation": "Ei voitu sulkea yhteytttä SMTP-palvelimeen"
-  },
-  {
     "id": "utils.mail.sendMail.attachments.write_error",
     "translation": "Ei voitu kirjoittaa liitettä sähköpostiin"
   },
   {
-    "id": "utils.mail.new_client.auth.app_error",
-    "translation": "Ei voitu autentikoitua SMTP-palvelimella"
-  },
-  {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
     "translation": "Ei voitu avata TLS-yhteyttä"
-  },
-  {
-    "id": "utils.mail.connect_smtp.open.app_error",
-    "translation": "Ei voitu avata yhteyttä"
   },
   {
     "id": "utils.mail.connect_smtp.helo.app_error",

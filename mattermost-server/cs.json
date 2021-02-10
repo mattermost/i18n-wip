@@ -40,16 +40,8 @@
     "translation": "Tento příkaz nelze najít."
   },
   {
-    "id": "utils.mail.send_mail.msg.app_error",
-    "translation": "Nepodařilo se zapsat e-mailovou zprávu."
-  },
-  {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
     "translation": "Nelze navázat spojení TLS."
-  },
-  {
-    "id": "utils.mail.connect_smtp.open.app_error",
-    "translation": "Nelze navázat spojení."
   },
   {
     "id": "system.message.name",
@@ -6208,10 +6200,6 @@
     "translation": "Nemohu smazat token."
   },
   {
-    "id": "utils.mail.send_mail.to_address.app_error",
-    "translation": "Selhalo nastavení příjemce."
-  },
-  {
     "id": "utils.mail.send_mail.from_address.app_error",
     "translation": "Selhalo nastavení odesílatele"
   },
@@ -6526,10 +6514,6 @@
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
     "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
-  },
-  {
-    "id": "utils.mail.connect_smtp.helo.app_error",
-    "translation": "Selhalo odeslání HELO."
   },
   {
     "id": "store.sql_bot.get.missing.app_error",

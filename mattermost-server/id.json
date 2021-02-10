@@ -464,24 +464,12 @@
     "translation": "Tidak dapat menemukan kanal"
   },
   {
-    "id": "utils.mail.send_mail.msg_data.app_error",
-    "translation": "Gagal menambahkan data pesan email"
-  },
-  {
     "id": "utils.mail.send_mail.close.app_error",
     "translation": "Gagal menutup koneksi ke server SMTP"
   },
   {
-    "id": "utils.mail.new_client.auth.app_error",
-    "translation": "Gagal mengesahkan pada server SMTP"
-  },
-  {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
     "translation": "Gagal membuka koneksi TLS"
-  },
-  {
-    "id": "utils.mail.connect_smtp.open.app_error",
-    "translation": "Gagal membuka koneksi"
   },
   {
     "id": "model.config.is_valid.ldap_username",
