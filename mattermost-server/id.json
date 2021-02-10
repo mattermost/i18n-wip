@@ -464,10 +464,6 @@
     "translation": "Tidak dapat menemukan kanal"
   },
   {
-    "id": "utils.mail.connect_smtp.open_tls.app_error",
-    "translation": "Gagal membuka koneksi TLS"
-  },
-  {
     "id": "model.config.is_valid.ldap_username",
     "translation": "Kolom \"Atribut Nama Pengguna\" LDAP wajib diisi."
   },

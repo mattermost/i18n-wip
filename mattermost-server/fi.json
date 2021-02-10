@@ -48,10 +48,6 @@
     "translation": "Ei löydetty komentoa"
   },
   {
-    "id": "utils.mail.send_mail.from_address.app_error",
-    "translation": "Virhe asetettaessa \"Lähettäjän osoite\""
-  },
-  {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
     "translation": "Ei voitu avata TLS-yhteyttä"
   },

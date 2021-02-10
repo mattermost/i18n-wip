@@ -7723,10 +7723,6 @@
     "translation": "سیستم"
   },
   {
-    "id": "utils.mail.new_client.auth.app_error",
-    "translation": "تأیید اعتبار در سرور SMTP انجام نشد."
-  },
-  {
     "id": "utils.mail.send_mail.msg.app_error",
     "translation": "پیام ایمیل نوشته نشد."
   },
