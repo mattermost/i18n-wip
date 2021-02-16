@@ -7682,5 +7682,89 @@
   {
     "id": "app.channel.update_last_viewed_at.app_error",
     "translation": "Nepodařilo se aktualizovat naposledy zobrazeno v čase."
+  },
+  {
+    "id": "app.export.marshal.app_error",
+    "translation": "Nerozumím odpovědi."
+  },
+  {
+    "id": "app.export.export_attachment.zip_create_header.error",
+    "translation": "Během exportu selhalo vytvoření zip hlavičky."
+  },
+  {
+    "id": "app.export.export_attachment.mkdirall.error",
+    "translation": "Během exportu selhalo vytvoření adresáře."
+  },
+  {
+    "id": "app.export.export_attachment.create_file.error",
+    "translation": "Během exportu selhalo vytvoření souboru."
+  },
+  {
+    "id": "app.export.export_attachment.copy_file.error",
+    "translation": "Během exportu selhalo kopírování souboru."
+  },
+  {
+    "id": "api.web_socket.connect.check_origin.app_error",
+    "translation": "Nevalidní hlavička Origin během websocket upgrade."
+  },
+  {
+    "id": "api.user.update_user_auth.invalid_request",
+    "translation": "Požadavek neobsahuje parametr AuthData nebo AuthService."
+  },
+  {
+    "id": "api.user.get_authorization_code.endpoint.app_error",
+    "translation": "Chyba při získávání endpointu z Discovery Document."
+  },
+  {
+    "id": "api.unable_to_read_file_from_backend",
+    "translation": "Chyba při čtení souboru ze serveru"
+  },
+  {
+    "id": "api.unable_to_create_zip_file",
+    "translation": "Chyba při vytváření souboru zip."
+  },
+  {
+    "id": "api.oauth.redirecting_back",
+    "translation": "Přesměrování zpět do aplikace."
+  },
+  {
+    "id": "api.oauth.close_browser",
+    "translation": "Nyní můžete zavřít tab prohlížeče."
+  },
+  {
+    "id": "api.oauth.auth_complete",
+    "translation": "Autentizace dokončena"
+  },
+  {
+    "id": "api.no_license",
+    "translation": "Licence E10 nebo E20 jsou vyžadovány pro tento endpoint."
+  },
+  {
+    "id": "api.job.unable_to_download_job.incorrect_job_type",
+    "translation": "Typ úlohy, kterou se snažíte stáhnout, není v tuto chvíli podporován"
+  },
+  {
+    "id": "api.invalid_redirect_url",
+    "translation": "Bylo zadáno nevalidní url pro přesměrování"
+  },
+  {
+    "id": "api.invalid_custom_url_scheme",
+    "translation": "Bylo zadáno nevalidní url schéma"
+  },
+  {
+    "id": "api.file.file_mod_time.app_error",
+    "translation": "Nemohu zjistit čas poslední změny souboru."
+  },
+  {
+    "id": "api.export.export_not_found.app_error",
+    "translation": "Nemohu najít soubor s exportem."
+  },
+  {
+    "id": "api.config.update_config.not_allowed_security.app_error",
+    "translation": "Změna {{.Name}} není povolena z bezpečnostních důvodů."
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "Zpět na {{.SiteName}}"
   }
 ]
