@@ -656,5 +656,9 @@
   "mobile.oauth.something_wrong": "Něco se pokazilo",
   "mobile.oauth.restart_login": "Začít přihlášení znovu",
   "mobile.oauth.failed_to_open_link": "Odkaz se nepodařilo otevřít. Zkuste to prosím znovu.",
-  "mobile.oauth.failed_to_login": "Pokus o přihlášení selhal. Zkuste to prosím znovu."
+  "mobile.oauth.failed_to_login": "Pokus o přihlášení selhal. Zkuste to prosím znovu.",
+  "permalink.show_dialog_warn.title": "Vstoupit do soukromého kanálu",
+  "permalink.show_dialog_warn.join": "Vstoupit",
+  "permalink.show_dialog_warn.description": "Chystáte se vstoupit do kanálu \"{channel}\" aniž by Vás admin explicitně přidal. Skutečně chcete vstoupit do soukromého kanálu?",
+  "permalink.show_dialog_warn.cancel": "Zrušit"
 }
