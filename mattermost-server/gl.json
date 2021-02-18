@@ -160,32 +160,16 @@
     "translation": "Testemuño AMF non válido."
   },
   {
-    "id": "mfa.generate_qr_code.save_secret.app_error",
-    "translation": "Produciuse un erro ao gardar o segredo da AMF."
-  },
-  {
     "id": "mfa.generate_qr_code.create_code.app_error",
     "translation": "Produciuse un erro ao xerar o código QR."
-  },
-  {
-    "id": "mfa.deactivate.save_secret.app_error",
-    "translation": "Produciuse un erro ao limpar o segredo da AMF."
   },
   {
     "id": "mfa.deactivate.save_active.app_error",
     "translation": "Non é posíbel actualizar o estado activo da AMF para o usuario."
   },
   {
-    "id": "mfa.activate.save_active.app_error",
-    "translation": "Non é posíbel actualizar o estado activo da AMF para o usuario."
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Testemuño AMF non válido."
-  },
-  {
-    "id": "mfa.activate.authenticate.app_error",
-    "translation": "Produciuse un erro ao tentar autenticar o testemuño AMF."
   },
   {
     "id": "api.user.send_mfa_change_email.error",

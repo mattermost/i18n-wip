@@ -2428,32 +2428,16 @@
     "translation": "L'autenticació multifactor s'ha desactivat en aquest servidor."
   },
   {
-    "id": "mfa.generate_qr_code.save_secret.app_error",
-    "translation": "S'ha produït un error en desar el secret d'MFA"
-  },
-  {
     "id": "mfa.generate_qr_code.create_code.app_error",
     "translation": "S'ha produït un error en generar el codi QR"
-  },
-  {
-    "id": "mfa.deactivate.save_secret.app_error",
-    "translation": "S'ha produït un error en esborrar el secret MFA"
   },
   {
     "id": "mfa.deactivate.save_active.app_error",
     "translation": "No es pot actualitzar l'estat actiu d'MFA per a l'usuari"
   },
   {
-    "id": "mfa.activate.save_active.app_error",
-    "translation": "No es pot actualitzar l'estat actiu d'MFA per a l'usuari"
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Testimoni MFA no vàlid."
-  },
-  {
-    "id": "mfa.activate.authenticate.app_error",
-    "translation": "S'ha produït un error en intentar autenticar el testimoni MFA"
   },
   {
     "id": "mattermost.bulletin.subject",

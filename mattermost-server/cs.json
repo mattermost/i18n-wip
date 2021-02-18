@@ -2540,32 +2540,16 @@
     "translation": "Vícefaktorová autentizace byla na tomto zakázána."
   },
   {
-    "id": "mfa.generate_qr_code.save_secret.app_error",
-    "translation": "Chyba při ukládání VFA tajemství."
-  },
-  {
     "id": "mfa.generate_qr_code.create_code.app_error",
     "translation": "Chyba při generování QR kódu."
-  },
-  {
-    "id": "mfa.deactivate.save_secret.app_error",
-    "translation": "Chyba při mazání VFA tajemství."
   },
   {
     "id": "mfa.deactivate.save_active.app_error",
     "translation": "Nelze aktualizovat stav VFA uživatele."
   },
   {
-    "id": "mfa.activate.save_active.app_error",
-    "translation": "Nelze aktualizovat stav MFA uživatele."
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Neplatný MFA token."
-  },
-  {
-    "id": "mfa.activate.authenticate.app_error",
-    "translation": "Chyba při pokusu ověřit MFA token."
   },
   {
     "id": "mattermost.bulletin.subject",

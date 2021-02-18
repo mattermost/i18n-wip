@@ -676,32 +676,16 @@
     "translation": "Monivaiheinen tunnistus on kytketty pois tällä palvelimella."
   },
   {
-    "id": "mfa.generate_qr_code.save_secret.app_error",
-    "translation": "Virhe tallennettaessa MFA-salaisuutta"
-  },
-  {
     "id": "mfa.generate_qr_code.create_code.app_error",
     "translation": "Virhe generoitaessa QR-koodia"
-  },
-  {
-    "id": "mfa.deactivate.save_secret.app_error",
-    "translation": "Virhe tyhjennettäessä MFA-salaisuutta"
   },
   {
     "id": "mfa.deactivate.save_active.app_error",
     "translation": "Ei voitu päivittää käyttäjän MFA aktiivisuustilaa"
   },
   {
-    "id": "mfa.activate.save_active.app_error",
-    "translation": "Ei voitu päivittää käyttäjän MFA aktiivisuustilaa"
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Virheellinen MFA token."
-  },
-  {
-    "id": "mfa.activate.authenticate.app_error",
-    "translation": "Virhe yritettäessä autentikoida MFA tokenia"
   },
   {
     "id": "mattermost.bulletin.subject",

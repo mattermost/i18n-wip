@@ -752,32 +752,16 @@
     "translation": "Autentikasi multi faktor diperlukan pada server ini."
   },
   {
-    "id": "mfa.generate_qr_code.save_secret.app_error",
-    "translation": "Terjadi kesalahan saat menyimpan 'MFA Secret'"
-  },
-  {
     "id": "mfa.generate_qr_code.create_code.app_error",
     "translation": "Terjadi kesalahan saat membuat QR Code"
-  },
-  {
-    "id": "mfa.deactivate.save_secret.app_error",
-    "translation": "Terjadi kesalahan saat membersihkan 'MFA secret'"
   },
   {
     "id": "mfa.deactivate.save_active.app_error",
     "translation": "Tidak dapat memperbarui status aktif MFA kepada pengguna"
   },
   {
-    "id": "mfa.activate.save_active.app_error",
-    "translation": "Tidak dapat memperbarui status aktif MFA kepada pengguna"
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Token MFA tidak valid."
-  },
-  {
-    "id": "mfa.activate.authenticate.app_error",
-    "translation": "Terjadi kesalahan saat mencoba mengesahkan token MFA"
   },
   {
     "id": "mattermost.bulletin.subject",

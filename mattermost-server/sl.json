@@ -680,32 +680,16 @@
     "translation": "Več-faktorsko preverjanje pristnosti je bilo onemogočeno na tem strežniku."
   },
   {
-    "id": "mfa.generate_qr_code.save_secret.app_error",
-    "translation": "Napaka pri shranjevanju skrivnosti MFA"
-  },
-  {
     "id": "mfa.generate_qr_code.create_code.app_error",
     "translation": "Napaka pri ustvarjanju kode QR"
-  },
-  {
-    "id": "mfa.deactivate.save_secret.app_error",
-    "translation": "Napaka pri čiščenju skrivnosti MFA"
   },
   {
     "id": "mfa.deactivate.save_active.app_error",
     "translation": "Aktivnega stanja MFA za uporabnika ni mogoče posodobiti"
   },
   {
-    "id": "mfa.activate.save_active.app_error",
-    "translation": "Aktivnega stanja MFA za uporabnika ni mogoče posodobiti"
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Neveljaven MFA žeton."
-  },
-  {
-    "id": "mfa.activate.authenticate.app_error",
-    "translation": "Napaka pri preverjanju pristnosti MFA žetona"
   },
   {
     "id": "mattermost.bulletin.subject",
