@@ -164,10 +164,6 @@
     "translation": "Produciuse un erro ao xerar o código QR."
   },
   {
-    "id": "mfa.deactivate.save_active.app_error",
-    "translation": "Non é posíbel actualizar o estado activo da AMF para o usuario."
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Testemuño AMF non válido."
   },

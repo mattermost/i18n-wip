@@ -584,10 +584,6 @@
     "translation": "Lỗi tạo mã QR"
   },
   {
-    "id": "mfa.deactivate.save_active.app_error",
-    "translation": "Không thể cập nhật trạng thái hoạt động MFA cho người dùng"
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Token MFA không hợp lệ."
   },

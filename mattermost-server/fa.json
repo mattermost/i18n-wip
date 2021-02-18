@@ -6231,10 +6231,6 @@
     "translation": "رمز MFA نامعتبر است."
   },
   {
-    "id": "mfa.deactivate.save_active.app_error",
-    "translation": "وضعیت فعال MFA برای کاربر به روز نمی شود."
-  },
-  {
     "id": "mfa.generate_qr_code.create_code.app_error",
     "translation": "خطا در تولید کد QR."
   },

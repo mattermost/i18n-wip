@@ -680,10 +680,6 @@
     "translation": "Virhe generoitaessa QR-koodia"
   },
   {
-    "id": "mfa.deactivate.save_active.app_error",
-    "translation": "Ei voitu päivittää käyttäjän MFA aktiivisuustilaa"
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Virheellinen MFA token."
   },

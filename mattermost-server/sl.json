@@ -684,10 +684,6 @@
     "translation": "Napaka pri ustvarjanju kode QR"
   },
   {
-    "id": "mfa.deactivate.save_active.app_error",
-    "translation": "Aktivnega stanja MFA za uporabnika ni mogoče posodobiti"
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Neveljaven MFA žeton."
   },

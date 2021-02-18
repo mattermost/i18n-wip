@@ -2544,10 +2544,6 @@
     "translation": "Chyba při generování QR kódu."
   },
   {
-    "id": "mfa.deactivate.save_active.app_error",
-    "translation": "Nelze aktualizovat stav VFA uživatele."
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Neplatný MFA token."
   },

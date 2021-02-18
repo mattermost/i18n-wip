@@ -2432,10 +2432,6 @@
     "translation": "S'ha produït un error en generar el codi QR"
   },
   {
-    "id": "mfa.deactivate.save_active.app_error",
-    "translation": "No es pot actualitzar l'estat actiu d'MFA per a l'usuari"
-  },
-  {
     "id": "mfa.activate.bad_token.app_error",
     "translation": "Testimoni MFA no vàlid."
   },
