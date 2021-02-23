@@ -3191,7 +3191,6 @@
   "next_steps_view.tips.addPluginss": "Tìm hiểu các phím tắt",
   "next_steps_view.tips.auth.ldap": "AD / LDAP",
   "next_steps_view.tips.auth.menuAriaLabel": "Định cấu hình Menu Xác thực",
-  "next_steps_view.tips.auth.oauth": "OAuth",
   "next_steps_view.tips.auth.saml": "SAML",
   "next_steps_view.tips.configureLogin": "Định cấu hình phương thức đăng nhập của bạn",
   "next_steps_view.tips.configureLogin.button": "Định cấu hình",
