@@ -485,7 +485,6 @@
   "user.settings.security.passwordSamlCantUpdate": "Αυτό το πεδίο καθορίζεται από τον πάροχο σύνδεσης. Εάν θέλετε να το αλλάξετε, πρέπει να το κάνετε μέσω του παρόχου σύνδεσης.",
   "user.settings.sidebar.never": "Ποτέ",
   "user.settings.timezones.automatic": "Αυτόματη ρύθμιση",
-  "user.settings.timezones.change": "Αλλαγή ζώνης ώρας",
   "user.settings.tokens.cancel": "Ακύρωση",
   "user.settings.tokens.delete": "Διαγραφή",
   "user.settings.tokens.save": "Αποθήκευση",

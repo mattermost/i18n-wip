@@ -2070,7 +2070,6 @@
   "user.settings.sidebar.on": "Be",
   "user.settings.sidebar.title": "Általános beállítások",
   "user.settings.timezones.automatic": "Automatikusan beállítva",
-  "user.settings.timezones.change": "Időzóna módosítása",
   "user.settings.tokens.cancel": "Mégsem",
   "user.settings.tokens.confirmCopyButton": "Igen, lemásoltam a tokent",
   "user.settings.tokens.confirmCopyMessage": "Győződjön meg róla, hogy átmásolta és elmentette az alábbi hozzáférési tokent. Nem láthatja újra!",

@@ -1814,7 +1814,6 @@
   "user.settings.sidebar.title": "Sivupalkin asetukset",
   "user.settings.sidebar.unreadsFavoritesShort": "Lukemattomat ja suosikit ryhmitellään erikseen",
   "user.settings.timezones.automatic": "Aseta automaattisesti",
-  "user.settings.timezones.change": "Vaihda aikavyöhykettä",
   "user.settings.tokens.clickToEdit": "Klikkaa 'Muokkaa' hallinnoidaksesi henkilökohtaisia access tokenejasi",
   "user.settings.tokens.confirmCopyButton": "Kyllä, olen kopioinut tokenin",
   "user.settings.tokens.confirmCreateMessage": "Olet luomassa henkilökohtaisen access tokenin Järjestelmänvalvojan oikeuksilla. Haluatko varmasti luoda tämän tokenin?",

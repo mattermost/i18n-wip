@@ -470,7 +470,6 @@
   "user.settings.security.passwordSamlCantUpdate": "यो क्षेत्र तपाइँको लगइन प्रदायक मार्फत ह्यान्डल गरिएको छ। यदि तपाईं यसलाई परिवर्तन गर्न चाहानुहुन्छ भने तपाईंले आफ्नो लगइन प्रदायक मार्फत त्यसो गर्न आवश्यक पर्दछ।",
   "user.settings.sidebar.never": "कहिले पनि हुँदैन",
   "user.settings.timezones.automatic": "स्वचालित रूपमा सेट गर्नुहोस्",
-  "user.settings.timezones.change": "समयक्षेत्र परिवर्तन गर्नुहोस्",
   "user.settings.tokens.cancel": "क्यानसेल",
   "user.settings.tokens.delete": "डिलित",
   "user.settings.tokens.save": "सेब",
