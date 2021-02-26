@@ -2660,10 +2660,6 @@
     "translation": "Bạn đã tham gia {{.ServerURL}}"
   },
   {
-    "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost cho phép bạn chia sẻ tin nhắn và tệp từ PC hoặc điện thoại của bạn, với tính năng tìm kiếm và lưu trữ tức thì."
-  },
-  {
     "id": "api.templates.welcome_body.info2",
     "translation": "Bạn có thể đăng nhập từ:"
   },

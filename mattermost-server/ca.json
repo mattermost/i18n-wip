@@ -1696,10 +1696,6 @@
     "translation": "T'has unit a {{ .ServerURL }}"
   },
   {
-    "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost et permet compartir missatges i fitxers des del teu PC o telèfon, amb cerca i fitxers instantanis."
-  },
-  {
     "id": "api.templates.welcome_body.info2",
     "translation": "Pots iniciar sessió des de:"
   },

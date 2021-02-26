@@ -2580,10 +2580,6 @@
     "translation": "Pridružili ste se {{.ServerURL}}"
   },
   {
-    "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost vam omogoča takojšnje iskanje in arhiviranje sporočil in datotek iz računalnika ali telefona."
-  },
-  {
     "id": "api.templates.welcome_body.info2",
     "translation": "Prijavite se lahko iz:"
   },

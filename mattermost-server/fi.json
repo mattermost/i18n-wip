@@ -4408,10 +4408,6 @@
     "translation": "Olet liittynyt palveluun {{ .ServerURL }}"
   },
   {
-    "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermostilla voit jakaa viestit ja tiedostot PC:ltä tai puhelimesta, hakea ja arkistoida."
-  },
-  {
     "id": "api.templates.welcome_body.info2",
     "translation": "Voit kirjautua sisään:"
   },
