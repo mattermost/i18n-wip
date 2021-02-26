@@ -3076,10 +3076,6 @@
     "translation": "Připojili jste se k {{ .ServerURL }}"
   },
   {
-    "id": "api.templates.welcome_body.info3",
-    "translation": "V Mattermostu můžete sdílet zprávy a soubory z vašeho počítače nebo telefonu, navíc s instantním vyhledáváním a archivací."
-  },
-  {
     "id": "api.templates.welcome_body.info2",
     "translation": "Můžete se přihlásit z:"
   },

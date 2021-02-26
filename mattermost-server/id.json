@@ -1116,10 +1116,6 @@
     "translation": "Anda telah bergabung dengan {{ .ServerURL }}"
   },
   {
-    "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost memungkinkan Anda berbagi pesan dan berkas dari PC atau ponsel Anda, didukung dengan fitur pencarian instan dan pengarsipan."
-  },
-  {
     "id": "api.templates.welcome_body.info2",
     "translation": "Anda dapat masuk dari:"
   },
