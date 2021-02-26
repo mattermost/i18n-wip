@@ -1116,10 +1116,6 @@
     "translation": "Anda telah bergabung dengan {{ .ServerURL }}"
   },
   {
-    "id": "api.templates.welcome_body.info2",
-    "translation": "Anda dapat masuk dari:"
-  },
-  {
     "id": "api.templates.welcome_body.info",
     "translation": "Mohon verifikasi email Anda dengan menekan tombol berikut."
   },

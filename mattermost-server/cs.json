@@ -3076,10 +3076,6 @@
     "translation": "Připojili jste se k {{ .ServerURL }}"
   },
   {
-    "id": "api.templates.welcome_body.info2",
-    "translation": "Můžete se přihlásit z:"
-  },
-  {
     "id": "api.templates.welcome_body.info",
     "translation": "Ověřte prosím svou e-mailovou adresu níže."
   },

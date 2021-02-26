@@ -1696,10 +1696,6 @@
     "translation": "T'has unit a {{ .ServerURL }}"
   },
   {
-    "id": "api.templates.welcome_body.info2",
-    "translation": "Pots iniciar sessió des de:"
-  },
-  {
     "id": "api.templates.welcome_body.info",
     "translation": "Verifica la teva adreça de correu fent clic a continuació."
   },

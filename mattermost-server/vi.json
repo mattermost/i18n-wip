@@ -2660,10 +2660,6 @@
     "translation": "Bạn đã tham gia {{.ServerURL}}"
   },
   {
-    "id": "api.templates.welcome_body.info2",
-    "translation": "Bạn có thể đăng nhập từ:"
-  },
-  {
     "id": "api.templates.welcome_body.info",
     "translation": "Vui lòng xác thực địa chỉ email bằng cách bấm vào link dưới."
   },

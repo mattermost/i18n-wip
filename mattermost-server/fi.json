@@ -4408,10 +4408,6 @@
     "translation": "Olet liittynyt palveluun {{ .ServerURL }}"
   },
   {
-    "id": "api.templates.welcome_body.info2",
-    "translation": "Voit kirjautua sisään:"
-  },
-  {
     "id": "api.templates.welcome_body.info",
     "translation": "Vahvista sähköpostiosoitteesi klikkaamalla alla."
   },

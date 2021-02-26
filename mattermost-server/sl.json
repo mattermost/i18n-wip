@@ -2580,10 +2580,6 @@
     "translation": "Pridružili ste se {{.ServerURL}}"
   },
   {
-    "id": "api.templates.welcome_body.info2",
-    "translation": "Prijavite se lahko iz:"
-  },
-  {
     "id": "api.templates.welcome_body.info",
     "translation": "Potrdite svoj e-poštni naslov tako, da kliknete spodaj."
   },

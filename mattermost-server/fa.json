@@ -2759,10 +2759,6 @@
     "translation": "لطفاً با کلیک زیر آدرس ایمیل خود را تأیید کنید."
   },
   {
-    "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost به شما امکان می دهد پیام ها و پرونده ها را از طریق رایانه یا تلفن خود ، با جستجوی فوری و بایگانی به اشتراک بگذارید."
-  },
-  {
     "id": "api.templates.welcome_body.title",
     "translation": "شما پیوسته اید {{ .ServerURL }}"
   },
