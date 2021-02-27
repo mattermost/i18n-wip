@@ -4951,5 +4951,9 @@
   {
     "id": "model.group.name.invalid_length.app_error",
     "translation": "Ime mora vsebovati od 1 do 64 malih alfanumeričnih znakov"
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "LDAP ni na voljo."
   }
 ]
