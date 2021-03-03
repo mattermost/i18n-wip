@@ -5181,7 +5181,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
-    "translation": "Diagnostic Id: "
+    "translation": "Diagnostic ID: "
   },
   {
     "id": "api.templates.warn_metric_ack.body.contact_name_header",
