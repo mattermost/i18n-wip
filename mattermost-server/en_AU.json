@@ -3616,10 +3616,6 @@
     "translation": "Cluster API endpoint not found."
   },
   {
-    "id": "ent.cloud.json_encode.error",
-    "translation": "Internal error marshalling request to CWS"
-  },
-  {
     "id": "ent.api.post.send_notifications_and_forget.push_image_only",
     "translation": " attached a file."
   },
