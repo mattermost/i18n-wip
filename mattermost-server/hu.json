@@ -661,7 +661,7 @@
   },
   {
     "id": "api.team.get_all_teams.insufficient_permissions",
-    "translation": "Nincs megfelelő jogosultsága a csatorna fejlécének módosításához."
+    "translation": "Nincs megfelelő jogosultsága az összes csapat kilistázásához."
   },
   {
     "id": "api.team.demote_user_to_guest.license.error",
@@ -669,7 +669,7 @@
   },
   {
     "id": "api.team.add_user_to_team.added",
-    "translation": "%v hozzáadva a csatornához %v által"
+    "translation": "%v hozzáadva a csapatba %v által."
   },
   {
     "id": "api.team.add_members.user_denied",
@@ -697,11 +697,11 @@
   },
   {
     "id": "api.scheme.create_scheme.license.error",
-    "translation": "A licenc nem támogatja a csatorna rendszer frissítését"
+    "translation": "Az Ön licence nem támogatja a jogosultsági séma létrehozást."
   },
   {
     "id": "api.roles.patch_roles.license.error",
-    "translation": "A licenc nem támogatja a csatorna rendszer frissítését"
+    "translation": "Az Ön licence nem támogatja a fejlett jogosultság kezelést."
   },
   {
     "id": "api.restricted_system_admin",
@@ -721,11 +721,11 @@
   },
   {
     "id": "api.post_get_post_by_id.get.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem találtuk a bejegyzést."
   },
   {
     "id": "api.post.update_post.find.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": ""
   },
   {
     "id": "api.post.link_preview_disabled.app_error",
@@ -733,11 +733,11 @@
   },
   {
     "id": "api.post.do_action.action_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen művelet azonosító."
   },
   {
     "id": "api.post.check_for_out_of_channel_group_users.message.none",
-    "translation": "@{{.GroupName}} csapatnak nincsen egyetlen tagja sem."
+    "translation": "@{{.GroupName}} -nak nincsen egyetlen tagja sem ebben a csapatban"
   },
   {
     "id": "api.plugin.verify_plugin.app_error",
@@ -785,15 +785,15 @@
   },
   {
     "id": "api.oauth.revoke_access_token.del_token.app_error",
-    "translation": "Hiba a hozzáférési token törlése közben az adatbázisból."
+    "translation": "Hiba a hozzáférési token adatbázisból törlése közben."
   },
   {
     "id": "api.oauth.revoke_access_token.del_session.app_error",
-    "translation": "Hiba a munkamenet törlése közben az adatbázisból."
+    "translation": "Hiba a munkamenet adatbázisból törlése közben."
   },
   {
     "id": "api.oauth.register_oauth_app.turn_off.app_error",
-    "translation": "A rendszergazda kikapcsolta az OAuth2 szolgáltatót."
+    "translation": "A rendszergazda kikapcsolta az OAuth2 azonosítás szolgáltatást."
   },
   {
     "id": "api.oauth.invalid_state_token.app_error",
@@ -1251,7 +1251,7 @@
   },
   {
     "id": "api.command_online.desc",
-    "translation": "Az állapot Elérhető-re váltása."
+    "translation": "Az állapot Elérhető-re váltása"
   },
   {
     "id": "api.command_offline.success",
@@ -1259,11 +1259,11 @@
   },
   {
     "id": "api.command_offline.name",
-    "translation": "Elérhetetlen"
+    "translation": "offline"
   },
   {
     "id": "api.command_offline.desc",
-    "translation": "Az állapot Nem elérhetőre váltása."
+    "translation": "Az állapot Nem elérhetőre váltása"
   },
   {
     "id": "api.command_mute.success_unmute_direct_msg",
@@ -1399,7 +1399,7 @@
   },
   {
     "id": "api.command_invite.user_not_in_team.app_error",
-    "translation": "{{.Username}} nem tagja ennek a csatornának.."
+    "translation": "@{{.Username}} nem tagja a csapatnak."
   },
   {
     "id": "api.command_invite.user_already_in_channel.app_error",
@@ -1946,7 +1946,7 @@
   },
   {
     "id": "api.channel.get_channel_moderations.license.error",
-    "translation": "A Licenced nem támogatja a csatorna moderációját."
+    "translation": "Az Ön licence nem támogatja a csatorna moderációt"
   },
   {
     "id": "api.channel.delete_channel.type.invalid",
@@ -2002,7 +2002,7 @@
   },
   {
     "id": "api.channel.channel_member_counts_by_group.license.error",
-    "translation": "Az Ön licence nem támogatja az LDAP csoportokat."
+    "translation": "Az Ön licence nem támogatja a csoportokat"
   },
   {
     "id": "api.channel.change_channel_privacy.public_to_private",
@@ -2034,11 +2034,11 @@
   },
   {
     "id": "api.channel.add_member.added",
-    "translation": "%v hozzáadva a csatornához. (Hozzáadta: %v)"
+    "translation": "%v hozzáadva a csatornához %v által."
   },
   {
     "id": "api.channel.add_guest.added",
-    "translation": "%v felvéve a csatorna vendégeként. (Hozzáadta: %v)"
+    "translation": "%v felvéve a csatorna vendégeként %v által."
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
@@ -2074,7 +2074,7 @@
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",
-    "translation": "Nem sikerült törölni a képet.."
+    "translation": "Nem sikerült törölni az ikon képet."
   },
   {
     "id": "api.bot.create_disabled",
@@ -2174,7 +2174,7 @@
   },
   {
     "id": "api.admin.upload_brand_image.too_large.app_error",
-    "translation": "Fájl feltöltés nem lehetséges. Az állomány túl nagy,"
+    "translation": "Fájl feltöltés nem lehetséges. A fájl túl nagy."
   },
   {
     "id": "api.admin.upload_brand_image.storage.app_error",
@@ -2455,5 +2455,36 @@
   {
     "id": "api.back_to_app",
     "translation": "Vissza ide: {{.SiteName}}"
+  },
+  {
+    "id": "api.slackimport.slack_import.log",
+    "translation": "Mattermost Slack Importálás Napló\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.created",
+    "translation": "\nLétrehozott felhasználók:\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.open.app_error",
+    "translation": "A fájl nem nyitható meg: {{.Filename}}.\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.notes",
+    "translation": "\nJegyzetek:\n"
+  },
+  {
+    "id": "api.status.user_not_found.app_error",
+    "translation": "Felhasználó nem található."
+  },
+  {
+    "id": "api.post.get_message_for_notification.images_sent",
+    "translation": {
+      "one": "{{.Count}} kép elküldve: {{.Filenames}}",
+      "other": "{{.Count}} kép elküldve: {{.Filenames}}"
+    }
+  },
+  {
+    "id": "api.oauth.redirecting_back",
+    "translation": "Visszairányítás az applikációra."
   }
 ]
