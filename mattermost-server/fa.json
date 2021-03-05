@@ -5535,16 +5535,8 @@
     "translation": " پرونده ای را ضمیمه کرد."
   },
   {
-    "id": "ent.cloud.authentication_failed",
-    "translation": "تأیید اعتبار در CWS امکان پذیر نیست"
-  },
-  {
     "id": "ent.cloud.json_encode.error",
     "translation": "درخواست داخلی خطای داخلی برای CWS"
-  },
-  {
-    "id": "ent.cloud.request_error",
-    "translation": "خطا در پردازش درخواست به CWS"
   },
   {
     "id": "ent.cluster.404.app_error",
