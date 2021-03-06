@@ -1554,7 +1554,7 @@
   },
   {
     "id": "api.command_dnd.desc",
-    "translation": "A ne zavarjanak az asztali és mobil push értesítések letiltja."
+    "translation": "A ne zavarjanak állapot az asztali és mobil push értesítések letiltja."
   },
   {
     "id": "api.command_collapse.success",
@@ -1586,7 +1586,7 @@
   },
   {
     "id": "api.command_channel_rename.update_channel.app_error",
-    "translation": "Hiba történt az aktuális csatorna módosításakor."
+    "translation": "Hiba történt az aktuális csatorna frissítésekor."
   },
   {
     "id": "api.command_channel_rename.too_short.app_error",
@@ -1614,7 +1614,7 @@
   },
   {
     "id": "api.command_channel_rename.direct_group.app_error",
-    "translation": "A közvetlen üzenet küldési csatornát nem lehet elhagyni."
+    "translation": "A közvetlen üzenet küldési csatornából nem lehet kilépni."
   },
   {
     "id": "api.command_channel_rename.desc",
@@ -1630,7 +1630,7 @@
   },
   {
     "id": "api.command_channel_purpose.update_channel.app_error",
-    "translation": "Hiba történt az aktuális csatorna módosításakor."
+    "translation": "Hiba történt az aktuális csatorna frissítésekor."
   },
   {
     "id": "api.command_channel_purpose.permission.app_error",
@@ -1638,7 +1638,7 @@
   },
   {
     "id": "api.command_channel_purpose.name",
-    "translation": "cél"
+    "translation": "célja"
   },
   {
     "id": "api.command_channel_purpose.message.app_error",
@@ -1674,7 +1674,7 @@
   },
   {
     "id": "api.command_channel_header.message.app_error",
-    "translation": "A szöveget el kell látni a /header parancssal."
+    "translation": "A szöveget el kell látni a /header paranccsal."
   },
   {
     "id": "api.command_channel_header.hint",
@@ -1690,15 +1690,15 @@
   },
   {
     "id": "api.command_away.success",
-    "translation": "Most távol vagy"
+    "translation": "Ön most nincs a gépnél"
   },
   {
     "id": "api.command_away.name",
-    "translation": "távol"
+    "translation": "nincs a gépnél"
   },
   {
     "id": "api.command_away.desc",
-    "translation": "Állítsa állapotát nincs a gépnélre"
+    "translation": "Állítsa be az állapotát nincs a gépnél-re"
   },
   {
     "id": "api.command.team_mismatch.app_error",
@@ -1734,7 +1734,7 @@
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
-    "translation": "Az e-mail meghívók le vannak tiltva, meghívó nem lett elküldve"
+    "translation": "Az e-mail meghívók le vannak tiltva, meghívó(k) nem let(ek) kiküldve"
   },
   {
     "id": "api.command.invite_people.desc",
@@ -1742,11 +1742,11 @@
   },
   {
     "id": "api.command.execute_command.start.app_error",
-    "translation": "Parancs trigger nem található."
+    "translation": "Parancs indító nem található."
   },
   {
     "id": "api.command.execute_command.not_found.app_error",
-    "translation": "A '{{.Trigger}}' triggerrel ellátott parancs nem található. Ahhoz, hogy \"/\" jellel kezdődő üzenetet küldjön próbáljon meg egy szóközt tenni az üzenet elejére."
+    "translation": "A '{{.Trigger}}' indítóval ellátott parancs nem található. Ahhoz, hogy \"/\" jellel kezdődő üzenetet küldjön próbáljon meg egy szóközt tenni az üzenet elejére."
   },
   {
     "id": "api.command.execute_command.format.app_error",
@@ -1754,15 +1754,15 @@
   },
   {
     "id": "api.command.execute_command.failed_resp.app_error",
-    "translation": "A '{{.Trigger}}' triggerrel ellátott parancs a következő válassza tért vissza: {{.Status}}."
+    "translation": "A '{{.Trigger}}' indítóval ellátott parancs a következő válassza tért vissza: {{.Status}}."
   },
   {
     "id": "api.command.execute_command.failed_empty.app_error",
-    "translation": "A '{{.Trigger}}' triggerrel ellátott parancs üres válasszal tért vissza."
+    "translation": "A '{{.Trigger}}' indítóval ellátott parancs üres válasszal tért vissza."
   },
   {
     "id": "api.command.execute_command.failed.app_error",
-    "translation": "A '{{.Trigger}}' triggerrel ellátott parancs sikertelen volt."
+    "translation": "A '{{.Trigger}}' indítóval ellátott parancs sikertelen volt."
   },
   {
     "id": "api.command.execute_command.create_post_failed.app_error",
@@ -1770,7 +1770,7 @@
   },
   {
     "id": "api.command.duplicate_trigger.app_error",
-    "translation": "Ez a hívó szó már használva van. Kérem válasszon egy másik szót."
+    "translation": "Ez az indító szó már használva van. Kérem válasszon egy másik szót."
   },
   {
     "id": "api.command.disabled.app_error",
@@ -1790,11 +1790,11 @@
   },
   {
     "id": "api.channel.update_team_member_roles.changing_guest_role.app_error",
-    "translation": "Érvénytelen csapattag frissítés: Nem lehet hozzáadni vagy eltávolítani a vendég szerepét manuálisan."
+    "translation": "Érvénytelen csapattag frissítés: Nem lehet hozzáadni vagy eltávolítani a vendég szerepkört manuálisan."
   },
   {
     "id": "api.channel.update_channel_scheme.scheme_scope.error",
-    "translation": "Nem lehet beállítani a sémát a csatornára, mert a mellékelt séma nem csatorna séma."
+    "translation": "Nem lehet beállítani a sémát a csatornára, mert a megadott séma nem csatorna séma."
   },
   {
     "id": "api.channel.update_channel_scheme.license.error",
@@ -1810,7 +1810,7 @@
   },
   {
     "id": "api.channel.update_channel_member_roles.guest_and_user.app_error",
-    "translation": "Érvénytelen csatornatag frissítés: A felhasználónak vendégnek vagy felhasználónak kell lennie, de nem mindkettőnek."
+    "translation": "Érvénytelen csatornatag frissítés: A felhasználónak vendégnek vagy felhasználónak kell lennie, de nem lehet mindkettő."
   },
   {
     "id": "api.channel.update_channel_member_roles.changing_guest_role.app_error",
@@ -1858,11 +1858,11 @@
   },
   {
     "id": "api.channel.remove_member.group_constrained.app_error",
-    "translation": "Nem lehet eltávolítani egy felhasználót egy csoport-korlátozott csatornáról."
+    "translation": "Nem lehet eltávolítani egy felhasználót egy csoport-korlátozott csatornából."
   },
   {
     "id": "api.channel.remove_channel_member.type.app_error",
-    "translation": "Nem sikerült eltávolítani a felhasználót egy csatornáról."
+    "translation": "Nem sikerült eltávolítani a felhasználót egy csatornából."
   },
   {
     "id": "api.channel.remove.default.app_error",
@@ -1874,11 +1874,11 @@
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
-    "translation": "%s csatorna fejléce frissítve: %s-re"
+    "translation": "%s csatorna fejléce frissítve: %s -re"
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
-    "translation": "%s csatorna fejléce frissítve: %s-ről: %s-re"
+    "translation": "%s csatorna fejléce frissítve: %s -ről: %s -re"
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.retrieve_user.error",
@@ -1886,7 +1886,7 @@
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.removed",
-    "translation": "%s eltávolítva a csatorna fejlécből (%s volt)"
+    "translation": "%s eltávolította a csatorna fejlécét (ez volt: %s)"
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
@@ -1894,7 +1894,7 @@
   },
   {
     "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
-    "translation": "%s csatorna neve frissítve: %s-ről: %s-re"
+    "translation": "%s csatorna neve frissítve: %s -ről: %s -re"
   },
   {
     "id": "api.channel.post_update_channel_displayname_message_and_forget.retrieve_user.error",
@@ -1906,11 +1906,11 @@
   },
   {
     "id": "api.channel.post_channel_privacy_message.error",
-    "translation": "Nem sikerült elküldeni a csatorna adatvédelmi frissítési üzenetét."
+    "translation": "Csatorna adatvédelmi frissítési üzenetének elküldése sikertelen."
   },
   {
     "id": "api.channel.patch_update_channel.forbidden.app_error",
-    "translation": "Hiba a csatorna frissítésekor."
+    "translation": "Csatorna frissítése sikertelen."
   },
   {
     "id": "api.channel.patch_channel_moderations.license.error",
@@ -1918,19 +1918,19 @@
   },
   {
     "id": "api.channel.leave.left",
-    "translation": "%v elhagyta a csatornát."
+    "translation": "%v kilépett a csatornából."
   },
   {
     "id": "api.channel.leave.last_member.app_error",
-    "translation": "Ön az egyetlen tag próbálkozzon a privát csatorna eltávolításával az elhagyás helyett."
+    "translation": "Ön az egyetlen tag próbálkozzon a privát csatorna eltávolításával a kilépés helyett."
   },
   {
     "id": "api.channel.leave.direct.app_error",
-    "translation": "A közvetlen üzenet küldési csatornát nem lehet elhagyni."
+    "translation": "A közvetlen üzenet küldési csatornából nem lehet kilépni."
   },
   {
     "id": "api.channel.leave.default.app_error",
-    "translation": "Az alapértelmezett csatorna nem hagyható el {{.Channel}}."
+    "translation": "Az alapértelmezett csatornából nem lehet kilépni {{.Channel}}."
   },
   {
     "id": "api.channel.join_channel.post_and_forget",
@@ -1938,7 +1938,7 @@
   },
   {
     "id": "api.channel.join_channel.permissions.app_error",
-    "translation": "Nem rendelkezik a megfelelő jogosultsággal."
+    "translation": "Ön nem rendelkezik a megfelelő jogosultságokkal."
   },
   {
     "id": "api.channel.guest_join_channel.post_and_forget",
@@ -1974,11 +1974,11 @@
   },
   {
     "id": "api.channel.create_direct_channel.invalid_user.app_error",
-    "translation": "Érvénytelen felhasználói ID a közvetlen csatorna létrehozásánál."
+    "translation": "Érvénytelen felhasználó azonosító a közvetlen csatorna létrehozásánál."
   },
   {
     "id": "api.channel.create_default_channels.town_square",
-    "translation": "Közösségi Tér"
+    "translation": "Közösségi tér"
   },
   {
     "id": "api.channel.create_default_channels.off_topic",
@@ -1994,11 +1994,11 @@
   },
   {
     "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "A konvertálni kívánt csatorna már privát."
+    "translation": "Az átalakítani kívánt csatorna már privát."
   },
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Ez az alapértelmezett csatorna nem konvertálható privát csatornává."
+    "translation": "Ez az alapértelmezett csatorna nem alakítható át privát csatornává."
   },
   {
     "id": "api.channel.channel_member_counts_by_group.license.error",
@@ -2010,7 +2010,7 @@
   },
   {
     "id": "api.channel.change_channel_privacy.private_to_public",
-    "translation": "Ez a csatorna Publikus Csatornává lett konvertálva és bárki bármilyen csapatból csatlakozhat."
+    "translation": "Ez a csatorna nyilvános csatornává lett alakítva és bárki bármilyen csapatból csatlakozhat hozzá."
   },
   {
     "id": "api.channel.add_user_to_channel.type.app_error",
@@ -2030,7 +2030,7 @@
   },
   {
     "id": "api.channel.add_members.error",
-    "translation": "Hiba történt a csatorna tag (ok) hozzáadásakor."
+    "translation": "Hiba történt a csatorna tag(ok) hozzáadásakor."
   },
   {
     "id": "api.channel.add_member.added",
@@ -2038,11 +2038,11 @@
   },
   {
     "id": "api.channel.add_guest.added",
-    "translation": "%v felvéve a csatorna vendégeként %v által."
+    "translation": "%v hozzáadva a csatornához vendégeként %v által."
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Kérem, adja meg nekem azokat a csoportokat és csatornákat, amelyekkel szeretne kapcsolatba lépni. Ehhez kérem használjon böngészőt vagy a Mattermost alkalmazást."
+    "translation": "Kérem, adjon hozzá azokhoz a csapatokhoz és csatornához, amelyekben szeretné, hogy működjek. Ehhez kérem használjon egy böngészőt vagy a Mattermost alkalmazást."
   },
   {
     "id": "api.bot.set_bot_icon_image.too_large.app_error",
@@ -2050,11 +2050,11 @@
   },
   {
     "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Nem sikerült elemezni a többrészes formot."
+    "translation": "Nem sikerült tagolnia többrészes űrlapot."
   },
   {
     "id": "api.bot.set_bot_icon_image.open.app_error",
-    "translation": "A Képfájl nem megnyitható."
+    "translation": "A Képfájl nem nyitható meg.."
   },
   {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
@@ -2182,7 +2182,7 @@
   },
   {
     "id": "api.admin.upload_brand_image.parse.app_error",
-    "translation": "Nem sikerült elemezni a többrészes formot."
+    "translation": "Nem sikerült tagolni a többrészes formot."
   },
   {
     "id": "api.admin.upload_brand_image.no_file.app_error",
@@ -2486,5 +2486,45 @@
   {
     "id": "api.oauth.redirecting_back",
     "translation": "Visszairányítás az applikációra."
+  },
+  {
+    "id": "api.command_custom_status.success",
+    "translation": "Az Ön állapot “{{.EmojiName}} {{.StatusMessage}}” van állítva. Megváltoztathatja az állapotát az állapot ablakból a csatorna oldalsáv fejlécében."
+  },
+  {
+    "id": "api.command_custom_status.name",
+    "translation": "állapot"
+  },
+  {
+    "id": "api.command_custom_status.hint",
+    "translation": "[:emoji_name:] [status_message] vagy törölje"
+  },
+  {
+    "id": "api.command_custom_status.desc",
+    "translation": "Állítsa be vagy törölje az állapotát"
+  },
+  {
+    "id": "api.command_custom_status.clear.success",
+    "translation": "Az Ön állapota törölve."
+  },
+  {
+    "id": "api.command_custom_status.clear.app_error",
+    "translation": "Hiba az állapot törlésekor."
+  },
+  {
+    "id": "api.command_custom_status.app_error",
+    "translation": "Hiba az állapot beállításakor."
+  },
+  {
+    "id": "api.cloud.get_subscription.error",
+    "translation": "Hiba történt a felhő előfizetés lekérdezésekor."
+  },
+  {
+    "id": "api.cloud.get_admins_emails.error",
+    "translation": "Hiba történt a rendszergazda emailcíme lekérdezésekor."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Hiba történt a multiform kérés tagolás közben"
   }
 ]
