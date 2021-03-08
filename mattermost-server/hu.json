@@ -1099,7 +1099,7 @@
   },
   {
     "id": "api.command_shrug.desc",
-    "translation": "¯\\_(ツ)_/¯ hozzáadása az üzenethez"
+    "translation": "Hozzáadja a ¯\\_(ツ)_/¯ az üzenethez"
   },
   {
     "id": "api.command_shortcuts.unsupported.app_error",
@@ -1111,7 +1111,7 @@
   },
   {
     "id": "api.command_shortcuts.desc",
-    "translation": "Billentyűparancsok listájának megmutatása"
+    "translation": "Megjeleníti a billentyűparancsok listáját"
   },
   {
     "id": "api.command_settings.unsupported.app_error",
@@ -1139,7 +1139,7 @@
   },
   {
     "id": "api.command_search.desc",
-    "translation": "Szöveg keresése üzenetekben"
+    "translation": "Szöveg keresése az üzenetekben"
   },
   {
     "id": "api.command_remove.user_not_in_channel",
@@ -1251,7 +1251,7 @@
   },
   {
     "id": "api.command_online.desc",
-    "translation": "Az állapot Elérhető-re váltása"
+    "translation": "Az állapot beállítása Elérhetőre"
   },
   {
     "id": "api.command_offline.success",
@@ -1263,7 +1263,7 @@
   },
   {
     "id": "api.command_offline.desc",
-    "translation": "Az állapot Nem elérhetőre váltása"
+    "translation": "Az állapot beállítása Nem elérhetőre"
   },
   {
     "id": "api.command_mute.success_unmute_direct_msg",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "api.command_msg.missing.app_error",
-    "translation": "Nem találtuk a felhasználót."
+    "translation": "Nem található a felhasználó."
   },
   {
     "id": "api.command_msg.hint",
@@ -1323,7 +1323,7 @@
   },
   {
     "id": "api.command_msg.fail.app_error",
-    "translation": "Hiba történt a felhasználó üzenésekor."
+    "translation": "Hiba történt a felhasználónak való üzenéskor."
   },
   {
     "id": "api.command_msg.dm_fail.app_error",
@@ -1347,11 +1347,11 @@
   },
   {
     "id": "api.command_logout.name",
-    "translation": "Kilépés"
+    "translation": "kijelentkezés"
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Kilépés Mattermostból"
+    "translation": "Kijelentkezés a Mattermostból"
   },
   {
     "id": "api.command_leave.name",
@@ -1359,11 +1359,11 @@
   },
   {
     "id": "api.command_leave.fail.app_error",
-    "translation": "Hiba történt a csatorna elhagyásakor."
+    "translation": "Hiba történt a csatornából való kilépéskor."
   },
   {
     "id": "api.command_leave.desc",
-    "translation": "A jelenlegi csatorna elhagyása"
+    "translation": "Kilépés a jelenlegi csatornából"
   },
   {
     "id": "api.command_kick.name",
@@ -1411,11 +1411,11 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "Nem található a {{.Channel}} csatorna. Kérjük, használja a csatorna kezelőt a csatornák azonosításához."
+    "translation": "Nem található a {{.Channel}} csatorna. Kérjük, használja a csatorna azonosítót a csatornák beazonosításához."
   },
   {
     "id": "api.command_invite.permission.app_error",
-    "translation": "Nincs megfelelő jogosultsága, hogy hozzáadja a(z) {{.User}} felhasználót a(z) {{.Channel}} csatornához."
+    "translation": "Nincs elegendő jogosultsága, hogy hozzáadja a(z) {{.User}} felhasználót a(z) {{.Channel}} csatornához."
   },
   {
     "id": "api.command_invite.name",
@@ -1443,7 +1443,7 @@
   },
   {
     "id": "api.command_invite.directchannel.app_error",
-    "translation": "Nem adhat hozzá valakit egy közvetlen üzenetcsatornahoz."
+    "translation": "Nem adhat hozzá valakit egy közvetlen üzenetcsatornához."
   },
   {
     "id": "api.command_invite.desc",
@@ -1475,7 +1475,7 @@
   },
   {
     "id": "api.command_groupmsg.min_users.app_error",
-    "translation": "A csoportos üzenetek minimum korlátja {{.MaxUsers}} felhasználó."
+    "translation": "A csoportos üzenetek minimum korlátja {{.MinUsers}} felhasználó."
   },
   {
     "id": "api.command_groupmsg.max_users.app_error",
