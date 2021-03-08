@@ -1,1 +1,8 @@
-{}
+{
+  "web.footer.about": "පිළිබඳව",
+  "web.header.back": "ආපසු",
+  "web.header.logout": "නික්මෙන්න",
+  "widgets.channels_input.loading": "පූරණය වෙමින්",
+  "widgets.users_emails_input.loading": "පූරණය වෙමින්",
+  "yourcomputer": "ඔබගේ පරිගණකය"
+}
