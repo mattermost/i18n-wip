@@ -8653,5 +8653,21 @@
       "one": "Unable to find the user: {{.Users}}",
       "other": "Unable to find the users: {{.Users}}"
     }
+  },
+  {
+    "id": "ent.cloud.subscription.error",
+    "translation": "Error retrieving cloud subscription"
+  },
+  {
+    "id": "api.team.cloud.subscription.error",
+    "translation": "Error retrieving cloud subscription"
+  },
+  {
+    "id": "api.cloud.get_subscription.error",
+    "translation": "Error retrieving cloud subscription."
+  },
+  {
+    "id": "api.cloud.get_admins_emails.error",
+    "translation": "Error retrieving System Admin's email."
   }
 ]
