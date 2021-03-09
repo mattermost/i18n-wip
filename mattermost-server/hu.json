@@ -529,11 +529,11 @@
   },
   {
     "id": "api.user.update_active.permissions.app_error",
-    "translation": "Nincs megfelelő jogosultsága"
+    "translation": "Nincsen megfelelő jogosultsága."
   },
   {
     "id": "api.user.send_deactivate_email_and_forget.failed.error",
-    "translation": "A licence eltávolítási email kérelem elküldése sikertelen volt."
+    "translation": "A fiók deaktiválási email elküldése sikertelen volt"
   },
   {
     "id": "api.user.saml.not_available.app_error",
@@ -541,19 +541,19 @@
   },
   {
     "id": "api.user.reset_password.invalid_link.app_error",
-    "translation": "A nyilvános link nem tűnik érvényesnek"
+    "translation": "A jelszó visszaállítás link nem tűnik érvényesnek."
   },
   {
     "id": "api.user.reset_password.broken_token.app_error",
-    "translation": "A nyilvános link nem tűnik érvényesnek"
+    "translation": "A jelszó visszaállítás token nem tűnik érvényesnek."
   },
   {
     "id": "api.user.login.guest_accounts.license.error",
-    "translation": "Az Ön licensze nem támogatja az LDAP csoportokat"
+    "translation": "Az Ön licensze nem támogatja a vendég fiókokat"
   },
   {
     "id": "api.user.create_user.signup_link_invalid.app_error",
-    "translation": "A nyilvános link nem tűnik érvényesnek"
+    "translation": "A regisztrációs link nem tűnik érvényesnek."
   },
   {
     "id": "api.user.create_user.signup_link_expired.app_error",
@@ -561,23 +561,23 @@
   },
   {
     "id": "api.user.create_user.guest_accounts.license.app_error",
-    "translation": "Az Ön licensze nem támogatja az LDAP csoportokat"
+    "translation": "Az Ön licence nem támogatja a vendég fiókokat"
   },
   {
     "id": "api.user.create_profile_image.encode.app_error",
-    "translation": "Nem sikerült feltölteni a képet"
+    "translation": "Nem sikerült kódolni alapértelmezett profil képet."
   },
   {
     "id": "api.user.create_profile_image.default_font.app_error",
-    "translation": "Nem sikerült feltölteni a képet"
+    "translation": "Nem sikerült létrehozni alapértelmezett profil kép betűtípust."
   },
   {
     "id": "api.user.check_user_mfa.bad_code.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen MFA token."
   },
   {
     "id": "api.user.authorize_oauth_user.invalid_state.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen állapot"
   },
   {
     "id": "api.templates.signin_change_email.body.method_email",
@@ -585,19 +585,19 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "Ugrás a Cikkre"
+    "translation": "Ugrás a bejegyzéshez"
   },
   {
     "id": "api.team.update_team_scheme.scheme_scope.error",
-    "translation": "Nem lehet beállítani a sémát a csatornára, mert a mellékelt séma nem csatorna séma."
+    "translation": "Nem lehet beállítani a sémát a csapatra, mert a mellékelt séma nem csapat séma."
   },
   {
     "id": "api.team.update_team_scheme.license.error",
-    "translation": "A licenc nem támogatja a csatorna rendszer frissítését"
+    "translation": "A licenc nem támogatja a csapat séma frissítését"
   },
   {
     "id": "api.team.update_team_member_roles.guest_and_user.app_error",
-    "translation": "Érvénytelen csatornatag frissítés: A felhasználónak vendégnek vagy felhasználónak kell lennie, de nem mindkettőnek."
+    "translation": "Érvénytelen csoporttag frissítés: A felhasználónak vendégnek vagy felhasználónak kell lennie, de nem mindkettőnek."
   },
   {
     "id": "api.team.update_member_roles.not_a_member",
@@ -605,7 +605,7 @@
   },
   {
     "id": "api.team.set_team_icon.too_large.app_error",
-    "translation": "Csapat ikon feltöltés nem lehetséges. Az fájl túl nagy."
+    "translation": "Nem lehet feltölteni a csapat ikont. Az fájl túl nagy."
   },
   {
     "id": "api.team.set_team_icon.storage.app_error",
@@ -613,19 +613,19 @@
   },
   {
     "id": "api.team.set_team_icon.parse.app_error",
-    "translation": "Nem sikerült elemezni a többrészes formot"
+    "translation": "Nem sikerült elemezni a többrészes űrlapot."
   },
   {
     "id": "api.team.set_team_icon.open.app_error",
-    "translation": "Nem nyitható meg a képfálj."
+    "translation": "Nem nyitható meg a képfájl."
   },
   {
     "id": "api.team.set_team_icon.no_file.app_error",
-    "translation": "Nincs megadva fájl a 'kép' mezőben"
+    "translation": "Nincs megadva fájl a 'kép' alatt a kérésben."
   },
   {
     "id": "api.team.set_team_icon.array.app_error",
-    "translation": "Üres a tömb a 'kép' alatt a kérésnél"
+    "translation": "Üres a tömb a 'kép' alatt a kérésnél."
   },
   {
     "id": "api.team.remove_user_from_team.removed",
@@ -645,27 +645,27 @@
   },
   {
     "id": "api.team.import_team.parse.app_error",
-    "translation": "Nem sikerült elemezni a többrészes formot"
+    "translation": "Nem sikerült elemezni a többrészes űrlapot."
   },
   {
     "id": "api.team.import_team.open.app_error",
-    "translation": "Nem nyitható meg a képfálj."
+    "translation": "Nem nyitható meg a fájl."
   },
   {
     "id": "api.team.import_team.no_file.app_error",
-    "translation": "Nincs megadva fájl a 'fájl' mezőben"
+    "translation": "Nincs megadva fájl a 'fájl' alatt a kérésben."
   },
   {
     "id": "api.team.import_team.array.app_error",
-    "translation": "Üres a tömb a 'kép' alatt a kérésnél"
+    "translation": "Üres a tömb a 'fájl' alatt a kérésnél."
   },
   {
     "id": "api.team.get_all_teams.insufficient_permissions",
-    "translation": "Nincs megfelelő jogosultsága az összes csapat kilistázásához."
+    "translation": "Nincs elegendő jogosultsága az összes csapat kilistázásához"
   },
   {
     "id": "api.team.demote_user_to_guest.license.error",
-    "translation": "Az Ön licensze nem támogatja az LDAP csoportokat"
+    "translation": "Az Ön licensze nem támogatja a vendég fiókokat"
   },
   {
     "id": "api.team.add_user_to_team.added",
@@ -677,7 +677,7 @@
   },
   {
     "id": "api.team.add_members.error",
-    "translation": "Hiba történt a csatorna tag (ok) hozzáadásakor."
+    "translation": "Hiba történt a csatorna tag(ok) hozzáadásakor."
   },
   {
     "id": "api.scheme.patch_scheme.license.error",
@@ -2458,7 +2458,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack Importálás Napló\n"
+    "translation": "Mattermost Slack Importálás napló\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -3093,5 +3093,1109 @@
   {
     "id": "api.custom_status.disabled",
     "translation": "Egyedi állapot funkció le van tiltva. A részletekért kérjük vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.user.update_password.menu",
+    "translation": "a beállítások menü használatával"
+  },
+  {
+    "id": "api.user.update_password.incorrect.app_error",
+    "translation": "A \"Jelenlegi jelszó\" amit megadott helytelen. Kérjük ellenőrizze, hogy be van e kapcsolva a Caps Lock és próbálja újra."
+  },
+  {
+    "id": "api.user.update_password.context.app_error",
+    "translation": "Jelszó frissítés sikertelen mert a context user_id nem egyezett a props user_id -val."
+  },
+  {
+    "id": "api.user.update_password.failed.app_error",
+    "translation": "Jelszófrissítés sikertelen."
+  },
+  {
+    "id": "api.user.update_oauth_user_attrs.get_user.app_error",
+    "translation": "Nem lehetett lekérni a felhasználót a {{.Service}} felhasználó objektumból."
+  },
+  {
+    "id": "api.user.update_active.not_enable.app_error",
+    "translation": "Nem deaktiválhatja saját magát, mert ez a funkció nincs engedélyezve. Kérjük, lépjen kapcsolatba a rendszergazdával."
+  },
+  {
+    "id": "api.user.update_active.cannot_enable_guest_when_guest_feature_is_disabled.app_error",
+    "translation": "Nem aktiválhat vendégfiókot, mert a vendégelérés funkció nincs engedélyezve."
+  },
+  {
+    "id": "api.user.send_welcome_email_and_forget.failed.error",
+    "translation": "Nem sikerült elküldeni az üdvözlés emailt"
+  },
+  {
+    "id": "api.user.send_verify_email_and_forget.failed.error",
+    "translation": "Nem sikerült elküldeni az email megerősítés emailt"
+  },
+  {
+    "id": "api.user.send_user_access_token.error",
+    "translation": "Nem sikerült elküldeni a \"Személyes hozzáférési token hozzáadva\" emailt"
+  },
+  {
+    "id": "api.user.send_upgrade_request_email.error",
+    "translation": "Nem sikerült elküldeni a felhasználói korlát emailt az adminnak"
+  },
+  {
+    "id": "api.user.send_sign_in_change_email_and_forget.error",
+    "translation": "Nem sikerült elküldeni a felszó frissítés emailt"
+  },
+  {
+    "id": "api.user.send_password_reset.sso.app_error",
+    "translation": "Nem lehet Jelszót visszaállítani az SSO fiókoknál."
+  },
+  {
+    "id": "api.user.send_password_reset.send.app_error",
+    "translation": "Nem sikerült elküldeni a jelszó visszaállítás emailt."
+  },
+  {
+    "id": "api.user.send_password_change_email_and_forget.error",
+    "translation": "Nem sikerült elküldeni a jelszó változtatás emailt."
+  },
+  {
+    "id": "api.user.send_mfa_change_email.error",
+    "translation": "Nem lehet elküldeni az MFA változtatás értesítés emailt."
+  },
+  {
+    "id": "api.user.send_email_change_verify_email_and_forget.error",
+    "translation": "Az email változtatás megerősítés email küldése sikertelen volt"
+  },
+  {
+    "id": "api.user.send_email_change_username_and_forget.error",
+    "translation": "Az felhasználó változtatás értesítő email küldése sikertelen volt"
+  },
+  {
+    "id": "api.user.send_email_change_email_and_forget.error",
+    "translation": "Az email változtatás értesítő email küldése sikertelen volt"
+  },
+  {
+    "id": "api.user.reset_password.token_parse.error",
+    "translation": "Nem lehet elemezni a jelszó visszaállítás tokent"
+  },
+  {
+    "id": "api.user.reset_password.sso.app_error",
+    "translation": "Az SSO fiókoknak nem lehet jelszót visszaállítani."
+  },
+  {
+    "id": "api.user.reset_password.method",
+    "translation": "jelszóvisszaállító link használatával"
+  },
+  {
+    "id": "api.user.reset_password.link_expired.app_error",
+    "translation": "A jelszó visszaállítás link lejárt."
+  },
+  {
+    "id": "api.user.promote_guest_to_user.no_guest.app_error",
+    "translation": "Nem lehet átalakítani a vendéget rendes felhasználóvá, mert nem vendég."
+  },
+  {
+    "id": "api.user.oauth_to_email.not_available.app_error",
+    "translation": "Hitelesítés átvitel nincs beállítva vagy nem elérhető ezen a szerveren."
+  },
+  {
+    "id": "api.user.oauth_to_email.context.app_error",
+    "translation": "Jelszó frissítés sikertelen mert a context user_id nem egyezett a megadott felhasználó azonosítójával."
+  },
+  {
+    "id": "api.user.login_ldap.not_available.app_error",
+    "translation": "AD/LDAP nem elérhető ezen a szerveren."
+  },
+  {
+    "id": "api.user.login_cws.license.error",
+    "translation": "CWS bejelentkezés tiltott."
+  },
+  {
+    "id": "api.user.login_by_oauth.parse.app_error",
+    "translation": "Nem sikerült elemezni a {{.Service}} felhasználói objektum hitelesítési adatait."
+  },
+  {
+    "id": "api.user.login_by_oauth.not_available.app_error",
+    "translation": "A {{.Service}} SSO az OAuth 2.0-n keresztül nem érhető el ezen a szerveren."
+  },
+  {
+    "id": "api.user.login_by_oauth.bot_login_forbidden.app_error",
+    "translation": "Bot bejelentkezés tiltott."
+  },
+  {
+    "id": "api.user.login_by_cws.invalid_token.app_error",
+    "translation": "CWS token nem érvényes"
+  },
+  {
+    "id": "api.user.login.use_auth_service.app_error",
+    "translation": "Kérjük jelentkezzen be a {{.AuthService}} használatával."
+  },
+  {
+    "id": "api.user.login.not_verified.app_error",
+    "translation": "Bejelentkezés sikertelen mert az email cím nincs megerősítve."
+  },
+  {
+    "id": "api.user.login.invalid_credentials_username",
+    "translation": "Adjon meg érvényes felhasználónevet és/vagy jelszót."
+  },
+  {
+    "id": "api.user.login.invalid_credentials_sso",
+    "translation": "Adjon meg érvényes emailt és felhasználónevet és/vagy jelszót, vagy jelentkezzen be másképp."
+  },
+  {
+    "id": "api.user.login.invalid_credentials_email_username",
+    "translation": "Adjon meg érvényes emailt és felhasználónevet és/vagy jelszót."
+  },
+  {
+    "id": "api.user.login.invalid_credentials_email",
+    "translation": "Adjon meg egy érvényes emailt és/vagy jelszót"
+  },
+  {
+    "id": "api.user.login.inactive.app_error",
+    "translation": "A bejelentkezés sikertelen, mert fiókját inaktiválták. Kérjük, lépjen kapcsolatba egy rendszergazdával."
+  },
+  {
+    "id": "api.user.login.guest_accounts.disabled.error",
+    "translation": "A vendég fiókok tiltva vannak"
+  },
+  {
+    "id": "api.user.login.client_side_cert.license.app_error",
+    "translation": "Megpróbálta használni a ClientSideCertEnable kísérleti funkciót érvényes enterprise licenc nélkül."
+  },
+  {
+    "id": "api.user.login.client_side_cert.certificate.app_error",
+    "translation": "Megkísérelt bejelentkezni a ClientSideCert kísérleti szolgáltatással érvényes tanúsítvány megadása nélkül."
+  },
+  {
+    "id": "api.user.login.blank_pwd.app_error",
+    "translation": "A jelszó mező nem maradhat üresen"
+  },
+  {
+    "id": "api.user.login.bot_login_forbidden.app_error",
+    "translation": "Bot bejelentkezés tiltott."
+  },
+  {
+    "id": "api.user.ldap_to_email.not_ldap_account.app_error",
+    "translation": "Ez a felhasználó fiók nem használ AD/LDAP-ot."
+  },
+  {
+    "id": "api.user.ldap_to_email.not_available.app_error",
+    "translation": "AD/LDAP nem elérhető a szerveren."
+  },
+  {
+    "id": "api.user.get_user_by_email.permissions.app_error",
+    "translation": "Felhasználó lekérése email szerint sikertelen."
+  },
+  {
+    "id": "api.user.get_uploads_for_user.forbidden.app_error",
+    "translation": "Feltöltések lekérése sikertelen."
+  },
+  {
+    "id": "api.user.get_authorization_code.endpoint.app_error",
+    "translation": "Hiba történt a végpont lekérése során a Discovery dokumentumból."
+  },
+  {
+    "id": "api.user.email_to_oauth.not_available.app_error",
+    "translation": "A hitelesítés átvitel nincs beállítva vagy nem elérhető ezen a szerveren."
+  },
+  {
+    "id": "api.user.email_to_ldap.not_available.app_error",
+    "translation": "AD/LDAP nem elérhető ezen a szerveren."
+  },
+  {
+    "id": "api.user.demote_user_to_guest.already_guest.app_error",
+    "translation": "A felhasználót nem lehet vendéggé alakítani mert már vendég."
+  },
+  {
+    "id": "api.user.delete_user.not_enabled.app_error",
+    "translation": "A végleges felhasználótörlés funkció nincs engedélyezve. Kérjük vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.user.delete_team.not_enabled.app_error",
+    "translation": "A végleges csapat törlés funkció nincs engedélyezve. Kérjük vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.user.delete_channel.not_enabled.app_error",
+    "translation": "A végleges csatorna törlés funkció nincs engedélyezve. Kérjük vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.upgrade_to_enterprise_status.app_error",
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. Ez a szolgáltatás csak x86-64 architektúrájú Linux rendszereken fog működni."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-user.app_error",
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. A (z) {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási hozzáféréssel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájlengedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Mattermost telepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nA fájlengedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti bináris fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. A (z) {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási hozzáféréssel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájlengedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Mattermost telepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nA fájlengedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti bináris fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. A (z) {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási hozzáféréssel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájlengedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Mattermost telepítve van:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nA fájlengedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti bináris fájl engedélyeket:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.generic_error.app_error",
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.app_error",
+    "translation": "A Mattermost Enterprise Edition frissítése már fut."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
+    "translation": "Nem frissíthet, mert már fut a Mattermost Enterprise Edition fut."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.already-done.app_error",
+    "translation": "Már frissített a Mattermost Enterprise Edition-re. Kérjük, indítsa újra a szervert a frissítés befejezéséhez."
+  },
+  {
+    "id": "api.unable_to_read_file_from_backend",
+    "translation": "Hiba történt a backendből történő fájl olvasásakor"
+  },
+  {
+    "id": "api.unable_to_create_zip_file",
+    "translation": "Hiba történt a zip fájl létrehozásakor."
+  },
+  {
+    "id": "api.templates.welcome_subject",
+    "translation": "[{{ .SiteName }}] Ön csatlakozott{{ .ServerURL }}"
+  },
+  {
+    "id": "api.templates.welcome_body.title",
+    "translation": "Üdvözöljük a csapatban"
+  },
+  {
+    "id": "api.templates.welcome_body.subTitle2",
+    "translation": "Kattintson a lenti linkre az e-mail cím megerősítéséhez."
+  },
+  {
+    "id": "api.templates.welcome_body.subTitle1",
+    "translation": "Köszönjük, hogy csatlakozott "
+  },
+  {
+    "id": "api.templates.welcome_body.serverURL",
+    "translation": "{{ .ServerURL }}."
+  },
+  {
+    "id": "api.templates.welcome_body.info1",
+    "translation": "Ha nem Ön volt, nyugodtan figyelmen kívül hagyhatja ezt az e-mailt."
+  },
+  {
+    "id": "api.templates.welcome_body.info",
+    "translation": "Ezt az e-mail címet használták a Mattermost fiók létrehozásához."
+  },
+  {
+    "id": "api.templates.welcome_body.button",
+    "translation": "Email megerősítése"
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_title",
+    "translation": "Töltse le asztali és mobil alkalmazásainkat"
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_info",
+    "translation": "A legjobb élmény érdekében töltse le az alkalmazásokat PC-re, Mac-re, iOS-re és Androidra."
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_button",
+    "translation": "Letöltés"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.subject",
+    "translation": "Mattermost kapcsolat kérelem"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.footer",
+    "translation": "Ha további kérdése van, forduljon a support@mattermost.com e-mail címhez"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.site_url_header",
+    "translation": "Oldal URL: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.registered_users_header",
+    "translation": "Összes aktív felhasználó: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
+    "translation": "Diagnosztika azonosító: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.contact_name_header",
+    "translation": "Kapcsolat: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.contact_email_header",
+    "translation": "Email: "
+  },
+  {
+    "id": "api.templates.verify_subject",
+    "translation": "[{{ .SiteName }}] Email megerősítés"
+  },
+  {
+    "id": "api.templates.verify_body.title",
+    "translation": "Email cím megerősítése"
+  },
+  {
+    "id": "api.templates.verify_body.subTitle2",
+    "translation": "Kattintson alábbi linkre az e-mail címe megerősítéséhez."
+  },
+  {
+    "id": "api.templates.verify_body.subTitle1",
+    "translation": "Köszönjük, hogy csatlakozott "
+  },
+  {
+    "id": "api.templates.verify_body.serverURL",
+    "translation": "{{ .ServerURL }}."
+  },
+  {
+    "id": "api.templates.verify_body.info1",
+    "translation": "Ha nem Ön volt az, nyugodtan hagyja figyelmen kívül ez az emailt."
+  },
+  {
+    "id": "api.templates.verify_body.info",
+    "translation": "Ez az email cím volt használva a Mattermost fiók létrehozásakor."
+  },
+  {
+    "id": "api.templates.username_change_subject",
+    "translation": "[{{ .SiteName }}] Felhasználóneve megváltozott"
+  },
+  {
+    "id": "api.templates.verify_body.button",
+    "translation": "Email megerősítése"
+  },
+  {
+    "id": "api.templates.username_change_body.title",
+    "translation": "Frissítette a felhasználónevét"
+  },
+  {
+    "id": "api.templates.username_change_body.info",
+    "translation": "A (z) {{.TeamDisplayName}} felhasználóneve {{.NewUsername}} névre változott."
+  },
+  {
+    "id": "api.templates.user_access_token_body.title",
+    "translation": "Személyes hozzáférési tokent adtunk a fiókjához"
+  },
+  {
+    "id": "api.templates.user_access_token_subject",
+    "translation": "[{{ .SiteName }}] Személyes hozzáférési tokent adtunk a fiókjához"
+  },
+  {
+    "id": "api.templates.user_access_token_body.info",
+    "translation": "Személyes hozzáférési tokent adtunk a fiókjához a (z) {{.SiteURL}} webhelyen. Ezek felhasználhatók a (z) {{.SiteName}} fiókhoz való hozzáférésére."
+  },
+  {
+    "id": "api.templates.upgrade_request_title2",
+    "translation": "Új felhasználók nem csatlakozhatnak a munkaterülethez"
+  },
+  {
+    "id": "api.templates.upgrade_request_title",
+    "translation": "{{.UserName}} tagokat szeretne meghívni a munkaterületére"
+  },
+  {
+    "id": "api.templates.upgrade_request_subject",
+    "translation": "Mattermost felhasználó munkaterület frissítést kért"
+  },
+  {
+    "id": "api.templates.upgrade_request_info4_2",
+    "translation": "Valaki nemrég megpróbált csatlakozni a munkaterületéhez, de nem sikerült, mivel a munkaterülete elérte az Mattermost felhő ingyenes verziójának felhasználói korlátját. Frissítsen most, hogy több felhasználó is csatlakozhasson a munkaterületéhez."
+  },
+  {
+    "id": "api.templates.upgrade_request_info4",
+    "translation": "Mivel munkaterülete elérte a Mattermost felhő ingyenes verziójának felhasználói korlátját, a meghívókat nem lehet elküldeni. Frissítsen most, hogy több felhasználó is csatlakozhasson a munkaterületéhez."
+  },
+  {
+    "id": "api.templates.upgrade_mattermost_cloud",
+    "translation": "Frissítés"
+  },
+  {
+    "id": "api.templates.signin_change_email.subject",
+    "translation": "[{{ .SiteName }}] Bejelentkezési módszere frissítve"
+  },
+  {
+    "id": "api.templates.signin_change_email.body.title",
+    "translation": "Frissítette a bejelentkezési módszerét"
+  },
+  {
+    "id": "api.templates.signin_change_email.body.info",
+    "translation": "Frissítette bejelentkezési módszerét a (z) {{.SiteName}} webhelyen a következőre: {{.Method}}."
+  },
+  {
+    "id": "api.templates.reset_subject",
+    "translation": "[{{ .SiteName }}] Jelszó visszaállítása"
+  },
+  {
+    "id": "api.templates.reset_body.title",
+    "translation": "Jelszó visszaállítást kért"
+  },
+  {
+    "id": "api.templates.reset_body.info2",
+    "translation": "Ha nem kivánta visszaállítani jelszavát, hagyja figyelmen kívül ezt az e-mailt, és a jelszava ugyanaz marad. A jelszó visszaállító link 24 órán belül lejár."
+  },
+  {
+    "id": "api.templates.reset_body.button",
+    "translation": "Jelszó visszaállítása"
+  },
+  {
+    "id": "api.templates.reset_body.info1",
+    "translation": "A jelszó megváltoztatásához kattintson az alábbi \"Jelszó visszaállítása\" gombra."
+  },
+  {
+    "id": "api.templates.remove_expired_license.subject",
+    "translation": "A Mattermost Enterprise licenc letiltva."
+  },
+  {
+    "id": "api.templates.remove_expired_license.body.renew_button",
+    "translation": "Újítsa meg licencét most"
+  },
+  {
+    "id": "api.templates.remove_expired_license.body.title",
+    "translation": "Az Enterprise Edition licencje lejárt, és egyes funkciók le vannak tiltva. Kérjük, most újítsa meg a licencét."
+  },
+  {
+    "id": "api.templates.questions_footer.title",
+    "translation": "Kérdése van?"
+  },
+  {
+    "id": "api.templates.questions_footer.info",
+    "translation": "Írjon nekünk bármikor a következő címen: "
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.title",
+    "translation": "Az Ön Mattermost felhő számlája esedékes"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.subject",
+    "translation": "Fizetés esedékes a Mattermost felhő előfizetésért"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.info3",
+    "translation": "A számla áttekintéséhez és fizetési mód hozzáadásához válassza a Fizetés most lehetőséget."
+  },
+  {
+    "id": "api.templates.over_limit_7_days_title",
+    "translation": "Nincs fizetési mód nyilvántartva"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.info1",
+    "translation": "A legutóbbi számlázási időszakra vonatkozó Mattermost Cloud számlája feldolgozásra került. A fizetési adataink azonban nincsenek nyilvántartva."
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.button",
+    "translation": "Fizetés most"
+  },
+  {
+    "id": "api.templates.payment_failed.title",
+    "translation": "Sikertelen fizetés"
+  },
+  {
+    "id": "api.templates.payment_failed.subject",
+    "translation": "Művelet szükséges: Sikertelen fizetés a Mattermost felhőre"
+  },
+  {
+    "id": "api.templates.payment_failed.info3",
+    "translation": "A Mattermost felhő zavartalan előfizetésének biztosítása érdekében, kérjük, vegye fel a kapcsolatot a pénzintézetével a probléma megoldása érdekében, vagy frissítse fizetési adatait. A fizetési adatok frissítése után a Mattermost megpróbálja rendezni a fennmaradó egyenleget."
+  },
+  {
+    "id": "api.templates.payment_failed.info2",
+    "translation": "A következő okkal:"
+  },
+  {
+    "id": "api.templates.payment_failed.info1",
+    "translation": "Pénzügyi intézménye elutasította a Mattermost felhő munkaterületéhez társított {{.CardBrand}} **** {{. LastFour}} kifizetését."
+  },
+  {
+    "id": "api.templates.password_change_subject",
+    "translation": "[{{ .SiteName }}] Jelszava frissítésre került"
+  },
+  {
+    "id": "api.templates.password_change_body.title",
+    "translation": "Jelszava frissítésre került"
+  },
+  {
+    "id": "api.templates.password_change_body.info",
+    "translation": "Jelszava frissítésre került {{.TeamDisplayName}} a {{ .TeamURL }} csapatban {{.Method}} által"
+  },
+  {
+    "id": "api.templates.over_limit_title",
+    "translation": "A felhasználók száma túllépi az ingyenes felhasználói korlátot"
+  },
+  {
+    "id": "api.templates.over_limit_suspended_title",
+    "translation": "Mattermost felhő munkaterület felfüggesztve"
+  },
+  {
+    "id": "api.templates.over_limit_suspended_subject",
+    "translation": "Az Ön Mattermost munkaterületét felfüggesztették"
+  },
+  {
+    "id": "api.templates.over_limit_suspended_info2",
+    "translation": "Vegye fel velünk a kapcsolatot a munkaterülete újra aktiválásához."
+  },
+  {
+    "id": "api.templates.over_limit_suspended_info1",
+    "translation": "Az Ön Mattermost munkaterületét felfüggesztették. A munkaterületen lévő minden adat és tartalom 1-3 hónapon belül törlésre kerül."
+  },
+  {
+    "id": "api.templates.over_limit_suspended_contact_support",
+    "translation": "Vegye fel a kapcsolatot az ügyfélszolgálattal"
+  },
+  {
+    "id": "api.templates.over_limit_subject",
+    "translation": "Mattermost felhő munkaterület meghaladja a felhasználó korlátot"
+  },
+  {
+    "id": "api.templates.over_limit_info2",
+    "translation": "Alternatív megoldásként letilthatja a felhasználókat az Admin konzolban, hogy több felhasználó számára nyíljon hely, vagy az ingyenes felhasználói korlát alatt maradhasson."
+  },
+  {
+    "id": "api.templates.over_limit_info1",
+    "translation": "Úgy tűnik, hogy több mint 10 felhasználója van a munkaterületén, amely meghaladja a Mattermost Cloud Professional ingyenes szintjeit. Kérjük, frissítse a Mattermost munkaterület a további zavartalan működés érdekében."
+  },
+  {
+    "id": "api.templates.over_limit_fix_now",
+    "translation": "Javítás most"
+  },
+  {
+    "id": "api.templates.over_limit_90_days_title",
+    "translation": "A Mattermost felhő munkaterület felfüggesztését holnapra tervezik"
+  },
+  {
+    "id": "api.templates.over_limit_90_days_subject",
+    "translation": "A Mattermost felhő előfizetését hamarosan felfüggesztjük"
+  },
+  {
+    "id": "api.templates.over_limit_90_days_info4",
+    "translation": "A munkaterület felfüggesztését követően a munkaterületen lévő összes tartalom és adat 1-3 hónapon belül törlődik."
+  },
+  {
+    "id": "api.templates.over_limit_90_days_info3",
+    "translation": "A munkaterület felfüggesztését követően nem tud bejelentkezni a fiókjába, és nem frissítheti a fizetési információkat. A szolgáltatás újbóli aktiválásához kapcsolatba kell lépnie ügyfélszolgálati csapatunkkal."
+  },
+  {
+    "id": "api.templates.over_limit_90_days_info2",
+    "translation": "A felfüggesztés elkerülése érdekében adja meg fizetési adatait"
+  },
+  {
+    "id": "api.templates.over_limit_90_days_info1",
+    "translation": "Ez egy utolsó emlékeztető arra, hogy nem kaptunk fizetést a Mattermost felfő munkaterületéért, amely {{.OverLimitDate}} óta esedékes. Holnap felfüggesztjük szolgáltatását."
+  },
+  {
+    "id": "api.templates.over_limit_7_days_subject",
+    "translation": "A fizetése lejárt a Mattermost felhő előfizetéséhez"
+  },
+  {
+    "id": "api.templates.over_limit_7_days_info1",
+    "translation": "A Mattermost nem tudta feldolgozni a legutóbbi automatikus fizetést. A szolgáltatás aktív állapotának fenntartása érdekében kérjük, a lehető leghamarabb adja meg a fizetési adatokat, különben a szolgáltatás fel lesz függesztve."
+  },
+  {
+    "id": "api.templates.over_limit_30_days_title",
+    "translation": "Mattermost felhő munaterület felfüggesztés"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_subject",
+    "translation": " Tegyen lépéseket a Mattermost Cloud előfizetésének megtartására"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item3",
+    "translation": "Elveszíti hozzáférését az üzenetelőzményekhez"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item2",
+    "translation": "Nem fogja tudni frissíteni a fizetési információkat anélkül, hogy kapcsolatba lépne ügyfélszolgálatunkkal"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2_item1",
+    "translation": "Nem fog tudni bejelentkezni a munkaterületébe"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info2",
+    "translation": "Ha nem tesz semmit, akkor munkaterületét felfüggesztjük"
+  },
+  {
+    "id": "api.templates.over_limit_30_days_info1",
+    "translation": "Van még idő arra, hogy a fizetési móddal kapcsolatos problémák megoldásával aktív maradjon a Mattermost Cloud munkaterülete. A felfüggesztés elkerülése érdekében frissítse a fizetési módot."
+  },
+  {
+    "id": "api.templates.over_limit_14_days_title",
+    "translation": "A fizetés nem érkezett meg"
+  },
+  {
+    "id": "api.templates.over_limit_14_days_subject",
+    "translation": "A fizetése lejárt a Mattermost felhő előfizetéséhez"
+  },
+  {
+    "id": "api.templates.over_limit_14_days_info1",
+    "translation": "Csak egy emlékeztető, hogy nem kaptunk fizetést a {{.OverLimitDate}} napon számlázott Mattermost előfizetésért. Hamarosan megkezdjük a szolgáltatás felfüggesztését, ha a fizetés nem érkezik meg."
+  },
+  {
+    "id": "api.templates.mfa_deactivated_body.title",
+    "translation": "A többtényezős hitelesítést eltávolítottuk"
+  },
+  {
+    "id": "api.templates.mfa_deactivated_body.info",
+    "translation": "A többtényezős hitelesítést eltávolítottuk fiókjából a (z) {{.SiteURL}} webhelyen."
+  },
+  {
+    "id": "api.templates.mfa_change_subject",
+    "translation": "[{{.SiteName}}] Az Ön MFA-t frissítettük"
+  },
+  {
+    "id": "api.templates.mfa_activated_body.title",
+    "translation": "Többtényezős hitelesítés hozzáadva"
+  },
+  {
+    "id": "api.templates.mfa_activated_body.info",
+    "translation": "A többtényezős hitelesítést hozzáadtuk fiókjához a (z) {{.SiteURL}} oldalon."
+  },
+  {
+    "id": "api.templates.invite_subject",
+    "translation": "[{{.SiteName}}] {{.SenderName}} meghívta Önt a {{.TeamDisplayName}} csapatba"
+  },
+  {
+    "id": "api.templates.invite_guest_subject",
+    "translation": "[{{.SiteName}}] {{.SenderName}} meghívta Önt, hogy csatlakozzon a (z) {{.TeamDisplayName}} csapathoz vendégként"
+  },
+  {
+    "id": "api.templates.invite_body.info",
+    "translation": "[[{{.SenderName}}]], meghívra Önt, hogy csatlakozzon a [[{{{.TeamDisplayName}}] csapathoz."
+  },
+  {
+    "id": "api.templates.invite_body_guest.info",
+    "translation": "[[{{.SenderName}}]], meghívta Önt, hogy csatlakozzon vendégként a [[{{{.TeamDisplayName}}] csapathoz."
+  },
+  {
+    "id": "api.templates.invite_body.title",
+    "translation": "Önt meghívták"
+  },
+  {
+    "id": "api.templates.invite_body.extra_info",
+    "translation": "A Mattermost segítségével üzeneteket és fájlokat oszthat meg számítógépéről vagy telefonjáról, azonnali kereséssel és archiválással. Miután csatlakozott a [[{{{.TeamDisplayName}}]] -hoz, bejelentkezhet új csapatába, és a webcímről bármikor hozzáférhet ezekhez a funkciókhoz:"
+  },
+  {
+    "id": "api.templates.invite_body.button",
+    "translation": "Csatlakozás a csapathoz"
+  },
+  {
+    "id": "api.templates.email_warning",
+    "translation": "Ha nem hajtotta végre ezt a módosítást, kérjük, vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.templates.email_us_anytime_at",
+    "translation": "Írjon nekünk bármikor a következő címen: "
+  },
+  {
+    "id": "api.templates.email_organization",
+    "translation": "Küldte "
+  },
+  {
+    "id": "api.templates.email_info3",
+    "translation": "A{{.SiteName}} csapat"
+  },
+  {
+    "id": "api.templates.email_info2",
+    "translation": "Legjobbakat,"
+  },
+  {
+    "id": "api.templates.email_info1",
+    "translation": "Ha bármilyen kérdése van, küldje el nekünk bármikor: "
+  },
+  {
+    "id": "api.templates.email_footer",
+    "translation": "Az értesítése beállítások módosításához jelentkezzen be a csapat oldalára és menjen a Fiók beállítások > Értesítésekbe."
+  },
+  {
+    "id": "api.templates.email_change_verify_subject",
+    "translation": "[{{ .SiteName }}] Új email cím megerősítése"
+  },
+  {
+    "id": "api.templates.email_change_verify_body.title",
+    "translation": "Frissítette az email címét"
+  },
+  {
+    "id": "api.templates.email_change_verify_body.info",
+    "translation": "Az {{.TeamDisplayName}} email cím frissítés megerősítéséhez kérjük kattintson a lenti linkre ha ez a megfelelő email cím."
+  },
+  {
+    "id": "api.templates.email_change_verify_body.button",
+    "translation": "Email cím megerősítése"
+  },
+  {
+    "id": "api.templates.email_change_subject",
+    "translation": "[{{ .SiteName }}] Az email címe megváltozott"
+  },
+  {
+    "id": "api.templates.email_change_body.title",
+    "translation": "Frissítette az email címét"
+  },
+  {
+    "id": "api.templates.email_change_body.info",
+    "translation": "Az email címét {{.TeamDisplayName}} módosították erre {{.NewEmail}}."
+  },
+  {
+    "id": "api.templates.deactivate_subject",
+    "translation": "[{{ .SiteName }}] A fiókját a {{ .ServerURL }} oldalon deaktiválták"
+  },
+  {
+    "id": "api.templates.deactivate_body.warning",
+    "translation": "Ha ezt a változást nem Ön kezdeményezte, vagy újra szeretné aktiválni fiókját, lépjen kapcsolatba a rendszergazdával."
+  },
+  {
+    "id": "api.templates.deactivate_body.title",
+    "translation": "Fiókját deaktiválták a {{ .ServerURL }} oldalon."
+  },
+  {
+    "id": "api.templates.deactivate_body.info",
+    "translation": "Deaktiválta a fiókját a {{ .SiteURL }} oldalon."
+  },
+  {
+    "id": "api.templates.copyright",
+    "translation": "© 2020 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+  },
+  {
+    "id": "api.templates.at_limit_title",
+    "translation": "Elérte az ingyenes felhasználókorlátot "
+  },
+  {
+    "id": "api.templates.at_limit_subject",
+    "translation": "Mattermost felhő felhasználókorlát limit elérve"
+  },
+  {
+    "id": "api.templates.at_limit_info5",
+    "translation": "Alternatív megoldásként letilthatja a felhasználókat az Admin konzolban, hogy több felhasználó számára nyíljon hely, és az ingyenes felhasználói korlát alatt maradhasson."
+  },
+  {
+    "id": "api.templates.at_limit_info2",
+    "translation": "Alternatív megoldásként letilthatja a felhasználókat az Admin konzolban, hogy több felhasználó számára nyíljon hely, vagy az ingyenes felhasználói korlát alatt maradhasson."
+  },
+  {
+    "id": "api.templates.at_limit_info1",
+    "translation": "Úgy tűnik, hogy 10 vagy több felhasználója van a munkaterületben — ez remek!Ha több csapattagot szeretne meghívni, fontolja meg a Mattermost Cloud Professional-ra való frissítést."
+  },
+  {
+    "id": "api.team.update_restricted_domains.mismatch.app_error",
+    "translation": "A csapat {{ .Domain }} domainre korlátozása nem engedélyezett a rendszerbeállítások alapján. Kérjük vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.team.team_icon.update.app_error",
+    "translation": "Hiba történt a csapatikon frissítésekor."
+  },
+  {
+    "id": "api.team.set_team_icon.write_file.app_error",
+    "translation": "A csapatikont nem lehet elmenteni."
+  },
+  {
+    "id": "api.team.set_team_icon.get_team.app_error",
+    "translation": "Hiba történt a csapat lekérésekor."
+  },
+  {
+    "id": "api.team.set_team_icon.encode.app_error",
+    "translation": "A csapat ikont nem lehetett kódolni."
+  },
+  {
+    "id": "api.team.set_team_icon.decode_config.app_error",
+    "translation": "A csapat ikon metaadatot nem lehetett dekódolni."
+  },
+  {
+    "id": "api.team.set_team_icon.decode.app_error",
+    "translation": "A csapat ikont nem lehetett dekódolni."
+  },
+  {
+    "id": "api.team.search_teams.pagination_not_implemented.private_team_search",
+    "translation": "Az oldalszámozás nincs megvalósítva a csak magán-csoportos kereséshez."
+  },
+  {
+    "id": "api.team.search_teams.pagination_not_implemented.public_team_search",
+    "translation": "Az oldalszámozás nincs megvalósítva a csak nyilvános-csoportos kereséshez."
+  },
+  {
+    "id": "api.team.remove_user_from_team.missing.app_error",
+    "translation": "Úgy tűnik, hogy ez a felhasználó nem tagja ennek a csapatnak."
+  },
+  {
+    "id": "api.team.remove_team_icon.get_team.app_error",
+    "translation": "Hiba történt a csapat lekérésekor."
+  },
+  {
+    "id": "api.team.move_channel.success",
+    "translation": "Ezt a csatornát áthelyezték ebbe a csapatba innen %v"
+  },
+  {
+    "id": "api.team.leave.left",
+    "translation": "%v kilépett a csapatból."
+  },
+  {
+    "id": "api.team.join_user_to_team.allowed_domains.app_error",
+    "translation": "A felhasználót nem lehet hozzáadni mivel a fiókhoz kapcsolódó domain nem engedélyezett. A részletekért kérjük vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.team.join_team.post_and_forget",
+    "translation": "%v csatlakozott a csapathoz."
+  },
+  {
+    "id": "api.team.is_team_creation_allowed.domain.app_error",
+    "translation": "A felhasználót nem lehet hozzáadni mivel a fiókhoz kapcsolódó domain nem engedélyezett. A részletekért kérjük vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.slackimport.slack_import.note3",
+    "translation": "- Lehetséges, hogy további hibák találhatóak a szervernaplókban.\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.note2",
+    "translation": "- Slack bot üzenetek jelenleg nem támogatottak.\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.note1",
+    "translation": "- Lehet, hogy egyes üzeneteket nem importáltak, mert ezeket az importáló nem támogatta.\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.unable_import",
+    "translation": "Nem lehet importálni a Slack felhasználót: {{.Username}}.\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.missing_email_address",
+    "translation": "{{.Username}} felhasználónak nincs email címe a Slack exportban. {{.Email}} használva helyőrzőnek. A felhasználónak frissítenie kell az email címét amikor bejelentkeztek a rendszerbe.\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.merge_existing",
+    "translation": "Slack felhasználó összevonva egy létező Mattermost felhasználóval egyező emailcímmel {{.Email}} és felhasználónévvel {{.Username}}.\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.merge_existing_failed",
+    "translation": "Slack felhasználó összevonva egy létező Mattermost felhasználóval egyező emailcímmel {{.Email}} és felhasználónévvel {{.Username}}, de nem sikerült hozzáadni a csapatukhoz.\n"
+  },
+  {
+    "id": "api.team.is_team_creation_allowed.disabled.app_error",
+    "translation": "Csapat létrehozás letiltva. A részletekért kérjük keresse a rendszergazdát."
+  },
+  {
+    "id": "api.team.invite_members.no_one.app_error",
+    "translation": "Senkit sem lehet meghívni."
+  },
+  {
+    "id": "api.team.invite_members.limit_reached.app_error",
+    "translation": "Elérte az ingyenes felhasználói korlátot"
+  },
+  {
+    "id": "api.team.invite_members.invalid_email.app_error",
+    "translation": "A következő email cím nem tartozik elfoadott domainhez: {{.Addresses}}. A részletekért kérjük vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "api.team.invite_members.disabled.app_error",
+    "translation": "A vendég meghívások le vannak tíltva."
+  },
+  {
+    "id": "api.team.invate_guests_to_channels.disabled.error",
+    "translation": "A"
+  },
+  {
+    "id": "api.team.invalidate_all_email_invites.app_error",
+    "translation": "Hiba történt az e-mail meghívók érvénytelenítésekor."
+  },
+  {
+    "id": "api.team.import_team.unknown_import_from.app_error",
+    "translation": "Ismeretlen import forrás."
+  },
+  {
+    "id": "api.team.import_team.unavailable.app_error",
+    "translation": "Hibás kérelem: filesize mező nincs megadva."
+  },
+  {
+    "id": "api.team.import_team.no_import_from.app_error",
+    "translation": "Hibás kérelem: importFrom mező nincs megadva."
+  },
+  {
+    "id": "api.team.import_team.integer.app_error",
+    "translation": "A fájlméret nem egy egész szám."
+  },
+  {
+    "id": "api.team.get_team_icon.read_file.app_error",
+    "translation": "Nem lehet olvasni a csapat ikon fájlt."
+  },
+  {
+    "id": "api.team.get_team_icon.filesettings_no_driver.app_error",
+    "translation": "Érvénytelen driver név a fájlbeállításokhoz. Vagy 'local' vagy 'amazons3' kell legyen."
+  },
+  {
+    "id": "api.team.get_invite_info.not_open_team",
+    "translation": "A meghívás érvénytelen mert ez nem egy nyitott csapat."
+  },
+  {
+    "id": "api.team.demote_user_to_guest.disabled.error",
+    "translation": "A vendég fiókok le vannak tiltva."
+  },
+  {
+    "id": "api.team.cloud.subscription.error",
+    "translation": "Hiba a felhő előfizetés lekérésekor"
+  },
+  {
+    "id": "api.team.add_user_to_team_from_invite.guest.app_error",
+    "translation": "A vendégek nem csatlakozhatnak egy csapathoz meghívó linken keresztül. Kérjük, kérjen egy vendég e-mail meghívót a csapathoz."
+  },
+  {
+    "id": "api.team.add_user_to_team.missing_parameter.app_error",
+    "translation": "Kötelező paraméter a felhasználó csapathoz adásához."
+  },
+  {
+    "id": "api.team.add_team_member.invalid_body.app_error",
+    "translation": "Nem sikerült értelmezni a kérés törzsét."
+  },
+  {
+    "id": "api.system.update_viewed_notices.failed",
+    "translation": "Megtekintett ismertetők frissítése sikertelen"
+  },
+  {
+    "id": "api.system.update_notices.validating_failed",
+    "translation": "Termékismertetők feltételeinek jóváhagyása sikertelen"
+  },
+  {
+    "id": "api.system.update_notices.parse_failed",
+    "translation": "Termékismertetők értelmezése sikertelen"
+  },
+  {
+    "id": "api.system.update_notices.fetch_failed",
+    "translation": "Termékismertetők letöltése sikertelen"
+  },
+  {
+    "id": "api.system.update_notices.clear_failed",
+    "translation": "Régi termékismertetők törlése sikertelen"
+  },
+  {
+    "id": "api.system.id_loaded.not_available.app_error",
+    "translation": "ID Loaded push értesítés nincs beállítva vagy támogatva a ezen a szerveren."
+  },
+  {
+    "id": "api.slackimport.slack_import.zip.file_too_large",
+    "translation": "A {{.Filename}} zip archívumban túl nagy a Slack importhoz való feldolgozáshoz\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.zip.app_error",
+    "translation": "Nem lehet megnyitni a Slack export zip fájlt.\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.team_fail",
+    "translation": "Nem lehet lekérni a csapatot amelybe importálni kell.\n"
+  },
+  {
+    "id": "api.user.create_user.signup_email_disabled.app_error",
+    "translation": "Felhasználó regisztrálás email címmel letíltva."
+  },
+  {
+    "id": "api.user.create_user.no_open_server",
+    "translation": "Ez a szerver nem nyíltan regisztrálható. Kérjük kérjen egy meghívót a rendszergazdától."
+  },
+  {
+    "id": "api.user.create_user.invalid_invitation_type.app_error",
+    "translation": "A felhasználót nem lehet létrehozni, érvénytelen meghívó."
+  },
+  {
+    "id": "api.user.create_user.guest_accounts.disabled.app_error",
+    "translation": "Vendég fiókok le vannak tiltva."
+  },
+  {
+    "id": "api.user.create_user.disabled.app_error",
+    "translation": "Felhasználó létrehozás le van tiltva."
+  },
+  {
+    "id": "api.user.create_user.accepted_domain.app_error",
+    "translation": "A megadott email cím nem tartozik az engedélyezett domainekhez. Kérjük vegye fel a kapcsolatot a rendszergazdával vagy regisztráljon másik email címmel."
+  },
+  {
+    "id": "api.user.create_profile_image.initial.app_error",
+    "translation": "Nem sikerült hozzáadni felhasználói monogramot az alapértelmezett profil képhez."
+  },
+  {
+    "id": "api.user.create_password_token.error",
+    "translation": "Nem sikerült létrehozni jelszó visszaállító tokent"
+  },
+  {
+    "id": "api.user.create_oauth_user.create.app_error",
+    "translation": "Nem sikerült felhasználót létrehozni a (z) {{.Service}} felhasználói objektumból."
+  },
+  {
+    "id": "api.user.create_oauth_user.already_attached.app_error",
+    "translation": "Az e-mail címmel már van társítva egy fiók, a (z) {{.Service}} eltérő bejelentkezési módszerrel. Kérjük, jelentkezzen be az {{.Auth}} használatával."
+  },
+  {
+    "id": "api.user.create_email_token.error",
+    "translation": "Nem sikerült létrehozni a token adatokat az e-mail megerősítéshez"
+  },
+  {
+    "id": "api.user.complete_switch_with_oauth.parse.app_error",
+    "translation": "Nem sikerült elemezni a {{.Service}} felhasználói objektum hitelesítési adatait."
+  },
+  {
+    "id": "api.user.complete_switch_with_oauth.blank_email.app_error",
+    "translation": "Üres email."
+  },
+  {
+    "id": "api.user.check_user_password.invalid.app_error",
+    "translation": "Érvénytelen bejelentkezés rossz jelszó miatt."
+  },
+  {
+    "id": "api.user.check_user_login_attempts.too_many.app_error",
+    "translation": "Fiókja zárolva van, mert túl sok sikertelen jelszó kísérlet történt. Kérjük, állítsa vissza jelszavát."
+  },
+  {
+    "id": "api.user.autocomplete_users.missing_team_id.app_error",
+    "translation": "Csapat azonosító paraméter szükséges a csatornánkénti automatikus kitöltéshez."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.unsupported.app_error",
+    "translation": "A {{.Service}} SSO az OAuth 2.0-n keresztül nem érhető el ezen a szerveren."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.token_failed.app_error",
+    "translation": "Token kérés sikertelen."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.service.app_error",
+    "translation": "Token kérés a {{.Service}} részére sikertelen."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.response.app_error",
+    "translation": "Érvénytelen választ kapott az OAuth szolgáltatótól."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.missing.app_error",
+    "translation": "Hiányzó hozzáférési token."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.bad_token.app_error",
+    "translation": "Rossz token típus."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.bad_response.app_error",
+    "translation": "Rossz válasz a token kérésből."
+  },
+  {
+    "id": "api.user.add_direct_channels_and_forget.failed.error",
+    "translation": "Nem sikerült hozzáadni a közvetlen csatorna-beállításokat a user_id = {{. UserId}}, team_id = {{. TeamId}}, err = {{.. Error}} felhasználóhoz"
+  },
+  {
+    "id": "api.user.activate_mfa.email_and_ldap_only.app_error",
+    "translation": "MFA nem elérhető ehhez a típusú fiókhoz."
+  },
+  {
+    "id": "api.upload.upload_data.multipart_error",
+    "translation": "Nem sikerült feldolgozni a többrészed adatot."
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_type",
+    "translation": "Érvénytelen Tartalom-Típus többrészes feltöltéshez.."
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_length",
+    "translation": "Érvénytelen Tartalom-hossz."
+  },
+  {
+    "id": "api.upload.get_upload.forbidden.app_error",
+    "translation": "Nem sikerült feltöltést lekérni."
+  },
+  {
+    "id": "api.upgrade_to_enterprise_status.signature.app_error",
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. A letöltött bináris fájl digitális aláírását nem sikerült ellenőrizni."
   }
 ]
