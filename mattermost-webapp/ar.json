@@ -2,7 +2,7 @@
   "about.buildnumber": "رقم البناء:",
   "about.copyright": "{currentYear} Mattermost, Inc. جميع الحقوق محفوظة",
   "about.database": "قاعدة البيانات:",
-  "about.date": "\"><img src=x onerror=alert(document.domain)>",
+  "about.date": "تاريخ البناء:",
   "about.enterpriseEditionLearn": "المزيد عن Enterprise Edition في ",
   "about.enterpriseEditionSt": "الاتصالات الحديثة من وراء جدار الحماية الخاص بك.",
   "about.hash": "بناء تشفير هاش:",
