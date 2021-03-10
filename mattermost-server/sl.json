@@ -2656,14 +2656,6 @@
     "translation": "Zahtevali ste ponastavitev gesla"
   },
   {
-    "id": "api.templates.reset_body.info2",
-    "translation": "Če niste želeli ponastaviti gesla, prezrite to e-poštno sporočilo in geslo bo ostalo enako. Povezava za ponastavitev gesla poteče v 24 urah."
-  },
-  {
-    "id": "api.templates.reset_body.info1",
-    "translation": "Za spremembo gesla, pritisnite \"Ponastavitev gesla\" spodaj."
-  },
-  {
     "id": "api.templates.reset_body.button",
     "translation": "Ponastavite geslo"
   },
@@ -2714,10 +2706,6 @@
   {
     "id": "api.templates.invite_body.title",
     "translation": "Bili ste povabljeni"
-  },
-  {
-    "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost vam omogoča takojšnje iskanje in arhiviranje sporočil in datotek iz računalnika ali telefona. Ko ste se pridružili [[{{.TeamDisplayName}}]], se lahko prijavite v novo ekipo in kadar koli dostopate do teh funkcij s spletnega naslova:"
   },
   {
     "id": "api.templates.invite_body.button",

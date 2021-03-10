@@ -3531,16 +3531,8 @@
     "translation": "Jelszó visszaállítást kért"
   },
   {
-    "id": "api.templates.reset_body.info2",
-    "translation": "Ha nem kivánta visszaállítani jelszavát, hagyja figyelmen kívül ezt az e-mailt, és a jelszava ugyanaz marad. A jelszó visszaállító link 24 órán belül lejár."
-  },
-  {
     "id": "api.templates.reset_body.button",
     "translation": "Jelszó visszaállítása"
-  },
-  {
-    "id": "api.templates.reset_body.info1",
-    "translation": "A jelszó megváltoztatásához kattintson az alábbi \"Jelszó visszaállítása\" gombra."
   },
   {
     "id": "api.templates.remove_expired_license.subject",
@@ -3759,20 +3751,8 @@
     "translation": "[{{.SiteName}}] {{.SenderName}} meghívta Önt, hogy csatlakozzon a (z) {{.TeamDisplayName}} csapathoz vendégként"
   },
   {
-    "id": "api.templates.invite_body.info",
-    "translation": "[[{{.SenderName}}]], meghívra Önt, hogy csatlakozzon a [[{{{.TeamDisplayName}}] csapathoz."
-  },
-  {
-    "id": "api.templates.invite_body_guest.info",
-    "translation": "[[{{.SenderName}}]], meghívta Önt, hogy csatlakozzon vendégként a [[{{{.TeamDisplayName}}] csapathoz."
-  },
-  {
     "id": "api.templates.invite_body.title",
     "translation": "Önt meghívták"
-  },
-  {
-    "id": "api.templates.invite_body.extra_info",
-    "translation": "A Mattermost segítségével üzeneteket és fájlokat oszthat meg számítógépéről vagy telefonjáról, azonnali kereséssel és archiválással. Miután csatlakozott a [[{{{.TeamDisplayName}}]] -hoz, bejelentkezhet új csapatába, és a webcímről bármikor hozzáférhet ezekhez a funkciókhoz:"
   },
   {
     "id": "api.templates.invite_body.button",

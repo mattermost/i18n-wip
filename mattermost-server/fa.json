@@ -2571,20 +2571,8 @@
     "translation": "به تیم بپیوندید"
   },
   {
-    "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost به شما امکان می دهد پیام ها و پرونده ها را از طریق رایانه یا تلفن خود ، با جستجوی فوری و بایگانی به اشتراک بگذارید. بعد از پیوستن به [[{{.TeamDisplayName}}]]، می توانید به تیم جدید خود وارد شوید و از طریق آدرس وب در هر زمان به این ویژگی ها دسترسی پیدا کنید:"
-  },
-  {
-    "id": "api.templates.invite_body.info",
-    "translation": "[[{{.SenderName}}]] ، از شما برای پیوستن به [[{{.TeamDisplayName}}]] دعوت کرده است."
-  },
-  {
     "id": "api.templates.invite_body.title",
     "translation": "شما دعوت شده اید"
-  },
-  {
-    "id": "api.templates.invite_body_guest.info",
-    "translation": "[[{{.SenderName}}]], شما را به عضویت تیم [[{{.TeamDisplayName}}]] به عنوان مهمان دعوت کرده است."
   },
   {
     "id": "api.templates.invite_guest_subject",
@@ -2645,14 +2633,6 @@
   {
     "id": "api.templates.reset_body.button",
     "translation": "بازیابی رمز عبور"
-  },
-  {
-    "id": "api.templates.reset_body.info1",
-    "translation": "برای تغییر رمز عبور خود ، روی 'بازیابی رمز عبور' در زیر کلیک کنید."
-  },
-  {
-    "id": "api.templates.reset_body.info2",
-    "translation": "اگر قصد تنظیم مجدد رمز ورود خود را نداشتید ، لطفاً این ایمیل را نادیده بگیرید و رمز ورود شما ثابت میماند. پیوند تنظیم مجدد رمز عبور در 24 ساعت منقضی می شود."
   },
   {
     "id": "api.templates.reset_body.title",

@@ -3152,14 +3152,6 @@
     "translation": "Bylo požádáno o nastavení nového hesla"
   },
   {
-    "id": "api.templates.reset_body.info2",
-    "translation": "Pokud jste nechtěli obnovit heslo, ignorujte tento e-mail a vaše heslo zůstane stejné. Odkaz na obnovení hesla vyprší za 24 hodin."
-  },
-  {
-    "id": "api.templates.reset_body.info1",
-    "translation": "Chcete-li změnit své heslo, klikněte níže na Obnovit heslo."
-  },
-  {
     "id": "api.templates.reset_body.button",
     "translation": "Obnovit heslo"
   },
@@ -3206,10 +3198,6 @@
   {
     "id": "api.templates.invite_guest_subject",
     "translation": "[{{.SiteName}}] {{.SenderName}} vás zve do skupiny {{.TeamDisplayName}} jako hosta"
-  },
-  {
-    "id": "api.templates.invite_body_guest.info",
-    "translation": "{{.SenderName}}]], vás pozval, abyste se připojil/a [[{{.TeamDisplayName}}]] jako Host."
   },
   {
     "id": "api.templates.invite_body.title",
@@ -4726,14 +4714,6 @@
   {
     "id": "api.command_dnd.name",
     "translation": "dnd"
-  },
-  {
-    "id": "api.templates.invite_body.info",
-    "translation": "[{{.SenderName}}]], vás pozval abyste se připojil/a k [[{{.TeamDisplayName}}]]."
-  },
-  {
-    "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost vám umožňuje sdílet zprávy a soubory z počítače nebo telefonu s okamžitým vyhledáváním a archivací. Po přihlášení do služby [{{.TeamDisplayName}}] se můžete přihlásit do svého nového týmu a kdykoli k nim přistupovat z těchto webových stránek:"
   },
   {
     "id": "api.templates.invite_body.button",

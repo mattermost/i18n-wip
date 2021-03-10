@@ -2736,14 +2736,6 @@
     "translation": "Bạn đã yêu cầu đặt lại mật khẩu"
   },
   {
-    "id": "api.templates.reset_body.info2",
-    "translation": "Nếu bạn không có ý định đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên. Liên kết đặt lại mật khẩu sẽ hết hạn sau 24 giờ."
-  },
-  {
-    "id": "api.templates.reset_body.info1",
-    "translation": "Để thay đổi mật khẩu của bạn, nhấp vào \"Đặt lại mật khẩu\" bên dưới."
-  },
-  {
     "id": "api.templates.reset_body.button",
     "translation": "Đặt lại mật khẩu"
   },
@@ -2792,20 +2784,8 @@
     "translation": "[{{.SiteName}}] {{.SenderName}} đã mời bạn tham gia team {{.TeamDisplayName}}"
   },
   {
-    "id": "api.templates.invite_body_guest.info",
-    "translation": "[[{{.SenderName}}]], đã mời bạn gia nhập team [[{{.TeamDisplayName}}]] với vai trò khách."
-  },
-  {
     "id": "api.templates.invite_body.title",
     "translation": "Bạn đã được mời"
-  },
-  {
-    "id": "api.templates.invite_body.info",
-    "translation": "[[{{.SenderName}}]], đã mời bạn gia nhập team [[{{.TeamDisplayName}}]]."
-  },
-  {
-    "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost cho phép bạn chia sẻ tin nhắn và tệp từ PC hoặc điện thoại của bạn, với tính năng tìm kiếm và lưu trữ tức thì. Sau khi bạn đã tham gia nhóm [[{{.TeamDisplayName}}]], bạn có thể đăng nhập vào nhóm mới của mình và truy cập các tính năng này bất cứ lúc nào từ địa chỉ web:"
   },
   {
     "id": "api.templates.invite_body.button",

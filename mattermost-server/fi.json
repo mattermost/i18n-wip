@@ -2624,10 +2624,6 @@
     "translation": "Sinut on kutsuttu"
   },
   {
-    "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermostilla voit jakaa viestejä ja tiedostoja PC:ltäsi tai puhelimeltasi, hakea ja arkistoida. Kun olet liittynyt tiimiin [[{{.TeamDisplayName}}]], voit kirjautua ja käyttää näitä ominaisuuksia koska vain osoitteessa:"
-  },
-  {
     "id": "api.templates.invite_body.button",
     "translation": "Liity tiimiin"
   },
@@ -4482,14 +4478,6 @@
   {
     "id": "api.templates.reset_body.title",
     "translation": "Pyysit salasanan palautusta"
-  },
-  {
-    "id": "api.templates.reset_body.info2",
-    "translation": "Jos et halunnut palauttaa salasanaasi, älä välitä tästä viestistä ja salasanasi pysyy samana. Palautuslinkki vanhenee 24 tunnissa."
-  },
-  {
-    "id": "api.templates.reset_body.info1",
-    "translation": "Muuttaaksesi salasana, klikkaa \"Palauta salasana\" alla."
   },
   {
     "id": "api.command_mute.desc",

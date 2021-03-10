@@ -1772,14 +1772,6 @@
     "translation": "Has sol·licitat un restabliment de contrasenya"
   },
   {
-    "id": "api.templates.reset_body.info2",
-    "translation": "Si no volies restablir la contrasenya, ignora aquest correu i la teva contrasenya continuarà sent la mateixa. L'enllaç de restabliment de la contrasenya caduca en 24 hores."
-  },
-  {
-    "id": "api.templates.reset_body.info1",
-    "translation": "Per canviar la contrasenya, fes clic a «Restableix la contrasenya»."
-  },
-  {
     "id": "api.templates.reset_body.button",
     "translation": "Restableix la contrasenya"
   },
@@ -1828,20 +1820,8 @@
     "translation": "[{{ .SiteName}}] {{ .SenderName}} t'ha convidat a unir-te a l'equip {{.TeamDisplayName}}"
   },
   {
-    "id": "api.templates.invite_body_guest.info",
-    "translation": "[[{{.SenderName}}]] t'ha convidat a unir-te a [[{{.TeamDisplayName}}]]."
-  },
-  {
     "id": "api.templates.invite_body.title",
     "translation": "Has estat convidat"
-  },
-  {
-    "id": "api.templates.invite_body.info",
-    "translation": "[[{{.SenderName}}]] t'ha convidat a unir-te a [[{{.TeamDisplayName}}]]."
-  },
-  {
-    "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost et permet compartir missatges i fitxers des del PC o telèfon, amb cerca i fitxers instantanis. Després d'unir-te a [[{{.TeamDisplayName}}]], pots iniciar la sessió al nou equip i accedir a aquestes funcions en qualsevol moment des de l'adreça web:"
   },
   {
     "id": "api.templates.invite_body.button",

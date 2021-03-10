@@ -1176,10 +1176,6 @@
     "translation": "Anda telah diundang"
   },
   {
-    "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost memungkinkan Anda berbagi pesan dan berkas dari PC atau ponsel Anda, dengan pencarian instan dan pengarsipan. Setelah Anda bergabung dengan [[{{.TeamDisplayName}}]], Anda dapat masuk ke tim baru Anda kapan saja dan mengakses beragam fiturnya dari alamat web berikut:"
-  },
-  {
     "id": "api.templates.invite_body.button",
     "translation": "Gabung ke Tim"
   },
