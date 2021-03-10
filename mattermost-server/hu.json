@@ -453,31 +453,31 @@
   },
   {
     "id": "app.channel.create_direct_channel.internal_error",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült elmenteni a közvetlen csatornát."
   },
   {
     "id": "app.channel.create_channel.internal_error",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült elmenteni a csatornát."
   },
   {
     "id": "app.bot.permenent_delete.bad_id",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült törölni a botot."
   },
   {
     "id": "app.bot.patchbot.internal_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült frissíteni a botot."
   },
   {
     "id": "app.bot.getbots.internal_error",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült lekérni a botokat."
   },
   {
     "id": "app.bot.getbot.internal_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült lekérni a botot."
   },
   {
     "id": "app.bot.createbot.internal_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem lehet elmenteni a botot."
   },
   {
     "id": "api.websocket_handler.server_busy.app_error",
@@ -485,15 +485,15 @@
   },
   {
     "id": "api.websocket_handler.invalid_param.app_error",
-    "translation": "{{.Name}} érvénytelen paraméter"
+    "translation": "Érvénytelen {{.Name}} paraméter."
   },
   {
     "id": "api.webhook.team_mismatch.app_error",
-    "translation": "Nem frissíthet parancsokat csapatok között"
+    "translation": "Nem frissíthet webhookokat csapatok között."
   },
   {
     "id": "api.user.upload_profile_user.upload_profile.app_error",
-    "translation": "Nem sikerült feltölteni a képet"
+    "translation": "Nem sikerült feltölteni a profilképet."
   },
   {
     "id": "api.user.upload_profile_user.too_large.app_error",
@@ -505,7 +505,7 @@
   },
   {
     "id": "api.user.upload_profile_user.parse.app_error",
-    "translation": "Nem sikerült elemezni a többrészes formot"
+    "translation": "Nem sikerült elemezni a többrészes űrlapot."
   },
   {
     "id": "api.user.upload_profile_user.open.app_error",
@@ -513,19 +513,19 @@
   },
   {
     "id": "api.user.upload_profile_user.no_file.app_error",
-    "translation": "Nincs megadva fájl a 'kép' mezőben"
+    "translation": "Nincs megadva fájl a 'kép' alatt a kérésben."
   },
   {
     "id": "api.user.upload_profile_user.encode.app_error",
-    "translation": "Nem sikerült feltölteni a képet"
+    "translation": "Nem sikerült kódolni a profilképet"
   },
   {
     "id": "api.user.upload_profile_user.decode.app_error",
-    "translation": "Nem sikerült feltölteni a képet"
+    "translation": "Nem sikerült dekódolni a képet."
   },
   {
     "id": "api.user.upload_profile_user.array.app_error",
-    "translation": "Üres a tömb a 'kép' alatt a kérésnél"
+    "translation": "Üres a tömb a 'kép' alatt a kérésnél."
   },
   {
     "id": "api.user.update_active.permissions.app_error",
@@ -4197,5 +4197,185 @@
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
     "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. A letöltött bináris fájl digitális aláírását nem sikerült ellenőrizni."
+  },
+  {
+    "id": "app.channel.get_all_direct.app_error",
+    "translation": "Nem sikerült lekérni az összes közvetlen csatornát."
+  },
+  {
+    "id": "app.channel.get_all_channels_count.app_error",
+    "translation": "Nem sikerült megszámolni az összes csatornát."
+  },
+  {
+    "id": "app.channel.get_all_channels.app_error",
+    "translation": "Nem sikerült lekérni az összes csatornát."
+  },
+  {
+    "id": "app.channel.create_initial_sidebar_categories.internal_error",
+    "translation": "Nem sikerült kezdeti oldalsáv kategóriákat létrehozni a felhasználónak."
+  },
+  {
+    "id": "app.channel.delete.app_error",
+    "translation": "Nem sikerült törölni a csatornát."
+  },
+  {
+    "id": "app.channel.get_all.app_error",
+    "translation": "Nem sikerült lekérni az összes csatornát."
+  },
+  {
+    "id": "app.channel.get.find.app_error",
+    "translation": "Hiba történt a csatorna megkeresésekor."
+  },
+  {
+    "id": "app.channel.get.existing.app_error",
+    "translation": "Nem található a meglévő csatorna."
+  },
+  {
+    "id": "app.channel.create_channel.no_team_id.app_error",
+    "translation": "Meg kell adni egy csapat azonosítót a csatorna létrehozásához."
+  },
+  {
+    "id": "app.channel.count_posts_since.app_error",
+    "translation": "Nem sikerült megszámolni az üzeneteket a megadott dátum óta."
+  },
+  {
+    "id": "app.channel.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Nem sikerült lekérni a csatorna tagokat."
+  },
+  {
+    "id": "app.channel.autofollow.app_error",
+    "translation": "Nem sikerült frissíteni a szál tagságot az említett felhasználónak"
+  },
+  {
+    "id": "app.channel.analytics_type_count.app_error",
+    "translation": "Nem sikerült lekérni a csatornatípusok számát."
+  },
+  {
+    "id": "app.bot.permanent_delete.internal_error",
+    "translation": "Nem sikerült végleg törölni a botot."
+  },
+  {
+    "id": "app.audit.save.saving.app_error",
+    "translation": "Hiba történt az auditok mentésekor."
+  },
+  {
+    "id": "app.audit.permanent_delete_by_user.app_error",
+    "translation": "Hiba történt az auditok törlésekor."
+  },
+  {
+    "id": "app.audit.get.limit.app_error",
+    "translation": "Túllépte a lapozás korlátját."
+  },
+  {
+    "id": "app.audit.get.finding.app_error",
+    "translation": "Hiba történt az auditok megkeresésekor."
+  },
+  {
+    "id": "app.analytics.getanalytics.internal_error",
+    "translation": "Nem sikerült lekérni az elemzéseket."
+  },
+  {
+    "id": "app.admin.test_site_url.failure",
+    "translation": "Ez nem egy érvényes élő URL"
+  },
+  {
+    "id": "app.admin.test_email.failure",
+    "translation": "Kapcsolódás sikertelen: {{.Error}}"
+  },
+  {
+    "id": "app.admin.saml.invalid_response_from_idp.app_error",
+    "translation": "Nem sikerült elolvasni a Identity Provider-től kapott választ."
+  },
+  {
+    "id": "app.admin.saml.failure_decode_metadata_xml_from_idp.app_error",
+    "translation": "Nem sikerült dekódolni az Identity Provider-től kapott XML-metaadatokat."
+  },
+  {
+    "id": "api.webhook.update_outgoing.intersect.app_error",
+    "translation": "Ugyanazon csatornáról a kimenő webhookoknak nem lehetnek ugyanazok az indító szavai / visszahívási URL-jei."
+  },
+  {
+    "id": "api.webhook.create_outgoing.triggers.app_error",
+    "translation": "Vagy trigger_words, vagy channel_id értéket kell beállítani."
+  },
+  {
+    "id": "api.webhook.create_outgoing.permissions.app_error",
+    "translation": "Kimenő webhookokat csak nyilvános csatornákhoz lehet létrehozni."
+  },
+  {
+    "id": "api.webhook.create_outgoing.intersect.app_error",
+    "translation": "Ugyanazon csatornáról a kimenő webhookoknak nem lehetnek ugyanazok az indító szavai / visszahívási URL-jei."
+  },
+  {
+    "id": "api.web_socket_router.not_authenticated.app_error",
+    "translation": "A WebSocket kapcsolat nincs hitelesítve. Kérjük jelentkezzen be és próbálja meg újra."
+  },
+  {
+    "id": "api.web_socket_router.no_action.app_error",
+    "translation": "Nincs websocket művelet."
+  },
+  {
+    "id": "api.web_socket_router.bad_seq.app_error",
+    "translation": "Érvénytelen sorrend a WebSocket üzenetnek."
+  },
+  {
+    "id": "api.web_socket_router.bad_action.app_error",
+    "translation": "Ismeretlen WebSocket művelet."
+  },
+  {
+    "id": "api.web_socket.connect.upgrade.app_error",
+    "translation": "Nem sikerült frissíteni a websocket kapcsolatot."
+  },
+  {
+    "id": "api.user.verify_email.token_parse.error",
+    "translation": "Nem sikerült értelmezni a token adatot az email megerősítésből"
+  },
+  {
+    "id": "api.web_socket.connect.check_origin.app_error",
+    "translation": "Érvénytelen Origin fejléc beállítva a websocket frissítés közben."
+  },
+  {
+    "id": "api.user.verify_email.link_expired.app_error",
+    "translation": "Az email megerősítő link lejárt."
+  },
+  {
+    "id": "api.user.verify_email.broken_token.app_error",
+    "translation": "Rossz email megerősítő token típus."
+  },
+  {
+    "id": "api.user.verify_email.bad_link.app_error",
+    "translation": "Rossz email megerősítő link."
+  },
+  {
+    "id": "api.user.upload_profile_user.decode_config.app_error",
+    "translation": "A profilképet nem lehet elmenteni. A fájl nem tűnik érvényes képnek."
+  },
+  {
+    "id": "api.user.update_user_roles.license.app_error",
+    "translation": "Az egyedi jogosultság sémákat a jelenlegi licenc nem támogatja"
+  },
+  {
+    "id": "api.user.update_user_auth.invalid_request",
+    "translation": "A kérésből hiányzik a AuthData vagy a AuthService paraméter."
+  },
+  {
+    "id": "api.user.update_user.accepted_guest_domain.app_error",
+    "translation": "A megadott email nem tartozik a vendég fiókok számára engedélyezett domainek közé. Kérjük vegye fel a kapcsolatot a rendszergazdával vagy regisztráljon egy másik email címmel."
+  },
+  {
+    "id": "api.user.update_user.accepted_domain.app_error",
+    "translation": "A megadott email nem tartozik az engedélyezett domainek közé. Kérjük vegye fel a kapcsolatot a rendszergazdával vagy regisztráljon egy másik email címmel."
+  },
+  {
+    "id": "api.user.update_password.valid_account.app_error",
+    "translation": "A jelszófrissítés sikertelen mert nem találtunk egy érvényes fiókot."
+  },
+  {
+    "id": "api.user.update_password.user_and_hashed.app_error",
+    "translation": "Csak rendszer adminisztrátorok állíthatnak be már ujjlenyomatozott jelszavakat."
+  },
+  {
+    "id": "api.user.update_password.oauth.app_error",
+    "translation": "A jelszófrissítés sikertelen mert a felhasználó OAuth szolgáltatáson keresztűl jelentkezett be."
   }
 ]
