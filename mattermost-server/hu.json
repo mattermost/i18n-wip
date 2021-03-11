@@ -345,27 +345,27 @@
   },
   {
     "id": "app.plugin.get_plugins.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült lekérni az aktív pluginokat."
   },
   {
     "id": "app.plugin.delete_public_key.delete.app_error",
-    "translation": "Hiba történt a tanúsítvány törlése közben."
+    "translation": "Hiba történt a nyilvános kulcs törlése közben."
   },
   {
     "id": "app.plugin.deactivate.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült deaktiválni a plugint."
   },
   {
     "id": "app.notification.subject.notification.full",
-    "translation": "[{{.SiteName}}] Új értesítés {{.Year}}. {{.Month}} {{.Day}}. óta"
+    "translation": "[{{ .SiteName }}] Értesítés a {{ .TeamName}} csapatban ekkor {{.Year}} {{.Month}} {{.Day}}"
   },
   {
     "id": "app.notification.subject.group_message.generic",
-    "translation": "[{{.SiteName}}] Új értesítés {{.Year}}. {{.Month}} {{.Day}}. óta"
+    "translation": "[{{.SiteName}}] Új csapat üzenet ekkor {{.Year}} {{.Month}} {{.Day}}"
   },
   {
     "id": "app.notification.subject.group_message.full",
-    "translation": "[{{.SiteName}}] Új értesítés {{.Year}}. {{.Month}} {{.Day}}. óta"
+    "translation": "[{{.SiteName}}] Új csapat üzenet a {{ .ChannelName}} csatornában ekkor {{.Year}} {{.Month}} {{.Day}}"
   },
   {
     "id": "app.notification.subject.direct.full",
@@ -377,7 +377,7 @@
   },
   {
     "id": "app.notification.body.text.notification.full2",
-    "translation": "{{.Month}} {{.Day}}, {{.Hour}}:{{.Minute}} {{.Timezone}}"
+    "translation": "{{.SenderName}} - {{.Month}} {{.Day}}, {{.Hour}}:{{.Minute}} {{.Timezone}}"
   },
   {
     "id": "app.notification.body.text.group_message.generic",
@@ -385,7 +385,7 @@
   },
   {
     "id": "app.notification.body.text.group_message.full2",
-    "translation": "{{.Month}} {{.Day}}, {{.Hour}}:{{.Minute}} {{.Timezone}}"
+    "translation": "{{.SenderName}} - {{.Month}} {{.Day}}, {{.Hour}}:{{.Minute}} {{.Timezone}}"
   },
   {
     "id": "app.notification.body.text.direct.generic",
@@ -393,11 +393,11 @@
   },
   {
     "id": "app.notification.body.text.direct.full",
-    "translation": "{{.Month}} {{.Day}}, {{.Hour}}:{{.Minute}} {{.Timezone}}"
+    "translation": "{{.SenderName}} - {{.Month}} {{.Day}}, {{.Hour}}:{{.Minute}} {{.Timezone}}"
   },
   {
     "id": "app.notification.body.intro.notification.generic",
-    "translation": "Új közvetlen üzeneted van tőle: {{.SenderName}}"
+    "translation": "Új értesítése van tőle: {{.SenderName}}"
   },
   {
     "id": "app.notification.body.intro.notification.full",
@@ -405,31 +405,31 @@
   },
   {
     "id": "app.notification.body.intro.group_message.generic",
-    "translation": "Új közvetlen üzeneted van tőle: {{.SenderName}}"
+    "translation": "Új csoport üzenete van tőle: {{.SenderName}}"
   },
   {
     "id": "app.notification.body.intro.group_message.full",
-    "translation": "Új közvetlen üzeneted van."
+    "translation": "Új csoport üzenete van."
   },
   {
     "id": "app.notification.body.intro.direct.generic",
-    "translation": "Új közvetlen üzeneted van tőle: {{.SenderName}}"
+    "translation": "Új közvetlen üzenete van tőle: {{.SenderName}}"
   },
   {
     "id": "app.notification.body.intro.direct.full",
-    "translation": "Új közvetlen üzeneted van."
+    "translation": "Új közvetlen üzenete van."
   },
   {
     "id": "app.import.validate_scheme_import_data.name_invalid.error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen séma név."
   },
   {
     "id": "app.import.validate_role_import_data.name_invalid.error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen szerep név."
   },
   {
     "id": "app.import.import_direct_channel.update_header_failed.error",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült frissíteni a közvetlen csatorna fejlécét"
   },
   {
     "id": "app.channel.post_update_channel_purpose_message.updated_to",
@@ -1175,7 +1175,7 @@
   },
   {
     "id": "app.emoji.delete.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült törölni az emojit."
   },
   {
     "id": "store.sql_command.save.get.app_error",
@@ -1183,11 +1183,11 @@
   },
   {
     "id": "app.channel.update.bad_id",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült frissíteni a csatornát."
   },
   {
     "id": "app.channel.get_deleted.existing.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem található a meglévő törölt csatorna."
   },
   {
     "id": "store.sql_channel.get.existing.app_error",
@@ -4357,5 +4357,1033 @@
   {
     "id": "api.user.update_password.oauth.app_error",
     "translation": "A jelszófrissítés sikertelen mert a felhasználó OAuth szolgáltatáson keresztűl jelentkezett be."
+  },
+  {
+    "id": "app.plugin.marketplace_disabled.app_error",
+    "translation": "A piactér le van tiltva, Kérjük ellenőrizze a naplókat a részletekért."
+  },
+  {
+    "id": "app.plugin.marketplace_client.failed_to_fetch",
+    "translation": "Nem sikerült lekérni a pluginokat a piactér szerverről."
+  },
+  {
+    "id": "app.plugin.marketplace_client.app_error",
+    "translation": "Nem sikerült létrehozni a piactér klienst."
+  },
+  {
+    "id": "app.plugin.invalid_version.app_error",
+    "translation": "A plugin verziót nem lehetett értelmezni."
+  },
+  {
+    "id": "app.plugin.invalid_id.app_error",
+    "translation": "A plugin azonosító legalább {{.Min}} karakter, legfeljebb {{.Max}} karakter lehet és egyeznie kell {{.Regex}}."
+  },
+  {
+    "id": "app.plugin.install_marketplace_plugin.app_error",
+    "translation": "Nem sikerült telepíteni a piactér plugint."
+  },
+  {
+    "id": "app.plugin.install_id_failed_remove.app_error",
+    "translation": "Nem sikerült telepíteni a plugint. Egy plugin ugyanezzel az azonosítóval már telepítve van és nem sikerült eltávolítani."
+  },
+  {
+    "id": "app.plugin.install_id.app_error",
+    "translation": "Nem sikerült telepíteni a plugint. Egy plugin ugyanezzel az azonosítóval már telepítve van."
+  },
+  {
+    "id": "app.plugin.install.app_error",
+    "translation": "Nem sikerült telepíteni a plugint."
+  },
+  {
+    "id": "app.plugin.get_statuses.app_error",
+    "translation": "Nem sikerült lekérni a plugin állapotokat."
+  },
+  {
+    "id": "app.plugin.get_public_key.get_file.app_error",
+    "translation": "Hiba történt a nyilvános kulcs tárból történő lekérése során."
+  },
+  {
+    "id": "app.plugin.get_cluster_plugin_statuses.app_error",
+    "translation": "Nem sikerült beolvasni a plugin állapotokat a fürtből."
+  },
+  {
+    "id": "app.plugin.flag_managed.app_error",
+    "translation": "Nem lehet beállítani a bővítményt úgy, hogy a fájltár kezelje."
+  },
+  {
+    "id": "app.plugin.filesystem.app_error",
+    "translation": "Fájlrendszer hiba történt."
+  },
+  {
+    "id": "app.plugin.extract.app_error",
+    "translation": "Hiba történt a pluging csomagok kicsomagolásakor."
+  },
+  {
+    "id": "app.plugin.disabled.app_error",
+    "translation": "Pluginok letiltva. Kérjük ellenőrizze a naplókat a részletekért."
+  },
+  {
+    "id": "app.plugin.config.app_error",
+    "translation": "Hiba történt a plugin állapotának konfigurációba mentésekor."
+  },
+  {
+    "id": "app.oauth.update_app.updating.app_error",
+    "translation": "Hiba történt az alkalmazás frissítése során."
+  },
+  {
+    "id": "app.oauth.update_app.find.app_error",
+    "translation": "Nem található a frissítendő meglévő alkalmazás."
+  },
+  {
+    "id": "app.oauth.save_app.save.app_error",
+    "translation": "Nem sikerült elmenteni az alkalmazást."
+  },
+  {
+    "id": "app.oauth.remove_access_data.app_error",
+    "translation": "Nem sikerült eltávolítani a hozzáférési tokent."
+  },
+  {
+    "id": "app.oauth.permanent_delete_auth_data_by_user.app_error",
+    "translation": "Nem sikerült eltávolítani a hitelesítési kódot."
+  },
+  {
+    "id": "app.oauth.get_access_data_by_user_for_app.app_error",
+    "translation": "Hiba történt az összes hozzáférési token keresésekor."
+  },
+  {
+    "id": "app.oauth.get_app.finding.app_error",
+    "translation": "Hiba történt az alkalmazás keresésekor."
+  },
+  {
+    "id": "app.oauth.get_apps.find.app_error",
+    "translation": "Hiba történt az OAuth2 alkalmazások keresésekor."
+  },
+  {
+    "id": "app.oauth.get_app_by_user.find.app_error",
+    "translation": "Nem található egy meglévő alkalmazás sem."
+  },
+  {
+    "id": "app.oauth.get_app.find.app_error",
+    "translation": "Nem található a kért alkalmazás."
+  },
+  {
+    "id": "app.oauth.delete_app.app_error",
+    "translation": "Hiba történt az OAuth2 alkalmazás törlésekor."
+  },
+  {
+    "id": "app.notification.body.text.notification.full",
+    "translation": "Csatorna: {{.ChannelName}}"
+  },
+  {
+    "id": "app.notification.body.text.group_message.full",
+    "translation": "Csatorna: {{.ChannelName}}"
+  },
+  {
+    "id": "app.license.generate_renewal_token.no_license",
+    "translation": "Nincs licence jelen"
+  },
+  {
+    "id": "app.license.generate_renewal_token.bad_license",
+    "translation": "Ez a típusú licence nem támogatja a megújítási token generálást"
+  },
+  {
+    "id": "app.license.generate_renewal_token.app_error",
+    "translation": "Nem sikerült generálni egy új megújítási tokent."
+  },
+  {
+    "id": "app.job.update.app_error",
+    "translation": "Nem sikerült frissíteni a munkát."
+  },
+  {
+    "id": "app.job.save.app_error",
+    "translation": "Nem sikerült menteni a munkát."
+  },
+  {
+    "id": "app.job.get_newest_job_by_status_and_type.app_error",
+    "translation": "Nem sikerült lekérni a legújabb munkát állapot vagy típus szerint."
+  },
+  {
+    "id": "app.job.get_count_by_status_and_type.app_error",
+    "translation": "Nem sikerült lekérni a munkát állapot vagy típus szerint."
+  },
+  {
+    "id": "app.job.get_all.app_error",
+    "translation": "Nem sikerült lekérni a munkákat."
+  },
+  {
+    "id": "app.job.get.app_error",
+    "translation": "Nem sikerült lekérni a munkát."
+  },
+  {
+    "id": "app.insert_error",
+    "translation": "beszúrási hiba"
+  },
+  {
+    "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
+    "translation": "Hiányzó csapat név a felhasználó csapat tagságából."
+  },
+  {
+    "id": "app.import.validate_user_teams_import_data.invalid_team_theme.error",
+    "translation": "Érvénytelen csapat téma a felhasználó számára"
+  },
+  {
+    "id": "app.import.validate_user_teams_import_data.invalid_roles.error",
+    "translation": "Érvénytelen szerepek a felhasználó csapattagságának."
+  },
+  {
+    "id": "app.import.validate_user_import_data.username_missing.error",
+    "translation": "Hiányzó kötelező felhasználó tulajdonság: username."
+  },
+  {
+    "id": "app.import.validate_user_import_data.username_invalid.error",
+    "translation": "Érvénytelen felhasználónév."
+  },
+  {
+    "id": "app.import.validate_user_import_data.roles_invalid.error",
+    "translation": "Érvénytelen felhasználó szerepek."
+  },
+  {
+    "id": "app.import.validate_user_import_data.profile_image.error",
+    "translation": "Érvénytelen profilkép."
+  },
+  {
+    "id": "app.import.validate_user_import_data.position_length.error",
+    "translation": "Felhasználó beosztás túl hosszú."
+  },
+  {
+    "id": "app.import.validate_user_import_data.password_length.error",
+    "translation": "Érvénytelen hosszúságú felhasználó jelszó."
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_mobile_push_status_invalid.error",
+    "translation": "Érvénytelen mobil push állapot értesítés tulajdonság érték a felhasználó számára."
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_mobile_invalid.error",
+    "translation": "Érvénytelen mobil értesítés tulajdonság érték a felhasználó számára."
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_email_invalid.error",
+    "translation": "Érvénytelen email értesítés tulajdonság érték a felhasználó számára."
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_desktop_sound_invalid.error",
+    "translation": "Érvénytelen asztali hang értesítés tulajdonság érték a felhasználó számára."
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_desktop_invalid.error",
+    "translation": "Érvénytelen asztali értesítés tulajdonság érték a felhasználó számára."
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_comments_trigger_invalid.error",
+    "translation": "Érvénytelen hozzászólás tulajdonság érték a felhasználó számára."
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_channel_trigger_invalid.error",
+    "translation": "Érvénytelen csatorna indító értesítés tulajdonság a felhasználó számára."
+  },
+  {
+    "id": "app.import.validate_user_import_data.nickname_length.error",
+    "translation": "Felhasználó beceneve túl hosszú."
+  },
+  {
+    "id": "app.import.validate_user_import_data.last_name_length.error",
+    "translation": "Felhasználó vezetékneve túl hosszú."
+  },
+  {
+    "id": "app.import.validate_user_import_data.first_name_length.error",
+    "translation": "Felhasználó keresztneve túl hosszú."
+  },
+  {
+    "id": "app.import.validate_user_import_data.email_missing.error",
+    "translation": "Hiányzó kötelező felhasználó tulajdonság: email."
+  },
+  {
+    "id": "app.import.validate_user_import_data.email_length.error",
+    "translation": "A felhasználó email címének hossza érvénytelen."
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_length.error",
+    "translation": "Felhasználó AuthData túl hosszú."
+  },
+  {
+    "id": "app.import.validate_user_import_data.advanced_props_show_unread_section.error",
+    "translation": "Érvénytelen olvasatlan szakasz megjelenítése beállítás a felhasználó számára"
+  },
+  {
+    "id": "app.import.validate_user_import_data.advanced_props_formatting.error",
+    "translation": "Érvénytelen bejegyzés formázási beállítás a felhasználó számára"
+  },
+  {
+    "id": "app.import.validate_user_import_data.advanced_props_feature_markdown_preview.error",
+    "translation": "Érvénytelen markdown előnézet beállítás a felhasználó számára"
+  },
+  {
+    "id": "app.import.validate_user_import_data.advanced_props_email_interval.error",
+    "translation": "Érvénytelen e-mail kötegelési intervallum beállítás a felhasználó számára"
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.invalid_roles.error",
+    "translation": "Érvénytelen szerepek a felhasználó csatorna tagságához."
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.invalid_notify_props_mobile.error",
+    "translation": "Érvénytelen Mobile NotifyProps a felhasználó csatorna tagságához."
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.invalid_notify_props_mark_unread.error",
+    "translation": "Érvénytelen MarkUnread NotifyProps a felhasználó csatorna tagságához."
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.invalid_notify_props_desktop.error",
+    "translation": "Érvénytelen asztali NotifyProps a felhasználó csatorna tagságához."
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.channel_name_missing.error",
+    "translation": "Hiányzó csatornanév a felhasználó csatorna tagságából."
+  },
+  {
+    "id": "app.import.validate_team_import_data.type_missing.error",
+    "translation": "Hiányzó kötelező csapat tulajdonság: típus."
+  },
+  {
+    "id": "app.import.validate_team_import_data.type_invalid.error",
+    "translation": "Csapat típus nem érvényes."
+  },
+  {
+    "id": "app.import.validate_team_import_data.scheme_invalid.error",
+    "translation": "Érvénytelen séma név a csapathoz."
+  },
+  {
+    "id": "app.import.validate_team_import_data.name_reserved.error",
+    "translation": "A csapat név lefoglalt szavakat tartalmaz."
+  },
+  {
+    "id": "app.import.validate_team_import_data.name_missing.error",
+    "translation": "Hiányzó kötelező csapat tulajdonság: name."
+  },
+  {
+    "id": "app.import.validate_team_import_data.name_length.error",
+    "translation": "Csapat név túl hosszú."
+  },
+  {
+    "id": "app.import.validate_team_import_data.name_characters.error",
+    "translation": "Csapatnév érvénytelen karaktereket tartalmaz."
+  },
+  {
+    "id": "app.import.validate_team_import_data.display_name_missing.error",
+    "translation": "Hiányzó kötelező csapat tulajdonság: display_name."
+  },
+  {
+    "id": "app.import.validate_team_import_data.display_name_length.error",
+    "translation": "Csapat display_name nincs a megengedett hossz korlátokon belül."
+  },
+  {
+    "id": "app.import.validate_team_import_data.description_length.error",
+    "translation": "Csapat leírás túl hosszú."
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.wrong_roles_for_scope.error",
+    "translation": "A rossz szerepek lettek megadva a sémának ezzel a hatókörrel."
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.unknown_scheme.error",
+    "translation": "Ismeretlen séma hatókör."
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.null_scope.error",
+    "translation": "Séma hatúkör kötelező."
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.display_name_invalid.error",
+    "translation": "Érvénytelen séma megjelenítési név."
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.description_invalid.error",
+    "translation": "Érvénytelen séma leírás."
+  },
+  {
+    "id": "app.import.validate_role_import_data.invalid_permission.error",
+    "translation": "Érvénytelen jogosultság a szerepen."
+  },
+  {
+    "id": "app.import.validate_role_import_data.display_name_invalid.error",
+    "translation": "Érvénytelen szerep megjelenítési név."
+  },
+  {
+    "id": "app.import.validate_role_import_data.description_invalid.error",
+    "translation": "Érvénytelen szerep leírás."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.user_missing.error",
+    "translation": "Hiányzó kötelező válasz tulajdonság: User."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.message_missing.error",
+    "translation": "Hiányzó kötelező válasz tulajdonság: Message."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.message_length.error",
+    "translation": "Válasz üzenet tulajdonság hosszabb mint a maximális megengedett hosszúság."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.create_at_zero.error",
+    "translation": "Válasz CreateAt tulajdonsága nem lehet nulla."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.create_at_missing.error",
+    "translation": "Hiányzó kötelező válasz tulajdonság: create_at."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.create_at_before_parent.error",
+    "translation": "Válasz CreateAt tulajdonságának nagyobbnak kell lennie, mint a fő bejegyzés CreateAt."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.emoji_name_missing.error",
+    "translation": "Hiányzó kötelező reakció tulajdonság: EmojiName."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.user_missing.error",
+    "translation": "Hiányzó kötelező reakció tulajdonság: User."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.emoji_name_length.error",
+    "translation": "Reakció EmojiName tulajdonság hosszabb mint a megengedett maximális hosszúság."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.create_at_zero.error",
+    "translation": "Reakció CreateAt tulajdonsága nem lehet nulla."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.create_at_missing.error",
+    "translation": "Hiányzó kötelező reakció tulajdonság: create_at."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.create_at_before_parent.error",
+    "translation": "Reakció CreateAt tulajdonságának nagyobbnak kell lennie, mint CreateAt."
+  },
+  {
+    "id": "app.import.validate_post_import_data.user_missing.error",
+    "translation": "Hiányzó kötelező bejegyzés tulajdonság: User."
+  },
+  {
+    "id": "app.import.validate_post_import_data.team_missing.error",
+    "translation": "Hiányzó kötelező bejegyzés tulajdonság: Team."
+  },
+  {
+    "id": "app.import.validate_post_import_data.props_too_large.error",
+    "translation": "Bejegyzés tulajdonságok hosszabb mint a maximálisan megengedett hosszúság."
+  },
+  {
+    "id": "app.import.validate_post_import_data.message_missing.error",
+    "translation": "Hiányzó kötelező bejegyzés tulajdonság: Message."
+  },
+  {
+    "id": "app.import.validate_post_import_data.message_length.error",
+    "translation": "Bejegyzés üzenet tulajdonság hosszabb mint a maximálisan megengedett hosszúság."
+  },
+  {
+    "id": "app.import.validate_post_import_data.create_at_zero.error",
+    "translation": "A bejegyzés CreateAt tulajdonsága nem lehet nulla."
+  },
+  {
+    "id": "app.import.validate_post_import_data.create_at_missing.error",
+    "translation": "Hiányzó kötelező bejegyzés tulajdonság: create_at."
+  },
+  {
+    "id": "app.import.validate_post_import_data.channel_missing.error",
+    "translation": "Hiányzó kötelező bejegyzés tulajdonság: Channel."
+  },
+  {
+    "id": "app.import.validate_emoji_import_data.name_missing.error",
+    "translation": "Emoji import név mező hiányzik vagy üres."
+  },
+  {
+    "id": "app.import.validate_emoji_import_data.image_missing.error",
+    "translation": "Emoji import kép mező hiányzik vagy üres."
+  },
+  {
+    "id": "app.import.validate_emoji_import_data.empty.error",
+    "translation": "Emoji adat import üres."
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.user_missing.error",
+    "translation": "Hiányzó kötelező közvetlen bejegyzés tulajdonság: user"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.unknown_flagger.error",
+    "translation": "A közvetlen bejegyzéseket csak azon csatorna tagjai jelölhetik meg amelyben az benne van. \"{{.Username}}\" nem egy tag."
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.message_missing.error",
+    "translation": "Hiányzó kötelező közvetlen bejegyzés tulajdonság: message"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.create_at_zero.error",
+    "translation": "CreateAt nagyobbnak kell lennie, mint 0"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.create_at_missing.error",
+    "translation": "Hiányzó kötelező közvetlen bejegyzés tulajdonság: create_at"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.channel_members_too_many.error",
+    "translation": "A közvetlen bejegyzés csatorna tagok listája túl sok tételt tartalmaz"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.channel_members_too_few.error",
+    "translation": "A közvetlen bejegyzés csatorna tagok listája túl kevés tételt tartalmaz"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.channel_members_required.error",
+    "translation": "Hiányzó kötelező közvetlen bejegyzés tulajdonság: channel_members"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.unknown_favoriter.error",
+    "translation": "A közvetlen csatornát csak tagok kedvelhetik be. \"{{.Username}}\" nem egy tag."
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.members_too_many.error",
+    "translation": "A közvetlen csatorna tagok listája túl sok tételt tartalmaz"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.members_too_few.error",
+    "translation": "A közvetlen csatorna tagok listája túl kevés tételt tartalmaz"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.members_required.error",
+    "translation": "Hiányzó kötelező közvetlen csatorna tulajdonság: members"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.header_length.error",
+    "translation": "A közvetlen csatorna fejléc túl hosszú"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.type_missing.error",
+    "translation": "Hiányzó kötelező csatorna tulajdonság: type."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.type_invalid.error",
+    "translation": "A csatornatípus érvénytelen."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.team_missing.error",
+    "translation": "Hiányzó kötelező csatorna tulajdonság: team"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.scheme_invalid.error",
+    "translation": "Érvénytelen séma név a csatornához."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.purpose_length.error",
+    "translation": "A csatorna célja túl hosszú."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.name_missing.error",
+    "translation": "Hiányzó kötelező csatorna tulajdonság: name"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.name_length.error",
+    "translation": "A csatornanév túl hosszú."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.name_characters.error",
+    "translation": "A csatornanév érvénytelen karaktereket tartalmaz."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.header_length.error",
+    "translation": "Csatorna fejléc túl hosszú."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.display_name_missing.error",
+    "translation": "Hiányzó kötelező csatorna tulajdonság: display_name"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.display_name_length.error",
+    "translation": "A csatorna display_name nem az engedélyezett hosszúságon belül van."
+  },
+  {
+    "id": "app.import.process_import_data_file_version_line.invalid_version.error",
+    "translation": "Nem sikerült olvasni az import fájl verzióját."
+  },
+  {
+    "id": "app.import.import_user_teams.save_preferences.error",
+    "translation": "Nem sikerült elmenteni a csapat téma beállításokat"
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.max_accounts.app_error",
+    "translation": "Nem sikerült importálni a csapat tagságot mert a abba a csapatba már nem engedélyezett több tag"
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.error",
+    "translation": "Nem sikerült importálni a csapat tagságokat"
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.conflict.app_error",
+    "translation": "Nem sikerült importálni az új csapat tagságot mert már létezik."
+  },
+  {
+    "id": "app.import.import_user_channels.save_preferences.error",
+    "translation": "Hiba a felhasználó csapat tagságok importálásakor. Beállítások mentése sikertelen."
+  },
+  {
+    "id": "app.import.import_user_channels.channel_not_found.error",
+    "translation": "Hiba a felhasználó csatornák importálásakor. Csatorna nem található."
+  },
+  {
+    "id": "app.import.import_user.save_preferences.error",
+    "translation": "Hiba a beállítások importálásakor. Beállítások mentése sikertelen."
+  },
+  {
+    "id": "app.import.import_team.scheme_wrong_scope.error",
+    "translation": "A csapatot hozzá kell rendelni egy csapat hatókörű sémához."
+  },
+  {
+    "id": "app.import.import_team.scheme_deleted.error",
+    "translation": "Nem lehet beállítani egy csapatot egy törölt séma használatára."
+  },
+  {
+    "id": "app.import.import_scheme.scope_change.error",
+    "translation": "A tömeges import nem tudja megváltoztatni egy már létező séma hatókörét."
+  },
+  {
+    "id": "app.import.import_post.user_not_found.error",
+    "translation": "Hiba a bejegyzés importálásakor. A \"{{.Username}}\" felhasználó nevű felhasználó nem található."
+  },
+  {
+    "id": "app.import.import_post.save_preferences.error",
+    "translation": "Hiba a bejegyzés importálásakor. Beállítások mentése sikertelen."
+  },
+  {
+    "id": "app.import.import_line.null_channel.error",
+    "translation": ""
+  },
+  {
+    "id": "app.import.import_direct_post.create_group_channel.error",
+    "translation": "Nem sikerült lekérni a csoport csatornát"
+  },
+  {
+    "id": "app.import.import_direct_post.create_direct_channel.error",
+    "translation": "Nem sikerült lekérni a közvetlen csatornát"
+  },
+  {
+    "id": "app.import.import_direct_channel.create_group_channel.error",
+    "translation": "Nem sikerült csapat csatornát létrehoznni"
+  },
+  {
+    "id": "app.import.import_direct_channel.create_direct_channel.error",
+    "translation": "Nem sikerült közvetlen csatornát létrehozni"
+  },
+  {
+    "id": "app.import.import_channel.team_not_found.error",
+    "translation": "Hiba a csatorna importálásnál. A \"{{.TeamName}}\" nevű csapat nem található."
+  },
+  {
+    "id": "app.import.import_channel.scheme_wrong_scope.error",
+    "translation": "A csatornát hozzá kell rendelni egy csatorna hatókörű sémához."
+  },
+  {
+    "id": "app.import.import_channel.scheme_deleted.error",
+    "translation": "A csatornát nem lehet beállítani, hogy egy törölt sémát használjon."
+  },
+  {
+    "id": "app.import.get_users_by_username.some_users_not_found.error",
+    "translation": "Néhány felhasználónem található"
+  },
+  {
+    "id": "app.import.get_teams_by_names.some_teams_not_found.error",
+    "translation": "Néhány csapat nem található"
+  },
+  {
+    "id": "app.import.emoji.bad_file.error",
+    "translation": "Hiba történt az emoji képfájl importálásakor. Emoji név: \"{{.EmojiName}}\""
+  },
+  {
+    "id": "app.import.bulk_import.unsupported_version.error",
+    "translation": "Érvénytelen vagy hiányzó verzió az adat import fájlban. Győződjön meg róla, hogy a verzió az importfájl első objektuma, és próbálja újra."
+  },
+  {
+    "id": "app.import.bulk_import.file_scan.error",
+    "translation": "Hiba történt az import adatfájl olvasása közben."
+  },
+  {
+    "id": "app.import.attachment.read_file_data.error",
+    "translation": "Nem sikerült olvasni a fájl mellékletet import közben."
+  },
+  {
+    "id": "app.import.attachment.bad_file.error",
+    "translation": "Hiba a fájl olvasásakor : \"{{.FilePath}}\""
+  },
+  {
+    "id": "app.import.attachment.file_upload.error",
+    "translation": "Hiba a fájl feltöltésekor : \"{{.FilePath}}\""
+  },
+  {
+    "id": "app.group.uniqueness_error",
+    "translation": "csoporttag már létezik"
+  },
+  {
+    "id": "app.group.permanent_delete_members_by_user.app_error",
+    "translation": "Nem sikerült eltávolítani a következő csoporttagot UserID \"{{.UserId}}\"."
+  },
+  {
+    "id": "app.group.no_rows",
+    "translation": "nem található egyező csoport"
+  },
+  {
+    "id": "app.group.id.app_error",
+    "translation": "érvénytelen azonosító tulajdonság a csoporthoz."
+  },
+  {
+    "id": "app.group.group_syncable_already_deleted",
+    "translation": "csoport szinkronizálását már törölték"
+  },
+  {
+    "id": "app.file_info.save.app_error",
+    "translation": "Nem sikerült menteni a fájl infót."
+  },
+  {
+    "id": "app.file_info.get_with_options.app_error",
+    "translation": "Nem sikerült lekérni a fájl infót opciókkal"
+  },
+  {
+    "id": "app.file_info.permanent_delete_by_user.app_error",
+    "translation": "Nem sikerült törölni a felhasználó mellékleteit."
+  },
+  {
+    "id": "app.file_info.get_for_post.app_error",
+    "translation": "Nem sikerült lekérni a fájl infót a bejegyzéshez."
+  },
+  {
+    "id": "app.file_info.get.app_error",
+    "translation": "Nem sikerült lekérni a fájl infót."
+  },
+  {
+    "id": "app.export.zip_create.error",
+    "translation": "Nem sikerült hozzáadni a fájlt a zip fájlhoz az export közben."
+  },
+  {
+    "id": "app.export.export_write_line.json_marshall.error",
+    "translation": ""
+  },
+  {
+    "id": "app.export.export_write_line.io_writer.error",
+    "translation": "Hiba történt az export adat írása közben."
+  },
+  {
+    "id": "app.export.export_custom_emoji.copy_emoji_images.error",
+    "translation": "Nem sikerült másolni az egyedi emoji képeket"
+  },
+  {
+    "id": "app.export.export_attachment.zip_create_header.error",
+    "translation": "Nem sikerült a zip fejléc létrehozása az export közben."
+  },
+  {
+    "id": "app.export.export_attachment.mkdirall.error",
+    "translation": "Nem sikerült a könyvtár létrehozása az export közben."
+  },
+  {
+    "id": "app.export.export_attachment.create_file.error",
+    "translation": "Nem sikerült a fájl létrehozása az export közben."
+  },
+  {
+    "id": "app.export.export_attachment.copy_file.error",
+    "translation": "Nem sikerült a fájl másolása az export közben."
+  },
+  {
+    "id": "app.emoji.get_list.internal_error",
+    "translation": "Nem sikerült lekérni az emojit."
+  },
+  {
+    "id": "app.emoji.get_by_name.no_result",
+    "translation": "Nem található az emoji."
+  },
+  {
+    "id": "app.emoji.get_by_name.app_error",
+    "translation": "Nem sikerült lekérni az emojit."
+  },
+  {
+    "id": "app.emoji.get.no_result",
+    "translation": "Nem található az emoji."
+  },
+  {
+    "id": "app.emoji.get.app_error",
+    "translation": "Nem sikerült lekérni az emojit."
+  },
+  {
+    "id": "app.emoji.delete.no_results",
+    "translation": "Nem található a törölni kívánt emoji."
+  },
+  {
+    "id": "app.emoji.create.internal_error",
+    "translation": "Nem sikerült elmenteni az emojit."
+  },
+  {
+    "id": "app.email.setup_rate_limiter.app_error",
+    "translation": "Hiba történt a sebességkorlátozóban."
+  },
+  {
+    "id": "app.email.rate_limit_exceeded.app_error",
+    "translation": "Meghívó emailek sebességkorlátja túllépve. Az időzítő visszaáll {{.ResetAfter}} másodperc múlva. Kérjük próbálja meg {{.RetryAfter}} másodperc múlva."
+  },
+  {
+    "id": "app.email.no_rate_limiter.app_error",
+    "translation": "A sebességkorlátozó nincs beállítva."
+  },
+  {
+    "id": "app.create_basic_user.save_member.max_accounts.app_error",
+    "translation": "Nem sikerült alapértelmezett csapat tagságokat létrehozni mert már abban a csapatban már nem engedélyezett több tag"
+  },
+  {
+    "id": "app.create_basic_user.save_member.conflict.app_error",
+    "translation": "Nem sikerült alapértelmezett csapat tagságokat létrehozni mert már léteznek"
+  },
+  {
+    "id": "app.create_basic_user.save_member.app_error",
+    "translation": "Nem sikerült alapértelmezett csapat tagságokat létrehozni"
+  },
+  {
+    "id": "app.compliance.save.saving.app_error",
+    "translation": "Hiba történt a megfelelőségi jelentések mentése során."
+  },
+  {
+    "id": "app.compliance.get.finding.app_error",
+    "translation": "Hiba történt a megfelelőségi jelentések lekérése során."
+  },
+  {
+    "id": "app.command_webhook.try_use.invalid",
+    "translation": "Érvénytelen webhook."
+  },
+  {
+    "id": "app.command_webhook.try_use.internal_error",
+    "translation": "Nem sikerült használni a webhookot."
+  },
+  {
+    "id": "app.command_webhook.handle_command_webhook.parse",
+    "translation": "Nem sikerült értelmezni a bejövő adatot."
+  },
+  {
+    "id": "app.command_webhook.get.missing",
+    "translation": "Nem sikerült megtalálni a webhookot."
+  },
+  {
+    "id": "app.command_webhook.get.internal_error",
+    "translation": "Nem sikerült lekérni a webhookot."
+  },
+  {
+    "id": "app.command_webhook.create_command_webhook.internal_error",
+    "translation": "Nem sikerült menteni a CommandWebhook-ot."
+  },
+  {
+    "id": "app.command_webhook.create_command_webhook.existing",
+    "translation": "Nem sikerült frissíteni egy létező CommandWebhook-ot."
+  },
+  {
+    "id": "app.command.updatecommand.internal_error",
+    "translation": "Nem sikerült frissíteni a parancsokat."
+  },
+  {
+    "id": "app.command.tryexecutecustomcommand.internal_error",
+    "translation": "Nem sikerült végrehajtani az egyedi parancsot."
+  },
+  {
+    "id": "app.command.regencommandtoken.internal_error",
+    "translation": "Nem sikerült újragenerálni a parancs tokent."
+  },
+  {
+    "id": "app.command.movecommand.internal_error",
+    "translation": "Nem sikerült áthelyezni a parancsot."
+  },
+  {
+    "id": "app.command.listteamcommands.internal_error",
+    "translation": "Nem sikerült listázni a csapat parancsokat."
+  },
+  {
+    "id": "app.command.listautocompletecommands.internal_error",
+    "translation": "Nem sikerült listázni az automatikus kitöltés parancsokat."
+  },
+  {
+    "id": "app.command.listallcommands.internal_error",
+    "translation": "Nem sikerült listázni a parancsokat."
+  },
+  {
+    "id": "app.command.getcommand.internal_error",
+    "translation": "Nem sikerült lekérni a parancsot."
+  },
+  {
+    "id": "app.command.deletecommand.internal_error",
+    "translation": "Nem sikerült törölnia parancsot."
+  },
+  {
+    "id": "app.command.createcommand.internal_error",
+    "translation": "Nem sikerült elmenteni a parancsot."
+  },
+  {
+    "id": "app.channel_member_history.log_leave_event.internal_error",
+    "translation": "Nem sikerült rögzíteni a csatorna tag előzményét. Nem sikerült frissíteni a létező csatlakozási rekordot"
+  },
+  {
+    "id": "app.channel_member_history.log_join_event.internal_error",
+    "translation": "Nem sikerült rögzíteni a csatorna tag előzményét."
+  },
+  {
+    "id": "app.channel.user_belongs_to_channels.app_error",
+    "translation": "Nem sikerült megállapítani, hogy a felhasználó a csatornák listájához tartozik-e."
+  },
+  {
+    "id": "app.channel.update_last_viewed_at_post.app_error",
+    "translation": "Nem sikerült olvasatlannak jelölni a csatornát."
+  },
+  {
+    "id": "app.channel.update_last_viewed_at.app_error",
+    "translation": "Nem sikerült frissíteni az utoljára megtekintett időpontot."
+  },
+  {
+    "id": "app.channel.update_channel.internal_error",
+    "translation": "Nem sikerült frissíteni a csatornát."
+  },
+  {
+    "id": "app.channel.sidebar_categories.app_error",
+    "translation": "Nem sikerült beilleszteni a rekordot az adatbázisba."
+  },
+  {
+    "id": "app.channel.search_group_channels.app_error",
+    "translation": "Nem sikerült lekérni a csoport csatornákat a megadott felhasználóhoz és kifejezéshez."
+  },
+  {
+    "id": "app.channel.search.app_error",
+    "translation": "Hiba merült fel a csatornák keresésekor."
+  },
+  {
+    "id": "app.channel.save_member.exists.app_error",
+    "translation": "Egy csatorna tag ezzel az azonosítóval már létezik."
+  },
+  {
+    "id": "app.channel.restore.app_error",
+    "translation": "Nem sikerült visszaállítani a csatornát."
+  },
+  {
+    "id": "app.channel.reset_all_channel_schemes.app_error",
+    "translation": "Nem sikerült visszaállítani a csatorna sémákat."
+  },
+  {
+    "id": "app.channel.remove_member.app_error",
+    "translation": "Nem sikerült eltávolítani a csatorna tagot."
+  },
+  {
+    "id": "app.channel.remove_all_deactivated_members.app_error",
+    "translation": "Nem sikerült eltávolítani a deaktivált felhasználókat a csatornából."
+  },
+  {
+    "id": "app.channel.pinned_posts.app_error",
+    "translation": "Nem sikerült megtalálni a kitűzött bejegyzéseket."
+  },
+  {
+    "id": "app.channel.permanent_delete_members_by_user.app_error",
+    "translation": "Nem sikerült eltávolítani a csatorna tagot."
+  },
+  {
+    "id": "app.channel.permanent_delete.app_error",
+    "translation": "Nem sikerült törölni a csatornát."
+  },
+  {
+    "id": "app.channel.move_channel.members_do_not_match.error",
+    "translation": "Csak akkor lehet áthelyezni egy csatornát, ha annak minden tagja már tagja a célcsapatnak."
+  },
+  {
+    "id": "app.channel.migrate_channel_members.select.app_error",
+    "translation": "Nem sikerült kiválasztani a csatornatagok kötegét."
+  },
+  {
+    "id": "app.channel.increment_mention_count.app_error",
+    "translation": "Nem sikerült növelni az említések számát."
+  },
+  {
+    "id": "app.channel.get_unread.app_error",
+    "translation": "Nem sikerült lekérni a csatorna olvasatlan üzeneteit."
+  },
+  {
+    "id": "app.channel.get_public_channels.get.app_error",
+    "translation": "Nem sikerült lekérni a nyilvános csatornákat."
+  },
+  {
+    "id": "app.channel.get_private_channels.get.app_error",
+    "translation": "Nem sikerült lekérni a privát csatornákat."
+  },
+  {
+    "id": "app.channel.get_pinnedpost_count.app_error",
+    "translation": "Nem sikerült lekérni a csatorna kitűzött bejegyzéseinek számár."
+  },
+  {
+    "id": "app.channel.get_more_channels.get.app_error",
+    "translation": "Nem sikerült lekérni a csatornákat."
+  },
+  {
+    "id": "app.channel.get_members_by_ids.app_error",
+    "translation": "Nem sikerült lekérni a csatorna tagokat."
+  },
+  {
+    "id": "app.channel.get_members.app_error",
+    "translation": "Nem sikerült lekérni a csatorna tagokat."
+  },
+  {
+    "id": "app.channel.get_member_count.app_error",
+    "translation": "Nem sikerült lekérni a csatorna tagok számát."
+  },
+  {
+    "id": "app.channel.get_member.missing.app_error",
+    "translation": "Nem található csatorna tag ahhoz a felhasználó azonosítóhoz és csatorna azonosítóhoz."
+  },
+  {
+    "id": "app.channel.get_member.app_error",
+    "translation": "Nem sikerült lekérni a csatorna tagot."
+  },
+  {
+    "id": "app.channel.get_for_post.app_error",
+    "translation": "Nem sikerült lekérni a csatornát a megadott bejegyzéshez."
+  },
+  {
+    "id": "app.channel.get_deleted.missing.app_error",
+    "translation": "Nincsenek törölt csatonák."
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.not_found.app_error",
+    "translation": "Nem található csatorna."
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.app_error",
+    "translation": "Nem sikerült lekérni a csatornákat azonosítók szerint."
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.get.app_error",
+    "translation": "Nem sikerült lekérni a csatornákat."
+  },
+  {
+    "id": "app.channel.get_channels_batch_for_indexing.get.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.channel.get_channels.not_found.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.channel.get_channels.get.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.channel.get_channel_counts.get.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.channel.get_by_scheme.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.channel.get_by_name.missing.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.channel.get_by_name.existing.app_error",
+    "translation": ""
   }
 ]
