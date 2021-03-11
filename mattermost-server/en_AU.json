@@ -8681,5 +8681,81 @@
   {
     "id": "api.team.invite_guests_to_channels.invalid_body.app_error",
     "translation": "Invalid or missing request body."
+  },
+  {
+    "id": "api.user.send_cloud_welcome_email.error",
+    "translation": "Failed to send cloud welcome email"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.title",
+    "translation": "Congratulations - your {{.WorkSpace}} workspace is ready to go!"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subtitle_info",
+    "translation": "Take the following steps to build out your teams and get the most out of your workspace."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subtitle",
+    "translation": "Set up your workspace"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subject",
+    "translation": "Congratulations!"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.start_questions",
+    "translation": "Having questions about getting started? Email us at"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info2",
+    "translation": "for the best experience on PC, Mac, iOS and Android."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info",
+    "translation": "Sign into your workspace on our"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.mm_apps",
+    "translation": "mobile and desktop apps"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.invite_sub_info",
+    "translation": "Share this link to invite your members to join {{.WorkSpace}}:"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.invite_info",
+    "translation": "Invite people to your workspace"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info2",
+    "translation": "Make sure to save or bookmark your link for future use."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info",
+    "translation": "Thanks for creating "
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.download_mm_info",
+    "translation": "Download the Mattermost App"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.button",
+    "translation": "Open Mattermost"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.app_market_place",
+    "translation": "app marketplace."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_sub_info",
+    "translation": "Streamline your work with tools like GitHub, Google Calendar and Chrome. Explore all of the integrations we have on our"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_info",
+    "translation": "Add apps to your workspace"
+  },
+  {
+    "id": "api.cloud.cws_webhook_event_missing_error",
+    "translation": "Webhook event was not handled. Either it is missing or it is not valid."
   }
 ]
