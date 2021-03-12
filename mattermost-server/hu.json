@@ -309,39 +309,39 @@
   },
   {
     "id": "bleveengine.index_user.error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült indexelni a felhasználót."
   },
   {
     "id": "bleveengine.index_post.error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült indexelni a bejegyzést."
   },
   {
     "id": "bleveengine.index_channel.error",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült indexelni a csatornát."
   },
   {
     "id": "bleveengine.delete_user.error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült törölni a felhasználót."
   },
   {
     "id": "bleveengine.delete_post.error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült törölni a bejegyzést."
   },
   {
     "id": "bleveengine.delete_channel.error",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült törölni a csatornát."
   },
   {
     "id": "app.plugin.write_file.saving.app_error",
-    "translation": "Hiba történt a csatorna elhagyásakor."
+    "translation": "Hiba történt a fájl mentésekor."
   },
   {
     "id": "app.plugin.write_file.read.app_error",
-    "translation": "Hiba történt a csatorna elhagyásakor."
+    "translation": "Hiba történt a fájl olvasásakor."
   },
   {
     "id": "app.plugin.remove.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült törölni a plugint."
   },
   {
     "id": "app.plugin.get_plugins.app_error",
@@ -1163,15 +1163,15 @@
   },
   {
     "id": "app.scheme.save.app_error",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült létrehozni a sémát."
   },
   {
     "id": "app.scheme.get.app_error",
-    "translation": "Nem találtuk a csatornát."
+    "translation": "Nem sikerült lekérni a sémát."
   },
   {
     "id": "app.reaction.save.save.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem sikerült elmenteni a reakciót."
   },
   {
     "id": "app.emoji.delete.app_error",
@@ -4416,7 +4416,7 @@
   },
   {
     "id": "app.plugin.extract.app_error",
-    "translation": "Hiba történt a pluging csomagok kicsomagolásakor."
+    "translation": "Hiba történt a plugin csomagok kicsomagolásakor."
   },
   {
     "id": "app.plugin.disabled.app_error",
@@ -5385,5 +5385,953 @@
   {
     "id": "app.channel.get_by_name.existing.app_error",
     "translation": ""
+  },
+  {
+    "id": "bleveengine.indexer.do_job.engine_inactive",
+    "translation": "Nem sikerült futtatni a Bleve index munkát: motor inaktív."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.bulk_index_users.batch_error",
+    "translation": "Nem sikerült indexelni a felhasználó köteget."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.bulk_index_posts.batch_error",
+    "translation": "Nem sikerült indexelni a bejegyzés köteget."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.bulk_index_files.batch_error",
+    "translation": "Nem sikerült indexelni a fájl köteget."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.bulk_index_channels.batch_error",
+    "translation": "Nem sikerült indexelni a csatorna köteget."
+  },
+  {
+    "id": "bleveengine.index_file.error",
+    "translation": "Nem sikerült indexelni a fájlt."
+  },
+  {
+    "id": "bleveengine.delete_user_posts.error",
+    "translation": "Nem sikerült törölni a felhasználó bejegyzéseket"
+  },
+  {
+    "id": "bleveengine.delete_user_files.error",
+    "translation": "Nem sikerült törölni a felhasználó fájlokat."
+  },
+  {
+    "id": "bleveengine.delete_post_files.error",
+    "translation": "Nem sikerült törölni a bejegyzés fájlokat."
+  },
+  {
+    "id": "bleveengine.delete_files_batch.error",
+    "translation": "Nem sikerült törölni a fájokat."
+  },
+  {
+    "id": "bleveengine.delete_file.error",
+    "translation": "Nem sikerült törölni a fájlt."
+  },
+  {
+    "id": "bleveengine.delete_channel_posts.error",
+    "translation": "Nem sikerült törölni a csatorna bejegyzéseket"
+  },
+  {
+    "id": "bleveengine.create_user_index.error",
+    "translation": "Hiba a bleve felhasználó index létrehozásakor."
+  },
+  {
+    "id": "bleveengine.create_post_index.error",
+    "translation": "Hiba a bleve bejegyzés index létrehozásakor."
+  },
+  {
+    "id": "bleveengine.create_file_index.error",
+    "translation": "Hiba a bleve fájl index létrehozásakor."
+  },
+  {
+    "id": "bleveengine.create_channel_index.error",
+    "translation": "Hiba a bleve csatorna index létrehozásakor."
+  },
+  {
+    "id": "bleveengine.already_started.error",
+    "translation": "Bleve már elkezdődött."
+  },
+  {
+    "id": "app.webhooks.update_outgoing.app_error",
+    "translation": "Nem sikerült frissíteni a webhookot."
+  },
+  {
+    "id": "app.webhooks.update_incoming.app_error",
+    "translation": "Nem sikerült frissíteni a IncomingWebhook-ot."
+  },
+  {
+    "id": "app.webhooks.save_outgoing.override.app_error",
+    "translation": "Nem írhat felül egy létező OutgoingWebhook-ot."
+  },
+  {
+    "id": "app.webhooks.save_outgoing.app_error",
+    "translation": "Nem sikerült elmenteni a OutgoingWebhook-ot."
+  },
+  {
+    "id": "app.webhooks.save_incoming.existing.app_error",
+    "translation": "Nem írhat felül egy létező IncomingWebhook-ot."
+  },
+  {
+    "id": "app.webhooks.save_incoming.app_error",
+    "translation": "Nem sikerült menteni az IncomingWebhook-ot."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_user.app_error",
+    "translation": "Nem sikerült törölni a webhookot."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_channel.app_error",
+    "translation": "Nem sikerült törölni a webhookot."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_user.app_error",
+    "translation": "Nem sikerült törölni a webhookot."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_channel.app_error",
+    "translation": "Nem sikerült törölni a webhookot."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_team.app_error",
+    "translation": "Nem sikerült lekérni a webhookokat."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_channel.app_error",
+    "translation": "Nem sikerült lekérni a webhookokat."
+  },
+  {
+    "id": "app.webhooks.get_outgoing.app_error",
+    "translation": "Nem sikerült lekérni a webhookot."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_user.app_error",
+    "translation": "Nem sikerült lekérni a webhookot."
+  },
+  {
+    "id": "app.webhooks.get_incoming.app_error",
+    "translation": "Nem sikerült lekérni a webhookot."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_channel.app_error",
+    "translation": "Nem sikerült lekérni a webhookokat."
+  },
+  {
+    "id": "app.webhooks.delete_outgoing.app_error",
+    "translation": "Nem sikerült törölni a webhookot."
+  },
+  {
+    "id": "app.webhooks.delete_incoming.app_error",
+    "translation": "Nem sikerült törölni a webhookot."
+  },
+  {
+    "id": "app.webhooks.analytics_incoming_count.app_error",
+    "translation": "Nem sikerült megszámolni a bejövő webhookokat."
+  },
+  {
+    "id": "app.webhooks.analytics_outgoing_count.app_error",
+    "translation": "Nem sikerült megszámolni a kimenő webhookokat."
+  },
+  {
+    "id": "app.user_terms_of_service.save.app_error",
+    "translation": "Nem sikerült menteni a felhasználási feltételeket."
+  },
+  {
+    "id": "app.user_terms_of_service.get_by_user.no_rows.app_error",
+    "translation": "Nem találhatóak felhasználási feltételek."
+  },
+  {
+    "id": "app.user_terms_of_service.get_by_user.app_error",
+    "translation": "Nem sikerült letöltenia felhasználási feltételeket."
+  },
+  {
+    "id": "app.user_terms_of_service.delete.app_error",
+    "translation": "Nem sikerült törölni a felhasználási feltételeket."
+  },
+  {
+    "id": "app.user_access_token.update_token_enable.app_error",
+    "translation": "Nem sikerült engedélyezni a hozzáférési tokent."
+  },
+  {
+    "id": "app.user_access_token.update_token_disable.app_error",
+    "translation": "Nem sikerült letiltani a hozzáférési tokent."
+  },
+  {
+    "id": "app.user_access_token.search.app_error",
+    "translation": "Hiba lépett fel a felhasználó hozzáférési token keresésekor."
+  },
+  {
+    "id": "app.user_access_token.save.app_error",
+    "translation": "Nem sikerült menteni a személyes hozzáférési tokent."
+  },
+  {
+    "id": "app.user_access_token.get_by_user.app_error",
+    "translation": "Nem sikerült lekérni a személyes hozzáférési tokeneket felhasználónkként."
+  },
+  {
+    "id": "app.user_access_token.invalid_or_missing",
+    "translation": "Érvénytelen vagy hiányzó token."
+  },
+  {
+    "id": "app.user_access_token.get_all.app_error",
+    "translation": "Nem sikerült lekérni az összes személyes hozzáférési tokent."
+  },
+  {
+    "id": "app.user_access_token.disabled",
+    "translation": "Személyes hozzáférési tokenek le vannak tiltva a szerveren. A részletekért kérjük lépjen kapcsolatba a rendszergazdával."
+  },
+  {
+    "id": "app.user_access_token.delete.app_error",
+    "translation": "Nem sikerült törölni a személyes hozzáférési tokent."
+  },
+  {
+    "id": "app.user.verify_email.app_error",
+    "translation": "Nem sikerült frissíteni az email megerősítés mezőt."
+  },
+  {
+    "id": "app.user.update_update.app_error",
+    "translation": "Nem sikerült frissíteni a felhasználó utolsó frissítésének dátumát."
+  },
+  {
+    "id": "app.user.update_threads_read_for_user.app_error",
+    "translation": "Nem sikerült frissíteni az összes felhasználói szálat olvasottként"
+  },
+  {
+    "id": "app.user.update_thread_follow_for_user.app_error",
+    "translation": "Nem sikerült frissíteni a következő állapotot a szálhoz"
+  },
+  {
+    "id": "app.user.update_thread_read_for_user.app_error",
+    "translation": "Nem sikerült frissíteni az olvasási állapotot a szálhoz"
+  },
+  {
+    "id": "app.user.update_failed_pwd_attempts.app_error",
+    "translation": "Nem sikerült frissíteni a failed_attempts."
+  },
+  {
+    "id": "app.user.update_auth_data.email_exists.app_error",
+    "translation": "Nem sikerült átváltani a fiókot {{.Service}} szolgáltatásra. Egy fiók ami ezt az email címet használja {{.Email}} már létezik."
+  },
+  {
+    "id": "app.user.update_auth_data.app_error",
+    "translation": "Nem sikerült frissíteni a hitelesítő adatot."
+  },
+  {
+    "id": "app.user.update_active_for_multiple_users.updating.app_error",
+    "translation": "Nem sikerült deaktiválni a vendégeket."
+  },
+  {
+    "id": "app.user.update.finding.app_error",
+    "translation": "Hiba lépett fel a fiók megkeresésekor."
+  },
+  {
+    "id": "app.user.update.find.app_error",
+    "translation": "Nem sikerült megkeresni a frissítendő létező fiókot."
+  },
+  {
+    "id": "app.user.send_emails.app_error",
+    "translation": "Egyetlen e-mailt sem sikerült elküldeni"
+  },
+  {
+    "id": "app.user.search.app_error",
+    "translation": "Nem található a keresési paramétereknek megfelelő felhasználó."
+  },
+  {
+    "id": "app.user.save.username_exists.app_error",
+    "translation": "Egy fiók ugyanezzel a felhasználónévvel már létezik."
+  },
+  {
+    "id": "app.user.save.email_exists.app_error",
+    "translation": "Egy fiók ugyanezzel az email címmel már létezik."
+  },
+  {
+    "id": "app.user.save.app_error",
+    "translation": "Nem sikerült elmenteni a fiókot."
+  },
+  {
+    "id": "app.user.promote_guest.user_update.app_error",
+    "translation": "Nem sikerült frissíteni a felhasználót."
+  },
+  {
+    "id": "app.user.permanentdeleteuser.internal_error",
+    "translation": "Nem sikerült törölni a felhasználót."
+  },
+  {
+    "id": "app.user.permanent_delete.app_error",
+    "translation": "Nem sikerült törölni a létező fiókot."
+  },
+  {
+    "id": "app.user.missing_account.const",
+    "translation": "Nem sikerült megtalálni a felhasználót."
+  },
+  {
+    "id": "app.user.get_users_batch_for_indexing.get_users.app_error",
+    "translation": "Nem sikerült lekérni a felhasználók csomagot indexeléshez."
+  },
+  {
+    "id": "app.user.get_unread_count.app_error",
+    "translation": "Nem sikerült lekérni az olvasatlan üzenetek számát a felhasználóhoz."
+  },
+  {
+    "id": "app.user.get_total_users_count.app_error",
+    "translation": "Nem sikerült megszámolni a felhasználókat."
+  },
+  {
+    "id": "app.user.get_threads_for_user.not_found",
+    "translation": "Felhasználó szál nem létezik vagy nincs követve"
+  },
+  {
+    "id": "app.user.get_threads_for_user.app_error",
+    "translation": "Nem sikerült lekérni a felhasználó szálakat"
+  },
+  {
+    "id": "app.user.get_recently_active_users.app_error",
+    "translation": "Hiba lépett fel a nemrég aktív felhasználók keresésekor."
+  },
+  {
+    "id": "app.user.get_profiles.app_error",
+    "translation": "Hiba lépett fel a felhasználói profilok keresésekor."
+  },
+  {
+    "id": "app.user.get_new_users.app_error",
+    "translation": "Hiba lépett fel az új felhasználók keresésekor."
+  },
+  {
+    "id": "app.user.get_profile_by_group_channel_ids_for_user.app_error",
+    "translation": "Hiba lépett fel a felhasználói profilok keresésekor."
+  },
+  {
+    "id": "app.user.get_known_users.get_users.app_error",
+    "translation": "Nem sikerült megismerni a felhasználókat az adatbázisból."
+  },
+  {
+    "id": "app.user.get_by_username.app_error",
+    "translation": "Nem található meglévő fiók ami egyezne a felhasználónévvel ehhez a csapathoz. Ez a csapathoz való csatlakozáshoz meghívó kellhet a csapat tulajdonosától."
+  },
+  {
+    "id": "app.user.get_by_auth.missing_account.app_error",
+    "translation": "Nem található a csapat hitelesítési típusának megfelelő létező fiók. Ez a csapathoz való csatlakozáshoz meghívó kellhet a csapat tulajdonosától."
+  },
+  {
+    "id": "app.user.get_by_auth.other.app_error",
+    "translation": "Hiba lépett fel a fiók hitelesítési típus szerinti keresésekor."
+  },
+  {
+    "id": "app.user.get.app_error",
+    "translation": "Hiba lépett fel a fiók megkeresésekor."
+  },
+  {
+    "id": "app.user.demote_user_to_guest.user_update.app_error",
+    "translation": "Nem sikerült frissíteni a felhasználót."
+  },
+  {
+    "id": "app.user.convert_bot_to_user.app_error",
+    "translation": "Nem sikerült átalakítani a botot felhasználóvá."
+  },
+  {
+    "id": "app.user.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Nem sikerült lekérni a felhasználókat."
+  },
+  {
+    "id": "app.user.analytics_get_inactive_users_count.app_error",
+    "translation": "Nem sikerült megszámolni az inaktív felhasználókat."
+  },
+  {
+    "id": "app.user.analytics_daily_active_users.app_error",
+    "translation": "Nem sikerült lekérni az aktív felhasználókat a kért időtartományban."
+  },
+  {
+    "id": "app.upload.upload_data.update.app_error",
+    "translation": "Nem sikerült frissíteni a feltöltés munkamenetet."
+  },
+  {
+    "id": "app.upload.upload_data.save.app_error",
+    "translation": "Nem sikerült menteni a fájl infót."
+  },
+  {
+    "id": "app.upload.upload_data.read_file.app_error",
+    "translation": "Nem sikerült olvasni a fájlt."
+  },
+  {
+    "id": "app.upload.upload_data.move_file.app_error",
+    "translation": "Nem sikerült áthelyezni a feltöltött fájlt."
+  },
+  {
+    "id": "app.upload.upload_data.large_image.app_error",
+    "translation": "{{.Filename}} méretei ({{.Width}} x {{.Height}} pixel) túllépik a korlátot."
+  },
+  {
+    "id": "app.upload.upload_data.first_part_too_small.app_error",
+    "translation": "Nem sikerült feltölteni adatot. Az első résznek legalább {{.Size}} bájtnak kell lennie."
+  },
+  {
+    "id": "app.upload.upload_data.concurrent.app_error",
+    "translation": "Nem sikerült feltölteni adatot egynél több kérésből."
+  },
+  {
+    "id": "app.upload.run_plugins_hook.rejected",
+    "translation": "Nem sikerült feltölteni a {{.Filename}} fájlt. Elutasítva plugin által: {{.Reason}}"
+  },
+  {
+    "id": "app.upload.run_plugins_hook.move_fail",
+    "translation": "Nem sikerült áthelyezni a fájlt."
+  },
+  {
+    "id": "app.upload.get_for_user.app_error",
+    "translation": "Nem sikerült lekérni a feltöltéseket a felhasználó számára."
+  },
+  {
+    "id": "app.upload.get.app_error",
+    "translation": "Nem sikerült lekérni a feltöltést."
+  },
+  {
+    "id": "app.upload.create.upload_too_large.app_error",
+    "translation": "Nem sikerült feltölteni a fájlt. A fájl túl nagy."
+  },
+  {
+    "id": "app.upload.create.save.app_error",
+    "translation": "Nem sikerült elmenteni a feltöltést."
+  },
+  {
+    "id": "app.upload.create.incorrect_channel_id.app_error",
+    "translation": "Nem lehet feltölteni a megadott csatornára."
+  },
+  {
+    "id": "app.upload.create.cannot_upload_to_deleted_channel.app_error",
+    "translation": "Nem lehet feltölteni egy törölt csatornára."
+  },
+  {
+    "id": "app.update_error",
+    "translation": "frissítés hiba"
+  },
+  {
+    "id": "app.terms_of_service.get.no_rows.app_error",
+    "translation": "Nem találhatóak felhasználási feltételek."
+  },
+  {
+    "id": "app.terms_of_service.get.app_error",
+    "translation": "Nem sikerült letölteni a felhasználási feltételeket."
+  },
+  {
+    "id": "app.terms_of_service.create.app_error",
+    "translation": "Nem sikerült elmenteni a felhasználási feltételeket."
+  },
+  {
+    "id": "app.team.user_belongs_to_teams.app_error",
+    "translation": "Nem sikerült meghatározni, hogy a felhasználó a csapatok listájába tartozik-e."
+  },
+  {
+    "id": "app.team.update.updating.app_error",
+    "translation": "Hiba lépett fel a csapat frissítésekor."
+  },
+  {
+    "id": "app.team.update.find.app_error",
+    "translation": "Nem található a frissítendő létező csapat."
+  },
+  {
+    "id": "app.team.search_private_team.app_error",
+    "translation": "Hiba lépett fel a privát csapatok keresésekor."
+  },
+  {
+    "id": "app.team.search_open_team.app_error",
+    "translation": "Hiba lépett fel a nyitott csapatok keresésekor."
+  },
+  {
+    "id": "app.team.search_all_team.app_error",
+    "translation": "Hiba lépett fel a csapatok keresésekor."
+  },
+  {
+    "id": "app.team.save_member.save.app_error",
+    "translation": "Nem sikerült elmenteni a csapattagot."
+  },
+  {
+    "id": "app.team.save.app_error",
+    "translation": "Nem sikerült elmenteni a csapatot."
+  },
+  {
+    "id": "app.team.reset_all_team_schemes.app_error",
+    "translation": "Nem sikerült visszaállítani a csapat sémákat."
+  },
+  {
+    "id": "app.team.rename_team.name_occupied",
+    "translation": "Nem sikerült átnevezni a csapatot, mert a név már használatban van."
+  },
+  {
+    "id": "app.team.remove_member.app_error",
+    "translation": "Nem sikerült eltávolítani a csapattagot."
+  },
+  {
+    "id": "app.team.permanentdeleteteam.internal_error",
+    "translation": "Nem sikerült törölni a csapatot."
+  },
+  {
+    "id": "app.team.permanent_delete.app_error",
+    "translation": "Nem sikerült törölni a létező csapatot."
+  },
+  {
+    "id": "app.team.migrate_team_members.update.app_error",
+    "translation": "Nem sikerült frissíteni a csapattagot."
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.max_accounts.app_error",
+    "translation": "Nem sikerült új csapat tagságot létrehozni mert a csapat elérte a tagkorlátot"
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.conflict.app_error",
+    "translation": "Nem sikerült új csapat tagságot létrehozni mert már létezik"
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.app_error",
+    "translation": "Nem sikerült új csapat tagságot létrehozni"
+  },
+  {
+    "id": "app.team.join_user_to_team.max_accounts.app_error",
+    "translation": "Ez a csapat elérte a maximálisan engedélyezett fiókok számát. Magasabb korlát beállításához vegye fel a kapcsolatot a rendszergazdával."
+  },
+  {
+    "id": "app.team.invite_token.group_constrained.error",
+    "translation": "Tokennel nem lehet csatlakozni egy csoport által korlátozott csapathoz."
+  },
+  {
+    "id": "app.team.invite_id.group_constrained.error",
+    "translation": "Meghívóval nem lehet csatlakozni egy csoport által korlátozott csapathoz."
+  },
+  {
+    "id": "app.team.get_user_team_ids.app_error",
+    "translation": "Nem sikerült lekérni a felhasználó csapatainak listáját."
+  },
+  {
+    "id": "app.team.get_unread.app_error",
+    "translation": "Nem sikerült lekérni a csapat olvasatlan üzeneteit."
+  },
+  {
+    "id": "app.team.get_members_by_ids.app_error",
+    "translation": "Nem sikerült lekérni a csapattagokat."
+  },
+  {
+    "id": "app.team.get_members.app_error",
+    "translation": "Nem sikerült lekérni a csapattagokat."
+  },
+  {
+    "id": "app.team.get_member_count.app_error",
+    "translation": "Nem sikerült megszámolni a csapattagokat."
+  },
+  {
+    "id": "app.team.get_member.missing.app_error",
+    "translation": "Nem található csapat tag ehhez a felhasználó azonosítóhoz vagy csapat azonosítóhoz."
+  },
+  {
+    "id": "app.team.get_member.app_error",
+    "translation": "Nem sikerült lekérni a csapattagot."
+  },
+  {
+    "id": "app.team.get_by_scheme.app_error",
+    "translation": "Nem sikerült lekérni a csatornákat a megadott sémához."
+  },
+  {
+    "id": "app.team.get_by_name.missing.app_error",
+    "translation": "Nem sikerült megtalálni a létező csapatot."
+  },
+  {
+    "id": "app.team.get_by_name.app_error",
+    "translation": "Nem sikerült megtalálni a létező csapatot."
+  },
+  {
+    "id": "app.team.get_by_invite_id.finding.app_error",
+    "translation": "Nem sikerült megtalálni a létező csapatot."
+  },
+  {
+    "id": "app.team.get_all_team_listing.app_error",
+    "translation": "Nem sikerült lekérni az összes csapatot."
+  },
+  {
+    "id": "app.team.get_all_private_team_page_listing.app_error",
+    "translation": "Nem sikerült lekérni az összes privát csapatot az oldalon."
+  },
+  {
+    "id": "app.team.get_all_private_team_listing.app_error",
+    "translation": "Nem sikerült lekérni az összes privát csapatot."
+  },
+  {
+    "id": "app.team.get_all.app_error",
+    "translation": "Nem sikerült lekérni az összes csapatot."
+  },
+  {
+    "id": "app.team.get_active_member_count.app_error",
+    "translation": "Nem sikerült megszámolni a csapattagokat."
+  },
+  {
+    "id": "app.team.get.finding.app_error",
+    "translation": "Hiba lépett fel a csapat megkeresésekor."
+  },
+  {
+    "id": "app.team.get.find.app_error",
+    "translation": "Nem sikerült megtalálni a létező csapatot."
+  },
+  {
+    "id": "app.team.clear_all_custom_role_assignments.select.app_error",
+    "translation": "Nem sikerült lekérni a csapattagokat."
+  },
+  {
+    "id": "app.team.analytics_team_count.app_error",
+    "translation": "Nem sikerült megszámolni a csapatokat."
+  },
+  {
+    "id": "app.team.analytics_public_team_count.app_error",
+    "translation": "Nem sikerült megszámolni a nyilvános csapatokat."
+  },
+  {
+    "id": "app.team.analytics_private_team_count.app_error",
+    "translation": "Nem sikerült megszámolni a privát csapatokat."
+  },
+  {
+    "id": "app.system_install_date.parse_int.app_error",
+    "translation": "Nem sikerült értelmezni a telepítési dátumot."
+  },
+  {
+    "id": "app.system.warn_metric.store.app_error",
+    "translation": "Nem sikerült tárolni az értéket a következőhöz {{.WarnMetricName}}"
+  },
+  {
+    "id": "app.system.warn_metric.notification.invalid_metric.app_error",
+    "translation": "Nem található mérőszám."
+  },
+  {
+    "id": "app.system.warn_metric.notification.empty_admin_list.app_error",
+    "translation": "Az adminok listája üres."
+  },
+  {
+    "id": "app.system.warn_metric.bot_displayname",
+    "translation": "Mattermost Tanácsadó"
+  },
+  {
+    "id": "app.system.warn_metric.bot_description",
+    "translation": "[További információ a Mattermost Tanácsadóról] (https://about.mattermost.com/default-channel-handle-documentation)"
+  },
+  {
+    "id": "app.system.save.app_error",
+    "translation": "Hiba lépett fel a rendszer tulajdonságok mentése közben."
+  },
+  {
+    "id": "app.system.permanent_delete_by_name.app_error",
+    "translation": "Nem sikerült véglegesen törölni a rendszertábla bejegyzést."
+  },
+  {
+    "id": "app.system.get_by_name.app_error",
+    "translation": "Nem található a rendszerváltozó."
+  },
+  {
+    "id": "app.system.get.app_error",
+    "translation": "Hiba lépett fel a rendszer tulajdonságok megkeresésekor."
+  },
+  {
+    "id": "app.status.get.missing.app_error",
+    "translation": "Nem létezik ehhez az állapothoz bejegyzés."
+  },
+  {
+    "id": "app.status.get.app_error",
+    "translation": "Hiba lépett fel az állapot lekérésekor."
+  },
+  {
+    "id": "app.session.update_device_id.app_error",
+    "translation": "Nem sikerült frissíteni az eszköz azonosítót."
+  },
+  {
+    "id": "app.session.save.existing.app_error",
+    "translation": "Nem sikerült frissíteni a meglévő munkamenetet."
+  },
+  {
+    "id": "app.session.save.app_error",
+    "translation": "Nem sikerült menteni a munkamenetet."
+  },
+  {
+    "id": "app.session.remove_all_sessions_for_team.app_error",
+    "translation": "Nem sikerült eltávolítani az összes munkamenetet."
+  },
+  {
+    "id": "app.session.remove.app_error",
+    "translation": "Nem sikerült eltávolítani a munkamenetet."
+  },
+  {
+    "id": "app.session.permanent_delete_sessions_by_user.app_error",
+    "translation": "Nem sikerült eltávolítani a munkamaneteket a felhasználóhoz."
+  },
+  {
+    "id": "app.session.get_sessions.app_error",
+    "translation": "Hiba lépett fel a felhasználói munkamenetek keresésekor."
+  },
+  {
+    "id": "app.session.get.app_error",
+    "translation": "Hiba lépett fel a munkamenet keresésekor."
+  },
+  {
+    "id": "app.session.analytics_session_count.app_error",
+    "translation": "Nem sikerült megszámolni a munkameneteket."
+  },
+  {
+    "id": "app.select_error",
+    "translation": "kiválasztás hiba"
+  },
+  {
+    "id": "app.schemes.is_phase_2_migration_completed.not_completed.app_error",
+    "translation": "Ez az API végpont nem elérhető mivel a szükséges migrációk még nem lettek befejezve."
+  },
+  {
+    "id": "app.scheme.save.invalid_scheme.app_error",
+    "translation": "A megadott séma érvénytelen."
+  },
+  {
+    "id": "app.scheme.permanent_delete_all.app_error",
+    "translation": "Nem sikerült véglegesen törölni a sémákat."
+  },
+  {
+    "id": "app.scheme.delete.app_error",
+    "translation": "Nem sikerült törölni ezt a sémát."
+  },
+  {
+    "id": "app.save_config.app_error",
+    "translation": "Hiba lépett fel a beállítások mentése közben."
+  },
+  {
+    "id": "app.role.save.invalid_role.app_error",
+    "translation": "A szerep nem volt érvényes."
+  },
+  {
+    "id": "app.role.save.insert.app_error",
+    "translation": "Nem sikerült elmenteni az új szerepet."
+  },
+  {
+    "id": "app.role.permanent_delete_all.app_error",
+    "translation": "Nem sikerült törölni az összes szerepet véglegesen."
+  },
+  {
+    "id": "app.role.get_by_names.app_error",
+    "translation": "Nem sikerült lekérni a szerepeket."
+  },
+  {
+    "id": "app.role.get_by_name.app_error",
+    "translation": "Nem sikerült lekérni a szerepet."
+  },
+  {
+    "id": "app.role.get_all.app_error",
+    "translation": "Nem sikerült lekérni az összes szerepet."
+  },
+  {
+    "id": "app.role.get.app_error",
+    "translation": "Nem sikerült lekérni a szerepet."
+  },
+  {
+    "id": "app.role.check_roles_exist.role_not_found",
+    "translation": "A megadott szerep nem létezik"
+  },
+  {
+    "id": "app.recover.save.app_error",
+    "translation": "Nem sikerült elmenteni a tokent."
+  },
+  {
+    "id": "app.recover.delete.app_error",
+    "translation": "Nem sikerült törölni a tokent."
+  },
+  {
+    "id": "app.reaction.get_for_post.app_error",
+    "translation": "Nem sikerült lekérni a reakciókat a bejegyzéshez."
+  },
+  {
+    "id": "app.reaction.delete_all_with_emoji_name.get_reactions.app_error",
+    "translation": "Nem sikerült lekérni az összes reakciót ezzel az emoji névvel."
+  },
+  {
+    "id": "app.reaction.bulk_get_for_post_ids.app_error",
+    "translation": "Nem sikerült lekérni a reakciókat a bejegyzéshez."
+  },
+  {
+    "id": "app.preference.save.updating.app_error",
+    "translation": "Hiba merült fel a beállítások frissítése közben."
+  },
+  {
+    "id": "app.preference.permanent_delete_by_user.app_error",
+    "translation": "Hiba merült fel a beállítások törlése közben."
+  },
+  {
+    "id": "app.preference.get_category.app_error",
+    "translation": "Hiba merült fel a beállítások keresése közben."
+  },
+  {
+    "id": "app.preference.get_all.app_error",
+    "translation": "Hiba merült fel a beállítások keresése közben."
+  },
+  {
+    "id": "app.preference.get.app_error",
+    "translation": "Hiba merült fel a beállítások keresése közben."
+  },
+  {
+    "id": "app.preference.delete.app_error",
+    "translation": "Hiba merült fel a beállítások törlése közben."
+  },
+  {
+    "id": "app.post.search.app_error",
+    "translation": "Hiba a bejegyzések keresésekor"
+  },
+  {
+    "id": "app.post.update.app_error",
+    "translation": "Nem sikerült frissíteni a bejegyzést."
+  },
+  {
+    "id": "app.post.save.existing.app_error",
+    "translation": "Nem sikerült frissíteni a bejegyzést."
+  },
+  {
+    "id": "app.post.save.app_error",
+    "translation": "Nem sikerült elmenteni a bejegyzést."
+  },
+  {
+    "id": "app.post.permanent_delete_by_user.app_error",
+    "translation": "Nem sikerült kiválasztani a törlendő bejegyzéseket a felhasználóhoz."
+  },
+  {
+    "id": "app.post.permanent_delete_by_channel.app_error",
+    "translation": "Nem sikerült törölni a bejegyzéseket csatonánként."
+  },
+  {
+    "id": "app.post.overwrite.app_error",
+    "translation": "Nem sikerölt felülírni a bejegyzést."
+  },
+  {
+    "id": "app.post.get_root_posts.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzést a csatornához."
+  },
+  {
+    "id": "app.post.get_posts_since.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzéseket a csatornához."
+  },
+  {
+    "id": "app.post.get_posts_created_at.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzést a csatornához."
+  },
+  {
+    "id": "app.post.get_posts_batch_for_indexing.get.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzéscsomagot indexeléshez."
+  },
+  {
+    "id": "app.post.get_posts_around.get.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzéseket a csatornához."
+  },
+  {
+    "id": "app.post.get_posts.app_error",
+    "translation": "Túllépte a lapozás korlátját."
+  },
+  {
+    "id": "app.post.get_post_after_time.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.post.get_flagged_posts.app_error",
+    "translation": "Nem sikerült lekérni a megjelölt bejegyzéseket."
+  },
+  {
+    "id": "app.post.get_files_batch_for_indexing.get.app_error",
+    "translation": "Nem sikerült lekérni a fájlcsomagot indexeléshez."
+  },
+  {
+    "id": "app.post.get_direct_posts.app_error",
+    "translation": "Nem sikerült lekérni a közvetlen bejegyzéseket."
+  },
+  {
+    "id": "app.post.get.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzést."
+  },
+  {
+    "id": "app.post.delete.app_error",
+    "translation": "Nem sikerült törölni a bejegyzést."
+  },
+  {
+    "id": "app.post.analytics_user_counts_posts_by_day.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzésekkel rendelkező felhasználók számát."
+  },
+  {
+    "id": "app.post.analytics_posts_count_by_day.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzések számát naponként."
+  },
+  {
+    "id": "app.post.analytics_posts_count.app_error",
+    "translation": "Nem sikerült lekérni a bejegyzések számát."
+  },
+  {
+    "id": "app.plugin_store.save.app_error",
+    "translation": "Nem sikerült menteni vagy frissíteni a plugin kulcs értéket."
+  },
+  {
+    "id": "app.plugin_store.list.app_error",
+    "translation": "Nem sikerült listázni az összes plugin kulcsot."
+  },
+  {
+    "id": "app.plugin_store.get.app_error",
+    "translation": "Nem sikerült lekérni a plugin kulcs értéket."
+  },
+  {
+    "id": "app.plugin_store.delete.app_error",
+    "translation": "Nem sikerült törölni a plugin kulcs értéket."
+  },
+  {
+    "id": "app.plugin.webapp_bundle.app_error",
+    "translation": "Nem sikerült generálni plugin webapp csomagot."
+  },
+  {
+    "id": "app.plugin.upload_disabled.app_error",
+    "translation": "A pluginok és/vagy plugin feltöltések le lettek tiltva."
+  },
+  {
+    "id": "app.plugin.sync.read_local_folder.app_error",
+    "translation": "Hiba történt a helyi plugin könyvtár olvasása közben."
+  },
+  {
+    "id": "app.plugin.sync.list_filestore.app_error",
+    "translation": "Hiba történt a fájlok plugin mappából olvasása közben a fájltárban."
+  },
+  {
+    "id": "app.plugin.store_signature.app_error",
+    "translation": "Nme sikerült tárolni a plugin aláírást a beállított fájltárba."
+  },
+  {
+    "id": "app.plugin.store_bundle.app_error",
+    "translation": "Nme sikerült tárolni a plugint a beállított fájltárba."
+  },
+  {
+    "id": "app.plugin.signature_decode.app_error",
+    "translation": "Nem sikerült dekódolni a base64 aláírást."
+  },
+  {
+    "id": "app.plugin.restart.app_error",
+    "translation": "Nem sikerült újraindítani a plugint a frissítésnél."
+  },
+  {
+    "id": "app.plugin.remove_bundle.app_error",
+    "translation": "Nem sikerült eltávolítani a plugin csomagot a fájltárból."
+  },
+  {
+    "id": "app.plugin.not_installed.app_error",
+    "translation": "Plugin nincs telepítve."
+  },
+  {
+    "id": "app.plugin.mvdir.app_error",
+    "translation": "Nem lehet áthelyezni a plugint az átmeneti könyvtárból a cél helyre. Talán egy másik plugin használja ugyanazt a könyvtárt."
+  },
+  {
+    "id": "app.plugin.modify_saml.app_error",
+    "translation": "Nem lehet módosítani a saml fájlokat."
+  },
+  {
+    "id": "app.plugin.marketplace_plugins.signature_not_found.app_error",
+    "translation": "Nem található a kért piactér plugin aláírás."
+  },
+  {
+    "id": "app.plugin.marketplace_plugins.not_found.app_error",
+    "translation": "Nem található a kért piactér plugin."
+  },
+  {
+    "id": "app.plugin.marketplace_plugin_request.app_error",
+    "translation": "Nem sikerült dekódolni a piactér plugin kérelmet."
   }
 ]
