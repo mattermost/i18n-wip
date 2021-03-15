@@ -2052,10 +2052,6 @@
     "translation": "Neveljavna vrednost za varnost povezave do spletnega strežnika."
   },
   {
-    "id": "model.config.is_valid.tls_key_file.app_error",
-    "translation": "Neveljavna vrednost za datoteko TLS s ključem - Uporabite LetsEncrypt ali nastavite pot do obstoječe datoteke s ključem"
-  },
-  {
     "id": "model.config.is_valid.tls_cert_file.app_error",
     "translation": "Neveljavna vrednost za datoteko certifikata TLS - Uporabite LetsEncrypt ali nastavite pot do obstoječe datoteke certifikata"
   },

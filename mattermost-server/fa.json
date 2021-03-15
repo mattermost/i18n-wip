@@ -6839,10 +6839,6 @@
     "translation": "زمان بین به روزرسانی های تایپ کاربر نباید کمتر از 1000 میلی ثانیه تنظیم شود."
   },
   {
-    "id": "model.config.is_valid.tls_cert_file.app_error",
-    "translation": "مقدار نامعتبر برای پرونده گواهی TLS - یا از LetsEncrypt استفاده کنید یا مسیر پرونده گواهی موجود را تنظیم کنید."
-  },
-  {
     "id": "model.config.is_valid.tls_key_file.app_error",
     "translation": "مقدار نامعتبر برای پرونده کلید TLS - یا از LetsEncrypt استفاده کنید یا مسیر پرونده اصلی را تنظیم کنید."
   },

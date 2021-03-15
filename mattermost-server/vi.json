@@ -1852,10 +1852,6 @@
     "translation": "Giá trị không hợp lệ được truyền cho mật mã ghi đè TLS - Vui lòng tham khảo tài liệu để biết giá trị hợp lệ"
   },
   {
-    "id": "model.config.is_valid.tls_key_file.app_error",
-    "translation": "Giá trị không hợp lệ cho tệp khóa TLS - Sử dụng LetsEncrypt hoặc đặt đường dẫn đến tệp khóa hiện có"
-  },
-  {
     "id": "model.config.is_valid.tls_cert_file.app_error",
     "translation": "Giá trị không hợp lệ cho tệp chứng chỉ TLS - Sử dụng LetsEncrypt hoặc đặt đường dẫn đến tệp chứng chỉ hiện có"
   },
