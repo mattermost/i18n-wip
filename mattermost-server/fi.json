@@ -2004,10 +2004,6 @@
     "translation": "Virheellinen arvo TLS ylikirjoitus cipherille - Lue dokumentaatiosta sallitut arvot"
   },
   {
-    "id": "model.config.is_valid.tls_cert_file.app_error",
-    "translation": "Virheellinen arvo TLS-sertifikaattitiedostoksi - Käytä joko LetsEncryptiä tai aseta olemassaolevan sertifikaattitiedoston polku"
-  },
-  {
     "id": "model.config.is_valid.time_between_user_typing.app_error",
     "translation": "Käyttäjän kirjoittamispäivitysten väli pitäisi olla vähintään 1000 millisekuntia."
   },

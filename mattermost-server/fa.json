@@ -6839,10 +6839,6 @@
     "translation": "زمان بین به روزرسانی های تایپ کاربر نباید کمتر از 1000 میلی ثانیه تنظیم شود."
   },
   {
-    "id": "model.config.is_valid.tls_key_file.app_error",
-    "translation": "مقدار نامعتبر برای پرونده کلید TLS - یا از LetsEncrypt استفاده کنید یا مسیر پرونده اصلی را تنظیم کنید."
-  },
-  {
     "id": "model.config.is_valid.tls_overwrite_cipher.app_error",
     "translation": "مقدار نامعتبر برای رمزگذاری مجدد TLS تصویب شده است - لطفاً به اسناد مربوط به مقادیر معتبر مراجعه کنید."
   },
