@@ -1,7 +1,7 @@
 [
   {
     "id": "web.incoming_webhook.user.app_error",
-    "translation": "Nem találtuk a felhasználót"
+    "translation": "Nem találtuk a felhasználót."
   },
   {
     "id": "web.incoming_webhook.disabled.app_error",
@@ -9,11 +9,11 @@
   },
   {
     "id": "web.incoming_webhook.channel.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem találtuk a csatornát."
   },
   {
     "id": "web.command_webhook.command.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem találtuk a parancsot."
   },
   {
     "id": "system.message.name",
@@ -21,127 +21,127 @@
   },
   {
     "id": "model.token.is_valid.size",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen token."
   },
   {
     "id": "model.team_member.is_valid.user_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználó azonosító."
   },
   {
     "id": "model.team.is_valid.type.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen típus."
   },
   {
     "id": "model.team.is_valid.name.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen név."
   },
   {
     "id": "model.reaction.is_valid.user_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználó azonosító."
   },
   {
     "id": "model.reaction.is_valid.post_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen bejegyzés azonosító."
   },
   {
     "id": "model.reaction.is_valid.emoji_name.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen emoji név."
   },
   {
     "id": "model.preference.is_valid.theme.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen téma."
   },
   {
     "id": "model.preference.is_valid.name.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen név."
   },
   {
     "id": "model.preference.is_valid.id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználó azonosító."
   },
   {
     "id": "model.post.is_valid.user_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználó azonosító."
   },
   {
     "id": "model.post.is_valid.type.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen típus."
   },
   {
     "id": "model.post.is_valid.root_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen gyökér azonosító."
   },
   {
     "id": "model.post.is_valid.props.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen tulajdonságok."
   },
   {
     "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen szülő azonosító."
   },
   {
     "id": "model.post.is_valid.msg.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen üzenet."
   },
   {
     "id": "model.post.is_valid.filenames.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen fájlnevek."
   },
   {
     "id": "model.outgoing_hook.username.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználónév."
   },
   {
     "id": "model.outgoing_hook.is_valid.user_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználó azonosító."
   },
   {
     "id": "model.outgoing_hook.is_valid.token.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen token."
   },
   {
     "id": "model.outgoing_hook.is_valid.display_name.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen cím."
   },
   {
     "id": "model.outgoing_hook.icon_url.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen ikon."
   },
   {
     "id": "model.oauth.is_valid.name.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen név."
   },
   {
     "id": "model.oauth.is_valid.app_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen alkalmazás azonosító."
   },
   {
     "id": "model.job.is_valid.type.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen munka típus."
   },
   {
     "id": "model.job.is_valid.id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen munka azonosító."
   },
   {
     "id": "model.incoming_hook.username.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználónév."
   },
   {
     "id": "model.incoming_hook.user_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználó azonosító."
   },
   {
     "id": "model.incoming_hook.icon_url.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen bejegyzés ikon."
   },
   {
     "id": "model.incoming_hook.display_name.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen cím."
   },
   {
     "id": "model.emoji.id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen emoji azonosító."
   },
   {
     "id": "model.command_hook.user_id.app_error",
@@ -517,7 +517,7 @@
   },
   {
     "id": "api.user.upload_profile_user.encode.app_error",
-    "translation": "Nem sikerült kódolni a profilképet"
+    "translation": "Nem sikerült kódolni a profilképet."
   },
   {
     "id": "api.user.upload_profile_user.decode.app_error",
@@ -561,7 +561,7 @@
   },
   {
     "id": "api.user.create_user.guest_accounts.license.app_error",
-    "translation": "Az Ön licence nem támogatja a vendég fiókokat"
+    "translation": "Az Ön licence nem támogatja a vendég fiókokat."
   },
   {
     "id": "api.user.create_profile_image.encode.app_error",
@@ -1191,7 +1191,7 @@
   },
   {
     "id": "store.sql_channel.get.existing.app_error",
-    "translation": "Nem találtuk a csatornát"
+    "translation": "Nem találtuk a meglévő csatornát."
   },
   {
     "id": "plugin_api.get_file_link.no_post.app_error",
@@ -1199,27 +1199,27 @@
   },
   {
     "id": "plugin_api.get_file_link.disabled.app_error",
-    "translation": "Publikus linkek tiltottak"
+    "translation": "Publikus linkek le vannak tiltva."
   },
   {
     "id": "model.user_access_token.is_valid.user_id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználó azonosító."
   },
   {
     "id": "model.user.is_valid.nickname.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen becenév."
   },
   {
     "id": "model.user.is_valid.last_name.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen vezetéknév."
   },
   {
     "id": "model.user.is_valid.id.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen felhasználó azonosító."
   },
   {
     "id": "model.user.is_valid.first_name.app_error",
-    "translation": "Érvénytelen felhasználói azonosító"
+    "translation": "Érvénytelen keresztnév."
   },
   {
     "id": "api.command_remove.hint",
@@ -2697,7 +2697,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "A Mattermost rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik  az új fiókok kiépítése időigényessé válhat. Javasoljuk, hogy integrálja szervezete Active Directory / LDAP-ját, amely lehetővé teszi, hogy bárki hozzáférjen a Mattermost-hez.\n\n[További információ az AD / LDAP integrációjáról] (https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Kapcsolatfelvétel gombra kattintva megoszthatja adatait a Mattermost, Inc.-vel. [További információ] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A Mattermost rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok kiépítése időigényessé válhat. Javasoljuk, hogy integrálja szervezete Active Directory / LDAP-ját, amely lehetővé teszi, hogy bárki hozzáférjen a Mattermost-hez.\n\n[További információ az AD / LDAP integrációjáról] (https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Kapcsolatfelvétel gombra kattintva megoszthatja adatait a Mattermost, Inc.-vel. [További információ] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
@@ -3152,7 +3152,7 @@
   },
   {
     "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "Nem sikerült elküldeni a jelszó változtatás emailt."
+    "translation": "Nem sikerült elküldeni a jelszó változtatás emailt"
   },
   {
     "id": "api.user.send_mfa_change_email.error",
@@ -3608,7 +3608,7 @@
   },
   {
     "id": "api.templates.password_change_body.info",
-    "translation": "Jelszava frissítésre került {{.TeamDisplayName}} a {{ .TeamURL }} csapatban {{.Method}} által"
+    "translation": "Jelszava frissítésre került {{.TeamDisplayName}} a {{ .TeamURL }} csapatban {{.Method}} által."
   },
   {
     "id": "api.templates.over_limit_title",
@@ -3752,7 +3752,7 @@
   },
   {
     "id": "api.templates.invite_body.title",
-    "translation": "Önt meghívták"
+    "translation": "{{.SenderName}} meghívta Önt, hogy csatlakozzon a {{.TeamDisplayName}} csapathoz."
   },
   {
     "id": "api.templates.invite_body.button",
@@ -3824,7 +3824,7 @@
   },
   {
     "id": "api.templates.deactivate_body.title",
-    "translation": "Fiókját deaktiválták a {{ .ServerURL }} oldalon."
+    "translation": "Fiókját deaktiválták a {{ .ServerURL }} oldalon"
   },
   {
     "id": "api.templates.deactivate_body.info",
@@ -3900,7 +3900,7 @@
   },
   {
     "id": "api.team.move_channel.success",
-    "translation": "Ezt a csatornát áthelyezték ebbe a csapatba innen %v"
+    "translation": "Ezt a csatornát áthelyezték ebbe a csapatba innen %v."
   },
   {
     "id": "api.team.leave.left",
@@ -4920,7 +4920,7 @@
   },
   {
     "id": "app.import.import_user_teams.save_members.conflict.app_error",
-    "translation": "Nem sikerült importálni az új csapat tagságot mert már létezik."
+    "translation": "Nem sikerült importálni az új csapat tagságot mert már létezik"
   },
   {
     "id": "app.import.import_user_channels.save_preferences.error",
@@ -4956,7 +4956,7 @@
   },
   {
     "id": "app.import.import_line.null_channel.error",
-    "translation": ""
+    "translation": "Az import adat sor típusa \"channel\" de a csatorna objektum null."
   },
   {
     "id": "app.import.import_direct_post.create_group_channel.error",
@@ -5064,7 +5064,7 @@
   },
   {
     "id": "app.export.export_write_line.json_marshall.error",
-    "translation": ""
+    "translation": "Hiba történt a JSON-adatok exportra rendezése során."
   },
   {
     "id": "app.export.export_write_line.io_writer.error",
@@ -5360,31 +5360,31 @@
   },
   {
     "id": "app.channel.get_channels_batch_for_indexing.get.app_error",
-    "translation": ""
+    "translation": "Nem sikerült lekérni a csatornákat kötegelt indexeléséhez."
   },
   {
     "id": "app.channel.get_channels.not_found.app_error",
-    "translation": ""
+    "translation": "Nem találhatóak csatornák."
   },
   {
     "id": "app.channel.get_channels.get.app_error",
-    "translation": ""
+    "translation": "Nem sikerült lekérni a csatornákat."
   },
   {
     "id": "app.channel.get_channel_counts.get.app_error",
-    "translation": ""
+    "translation": "Nem sikerült lekérni az csatorna számokat."
   },
   {
     "id": "app.channel.get_by_scheme.app_error",
-    "translation": ""
+    "translation": "Nem sikerült lekérni a csatornákat a megadott sémához."
   },
   {
     "id": "app.channel.get_by_name.missing.app_error",
-    "translation": ""
+    "translation": "Csatorna nem létezik."
   },
   {
     "id": "app.channel.get_by_name.existing.app_error",
-    "translation": ""
+    "translation": "Nem sikerült megtalálni a létező csatornát."
   },
   {
     "id": "bleveengine.indexer.do_job.engine_inactive",
@@ -6224,7 +6224,7 @@
   },
   {
     "id": "app.post.get_post_after_time.app_error",
-    "translation": ""
+    "translation": "Nem sikerült lekérni az időhöz kötött bejegyzést."
   },
   {
     "id": "app.post.get_flagged_posts.app_error",
@@ -6756,7 +6756,7 @@
   },
   {
     "id": "ent.cluster.404.app_error",
-    "translation": ""
+    "translation": "A fürt API végpont nem található."
   },
   {
     "id": "ent.cloud.subscription.error",
@@ -7365,5 +7365,493 @@
   {
     "id": "ent.message_export.global_relay_export.deliver.unable_to_connect_smtp_server.app_error",
     "translation": "Nem sikerült kapcsolódni az smtp szerverhez"
+  },
+  {
+    "id": "model.link_metadata.is_valid.url.app_error",
+    "translation": "A Link metaadat URL-t be kell állítani."
+  },
+  {
+    "id": "model.link_metadata.is_valid.type.app_error",
+    "translation": "Érvénytelen link metaadat típus."
+  },
+  {
+    "id": "model.link_metadata.is_valid.timestamp.app_error",
+    "translation": "A link metaadat időbélyeg nem lehet nulla, és a legközelebbi órára kell kerekíteni."
+  },
+  {
+    "id": "model.link_metadata.is_valid.data_type.app_error",
+    "translation": "A link metaadat adatai nem egyeznek a megadott típussal."
+  },
+  {
+    "id": "model.link_metadata.is_valid.data.app_error",
+    "translation": "A link metaadat adatai nem lehet nil."
+  },
+  {
+    "id": "model.license_record.is_valid.id.app_error",
+    "translation": "Érvénytelen érték az azonosítóhoz egy licence feltöltésekor."
+  },
+  {
+    "id": "model.license_record.is_valid.create_at.app_error",
+    "translation": "Érvénytelen érték a create_at -hez egy licence feltöltésekor."
+  },
+  {
+    "id": "model.job.is_valid.status.app_error",
+    "translation": "Érvénytelen munka állapot."
+  },
+  {
+    "id": "model.job.is_valid.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.incoming_hook.update_at.app_error",
+    "translation": "A frissítés idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.incoming_hook.team_id.app_error",
+    "translation": "Érvénytelen csapat azonosító."
+  },
+  {
+    "id": "model.incoming_hook.parse_data.app_error",
+    "translation": "Nem lehet elemezni a bejövő adatokat."
+  },
+  {
+    "id": "model.incoming_hook.id.app_error",
+    "translation": "Érvénytelen azonosító."
+  },
+  {
+    "id": "model.incoming_hook.description.app_error",
+    "translation": "Érvénytelen leírás."
+  },
+  {
+    "id": "model.incoming_hook.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.incoming_hook.channel_id.app_error",
+    "translation": "Érvénytelen csatorna azonosító."
+  },
+  {
+    "id": "model.guest.is_valid.emails.app_error",
+    "translation": "Érvénytelen emailek."
+  },
+  {
+    "id": "model.guest.is_valid.email.app_error",
+    "translation": "Érvénytelen email."
+  },
+  {
+    "id": "model.guest.is_valid.channels.app_error",
+    "translation": "Érvénytelen csatornák."
+  },
+  {
+    "id": "model.group_syncable.group_id.app_error",
+    "translation": "érvénytelen csoport azonosító a csoport szinkronizálhatóhoz."
+  },
+  {
+    "id": "model.group_syncable.syncable_id.app_error",
+    "translation": "érvénytelen szinkronizálható azonosító a csoport szinkronizálhatóhoz."
+  },
+  {
+    "id": "model.guest.is_valid.channel.app_error",
+    "translation": "Érvénytelen csatorna."
+  },
+  {
+    "id": "model.group_member.user_id.app_error",
+    "translation": "érvénytelen felhasználó azonosító tulajdonság a csoporthoz."
+  },
+  {
+    "id": "model.group_member.group_id.app_error",
+    "translation": "érvénytelen csoport azonosító tulajdonság a csoporthoz."
+  },
+  {
+    "id": "model.group.update_at.app_error",
+    "translation": "érvénytelen frissítés idő tulajdonság a csoporthoz."
+  },
+  {
+    "id": "model.group.source.app_error",
+    "translation": "érvénytelen forrás tulajdonság a csoporthoz."
+  },
+  {
+    "id": "model.group.remote_id.app_error",
+    "translation": "érvénytelen távoli azonosító tulajdonság a csoporthoz."
+  },
+  {
+    "id": "model.group.name.invalid_length.app_error",
+    "translation": "A névnek 1–64 kisbetűs alfanumerikus karakterből kell állnia."
+  },
+  {
+    "id": "model.group.name.invalid_chars.app_error",
+    "translation": "Érvénytelen karakterek a név tulajdonságban a csoportnál"
+  },
+  {
+    "id": "model.group.create_at.app_error",
+    "translation": "Érvénytelen létrehozás ideje a csoportnál."
+  },
+  {
+    "id": "model.group.description.app_error",
+    "translation": "Érvénytelen létrehozás ideje tulajdonságban a csoportnál."
+  },
+  {
+    "id": "model.group.display_name.app_error",
+    "translation": "Érvénytelen megjelenítési név tulajdonságban a csoportnál."
+  },
+  {
+    "id": "model.group.name.app_error",
+    "translation": "Érvénytelen név tulajdonságban a csoportnál."
+  },
+  {
+    "id": "model.file_info.is_valid.user_id.app_error",
+    "translation": "Érvénytelen érték user_id."
+  },
+  {
+    "id": "model.file_info.is_valid.update_at.app_error",
+    "translation": "Érvénytelen érték update_at."
+  },
+  {
+    "id": "model.file_info.is_valid.post_id.app_error",
+    "translation": "Érvénytelen érték post_id."
+  },
+  {
+    "id": "model.file_info.is_valid.path.app_error",
+    "translation": "Érvénytelen érték path."
+  },
+  {
+    "id": "model.file_info.is_valid.id.app_error",
+    "translation": "Érvénytelen érték id."
+  },
+  {
+    "id": "model.file_info.is_valid.create_at.app_error",
+    "translation": "Érvénytelen érték create_at."
+  },
+  {
+    "id": "model.file_info.get.gif.app_error",
+    "translation": "Nem sikerült dekódolni a gif-et."
+  },
+  {
+    "id": "model.emoji.user_id.app_error",
+    "translation": "Érvénytelen létrehozó azonosító."
+  },
+  {
+    "id": "model.emoji.update_at.app_error",
+    "translation": "A frissítés idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.emoji.name.app_error",
+    "translation": "A névnek 1–64 kisbetűs alfanumerikus karakterből kell állnia."
+  },
+  {
+    "id": "model.emoji.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.write_timeout.app_error",
+    "translation": "Érvénytelen érték az írási időtúllépésnél."
+  },
+  {
+    "id": "model.config.is_valid.websocket_url.app_error",
+    "translation": "A Websocket URL-nek érvényes URL-nek kell lennie, és a ws: // vagy wss: // kell kezdődnie."
+  },
+  {
+    "id": "model.config.is_valid.webserver_security.app_error",
+    "translation": "Érvénytelen érték a webszerver kapcsolat biztonságnál."
+  },
+  {
+    "id": "model.config.is_valid.tls_overwrite_cipher.app_error",
+    "translation": "A TLS felülírási titkosítása érvénytelen értéket kapott - Az érvényes értékeket a dokumentációban találja meg."
+  },
+  {
+    "id": "model.config.is_valid.tls_key_file_missing.app_error",
+    "translation": "Érvénytelen érték a TLS kulcs fájlnál - Használja a LetsEncrypt parancsot, vagy állítsa be a meglévő kulcs fájl elérési útját."
+  },
+  {
+    "id": "model.config.is_valid.tls_cert_file_missing.app_error",
+    "translation": "Érvénytelen érték a TLS tanúsítványfájlnál - Használja a LetsEncrypt parancsot, vagy állítsa be a meglévő tanúsítványfájl elérési útját."
+  },
+  {
+    "id": "model.config.is_valid.time_between_user_typing.app_error",
+    "translation": "A felhasználói gépelési frissítések közötti időt nem szabad 1000 ezredmásodpercnél rövidebbre állítani."
+  },
+  {
+    "id": "model.config.is_valid.teammate_name_display.app_error",
+    "translation": "Érvénytelen csapattárs megjelenítés. 'full_name', 'nickname_full_name' vagy 'username' kell legyen."
+  },
+  {
+    "id": "model.config.is_valid.sql_query_timeout.app_error",
+    "translation": "Érvénytelen lekérdezési időtúllépés az SQL-beállításokban. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.sql_max_conn.app_error",
+    "translation": "Érvénytelen maximális nyitott kapcsolat az SQL-beállításokban. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.sql_idle.app_error",
+    "translation": "Érvénytelen maximális üresjárat kapcsolat az SQL-beállításokban. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.sql_driver.app_error",
+    "translation": "Érvénytelen driver név az SQL-beállításokban. 'mysql vagy 'postgres' kell legyen."
+  },
+  {
+    "id": "model.config.is_valid.sql_data_src.app_error",
+    "translation": "Érvénytelen adatforrás az SQL-beállításokban. Be kell állítani."
+  },
+  {
+    "id": "model.config.is_valid.sql_conn_max_idle_time_milliseconds.app_error",
+    "translation": "Érvénytelen a kapcsolat maximális üresjárati ideje az SQL-beállításokban. Nem negatív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.sql_conn_max_lifetime_milliseconds.app_error",
+    "translation": "Érvénytelen a kapcsolat maximális élettartama az SQL-beállításokban. Nem negatív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.sitename_length.app_error",
+    "translation": "A webhely neve legfeljebb {{.MaxLength}} karakter lehet."
+  },
+  {
+    "id": "model.config.is_valid.site_url_email_batching.app_error",
+    "translation": "Nem lehet engedélyezni az e-mailek kötegelését, ha a SiteURL nincs beállítva."
+  },
+  {
+    "id": "model.config.is_valid.site_url.app_error",
+    "translation": "A webhely URL-jének érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
+  },
+  {
+    "id": "model.config.is_valid.saml_username_attribute.app_error",
+    "translation": "Érvénytelen felhasználónév attribútum. Be kell állítani."
+  },
+  {
+    "id": "model.config.is_valid.saml_spidentifier_attribute.app_error",
+    "translation": "Szolgáltató azonosító szükséges"
+  },
+  {
+    "id": "model.config.is_valid.saml_signature_algorithm.app_error",
+    "translation": "Érvénytelen aláírás algoritmus."
+  },
+  {
+    "id": "model.config.is_valid.saml_public_cert.app_error",
+    "translation": "Hiányzik a szolgáltató nyilvános tanúsítványa. Elfelejtette feltölteni?"
+  },
+  {
+    "id": "model.config.is_valid.saml_private_key.app_error",
+    "translation": "Hiányzik a szolgáltató privát kulcsa. Elfelejtette feltölteni?"
+  },
+  {
+    "id": "model.config.is_valid.saml_idp_url.app_error",
+    "translation": "A SAML SSO URL-nek érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
+  },
+  {
+    "id": "model.config.is_valid.saml_idp_descriptor_url.app_error",
+    "translation": "Az identitásszolgáltató kibocsátó URL-jének érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
+  },
+  {
+    "id": "model.config.is_valid.saml_idp_cert.app_error",
+    "translation": "Hiányzik a személyazonosság-szolgáltató nyilvános tanúsítványa. Elfelejtette feltölteni?"
+  },
+  {
+    "id": "model.config.is_valid.saml_guest_attribute.app_error",
+    "translation": "Érvénytelen vendég attribútum. Ebben a formátumban kell lennie 'field=value'."
+  },
+  {
+    "id": "model.config.is_valid.read_timeout.app_error",
+    "translation": "Érvénytelen érték az olvasási időtúllépéshez."
+  },
+  {
+    "id": "model.config.is_valid.saml_email_attribute.app_error",
+    "translation": "Érvénytelen e-mail attribútum. Be kell állítani."
+  },
+  {
+    "id": "model.config.is_valid.saml_canonical_algorithm.app_error",
+    "translation": "Érvénytelen kanonikus algoritmus."
+  },
+  {
+    "id": "model.config.is_valid.saml_assertion_consumer_service_url.app_error",
+    "translation": "A szolgáltató bejelentkezési URL-jének érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
+  },
+  {
+    "id": "model.config.is_valid.saml_admin_attribute.app_error",
+    "translation": "Érvénytelen admin attribútum. Ebben a formátumban kell lennie 'field=value'."
+  },
+  {
+    "id": "model.config.is_valid.restrict_direct_message.app_error",
+    "translation": "Érvénytelen érték az olvasás időtúllépéshez."
+  },
+  {
+    "id": "model.config.is_valid.rate_sec.app_error",
+    "translation": "Érvénytelen másodpercenkénti sebességkorlátozás beállítás. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.rate_mem.app_error",
+    "translation": "Érvénytelen memóriatár méret a sebességkorlátozás beállításaihoz. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.password_length.app_error",
+    "translation": "A jelszó minimális hosszának olyan egész számnak kell lennie, amely nagyobb vagy egyenlő, mint {{.MinLength}}, és kisebb vagy egyenlő, mint {{.MaxLength}}."
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.smtp_username.app_error",
+    "translation": "Üzenet exportálási munka GlobalRelaySettings.SmtpUsername be kell beállítani."
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.smtp_password.app_error",
+    "translation": "Üzenet exportálási munka GlobalRelaySettings.SmtpPassword be kell beállítani."
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.email_address.app_error",
+    "translation": "Üzenet exportálási munka GlobalRelaySettings.EmailAddress-t érvényes e-mail címre kell beállítani."
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.customer_type.app_error",
+    "translation": "Üzenetexportálás GlobalRelaySettings.CustomerType értékét \"A9” vagy \"A10”-re kell állítani."
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.config_missing.app_error",
+    "translation": "Üzenet exportálási munka ExportFormat beállítása \"globalrelay”, de a GlobalRelaySettings hiányzik."
+  },
+  {
+    "id": "model.config.is_valid.message_export.export_type.app_error",
+    "translation": "Üzenet-exportálási munka ExportFormatnak az \"actiance”, \"csv” vagy \"globalrelay” egyikének kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.message_export.export_from.app_error",
+    "translation": "Az ExportFromTimestamp bélyegzőnek időbélyegnek kell lennie (másodpercben kifejezve az unix epoch óta). Csak az ezen időbélyegző után küldött üzenetek kerülnek exportálásra."
+  },
+  {
+    "id": "model.config.is_valid.message_export.enable.app_error",
+    "translation": "A EnableExport üzenet exportálási munka beállításának igaznak vagy hamisnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.message_export.daily_runtime.app_error",
+    "translation": "A DailyRuntime üzenet exportálási munkának 24 órás időbélyegzőnek kell lennie HH:MM formátumban."
+  },
+  {
+    "id": "model.config.is_valid.message_export.batch_size.app_error",
+    "translation": "A BatchSize üzenet exportálási munkának pozitív egész számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.max_users.app_error",
+    "translation": "Érvénytelen csapatonkénti maximális felhasználó a csapat beállításoknál. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.max_notify_per_channel.app_error",
+    "translation": "Érvénytelen csatornánkénti maximális értesítések a csapat beállításoknál. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.max_file_size.app_error",
+    "translation": "Érvénytelen maximális fájlméret a fájlbeállításoknál. Egész számnak és nullánál nagyobbnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.max_channels.app_error",
+    "translation": "Érvénytelen csapatonkénti maximális csatorna a csapat beállításoknál. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.max_burst.app_error",
+    "translation": "A maximális burst méretének nullánál nagyobbnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.login_attempts.app_error",
+    "translation": "Érvénytelen maximális bejelentkezési kísérlet a szolgáltatás beállításokhoz. Pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.localization.available_locales.app_error",
+    "translation": "Az elérhető nyelveknek tartalmazniuk kell az alapértelmezett kliens nyelvet."
+  },
+  {
+    "id": "model.config.is_valid.listen_address.app_error",
+    "translation": "Érvénytelen hallgatási cím a szolgáltatási beállításokhoz Be kell állítani."
+  },
+  {
+    "id": "model.config.is_valid.ldap_username",
+    "translation": "AD/LDAP mező \"Username Attribute\" megadása kötelező."
+  },
+  {
+    "id": "model.config.is_valid.ldap_sync_interval.app_error",
+    "translation": "Érvénytelen szinkronizálási idő. Legalább egy percnek kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.ldap_server",
+    "translation": "AD/LDAP mező \"AD/LDAP Server\" megadása kötelező."
+  },
+  {
+    "id": "model.config.is_valid.ldap_security.app_error",
+    "translation": "Érvénytelen kapcsolat biztonság az AD/LDAP beállításokhoz. ' 'TLS' vagy 'STARTTLS' -nek kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.ldap_max_page_size.app_error",
+    "translation": "Érvénytelen maximális oldalméret."
+  },
+  {
+    "id": "model.config.is_valid.ldap_login_id",
+    "translation": "AD/LDAP mező \"Login ID Attribute\" megadása kötelező."
+  },
+  {
+    "id": "model.config.is_valid.ldap_id",
+    "translation": "AD/LDAP mező \"ID Attribute\" megadása kötelező."
+  },
+  {
+    "id": "model.config.is_valid.ldap_email",
+    "translation": "AD/LDAP mező \"Email Attribute\" megadása kötelező."
+  },
+  {
+    "id": "model.config.is_valid.ldap_basedn",
+    "translation": "AD/LDAP mező \"BaseDN\" megadása kötelező."
+  },
+  {
+    "id": "model.config.is_valid.import.retention_days_too_low.app_error",
+    "translation": "Érvénytelen érték a RetentionDays számára. Az érték túl alacsony."
+  },
+  {
+    "id": "model.config.is_valid.import.directory.app_error",
+    "translation": "Érvénytelen érték a könyvtárhoz."
+  },
+  {
+    "id": "model.config.is_valid.image_proxy_type.app_error",
+    "translation": "Érvénytelen képproxy típus. \"local” vagy \"atmos/camo” kell legyen."
+  },
+  {
+    "id": "model.config.is_valid.group_unread_channels.app_error",
+    "translation": "Érvénytelen csoport olvasatlan csatornák a szolgáltatás beállításokhoz. \"disabled”, \"default_on” vagy \"default_off” -nak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.file_salt.app_error",
+    "translation": "Érvénytelen nyilvános link só a fájlbeállításokhoz. 32 vagy több karakternek kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.file_driver.app_error",
+    "translation": "Érvénytelen driver név a fájl beállításokhoz. \"local” vagy \"amazon3” kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.email_notification_contents_type.app_error",
+    "translation": "Érvénytelen e-mail értesítési tartalomtípus az e-mail beállításokhoz. A \"full” vagy a \"generic” egyikének kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.export.retention_days_too_low.app_error",
+    "translation": "Érvénytelen érték a RetentionDays számára. Az értéknek nagyobbnak kell lennie, mint 0"
+  },
+  {
+    "id": "model.config.is_valid.export.directory.app_error",
+    "translation": "A könyvtár értéke nem lehet üres."
+  },
+  {
+    "id": "model.config.is_valid.encrypt_sql.app_error",
+    "translation": "Érvénytelen rest titkosítási kulcs az SQL-beállításokhoz. Legalább 32 vagy több karakternek kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.email_security.app_error",
+    "translation": "Érvénytelen kapcsolat biztonság az e-mail beállításokhoz. 'TLS'-nek vagy 'STARTTLS' -nek kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.email_batching_buffer_size.app_error",
+    "translation": "Érvénytelen e-mail kötegelt pufferméret az e-mail beállításokhoz. Nullának vagy pozitív számnak kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.email_batching_interval.app_error",
+    "translation": "Érvénytelen e-mail kötegelési intervallum az e-mail beállításokhoz. Legalább 30 másodpercnek kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.request_timeout_seconds.app_error",
+    "translation": "Az Elasticsearch kérés időkorlátjának legalább 1 másodpercnek kell lennie."
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.posts_aggregator_job_start_time.app_error",
+    "translation": "Az Elasticsearch PostsAggregatorJobStartTime beállításnak \"hh: mm\" formátumúnak kell lennie."
   }
 ]
