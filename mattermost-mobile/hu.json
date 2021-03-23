@@ -660,5 +660,20 @@
   "permalink.show_dialog_warn.join": "Csatlakozás",
   "permalink.show_dialog_warn.cancel": "Mégsem",
   "permalink.show_dialog_warn.description": "Arra készül, hogy csatlakozzon a \"{channel}\" csatornához anélkül, hogy a csatorna rendszergazdája kifejezetten hozzáadta volna. Biztosan csatlakozni szeretne ehhez a privát csatornához?",
-  "permalink.show_dialog_warn.title": "Csatlakozás privát csatornához"
+  "permalink.show_dialog_warn.title": "Csatlakozás privát csatornához",
+  "apps.error.parser.missing_field_value": "A mező értéke hiányzik.",
+  "apps.error.parser.empty_value": "az üres értékek nem megengedettek",
+  "apps.error.parser": "Elemzési hiba: {error}.\n```\n{parancs}\n{space} ^\n```",
+  "apps.error.lookup.error_preparing_request": "Hiba a keresési kérelem előkészítése során.",
+  "apps.error.form.submit.pretext": "Hiba történt a modál elküldése során. Lépjen kapcsolatba az alkalmazás fejlesztőjével. Részletek: {details}",
+  "apps.error.form.refresh_no_refresh": "Frissítést hívott egy nem frissítés mezőn.",
+  "apps.error.form.refresh": "Hiba történt a kiválasztás mezők letöltésekor. Lépjen kapcsolatba az alkalmazás fejlesztővel. Részletek: {details}",
+  "apps.error.form.no_lookup_call": "performLookupCall props.call nincs meghatározva",
+  "apps.error.form.no_form": "`form` nincs meghatározva.",
+  "apps.error.form.no_call": "`call` nincs meghatározva.",
+  "apps.error.command.unknown_user": "Ismeretlen felhasználó ehhez a mezőhöz `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_option": "Ismeretlen opció ehhez a mezőhöz `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_channel": "Ismeretlen csatorna ehhez a mezőhöz `{fieldName}`: `{option}`.",
+  "apps.error.command.field_missing": "Hiányzó kötelező mezők: `{fieldName}`.",
+  "apps.error": "Hiba: {error}"
 }
