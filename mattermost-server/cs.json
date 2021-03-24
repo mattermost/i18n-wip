@@ -7656,10 +7656,6 @@
     "translation": "Během exportu selhalo kopírování souboru."
   },
   {
-    "id": "api.web_socket.connect.check_origin.app_error",
-    "translation": "Nevalidní hlavička Origin během websocket upgrade."
-  },
-  {
     "id": "api.user.update_user_auth.invalid_request",
     "translation": "Požadavek neobsahuje parametr AuthData nebo AuthService."
   },
