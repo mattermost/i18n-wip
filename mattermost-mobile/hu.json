@@ -140,7 +140,7 @@
   "api.channel.add_member.added": "{addedUsername} hozzá lett adva a csatornához {username} által.",
   "announcment_banner.dont_show_again": "Ne mutassa még egyszer",
   "about.title": "Névjegy {appTitle}",
-  "about.teamEditiont1": "Enterprise Kiadás",
+  "about.teamEditiont1": "Enterprise kiadás",
   "about.enterpriseEditione1": "Enterprise Kiadás",
   "suggestion.search.public": "Nyilvános csatornák",
   "status_dropdown.set_online": "Elérhető",
