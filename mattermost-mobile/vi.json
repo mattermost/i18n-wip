@@ -410,5 +410,14 @@
   "channel_modal.cancel": "Hủy",
   "channel_notifications.preference.all_activity": "Cho tất cả các hoạt động",
   "channel_header.notificationPreference.default": "Mặc định",
-  "channel_header.notificationPreference.all": "Tất cả"
+  "channel_header.notificationPreference.all": "Tất cả",
+  "date_separator.yesterday": "Ngày hôm qua",
+  "combined_system_message.added_to_team.two": "{firstUser} và {secondUser} **được thêm vào nhóm** bởi {actor}.",
+  "combined_system_message.added_to_team.one_you": "Bạn đã được **thêm vào nhóm** bởi {actor}.",
+  "combined_system_message.added_to_team.one": "{firstUser} **được thêm vào nhóm** bởi {actor}.",
+  "combined_system_message.added_to_channel.one": "{firstUser} **đã được thêm vào kênh** bởi {actor}.",
+  "combined_system_message.added_to_channel.many_expanded": "{users} và {lastUser} đã được ** thêm vào kênh ** bởi {actor}.",
+  "combined_system_message.added_to_team.many_expanded": "{users} và {lastUser} đã được **thêm vào nhóm** bởi {actor}.",
+  "combined_system_message.added_to_channel.two": "{firstUser} và {secondUser} **được thêm vào kênh** bởi {actor}.",
+  "combined_system_message.added_to_channel.one_you": "Bạn đã được **thêm vào kênh** bởi {actor} ."
 }
