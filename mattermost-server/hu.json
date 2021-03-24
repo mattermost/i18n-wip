@@ -3528,7 +3528,7 @@
   },
   {
     "id": "api.templates.reset_body.title",
-    "translation": "Jelszó visszaállítást kért"
+    "translation": "Jelszó visszaállítás"
   },
   {
     "id": "api.templates.reset_body.button",
@@ -3756,7 +3756,7 @@
   },
   {
     "id": "api.templates.invite_body.button",
-    "translation": "Csatlakozás a csapathoz"
+    "translation": "Csatlakozás most"
   },
   {
     "id": "api.templates.email_warning",
@@ -3844,7 +3844,7 @@
   },
   {
     "id": "api.templates.at_limit_info5",
-    "translation": "Alternatív megoldásként letilthatja a felhasználókat az Admin konzolban, hogy több felhasználó számára nyíljon hely, és az ingyenes felhasználói korlát alatt maradhasson."
+    "translation": "Alternatív megoldásként letilthatja a felhasználókat a rendszerkonzolban, hogy több felhasználó számára nyíljon hely, és az ingyenes felhasználói korlát alatt maradhasson."
   },
   {
     "id": "api.templates.at_limit_info2",
@@ -7853,5 +7853,765 @@
   {
     "id": "model.config.is_valid.elastic_search.posts_aggregator_job_start_time.app_error",
     "translation": "Az Elasticsearch PostsAggregatorJobStartTime beállításnak \"hh: mm\" formátumúnak kell lennie."
+  },
+  {
+    "id": "model.upload_session.is_valid.channel_id.app_error",
+    "translation": "Érvénytelen érték a ChannelId-hez."
+  },
+  {
+    "id": "app.oauth.save_app.existing.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.job.download_export_results_not_enabled",
+    "translation": "A config.json fájlban található DownloadExportResults hamis. Kérjük, állítsa ezt igazra a munka eredményeinek letöltéséhez."
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_and_service_dependency.error",
+    "translation": "A felhasználói AuthService és az AuthData kölcsönösek egymással."
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_and_password.error",
+    "translation": "A felhasználói hitelesítési adatok és a jelszó kölcsönösen kizárják egymást."
+  },
+  {
+    "id": "app.import.import_post.channel_not_found.error",
+    "translation": "Hiba történt a bejegyzés importálásakor. A \"{{.ChannelName}}\" nevű csatorna nem található."
+  },
+  {
+    "id": "app.import.import_line.unknown_line_type.error",
+    "translation": "Az import adatsornak ismeretlen a tjpusa \"{{.Type}}\"."
+  },
+  {
+    "id": "app.import.import_line.null_user.error",
+    "translation": "Az import adatsor típusa \"user\", de a user objektum null."
+  },
+  {
+    "id": "app.import.import_line.null_team.error",
+    "translation": "Az import adatsor típusa \"team\", de a team objektum null."
+  },
+  {
+    "id": "app.import.import_line.null_scheme.error",
+    "translation": "Az import adatsor típusa \"scheme\", de a scheme objektum null."
+  },
+  {
+    "id": "app.import.import_line.null_post.error",
+    "translation": "Az import adatsor típusa \"post\", de a post objektum null."
+  },
+  {
+    "id": "app.import.import_line.null_emoji.error",
+    "translation": "Az import adatsor típusa \"emoji\", de a emoji objektum null."
+  },
+  {
+    "id": "app.import.import_line.null_direct_post.error",
+    "translation": "Az import adatsor típusa \"direct_post\", de a direct_post objektum null."
+  },
+  {
+    "id": "app.import.import_line.null_direct_channel.error",
+    "translation": "Az import adatsor típusa \"direct_channel\", de a direct_channel objektum null."
+  },
+  {
+    "id": "api.webhook.create_outgoing.not_open.app_error",
+    "translation": "Kimenő webhookokat csak nyilvános csatornákhoz lehet létrehozni."
+  },
+  {
+    "id": "api.user.upload_profile_user.login_provider_attribute_set.app_error",
+    "translation": "A profilképet a felhasználó bejelentkezési szolgáltatóján keresztül kell beállítani."
+  },
+  {
+    "id": "api.user.update_user.login_provider_attribute_set.app_error",
+    "translation": "A '{{.Field}}' mezőt a felhasználó bejelentkezési szolgáltatóján keresztül kell beállítani."
+  },
+  {
+    "id": "api.user.send_cloud_welcome_email.error",
+    "translation": "Nem sikerült elküldeni a felhő üdvözlő e-mailt"
+  },
+  {
+    "id": "api.user.patch_user.login_provider_attribute_set.app_error",
+    "translation": "A '{{.Field}}' mezőt a felhasználó bejelentkezési szolgáltatóján keresztül kell beállítani."
+  },
+  {
+    "id": "api.templates.reset_body.subTitle",
+    "translation": "Kattintson az alábbi gombra a jelszó visszaállításához. Ha ezt nem Ön kérte, akor nyugodtan figyelmen kívül hagyhatja ezt az e-mailt."
+  },
+  {
+    "id": "api.templates.reset_body.info",
+    "translation": "A jelszó-visszaállító link 24 órán belül lejár."
+  },
+  {
+    "id": "api.templates.invite_body_guest.subTitle",
+    "translation": "Meghívást kapott vendégként, hogy működjön együtt a csapattal"
+  },
+  {
+    "id": "api.templates.invite_body_footer.title",
+    "translation": "Mi az a Mattermost?"
+  },
+  {
+    "id": "api.templates.invite_body_footer.learn_more",
+    "translation": "Tudjon meg többet"
+  },
+  {
+    "id": "api.templates.invite_body_footer.info",
+    "translation": "A Mattermost egy rugalmas, nyílt forráskódú üzenetküldő platform, amely biztonságos csapat-együttműködést tesz lehetővé."
+  },
+  {
+    "id": "api.templates.invite_body.subTitle",
+    "translation": "Kezdjen el együttműködni a csapatával a Mattermost-on"
+  },
+  {
+    "id": "api.templates.email_footer_v2",
+    "translation": "© 2020 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.title",
+    "translation": "Gratulálunk - {{.WorkSpace}} munkaterülete készen áll a használatra!"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subtitle_info",
+    "translation": "Tegye meg a következő lépéseket csapatai felépítéséhez és a lehető legtöbb kihozásához a munkaterületből."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.start_questions",
+    "translation": "Kérdései vannak az indulásról? Írjon nekünk a következő címre"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subtitle",
+    "translation": "Állítsa be munkaterületét"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subject",
+    "translation": "Gratulálunk!"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info2",
+    "translation": "a legjobb élmény érdekében PC-n, Mac-en, iOS-en és Androidon."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info",
+    "translation": "Jelentkezzen be a munkaterületére a"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.mm_apps",
+    "translation": "mobil és asztali alkalmazások"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.invite_sub_info",
+    "translation": "Ossza meg ezt a linket, hogy meghívja tagjait a {{.WorkSpace}} munakterületre:"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.invite_info",
+    "translation": "Hívjon meg másokat a munkaterületére"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info2",
+    "translation": "Ne felejtse el elmenteni vagy könyvjelzővel ellátni a linket későbbi használatra."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info",
+    "translation": "Köszönőjük, hogy létrehozta "
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.download_mm_info",
+    "translation": "Mattermost alkalmazás letöltése"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.button",
+    "translation": "Mattermost megnyitása"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.app_market_place",
+    "translation": "alkalmazás piac."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_sub_info",
+    "translation": "Egyszerűsítse munkáját olyan eszközökkel, mint a Github, a Google Naptár és a Chrome. Fedezze fel a mi integrációinkat"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_info",
+    "translation": "Adjon hozzá alkalmazásokat a munkaterületéhez"
+  },
+  {
+    "id": "api.team.invite_guests.channel_in_invalid_team.app_error",
+    "translation": "A meghívás csatornáinak a meghívó csapata részének kell lenniük."
+  },
+  {
+    "id": "api.push_notifications_ack.message.parse.app_error",
+    "translation": "Hiba történt a push értesítési ack üzenet létrehozása során."
+  },
+  {
+    "id": "api.team.invite_guests_to_channels.invalid_body.app_error",
+    "translation": "Érvénytelen vagy hiányzó kérés törzs."
+  },
+  {
+    "id": "web.incoming_webhook.text.app_error",
+    "translation": "Nincs megadva szöveg."
+  },
+  {
+    "id": "web.incoming_webhook.split_props_length.app_error",
+    "translation": "Nem lehet szétválasztani a webhook tulajdonságokat {{.Max}} karakter részre."
+  },
+  {
+    "id": "web.incoming_webhook.permissions.app_error",
+    "translation": "Nem megfelelő csatornaengedélyek."
+  },
+  {
+    "id": "web.incoming_webhook.parse.app_error",
+    "translation": "Nem lehet elemezni a bejövő adatokat."
+  },
+  {
+    "id": "web.incoming_webhook.invalid.app_error",
+    "translation": "Érvénytelen webhook."
+  },
+  {
+    "id": "web.incoming_webhook.channel_locked.app_error",
+    "translation": "Ezt a webhook -ot nem lehet közzétenni a kért csatornán."
+  },
+  {
+    "id": "web.get_access_token.internal_saving.app_error",
+    "translation": "Nem sikerült frissíteni a felhasználó hozzáférési adatait."
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_make_default",
+    "translation": "Legyen alapértelmezett"
+  },
+  {
+    "id": "web.error.unsupported_browser.open_system_browser.edge",
+    "translation": "Edge megnyitása"
+  },
+  {
+    "id": "web.error.unsupported_browser.no_longer_support_version",
+    "translation": "A Mattermost már nem támogatja a böngésző ezen verzióját"
+  },
+  {
+    "id": "web.error.unsupported_browser.no_longer_support",
+    "translation": "Ezt a böngészőt a Mattermost már nem támogatja"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.windows",
+    "translation": "Windows 7+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.mac",
+    "translation": "macOS 10.9+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.safari",
+    "translation": "Verzió 12+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.firefox",
+    "translation": "Verzió 60+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.edge",
+    "translation": "Verzió 44+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.chrome",
+    "translation": "Verzió 61+"
+  },
+  {
+    "id": "web.error.unsupported_browser.learn_more",
+    "translation": "További információ a támogatott böngészőkről."
+  },
+  {
+    "id": "web.error.unsupported_browser.install_guide.windows",
+    "translation": "Telepítési útmutató"
+  },
+  {
+    "id": "web.error.unsupported_browser.install_guide.mac",
+    "translation": "Telepítési útmutató"
+  },
+  {
+    "id": "web.error.unsupported_browser.download_the_app",
+    "translation": "Töltse le az alkalmazást"
+  },
+  {
+    "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
+    "translation": "Töltse le a Mattermost alkalmazást, vagy használjon támogatott böngészőt a jobb élmény érdekében."
+  },
+  {
+    "id": "web.error.unsupported_browser.download",
+    "translation": "Töltse le az alkalmazást"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.safari",
+    "translation": "Safari"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.firefox",
+    "translation": "Firefox"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.edge",
+    "translation": "Microsoft Edge"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.chrome",
+    "translation": "Google Chrome"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.safari",
+    "translation": "Töltse le a legújabb Safari böngészőt"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.firefox",
+    "translation": "Töltse le a legújabb Firefox böngészőt"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.chrome",
+    "translation": "Töltse le a legújabb Chrome böngészőt"
+  },
+  {
+    "id": "web.command_webhook.parse.app_error",
+    "translation": "Nem lehet elemezni a bejövő adatokat."
+  },
+  {
+    "id": "store.sql_user.update.email_taken.app_error",
+    "translation": "Ez az e-mail már foglalt. Kérjük, válasszon másikat."
+  },
+  {
+    "id": "store.sql_user.get_for_login.app_error",
+    "translation": "Nem található a hitelesítő adatoknak megfelelő meglévő fiók. A csapathoz való csatlakozásához meghívást kérhet a csapat tulajdonosától."
+  },
+  {
+    "id": "store.sql_team.save_member.exists.app_error",
+    "translation": "Ezzel az azonosítóval rendelkező csapattag már létezik."
+  },
+  {
+    "id": "store.sql_post.search.disabled",
+    "translation": "A keresés le van tiltva ezen a szerveren. Kérjük, lépjen kapcsolatba a rendszergazdával."
+  },
+  {
+    "id": "store.sql_file_info.search.disabled",
+    "translation": "A fájlok keresése le van tiltva ezen a szerveren. Kérjük, lépjen kapcsolatba a rendszergazdával."
+  },
+  {
+    "id": "store.sql_command.update.missing.app_error",
+    "translation": "Parancs nem létezik."
+  },
+  {
+    "id": "store.sql_command.get.missing.app_error",
+    "translation": "Parancs nem létezik."
+  },
+  {
+    "id": "store.sql_channel.save_direct_channel.not_direct.app_error",
+    "translation": "Nem közvetlen csatornát próbáltak létrehozni a SaveDirectChannel segítségével."
+  },
+  {
+    "id": "store.sql_channel.save_channel.limit.app_error",
+    "translation": "Elérte a megengedett csatornák számának korlátját."
+  },
+  {
+    "id": "store.sql_channel.save_channel.exists.app_error",
+    "translation": "Ilyen nevű csatorna már létezik ugyanabban a csapatban."
+  },
+  {
+    "id": "store.sql_channel.save.direct_channel.app_error",
+    "translation": "A SaveDirectChannel segítségével létrehozhat közvetlen csatornát."
+  },
+  {
+    "id": "store.sql_channel.save.archived_channel.app_error",
+    "translation": "Nem módosíthat egy archivált csatornát."
+  },
+  {
+    "id": "store.sql_bot.get.missing.app_error",
+    "translation": "Bot nem létezik."
+  },
+  {
+    "id": "searchengine.bleve.disabled.error",
+    "translation": "Hiba történt a Bleve indexek megtisztításakor: a motor le van tiltva"
+  },
+  {
+    "id": "plugin_api.send_mail.missing_to",
+    "translation": "Hiányzó CíMZETT cím."
+  },
+  {
+    "id": "plugin_api.send_mail.missing_subject",
+    "translation": "Hiányzó email tárgy."
+  },
+  {
+    "id": "plugin_api.send_mail.missing_htmlbody",
+    "translation": "Hiányzó HTML törzs."
+  },
+  {
+    "id": "plugin_api.bot_cant_create_bot",
+    "translation": "Bot felhasználó nem hozhat létre bot felhasználót."
+  },
+  {
+    "id": "plugin.api.update_user_status.bad_status",
+    "translation": "Nem lehet beállítani a felhasználói állapotot. Ismeretlen felhasználói állapot."
+  },
+  {
+    "id": "plugin.api.get_users_in_channel",
+    "translation": "Nem sikerült lekérni a felhasználókat, érvénytelen rendezési feltételek."
+  },
+  {
+    "id": "oauth.gitlab.tos.error",
+    "translation": "A GitLab Általános Szerződési Feltételei frissültek. Kérjük, látogassa meg a gitlab.com webhelyet, hogy elfogadja őket, majd próbálja meg újra bejelentkezni a Mattermost oldalra."
+  },
+  {
+    "id": "model.websocket_client.connect_fail.app_error",
+    "translation": "Nem sikerült kapcsolódni a WebSocket szerverhez."
+  },
+  {
+    "id": "model.utils.decode_json.app_error",
+    "translation": "nem sikerült dekódolni."
+  },
+  {
+    "id": "model.user_access_token.is_valid.token.app_error",
+    "translation": "Érvénytelen hozzáférés token."
+  },
+  {
+    "id": "model.user_access_token.is_valid.id.app_error",
+    "translation": "Érvénytelen érték az id -hez."
+  },
+  {
+    "id": "model.user_access_token.is_valid.description.app_error",
+    "translation": "Érvénytelen leírás, legfeljebb 255 karakterből állhat."
+  },
+  {
+    "id": "model.user.is_valid.username.app_error",
+    "translation": "A felhasználónévnek betűvel kell kezdődnie, és 3–22 kisbetűs karaktert tartalmazhat, amely számokból, betűkből és az \".\", \"-\" és \"_\" szimbólumokból áll."
+  },
+  {
+    "id": "model.user.is_valid.update_at.app_error",
+    "translation": "A frissítés idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.user.is_valid.pwd_uppercase_symbol.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy nagybetűből és legalább egy szimbólumból állnak (pl. \"~! @ # $% ^ & * ()\"."
+  },
+  {
+    "id": "model.user.is_valid.pwd_uppercase_number_symbol.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy nagybetűből, legalább egy számból és legalább egy szimbólumból állnak (pl. \"~! @ # $% ^ & * ()\")."
+  },
+  {
+    "id": "model.user.is_valid.pwd_uppercase_number.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy nagybetűből és legalább egy számból állnak."
+  },
+  {
+    "id": "model.user.is_valid.pwd_uppercase.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amely legalább egy nagybetűből áll."
+  },
+  {
+    "id": "model.user.is_valid.pwd_symbol.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy szimbólumból állnak (pl. \"~! @ # $% ^ & * ()\")."
+  },
+  {
+    "id": "model.user.is_valid.pwd_number_symbol.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy számból és legalább egy szimbólumból állnak (pl. \"~! @ # $% ^ & * ()\")."
+  },
+  {
+    "id": "model.user.is_valid.pwd_number.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy számból állnak."
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_uppercase_symbol.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy kisbetűből, legalább egy nagybetűből és legalább egy szimbólumból állnak (pl. \"~! @ # $% ^ & * ()\")."
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_uppercase_number_symbol.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy kisbetűből, legalább egy nagybetűből, legalább egy számból és legalább egy szimbólumból állnak (pl. \"~! @ # $% ^ & * () \")."
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_uppercase_number.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy kisbetűből, legalább egy nagybetűből és legalább egy számból állnak."
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_uppercase.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy kisbetűből és legalább egy nagybetűből állnak."
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_symbol.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy kisbetűből és legalább egy szimbólumból állnak (pl. \"~! @ # $% ^ & * ()\")."
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_number_symbol.app_error",
+    "translation": "A jelszónak tartalmaznia kell legalább {{.Min}} karaktert, amelyek legalább egy kisbetűből, legalább egy számból és legalább egy szimbólumból állnak (pl. \"~! @ # $% ^ & * ()\")."
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_number.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amelyek legalább egy kisbetűből és legalább egy számból állnak."
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase.app_error",
+    "translation": "A jelszónak legalább {{.Min}} karaktert kell tartalmaznia, amely legalább egy kisbetűből áll."
+  },
+  {
+    "id": "model.user.is_valid.pwd.app_error",
+    "translation": "A jelszónak legalább {{. .Min}} karaktert kell tartalmaznia."
+  },
+  {
+    "id": "model.user.is_valid.position.app_error",
+    "translation": "Érvénytelen pozíció: nem lehet hosszabb 128 karakternél."
+  },
+  {
+    "id": "model.user.is_valid.password_limit.app_error",
+    "translation": "A bcrypt korlátai miatt nem lehet 72 karakterből álló jelszót beállítani."
+  },
+  {
+    "id": "model.user.is_valid.locale.app_error",
+    "translation": "Érvénytelen területi beállítás."
+  },
+  {
+    "id": "model.user.is_valid.email.app_error",
+    "translation": "Érvénytelen email."
+  },
+  {
+    "id": "model.user.is_valid.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.user.is_valid.auth_data_pwd.app_error",
+    "translation": "Érvénytelen felhasználó, jelszó és hitelesítési adatokat nem lehet egyszerre beállítani."
+  },
+  {
+    "id": "model.user.is_valid.auth_data_type.app_error",
+    "translation": "Érvénytelen felhasználó, hitelesítési adatokat hitelesítési típussal kell beállítani."
+  },
+  {
+    "id": "model.user.is_valid.auth_data.app_error",
+    "translation": "Érvénytelen hitelesítési adatok."
+  },
+  {
+    "id": "model.upload_session.is_valid.user_id.app_error",
+    "translation": "Érvénytelen érték a UserId -hez"
+  },
+  {
+    "id": "model.upload_session.is_valid.type.app_error",
+    "translation": "Érvénytelen érték a Type -hez"
+  },
+  {
+    "id": "model.upload_session.is_valid.path.app_error",
+    "translation": "Érvénytelen érték a Path -hez"
+  },
+  {
+    "id": "model.upload_session.is_valid.id.app_error",
+    "translation": "Érvénytelen érték a Id -hez"
+  },
+  {
+    "id": "model.upload_session.is_valid.filename.app_error",
+    "translation": "Érvénytelen érték a Filename -hez"
+  },
+  {
+    "id": "model.upload_session.is_valid.file_offset.app_error",
+    "translation": "Érvénytelen érték a FileOffset -hez"
+  },
+  {
+    "id": "model.upload_session.is_valid.file_size.app_error",
+    "translation": "Érvénytelen érték a FileSize -hez"
+  },
+  {
+    "id": "model.upload_session.is_valid.create_at.app_error",
+    "translation": "Érvénytelen érték a CreateAt -hez"
+  },
+  {
+    "id": "model.token.is_valid.expiry",
+    "translation": "Érvénytelen token lejárat"
+  },
+  {
+    "id": "model.team_member.is_valid.team_id.app_error",
+    "translation": "Érvénytelen csapat azonosító."
+  },
+  {
+    "id": "model.team.is_valid.url.app_error",
+    "translation": "Érvénytelen URL azonosító."
+  },
+  {
+    "id": "model.team.is_valid.update_at.app_error",
+    "translation": "A frissítés idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.team.is_valid.reserved.app_error",
+    "translation": "Ez az URL nem érhető el. Kérjük, próbálkozzon másikkal."
+  },
+  {
+    "id": "model.team.is_valid.invite_id.app_error",
+    "translation": "Érvénytelen meghívó azonosító."
+  },
+  {
+    "id": "model.team.is_valid.id.app_error",
+    "translation": "Érvénytelen azonosító."
+  },
+  {
+    "id": "model.team.is_valid.email.app_error",
+    "translation": "Érvénytelen email."
+  },
+  {
+    "id": "model.team.is_valid.domains.app_error",
+    "translation": "Érvénytelen engedélyezett domainek."
+  },
+  {
+    "id": "model.team.is_valid.description.app_error",
+    "translation": "Érvénytelen leírás."
+  },
+  {
+    "id": "model.team.is_valid.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.reaction.is_valid.update_at.app_error",
+    "translation": "A frissítés idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.team.is_valid.company.app_error",
+    "translation": "Érvénytelen vállalatnév."
+  },
+  {
+    "id": "model.team.is_valid.characters.app_error",
+    "translation": "A névnek legalább 2 kisbetűs alfanumerikus karakterből kell állnia."
+  },
+  {
+    "id": "model.search_params_list.is_valid.include_deleted_channels.app_error",
+    "translation": "Az összes IncludeDeletedChannels paraméternek azonos értékkel kell rendelkeznie."
+  },
+  {
+    "id": "model.reaction.is_valid.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.preference.is_valid.value.app_error",
+    "translation": "Az érték túl hosszú."
+  },
+  {
+    "id": "model.preference.is_valid.category.app_error",
+    "translation": "Érvénytelen kategória."
+  },
+  {
+    "id": "model.post.is_valid.update_at.app_error",
+    "translation": "A frissítés idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.post.is_valid.root_parent.app_error",
+    "translation": "Érvénytelen gyökér azonosító, be kell állítani ha a szülő azonosító be van állítva."
+  },
+  {
+    "id": "model.post.is_valid.original_id.app_error",
+    "translation": "Érvénytelen eredeti azonosító."
+  },
+  {
+    "id": "model.post.is_valid.id.app_error",
+    "translation": "Érvénytelen azonosító."
+  },
+  {
+    "id": "model.post.is_valid.hashtags.app_error",
+    "translation": "Értvénytelen hashtag-ek."
+  },
+  {
+    "id": "model.post.is_valid.file_ids.app_error",
+    "translation": "Érvénytelen fájlazonosítók. Ne feledje, hogy a feltöltések legfeljebb 5 fájlra korlátozódnak. Kérjük, további fájlokhoz használjon további bejegyzéseket."
+  },
+  {
+    "id": "model.post.is_valid.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.post.is_valid.channel_id.app_error",
+    "translation": "Érvénytelen csatorna azonosító."
+  },
+  {
+    "id": "model.post.channel_notifications_disabled_in_channel.message",
+    "translation": "A csatorna értesítései le vannak tiltva a következőben: {{.ChannelName}}. A {{.Mention}} nem váltott ki értesítést."
+  },
+  {
+    "id": "model.plugin_kvset_options.is_valid.old_value.app_error",
+    "translation": "Érvénytelen régi érték, nem szabad beállítani, ha a művelet nem atomic."
+  },
+  {
+    "id": "model.plugin_key_value.is_valid.plugin_id.app_error",
+    "translation": "Érvénytelen plugin azonosít, többnek kell lennie, mint {{.Min}}, és legfeljebb {{. .Max}} karakter hosszú lehet."
+  },
+  {
+    "id": "model.plugin_key_value.is_valid.key.app_error",
+    "translation": "Érvénytelen kulcs, többnek kell lennie, mint {{. .Min}}, és maximum {{. .Max}} karakter hosszú lehet."
+  },
+  {
+    "id": "model.plugin_command_error.error.app_error",
+    "translation": "A /{{.Command}} pluginja nem működik. Kérjük, lépjen kapcsolatba a rendszergazdával"
+  },
+  {
+    "id": "model.plugin_command_crash.error.app_error",
+    "translation": "/{{.Command}} paranccsal összeomlott a {{. .PluginId}} plugin. Kérjük, lépjen kapcsolatba a rendszergazdával"
+  },
+  {
+    "id": "model.plugin_command.error.app_error",
+    "translation": "Hiba történt a parancs végrehajtása közben."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.words.app_error",
+    "translation": "Érvénytelen indítási szavak."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.url.app_error",
+    "translation": "Érvénytelen visszahívási URL-ek. Mindegyiknek érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.update_at.app_error",
+    "translation": "A frissítés idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.trigger_words.app_error",
+    "translation": "Érvénytelen indító szavak."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.team_id.app_error",
+    "translation": "Érvénytelen csapat azonosító."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.id.app_error",
+    "translation": "Érvénytelen azonosító."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.description.app_error",
+    "translation": "Érvénytelen leírás."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.content_type.app_error",
+    "translation": "Érvénytelen érték a content_type-hoz."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.channel_id.app_error",
+    "translation": "Érvénytelen csatorna azonosíó."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.callback.app_error",
+    "translation": "Érvénytelen visszahívás URL-ek."
+  },
+  {
+    "id": "model.oauth.is_valid.update_at.app_error",
+    "translation": "A frissítés idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.oauth.is_valid.icon_url.app_error",
+    "translation": "Az ikon URL-jének érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
+  },
+  {
+    "id": "model.oauth.is_valid.homepage.app_error",
+    "translation": "A kezdőlapnak érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
+  },
+  {
+    "id": "model.oauth.is_valid.description.app_error",
+    "translation": "Érvénytelen leírás."
+  },
+  {
+    "id": "model.oauth.is_valid.creator_id.app_error",
+    "translation": "Érvénytelen létrehozó azonosító."
+  },
+  {
+    "id": "model.oauth.is_valid.create_at.app_error",
+    "translation": "A létrehozás idejének érvényesnek kell lennie."
+  },
+  {
+    "id": "model.oauth.is_valid.client_secret.app_error",
+    "translation": "Érvénytelen kliens titok."
+  },
+  {
+    "id": "model.oauth.is_valid.callback.app_error",
+    "translation": "A visszahívási URL-nek érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
   }
 ]
