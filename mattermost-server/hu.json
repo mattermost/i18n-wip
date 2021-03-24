@@ -4311,10 +4311,6 @@
     "translation": "Nem sikerült értelmezni a token adatot az email megerősítésből"
   },
   {
-    "id": "api.web_socket.connect.check_origin.app_error",
-    "translation": "Érvénytelen Origin fejléc beállítva a websocket frissítés közben."
-  },
-  {
     "id": "api.user.verify_email.link_expired.app_error",
     "translation": "Az email megerősítő link lejárt."
   },
