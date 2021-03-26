@@ -419,5 +419,14 @@
   "combined_system_message.added_to_channel.many_expanded": "{users} và {lastUser} đã được ** thêm vào kênh ** bởi {actor}.",
   "combined_system_message.added_to_team.many_expanded": "{users} và {lastUser} đã được **thêm vào nhóm** bởi {actor}.",
   "combined_system_message.added_to_channel.two": "{firstUser} và {secondUser} **được thêm vào kênh** bởi {actor}.",
-  "combined_system_message.added_to_channel.one_you": "Bạn đã được **thêm vào kênh** bởi {actor} ."
+  "combined_system_message.added_to_channel.one_you": "Bạn đã được **thêm vào kênh** bởi {actor} .",
+  "permalink.show_dialog_warn.title": "Tham gia kênh riêng tư",
+  "permalink.show_dialog_warn.join": "Tham gia",
+  "user.settings.notifications.never": "Không Bao Giờ",
+  "user.settings.notifications.email.never": "Không Bao Giờ",
+  "suggestion.search.public": "Kênh Công Khai",
+  "suggestion.mention.special": "Đề Cập Đặc Biệt",
+  "suggestion.mention.groups": "Để Cập Nhóm",
+  "suggestion.mention.channel": "Thông báo cho mọi người trong kênh này",
+  "suggestion.mention.all": "Thông báo cho mọi người trong kênh này"
 }
