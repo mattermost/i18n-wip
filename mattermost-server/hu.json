@@ -3832,7 +3832,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2020 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.at_limit_title",
@@ -7856,7 +7856,7 @@
   },
   {
     "id": "app.oauth.save_app.existing.app_error",
-    "translation": ""
+    "translation": "Le kell futtatni a meglévő alkalmazás frissítését."
   },
   {
     "id": "app.job.download_export_results_not_enabled",
@@ -7956,7 +7956,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2020 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -8609,5 +8609,9 @@
   {
     "id": "model.oauth.is_valid.callback.app_error",
     "translation": "A visszahívási URL-nek érvényes URL-nek kell lennie, és a következővel kell kezdődnie: http: // vagy https: //."
+  },
+  {
+    "id": "api.cloud.cws_webhook_event_missing_error",
+    "translation": "Webhook esemény nem lett lekezelve. Vagy hiányzik vagy érvénytelen."
   }
 ]
