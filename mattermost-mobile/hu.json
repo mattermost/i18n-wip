@@ -57,8 +57,8 @@
   "about.teamEditiont0": "Csapat kiadás",
   "about.teamEditionSt": "Az összes csapaton belüli kommunikáció egy helyen, azonnal kereshető és bárhonnan hozzáférhető.",
   "about.teamEditionLearn": "Csatlakozz a Mattermost közösséghez a ",
-  "about.hashee": "EE Build Hash:",
-  "about.hash": "Build Hash:",
+  "about.hashee": "EE Hash készítés:",
+  "about.hash": "Hash készítés:",
   "about.enterpriseEditionSt": "Modern kommunikáció a tűzfalad mögött.",
   "about.enterpriseEditionLearn": "Tudjon meg többet a vállalati verzióról a ",
   "about.date": "Build dátuma:",
@@ -664,7 +664,7 @@
   "apps.error.parser.missing_field_value": "A mező értéke hiányzik.",
   "apps.error.parser.empty_value": "az üres értékek nem megengedettek",
   "apps.error.parser": "Elemzési hiba: {error}.\n```\n{parancs}\n{space} ^\n```",
-  "apps.error.lookup.error_preparing_request": "Hiba a keresési kérelem előkészítése során.",
+  "apps.error.lookup.error_preparing_request": "Hiba a keresési kérelem előkészítése során",
   "apps.error.form.submit.pretext": "Hiba történt a modál elküldése során. Lépjen kapcsolatba az alkalmazás fejlesztőjével. Részletek: {details}",
   "apps.error.form.refresh_no_refresh": "Frissítést hívott egy nem frissítés mezőn.",
   "apps.error.form.refresh": "Hiba történt a kiválasztás mezők letöltésekor. Lépjen kapcsolatba az alkalmazás fejlesztővel. Részletek: {details}",
@@ -696,5 +696,7 @@
   "apps.error.parser.no_argument_pos_x": "A parancs nem fogadja el a {positionX} pozíció argumentumokat.",
   "apps.error.parser.multiple_equal": "Több `=` szimbólum nem engedélyezett.",
   "apps.error.parser.missing_tick": "Egyező idézőjel várható a bevitel vége elött.",
-  "apps.error.parser.missing_quote": "Dupla idézőjel várható a bemenet vége előtt."
+  "apps.error.parser.missing_quote": "Dupla idézőjel várható a bemenet vége előtt.",
+  "apps.error.parser.missing_call": "Hiányzó kapcsolathívás.",
+  "apps.error.parser.missing_binding": "Hiányzó parancskötelékek."
 }
