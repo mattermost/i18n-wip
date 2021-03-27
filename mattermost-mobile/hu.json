@@ -89,7 +89,7 @@
   "login_mfa.token": "MFA Token",
   "intro_messages.onlyInvited": " Csak a meghívott tagok csatlakozhatnak ehhez a csatornához.",
   "get_post_link_modal.title": "Link másolása",
-  "edit_post.editPost": "Hozzászólás szerkesztése...",
+  "edit_post.editPost": "Bejegyzés szerkesztése...",
   "date_separator.yesterday": "Tegnap",
   "date_separator.today": "Ma",
   "edit_post.save": "Mentés",
