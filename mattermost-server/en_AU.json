@@ -8773,5 +8773,9 @@
   {
     "id": "April",
     "translation": "April"
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "Error invalidating cache"
   }
 ]
