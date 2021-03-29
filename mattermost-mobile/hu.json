@@ -87,7 +87,7 @@
   "login.email": "E-mail",
   "login_mfa.tokenReq": "Kérem adja meg az MFA tokent",
   "login_mfa.token": "MFA Token",
-  "intro_messages.onlyInvited": " Csak a meghívott tagok csatlakozhatnak ehhez a csatornához.",
+  "intro_messages.onlyInvited": " Csak a meghívott tagok láthatják ezt a privát csatornát.",
   "get_post_link_modal.title": "Link másolása",
   "edit_post.editPost": "Bejegyzés szerkesztése...",
   "date_separator.yesterday": "Tegnap",
