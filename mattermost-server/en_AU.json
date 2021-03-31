@@ -8781,5 +8781,13 @@
   {
     "id": "model.config.is_valid.replica_mismatch.app_error",
     "translation": "Number of replica lag queries is more than the number of replicas configured. Must be less than or equal to the number of replicas."
+  },
+  {
+    "id": "api.error_set_first_admin_visit_marketplace_status",
+    "translation": "Error trying to save the first admin visit marketplace status in the store."
+  },
+  {
+    "id": "api.error_get_first_admin_visit_marketplace_status",
+    "translation": "Error trying to retrieve the first admin visit marketplace status from the store."
   }
 ]
