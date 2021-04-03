@@ -665,7 +665,7 @@
   "apps.error.parser.no_slash_start": "Command must start with a `/`.",
   "apps.error.parser.no_match": "`{command}`: No matching command found in this workspace.",
   "apps.error.parser.no_bindings": "No command bindings.",
-  "apps.error.parser.no_argument_pos_x": "Command does not accept {positionX} positional arguments.",
+  "apps.error.parser.no_argument_pos_x": "Unable to identify argument.",
   "apps.error.parser.multiple_equal": "Multiple `=` signs are not allowed.",
   "apps.error.parser.missing_tick": "Matching tick quote expected before end of input.",
   "apps.error.parser.missing_quote": "Matching double quote expected before end of input.",
@@ -698,5 +698,8 @@
   "about.enterpriseEditionSt": "Modern communication from behind your firewall.",
   "about.enterpriseEditionLearn": "Learn more about Enterprise Edition at ",
   "about.enterpriseEditione1": "Enterprise Edition",
-  "about.date": "Build Date:"
+  "about.date": "Build Date:",
+  "apps.suggestion.no_suggestion": "No matching suggestions.",
+  "apps.suggestion.errors.parser_error": "Parsing error",
+  "apps.suggestion.dynamic.error": "Dynamic select error"
 }
