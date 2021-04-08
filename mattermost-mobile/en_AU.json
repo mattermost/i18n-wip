@@ -701,5 +701,6 @@
   "about.date": "Build Date:",
   "apps.suggestion.no_suggestion": "No matching suggestions.",
   "apps.suggestion.errors.parser_error": "Parsing error",
-  "apps.suggestion.dynamic.error": "Dynamic select error"
+  "apps.suggestion.dynamic.error": "Dynamic select error",
+  "mobile.oauth.failed_to_open_link_no_browser": "The link failed to open. Please verify if a browser is installed in the current space."
 }
