@@ -9209,5 +9209,13 @@
   {
     "id": "api.command_remote.accept.help",
     "translation": "Accept an invitation from a remote cluster"
+  },
+  {
+    "id": "api.job.unable_to_create_job.incorrect_job_type",
+    "translation": "The job type of the job you are trying to create is invalid"
+  },
+  {
+    "id": "api.job.retrieve.nopermissions",
+    "translation": "The job types of a job you are trying to retrieve does not contain permissions"
   }
 ]
