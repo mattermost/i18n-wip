@@ -3321,7 +3321,6 @@
   "marketplace_modal.no_plugins": "Không có plugin nào vào lúc này.",
   "marketplace_modal.no_plugins_installed": "Bạn chưa cài đặt bất kỳ plugin nào.",
   "marketplace_modal.search": "Tìm kiếm Plugin",
-  "marketplace_modal.tabs.installed_plugins": "Đã cài đặt",
   "marketplace_modal.title": "Thị trường plugin",
   "members_popover.button.message": "Tin nhắn",
   "members_popover.manageMembers": "Quản lý thành viên",
