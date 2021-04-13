@@ -9225,5 +9225,9 @@
   {
     "id": "api.file.test_connection_s3_auth.app_error",
     "translation": "Unable to connect to S3. Verify your Amazon S3 connection authorisation parameters and authentication settings."
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "Failed to reset AuthData field to Email."
   }
 ]
