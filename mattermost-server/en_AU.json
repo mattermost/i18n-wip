@@ -9120,7 +9120,7 @@
   },
   {
     "id": "api.command_remote.name.hint",
-    "translation": "A display name for the remote cluster"
+    "translation": "A unique name for the remote cluster"
   },
   {
     "id": "api.command_remote.name.help",
@@ -9229,5 +9229,13 @@
   {
     "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
     "translation": "Failed to reset AuthData field to Email."
+  },
+  {
+    "id": "api.command_remote.displayname.hint",
+    "translation": "A display name for the remote cluster"
+  },
+  {
+    "id": "api.command_remote.displayname.help",
+    "translation": "Remote cluster display name"
   }
 ]
