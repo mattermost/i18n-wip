@@ -2985,7 +2985,7 @@
   },
   {
     "id": "api.admin.saml.not_available.app_error",
-    "translation": "SAML 2.0 tidak dikonfigurasikan atau didukung oleh server ini"
+    "translation": "SAML 2.0 tidak dikonfigurasikan atau didukung oleh server ini."
   },
   {
     "id": "api.admin.saml.metadata.app_error",
@@ -2993,7 +2993,7 @@
   },
   {
     "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
-    "translation": "Tidak dapat menyimpan berkas sertifikat. "
+    "translation": "Tidak dapat menyimpan berkas sertifikat."
   },
   {
     "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
@@ -3086,5 +3086,9 @@
   {
     "id": "api.admin.ldap.not_available.app_error",
     "translation": "LDAP tidak tersedia."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Terjadi kesalahan saat mengurai permintaan beraneka ragam"
   }
 ]
