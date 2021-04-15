@@ -295,8 +295,6 @@
   "admin.billing.subscription.planDetails.userCountWithLimit": "{userCount} / {userLimit} usuarios",
   "admin.billing.subscription.privateCloudCard.contactSales": "Póñase en contacto co Dpto. de vendas",
   "admin.billing.subscription.privateCloudCard.contactSupport": "Póñase en contacto co servizo de asistencia",
-  "admin.billing.subscription.privateCloudCard.description": "Se precisa un software con arquitectura dedicada dun só cesionario, Mattermost Private Cloud (Beta) é a solución para a colaboración de alta confianza.",
-  "admin.billing.subscription.privateCloudCard.title": "Busca unha nube privada de alta confianza?",
   "admin.billing.subscription.questions": "Preguntas?",
   "admin.billing.subscription.stateprovince": "Provincia/Estado",
   "admin.billing.subscription.title": "Subscricións",
