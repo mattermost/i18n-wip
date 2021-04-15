@@ -8613,5 +8613,457 @@
   {
     "id": "api.cloud.cws_webhook_event_missing_error",
     "translation": "Webhook esemény nem lett lekezelve. Vagy hiányzik vagy érvénytelen."
+  },
+  {
+    "id": "app.import.marshal.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.import.generate_password.app_error",
+    "translation": "Hiba történt a jelszó generálásakor."
+  },
+  {
+    "id": "app.import.bulk_import.json_decode.error",
+    "translation": "A JSON sor dekódolása nem sikerült."
+  },
+  {
+    "id": "app.admin.saml.failure_read_response_body_from_idp.app_error",
+    "translation": "Hiba történt az identitásszolgáltatótól kapott választerhelés beolvasásakor."
+  },
+  {
+    "id": "api.webhook.incoming.error",
+    "translation": "Nem sikerült dekódolni a bejövő webhook többrészes hasznos terhelését."
+  },
+  {
+    "id": "api.remote_cluster.update_not_unique.app_error",
+    "translation": "Azonos URL-lel rendelkező távoli fürt már létezik."
+  },
+  {
+    "id": "api.remote_cluster.update.app_error",
+    "translation": "Hiba történt a távoli fürt frissítésekor."
+  },
+  {
+    "id": "api.remote_cluster.service_not_enabled.app_error",
+    "translation": "A távoli fürt szolgáltatás nincs engedélyezve."
+  },
+  {
+    "id": "api.remote_cluster.save_not_unique.app_error",
+    "translation": "A távoli fürt már hozzá lett adva."
+  },
+  {
+    "id": "api.remote_cluster.save.app_error",
+    "translation": "Hiba történt a távoli fürt mentése során."
+  },
+  {
+    "id": "api.remote_cluster.invalid_id.app_error",
+    "translation": "Érvénytelen azonosító."
+  },
+  {
+    "id": "api.remote_cluster.invalid_topic.app_error",
+    "translation": "Érvénytelen téma."
+  },
+  {
+    "id": "api.remote_cluster.get.app_error",
+    "translation": "Hiba történt egy távoli fürt lekérésekor."
+  },
+  {
+    "id": "api.remote_cluster.delete.app_error",
+    "translation": "Hiba történt a távoli fürt törlésekor."
+  },
+  {
+    "id": "api.job.unable_to_create_job.incorrect_job_type",
+    "translation": "A létrehozni kívánt munka munkatípusa érvénytelen"
+  },
+  {
+    "id": "api.job.retrieve.nopermissions",
+    "translation": "A beolvasni kívánt munka munkatípusai nem tartalmaznak engedélyeket"
+  },
+  {
+    "id": "api.getThreadsForUser.bad_params",
+    "translation": "A getThreadsForUser előtti és utáni paraméterek kizárják egymást"
+  },
+  {
+    "id": "api.file.test_connection_s3_bucket_does_not_exist.app_error",
+    "translation": "Győződjön meg arról, hogy elérhető-e az Amazon S3 bucket , és ellenőrizze a bucket engedélyeit."
+  },
+  {
+    "id": "api.file.test_connection_s3_auth.app_error",
+    "translation": "Nem sikerült csatlakozni az S3-hoz. Ellenőrizze az Amazon S3 kapcsolat hitelesítési paramétereit és hitelesítési beállításait."
+  },
+  {
+    "id": "api.context.remote_id_missing.app_error",
+    "translation": "Hiányzik a távoli fürt azonosítója."
+  },
+  {
+    "id": "api.context.remote_id_mismatch.app_error",
+    "translation": "Távoli fürt azonosítója nem egyezik."
+  },
+  {
+    "id": "api.context.remote_id_invalid.app_error",
+    "translation": "Nem található a távoli fürt azonosítója {{.RemoteId}}."
+  },
+  {
+    "id": "api.context.json_encoding.app_error",
+    "translation": "Hiba a JSON kódolásakor."
+  },
+  {
+    "id": "api.context.invitation_expired.error",
+    "translation": "A meghívó lejárt."
+  },
+  {
+    "id": "api.command_share.unshare_confirmation.hint",
+    "translation": "'Y' vagy 'N'"
+  },
+  {
+    "id": "api.command_share.unshare_confirmation.help",
+    "translation": "Visszavonja az aktuális csatorna megosztását"
+  },
+  {
+    "id": "api.command_share.unknown_action",
+    "translation": "Ismeretlen művelet: `{{.Action}}`. Elérhető műveletek: {{.Actions}}"
+  },
+  {
+    "id": "api.command_share.uninvite_remote_id.help",
+    "translation": "A távoli példány azonosítója a meghívás visszavonásához."
+  },
+  {
+    "id": "api.command_share.uninvite_remote.help",
+    "translation": "Visszavonja a távoli példány meghívását erről a megosztott csatornáról"
+  },
+  {
+    "id": "api.command_share.shared_channel_unshare.error",
+    "translation": "Ennek a csatornának a megosztását nem lehet visszavonni: {{.Error}}."
+  },
+  {
+    "id": "api.command_share.shared_channel_unavailable",
+    "translation": "Ez a csatorna már nincs megosztva."
+  },
+  {
+    "id": "api.command_share.shared_channel_not_deleted",
+    "translation": "A megosztott csatornát nem törölték: az `{{.Arg}}` értéknek `{{.Expected}}` kell lennie."
+  },
+  {
+    "id": "api.command_share.share_read_only.hint",
+    "translation": "[readonly] - 'Y' vagy 'N'. Alapértelmezés szerint 'N'"
+  },
+  {
+    "id": "api.command_share.share_read_only.help",
+    "translation": "A csatorna írásvédett módban lesz megosztva"
+  },
+  {
+    "id": "api.command_share.share_current",
+    "translation": "Ez a csatorna nem osztható meg: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.service_disabled",
+    "translation": "A megosztott csatornák szolgáltatás le van tiltva."
+  },
+  {
+    "id": "api.command_share.remote_uninvited",
+    "translation": "Távoli `{{.RemoteId}}` meghívása visszavonva."
+  },
+  {
+    "id": "api.command_share.remote_table_header",
+    "translation": "| Távoli | OldalURL | Leírás | írásvédett| InviteAccepted | Online | Utolsó szinkronizálás |"
+  },
+  {
+    "id": "api.command_share.remote_not_valid",
+    "translation": "Meg kell adnia egy érvényes távoli fürtöt a meghívás visszavonásához"
+  },
+  {
+    "id": "api.command_share.remote_id_invalid.error",
+    "translation": "A távoli fürt azonosítója érvénytelen: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.remote_id.help",
+    "translation": "Meglévő távoli példány azonosítója. Távoli példány hozzáadásához lásd a `remote` parancsot."
+  },
+  {
+    "id": "api.command_share.remote_already_invited",
+    "translation": "A távoli fürtöt már meghívták."
+  },
+  {
+    "id": "api.command_share.permission_required",
+    "translation": "A megosztott csatornák kezeléséhez `{{.Permission}}` engedélyre van szüksége."
+  },
+  {
+    "id": "api.command_share.not_shared_channel_unshare",
+    "translation": "Nem lehet visszavonni a megosztást egy olyan csatornáról, amely nincs megosztva."
+  },
+  {
+    "id": "api.command_share.no_remote_invited",
+    "translation": "Erre a megosztott csatornára nem hívtak meg távoliakat."
+  },
+  {
+    "id": "api.command_share.name",
+    "translation": "megosztás"
+  },
+  {
+    "id": "api.command_share.must_specify_valid_remote",
+    "translation": "Meg kell adnia egy érvényes távoli fürt azonosítót a meghíváshoz."
+  },
+  {
+    "id": "api.command_share.missing_action",
+    "translation": "Hiányzó művelet. Elérhető műveletek: {{.Actions}}"
+  },
+  {
+    "id": "api.command_share.invite_remote.help",
+    "translation": "Meghív egy távoli példányt az aktuális megosztott csatornára"
+  },
+  {
+    "id": "api.command_share.invitation_sent",
+    "translation": "Csatorna meghívót elküldtünk ide: `{{.Name}} {{.SiteURL}}`."
+  },
+  {
+    "id": "api.command_share.invalid_value.error",
+    "translation": "Érvénytelen érték a '{{.Arg}}' számára: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.hint",
+    "translation": "[action]"
+  },
+  {
+    "id": "api.command_share.fetch_remote_status.error",
+    "translation": "Nem sikerült lekérni a távoliak állapotát: {{.Error}}."
+  },
+  {
+    "id": "api.command_share.fetch_remote.error",
+    "translation": "Hiba történt a távoli fürtök lekérésekor: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.description_invite.hint",
+    "translation": "[description] - opcionális"
+  },
+  {
+    "id": "api.command_share.description_invite.help",
+    "translation": "A meghívó leírása"
+  },
+  {
+    "id": "api.command_share.desc",
+    "translation": "Megosztja az aktuális csatornát egy távoli Mattermost példánnyal."
+  },
+  {
+    "id": "api.command_share.could_not_uninvite.error",
+    "translation": "Nem sikerült visszavonni a meghívást `{{.RemoteId}} `: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.check_channel_exist.error",
+    "translation": "Hiba történt a megosztott csatorna létezésének ellenőrzése során: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.channel_status_id",
+    "translation": "A `{{.ChannelId}}` csatorna azonosító állapota"
+  },
+  {
+    "id": "api.command_share.channel_status.help",
+    "translation": "Megjeleníti ennek a megosztott csatornának az állapotát"
+  },
+  {
+    "id": "api.command_share.channel_shared",
+    "translation": "Ez a csatorna mostantól megosztott."
+  },
+  {
+    "id": "api.command_share.channel_remote_id_not_exists",
+    "translation": "Ehhez a csatornához nem létezik {{.RemoteId}} megosztott csatorna távoli azonosító ."
+  },
+  {
+    "id": "api.command_share.channel_purpose.hint",
+    "translation": "[purpose] - alapértelmezés szerint a csatorna célja"
+  },
+  {
+    "id": "api.command_share.channel_purpose.help",
+    "translation": "Csatorna célja távoli példányok számára"
+  },
+  {
+    "id": "api.command_share.channel_name.hint",
+    "translation": "[header] - alapértelmezés szerint a csatorna név"
+  },
+  {
+    "id": "api.command_share.channel_name.help",
+    "translation": "Csatorna név távoli példányok számára"
+  },
+  {
+    "id": "api.command_share.channel_invite_not_home.error",
+    "translation": "Nem lehet meghívni a távoli fürtöt máshonnan származó megosztott csatornára."
+  },
+  {
+    "id": "api.command_share.channel_invite.error",
+    "translation": "Hiba történt \"{{.Name}}\" meghívásakor erre a csatornára: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.channel_header.hint",
+    "translation": "[header] - alapértelmezés szerint a csatorna fejléc"
+  },
+  {
+    "id": "api.command_share.channel_display_name.help",
+    "translation": "Csatorna megjelenítési név távoli példányok számára"
+  },
+  {
+    "id": "api.command_share.channel_header.help",
+    "translation": "Csatornafejléc távoli példányok számára"
+  },
+  {
+    "id": "api.command_share.channel_display_name.hint",
+    "translation": "[displayname] - alapértelmezés szerint a csatorna megjelenítési név"
+  },
+  {
+    "id": "api.command_share.available_actions",
+    "translation": "Elérhető műveletek: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.unknown_action",
+    "translation": "Ismeretlen művelet `{{.Action}}`"
+  },
+  {
+    "id": "api.command_remote.status.help",
+    "translation": "Megjeleníti az összes távoli fürt állapotát"
+  },
+  {
+    "id": "api.command_remote.site_url_not_set",
+    "translation": "Az OldalURL nincs beállítva. Kérjük, állítsa be ezt a rendszerkonzolon keresztül."
+  },
+  {
+    "id": "api.command_remote.service_not_enabled",
+    "translation": "A Távoli fürt szolgáltatás nincs engedélyezve."
+  },
+  {
+    "id": "api.command_remote.service_disabled",
+    "translation": "A Távoli fürt szolgáltatás le van tiltva."
+  },
+  {
+    "id": "api.command_remote.remove_remote_id.help",
+    "translation": "A távoli fürt eltávolításának azonosítója"
+  },
+  {
+    "id": "api.command_remote.remove_remote.error",
+    "translation": "Nem sikerült eltávolítani a távoli fürtöt: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.remove.help",
+    "translation": "Eltávolít egy távoli fürtöt"
+  },
+  {
+    "id": "api.command_remote.remotes_not_found",
+    "translation": "Nem találhatóak távoli fürtök."
+  },
+  {
+    "id": "api.command_remote.remote_table_header",
+    "translation": "| Név | OldalURL | RemoteId | Meghívó elfogadva | Online | Utolsó ping |"
+  },
+  {
+    "id": "api.command_remote.remote_add_remove.help",
+    "translation": "Távoli fürtök hozzáadása / eltávolítása. Elérhető műveletek: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.permission_required",
+    "translation": "A távoli fürtök kezeléséhez \"{{.Permission}}\" engedélyre van szüksége."
+  },
+  {
+    "id": "api.command_remote.name.hint",
+    "translation": "Távoli fürt egyedi neve"
+  },
+  {
+    "id": "api.command_remote.name.help",
+    "translation": "Távoli fürt név"
+  },
+  {
+    "id": "api.command_remote.name",
+    "translation": "távoli"
+  },
+  {
+    "id": "api.command_remote.invite_summary",
+    "translation": "Küldje el a következő titkosított (AES256 + Base64) blobot a távoli webhely rendszergazdájának a jelszóval együtt. A meghívás elfogadásához a `{{.Command}}` perjel parancsot fogják használni.\n\n\"\n{{.Invitation}}\n\"\n\n** Győződjön meg róla, hogy a távoli webhely hozzáférhet a fürtjéhez a ** {{.SiteURL}} segítségével"
+  },
+  {
+    "id": "api.command_remote.missing_empty",
+    "translation": "Hiányzik vagy üres`{{.Arg}}`"
+  },
+  {
+    "id": "api.command_remote.missing_command",
+    "translation": "Hiányzó parancs. Elérhető műveletek: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.invite_password.hint",
+    "translation": "A meghívó titkosításához használt jelszó"
+  },
+  {
+    "id": "api.command_remote.invite_password.help",
+    "translation": "Meghívó jelszó"
+  },
+  {
+    "id": "api.command_remote.invite.help",
+    "translation": "Távoli fürt meghívása"
+  },
+  {
+    "id": "api.command_remote.invitation_created",
+    "translation": "Meghívó létrehozva."
+  },
+  {
+    "id": "api.command_remote.invitation.hint",
+    "translation": "A titkosított meghívás egy távoli fürtből"
+  },
+  {
+    "id": "api.command_remote.invitation.help",
+    "translation": "Meghívás a távoli fürtből"
+  },
+  {
+    "id": "api.command_remote.incorrect_password.error",
+    "translation": "Nem sikerült visszafejteni a meghívót. Helytelen jelszó vagy sérült meghívó: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.hint",
+    "translation": "[action]"
+  },
+  {
+    "id": "api.command_remote.fetch_status.error",
+    "translation": "Nem sikerült lekérni a távoli fürtöket: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.encrypt_invitation.error",
+    "translation": "Nem sikerült titkosítani a meghívót: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.displayname.hint",
+    "translation": "Távoli fürt megjelenítési neve"
+  },
+  {
+    "id": "api.command_remote.displayname.help",
+    "translation": "Távoli fürt megjelenítési név"
+  },
+  {
+    "id": "api.command_remote.desc",
+    "translation": "Távoli Mattermost fürtök meghívása fürtök közötti kommunikációhoz."
+  },
+  {
+    "id": "api.command_remote.decode_invitation.error",
+    "translation": "Nem sikerült dekódolni a meghívót: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.cluster_removed",
+    "translation": "Távoli fürt {{.RemoteId}} {{.Result}}."
+  },
+  {
+    "id": "api.command_remote.add_remote.error",
+    "translation": "Nem sikerült hozzáadni a távoli fürtöt: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept_invitation.error",
+    "translation": "Nem sikerült elfogadni a meghívót: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept_invitation",
+    "translation": "Meghívó elfogadva és megerősítve\nOldalURL: {{.SiteURL}}"
+  },
+  {
+    "id": "api.command_remote.accept.help",
+    "translation": "Fogadja el a távoli fürt meghívását"
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "Hiba a gyorsítótár érvénytelenítésében"
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "Nem sikerült visszaállítani az AuthData mezőt E-mailre."
   }
 ]
