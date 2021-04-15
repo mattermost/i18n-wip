@@ -663,7 +663,7 @@
   "permalink.show_dialog_warn.title": "Csatlakozás privát csatornához",
   "apps.error.parser.missing_field_value": "A mező értéke hiányzik.",
   "apps.error.parser.empty_value": "az üres értékek nem megengedettek",
-  "apps.error.parser": "Elemzési hiba: {error}.\n```\n{parancs}\n{space} ^\n```",
+  "apps.error.parser": "Elemzési hiba: {error}.",
   "apps.error.lookup.error_preparing_request": "Hiba a keresési kérelem előkészítése során",
   "apps.error.form.submit.pretext": "Hiba történt a modál elküldése során. Lépjen kapcsolatba az alkalmazás fejlesztőjével. Részletek: {details}",
   "apps.error.form.refresh_no_refresh": "Frissítést hívott egy nem frissítés mezőn.",
@@ -693,10 +693,14 @@
   "apps.error.parser.no_slash_start": "A parancsnak `/` -al kell kezdődnie.",
   "apps.error.parser.no_match": "`{command}`: Nem található egyező parancs ebben a munkaterületben.",
   "apps.error.parser.no_bindings": "Nincsenek parancskötések.",
-  "apps.error.parser.no_argument_pos_x": "A parancs nem fogadja el a {positionX} pozíció argumentumokat.",
+  "apps.error.parser.no_argument_pos_x": "Nem sikerült azonosítani az argumentumot.",
   "apps.error.parser.multiple_equal": "Több `=` szimbólum nem engedélyezett.",
   "apps.error.parser.missing_tick": "Egyező idézőjel várható a bevitel vége elött.",
   "apps.error.parser.missing_quote": "Dupla idézőjel várható a bemenet vége előtt.",
   "apps.error.parser.missing_call": "Hiányzó kapcsolathívás.",
-  "apps.error.parser.missing_binding": "Hiányzó parancskötelékek."
+  "apps.error.parser.missing_binding": "Hiányzó parancskötelékek.",
+  "mobile.oauth.failed_to_open_link_no_browser": "A linket nem sikerült megnyitni. Kérjük, ellenőrizze, hogy van-e böngésző telepítve az aktuális helyre.",
+  "apps.suggestion.no_suggestion": "Nincsenek egyező javaslatok.",
+  "apps.suggestion.errors.parser_error": "Elemzési hiba",
+  "apps.suggestion.dynamic.error": "Dinamikus kiválasztás hiba"
 }
