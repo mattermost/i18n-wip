@@ -7960,7 +7960,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
-    "translation": "Gratulálunk - {{.WorkSpace}} munkaterülete készen áll a használatra!"
+    "translation": "A {{.WorkSpace}} munkaterület 14 napos próbaverziója készen áll a használatra!"
   },
   {
     "id": "api.templates.cloud_welcome_email.subtitle_info",
@@ -9065,5 +9065,109 @@
   {
     "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
     "translation": "Nem sikerült visszaállítani az AuthData mezőt E-mailre."
+  },
+  {
+    "id": "store.sql.convert_string_map",
+    "translation": "FromDb: Nem lehet átalakítani a StringMap -ot *string-re"
+  },
+  {
+    "id": "store.sql.convert_string_interface",
+    "translation": "FromDb: Nem lehet átalakítani a StringInterface-t *string-re"
+  },
+  {
+    "id": "store.sql.convert_string_array",
+    "translation": "FromDb: Nem lehet átalakítani a String Array-t *string-re"
+  },
+  {
+    "id": "sharedchannel.permalink.not_found",
+    "translation": "Ez a bejegyzés más csatornák állandó hivatkozásait tartalmazza, amelyek nem feltétlenül láthatók más webhelyek felhasználói számára."
+  },
+  {
+    "id": "sharedchannel.cannot_deliver_post",
+    "translation": "Egy vagy több bejegyzést nem sikerült eljuttatni a {{.Remote}} távoli webhelyre, mert offline állapotban van. A bejegyzés(ek) akkor lesznek kézbesítve, amikor a webhely online."
+  },
+  {
+    "id": "model.user.is_valid.marshal.app_error",
+    "translation": "Nem sikerült a mező kódolása JSON-ba"
+  },
+  {
+    "id": "model.config.is_valid.replica_mismatch.app_error",
+    "translation": "A replika késleltetési lekérdezések száma meghaladja a konfigurált replikák számát. A replikák számának kisebbnek vagy egyenlőnek kell lennie."
+  },
+  {
+    "id": "model.channel.is_valid.description.app_error",
+    "translation": "Érvénytelen leírás."
+  },
+  {
+    "id": "ent.ldap.app_error",
+    "translation": "Az ldap interfész nil volt."
+  },
+  {
+    "id": "ent.jobs.start_synchronize_job.timeout",
+    "translation": "Elérte az AD / LDAP szinkronizálási munka időtúllépését."
+  },
+  {
+    "id": "ent.data_retention.file_infos_batch.internal_error",
+    "translation": "Hiba történt a fájlinfók kötegének végleges törlése során."
+  },
+  {
+    "id": "ent.cluster.timeout.error",
+    "translation": "Időtúllépés a fürt válaszára várásnál"
+  },
+  {
+    "id": "ent.cluster.config_changed.info",
+    "translation": "A fürt konfigurációja megváltozott az id = {{.id}} domainnél. A fürt instabillá válhat, és újra kell indítani. A fürt helyes beállításának biztosítása érdekében azonnal végezzen gördülő újraindítást."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.parse_start_time.error",
+    "translation": "A Bleve indexelő munkás nem tudta elemezni a kezdési időt."
+  },
+  {
+    "id": "bleveengine.indexer.do_job.parse_end_time.error",
+    "translation": "A Bleve indexelő munkás nem tudta elemezni a befejezési időt."
+  },
+  {
+    "id": "app.submit_interactive_dialog.json_error",
+    "translation": "Hiba történt az interaktív párbeszédpanel JSON kódolásakor."
+  },
+  {
+    "id": "app.sharedchannel.dm_channel_creation.internal_error",
+    "translation": "Hiba történt közvetlen megosztott csatorna létrehozása közben."
+  },
+  {
+    "id": "app.plugin.manifest.app_error",
+    "translation": "Nem található a kibontott plugin manifestje."
+  },
+  {
+    "id": "app.plugin.cluster.save_config.app_error",
+    "translation": "A config.json fájl plugin konfigurációját manuálisan kell frissíteni, ha a fürtözés engedélyezett használata esetén használja a ReadOnlyConfig programot."
+  },
+  {
+    "id": "api.user.cloud_trial_ending_email.error",
+    "translation": "Nem sikerült elküldeni a próbaidőszak végére figyelmeztető e-mailt"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.title",
+    "translation": "A Mattermost ingyenes, 14 napos próbaverziója hamarosan véget ér"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.subtitle",
+    "translation": "{{.Username}}, a Mattermost Cloud Professional 14 napos próbaverziója 3 nap múlva ér véget, {{.TrialEnd}} napon. Kérjük, adja hozzá a fizetési adatait, hogy csapata továbbra is élvezhesse a Cloud Professional előnyeit."
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.subject",
+    "translation": "A Mattermost cloud próbaideje véget ér"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.add_payment_method",
+    "translation": "Fizetési mód hozzáadása"
+  },
+  {
+    "id": "api.command_share.unshare_channel.help",
+    "translation": "Visszavonja az aktuális csatorna megosztását"
+  },
+  {
+    "id": "api.command_share.share_channel.error",
+    "translation": "Nem osztható meg ez a csatorna: {{.Error}}"
   }
 ]
