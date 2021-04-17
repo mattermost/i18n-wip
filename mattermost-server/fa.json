@@ -4959,10 +4959,6 @@
     "translation": "تاریخ نصب تجزیه نشد."
   },
   {
-    "id": "app.team.analytics_private_team_count.app_error",
-    "translation": "شمارش تیم های خصوصی امکان پذیر نیست."
-  },
-  {
     "id": "app.team.analytics_public_team_count.app_error",
     "translation": "شمارش تیم های عمومی امکان پذیر نیست."
   },
@@ -4993,10 +4989,6 @@
   {
     "id": "app.team.get_all_private_team_listing.app_error",
     "translation": "ما نتوانستیم همه تیم های خصوصی را بدست آوریم."
-  },
-  {
-    "id": "app.team.get_all_private_team_page_listing.app_error",
-    "translation": "نمی توانیم همه تیم های خصوصی را در صفحه قرار دهیم."
   },
   {
     "id": "app.team.get_all_team_listing.app_error",
@@ -7645,10 +7637,6 @@
   {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "یافتن یک حساب موجود منطبق با اعتبار شما امکان پذیر نیست. این تیم ممکن است برای عضویت به دعوت مالک تیم احتیاج داشته باشد."
-  },
-  {
-    "id": "store.sql_user.update.email_taken.app_error",
-    "translation": "این ایمیل قبلا گرفته شده است. لطفاً دیگری را انتخاب کنید."
   },
   {
     "id": "system.message.name",

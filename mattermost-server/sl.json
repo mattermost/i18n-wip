@@ -48,10 +48,6 @@
     "translation": "Pogojev storitve ni mogoče izbrisati."
   },
   {
-    "id": "store.sql_user.update.email_taken.app_error",
-    "translation": "To e-poštno sporočilo je že zasedeno. Izberite drugo."
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Ni mogoče najti obstoječega računa, ki se ujema z vašimi poverilnicami. Ta ekipa lahko potrebuje vabilo lastnika ekipe za pridružitev."
   },

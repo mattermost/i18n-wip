@@ -464,10 +464,6 @@
     "translation": "Virheellinen tiimin ID"
   },
   {
-    "id": "store.sql_user.update.email_taken.app_error",
-    "translation": "Sähköposti on jo käytössä. Valitse toinen."
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Ei löydetty olemassaolevaa tiliä jolla tunnuksesi. Tiimi voi vaatia kutsun tiiminomistajalta ennen liittymistä."
   },

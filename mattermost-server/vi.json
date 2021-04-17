@@ -112,10 +112,6 @@
     "translation": "Không thể xóa điều khoản dịch vụ."
   },
   {
-    "id": "store.sql_user.update.email_taken.app_error",
-    "translation": "E-mail này đã được sử dụng. Vui lòng chọn cái khác."
-  },
-  {
     "id": "store.sql_user.get_for_login.app_error",
     "translation": "Không thể tìm thấy một tài khoản hiện có phù hợp với thông tin của bạn. Đội này có thể yêu cầu lời mời từ chủ nhóm để tham gia."
   },
