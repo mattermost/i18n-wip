@@ -4959,10 +4959,6 @@
     "translation": "تاریخ نصب تجزیه نشد."
   },
   {
-    "id": "app.team.analytics_public_team_count.app_error",
-    "translation": "شمارش تیم های عمومی امکان پذیر نیست."
-  },
-  {
     "id": "app.team.analytics_team_count.app_error",
     "translation": "شمارش تیم ها امکان پذیر نیست."
   },

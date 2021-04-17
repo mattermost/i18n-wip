@@ -5971,10 +5971,6 @@
     "translation": "Nem sikerült megszámolni a csapatokat."
   },
   {
-    "id": "app.team.analytics_private_team_count.app_error",
-    "translation": "Nem sikerült megszámolni a privát csapatokat."
-  },
-  {
     "id": "app.system_install_date.parse_int.app_error",
     "translation": "Nem sikerült értelmezni a telepítési dátumot."
   },

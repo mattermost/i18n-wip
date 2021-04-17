@@ -2756,10 +2756,6 @@
     "translation": "Unable to count the teams."
   },
   {
-    "id": "app.team.analytics_private_team_count.app_error",
-    "translation": "Unable to count the private teams."
-  },
-  {
     "id": "app.system_install_date.parse_int.app_error",
     "translation": "Failed to parse installation date."
   },
