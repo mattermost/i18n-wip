@@ -9241,9 +9241,5 @@
   {
     "id": "api.templates.cloud_trial_ending_email.add_payment_method",
     "translation": "Add payment method"
-  },
-  {
-    "id": "ent.data_retention.policies.internal_error",
-    "translation": "Error encountered whilst performing the requested operation."
   }
 ]
