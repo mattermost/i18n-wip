@@ -9075,10 +9075,6 @@
     "translation": "Nem sikerült a mező kódolása JSON-ba"
   },
   {
-    "id": "model.config.is_valid.replica_mismatch.app_error",
-    "translation": "A replika késleltetési lekérdezések száma meghaladja a konfigurált replikák számát. A replikák számának kisebbnek vagy egyenlőnek kell lennie."
-  },
-  {
     "id": "model.channel.is_valid.description.app_error",
     "translation": "Érvénytelen leírás."
   },
