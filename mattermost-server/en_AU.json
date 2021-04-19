@@ -113,7 +113,7 @@
   },
   {
     "id": "web.error.unsupported_browser.browser_title.firefox",
-    "translation": "Firefox"
+    "translation": "Mozilla Firefox"
   },
   {
     "id": "web.error.unsupported_browser.browser_title.edge",
@@ -125,15 +125,15 @@
   },
   {
     "id": "web.error.unsupported_browser.browser_get_latest.safari",
-    "translation": "Get the latest Safari browser"
+    "translation": "Get the latest version of Safari"
   },
   {
     "id": "web.error.unsupported_browser.browser_get_latest.firefox",
-    "translation": "Get the latest Firefox browser"
+    "translation": "Get the latest version of Firefox"
   },
   {
     "id": "web.error.unsupported_browser.browser_get_latest.chrome",
-    "translation": "Get the latest Chrome browser"
+    "translation": "Get the latest version of Chrome"
   },
   {
     "id": "web.command_webhook.parse.app_error",
@@ -1029,7 +1029,7 @@
   },
   {
     "id": "migrations.system.save.app_error",
-    "translation": "We encountered an error saving the system property."
+    "translation": "An error occurred while saving the system property."
   },
   {
     "id": "mfa.validate_token.authenticate.app_error",
@@ -1173,15 +1173,15 @@
   },
   {
     "id": "ent.saml.do_login.invalid_time.app_error",
-    "translation": "We received an invalid time in the response from the Identity Provider. Please contact your System Administrator."
+    "translation": "An invalid time in the response from the Identity Provider was received. Please contact your System Administrator."
   },
   {
     "id": "ent.saml.do_login.invalid_signature.app_error",
-    "translation": "We received an invalid signature in the response from the Identity Provider. Please contact your System Administrator."
+    "translation": "An invalid signature in the response from the Identity Provider was received. Please contact your System Administrator."
   },
   {
     "id": "ent.saml.do_login.empty_response.app_error",
-    "translation": "We received an empty response from the Identity Provider."
+    "translation": "An empty response from the Identity Provider was received."
   },
   {
     "id": "ent.saml.do_login.decrypt.app_error",
@@ -1725,7 +1725,7 @@
   },
   {
     "id": "app.user_access_token.search.app_error",
-    "translation": "We encountered an error searching user access tokens."
+    "translation": "An error occurred while searching user access tokens."
   },
   {
     "id": "app.user_access_token.save.app_error",
@@ -1789,7 +1789,7 @@
   },
   {
     "id": "app.user.update.finding.app_error",
-    "translation": "We encountered an error finding the account."
+    "translation": "An error occurred while finding the account."
   },
   {
     "id": "app.user.update.find.app_error",
@@ -1841,11 +1841,11 @@
   },
   {
     "id": "app.user.get_unread_count.app_error",
-    "translation": "We could not get the unread message count for the user."
+    "translation": "Could not get the unread message count for the user."
   },
   {
     "id": "app.user.get_total_users_count.app_error",
-    "translation": "We could not count the users."
+    "translation": "Could not count the users."
   },
   {
     "id": "app.user.get_threads_for_user.not_found",
@@ -1857,19 +1857,19 @@
   },
   {
     "id": "app.user.get_recently_active_users.app_error",
-    "translation": "We encountered an error while finding the recently active users."
+    "translation": "An error occurred while finding the recently active users."
   },
   {
     "id": "app.user.get_profiles.app_error",
-    "translation": "We encountered an error while finding user profiles."
+    "translation": "An error occurred while finding user profiles."
   },
   {
     "id": "app.user.get_profile_by_group_channel_ids_for_user.app_error",
-    "translation": "We encountered an error while finding user profiles."
+    "translation": "An error occurred while finding user profiles."
   },
   {
     "id": "app.user.get_new_users.app_error",
-    "translation": "We encountered an error while finding the new users."
+    "translation": "An error occurred while finding the new users."
   },
   {
     "id": "app.user.get_known_users.get_users.app_error",
@@ -1881,7 +1881,7 @@
   },
   {
     "id": "app.user.get_by_auth.other.app_error",
-    "translation": "We encountered an error trying to find the account by authentication type."
+    "translation": "An error occurred while trying to find the account by authentication type."
   },
   {
     "id": "app.user.get_by_auth.missing_account.app_error",
@@ -1889,7 +1889,7 @@
   },
   {
     "id": "app.user.get.app_error",
-    "translation": "We encountered an error finding the account."
+    "translation": "An error occurred while finding the account."
   },
   {
     "id": "app.user.demote_user_to_guest.user_update.app_error",
@@ -1905,7 +1905,7 @@
   },
   {
     "id": "app.user.analytics_get_inactive_users_count.app_error",
-    "translation": "We could not count the inactive users."
+    "translation": "An error occurred while counting the inactive users."
   },
   {
     "id": "app.user.analytics_daily_active_users.app_error",
@@ -1997,7 +1997,7 @@
   },
   {
     "id": "app.team.update.updating.app_error",
-    "translation": "We encountered an error updating the team."
+    "translation": "An error occurred while updating the team."
   },
   {
     "id": "app.team.update.find.app_error",
@@ -2005,15 +2005,15 @@
   },
   {
     "id": "app.team.search_private_team.app_error",
-    "translation": "We encountered an error searching private teams."
+    "translation": "An error occurred while searching private teams."
   },
   {
     "id": "app.team.search_open_team.app_error",
-    "translation": "We encountered an error searching open teams."
+    "translation": "An error occurred while searching open teams."
   },
   {
     "id": "app.team.search_all_team.app_error",
-    "translation": "We encountered an error searching teams."
+    "translation": "An error occurred while searching teams."
   },
   {
     "id": "app.team.save_member.save.app_error",
@@ -2029,7 +2029,7 @@
   },
   {
     "id": "app.team.reset_all_team_schemes.app_error",
-    "translation": "We could not reset the team schemes."
+    "translation": "An error occurred while resetting the team schemes."
   },
   {
     "id": "app.team.rename_team.name_occupied",
@@ -2413,7 +2413,7 @@
   },
   {
     "id": "model.config.is_valid.websocket_url.app_error",
-    "translation": "Websocket URL must be a valid URL and start with ws:// or wss://."
+    "translation": "WebSocket URL must be a valid URL and start with ws:// or wss://."
   },
   {
     "id": "model.config.is_valid.webserver_security.app_error",
@@ -2725,15 +2725,15 @@
   },
   {
     "id": "app.team.get_all_team_listing.app_error",
-    "translation": "We could not get all teams."
+    "translation": "Could not get all teams."
   },
   {
     "id": "app.team.get_all_private_team_listing.app_error",
-    "translation": "We could not get all private teams."
+    "translation": "Could not get all private teams."
   },
   {
     "id": "app.team.get_all.app_error",
-    "translation": "We could not get all teams."
+    "translation": "Could not get all teams."
   },
   {
     "id": "app.team.get_active_member_count.app_error",
@@ -2741,7 +2741,7 @@
   },
   {
     "id": "app.team.get.finding.app_error",
-    "translation": "We encountered an error finding the team."
+    "translation": "An error occurred while finding the team."
   },
   {
     "id": "app.team.get.find.app_error",
@@ -2781,11 +2781,11 @@
   },
   {
     "id": "app.system.save.app_error",
-    "translation": "We encountered an error saving the system property."
+    "translation": "An error occurred while saving the system property."
   },
   {
     "id": "app.system.permanent_delete_by_name.app_error",
-    "translation": "We could not permanently delete the system table entry."
+    "translation": "The system table entry could not be permanently deleted."
   },
   {
     "id": "app.system.get_by_name.app_error",
@@ -2793,7 +2793,7 @@
   },
   {
     "id": "app.system.get.app_error",
-    "translation": "We encountered an error finding the system properties."
+    "translation": "An error occurred while retrieving the system properties."
   },
   {
     "id": "app.submit_interactive_dialog.json_error",
@@ -2833,11 +2833,11 @@
   },
   {
     "id": "app.session.get_sessions.app_error",
-    "translation": "We encountered an error while finding user sessions."
+    "translation": "An error occurred while retrieving user sessions."
   },
   {
     "id": "app.session.get.app_error",
-    "translation": "We encountered an error finding the session."
+    "translation": "An error occurred while finding the session."
   },
   {
     "id": "app.session.analytics_session_count.app_error",
@@ -2861,7 +2861,7 @@
   },
   {
     "id": "app.scheme.permanent_delete_all.app_error",
-    "translation": "We could not permanently delete the schemes."
+    "translation": "All schemes could not be permanently deleted."
   },
   {
     "id": "app.scheme.get.app_error",
@@ -2885,7 +2885,7 @@
   },
   {
     "id": "app.role.permanent_delete_all.app_error",
-    "translation": "We could not permanently delete all the roles."
+    "translation": "All roles could not be permanently deleted."
   },
   {
     "id": "app.role.get_by_names.app_error",
@@ -3153,7 +3153,7 @@
   },
   {
     "id": "app.oauth.update_app.updating.app_error",
-    "translation": "We encountered an error updating the app."
+    "translation": "An error occurred while updating the app."
   },
   {
     "id": "app.oauth.update_app.find.app_error",
@@ -3185,7 +3185,7 @@
   },
   {
     "id": "app.oauth.get_app.finding.app_error",
-    "translation": "We encountered an error finding the app."
+    "translation": "An error occurred while finding the app."
   },
   {
     "id": "app.oauth.get_app.find.app_error",
@@ -3193,7 +3193,7 @@
   },
   {
     "id": "app.oauth.get_access_data_by_user_for_app.app_error",
-    "translation": "We encountered an error finding all the access tokens."
+    "translation": "An error occurred while finding all the access tokens."
   },
   {
     "id": "app.oauth.delete_app.app_error",
@@ -3729,11 +3729,11 @@
   },
   {
     "id": "ent.data_retention.reactions_batch.internal_error",
-    "translation": "We encountered an error permanently deleting the batch of reactions."
+    "translation": "An error occurred while permanently deleting the batch of reactions."
   },
   {
     "id": "ent.data_retention.posts_permanent_delete_batch.internal_error",
-    "translation": "We encountered an error permanently deleting the batch of posts."
+    "translation": "An error occurred while permanently deleting the batch of posts."
   },
   {
     "id": "ent.data_retention.generic.license.error",
@@ -3741,11 +3741,11 @@
   },
   {
     "id": "ent.data_retention.flags_batch.internal_error",
-    "translation": "We encountered an error cleaning up the batch of flags."
+    "translation": "An error occurred while cleaning up the batch of flags."
   },
   {
     "id": "ent.data_retention.file_infos_batch.internal_error",
-    "translation": "We encountered an error permanently deleting the batch of file infos."
+    "translation": "An error occurred while permanently deleting the batch of file infos."
   },
   {
     "id": "ent.data_retention.channel_member_history_batch.internal_error",
@@ -3837,7 +3837,7 @@
   },
   {
     "id": "ent.cluster.model.client.connecting.app_error",
-    "translation": "We encountered an error while connecting to the server."
+    "translation": "An error occurred while connecting to the server."
   },
   {
     "id": "ent.cluster.json_encode.error",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "cli.outgoing_webhook.inconsistent_state.app_error",
-    "translation": "The outgoing webhook is deleted but unable to create a new one due to some error."
+    "translation": "The outgoing webhook is deleted but unable to create a new one due to an error."
   },
   {
     "id": "cli.license.critical",
@@ -4193,7 +4193,7 @@
   },
   {
     "id": "app.emoji.get_by_name.no_result",
-    "translation": "We couldn’t find the emoji."
+    "translation": "The emoji could not be found."
   },
   {
     "id": "app.emoji.get_by_name.app_error",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "app.emoji.get.no_result",
-    "translation": "We couldn’t find the emoji."
+    "translation": "The emoji could not be found."
   },
   {
     "id": "app.emoji.get.app_error",
@@ -4209,7 +4209,7 @@
   },
   {
     "id": "app.emoji.delete.no_results",
-    "translation": "We couldn’t find the emoji to delete."
+    "translation": "The emoji for deletion could not be found."
   },
   {
     "id": "app.emoji.delete.app_error",
@@ -4245,11 +4245,11 @@
   },
   {
     "id": "app.compliance.save.saving.app_error",
-    "translation": "We encountered an error saving the compliance report."
+    "translation": "An error occurred while saving the compliance report."
   },
   {
     "id": "app.compliance.get.finding.app_error",
-    "translation": "We encountered an error retrieving the compliance reports."
+    "translation": "An error occurred while retrieving the compliance reports."
   },
   {
     "id": "app.command_webhook.try_use.invalid",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "app.channel.search.app_error",
-    "translation": "We encountered an error searching channels."
+    "translation": "An error occurred while searching channels."
   },
   {
     "id": "app.channel.save_member.exists.app_error",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": "app.channel.reset_all_channel_schemes.app_error",
-    "translation": "We could not reset the channel schemes."
+    "translation": "An error occurred while resetting the channel schemes."
   },
   {
     "id": "app.channel.remove_member.app_error",
@@ -4377,7 +4377,7 @@
   },
   {
     "id": "app.channel.remove_all_deactivated_members.app_error",
-    "translation": "We could not remove the deactivated users from the channel."
+    "translation": "The deactivated users could not be removed from the channel."
   },
   {
     "id": "app.channel.post_update_channel_purpose_message.updated_to",
@@ -4533,7 +4533,7 @@
   },
   {
     "id": "app.channel.get.find.app_error",
-    "translation": "We encountered an error finding the channel."
+    "translation": "An error occurred while finding the channel."
   },
   {
     "id": "app.channel.get.existing.app_error",
@@ -4605,11 +4605,11 @@
   },
   {
     "id": "app.audit.save.saving.app_error",
-    "translation": "We encountered an error saving the audit."
+    "translation": "An error occurred while saving the audit."
   },
   {
     "id": "app.audit.permanent_delete_by_user.app_error",
-    "translation": "We encountered an error deleting the audits."
+    "translation": "An error occurred while deleting the audits."
   },
   {
     "id": "app.audit.get.limit.app_error",
@@ -4617,7 +4617,7 @@
   },
   {
     "id": "app.audit.get.finding.app_error",
-    "translation": "We encountered an error finding the audits."
+    "translation": "An error occurred while finding the audits."
   },
   {
     "id": "app.analytics.getanalytics.internal_error",
@@ -4685,7 +4685,7 @@
   },
   {
     "id": "api.web_socket_router.no_action.app_error",
-    "translation": "No websocket action."
+    "translation": "No WebSocket action."
   },
   {
     "id": "api.web_socket_router.bad_seq.app_error",
@@ -4697,7 +4697,7 @@
   },
   {
     "id": "api.web_socket.connect.upgrade.app_error",
-    "translation": "Failed to upgrade websocket connection."
+    "translation": "Failed to upgrade WebSocket connection."
   },
   {
     "id": "api.user.verify_email.token_parse.error",
@@ -4793,27 +4793,27 @@
   },
   {
     "id": "app.preference.save.updating.app_error",
-    "translation": "We encountered an error while updating preferences."
+    "translation": "An error occurred while updating preferences."
   },
   {
     "id": "app.preference.permanent_delete_by_user.app_error",
-    "translation": "We encountered an error while deleting preferences."
+    "translation": "An error occurred while deleting preferences."
   },
   {
     "id": "app.preference.get_category.app_error",
-    "translation": "We encountered an error while finding preferences."
+    "translation": "An error occurred while finding preferences."
   },
   {
     "id": "app.preference.get_all.app_error",
-    "translation": "We encountered an error while finding preferences."
+    "translation": "An error occurred while finding preferences."
   },
   {
     "id": "app.preference.get.app_error",
-    "translation": "We encountered an error while finding preferences."
+    "translation": "An error occurred while finding preferences."
   },
   {
     "id": "app.preference.delete.app_error",
-    "translation": "We encountered an error while deleting preferences."
+    "translation": "An error occurred while deleting preferences."
   },
   {
     "id": "app.post.update.app_error",
@@ -4857,7 +4857,7 @@
   },
   {
     "id": "api.user.update_password.valid_account.app_error",
-    "translation": "Update password failed because we couldn't find a valid account."
+    "translation": "Update password failed because a valid account does not exist."
   },
   {
     "id": "api.user.update_password.user_and_hashed.app_error",
@@ -5505,7 +5505,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "Your Mattermost Cloud invoice for the most recent billing period has been processed. However, we don't have your payment details on file."
+    "translation": "Your Mattermost Cloud invoice for the most recent billing period has been processed. However, you may need to re-enter your payment information."
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -6591,7 +6591,7 @@
   },
   {
     "id": "api.context.404.app_error",
-    "translation": "Sorry, we could not find the page."
+    "translation": "Page not found."
   },
   {
     "id": "api.config.update_config.restricted_merge.app_error",
@@ -6687,7 +6687,7 @@
   },
   {
     "id": "api.command_remove.missing.app_error",
-    "translation": "We couldn't find the user. They may have been deactivated by the System Administrator."
+    "translation": "Couldn't find a matching user. They may have been deactivated by the System Administrator."
   },
   {
     "id": "api.command_remove.message.app_error",
@@ -6927,7 +6927,7 @@
   },
   {
     "id": "api.command_invite.missing_user.app_error",
-    "translation": "We couldn't find the user. They may have been deactivated by the System Administrator."
+    "translation": "Couldn't find a matching user. They may have been deactivated by the System Administrator."
   },
   {
     "id": "api.command_invite.missing_message.app_error",
@@ -7946,7 +7946,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "Your Mattermost system has a large number of messages. The default Mattermost database search starts to show performance degradation at around 2.5 million posts. With over 5 million posts, Elasticsearch can help avoid significant performance issues, such as timeouts, with search and at-mentions. Contact us to learn more and let us know how we can help.\n\n[Learn more about improving performance](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nBy clicking Start trial, I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
+    "translation": "Your Mattermost system has a large number of messages. The default Mattermost database search starts to show performance degradation at around 2.5 million posts. With over 5 million posts, Elasticsearch can help avoid significant performance issues, such as timeouts, with search and at-mentions. Contact us to learn more and let us know how we can help.\n\n[Learn more about improving performance](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nBy clicking 'Start Trial', I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
@@ -7954,7 +7954,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "Your Mattermost system has a large number of messages. The default Mattermost database search starts to show performance degradation at around 2.5 million posts. With over 5 million posts, Elasticsearch can help avoid significant performance issues, such as timeouts, with search and at-mentions. Contact us to learn more and let us know how we can help.\n\n[Learn more about improving performance](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nBy clicking Contact Us, you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Your Mattermost system has a large number of messages. The default Mattermost database search starts to show performance degradation at around 2.5 million posts. With over 5 million posts, Elasticsearch can help avoid significant performance issues, such as timeouts, with search and at-mentions. Contact us to learn more and let us know how we can help.\n\n[Learn more about improving performance](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nBy clicking 'Contact Us', you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
@@ -7966,7 +7966,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "Channels help improve communication, but with users across Mattermost joining and creating channels, the challenge of keeping the system organised increases. Advanced Permissions enable you to set which users or roles can perform certain actions, including managing channel settings and members, using @channel or @here to tag broad groups of users, and creating new webhooks.\n\n[Learn more about using Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nBy clicking Start trial, I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
+    "translation": "Channels help improve communication, but with users across Mattermost joining and creating channels, the challenge of keeping the system organised increases. Advanced Permissions enable you to set which users or roles can perform certain actions, including managing channel settings and members, using @channel or @here to tag broad groups of users, and creating new webhooks.\n\n[Learn more about using Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nBy clicking 'Start Trial', I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_title",
@@ -7974,7 +7974,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Channels help improve communication, but with users across Mattermost joining and creating channels, the challenge of keeping the system organised increases. Advanced Permissions enable you to set which users or roles can perform certain actions, including managing channel settings and members, using @channel or @here to tag broad groups of users, and creating new webhooks.\n\n[Learn more about using Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nBy clicking Contact Us, you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Channels help improve communication, but with users across Mattermost joining and creating channels, the challenge of keeping the system organised increases. Advanced Permissions enable you to set which users or roles can perform certain actions, including managing channel settings and members, using @channel or @here to tag broad groups of users, and creating new webhooks.\n\n[Learn more about using Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nBy clicking 'Contact Us', you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
@@ -7986,7 +7986,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "Mattermost strongly recommends that deployments of over 500 users take advantage of features such as user management, server clustering and performance monitoring. Contact us to learn more and let us know how we can help.\n\nBy clicking Start trial, I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
+    "translation": "Mattermost strongly recommends that deployments of over 500 users take advantage of features such as user management, server clustering and performance monitoring. Contact us to learn more and let us know how we can help.\n\nBy clicking 'Start Trial', I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
@@ -7994,7 +7994,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost strongly recommends that deployments of over 500 users take advantage of features such as user management, server clustering and performance monitoring. Contact us to learn more and let us know how we can help.\n\nBy clicking Contact Us, you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Mattermost strongly recommends that deployments of over 500 users take advantage of features such as user management, server clustering and performance monitoring. Contact us to learn more and let us know how we can help.\n\nBy clicking 'Contact Us', you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
@@ -8026,7 +8026,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "Your Mattermost system now has 200 users. When you connect Mattermost with your organisation's single sign-on provider, users can access Mattermost without having to re-enter their credentials. We recommend you integrate your SAML 2.0 provider with your Mattermost server.[Learn more about integrating with SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nBy clicking Start trial, I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
+    "translation": "Your Mattermost system now has 200 users. When you connect Mattermost with your organisation's single sign-on provider, users can access Mattermost without having to re-enter their credentials. We recommend you integrate your SAML 2.0 provider with your Mattermost server.[Learn more about integrating with SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nBy clicking 'Start Trial', I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
@@ -8034,7 +8034,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Your Mattermost system now has 200 users. When you connect Mattermost with your organisation's single sign-on provider, users can access Mattermost without having to re-enter their credentials. We recommend you integrate your SAML 2.0 provider with your Mattermost server.[Learn more about integrating with SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nBy clicking Contact Us, you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Your Mattermost system now has 200 users. When you connect Mattermost with your organisation's single sign-on provider, users can access Mattermost without having to re-enter their credentials. We recommend you integrate your SAML 2.0 provider with your Mattermost server.[Learn more about integrating with SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nBy clicking 'Contact Us', you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
@@ -8046,7 +8046,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "Your Mattermost system has over 100 users. As your user base grows, provisioning new accounts can become time-consuming. We recommend that you integrate your organisation’s Active Directory/LDAP, which will allow anyone with an account to access Mattermost.\n\n[Learn more about integrating with AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nBy clicking Start trial, I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
+    "translation": "Your Mattermost system has over 100 users. As your user base grows, provisioning new accounts can become time-consuming. We recommend that you integrate your organisation’s Active Directory/LDAP, which will allow anyone with an account to access Mattermost.\n\n[Learn more about integrating with AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nBy clicking 'Start Trial', I agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
@@ -8054,7 +8054,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Your Mattermost system has over 100 users. As your user base grows, provisioning new accounts can become time-consuming. We recommend that you integrate your organisation’s Active Directory/LDAP, which will allow anyone with an account to access Mattermost.\n\n[Learn more about integrating with AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nBy clicking Contact Us, you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Your Mattermost system has over 100 users. As your user base grows, provisioning new accounts can become time-consuming. We recommend that you integrate your organisation’s Active Directory/LDAP, which will allow anyone with an account to access Mattermost.\n\n[Learn more about integrating with AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nBy clicking 'Contact Us', you'll be sharing your information with Mattermost, Inc. [Learn more](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
@@ -8796,7 +8796,7 @@
   },
   {
     "id": "api.remote_cluster.update.app_error",
-    "translation": "We encountered an error updating the remote cluster."
+    "translation": "An error occurred while updating the remote cluster."
   },
   {
     "id": "api.remote_cluster.service_not_enabled.app_error",
@@ -8808,7 +8808,7 @@
   },
   {
     "id": "api.remote_cluster.save.app_error",
-    "translation": "We encountered an error saving the remote cluster."
+    "translation": "An error occurred while saving the remote cluster."
   },
   {
     "id": "api.remote_cluster.invalid_topic.app_error",
@@ -8820,11 +8820,11 @@
   },
   {
     "id": "api.remote_cluster.get.app_error",
-    "translation": "We encountered an error retrieving a remote cluster."
+    "translation": "An error occurred while retrieving a remote cluster."
   },
   {
     "id": "api.remote_cluster.delete.app_error",
-    "translation": "We encountered an error deleting the remote cluster."
+    "translation": "An error occurred while deleting the remote cluster."
   },
   {
     "id": "api.context.remote_id_missing.app_error",
@@ -9241,5 +9241,17 @@
   {
     "id": "api.templates.cloud_trial_ending_email.add_payment_method",
     "translation": "Add payment method"
+  },
+  {
+    "id": "app.team.get_all_private_team_page_listing.app_error",
+    "translation": "Could not get all private teams in page."
+  },
+  {
+    "id": "app.team.analytics_public_team_count.app_error",
+    "translation": "Unable to count the public teams."
+  },
+  {
+    "id": "app.team.analytics_private_team_count.app_error",
+    "translation": "Unable to count the private teams."
   }
 ]
