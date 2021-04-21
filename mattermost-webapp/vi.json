@@ -434,8 +434,6 @@
   "admin.cluster.StreamingPort": "Cổng truyền trực tuyến:",
   "admin.cluster.StreamingPortDesc": "Cổng được sử dụng để truyền dữ liệu giữa các máy chủ.",
   "admin.cluster.StreamingPortEx": "Ví dụ: \"8075\"",
-  "admin.cluster.UseExperimentalGossip": "Sử dụng Gossip:",
-  "admin.cluster.UseExperimentalGossipDesc": "Khi đúng, máy chủ sẽ cố gắng giao tiếp qua giao thức gossip qua cổng gossip. Khi false, máy chủ sẽ cố gắng giao tiếp qua cổng trực tuyến. Khi false, cổng và giao thức gossip vẫn được sử dụng để xác định tình trạng cụm.",
   "admin.cluster.UseIpAddress": "Sử dụng Địa chỉ IP:",
   "admin.cluster.UseIpAddressDesc": "Khi đúng, cụm sẽ cố gắng giao tiếp qua Địa chỉ IP so với sử dụng tên máy chủ.",
   "admin.cluster.enableDescription": "Khi đúng, Mattermost sẽ chạy ở chế độ Tính sẵn sàng cao. Vui lòng xem [tài liệu] (! http://docs.mattermost.com/deployment/cluster.html) để tìm hiểu thêm về cách định cấu hình Tính khả dụng cao cho Mattermost.",

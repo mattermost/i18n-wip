@@ -460,8 +460,6 @@
   "admin.cluster.StreamingPort": "Jeltovábbítási port:",
   "admin.cluster.StreamingPortDesc": "A szerverek közötti adatátvitelhez használt port.",
   "admin.cluster.StreamingPortEx": "Pl.: \"8075\"",
-  "admin.cluster.UseExperimentalGossip": "Gossip használata:",
-  "admin.cluster.UseExperimentalGossipDesc": "Ha igaz, a szerver megpróbál kommunikálni a gossip protokollon keresztül a gossip porton keresztül. Ha hamis, akkor a szerver megpróbál kommunikálni a jeltovábbítás porton. Ha hamis, akkor még mindig a gossip portot és a protokollt használják a fürt állapotának meghatározásához.",
   "admin.cluster.UseIpAddress": "IP-cím használata:",
   "admin.cluster.UseIpAddressDesc": "Ha igaz, a fürt megkísérli az IP-címen keresztül kommunikálni a hosztnév használatával.",
   "admin.cluster.enableDescription": "Ha igaz, Mattermost magas rendelkezésre állású módban fog futni. Lásd a (!https://docs.mattermost.com/deployment/cluster.html) [dokumentációt] hogy többet tudj meg a magas elérhetőségű mód beállításáról.",

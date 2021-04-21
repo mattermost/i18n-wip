@@ -154,8 +154,6 @@
   "admin.cluster.StreamingPort": "Suoratoistoportti:",
   "admin.cluster.StreamingPortDesc": "Portti jota käytetään datan suoratoistoon palvelinten välillä.",
   "admin.cluster.StreamingPortEx": "Esim.: \"8075\"",
-  "admin.cluster.UseExperimentalGossip": "Käytä kokeilullista Gossipia:",
-  "admin.cluster.UseExperimentalGossipDesc": "Kun tosi, palvelin yrittää kommunikoida gossip-protokollalla gossip-portissa.  Kun epätosi palvelin yrittää kommunikoida suoratoistoportissa. Kun epätosi, gossip-porttia ja protokollaa käytetään yhä klusterin kunnon tarkistukseen.",
   "admin.cluster.UseIpAddress": "Käytä IP-osoitetta:",
   "admin.cluster.UseIpAddressDesc": "Kun tosi, klusteri yrittää kommunikoida IP-osoitteen kautta, ei hostnamen.",
   "admin.cluster.enableDescription": "Kun tosi, Mattermost toimii Korkea Saatavuus -tilassa. Katso [dokumentaatiosta](!http://docs.mattermost.com/deployment/cluster.html) lisätietoja Korkean Saatavuuden asettamisesta Mattermostissa.",
