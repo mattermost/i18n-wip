@@ -315,8 +315,6 @@
   "admin.cluster.StreamingPort": "ნაკადის პორტი:",
   "admin.cluster.StreamingPortDesc": "ეს პორტი გამოიყენება სერვერებს შორის ნაკადების გადაცემისთვის.",
   "admin.cluster.StreamingPortEx": "მაგ.: \"8075\"",
-  "admin.cluster.UseExperimentalGossip": "ექსპერიმენტული Gossip-ის გამოყენება:",
-  "admin.cluster.UseExperimentalGossipDesc": "True-ს შემთხვევაში სერვერი შეეცდება კომუნიკაცია gossip პროტოკოლით gossip პორტით განახორციელოს. False-ის შემთხვევაში სერვერი ეცდება კომუნიკაცია ნაკადის პორტით განახორციელოს.  როცა False-ია მაშინ gossip პორტი და პროტოკოლი მაინც გამოიყენება კლასტერის ჯანმრთელობის შესამოწმებლად.",
   "admin.cluster.UseIpAddress": "IP მისამართის გამოყენება:",
   "admin.cluster.UseIpAddressDesc": "True-ს შემთხვევაში კლასტერი შეეცდება IP მისამართით დაამყაროს კომუნიკაცია ჰოსტის სახელის ნაცვლად.",
   "admin.cluster.enableDescription": "Ture-ს შემთხვევაში, Mattermost გაეშვება მაღალი ხემლისაწვდომობის რეჟიმში. გთხოვთ ნახეთ [დოკუმენტაცია](!http://docs.mattermost.com/deployment/cluster.html) to learn more about configuring High Availability for Mattermost.",

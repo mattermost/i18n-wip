@@ -434,8 +434,6 @@
   "admin.cluster.StreamingPort": "Streamovací port:",
   "admin.cluster.StreamingPortDesc": "Port používaný pro přenos dat mezi servery.",
   "admin.cluster.StreamingPortEx": "Např.: \"8075\"",
-  "admin.cluster.UseExperimentalGossip": "Použít Gossip:",
-  "admin.cluster.UseExperimentalGossipDesc": "Pokud je true, server se pokusí komunikovat přes gossip protokol přes port pro gossip.  Když je false, pokusí se komunikovat přes stream port. Když je false, gossip port a protokol je stále používán k určení stavu clusteru.",
   "admin.cluster.UseIpAddress": "Použít IP adresu:",
   "admin.cluster.UseIpAddressDesc": "Pokud je true, cluster se pokusí komunikovat prostřednictvím IP adresy vs pomocí názvu hostitele.",
   "admin.cluster.enableDescription": "Když pravda, Mattermost umožňuje běh v režimu vysoké dostupnosti, viz v [dokumentaci](!http://docs.mattermost.com/deployment/cluster.html) najdete další informace o konfiguraci vysoké dostupnosti pro Mattermost.",

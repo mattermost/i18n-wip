@@ -424,8 +424,6 @@
   "admin.cluster.StreamingPort": "Porto de fluxo de datos:",
   "admin.cluster.StreamingPortDesc": "O porto usado para o fluxo de datos entre servidores.",
   "admin.cluster.StreamingPortEx": "P. ex.: «8075»",
-  "admin.cluster.UseExperimentalGossip": "Usar o Gossip experimental:",
-  "admin.cluster.UseExperimentalGossipDesc": "Cando é verdadeiro, o servidor tentará comunicarse mediante o protocolo Gossip e a través do porto Gossip. Cando é falso, o servidor tentará comunicarse a través do porto de fluxo de datos. Cando é falso, seguirán a usarse o porto e o protocolo Gossip para determinar a saúde do clúster.",
   "admin.cluster.UseIpAddress": "Usar o enderezo IP:",
   "admin.cluster.UseIpAddressDesc": "Cando é verdadeiro, o clúster tentará comunicarse a través do enderezo IP ou usando o nome de máquina.",
   "admin.cluster.enableDescription": "Cando é verdadeiro, Mattermost executarase no modo de alta dispoñibilidade. Consulte [documentación](!http://docs.mattermost.com/deployment/cluster.html) para obter máis información sobre a configuración de alta dispoñibilidade para Mattermost.",
