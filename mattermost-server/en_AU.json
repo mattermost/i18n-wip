@@ -9237,5 +9237,13 @@
   {
     "id": "api.templates.cloud_trial_ending_email.add_payment_method",
     "translation": "Add payment method"
+  },
+  {
+    "id": "ent.data_retention.policies.invalid_policy",
+    "translation": "Invalid policy."
+  },
+  {
+    "id": "ent.data_retention.policies.internal_error",
+    "translation": "An error occurred while performing the requested operation."
   }
 ]
