@@ -9237,9 +9237,5 @@
   {
     "id": "api.templates.cloud_trial_ending_email.add_payment_method",
     "translation": "Add payment method"
-  },
-  {
-    "id": "app.team.analytics_public_team_count.app_error",
-    "translation": "Unable to count the public teams."
   }
 ]
