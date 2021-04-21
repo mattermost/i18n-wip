@@ -3836,10 +3836,6 @@
     "translation": "System Console is set to read-only when High Availability is enabled unless ReadOnlyConfig is disabled in the configuration file."
   },
   {
-    "id": "ent.cluster.model.client.connecting.app_error",
-    "translation": "An error occurred while connecting to the server."
-  },
-  {
     "id": "ent.cluster.json_encode.error",
     "translation": "Error occurred while marshalling JSON request"
   },

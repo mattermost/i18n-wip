@@ -6735,10 +6735,6 @@
     "translation": "A Rendszerkonzol írásvédettrevan állítva, ha a Magas rendelkezésre állás engedélyezve van, kivéve, ha a ReadOnlyConfig le van tiltva a konfigurációs fájlban."
   },
   {
-    "id": "ent.cluster.model.client.connecting.app_error",
-    "translation": "Hiba lépett fel a szerverhez való kapcsolódáskor."
-  },
-  {
     "id": "ent.cluster.404.app_error",
     "translation": "A fürt API végpont nem található."
   },
