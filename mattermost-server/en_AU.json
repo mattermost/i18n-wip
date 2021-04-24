@@ -9241,5 +9241,9 @@
   {
     "id": "ent.data_retention.policies.internal_error",
     "translation": "An error occurred while performing the requested operation."
+  },
+  {
+    "id": "app.user.send_auto_response.app_error",
+    "translation": "Unable to send auto response from user."
   }
 ]
