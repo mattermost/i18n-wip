@@ -9145,5 +9145,77 @@
   {
     "id": "api.command_share.share_channel.error",
     "translation": "Nem osztható meg ez a csatorna: {{.Error}}"
+  },
+  {
+    "id": "app.user.save.existing.app_error",
+    "translation": ""
+  },
+  {
+    "id": "app.export.marshal.app_error",
+    "translation": ""
+  },
+  {
+    "id": "ent.jobs.do_job.batch_size.parse_error",
+    "translation": "Nem sikerült elemezni a BatchSize üzenet exportálási feladatot."
+  },
+  {
+    "id": "ent.jobs.do_job.batch_start_timestamp.parse_error",
+    "translation": "Nem sikerült elemezni az ExportFromTimestamp üzenet exportálási feladatot."
+  },
+  {
+    "id": "ent.elasticsearch.indexer.index_batch.nothing_left_to_index.error",
+    "translation": "Megpróbál új indexet indexelni, amikor az összes entitás elkészült"
+  },
+  {
+    "id": "ent.elasticsearch.indexer.do_job.parse_start_time.error",
+    "translation": "Az Elasticsearch indexelő dolgozó nem tudta elemezni a kezdési időt"
+  },
+  {
+    "id": "ent.elasticsearch.indexer.do_job.parse_end_time.error",
+    "translation": "Az Elasticsearch indexelő dolgozó nem tudta elemezni a befejezési időt"
+  },
+  {
+    "id": "ent.elasticsearch.aggregator_worker.index_job_failed.error",
+    "translation": "Az Elasticsearch összesítő dolgozója meghiúsult az indexelő munka sikertelensége miatt"
+  },
+  {
+    "id": "ent.elasticsearch.aggregator_worker.get_indexes.error",
+    "translation": "Az Elasticsearch aggregátor dolgozójának nem sikerült lekérnie az indexeket"
+  },
+  {
+    "id": "ent.elasticsearch.aggregator_worker.delete_indexes.error",
+    "translation": "Az Elasticsearch összesítő dolgozója nem törölte az indexeket"
+  },
+  {
+    "id": "ent.elasticsearch.aggregator_worker.create_index_job.error",
+    "translation": "Az Elasticsearch összesítő munkatársa nem tudta létrehozni az indexelő munkát"
+  },
+  {
+    "id": "ent.data_retention.policies.invalid_policy",
+    "translation": "Szabályzat érvénytelen."
+  },
+  {
+    "id": "ent.data_retention.policies.internal_error",
+    "translation": "Hiba történt a kért művelet végrehajtása során."
+  },
+  {
+    "id": "ent.compliance.run_failed.error",
+    "translation": "Megfelelősségi exportálás munka nem sikerült '{{.JobName}}' itt: '{{.FilePath}}'"
+  },
+  {
+    "id": "bleveengine.indexer.index_batch.nothing_left_to_index.error",
+    "translation": "Megpróbál indexelni egy új köteget, amikor az összes entitás elkészült."
+  },
+  {
+    "id": "app.user.send_auto_response.app_error",
+    "translation": "Nem sikerült automatikus választ küldeni a felhasználótól."
+  },
+  {
+    "id": "api.error_set_first_admin_visit_marketplace_status",
+    "translation": "Hiba történt a piactér első rendszergazdai látogatásának állapotának mentése során."
+  },
+  {
+    "id": "api.error_get_first_admin_visit_marketplace_status",
+    "translation": "Hiba történt az első rendszergazda látogatás piactér állapotának lekérésekor az áruházból."
   }
 ]
