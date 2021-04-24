@@ -4,5 +4,22 @@
   "about.database": "ডাটাবেস:",
   "about.date": "বিল্ড তারিখ:",
   "about.enterpriseEditione1": "এন্টারপ্রাইজ সংস্করণ",
-  "about.hash": "বিল্ড হ্যাশ:"
+  "about.hash": "বিল্ড হ্যাশ:",
+  "accessibility.button.Info": "তথ্য",
+  "accessibility.button.Search": "অনুসন্ধান",
+  "accessibility.button.attachment": "সংযুক্তি",
+  "accessibility.sidebar.types.mention": "উল্লেখ",
+  "accessibility.sidebar.types.mentions": "উল্লেখ",
+  "accessibility.sidebar.types.unread": "অপঠিত",
+  "activity_log_modal.android": "অ্যান্ড্রয়েড",
+  "add_command.autocomplete": "স্বয়ংক্রিয় পূরণ",
+  "add_command.cancel": "বাতিল",
+  "add_command.description": "বর্ণনা",
+  "add_command.displayName": "শিরোনাম",
+  "add_command.method.get": "গেট(GET)",
+  "add_command.method.post": "পোস্ট(POST)",
+  "add_command.save": "সংরক্ষণ",
+  "add_command.saving": "সংরক্ষণরত...",
+  "add_command.username.placeholder": "নাম",
+  "add_emoji.cancel": "বাতিল"
 }
