@@ -1,10 +1,12 @@
 {
   "about.buildnumber": "رقم البناء:",
+  "about.cloudEdition": "السحابة",
   "about.copyright": "{currentYear} Mattermost, Inc. جميع الحقوق محفوظة",
   "about.database": "قاعدة البيانات:",
   "about.date": "تاريخ البناء:",
   "about.enterpriseEditionLearn": "المزيد عن Enterprise Edition في ",
   "about.enterpriseEditionSt": "الاتصالات الحديثة من وراء جدار الحماية الخاص بك.",
+  "about.enterpriseEditione1": "النسخة الخاصة بالشركات:",
   "about.hash": "بناء تشفير هاش:",
   "about.hashee": "بناء تشفير هاش:",
   "about.licensed": "مرخص لـ :",
