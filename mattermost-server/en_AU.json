@@ -2896,10 +2896,6 @@
     "translation": "Unable to get role."
   },
   {
-    "id": "app.role.get_all.app_error",
-    "translation": "Unable to get all the roles."
-  },
-  {
     "id": "app.post.permanent_delete_by_channel.app_error",
     "translation": "Unable to delete the posts by channel."
   },

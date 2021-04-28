@@ -6099,10 +6099,6 @@
     "translation": "Nem sikerült lekérni a szerepet."
   },
   {
-    "id": "app.role.get_all.app_error",
-    "translation": "Nem sikerült lekérni az összes szerepet."
-  },
-  {
     "id": "app.role.get.app_error",
     "translation": "Nem sikerült lekérni a szerepet."
   },

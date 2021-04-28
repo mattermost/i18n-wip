@@ -4819,10 +4819,6 @@
     "translation": "قادر به گرفتن نقش نیست."
   },
   {
-    "id": "app.role.get_all.app_error",
-    "translation": "نمی توان همه نقش ها را بدست آورد."
-  },
-  {
     "id": "app.role.get_by_name.app_error",
     "translation": "دریافت نقش امکان پذیر نیست."
   },
