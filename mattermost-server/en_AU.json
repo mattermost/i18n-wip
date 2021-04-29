@@ -9261,5 +9261,13 @@
   {
     "id": "api.templates.cloud_trial_ended_email.start_subscription",
     "translation": "Start subscription"
+  },
+  {
+    "id": "api.server.warn_metric.support_email_not_configured.start_trial.notification_body",
+    "translation": "Please go to **System Console > Site Configuration > Customisation** to set the [Support Email](https://docs.mattermost.com/administration/config-settings.html#support-email) as your organisation's internal IT Support Desk email address for end user feedback, email notifications, and support requests."
+  },
+  {
+    "id": "api.server.warn_metric.support_email_not_configured.notification_title",
+    "translation": "Set your 'Contact Support' email address"
   }
 ]
