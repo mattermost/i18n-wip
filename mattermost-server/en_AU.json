@@ -8967,20 +8967,12 @@
     "translation": "Shared channel remote ID `{{.RemoteId}}` does not exist for this channel."
   },
   {
-    "id": "api.command_share.channel_name.help",
-    "translation": "Channel name provided to remote instances"
-  },
-  {
     "id": "api.command_share.channel_invite_not_home.error",
     "translation": "Cannot invite remote cluster to a shared channel originating somewhere else."
   },
   {
     "id": "api.command_share.channel_invite.error",
     "translation": "Error inviting `{{.Name}}` to this channel: {{.Error}}"
-  },
-  {
-    "id": "api.command_share.channel_display_name.help",
-    "translation": "Channel display name provided to remote instances"
   },
   {
     "id": "api.command_share.available_actions",
