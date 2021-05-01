@@ -8827,10 +8827,6 @@
     "translation": "Invitation is expired."
   },
   {
-    "id": "api.command_share.unshare_confirmation.help",
-    "translation": "Are you sure? This channel will be unshared and all remote instances will be uninvited"
-  },
-  {
     "id": "api.command_share.unshare_channel.help",
     "translation": "Unshares the current channel"
   },
@@ -8943,10 +8939,6 @@
     "translation": "Error fetching remote clusters: {{.Error}}"
   },
   {
-    "id": "api.command_share.description_invite.help",
-    "translation": "Description for invite"
-  },
-  {
     "id": "api.command_share.desc",
     "translation": "Shares the current channel with a remote Mattermost instance."
   },
@@ -8975,10 +8967,6 @@
     "translation": "Shared channel remote ID `{{.RemoteId}}` does not exist for this channel."
   },
   {
-    "id": "api.command_share.channel_purpose.help",
-    "translation": "Channel purpose provided to remote instances"
-  },
-  {
     "id": "api.command_share.channel_name.help",
     "translation": "Channel name provided to remote instances"
   },
@@ -8989,10 +8977,6 @@
   {
     "id": "api.command_share.channel_invite.error",
     "translation": "Error inviting `{{.Name}}` to this channel: {{.Error}}"
-  },
-  {
-    "id": "api.command_share.channel_header.help",
-    "translation": "Channel header provided to remote instances"
   },
   {
     "id": "api.command_share.channel_display_name.help",
