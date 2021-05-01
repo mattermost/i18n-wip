@@ -1364,8 +1364,6 @@
   "admin.permissions.permission.manage_private_channel_properties.name": "Quản lý cài đặt kênh",
   "admin.permissions.permission.manage_public_channel_properties.description": "Cập nhật tên kênh, tiêu đề và mục đích công khai.",
   "admin.permissions.permission.manage_public_channel_properties.name": "Quản lý cài đặt kênh",
-  "admin.permissions.permission.manage_remote_clusters.description": "Thêm, xóa và xem các cụm từ xa cho các kênh được chia sẻ",
-  "admin.permissions.permission.manage_remote_clusters.name": "Quản lý cụm từ xa",
   "admin.permissions.permission.manage_roles.description": "Quản lý vai trò",
   "admin.permissions.permission.manage_roles.name": "Quản lý vai trò",
   "admin.permissions.permission.manage_shared_channels.description": "Chia sẻ, hủy chia sẻ và mời một phiên bản khác đồng bộ hóa với kênh được chia sẻ",

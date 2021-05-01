@@ -1317,8 +1317,6 @@
   "admin.permissions.permission.manage_private_channel_properties.name": "Xestionar os axustes da canle",
   "admin.permissions.permission.manage_public_channel_properties.description": "Actualizar os nomes, as cabeceiras e os propósitos das canles públicas.",
   "admin.permissions.permission.manage_public_channel_properties.name": "Xestionar os axustes da canle",
-  "admin.permissions.permission.manage_remote_clusters.description": "Engadir, eliminar e ver clústeres remotos para canles compartidas",
-  "admin.permissions.permission.manage_remote_clusters.name": "Xestionar clústeres remotos",
   "admin.permissions.permission.manage_roles.description": "Xestionar roles",
   "admin.permissions.permission.manage_roles.name": "Xestionar roles",
   "admin.permissions.permission.manage_shared_channels.description": "Compartir, cancelar a compartición e convidar a outra instancia a sincronizarse cunha canle compartida",

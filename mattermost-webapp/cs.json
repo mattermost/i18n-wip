@@ -914,8 +914,6 @@
   "admin.permissions.permission.manage_incoming_webhooks.name": "Spravovat příchozí webové háčky",
   "admin.permissions.permission.manage_outgoing_webhooks.description": "Vytvořit, upravit a smazat příchozí webové háčky.",
   "admin.permissions.permission.manage_outgoing_webhooks.name": "Hledat příchozí webhooky",
-  "admin.permissions.permission.manage_remote_clusters.description": "Přidat, smazat nebo zobrazit vzdálené clustery pro sdílené kanály",
-  "admin.permissions.permission.manage_remote_clusters.name": "Správa vzdálených clusterů",
   "admin.permissions.permission.manage_shared_channels.description": "Sdíled, odsdílet a přizvat jiné instance k synchronizaci sdíleného kanálu",
   "admin.permissions.permission.manage_shared_channels.name": "Spravovat sdílené kanály",
   "admin.permissions.permission.manage_slash_commands.name": "Nepojmenovaný lomítkový příkaz",
