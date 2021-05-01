@@ -8325,10 +8325,6 @@
     "translation": "Unable to parse the request body."
   },
   {
-    "id": "api.post.search_files.not_implemented.app_error",
-    "translation": "This feature is in development, and is only available using a feature flag."
-  },
-  {
     "id": "api.post.search_files.invalid_body.app_error",
     "translation": "Unable to parse the request body."
   },
@@ -8771,10 +8767,6 @@
     "translation": "One or more posts could not be delivered to remote site {{.Remote}} because it is offline. The post(s) will be delivered when the site is online."
   },
   {
-    "id": "model.channel.is_valid.description.app_error",
-    "translation": "Invalid description."
-  },
-  {
     "id": "app.sharedchannel.dm_channel_creation.internal_error",
     "translation": "Encountered an error while creating a direct shared channel."
   },
@@ -8835,10 +8827,6 @@
     "translation": "Invitation is expired."
   },
   {
-    "id": "api.command_share.unshare_confirmation.hint",
-    "translation": "'Y' or 'N'"
-  },
-  {
     "id": "api.command_share.unshare_confirmation.help",
     "translation": "Are you sure? This channel will be unshared and all remote instances will be uninvited"
   },
@@ -8867,20 +8855,12 @@
     "translation": "This channel is no longer shared."
   },
   {
-    "id": "api.command_share.shared_channel_not_deleted",
-    "translation": "Shared channel was not deleted: `{{.Arg}}` must be `{{.Expected}}`."
-  },
-  {
     "id": "api.command_share.share_read_only.hint",
     "translation": "[readonly] - 'Y' or 'N'.  Defaults to 'N'"
   },
   {
     "id": "api.command_share.share_read_only.help",
     "translation": "Channel will be shared in read-only mode"
-  },
-  {
-    "id": "api.command_share.share_current",
-    "translation": "Share the current channel"
   },
   {
     "id": "api.command_share.share_channel.error",
@@ -8963,10 +8943,6 @@
     "translation": "Error fetching remote clusters: {{.Error}}"
   },
   {
-    "id": "api.command_share.description_invite.hint",
-    "translation": "[description] - optional"
-  },
-  {
     "id": "api.command_share.description_invite.help",
     "translation": "Description for invite"
   },
@@ -8999,16 +8975,8 @@
     "translation": "Shared channel remote ID `{{.RemoteId}}` does not exist for this channel."
   },
   {
-    "id": "api.command_share.channel_purpose.hint",
-    "translation": "[purpose] - defaults to channel purpose"
-  },
-  {
     "id": "api.command_share.channel_purpose.help",
     "translation": "Channel purpose provided to remote instances"
-  },
-  {
-    "id": "api.command_share.channel_name.hint",
-    "translation": "[name] - defaults to channel name"
   },
   {
     "id": "api.command_share.channel_name.help",
@@ -9023,16 +8991,8 @@
     "translation": "Error inviting `{{.Name}}` to this channel: {{.Error}}"
   },
   {
-    "id": "api.command_share.channel_header.hint",
-    "translation": "[header] - defaults to channels header"
-  },
-  {
     "id": "api.command_share.channel_header.help",
     "translation": "Channel header provided to remote instances"
-  },
-  {
-    "id": "api.command_share.channel_display_name.hint",
-    "translation": "[displayname] - defaults to channel displayname"
   },
   {
     "id": "api.command_share.channel_display_name.help",
