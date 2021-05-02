@@ -651,7 +651,7 @@
   "archivedChannelMessage": "You are viewing an **archived channel**. New messages cannot be posted.",
   "apps.suggestion.no_static": "No matching options.",
   "apps.suggestion.no_dynamic": "No data was returned for dynamic suggestions",
-  "apps.error.unknown": "Unknown error occurred.",
+  "apps.error.unknown": "An unknown error occurred.",
   "apps.error.responses.unknown_type": "App response type not supported. Response type: {type}.",
   "apps.error.responses.unexpected_type": "App response type was not expected. Response type: {type}.",
   "apps.error.responses.unexpected_error": "Received an unexpected error.",
