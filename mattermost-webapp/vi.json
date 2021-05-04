@@ -2675,7 +2675,6 @@
   "edit_channel_private_purpose_modal.body": "Văn bản này xuất hiện trong phương thức \"Xem thông tin \"của kênh riêng tư.",
   "edit_channel_purpose_modal.body": "Mô tả cách sử dụng kênh này. Văn bản này xuất hiện trong danh sách kênh trong menu \"Thêm ... \"và giúp những người khác quyết định có tham gia hay không.",
   "edit_channel_purpose_modal.cancel": "Hủy",
-  "edit_channel_purpose_modal.error": "Mục đích kênh này quá dài, vui lòng nhập mục đích ngắn hơn",
   "edit_channel_purpose_modal.save": "Lưu",
   "edit_channel_purpose_modal.title1": "Mục đích Chỉnh sửa",
   "edit_channel_purpose_modal.title2": "Mục đích Chỉnh sửa cho ",

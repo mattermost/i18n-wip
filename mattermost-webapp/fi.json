@@ -1155,7 +1155,6 @@
   "edit_channel_header_modal.title": "Muokkaa kanavan {channel} otsikkoa",
   "edit_channel_private_purpose_modal.body": "Tämä teksti esiintyy yksityiskanavan \"Katsele tietoja\" osiossa.",
   "edit_channel_purpose_modal.body": "Kuvaa miten tätä kanavaa tulisi käyttää. Tämä teksti esiintyy kanavalistan \"Lisää...\" valikossa ja auttaa muita päättämään liittymisestä.",
-  "edit_channel_purpose_modal.error": "Tämä kanavan tarkoitus on liian pitkä, syötä lyhyempi",
   "edit_channel_purpose_modal.title1": "Muokkaa tarkoitusta",
   "edit_channel_purpose_modal.title2": "Muokkaa tarkoitusta ",
   "edit_command.update": "Päivitä",

@@ -792,7 +792,6 @@
   "edit_channel_header_modal.error": "Ta glava kanala je predolga, vnesite krajšo",
   "edit_channel_header_modal.title": "Uredi glavo za {channel}",
   "edit_channel_purpose_modal.body": "Opišite, kako naj se uporabi ta kanal. To besedilo se prikaže na seznamu kanalov v meniju »Več ...« in pomaga drugim pri odločanju, ali naj se pridružijo.",
-  "edit_channel_purpose_modal.error": "Namen tega kanala je predolg, vnesite krajšega",
   "edit_channel_purpose_modal.title1": "Uredi namen",
   "edit_channel_purpose_modal.title2": "Uredi namen za ",
   "edit_command.update": "Posodobi",

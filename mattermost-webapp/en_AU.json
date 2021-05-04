@@ -2855,7 +2855,6 @@
   "edit_channel_private_purpose_modal.body": "This text appears in the 'View Info' modal of the private channel.",
   "edit_channel_purpose_modal.body": "Describe how this channel should be used. This text appears in the channel list in the 'More...' menu and helps others decide whether to join.",
   "edit_channel_purpose_modal.cancel": "Cancel",
-  "edit_channel_purpose_modal.error": "This channel purpose is too long, please enter a shorter one",
   "edit_channel_purpose_modal.save": "Save",
   "edit_channel_purpose_modal.title1": "Edit Purpose",
   "edit_channel_purpose_modal.title2": "Edit Purpose for ",

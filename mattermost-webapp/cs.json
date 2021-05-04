@@ -1584,7 +1584,6 @@
   "edit_channel_header_modal.title": "Upravit Záhlaví {channel}",
   "edit_channel_purpose_modal.body": "Popište, jak má tento kanál být používán. Tento text se zobrazí v seznamu kanálů pod \"Více...\" menu a pomáhá ostatním rozhodnout, zda se chctějí připojit.",
   "edit_channel_purpose_modal.cancel": "Zrušit",
-  "edit_channel_purpose_modal.error": "Tento popisek účelu kanálu je příliš dlouhý, zadejte prosím kratší",
   "edit_channel_purpose_modal.save": "Uložit",
   "edit_channel_purpose_modal.title1": "Editovat účel",
   "edit_channel_purpose_modal.title2": "Editovat účel ",
