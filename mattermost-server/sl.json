@@ -1216,10 +1216,6 @@
     "translation": "Iskanje ni bilo mogoče dokončati"
   },
   {
-    "id": "bleveengine.indexer.do_job.get_oldest_post.error",
-    "translation": "Najstarejše objave ni bilo mogoče pridobiti iz baze podatkov."
-  },
-  {
     "id": "bleveengine.index_user.error",
     "translation": "Objave ni bilo mogoče indeksirati"
   },

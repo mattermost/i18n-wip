@@ -1524,10 +1524,6 @@
     "translation": "Bleve indexing worker failed to parse the end time."
   },
   {
-    "id": "bleveengine.indexer.do_job.get_oldest_post.error",
-    "translation": "The oldest post could not be retrieved from the database."
-  },
-  {
     "id": "bleveengine.indexer.do_job.engine_inactive",
     "translation": "Failed to run Bleve index job: engine is inactive."
   },

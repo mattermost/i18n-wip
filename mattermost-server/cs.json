@@ -1040,10 +1040,6 @@
     "translation": "Indexovacímu procesu Elasticsearch se nepodařilo rozluštit čas konce."
   },
   {
-    "id": "bleveengine.indexer.do_job.get_oldest_post.error",
-    "translation": "Nepodařilo se načíst z databáze nejstarší zprávu."
-  },
-  {
     "id": "bleveengine.index_user.error",
     "translation": "Nepodařilo se zaindexovat uživatele."
   },

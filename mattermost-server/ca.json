@@ -792,10 +792,6 @@
     "translation": "El treball d'indexació d'Elasticsearch no ha pogut analitzar l'hora de finalització"
   },
   {
-    "id": "bleveengine.indexer.do_job.get_oldest_post.error",
-    "translation": "No s'ha pogut recuperar la publicació més antiga de la base de dades."
-  },
-  {
     "id": "bleveengine.index_user.error",
     "translation": "No s'ha pogut indexar l'usuari"
   },

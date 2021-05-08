@@ -3248,10 +3248,6 @@
     "translation": "Phần mềm tra cứu mục lục thất bại trong việc phân tích thời gian kết thúc"
   },
   {
-    "id": "bleveengine.indexer.do_job.get_oldest_post.error",
-    "translation": "Bài viết cũ nhất không thể được lấy từ cơ sở dữ liệu."
-  },
-  {
     "id": "bleveengine.index_user.error",
     "translation": "Không thể tạo chỉ mục cho người dùng"
   },

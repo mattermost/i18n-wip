@@ -5391,10 +5391,6 @@
     "translation": "ایندکس Bleve اجرا نشد: موتور غیرفعال است."
   },
   {
-    "id": "bleveengine.indexer.do_job.get_oldest_post.error",
-    "translation": "قدیمی ترین پست از پایگاه داده قابل بازیابی نیست."
-  },
-  {
     "id": "bleveengine.indexer.do_job.parse_end_time.error",
     "translation": "کارگر ایندکس سازی Bleve در تجزیه زمان پایان موفق نشد."
   },

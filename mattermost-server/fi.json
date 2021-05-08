@@ -3216,10 +3216,6 @@
     "translation": "Elasticsearch-indeksointityöskentelijä ei voinut parsia loppuaikaa"
   },
   {
-    "id": "bleveengine.indexer.do_job.get_oldest_post.error",
-    "translation": "Vanhinta viestiä ei voitu hakea tietokannasta."
-  },
-  {
     "id": "bleveengine.index_user.error",
     "translation": "Viestin indeksointi epäonnistui"
   },
