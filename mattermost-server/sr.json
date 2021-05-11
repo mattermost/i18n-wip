@@ -20,18 +20,6 @@
     "translation": "Догодила се грешка приликом изградње мета-података достављача услуга."
   },
   {
-    "id": "app.notification.body.text.notification.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.text.direct.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.intro.notification.full",
-    "translation": "Имате једно ново обавештење."
-  },
-  {
     "id": "app.import.import_post.user_not_found.error",
     "translation": "Грешка при увозу канала. Нисам могао да нађем тим са именом \"{{.TeamName}}\"."
   },
@@ -532,32 +520,8 @@
     }
   },
   {
-    "id": "api.email_batching.send_batched_email_notification.body_text",
-    "translation": {
-      "few": "Имате {{.Count}} нова обавештења.",
-      "one": "Имате једно ново обавештење.",
-      "other": "Имате {{.Count}} нових обавештења."
-    }
-  },
-  {
-    "id": "api.email_batching.render_batched_post.notification",
-    "translation": "Обавештење од "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.group_message",
-    "translation": "Групна порука од "
-  },
-  {
     "id": "api.email_batching.render_batched_post.go_to_post",
     "translation": "Иди на објаву"
-  },
-  {
-    "id": "api.email_batching.render_batched_post.direct_message",
-    "translation": "Директна порука од "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.date",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
   },
   {
     "id": "api.email_batching.add_notification_email_to_batch.channel_full.app_error",

@@ -1834,30 +1834,8 @@
     }
   },
   {
-    "id": "api.email_batching.send_batched_email_notification.body_text",
-    "translation": {
-      "other": "Anda memiliki satu notifikasi baru.Anda memiliki {{.Count}} notifikasi baru."
-    }
-  },
-  {
-    "id": "api.email_batching.render_batched_post.notification",
-    "translation": "Pemberitahuan dari "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.group_message",
-    "translation": "Pesan grup dari "
-  },
-  {
     "id": "api.email_batching.render_batched_post.go_to_post",
     "translation": "Ke Post"
-  },
-  {
-    "id": "api.email_batching.render_batched_post.direct_message",
-    "translation": "Pesan pribadi dari "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.date",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
   },
   {
     "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",
@@ -2336,39 +2314,11 @@
     "translation": "{{.SubjectText}} pada {{.TeamDisplayName}} pada {{.Month}} {{.Day}}, {{.Year}}"
   },
   {
-    "id": "app.notification.body.text.notification.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.text.notification.full2",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.text.group_message.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
-  },
-  {
     "id": "app.notification.body.text.group_message.full2",
     "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
   },
   {
-    "id": "app.notification.body.text.direct.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.text.direct.full",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.intro.notification.full",
-    "translation": "Anda memiliki satu notifikasi baru.Anda memiliki {{.Count}} notifikasi baru."
-  },
-  {
     "id": "app.notification.body.intro.group_message.full",
-    "translation": "Anda memiliki satu pesan baru."
-  },
-  {
-    "id": "app.notification.body.intro.direct.full",
     "translation": "Anda memiliki satu pesan baru."
   },
   {

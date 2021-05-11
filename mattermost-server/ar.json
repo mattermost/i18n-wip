@@ -420,14 +420,6 @@
     "translation": "حدث خطأ عند تحديث المحادثة"
   },
   {
-    "id": "app.notification.body.intro.group_message.full",
-    "translation": "لديك رسالة جديدة"
-  },
-  {
-    "id": "app.notification.body.intro.direct.full",
-    "translation": "لديك رسالة جديدة"
-  },
-  {
     "id": "app.import.validate_scheme_import_data.name_invalid.error",
     "translation": "معرف المستخدم غير صحيح."
   },

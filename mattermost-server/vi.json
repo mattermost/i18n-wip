@@ -3464,31 +3464,7 @@
     "translation": "[{{.SiteName}}] Tin nhắn trực tiếp từ {{.SenderDisplayName}} trên {{.Month}} {{.Day}}, {{.Year}}"
   },
   {
-    "id": "app.notification.body.text.notification.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}."
-  },
-  {
-    "id": "app.notification.body.text.notification.full2",
-    "translation": "@{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
-    "id": "app.notification.body.text.notification.full",
-    "translation": "Kênh: {{.ChannelName}}"
-  },
-  {
     "id": "app.notification.body.text.group_message.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}."
-  },
-  {
-    "id": "app.notification.body.text.group_message.full2",
-    "translation": "@{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
-    "id": "app.notification.body.text.group_message.full",
-    "translation": "Kênh: {{.ChannelName}}"
-  },
-  {
-    "id": "app.notification.body.text.direct.generic",
     "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}."
   },
   {
@@ -3496,28 +3472,8 @@
     "translation": "@{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
   },
   {
-    "id": "app.notification.body.intro.notification.generic",
-    "translation": "Bạn có một thông báo mới từ @{{.SenderName}}"
-  },
-  {
-    "id": "app.notification.body.intro.notification.full",
-    "translation": "Bạn có một thông báo mới."
-  },
-  {
-    "id": "app.notification.body.intro.group_message.generic",
-    "translation": "Bạn có một tin nhắn nhóm mới từ @{{.SenderName}}"
-  },
-  {
     "id": "app.notification.body.intro.group_message.full",
     "translation": "Bạn có một Tin nhắn nhóm mới"
-  },
-  {
-    "id": "app.notification.body.intro.direct.generic",
-    "translation": "Bạn có một tin nhắn trực tiếp mới từ @{{.SenderName}}"
-  },
-  {
-    "id": "app.notification.body.intro.direct.full",
-    "translation": "Bạn có một Tin nhắn trực tiếp mới."
   },
   {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
@@ -4334,30 +4290,8 @@
     }
   },
   {
-    "id": "api.email_batching.send_batched_email_notification.body_text",
-    "translation": {
-      "other": "Bạn có một thông báo mới.Bạn có {{.Count}} thông báo mới."
-    }
-  },
-  {
-    "id": "api.email_batching.render_batched_post.notification",
-    "translation": "Thông báo từ "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.group_message",
-    "translation": "Nhóm tin từ "
-  },
-  {
     "id": "api.email_batching.render_batched_post.go_to_post",
     "translation": "Đi đến bài viết"
-  },
-  {
-    "id": "api.email_batching.render_batched_post.direct_message",
-    "translation": "Tin Nhắn trực tiếp từ "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.date",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
   },
   {
     "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",

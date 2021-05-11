@@ -1219,31 +1219,8 @@
     "translation": "دسته بندی ایمیل توسط سرپرست سیستم غیرفعال شده است."
   },
   {
-    "id": "api.email_batching.render_batched_post.date",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "api.email_batching.render_batched_post.direct_message",
-    "translation": "پیام مستقیم از "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.go_to_post",
-    "translation": "برو به پست"
-  },
-  {
     "id": "api.email_batching.render_batched_post.group_message",
     "translation": "پیام گروهی از "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.notification",
-    "translation": "اطلاع رسانی از طرف "
-  },
-  {
-    "id": "api.email_batching.send_batched_email_notification.body_text",
-    "translation": {
-      "one": "شما یک اعلان جدید دارید.",
-      "other": "شما {{.Count}} اعلان جدید دارید."
-    }
   },
   {
     "id": "api.email_batching.send_batched_email_notification.subject",
@@ -4375,60 +4352,16 @@
     "translation": "به روزرسانی کار امکان پذیر نیست."
   },
   {
-    "id": "app.notification.body.intro.direct.full",
-    "translation": "شما یک پیام مستقیم جدید دارید."
-  },
-  {
-    "id": "app.notification.body.intro.direct.generic",
-    "translation": "شما یک پیام مستقیم جدید دارید از {{.SenderName}}"
-  },
-  {
-    "id": "app.notification.body.intro.group_message.full",
-    "translation": "شما یک پیام گروهی جدید دارید."
-  },
-  {
     "id": "app.notification.body.intro.group_message.generic",
     "translation": "شما یک پیام گروه جدید دارید از {{.SenderName}}"
-  },
-  {
-    "id": "app.notification.body.intro.notification.full",
-    "translation": "شما یک اعلان جدید دارید."
-  },
-  {
-    "id": "app.notification.body.intro.notification.generic",
-    "translation": "شما دارید یک اعلان جدید از {{.SenderName}}"
-  },
-  {
-    "id": "app.notification.body.text.direct.full",
-    "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
   },
   {
     "id": "app.notification.body.text.direct.generic",
     "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
   },
   {
-    "id": "app.notification.body.text.group_message.full",
-    "translation": "کانال: {{.ChannelName}}"
-  },
-  {
-    "id": "app.notification.body.text.group_message.full2",
-    "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.text.group_message.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
-  },
-  {
     "id": "app.notification.body.text.notification.full",
     "translation": "کانال: {{.ChannelName}}"
-  },
-  {
-    "id": "app.notification.body.text.notification.full2",
-    "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.text.notification.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
   },
   {
     "id": "app.notification.subject.direct.full",

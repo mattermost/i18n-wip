@@ -1320,31 +1320,7 @@
     "translation": "[{{.SiteName}}] Nové přímé zprávy od {{.SenderDisplayName}} z {{.Day}}.{{.Month}}.{{.Year}}"
   },
   {
-    "id": "app.notification.body.text.notification.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
-    "id": "app.notification.body.text.notification.full2",
-    "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
-    "id": "app.notification.body.text.notification.full",
-    "translation": "Kanál: {{.ChannelName}}"
-  },
-  {
     "id": "app.notification.body.text.group_message.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
-    "id": "app.notification.body.text.group_message.full2",
-    "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
-    "id": "app.notification.body.text.group_message.full",
-    "translation": "Kanál: {{.ChannelName}}"
-  },
-  {
-    "id": "app.notification.body.text.direct.generic",
     "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
   },
   {
@@ -1352,28 +1328,8 @@
     "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
   },
   {
-    "id": "app.notification.body.intro.notification.generic",
-    "translation": "Máte nové upozornění od @{{.SenderName}}"
-  },
-  {
-    "id": "app.notification.body.intro.notification.full",
-    "translation": "Máte nové upozornění."
-  },
-  {
-    "id": "app.notification.body.intro.group_message.generic",
-    "translation": "Máte novou skupinovou zprávu od @{{.SenderName}}"
-  },
-  {
     "id": "app.notification.body.intro.group_message.full",
     "translation": "Máte novou skupinovou zprávu."
-  },
-  {
-    "id": "app.notification.body.intro.direct.generic",
-    "translation": "Máte novou přímou zprávu od @{{.SenderName}}"
-  },
-  {
-    "id": "app.notification.body.intro.direct.full",
-    "translation": "Máte novou přímou zprávu."
   },
   {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
@@ -4212,32 +4168,8 @@
     }
   },
   {
-    "id": "api.email_batching.send_batched_email_notification.body_text",
-    "translation": {
-      "few": "Toto jsou vaše nové notifikace.Máte {{.Count}} novou notifikaci.",
-      "one": "Toto jsou vaše nové notifikace.Máte {{.Count}} nových notifikací.",
-      "other": "Toto jsou vaše nové notifikace.Máte {{.Count}} nové notifikace."
-    }
-  },
-  {
-    "id": "api.email_batching.render_batched_post.notification",
-    "translation": "Upozornění od "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.group_message",
-    "translation": "Skupinová zpráva od "
-  },
-  {
     "id": "api.email_batching.render_batched_post.go_to_post",
     "translation": "Přejít na příspěvek"
-  },
-  {
-    "id": "api.email_batching.render_batched_post.direct_message",
-    "translation": "Přímá zpráva od "
-  },
-  {
-    "id": "api.email_batching.render_batched_post.date",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Day}} {{.Month}}"
   },
   {
     "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",
