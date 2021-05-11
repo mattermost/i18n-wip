@@ -948,16 +948,8 @@
     "translation": "Ei voitu luoda LDAP käyttäjää."
   },
   {
-    "id": "app.notification.body.text.group_message.full",
-    "translation": "Kanava: {{.ChannelName}}"
-  },
-  {
     "id": "app.notification.body.intro.notification.full",
     "translation": "Sinulle on uusi ilmoitus."
-  },
-  {
-    "id": "app.notification.body.intro.direct.full",
-    "translation": "Sinulle on uusi yksityisviesti."
   },
   {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
@@ -3927,10 +3919,6 @@
       "one": "[{{.SiteName}}] uusi ilmoitus {{.Month}} {{.Day}}, {{.Year}}",
       "other": "[{{.SiteName}}] uusia ilmoituksia {{.Month}} {{.Day}}, {{.Year}}"
     }
-  },
-  {
-    "id": "api.email_batching.render_batched_post.go_to_post",
-    "translation": "Siirry viestiin"
   },
   {
     "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",

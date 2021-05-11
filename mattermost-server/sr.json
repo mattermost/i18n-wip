@@ -520,10 +520,6 @@
     }
   },
   {
-    "id": "api.email_batching.render_batched_post.go_to_post",
-    "translation": "Иди на објаву"
-  },
-  {
     "id": "api.email_batching.add_notification_email_to_batch.channel_full.app_error",
     "translation": "Канал за примање серијских мејл послова је пун. Повећајте EmailBatchingBufferSize."
   },

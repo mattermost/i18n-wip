@@ -1320,16 +1320,8 @@
     "translation": "[{{.SiteName}}] Nové přímé zprávy od {{.SenderDisplayName}} z {{.Day}}.{{.Month}}.{{.Year}}"
   },
   {
-    "id": "app.notification.body.text.group_message.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
     "id": "app.notification.body.text.direct.full",
     "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
-    "id": "app.notification.body.intro.group_message.full",
-    "translation": "Máte novou skupinovou zprávu."
   },
   {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
@@ -4166,10 +4158,6 @@
       "one": "[{{.SiteName}}] Nové upozornění k datu {{.Day}}. {{.Month}} {{.Year}}",
       "other": "[{{.SiteName}}] Nová upozornění k datu {{.Day}}. {{.Month}} {{.Year}}"
     }
-  },
-  {
-    "id": "api.email_batching.render_batched_post.go_to_post",
-    "translation": "Přejít na příspěvek"
   },
   {
     "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",

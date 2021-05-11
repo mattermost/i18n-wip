@@ -1834,10 +1834,6 @@
     }
   },
   {
-    "id": "api.email_batching.render_batched_post.go_to_post",
-    "translation": "Ke Post"
-  },
-  {
     "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",
     "translation": "Pengarsipan email telah dimatikan oleh administrator sistem"
   },
@@ -2312,10 +2308,6 @@
   {
     "id": "app.notification.subject.direct.full",
     "translation": "{{.SubjectText}} pada {{.TeamDisplayName}} pada {{.Month}} {{.Day}}, {{.Year}}"
-  },
-  {
-    "id": "app.notification.body.text.group_message.full2",
-    "translation": "{{.Hour}}:{{.Minute}} {{.Timezone}}, {{.Month}} {{.Day}}"
   },
   {
     "id": "app.notification.body.intro.group_message.full",

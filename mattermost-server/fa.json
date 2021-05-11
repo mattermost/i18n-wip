@@ -1219,10 +1219,6 @@
     "translation": "دسته بندی ایمیل توسط سرپرست سیستم غیرفعال شده است."
   },
   {
-    "id": "api.email_batching.render_batched_post.group_message",
-    "translation": "پیام گروهی از "
-  },
-  {
     "id": "api.email_batching.send_batched_email_notification.subject",
     "translation": {
       "one": "[{{.SiteName}}] اعلان جدید برای {{.Month}} {{.Day}}, {{.Year}}",
@@ -4352,16 +4348,8 @@
     "translation": "به روزرسانی کار امکان پذیر نیست."
   },
   {
-    "id": "app.notification.body.intro.group_message.generic",
-    "translation": "شما یک پیام گروه جدید دارید از {{.SenderName}}"
-  },
-  {
     "id": "app.notification.body.text.direct.generic",
     "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
-  },
-  {
-    "id": "app.notification.body.text.notification.full",
-    "translation": "کانال: {{.ChannelName}}"
   },
   {
     "id": "app.notification.subject.direct.full",
