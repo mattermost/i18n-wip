@@ -1400,11 +1400,11 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
-    "translation": "Η Εταιρική σας δοκιμή είναι πλέον ενεργή. Μεταβείτε στην ενότητα **Κονσόλα Συστήματος > Έλεγχος Ταυτότητας > MFA** για την επιβολή ελέγχου ταυτότητας πολλών παραγόντων (MFA)."
+    "translation": "Η Εταιρική σας δοκιμαστική έκδοση είναι πλέον ενεργή. Μεταβείτε στην ενότητα **Κονσόλα Συστήματος > Έλεγχος Ταυτότητας > MFA** για την επιβολή ελέγχου ταυτότητας πολλών παραγόντων (MFA)."
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "Το σύστημά σας της Mattermost διαθέτει έλεγχο ταυτότητας πολλών παραγόντων (MFA), δίνοντας στους χρήστες την επιλογή να ασφαλίσουν τους λογαριασμούς τους με πρόσθετα μέσα ελέγχου ταυτότητας πέρα από έναν κωδικό πρόσβασης. Για να βελτιώσετε την ασφάλεια σε ολόκληρο το σύστημα, μπορείτε να θέσετε σε όλους τους λογαριασμούς Mattermost να χρησιμοποιούν έλεγχο ταυτότητας πολλών παραγόντων (MFA).\n\n[Μάθετε περισσότερα σχετικά με την επιβολή ελέγχου ταυτότητας πολλών παραγόντων (MFA)](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nΕπιλέγοντας την Έναρξη δοκιμής, συμφωνώ με τις [Συμφωνία Αξιολόγησης Λογισμικού Mattermost](https://mattermost.com/software-evaluation-agaration/), [Πολιτική απορρήτου](https://mattermost.com/privacy-policy/) και λήψη ενημερωτικών email."
+    "translation": "Το σύστημά σας της Mattermost διαθέτει έλεγχο ταυτότητας πολλών παραγόντων (MFA), δίνοντας στους χρήστες την επιλογή να ασφαλίσουν τους λογαριασμούς τους με πρόσθετα μέσα ελέγχου ταυτότητας πέρα από έναν κωδικό πρόσβασης. Για να βελτιώσετε την ασφάλεια σε ολόκληρο το σύστημα, μπορείτε να θέσετε σε όλους τους λογαριασμούς Mattermost να χρησιμοποιούν έλεγχο ταυτότητας πολλών παραγόντων (MFA).\n\n[Μάθετε περισσότερα σχετικά με την επιβολή ελέγχου ταυτότητας πολλών παραγόντων (MFA)](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nΕπιλέγοντας την Έναρξη δοκιμαστικής έκδοσης, συμφωνώ με τις [Συμφωνία Αξιολόγησης Λογισμικού Mattermost](https://mattermost.com/software-evaluation-agaration/), [Πολιτική απορρήτου](https://mattermost.com/privacy-policy/) και λήψη ενημερωτικών email."
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -1424,7 +1424,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial_notification_success.message",
-    "translation": "Η Εταιρική σας δοκιμή είναι πλέον ενεργή. Μεταβείτε στην ενότητα **Κονσόλα Συστήματος> Έλεγχος Ταυτότητας > Πρόσβαση Επισκέπτη** για να ενεργοποιήσετε τους Λογαριασμούς Επισκεπτών."
+    "translation": "Η Εταιρική σας δοκιμαστική έκδοση είναι πλέον ενεργή. Μεταβείτε στην ενότητα **Κονσόλα Συστήματος> Έλεγχος Ταυτότητας > Πρόσβαση Επισκέπτη** για να ενεργοποιήσετε τους Λογαριασμούς Επισκεπτών."
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
@@ -1432,7 +1432,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "Τα πρότζεκτ συχνά περιλαμβάνουν άτομα εντός και εκτός ενός οργανισμού. Με τους Λογαριασμούς Επισκεπτών, μπορείτε να προσθέσετε εξωτερικούς συνεργάτες στο δικό σας οικοσύστημα της Mattermost και να καθορίσετε με ποιον μπορούν να συνεργαστούν και τι μπορούν να δουν.\n\n[Μάθετε περισσότερα σχετικά με την ενεργοποίηση των Λογαριασμών Επισκεπτών](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nΕπιλέγοντας την Έναρξη δοκιμής, συμφωνώ με τις [Συμφωνία Αξιολόγησης Λογισμικού Mattermost](https://mattermost.com/software-evaluation-agaration/), [Πολιτική απορρήτου](https://mattermost.com/privacy-policy/) και λήψη ενημερωτικών email."
+    "translation": "Τα πρότζεκτ συχνά περιλαμβάνουν άτομα εντός και εκτός ενός οργανισμού. Με τους Λογαριασμούς Επισκεπτών, μπορείτε να προσθέσετε εξωτερικούς συνεργάτες στο δικό σας οικοσύστημα της Mattermost και να καθορίσετε με ποιον μπορούν να συνεργαστούν και τι μπορούν να δουν.\n\n[Μάθετε περισσότερα σχετικά με την ενεργοποίηση των Λογαριασμών Επισκεπτών](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nΕπιλέγοντας την Έναρξη δοκιμαστικής έκδοσης, συμφωνώ με τις [Συμφωνία Αξιολόγησης Λογισμικού Mattermost](https://mattermost.com/software-evaluation-agaration/), [Πολιτική απορρήτου](https://mattermost.com/privacy-policy/) και λήψη ενημερωτικών email."
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",
