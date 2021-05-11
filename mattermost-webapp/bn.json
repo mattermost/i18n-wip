@@ -16,6 +16,7 @@
   "add_command.cancel": "বাতিল",
   "add_command.description": "বর্ণনা",
   "add_command.displayName": "শিরোনাম",
+  "add_command.iconUrl.placeholder": "https://www.example.com/myicon.png",
   "add_command.method.get": "গেট(GET)",
   "add_command.method.post": "পোস্ট(POST)",
   "add_command.save": "সংরক্ষণ",
