@@ -3464,10 +3464,6 @@
     "translation": "[{{.SiteName}}] Tin nhắn trực tiếp từ {{.SenderDisplayName}} trên {{.Month}} {{.Day}}, {{.Year}}"
   },
   {
-    "id": "app.notification.body.text.direct.full",
-    "translation": "@{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
     "translation": "Tên nhóm bị thiếu trong Tư cách thành viên nhóm của người dùng."
   },

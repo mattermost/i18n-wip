@@ -4348,10 +4348,6 @@
     "translation": "به روزرسانی کار امکان پذیر نیست."
   },
   {
-    "id": "app.notification.body.text.direct.generic",
-    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Month}} {{.Day}}"
-  },
-  {
     "id": "app.notification.subject.direct.full",
     "translation": "[{{.SiteName}}] پیام مستقیم جدید از {{.SenderDisplayName}} on {{.Month}} {{.Day}}, {{.Year}}"
   },

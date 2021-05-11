@@ -1368,10 +1368,6 @@
     "translation": "[{{.SiteName}}] Novo obvestilo od {{.SenderDisplayName}} dne {{.Day}} {{.Month}}, {{.Year}}"
   },
   {
-    "id": "app.notification.body.text.direct.full",
-    "translation": "@{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
     "translation": "Ime ekipe manjka v uporabnikovem članstvu v ekipi."
   },

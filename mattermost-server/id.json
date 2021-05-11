@@ -2310,10 +2310,6 @@
     "translation": "{{.SubjectText}} pada {{.TeamDisplayName}} pada {{.Month}} {{.Day}}, {{.Year}}"
   },
   {
-    "id": "app.notification.body.intro.group_message.full",
-    "translation": "Anda memiliki satu pesan baru."
-  },
-  {
     "id": "app.import.validate_scheme_import_data.name_invalid.error",
     "translation": "Nama tidak valid"
   },

@@ -948,10 +948,6 @@
     "translation": "[{{.SiteName}}] Nou missatge directe de {{.SenderDisplayName}} el {{.Day}} {{.Month}}, {{.Year}}"
   },
   {
-    "id": "app.notification.body.text.direct.full",
-    "translation": "@{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
     "translation": "Falta el nom de l'equip a la subscripció de l'equip de l'usuari."
   },

@@ -948,10 +948,6 @@
     "translation": "Ei voitu luoda LDAP käyttäjää."
   },
   {
-    "id": "app.notification.body.intro.notification.full",
-    "translation": "Sinulle on uusi ilmoitus."
-  },
-  {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
     "translation": "Tiimin nimi puuttuu käyttäjän tiimijäsenyydestä."
   },

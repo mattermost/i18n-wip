@@ -3208,10 +3208,6 @@
     "translation": "[{{.SiteName}}] New Direct Message from {{.SenderDisplayName}} on {{.Day}} {{.Month}}, {{.Year}}"
   },
   {
-    "id": "app.notification.body.text.direct.full",
-    "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
     "id": "app.license.generate_renewal_token.no_license",
     "translation": "No licence present"
   },

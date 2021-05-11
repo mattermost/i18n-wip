@@ -1320,10 +1320,6 @@
     "translation": "[{{.SiteName}}] Nové přímé zprávy od {{.SenderDisplayName}} z {{.Day}}.{{.Month}}.{{.Year}}"
   },
   {
-    "id": "app.notification.body.text.direct.full",
-    "translation": "{{.SenderName}} - {{.Hour}}:{{.Minute}} {{.TimeZone}}, {{.Day}} {{.Month}}"
-  },
-  {
     "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
     "translation": "V členství uživatele chybí název týmu."
   },
