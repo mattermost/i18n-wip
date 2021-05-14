@@ -9193,5 +9193,9 @@
   {
     "id": "api.email_batching.send_batched_email_notification.button",
     "translation": "Open Mattermost"
+  },
+  {
+    "id": "api.oauth.click_redirect",
+    "translation": "If you are not redirected automatically, please click the <a href='{{.Link}}'>link</a>"
   }
 ]
