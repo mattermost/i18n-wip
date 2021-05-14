@@ -235,7 +235,6 @@
   "mobile.components.select_server_view.enterServerUrl": "Nhập URL máy chủ",
   "mobile.components.select_server_view.connect": "Đã kết nối",
   "mobile.commands.error_title": "Lỗi thực thi lệnh",
-  "mobile.client_upgrade.listener.upgrade_button": "Nâng cấp",
   "mobile.client_upgrade.close": "Cập nhật sau",
   "mobile.channel_members.add_members_alert": "Bạn phải chọn ít nhất một thành viên để thêm vào kênh.",
   "mobile.channel_list.not_member": "KHÔNG PHẢI LÀ THÀNH VIÊN",
