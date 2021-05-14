@@ -143,7 +143,6 @@
   "mobile.components.select_server_view.connect": "Yhdistä",
   "mobile.components.error_list.dismiss_all": "Hylkää kaikki",
   "mobile.commands.error_title": "Virhe suoritettaessa komentoa",
-  "mobile.client_upgrade.download_error.title": "Päivityksen asennus ei onnistu",
   "mobile.channel_members.add_members_alert": "Sinun on valittava ainakin yksi kanavalle lisättävä jäsen.",
   "mobile.channel_list.unreads": "LUKEMATTOMAT",
   "mobile.channel_list.not_member": "EI JÄSEN",

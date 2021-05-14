@@ -177,7 +177,6 @@
   "mobile.components.select_server_view.enterServerUrl": "Vendosni URL-në e serverit",
   "mobile.components.select_server_view.connecting": "Po lidhet...",
   "mobile.components.select_server_view.connect": "Lidh",
-  "mobile.client_upgrade.close": "Azhurnoni më vonë",
   "mobile.channel_members.add_members_alert": "Duhet të zgjidhni të paktën një anëtar për ta shtuar në kanal.",
   "mobile.channel_list.not_member": "JO ANËTAR",
   "mobile.channel_list.members": "ANËTARËT",
