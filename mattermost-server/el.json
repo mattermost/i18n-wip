@@ -13,35 +13,35 @@
   },
   {
     "id": "app.scheme.get.app_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η λήψη του σχήματος."
   },
   {
     "id": "app.reaction.save.save.app_error",
-    "translation": "Αδυναμία διαγραφής της αντίδρασης"
+    "translation": "Δεν είναι δυνατή η αποθήκευση της αντίδρασης."
   },
   {
     "id": "app.emoji.delete.app_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η διαγραφή του emoji."
   },
   {
     "id": "store.sql_command.save.get.app_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η λήψη της εντολής."
   },
   {
     "id": "app.channel.update.bad_id",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αδυναμία ενημέρωσης του καναλιού."
   },
   {
     "id": "app.channel.get_deleted.existing.app_error",
-    "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
+    "translation": "Δεν είναι δυνατή η εύρεση του υπάρχοντος διαγραμμένου καναλιού."
   },
   {
     "id": "store.sql_channel.get.existing.app_error",
-    "translation": "Δεν είναι δυνατή η εύρεση του καναλιού"
+    "translation": "Δεν είναι δυνατή η εύρεση του υπάρχοντος καναλιού."
   },
   {
     "id": "app.audit.save.saving.app_error",
-    "translation": "Παρουσιάστηκε κάποιο σφάλμα κατά την ενημέρωση της ρύθμισης"
+    "translation": "Παρουσιάστηκε σφάλμα κατά την αποθήκευση του ελέγχου."
   },
   {
     "id": "app.audit.permanent_delete_by_user.app_error",
@@ -57,7 +57,7 @@
   },
   {
     "id": "manaultesting.test_autolink.unable.app_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αδυναμία λήψης καναλιών."
   },
   {
     "id": "interactive_message.generate_trigger_id.signing_failed",
@@ -89,7 +89,7 @@
   },
   {
     "id": "ent.saml.service_disable.app_error",
-    "translation": "Το SAML 2.0 δεν έχει ρυθμιστεί ή δεν υποστηρίζεται από αυτό τον διακομιστή  "
+    "translation": "Το SAML 2.0 δεν έχει ρυθμιστεί ή υποστηρίζεται σε αυτόν τον διακομιστή."
   },
   {
     "id": "ent.saml.metadata.app_error",
@@ -97,79 +97,79 @@
   },
   {
     "id": "ent.message_export.global_relay.create_file_in_zip.app_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η δημιουργία του αρχείου eml."
   },
   {
     "id": "ent.message_export.global_relay.close_zip_file.app_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατό το κλείσιμο του αρχείου zip."
   },
   {
     "id": "ent.elasticsearch.index_user.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αποτυχία ευρετηρίασης του χρήστη"
   },
   {
     "id": "ent.elasticsearch.index_post.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αποτυχία ευρετηρίασης της ανάρτησης"
   },
   {
     "id": "ent.elasticsearch.index_channel.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αποτυχία ευρετηρίασης του καναλιού"
   },
   {
     "id": "ent.elasticsearch.delete_user.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αποτυχία διαγραφής του χρήστη"
   },
   {
     "id": "ent.elasticsearch.delete_post.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αποτυχία διαγραφής της δημοσίευσης"
   },
   {
     "id": "ent.elasticsearch.delete_channel.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Απέτυχε η διαγραφή του καναλιού"
   },
   {
     "id": "ent.compliance.csv.zip.creation.appError",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η δημιουργία του αρχείου εξαγωγής zip."
   },
   {
     "id": "ent.compliance.csv.warning.appError",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η δημιουργία του αρχείου προειδοποίησης."
   },
   {
     "id": "ent.compliance.csv.metadata.json.zipfile.appError",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η δημιουργία του αρχείου zip"
   },
   {
     "id": "ent.account_migration.get_saml_users_failed",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αδυναμία λήψης χρηστών SAML."
   },
   {
     "id": "ent.account_migration.get_all_failed",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αδυναμία λήψης χρηστών."
   },
   {
     "id": "bleveengine.index_user.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Απέτυχε η ευρετηρίαση του χρήστη."
   },
   {
     "id": "bleveengine.index_post.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Απέτυχε η ευρετηρίαση της δημοσίευσης."
   },
   {
     "id": "bleveengine.index_channel.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Απέτυχε η ευρετηρίαση του καναλιού."
   },
   {
     "id": "bleveengine.delete_user.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αποτυχία διαγραφής του χρήστη."
   },
   {
     "id": "bleveengine.delete_post.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αποτυχία διαγραφής της δημοσίευσης."
   },
   {
     "id": "bleveengine.delete_channel.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Απέτυχε η διαγραφή του καναλιού."
   },
   {
     "id": "app.submit_interactive_dialog.json_error",
@@ -185,23 +185,23 @@
   },
   {
     "id": "app.plugin.remove.app_error",
-    "translation": "Αδυναμία διαγραφής της αντίδρασης"
+    "translation": "Δεν είναι δυνατή η διαγραφή του plugin."
   },
   {
     "id": "app.plugin.get_plugins.app_error",
-    "translation": "Αδυναμία διαγραφής της αντίδρασης"
+    "translation": "Αδυναμία λήψης ενεργών plugins."
   },
   {
     "id": "app.plugin.delete_public_key.delete.app_error",
-    "translation": "Παρουσιάστηκε ένα σφάλμα κατά τη διαγραφή του πιστοποιητικού"
+    "translation": "Προέκυψε σφάλμα κατά τη διαγραφή του δημόσιου κλειδιού."
   },
   {
     "id": "app.plugin.deactivate.app_error",
-    "translation": "Αδυναμία διαγραφής της αντίδρασης"
+    "translation": "Δεν είναι δυνατή η απενεργοποίηση του plugin."
   },
   {
     "id": "app.import.import_direct_channel.update_header_failed.error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Απέτυχε να ενημερωθεί η επικεφαλίδα άμεσου καναλιού"
   },
   {
     "id": "app.channel.post_update_channel_purpose_message.updated_to",
@@ -225,31 +225,31 @@
   },
   {
     "id": "app.channel.create_direct_channel.internal_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αδυναμία αποθήκευσης άμεσου καναλιού."
   },
   {
     "id": "app.channel.create_channel.internal_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η αποθήκευση του καναλιού."
   },
   {
     "id": "app.bot.permenent_delete.bad_id",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η διαγραφή του bot."
   },
   {
     "id": "app.bot.patchbot.internal_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Αδυναμία ενημέρωσης του bot."
   },
   {
     "id": "app.bot.getbots.internal_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η λήψη των bots."
   },
   {
     "id": "app.bot.getbot.internal_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η λήψη του bot."
   },
   {
     "id": "app.bot.createbot.internal_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η αποθήκευση του bot."
   },
   {
     "id": "api.websocket_handler.invalid_param.app_error",
@@ -693,7 +693,7 @@
   },
   {
     "id": "app.scheme.save.app_error",
-    "translation": "Απέτυχε η ενημέρωση του καναλιού"
+    "translation": "Δεν είναι δυνατή η δημιουργία του σχήματος."
   },
   {
     "id": "api.command_join.list.app_error",
