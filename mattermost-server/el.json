@@ -213,7 +213,7 @@
   },
   {
     "id": "app.channel.post_update_channel_purpose_message.retrieve_user.error",
-    "translation": "Αποτυχία ανάκτησης του χρήστη κατά την ενημέρωση της κεφαλίδας του καναλιού  %v"
+    "translation": "Αποτυχία ανάκτησης του χρήστη κατά την ενημέρωση της κεφαλίδας του καναλιού %v"
   },
   {
     "id": "app.channel.post_update_channel_purpose_message.removed",
@@ -1368,7 +1368,7 @@
   },
   {
     "id": "January",
-    "translation": "IΙανουάριος"
+    "translation": "Ιανουάριος"
   },
   {
     "id": "February",
@@ -2417,5 +2417,9 @@
   {
     "id": "api.slackimport.slack_import.note2",
     "translation": "- Τα μηνύματα του Slack bot δεν υποστηρίζονται προς το παρόν.\n"
+  },
+  {
+    "id": "api.command_share.remote_already_invited",
+    "translation": "Η ασφαλής σύνδεση έχει ήδη προσκληθεί."
   }
 ]
