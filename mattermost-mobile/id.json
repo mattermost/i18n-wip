@@ -1,3 +1,5 @@
 {
-  "about.title": "Tentang"
+  "about.title": "Tentang {appTitle}",
+  "about.teamEditiont1": "Edisi Perusahaan",
+  "about.teamEditionLearn": "Bergabung ke komunitas Mattermost di "
 }
