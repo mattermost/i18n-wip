@@ -9205,5 +9205,13 @@
   {
     "id": "api.channel.create_channel.direct_channel.team_restricted_error",
     "translation": "A direct channel cannot be created between these users because they do not share a team in common."
+  },
+  {
+    "id": "api.config.update_config.diff.app_error",
+    "translation": "Failed to diff configs"
+  },
+  {
+    "id": "api.config.patch_config.diff.app_error",
+    "translation": "Failed to diff configs"
   }
 ]
