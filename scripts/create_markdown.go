@@ -21,6 +21,7 @@ func main() {
 		"Dutch":                 "nl",
 		"French":                "fr",
 		"German":                "de",
+		"Hungarian": 		 "hu",
 		"Italian":               "it",
 		"Japanese":              "ja",
 		"Korean":                "ko",
