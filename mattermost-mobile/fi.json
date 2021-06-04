@@ -43,7 +43,6 @@
   "posts_view.newMsg": "Uudet viestit",
   "post_message_view.edited": "(muokattu)",
   "post_info.system": "Järjestelmä",
-  "post_info.message.show_less": "Näytä vähemmän",
   "post_info.auto_responder": "AUTOMAATTINEN VASTAUS",
   "post_body.deleted": "(viesti poistettu)",
   "post_body.check_for_out_of_channel_mentions.link.private": "lisää heidät tähän yksityiskanavaan",
