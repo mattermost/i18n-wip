@@ -1292,7 +1292,7 @@
   },
   {
     "id": "api.admin.test_email.missing_server",
-    "translation": "Ο διακομιστής SMTP είναι υποχρεωτικός"
+    "translation": "Απαιτείται διακομιστής SMTP"
   },
   {
     "id": "api.admin.test_email.body",
@@ -2421,5 +2421,165 @@
   {
     "id": "api.command_share.remote_already_invited",
     "translation": "Η ασφαλής σύνδεση έχει ήδη προσκληθεί."
+  },
+  {
+    "id": "api.email_batching.add_notification_email_to_batch.channel_full.app_error",
+    "translation": "Το κανάλι λήψης των ομαδικών εργασιών ηλεκτρονικού ταχυδρομείου ήταν πλήρες. Παρακαλούμε αυξήστε το EmailBatchingBufferSize."
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.missing_server.app_error",
+    "translation": "Απαιτείται διακομιστής SMTP"
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.invalid_warn_metric.app_error",
+    "translation": "Δεν ήταν δυνατή η εύρεση της μέτρησης της προειδοποίησης."
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.failure.app_error",
+    "translation": "Αποτυχία αποστολής email επιβεβαίωσης διαχειριστή"
+  },
+  {
+    "id": "api.create_terms_of_service.empty_text.app_error",
+    "translation": "Παρακαλούμε εισάγετε κείμενο για τους Προσαρμοσμένους Όρους Παροχής Υπηρεσιών."
+  },
+  {
+    "id": "api.create_terms_of_service.custom_terms_of_service_disabled.app_error",
+    "translation": "Η δυνατότητα προσαρμοσμένων όρων υπηρεσίας είναι απενεργοποιημένη."
+  },
+  {
+    "id": "api.context.token_provided.app_error",
+    "translation": "Η περίοδος σύνδεσης δεν είναι OAuth, αλλά το διακριτικό δόθηκε στη συμβολοσειρά ερωτήματος."
+  },
+  {
+    "id": "api.context.server_busy.app_error",
+    "translation": "Ο διακομιστής είναι απασχολημένος, οι μη κρίσιμες υπηρεσίες δεν είναι προσωρινά διαθέσιμες."
+  },
+  {
+    "id": "api.context.remote_id_missing.app_error",
+    "translation": "Απουσία αναγνωριστικού ασφαλούς σύνδεσης."
+  },
+  {
+    "id": "api.context.remote_id_mismatch.app_error",
+    "translation": "Αναντιστοιχία αναγνωριστικού ασφαλούς σύνδεσης."
+  },
+  {
+    "id": "api.context.remote_id_invalid.app_error",
+    "translation": "Αδυναμία εύρεσης ασφαλούς σύνδεσης {{.RemoteId}}."
+  },
+  {
+    "id": "api.context.local_origin_required.app_error",
+    "translation": "Αυτό το τελικό σημείο απαιτεί μια τοπική προέλευση αιτήματος."
+  },
+  {
+    "id": "api.context.json_encoding.app_error",
+    "translation": "Σφάλμα κατά την κωδικοποίηση JSON."
+  },
+  {
+    "id": "api.context.invitation_expired.error",
+    "translation": "Η πρόσκληση έχει λήξει."
+  },
+  {
+    "id": "api.context.invalid_url_param.app_error",
+    "translation": "Μη έγκυρη ή ελλιπής παράμετρος {{.Name}} στη διεύθυνση URL αίτησης."
+  },
+  {
+    "id": "api.context.invalid_token.error",
+    "translation": "Μη έγκυρο διακριτικό περιόδου σύνδεσης={{.Token}}, σφάλμα={{.Error}}"
+  },
+  {
+    "id": "api.context.get_user.app_error",
+    "translation": "Δεν είναι δυνατή η λήψη χρήστη από τη συνεδρία UserID."
+  },
+  {
+    "id": "api.config.update_config.diff.app_error",
+    "translation": "Αποτυχία διαμόρφωσης των diff configs"
+  },
+  {
+    "id": "api.config.update_config.clear_siteurl.app_error",
+    "translation": "Δεν είναι δυνατή η εκκαθάριση της διεύθυνσης URL ιστότοπου."
+  },
+  {
+    "id": "api.config.patch_config.restricted_merge.app_error",
+    "translation": "Απέτυχε η συγχώνευση της ρύθμισης που έχει δοθεί."
+  },
+  {
+    "id": "api.config.patch_config.diff.app_error",
+    "translation": "Αποτυχία διαμόρφωσης των diff configs"
+  },
+  {
+    "id": "api.config.migrate_config.app_error",
+    "translation": "Αποτυχία μετεγκατάστασης του χώρου αποθήκευσης ρυθμίσεων (config store)."
+  },
+  {
+    "id": "api.config.get_config.restricted_merge.app_error",
+    "translation": "Απέτυχε η συγχώνευση της ρύθμισης που έχει δοθεί."
+  },
+  {
+    "id": "api.config.client.old_format.app_error",
+    "translation": "Η νέα μορφή για τη διαμόρφωση του πελάτη δεν υποστηρίζεται ακόμη. Προσδιορίστε format=old στη συμβολοσειρά ερωτήματος."
+  },
+  {
+    "id": "api.command_share.unshare_channel.help",
+    "translation": "Καταργεί την κοινή χρήση του τρέχοντος καναλιού"
+  },
+  {
+    "id": "api.command_share.unknown_action",
+    "translation": "Άγνωστη ενέργεια `{{.Action}}`. Διαθέσιμες ενέργειες: {{.Actions}}"
+  },
+  {
+    "id": "api.command_share.uninvite_remote_id.help",
+    "translation": "Αναγνωριστικό ασφαλούς σύνδεσης για την κατάργηση της πρόσκλησης."
+  },
+  {
+    "id": "api.command_share.uninvite_remote.help",
+    "translation": "Ακύρωση πρόσκλησης μια ασφαλούς σύνδεσης από αυτό το κοινόχρηστο κανάλι"
+  },
+  {
+    "id": "api.command_share.shared_channel_unshare.error",
+    "translation": "Δεν είναι δυνατή η ακύρωση κοινής χρήσης αυτού του καναλιού: {{.Error}}."
+  },
+  {
+    "id": "api.command_share.shared_channel_unavailable",
+    "translation": "Αυτό το κανάλι δεν είναι πλέον κοινόχρηστο."
+  },
+  {
+    "id": "api.command_share.share_read_only.hint",
+    "translation": "[μόνο για ανάγνωση] - 'Ν' ή 'Ο'.  Προεπιλογή 'Ο'"
+  },
+  {
+    "id": "api.command_share.share_read_only.help",
+    "translation": "Το κανάλι θα κοινοποιηθεί σε λειτουργία μόνο για ανάγνωση"
+  },
+  {
+    "id": "api.command_share.share_channel.error",
+    "translation": "Δεν είναι δυνατή η κοινή χρήση αυτού του καναλιού: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.service_disabled",
+    "translation": "Η υπηρεσία κοινόχρηστων καναλιών είναι απενεργοποιημένη."
+  },
+  {
+    "id": "api.command_share.remote_uninvited",
+    "translation": "Ασφαλής σύνδεση `{{.RemoteId}}` χωρίς πρόσκληση."
+  },
+  {
+    "id": "api.command_share.remote_table_header",
+    "translation": "| Ασφαλής σύνδεση | URL του ιστότοπου | Μόνο για ανάγνωση | Πρόσκληση αποδεκτή | Online | Τελευταίος συγχρονισμός |"
+  },
+  {
+    "id": "api.command_share.remote_not_valid",
+    "translation": "Πρέπει να καθορίσετε ένα έγκυρο αναγνωριστικό ασφαλούς σύνδεσης για να ακυρώσετε την πρόσκληση"
+  },
+  {
+    "id": "api.command_share.remote_id_invalid.error",
+    "translation": "Το αναγνωριστικό ασφαλούς σύνδεσης δεν είναι έγκυρο: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.remote_id.help",
+    "translation": "Αναγνωριστικό μιας υπάρχουσας ασφαλούς σύνδεσης. Ανατρέξτε στην εντολή `secure-connection` για να προσθέσετε μια ασφαλή σύνδεση."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία ενός άμεσου καναλιού μεταξύ αυτών των χρηστών, επειδή δε μοιράζονται μια κοινή ομάδα."
   }
 ]
