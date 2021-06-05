@@ -736,10 +736,6 @@
     "translation": "La funció requereix una actualització a l'edició empresarial i una llicència. Contacta amb l'administrador del sistema."
   },
   {
-    "id": "brand.save_brand_image.too_large.app_error",
-    "translation": "No es pot llegir el fitxer d'imatge. Assegura't que la mida de la imatge sigui inferior a 2 MB i torna-ho a provar."
-  },
-  {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "No es pot escriure el fitxer d'imatge al vostre emmagatzematge de fitxers. Comprova la teva connexió i torna-ho a provar."
   },
@@ -750,10 +746,6 @@
   {
     "id": "brand.save_brand_image.encode.app_error",
     "translation": "No es pot convertir les dades de la imatge en format PNG. Torna-ho a provar."
-  },
-  {
-    "id": "brand.save_brand_image.decode_config.app_error",
-    "translation": "No es pot obtenir les metadades de la imatge."
   },
   {
     "id": "brand.save_brand_image.decode.app_error",
@@ -1890,10 +1882,6 @@
   {
     "id": "api.team.set_team_icon.encode.app_error",
     "translation": "No s'ha pogut codificar la icona de l'equip"
-  },
-  {
-    "id": "api.team.set_team_icon.decode_config.app_error",
-    "translation": "No s'ha pogut descodificar la metadada de la icona de l'equip"
   },
   {
     "id": "api.team.set_team_icon.decode.app_error",
@@ -3707,10 +3695,6 @@
   {
     "id": "api.user.upload_profile_user.encode.app_error",
     "translation": "No s'ha pogut codificar la imatge del perfil"
-  },
-  {
-    "id": "api.user.upload_profile_user.decode_config.app_error",
-    "translation": "No s'ha pogut desar la imatge del perfil. El fitxer no sembla ser una imatge vàlida."
   },
   {
     "id": "api.user.upload_profile_user.decode.app_error",

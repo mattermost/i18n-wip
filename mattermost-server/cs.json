@@ -984,10 +984,6 @@
     "translation": "Funkcionalita vyžaduje Enterprise Edition a zadání licenčního klíče. Prosím kontaktujte svého administrátora."
   },
   {
-    "id": "brand.save_brand_image.too_large.app_error",
-    "translation": "Nepodařilo se načíst obrázek ze souboru. Zkontrolujte, že obrázek je menší než 2 MB a zkuste to znovu."
-  },
-  {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "Nepodařilo se zapsat obrázek do souborového úložiště. Prosím zkontrolujte svoje síťové spojení a zkuste to znovu."
   },
@@ -998,10 +994,6 @@
   {
     "id": "brand.save_brand_image.encode.app_error",
     "translation": "Nepodařilo se zkonvertovat obrázek do formátu PNG. Prosím zkuste to znovu."
-  },
-  {
-    "id": "brand.save_brand_image.decode_config.app_error",
-    "translation": "Nepodařilo se získat metadata obrázku."
   },
   {
     "id": "brand.save_brand_image.decode.app_error",
@@ -1906,10 +1898,6 @@
   {
     "id": "api.user.upload_profile_user.encode.app_error",
     "translation": "Nepodařilo se zakódovat profilový obrázek."
-  },
-  {
-    "id": "api.user.upload_profile_user.decode_config.app_error",
-    "translation": "Profilový obrázek se nepodařilo uložit. Soubor není platný obrázek."
   },
   {
     "id": "api.user.upload_profile_user.decode.app_error",
@@ -4750,10 +4738,6 @@
   {
     "id": "api.team.set_team_icon.encode.app_error",
     "translation": "Nelze zakódovat ikonu týmu."
-  },
-  {
-    "id": "api.team.set_team_icon.decode_config.app_error",
-    "translation": "Nelze dekódovat metadata ikony týmu."
   },
   {
     "id": "api.team.set_team_icon.decode.app_error",

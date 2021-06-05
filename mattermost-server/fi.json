@@ -2368,10 +2368,6 @@
     "translation": "Ei voitu enkoodata profiilikuvaa"
   },
   {
-    "id": "api.user.upload_profile_user.decode_config.app_error",
-    "translation": "Ei voitu tallentaa profiilikuvaa. Tiedosto ei vaikuta kuvalta."
-  },
-  {
     "id": "api.user.upload_profile_user.decode.app_error",
     "translation": "Ei voitu dekoodata profiilikuvaa"
   },
@@ -2686,10 +2682,6 @@
   {
     "id": "api.team.set_team_icon.encode.app_error",
     "translation": "Ei voitu enkoodata tiimin ikonia"
-  },
-  {
-    "id": "api.team.set_team_icon.decode_config.app_error",
-    "translation": "Ei voitu lukea tiimin ikonin metadataa"
   },
   {
     "id": "api.team.set_team_icon.decode.app_error",
@@ -3116,10 +3108,6 @@
     "translation": "Ominaisuus vaatii päivityksen Enterprise Editioniin ja lisenssiavaimen. Ota yhteys järjestelmänvalvojaan."
   },
   {
-    "id": "brand.save_brand_image.too_large.app_error",
-    "translation": "Ei voitu lukea kuvatiedostoa. Varmista että kuvan koko on vähemmän kuin 2 Mt ja yritä uudestaan."
-  },
-  {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "Ei voitu kirjoittaa kuvatiedostoa tiedostovarastoon. Tarkista yhteys ja yritä uudestaan."
   },
@@ -3130,10 +3118,6 @@
   {
     "id": "brand.save_brand_image.encode.app_error",
     "translation": "Ei voitu muuttaa kuvadataa PNG muotoon. Yritä uudestaan."
-  },
-  {
-    "id": "brand.save_brand_image.decode_config.app_error",
-    "translation": "Ei voitu hakea kuvan metadataa."
   },
   {
     "id": "brand.save_brand_image.decode.app_error",

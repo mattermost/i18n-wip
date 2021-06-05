@@ -2412,10 +2412,6 @@
     "translation": "رمزگشایی نماد تیم امکان پذیر نیست."
   },
   {
-    "id": "api.team.set_team_icon.decode_config.app_error",
-    "translation": "فراداده نماد تیم رمزگشایی نشد."
-  },
-  {
     "id": "api.team.set_team_icon.encode.app_error",
     "translation": "نماد تیم رمزگذاری نمی شود."
   },
@@ -3170,10 +3166,6 @@
   {
     "id": "api.user.upload_profile_user.decode.app_error",
     "translation": "رمزگشایی تصویر نمایه امکان پذیر نیست."
-  },
-  {
-    "id": "api.user.upload_profile_user.decode_config.app_error",
-    "translation": "تصویر نمایه ذخیره نشد. به نظر نمی رسد پرونده یک تصویر معتبر باشد."
   },
   {
     "id": "api.user.upload_profile_user.encode.app_error",
@@ -5368,10 +5360,6 @@
     "translation": "رمزگشایی داده های تصویر امکان پذیر نیست."
   },
   {
-    "id": "brand.save_brand_image.decode_config.app_error",
-    "translation": "گرفتن فراداده تصویر امکان پذیر نیست."
-  },
-  {
     "id": "brand.save_brand_image.encode.app_error",
     "translation": "تبدیل داده های تصویر به قالب PNG امکان پذیر نیست. لطفا دوباره تلاش کنید."
   },
@@ -5382,10 +5370,6 @@
   {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "نوشتن فایل تصویر در فضای ذخیره سازی فایل شما امکان پذیر نیست. لطفاً اتصال خود را بررسی کنید و دوباره امتحان کنید."
-  },
-  {
-    "id": "brand.save_brand_image.too_large.app_error",
-    "translation": "فایل تصویر قابل خواندن نیست. مطمئن شوید که اندازه تصویر کمتر از 2 مگابایت است و دوباره امتحان کنید."
   },
   {
     "id": "cli.license.critical",

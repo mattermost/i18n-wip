@@ -136,10 +136,6 @@
     "translation": "Не могу да отпремим датотеку. Складиште датотека није подешено."
   },
   {
-    "id": "api.user.upload_profile_user.decode_config.app_error",
-    "translation": "Нисам могао да сачувам профилну слику. Изгледа да датотека није исправна слика."
-  },
-  {
     "id": "api.user.update_password.menu",
     "translation": "корисшћењем менија са подешавањима"
   },

@@ -1172,10 +1172,6 @@
     "translation": "Funkcija zahteva nadgradnjo na Enterprise Edition in vključitev licenčnega ključa. Obrnite se na skrbnika sistema."
   },
   {
-    "id": "brand.save_brand_image.too_large.app_error",
-    "translation": "Slikovne datoteke ni mogoče prebrati. Prepričajte se, da je velikost slike manjša od 2 MB in poskusite znova."
-  },
-  {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "Slikovne datoteke ni mogoče zapisati v shrambo datotek. Preverite povezavo in poskusite znova."
   },
@@ -1186,10 +1182,6 @@
   {
     "id": "brand.save_brand_image.encode.app_error",
     "translation": "Slikovnih podatkov ni mogoče pretvoriti v format PNG. Prosim poskusite ponovno."
-  },
-  {
-    "id": "brand.save_brand_image.decode_config.app_error",
-    "translation": "Metapodatkov slike ni mogoče dobiti."
   },
   {
     "id": "brand.save_brand_image.decode.app_error",
@@ -1658,10 +1650,6 @@
   {
     "id": "api.user.upload_profile_user.encode.app_error",
     "translation": "Profilne slike ni možno kodirati"
-  },
-  {
-    "id": "api.user.upload_profile_user.decode_config.app_error",
-    "translation": "Profilne slike ni možno shraniti. Datoteka ni veljavna slika."
   },
   {
     "id": "api.user.upload_profile_user.decode.app_error",
@@ -2758,10 +2746,6 @@
   {
     "id": "api.team.set_team_icon.encode.app_error",
     "translation": "Ikone skupine ni bilo mogoče kodirati"
-  },
-  {
-    "id": "api.team.set_team_icon.decode_config.app_error",
-    "translation": "Metapodatkov ikone skupine ni bilo mogoče dekodirati"
   },
   {
     "id": "api.team.set_team_icon.decode.app_error",
