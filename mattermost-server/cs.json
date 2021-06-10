@@ -6576,10 +6576,6 @@
     "translation": "Nastavení CollapsedThreads musí být buď disabled,default_on nebo default_off"
   },
   {
-    "id": "import_process.worker.do_job.unzip",
-    "translation": "Nepodařilo se zpracovat import: selhalo rozbalení zip souboru."
-  },
-  {
     "id": "import_process.worker.do_job.tmp_dir",
     "translation": "Nepodařilo se zpracovat import: selhalo vytvoření dočasného adresáře."
   },
