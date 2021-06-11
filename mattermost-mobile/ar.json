@@ -53,7 +53,19 @@
   "about.hashee": "بناء تشفير هاش:",
   "about.hash": "بناء تشفير هاش:",
   "about.enterpriseEditionSt": "الاتصالات الحديثة من وراء جدار الحماية الخاص بك.",
-  "about.enterpriseEditionLearn": "المزيد عن Enterprise Edition في ",
+  "about.enterpriseEditionLearn": "معرفة المزيد عن الطبعة المؤسسة في ",
   "about.date": "تاريخ البناء:",
-  "about.enterpriseEditione1": "النسخة الخاصة بالشركات:"
+  "about.enterpriseEditione1": "نسخة الشركات",
+  "login.or": "offline,بعيدا",
+  "search_item.channelArchived": "Channels,عرض:",
+  "mobile.notice_platform_link": "version,إصدار",
+  "mobile.notification_settings.auto_responder.message_placeholder": "Thread,رسالة",
+  "mobile.post_pre_header.pinned": "messages",
+  "mobile.post_info.reply": "notifications",
+  "mobile.post_pre_header.flagged": "messages",
+  "suggestion.mention.you": ",{اسم",
+  "mobile.channel_info.alertNo": "matching",
+  "about.title": "عن",
+  "about.teamEditiont1": "الطبعة المؤسسة",
+  "about.teamEditionSt": "جميع الاتصالات فريقك في مكان واحد، وعلى الفور في أي مكان للبحث والوصول إليها."
 }
