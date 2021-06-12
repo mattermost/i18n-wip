@@ -709,7 +709,7 @@
   },
   {
     "id": "api.command_shortcuts.name",
-    "translation": "الاختصارات"
+    "translation": "command"
   },
   {
     "id": "api.command_shortcuts.desc",
@@ -817,7 +817,7 @@
   },
   {
     "id": "api.command_groupmsg.name",
-    "translation": "رسالة"
+    "translation": "must"
   },
   {
     "id": "api.command_groupmsg.group_fail.app_error",
@@ -909,7 +909,7 @@
   },
   {
     "id": "api.command_channel_header.name",
-    "translation": "الترويسة"
+    "translation": "is"
   },
   {
     "id": "api.command_channel_header.message.app_error",
@@ -1418,5 +1418,33 @@
   {
     "id": "api.admin.add_certificate.parseform.app_error",
     "translation": "خطأ في تحليل الطلب متعدد الأشكال"
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_or",
+    "translation": "more"
+  },
+  {
+    "id": "api.command_invite.name",
+    "translation": "id.,صالح"
+  },
+  {
+    "id": "api.command_search.name",
+    "translation": "is"
+  },
+  {
+    "id": "api.command_custom_status.name",
+    "translation": "feature"
+  },
+  {
+    "id": "api.command_channel_purpose.name",
+    "translation": "is"
+  },
+  {
+    "id": "api.command_help.name",
+    "translation": "improve"
+  },
+  {
+    "id": "api.command_settings.name",
+    "translation": "command"
   }
 ]
