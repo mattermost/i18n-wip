@@ -2424,7 +2424,7 @@
   },
   {
     "id": "api.email_batching.add_notification_email_to_batch.channel_full.app_error",
-    "translation": "Το κανάλι λήψης των ομαδικών εργασιών ηλεκτρονικού ταχυδρομείου ήταν πλήρες. Παρακαλούμε αυξήστε το EmailBatchingBufferSize."
+    "translation": "Το κανάλι λήψης των ομαδικών μηνυμάτων ηλεκτρονικού ταχυδρομείου ήταν πλήρες. Παρακαλούμε αυξήστε το EmailBatchingBufferSize."
   },
   {
     "id": "api.email.send_warn_metric_ack.missing_server.app_error",
@@ -2581,5 +2581,103 @@
   {
     "id": "api.channel.create_channel.direct_channel.team_restricted_error",
     "translation": "Δεν είναι δυνατή η δημιουργία ενός άμεσου καναλιού μεταξύ αυτών των χρηστών, επειδή δε μοιράζονται μια κοινή ομάδα."
+  },
+  {
+    "id": "api.error_get_first_admin_visit_marketplace_status",
+    "translation": "Σφάλμα κατά την ανάκτηση της κατάστασης της πρώτης επίσκεψης του διαχειριστή στο marketplace."
+  },
+  {
+    "id": "api.emoji.upload.open.app_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία του emoji. Παρουσιάστηκε σφάλμα κατά την προσπάθεια ανοίγματος της συνημμένης εικόνας."
+  },
+  {
+    "id": "api.emoji.upload.large_image.too_large.app_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Η εικόνα πρέπει να είναι μικρότερη από {{.MaxWidth}} επί {{.MaxHeight}}."
+  },
+  {
+    "id": "api.emoji.upload.large_image.gif_encode_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Παρουσιάστηκε σφάλμα κατά την προσπάθεια κωδικοποίησης της εικόνας GIF."
+  },
+  {
+    "id": "api.emoji.upload.large_image.gif_decode_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Παρουσιάστηκε σφάλμα κατά την προσπάθεια αποκωδικοποίησης της εικόνας GIF."
+  },
+  {
+    "id": "api.emoji.upload.large_image.encode_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Παρουσιάστηκε σφάλμα κατά την προσπάθεια κωδικοποίησης της εικόνας."
+  },
+  {
+    "id": "api.emoji.upload.large_image.decode_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Παρουσιάστηκε σφάλμα κατά την προσπάθεια αποκωδικοποίησης της εικόνας."
+  },
+  {
+    "id": "api.emoji.upload.image.app_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Το αρχείο πρέπει να είναι PNG, JPEG ή GIF."
+  },
+  {
+    "id": "api.emoji.storage.app_error",
+    "translation": "Ο χώρος αποθήκευσης αρχείων δεν έχει ρυθμιστεί σωστά. Παρακαλούμε ρυθμίστε τις παραμέτρους είτε για αποθήκευση αρχείων στο S3 είτε σε τοπικό διακομιστή."
+  },
+  {
+    "id": "api.emoji.get_image.read.app_error",
+    "translation": "Δεν είναι δυνατή η ανάγνωση του αρχείου εικόνας για το emoji."
+  },
+  {
+    "id": "api.emoji.get_image.decode.app_error",
+    "translation": "Δεν είναι δυνατή η αποκωδικοποίηση του αρχείου εικόνας για emoji."
+  },
+  {
+    "id": "api.emoji.create.too_large.app_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Η εικόνα πρέπει να έχει μέγεθος μικρότερο από 1 MB."
+  },
+  {
+    "id": "api.emoji.create.parse.app_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Δεν ήταν δυνατή η κατανόηση του αιτήματος."
+  },
+  {
+    "id": "api.emoji.create.other_user.app_error",
+    "translation": "Μη έγκυρο αναγνωριστικό χρήστη."
+  },
+  {
+    "id": "api.emoji.create.internal_error",
+    "translation": "server_error: Παρουσιάστηκε σφάλμα εσωτερικού διακομιστή κατά τη δημιουργία του emoji."
+  },
+  {
+    "id": "api.emoji.create.duplicate.app_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία emoji. Υπάρχει ήδη ένα άλλο emoji με το ίδιο όνομα."
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.title",
+    "translation": {
+      "one": "{{ .SenderName }} σας έστειλε νέο μήνυμα",
+      "other": "{{ .SenderName }} και {{.Count}} άλλοι σας έστειλαν νέα μηνύματα"
+    }
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.time",
+    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.subject",
+    "translation": {
+      "one": "[{{.SiteName}}] Νέα ειδοποίηση για {{.Month}} {{.Day}}, {{.Year}}",
+      "other": "[{{.SiteName}}] Νέες ειδοποιήσεις για {{.Month}} {{.Day}}, {{.Year}}"
+    }
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.subTitle",
+    "translation": "Δείτε παρακάτω μια περίληψη των νέων μηνυμάτων σας."
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.messageButton",
+    "translation": "Δείτε αυτό το μήνυμα"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.button",
+    "translation": "Ανοίξτε το Mattermost"
+  },
+  {
+    "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",
+    "translation": "Η ομαδοποίηση μηνυμάτων ηλεκτρονικού ταχυδρομείου έχει απενεργοποιηθεί από το διαχειριστή του συστήματος."
   }
 ]
