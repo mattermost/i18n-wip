@@ -1,1 +1,5 @@
-{}
+{
+  "add_emoji.imageRequired": "Uma imagem é necessária para o emoji",
+  "add_emoji.name": "Nome",
+  "add_emoji.nameInvalid": "O nome de um emoji só pode conter letras minúsculas, números e os símbolos '-' e '_'."
+}
