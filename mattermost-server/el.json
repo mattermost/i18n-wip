@@ -2739,5 +2739,297 @@
   {
     "id": "api.error_set_first_admin_visit_marketplace_status",
     "translation": "Σφάλμα κατά την προσπάθεια αποθήκευσης της κατάστασης της πρώτης επίσκεψης του διαχειριστή στο marketplace."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_secret.app_error",
+    "translation": "invalid_request: Λείπει το client_secret."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_id.app_error",
+    "translation": "invalid_request: Λάθος client_id."
+  },
+  {
+    "id": "api.oauth.click_redirect",
+    "translation": "Εάν δεν ανακατευθυνθείτε αυτόματα, κάντε κλικ στον <a href='{{.Link}}'>σύνδεσμο</a>"
+  },
+  {
+    "id": "api.oauth.authorize_oauth.disabled.app_error",
+    "translation": "Ο διαχειριστής του συστήματος έχει απενεργοποιήσει τον πάροχο υπηρεσιών OAuth2."
+  },
+  {
+    "id": "api.oauth.allow_oauth.turn_off.app_error",
+    "translation": "Ο διαχειριστής του συστήματος έχει απενεργοποιήσει τον πάροχο υπηρεσιών OAuth2."
+  },
+  {
+    "id": "api.migrate_to_saml.error",
+    "translation": "Δεν είναι δυνατή η μετεγκατάσταση SAML."
+  },
+  {
+    "id": "api.marshal_error",
+    "translation": "σφάλμα διευθέτησης"
+  },
+  {
+    "id": "api.license.request_trial_license.no-site-url.app_error",
+    "translation": "Δεν είναι δυνατή η αίτηση για δοκιμαστική άδεια χρήσης. Παρακαλούμε ρυθμίστε μια διεύθυνση URL ιστότοπου στην ενότητα διακομιστή ιστού της κονσόλας συστήματος του Mattermost."
+  },
+  {
+    "id": "api.license.request_trial_license.fail_get_user_count.app_error",
+    "translation": "Δεν είναι δυνατή η λήψη μιας δοκιμαστικής άδειας, δοκιμάστε ξανά ή επικοινωνήστε με το support@mattermost.com. Δεν είναι δυνατή η απόκτηση του αριθμού των εγγεγραμμένων χρηστών."
+  },
+  {
+    "id": "api.license.request_trial_license.app_error",
+    "translation": "Δεν είναι δυνατή η λήψη μιας δοκιμαστικής άδειας, δοκιμάστε ξανά ή επικοινωνήστε με το support@mattermost.com."
+  },
+  {
+    "id": "api.license.request-trial.bad-request.terms-not-accepted",
+    "translation": "Πρέπει να αποδεχτείτε τη Συμφωνία Αξιολόγησης Λογισμικού της Mattermost και την Πολιτική Απορρήτου για να ζητήσετε άδεια χρήσης."
+  },
+  {
+    "id": "api.license.request-trial.bad-request",
+    "translation": "Ο αριθμός των χρηστών που ζητήθηκαν δεν είναι σωστός."
+  },
+  {
+    "id": "api.license.remove_expired_license.failed.error",
+    "translation": "Απέτυχε να αποσταλεί επιτυχώς το μήνυμα ηλεκτρονικού ταχυδρομείου για την απενεργοποίηση της άδειας χρήσης."
+  },
+  {
+    "id": "api.license.client.old_format.app_error",
+    "translation": "Η νέα μορφή για την άδεια χρήσης πελάτη δεν υποστηρίζεται ακόμη. Παρακαλούμε καθορίστε format=old στη συμβολοσειρά ερωτήματος."
+  },
+  {
+    "id": "api.license.add_license.unique_users.app_error",
+    "translation": "Αυτή η άδεια χρήσης υποστηρίζει μόνο {{.Users}} χρήστες, όταν το σύστημά σας έχει {{.Count}} μοναδικούς χρήστες. Οι μοναδικοί χρήστες υπολογίζονται ξεχωριστά ανά διεύθυνση ηλεκτρονικού ταχυδρομείου. Μπορείτε να δείτε τον συνολικό αριθμό χρηστών στο Αναφορές Ιστότοπου -> Προβολή Στατιστικών."
+  },
+  {
+    "id": "api.license.add_license.save_active.app_error",
+    "translation": "Το αναγνωριστικό ενεργής άδειας χρήσης δεν αποθηκεύτηκε σωστά."
+  },
+  {
+    "id": "api.license.add_license.save.app_error",
+    "translation": "Η άδεια χρήσης δεν αποθηκεύτηκε σωστά."
+  },
+  {
+    "id": "api.license.add_license.invalid_count.app_error",
+    "translation": "Δεν είναι δυνατή η καταμέτρηση του συνόλου των μοναδικών χρηστών."
+  },
+  {
+    "id": "api.license.add_license.invalid.app_error",
+    "translation": "Μη έγκυρο αρχείο άδειας χρήσης."
+  },
+  {
+    "id": "api.license.add_license.expired.app_error",
+    "translation": "Η άδεια χρήσης είτε έχει λήξει είτε δεν έχει ξεκινήσει ακόμη."
+  },
+  {
+    "id": "api.ldap_groups.license_error",
+    "translation": "Η άδειά σας δεν υποστηρίζει ομάδες ldap"
+  },
+  {
+    "id": "api.ldap_groups.existing_user_name_error",
+    "translation": "το όνομα του γκρουπ υπάρχει ήδη ως όνομα χρήστη"
+  },
+  {
+    "id": "api.ldap_groups.existing_reserved_name_error",
+    "translation": "το όνομα του γκρουπ υπάρχει ήδη ως δεσμευμένο όνομα"
+  },
+  {
+    "id": "api.ldap_groups.existing_group_name_error",
+    "translation": "Το όνομα του γκρουπ υπάρχει ήδη"
+  },
+  {
+    "id": "api.ldap_group.not_found",
+    "translation": "Δε βρέθηκε ομάδα ldap"
+  },
+  {
+    "id": "api.job.unable_to_download_job",
+    "translation": "Δεν είναι δυνατή η λήψη αυτής της εργασίας"
+  },
+  {
+    "id": "api.job.unable_to_create_job.incorrect_job_type",
+    "translation": "Ο τύπος εργασίας της εργασίας που προσπαθείτε να δημιουργήσετε δεν είναι έγκυρος"
+  },
+  {
+    "id": "api.job.retrieve.nopermissions",
+    "translation": "Οι τύποι εργασίας μιας εργασίας που προσπαθείτε να ανακτήσετε δεν περιέχουν δικαιώματα"
+  },
+  {
+    "id": "api.io_error",
+    "translation": "σφάλμα εισαγωγής/εξαγωγής"
+  },
+  {
+    "id": "api.invalid_channel",
+    "translation": "Το κανάλι που αναφέρεται στο αίτημα δεν ανήκει στο χρήστη"
+  },
+  {
+    "id": "api.incoming_webhook.invalid_username.app_error",
+    "translation": "Μη έγκυρο όνομα χρήστη."
+  },
+  {
+    "id": "api.image.get.app_error",
+    "translation": "Δεν είναι δυνατή η ανάλυση της ζητούμενης URL εικόνας."
+  },
+  {
+    "id": "api.file.upload_file.too_large_detailed.app_error",
+    "translation": "Δεν είναι δυνατή η μεταφόρτωση του αρχείου {{.Filename}}. Τα {{.Length}} bytes υπερβαίνουν το μέγιστο επιτρεπόμενο {{.Limit}} bytes."
+  },
+  {
+    "id": "api.file.upload_file.read_request.app_error",
+    "translation": "Δεν είναι δυνατή η μεταφόρτωση αρχείων. Σφάλμα ανάγνωσης ή ανάλυσης δεδομένων αιτήματος."
+  },
+  {
+    "id": "api.file.upload_file.read_form_value.app_error",
+    "translation": "Δεν είναι δυνατή η μεταφόρτωση αρχείων. Σφάλμα κατά την ανάγνωση της τιμής για {{.Formname}}."
+  },
+  {
+    "id": "api.file.upload_file.multiple_channel_ids.app_error",
+    "translation": "Δεν είναι δυνατή η μεταφόρτωση αρχείων. Πολλαπλά αντικρουόμενα channel_ids."
+  },
+  {
+    "id": "api.file.upload_file.large_image_detailed.app_error",
+    "translation": "Οι διαστάσεις του {{.Filename}} ({{.Width}} επί {{.Height}} pixels) υπερβαίνουν τα όρια."
+  },
+  {
+    "id": "api.post.create_post.town_square_read_only",
+    "translation": "Αυτό το κανάλι είναι μόνο για ανάγνωση. Μόνο μέλη με άδεια μπορούν να δημοσιεύσουν εδώ."
+  },
+  {
+    "id": "api.post.create_post.root_id.app_error",
+    "translation": "Μη έγκυρη παράμετρος RootId."
+  },
+  {
+    "id": "api.post.create_post.parent_id.app_error",
+    "translation": "Μη έγκυρη παράμετρος ParentId."
+  },
+  {
+    "id": "api.post.create_post.channel_root_id.app_error",
+    "translation": "Μη έγκυρο ChannelId για την παράμετρο RootId."
+  },
+  {
+    "id": "api.post.create_post.can_not_post_to_deleted.error",
+    "translation": "Δεν μπορείτε να δημοσιεύσετε σε διαγραμμένο κανάλι."
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_mentions.message.one",
+    "translation": "Ο/Η @{{.Username}} δεν ειδοποιήθηκε από αυτή την αναφορά επειδή δεν είναι στο κανάλι."
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_mentions.message.multiple",
+    "translation": "Οι @{{.Usernames}} και @{{.LastUsername}} δεν ειδοποιήθηκαν από αυτή την αναφορά επειδή δεν είναι στο κανάλι."
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_groups_mentions.message.multiple",
+    "translation": "Οι @{{.Usernames}} και @{{.LastUsername}} δεν ειδοποιήθηκαν από αυτή την αναφορά επειδή δεν είναι στο κανάλι. Δεν μπορούν να προστεθούν στο κανάλι επειδή δεν είναι μέλη των συνδεδεμένων γκρουπ. Για να τους προσθέσετε σε αυτό το κανάλι, πρέπει να προστεθούν στα συνδεδεμένα γκρουπ."
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_groups_mentions.message.one",
+    "translation": "Ο/Η @{{.Username}} δεν ειδοποιήθηκε από αυτή την αναφορά επειδή δεν είναι στο κανάλι. Δεν μπορεί να προστεθεί στο κανάλι επειδή δεν είναι μέλος των συνδεδεμένων γκρουπ. Για να τον/την προσθέσετε σε αυτό το κανάλι, πρέπει να προστεθεί στα συνδεδεμένα γκρουπ."
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_group_users.message.none",
+    "translation": "Το @{{.GroupName}} δεν έχει μέλη σε αυτή την ομάδα"
+  },
+  {
+    "id": "api.plugin.verify_plugin.app_error",
+    "translation": "Δεν είναι δυνατή η επαλήθευση της υπογραφής του plugin."
+  },
+  {
+    "id": "api.plugin.upload.no_file.app_error",
+    "translation": "Λείπει αρχείο στο αίτημα πολλαπλών μερών / φόρμας."
+  },
+  {
+    "id": "api.plugin.upload.file.app_error",
+    "translation": "Δεν είναι δυνατό το άνοιγμα αρχείου σε αίτημα πολλαπλών τμημάτων / φόρμας."
+  },
+  {
+    "id": "api.plugin.upload.array.app_error",
+    "translation": "Ο πίνακας αρχείων είναι κενός σε αίτημα πολλαπλών τμημάτων / φορμών."
+  },
+  {
+    "id": "api.plugin.install.download_failed.app_error",
+    "translation": "Προέκυψε σφάλμα κατά τη λήψη του plugin."
+  },
+  {
+    "id": "api.oauth.singup_with_oauth.invalid_link.app_error",
+    "translation": "Ο σύνδεσμος εγγραφής δε φαίνεται να είναι έγκυρος."
+  },
+  {
+    "id": "api.oauth.singup_with_oauth.expired_link.app_error",
+    "translation": "Ο σύνδεσμος εγγραφής έχει λήξει."
+  },
+  {
+    "id": "api.oauth.singup_with_oauth.disabled.app_error",
+    "translation": "Η εγγραφή χρήστη είναι απενεργοποιημένη."
+  },
+  {
+    "id": "api.oauth.revoke_access_token.get.app_error",
+    "translation": "Σφάλμα κατά τη λήψη διακριτικού πρόσβασης από τη ΒΔ πριν από τη διαγραφή."
+  },
+  {
+    "id": "api.oauth.revoke_access_token.del_token.app_error",
+    "translation": "Σφάλμα διαγραφής του διακριτικού πρόσβασης από τη ΒΔ."
+  },
+  {
+    "id": "api.oauth.revoke_access_token.del_session.app_error",
+    "translation": "Σφάλμα διαγραφής περιόδου σύνδεσης από τη ΒΔ."
+  },
+  {
+    "id": "api.oauth.register_oauth_app.turn_off.app_error",
+    "translation": "Ο διαχειριστής του συστήματος έχει απενεργοποιήσει τον πάροχο υπηρεσιών OAuth2."
+  },
+  {
+    "id": "api.oauth.invalid_state_token.app_error",
+    "translation": "Μη έγκυρο διακριτικό κατάστασης."
+  },
+  {
+    "id": "api.oauth.get_access_token.refresh_token.app_error",
+    "translation": "invalid_grant: Μη έγκυρο κουπόνι ανανέωσης."
+  },
+  {
+    "id": "api.oauth.get_access_token.redirect_uri.app_error",
+    "translation": "invalid_request: Το παρεχόμενο redirect_uri δεν αντιστοιχεί στον κωδικό εξουσιοδότησης redirect_uri."
+  },
+  {
+    "id": "api.oauth.get_access_token.missing_refresh_token.app_error",
+    "translation": "invalid_request: Λείπει το refresh_token."
+  },
+  {
+    "id": "api.oauth.get_access_token.missing_code.app_error",
+    "translation": "invalid_request: Λείπει ο κωδικός."
+  },
+  {
+    "id": "api.oauth.get_access_token.internal_user.app_error",
+    "translation": "server_error: Παρουσιάστηκε σφάλμα εσωτερικού διακομιστή κατά τη λήψη χρήστη από τη βάση δεδομένων."
+  },
+  {
+    "id": "api.oauth.get_access_token.internal_session.app_error",
+    "translation": "server_error: Παρουσιάστηκε σφάλμα εσωτερικού διακομιστή κατά την αποθήκευση περιόδου λειτουργίας στη βάση δεδομένων."
+  },
+  {
+    "id": "api.oauth.get_access_token.internal_saving.app_error",
+    "translation": "server_error: Παρουσιάστηκε σφάλμα εσωτερικού διακομιστή κατά την αποθήκευση του διακριτικού πρόσβασης στη βάση δεδομένων."
+  },
+  {
+    "id": "api.oauth.get_access_token.internal.app_error",
+    "translation": "server_error: Παρουσιάστηκε σφάλμα εσωτερικού διακομιστή κατά την πρόσβαση στη βάση δεδομένων."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_grant.app_error",
+    "translation": "invalid_request: Λάθος grant_type."
+  },
+  {
+    "id": "api.oauth.allow_oauth.redirect_callback.app_error",
+    "translation": "invalid_request: Το παρεχόμενο redirect_uri δεν ταιριάζει με το καταχωρημένο callback_url."
+  },
+  {
+    "id": "api.oauth.get_access_token.credentials.app_error",
+    "translation": "invalid_client: Μη έγκυρα διαπιστευτήρια πελάτη."
+  },
+  {
+    "id": "api.oauth.get_access_token.expired_code.app_error",
+    "translation": "invalid_grant: Μη έγκυρος ή ληγμένος κωδικός εξουσιοδότησης."
+  },
+  {
+    "id": "api.oauth.get_access_token.disabled.app_error",
+    "translation": "Ο διαχειριστής του συστήματος έχει απενεργοποιήσει τον πάροχο υπηρεσιών OAuth2."
   }
 ]
