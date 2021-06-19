@@ -3031,5 +3031,495 @@
   {
     "id": "api.oauth.get_access_token.disabled.app_error",
     "translation": "Ο διαχειριστής του συστήματος έχει απενεργοποιήσει τον πάροχο υπηρεσιών OAuth2."
+  },
+  {
+    "id": "api.templates.reset_subject",
+    "translation": "[{{ .SiteName }}] Επαναφέρετε τον κωδικό πρόσβασης σας"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_sub_info",
+    "translation": "Βελτιώστε την εργασία σας με εργαλεία όπως το Github, το Ημερολόγιο της Google και το Chrome. Εξερευνήστε όλες τις ενσωματώσεις που διαθέτουμε"
+  },
+  {
+    "id": "api.license.request-trial.can-start-trial.error",
+    "translation": "Δεν ήταν δυνατός ο έλεγχος εάν μπορεί να ξεκινήσει μια δοκιμαστική άδεια"
+  },
+  {
+    "id": "api.team.team_icon.update.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά την ενημέρωση του εικονιδίου της ομάδας."
+  },
+  {
+    "id": "api.team.set_team_icon.write_file.app_error",
+    "translation": "Δεν ήταν δυνατή η αποθήκευση του εικονιδίου ομάδας."
+  },
+  {
+    "id": "api.team.set_team_icon.get_team.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά τη λήψη της ομάδας."
+  },
+  {
+    "id": "api.team.set_team_icon.encode.app_error",
+    "translation": "Δεν ήταν δυνατή η κωδικοποίηση του εικονιδίου ομάδας."
+  },
+  {
+    "id": "api.team.set_team_icon.decode.app_error",
+    "translation": "Δεν ήταν δυνατή η αποκωδικοποίηση του εικονιδίου ομάδας."
+  },
+  {
+    "id": "api.team.set_team_icon.check_image_limits.app_error",
+    "translation": "Ο έλεγχος ορίων εικόνας απέτυχε. Η ανάλυση είναι πολύ υψηλή."
+  },
+  {
+    "id": "api.team.search_teams.pagination_not_implemented.public_team_search",
+    "translation": "Η σελιδοποίηση δεν εφαρμόζεται για την αναζήτηση μόνο δημοσίων ομάδων."
+  },
+  {
+    "id": "api.team.search_teams.pagination_not_implemented.private_team_search",
+    "translation": "Η σελιδοποίηση δεν εφαρμόζεται για την αναζήτηση μόνο ιδιωτικών ομάδων."
+  },
+  {
+    "id": "api.team.remove_user_from_team.missing.app_error",
+    "translation": "Ο χρήστης δε φαίνεται να είναι μέλος αυτής της ομάδας."
+  },
+  {
+    "id": "api.team.remove_team_icon.get_team.app_error",
+    "translation": "Παρουσιάστηκε σφάλμα κατά τη λήψη της ομάδας."
+  },
+  {
+    "id": "api.team.remove_member.group_constrained.app_error",
+    "translation": "Δεν είναι δυνατή η κατάργηση ενός χρήστη από μια ομάδα περιορισμένου-γκρουπ."
+  },
+  {
+    "id": "api.team.move_channel.success",
+    "translation": "Αυτό το κανάλι έχει μεταφερθεί σε αυτή την ομάδα από την %v."
+  },
+  {
+    "id": "api.team.leave.left",
+    "translation": "%v έφυγε από την ομάδα."
+  },
+  {
+    "id": "api.team.join_user_to_team.allowed_domains.app_error",
+    "translation": "Ο χρήστης δεν μπορεί να προστεθεί καθώς δεν επιτρέπεται ο τομέας στον οποίο ανήκει ο λογαριασμός του. Επικοινωνήστε με το Διαχειριστή συστήματος για περισσότερες λεπτομέρειες."
+  },
+  {
+    "id": "api.team.join_team.post_and_forget",
+    "translation": "%v εισήλθαν στην ομάδα."
+  },
+  {
+    "id": "api.team.is_team_creation_allowed.domain.app_error",
+    "translation": "Ο χρήστης δεν μπορεί να προστεθεί καθώς δεν επιτρέπεται ο τομέας στον οποίο ανήκει ο λογαριασμός του. Επικοινωνήστε με το Διαχειριστή συστήματος για περισσότερες λεπτομέρειες."
+  },
+  {
+    "id": "api.team.is_team_creation_allowed.disabled.app_error",
+    "translation": "Η δημιουργία ομάδας έχει απενεργοποιηθεί. Ρωτήστε τον Διαχειριστή συστήματος για περισσότερες λεπτομέρειες."
+  },
+  {
+    "id": "api.team.invite_members.no_one.app_error",
+    "translation": "Δεν υπάρχει κανείς να προσκαλεστεί."
+  },
+  {
+    "id": "api.team.invite_members.limit_reached.app_error",
+    "translation": "Έχετε φτάσει στο όριο χρηστών της δωρεάν βαθμίδας"
+  },
+  {
+    "id": "api.team.invite_members.invalid_email.app_error",
+    "translation": "Οι ακόλουθες διευθύνσεις ηλεκτρονικού ταχυδρομείου δεν ανήκουν σε αποδεκτό τομέα: {{.Addresses}}. Για περισσότερες λεπτομέρειες, επικοινωνήστε με το Διαχειριστή συστήματος."
+  },
+  {
+    "id": "api.team.invite_members.disabled.app_error",
+    "translation": "Οι προσκλήσεις μέσω email είναι απενεργοποιημένες."
+  },
+  {
+    "id": "api.team.invite_guests_to_channels.invalid_body.app_error",
+    "translation": "Μη έγκυρο ή ελλιπές κυρίως σώμα της αίτησης."
+  },
+  {
+    "id": "api.team.invite_guests.channel_in_invalid_team.app_error",
+    "translation": "Τα κανάλια της πρόσκλησης πρέπει να είναι μέρος της ομάδας της πρόσκλησης."
+  },
+  {
+    "id": "api.post.update_post.system_message.app_error",
+    "translation": "Δεν είναι δυνατή η ενημέρωση του μηνύματος του συστήματος."
+  },
+  {
+    "id": "api.post.update_post.permissions_time_limit.app_error",
+    "translation": "Η επεξεργασία ανάρτησης επιτρέπεται μόνο για {{.timeLimit}} δευτερόλεπτα. Παρακαλούμε ρωτήστε τον Διαχειριστή συστήματος για περισσότερες λεπτομέρειες."
+  },
+  {
+    "id": "api.post.update_post.permissions_details.app_error",
+    "translation": "Διαγράφηκε ήδη η ανάρτηση με αναγνωριστικό={{. PostId}}."
+  },
+  {
+    "id": "api.post.update_post.can_not_update_post_in_deleted.error",
+    "translation": "Δεν είναι δυνατή η ενημέρωση μιας ανάρτησης σε ένα διαγραμμένο κανάλι."
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_message",
+    "translation": "σας έστειλε ένα μήνυμα."
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_image_only",
+    "translation": " επισύναψε ένα αρχείο."
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_general_message",
+    "translation": " δημοσίευσε ένα μήνυμα."
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_explicit_mention",
+    "translation": " σας ανέφερε."
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_comment_on_thread",
+    "translation": " σχολίασε ένα νήμα στο οποίο συμμετείχατε."
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_comment_on_post",
+    "translation": " σχολίασε την ανάρτησή σας."
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_channel_mention",
+    "translation": " ειδοποίησε το κανάλι."
+  },
+  {
+    "id": "api.post.save_is_pinned_post.town_square_read_only",
+    "translation": "Αυτό το κανάλι είναι μόνο για ανάγνωση. Μόνο τα μέλη με άδεια μπορούν να καρφιτσώσουν ή να ξεκαρφιτσώσουν αναρτήσεις εδώ."
+  },
+  {
+    "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
+    "translation": "Δεν είναι δυνατή η ενημέρωση μιας ανάρτησης σε ένα διαγραμμένο κανάλι."
+  },
+  {
+    "id": "api.post.link_preview_disabled.app_error",
+    "translation": "Οι προεπισκοπήσεις συνδέσμων έχουν απενεργοποιηθεί από τον διαχειριστή συστήματος."
+  },
+  {
+    "id": "api.post.get_message_for_notification.images_sent",
+    "translation": {
+      "one": "{{.Count}} εικόνα εστάλη: {{.Filenames}}",
+      "other": "{{.Count}} εικόνες εστάλησαν: {{.Filenames}}"
+    }
+  },
+  {
+    "id": "api.post.get_message_for_notification.files_sent",
+    "translation": {
+      "one": "{{.Count}} αρχείο εστάλη: {{.Filenames}}",
+      "other": "{{.Count}} αρχεία εστάλησαν: {{.Filenames}}"
+    }
+  },
+  {
+    "id": "api.post.error_get_post_id.pending",
+    "translation": "Δεν είναι δυνατή η λήψη της εκκρεμής ανάρτησης."
+  },
+  {
+    "id": "api.post.do_action.action_integration.app_error",
+    "translation": "Σφάλμα ενοποιητικής ενέργειας."
+  },
+  {
+    "id": "api.post.do_action.action_id.app_error",
+    "translation": "Μη έγκυρο αναγνωριστικό ενέργειας."
+  },
+  {
+    "id": "api.post.disabled_here",
+    "translation": "Το @here έχει απενεργοποιηθεί επειδή το κανάλι έχει περισσότερους από {{.Users}} χρήστες."
+  },
+  {
+    "id": "api.post.disabled_channel",
+    "translation": "Το @channel έχει απενεργοποιηθεί επειδή το κανάλι έχει περισσότερους από {{.Users}} χρήστες."
+  },
+  {
+    "id": "api.post.disabled_all",
+    "translation": "Το @all έχει απενεργοποιηθεί επειδή το κανάλι έχει περισσότερους από {{.Users}} χρήστες."
+  },
+  {
+    "id": "api.post.delete_post.can_not_delete_post_in_deleted.error",
+    "translation": "Δεν είναι δυνατή η διαγραφή μιας ανάρτησης σε ένα διαγραμμένο κανάλι."
+  },
+  {
+    "id": "api.post.deduplicate_create_post.failed_to_get",
+    "translation": "Αποτυχία ανάκτησης αρχικής ανάρτησης μετά την κατάργηση διπλότυπων δεδομένων ενός προγράμματος-πελάτη που επαναλαμβάνει το ίδιο αίτημα."
+  },
+  {
+    "id": "api.post.deduplicate_create_post.pending",
+    "translation": "Απορρίφθηκε η ανάρτηση επειδή άλλο πρόγραμμα-πελάτης κάνει το ίδιο αίτημα."
+  },
+  {
+    "id": "api.post.create_webhook_post.creating.app_error",
+    "translation": "Σφάλμα κατά τη δημιουργία ανάρτησης."
+  },
+  {
+    "id": "api.templates.reset_body.title",
+    "translation": "Επαναφορά του κωδικού πρόσβασης σας"
+  },
+  {
+    "id": "api.templates.reset_body.subTitle",
+    "translation": "Κάντε κλικ στο κουμπί παρακάτω για να επαναφέρετε τον κωδικό πρόσβασης σας. Εάν δεν το ζητήσατε εσείς, μπορείτε να αγνοήσετε με ασφάλεια αυτό το email."
+  },
+  {
+    "id": "api.templates.reset_body.info",
+    "translation": "Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης λήγει σε 24 ώρες."
+  },
+  {
+    "id": "api.templates.reset_body.button",
+    "translation": "Επαναφορά κωδικού πρόσβασης"
+  },
+  {
+    "id": "api.templates.remove_expired_license.subject",
+    "translation": "Η άδεια χρήσης Mattermost Enterprise έχει απενεργοποιηθεί."
+  },
+  {
+    "id": "api.templates.remove_expired_license.body.title",
+    "translation": "Η άδεια χρήσης σας Enterprise Edition έχει λήξει και ορισμένες δυνατότητες ενδέχεται να είναι απενεργοποιημένες. Παρακαλούμε ανανεώστε την άδειά σας τώρα."
+  },
+  {
+    "id": "api.templates.remove_expired_license.body.renew_button",
+    "translation": "Ανανέωση άδειας χρήσης τώρα"
+  },
+  {
+    "id": "api.templates.post_body.button",
+    "translation": "Προβολή μηνύματος"
+  },
+  {
+    "id": "api.templates.password_change_subject",
+    "translation": "[{{ .SiteName }}] Ο κωδικός πρόσβασης σας έχει ενημερωθεί"
+  },
+  {
+    "id": "api.templates.password_change_body.title",
+    "translation": "Ο κωδικός πρόσβασης σας έχει ενημερωθεί"
+  },
+  {
+    "id": "api.templates.password_change_body.info",
+    "translation": "Ο κωδικός πρόσβασης σας της {{.TeamDisplayName}} στο {{ .TeamURL }} ενημερώθηκε από την {{.Method}}."
+  },
+  {
+    "id": "api.templates.mfa_deactivated_body.title",
+    "translation": "Ο έλεγχος ταυτότητας πολλαπλών παραγόντων (MFA) καταργήθηκε"
+  },
+  {
+    "id": "api.templates.mfa_deactivated_body.info",
+    "translation": "Ο έλεγχος ταυτότητας πολλαπλών παραγόντων (MFA) καταργήθηκε από τον λογαριασμό σας στο {{ .SiteURL }}."
+  },
+  {
+    "id": "api.templates.mfa_change_subject",
+    "translation": "[{{ .SiteName }}] Η ταυτότητα πολλών παραγόντων (MFA) σας ενημερώθηκε"
+  },
+  {
+    "id": "api.templates.mfa_activated_body.title",
+    "translation": "Προστέθηκε έλεγχος ταυτότητας πολλών παραγόντων (MFA)"
+  },
+  {
+    "id": "api.templates.mfa_activated_body.info",
+    "translation": "Ο έλεγχος ταυτότητας πολλών παραγόντων (MFA) έχει προστεθεί στον λογαριασμό σας στο {{.SiteURL}}."
+  },
+  {
+    "id": "api.templates.invite_subject",
+    "translation": "[{{.SiteName}}] Ο χρήστης {{.SenderName}} σας προσκάλεσε να συμμετάσχετε στην ομάδα {{.TeamDisplayName}}"
+  },
+  {
+    "id": "api.templates.invite_guest_subject",
+    "translation": "[{{.SiteName}}] Ο χρήστης {{.SenderName}} σας προσκάλεσε να συμμετάσχετε στην ομάδα {{.TeamDisplayName}} ως επισκέπτης"
+  },
+  {
+    "id": "api.templates.invite_body_guest.subTitle",
+    "translation": "Έχετε προσκληθεί ως επισκέπτης για να συνεργαστείτε με την ομάδα"
+  },
+  {
+    "id": "api.templates.invite_body_footer.title",
+    "translation": "Τι είναι το Mattermost;"
+  },
+  {
+    "id": "api.templates.invite_body_footer.learn_more",
+    "translation": "Μάθετε περισσότερα"
+  },
+  {
+    "id": "api.templates.invite_body_footer.info",
+    "translation": "Το Mattermost είναι μια ευέλικτη πλατφόρμα ανταλλαγής μηνυμάτων ανοιχτού κώδικα που επιτρέπει την ασφαλή ομαδική συνεργασία."
+  },
+  {
+    "id": "api.templates.invite_body.title",
+    "translation": "Ο χρήστης {{.SenderName}} σας προσκάλεσε να συμμετάσχετε στην ομάδα {{.TeamDisplayName}}."
+  },
+  {
+    "id": "api.templates.invite_body.subTitle",
+    "translation": "Ξεκινήστε να συνεργάζεστε με την ομάδα σας στο Mattermost"
+  },
+  {
+    "id": "api.templates.invite_body.button",
+    "translation": "Εγγραφείτε τώρα"
+  },
+  {
+    "id": "api.templates.email_warning",
+    "translation": "Εάν δεν πραγματοποιήσατε εσείς αυτή την αλλαγή, επικοινωνήστε με το διαχειριστή του συστήματος."
+  },
+  {
+    "id": "api.templates.email_organization",
+    "translation": "Στάλθηκε από "
+  },
+  {
+    "id": "api.templates.email_info3",
+    "translation": "Η ομάδα {{.SiteName}}"
+  },
+  {
+    "id": "api.templates.email_info2",
+    "translation": "Τις καλύτερες ευχές,"
+  },
+  {
+    "id": "api.templates.email_info1",
+    "translation": "Για οποιαδήποτε απορία, στείλτε μας email ανά πάσα στιγμή: "
+  },
+  {
+    "id": "api.templates.email_footer",
+    "translation": "Για να αλλάξετε τις προτιμήσεις ειδοποιήσεων, συνδεθείτε στον ιστότοπο της ομάδας σας και μεταβείτε στις Ρυθμίσεις λογαριασμού > Ειδοποιήσεις."
+  },
+  {
+    "id": "api.templates.email_change_verify_subject",
+    "translation": "[{{ .SiteName }}] Επαληθεύστε τη νέα διεύθυνση email"
+  },
+  {
+    "id": "api.templates.email_change_verify_body.title",
+    "translation": "Ενημερώσατε το email σας"
+  },
+  {
+    "id": "api.templates.email_change_verify_body.info",
+    "translation": "Για να ολοκληρώσετε την ενημέρωση της διεύθυνσης email σας για την {{.TeamDisplayName}}, κάντε κλικ στον παρακάτω σύνδεσμο για να επιβεβαιώσετε ότι αυτή είναι η σωστή διεύθυνση."
+  },
+  {
+    "id": "api.templates.email_change_verify_body.button",
+    "translation": "Επαλήθευση Email"
+  },
+  {
+    "id": "api.templates.email_change_subject",
+    "translation": "[{{.SiteName}}] Η διεύθυνση email σας άλλαξε"
+  },
+  {
+    "id": "api.templates.email_change_body.title",
+    "translation": "Ενημερώσατε το email σας"
+  },
+  {
+    "id": "api.templates.email_change_body.info",
+    "translation": "Η διεύθυνση email σας για την {{.TeamDisplayName}} άλλαξε σε {{.NewEmail}}."
+  },
+  {
+    "id": "api.templates.deactivate_subject",
+    "translation": "[{{ .SiteName }}] Ο λογαριασμός σας στο {{ .ServerURL }} έχει απενεργοποιηθεί"
+  },
+  {
+    "id": "api.templates.deactivate_body.warning",
+    "translation": "Εάν αυτή η αλλαγή δεν έγινε με δική σας πρωτοβουλία ή εάν θέλετε να ενεργοποιήσετε εκ νέου τον λογαριασμό σας, επικοινωνήστε με τον διαχειριστή του συστήματός σας."
+  },
+  {
+    "id": "api.templates.deactivate_body.title",
+    "translation": "Ο λογαριασμός σας έχει απενεργοποιηθεί στο {{ .ServerURL }}"
+  },
+  {
+    "id": "api.templates.deactivate_body.info",
+    "translation": "Απενεργοποιήσατε τον λογαριασμό σας στο {{.SiteURL}}."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.title",
+    "translation": "Η δοκιμαστική έκδοση 14 ημερών του χώρου εργασίας {{.WorkSpace}} είναι έτοιμη!"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subtitle_info",
+    "translation": "Ακολουθήστε τα παρακάτω βήματα για να δημιουργήσετε τις ομάδες σας και να αξιοποιήσετε στο έπακρο το χώρο εργασίας σας."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subtitle",
+    "translation": "Ρυθμίστε το χώρο εργασίας σας"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subject",
+    "translation": "Συγχαρητήρια!"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.start_questions",
+    "translation": "Έχετε ερωτήσεις για το πως θα ξεκινήσετε; Στείλτε μας email στο"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info2",
+    "translation": "για την καλύτερη εμπειρία σε Η/Υ, Mac, iOS και Android."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info",
+    "translation": "Συνδεθείτε στο χώρο εργασίας σας στο"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.mm_apps",
+    "translation": "εφαρμογές για κινητά και υπολογιστές"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.invite_sub_info",
+    "translation": "Μοιραστείτε αυτόν τον σύνδεσμο για να προσκαλέσετε τα μέλη σας να ενταχθούν στο {{.WorkSpace}}:"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.invite_info",
+    "translation": "Προσκαλέστε άτομα στο χώρο εργασίας σας"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info2",
+    "translation": "Φροντίστε να αποθηκεύσετε ή να προσθέσετε σελιδοδείκτη στον σύνδεσμό σας για μελλοντική χρήση."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info",
+    "translation": "Ευχαριστώ για τη δημιουργία "
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.download_mm_info",
+    "translation": "Κατεβάστε την εφαρμογή Mattermost"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.button",
+    "translation": "Ανοίξτε το Mattermost"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.app_market_place",
+    "translation": "αγορά εφαρμογών."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_info",
+    "translation": "Προσθέστε εφαρμογές στον χώρο εργασίας σας"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.title",
+    "translation": "Η δωρεάν δοκιμή 14 ημερών του Mattermost λήγει σύντομα"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.subtitle",
+    "translation": "{{.Name}}, η δοκιμαστική περίοδος 14 ημερών του Mattermost Cloud Professional λήγει σε 3 ημέρες, στις {{.TrialEnd}}. Προσθέστε τα στοιχεία πληρωμής σας για να διασφαλίσετε ότι η ομάδα σας θα συνεχίσει να απολαμβάνει τα οφέλη του Cloud Professional."
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.subject",
+    "translation": "Η δοκιμαστική έκδοση για το Mattermost cloud τελειώνει"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.add_payment_method",
+    "translation": "Προσθήκη τρόπου πληρωμής"
+  },
+  {
+    "id": "api.templates.cloud_trial_ended_email.title",
+    "translation": "Η δωρεάν δοκιμαστική έκδοση 14 ημερών του Mattermost έχει λήξει σήμερα"
+  },
+  {
+    "id": "api.templates.cloud_trial_ended_email.subtitle",
+    "translation": "{{.Name}}, η δωρεάν δοκιμαστική έκδοση 14 ημερών του Mattermost Cloud Professional έληξε σήμερα, {{.TodayDate}}. Προσθέστε τα στοιχεία πληρωμής σας για να διασφαλίσετε ότι η ομάδα σας θα συνεχίσει να απολαμβάνει τα οφέλη του Cloud Professional."
+  },
+  {
+    "id": "api.templates.cloud_trial_ended_email.subject",
+    "translation": "Η δοκιμαστική άδεια χρήσης του Mattermost cloud έχει λήξει"
+  },
+  {
+    "id": "api.templates.cloud_trial_ended_email.start_subscription",
+    "translation": "Έναρξη συνδρομής"
+  },
+  {
+    "id": "api.team.update_team_member_roles.guest_and_user.app_error",
+    "translation": "Μη έγκυρη ενημέρωση μέλους ομάδας: Ένας χρήστης πρέπει να είναι είτε επισκέπτης είτε χρήστης, όχι και τα δύο."
+  },
+  {
+    "id": "api.team.update_restricted_domains.mismatch.app_error",
+    "translation": "Δεν επιτρέπεται ο περιορισμός της ομάδας στο {{.Domain}} από τη διαμόρφωση συστήματος. Παρακαλούμε επικοινωνήστε με τον διαχειριστή του συστήματός σας."
+  },
+  {
+    "id": "api.license.request-trial.can-start-trial.not-allowed",
+    "translation": "Αυτή η δοκιμαστική άδεια χρήσης για το Mattermost Enterprise Edition έχει λήξει και δεν είναι πλέον έγκυρη. Εάν θέλετε να παρατείνετε τη δοκιμαστική περίοδο, παρακαλούμε [επικοινωνήστε με την ομάδα πωλήσεών μας](https://mattermost.com/contact-us/)."
   }
 ]
