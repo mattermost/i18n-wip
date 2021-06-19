@@ -609,7 +609,7 @@
   "mobile.server_url.invalid_format": "Η διεύθυνση URL πρέπει να ξεκινά με http: // ή https: //",
   "mobile.server_url.empty": "Παρακαλώ εισαγάγετε μια έγκυρη διεύθυνση URL διακομιστή",
   "mobile.server_upgrade.title": "Απαιτείται αναβάθμιση του διακομιστή",
-  "mobile.server_upgrade.learn_more": "Μάθετε Περισσότερα",
+  "mobile.server_upgrade.learn_more": "Μάθετε περισσότερα",
   "mobile.server_upgrade.dismiss": "Απόρριψη",
   "signup.google": "Εφαρμογές Google",
   "permalink.show_dialog_warn.title": "Εγγραφή σε ιδιωτικό κανάλι",
