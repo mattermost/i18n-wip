@@ -3521,5 +3521,145 @@
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
     "translation": "Αυτή η δοκιμαστική άδεια χρήσης για το Mattermost Enterprise Edition έχει λήξει και δεν είναι πλέον έγκυρη. Εάν θέλετε να παρατείνετε τη δοκιμαστική περίοδο, παρακαλούμε [επικοινωνήστε με την ομάδα πωλήσεών μας](https://mattermost.com/contact-us/)."
+  },
+  {
+    "id": "api.upgrade_to_enterprise_status.app_error",
+    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
+    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Αυτή η δυνατότητα θα λειτουργεί μόνο σε συστήματα Linux με αρχιτεκτονική x86-64."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-user.app_error",
+    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Mattermost {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
+    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Mattermost {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
+    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Mattermost {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.generic_error.app_error",
+    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.app_error",
+    "translation": "Εκτελείται ήδη μια αναβάθμιση σε Mattermost Enterprise Edition."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
+    "translation": "Δεν μπορείτε να κάνετε αναβάθμιση επειδή εκτελείτε ήδη το Mattermost Enterprise Edition."
+  },
+  {
+    "id": "api.upgrade_to_enterprise.already-done.app_error",
+    "translation": "Έχετε ήδη αναβαθμίσει σε Mattermost Enterprise Edition. Παρακαλώ κάνετε επανεκκίνηση τον διακομιστή για να ολοκληρώσετε την αναβάθμιση."
+  },
+  {
+    "id": "api.templates.welcome_subject",
+    "translation": "[{{ .SiteName }}] Έχετε ενταχθεί στο {{ .ServerURL }}"
+  },
+  {
+    "id": "api.templates.welcome_body.title",
+    "translation": "Καλώς ήρθατε στην ομάδα"
+  },
+  {
+    "id": "api.templates.welcome_body.info",
+    "translation": "Αυτή η διεύθυνση email χρησιμοποιήθηκε για τη δημιουργία λογαριασμού στο Mattermost."
+  },
+  {
+    "id": "api.templates.welcome_body.button",
+    "translation": "Επαλήθευση Email"
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_info",
+    "translation": "Για την καλύτερη δυνατή εμπειρία, κατεβάστε τις εφαρμογές για Η/Υ, Mac, iOS και Android."
+  },
+  {
+    "id": "api.templates.warn_metric_ack.subject",
+    "translation": "Αίτημα επικοινωνίας με τη Mattermost"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.footer",
+    "translation": "Εάν έχετε επιπλέον απορίες, επικοινωνήστε με το support@mattermost.com"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.site_url_header",
+    "translation": "Διεύθυνση URL ιστότοπου: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.registered_users_header",
+    "translation": "Σύνολο ενεργών χρηστών: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
+    "translation": "Διαγνωστικό αναγνωριστικό: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.contact_name_header",
+    "translation": "Επικοινωνία: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.contact_email_header",
+    "translation": "Email: "
+  },
+  {
+    "id": "api.templates.verify_subject",
+    "translation": "[{{ .SiteName }}] Επαλήθευση email"
+  },
+  {
+    "id": "api.templates.verify_body.title",
+    "translation": "Επαληθεύστε τη διεύθυνση email σας"
+  },
+  {
+    "id": "api.templates.verify_body.info",
+    "translation": "Αυτή η διεύθυνση email χρησιμοποιήθηκε για τη δημιουργία λογαριασμού στο Mattermost."
+  },
+  {
+    "id": "api.templates.verify_body.button",
+    "translation": "Επαλήθευση Email"
+  },
+  {
+    "id": "api.templates.username_change_subject",
+    "translation": "[{{ .SiteName }}] Το όνομα χρήστη σας έχει αλλάξει"
+  },
+  {
+    "id": "api.templates.username_change_body.title",
+    "translation": "Ενημερώσατε το όνομα χρήστη σας"
+  },
+  {
+    "id": "api.templates.username_change_body.info",
+    "translation": "Το όνομα χρήστη σας για την {{.TeamDisplayName}} έχει αλλάξει σε {{.NewUsername}}."
+  },
+  {
+    "id": "api.templates.user_access_token_subject",
+    "translation": "[{{ .SiteName }}] Προστέθηκε διακριτικό προσωπικής πρόσβασης στον λογαριασμό σας"
+  },
+  {
+    "id": "api.templates.user_access_token_body.title",
+    "translation": "Προστέθηκε διακριτικό προσωπικής πρόσβασης στον λογαριασμό σας"
+  },
+  {
+    "id": "api.templates.user_access_token_body.info",
+    "translation": "Ένα προσωπικό διακριτικό πρόσβασης προστέθηκε στον λογαριασμό σας στο {{.SiteURL}}. Μπορούν να χρησιμοποιηθούν για πρόσβαση στο {{.SiteName}} με τον λογαριασμό σας."
+  },
+  {
+    "id": "api.templates.signin_change_email.subject",
+    "translation": "[{{.SiteName}}] Η μέθοδος σύνδεσής σας έχει ενημερωθεί"
+  },
+  {
+    "id": "api.templates.signin_change_email.body.title",
+    "translation": "Ενημερώσατε τη μέθοδο σύνδεσής σας"
+  },
+  {
+    "id": "api.templates.signin_change_email.body.method_email",
+    "translation": "email και κωδικός πρόσβασης"
+  },
+  {
+    "id": "api.templates.signin_change_email.body.info",
+    "translation": "Ενημερώσατε τη μέθοδο σύνδεσής σας στο {{.SiteName}} σε {{.Method}}."
   }
 ]
