@@ -3661,5 +3661,21 @@
   {
     "id": "api.templates.signin_change_email.body.info",
     "translation": "Ενημερώσατε τη μέθοδο σύνδεσής σας στο {{.SiteName}} σε {{.Method}}."
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_type",
+    "translation": "Μη έγκυρος τύπος περιεχομένου για πολλαπλή μεταφόρτωση."
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_length",
+    "translation": "Μη έγκυρο περιεχόμενο-μήκος."
+  },
+  {
+    "id": "api.upload.get_upload.forbidden.app_error",
+    "translation": "Αποτυχία λήψης."
+  },
+  {
+    "id": "api.upgrade_to_enterprise_status.signature.app_error",
+    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Δεν ήταν δυνατή η επαλήθευση της ψηφιακής υπογραφής του ληφθέντος δυαδικού αρχείου."
   }
 ]
