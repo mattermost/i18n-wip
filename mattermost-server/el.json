@@ -3677,5 +3677,17 @@
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
     "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Δεν ήταν δυνατή η επαλήθευση της ψηφιακής υπογραφής του ληφθέντος δυαδικού αρχείου."
+  },
+  {
+    "id": "api.user.add_direct_channels_and_forget.failed.error",
+    "translation": "Αποτυχία προσθήκης προτιμήσεων άμεσου καναλιού για τον χρήστη user_id= {{.UserId}}, team_id= {{.TeamId}}, err= {{.Error}}"
+  },
+  {
+    "id": "api.user.activate_mfa.email_and_ldap_only.app_error",
+    "translation": "Ο έλεγχος ταυτότητας πολλών παραγόντων (MFA) δεν είναι διαθέσιμος για αυτόν τον τύπο λογαριασμού."
+  },
+  {
+    "id": "api.upload.upload_data.multipart_error",
+    "translation": "Αποτυχία επεξεργασίας των δεδομένων πολλαπλών τμημάτων."
   }
 ]
