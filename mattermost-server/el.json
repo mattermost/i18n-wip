@@ -3689,5 +3689,149 @@
   {
     "id": "api.upload.upload_data.multipart_error",
     "translation": "Αποτυχία επεξεργασίας των δεδομένων πολλαπλών τμημάτων."
+  },
+  {
+    "id": "api.user.demote_user_to_guest.already_guest.app_error",
+    "translation": "Δεν είναι δυνατή η μετατροπή του χρήστη σε επισκέπτη επειδή είναι ήδη επισκέπτης."
+  },
+  {
+    "id": "api.user.delete_user.not_enabled.app_error",
+    "translation": "Η λειτουργία μόνιμης διαγραφής χρηστών δεν είναι ενεργοποιημένη. Επικοινωνήστε με το διαχειριστή του συστήματός σας."
+  },
+  {
+    "id": "api.user.delete_team.not_enabled.app_error",
+    "translation": "Η λειτουργία μόνιμης διαγραφής ομάδων δεν είναι ενεργοποιημένη. Επικοινωνήστε με το διαχειριστή του συστήματός σας."
+  },
+  {
+    "id": "api.user.delete_channel.not_enabled.app_error",
+    "translation": "Η λειτουργία μόνιμης διαγραφής καναλιών δεν είναι ενεργοποιημένη. Επικοινωνήστε με το διαχειριστή του συστήματός σας."
+  },
+  {
+    "id": "api.user.create_user.signup_link_invalid.app_error",
+    "translation": "Ο σύνδεσμος εγγραφής δε φαίνεται να είναι έγκυρος."
+  },
+  {
+    "id": "api.user.create_user.signup_link_expired.app_error",
+    "translation": "Ο σύνδεσμος εγγραφής έχει λήξει."
+  },
+  {
+    "id": "api.user.create_user.signup_email_disabled.app_error",
+    "translation": "Η εγγραφή χρήστη με email είναι απενεργοποιημένη."
+  },
+  {
+    "id": "api.user.create_user.no_open_server",
+    "translation": "Αυτός ο διακομιστής δεν επιτρέπει ανοιχτές εγγραφές.  Επικοινωνήστε με τον Διαχειριστή σας για να λάβετε πρόσκληση."
+  },
+  {
+    "id": "api.user.create_user.invalid_invitation_type.app_error",
+    "translation": "Δεν είναι δυνατή η δημιουργία του χρήστη, μη έγκυρη πρόσκληση."
+  },
+  {
+    "id": "api.user.create_user.guest_accounts.license.app_error",
+    "translation": "Η άδειά σας δεν υποστηρίζει λογαριασμούς επισκεπτών."
+  },
+  {
+    "id": "api.user.create_user.guest_accounts.disabled.app_error",
+    "translation": "Οι λογαριασμοί επισκεπτών είναι απενεργοποιημένοι."
+  },
+  {
+    "id": "api.user.create_user.disabled.app_error",
+    "translation": "Η δημιουργία χρηστών είναι απενεργοποιημένη."
+  },
+  {
+    "id": "api.user.create_user.accepted_domain.app_error",
+    "translation": "Το email που δώσατε δεν ανήκει σε αποδεκτό τομέα. Επικοινωνήστε με τον διαχειριστή σας ή εγγραφείτε με διαφορετικό email."
+  },
+  {
+    "id": "api.user.create_profile_image.initial.app_error",
+    "translation": "Δεν ήταν δυνατή η προσθήκη των αρχικών του χρήστη στην προεπιλεγμένη εικόνα προφίλ."
+  },
+  {
+    "id": "api.user.create_profile_image.encode.app_error",
+    "translation": "Δεν ήταν δυνατή η κωδικοποίηση της προεπιλεγμένης εικόνας προφίλ."
+  },
+  {
+    "id": "api.user.create_profile_image.default_font.app_error",
+    "translation": "Δεν ήταν δυνατή η δημιουργία προεπιλεγμένης γραμματοσειράς εικόνας προφίλ."
+  },
+  {
+    "id": "api.user.create_password_token.error",
+    "translation": "Δεν είναι δυνατή η δημιουργία διακριτικού ανάκτησης κωδικού πρόσβασης"
+  },
+  {
+    "id": "api.user.create_oauth_user.create.app_error",
+    "translation": "Δεν ήταν δυνατή η δημιουργία χρήστη από τον χρήστη αντικειμένου {{.Service}}."
+  },
+  {
+    "id": "api.user.create_oauth_user.already_attached.app_error",
+    "translation": "Υπάρχει ήδη ένας λογαριασμός που σχετίζεται με αυτήν τη διεύθυνση email χρησιμοποιώντας μια μέθοδο σύνδεσης διαφορετική από την {{.Service}}. Συνδεθείτε χρησιμοποιώντας το {{.Auth}}."
+  },
+  {
+    "id": "api.user.create_email_token.error",
+    "translation": "Αποτυχία δημιουργίας δεδομένων διακριτικών για επαλήθευση email"
+  },
+  {
+    "id": "api.user.complete_switch_with_oauth.parse.app_error",
+    "translation": "Δεν ήταν δυνατή η ανάλυση των δεδομένων εξουσιοδότησης από τον χρήστη αντικειμένου {{.Service}}."
+  },
+  {
+    "id": "api.user.complete_switch_with_oauth.blank_email.app_error",
+    "translation": "Κενό email."
+  },
+  {
+    "id": "api.user.cloud_trial_ending_email.error",
+    "translation": "Αποτυχία αποστολής προειδοποιητικού email λήξης της δοκιμαστικής περιόδου χρήσης"
+  },
+  {
+    "id": "api.user.cloud_trial_ended_email.error",
+    "translation": "Αποτυχία αποστολής email για το τέλος της δοκιμαστικής περιόδου χρήσης"
+  },
+  {
+    "id": "api.user.check_user_password.invalid.app_error",
+    "translation": "Η σύνδεση απέτυχε λόγω μη έγκυρου κωδικού πρόσβασης."
+  },
+  {
+    "id": "api.user.check_user_mfa.bad_code.app_error",
+    "translation": "Μη έγκυρο διακριτικό ελέγχου ταυτότητας πολλών παραγόντων (MFA)."
+  },
+  {
+    "id": "api.user.check_user_login_attempts.too_many.app_error",
+    "translation": "Ο λογαριασμός σας είναι κλειδωμένος λόγω πάρα πολλών αποτυχημένων προσπαθειών κωδικού πρόσβασης. Παρακαλώ επαναφέρετε τον κωδικό πρόσβασης σας."
+  },
+  {
+    "id": "api.user.autocomplete_users.missing_team_id.app_error",
+    "translation": "Απαιτείται παράμετρος αναγνωριστικού ομάδας για αυτόματη συμπλήρωση ανά κανάλι."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.unsupported.app_error",
+    "translation": "{{.Service}} Το σύστημα ενιαίας πρόσβασης (SSO) μέσω OAuth 2.0 δεν είναι διαθέσιμο σε αυτόν τον διακομιστή."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.token_failed.app_error",
+    "translation": "Το αίτημα για διακριτικό απέτυχε."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.service.app_error",
+    "translation": "Το αίτημα για διακριτικό στο {{.Service}} απέτυχε."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.response.app_error",
+    "translation": "Λήφθηκε μη έγκυρη απάντηση από τον πάροχο υπηρεσιών OAuth."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.missing.app_error",
+    "translation": "Λείπει το διακριτικό πρόσβασης."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.invalid_state.app_error",
+    "translation": "Μη έγκυρη κατάσταση"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.bad_token.app_error",
+    "translation": "Κακός τύπος διακριτικού."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.bad_response.app_error",
+    "translation": "Κακή απάντηση από αίτημα διακριτικού."
   }
 ]
