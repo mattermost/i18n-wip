@@ -696,5 +696,8 @@
   "custom_status.suggestions.on_a_vacation": "Σε διακοπές",
   "custom_status.suggestions.in_a_meeting": "Σε μια συνάντηση",
   "custom_status.set_status": "Ορίστε μια κατάσταση",
-  "custom_status.failure_message": "Αποτυχία ενημέρωσης κατάστασης. Προσπαθήστε ξανά"
+  "custom_status.failure_message": "Αποτυχία ενημέρωσης κατάστασης. Προσπαθήστε ξανά",
+  "camera_type.video.option": "Εγγραφή βίντεο",
+  "camera_type.title": "Επιλέξτε μια ενέργεια",
+  "camera_type.photo.option": "Λήψη φωτογραφίας"
 }
