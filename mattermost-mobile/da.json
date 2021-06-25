@@ -31,5 +31,6 @@
   "about.enterpriseEditionLearn": "Lær mere om Enterprise versionen på ",
   "about.date": "Byggedato:",
   "about.enterpriseEditione1": "Virksomhedsudgave",
-  "about.teamEditiont1": "Virksomhedsudgave"
+  "about.teamEditiont1": "Virksomhedsudgave",
+  "about.title": "Om {appTitle}"
 }
