@@ -817,7 +817,6 @@
   "admin.experimental.closeUnusedDirectMessages.desc": "عندما الحقيقية، والأحاديث رسالة مباشرة مع أي نشاط لمدة 7 أيام سوف تكون مخفية من الشريط الجانبي. عندما تبقى كاذبة، والأحاديث في الشريط الجانبي حتى يتم إغلاق يدويا عليها. تتوفر هذه الإعدادات إلا إذا ** تمكين تراث الشريط الجانبي ** غير ** ** ممكن.",
   "admin.experimental.closeUnusedDirectMessages.title": "رسائل إغلاق تلقائي المباشر في الشريط الجانبي:",
   "admin.experimental.collapsedThreads.default_off": "تمكين (افتراضي إيقاف)",
-  "admin.experimental.collapsedThreads.default_on": "تمكين (افتراضي على)",
   "admin.experimental.collapsedThreads.desc": "عندما تمكين (افتراضي على)، هذا الإعداد تمكن المواضيع الرد المنهارة لكافة المستخدمين على هذا الخادم. ويمكن للمستخدمين تعطيل ميزة في إعدادات الحساب> العرض> انهارت رد المواضيع (بيتا). عندما مكن (الافتراضي إيقاف)، يجب على المستخدمين تمكين المواضيع الرد المنهارة في إعدادات الحساب. عندما المعوقين، والمستخدمين لا يمكن الوصول انهار المواضيع الرد. [تعرف على المزيد حول المواضيع الرد انهار] (HTTPS: //about.mattermost.com/default-threads).",
   "admin.experimental.collapsedThreads.off": "معاق",
   "admin.experimental.collapsedThreads.title": "انهار رد المواضيع",
