@@ -83,7 +83,6 @@
   "mobile.extension.file_limit": "Sdílení je omezeno na maximum pěti souborů.",
   "mobile.error_handler.title": "Došlo k neočekávané chybě",
   "mobile.error_handler.button": "Spustit znovu",
-  "mobile.emoji_picker.flags": "PŘÍZNAKY",
   "mobile.edit_post.title": "Upravit zprávu",
   "mobile.downloader.failed_description": "Došlo k chybě při stahování souboru. Prosím ověřte vaše internetové připojení a zkuste to znovu.\n",
   "mobile.downloader.disabled_title": "Stahování selhalo",

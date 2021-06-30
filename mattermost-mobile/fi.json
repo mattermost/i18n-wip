@@ -110,7 +110,6 @@
   "mobile.error_handler.title": "Odottamaton virhe tapahtui",
   "mobile.error_handler.description": "\nKlikkaa uudelleenkäynnistystä avataksesi sovelluksen uudestaan. Uudelleenkäynnistyksen jälkeen voit raportoida ongelmasta asetusvalikosta.\n",
   "mobile.error_handler.button": "Laukaise uudestaan",
-  "mobile.emoji_picker.flags": "LIPUT",
   "mobile.edit_profile.remove_profile_photo": "Poista kuva",
   "mobile.edit_post.title": "Muokataan viestiä",
   "mobile.downloader.failed_description": "Tapahtui virhe ladattaessa tiedostoa. Tarkista internet-yhteytesi ja yritä uudestaan.\n",

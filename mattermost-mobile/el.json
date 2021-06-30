@@ -288,7 +288,6 @@
   "mobile.error_handler.button": "Επανεκκίνηση",
   "mobile.emoji_picker.search.not_found_title": "Δεν βρέθηκαν αποτελέσματα για \"{searchTerm}\"",
   "mobile.emoji_picker.search.not_found_description": "Ελέγξτε την ορθογραφία ή δοκιμάστε άλλη αναζήτηση.",
-  "mobile.emoji_picker.custom": "ΕΞΑΤΟΜΙΚΕΥΜΕΝΟ",
   "mobile.downloader.disabled_title": "Οι λήψεις απενεργοποιήθηκαν",
   "mobile.edit_profile.remove_profile_photo": "Αφαίρεση Φωτογραφίας",
   "mobile.edit_post.title": "Επεξεργασία Μηνύματος",
