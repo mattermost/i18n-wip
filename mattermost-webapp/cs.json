@@ -2035,7 +2035,6 @@
   "quick_switch_modal.channelsShortcut.windows": "- CTRL+K",
   "quick_switch_modal.help_no_team": "Začni psát pro zadání kanálu. Použij **NAHORU/DOLŮ** k listování, **ENTER** k výběru, **ESC** pro zrušení.",
   "quick_switch_modal.input": "rychlé přepnutí",
-  "quick_switch_modal.teamsShortcut.mac": "- ⌘K",
   "reaction.clickToAdd": "(klikněte pro přidání)",
   "reaction.clickToRemove": "(klikněte pro odstranění)",
   "reaction.container.ariaLabel": "Reakce",

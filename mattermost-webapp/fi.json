@@ -1517,7 +1517,6 @@
   "quick_switch_modal.channelsShortcut.mac": "- ⌘K",
   "quick_switch_modal.channelsShortcut.windows": "- CTRL+K",
   "quick_switch_modal.help_no_team": "Kirjoita etsiäksesi kanavaa Käytä ↑↓ selaamiseen, ↵ valitsemiseen, ESC perumiseen.",
-  "quick_switch_modal.teamsShortcut.mac": "- ⌘⌥K",
   "reaction.clickToAdd": "(napsauta lisätäksesi)",
   "reaction.clickToRemove": "(napsauta poistaaksesi)",
   "reaction.container.ariaLabel": "reaktiot",

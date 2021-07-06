@@ -3627,7 +3627,6 @@
   "quick_switch_modal.help_no_team": "Nhập để tìm kênh. Sử dụng ** UP / DOWN ** để duyệt, ** ENTER ** để chọn, ** ESC ** để loại bỏ.",
   "quick_switch_modal.input": "đầu vào chuyển đổi nhanh",
   "quick_switch_modal.switchChannels": "Chuyển kênh",
-  "quick_switch_modal.teamsShortcut.mac": "- ⌘⌥K",
   "reaction.add.ariaLabel": "Thêm phản ứng",
   "reaction.clickToAdd": "(nhấp để thêm)",
   "reaction.clickToRemove": "(nhấp để xóa)",
