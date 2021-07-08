@@ -3664,7 +3664,6 @@
   "next_steps_view.invite_members_step.emailAddresses": "عناوين البريد الإلكتروني",
   "next_steps_view.invite_members_step.enterEmailAddresses": "أدخل عناوين البريد الإلكتروني",
   "next_steps_view.invite_members_step.errorSendingEmails": "كان هناك مشكلة في إرسال الدعوات الخاصة بك. حاول مرة اخرى.",
-  "next_steps_view.invite_members_step.finish": "ينهي",
   "next_steps_view.invite_members_step.invalidEmail": "واحد أو أكثر من عناوين البريد الإلكتروني غير صالحة",
   "next_steps_view.invite_members_step.invitationsSent": "{الأسطوانات} دعوات أرسلت",
   "next_steps_view.invite_members_step.link_copied": "نسخ",

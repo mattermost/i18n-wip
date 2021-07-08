@@ -3451,7 +3451,6 @@
   "next_steps_view.invite_members_step.emailAddresses": "Địa chỉ email",
   "next_steps_view.invite_members_step.enterEmailAddresses": "Nhập địa chỉ email",
   "next_steps_view.invite_members_step.errorSendingEmails": "Đã xảy ra sự cố khi gửi lời mời của bạn. Vui lòng thử lại.",
-  "next_steps_view.invite_members_step.finish": "Kết thúc",
   "next_steps_view.invite_members_step.invalidEmail": "Một hoặc nhiều địa chỉ email không hợp lệ",
   "next_steps_view.invite_members_step.invitationsSent": "Đã gửi {num} lời mời",
   "next_steps_view.invite_members_step.link_copied": "Đã sao chép",
