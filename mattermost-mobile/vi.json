@@ -363,7 +363,7 @@
   "about.hashee": "Mã băm của bản dựng EE :",
   "about.hash": "Mã băm của bản dựng:",
   "about.enterpriseEditionSt": "Hệ thống giao tiếp hiện đại được bảo vệ dưới tường lửa của bạn.",
-  "about.enterpriseEditionLearn": "Tìm hiểu thêm về Bản Doanh ở ",
+  "about.enterpriseEditionLearn": "Tìm hiểu thêm về phiên bản Doanh Nghiệp ở ",
   "about.date": "Ngày Xây Dựng:",
   "status_dropdown.set_online": "Trực tuyến",
   "status_dropdown.set_dnd": "Đừng làm phiền",
@@ -408,5 +408,9 @@
   "suggestion.mention.special": "Đề Cập Đặc Biệt",
   "suggestion.mention.groups": "Để Cập Nhóm",
   "suggestion.mention.channel": "Thông báo cho mọi người trong kênh này",
-  "suggestion.mention.all": "Thông báo cho mọi người trong kênh này"
+  "suggestion.mention.all": "Thông báo cho mọi người trong kênh này",
+  "apps.error.parser.no_slash_start": "Dòng lệnh phải được bắt đầu bằng ký tự `/`.",
+  "api.channel.add_member.added": "{addedUsername} được thêm vào kênh trò chuyện bởi {username}.",
+  "apps.error.command.field_missing": "Thiếu trường thông tin cần thiết: `{fieldName}`.",
+  "apps.error": "Lỗi: {error}"
 }
