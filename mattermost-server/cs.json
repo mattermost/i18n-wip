@@ -3009,7 +3009,7 @@
   },
   {
     "id": "api.templates.welcome_body.app_download_info",
-    "translation": "Pro nejlepší zážitek si stáhněte aplikace pro PC, Mac, iOS a Android z:"
+    "translation": "Pro nejlepší zážitek si stáhněte aplikace pro PC, Mac, iOS a Android."
   },
   {
     "id": "api.templates.verify_subject",
@@ -3125,7 +3125,7 @@
   },
   {
     "id": "api.templates.invite_body.title",
-    "translation": "Byl jste pozván"
+    "translation": "{{ .SenderName }} Vás pozval k připojení se do týmu {{ .TeamDisplayName }}."
   },
   {
     "id": "api.team.remove_user_from_team.missing.app_error",
@@ -7598,5 +7598,53 @@
   {
     "id": "api.back_to_app",
     "translation": "Zpět na {{.SiteName}}"
+  },
+  {
+    "id": "api.command_remote.decode_invitation.error",
+    "translation": "Pozvánka nemohla být dekódována: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.cluster_removed",
+    "translation": "Zabezpečené připojení {{.RemoteId}} {{.Result}}."
+  },
+  {
+    "id": "api.command_remote.add_remote.error",
+    "translation": "Zabezpečené spojení nebylo přidáno: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept_invitation.error",
+    "translation": "Pozvánka nebyla přijata: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept.help",
+    "translation": "Přijmout pozvánku z externí instance Mattermost"
+  },
+  {
+    "id": "api.command_remote.accept_invitation",
+    "translation": "Pozvánka přijata a potvrzena.\nSiteURL: {{.SiteURL}}"
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.max_length",
+    "translation": "Vložený text je příliš dlouhý. Délka textu účelu kanálu je omezena na maximálně {{.MaxLength}} znaky/ů."
+  },
+  {
+    "id": "api.command_channel_header.update_channel.max_length",
+    "translation": "Vložený text je příliš dlouhý. Délka textu záhlaví kanálu je omezena na maximálně {{.MaxLength}} znaky/ů."
+  },
+  {
+    "id": "api.cloud.cws_webhook_event_missing_error",
+    "translation": "Událost z webhooku nebyla zpracována. Chybí, nebo není platná."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "Chyba při zneplatnění vyrovnávací paměti cache"
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "Kanál přímých zpráv mezi těmito uživateli nemohl být vytvořen, protože nejsou v žádném týmu společně."
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "Nepodařilo se resetovat pole AuthData na Email."
   }
 ]
