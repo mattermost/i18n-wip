@@ -3779,10 +3779,6 @@
     "translation": "Κενό email."
   },
   {
-    "id": "api.user.cloud_trial_ending_email.error",
-    "translation": "Αποτυχία αποστολής προειδοποιητικού email λήξης της δοκιμαστικής περιόδου χρήσης"
-  },
-  {
     "id": "api.user.cloud_trial_ended_email.error",
     "translation": "Αποτυχία αποστολής email για το τέλος της δοκιμαστικής περιόδου χρήσης"
   },

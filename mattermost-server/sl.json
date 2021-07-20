@@ -1704,16 +1704,8 @@
     "translation": "Ni možno onemogočiti lastnega uporabniškega računa, ker ta možnost ni omogočena. Prosim kontaktirajte svoje skrbnika sistema."
   },
   {
-    "id": "api.user.send_welcome_email_and_forget.failed.error",
-    "translation": "Neuspešno pošiljanje e-pošte za dobrodošlico"
-  },
-  {
     "id": "api.user.send_verify_email_and_forget.failed.error",
     "translation": "Neuspešno pošiljanje e-pošte za preverjanje"
-  },
-  {
-    "id": "api.user.send_user_access_token.error",
-    "translation": "Neuspešno pošiljanje e-pošte za »Dodan žeton za osebni dostop«"
   },
   {
     "id": "api.user.send_sign_in_change_email_and_forget.error",
@@ -1728,20 +1720,12 @@
     "translation": "Neuspešno pošiljanje e-pošte za ponastavitev gesla"
   },
   {
-    "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "Neuspešno pošiljanje e-pošte za posodobitev gesla"
-  },
-  {
     "id": "api.user.send_mfa_change_email.error",
     "translation": "Obvestila po e-pošti za spremembo MFA ni mogoče poslati."
   },
   {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Neuspešno pošiljanje e-pošte za spremenitev e-pošte za preverjanje"
-  },
-  {
-    "id": "api.user.send_email_change_username_and_forget.error",
-    "translation": "Neuspešno pošiljanje e-pošte za obvestilo o spremembi uporabniškega imena"
   },
   {
     "id": "api.user.send_email_change_email_and_forget.error",

@@ -2494,10 +2494,6 @@
     "translation": "Anda tidak memiliki hak akses"
   },
   {
-    "id": "api.user.send_welcome_email_and_forget.failed.error",
-    "translation": "Gagal mengirimkan email ucapan selamat datang"
-  },
-  {
     "id": "api.user.send_verify_email_and_forget.failed.error",
     "translation": "Gagal mengirimkan email verifikasi"
   },
@@ -2514,16 +2510,8 @@
     "translation": "Gagal mengirim email penyetelan-ulang kata sandi"
   },
   {
-    "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "Gagal mengirimkan email pembaruan kata sandi"
-  },
-  {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Gagal mengirimkan notifikasi perubahan email"
-  },
-  {
-    "id": "api.user.send_email_change_username_and_forget.error",
-    "translation": "Gagal mengirimkan notifikasi email perubahan nama pengguna"
   },
   {
     "id": "api.user.send_email_change_email_and_forget.error",

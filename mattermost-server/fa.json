@@ -3060,20 +3060,12 @@
     "translation": "ایمیل غیرفعال کردن حساب با موفقیت ارسال نشد"
   },
   {
-    "id": "api.user.send_email_change_email_and_forget.error",
-    "translation": "ارسال ایمیل اعلان تغییر ایمیل با موفقیت انجام نشد"
-  },
-  {
     "id": "api.user.send_email_change_username_and_forget.error",
     "translation": "ارسال موفقیت آمیز ایمیل اعلان تغییر نام کاربری انجام نشد"
   },
   {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "ارسال نامه تأیید اعتبار تغییر ایمیل با موفقیت انجام نشد"
-  },
-  {
-    "id": "api.user.send_mfa_change_email.error",
-    "translation": "ارسال اعلان ایمیل برای تغییر MFA امکان پذیر نیست."
   },
   {
     "id": "api.user.send_password_change_email_and_forget.error",
@@ -3092,16 +3084,8 @@
     "translation": "ایمیل به روزرسانی رمز عبور  با موفقیت ارسال نشد"
   },
   {
-    "id": "api.user.send_user_access_token.error",
-    "translation": "ارسال ایمیل 'رمز دسترسی شخصی اضافه شد' با موفقیت انجام نشد"
-  },
-  {
     "id": "api.user.send_verify_email_and_forget.failed.error",
     "translation": "ارسال نامه تأیید با موفقیت انجام نشد"
-  },
-  {
-    "id": "api.user.send_welcome_email_and_forget.failed.error",
-    "translation": "ارسال ایمیل استقبال با موفقیت انجام نشد"
   },
   {
     "id": "api.user.update_active.cannot_enable_guest_when_guest_feature_is_disabled.app_error",

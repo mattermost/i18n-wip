@@ -1328,16 +1328,8 @@
     "translation": "El «display_name» del canal no està dins de les restriccions de longitud permeses."
   },
   {
-    "id": "api.user.send_welcome_email_and_forget.failed.error",
-    "translation": "No s'ha pogut enviar el correu de benvinguda amb èxit"
-  },
-  {
     "id": "api.user.send_verify_email_and_forget.failed.error",
     "translation": "No s'ha pogut enviar el correu de verificació amb èxit"
-  },
-  {
-    "id": "api.user.send_user_access_token.error",
-    "translation": "No s'ha pogut enviar el correu de «testimoni d'accés personal afegit» amb èxit"
   },
   {
     "id": "api.user.send_sign_in_change_email_and_forget.error",
@@ -1352,20 +1344,12 @@
     "translation": "No s'ha pogut enviar el correu electrònic de restabliment de la contrasenya amb èxit"
   },
   {
-    "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "No s'ha pogut enviar el correu de contrasenya actualitzada amb èxit"
-  },
-  {
     "id": "api.user.send_mfa_change_email.error",
     "translation": "No es pot enviar una notificació per correu del canvi de MFA."
   },
   {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "No s'ha pogut enviar el correu de verificació del canvi de correu amb èxit"
-  },
-  {
-    "id": "api.user.send_email_change_username_and_forget.error",
-    "translation": "No s'ha pogut enviar el correu de notificació de canvi d'usuari amb èxit"
   },
   {
     "id": "api.user.send_email_change_email_and_forget.error",

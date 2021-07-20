@@ -2420,16 +2420,8 @@
     "translation": "Et voi deaktivoida itseäsi koska tämä toiminto on kytketty pois. Ota yhteys järjestelmänvalvojaan."
   },
   {
-    "id": "api.user.send_welcome_email_and_forget.failed.error",
-    "translation": "Ei voitu lähettää tervetulosähköpostiviestiä"
-  },
-  {
     "id": "api.user.send_verify_email_and_forget.failed.error",
     "translation": "Ei voitu lähettää vahvistussähköpostiviestiä"
-  },
-  {
-    "id": "api.user.send_user_access_token.error",
-    "translation": "Ei voitu lähettää \"Henkilökohtainen access token lisätty\" sähköpostia"
   },
   {
     "id": "api.user.send_sign_in_change_email_and_forget.error",
@@ -2444,20 +2436,12 @@
     "translation": "Ei voitus lähettää salasanan palautussähköpostia"
   },
   {
-    "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "Ei voitu lähettää salasanan muutossähköpostia"
-  },
-  {
     "id": "api.user.send_mfa_change_email.error",
     "translation": "Ei voitu lähettää sähköposti-ilmoitusta MFA-muutoksesta."
   },
   {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Ei voitu lähettää sähköpostin muutosvahvistusviestiä"
-  },
-  {
-    "id": "api.user.send_email_change_username_and_forget.error",
-    "translation": "Ei voitu lähettää käyttäjänimen muutossähköpostiviestiä"
   },
   {
     "id": "api.user.send_email_change_email_and_forget.error",

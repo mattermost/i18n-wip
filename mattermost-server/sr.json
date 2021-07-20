@@ -144,32 +144,16 @@
     "translation": "Унос у пољу “Тренутна лозинка“ није исправан. Проверите да ли је Caps Lock лампица искључена и пробајте поново."
   },
   {
-    "id": "api.user.send_welcome_email_and_forget.failed.error",
-    "translation": "Нисам успео да успешно пошаљем мејл добродошлице"
-  },
-  {
     "id": "api.user.send_verify_email_and_forget.failed.error",
     "translation": "Нисам успео да успешно пошаљем потврдни мејл"
-  },
-  {
-    "id": "api.user.send_user_access_token.error",
-    "translation": "Нисам успео да успешно пошаљем „Жетон за лични приступ додат“ мејл"
   },
   {
     "id": "api.user.send_sign_in_change_email_and_forget.error",
     "translation": "Нисам успео да успешно пошаљем мејл за ажурирање лозинке"
   },
   {
-    "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "Нисам успео да успешно пошаљем мејл за ажурирање лозинке"
-  },
-  {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Нисам успео да успешно пошаљем мејл обавештење о потврди мејла"
-  },
-  {
-    "id": "api.user.send_email_change_username_and_forget.error",
-    "translation": "Нисам успео да успешно пошаљем мејл обавештење о промени корисничког"
   },
   {
     "id": "api.user.send_email_change_email_and_forget.error",

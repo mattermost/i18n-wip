@@ -168,10 +168,6 @@
     "translation": "Testemuño AMF non válido."
   },
   {
-    "id": "api.user.send_mfa_change_email.error",
-    "translation": "Non é posíbel enviar unha notificación por correo-e por cambio na AMF."
-  },
-  {
     "id": "api.user.check_user_mfa.bad_code.app_error",
     "translation": "Testemuño AMF non válido."
   },

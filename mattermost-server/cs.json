@@ -1956,16 +1956,8 @@
     "translation": "Nelze aktivovat účet hosta, protože funkce \"Přístup Hosta\" není povolena."
   },
   {
-    "id": "api.user.send_welcome_email_and_forget.failed.error",
-    "translation": "Nepodařilo se úspěšně odeslat uvítací e-mail"
-  },
-  {
     "id": "api.user.send_verify_email_and_forget.failed.error",
     "translation": "Nelze odeslat e-mail s verifikací"
-  },
-  {
-    "id": "api.user.send_user_access_token.error",
-    "translation": "Nelze odeslat e-mail se zprávou \"Osobní přístupový token byl přidán\""
   },
   {
     "id": "api.user.send_sign_in_change_email_and_forget.error",
@@ -1980,20 +1972,12 @@
     "translation": "Odeslání e-mailu s žádostí o změnu hesla se nezdařilo."
   },
   {
-    "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "Nepodařilo se poslat e-mail o změně hesla"
-  },
-  {
     "id": "api.user.send_mfa_change_email.error",
     "translation": "Nelze odeslat notifikační e-mail o změně MFA."
   },
   {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Nelze odeslat email o změně verifikačního e-mailu"
-  },
-  {
-    "id": "api.user.send_email_change_username_and_forget.error",
-    "translation": "Nelze odeslat notifikaci o změně uživatelského jména"
   },
   {
     "id": "api.user.send_email_change_email_and_forget.error",

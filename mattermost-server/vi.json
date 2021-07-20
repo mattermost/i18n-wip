@@ -2396,16 +2396,8 @@
     "translation": "Bạn không thể tự hủy kích hoạt vì tính năng này không được bật. Xin vui lòng liên hệ với quản trị hệ thống của bạn."
   },
   {
-    "id": "api.user.send_welcome_email_and_forget.failed.error",
-    "translation": "Thất bại gửi email chào mừng"
-  },
-  {
     "id": "api.user.send_verify_email_and_forget.failed.error",
     "translation": "Thất bại gửi email xác minh"
-  },
-  {
-    "id": "api.user.send_user_access_token.error",
-    "translation": "Thất bại gửi email \"bổ sung mã xác nhận truy cập cá nhân\""
   },
   {
     "id": "api.user.send_sign_in_change_email_and_forget.error",
@@ -2420,20 +2412,12 @@
     "translation": "Thất bại gửi email \"đặt lại mật khẩu thành công\""
   },
   {
-    "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "Không thể gửi email cập nhật mật khẩu thành công."
-  },
-  {
     "id": "api.user.send_mfa_change_email.error",
     "translation": "Không thể gửi email thông báo thay đổi MFA."
   },
   {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Thất bại gửi email xác minh \"thay đổi email thành công\""
-  },
-  {
-    "id": "api.user.send_email_change_username_and_forget.error",
-    "translation": "Thất bại gửi email thông báo \"thay đổi tên người dùng thành công\""
   },
   {
     "id": "api.user.send_email_change_email_and_forget.error",
