@@ -1972,16 +1972,8 @@
     "translation": "Odeslání e-mailu s žádostí o změnu hesla se nezdařilo."
   },
   {
-    "id": "api.user.send_mfa_change_email.error",
-    "translation": "Nelze odeslat notifikační e-mail o změně MFA."
-  },
-  {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Nelze odeslat email o změně verifikačního e-mailu"
-  },
-  {
-    "id": "api.user.send_email_change_email_and_forget.error",
-    "translation": "Nepodařilo se odeslat e-mailové upozornění o změně e-mailu"
   },
   {
     "id": "api.user.send_deactivate_email_and_forget.failed.error",

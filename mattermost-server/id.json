@@ -2514,10 +2514,6 @@
     "translation": "Gagal mengirimkan notifikasi perubahan email"
   },
   {
-    "id": "api.user.send_email_change_email_and_forget.error",
-    "translation": "Gagal mengirimkan email perubahan notifikasi"
-  },
-  {
     "id": "api.user.saml.not_available.app_error",
     "translation": "SAML tidak diatur atau didukung oleh server ini"
   },

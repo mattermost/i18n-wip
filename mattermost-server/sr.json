@@ -156,10 +156,6 @@
     "translation": "Нисам успео да успешно пошаљем мејл обавештење о потврди мејла"
   },
   {
-    "id": "api.user.send_email_change_email_and_forget.error",
-    "translation": "Нисам успео да успешно пошаљем мејл обавештење о промени лозинке"
-  },
-  {
     "id": "api.user.saml.not_available.app_error",
     "translation": "SAML 2.0 није подешен или подржан на овом серверу."
   },

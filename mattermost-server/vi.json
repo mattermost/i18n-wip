@@ -2412,16 +2412,8 @@
     "translation": "Thất bại gửi email \"đặt lại mật khẩu thành công\""
   },
   {
-    "id": "api.user.send_mfa_change_email.error",
-    "translation": "Không thể gửi email thông báo thay đổi MFA."
-  },
-  {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Thất bại gửi email xác minh \"thay đổi email thành công\""
-  },
-  {
-    "id": "api.user.send_email_change_email_and_forget.error",
-    "translation": "Thất bại gửi đi email thông báo \"thay đổi email thành công\""
   },
   {
     "id": "api.user.send_deactivate_email_and_forget.failed.error",

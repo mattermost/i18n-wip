@@ -1344,16 +1344,8 @@
     "translation": "No s'ha pogut enviar el correu electrònic de restabliment de la contrasenya amb èxit"
   },
   {
-    "id": "api.user.send_mfa_change_email.error",
-    "translation": "No es pot enviar una notificació per correu del canvi de MFA."
-  },
-  {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "No s'ha pogut enviar el correu de verificació del canvi de correu amb èxit"
-  },
-  {
-    "id": "api.user.send_email_change_email_and_forget.error",
-    "translation": "No s'ha pogut enviar el correu de notificació de canvi de correu amb èxit"
   },
   {
     "id": "api.user.send_deactivate_email_and_forget.failed.error",

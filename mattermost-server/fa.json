@@ -3060,16 +3060,8 @@
     "translation": "ایمیل غیرفعال کردن حساب با موفقیت ارسال نشد"
   },
   {
-    "id": "api.user.send_email_change_username_and_forget.error",
-    "translation": "ارسال موفقیت آمیز ایمیل اعلان تغییر نام کاربری انجام نشد"
-  },
-  {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "ارسال نامه تأیید اعتبار تغییر ایمیل با موفقیت انجام نشد"
-  },
-  {
-    "id": "api.user.send_password_change_email_and_forget.error",
-    "translation": "ایمیل  به روزرسانی رمز عبور با موفقیت ارسال نشد"
   },
   {
     "id": "api.user.send_password_reset.send.app_error",

@@ -1720,16 +1720,8 @@
     "translation": "Neuspešno pošiljanje e-pošte za ponastavitev gesla"
   },
   {
-    "id": "api.user.send_mfa_change_email.error",
-    "translation": "Obvestila po e-pošti za spremembo MFA ni mogoče poslati."
-  },
-  {
     "id": "api.user.send_email_change_verify_email_and_forget.error",
     "translation": "Neuspešno pošiljanje e-pošte za spremenitev e-pošte za preverjanje"
-  },
-  {
-    "id": "api.user.send_email_change_email_and_forget.error",
-    "translation": "Neuspešno pošiljanje e-pošte za spremenitev obveščanja preko e-pošte"
   },
   {
     "id": "api.user.send_deactivate_email_and_forget.failed.error",
