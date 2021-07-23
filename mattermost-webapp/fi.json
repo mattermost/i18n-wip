@@ -827,7 +827,6 @@
   "admin.system_users.noTeams": "Ei tiimejä",
   "admin.system_users.title": "{siteName} Käyttäjät",
   "admin.team.brandDescriptionTitle": "Sivuston kuvaus: ",
-  "admin.team.editOthersPostsTitle": "Salli tiimin valvojien muokata muiden viestejä:",
   "admin.team.emailInvitationsTitle": "Ota sähköpostikutsut käyttöön: ",
   "admin.team.maxChannelsTitle": "Enintään kanavia per tiimi:",
   "admin.team.maxNotificationsPerChannelDescription": "Suurin sallittu käyttäjämäärä kanavalla ennen kuin @all, @here, ja @channel eivät enää lähetä ilmoituksia suorituskyvyn vuoksi.",

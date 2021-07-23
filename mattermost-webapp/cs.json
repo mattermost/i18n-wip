@@ -1244,7 +1244,6 @@
   "admin.team.restrict_direct_message_team": "Jakýkoli člen týmu",
   "admin.team.siteNameExample": "Např.: \"Mattermost\"",
   "admin.team.siteNameTitle": "Jméno stránky:",
-  "admin.team.teamCreationDescription": "Když vypnuto, pouze Správci Systému mohou vytvářet týmy.",
   "admin.team.teamCreationTitle": "Povolit zakládání týmů: ",
   "admin.team.teammateNameDisplay": "Zobrazit jméno kolegy:",
   "admin.team.teammateNameDisplayDesc": "Nastavit zobrazení uživatelských jmen v příspěvcích a seznamu přímých zpráv.",
