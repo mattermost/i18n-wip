@@ -708,7 +708,6 @@
   "remove_next_steps_modal.confirm": "Fjern",
   "shortcuts.header": "Tastaturgenveje\tCtrll/",
   "shortcuts.header.mac": "Tastaturgenveje\t⌘|/",
-  "tutorial_intro.screenOne.body1": "Al din team kommunikation på ét sted, søgbare og tilgængelige overalt.",
   "update_command.question": "Dine ændringer, kan ødelægge den eksisterende slash kommando. Er du sikker på du ønsker at opdatere den?",
   "update_command.update": "Opdater",
   "update_incoming_webhook.update": "Opdater",
