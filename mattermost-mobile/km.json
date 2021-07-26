@@ -10,5 +10,9 @@
   "about.hash": "ស្ថាបនាម៉ាស៊ីន ៖",
   "about.enterpriseEditionSt": "ទំនាក់ទំនងទំនើបនៅពីក្រោយ Firewall អ្នក។",
   "about.enterpriseEditionLearn": "រៀនបន្ថែមអំពី Enterprise Edition នៅ",
-  "about.date": "ពេលវេលាស្ថាបនា ៖"
+  "about.date": "ពេលវេលាស្ថាបនា ៖",
+  "apps.error": "កំហុស: {error}",
+  "api.channel.add_member.added": "{addedUsername} បានបន្ថែមទៅក្នុង channel ដោយ {username}.",
+  "announcment_banner.dont_show_again": "កំុបង្ហាញម្ដងទៀត",
+  "about.title": "អំពី {appTitle}"
 }
