@@ -284,7 +284,6 @@
   "admin.billing.subscription.mostRecentPaymentFailed": "Poslední platba neproběhla",
   "admin.billing.subscription.nextBillingDate": "Počínaje dnem {date} budete zpoplatněn na základě počtu povolených uživatelů",
   "admin.billing.subscription.otherBillingOption": "Potřebujte jiný způsob platby?",
-  "admin.billing.subscription.payamentBegins": "Platba začíná: {beginDate}",
   "admin.billing.subscription.paymentFailed": "Platba selhala. Prosím zkus to znovu nebo kontaktuj podporu.",
   "admin.billing.subscription.paymentVerificationFailed": "Omlouvám se, ale ověření platby selhalo",
   "admin.billing.subscription.perUserPerMonth": " /uživatel/měsíc",

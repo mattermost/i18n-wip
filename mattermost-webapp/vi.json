@@ -287,7 +287,6 @@
   "admin.billing.subscription.mostRecentPaymentFailed": "Thanh toán gần đây nhất của bạn không thành công",
   "admin.billing.subscription.nextBillingDate": "Bắt đầu từ {date}, bạn sẽ bị tính phí dựa trên số lượng người dùng đã bật",
   "admin.billing.subscription.otherBillingOption": "Cần các tùy chọn thanh toán khác?",
-  "admin.billing.subscription.payamentBegins": "Thanh toán bắt đầu: {beginDate}",
   "admin.billing.subscription.paymentFailed": "Thanh toán không thành công. Vui lòng thử lại hoặc liên hệ với bộ phận hỗ trợ.",
   "admin.billing.subscription.paymentVerificationFailed": "Xin lỗi, xác minh thanh toán không thành công",
   "admin.billing.subscription.perUserPerMonth": " / user / month",

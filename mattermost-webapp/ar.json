@@ -290,7 +290,6 @@
   "admin.billing.subscription.mostRecentPaymentFailed": "فشل دفعك الأخير",
   "admin.billing.subscription.nextBillingDate": "بدءا من {تاريخ} سيتم محاسبتك على أساس عدد من المستخدمين تمكين",
   "admin.billing.subscription.otherBillingOption": "تحتاج خيارات الفواتير الأخرى؟",
-  "admin.billing.subscription.payamentBegins": "دفع يبدأ: {beginDate}",
   "admin.billing.subscription.paymentFailed": "عملية الدفع فشلت. يرجى المحاولة مرة أخرى أو الاتصال بالدعم.",
   "admin.billing.subscription.paymentVerificationFailed": "عذرا، فشل التحقق من الدفع",
   "admin.billing.subscription.perUserPerMonth": " / المستخدم / الشهر",
