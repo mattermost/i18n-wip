@@ -1288,10 +1288,6 @@
     "translation": "Không thể lưu phản ứng"
   },
   {
-    "id": "ent.data_retention.reactions_batch.internal_error",
-    "translation": "Chúng tôi đã gặp lỗi khi xóa vĩnh viễn một loạt các reaction"
-  },
-  {
     "id": "app.reaction.delete_all_with_emoji_name.get_reactions.app_error",
     "translation": "Không thể nhận được tất cả các phản ứng với tên biểu tượng cảm xúc này"
   },

@@ -1108,10 +1108,6 @@
     "translation": "Reakcije ni mogoče shraniti"
   },
   {
-    "id": "ent.data_retention.reactions_batch.internal_error",
-    "translation": "Pri trajnem brisanju paketa reakcij je prišlo do napake"
-  },
-  {
     "id": "app.reaction.delete_all_with_emoji_name.get_reactions.app_error",
     "translation": "Ni mogoče dobiti vseh reakcij s tem imenom čustvenega simbola"
   },

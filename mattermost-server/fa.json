@@ -5460,24 +5460,12 @@
     "translation": "صادرات انطباق برای کار '{{.JobName}}' در '{{.FilePath}}' انجام نشد"
   },
   {
-    "id": "ent.data_retention.channel_member_history_batch.internal_error",
-    "translation": "سوابق پاک نشد."
-  },
-  {
     "id": "ent.data_retention.file_infos_batch.internal_error",
     "translation": "هنگام حذف دائمی مجموعه اطلاعات پرونده ، با خطایی روبرو شد."
   },
   {
-    "id": "ent.data_retention.flags_batch.internal_error",
-    "translation": "هنگام پاک کردن دسته ای از پرچم ها با خطایی روبرو شد."
-  },
-  {
     "id": "ent.data_retention.generic.license.error",
     "translation": "مجوز شما نگهداری داده ها را پشتیبانی نمی کند."
-  },
-  {
-    "id": "ent.data_retention.posts_permanent_delete_batch.internal_error",
-    "translation": "با خطایی در حذف دائمی مجموعه پست ها مواجه شد."
   },
   {
     "id": "ent.data_retention.reactions_batch.internal_error",

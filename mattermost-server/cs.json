@@ -6332,10 +6332,6 @@
     "translation": "Bot účet neexistuje."
   },
   {
-    "id": "ent.data_retention.channel_member_history_batch.internal_error",
-    "translation": "Selhalo pročištění záznamů."
-  },
-  {
     "id": "bleveengine.already_started.error",
     "translation": "Bleve již běží."
   },

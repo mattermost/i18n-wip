@@ -84,10 +84,6 @@
     "translation": "Ei voitu tallentaa reaktiota"
   },
   {
-    "id": "ent.data_retention.reactions_batch.internal_error",
-    "translation": "Kohdattiin virhe poistettaessa pysyvästi reaktiojoukkoa"
-  },
-  {
     "id": "app.reaction.delete_all_with_emoji_name.get_reactions.app_error",
     "translation": "Ei voitu hakea reaktioita joissa tämä emojin nimi"
   },
