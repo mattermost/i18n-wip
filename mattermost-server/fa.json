@@ -5460,16 +5460,8 @@
     "translation": "صادرات انطباق برای کار '{{.JobName}}' در '{{.FilePath}}' انجام نشد"
   },
   {
-    "id": "ent.data_retention.file_infos_batch.internal_error",
-    "translation": "هنگام حذف دائمی مجموعه اطلاعات پرونده ، با خطایی روبرو شد."
-  },
-  {
     "id": "ent.data_retention.generic.license.error",
     "translation": "مجوز شما نگهداری داده ها را پشتیبانی نمی کند."
-  },
-  {
-    "id": "ent.data_retention.reactions_batch.internal_error",
-    "translation": "با خطایی در حذف دائمی مجموعه واکنشها روبرو شد."
   },
   {
     "id": "ent.elasticsearch.aggregator_worker.create_index_job.error",
