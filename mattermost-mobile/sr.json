@@ -65,5 +65,17 @@
   "about.date": "Датум градње:",
   "more_channels.showPublicChannels": "Нови јавни канал",
   "mobile.post_info.pin": "Закачи на канал",
-  "channel_notifications.preference.all_activity": "За све активности"
+  "channel_notifications.preference.all_activity": "За све активности",
+  "apps.error.form.refresh": "Дошло је до грешке приликом прикупљања података из одабраних поља. Контактирајте развојни тим. Детаљи: {details}",
+  "apps.error.form.no_lookup_call": "performLookupCall props.call није дефинисан",
+  "apps.error.form.no_form": "`form` није дефинисана.",
+  "apps.error.form.no_call": "`call` није дефинисан.",
+  "apps.error.command.unknown_user": "Непознат корисник за поље `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_option": "Непозната опција за поље `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_channel": "Непознат канал за поље `{fieldName}`: `{option}`.",
+  "apps.error.command.field_missing": "Недостају тражена поља: `{fieldName}`.",
+  "apps.error": "Грешка: {error}",
+  "api.channel.add_member.added": "(addedUsername) додат на канал од стране {username}.",
+  "announcment_banner.dont_show_again": "Не приказуј поново",
+  "about.title": "O (appTitle)"
 }
