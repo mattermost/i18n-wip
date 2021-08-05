@@ -1025,7 +1025,7 @@
   },
   {
     "id": "api.admin.remove_certificate.delete.app_error",
-    "translation": "Нађена је грешка при брисању сертификата"
+    "translation": "Догодила се грешка при брисању сертификата."
   },
   {
     "id": "api.admin.get_brand_image.storage.app_error",
@@ -1037,7 +1037,7 @@
   },
   {
     "id": "api.admin.delete_brand_image.storage.not_found",
-    "translation": "Не може да се се избрише ЛОГО, Није пронађен."
+    "translation": "Не може да се се избрише слика бренда, Није пронађена."
   },
   {
     "id": "api.admin.add_certificate.saving.app_error",
@@ -1106,5 +1106,25 @@
   {
     "id": "api.command_groupmsg.name",
     "translation": "порука"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+    "translation": "Недостаје тип садржаја."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "Тип садржаја није валидан."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+    "translation": "Текст сертификата није валидан."
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "Активни директоријум није доступан."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Грешка у парсирању вишеформног захтева"
   }
 ]
