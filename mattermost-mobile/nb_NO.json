@@ -16,5 +16,18 @@
   "about.hash": "Бүтээцийн түлхүүр:",
   "about.enterpriseEditionSt": "Харилцаа холбооны орчин үеийн шийдлийг хувийн сервер үүсгэн зохион байгуулаарай.",
   "about.enterpriseEditionLearn": "\"Enterprise\" хувилбарын тухай илүү их мэдээллийг эндээс үзнэ үү.",
-  "about.date": "Бүтээцийн огноо:"
+  "about.date": "Бүтээцийн огноо:",
+  "apps.error.parser.missing_field_value": "Missing binding call.",
+  "apps.error.parser.empty_value": "tome verdier er ikke akseptert",
+  "apps.error.form.no_form": "`skjema` er ikke er definert.",
+  "apps.error.form.no_call": "`spørring` er ikke er definert.",
+  "apps.error.command.unknown_user": "Ukjent bruker for felt `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_option": "ukjent kanal for felt `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_channel": "ukjent kanal for felt `{fieldName}`: `{option}`.",
+  "apps.error.command.field_missing": "Påkrevd område mangler: `{fieldName}`.",
+  "apps.error": "Feil",
+  "api.channel.add_member.added": "{addedUsername} lagt til kanal av {username}.",
+  "announcment_banner.dont_show_again": "Ikke vis igjen",
+  "about.title": "Om",
+  "about.teamEditiont1": "Enterprise Version"
 }
