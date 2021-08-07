@@ -1139,8 +1139,6 @@
   "setting_picture.help.team": "Naložite ikono ekipe v formatu BMP, JPG ali PNG.\nPriporočajo se kvadratne slike s polno barvo ozadja.",
   "setting_picture.remove": "Odstrani ikono",
   "setting_picture.remove_profile_picture": "Odstrani profilno sliko",
-  "setting_upload.noFile": "Ni izbrane datoteke.",
-  "setting_upload.select": "Izberi datoteko",
   "shortcuts.browser.channel_next": "Naprej v zgodovini:\tAlt | desno",
   "shortcuts.browser.channel_next.mac": "Naprej v zgodovini:\t⌘|]",
   "shortcuts.browser.channel_prev": "Nazaj v zgodovini:\tAlt|levo",

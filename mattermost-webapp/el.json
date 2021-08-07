@@ -438,8 +438,6 @@
   "setting_item_min.edit": "Επεξεργασία",
   "setting_picture.cancel": "Ακύρωση",
   "setting_picture.save": "Αποθήκευση",
-  "setting_upload.noFile": "Δεν επιλέχθηκε αρχείο.",
-  "setting_upload.select": "Επιλογή αρχείου",
   "shortcuts.browser.channel_next": "Προώθηση στο ιστορικό: \tAlt|Right",
   "shortcuts.browser.channel_next.mac": "Προώθηση στο ιστορικό\t⌘|]",
   "shortcuts.browser.channel_prev": "Επιστροφή στο ιστορικό:\tAlt|Left",

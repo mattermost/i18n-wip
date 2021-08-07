@@ -440,7 +440,6 @@
   "signup_team_system_console": "Иди на системску конзолу",
   "suggestion.search.direct": "Директне поруке",
   "suggestion.search.private": "Приватни канали",
-  "team_import_tab.importHelpLine1": "Увоз Slack-а у Mattermost подржава само увоз порука унутар јавних канала вашег Slack тима.",
   "team_member_modal.members": "Сви чланови тима",
   "team_members_dropdown.makeTeamMembers": "Сви чланови тима",
   "team_members_dropdown.teamMembers": "Сви чланови тима",
