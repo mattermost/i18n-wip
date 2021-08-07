@@ -4179,7 +4179,6 @@
   "team.button.tooltip.mac": "⌘ ⌥ {أجل}",
   "team.button.unread.ariaLabel": "{} teamName غير مقروء فريق",
   "team_channel_settings.group.group_user_row.numberOfGroups": "{المبلغ، عدد} {المبلغ، الجمع، واحدة {مجموعة} {البعض المجموعات}}",
-  "team_import_tab.importHelpLine2": "لاستيراد فريق من سلاك، انتقل إلى {exportInstructions}. راجع {uploadDocsLink} لمعرفة المزيد.",
   "team_member_modal.invitePeople": "ادعو الناس",
   "team_member_modal.members": "{أعضاء الفريق",
   "team_members_dropdown.confirmDemoteDescription": "إذا كنت تخفيض نفسك من دور مسؤول النظام وليس هناك مستخدم آخر مع امتيازات المسؤول النظام، سوف تحتاج إلى إعادة تعيين واحد مسؤول النظام عن طريق الوصول إلى الخادم Mattermost من خلال محطة وتشغيل الأمر التالي.",
