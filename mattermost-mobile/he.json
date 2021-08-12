@@ -8,5 +8,11 @@
   "announcment_banner.dont_show_again": "אל תציג שוב",
   "about.teamEditiont1": "רשיון מסחרי",
   "about.teamEditiont0": "רשיון קבוצתי",
-  "about.enterpriseEditione1": "רשיון מסחרי"
+  "about.enterpriseEditione1": "רשיון מסחרי",
+  "about.title": "אודות {appTitle}",
+  "about.teamEditionLearn": "הצטרף לקהילת Mattermost ב ",
+  "about.hash": "ה Hash של הבילד:",
+  "about.enterpriseEditionSt": "תקשורת מודרנית מאחורי חומת האש שלך.",
+  "about.enterpriseEditionLearn": "למד עוד אודות הגרסה הארגונית ב ",
+  "about.date": "תאריך בילד:"
 }
