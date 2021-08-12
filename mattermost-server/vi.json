@@ -5260,10 +5260,6 @@
     "translation": "Xin hãy thêm tôi vào các nhóm và kênh mà bạn muốn tôi tương tác trong đó. Để làm điều này, hãy sử dụng trình duyệt hoặc ứng dụng dành cho desktop."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Không thể phân tích form với định dạng multipart"
-  },
-  {
     "id": "api.oauth.get_access_token.internal_user.app_error",
     "translation": "server_error:Gặp phải lỗi máy chủ nội bộ trong khi kéo người dùng từ cơ sở dữ liệu"
   },
@@ -5398,10 +5394,6 @@
   {
     "id": "api.file.upload_file.read_request.app_error",
     "translation": "Không thể upload file. Lỗi đọc hoặc phân tích dữ liệu."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.array.app_error",
-    "translation": "Dữ liệu trong trường 'image' bị trống"
   },
   {
     "id": "api.bot.get_bot_icon_image.read.app_error",

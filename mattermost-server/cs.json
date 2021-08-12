@@ -5224,16 +5224,8 @@
     "translation": "Přidejte mě prosím do týmů a kanálů, ve kterých chcete abych pracoval. Pro tuto akci využijte prohlížeč nebo aplikaci Mattermost Desktop."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Nelze zpracovat vícedílné formuláře."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Žádný soubor pod 'image' v žádosti."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "Nelze nahrát profilový obrázek."
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

@@ -216,10 +216,6 @@
     "translation": "%v tilføjet til kanalen af %v."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Kunne ikke oversætte multipart-form"
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Ingen fil under \"billede\" i anmodningen."
   },

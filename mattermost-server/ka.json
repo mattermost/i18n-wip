@@ -368,16 +368,8 @@
     "translation": "გთხოვ დამამატო გუნდებში და არხებში, რომელშიც გინდა მონაწილეობა მივიღო. ამისთვის გამოიყენე ბრაუზერი ან Mattermost-ის სამაგიდო აპლიკაცია."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "ვერ ხერხდება მრავალნაწილიანი ფორმის პარსინგი."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "არ არის ფაილი 'image'-ის ქვეშ მოთხოვნაში."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "არ ხერხდება ხატულის ატვირთვა."
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

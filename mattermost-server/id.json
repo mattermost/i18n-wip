@@ -2834,16 +2834,8 @@
     "translation": "Tolong tambahkan (add) saya ke tim dan channel yang anda ingin saya interaksi di. Untuk mengatifkan fitur ini, tolong pakai browser atau Mattermost Desktop App."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Tidak dapat menangani bentuk multipart"
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Tidak ada berkas 'gambar' yang diminta"
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "Tidak dapat mengunggah gambar profil"
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

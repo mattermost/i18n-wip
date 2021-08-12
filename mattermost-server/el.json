@@ -1239,10 +1239,6 @@
     "translation": "%v προστέθηκε στο κανάλι από τον/τη %v."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
   },
@@ -2089,10 +2085,6 @@
   {
     "id": "api.bot.teams_channels.add_message_mobile",
     "translation": "Παρακαλώ προσθέστε με σε ομάδες και κανάλια που θέλετε να συμμετέχω. Για να το κάνετε αυτό, χρησιμοποιήστε το πρόγραμμα περιήγησης ή την εφαρμογή του Mattermost Desktop."
-  },
-  {
-    "id": "api.bot.get_bot_icon_image.read.app_error",
-    "translation": "Αδυναμία ανάγνωσης του αρχείου εικόνας εικονιδίου."
   },
   {
     "id": "api.bot.create_disabled",

@@ -5024,16 +5024,8 @@
     "translation": "%v lisättiin kanavalle, lisääjänä %v."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Moniosaista lomaketta ei voitu jäsentää."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Ei tiedostoa pyynnön kohdassa 'image'."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "Ikonikuvan lähetys ei onnistunut."
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

@@ -88,10 +88,6 @@
     "translation": "Nije moguće postaviti sliku. Potrebno je urediti postavke za pohranu."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Ne može se pročitati obrazac s više dijelova"
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Nedostaje datoteka u 'image' zahtjevu"
   },

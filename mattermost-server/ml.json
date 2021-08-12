@@ -268,16 +268,8 @@
     "translation": "ദയാവായി എന്നെ നിങ്ങൾ സംവദിക്കുന്ന ടീമുകളിലും ചാനലുകളിലും ചേർക്കുക. ഇത് ചെയ്യുവാൻ ബ്രൗസർ അല്ലെങ്കിൽ മാറ്റെർമോസ്റ്റ് ഡെസ്ക്ടോപ്പ് ആപ്പ്ളിക്കേഷൻ ഉപയോഗിക്കുക."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "multipart form പരിവർത്തനം ചെയ്യുവാൻ സാധിച്ചില്ല."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "അപേക്ഷയിൽ 'ഇമേജ്'ന്റ്റെ അടിയിൽ ഫയൽ കാണ്മാനില്ല."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "ഐക്കൺ ചിത്രം അപ്‌ലോഡ് ചെയ്യുവാൻ സാധിച്ചില്ല."
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

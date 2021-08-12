@@ -4624,16 +4624,8 @@
     "translation": "Prosim dodajte me ekipam in kanalom, v katerih želite da sodelujem. Če želite to narediti, uporabite brskalnik ali Mattermost Desktop App."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "Ni mogoče prebrati multipart obrazca"
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Ni datoteke v polju 'slika' v zahtevi"
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "Ikone ni bilo mogoče prenesti"
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

@@ -32,10 +32,6 @@
     "translation": "Mesedez gehitu nazazu parte hartzea nahi duzun talde eta kanaletan. Hau egiteko, erabil nabigatzailea edo Mattermost mahaigaineko aplikazioa."
   },
   {
-    "id": "api.bot.set_bot_icon_image.open.app_error",
-    "translation": "Ezin izan da irudi fitxategia ireki."
-  },
-  {
     "id": "api.bot.get_bot_icon_image.read.app_error",
     "translation": "Ezin izan da ikonoaren irudia irakurri."
   },

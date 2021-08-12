@@ -1148,16 +1148,8 @@
     "translation": "يرجى إضافتي إلى الفرق والقنوات التي ترغبون تفاعلي فيها. لإجراء ذلك، استخدم المتصفح أو تطبيق Mattermost لسطح المكتب."
   },
   {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "‪لم نتمكن من قراءة طلب Multipart."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "لا يوجد ملف تحت عنوان \"image\" في الطلب."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "لم نتمكن من حذف الأيقونة"
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

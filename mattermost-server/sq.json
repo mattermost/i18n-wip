@@ -44,10 +44,6 @@
     "translation": "invite_people"
   },
   {
-    "id": "api.bot.set_bot_icon_image.no_file.app_error",
-    "translation": "Asnjë skedar nën 'imazh' të kërkuar"
-  },
-  {
     "id": "api.admin.upload_brand_image.no_file.app_error",
     "translation": "Asnjë skedar nën 'imazh' të kërkuar"
   },
