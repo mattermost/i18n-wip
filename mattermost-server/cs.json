@@ -5224,32 +5224,16 @@
     "translation": "Přidejte mě prosím do týmů a kanálů, ve kterých chcete abych pracoval. Pro tuto akci využijte prohlížeč nebo aplikaci Mattermost Desktop."
   },
   {
-    "id": "api.bot.set_bot_icon_image.too_large.app_error",
-    "translation": "Nepodařilo se nahrát profilový obrázek. Soubor je příliš velký."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.parse.app_error",
     "translation": "Nelze zpracovat vícedílné formuláře."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.open.app_error",
-    "translation": "Nelze otevřít soubor s obrázkem."
   },
   {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Žádný soubor pod 'image' v žádosti."
   },
   {
-    "id": "api.bot.set_bot_icon_image.array.app_error",
-    "translation": "Prázdný array pod \"image\" v žádosti."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.app_error",
     "translation": "Nelze nahrát profilový obrázek."
-  },
-  {
-    "id": "api.bot.get_bot_icon_image.read.app_error",
-    "translation": "Nelze načíst soubor s ikonou."
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

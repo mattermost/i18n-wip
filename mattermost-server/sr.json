@@ -980,10 +980,6 @@
     "translation": "Молим Вас да ме прикључите тиму и каналу у којем желите да учествујем. Да би то урадио, користи броузер или Маттермост десктоп апликацију."
   },
   {
-    "id": "api.bot.set_bot_icon_image.too_large.app_error",
-    "translation": "слика иконе није могла да се учита. Фајл је превелик."
-  },
-  {
     "id": "api.bot.create_disabled",
     "translation": "Bot creation је онемогућено"
   },

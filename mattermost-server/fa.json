@@ -176,32 +176,16 @@
     "translation": "ایجاد ربات غیرفعال شده است."
   },
   {
-    "id": "api.bot.delete_bot_icon_image.app_error",
-    "translation": "تصویر نماد حذف نشد."
-  },
-  {
     "id": "api.bot.get_bot_icon_image.read.app_error",
     "translation": "خواندن فایل تصویر آیکون امکان پذیر نیست."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "تصویر آیکن بارگذاری نشد."
   },
   {
     "id": "api.bot.set_bot_icon_image.array.app_error",
     "translation": "درخواست در زیر آرایه خالی است."
   },
   {
-    "id": "api.bot.set_bot_icon_image.no_file.app_error",
-    "translation": "هیچ پرونده ای تحت 'تصویر' درخواست نمی شود."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.open.app_error",
     "translation": "پرونده تصویر باز نشد."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.parse.app_error",
-    "translation": "فرم چند بخشی تجزیه نمی شود."
   },
   {
     "id": "api.bot.set_bot_icon_image.too_large.app_error",

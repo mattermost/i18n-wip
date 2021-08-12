@@ -1148,32 +1148,16 @@
     "translation": "يرجى إضافتي إلى الفرق والقنوات التي ترغبون تفاعلي فيها. لإجراء ذلك، استخدم المتصفح أو تطبيق Mattermost لسطح المكتب."
   },
   {
-    "id": "api.bot.set_bot_icon_image.too_large.app_error",
-    "translation": "لا يمكن رفع ملف الأيقونة. حجم الملف كبير جداً."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.parse.app_error",
     "translation": "‪لم نتمكن من قراءة طلب Multipart."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.open.app_error",
-    "translation": "غير قادر على فتح ملف الصورة"
   },
   {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "لا يوجد ملف تحت عنوان \"image\" في الطلب."
   },
   {
-    "id": "api.bot.set_bot_icon_image.array.app_error",
-    "translation": "المصفوفة التي تحت 'الصور' في الطلب فارغة"
-  },
-  {
     "id": "api.bot.set_bot_icon_image.app_error",
     "translation": "لم نتمكن من حذف الأيقونة"
-  },
-  {
-    "id": "api.bot.get_bot_icon_image.read.app_error",
-    "translation": "غير قادر على قراءة ملف صورة الأيقونة"
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

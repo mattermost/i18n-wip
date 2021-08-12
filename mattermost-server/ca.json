@@ -4548,32 +4548,16 @@
     "translation": "Si us plau afegeix-me a l'equip i als canals als que vols que interactuí. Per fer això, fes servir el navegador o l'app d'escriptori de Mattermost."
   },
   {
-    "id": "api.bot.set_bot_icon_image.too_large.app_error",
-    "translation": "No s'ha pogut pujar la imatge de perfil. El fitxer és massa gran."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.parse.app_error",
     "translation": "No s'ha pogut parsejar el formulari multipart"
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.open.app_error",
-    "translation": "No s'ha pogut obrir el fitxer d'imatge"
   },
   {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Cap fitxer sota «imatge» a la petició"
   },
   {
-    "id": "api.bot.set_bot_icon_image.array.app_error",
-    "translation": "Matriu buida sota 'image' a la petició"
-  },
-  {
     "id": "api.bot.set_bot_icon_image.app_error",
     "translation": "No s'ha pogut pujar la imatge del perfil"
-  },
-  {
-    "id": "api.bot.get_bot_icon_image.read.app_error",
-    "translation": "No es pot llegir l'arxiu de la icona"
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",

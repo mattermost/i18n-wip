@@ -1239,24 +1239,12 @@
     "translation": "%v προστέθηκε στο κανάλι από τον/τη %v."
   },
   {
-    "id": "api.bot.set_bot_icon_image.too_large.app_error",
-    "translation": "Αδυναμία μεταφόρτωσης του αρχείου. Το μέγεθός του είναι πολύ μεγάλο."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.parse.app_error",
     "translation": "Δεν ήταν δυνατή η ανάλυση της φόρμας πολλαπλών κομματιών."
   },
   {
-    "id": "api.bot.set_bot_icon_image.open.app_error",
-    "translation": "Δεν ήταν δυνατό το άνοιγμα αρχείου πιστοποιητικού."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Δεν υπάρχει αρχείο κάτω από την εικόνα στην αίτηση."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.array.app_error",
-    "translation": "Άδειος πίνακας στην εικόνα την αίτησης."
   },
   {
     "id": "api.admin.upload_brand_image.too_large.app_error",
@@ -2103,16 +2091,8 @@
     "translation": "Παρακαλώ προσθέστε με σε ομάδες και κανάλια που θέλετε να συμμετέχω. Για να το κάνετε αυτό, χρησιμοποιήστε το πρόγραμμα περιήγησης ή την εφαρμογή του Mattermost Desktop."
   },
   {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "Δεν ήταν δυνατή η μεταφόρτωση εικόνας εικονιδίου."
-  },
-  {
     "id": "api.bot.get_bot_icon_image.read.app_error",
     "translation": "Αδυναμία ανάγνωσης του αρχείου εικόνας εικονιδίου."
-  },
-  {
-    "id": "api.bot.delete_bot_icon_image.app_error",
-    "translation": "Δεν ήταν δυνατή η διαγραφή του εικονιδίου."
   },
   {
     "id": "api.bot.create_disabled",

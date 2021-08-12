@@ -5260,16 +5260,8 @@
     "translation": "Xin hãy thêm tôi vào các nhóm và kênh mà bạn muốn tôi tương tác trong đó. Để làm điều này, hãy sử dụng trình duyệt hoặc ứng dụng dành cho desktop."
   },
   {
-    "id": "api.bot.set_bot_icon_image.too_large.app_error",
-    "translation": "Không thể tải tệp tin lên. Tệp tin quá lớn."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.parse.app_error",
     "translation": "Không thể phân tích form với định dạng multipart"
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.open.app_error",
-    "translation": "Không thể mở tập tin hình ảnh"
   },
   {
     "id": "api.oauth.get_access_token.internal_user.app_error",
@@ -5408,24 +5400,12 @@
     "translation": "Không thể upload file. Lỗi đọc hoặc phân tích dữ liệu."
   },
   {
-    "id": "api.bot.set_bot_icon_image.no_file.app_error",
-    "translation": "Không có tệp tin trong trường 'image' của yêu cầu"
-  },
-  {
     "id": "api.bot.set_bot_icon_image.array.app_error",
     "translation": "Dữ liệu trong trường 'image' bị trống"
   },
   {
-    "id": "api.bot.set_bot_icon_image.app_error",
-    "translation": "Không thể tải lên hình ảnh biểu tượng"
-  },
-  {
     "id": "api.bot.get_bot_icon_image.read.app_error",
     "translation": "Không thể đọc tệp tin hình ảnh biểu tượng"
-  },
-  {
-    "id": "api.bot.delete_bot_icon_image.app_error",
-    "translation": "Không thể xoá hình ảnh biểu tượng"
   },
   {
     "id": "api.bot.create_disabled",

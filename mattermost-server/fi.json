@@ -5024,32 +5024,16 @@
     "translation": "%v lisättiin kanavalle, lisääjänä %v."
   },
   {
-    "id": "api.bot.set_bot_icon_image.too_large.app_error",
-    "translation": "Profiilikuvan lataaminen epäonnistui. Tiedosto on liian suuri."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.parse.app_error",
     "translation": "Moniosaista lomaketta ei voitu jäsentää."
-  },
-  {
-    "id": "api.bot.set_bot_icon_image.open.app_error",
-    "translation": "Kuvatiedostoa ei voitu avata."
   },
   {
     "id": "api.bot.set_bot_icon_image.no_file.app_error",
     "translation": "Ei tiedostoa pyynnön kohdassa 'image'."
   },
   {
-    "id": "api.bot.set_bot_icon_image.array.app_error",
-    "translation": "Tyhjä taulukko pyynnön kohdassa 'image'."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.app_error",
     "translation": "Ikonikuvan lähetys ei onnistunut."
-  },
-  {
-    "id": "api.bot.get_bot_icon_image.read.app_error",
-    "translation": "Ikonikuvatiedostoa ei voida lukea."
   },
   {
     "id": "api.bot.delete_bot_icon_image.app_error",
