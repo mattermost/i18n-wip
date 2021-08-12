@@ -2834,10 +2834,6 @@
     "translation": "Tolong tambahkan (add) saya ke tim dan channel yang anda ingin saya interaksi di. Untuk mengatifkan fitur ini, tolong pakai browser atau Mattermost Desktop App."
   },
   {
-    "id": "api.bot.delete_bot_icon_image.app_error",
-    "translation": "Tidak dapat menghapus gambar ikon"
-  },
-  {
     "id": "api.admin.upload_brand_image.too_large.app_error",
     "translation": "Gagal mengunggah berkas. Berkas terlalu besar."
   },

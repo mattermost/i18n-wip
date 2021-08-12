@@ -1148,10 +1148,6 @@
     "translation": "يرجى إضافتي إلى الفرق والقنوات التي ترغبون تفاعلي فيها. لإجراء ذلك، استخدم المتصفح أو تطبيق Mattermost لسطح المكتب."
   },
   {
-    "id": "api.bot.delete_bot_icon_image.app_error",
-    "translation": "غير قادر على حذف ايقونة الصورة"
-  },
-  {
     "id": "api.bot.create_disabled",
     "translation": "تم تعطيل إنشاء البوت."
   },

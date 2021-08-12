@@ -5024,10 +5024,6 @@
     "translation": "%v lisättiin kanavalle, lisääjänä %v."
   },
   {
-    "id": "api.bot.delete_bot_icon_image.app_error",
-    "translation": "Ikonikuvan poistaminen ei onnistunut."
-  },
-  {
     "id": "api.bot.create_disabled",
     "translation": "Botin luonti on poistetty käytöstä."
   },

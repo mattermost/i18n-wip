@@ -176,10 +176,6 @@
     "translation": "ایجاد ربات غیرفعال شده است."
   },
   {
-    "id": "api.bot.set_bot_icon_image.too_large.app_error",
-    "translation": "بارگذاری تصویر نماد امکان پذیر نیست. پرونده خیلی بزرگ است."
-  },
-  {
     "id": "api.bot.teams_channels.add_message_mobile",
     "translation": "لطفاً مرا به تیم ها و کانال هایی اضافه کنید که می خواهید در آنها تعامل داشته باشم. برای این کار از مرورگر یا نرم افزار دستکاپ Mattermost استفاده کنید."
   },

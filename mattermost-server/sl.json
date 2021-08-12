@@ -4624,10 +4624,6 @@
     "translation": "Prosim dodajte me ekipam in kanalom, v katerih želite da sodelujem. Če želite to narediti, uporabite brskalnik ali Mattermost Desktop App."
   },
   {
-    "id": "api.bot.delete_bot_icon_image.app_error",
-    "translation": "Ikone ni bilo mogoče izbrisati"
-  },
-  {
     "id": "api.bot.create_disabled",
     "translation": "Kreiranje robotka je bilo onemogočeno."
   },
