@@ -364,10 +364,6 @@
     "translation": "ቻናል አባል መጨመር ላይ ስህተት ተክስቷል."
   },
   {
-    "id": "api.bot.get_bot_icon_image.read.app_error",
-    "translation": "አይከን ምስሉን ማንበብ አልተቻለም."
-  },
-  {
     "id": "api.admin.upload_brand_image.too_large.app_error",
     "translation": "ፋይሉ ትልቅ ስለሆነ መጫን አልተቻለም."
   },

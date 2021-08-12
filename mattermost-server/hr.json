@@ -88,10 +88,6 @@
     "translation": "Nije moguće postaviti sliku. Potrebno je urediti postavke za pohranu."
   },
   {
-    "id": "api.bot.set_bot_icon_image.no_file.app_error",
-    "translation": "Nedostaje datoteka u 'image' zahtjevu"
-  },
-  {
     "id": "api.admin.upload_brand_image.too_large.app_error",
     "translation": "Nije moguće postaviti datoteku. Datoteka je prevelika."
   },

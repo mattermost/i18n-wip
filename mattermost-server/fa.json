@@ -176,10 +176,6 @@
     "translation": "ایجاد ربات غیرفعال شده است."
   },
   {
-    "id": "api.bot.set_bot_icon_image.array.app_error",
-    "translation": "درخواست در زیر آرایه خالی است."
-  },
-  {
     "id": "api.bot.set_bot_icon_image.too_large.app_error",
     "translation": "بارگذاری تصویر نماد امکان پذیر نیست. پرونده خیلی بزرگ است."
   },

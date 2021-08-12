@@ -5396,10 +5396,6 @@
     "translation": "Không thể upload file. Lỗi đọc hoặc phân tích dữ liệu."
   },
   {
-    "id": "api.bot.get_bot_icon_image.read.app_error",
-    "translation": "Không thể đọc tệp tin hình ảnh biểu tượng"
-  },
-  {
     "id": "api.bot.create_disabled",
     "translation": "Tạo bot đã bị vô hiệu hóa."
   },

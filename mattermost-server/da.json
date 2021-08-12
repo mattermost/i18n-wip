@@ -216,10 +216,6 @@
     "translation": "%v tilføjet til kanalen af %v."
   },
   {
-    "id": "api.bot.set_bot_icon_image.no_file.app_error",
-    "translation": "Ingen fil under \"billede\" i anmodningen."
-  },
-  {
     "id": "api.admin.upload_brand_image.too_large.app_error",
     "translation": "Kan ikke uploade fil. Filen er for stor."
   },
