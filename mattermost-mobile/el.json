@@ -652,7 +652,6 @@
   "apps.error.parser.no_slash_start": "Η εντολή πρέπει να ξεκινά με \"/\".",
   "apps.error.parser.no_match": "`{command}`: Δε βρέθηκε αντίστοιχη εντολή σε αυτόν τον χώρο εργασίας.",
   "apps.error.parser.no_bindings": "Χωρίς εντολές δεσμεύσεων.",
-  "apps.error.parser.missing_binding": "Λείπουν οι εντολές δεσμεύσεων.",
   "apps.error.parser": "Σφάλμα συντακτικής ανάλυσης: {error}",
   "apps.error.parser.no_argument_pos_x": "Δεν είναι δυνατή η αναγνώριση του ορίσματος.",
   "apps.error.parser.missing_tick": "Αναμένεται ειδικός χαρακτήρας \"`\" πριν από το τέλος του πεδίου εισαγωγής.",
