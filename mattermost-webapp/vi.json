@@ -4414,8 +4414,6 @@
   "view_image.zoom_out": "Thu nhỏ",
   "view_image.zoom_reset": "Đặt lại Thu phóng",
   "view_image_popover.download": "Tải xuống",
-  "view_image_popover.file": "Tệp {count, number} trong tổng số {total, number}",
-  "view_image_popover.open": "Mở",
   "view_image_popover.publicLink": "Nhận liên kết công khai",
   "warn_metric_ack_modal.contact_support": "Công Nhận",
   "warn_metric_ack_modal.learn_more.link": "Tìm hiểu thêm",

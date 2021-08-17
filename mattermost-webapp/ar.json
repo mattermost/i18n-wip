@@ -4660,8 +4660,6 @@
   "view_image.zoom_out": "تصغير",
   "view_image.zoom_reset": "إعادة تكبير",
   "view_image_popover.download": "تحميل",
-  "view_image_popover.file": "ملف {العد، عدد} من {المجموع، عدد}",
-  "view_image_popover.open": "فتح",
   "view_image_popover.publicLink": "الحصول على وصلة العام",
   "warn_metric_ack_modal.contact_support": "الإقرار",
   "warn_metric_ack_modal.learn_more.link": "يتعلم أكثر",

@@ -2545,8 +2545,6 @@
   "view_image.zoom_out": "Oddálit",
   "view_image.zoom_reset": "Resetovat lupu",
   "view_image_popover.download": "Stáhnout",
-  "view_image_popover.file": "Soubor {count, number} z {total, number}",
-  "view_image_popover.open": "Otevřít",
   "view_image_popover.publicLink": "Získat veřejný odkaz",
   "warn_metric_ack_modal.contact_support": "Vzít na vědomí",
   "warn_metric_ack_modal.learn_more.link": "Zjistit více",

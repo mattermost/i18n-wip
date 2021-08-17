@@ -1798,8 +1798,6 @@
   "version_bar.refresh": "Päivitä sovellus nyt",
   "view_image.loading": "Ladataan ",
   "view_image_popover.download": "Lataa",
-  "view_image_popover.file": "Tiedosto {count, number}/{total, number}",
-  "view_image_popover.open": "Avaa",
   "view_image_popover.publicLink": "Hanki julkinen linkki",
   "web.footer.help": "Ohje",
   "web.footer.privacy": "Yksityisyys",
