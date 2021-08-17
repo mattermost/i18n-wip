@@ -368,10 +368,6 @@
     "translation": "Nevalidní položky."
   },
   {
-    "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "Neplatné ID nadřazeného prvku."
-  },
-  {
     "id": "model.post.is_valid.original_id.app_error",
     "translation": "Neplatné původní ID."
   },
@@ -2184,10 +2180,6 @@
     "translation": "Neplatné ID roota."
   },
   {
-    "id": "model.command_hook.parent_id.app_error",
-    "translation": "Neplatné ID nadřazeného prvku."
-  },
-  {
     "id": "model.command_hook.id.app_error",
     "translation": "Neplatný command hook ID."
   },
@@ -3554,10 +3546,6 @@
   {
     "id": "api.post.create_post.root_id.app_error",
     "translation": "Neplatný parametr RootId."
-  },
-  {
-    "id": "api.post.create_post.parent_id.app_error",
-    "translation": "Neplatný parametr ParentId."
   },
   {
     "id": "api.post.create_post.channel_root_id.app_error",
@@ -5172,10 +5160,6 @@
     "translation": "K vytvoření přímého kanálu zpráv musí být použita API služba createDirectChannel."
   },
   {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "Kanál, který se chystáte převést, je již soukromý."
-  },
-  {
     "id": "api.channel.convert_channel_to_private.default_channel_error",
     "translation": "Výchozí kanál nemůže být převeden na soukromý."
   },
@@ -6158,10 +6142,6 @@
   {
     "id": "model.post.channel_notifications_disabled_in_channel.message",
     "translation": "Notifikace jsou zakázány pro kanál {{.ChannelName}}. Zmínka {{.Mention}} nezpůsobila žádnou notifikaci."
-  },
-  {
-    "id": "model.post.is_valid.root_parent.app_error",
-    "translation": "Nevalidní root ID musí být použito pokued parent ID je nastaveno."
   },
   {
     "id": "model.search_params_list.is_valid.include_deleted_channels.app_error",

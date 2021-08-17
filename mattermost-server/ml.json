@@ -216,10 +216,6 @@
     "translation": "ഡയറക്റ്റ് മെസ്സേജ് ചാനൽ സൃഷ്ടിക്കുവാൻ createDirectChannel API സർവ്വീസ് നിർബന്ധമായി ഉപയോഗിക്കുക."
   },
   {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "താങ്കൾ സ്വകാര്യ ചാനൽ ആക്കുവാൻ ശ്രമിക്കുന്ന ചാനൽ തത്സമയം സ്വകാര്യ ചാനൽ തന്നെ ആണ്."
-  },
-  {
     "id": "api.channel.convert_channel_to_private.default_channel_error",
     "translation": "ഈ ഡീഫോൾട് ചാനൽ ഒരു സ്വകാര്യ ചാനൽ ആക്കുവാൻ സാധ്യമല്ല."
   },

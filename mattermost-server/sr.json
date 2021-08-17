@@ -940,10 +940,6 @@
     "translation": "Ван теме"
   },
   {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "Канал за који је тражена промена је већ приватни канал."
-  },
-  {
     "id": "api.channel.convert_channel_to_private.default_channel_error",
     "translation": "Подразумевани канал не може бити промењен у приватни канал."
   },

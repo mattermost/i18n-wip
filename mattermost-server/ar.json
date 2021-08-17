@@ -108,10 +108,6 @@
     "translation": "حالة غير صحيحة"
   },
   {
-    "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "حالة غير صحيحة"
-  },
-  {
     "id": "model.post.is_valid.msg.app_error",
     "translation": "حالة غير صحيحة"
   },
@@ -205,10 +201,6 @@
   },
   {
     "id": "model.command_hook.root_id.app_error",
-    "translation": "حالة غير صحيحة"
-  },
-  {
-    "id": "model.command_hook.parent_id.app_error",
     "translation": "حالة غير صحيحة"
   },
   {
@@ -1098,10 +1090,6 @@
   {
     "id": "api.channel.create_channel.direct_channel.app_error",
     "translation": "لابد من استخدام خدمة واجهة المستخدم البرمجية createDirectChannel لإنشاء قناة الرسائل المباشرة"
-  },
-  {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "القناة المراد تحويلها هي بالأصل قناة خاصة."
   },
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",

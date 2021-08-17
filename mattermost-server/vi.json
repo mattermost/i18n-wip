@@ -288,10 +288,6 @@
     "translation": "Id gốc không hợp lệ"
   },
   {
-    "id": "model.command_hook.parent_id.app_error",
-    "translation": "Parent ID không hợp lệ"
-  },
-  {
     "id": "model.command_hook.id.app_error",
     "translation": "Id lệnh hook không hợp lệ"
   },
@@ -1468,20 +1464,12 @@
     "translation": "Type không hợp lệ"
   },
   {
-    "id": "model.post.is_valid.root_parent.app_error",
-    "translation": "Root ID không hợp lệ phải được đặt nếu parent ID được đặt"
-  },
-  {
     "id": "model.post.is_valid.root_id.app_error",
     "translation": "Id gốc không hợp lệ"
   },
   {
     "id": "model.post.is_valid.props.app_error",
     "translation": "Props không hợp lệ"
-  },
-  {
-    "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "Parent ID không hợp lệ"
   },
   {
     "id": "model.post.is_valid.original_id.app_error",
@@ -4008,10 +3996,6 @@
     "translation": "Tham số RootId không hợp lệ"
   },
   {
-    "id": "api.post.create_post.parent_id.app_error",
-    "translation": "Tham số ParentId không hợp lệ"
-  },
-  {
     "id": "api.post.create_post.channel_root_id.app_error",
     "translation": "ChannelId không hợp lệ cho tham số RootId"
   },
@@ -5206,10 +5190,6 @@
   {
     "id": "api.channel.create_channel.direct_channel.app_error",
     "translation": "Yêu cầu sử dụng dịch vụ createDirectChannel API cho tạo quá trình kênh giao tiếp trực tiếp"
-  },
-  {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "Kênh yêu cầu chuyển đổi đã là kênh riêng tư."
   },
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",

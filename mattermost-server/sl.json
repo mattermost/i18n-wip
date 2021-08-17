@@ -412,10 +412,6 @@
     "translation": "Neveljavni rekviziti"
   },
   {
-    "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "Neveljaven ID odjemalca"
-  },
-  {
     "id": "model.post.is_valid.original_id.app_error",
     "translation": "Neveljaven original ID"
   },
@@ -2164,10 +2160,6 @@
     "translation": "Neveljaven root ID"
   },
   {
-    "id": "model.command_hook.parent_id.app_error",
-    "translation": "Neveljaven ID odjemalca"
-  },
-  {
     "id": "model.command_hook.id.app_error",
     "translation": "Neveljaven ID ukaza"
   },
@@ -3048,10 +3040,6 @@
   {
     "id": "api.post.create_post.root_id.app_error",
     "translation": "Neveljaven RootId parameter"
-  },
-  {
-    "id": "api.post.create_post.parent_id.app_error",
-    "translation": "Neveljaven ParentId parameter"
   },
   {
     "id": "api.post.create_post.channel_root_id.app_error",
@@ -4578,10 +4566,6 @@
   {
     "id": "api.channel.create_channel.direct_channel.app_error",
     "translation": "Uporabiti morate createDirectChannel API servis za ustvarjanje neposrednih kanalov"
-  },
-  {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "Kanal za pretvorbo v privatnega je že privaten."
   },
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",

@@ -1203,10 +1203,6 @@
     "translation": "Πρέπει να χρησιμοποιήσετε την υπηρεσία API createDirectChannel για την άμεση δημιουργία καναλιών."
   },
   {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "Το κανάλι είναι ήδη ιδιωτικό."
-  },
-  {
     "id": "api.channel.convert_channel_to_private.default_channel_error",
     "translation": "Το προεπιλεγμένο κανάλι δεν μπορεί να μετατραπεί σε ιδιωτικό."
   },
@@ -2863,10 +2859,6 @@
   {
     "id": "api.post.create_post.root_id.app_error",
     "translation": "Μη έγκυρη παράμετρος RootId."
-  },
-  {
-    "id": "api.post.create_post.parent_id.app_error",
-    "translation": "Μη έγκυρη παράμετρος ParentId."
   },
   {
     "id": "api.post.create_post.channel_root_id.app_error",

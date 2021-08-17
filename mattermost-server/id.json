@@ -548,10 +548,6 @@
     "translation": "ID root tidak valid"
   },
   {
-    "id": "model.command_hook.parent_id.app_error",
-    "translation": "ID induk tidak valid"
-  },
-  {
     "id": "model.command_hook.create_at.app_error",
     "translation": "Pembuatan harus saat waktu yang valid"
   },
@@ -1460,20 +1456,12 @@
     "translation": "Tipe tidak valid"
   },
   {
-    "id": "model.post.is_valid.root_parent.app_error",
-    "translation": "ID root tidak valid. Harus diatur jika ID induk diatur"
-  },
-  {
     "id": "model.post.is_valid.root_id.app_error",
     "translation": "ID root tidak valid"
   },
   {
     "id": "model.post.is_valid.props.app_error",
     "translation": "Prop tidak valid"
-  },
-  {
-    "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "ID induk tidak valid"
   },
   {
     "id": "model.post.is_valid.original_id.app_error",
@@ -1614,10 +1602,6 @@
   {
     "id": "api.post.create_post.root_id.app_error",
     "translation": "Parameter RootId tidak valid"
-  },
-  {
-    "id": "api.post.create_post.parent_id.app_error",
-    "translation": "Parameter ParentId tidak valid"
   },
   {
     "id": "api.plugin.add_public_key.open.app_error",
@@ -2784,10 +2768,6 @@
   {
     "id": "api.channel.create_channel.direct_channel.app_error",
     "translation": "Harus menggunakan layanan api createDirectChannel untuk pembuatan kanal pesan langsung"
-  },
-  {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "Kanal yang diajukan untuk diubah ini sudah menjadi kanal pribadi."
   },
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",

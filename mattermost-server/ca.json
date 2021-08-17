@@ -200,10 +200,6 @@
     "translation": "Props no vàlid"
   },
   {
-    "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "ID principal no vàlid"
-  },
-  {
     "id": "model.post.is_valid.msg.app_error",
     "translation": "Estat no vàlid"
   },
@@ -2052,10 +2048,6 @@
     "translation": "ID d'arrel no vàlid"
   },
   {
-    "id": "model.command_hook.parent_id.app_error",
-    "translation": "ID principal no vàlid"
-  },
-  {
     "id": "model.command_hook.id.app_error",
     "translation": "Ordre amb «hook id» no vàlid"
   },
@@ -2876,10 +2868,6 @@
   {
     "id": "api.post.create_post.root_id.app_error",
     "translation": "Paràmetre «RootId» no vàlid"
-  },
-  {
-    "id": "api.post.create_post.parent_id.app_error",
-    "translation": "Paràmetre «ParentId» no vàlid"
   },
   {
     "id": "api.post.create_post.channel_root_id.app_error",
@@ -4494,10 +4482,6 @@
   {
     "id": "api.channel.create_channel.direct_channel.app_error",
     "translation": "S'ha de fer servir el servei de l'API createDirectChannel per crear un canal de missatges privats"
-  },
-  {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "El canal que intentes convertir ja és un canal privat."
   },
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",

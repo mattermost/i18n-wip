@@ -220,10 +220,6 @@
     "translation": "مجوز شما از گروه ها پشتیبانی نمی کند"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "این کانال پیش فرض را نمی توان به یک کانال خصوصی تبدیل کرد."
-  },
-  {
     "id": "api.channel.convert_channel_to_private.private_channel_error",
     "translation": "کانال درخواستی برای تبدیل از قبل یک کانال خصوصی است."
   },
@@ -1600,10 +1596,6 @@
   {
     "id": "api.post.create_post.channel_root_id.app_error",
     "translation": "ChannelId معتبر برای پارامتر RootId."
-  },
-  {
-    "id": "api.post.create_post.parent_id.app_error",
-    "translation": "پارامتر ParentId نامعتبر است."
   },
   {
     "id": "api.post.create_post.root_id.app_error",
@@ -6260,10 +6252,6 @@
     "translation": "شناسه قلاب دستور نامعتبر است."
   },
   {
-    "id": "model.command_hook.parent_id.app_error",
-    "translation": "شناسه والدین نامعتبر است."
-  },
-  {
     "id": "model.command_hook.root_id.app_error",
     "translation": "شناسه ریشه نامعتبر است."
   },
@@ -7024,20 +7012,12 @@
     "translation": "شناسه اصلی نامعتبر است."
   },
   {
-    "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "شناسه والدین نامعتبر است."
-  },
-  {
     "id": "model.post.is_valid.props.app_error",
     "translation": "لوازم جانبی نامعتبر است."
   },
   {
     "id": "model.post.is_valid.root_id.app_error",
     "translation": "شناسه ریشه نامعتبر است."
-  },
-  {
-    "id": "model.post.is_valid.root_parent.app_error",
-    "translation": "اگر شناسه والدین تنظیم شده باشد باید شناسه ریشه نامعتبر تنظیم شود."
   },
   {
     "id": "model.post.is_valid.type.app_error",

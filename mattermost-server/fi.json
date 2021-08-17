@@ -412,10 +412,6 @@
     "translation": "Virheellinen juuren ID"
   },
   {
-    "id": "model.command_hook.parent_id.app_error",
-    "translation": "Virheellinen parent-ID"
-  },
-  {
     "id": "model.command_hook.id.app_error",
     "translation": "Virheellinen komennon hook-ID"
   },
@@ -1572,20 +1568,12 @@
     "translation": "Virheellinen type"
   },
   {
-    "id": "model.post.is_valid.root_parent.app_error",
-    "translation": "Virheellinen juuren ID on asetettava jos parent ID on asetettu"
-  },
-  {
     "id": "model.post.is_valid.root_id.app_error",
     "translation": "Virheellinen juuren ID"
   },
   {
     "id": "model.post.is_valid.props.app_error",
     "translation": "Virheellinen props"
-  },
-  {
-    "id": "model.post.is_valid.parent_id.app_error",
-    "translation": "Virheellinen parent-ID"
   },
   {
     "id": "model.post.is_valid.original_id.app_error",
@@ -3530,10 +3518,6 @@
     "translation": "Virheellinen RootId-parametri"
   },
   {
-    "id": "api.post.create_post.parent_id.app_error",
-    "translation": "Virheellinen ParentId-parametri"
-  },
-  {
     "id": "api.post.create_post.channel_root_id.app_error",
     "translation": "Virheellinen ChannelId RootId-parametrille"
   },
@@ -4978,10 +4962,6 @@
   {
     "id": "api.channel.create_channel.direct_channel.app_error",
     "translation": "Käytettävä createDirectChannel API-palvelua suoraviestikanavan luontiin."
-  },
-  {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "Kanava jota yritit muuttaa on jo yksityinen."
   },
   {
     "id": "api.channel.convert_channel_to_private.default_channel_error",

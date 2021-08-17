@@ -168,10 +168,6 @@
     "translation": "Apirila"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Kanal lehenetsi hau ezin da pribatu bilakatu."
-  },
-  {
     "id": "api.channel.channel_member_counts_by_group.license.error",
     "translation": "Zure lizentziak ez du talderik onartzen"
   }

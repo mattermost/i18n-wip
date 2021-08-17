@@ -184,10 +184,6 @@
     "translation": "Kan ikke tilføje bruger til denne type kanal"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Standardkanal ikke kan konverteres til en privat kanal."
-  },
-  {
     "id": "api.channel.change_channel_privacy.public_to_private",
     "translation": "Denne kanal er blevet omdannet til et Privat Kanal. "
   },

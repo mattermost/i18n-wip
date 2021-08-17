@@ -340,10 +340,6 @@
     "translation": "ከርዕስ ውጭ"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "ይህ ነባሪ(default) ቻናል ወደ ግል ቻናል ሊቀየር አይችልም."
-  },
-  {
     "id": "api.channel.change_channel_privacy.public_to_private",
     "translation": "ይህ ቻናል ወደ ግላዊ ቻናል ተቀይሯል."
   },

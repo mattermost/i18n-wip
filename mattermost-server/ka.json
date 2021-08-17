@@ -316,10 +316,6 @@
     "translation": "უნდა გამოიყენოთ createDirectChannel API სერვისი პირდაპირი შეტყობინებების არხის შექმნისთვის."
   },
   {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "არხი რომლის გადაკეთებაც მოითხოვეთ ისედაც პრივატული არხია."
-  },
-  {
     "id": "api.channel.convert_channel_to_private.default_channel_error",
     "translation": "ნაგულისხმევი არხი ვერ გადაკეთდება პრივატულ არხად."
   },
