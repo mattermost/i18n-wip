@@ -5192,10 +5192,6 @@
     "translation": "Yêu cầu sử dụng dịch vụ createDirectChannel API cho tạo quá trình kênh giao tiếp trực tiếp"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Kênh mặc định này không thể chuyển sang kênh riêng tư."
-  },
-  {
     "id": "api.channel.channel_member_counts_by_group.license.error",
     "translation": "Giấy phép của bạn không hỗ trợ nhóm ldap"
   },

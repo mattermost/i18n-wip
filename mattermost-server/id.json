@@ -2770,10 +2770,6 @@
     "translation": "Harus menggunakan layanan api createDirectChannel untuk pembuatan kanal pesan langsung"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Kanal default ini tidak dapat diubah menjadi kanal pribadi."
-  },
-  {
     "id": "api.channel.change_channel_privacy.public_to_private",
     "translation": "Kanal ini telah diubah menjadi Kanal Pribadi."
   },

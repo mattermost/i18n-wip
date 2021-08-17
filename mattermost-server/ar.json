@@ -1092,10 +1092,6 @@
     "translation": "لابد من استخدام خدمة واجهة المستخدم البرمجية createDirectChannel لإنشاء قناة الرسائل المباشرة"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "لا يمكن تحويل هذه القناة الإفتراضية إلى قناة خاصة."
-  },
-  {
     "id": "api.channel.change_channel_privacy.public_to_private",
     "translation": "تم تحويل هذه القناة إلى قناة خاصة."
   },

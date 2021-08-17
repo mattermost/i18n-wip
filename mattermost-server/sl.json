@@ -4568,10 +4568,6 @@
     "translation": "Uporabiti morate createDirectChannel API servis za ustvarjanje neposrednih kanalov"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Privzeti kanal se ne more spremeniti v privatni kanal."
-  },
-  {
     "id": "api.channel.channel_member_counts_by_group.license.error",
     "translation": "vaša licenca ne podpira skupin ldap"
   },

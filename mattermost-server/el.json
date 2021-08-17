@@ -1203,10 +1203,6 @@
     "translation": "Πρέπει να χρησιμοποιήσετε την υπηρεσία API createDirectChannel για την άμεση δημιουργία καναλιών."
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Το προεπιλεγμένο κανάλι δεν μπορεί να μετατραπεί σε ιδιωτικό."
-  },
-  {
     "id": "api.channel.change_channel_privacy.public_to_private",
     "translation": "Αυτό το κανάλι έχει γίνει ιδιωτικό."
   },

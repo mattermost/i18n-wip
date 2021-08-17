@@ -5160,10 +5160,6 @@
     "translation": "K vytvoření přímého kanálu zpráv musí být použita API služba createDirectChannel."
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Výchozí kanál nemůže být převeden na soukromý."
-  },
-  {
     "id": "api.channel.channel_member_counts_by_group.license.error",
     "translation": "Vaše licence nepodporuje skupiny"
   },

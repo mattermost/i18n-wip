@@ -4484,10 +4484,6 @@
     "translation": "S'ha de fer servir el servei de l'API createDirectChannel per crear un canal de missatges privats"
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Aquest canal per defecte no es pot convertir en un canal privat."
-  },
-  {
     "id": "api.channel.channel_member_counts_by_group.license.error",
     "translation": "La teva llicència no suporta: Idap groups"
   },

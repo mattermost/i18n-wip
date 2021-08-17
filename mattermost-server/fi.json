@@ -4964,10 +4964,6 @@
     "translation": "Käytettävä createDirectChannel API-palvelua suoraviestikanavan luontiin."
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "Tätä oletuskanavaa ei voida muuttaa yksityiseksi."
-  },
-  {
     "id": "api.channel.channel_member_counts_by_group.license.error",
     "translation": "lisenssisi ei tue ldap-ryhmiä"
   },

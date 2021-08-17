@@ -216,10 +216,6 @@
     "translation": "ഡയറക്റ്റ് മെസ്സേജ് ചാനൽ സൃഷ്ടിക്കുവാൻ createDirectChannel API സർവ്വീസ് നിർബന്ധമായി ഉപയോഗിക്കുക."
   },
   {
-    "id": "api.channel.convert_channel_to_private.default_channel_error",
-    "translation": "ഈ ഡീഫോൾട് ചാനൽ ഒരു സ്വകാര്യ ചാനൽ ആക്കുവാൻ സാധ്യമല്ല."
-  },
-  {
     "id": "api.channel.channel_member_counts_by_group.license.error",
     "translation": "നിങ്ങളുടെ ലൈസൻസിന് ഗ്രൂപ്പുകൾ അനുവദിച്ചിട്ടില്ല"
   },

@@ -220,10 +220,6 @@
     "translation": "مجوز شما از گروه ها پشتیبانی نمی کند"
   },
   {
-    "id": "api.channel.convert_channel_to_private.private_channel_error",
-    "translation": "کانال درخواستی برای تبدیل از قبل یک کانال خصوصی است."
-  },
-  {
     "id": "api.channel.create_channel.direct_channel.app_error",
     "translation": "باید از ایجاد API کانال مستقیم برای ایجاد کانال پیام مستقیم استفاده کنید."
   },
