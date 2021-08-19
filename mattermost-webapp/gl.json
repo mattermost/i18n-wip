@@ -720,7 +720,6 @@
   "admin.experimental.enableUserDeactivation.title": "Activar a desactivación da conta:",
   "admin.experimental.enableUserTypingMessages.desc": "Este axuste determina se as mensaxes como «o usuario está a escribir…» se amosan baixo a caixa de mensaxes. Se desactiva o axuste en implementacións máis grandes pode mellorar o rendemento do servidor.",
   "admin.experimental.enableUserTypingMessages.title": "Activar as mensaxes de escritura do usuario:",
-  "admin.experimental.experimentalChannelOrganization.title": "Agrupación e ordenación de canles",
   "admin.experimental.experimentalEnableAuthenticationTransfer.desc": "Cando é verdadeiro, os usuarios poden cambiar o seu método de inicio de sesión por calquera que estea habilitado no servidor, ben a través dos Axustes da conta ou das API. Cando é falso, os usuarios non poden cambiar o seu método de inicio de sesión, independentemente de que opcións de autenticación estean habilitadas.",
   "admin.experimental.experimentalEnableAuthenticationTransfer.title": "Permitir a transferencia da autenticación:",
   "admin.experimental.experimentalEnableAutomaticReplies.desc": "Cando é verdadeiro, os usuarios poden activar as respostas automáticas en **Axustes da conta > Notificacións**. Os usuarios configuran unha mensaxe personalizada que se enviará automaticamente en resposta ás mensaxes directas. Cando é falso, desactiva a funcionalidade «Respostas automáticas a mensaxes directa» e agóchaa nos Axustes da conta.",

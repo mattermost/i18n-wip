@@ -1159,7 +1159,6 @@
   "shortcuts.msgs.edit": "Uredi zadnje sporočilo v kanalu:\tUp",
   "shortcuts.msgs.header": "Sporočila",
   "shortcuts.msgs.input.header": "Deluje znotraj praznega vnosnega polja",
-  "sidebar.leave": "Zapusti kanal",
   "sidebar_left.add_channel_dropdown.createNewChannel": "Ustvari nov kanal",
   "sidebar_left.sidebar_channel_menu.addMembers": "Dodaj člane",
   "sidebar_left.sidebar_channel_menu.copyLink": "Kopiraj povezavo",
