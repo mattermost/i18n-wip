@@ -335,7 +335,6 @@
   "admin.experimental.clientSideCertCheck.title": "Client-Side Certificering Login-Metode:",
   "admin.experimental.clientSideCertEnable.desc": "Gør det muligt for client-side certificering til din Mattermost server. Se [dokumentation](!https://docs.mattermost.com/deployment/certificate-based-authentication.html) for at lære mere.",
   "admin.experimental.clientSideCertEnable.title": "Aktiver Client-Side Certificering:",
-  "admin.experimental.closeUnusedDirectMessages.title": "Luk automatisk Direkte Beskeder i Sidebar:",
   "admin.experimental.defaultTheme.desc": "Sæt et standardtema, der gælder for alle nye brugere på systemet.",
   "admin.experimental.defaultTheme.title": "Standardtema:",
   "admin.experimental.emailBatchingBufferSize.desc": "Angiver det maksimale antal meddelelser, der kan være i en enkelt e-mail.",
