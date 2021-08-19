@@ -1160,10 +1160,6 @@
     "translation": "Uporabnikov ni mogoče dobiti."
   },
   {
-    "id": "cli.license.critical",
-    "translation": "Funkcija zahteva nadgradnjo na Enterprise Edition in vključitev licenčnega ključa. Obrnite se na skrbnika sistema."
-  },
-  {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "Slikovne datoteke ni mogoče zapisati v shrambo datotek. Preverite povezavo in poskusite znova."
   },
@@ -3060,10 +3056,6 @@
   {
     "id": "api.plugin.upload.array.app_error",
     "translation": "Datotečni niz je prazen v večnivojski/formi zahtevi"
-  },
-  {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "Pri brisanju certifikata je prišlo do napake."
   },
   {
     "id": "api.outgoing_webhook.disabled.app_error",

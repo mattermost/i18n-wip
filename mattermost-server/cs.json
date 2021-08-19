@@ -972,10 +972,6 @@
     "translation": "Nepodařilo se získat uživatele."
   },
   {
-    "id": "cli.outgoing_webhook.inconsistent_state.app_error",
-    "translation": "Odchozí webový háček byl smazán, ale nový se nepodařilo vytvořit kvůli chybě."
-  },
-  {
     "id": "cli.license.critical",
     "translation": "Funkcionalita vyžaduje Enterprise Edition a zadání licenčního klíče. Prosím kontaktujte svého administrátora."
   },
@@ -3790,10 +3786,6 @@
   {
     "id": "app.import.validate_channel_import_data.display_name_missing.error",
     "translation": "Chybějící požadovaná vlastnost kanálu: display_name"
-  },
-  {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "Došlo k chybě při otevírání souboru s veřejným klíčem."
   },
   {
     "id": "api.outgoing_webhook.disabled.app_error",

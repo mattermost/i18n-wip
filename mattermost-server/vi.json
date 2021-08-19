@@ -3144,10 +3144,6 @@
     "translation": "Không thể nhận thông tin người dùng."
   },
   {
-    "id": "cli.license.critical",
-    "translation": "Tính năng yêu cầu nâng cấp lên Phiên bản doanh nghiệp và bao gồm khóa cấp phép. Xin vui lòng liên hệ với quản trị hệ thống của bạn."
-  },
-  {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "Không thể ghi tệp hình ảnh vào bộ lưu trữ tệp của bạn. Vui lòng kiểm tra kết nối của bạn và thử lại."
   },
@@ -4038,10 +4034,6 @@
   {
     "id": "api.plugin.install.download_failed.app_error",
     "translation": "Đã xảy ra lỗi trong khi tải xuống plugin."
-  },
-  {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "Một lỗi đã xảy ra trong quá trình xóa chứng chỉ."
   },
   {
     "id": "api.outgoing_webhook.disabled.app_error",

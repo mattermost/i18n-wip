@@ -1604,10 +1604,6 @@
     "translation": "Parameter RootId tidak valid"
   },
   {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "Terjadi kesalahan saat meninggalkan kanal"
-  },
-  {
     "id": "api.outgoing_webhook.disabled.app_error",
     "translation": "Webhooks keluar telah dinonaktfikan oleh admin sistem."
   },

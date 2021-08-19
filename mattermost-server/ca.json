@@ -728,10 +728,6 @@
     "translation": "No es pot obtenir els usuaris."
   },
   {
-    "id": "cli.license.critical",
-    "translation": "La funció requereix una actualització a l'edició empresarial i una llicència. Contacta amb l'administrador del sistema."
-  },
-  {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "No es pot escriure el fitxer d'imatge al vostre emmagatzematge de fitxers. Comprova la teva connexió i torna-ho a provar."
   },
@@ -2912,10 +2908,6 @@
   {
     "id": "api.plugin.install.download_failed.app_error",
     "translation": "S'ha produït un error en descarregar el connector."
-  },
-  {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "S'ha produït un error en suprimir el certificat."
   },
   {
     "id": "api.outgoing_webhook.disabled.app_error",

@@ -252,10 +252,6 @@
     "translation": "ቻናሉን ማስተካከል አልተቻለም."
   },
   {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "ሰርቲፊኬት ፋይሉን በመሰረዝ ላይ ሳለ ስህተት ተከስቷል."
-  },
-  {
     "id": "api.license.add_license.open.app_error",
     "translation": "የምስል ፋይሉን መክፈት አልተቻለም."
   },

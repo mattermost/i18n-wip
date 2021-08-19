@@ -3064,10 +3064,6 @@
     "translation": "Käyttäjiä ei voitu hakea."
   },
   {
-    "id": "cli.license.critical",
-    "translation": "Ominaisuus vaatii päivityksen Enterprise Editioniin ja lisenssiavaimen. Ota yhteys järjestelmänvalvojaan."
-  },
-  {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "Ei voitu kirjoittaa kuvatiedostoa tiedostovarastoon. Tarkista yhteys ja yritä uudestaan."
   },
@@ -3540,10 +3536,6 @@
   {
     "id": "api.plugin.install.download_failed.app_error",
     "translation": "Tapahtui virhe ladattaessa liitännäistä."
-  },
-  {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "Tapahtui virhe poistettaessa OAuth2 appia."
   },
   {
     "id": "api.outgoing_webhook.disabled.app_error",

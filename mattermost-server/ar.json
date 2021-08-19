@@ -660,10 +660,6 @@
     "translation": "لا يمكن النشر في قناة محذوفة"
   },
   {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "حدث خطأ أثناء حذف الشهادة."
-  },
-  {
     "id": "api.oauth.invalid_state_token.app_error",
     "translation": "حالة غير صحيحة"
   },

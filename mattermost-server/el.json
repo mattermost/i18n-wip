@@ -408,10 +408,6 @@
     "translation": "Αδυναμία εύρεσης της υπάρχουσας ανάρτησης ή σχολίου για ενημέρωση."
   },
   {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "Παρουσιάστηκε ένα σφάλμα κατά το άνοιγμα του αρχείου public key."
-  },
-  {
     "id": "api.outgoing_webhook.disabled.app_error",
     "translation": "Οι Εντολές έχουν απενεργοποιηθεί από τον διαχειριστή του συστήματος."
   },

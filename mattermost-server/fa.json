@@ -1542,10 +1542,6 @@
     "translation": "وب بوک های خروجی توسط مدیر سیستم غیرفعال شده اند."
   },
   {
-    "id": "api.plugin.add_public_key.open.app_error",
-    "translation": "هنگام باز کردن پرونده کلید عمومی خطایی روی داد."
-  },
-  {
     "id": "api.plugin.install.download_failed.app_error",
     "translation": "هنگام بارگیری افزونه خطایی روی داد."
   },
@@ -5302,10 +5298,6 @@
   {
     "id": "brand.save_brand_image.save_image.app_error",
     "translation": "نوشتن فایل تصویر در فضای ذخیره سازی فایل شما امکان پذیر نیست. لطفاً اتصال خود را بررسی کنید و دوباره امتحان کنید."
-  },
-  {
-    "id": "cli.license.critical",
-    "translation": "ویژگی به ارتقا  نسخه تجاری و درج کلید مجوز نیاز دارد. لطفا با سرپرست سیستم خود تماس بگیرید."
   },
   {
     "id": "cli.outgoing_webhook.inconsistent_state.app_error",
