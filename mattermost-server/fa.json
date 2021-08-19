@@ -5300,10 +5300,6 @@
     "translation": "نوشتن فایل تصویر در فضای ذخیره سازی فایل شما امکان پذیر نیست. لطفاً اتصال خود را بررسی کنید و دوباره امتحان کنید."
   },
   {
-    "id": "cli.outgoing_webhook.inconsistent_state.app_error",
-    "translation": "وب بوک خروجی حذف شده است اما به دلیل خطا قادر به ایجاد مورد جدید نیست."
-  },
-  {
     "id": "ent.account_migration.get_all_failed",
     "translation": "دسترسی به کاربران امکان پذیر نیست."
   },
