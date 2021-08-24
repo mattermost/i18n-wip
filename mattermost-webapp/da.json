@@ -742,7 +742,6 @@
   "user.settings.security.logoutActiveSessions.icon": "Aktive sessioner ikon",
   "user.settings.security.passwordError": "Et trigger ord skal indeholde mellem {min} og {max} karakterer.",
   "user.settings.tokens.title": "Personlige Adgangs-Tokens",
-  "user_profile.account.editSettings": "Rediger kontoindstillinger",
   "user_profile.account.localTime": "Lokal Tid: ",
   "user_profile.add_user_to_channel": "Tilføj til kanal",
   "user_profile.add_user_to_channel.icon": "Tilføj Bruger til Kanal-Ikon",

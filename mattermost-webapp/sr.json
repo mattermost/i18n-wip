@@ -471,7 +471,6 @@
   "user.settings.security.passwordError": "Ваша лозинка мора садржати између најмање {min} и највише {max} знакова.",
   "user.settings.tokens.clickToEdit": "Кликните на „Уреди“ да бисте управљали вашим личним приступним жетонима",
   "user.settings.tokens.confirmDeleteTitle": "Обрисати жетон?",
-  "user_profile.account.editSettings": "Уреди подешавања налога",
   "view_image.loading": "Учитавам ",
   "view_image_popover.download": "Преузми",
   "web.footer.help": "Помоћ",
