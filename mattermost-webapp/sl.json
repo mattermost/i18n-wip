@@ -136,8 +136,6 @@
   "admin.complianceExport.globalRelayCustomerType.a10.description": "A10/Tip 10",
   "admin.complianceExport.globalRelayCustomerType.a9.description": "A9/Tip 9",
   "admin.complianceExport.globalRelayEmailAddress.example": "Npr.: \"globalrelay@mattermost.com\"",
-  "admin.complianceExport.globalRelaySmtpPassword.example": "Npr.: \"globalRelayPassword\"",
-  "admin.complianceExport.globalRelaySmtpUsername.example": "Npr.: \"globalRelayUser\"",
   "admin.complianceExport.messagesExportedCount": "{count} izvoženih sporočil.",
   "admin.complianceMonitoring.userActivityLogsTitle": "Dnevniki aktivnosti uporabnikov",
   "admin.compliance_reports.desc": "Ime opravila:",

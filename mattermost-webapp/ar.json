@@ -521,7 +521,6 @@
   "admin.complianceExport.globalRelayEmailAddress.description": "معالجة البريد الإلكتروني مراقبين الخادم العالمية تتابع عن صادرات الامتثال واردة.",
   "admin.complianceExport.globalRelayEmailAddress.example": "على سبيل المثال: \"globalrelay@mattermost.com\"",
   "admin.complianceExport.globalRelayEmailAddress.title": "العالمي ترحيل عنوان البريد الإلكتروني:",
-  "admin.complianceExport.globalRelaySmtpUsername.description": "اسم المستخدم لمصادقة إلى خادم العالمي ترحيل SMTP.",
   "admin.complianceExport.messagesExportedCount": "{عد} الرسائل المصدرة.",
   "admin.complianceExport.title": "الامتثال تصدير (بيتا)",
   "admin.complianceExport.warningCount": "{عدد} تحذير (ق) واجه، انظر warning.txt لمزيد من التفاصيل",
