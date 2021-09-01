@@ -111,7 +111,6 @@
   "admin.compliance.enableDailyDesc": "Када је тачно, Mattermost ће правити дневне извештаје о усклађености.",
   "admin.compliance.enableDailyTitle": "Омогући дневни извештај:",
   "admin.compliance.enableTitle": "Омогући извештавање о усклађености:",
-  "admin.complianceExport.globalRelaySmtpPassword.description": "Лозинка везана за SMTP корисничко име.",
   "admin.complianceExport.globalRelaySmtpUsername.description": "Корисничко име за идентификовање на ваш SMTP сервер.",
   "admin.complianceMonitoring.userActivityLogsTitle": "Записници корисничке активности",
   "admin.compliance_reports.desc": "Име посла:",

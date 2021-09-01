@@ -106,7 +106,6 @@
   "admin.compliance.enableDailyTitle": "ເປີດໃຊ້ລາຍງານປະຈໍາວັນ:",
   "admin.compliance.enableTitle": "ເປີດໃຊ້ງານລາຍງານການປະຕິບັດຕາມຂໍ້ກຳນົດ:",
   "admin.complianceExport.exportJobStartTime.description": "ກຳນົດເວລາເລີ່ມຕົ້ນສຳລັບວຽກທີ່ກຳນົດເວລາໄວ້ປະຈຳວັນສຳລັບການເກັບຮັກສາຂໍ້ມູນ ເລືອກເວລາທີ່ຜູ້ໃຊ້ລະບົບໜ້ອຍທີ່ສຸດ ຕ້ອງເປັນຮູບແບບເວລາ 24 ຊົ່ວໂມງໃນຮູບແບບ HH: MM",
-  "admin.complianceExport.globalRelaySmtpPassword.description": "ລະຫັດຜ່ານທີ່ເຊື່ອມໂຍງກັບຊື່ຜູ້ໃຊ້ SMTP.",
   "admin.complianceExport.globalRelaySmtpUsername.description": "ຊື່ຜູ້ໃຊ້ສຳລັບການກວດສອບສິດໄປຍັງເຄື່ອງແມ່ຂ່າຍ SMTP.",
   "admin.complianceMonitoring.userActivityLogsTitle": "ບັນທຶກກິດຈະກໍາຜູ້ໃຊ້",
   "admin.compliance_reports.desc": "ຊື່ວຽກ:",
