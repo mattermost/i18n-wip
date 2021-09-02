@@ -1,1 +1,422 @@
-{}
+[
+  {
+    "id": "api.templates.cloud_trial_ended_email.start_subscription",
+    "translation": "Пачаць падпіску"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.created",
+    "translation": "\nКарыстальнiкi створаны:\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_channels.added",
+    "translation": "\nДададзеныя каналы:\n"
+  },
+  {
+    "id": "api.server.warn_metric.starting_trial",
+    "translation": "Атрымаць пробную версію"
+  },
+  {
+    "id": "api.server.warn_metric.start_trial",
+    "translation": "Пачаць пробную версію"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
+    "translation": "Павышэнне Прадукцыйнасці"
+  },
+  {
+    "id": "api.server.warn_metric.email_us",
+    "translation": "Напішыце нам"
+  },
+  {
+    "id": "api.server.warn_metric.contacting_us",
+    "translation": "Звязацца з намі"
+  },
+  {
+    "id": "api.server.warn_metric.contact_us",
+    "translation": "Звяжыцеся з намі"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_email_header",
+    "translation": "Электронная пошта: {{.Email}}"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_contact_header",
+    "translation": "Кантакт: {{.Contact}}"
+  },
+  {
+    "id": "api.remote_cluster.invalid_topic.app_error",
+    "translation": "Няправільная тэма."
+  },
+  {
+    "id": "api.remote_cluster.invalid_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_explicit_mention",
+    "translation": " згадаў вас."
+  },
+  {
+    "id": "api.oauth.auth_complete",
+    "translation": "Аўтэнтыфікацыя завершана"
+  },
+  {
+    "id": "api.marshal_error",
+    "translation": "памылка маршалiнга"
+  },
+  {
+    "id": "api.io_error",
+    "translation": "памылка ўводу/вываду"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.time",
+    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.contact_email_header",
+    "translation": "Электронная пошта: "
+  },
+  {
+    "id": "api.slackimport.slack_import.notes",
+    "translation": "\nНататкi:\n"
+  },
+  {
+    "id": "api.command_shrug.name",
+    "translation": "паціснуць-плячыма"
+  },
+  {
+    "id": "api.command_shortcuts.name",
+    "translation": "цэтлікі"
+  },
+  {
+    "id": "api.command_share.name",
+    "translation": "абагулiць-канал"
+  },
+  {
+    "id": "api.command_remote.name",
+    "translation": "бяспечнае-злучэнне"
+  },
+  {
+    "id": "api.templates.upgrade_mattermost_cloud",
+    "translation": "Абнавіць"
+  },
+  {
+    "id": "api.templates.questions_footer.title",
+    "translation": "Пытаннi?"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subject",
+    "translation": "Віншуем!"
+  },
+  {
+    "id": "api.command_shrug.hint",
+    "translation": "[паведамленне]"
+  },
+  {
+    "id": "api.command_share.hint",
+    "translation": "[дзеянне]"
+  },
+  {
+    "id": "api.command_settings.name",
+    "translation": "наладкi"
+  },
+  {
+    "id": "api.command_search.name",
+    "translation": "шукаць"
+  },
+  {
+    "id": "api.command_search.hint",
+    "translation": "[тэкст]"
+  },
+  {
+    "id": "api.command_remove.name",
+    "translation": "выдалiць"
+  },
+  {
+    "id": "api.command_remove.hint",
+    "translation": "@[імя карыстальніка]"
+  },
+  {
+    "id": "api.command_remote.hint",
+    "translation": "[дзеянне]"
+  },
+  {
+    "id": "api.command_open.name",
+    "translation": "адкрыць"
+  },
+  {
+    "id": "api.command_online.name",
+    "translation": "анлайн"
+  },
+  {
+    "id": "api.command_offline.name",
+    "translation": "афлайн"
+  },
+  {
+    "id": "api.command_mute.name",
+    "translation": "не апавяшчаць"
+  },
+  {
+    "id": "api.command_mute.hint",
+    "translation": "~[канал]"
+  },
+  {
+    "id": "api.command_msg.name",
+    "translation": "Паведамленне"
+  },
+  {
+    "id": "api.command_me.name",
+    "translation": "я"
+  },
+  {
+    "id": "api.command_me.hint",
+    "translation": "[паведамленне]"
+  },
+  {
+    "id": "api.command_logout.name",
+    "translation": "выхад з сістэмы"
+  },
+  {
+    "id": "api.command_leave.name",
+    "translation": "пакінуць"
+  },
+  {
+    "id": "api.command_kick.name",
+    "translation": "выкінуць"
+  },
+  {
+    "id": "api.command_join.name",
+    "translation": "далучыцца"
+  },
+  {
+    "id": "api.command_join.hint",
+    "translation": "~[канал]"
+  },
+  {
+    "id": "api.command_invite.name",
+    "translation": "запрасiць"
+  },
+  {
+    "id": "api.command_help.name",
+    "translation": "дапамога"
+  },
+  {
+    "id": "api.command_groupmsg.name",
+    "translation": "паведамленне"
+  },
+  {
+    "id": "api.command_expand.name",
+    "translation": "разгарнуць"
+  },
+  {
+    "id": "api.command_echo.name",
+    "translation": "рэха"
+  },
+  {
+    "id": "api.command_dnd.name",
+    "translation": "не турбаваць"
+  },
+  {
+    "id": "api.command_custom_status.name",
+    "translation": "стан"
+  },
+  {
+    "id": "api.command_collapse.name",
+    "translation": "згарнуць"
+  },
+  {
+    "id": "api.command_code.name",
+    "translation": "код"
+  },
+  {
+    "id": "api.command_code.hint",
+    "translation": "[тэкст]"
+  },
+  {
+    "id": "api.command_channel_rename.name",
+    "translation": "перайменаваць"
+  },
+  {
+    "id": "api.command_channel_rename.hint",
+    "translation": "[тэкст]"
+  },
+  {
+    "id": "api.command_channel_purpose.name",
+    "translation": "прызначэнне"
+  },
+  {
+    "id": "api.command_channel_purpose.hint",
+    "translation": "[тэкст]"
+  },
+  {
+    "id": "api.command_channel_header.name",
+    "translation": "загаловак"
+  },
+  {
+    "id": "api.command_channel_header.hint",
+    "translation": "[тэкст]"
+  },
+  {
+    "id": "api.command_away.name",
+    "translation": "адышоў"
+  },
+  {
+    "id": "api.command.invite_people.name",
+    "translation": "запрасiць_людзей"
+  },
+  {
+    "id": "api.channel.create_default_channels.off_topic",
+    "translation": "Оффтоп"
+  },
+  {
+    "id": "model.incoming_hook.username.app_error",
+    "translation": "Няправільнае імя карыстальніка."
+  },
+  {
+    "id": "model.bot.is_valid.username.app_error",
+    "translation": "Няправільнае імя карыстальніка."
+  },
+  {
+    "id": "model.outgoing_hook.username.app_error",
+    "translation": "Няправільнае імя карыстальніка."
+  },
+  {
+    "id": "api.incoming_webhook.invalid_username.app_error",
+    "translation": "Няправільнае імя карыстальніка."
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.button",
+    "translation": "Адкрыць Mattermost"
+  },
+  {
+    "id": "api.command_remote.invite_password.help",
+    "translation": "Пароль запрашэння"
+  },
+  {
+    "id": "api.command_remote.invitation_created",
+    "translation": "Запрашэнне створана."
+  },
+  {
+    "id": "api.command_msg.hint",
+    "translation": "@[імя карыстальніка] 'паведамленне'"
+  },
+  {
+    "id": "api.command_invite.hint",
+    "translation": "@[імя карыстальніка] ~[канал]"
+  },
+  {
+    "id": "api.command_groupmsg.hint",
+    "translation": "@[username1],@[username2] 'паведамленне'"
+  },
+  {
+    "id": "api.command.invite_people.hint",
+    "translation": "[name@domain.com ...]"
+  },
+  {
+    "id": "api.channel.create_default_channels.town_square",
+    "translation": "Гарадская плошча"
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_or",
+    "translation": "або"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.safari",
+    "translation": "Safari"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.firefox",
+    "translation": "Firefox"
+  },
+  {
+    "id": "system.message.name",
+    "translation": "Сiстэма"
+  },
+  {
+    "id": "error",
+    "translation": "Памылка"
+  },
+  {
+    "id": "app.system.system_bot.bot_displayname",
+    "translation": "Сiстэма"
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_button",
+    "translation": "Спампаваць"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.contact_name_header",
+    "translation": "Кантакт: "
+  },
+  {
+    "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
+    "translation": "Немагчыма захаваць файл сертыфiката."
+  },
+  {
+    "id": "api.admin.add_certificate.saving.app_error",
+    "translation": "Немагчыма захаваць файл сертыфiката."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Памылка сінтаксічнага аналізу шматфарматнага запыту"
+  },
+  {
+    "id": "api.admin.add_certificate.open.app_error",
+    "translation": "Немагчыма адкрыць файл сертыфiката."
+  },
+  {
+    "id": "api.admin.file_read_error",
+    "translation": "Памылка чытання лог файла."
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "LDAP недаступны."
+  },
+  {
+    "id": "September",
+    "translation": "Верасень"
+  },
+  {
+    "id": "October",
+    "translation": "Кастрычнiк"
+  },
+  {
+    "id": "November",
+    "translation": "Лiстапад"
+  },
+  {
+    "id": "May",
+    "translation": "Травень"
+  },
+  {
+    "id": "March",
+    "translation": "Сакавiк"
+  },
+  {
+    "id": "June",
+    "translation": "Чэрвень"
+  },
+  {
+    "id": "July",
+    "translation": "Лiпень"
+  },
+  {
+    "id": "January",
+    "translation": "Студзень"
+  },
+  {
+    "id": "February",
+    "translation": "Люты"
+  },
+  {
+    "id": "December",
+    "translation": "Снежань"
+  },
+  {
+    "id": "August",
+    "translation": "Жнiвень"
+  },
+  {
+    "id": "April",
+    "translation": "Красавiк"
+  }
+]
