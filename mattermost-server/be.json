@@ -418,5 +418,89 @@
   {
     "id": "April",
     "translation": "Красавiк"
+  },
+  {
+    "id": "api.user.complete_switch_with_oauth.blank_email.app_error",
+    "translation": "Пусты ліст."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.invalid_state.app_error",
+    "translation": "Недапушчальны стан"
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_length",
+    "translation": "Недапушчальны Content-Length."
+  },
+  {
+    "id": "api.templates.welcome_body.button",
+    "translation": "Пацвердзіць электронную пошту"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.site_url_header",
+    "translation": "URL сайта: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
+    "translation": "Дыягнастычны ідэнтыфікатар: "
+  },
+  {
+    "id": "api.templates.verify_body.button",
+    "translation": "Пацвердзіць электронную пошту"
+  },
+  {
+    "id": "api.templates.reset_body.button",
+    "translation": "Скінуць Пароль"
+  },
+  {
+    "id": "api.templates.post_body.button",
+    "translation": "Прагляд Паведамлення"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.button",
+    "translation": "Аплаціце зараз"
+  },
+  {
+    "id": "api.templates.payment_failed.title",
+    "translation": "Няўдалы Плацёж"
+  },
+  {
+    "id": "api.templates.over_limit_suspended_contact_support",
+    "translation": "Звярнуцца ў падтрымку"
+  },
+  {
+    "id": "api.templates.over_limit_fix_now",
+    "translation": "Выпраўце зараз"
+  },
+  {
+    "id": "api.templates.license_up_for_renewal_renew_now",
+    "translation": "Падоўжыць зараз"
+  },
+  {
+    "id": "api.templates.invite_body_footer.learn_more",
+    "translation": "Даведацца больш"
+  },
+  {
+    "id": "api.templates.invite_body.button",
+    "translation": "Далучыцца"
+  },
+  {
+    "id": "api.templates.email_organization",
+    "translation": "Даслаў "
+  },
+  {
+    "id": "api.templates.email_info2",
+    "translation": "З найлепшымі пажаданнямі,"
+  },
+  {
+    "id": "api.templates.email_change_verify_body.button",
+    "translation": "Пацвердзіць электронную пошту"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.button",
+    "translation": "Адкрыць Mattermost"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.app_market_place",
+    "translation": "Крама прыкладанняў."
   }
 ]
