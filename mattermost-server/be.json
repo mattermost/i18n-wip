@@ -502,5 +502,113 @@
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
     "translation": "Крама прыкладанняў."
+  },
+  {
+    "id": "model.guest.is_valid.channels.app_error",
+    "translation": "Няправiльныя каналы."
+  },
+  {
+    "id": "model.guest.is_valid.channel.app_error",
+    "translation": "Няправiльны канал."
+  },
+  {
+    "id": "model.compliance.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "model.compliance.is_valid.desc.app_error",
+    "translation": "Няправільнае апісанне."
+  },
+  {
+    "id": "model.command.is_valid.url.app_error",
+    "translation": "Няправільны URL."
+  },
+  {
+    "id": "model.command.is_valid.trigger.app_error",
+    "translation": "Няправільны трыгер."
+  },
+  {
+    "id": "model.command.is_valid.token.app_error",
+    "translation": "Няправiльны токен."
+  },
+  {
+    "id": "model.command.is_valid.method.app_error",
+    "translation": "Няправільны метад."
+  },
+  {
+    "id": "model.command.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "model.command.is_valid.display_name.app_error",
+    "translation": "Несапраўдны загаловак."
+  },
+  {
+    "id": "model.command.is_valid.description.app_error",
+    "translation": "Няправільнае апісанне."
+  },
+  {
+    "id": "model.command.is_valid.autocomplete_data.app_error",
+    "translation": "Несапраўдныя дадзеныя аўтазапаўнення"
+  },
+  {
+    "id": "model.cluster.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "model.channel.is_valid.type.app_error",
+    "translation": "Няправiльны тып."
+  },
+  {
+    "id": "model.channel.is_valid.purpose.app_error",
+    "translation": "Несапраўдная мэта."
+  },
+  {
+    "id": "model.channel.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "model.channel.is_valid.header.app_error",
+    "translation": "Няправільны загаловак."
+  },
+  {
+    "id": "model.bot.is_valid.description.app_error",
+    "translation": "Няправільнае апісанне."
+  },
+  {
+    "id": "model.authorize.is_valid.state.app_error",
+    "translation": "Недапушчальны стан."
+  },
+  {
+    "id": "model.authorize.is_valid.scope.app_error",
+    "translation": "Несапраўдная сфера прымянення."
+  },
+  {
+    "id": "ent.ldap.do_login.invalid_password.app_error",
+    "translation": "Няправільны пароль."
+  },
+  {
+    "id": "app.update_error",
+    "translation": "памылка абнаўлення"
+  },
+  {
+    "id": "app.system.warn_metric.bot_displayname",
+    "translation": "Mattermost Дарадца"
+  },
+  {
+    "id": "app.select_error",
+    "translation": "памылка выбару"
+  },
+  {
+    "id": "app.notification.body.dm.time",
+    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}"
+  },
+  {
+    "id": "app.insert_error",
+    "translation": "памылка ўстаўкі"
+  },
+  {
+    "id": "app.command_webhook.try_use.invalid",
+    "translation": "Няправільны вэбхук."
   }
 ]
