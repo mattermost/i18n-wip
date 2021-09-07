@@ -20,6 +20,9 @@
   "accessibility.button.Info": "Iнфа",
   "accessibility.button.Search": "Пошук",
   "accessibility.button.attachment": "прымацаванне",
+  "accessibility.sections.centerFooter": "дадатковае месца уводу паведамленняў",
+  "accessibility.sections.channelHeader": "вобласць загалоўка канала",
+  "accessibility.sections.lhsHeader": "вобласць меню каманды",
   "accessibility.sidebar.types.mention": "згадка",
   "accessibility.sidebar.types.mentions": "згадкi",
   "accessibility.sidebar.types.private": "прыватны канал",
@@ -301,5 +304,6 @@
   "user.settings.notifications.email.everyHour": "Кожную гадзiну",
   "user.settings.notifications.email.immediately": "Неадкладна",
   "user.settings.notifications.email.never": "Нiколi",
-  "user.settings.tokens.cancel": "Адмяніць"
+  "user.settings.tokens.cancel": "Адмяніць",
+  "yourcomputer": "Ваш кампутар"
 }
