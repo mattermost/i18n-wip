@@ -79,5 +79,10 @@
   "about.hash": "Хэш Зборкi:",
   "about.enterpriseEditionLearn": "Падрабязнее аб Карпаратыўнае Выданнi чытайце на ",
   "about.enterpriseEditione1": "Карпаратыўнае Выданне",
-  "about.date": "Дата зборкі:"
+  "about.date": "Дата зборкі:",
+  "about.teamEditionLearn": "Далучайцеся да супольнасці Mattermost на ",
+  "about.teamEditiont1": "Карпаратыўнае Выданне",
+  "about.teamEditiont0": "Каманднае Выданне",
+  "about.teamEditionSt": "Сувязь усёй вашай каманды ў адным месцы, з імгненным пошукам і доступам адкуль заўгодна.",
+  "about.enterpriseEditionSt": "Сучасная сувязь з-за вашага брандмаўэра."
 }
