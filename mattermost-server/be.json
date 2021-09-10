@@ -610,5 +610,277 @@
   {
     "id": "app.command_webhook.try_use.invalid",
     "translation": "Няправільны вэбхук."
+  },
+  {
+    "id": "api.post.create_post.root_id.app_error",
+    "translation": "Няправільны параметр RootId."
+  },
+  {
+    "id": "api.oauth.invalid_state_token.app_error",
+    "translation": "Няправільны токен стану."
+  },
+  {
+    "id": "api.oauth.get_access_token.missing_refresh_token.app_error",
+    "translation": "invalid_request: Адсутнічае refresh_token."
+  },
+  {
+    "id": "api.oauth.get_access_token.missing_code.app_error",
+    "translation": "invalid_request: Адсутничае код."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_grant.app_error",
+    "translation": "invalid_request: Няправільны grant_type."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_secret.app_error",
+    "translation": "invalid_request: Адсутнічае client_secret."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_id.app_error",
+    "translation": "invalid_request: Няправільны client_id."
+  },
+  {
+    "id": "api.license.add_license.invalid.app_error",
+    "translation": "Няправільны файл ліцэнзіі."
+  },
+  {
+    "id": "api.emoji.create.other_user.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.messageButton",
+    "translation": "Праглядзець паведамленне"
+  },
+  {
+    "id": "api.context.json_encoding.app_error",
+    "translation": "Памылка кадавання JSON."
+  },
+  {
+    "id": "api.context.invitation_expired.error",
+    "translation": "Скончыўся тэрмін дзеяння запрашэння."
+  },
+  {
+    "id": "api.context.invalid_param.app_error",
+    "translation": "Няправільны параметр {{. Імя}}."
+  },
+  {
+    "id": "api.command_share.available_actions",
+    "translation": "Даступныя дзеянні: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.unknown_action",
+    "translation": "Невядомае дзеянне `{{.Action}}`"
+  },
+  {
+    "id": "api.command_remote.name.help",
+    "translation": "Імя бяспечнага злучэння"
+  },
+  {
+    "id": "api.command_me.desc",
+    "translation": "Зрабіце дзеянне"
+  },
+  {
+    "id": "api.command_logout.desc",
+    "translation": "Выйсці з Mattermost"
+  },
+  {
+    "id": "api.command_channel_rename.desc",
+    "translation": "Перайменаваць канал"
+  },
+  {
+    "id": "api.command.invite_people.sent",
+    "translation": "Запрашэнні па электроннай пошце адпраўлены"
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "Памылка скіду кэша"
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "Назад да {{.SiteName}}"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "Няправільны тып кантэнту."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+    "translation": "Адсутнічае тып кантэнту."
+  },
+  {
+    "id": "model.incoming_hook.display_name.app_error",
+    "translation": "Няправільны загаловак."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+    "translation": "Няправільны тэкст сэртыфіката."
+  },
+  {
+    "id": "web.incoming_webhook.invalid.app_error",
+    "translation": "Няправільны вэбхук."
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_make_default",
+    "translation": "Зрабіць па-змаўчанні"
+  },
+  {
+    "id": "web.error.unsupported_browser.open_system_browser.edge",
+    "translation": "Адкрыць Edge"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.windows",
+    "translation": "Windows 7+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.mac",
+    "translation": "macOS 10.14+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.safari",
+    "translation": "Версія 12+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.firefox",
+    "translation": "Версія 78+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.edge",
+    "translation": "Версія 44+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.chrome",
+    "translation": "Версія 89+"
+  },
+  {
+    "id": "web.error.unsupported_browser.install_guide.windows",
+    "translation": "Кіраўніцтва па ўстаноўцы"
+  },
+  {
+    "id": "web.error.unsupported_browser.install_guide.mac",
+    "translation": "Кіраўніцтва па ўстаноўцы"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.edge",
+    "translation": "Microsoft Edge"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.chrome",
+    "translation": "Google Chrome"
+  },
+  {
+    "id": "model.user.is_valid.nickname.app_error",
+    "translation": "Няправільны нік."
+  },
+  {
+    "id": "model.user.is_valid.locale.app_error",
+    "translation": "Няправільная лакаль."
+  },
+  {
+    "id": "model.user.is_valid.email.app_error",
+    "translation": "Няправільны адрас электроннай пошты."
+  },
+  {
+    "id": "model.token.is_valid.size",
+    "translation": "Няправiльны токен."
+  },
+  {
+    "id": "model.team.is_valid.type.app_error",
+    "translation": "Няправiльны тып."
+  },
+  {
+    "id": "model.team.is_valid.name.app_error",
+    "translation": "Няправільнае імя."
+  },
+  {
+    "id": "model.team.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "model.team.is_valid.email.app_error",
+    "translation": "Няправільны адрас электроннай пошты."
+  },
+  {
+    "id": "model.team.is_valid.description.app_error",
+    "translation": "Няправільнае апісанне."
+  },
+  {
+    "id": "model.preference.is_valid.theme.app_error",
+    "translation": "Няправільная тэма."
+  },
+  {
+    "id": "model.preference.is_valid.name.app_error",
+    "translation": "Няправільнае імя."
+  },
+  {
+    "id": "model.preference.is_valid.category.app_error",
+    "translation": "Няправільная катэгорыя."
+  },
+  {
+    "id": "model.post.is_valid.type.app_error",
+    "translation": "Няправiльны тып."
+  },
+  {
+    "id": "model.post.is_valid.props.app_error",
+    "translation": "Няправільныя рэквізіты."
+  },
+  {
+    "id": "model.post.is_valid.msg.app_error",
+    "translation": "Няправільнае паведамленне."
+  },
+  {
+    "id": "model.post.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "model.post.is_valid.hashtags.app_error",
+    "translation": "Няправільныя хэштэгі."
+  },
+  {
+    "id": "model.post.is_valid.filenames.app_error",
+    "translation": "Няправільныя імёны файлаў."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.token.app_error",
+    "translation": "Няправiльны токен."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.display_name.app_error",
+    "translation": "Няправільны загаловак."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.description.app_error",
+    "translation": "Няправільнае апісанне."
+  },
+  {
+    "id": "model.outgoing_hook.icon_url.app_error",
+    "translation": "Няправільны значок."
+  },
+  {
+    "id": "model.oauth.is_valid.name.app_error",
+    "translation": "Няправільнае імя."
+  },
+  {
+    "id": "model.oauth.is_valid.description.app_error",
+    "translation": "Няправільнае апісанне."
+  },
+  {
+    "id": "model.incoming_hook.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар."
+  },
+  {
+    "id": "model.incoming_hook.description.app_error",
+    "translation": "Няправільнае апісанне."
+  },
+  {
+    "id": "model.guest.is_valid.emails.app_error",
+    "translation": "Няправільныя адрасы электроннай пошты."
+  },
+  {
+    "id": "model.guest.is_valid.email.app_error",
+    "translation": "Няправільны адрас электроннай пошты."
   }
 ]
