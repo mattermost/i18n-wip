@@ -1,5 +1,5 @@
 {
-  "about.date": "निर्माण की तारीख",
+  "about.date": "निर्माण की तारीख:",
   "about.enterpriseEditionLearn": "एंटरप्राइज़ एडिशन के बारे में और जानें ",
   "about.enterpriseEditionSt": "आपके फ़ायरवॉल के पीछे से आधुनिक संचार।",
   "about.enterpriseEditione1": "एंटरप्राइज़ एडिशन",
@@ -202,7 +202,7 @@
   "login.or": "या",
   "login.password": "कुंजिका",
   "login.signIn": "साइन इन करें",
-  "login.userNotFound": "हमें आपकी लॉगिन क्रेडेंशियल से मेल खाता खाता नहीं मिला।",
+  "login.userNotFound": "We couldn't find an account matching your login credentials.",
   "login.username": "उपयोगकर्ता नाम",
   "login_mfa.enterToken": "साइन-इन प्रक्रिया को पूरा करने के लिए, कृपया अपने स्मार्टफोन के प्रमाणक से एक टोकन डालें",
   "login_mfa.token": "एमएफए टोकन",
