@@ -10,5 +10,113 @@
   {
     "id": "April",
     "translation": "अप्रैल"
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_ssoservices.app_error",
+    "translation": "एक्सएमएल में गुम पहचान प्रदाता एसएसओ सेवा नोड।"
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_keydescriptor.app_error",
+    "translation": "एक्सएमएल में गुम पहचान प्रदाता कुंजी डिस्क्रिप्टर नोड।"
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
+    "translation": "एक्सएमएल में गुम पहचान प्रदाता एसएसओ डिस्क्रिप्टर नोड।"
+  },
+  {
+    "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
+    "translation": "प्रमाणपत्र फ़ाइल सहेजी नहीं जा सकी."
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "ऑथडाटा फ़ील्ड को ईमेल पर रीसेट करने में विफल।"
+  },
+  {
+    "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
+    "translation": "पहचान प्रदाता से प्राप्त मेटाडेटा जानकारी को प्रमाणपत्र में पार्स करते समय विफलता का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
+    "translation": "पहचान प्रदाता यूआरएल से मेटाडेटा प्राप्त करने में विफल।"
+  },
+  {
+    "id": "api.admin.remove_certificate.delete.app_error",
+    "translation": "प्रमाणपत्र हटाते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "एलडीएपी उपलब्ध नहीं है।"
+  },
+  {
+    "id": "api.admin.get_brand_image.storage.app_error",
+    "translation": "छवि संग्रहण कॉन्फ़िगर नहीं किया गया है।"
+  },
+  {
+    "id": "api.admin.file_read_error",
+    "translation": "लॉग फ़ाइल पढ़ने में त्रुटि।"
+  },
+  {
+    "id": "api.admin.delete_brand_image.storage.not_found",
+    "translation": "ब्रांड छवि को हटाने में असमर्थ, नहीं मिला।"
+  },
+  {
+    "id": "api.admin.add_certificate.saving.app_error",
+    "translation": "प्रमाणपत्र फ़ाइल सहेजी नहीं जा सकी."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "बहुरूप अनुरोध को पार्स करने में त्रुटि"
+  },
+  {
+    "id": "api.admin.add_certificate.open.app_error",
+    "translation": "प्रमाणपत्र फ़ाइल नहीं खोल सका."
+  },
+  {
+    "id": "api.admin.add_certificate.no_file.app_error",
+    "translation": "अनुरोध में 'प्रमाणपत्र' के तहत कोई फ़ाइल नहीं।"
+  },
+  {
+    "id": "api.admin.add_certificate.array.app_error",
+    "translation": "अनुरोध में 'प्रमाणपत्र' के तहत कोई फ़ाइल नहीं।"
+  },
+  {
+    "id": "September",
+    "translation": "सितंबर"
+  },
+  {
+    "id": "October",
+    "translation": "अक्टूबर"
+  },
+  {
+    "id": "November",
+    "translation": "नवंबर"
+  },
+  {
+    "id": "May",
+    "translation": "मई"
+  },
+  {
+    "id": "March",
+    "translation": "मार्च"
+  },
+  {
+    "id": "June",
+    "translation": "जून"
+  },
+  {
+    "id": "July",
+    "translation": "जुलाई"
+  },
+  {
+    "id": "January",
+    "translation": "जनवरी"
+  },
+  {
+    "id": "February",
+    "translation": "फ़रवरी"
+  },
+  {
+    "id": "December",
+    "translation": "दिसंबर"
   }
 ]
