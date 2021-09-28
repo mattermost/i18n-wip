@@ -3360,10 +3360,6 @@
     "translation": "Tato operace není k dispozici pro systémového správce s omezenými právy."
   },
   {
-    "id": "api.reaction.town_square_read_only",
-    "translation": "Reakce na příspěvky není možná u kanálů pouze pro čtení."
-  },
-  {
     "id": "api.reaction.save_reaction.user_id.app_error",
     "translation": "Nemůžete vložit reakci za jiného uživatele."
   },
@@ -3468,10 +3464,6 @@
     "translation": " upozornil/a kanál."
   },
   {
-    "id": "api.post.save_is_pinned_post.town_square_read_only",
-    "translation": "Tento kanál je pouze pro čtení. Pouze členové s povolením zde smí připínat nebo odepínat příspěvky."
-  },
-  {
     "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
     "translation": "Nepodařilo se upravit zprávu ve smazaném kanálu."
   },
@@ -3530,10 +3522,6 @@
   {
     "id": "api.post.create_webhook_post.creating.app_error",
     "translation": "Chyba při vytváření příspěvku."
-  },
-  {
-    "id": "api.post.create_post.town_square_read_only",
-    "translation": "Tento kanál je pouze pro čtení. Pouze členové s povolením zde smí přispívat."
   },
   {
     "id": "api.post.create_post.root_id.app_error",

@@ -128,18 +128,6 @@
     "translation": "Vostede é o único membro que queda, tente eliminar a canle privada no canto de abandonar."
   },
   {
-    "id": "api.reaction.town_square_read_only",
-    "translation": "Non é posible reaccionar ás publicacións nas canles de só lectura."
-  },
-  {
-    "id": "api.post.save_is_pinned_post.town_square_read_only",
-    "translation": "Esta canle é de só lectura. Só os membros con permiso poden fixar ou desprender publicacións aquí."
-  },
-  {
-    "id": "api.post.create_post.town_square_read_only",
-    "translation": "Esta canle é de só lectura. Só os membros con permiso poden publicar aquí."
-  },
-  {
     "id": "api.channel.create_default_channels.town_square",
     "translation": "Praza pública"
   },

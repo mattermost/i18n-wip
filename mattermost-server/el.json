@@ -1523,10 +1523,6 @@
     "translation": "Παρουσιάστηκε σφάλμα κατά τη διαγραφή της ασφαλούς σύνδεσης."
   },
   {
-    "id": "api.reaction.town_square_read_only",
-    "translation": "Δεν είναι δυνατή η δημιουργία αντίδρασης σε αναρτήσεις σε κανάλια που είναι χαρακτηρισμένα μόνο για ανάγνωση."
-  },
-  {
     "id": "api.reaction.save_reaction.user_id.app_error",
     "translation": "Δεν μπορείτε να αποθηκεύσετε μία αντίδραση για άλλον χρήστη."
   },
@@ -2845,10 +2841,6 @@
     "translation": "Οι διαστάσεις του {{.Filename}} ({{.Width}} επί {{.Height}} pixels) υπερβαίνουν τα όρια."
   },
   {
-    "id": "api.post.create_post.town_square_read_only",
-    "translation": "Αυτό το κανάλι είναι μόνο για ανάγνωση. Μόνο μέλη με άδεια μπορούν να δημοσιεύσουν εδώ."
-  },
-  {
     "id": "api.post.create_post.root_id.app_error",
     "translation": "Μη έγκυρη παράμετρος RootId."
   },
@@ -3131,10 +3123,6 @@
   {
     "id": "api.post.send_notification_and_forget.push_channel_mention",
     "translation": " ειδοποίησε το κανάλι."
-  },
-  {
-    "id": "api.post.save_is_pinned_post.town_square_read_only",
-    "translation": "Αυτό το κανάλι είναι μόνο για ανάγνωση. Μόνο τα μέλη με άδεια μπορούν να καρφιτσώσουν ή να ξεκαρφιτσώσουν αναρτήσεις εδώ."
   },
   {
     "id": "api.post.patch_post.can_not_update_post_in_deleted.error",

@@ -1594,10 +1594,6 @@
     "translation": "پارامتر RootId نامعتبر است."
   },
   {
-    "id": "api.post.create_post.town_square_read_only",
-    "translation": "این کانال فقط خواندنی است. فقط اعضای دارای مجوز می توانند در اینجا پست بگذارند."
-  },
-  {
     "id": "api.post.create_webhook_post.creating.app_error",
     "translation": "خطا در ایجاد پست."
   },
@@ -1658,10 +1654,6 @@
   {
     "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
     "translation": "نمی توان پستی را در کانال حذف شده به روز کرد."
-  },
-  {
-    "id": "api.post.save_is_pinned_post.town_square_read_only",
-    "translation": "این کانال فقط خواندنی است. فقط اعضای دارای مجوز می توانند پست ها را در اینجا پین یا لغوپین کنند."
   },
   {
     "id": "api.post.search_posts.invalid_body.app_error",
@@ -1782,10 +1774,6 @@
   {
     "id": "api.reaction.save_reaction.user_id.app_error",
     "translation": "نمی توانید عکس العمل را برای کاربر دیگر ذخیره کنید."
-  },
-  {
-    "id": "api.reaction.town_square_read_only",
-    "translation": "واکنش به پست ها در کانالهای فقط خواندنی امکان پذیر نیست."
   },
   {
     "id": "api.restricted_system_admin",

@@ -3828,10 +3828,6 @@
     "translation": "Hành động này bị cấm đối với một quản trị viên hệ thống bị hạn chế."
   },
   {
-    "id": "api.reaction.town_square_read_only",
-    "translation": "Phản ứng với bài viết là không thể trong các kênh chỉ có thể đọc."
-  },
-  {
     "id": "api.reaction.save_reaction.user_id.app_error",
     "translation": "Bạn không thể lưu phản ứng cho người dùng khác."
   },
@@ -3924,10 +3920,6 @@
     "translation": "thông báo cho kênh."
   },
   {
-    "id": "api.post.save_is_pinned_post.town_square_read_only",
-    "translation": "Kênh này chỉ có thể đọc. Chỉ thành viên có quyền mới có thể ghim hoặc bỏ ghim bài viết ở đây."
-  },
-  {
     "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
     "translation": "Không thể cập nhật một bài đăng trong một kênh bị xóa."
   },
@@ -3982,10 +3974,6 @@
   {
     "id": "api.post.create_webhook_post.creating.app_error",
     "translation": "Lỗi tạo bài"
-  },
-  {
-    "id": "api.post.create_post.town_square_read_only",
-    "translation": "Kênh này chỉ có thể đọc. Chỉ có thành viên với sự cho phép có thể đăng ở đây."
   },
   {
     "id": "api.post.create_post.root_id.app_error",

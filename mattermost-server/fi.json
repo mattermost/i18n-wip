@@ -3356,10 +3356,6 @@
     "translation": "Tämä toiminto ei ole sallittu rajoitetulle ylläpitäjälle."
   },
   {
-    "id": "api.reaction.town_square_read_only",
-    "translation": "Viestiin ei voi lisätä reaktiota vain-luku-kanavalla."
-  },
-  {
     "id": "api.reaction.save_reaction.user_id.app_error",
     "translation": "Et voi tallentaa reaktiota toiselle käyttäjälle."
   },
@@ -3444,10 +3440,6 @@
     "translation": " ilmoitti kanavalle."
   },
   {
-    "id": "api.post.save_is_pinned_post.town_square_read_only",
-    "translation": "Tämä kanava on vain luettavissa. Vain jäsenet joilla on lupa kiinnittää viestejä täällä."
-  },
-  {
     "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
     "translation": "Viestiä ei voida päivittää poistetulla kanavalla."
   },
@@ -3504,10 +3496,6 @@
   {
     "id": "api.post.create_webhook_post.creating.app_error",
     "translation": "Virhe luotaessa viestiä"
-  },
-  {
-    "id": "api.post.create_post.town_square_read_only",
-    "translation": "Tämä kanava on vain luettavissa. Vain jäsenet voivat kirjoittaa."
   },
   {
     "id": "api.post.create_post.root_id.app_error",

@@ -2892,10 +2892,6 @@
     "translation": "Vaša licenca ne podpira nadgradnjo sheme kanala."
   },
   {
-    "id": "api.reaction.town_square_read_only",
-    "translation": "Reagiranje na objave v kanalih samo za branje ni mogoče."
-  },
-  {
     "id": "api.reaction.save_reaction.user_id.app_error",
     "translation": "Reakcije ne morete shraniti za drugega uporabnika."
   },
@@ -2972,10 +2968,6 @@
     "translation": " obvestil kanal."
   },
   {
-    "id": "api.post.save_is_pinned_post.town_square_read_only",
-    "translation": "Ta kanal je samo za branje. Tu lahko objavljajo samo člani z dovoljenjem."
-  },
-  {
     "id": "api.post.link_preview_disabled.app_error",
     "translation": "Povzetek v emailu je bil izklopljen s strani administratorja."
   },
@@ -3028,10 +3020,6 @@
   {
     "id": "api.post.create_webhook_post.creating.app_error",
     "translation": "Napaka pri ustvarjanju objave"
-  },
-  {
-    "id": "api.post.create_post.town_square_read_only",
-    "translation": "Ta kanal je samo za branje. Tu lahko objavljajo samo člani z dovoljenjem."
   },
   {
     "id": "api.post.create_post.root_id.app_error",

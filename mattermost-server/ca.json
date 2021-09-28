@@ -2796,10 +2796,6 @@
     "translation": " ha notificat el canal."
   },
   {
-    "id": "api.post.save_is_pinned_post.town_square_read_only",
-    "translation": "Aquest canal és de només lectura. Només els membres amb permís poden fixar o desancorar publicacions aquí."
-  },
-  {
     "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
     "translation": "No es pot actualitzar una publicació en un canal suprimit."
   },
@@ -2856,10 +2852,6 @@
   {
     "id": "api.post.create_webhook_post.creating.app_error",
     "translation": "Error en crear la publicació"
-  },
-  {
-    "id": "api.post.create_post.town_square_read_only",
-    "translation": "Aquest canal és de només lectura. Només els membres amb permís poden publicar aquí."
   },
   {
     "id": "api.post.create_post.root_id.app_error",
@@ -4550,10 +4542,6 @@
   {
     "id": "api.restricted_system_admin",
     "translation": "Aquesta acció està prohibida i s'ha restringit a administradors del sistema."
-  },
-  {
-    "id": "api.reaction.town_square_read_only",
-    "translation": "La reacció a missatges no és possible en canals de només lectura."
   },
   {
     "id": "api.reaction.save_reaction.user_id.app_error",
