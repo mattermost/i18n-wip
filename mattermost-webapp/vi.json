@@ -271,7 +271,6 @@
   "admin.billing.subscription.cloudTrial.moreThan3Days": "Dùng thử đã bắt đầu! Còn lại {daysLeftOnTrial} ngày",
   "admin.billing.subscription.cloudTrial.subscribe": "Đăng ký",
   "admin.billing.subscription.cloudTrial.subscribeButton": "Đăng ký ngay",
-  "admin.billing.subscription.cloudTrial.trialTopMenuNotification": "Dùng thử đám mây còn lại {daysLeftOnTrial} ngày.",
   "admin.billing.subscription.creditCardExpired": "Thẻ tín dụng của bạn đã hết hạn. Hãy cập nhật thông tin thanh toán của bạn để tránh bị gián đoạn.",
   "admin.billing.subscription.creditCardHasExpired": "Thẻ tín dụng của bạn đã hết hạn",
   "admin.billing.subscription.creditCardHasExpired.description.avoidAnyDisruption": " để tránh bất kỳ sự gián đoạn nào.",
