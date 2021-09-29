@@ -122,5 +122,13 @@
   {
     "id": "api.admin.saml.metadata.app_error",
     "translation": ""
+  },
+  {
+    "id": "web.incoming_webhook.user.app_error",
+    "translation": "उपयोगकर्ता नहीं मिल सका."
+  },
+  {
+    "id": "api.command_invite.desc",
+    "translation": "किसी उपयोगकर्ता को चैनल में आमंत्रित करें"
   }
 ]
