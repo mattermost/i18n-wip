@@ -271,7 +271,6 @@
   "admin.billing.subscription.cloudTrial.moreThan3Days": "بدأت محاكمة الخاص بك! هناك {} daysLeftOnTrial الأيام المتبقية",
   "admin.billing.subscription.cloudTrial.subscribe": "الإشتراك",
   "admin.billing.subscription.cloudTrial.subscribeButton": "إشترك الآن",
-  "admin.billing.subscription.cloudTrial.trialTopMenuNotification": "هناك {} daysLeftOnTrial الأيام المتبقية على محاكمة السحب الخاصة بك.",
   "admin.billing.subscription.creditCardExpired": "انتهت صلاحية بطاقة الائتمان الخاصة بك. تحديث معلومات الدفع الخاصة بك إلى اضطراب تجنب.",
   "admin.billing.subscription.creditCardHasExpired": "انتهت صلاحية بطاقة الائتمان الخاصة بك",
   "admin.billing.subscription.creditCardHasExpired.description.avoidAnyDisruption": " لتجنب أي تعطيل.",

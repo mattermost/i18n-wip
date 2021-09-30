@@ -271,7 +271,6 @@
   "admin.billing.subscription.cloudTrial.moreThan3Days": "Vaše bezplatné zkušební období je aktivováno! Zbývá/jí {daysLeftOnTrial} dny/dnů",
   "admin.billing.subscription.cloudTrial.subscribe": "Objednat",
   "admin.billing.subscription.cloudTrial.subscribeButton": "Objednat nyní",
-  "admin.billing.subscription.cloudTrial.trialTopMenuNotification": "Ve vašem zkušebním období Cloudu zbývá/jí {daysLeftOnTrial} dní/dny.",
   "admin.billing.subscription.creditCardExpired": "Kreditní karta expirovala. Aktualizuj platební informace aby nedošlo k přerušení služby.",
   "admin.billing.subscription.creditCardHasExpired": "Tvá kreditní karta expirovala",
   "admin.billing.subscription.creditCardHasExpired.description.avoidAnyDisruption": " aby nedošlo k přerušení služby.",
