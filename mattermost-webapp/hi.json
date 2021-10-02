@@ -71,6 +71,7 @@
   "admin.user_grid.name": "नाम",
   "admin.user_grid.remove": "हटाना",
   "api.channel.add_member.added": "{addUsername} चैनल को {username} से जोड़ा गया।",
+  "apps.error.command.unknown_option": "यह फील्ड के लिए अपरिचित विकल्प है `{फील्डनाम }`: `{विकल्प}`.",
   "archivedChannelMessage": "आप एक ** संग्रहीत चैनल ** देख रहे हैं। नए संदेश पोस्ट नहीं किए जा सकते।",
   "bots.add.username": "उपयोगकर्ता नाम",
   "bots.manage.add.cancel": "रद्द करना",
