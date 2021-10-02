@@ -228,5 +228,6 @@
   "api.channel.add_guest.added": "{username} द्वारा {addedUsername} को अतिथि के रूप में चैनल में जोड़ा गया है।",
   "custom_status.expiry_dropdown.today": "आज",
   "custom_status.expiry_dropdown.this_week": "इस सप्ताह",
-  "custom_status.expiry_dropdown.thirty_minutes": "30 मिनट"
+  "custom_status.expiry_dropdown.thirty_minutes": "30 मिनट",
+  "api.channel.guest_join_channel.post_and_forget": "{username} अतिथि के रूप में चैनल से जुड़े."
 }
