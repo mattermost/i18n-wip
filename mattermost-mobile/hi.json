@@ -221,5 +221,6 @@
   "user.settings.notifications.never": "कभी नहीँ",
   "mobile.reaction_header.all_emojis": "सब",
   "post_info.del": "हटाएं",
-  "mobile.display_settings.sidebar": "साइडबार"
+  "mobile.display_settings.sidebar": "साइडबार",
+  "apps.error.command.unknown_option": "यह फील्ड के लिए अपरिचित विकल्प है `{फील्डनाम }`: `{विकल्प}`."
 }
