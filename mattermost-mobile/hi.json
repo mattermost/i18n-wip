@@ -1,5 +1,5 @@
 {
-  "about.enterpriseEditionLearn": "एंटरप्राइज़ संस्करण के बारे में और जानें",
+  "about.enterpriseEditionLearn": "एंटरप्राइज़ संस्करण के बारे में और जानें ",
   "about.enterpriseEditione1": "एंटरप्राइज़ संस्करण",
   "about.date": "निर्माण की तारीख:",
   "about.teamEditiont1": "एंटरप्राइज़ एडिशन",
@@ -110,7 +110,7 @@
   "login_mfa.tokenReq": "कृपया एमएफए टोकन दर्ज करें",
   "login_mfa.token": "एमएफए टोकन",
   "login_mfa.enterToken": "साइन-इन प्रक्रिया को पूरा करने के लिए, कृपया अपने स्मार्टफोन के प्रमाणक से एक टोकन डालें",
-  "about.hashee": "ईई बिल्ड हैश:",
+  "about.hashee": "ईई हैश बनाएं :",
   "last_users_message.removed_from_team.type": "** टीम से हटा दिए गए थे।",
   "last_users_message.removed_from_channel.type": "चैनल से ** हटा दिए गए थे।",
   "last_users_message.others": "{numOthers} अन्य ",
@@ -222,5 +222,8 @@
   "mobile.reaction_header.all_emojis": "सब",
   "post_info.del": "हटाएं",
   "mobile.display_settings.sidebar": "साइडबार",
-  "apps.error.command.unknown_option": "यह फील्ड के लिए अपरिचित विकल्प है `{फील्डनाम }`: `{विकल्प}`."
+  "apps.error.command.unknown_option": "यह फील्ड के लिए अपरिचित विकल्प है `{फील्डनाम }`: `{विकल्प}`.",
+  "apps.error": "त्रुटि: {error}",
+  "apps.error.command.field_missing": "आवश्यक फ़ील्ड अनुपलब्ध: `{fieldName}`.",
+  "api.channel.add_guest.added": "{addedUsername} द्वारा अतिथि के रूप में चैनल में जोड़ा गया {username}"
 }
