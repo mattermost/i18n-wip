@@ -230,5 +230,6 @@
   "custom_status.expiry_dropdown.this_week": "इस सप्ताह",
   "custom_status.expiry_dropdown.thirty_minutes": "30 मिनट",
   "api.channel.guest_join_channel.post_and_forget": "{username} अतिथि के रूप में चैनल से जुड़े हैं।",
-  "apps.error.command.unknown_channel": "यह फील्ड के लिए अपरिचित चैनल है `{फील्डनाम }`: `{विकल्प}`."
+  "apps.error.command.unknown_channel": "यह फील्ड के लिए अपरिचित चैनल है `{फील्डनाम }`: `{विकल्प}`.",
+  "apps.error.command.unknown_user": "यह फील्ड के लिए अपरिचित यूजर  है `{फील्डनाम }`: `{विकल्प}`."
 }
