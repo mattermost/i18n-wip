@@ -130,5 +130,665 @@
   {
     "id": "api.command_invite.desc",
     "translation": "किसी उपयोगकर्ता को चैनल में आमंत्रित करें"
+  },
+  {
+    "id": "api.emoji.create.duplicate.app_error",
+    "translation": "इमोजी बनाने में असमर्थ। इसी नाम का एक और इमोजी पहले से मौजूद है।"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.scheme_invalid.error",
+    "translation": "चैनल के लिए अमान्य योजना का नाम।"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.purpose_length.error",
+    "translation": "चैनल का उद्देश्य बहुत लंबा है."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.name_missing.error",
+    "translation": "आवश्यक चैनल गुण गुम है: name"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.name_length.error",
+    "translation": "चैनल का नाम बहुत लंबा है."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.name_characters.error",
+    "translation": "चैनल के नाम में अमान्य वर्ण हैं."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.header_length.error",
+    "translation": "चैनल हेडर बहुत लंबा है."
+  },
+  {
+    "id": "app.import.validate_channel_import_data.display_name_length.error",
+    "translation": "चैनल display_name अनुमत लंबाई सीमा के भीतर नहीं है।"
+  },
+  {
+    "id": "ent.cluster.json_encode.error",
+    "translation": "JSON अनुरोध को मार्शल करते समय त्रुटि हुई"
+  },
+  {
+    "id": "ent.api.post.send_notifications_and_forget.push_image_only",
+    "translation": " एक फाइल संलग्न की।"
+  },
+  {
+    "id": "ent.actiance.export.marshalToXml.appError",
+    "translation": "Export को XML में बदलने में असमर्थ।"
+  },
+  {
+    "id": "ent.account_migration.get_saml_users_failed",
+    "translation": "SAML उपयोगकर्ता प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "ent.account_migration.get_all_failed",
+    "translation": "उपयोगकर्ता प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "brand.save_brand_image.save_image.app_error",
+    "translation": "आपके फ़ाइल संग्रहण में छवि फ़ाइल लिखने में असमर्थ। कृपया अपने संपर्क की जांच करे और फिर से प्रयास करें।"
+  },
+  {
+    "id": "brand.save_brand_image.open.app_error",
+    "translation": "कस्टम ब्रांड छवि अपलोड करने में असमर्थ. सुनिश्चित करें कि छवि का आकार 2 एमबी से कम है और पुनः प्रयास करें।"
+  },
+  {
+    "id": "brand.save_brand_image.encode.app_error",
+    "translation": "छवि डेटा को पीएनजी प्रारूप में बदलने में असमर्थ। कृपया पुन: प्रयास करें।"
+  },
+  {
+    "id": "brand.save_brand_image.decode.app_error",
+    "translation": "छवि डेटा को डीकोड करने में असमर्थ।"
+  },
+  {
+    "id": "bleveengine.stop_user_index.error",
+    "translation": "उपयोगकर्ता इंडेक्स को बंद करने में विफल।"
+  },
+  {
+    "id": "bleveengine.stop_post_index.error",
+    "translation": "पोस्ट इंडेक्स को बंद करने में विफल।"
+  },
+  {
+    "id": "bleveengine.stop_channel_index.error",
+    "translation": "चैनल अनुक्रमणिका को बंद करने में विफल।"
+  },
+  {
+    "id": "bleveengine.search_users_in_team.error",
+    "translation": "उपयोगकर्ता खोज पूर्ण करने में विफल."
+  },
+  {
+    "id": "bleveengine.search_users_in_channel.uchan.error",
+    "translation": "उपयोगकर्ता खोज पूर्ण करने में विफल."
+  },
+  {
+    "id": "bleveengine.search_users_in_channel.nuchan.error",
+    "translation": "उपयोगकर्ता खोज पूर्ण करने में विफल."
+  },
+  {
+    "id": "bleveengine.search_posts.error",
+    "translation": "पोस्ट खोज पूर्ण करने में विफल."
+  },
+  {
+    "id": "bleveengine.search_channels.error",
+    "translation": "चैनल खोज पूर्ण करने में विफल."
+  },
+  {
+    "id": "web.incoming_webhook.text.app_error",
+    "translation": "कोई टेक्स्ट निर्दिष्ट नहीं है।"
+  },
+  {
+    "id": "web.incoming_webhook.split_props_length.app_error",
+    "translation": "वेबहुक प्रॉप्स को {{.Max}} कैरेक्टर भागों में विभाजित करने में असमर्थ।"
+  },
+  {
+    "id": "web.incoming_webhook.permissions.app_error",
+    "translation": "अनुपयुक्त चैनल अनुमतियां।"
+  },
+  {
+    "id": "web.incoming_webhook.parse.app_error",
+    "translation": "आने वाले डेटा को पार्स करने में असमर्थ।"
+  },
+  {
+    "id": "web.incoming_webhook.invalid.app_error",
+    "translation": "अमान्य वेबहुक."
+  },
+  {
+    "id": "web.incoming_webhook.disabled.app_error",
+    "translation": "आने वाले वेबहुक को सिस्टम व्यवस्थापक द्वारा अक्षम कर दिया गया है।"
+  },
+  {
+    "id": "web.incoming_webhook.channel_locked.app_error",
+    "translation": "इस वेबहुक को अनुरोधित चैनल पर पोस्ट करने की अनुमति नहीं है।"
+  },
+  {
+    "id": "web.incoming_webhook.channel.app_error",
+    "translation": "चैनल नहीं मिला."
+  },
+  {
+    "id": "web.get_access_token.internal_saving.app_error",
+    "translation": "उपयोगकर्ता पहुंच डेटा अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_make_default",
+    "translation": "डिफ़ॉल्ट बनाना"
+  },
+  {
+    "id": "web.error.unsupported_browser.open_system_browser.edge",
+    "translation": "ओपन एज"
+  },
+  {
+    "id": "web.error.unsupported_browser.no_longer_support_version",
+    "translation": "आपके ब्राउज़र का यह संस्करण अब मैटरमोस्ट द्वारा समर्थित नहीं है"
+  },
+  {
+    "id": "web.error.unsupported_browser.no_longer_support",
+    "translation": "यह ब्राउज़र अब मैटरमोस्ट द्वारा समर्थित नहीं है"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.windows",
+    "translation": "विंडोज़ 7+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.mac",
+    "translation": "मैक ओएस 10.14+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.safari",
+    "translation": "विवरण 12+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.firefox",
+    "translation": "विवरण 78+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.edge",
+    "translation": "विवरण 44+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.chrome",
+    "translation": "विवरण 89+"
+  },
+  {
+    "id": "web.error.unsupported_browser.learn_more",
+    "translation": "समर्थित ब्राउज़रों के बारे में अधिक जानें।"
+  },
+  {
+    "id": "web.error.unsupported_browser.install_guide.windows",
+    "translation": "गाइड इंस्टॉल करें"
+  },
+  {
+    "id": "web.error.unsupported_browser.install_guide.mac",
+    "translation": "गाइड इंस्टॉल करें"
+  },
+  {
+    "id": "web.error.unsupported_browser.download_the_app",
+    "translation": "ऐप डाउनलोड करें"
+  },
+  {
+    "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
+    "translation": "बेहतर अनुभव के लिए मैटरमॉस्ट ऐप डाउनलोड करें या समर्थित ब्राउज़र का उपयोग करें।"
+  },
+  {
+    "id": "web.error.unsupported_browser.download",
+    "translation": "ऐप डाउनलोड करें"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.safari",
+    "translation": "सफारी"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.firefox",
+    "translation": "फ़ायर्फ़ॉक्स"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.chrome",
+    "translation": "गूगल क्रोम"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.safari",
+    "translation": "सब से विलंबित सफारी ब्राउज़र प्राप्त करें"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.firefox",
+    "translation": "सब से विलंबित फ़ायरफ़ॉक्स ब्राउज़र प्राप्त करें"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_get_latest.chrome",
+    "translation": "सब से विलंबित क्रोम ब्राउज़र प्राप्त करें"
+  },
+  {
+    "id": "web.command_webhook.parse.app_error",
+    "translation": "आने वाले डेटा को पार्स करने में असमर्थ।"
+  },
+  {
+    "id": "web.command_webhook.command.app_error",
+    "translation": "कमांड नहीं मिल सका।"
+  },
+  {
+    "id": "store.sql_user.get_for_login.app_error",
+    "translation": "आपकी साख से मेल खाता कोई मौजूदा खाता खोजने में असमर्थ। इस टीम को शामिल होने के लिए टीम के मालिक से आमंत्रण की आवश्यकता हो सकती है।"
+  },
+  {
+    "id": "store.sql_team.save_member.exists.app_error",
+    "translation": "उस आईडी वाला एक टीम सदस्य पहले से मौजूद है।"
+  },
+  {
+    "id": "store.sql_post.search.disabled",
+    "translation": "इस सर्वर पर खोजना अक्षम कर दिया गया है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "store.sql_command.update.missing.app_error",
+    "translation": "कमांड मौजूद नहीं है।"
+  },
+  {
+    "id": "store.sql_command.save.get.app_error",
+    "translation": "कमांड प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "store.sql_command.get.missing.app_error",
+    "translation": "कमांड मौजूद नहीं है।"
+  },
+  {
+    "id": "store.sql_channel.save_direct_channel.not_direct.app_error",
+    "translation": "SaveDirectChannel के साथ प्रत्यक्ष चैनल बनाने का प्रयास नहीं किया गया।"
+  },
+  {
+    "id": "store.sql_channel.save_channel.limit.app_error",
+    "translation": "आप अनुमत चैनलों की संख्या की सीमा तक पहुंच गए हैं।"
+  },
+  {
+    "id": "store.sql_channel.save_channel.exists.app_error",
+    "translation": "उसी टीम में उस नाम का एक चैनल पहले से मौजूद है।"
+  },
+  {
+    "id": "store.sql_channel.save.direct_channel.app_error",
+    "translation": "डायरेक्ट चैनल बनाने के लिए SaveDirectChannel का उपयोग करें।"
+  },
+  {
+    "id": "store.sql_channel.get.existing.app_error",
+    "translation": "मौजूदा चैनल खोजने में असमर्थ।"
+  },
+  {
+    "id": "store.sql_bot.get.missing.app_error",
+    "translation": "बॉट मौजूद नहीं है।"
+  },
+  {
+    "id": "sharedchannel.permalink.not_found",
+    "translation": "इस पोस्ट में अन्य चैनलों के लिए परमालिंक हैं जो अन्य साइटों के उपयोगकर्ताओं के लिए दृश्यमान नहीं हो सकते हैं।"
+  },
+  {
+    "id": "plugin_api.send_mail.missing_subject",
+    "translation": "ईमेल विषय गुम."
+  },
+  {
+    "id": "plugin_api.send_mail.missing_htmlbody",
+    "translation": "HTML बॉडी गुम है।"
+  },
+  {
+    "id": "plugin_api.get_file_link.no_post.app_error",
+    "translation": "फ़ाइल के लिए सार्वजनिक लिंक प्राप्त करने में असमर्थ। फ़ाइल को उस पोस्ट के साथ संलग्न किया जाना चाहिए जिसे पढ़ा जा सके।"
+  },
+  {
+    "id": "plugin_api.get_file_link.disabled.app_error",
+    "translation": "सार्वजनिक लिंक अक्षम कर दिए गए हैं।"
+  },
+  {
+    "id": "plugin_api.bot_cant_create_bot",
+    "translation": "बॉट उपयोगकर्ता बॉट उपयोगकर्ता नहीं बना सकता।"
+  },
+  {
+    "id": "plugin.api.update_user_status.bad_status",
+    "translation": "उपयोगकर्ता स्थिति सेट करने में असमर्थ। अज्ञात उपयोगकर्ता स्थिति।"
+  },
+  {
+    "id": "oauth.gitlab.tos.error",
+    "translation": "GitLab की सेवा की शर्तें अपडेट हो गई हैं। कृपया उन्हें स्वीकार करने के लिए gitlab.com पर जाएं और फिर Mattermost में फिर से लॉग इन करने का प्रयास करें।"
+  },
+  {
+    "id": "model.websocket_client.connect_fail.app_error",
+    "translation": "WebSocket सर्वर से कनेक्ट करने में असमर्थ।"
+  },
+  {
+    "id": "model.utils.decode_json.app_error",
+    "translation": "डिकोड नहीं कर सका।"
+  },
+  {
+    "id": "model.user_access_token.is_valid.id.app_error",
+    "translation": "आईडी के लिए अमान्य मान।"
+  },
+  {
+    "id": "model.user_access_token.is_valid.description.app_error",
+    "translation": "अमान्य विवरण, 255 या उससे कम वर्णों का होना चाहिए."
+  },
+  {
+    "id": "model.user.is_valid.username.app_error",
+    "translation": "उपयोगकर्ता नाम एक अक्षर से शुरू होना चाहिए, और इसमें 3 से 22 लोअरकेस वर्ण होने चाहिए जो अंक, अक्षरों और प्रतीकों \"।\", \"-\", और \"_\" से बने हों।"
+  },
+  {
+    "id": "model.user.is_valid.roles_limit.app_error",
+    "translation": "{{.Limit}} वर्णों से अधिक लंबी अमान्य उपयोगकर्ता भूमिकाएँ।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_uppercase_symbol.app_error",
+    "translation": "आपके पासवर्ड में कम से कम {{.Min}} वर्ण होने चाहिए जो कम से कम एक बड़े अक्षर और कम से कम एक प्रतीक (जैसे \"~!@#$%^&*()\") से बने हों।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_uppercase_number_symbol.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक बड़े अक्षर, कम से कम एक अंक और कम से कम एक प्रतीक (जैसे \"~!@#$%^&*()\") से बने कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_uppercase_number.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक बड़े अक्षर और कम से कम एक अंक से बने कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_uppercase.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक बड़े अक्षर से बने कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_symbol.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक प्रतीक (जैसे \"~!@#$%^&*()\") से बने कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_number_symbol.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक अंक और कम से कम एक प्रतीक (जैसे \"~!@#$%^&*()\") से बने कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_number.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक अंक से बने कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_uppercase_symbol.app_error",
+    "translation": "आपके पासवर्ड में कम से कम {{.Min}} वर्ण होने चाहिए जो कम से कम एक छोटे अक्षर, कम से कम एक बड़े अक्षर और कम से कम एक प्रतीक (जैसे \"~!@#$%^&*()\") से बने हों।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_uppercase_number_symbol.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक लोअरकेस अक्षर, कम से कम एक अपरकेस अक्षर, कम से कम एक अंक और कम से कम एक प्रतीक (जैसे \"~!@#$%^&*) से बना कम से कम {{.Min}} वर्ण होना चाहिए। ()\")।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_uppercase_number.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक छोटे अक्षर, कम से कम एक बड़े अक्षर और कम से कम एक अंक से बने कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_uppercase.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक लोअरकेस अक्षर और कम से कम एक अपरकेस अक्षर से बना कम से कम {{.Min}} वर्ण होना चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_symbol.app_error",
+    "translation": "आपके पासवर्ड में कम से कम {{.Min}} वर्ण होने चाहिए जो कम से कम एक छोटे अक्षर और कम से कम एक प्रतीक (जैसे \"~!@#$%^&*()\") से बने हों।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_number_symbol.app_error",
+    "translation": "आपके पासवर्ड में कम से कम {{.Min}} वर्ण होने चाहिए जो कम से कम एक छोटे अक्षर, कम से कम एक अंक और कम से कम एक प्रतीक (जैसे \"~!@#$%^&*()\") से बने हों।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase_number.app_error",
+    "translation": "आपके पासवर्ड में कम से कम {{.Min}} वर्ण होने चाहिए जो कम से कम एक छोटे अक्षर और कम से कम एक अंक से बने हों।"
+  },
+  {
+    "id": "model.user.is_valid.pwd_lowercase.app_error",
+    "translation": "आपके पासवर्ड में कम से कम एक लोअरकेस अक्षर से बने कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.pwd.app_error",
+    "translation": "आपके पासवर्ड में कम से कम {{.Min}} वर्ण होने चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.position.app_error",
+    "translation": "अमान्य स्थिति: 128 वर्णों से अधिक नहीं होनी चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.nickname.app_error",
+    "translation": "अमान्य उपनाम।"
+  },
+  {
+    "id": "model.user.is_valid.marshal.app_error",
+    "translation": "फ़ील्ड को JSON में एन्कोड करने में असफलता"
+  },
+  {
+    "id": "api.file.no_driver.app_error",
+    "translation": "कोई फ़ाइल ड्राइवर चुना नहीं गया है।"
+  },
+  {
+    "id": "api.file.get_public_link.no_post.app_error",
+    "translation": "फ़ाइल के लिए सार्वजनिक लिंक प्राप्त करने में असमर्थ। फ़ाइल को उस पोस्ट के साथ संलग्न किया जाना चाहिए जिसे वर्तमान उपयोगकर्ता द्वारा पढ़ा जा सके।"
+  },
+  {
+    "id": "api.file.get_public_link.disabled.app_error",
+    "translation": "सार्वजनिक लिंक अक्षम कर दिए गए हैं।"
+  },
+  {
+    "id": "api.file.get_file_thumbnail.no_thumbnail.app_error",
+    "translation": "फ़ाइल में थंबनेल इमेज नहीं है।"
+  },
+  {
+    "id": "api.file.get_file.public_invalid.app_error",
+    "translation": "सार्वजनिक लिंक मान्य प्रतीत नहीं होता है।"
+  },
+  {
+    "id": "api.file.attachments.disabled.app_error",
+    "translation": "इस सर्वर पर फ़ाइल अटैचमेंट अक्षम कर दिए गए हैं।"
+  },
+  {
+    "id": "api.error_get_first_admin_visit_marketplace_status",
+    "translation": "स्टोर से पहले व्यवस्थापक विज़िट मार्केटप्लेस स्थिति को पुनर्प्राप्त करने का प्रयास करने में त्रुटि।"
+  },
+  {
+    "id": "api.emoji.upload.open.app_error",
+    "translation": "इमोजी बनाने में असमर्थ. संलग्न इमेज को खोलने का प्रयास करते समय कोई त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "api.emoji.upload.large_image.too_large.app_error",
+    "translation": "इमोजी बनाने में असमर्थ। इमेज {{.MaxWidth}} से {{.MaxHeight}} से छोटी होनी चाहिए।"
+  },
+  {
+    "id": "api.emoji.upload.large_image.gif_encode_error",
+    "translation": "इमोजी बनाने में असमर्थ। GIF इमेज को एन्कोड करने का प्रयास करते समय कोई त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "api.emoji.upload.large_image.gif_decode_error",
+    "translation": "इमोजी बनाने में असमर्थ। GIF इमेज को डीकोड करने का प्रयास करते समय कोई त्रुटि उत्पन्न हुई|"
+  },
+  {
+    "id": "api.emoji.upload.large_image.encode_error",
+    "translation": "इमोजी बनाने में असमर्थ।इमेज को एन्कोड करने का प्रयास करते समय एक त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "api.emoji.upload.large_image.decode_error",
+    "translation": "इमोजी बनाने में असमर्थ।इमेज को डीकोड करने का प्रयास करते समय एक त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "api.emoji.upload.image.app_error",
+    "translation": "इमोजी बनाने में असमर्थ। फ़ाइल PNG, JPEG या GIF होनी चाहिए."
+  },
+  {
+    "id": "api.emoji.storage.app_error",
+    "translation": "फ़ाइल संग्रहण ठीक से कॉन्फ़िगर नहीं किया गया है। कृपया S3 या स्थानीय सर्वर फ़ाइल संग्रहण के लिए कॉन्फ़िगर करें।"
+  },
+  {
+    "id": "api.emoji.get_image.read.app_error",
+    "translation": "इमोजी के लिए इमेज फ़ाइल पढ़ने में असमर्थ।"
+  },
+  {
+    "id": "api.emoji.get_image.decode.app_error",
+    "translation": "इमोजी के लिए छवि फ़ाइल को डीकोड करने में असमर्थ।"
+  },
+  {
+    "id": "api.emoji.disabled.app_error",
+    "translation": "कस्टम इमोजी को सिस्टम एडमिन ने बंद कर दिया है."
+  },
+  {
+    "id": "api.emoji.create.too_large.app_error",
+    "translation": "इमोजी बनाने में असमर्थ। छवि का आकार 1 एमबी से कम होना चाहिए।"
+  },
+  {
+    "id": "api.emoji.create.parse.app_error",
+    "translation": "इमोजी बनाने में असमर्थ। अनुरोध समझ में नहीं आया।"
+  },
+  {
+    "id": "api.emoji.create.other_user.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "api.emoji.create.internal_error",
+    "translation": "server_error: इमोजी बनाने में आंतरिक सर्वर त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.title",
+    "translation": "आपके पास नए मैसेजिस हैं"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.time",
+    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.subTitle",
+    "translation": "अपने नए मैसेजो के सारांश के लिए नीचे देखें।"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.messageButton",
+    "translation": "यह मैसेज देखें"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.button",
+    "translation": "ओपन मैटरमोस्ट"
+  },
+  {
+    "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",
+    "translation": "ईमेल बैचिंग को सिस्टम व्यवस्थापक द्वारा अक्षम कर दिया गया है।"
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.missing_server.app_error",
+    "translation": "SMTP Server की आवश्यकता है"
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.invalid_warn_metric.app_error",
+    "translation": "वाॅन् मीट्रिक नहीं मिल सका।"
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.failure.app_error",
+    "translation": "व्यवस्थापक पावती ईमेल भेजने में विफलता"
+  },
+  {
+    "id": "api.create_terms_of_service.empty_text.app_error",
+    "translation": "कृपया अपनी कस्टम सेवा की शर्तों के लिए टेक्स्ट दर्ज करें।"
+  },
+  {
+    "id": "api.create_terms_of_service.custom_terms_of_service_disabled.app_error",
+    "translation": "कस्टम सेवा की शर्तें सुविधा अक्षम है।"
+  },
+  {
+    "id": "api.context.session_expired.app_error",
+    "translation": "अमान्य या समाप्त सत्र, कृपया फिर से लॉगिन करें।"
+  },
+  {
+    "id": "api.context.server_busy.app_error",
+    "translation": "सर्वर व्यस्त है, गैर-महत्वपूर्ण सेवाएं अस्थायी रूप से अनुपलब्ध हैं।"
+  },
+  {
+    "id": "api.context.remote_id_missing.app_error",
+    "translation": "सुरक्षित कनेक्शन आईडी गायब है।"
+  },
+  {
+    "id": "api.context.remote_id_mismatch.app_error",
+    "translation": "सुरक्षित कनेक्शन आईडी बेमेल।"
+  },
+  {
+    "id": "api.context.remote_id_invalid.app_error",
+    "translation": "सुरक्षित कनेक्शन आईडी खोजने में असमर्थ {{.RemoteId}}।"
+  },
+  {
+    "id": "api.context.permissions.app_error",
+    "translation": "आपके पास उचित अनुमतियां नहीं हैं।"
+  },
+  {
+    "id": "app.import.validate_post_import_data.message_missing.error",
+    "translation": "आवश्यक पोस्ट संपत्ति गुम है: Message."
+  },
+  {
+    "id": "app.import.validate_post_import_data.message_length.error",
+    "translation": "Post Message संपत्ति अधिकतम अनुमत लंबाई से अधिक लंबी है।"
+  },
+  {
+    "id": "app.import.validate_post_import_data.create_at_zero.error",
+    "translation": "पोस्ट CreateAt संपत्ति शून्य नहीं होनी चाहिए।"
+  },
+  {
+    "id": "app.import.validate_post_import_data.create_at_missing.error",
+    "translation": "आवश्यक पोस्ट प्रॉपर्टी गुम है: create_at."
+  },
+  {
+    "id": "app.import.validate_post_import_data.channel_missing.error",
+    "translation": "आवश्यक पोस्ट संपत्ति गुम है: Channel."
+  },
+  {
+    "id": "app.import.validate_emoji_import_data.empty.error",
+    "translation": "इमोजी डेटा खाली आयात करें।"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.user_missing.error",
+    "translation": "आवश्यक प्रत्यक्ष पोस्ट संपत्ति गुम है: user"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.unknown_flagger.error",
+    "translation": "डायरेक्ट पोस्ट को केवल उस चैनल के सदस्य ही फ़्लैग कर सकते हैं जिसमें वह है। \"{{.Username}}\" सदस्य नहीं है।"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.message_missing.error",
+    "translation": "आवश्यक प्रत्यक्ष पोस्ट संपत्ति गुम है: message"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.message_length.error",
+    "translation": "मैसेज बहुत लंबा है"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.create_at_zero.error",
+    "translation": "CreateAt 0 से बड़ा होना चाहिए"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.create_at_missing.error",
+    "translation": "आवश्यक प्रत्यक्ष पोस्ट संपत्ति गुम है: create_at"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.channel_members_too_many.error",
+    "translation": "डायरेक्ट पोस्ट चैनल सदस्यों की सूची में बहुत अधिक आइटम हैं"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.channel_members_too_few.error",
+    "translation": "डायरेक्ट पोस्ट चैनल सदस्यों की सूची में बहुत कम आइटम हैं"
+  },
+  {
+    "id": "app.import.validate_direct_post_import_data.channel_members_required.error",
+    "translation": "आवश्यक प्रत्यक्ष पोस्ट संपत्ति गुम है: channel_members"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.unknown_favoriter.error",
+    "translation": "डायरेक्ट चैनल को केवल सदस्य ही पसंद कर सकते हैं। \"{{.Username}}\" सदस्य नहीं है।"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.members_too_many.error",
+    "translation": "प्रत्यक्ष चैनल सदस्यों की सूची में बहुत अधिक आइटम हैं"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.members_too_few.error",
+    "translation": "प्रत्यक्ष चैनल सदस्यों की सूची में बहुत कम आइटम हैं"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.members_required.error",
+    "translation": "आवश्यक प्रत्यक्ष चैनल संपत्ति गुम है: members"
+  },
+  {
+    "id": "app.import.validate_direct_channel_import_data.header_length.error",
+    "translation": "डायरेक्ट चैनल हेडर बहुत लंबा है"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.type_missing.error",
+    "translation": "आवश्यक चैनल गुण गुम है: type।"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.type_invalid.error",
+    "translation": "चैनल प्रकार अमान्य है |"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.team_missing.error",
+    "translation": "आवश्यक चैनल संपत्ति गुम है: team"
   }
 ]
