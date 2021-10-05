@@ -5089,7 +5089,7 @@
   },
   {
     "id": "api.channel.patch_update_channel.forbidden.app_error",
-    "translation": "Không thể cập nhật kênh"
+    "translation": "Không thể cập nhật kênh."
   },
   {
     "id": "api.channel.patch_channel_moderations.license.error",
@@ -5105,11 +5105,11 @@
   },
   {
     "id": "api.channel.leave.direct.app_error",
-    "translation": "Không thể để lại tin nhắn trực tiếp"
+    "translation": "Không thể để lại tin nhắn trực tiếp."
   },
   {
     "id": "api.channel.leave.default.app_error",
-    "translation": "Không thể rời khỏi kênh mặc định {{.Channel}}"
+    "translation": "Không thể rời khỏi kênh mặc định {{.Channel}}."
   },
   {
     "id": "api.channel.join_channel.post_and_forget",
@@ -5133,11 +5133,11 @@
   },
   {
     "id": "api.channel.delete_channel.deleted.app_error",
-    "translation": "Kênh này đã bị đóng hoặc xoá bỏ"
+    "translation": "Kênh này đã bị đóng hoặc xoá bỏ."
   },
   {
     "id": "api.channel.delete_channel.cannot.app_error",
-    "translation": "Không thể xóa kênh mặc định {{.Channel}}"
+    "translation": "Không thể xóa kênh mặc định {{.Channel}}."
   },
   {
     "id": "api.channel.delete_channel.archived",
@@ -5397,7 +5397,7 @@
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
-    "translation": "Thiếu loại nội dung"
+    "translation": "Thiếu định dạng nội dung."
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
@@ -5498,5 +5498,33 @@
   {
     "id": "model.group.name.invalid_length.app_error",
     "translation": "Tên phải từ 1 đến 64 ký tự thường hoặc chữ số"
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "Không thể di chuyển kênh trực tiếp hoặc kênh nhắn tin nhóm"
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "Không thể tạo kênh kết nối trực tiếp giữa những người dùng này vì họ không cùng thuộc về một nhóm chung."
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "Quay lại {{.SiteName}}"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "Định dạng nội dung không hợp lệ."
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "Giao thức LDAP không có sẵn."
+  },
+  {
+    "id": "web.error.unsupported_browser.no_longer_support_version",
+    "translation": "Phiên bản hiện tại của trình duyệt không còn được Mattermost hỗ trợ"
+  },
+  {
+    "id": "web.error.unsupported_browser.no_longer_support",
+    "translation": "Trình duyệt này không còn được Mattermost hỗ trợ"
   }
 ]
