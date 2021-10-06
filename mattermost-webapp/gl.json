@@ -293,7 +293,6 @@
   "admin.billing.subscription.planDetails.userCountWithLimit": "{userCount} / {userLimit} usuarios",
   "admin.billing.subscription.privateCloudCard.contactSales": "Póñase en contacto co Dpto. de vendas",
   "admin.billing.subscription.privateCloudCard.contactSupport": "Póñase en contacto co servizo de asistencia",
-  "admin.billing.subscription.questions": "Preguntas?",
   "admin.billing.subscription.stateprovince": "Provincia/Estado",
   "admin.billing.subscription.title": "Subscricións",
   "admin.billing.subscription.upgrade": "Anovar",

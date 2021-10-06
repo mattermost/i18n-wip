@@ -313,7 +313,6 @@
   "admin.billing.subscription.planDetails.userCountWithLimit": "{userCount} / {userLimit} uživatelů",
   "admin.billing.subscription.privateCloudCard.contactSales": "Kontaktovat obchodníka",
   "admin.billing.subscription.privateCloudCard.contactSupport": "Kontaktovat podporu",
-  "admin.billing.subscription.questions": "Otázky?",
   "admin.billing.subscription.stateprovince": "Kraj/provincie",
   "admin.billing.subscription.title": "Předplatné",
   "admin.billing.subscription.updatePaymentInfo": "Aktualizovat platební informace",

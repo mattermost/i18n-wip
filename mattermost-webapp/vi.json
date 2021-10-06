@@ -311,7 +311,6 @@
   "admin.billing.subscription.planDetails.userCountWithLimit": "{userCount} / {userLimit} người dùng",
   "admin.billing.subscription.privateCloudCard.contactSales": "Liên hệ với bộ phận bán hàng",
   "admin.billing.subscription.privateCloudCard.contactSupport": "Liên hệ với bộ phận Hỗ trợ",
-  "admin.billing.subscription.questions": "Câu hỏi?",
   "admin.billing.subscription.stateprovince": "Thành phố/Tỉnh",
   "admin.billing.subscription.title": "Đăng ký",
   "admin.billing.subscription.updatePaymentInfo": "Cập nhật Thông tin Thanh toán",
