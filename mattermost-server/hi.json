@@ -790,5 +790,1009 @@
   {
     "id": "app.import.validate_channel_import_data.team_missing.error",
     "translation": "आवश्यक चैनल संपत्ति गुम है: team"
+  },
+  {
+    "id": "api.templates.welcome_subject",
+    "translation": "[{{ .SiteName }}] आप {{ .ServerURL }} में शामिल हुए"
+  },
+  {
+    "id": "api.templates.welcome_body.title",
+    "translation": "टीम में स्वागत है"
+  },
+  {
+    "id": "api.templates.welcome_body.info",
+    "translation": "इस ईमेल का उपयोग मैटरमोस्ट के साथ एक अकाऊंत बनाने के लिए किया गया था।"
+  },
+  {
+    "id": "api.templates.welcome_body.button",
+    "translation": "ईमेल सत्यापित करें"
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_info",
+    "translation": "बेहतरीन अनुभव के लिए, PC, Mac, iOS और Android के लिए ऐप डाउनलोड करें।"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.subject",
+    "translation": "मैटरमोस्ट हमसे संपर्क करें अनुरोध"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.footer",
+    "translation": "यदि आपके पास कोई अतिरिक्त पूछताछ है, तो कृपया support@mattermost.com पर संपर्क करें"
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.site_url_header",
+    "translation": "साईट URL: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.registered_users_header",
+    "translation": "कुल सक्रिय उपयोगकर्ता: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
+    "translation": "डायग्नोस्टिक आईडी: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.contact_name_header",
+    "translation": "संपर्क: "
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.contact_email_header",
+    "translation": "ईमेल: "
+  },
+  {
+    "id": "api.templates.verify_subject",
+    "translation": "[{{ .SiteName }}] ईमेल सत्यापन"
+  },
+  {
+    "id": "api.templates.verify_body.title",
+    "translation": "अपने ईमेल की पुष्टि करें"
+  },
+  {
+    "id": "api.templates.verify_body.info",
+    "translation": "इस ईमेल का उपयोग मैटरमोस्ट के साथ एक अकाऊंत बनाने के लिए किया गया था।"
+  },
+  {
+    "id": "api.templates.verify_body.button",
+    "translation": "ईमेल सत्यापित करें"
+  },
+  {
+    "id": "api.templates.username_change_subject",
+    "translation": "[{{ .SiteName }}] आपका उपयोगकर्ता नाम बदल गया है"
+  },
+  {
+    "id": "api.templates.username_change_body.title",
+    "translation": "आपने अपना उपयोगकर्ता नाम अपडेट किया"
+  },
+  {
+    "id": "api.templates.username_change_body.info",
+    "translation": "{{.TeamDisplayName}} के लिए आपका उपयोगकर्ता नाम बदलकर {{.NewUsername}} कर दिया गया है।"
+  },
+  {
+    "id": "api.templates.user_access_token_subject",
+    "translation": "[{{ .SiteName }}] व्यक्तिगत पहुंच टोकन आपके खाते में जोड़ा गया"
+  },
+  {
+    "id": "api.templates.user_access_token_body.title",
+    "translation": "व्यक्तिगत पहुंच टोकन आपके खाते में जोड़ा गया"
+  },
+  {
+    "id": "api.templates.user_access_token_body.info",
+    "translation": "{{ .SiteURL }} पर आपके खाते में एक व्यक्तिगत पहुंच टोकन जोड़ा गया था। उनका उपयोग आपके खाते से {{.SiteName}} तक पहुंचने के लिए किया जा सकता है।"
+  },
+  {
+    "id": "api.templates.signin_change_email.subject",
+    "translation": "[{{ .SiteName }}] आपकी साइन-इन विधि अपडेट कर दी गई है"
+  },
+  {
+    "id": "api.templates.signin_change_email.body.title",
+    "translation": "आपने अपना साइन-इन तरीका अपडेट किया"
+  },
+  {
+    "id": "api.templates.signin_change_email.body.method_email",
+    "translation": "ईमेल और पासवर्ड"
+  },
+  {
+    "id": "api.templates.signin_change_email.body.info",
+    "translation": "आपने अपनी साइन-इन पद्धति को {{ .SiteName }} से {{.Method}} में अपडेट कर दिया है।"
+  },
+  {
+    "id": "api.templates.reset_subject",
+    "translation": "[{{ .SiteName }}] अपना पासवर्ड रीसेट करें"
+  },
+  {
+    "id": "api.templates.reset_body.title",
+    "translation": "अपना पासवर्ड रीसेट करें"
+  },
+  {
+    "id": "api.templates.reset_body.subTitle",
+    "translation": "अपना पासवर्ड रीसेट करने के लिए नीचे दिए गए बटन पर क्लिक करें। यदि आपने इसका अनुरोध नहीं किया है, तो आप इस ईमेल को सुरक्षित रूप से अनदेखा कर सकते हैं।"
+  },
+  {
+    "id": "api.templates.reset_body.info",
+    "translation": "पासवर्ड रीसेट लिंक 24 घंटों में समाप्त हो जाता है।"
+  },
+  {
+    "id": "api.templates.reset_body.button",
+    "translation": "रीसेट पासवर्ड"
+  },
+  {
+    "id": "api.templates.remove_expired_license.subject",
+    "translation": "मैटरमोस्ट एंटरप्राइज लाइसेंस अक्षम कर दिया गया है।"
+  },
+  {
+    "id": "api.templates.remove_expired_license.body.title",
+    "translation": "आपका एंटरप्राइज़ संस्करण लाइसेंस समाप्त हो गया है और कुछ सुविधाएं अक्षम हो सकती हैं। कृपया अपना लाइसेंस अभी रीन्यू करें।"
+  },
+  {
+    "id": "api.templates.remove_expired_license.body.renew_button",
+    "translation": "लाइसेंस अभी रीन्यू करें"
+  },
+  {
+    "id": "api.templates.post_body.button",
+    "translation": "मैसेज देखें"
+  },
+  {
+    "id": "api.templates.password_change_subject",
+    "translation": "[{{ .SiteName }}] आपका पासवर्ड अपडेट कर दिया गया है"
+  },
+  {
+    "id": "api.templates.password_change_body.title",
+    "translation": "आपका पासवर्ड बदला जा चुका है"
+  },
+  {
+    "id": "api.templates.password_change_body.info",
+    "translation": "आपका पासवर्ड {{.TeamDisplayName}} के लिए {{.TeamURL}} पर {{.Method}} द्वारा अपडेट कर दिया गया है।"
+  },
+  {
+    "id": "api.templates.mfa_change_subject",
+    "translation": "[{{ .SiteName }}] आपका MFA अपडेट कर दिया गया है"
+  },
+  {
+    "id": "api.templates.license_up_for_renewal_title",
+    "translation": "आपकी मैटरमोस्ट सदस्यता रीन्यूअल के लिए तैयार है"
+  },
+  {
+    "id": "api.templates.license_up_for_renewal_subtitle_two",
+    "translation": "रीन्यू करने के लिए अपने ग्राहक खाते में लॉग इन करें"
+  },
+  {
+    "id": "api.templates.license_up_for_renewal_subtitle",
+    "translation": "{{.UserName}}, आपकी सदस्यता {{.Days}} दिनों में समाप्त होने वाली है। हम आशा करते हैं कि आप मैटरमोस्ट द्वारा सक्षम लचीले, सुरक्षित टीम सहयोग का अनुभव कर रहे हैं। यह सुनिश्चित करने के लिए जल्द ही रीन्यू करें कि आपकी टीम इन लाभों का आनंद लेती रहे।"
+  },
+  {
+    "id": "api.templates.license_up_for_renewal_renew_now",
+    "translation": "अब रीन्यू करें"
+  },
+  {
+    "id": "api.templates.license_up_for_renewal_subject",
+    "translation": "आपका लाइसेंस रीन्यूअल के लिए तैयार है"
+  },
+  {
+    "id": "api.templates.invite_subject",
+    "translation": "[{{ .SiteName }}] {{ .SenderName }} ने आपको {{ .TeamDisplayName }} टीम में शामिल होने के लिए आमंत्रित किया है"
+  },
+  {
+    "id": "api.templates.invite_guest_subject",
+    "translation": "[{{ .SiteName }}] {{ .SenderName }} ने आपको टीम में शामिल होने के लिए आमंत्रित किया {{ .TeamDisplayName }} अतिथि के रूप में"
+  },
+  {
+    "id": "api.templates.invite_body_guest.subTitle",
+    "translation": "टीम के साथ सहयोग करने के लिए आपको अतिथि के रूप में आमंत्रित किया गया था"
+  },
+  {
+    "id": "api.templates.invite_body_footer.title",
+    "translation": "मैटरमोस्ट क्या है?"
+  },
+  {
+    "id": "api.templates.invite_body_footer.learn_more",
+    "translation": "और अधिक जानें"
+  },
+  {
+    "id": "api.templates.invite_body_footer.info",
+    "translation": "मैटरमॉस्ट एक लचीला, ओपन सोर्स मैसेजिंग प्लेटफॉर्म है जो सुरक्षित टीम सहयोग को सक्षम बनाता है।"
+  },
+  {
+    "id": "api.templates.invite_body.title",
+    "translation": "{{ .SenderName }} ने आपको {{ .TeamDisplayName }} टीम में शामिल होने के लिए आमंत्रित किया है।"
+  },
+  {
+    "id": "api.templates.invite_body.subTitle",
+    "translation": "मैटरमोस्ट पर अपनी टीम के साथ सहयोग करना शुरू करें"
+  },
+  {
+    "id": "api.templates.invite_body.button",
+    "translation": "अब शामिल हों"
+  },
+  {
+    "id": "api.templates.email_warning",
+    "translation": "यदि आपने यह बदलाव नहीं किया है, तो कृपया सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.templates.email_organization",
+    "translation": "द्वारा भेजा "
+  },
+  {
+    "id": "api.templates.email_info3",
+    "translation": "{{.SiteName}} टीम"
+  },
+  {
+    "id": "api.templates.email_info2",
+    "translation": "शुभकामनाएं,"
+  },
+  {
+    "id": "api.templates.email_info1",
+    "translation": "कोई भी प्रश्न, हमें किसी भी समय मेल करें: "
+  },
+  {
+    "id": "api.templates.email_change_verify_subject",
+    "translation": "[{{ .SiteName }}] नया ईमेल पता सत्यापित करें"
+  },
+  {
+    "id": "api.templates.email_change_verify_body.title",
+    "translation": "आपने अपना ईमेल अपडेट किया"
+  },
+  {
+    "id": "api.templates.email_change_verify_body.info",
+    "translation": "{{.TeamDisplayName}} के लिए अपना ईमेल अपडेट करना समाप्त करने के लिए, कृपया नीचे दिए गए लिंक पर क्लिक करके पुष्टि करें कि यह सही पता है।"
+  },
+  {
+    "id": "api.templates.email_change_verify_body.button",
+    "translation": "ईमेल सत्यापित करें"
+  },
+  {
+    "id": "api.templates.email_change_subject",
+    "translation": "[{{ .SiteName }}] आपका ईमेल बदल गया है"
+  },
+  {
+    "id": "api.templates.email_change_body.title",
+    "translation": "आपने अपना ईमेल अपडेट किया"
+  },
+  {
+    "id": "api.templates.email_change_body.info",
+    "translation": "{{.TeamDisplayName}} के लिए आपका ईमेल बदलकर {{.NewEmail}} कर दिया गया है।"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.title",
+    "translation": "{{.WorkSpace}} वर्कस्पेस का आपका १४ दिन का परीक्षण तैयार है!"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subtitle_info",
+    "translation": "अपनी टीम बनाने और अपने वर्कस्पेस का अधिकतम लाभ उठाने के लिए निम्नलिखित कदम उठाएं।"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subtitle",
+    "translation": "अपना वर्कस्पेस सेट करें"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.subject",
+    "translation": "बधाई हो!"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.start_questions",
+    "translation": "आरंभ करने के बारे में प्रश्न हैं? हमें ईमेल करें"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info2",
+    "translation": "PC, Mac, iOS और Android पर सर्वश्रेष्ठ अनुभव के लिए।"
+  },
+  {
+    "id": "api.reaction.save_reaction.invalid.app_error",
+    "translation": "प्रतिक्रिया मान्य नहीं है।"
+  },
+  {
+    "id": "api.reaction.save.archived_channel.app_error",
+    "translation": "आप आर्काइव्ड चैनल में प्रतिक्रिया नहीं दे सकते।"
+  },
+  {
+    "id": "api.push_notifications.session.expired",
+    "translation": "सत्र समाप्त: सूचनाएं प्राप्त करना जारी रखने के लिए कृपया लॉग इन करें। {{.siteName}} के सत्र आपके सिस्टम व्यवस्थापक द्वारा प्रत्येक {{.daysCount}} दिन (दिनों) की अवधि समाप्त होने के लिए कॉन्फ़िगर किए गए हैं।"
+  },
+  {
+    "id": "api.push_notifications.message.parse.app_error",
+    "translation": "पुश सूचना मैसेज बनाने में त्रुटि हुई।"
+  },
+  {
+    "id": "api.push_notification.title.collapsed_threads_dm",
+    "translation": "सीधे मैसेज में उत्तर दें"
+  },
+  {
+    "id": "api.push_notification.title.collapsed_threads",
+    "translation": "{{.channelName}} में जवाब दें"
+  },
+  {
+    "id": "api.push_notification.id_loaded.fetch.app_error",
+    "translation": "आईडी-लोडेड पुश सूचना प्राप्त करने में एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.push_notification.id_loaded.default_message",
+    "translation": "आपको एक नया मैसेज प्राप्त हुआ है।"
+  },
+  {
+    "id": "api.push_notification.disabled.app_error",
+    "translation": "इस सर्वर पर पुश सूचनाएं अक्षम हैं।"
+  },
+  {
+    "id": "api.post_get_post_by_id.get.app_error",
+    "translation": "पोस्ट नहीं मिल पा रहा है।"
+  },
+  {
+    "id": "api.post.update_post.system_message.app_error",
+    "translation": "सिस्टम मैसेज अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "api.post.update_post.permissions_time_limit.app_error",
+    "translation": "पोस्ट संपादन की अनुमति केवल {{.timeLimit}} सेकंड के लिए है। विवरण के लिए कृपया अपने सिस्टम व्यवस्थापक से पूछें।"
+  },
+  {
+    "id": "api.post.update_post.permissions_details.app_error",
+    "translation": "पहले ही हटाई गई id={{.PostId}}."
+  },
+  {
+    "id": "api.post.update_post.find.app_error",
+    "translation": "अद्यतन करने के लिए मौजूदा पोस्ट या कमेंट खोजने में असमर्थ।"
+  },
+  {
+    "id": "api.post.update_post.can_not_update_post_in_deleted.error",
+    "translation": "हटाए गए चैनल में किसी पोस्ट को अपडेट नहीं किया जा सकता."
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_message",
+    "translation": "आपको एक मैसेज भेजा।"
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_image_only",
+    "translation": " एक फाइल संलग्न की।"
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_explicit_mention",
+    "translation": " आपका वर्णन किया।"
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_comment_on_thread",
+    "translation": " उस थ्रेड पर कमेंट किया जिसमें आपने भाग लिया था।"
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_comment_on_post",
+    "translation": " आपकी पोस्ट पर कमेंट किया।"
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_comment_on_crt_thread_dm",
+    "translation": " थ्रेड का जवाब दिया।"
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_channel_mention",
+    "translation": " चैनल को सूचित किया।"
+  },
+  {
+    "id": "api.post.search_posts.invalid_body.app_error",
+    "translation": "रिक्वेस्त बॉडी को पार्स करने में असमर्थ।"
+  },
+  {
+    "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
+    "translation": "हटाए गए चैनल में किसी पोस्ट को अपडेट नहीं किया जा सकता."
+  },
+  {
+    "id": "api.post.do_action.action_id.app_error",
+    "translation": "अमान्य क्रिया आईडी।"
+  },
+  {
+    "id": "api.post.disabled_here",
+    "translation": "@here को अक्षम कर दिया गया है क्योंकि चैनल में {{.Users}} से अधिक उपयोगकर्ता हैं।"
+  },
+  {
+    "id": "api.post.disabled_channel",
+    "translation": "@channel को अक्षम कर दिया गया है क्योंकि चैनल में {{.Users}} से अधिक उपयोगकर्ता हैं।"
+  },
+  {
+    "id": "api.post.disabled_all",
+    "translation": "@all को अक्षम कर दिया गया है क्योंकि चैनल में {{.Users}} से अधिक उपयोगकर्ता हैं।"
+  },
+  {
+    "id": "api.post.delete_post.can_not_delete_post_in_deleted.error",
+    "translation": "हटाए गए चैनल में किसी पोस्ट को हटा नहीं सकते।"
+  },
+  {
+    "id": "api.oauth.get_access_token.internal_user.app_error",
+    "translation": "उपयोगकर्ता को डेटाबेस से खींचते समय आंतरिक सर्वर त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.oauth.get_access_token.internal_session.app_error",
+    "translation": "server_error: डेटाबेस में सत्र सहेजते समय आंतरिक सर्वर त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.oauth.get_access_token.internal_saving.app_error",
+    "translation": "server_error: डेटाबेस तक पहुंच टोकन सहेजते समय आंतरिक सर्वर त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.oauth.get_access_token.internal.app_error",
+    "translation": "server_error: डेटाबेस तक पहुँचने के दौरान आंतरिक सर्वर त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.oauth.get_access_token.expired_code.app_error",
+    "translation": "invalid_grant: अमान्य या समाप्त प्राधिकरण कोड।"
+  },
+  {
+    "id": "api.oauth.get_access_token.disabled.app_error",
+    "translation": "सिस्टम व्यवस्थापक ने OAuth2 सेवा प्रदाता को बंद कर दिया है।"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "अमान्य सामग्री प्रकार।"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+    "translation": "अमान्य प्रमाणपत्र टेक्स्ट."
+  },
+  {
+    "id": "api.admin.saml.not_available.app_error",
+    "translation": "SAML 2.0 इस सर्वर पर कॉन्फ़िगर या समर्थित नहीं है।"
+  },
+  {
+    "id": "api.channel.channel_member_counts_by_group.license.error",
+    "translation": "आपका लाइसेंस समूहों का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.channel.change_channel_privacy.public_to_private",
+    "translation": "इस चैनल को एक निजी चैनल में बदल दिया गया है।"
+  },
+  {
+    "id": "api.channel.change_channel_privacy.private_to_public",
+    "translation": "इस चैनल को एक सार्वजनिक चैनल में बदल दिया गया है और इसमें टीम का कोई भी सदस्य शामिल हो सकता है।"
+  },
+  {
+    "id": "api.channel.add_user_to_channel.type.app_error",
+    "translation": "उपयोगकर्ता को इस चैनल प्रकार में नहीं जोड़ा जा सकता."
+  },
+  {
+    "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
+    "translation": "उपयोगकर्ता को चैनल में जोड़ने में विफल क्योंकि उन्हें टीम से निकाल दिया गया है।"
+  },
+  {
+    "id": "api.channel.add_user.to.channel.failed.app_error",
+    "translation": "उपयोगकर्ता को चैनल में जोड़ने में विफल."
+  },
+  {
+    "id": "api.channel.add_members.user_denied",
+    "translation": "समूह की कमी के कारण निम्नलिखित उपयोगकर्ताओं को चैनल सदस्यता अस्वीकृत कर दी गई: {{ .UserIDs }}"
+  },
+  {
+    "id": "api.channel.add_members.error",
+    "translation": "चैनल सदस्यों को जोड़ने में त्रुटि।"
+  },
+  {
+    "id": "api.channel.add_member.added",
+    "translation": "%v चैनल में %v द्वारा जोड़ा गया।"
+  },
+  {
+    "id": "api.channel.add_guest.added",
+    "translation": "%v ने चैनल में %v द्वारा अतिथि के रूप में जोड़ा।"
+  },
+  {
+    "id": "api.bot.teams_channels.add_message_mobile",
+    "translation": "कृपया मुझे उन टीमों और चैनलों में जोड़ें जिनमें आप चाहते हैं कि मैं बातचीत करूं। ऐसा करने के लिए, ब्राउज़र या मैटरमोस्ट डेस्कटॉप ऐप का उपयोग करें।"
+  },
+  {
+    "id": "api.bot.create_disabled",
+    "translation": "बॉट निर्माण अक्षम कर दिया गया है।"
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "{{.SiteName}} पर वापस जाएं"
+  },
+  {
+    "id": "api.admin.upload_brand_image.too_large.app_error",
+    "translation": "फाइल अपलोड करने में असमर्थ। फ़ाइल बहुत बड़ी है।"
+  },
+  {
+    "id": "api.admin.upload_brand_image.parse.app_error",
+    "translation": "मल्टीपार्ट फॉर्म को पार्स नहीं किया जा सका।"
+  },
+  {
+    "id": "api.admin.test_s3.missing_s3_bucket",
+    "translation": "S3 बकेट आवश्यक है"
+  },
+  {
+    "id": "api.admin.test_email.subject",
+    "translation": "मैटरमोस्ट - ईमेल सेटिंग्स का परीक्षण"
+  },
+  {
+    "id": "api.admin.test_email.reenter_password",
+    "translation": "SMTP सर्वर, पोर्ट या उपयोगकर्ता नाम बदल गया है। कनेक्शन का परीक्षण करने के लिए कृपया SMTP पासवर्ड दोबारा दर्ज करें।"
+  },
+  {
+    "id": "api.admin.test_email.missing_server",
+    "translation": "SMTP सर्वर की आवश्यकता है"
+  },
+  {
+    "id": "api.admin.test_email.body",
+    "translation": "ऐसा लगता है कि आपका मैटरमोस्ट ईमेल सही तरीके से सेटअप है!"
+  },
+  {
+    "id": "api.channel.update_channel_scheme.license.error",
+    "translation": "आपका लाइसेंस किसी चैनल की योजना को अपडेट करने का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.channel.update_channel_privacy.default_channel_error",
+    "translation": "डिफ़ॉल्ट चैनल को निजी नहीं बनाया जा सकता."
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.scheme_role.app_error",
+    "translation": "प्रदान की गई भूमिका एक योजना द्वारा प्रबंधित की जाती है और इसलिए इसे सीधे चैनल सदस्य पर लागू नहीं किया जा सकता है।"
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.changing_guest_role.app_error",
+    "translation": "अमान्य चैनल सदस्य अद्यतन: आप अतिथि भूमिका को मैन्युअल रूप से जोड़ या हटा नहीं सकते हैं।"
+  },
+  {
+    "id": "api.channel.update_channel.typechange.app_error",
+    "translation": "चैनल प्रकार को अपडेट नहीं किया जा सकता है।"
+  },
+  {
+    "id": "api.channel.update_channel.tried.app_error",
+    "translation": "डिफ़ॉल्ट चैनल {{.Channel}} का अमान्य अद्यतन करने का प्रयास किया।"
+  },
+  {
+    "id": "api.channel.update_channel.deleted.app_error",
+    "translation": "चैनल को संग्रहीत या हटा दिया गया है।"
+  },
+  {
+    "id": "api.channel.restore_channel.restored.app_error",
+    "translation": "चैनल को संग्रह से निकालने में असमर्थ. चैनल संग्रहीत नहीं है।"
+  },
+  {
+    "id": "api.channel.remove_user_from_channel.app_error",
+    "translation": "उपयोगकर्ता को इस प्रकार के चैनल से नहीं निकाला जा सकता."
+  },
+  {
+    "id": "api.channel.remove_members.denied",
+    "translation": "समूह की कमी के कारण निम्नलिखित उपयोगकर्ताओं को चैनल सदस्यता निष्कासन अस्वीकार कर दिया गया: {{ .UserIDs }}"
+  },
+  {
+    "id": "api.channel.remove_member.removed",
+    "translation": "%v को चैनल से हटाया गया।"
+  },
+  {
+    "id": "api.channel.remove_member.group_constrained.app_error",
+    "translation": "किसी उपयोगकर्ता को समूह-विवश चैनल से निकालने में असमर्थ।"
+  },
+  {
+    "id": "api.channel.remove_channel_member.type.app_error",
+    "translation": "किसी चैनल से उपयोगकर्ता को निकालने में असमर्थ."
+  },
+  {
+    "id": "api.channel.remove.default.app_error",
+    "translation": "उपयोगकर्ता को डिफ़ॉल्ट चैनल {{.Channel}} से निकालने में असमर्थ।"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
+    "translation": "%s ने चैनल हैडर को इसमें अपडेट किया: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
+    "translation": "%s ने चैनल हैडर को यहां से अपडेट किया: %s से: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.retrieve_user.error",
+    "translation": "चैनल हेडर अपडेट करते समय उपयोगकर्ता को पुनः प्राप्त करने में विफल"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.removed",
+    "translation": "%s ने चैनल हैडर हटा दिया (था: %s)"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
+    "translation": "%s ने चैनल प्रदर्शन नाम को इस से अपडेट किया: %s से: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.retrieve_user.error",
+    "translation": "चैनल डिस्प्लेनाम फ़ील्ड को अपडेट करते समय उपयोगकर्ता को पुनः प्राप्त करने में विफल"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
+    "translation": "डिस्प्लेनाम अपडेट मैसेज पोस्ट करने में विफल"
+  },
+  {
+    "id": "api.channel.patch_update_channel.forbidden.app_error",
+    "translation": "चैनल को अपडेट करने में विफल."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.license.error",
+    "translation": "आपका लाइसेंस चैनल मॉडरेशन का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "कैशे को अमान्य करने में त्रुटि"
+  },
+  {
+    "id": "api.channel.leave.left",
+    "translation": "%v ने चैनल छोड़ दिया।"
+  },
+  {
+    "id": "api.channel.leave.last_member.app_error",
+    "translation": "आप अकेले सदस्य हैं, छोड़ने के बजाय निजी चैनल को निकालने का प्रयास करें।"
+  },
+  {
+    "id": "api.command_code.name",
+    "translation": "कोड"
+  },
+  {
+    "id": "api.command_code.message.app_error",
+    "translation": "/code कमांड के साथ एक मैसेज अवश्य दिया जाना चाहिए।"
+  },
+  {
+    "id": "api.command_code.hint",
+    "translation": "[text]"
+  },
+  {
+    "id": "api.command_code.desc",
+    "translation": "टेक्स्ट को कोड ब्लॉक के रूप में प्रदर्शित करें"
+  },
+  {
+    "id": "api.command_channel_rename.update_channel.app_error",
+    "translation": "वर्तमान चैनल को अपडेट करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_channel_rename.too_short.app_error",
+    "translation": "चैनल का नाम {{.Length}} या अधिक वर्णों का होना चाहिए।"
+  },
+  {
+    "id": "api.command_channel_rename.too_long.app_error",
+    "translation": "चैनल का नाम {{.Length}} या उससे कम वर्णों का होना चाहिए।"
+  },
+  {
+    "id": "api.command_channel_rename.permission.app_error",
+    "translation": "आपके पास चैनल का नाम बदलने के लिए उपयुक्त अनुमति नहीं है।"
+  },
+  {
+    "id": "api.command_channel_rename.name",
+    "translation": "नाम बदलने"
+  },
+  {
+    "id": "api.command_channel_rename.message.app_error",
+    "translation": "/rename कमांड के साथ एक मैसेज अवश्य दिया जाना चाहिए।"
+  },
+  {
+    "id": "api.command_channel_rename.hint",
+    "translation": "[text]"
+  },
+  {
+    "id": "api.command_channel_rename.direct_group.app_error",
+    "translation": "सीधे संदेश चैनलों का नाम बदलने में असमर्थ।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
+    "translation": "प्रदर्शन सुधारना"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
+    "translation": "सबसे महत्वपूर्ण हमसे संपर्क करें अनुरोध। मुझे सिस्टम योजनाओं के साथ उन्नत अनुमतियों का उपयोग करने के बारे में अधिक जानने में दिलचस्पी है।\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। उन्नत सुविधाओं को सक्षम करने के लिए सिस्टम कंसोल पर जाएं।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
+    "translation": "मैटरमोस्ट के साथ स्केलिंग"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
+    "translation": "सबसे महत्वपूर्ण हमसे संपर्क करें अनुरोध। मेरी टीम में अब 500 उपयोगकर्ता हैं, और मैं मैटरमोस्ट एंटरप्राइज संस्करण पर विचार कर रहा हूं।\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
+    "translation": "केवल पढ़ने के लिए घोषणा चैनल"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। चैनल बनाएं और चैनल व्यवस्थापकों तक पोस्टिंग को सीमित करने के लिए **System Console > User Management > Channels** पर जाएं।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
+    "translation": "सबसे महत्वपूर्ण हमसे संपर्क करें अनुरोध। मुझे केवल-पढ़ने के लिए घोषणा चैनल बनाने के बारे में और जानने में दिलचस्पी है।\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
+    "translation": "मैटरमोस्ट के साथ स्केलिंग"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
+    "translation": "सबसे महत्वपूर्ण हमसे संपर्क करें अनुरोध। मेरी टीम में अब 200 उपयोगकर्ता हैं, और मैं मैटरमोस्ट एंटरप्राइज संस्करण पर विचार कर रहा हूं।\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
+    "translation": "मैटरमोस्ट के साथ स्केलिंग"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
+    "translation": "सबसे महत्वपूर्ण हमसे संपर्क करें अनुरोध। मेरी टीम में अब 100 उपयोगकर्ता हैं, और मैं मैटरमोस्ट एंटरप्राइज संस्करण पर विचार कर रहा हूं।\n"
+  },
+  {
+    "id": "api.command_channel_rename.desc",
+    "translation": "चैनल का नाम बदलें"
+  },
+  {
+    "id": "api.command_channel_rename.channel.app_error",
+    "translation": "वर्तमान चैनल को पुनः प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_channel_remove.channel.app_error",
+    "translation": "वर्तमान चैनल को पुनः प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.max_length",
+    "translation": "दर्ज किया गया टेक्स्ट वर्ण सीमा से अधिक है। चैनल का उद्देश्य {{.MaxLength}} वर्णों तक सीमित है।"
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.app_error",
+    "translation": "चैनल के उद्देश्य को अपडेट करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_channel_purpose.permission.app_error",
+    "translation": "आपके पास चैनल के उद्देश्य को संपादित करने के लिए उपयुक्त अनुमतियां नहीं हैं।"
+  },
+  {
+    "id": "api.command_channel_purpose.name",
+    "translation": "उद्देश्य"
+  },
+  {
+    "id": "api.command_channel_purpose.message.app_error",
+    "translation": "/purpose कमांड के साथ एक मैसेज प्रदान किया जाना चाहिए।"
+  },
+  {
+    "id": "api.command_channel_purpose.hint",
+    "translation": "[text]"
+  },
+  {
+    "id": "api.command_channel_purpose.direct_group.app_error",
+    "translation": "सीधे संदेश चैनलों के लिए उद्देश्य निर्धारित करने में असमर्थ। इसके बजाय हेडर सेट करने के लिए /header का उपयोग करें।"
+  },
+  {
+    "id": "api.command_channel_purpose.desc",
+    "translation": "चैनल का उद्देश्य संपादित करें"
+  },
+  {
+    "id": "api.command_channel_purpose.channel.app_error",
+    "translation": "वर्तमान चैनल को पुनः प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_channel_header.update_channel.max_length",
+    "translation": "दर्ज किया गया टेक्स्ट वर्ण सीमा से अधिक है। चैनल हेडर {{.MaxLength}} वर्णों तक सीमित है।"
+  },
+  {
+    "id": "api.command_channel_header.update_channel.app_error",
+    "translation": "चैनल हेडर को अपडेट करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_channel_header.permission.app_error",
+    "translation": "आपके पास चैनल हेडर संपादित करने के लिए उपयुक्त अनुमतियां नहीं हैं।"
+  },
+  {
+    "id": "api.command_channel_header.name",
+    "translation": "हैडर"
+  },
+  {
+    "id": "api.command_channel_header.message.app_error",
+    "translation": "टेक्स्ट को /header कमांड के साथ प्रदान किया जाना चाहिए।"
+  },
+  {
+    "id": "api.command_channel_header.hint",
+    "translation": "[text]"
+  },
+  {
+    "id": "api.command_channel_header.desc",
+    "translation": "चैनल हेडर संपादित करें"
+  },
+  {
+    "id": "api.command_channel_header.channel.app_error",
+    "translation": "वर्तमान चैनल को पुनः प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_away.success",
+    "translation": "अब आप दूर हैं"
+  },
+  {
+    "id": "api.command_away.name",
+    "translation": "अवे"
+  },
+  {
+    "id": "api.command_away.desc",
+    "translation": "अपना स्तेतस अवे सेट करें"
+  },
+  {
+    "id": "api.command.team_mismatch.app_error",
+    "translation": "टीमों में कमांड अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "api.command.invite_people.sent",
+    "translation": "ईमेल आमंत्रण भेजा गया"
+  },
+  {
+    "id": "api.command.invite_people.no_email",
+    "translation": "कृपया एक या अधिक मान्य ईमेल निर्दिष्ट करें"
+  },
+  {
+    "id": "api.command.invite_people.name",
+    "translation": "invite_people"
+  },
+  {
+    "id": "api.command.invite_people.invite_off",
+    "translation": "इस सर्वर पर उपयोगकर्ता निर्माण अक्षम कर दिया गया है, कोई आमंत्रण नहीं भेजा गया"
+  },
+  {
+    "id": "api.command.invite_people.hint",
+    "translation": "[name@domain.com ...]"
+  },
+  {
+    "id": "api.command.invite_people.fail",
+    "translation": "ईमेल आमंत्रण भेजने में त्रुटि आई"
+  },
+  {
+    "id": "api.command.invite_people.email_off",
+    "translation": "ईमेल कॉन्फ़िगर नहीं किया गया है, कोई आमंत्रण नहीं भेजा गया है"
+  },
+  {
+    "id": "api.command.invite_people.email_invitations_off",
+    "translation": "ईमेल आमंत्रण अक्षम हैं, कोई आमंत्रण नहीं भेजा गया है"
+  },
+  {
+    "id": "api.command.invite_people.desc",
+    "translation": "अपनी मैटरमोस्ट टीम को एक ईमेल आमंत्रण भेजें"
+  },
+  {
+    "id": "api.command.execute_command.start.app_error",
+    "translation": "कोई कमांड ट्रिगर नहीं मिला।"
+  },
+  {
+    "id": "api.command.execute_command.not_found.app_error",
+    "translation": "'{{.Trigger}}' के ट्रिगर वाला कमांड नहीं मिला। \"/\" से शुरू होने वाला संदेश भेजने के लिए, संदेश की शुरुआत में एक खाली जगह जोड़ने का प्रयास करें।"
+  },
+  {
+    "id": "api.command.execute_command.format.app_error",
+    "translation": "कमांड ट्रिगर शब्द में प्रमुख स्लैश वर्ण गुम है"
+  },
+  {
+    "id": "api.command.execute_command.failed_resp.app_error",
+    "translation": "'{{.Trigger}}' के ट्रिगर के साथ कमांड ने प्रतिक्रिया दी {{.Status}}।"
+  },
+  {
+    "id": "api.command.execute_command.failed_empty.app_error",
+    "translation": "'{{.Trigger}}' के ट्रिगर के साथ कमांड ने एक खाली प्रतिक्रिया दी।"
+  },
+  {
+    "id": "api.command.execute_command.failed.app_error",
+    "translation": "'{{.Trigger}}' के ट्रिगर वाला कमांड विफल रहा।"
+  },
+  {
+    "id": "api.command.execute_command.create_post_failed.app_error",
+    "translation": "कमांड '{{.Trigger}}' प्रतिक्रिया पोस्ट करने में विफल रहा। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.command.duplicate_trigger.app_error",
+    "translation": "यह ट्रिगर शब्द पहले से ही प्रयोग में है। कृपया कोई दूसरा शब्द चुनें।"
+  },
+  {
+    "id": "api.command.disabled.app_error",
+    "translation": "सिस्टम एडमिन द्वारा कमांड्स को डिसेबल कर दिया गया है।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
+    "translation": "सबसे महत्वपूर्ण हमसे संपर्क करें अनुरोध। मुझे इलास्टिक्स खोज के साथ प्रदर्शन में सुधार के बारे में और जानने में दिलचस्पी है।\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। उन्नत अनुमतियां सक्षम करने के लिए **System Console > User Management > Permissions** पर जाएं।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.notification_title",
+    "translation": "उन्नत अनुमतियों का उपयोग करना"
+  },
+  {
+    "id": "model.team.is_valid.company.app_error",
+    "translation": "अमान्य कंपनी का नाम."
+  },
+  {
+    "id": "model.team.is_valid.characters.app_error",
+    "translation": "नाम 2 या अधिक लोअरकेस अक्षरांकीय वर्ण होना चाहिए।"
+  },
+  {
+    "id": "model.reaction.is_valid.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.reaction.is_valid.post_id.app_error",
+    "translation": "अमान्य पोस्ट आईडी."
+  },
+  {
+    "id": "model.reaction.is_valid.emoji_name.app_error",
+    "translation": "अमान्य इमोजी नाम."
+  },
+  {
+    "id": "model.preference.is_valid.name.app_error",
+    "translation": "अमान्य नाम।"
+  },
+  {
+    "id": "model.preference.is_valid.id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.post.is_valid.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.post.is_valid.type.app_error",
+    "translation": "अमान्य प्रकार।"
+  },
+  {
+    "id": "model.post.is_valid.msg.app_error",
+    "translation": "अमान्य मैसेज।"
+  },
+  {
+    "id": "model.post.is_valid.hashtags.app_error",
+    "translation": "अमान्य हैशटैग।"
+  },
+  {
+    "id": "model.post.is_valid.filenames.app_error",
+    "translation": "अमान्य फ़ाइल नाम।"
+  },
+  {
+    "id": "model.post.is_valid.file_ids.app_error",
+    "translation": "अमान्य फ़ाइल आईडी. ध्यान दें कि अपलोड अधिकतम 10 फ़ाइलों तक सीमित हैं। कृपया अधिक फ़ाइलों के लिए अतिरिक्त पोस्ट का उपयोग करें।"
+  },
+  {
+    "id": "model.post.is_valid.channel_id.app_error",
+    "translation": "अमान्य चैनल आईडी."
+  },
+  {
+    "id": "model.post.channel_notifications_disabled_in_channel.message",
+    "translation": "चैनल सूचनाएं {{.ChannelName}} में अक्षम हैं। {{.Mention}} ने कोई सूचना ट्रिगर नहीं की।"
+  },
+  {
+    "id": "model.plugin_key_value.is_valid.plugin_id.app_error",
+    "translation": "अमान्य प्लग इन आईडी, {{.Min}} से अधिक और अधिकतम {{.Max}} वर्णों से अधिक लंबा होना चाहिए।"
+  },
+  {
+    "id": "model.plugin_key_value.is_valid.key.app_error",
+    "translation": "अमान्य की, {{.Min}} से अधिक और अधिकतम {{.Max}} वर्णों से अधिक लंबी होनी चाहिए।"
+  },
+  {
+    "id": "model.plugin_command_error.error.app_error",
+    "translation": "/{{.Command}} के लिए प्लगइन काम नहीं कर रहा है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें"
+  },
+  {
+    "id": "model.plugin_command_crash.error.app_error",
+    "translation": "/{{.Command}} कमांड ने {{.PluginId}} प्लगइन को क्रैश कर दिया। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें"
+  },
+  {
+    "id": "model.plugin_command.error.app_error",
+    "translation": "इस कमांड को निष्पादित करने का प्रयास करते समय एक त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "model.outgoing_hook.username.app_error",
+    "translation": "अमान्य उपयोगकर्ता नाम।"
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.words.app_error",
+    "translation": "अमान्य ट्रिगर शब्द."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.url.app_error",
+    "translation": "अमान्य कॉलबैक URL. प्रत्येक एक मान्य URL होना चाहिए और http:// या https:// से प्रारंभ होना चाहिए।"
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.trigger_words.app_error",
+    "translation": "अमान्य ट्रिगर शब्द."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.token.app_error",
+    "translation": "अमान्य टोकन।"
+  },
+  {
+    "id": "app.user.store_is_empty.app_error",
+    "translation": "यह जांचने में विफल रहा कि उपयोगकर्ता स्टोर खाली है या नहीं।"
   }
 ]
