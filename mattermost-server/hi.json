@@ -121,7 +121,7 @@
   },
   {
     "id": "api.admin.saml.metadata.app_error",
-    "translation": ""
+    "translation": "सेवा प्रदाता मेटाडेटा बनाते समय कोई त्रुटि उत्पन्न हुई।"
   },
   {
     "id": "web.incoming_webhook.user.app_error",
@@ -973,7 +973,7 @@
   },
   {
     "id": "api.templates.invite_guest_subject",
-    "translation": "[{{ .SiteName }}] {{ .SenderName }} ने आपको टीम में शामिल होने के लिए आमंत्रित किया {{ .TeamDisplayName }} अतिथि के रूप में"
+    "translation": "[{{ .SiteName }}] {{ .SenderName }} ने आपको अतिथि के रूप में {{ .TeamDisplayName }} टीम में शामिल होने के लिए आमंत्रित किया"
   },
   {
     "id": "api.templates.invite_body_guest.subTitle",
@@ -1193,7 +1193,7 @@
   },
   {
     "id": "api.oauth.get_access_token.internal_user.app_error",
-    "translation": "उपयोगकर्ता को डेटाबेस से खींचते समय आंतरिक सर्वर त्रुटि का सामना करना पड़ा।"
+    "translation": "सर्वर त्रुटि: उपयोगकर्ता को डेटाबेस से खींचते समय आंतरिक सर्वर त्रुटि का सामना करना पड़ा।"
   },
   {
     "id": "api.oauth.get_access_token.internal_session.app_error",
