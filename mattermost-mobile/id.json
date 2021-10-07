@@ -1,5 +1,9 @@
 {
   "about.title": "Tentang {appTitle}",
   "about.teamEditiont1": "Edisi Perusahaan",
-  "about.teamEditionLearn": "Bergabung ke komunitas Mattermost di "
+  "about.teamEditionLearn": "Bergabung ke komunitas Mattermost di ",
+  "about.teamEditionSt": "Semua komunikasi tim Anda di satu tempat, langsung dapat dicari dan diakses di mana saja.",
+  "about.enterpriseEditionLearn": "Pelajari lebih lanjut tentang Edisi Perusahaan di ",
+  "about.enterpriseEditione1": "Edisi Perusahaan",
+  "about.date": "Tanggal Pembuatan:"
 }
