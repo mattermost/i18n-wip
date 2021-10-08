@@ -1794,5 +1794,97 @@
   {
     "id": "app.user.store_is_empty.app_error",
     "translation": "यह जांचने में विफल रहा कि उपयोगकर्ता स्टोर खाली है या नहीं।"
+  },
+  {
+    "id": "model.user.is_valid.auth_data_pwd.app_error",
+    "translation": "अमान्य उपयोगकर्ता, पासवर्ड और प्रमाणीकरण डेटा सेट नहीं किए जा सकते।"
+  },
+  {
+    "id": "model.user.is_valid.auth_data.app_error",
+    "translation": "अमान्य प्रमाणीकरण डेटा।"
+  },
+  {
+    "id": "model.upload_session.is_valid.user_id.app_error",
+    "translation": "UserId के लिए अमान्य मान"
+  },
+  {
+    "id": "model.upload_session.is_valid.type.app_error",
+    "translation": "Type के लिए अमान्य मान"
+  },
+  {
+    "id": "model.upload_session.is_valid.path.app_error",
+    "translation": "Path के लिए अमान्य मान"
+  },
+  {
+    "id": "model.upload_session.is_valid.id.app_error",
+    "translation": "Id के लिए अमान्य मान"
+  },
+  {
+    "id": "model.upload_session.is_valid.filename.app_error",
+    "translation": "Filename के लिए अमान्य मान"
+  },
+  {
+    "id": "model.upload_session.is_valid.file_size.app_error",
+    "translation": "FileSize के लिए अमान्य मान"
+  },
+  {
+    "id": "model.upload_session.is_valid.file_offset.app_error",
+    "translation": "FileOffset के लिए अमान्य मान"
+  },
+  {
+    "id": "model.upload_session.is_valid.create_at.app_error",
+    "translation": "CreateAt के लिए अमान्य मान"
+  },
+  {
+    "id": "model.upload_session.is_valid.channel_id.app_error",
+    "translation": "ChannelId के लिए अमान्य मान।"
+  },
+  {
+    "id": "model.token.is_valid.size",
+    "translation": "अमान्य टोकन।"
+  },
+  {
+    "id": "model.token.is_valid.expiry",
+    "translation": "अमान्य टोकन समाप्ति"
+  },
+  {
+    "id": "model.team_member.is_valid.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.team_member.is_valid.team_id.app_error",
+    "translation": "अमान्य टीम आईडी।"
+  },
+  {
+    "id": "model.team_member.is_valid.roles_limit.app_error",
+    "translation": "अमान्य टीम सदस्य भूमिकाएं {{.Limit}} वर्णों से अधिक लंबी हैं।"
+  },
+  {
+    "id": "model.team.is_valid.url.app_error",
+    "translation": "अमान्य URL पहचानकर्ता।"
+  },
+  {
+    "id": "model.team.is_valid.type.app_error",
+    "translation": "अमान्य प्रकार।"
+  },
+  {
+    "id": "model.team.is_valid.reserved.app_error",
+    "translation": "यह URL अनुपलब्ध है। कृपया दूसरा प्रयास करें।"
+  },
+  {
+    "id": "model.team.is_valid.name.app_error",
+    "translation": "अमान्य नाम।"
+  },
+  {
+    "id": "model.team.is_valid.invite_id.app_error",
+    "translation": "अमान्य आमंत्रण आईडी."
+  },
+  {
+    "id": "model.team.is_valid.email.app_error",
+    "translation": "अवैध ईमेल।"
+  },
+  {
+    "id": "model.team.is_valid.domains.app_error",
+    "translation": "अमान्य अनुमत डोमेन."
   }
 ]
