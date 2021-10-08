@@ -233,5 +233,9 @@
   "apps.error.command.unknown_channel": "यह फील्ड के लिए अपरिचित चैनल है `{फील्डनाम }`: `{विकल्प}`।",
   "apps.error.command.unknown_user": "यह फील्ड के लिए अपरिचित यूजर है `{फील्डनाम }`: `{विकल्प}`।",
   "apps.error.form.no_form": "प्रपत्र परिभाषित नहीं है।",
-  "apps.error.form.no_call": "आह्वान परिभाषित नहीं है ।"
+  "apps.error.form.no_call": "आह्वान परिभाषित नहीं है ।",
+  "emoji_picker.flags": "झंडे",
+  "custom_status.expiry_dropdown.one_hour": "१ घंटा",
+  "custom_status.expiry_dropdown.four_hours": "४ घंटे",
+  "custom_status.expiry_time.today": "आज"
 }
