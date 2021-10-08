@@ -21,7 +21,7 @@
   "channel_header.directchannel.you": "{displayname} (तपाईं) ",
   "mobile.reaction_header.all_emojis": "सबै",
   "channel_modal.descriptionHelp": "यो च्यानल कसरी प्रयोग गर्नुपर्दछ वर्णन गर्नुहोस्।",
-  "channel_modal.cancel": "रद्द",
+  "channel_modal.cancel": "क्यानसेल",
   "channel_members_modal.remove": "हटाउनुहोस्",
   "channel_loader.someone": "कोही",
   "channel_info.purpose": "उद्देश्य:",
