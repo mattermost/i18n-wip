@@ -255,5 +255,6 @@
   "apps.error.form.submit.pretext": "मोडल सबमिट करने में एक त्रुटि हुई है। ऐप डेवलपर से संपर्क करें। विवरण: {details}",
   "apps.error.form.refresh_no_refresh": "बिना रिफ्रेश फील्ड पर रिफ्रेश कौल किया गया।",
   "apps.error.form.refresh": "चयनित फ़ील्ड लाने में त्रुटि हुई है। ऐप डेवलपर से संपर्क करें। विवरण: {details}",
-  "apps.error.form.no_lookup_call": "performLookupCall props.call परिभाषित नहीं है"
+  "apps.error.form.no_lookup_call": "performLookupCall props.call परिभाषित नहीं है",
+  "mobile.help.title": "मदद"
 }
