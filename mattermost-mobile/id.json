@@ -1,8 +1,8 @@
 {
   "about.title": "Tentang {appTitle}",
   "about.teamEditiont1": "Edisi Perusahaan",
-  "about.teamEditionLearn": "Bergabung ke komunitas Mattermost di ",
-  "about.teamEditionSt": "Semua komunikasi tim Anda di satu tempat, langsung dapat dicari dan diakses di mana saja.",
+  "about.teamEditionLearn": "Bergabunglah dengan komunitas Mattermost di ",
+  "about.teamEditionSt": "Semua komunikasi tim Anda di satu tempat, langsung dapat dicari dan dapat diakses di mana saja.",
   "about.enterpriseEditionLearn": "Pelajari lebih lanjut tentang Edisi Perusahaan di ",
   "about.enterpriseEditione1": "Edisi Perusahaan",
   "about.date": "Tanggal Pembuatan:",
@@ -79,5 +79,8 @@
   "apps.error.command.field_missing": "Bidang isian yang diperlukan hilang: `{fieldName}`.",
   "apps.error": "Kesalahan: {error}",
   "api.channel.add_member.added": "{addedUsername} ditambahkan ke kanal oleh {username}.",
-  "api.channel.add_guest.added": "{addedUsername} ditambahkan ke kanal sebagai tamu oleh {username}."
+  "api.channel.add_guest.added": "{addedUsername} ditambahkan ke kanal sebagai tamu oleh {username}.",
+  "about.hashee": "EE Membangun Hash:",
+  "about.hash": "Membangun Hash:",
+  "about.enterpriseEditionSt": "Komunikasi modern dari balik firewall Anda."
 }
