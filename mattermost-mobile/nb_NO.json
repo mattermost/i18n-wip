@@ -29,6 +29,6 @@
   "api.channel.add_member.added": "{addedUsername} lagt til kanal av {username}.",
   "announcment_banner.dont_show_again": "Ikke vis igjen",
   "about.title": "Om {appTitle}",
-  "about.teamEditiont1": "Enterprise Version",
+  "about.teamEditiont1": "Enterprise-versjon",
   "about.enterpriseEditione1": "Enterprise-versjon"
 }
