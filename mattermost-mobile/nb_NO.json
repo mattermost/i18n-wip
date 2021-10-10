@@ -30,5 +30,7 @@
   "announcment_banner.dont_show_again": "Ikke vis igjen",
   "about.title": "Om {appTitle}",
   "about.teamEditiont1": "Enterprise-versjon",
-  "about.enterpriseEditione1": "Enterprise-versjon"
+  "about.enterpriseEditione1": "Enterprise-versjon",
+  "api.channel.guest_join_channel.post_and_forget": "{username} ble med som gjest i kanalen.",
+  "api.channel.add_guest.added": "{addedUsername} ble lagt til som gjest i kanalen av {username}."
 }
