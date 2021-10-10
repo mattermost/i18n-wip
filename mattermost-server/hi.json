@@ -1886,5 +1886,413 @@
   {
     "id": "model.team.is_valid.domains.app_error",
     "translation": "अमान्य अनुमत डोमेन."
+  },
+  {
+    "id": "ent.elasticsearch.indexer.do_job.get_oldest_entity.error",
+    "translation": "सबसे पुरानी इकाई (उपयोगकर्ता, चैनल या पोस्ट), डेटाबेस से पुनर्प्राप्त नहीं की जा सकी"
+  },
+  {
+    "id": "ent.elasticsearch.index_user.error",
+    "translation": "उपयोगकर्ता को अनुक्रमित करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.index_post.error",
+    "translation": "पोस्ट को अनुक्रमित करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.index_channel.error",
+    "translation": "चैनल को अनुक्रमित करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.delete_user_posts.error",
+    "translation": "उपयोगकर्ता पोस्ट हटाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.delete_user.error",
+    "translation": "उपयोगकर्ता को हटाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.delete_post.error",
+    "translation": "पोस्ट को हटाने में विफल"
+  },
+  {
+    "id": "app.schemes.is_phase_2_migration_completed.not_completed.app_error",
+    "translation": "यह API एंडपॉइंट पहुंच योग्य नहीं है क्योंकि आवश्यक माइग्रेशन अभी तक पूरा नहीं हुआ है।"
+  },
+  {
+    "id": "app.scheme.save.invalid_scheme.app_error",
+    "translation": "प्रदान की गई स्कीम अमान्य है।"
+  },
+  {
+    "id": "app.scheme.save.app_error",
+    "translation": "स्कीम बनाने में असमर्थ."
+  },
+  {
+    "id": "app.scheme.permanent_delete_all.app_error",
+    "translation": "हम स्कीमों को स्थायी रूप से हटा नहीं सके।"
+  },
+  {
+    "id": "app.scheme.get.app_error",
+    "translation": "स्कीम नहीं मिल पा रही है।"
+  },
+  {
+    "id": "app.scheme.delete.app_error",
+    "translation": "इस स्कीम को हटाने में असमर्थ."
+  },
+  {
+    "id": "app.save_config.app_error",
+    "translation": "कॉन्फ़िगरेशन सेव करते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "app.role.save.invalid_role.app_error",
+    "translation": "भूमिका मान्य नहीं थी।"
+  },
+  {
+    "id": "app.role.save.insert.app_error",
+    "translation": "नई भूमिका सेव करने में असमर्थ."
+  },
+  {
+    "id": "app.role.permanent_delete_all.app_error",
+    "translation": "हम सभी भूमिकाओं को स्थायी रूप से नहीं हटा सके।"
+  },
+  {
+    "id": "app.role.get_by_names.app_error",
+    "translation": "भूमिका नहीं मिल पा रही है।"
+  },
+  {
+    "id": "app.role.get_by_name.app_error",
+    "translation": "भूमिका नहीं मिल पा रही है।"
+  },
+  {
+    "id": "app.role.get.app_error",
+    "translation": "भूमिका नहीं मिल पा रही है।"
+  },
+  {
+    "id": "app.role.check_roles_exist.role_not_found",
+    "translation": "प्रदान की गई भूमिका मौजूद नहीं है"
+  },
+  {
+    "id": "app.recover.save.app_error",
+    "translation": "टोकन सेव करने में असमर्थ."
+  },
+  {
+    "id": "app.recover.delete.app_error",
+    "translation": "टोकन हटाने में असमर्थ."
+  },
+  {
+    "id": "app.reaction.get_for_post.app_error",
+    "translation": "पोस्ट के लिए प्रतिक्रिया प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.reaction.delete_all_with_emoji_name.get_reactions.app_error",
+    "translation": "इस इमोजी नाम के साथ सभी प्रतिक्रियाएं प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.reaction.bulk_get_for_post_ids.app_error",
+    "translation": "पोस्ट के लिए प्रतिक्रिया प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.update.app_error",
+    "translation": "पोस्ट अपडेट करने में असमर्थ."
+  },
+  {
+    "id": "app.post.search.app_error",
+    "translation": "पोस्ट खोजने में त्रुटि"
+  },
+  {
+    "id": "app.post.save.existing.app_error",
+    "translation": "आप किसी मौजूदा पोस्ट को अपडेट नहीं कर सकते।"
+  },
+  {
+    "id": "app.post.save.app_error",
+    "translation": "पोस्ट सेव करने में असमर्थ."
+  },
+  {
+    "id": "app.post.permanent_delete_by_channel.app_error",
+    "translation": "चैनल द्वारा पोस्ट हटाने में असमर्थ."
+  },
+  {
+    "id": "app.post.marshal.app_error",
+    "translation": "पोस्ट को मार्शल करने में विफल।"
+  },
+  {
+    "id": "app.post.get_root_posts.app_error",
+    "translation": "चैनल के लिए पोस्ट प्राप्त करने में असमर्थ."
+  },
+  {
+    "id": "app.post.get_posts_since.app_error",
+    "translation": "चैनल के लिए पोस्ट प्राप्त करने में असमर्थ."
+  },
+  {
+    "id": "app.post.get_posts_created_at.app_error",
+    "translation": "चैनल के लिए पोस्ट प्राप्त करने में असमर्थ."
+  },
+  {
+    "id": "app.post.get_posts_around.get.app_error",
+    "translation": "चैनल के लिए पोस्ट प्राप्त करने में असमर्थ."
+  },
+  {
+    "id": "api.command_share.shared_channel_unavailable",
+    "translation": "यह चैनल अब शेयर नहीं किया जाता है।"
+  },
+  {
+    "id": "api.command_share.share_read_only.help",
+    "translation": "चैनल केवल-पढ़ने के लिए मोड में साझा किया जाएगा"
+  },
+  {
+    "id": "api.command_share.share_channel.error",
+    "translation": "इस चैनल को साझा नहीं कर सकता: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.service_disabled",
+    "translation": "साझा चैनल सेवा अक्षम है।"
+  },
+  {
+    "id": "api.command_share.remote_uninvited",
+    "translation": "सुरक्षित कनेक्शन `{{.RemoteId}}` बिन बुलाए।"
+  },
+  {
+    "id": "api.command_search.unsupported.app_error",
+    "translation": "आपके डिवाइस पर खोज कमांड समर्थित नहीं है।"
+  },
+  {
+    "id": "model.preference.is_valid.theme.app_error",
+    "translation": "अमान्य थीम."
+  },
+  {
+    "id": "model.preference.is_valid.category.app_error",
+    "translation": "अमान्य श्रेणी।"
+  },
+  {
+    "id": "api.command_search.name",
+    "translation": "खोजे"
+  },
+  {
+    "id": "api.command_search.desc",
+    "translation": "मैसेजो में टेक्स्ट खोजें"
+  },
+  {
+    "id": "api.command_remove.user_not_in_channel",
+    "translation": "{{.Username}} इस चैनल का सदस्य नहीं है।"
+  },
+  {
+    "id": "api.command_remove.permission.app_error",
+    "translation": "आपके पास सदस्य को निकालने के लिए उपयुक्त अनुमति नहीं है।"
+  },
+  {
+    "id": "api.command_remove.missing.app_error",
+    "translation": "हमें उपयोगकर्ता नहीं मिला. हो सकता है कि उन्हें सिस्टम प्रशासक द्वारा निष्क्रिय कर दिया गया हो।"
+  },
+  {
+    "id": "api.command_remove.message.app_error",
+    "translation": "/remove या /kick कमांड के साथ एक मैसेज अवश्य दिया जाना चाहिए।"
+  },
+  {
+    "id": "api.command_remove.group_constrained_user_denied",
+    "translation": "उपयोगकर्ता को आपके द्वारा चैनल से हटाया नहीं जा सकता क्योंकि वे इस चैनल से जुड़े समूहों के सदस्य हैं। उन्हें इस चैनल से हटाने के लिए, उन्हें लिंक किए गए समूहों से हटाना होगा।"
+  },
+  {
+    "id": "api.command_remove.desc",
+    "translation": "किसी सदस्य को चैनल से निकाले"
+  },
+  {
+    "id": "api.command_remote.unknown_action",
+    "translation": "अज्ञात क्रिया `{{.Action}}`"
+  },
+  {
+    "id": "api.command_remote.status.help",
+    "translation": "सभी सुरक्षित कनेक्शन के लिए स्तेतस प्रदर्शित करता है"
+  },
+  {
+    "id": "api.command_remote.site_url_not_set",
+    "translation": "साइट URL सेट नहीं है। कृपया इसे System Console > Environment > Web Server में सेट करें।"
+  },
+  {
+    "id": "api.command_remote.service_not_enabled",
+    "translation": "सुरक्षित कनेक्शन सेवा सक्षम नहीं है।"
+  },
+  {
+    "id": "api.command_remote.service_disabled",
+    "translation": "सुरक्षित कनेक्शन सेवा अक्षम है।"
+  },
+  {
+    "id": "api.command_remote.remove_remote_id.help",
+    "translation": "हटाने के लिए सुरक्षित कनेक्शन की आईडी।"
+  },
+  {
+    "id": "api.command_remote.remove_remote.error",
+    "translation": "सुरक्षित कनेक्शन नहीं निकाला जा सका: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.remove.help",
+    "translation": "एक सुरक्षित कनेक्शन हटाता है"
+  },
+  {
+    "id": "api.command_remote.remotes_not_found",
+    "translation": "कोई सुरक्षित कनेक्शन नहीं मिला।"
+  },
+  {
+    "id": "api.command_remote.permission_required",
+    "translation": "सुरक्षित कनेक्शन प्रबंधित करने के लिए आपको `{{.Permission}}` अनुमति की आवश्यकता है।"
+  },
+  {
+    "id": "api.command_remote.name.hint",
+    "translation": "सुरक्षित कनेक्शन के लिए एक अनूठा नाम"
+  },
+  {
+    "id": "api.command_remote.name.help",
+    "translation": "सुरक्षित कनेक्शन का नाम"
+  },
+  {
+    "id": "api.command_remote.name",
+    "translation": "सुरक्षित कनेक्शन"
+  },
+  {
+    "id": "api.command_remote.missing_empty",
+    "translation": "गुम या खाली `{{.Arg}}`"
+  },
+  {
+    "id": "api.command_remote.invite_password.hint",
+    "translation": "आमंत्रण को एन्क्रिप्ट करने के लिए उपयोग किया जाने वाला पासवर्ड"
+  },
+  {
+    "id": "api.command_remote.invite_password.help",
+    "translation": "आमंत्रण पासवर्ड"
+  },
+  {
+    "id": "api.command_remote.invite.help",
+    "translation": "सुरक्षित कनेक्शन आमंत्रित करें"
+  },
+  {
+    "id": "api.command_remote.invitation_created",
+    "translation": "आमंत्रण बनाया गया."
+  },
+  {
+    "id": "api.command_remote.invitation.hint",
+    "translation": "सुरक्षित कनेक्शन से एन्क्रिप्ट किया गया आमंत्रण"
+  },
+  {
+    "id": "api.command_remote.invitation.help",
+    "translation": "सुरक्षित कनेक्शन से आमंत्रण"
+  },
+  {
+    "id": "api.command_remote.incorrect_password.error",
+    "translation": "आमंत्रण को डिक्रिप्ट नहीं किया जा सका. गलत पासवर्ड या करप्ट आमंत्रण: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.fetch_status.error",
+    "translation": "सुरक्षित कनेक्शन नहीं ला सके: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.encrypt_invitation.error",
+    "translation": "आमंत्रण एन्क्रिप्ट नहीं किया जा सका: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.displayname.hint",
+    "translation": "सुरक्षित कनेक्शन के लिए एक डिस्पले नाम"
+  },
+  {
+    "id": "api.command_remote.displayname.help",
+    "translation": "सुरक्षित कनेक्शन डिस्पले नाम"
+  },
+  {
+    "id": "api.command_remote.desc",
+    "translation": "मैटरमॉस्ट इंस्टेंस में संचार के लिए सुरक्षित कनेक्शन आमंत्रित करें।"
+  },
+  {
+    "id": "api.command_remote.decode_invitation.error",
+    "translation": "आमंत्रण को डिकोड नहीं किया जा सका: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.cluster_removed",
+    "translation": "सुरक्षित कनेक्शन {{.RemoteId}} {{.Result}}।"
+  },
+  {
+    "id": "api.command_remote.add_remote.error",
+    "translation": "सुरक्षित कनेक्शन नहीं जोड़ा जा सका: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept_invitation.error",
+    "translation": "आमंत्रण स्वीकार नहीं किया जा सका: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept_invitation",
+    "translation": "आमंत्रण स्वीकार किया गया और पुष्टि की गई।\nसाइट URL: {{.SiteURL}}"
+  },
+  {
+    "id": "api.command_remote.accept.help",
+    "translation": "किसी बाहरी मैटरमोस्ट इंस्टेंस से आमंत्रण स्वीकार करें"
+  },
+  {
+    "id": "api.command_open.name",
+    "translation": "ओपन"
+  },
+  {
+    "id": "api.command_online.success",
+    "translation": "अब आप ऑनलाइन हैं"
+  },
+  {
+    "id": "api.command_online.name",
+    "translation": "ऑनलाइन"
+  },
+  {
+    "id": "api.command_online.desc",
+    "translation": "अपना स्तेतस ऑनलाइन सेट करें"
+  },
+  {
+    "id": "api.command_offline.success",
+    "translation": "अब आप ऑफ़लाइन हैं"
+  },
+  {
+    "id": "api.command_offline.name",
+    "translation": "ऑफ़लाइन"
+  },
+  {
+    "id": "api.command_offline.desc",
+    "translation": "अपना स्तेतस ऑफ़लाइन सेट करें"
+  },
+  {
+    "id": "api.command_mute.success_unmute_direct_msg",
+    "translation": "यह चैनल अब म्यूट नहीं है।"
+  },
+  {
+    "id": "api.command_mute.success_unmute",
+    "translation": "{{.Channel}} अब म्यूट नहीं है।"
+  },
+  {
+    "id": "api.command_mute.success_mute_direct_msg",
+    "translation": "चैनल म्यूट बंद होने तक आपको इस चैनल के लिए नोटिफिकेशन प्राप्त नहीं होंगी।"
+  },
+  {
+    "id": "api.command_mute.success_mute",
+    "translation": "चैनल म्यूट बंद होने तक आपको {{.Channel}} के लिए सूचनाएं प्राप्त नहीं होंगी।"
+  },
+  {
+    "id": "api.command_mute.not_member.error",
+    "translation": "चैनल {{.Channel}} को म्यूट नहीं किया जा सका क्योंकि आप सदस्य नहीं हैं।"
+  },
+  {
+    "id": "api.command_mute.no_channel.error",
+    "translation": "निर्दिष्ट चैनल नहीं मिल सका। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://about.mattermost.com/default-channel-handle-documentation) का उपयोग करें।"
+  },
+  {
+    "id": "api.command_mute.name",
+    "translation": "म्यूट"
+  },
+  {
+    "id": "api.command_mute.hint",
+    "translation": "~[चैनल]"
+  },
+  {
+    "id": "api.command_mute.error",
+    "translation": "चैनल {{.Channel}} ढूंढा नहीं जा सका। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://about.mattermost.com/default-channel-handle-documentation) का उपयोग करें।"
+  },
+  {
+    "id": "api.command_mute.desc",
+    "translation": "वर्तमान चैनल या निर्दिष्ट [चैनल] के लिए डेस्कटॉप, ईमेल और पुश नोटिफिकेशन बंद कर देता है।"
+  },
+  {
+    "id": "model.preference.is_valid.value.app_error",
+    "translation": "वैल्यू बहुत लंबा है."
   }
 ]
