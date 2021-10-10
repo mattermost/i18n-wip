@@ -2294,5 +2294,249 @@
   {
     "id": "model.preference.is_valid.value.app_error",
     "translation": "वैल्यू बहुत लंबा है."
+  },
+  {
+    "id": "app.channel.create_channel.no_team_id.app_error",
+    "translation": "चैनल बनाने के लिए टीम आईडी निर्दिष्ट करना आवश्यक है।"
+  },
+  {
+    "id": "app.channel.create_channel.internal_error",
+    "translation": "चैनल सहेजने में असमर्थ."
+  },
+  {
+    "id": "app.channel.count_posts_since.app_error",
+    "translation": "दी गई तिथि से मैसेजो की गणना करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.clear_all_custom_role_assignments.select.app_error",
+    "translation": "चैनल के सदस्यों को पुनः प्राप्त करने में विफल।"
+  },
+  {
+    "id": "app.channel.autofollow.app_error",
+    "translation": "उल्लिखित उपयोगकर्ता के लिए थ्रेड सदस्यता अपडेट करने में विफल"
+  },
+  {
+    "id": "app.channel.analytics_type_count.app_error",
+    "translation": "चैनल प्रकार की गणना प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.bot.permenent_delete.bad_id",
+    "translation": "बॉट को मिटाने में असमर्थ."
+  },
+  {
+    "id": "app.bot.permanent_delete.internal_error",
+    "translation": "बॉट को स्थायी रूप से हटाने में असमर्थ."
+  },
+  {
+    "id": "app.bot.patchbot.internal_error",
+    "translation": "बॉट को अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.bot.getbots.internal_error",
+    "translation": "बॉट प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.bot.getbot.internal_error",
+    "translation": "बॉट प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.bot.get_warn_metrics_bot.empty_admin_list.app_error",
+    "translation": "व्यवस्थापकों की लिस्ट खाली है।"
+  },
+  {
+    "id": "app.bot.get_system_bot.empty_admin_list.app_error",
+    "translation": "व्यवस्थापकों की लिस्ट खाली है।"
+  },
+  {
+    "id": "app.bot.createbot.internal_error",
+    "translation": "बॉट सहेजने में असमर्थ."
+  },
+  {
+    "id": "app.audit.permanent_delete_by_user.app_error",
+    "translation": "हमें ऑडिट को हटाने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.audit.get.limit.app_error",
+    "translation": "पेजिंग के लिए सीमा पार हो गई है।"
+  },
+  {
+    "id": "app.audit.get.finding.app_error",
+    "translation": "हमें ऑडिट खोजने में त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.analytics.getanalytics.internal_error",
+    "translation": "विश्लेषण प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.admin.test_site_url.failure",
+    "translation": "यह एक मान्य लाइव URL नहीं है"
+  },
+  {
+    "id": "app.admin.test_email.failure",
+    "translation": "कनेक्शन असफल: {{.Error}}"
+  },
+  {
+    "id": "app.admin.saml.failure_read_response_body_from_idp.app_error",
+    "translation": "पहचान प्रदाता से प्राप्त प्रतिक्रिया पेलोड को पढ़ते समय विफलता का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.admin.saml.failure_decode_metadata_xml_from_idp.app_error",
+    "translation": "पहचान प्रदाता से प्राप्त XML मेटाडेटा जानकारी को डीकोड नहीं कर सका।"
+  },
+  {
+    "id": "api.websocket_handler.server_busy.app_error",
+    "translation": "सर्वर व्यस्त है, गैर-महत्वपूर्ण सेवाएं अस्थायी रूप से अनुपलब्ध हैं।"
+  },
+  {
+    "id": "api.websocket_handler.invalid_param.app_error",
+    "translation": "अमान्य {{.Name}} पैरामीटर।"
+  },
+  {
+    "id": "api.webhook.update_outgoing.intersect.app_error",
+    "translation": "एक ही चैनल के आउटगोइंग वेबहुक में समान ट्रिगर शब्द/कॉलबैक URL नहीं हो सकते।"
+  },
+  {
+    "id": "api.webhook.team_mismatch.app_error",
+    "translation": "सभी टीमों में वेबहुक अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "api.webhook.incoming.error",
+    "translation": "आने वाले वेबहुक के मल्टीपार्ट पेलोड को डिकोड नहीं कर सका।"
+  },
+  {
+    "id": "api.webhook.create_outgoing.triggers.app_error",
+    "translation": "या तो trigger_words या channel_id सेट होना चाहिए।"
+  },
+  {
+    "id": "api.webhook.create_outgoing.permissions.app_error",
+    "translation": "आउटगोइंग वेबहुक बनाने के लिए अमान्य अनुमतियां।"
+  },
+  {
+    "id": "api.webhook.create_outgoing.not_open.app_error",
+    "translation": "आउटगोइंग वेबहुक केवल सार्वजनिक चैनलों के लिए बनाए जा सकते हैं।"
+  },
+  {
+    "id": "api.webhook.create_outgoing.intersect.app_error",
+    "translation": "एक ही चैनल के आउटगोइंग वेबहुक में समान ट्रिगर शब्द/कॉलबैक URL नहीं हो सकते।"
+  },
+  {
+    "id": "api.web_socket_router.not_authenticated.app_error",
+    "translation": "वेबसॉकेट कनेक्शन प्रमाणित नहीं है। कृपया पुनः लॉगिन करें और पुनः प्रयास करें।"
+  },
+  {
+    "id": "api.web_socket_router.no_action.app_error",
+    "translation": "कोई वेबसोकेट कार्रवाई नहीं।"
+  },
+  {
+    "id": "api.web_socket_router.bad_seq.app_error",
+    "translation": "WebSocket मैसेज के लिए अमान्य अनुक्रम।"
+  },
+  {
+    "id": "api.web_socket_router.bad_action.app_error",
+    "translation": "अज्ञात वेबसॉकेट क्रिया।"
+  },
+  {
+    "id": "api.web_socket.connect.upgrade.app_error",
+    "translation": "वेबसोकेट कनेक्शन को अपग्रेड करने में विफल।"
+  },
+  {
+    "id": "api.user.verify_email.token_parse.error",
+    "translation": "ईमेल सत्यापन से टोकन डेटा पार्स करने में विफल"
+  },
+  {
+    "id": "api.user.verify_email.link_expired.app_error",
+    "translation": "ईमेल सत्यापन लिंक की समय सीमा समाप्त हो गई है।"
+  },
+  {
+    "id": "api.user.verify_email.broken_token.app_error",
+    "translation": "ईमेल टोकन प्रकार को खराब सत्यापित करें।"
+  },
+  {
+    "id": "api.user.verify_email.bad_link.app_error",
+    "translation": "ईमेल लिंक खराब सत्यापित करें।"
+  },
+  {
+    "id": "api.user.upload_profile_user.upload_profile.app_error",
+    "translation": "प्रोफ़ाइल इमेज अपलोड नहीं किया जा सका."
+  },
+  {
+    "id": "api.user.upload_profile_user.too_large.app_error",
+    "translation": "प्रोफ़ाइल इमेज अपलोड करने में असमर्थ. फ़ाइल बहुत बड़ी है।"
+  },
+  {
+    "id": "api.user.upload_profile_user.storage.app_error",
+    "translation": "फाइल अपलोड करने में असमर्थ। इमेज संग्रहण कॉन्फ़िगर नहीं किया गया है।"
+  },
+  {
+    "id": "api.user.upload_profile_user.parse.app_error",
+    "translation": "मल्टीपार्ट फॉर्म को पार्स नहीं किया जा सका।"
+  },
+  {
+    "id": "api.user.upload_profile_user.open.app_error",
+    "translation": "इमेज फ़ाइल नहीं खोल सका।"
+  },
+  {
+    "id": "api.user.upload_profile_user.no_file.app_error",
+    "translation": "अनुरोध में 'इमेज' के अंतर्गत कोई फ़ाइल नहीं है।"
+  },
+  {
+    "id": "api.user.upload_profile_user.login_provider_attribute_set.app_error",
+    "translation": "प्रोफ़ाइल इमेज उपयोगकर्ता के लॉगिन प्रदाता के माध्यम से सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "api.user.upload_profile_user.encode.app_error",
+    "translation": "प्रोफ़ाइल इमेज को एन्कोड नहीं किया जा सका."
+  },
+  {
+    "id": "api.user.upload_profile_user.decode.app_error",
+    "translation": "प्रोफ़ाइल इमेज को डिकोड नहीं किया जा सका."
+  },
+  {
+    "id": "api.user.upload_profile_user.check_image_limits.app_error",
+    "translation": "इमेज सीमा जांच विफल। संकल्प बहुत अधिक है।"
+  },
+  {
+    "id": "api.user.update_user.login_provider_attribute_set.app_error",
+    "translation": "फ़ील्ड '{{.Field}}' को उपयोगकर्ता के लॉगिन प्रदाता के माध्यम से सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "api.user.update_user.accepted_guest_domain.app_error",
+    "translation": "आपके द्वारा प्रदान किया गया ईमेल अतिथि अकाऊंत के लिए स्वीकृत डोमेन से संबंधित नहीं है। कृपया अपने व्यवस्थापक से संपर्क करें या किसी दूसरे ईमेल से साइन अप करें।"
+  },
+  {
+    "id": "api.user.update_user.accepted_domain.app_error",
+    "translation": "आपके द्वारा प्रदान किया गया ईमेल किसी स्वीकृत डोमेन से संबंधित नहीं है। कृपया अपने व्यवस्थापक से संपर्क करें या किसी दूसरे ईमेल से साइन अप करें।"
+  },
+  {
+    "id": "api.user.update_password.valid_account.app_error",
+    "translation": "पासवर्ड अपडेट करना विफल रहा क्योंकि हमें कोई मान्य अकाऊंत नहीं मिला।"
+  },
+  {
+    "id": "api.user.update_password.user_and_hashed.app_error",
+    "translation": "केवल सिस्टम व्यवस्थापक पहले से हैश किए गए पासवर्ड सेट कर सकते हैं।"
+  },
+  {
+    "id": "api.user.update_password.oauth.app_error",
+    "translation": "पासवर्ड अपडेट करना विफल रहा क्योंकि उपयोगकर्ता एक OAuth सेवा के माध्यम से लॉग इन है।"
+  },
+  {
+    "id": "api.user.update_password.menu",
+    "translation": "सेटिंग्स मेनू का उपयोग करना"
+  },
+  {
+    "id": "api.user.update_password.incorrect.app_error",
+    "translation": "आपके द्वारा दर्ज किया गया \"वर्तमान पासवर्ड\" गलत है। कृपया जांचें कि कैप्स लॉक बंद है और पुनः प्रयास करें।"
+  },
+  {
+    "id": "api.user.update_password.failed.app_error",
+    "translation": "पासवर्ड अपडेट करना विफल रहा।"
+  },
+  {
+    "id": "api.user.update_password.context.app_error",
+    "translation": "पासवर्ड अपडेट करना विफल रहा क्योंकि संदर्भ user_id, प्रॉप्स user_id से मेल नहीं खाता।"
+  },
+  {
+    "id": "api.user.update_oauth_user_attrs.get_user.app_error",
+    "translation": "{{.Service}} उपयोगकर्ता ऑब्जेक्ट से उपयोगकर्ता प्राप्त नहीं किया जा सका।"
   }
 ]
