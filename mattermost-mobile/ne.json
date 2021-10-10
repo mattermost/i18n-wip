@@ -611,5 +611,6 @@
   "apps.error.command.field_missing": "आवश्यक क्षेत्र छुट्यो: `{fieldName}`।",
   "apps.error": "त्रुटि:{त्रुटि}",
   "api.channel.guest_join_channel.post_and_forget": "{username} अतिथिको रुपमा च्यानेलमा जोडिनुभयो।",
-  "api.channel.add_guest.added": "{username}ले {addedUsername}लाई यस च्यानलमा अतिथिको रुपमा जोड्नुभयो।"
+  "api.channel.add_guest.added": "{username}ले {addedUsername}लाई यस च्यानलमा अतिथिको रुपमा जोड्नुभयो।",
+  "apps.error.form.submit.pretext": "मोडल बुझाउने क्रममा केहि त्रुटि भयो।अनुप्रयोग विकासकर्तालाई सम्पर्क गर्नुहोस। विवरण : {details}"
 }
