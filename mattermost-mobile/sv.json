@@ -1,1 +1,14 @@
-{}
+{
+  "announcment_banner.dont_show_again": "Visa inte igen",
+  "about.title": "Om {appTitle}",
+  "about.teamEditiont1": "Företagsutgåva",
+  "about.teamEditiont0": "Lagutgåva",
+  "about.teamEditionSt": "All din lagkommunikation på ett ställe, direkt sökbar och tillgänglig var som helst.",
+  "about.teamEditionLearn": "Gå med i den Mattermost gemenskapen på ",
+  "about.hashee": "EE Bygg Hash:",
+  "about.hash": "Bygg Hash:",
+  "about.enterpriseEditionSt": "Modern kommunikation bakom din brandvägg.",
+  "about.enterpriseEditionLearn": "Läs mer om Företagsutgåva på ",
+  "about.enterpriseEditione1": "Företagsutgåva",
+  "about.date": "Byggdatum:"
+}
