@@ -412,5 +412,8 @@
   "apps.error.parser.no_slash_start": "Dòng lệnh phải được bắt đầu bằng ký tự `/`.",
   "api.channel.add_member.added": "{addedUsername} được thêm vào kênh trò chuyện bởi {username}.",
   "apps.error.command.field_missing": "Thiếu trường thông tin cần thiết: `{fieldName}`.",
-  "apps.error": "Lỗi: {error}"
+  "apps.error": "Lỗi: {error}",
+  "apps.error.parser.execute_non_leaf": "Bạn phải chọn một lệnh con.",
+  "apps.error.parser.empty_value": "giá trị không được rỗng",
+  "apps.error.parser": "Lỗi phân tích cú pháp: {error}"
 }
