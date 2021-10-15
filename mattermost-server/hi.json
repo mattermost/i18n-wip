@@ -2538,5 +2538,417 @@
   {
     "id": "api.user.update_oauth_user_attrs.get_user.app_error",
     "translation": "{{.Service}} उपयोगकर्ता ऑब्जेक्ट से उपयोगकर्ता प्राप्त नहीं किया जा सका।"
+  },
+  {
+    "id": "model.compliance.is_valid.id.app_error",
+    "translation": "अमान्य आइ डी।"
+  },
+  {
+    "id": "model.compliance.is_valid.desc.app_error",
+    "translation": "अमान्य विवरण।"
+  },
+  {
+    "id": "model.command_hook.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.command_hook.root_id.app_error",
+    "translation": "अमान्य रूट आईडी."
+  },
+  {
+    "id": "model.command_hook.id.app_error",
+    "translation": "अमान्य कमांड हुक आईडी।"
+  },
+  {
+    "id": "model.command_hook.command_id.app_error",
+    "translation": "अमान्य कमांड आईडी।"
+  },
+  {
+    "id": "model.command_hook.channel_id.app_error",
+    "translation": "अमान्य चैनल आईडी."
+  },
+  {
+    "id": "model.command.is_valid.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.command.is_valid.url_http.app_error",
+    "translation": "अमान्य URL। एक मान्य URL होना चाहिए और http:// या https:// से शुरू होना चाहिए।"
+  },
+  {
+    "id": "model.command.is_valid.url.app_error",
+    "translation": "अमान्य URL।"
+  },
+  {
+    "id": "model.command.is_valid.trigger.app_error",
+    "translation": "अमान्य ट्रिगर।"
+  },
+  {
+    "id": "model.command.is_valid.token.app_error",
+    "translation": "अमान्य टोकन।"
+  },
+  {
+    "id": "model.command.is_valid.team_id.app_error",
+    "translation": "अमान्य टीम आईडी।"
+  },
+  {
+    "id": "model.command.is_valid.plugin_id.app_error",
+    "translation": "अमान्य प्लगइन आईडी।"
+  },
+  {
+    "id": "model.command.is_valid.method.app_error",
+    "translation": "अमान्य विधि।"
+  },
+  {
+    "id": "model.command.is_valid.id.app_error",
+    "translation": "अमान्य आइ डी।"
+  },
+  {
+    "id": "model.command.is_valid.display_name.app_error",
+    "translation": "अमान्य शीर्षक."
+  },
+  {
+    "id": "model.command.is_valid.description.app_error",
+    "translation": "अमान्य विवरण।"
+  },
+  {
+    "id": "model.cluster.is_valid.id.app_error",
+    "translation": "अमान्य आइ डी।"
+  },
+  {
+    "id": "model.cluster.is_valid.hostname.app_error",
+    "translation": "होस्टनाम सेट होना चाहिए।"
+  },
+  {
+    "id": "model.channel_member.is_valid.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.channel_member.is_valid.roles_limit.app_error",
+    "translation": "अमान्य चैनल सदस्य भूमिकाएं {{.Limit}} वर्णों से अधिक लंबी हैं।"
+  },
+  {
+    "id": "model.channel_member.is_valid.push_level.app_error",
+    "translation": "अमान्य पुश सूचना स्तर।"
+  },
+  {
+    "id": "model.channel_member.is_valid.email_value.app_error",
+    "translation": "अमान्य ईमेल सूचना मान."
+  },
+  {
+    "id": "model.channel_member.is_valid.channel_id.app_error",
+    "translation": "अमान्य चैनल आईडी."
+  },
+  {
+    "id": "model.channel.is_valid.type.app_error",
+    "translation": "अमान्य प्रकार।"
+  },
+  {
+    "id": "model.channel.is_valid.purpose.app_error",
+    "translation": "अमान्य उद्देश्य."
+  },
+  {
+    "id": "model.channel.is_valid.id.app_error",
+    "translation": "अमान्य आइ डी।"
+  },
+  {
+    "id": "model.channel.is_valid.header.app_error",
+    "translation": "अमान्य हैडर।"
+  },
+  {
+    "id": "model.channel.is_valid.display_name.app_error",
+    "translation": "अमान्य प्रदर्शन नाम."
+  },
+  {
+    "id": "model.channel.is_valid.creator_id.app_error",
+    "translation": "अमान्य क्रिएटर आईडी."
+  },
+  {
+    "id": "model.channel.is_valid.2_or_more.app_error",
+    "translation": "नाम 2 या अधिक लोअरकेस अल्फ़ान्यूमेरिक वर्ण होना चाहिए।"
+  },
+  {
+    "id": "model.bot.is_valid.username.app_error",
+    "translation": "अमान्य उपयोगकर्ता नाम।"
+  },
+  {
+    "id": "model.bot.is_valid.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.bot.is_valid.description.app_error",
+    "translation": "अमान्य विवरण।"
+  },
+  {
+    "id": "model.bot.is_valid.creator_id.app_error",
+    "translation": "अमान्य क्रिएटर आईडी."
+  },
+  {
+    "id": "model.authorize.is_valid.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.authorize.is_valid.state.app_error",
+    "translation": "अमान्य स्थिति।"
+  },
+  {
+    "id": "model.authorize.is_valid.scope.app_error",
+    "translation": "अमान्य दायरा।"
+  },
+  {
+    "id": "model.authorize.is_valid.response_type.app_error",
+    "translation": "अमान्य प्रतिक्रिया प्रकार।"
+  },
+  {
+    "id": "api.team.search_teams.pagination_not_implemented.public_team_search",
+    "translation": "केवल-सार्वजनिक टीम खोज के लिए पेजिनेशन लागू नहीं किया गया।"
+  },
+  {
+    "id": "api.team.search_teams.pagination_not_implemented.private_team_search",
+    "translation": "केवल-निजी टीम खोज के लिए पेजिनेशन लागू नहीं किया गया।"
+  },
+  {
+    "id": "api.team.remove_user_from_team.removed",
+    "translation": "%v को टीम से हटाया गया।"
+  },
+  {
+    "id": "api.team.remove_user_from_team.missing.app_error",
+    "translation": "ऐसा लगता है कि उपयोगकर्ता इस टीम का हिस्सा नहीं है।"
+  },
+  {
+    "id": "api.team.remove_team_icon.get_team.app_error",
+    "translation": "टीम प्राप्त करने में एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.team.remove_member.group_constrained.app_error",
+    "translation": "किसी उपयोगकर्ता को समूह-विवश टीम से निकालने में असमर्थ।"
+  },
+  {
+    "id": "api.team.move_channel.success",
+    "translation": "इस चैनल को %v से इस टीम में स्थानांतरित कर दिया गया है।"
+  },
+  {
+    "id": "api.team.leave.left",
+    "translation": "%v ने टीम छोड़ दी।"
+  },
+  {
+    "id": "api.team.join_user_to_team.allowed_domains.app_error",
+    "translation": "उपयोगकर्ता को जोड़ा नहीं जा सकता क्योंकि अकाऊंत से जुड़े डोमेन की अनुमति नहीं है। अतिरिक्त विवरण के लिए अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.team.join_team.post_and_forget",
+    "translation": "%v टीम में शामिल हुए।"
+  },
+  {
+    "id": "api.team.is_team_creation_allowed.domain.app_error",
+    "translation": "उपयोगकर्ता को जोड़ा नहीं जा सकता क्योंकि अकाऊंत से जुड़े डोमेन की अनुमति नहीं है। अतिरिक्त विवरण के लिए अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.team.is_team_creation_allowed.disabled.app_error",
+    "translation": "टीम निर्माण अक्षम कर दिया गया है। विवरण के लिए कृपया अपने सिस्टम व्यवस्थापक से पूछें।"
+  },
+  {
+    "id": "api.team.invite_members.no_one.app_error",
+    "translation": "आमंत्रित करने वाला कोई नहीं।"
+  },
+  {
+    "id": "api.team.invite_members.limit_reached.app_error",
+    "translation": "आप फ़्री टियर उपयोगकर्ता सीमा तक पहुँच चुके हैं"
+  },
+  {
+    "id": "api.team.invite_members.invalid_email.app_error",
+    "translation": "निम्नलिखित ईमेल एक स्वीकृत डोमेन से संबंधित नहीं हैं: {{.Addresses}}। विवरण के लिए कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.team.invite_members.disabled.app_error",
+    "translation": "ईमेल आमंत्रण अक्षम हैं।"
+  },
+  {
+    "id": "api.team.invite_guests.channel_in_invalid_team.app_error",
+    "translation": "आमंत्रण के चैनल आमंत्रण की टीम का हिस्सा होना चाहिए।"
+  },
+  {
+    "id": "api.team.invate_guests_to_channels.license.error",
+    "translation": "आपका लाइसेंस अतिथि अकाऊंत का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.team.invate_guests_to_channels.disabled.error",
+    "translation": "अतिथि खाते अक्षम हैं"
+  },
+  {
+    "id": "api.team.invalidate_all_email_invites.app_error",
+    "translation": "ईमेल आमंत्रणों को अमान्य करने में त्रुटि."
+  },
+  {
+    "id": "api.team.import_team.parse.app_error",
+    "translation": "मल्टीपार्ट फॉर्म को पार्स नहीं किया जा सका।"
+  },
+  {
+    "id": "api.team.import_team.open.app_error",
+    "translation": "फ़ाइल को खोल नहीं सका।"
+  },
+  {
+    "id": "api.team.import_team.no_file.app_error",
+    "translation": "अनुरोध में 'फ़ाइल' के अंतर्गत कोई फ़ाइल नहीं है।"
+  },
+  {
+    "id": "api.team.get_team_icon.read_file.app_error",
+    "translation": "टीम आइकन फ़ाइल को पढ़ने में असमर्थ।"
+  },
+  {
+    "id": "api.team.get_team_icon.filesettings_no_driver.app_error",
+    "translation": "फ़ाइल सेटिंग्स के लिए अमान्य ड्राइवर नाम। 'local' या 'amazons3' होना चाहिए।"
+  },
+  {
+    "id": "api.team.get_invite_info.not_open_team",
+    "translation": "आमंत्रण अमान्य है क्योंकि यह एक खुली टीम नहीं है।"
+  },
+  {
+    "id": "api.team.get_all_teams.insufficient_permissions",
+    "translation": "आपके पास सभी टीमों को लिस्ट करने के लिए उपयुक्त अनुमति नहीं है"
+  },
+  {
+    "id": "api.team.demote_user_to_guest.license.error",
+    "translation": "आपका लाइसेंस अतिथि अकाऊंत का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.team.demote_user_to_guest.disabled.error",
+    "translation": "अतिथि अकाऊंत अक्षम हैं।"
+  },
+  {
+    "id": "api.team.add_user_to_team_from_invite.guest.app_error",
+    "translation": "मेहमानों को एक आमंत्रण लिंक के माध्यम से टीम में शामिल होने से प्रतिबंधित किया गया है। कृपया टीम को अतिथि ईमेल आमंत्रण का अनुरोध करें।"
+  },
+  {
+    "id": "api.team.add_user_to_team.missing_parameter.app_error",
+    "translation": "उपयोगकर्ता को टीम में जोड़ने के लिए आवश्यक पैरामीटर।"
+  },
+  {
+    "id": "api.team.add_user_to_team.added",
+    "translation": "%v को %v द्वारा टीम में जोड़ा गया।"
+  },
+  {
+    "id": "api.team.add_members.user_denied",
+    "translation": "इस टीम का प्रबंधन समूहों द्वारा किया जाता है। यह उपयोगकर्ता उस समूह का हिस्सा नहीं है जो इस टीम से समन्वयित है।"
+  },
+  {
+    "id": "api.team.add_members.error",
+    "translation": "टीम सदस्य(सदस्यों) को जोड़ने में त्रुटि।"
+  },
+  {
+    "id": "api.system.update_viewed_notices.failed",
+    "translation": "देखे गए नोटिस को अपडेट करना विफल रहा"
+  },
+  {
+    "id": "api.system.update_notices.parse_failed",
+    "translation": "उत्पाद नोटिस पार्स करना विफल रहा"
+  },
+  {
+    "id": "api.system.update_notices.fetch_failed",
+    "translation": "उत्पाद नोटिस फ़ेच करना विफल रहा"
+  },
+  {
+    "id": "api.system.update_notices.clear_failed",
+    "translation": "पुराने उत्पाद नोटिस को साफ़ करना विफल रहा"
+  },
+  {
+    "id": "api.system.id_loaded.not_available.app_error",
+    "translation": "आईडी लोडेड पुश नोटिफिकेशन इस सर्वर पर कॉन्फ़िगर या समर्थित नहीं हैं।"
+  },
+  {
+    "id": "api.status.user_not_found.app_error",
+    "translation": "उपयोगकर्ता नहीं मिला।"
+  },
+  {
+    "id": "api.slackimport.slack_import.zip.file_too_large",
+    "translation": "{{.Filename}} ज़िप संग्रह में स्लैक आयात के लिए संसाधित करने के लिए बहुत बड़ा है\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.zip.app_error",
+    "translation": "स्लैक एक्सपोर्ट ज़िप फ़ाइल को खोलने में असमर्थ।\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.team_fail",
+    "translation": "टीम को आयात करने में असमर्थ।\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.open.app_error",
+    "translation": "फ़ाइल खोलने में असमर्थ: {{.Filename}}.\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.notes",
+    "translation": "\nनोट्स:\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.note3",
+    "translation": "- सर्वर लॉग में अतिरिक्त त्रुटियां मिल सकती हैं।\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.note2",
+    "translation": "- स्लैक बॉट मैसेज वर्तमान में समर्थित नहीं हैं\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.note1",
+    "translation": "- कुछ मैसेज आयात नहीं किए गए होंगे क्योंकि वे इस आयातक द्वारा समर्थित नहीं थे।\n"
+  },
+  {
+    "id": "api.slackimport.slack_import.log",
+    "translation": "मैटरमोस्ट स्लैक आयात लॉग\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.unable_import",
+    "translation": "स्लैक उपयोगकर्ता आयात करने में असमर्थ: {{.Username}}।\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.missing_email_address",
+    "translation": "उपयोगकर्ता {{.Username}} का स्लैक एक्सपोर्ट में कोई ईमेल पता नहीं है। {{.Email}} को प्लेसहोल्डर के रूप में इस्तेमाल किया। एक बार सिस्टम में लॉग इन करने के बाद उपयोगकर्ता को अपना ईमेल अपडेट करना चाहिए।\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.email_pwd",
+    "translation": "ईमेल {{.Email}} और पासवर्ड {{.Password}} के साथ स्लैक उपयोगकर्ता को आयात किया गया है।\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.created",
+    "translation": "\nउपयोगकर्ता बनाए गए:\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_channels.merge",
+    "translation": "स्लैक चैनल {{.DisplayName}} पहले से एक सक्रिय मैटरमॉस्ट चैनल के रूप में मौजूद है। दोनों चैनलों को मिला दिया गया है।\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_channels.import_failed",
+    "translation": "स्लैक चैनल {{.DisplayName}} आयात करने में असमर्थ।\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_channels.failed_to_add_user",
+    "translation": "चैनल में स्लैक यूजर {{.Username}} जोड़ने में असमर्थ।\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_channels.added",
+    "translation": "\nचैनल जोड़े गए:\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_bot_user.unable_import",
+    "translation": "इंटीग्रेशन/स्लैक बॉट उपयोगकर्ता {{.Username}} आयात करने में असमर्थ\n"
+  },
+  {
+    "id": "api.slackimport.slack_add_bot_user.email_pwd",
+    "translation": "ईमेल {{.Email}} और पासवर्ड {{.Password}} के साथ इंटीग्रेशन/स्लैक बॉट उपयोगकर्ता आयात किया गया है।\n"
+  },
+  {
+    "id": "api.server.warn_metric.support_email_not_configured.notification_title",
+    "translation": "अपना समर्थन ईमेल सेट करें"
+  },
+  {
+    "id": "api.server.warn_metric.starting_trial",
+    "translation": "परीक्षण प्राप्त करना"
+  },
+  {
+    "id": "api.server.warn_metric.start_trial",
+    "translation": "शुरू परीक्षण"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। उन्नत अनुमतियां सक्षम करने के लिए **सिस्टम कंसोल> उपयोगकर्ता प्रबंधन> अनुमतियां** पर जाएं।"
   }
 ]
