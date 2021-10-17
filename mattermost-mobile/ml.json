@@ -23,5 +23,6 @@
   "apps.error.parser.unexpected_error": "അപ്രതീക്ഷിത പിശക്.",
   "apps.error.parser.no_argument_pos_x": "argument തിരിച്ചറിയാൻ കഴിയുന്നില്ല.",
   "apps.error.parser.execute_non_leaf": "നിങ്ങൾ ഒരു സബ്കമാൻഡ് തിരഞ്ഞെടുക്കണം.",
-  "api.channel.add_guest.added": "{addedUsername} ചാനലിലേക്ക് അതിഥിയായി ചേർത്തു {username}."
+  "api.channel.add_guest.added": "{addedUsername} ചാനലിലേക്ക് അതിഥിയായി ചേർത്തു {username}.",
+  "about.title": "കുറിച്ച്"
 }
