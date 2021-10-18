@@ -2950,5 +2950,29 @@
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",
     "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। उन्नत अनुमतियां सक्षम करने के लिए **सिस्टम कंसोल> उपयोगकर्ता प्रबंधन> अनुमतियां** पर जाएं।"
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "इन उपयोगकर्ताओं के बीच एक सीधा चैनल नहीं बनाया जा सकता क्योंकि वे एक टीम को साझा नहीं करते हैं।"
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.app_error",
+    "translation": "सीधे संदेश चैनल निर्माण के लिए createDirectChannel API सेवा का उपयोग करना चाहिए।"
+  },
+  {
+    "id": "api.admin.upload_brand_image.storage.app_error",
+    "translation": "छवि अपलोड करने में असमर्थ. छवि संग्रहण कॉन्फ़िगर नहीं किया गया है।"
+  },
+  {
+    "id": "api.admin.upload_brand_image.no_file.app_error",
+    "translation": "अनुरोध में 'छवि' के अंतर्गत कोई फ़ाइल नहीं है।"
+  },
+  {
+    "id": "api.admin.upload_brand_image.array.app_error",
+    "translation": "अनुरोध में 'छवि' के तहत खाली सरणी।"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+    "translation": "सामग्री का प्रकार मौजूद नहीं है."
   }
 ]
