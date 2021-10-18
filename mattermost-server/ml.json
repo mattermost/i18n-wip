@@ -426,5 +426,53 @@
   {
     "id": "April",
     "translation": "ഏപ്രിൽ"
+  },
+  {
+    "id": "api.channel.update_channel_scheme.license.error",
+    "translation": "നിങ്ങളുടെ ലൈസൻസ് ഒരു ചാനലിന്റെ സ്കീം അപ്ഡേറ്റ് ചെയ്യുന്നതിനെ പിന്തുണയ്ക്കുന്നില്ല"
+  },
+  {
+    "id": "api.channel.update_channel_privacy.default_channel_error",
+    "translation": "സ്ഥിര ചാനൽ സ്വകാര്യമാക്കാനാകില്ല."
+  },
+  {
+    "id": "api.channel.update_channel.typechange.app_error",
+    "translation": "ചാനൽ തരം പരിഷ്‌കരിക്കാൻ കഴിയില്ല."
+  },
+  {
+    "id": "api.cloud.get_admins_emails.error",
+    "translation": "സിസ്റ്റം അഡ്മിൻമാരുടെ ഇമെയിൽ ലഭിക്കുന്നതിൽ പിശക്."
+  },
+  {
+    "id": "api.channel.restore_channel.restored.app_error",
+    "translation": "ചാനൽ ആർക്കൈവുചെയ്യാനാകുന്നില്ല. ചാനൽ ആർക്കൈവുചെയ്‌തിട്ടില്ല."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "കാഷെ അസാധുവാക്കുന്നതിൽ പിശക്"
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "നേരിട്ടുള്ള അല്ലെങ്കിൽ ഗ്രൂപ്പ് സന്ദേശ ചാനലുകൾ നീക്കാൻ കഴിയില്ല"
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "തിരികെ {{.SiteName}}"
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "ഈ ഉപയോക്താക്കൾക്കിടയിൽ ഒരു നേരിട്ടുള്ള ചാനൽ സൃഷ്ടിക്കാൻ കഴിയില്ല, കാരണം അവർ പൊതുവായി ഒരു ടീം പങ്കിടുന്നില്ല."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "വ്യത്യസ്‌തരൂപത്തിലുള്ള അപേക്ഷകൾ വിശകലനം ചെയ്യുവാൻ സാധിച്ചില്ല"
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "AuthData ഫീൽഡ് ഇമെയിലിലേക്ക് പുനഃക്രമീകരിക്കുന്നതിൽ പരാജയപ്പെട്ടു."
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "LDAP ലഭ്യമല്ല."
   }
 ]
