@@ -130,6 +130,7 @@
   "admin.billing.history.status": "स्टेटस",
   "admin.billing.history.total": "कुल",
   "admin.billing.payment_info_edit.cancel": "रद्द करना",
+  "admin.billing.subscription.LearnMore": "अधिक जानें",
   "admin.billing.subscription.upgrade": "अपग्रेड",
   "admin.channel_settings.channel_list.nameHeader": "नाम",
   "admin.channel_settings.channel_moderation.manageMembers": "सदस्यों को प्रबंधित करें",
