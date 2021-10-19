@@ -24,5 +24,8 @@
   "apps.error.parser.no_argument_pos_x": "argument തിരിച്ചറിയാൻ കഴിയുന്നില്ല.",
   "apps.error.parser.execute_non_leaf": "നിങ്ങൾ ഒരു സബ്കമാൻഡ് തിരഞ്ഞെടുക്കണം.",
   "api.channel.add_guest.added": "{addedUsername} ചാനലിലേക്ക് അതിഥിയായി ചേർത്തു {username}.",
-  "about.title": "കുറിച്ച്"
+  "about.title": "കുറിച്ച്",
+  "apps.error.command.unknown_channel": "ഫീൽഡിനായുള്ള അജ്ഞാത ചാനൽ `{fieldName}`: `{option}`.",
+  "apps.error.command.field_missing": "ആവശ്യമായ ഫീൽഡുകൾ കാണുന്നില്ല: `{fieldName}`.",
+  "apps.error.command.unknown_user": "ഫീൽഡിനായുള്ള അജ്ഞാത ഉപയോക്താവ് ``{fieldName}`: `{option}`."
 }
