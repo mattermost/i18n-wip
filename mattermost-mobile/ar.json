@@ -243,5 +243,8 @@
   "last_users_message.first": "{firstUser} و ",
   "global_threads.markAllRead.cancel": "إلغاء",
   "emoji_picker.activities": "النشاطات",
-  "edit_post.save": "حفظ"
+  "edit_post.save": "حفظ",
+  "api.channel.guest_join_channel.post_and_forget": "انضم {username} إلى القناة كضيف.",
+  "api.channel.add_member.added": "تمت إضافة {addedUsername} إلى القناة بواسطة {username}.",
+  "api.channel.add_guest.added": "تمت إضافة {addedUsername} إلى القناة كضيف بواسطة {username}."
 }
