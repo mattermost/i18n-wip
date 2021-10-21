@@ -14,5 +14,7 @@
   "about.hash": "ה Hash של הבילד:",
   "about.enterpriseEditionSt": "תקשורת מודרנית מאחורי חומת האש שלך.",
   "about.enterpriseEditionLearn": "למד עוד אודות הגרסה הארגונית ב ",
-  "about.date": "תאריך בילד:"
+  "about.date": "תאריך בילד:",
+  "api.channel.add_guest.added": "{addedUsername} נוסף לערוץ על ידי {username}.",
+  "about.teamEditionSt": "כל תקשורת הצוות שלך במקום אחד, ניתנת לחיפוש מיידי ונגישה בכל מקום."
 }
