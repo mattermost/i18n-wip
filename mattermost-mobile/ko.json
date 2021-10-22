@@ -1,1 +1,12 @@
-{}
+{
+  "apps.error.form.no_form": "`form`이 정의되지 않았습니다.",
+  "apps.error.form.no_call": "`call`이 정의되지 않았습니다.",
+  "apps.error": "오류: {error}",
+  "announcment_banner.dont_show_again": "다시 보지 않기",
+  "about.teamEditiont0": "팀 에디션",
+  "about.teamEditiont1": "엔터프라이즈 에디션",
+  "about.hashee": "EE 빌드 해시:",
+  "about.hash": "빌드 해시:",
+  "about.enterpriseEditione1": "엔터프라이즈 에디션",
+  "about.date": "빌드 날짜:"
+}
