@@ -1,1 +1,70 @@
-{}
+[
+  {
+    "id": "app.webhooks.update_outgoing.app_error",
+    "translation": "webhook을 업데이트 할 수 없습니다."
+  },
+  {
+    "id": "April",
+    "translation": "4월"
+  },
+  {
+    "id": "February",
+    "translation": "2월"
+  },
+  {
+    "id": "December",
+    "translation": "12월"
+  },
+  {
+    "id": "August",
+    "translation": "8월"
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_user.app_error",
+    "translation": "webhook을 삭제 할 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_channel.app_error",
+    "translation": "webhook을 삭제 할 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_user.app_error",
+    "translation": "webhook을 삭제 할 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_channel.app_error",
+    "translation": "webhook을 삭제 할 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_channel.app_error",
+    "translation": "webhook을 가져올 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_team.app_error",
+    "translation": "webhook을 가져올 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_channel.app_error",
+    "translation": "webhook을 가져올 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.get_outgoing.app_error",
+    "translation": "webhook을 가져올 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_user.app_error",
+    "translation": "webhook을 가져올 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.delete_incoming.app_error",
+    "translation": "webhook을 삭제 할 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.delete_outgoing.app_error",
+    "translation": "webhook을 삭제 할 수 없습니다."
+  },
+  {
+    "id": "app.webhooks.get_incoming.app_error",
+    "translation": "webhook을 가져올 수 없습니다."
+  }
+]
