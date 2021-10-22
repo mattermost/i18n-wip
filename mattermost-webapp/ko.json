@@ -1,1 +1,6 @@
-{}
+{
+  "about.teamEditiont0": "팀 에디션",
+  "apps.error": "오류: {error}",
+  "apps.error.form.no_call": "`call`이 정의되지 않았습니다.",
+  "apps.error.form.no_form": "`form`이 정의되지 않았습니다."
+}
