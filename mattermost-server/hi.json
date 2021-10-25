@@ -4715,5 +4715,17 @@
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.body",
     "translation": "कृपया हमें ईमेल करें।"
+  },
+  {
+    "id": "api.channel.post_user_add_remove_message_and_forget.error",
+    "translation": "शामिल हों/संदेश छोड़ें पोस्ट करने में विफल"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
+    "translation": "अपडेट चैनल हेडर संदेश पोस्ट करने में विफल"
+  },
+  {
+    "id": "api.channel.post_channel_privacy_message.error",
+    "translation": "चैनल गोपनीयता अद्यतन संदेश पोस्ट करने में विफल।"
   }
 ]
