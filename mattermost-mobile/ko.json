@@ -8,5 +8,10 @@
   "about.hashee": "EE 빌드 해시:",
   "about.hash": "빌드 해시:",
   "about.enterpriseEditione1": "엔터프라이즈 에디션",
-  "about.date": "빌드 날짜:"
+  "about.date": "빌드 날짜:",
+  "about.title": "{appTitle} 에 대해",
+  "about.teamEditionSt": "즉시 검색이 가능하고 어디에서나 접속할 수 있는 팀 커뮤티케이션 장소.",
+  "about.teamEditionLearn": "매터모스트 커뮤티니에 합류하려면 ",
+  "about.enterpriseEditionSt": "방화벽 안쪽에서 모던한 커뮤니테이션.",
+  "about.enterpriseEditionLearn": "엔터프라이즈 에디션에 대해 더 아시려면 "
 }
