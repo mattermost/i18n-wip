@@ -4635,5 +4635,77 @@
   {
     "id": "api.command_logout.desc",
     "translation": "मैटरमोस्ट से लॉगआउट करे"
+  },
+  {
+    "id": "api.context.mfa_required.app_error",
+    "translation": "इस सर्वर पर बहु-कारक प्रमाणीकरण आवश्यक है।"
+  },
+  {
+    "id": "api.context.get_user.app_error",
+    "translation": "सत्र UserID से उपयोगकर्ता प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "api.config.update_config.clear_siteurl.app_error",
+    "translation": "साइट URL साफ़ नहीं किया जा सकता |"
+  },
+  {
+    "id": "api.config.patch_config.diff.app_error",
+    "translation": "कॉन्फ़िगरेशन में अंतर करने में विफल"
+  },
+  {
+    "id": "api.command_share.remote_not_valid",
+    "translation": "आमंत्रण रद्द करने के लिए एक वैध सुरक्षित कनेक्शन आईडी निर्दिष्ट करना आवश्यक है"
+  },
+  {
+    "id": "api.command_share.remote_id_invalid.error",
+    "translation": "सुरक्षित कनेक्शन आईडी अमान्य है: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.remote_already_invited",
+    "translation": "सुरक्षित कनेक्शन पहले ही आमंत्रित किया जा चुका है।"
+  },
+  {
+    "id": "api.command_share.permission_required",
+    "translation": "साझा किए गए चैनलों को प्रबंधित करने के लिए आपको `{{.Permission}}` अनुमति की आवश्यकता है।"
+  },
+  {
+    "id": "api.command_share.no_remote_invited",
+    "translation": "इस चैनल के लिए कोई सुरक्षित कनेक्शन आमंत्रित नहीं किया गया है।"
+  },
+  {
+    "id": "api.command_share.name",
+    "translation": "शेयर-चैनल"
+  },
+  {
+    "id": "api.command_share.must_specify_valid_remote",
+    "translation": "आमंत्रित करने के लिए एक वैध सुरक्षित कनेक्शन आईडी निर्दिष्ट करना आवश्यक है।"
+  },
+  {
+    "id": "api.command_share.missing_action",
+    "translation": "लापता कार्रवाई। उपलब्ध कार्रवाइयाँ: {{.Actions}}"
+  },
+  {
+    "id": "api.command_share.invite_remote.help",
+    "translation": "मौजूदा साझा चैनल के लिए बाहरी मैटरमोस्ट इंस्टेंस को आमंत्रित करता है"
+  },
+  {
+    "id": "api.command_share.invalid_value.error",
+    "translation": "'{{.Arg}}' के लिए अमान्य मान: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.hint",
+    "translation": "[कार्य]"
+  },
+  {
+    "id": "api.command_share.fetch_remote_status.error",
+    "translation": "सुरक्षित कनेक्शन के लिए स्थिति नहीं लाई जा सकी: {{.Error}}."
+  },
+  {
+    "id": "api.command_share.channel_status.help",
+    "translation": "इस साझा चैनल के लिए स्थिति प्रदर्शित करता है"
+  },
+  {
+    "id": "api.command_remote.missing_command",
+    "translation": "लापता आदेश। उपलब्ध कार्रवाइयाँ: {{.क्रियाएँ}}"
   }
 ]
