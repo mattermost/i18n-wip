@@ -3861,5 +3861,779 @@
   {
     "id": "app.webhooks.save_outgoing.app_error",
     "translation": "आउटगोइंगवेबहुक को सहेजने में असमर्थ।"
+  },
+  {
+    "id": "api.server.warn_metric.contacting_us",
+    "translation": "हमसे संपर्क करना"
+  },
+  {
+    "id": "api.server.warn_metric.contact_us",
+    "translation": "संपर्क करें"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
+    "translation": "परीक्षण लाइसेंस पुनर्प्राप्त नहीं किया जा सका। लाइसेंस का अनुरोध करने के लिए https://mattermost.com/trial/ पर जाएं।"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.notification_success.message",
+    "translation": "मैटरमॉस्ट से संपर्क करने के लिए धन्यवाद। हम जल्द ही आपसे संपर्क करेंगे।"
+  },
+  {
+    "id": "api.preference.delete_preferences.delete.app_error",
+    "translation": "उपयोक्ता वरीयताएँ मिटाने में असमर्थ."
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_general_message",
+    "translation": " एक मैसेज पोस्ट किया।"
+  },
+  {
+    "id": "api.post.link_preview_disabled.app_error",
+    "translation": "लिंक प्रिवीउस को सिस्टम व्यवस्थापक द्वारा अक्षम कर दिया गया है।"
+  },
+  {
+    "id": "api.post.get_message_for_notification.files_sent",
+    "translation": {
+      "one": "{{.Count}} फ़ाइल भेजी गई: {{.Filenames}}",
+      "other": "{{.Count}} फ़ाइलें भेजी गईं: {{.Filenames}}"
+    }
+  },
+  {
+    "id": "api.post.deduplicate_create_post.pending",
+    "translation": "अस्वीकृत पोस्ट क्योंकि कोई अन्य क्लाइंट वही अनुरोध कर रहा है।"
+  },
+  {
+    "id": "api.post.create_webhook_post.creating.app_error",
+    "translation": "पोस्ट बनाने में त्रुटि."
+  },
+  {
+    "id": "api.oauth.get_access_token.credentials.app_error",
+    "translation": "अमान्य_क्लाइंट: अमान्य क्लाइंट क्रेडेंशियल।"
+  },
+  {
+    "id": "app.oauth.permanent_delete_auth_data_by_user.app_error",
+    "translation": "प्राधिकरण कोड निकालने में असमर्थ."
+  },
+  {
+    "id": "app.oauth.get_apps.find.app_error",
+    "translation": "OAuth2 ऐप्स ढूंढते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "app.oauth.get_app_by_user.find.app_error",
+    "translation": "कोई भी मौजूदा ऐप्स खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.oauth.get_app.finding.app_error",
+    "translation": "हमें ऐप खोजने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.oauth.get_app.find.app_error",
+    "translation": "अनुरोधित ऐप खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.oauth.get_access_data_by_user_for_app.app_error",
+    "translation": "हमें सभी एक्सेस टोकन खोजने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.oauth.delete_app.app_error",
+    "translation": "OAuth2 ऐप को हटाते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "app.notification.subject.notification.full",
+    "translation": "[{{ .SiteName }}] {{.TeamName}} में {{.Month}} {{.Day}}, {{.Year}} को नोटिफिकेशन"
+  },
+  {
+    "id": "app.notification.subject.group_message.generic",
+    "translation": "[{{ .SiteName }}] नया ग्रूप मैसेज {{.Month}} {{.Day}}, {{.Year}} को"
+  },
+  {
+    "id": "model.config.is_valid.max_channels.app_error",
+    "translation": "टीम सेटिंग के लिए प्रति टीम अमान्य अधिकतम चैनल। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "api.user.login.not_verified.app_error",
+    "translation": "लॉगिन विफल हुआ क्योंकि ईमेल सत्यापित नहीं किया गया है।"
+  },
+  {
+    "id": "api.user.login.invalid_credentials_username",
+    "translation": "एक मान्य उपयोगकर्ता नाम और/या पासवर्ड दर्ज करें।"
+  },
+  {
+    "id": "api.user.login.invalid_credentials_sso",
+    "translation": "एक मान्य ईमेल या उपयोगकर्ता नाम और/या पासवर्ड दर्ज करें, या किसी अन्य विधि का उपयोग करके साइन इन करें।"
+  },
+  {
+    "id": "api.user.login.invalid_credentials_email_username",
+    "translation": "एक मान्य ईमेल या उपयोगकर्ता नाम और/या पासवर्ड दर्ज करें।"
+  },
+  {
+    "id": "api.user.login.invalid_credentials_email",
+    "translation": "एक मान्य ईमेल और/या पासवर्ड दर्ज करें"
+  },
+  {
+    "id": "api.user.login.inactive.app_error",
+    "translation": "लॉगिन विफल हुआ क्योंकि आपका अकाऊंत निष्क्रिय कर दिया गया है। कृपया किसी व्यवस्थापक से संपर्क करें."
+  },
+  {
+    "id": "api.user.login.guest_accounts.license.error",
+    "translation": "आपका लाइसेंस अतिथि अकाऊंत का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.upload.upload_data.multipart_error",
+    "translation": "मल्टीपार्ट डेटा को संसाधित करने में विफल।"
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_length",
+    "translation": "अमान्य सामग्री-लंबाई।"
+  },
+  {
+    "id": "api.upload.get_upload.forbidden.app_error",
+    "translation": "अपलोड प्राप्त करने में विफल।"
+  },
+  {
+    "id": "api.upgrade_to_enterprise_status.signature.app_error",
+    "translation": "मैटरमॉस्ट एंटरप्राइज़ संस्करण में अपग्रेड करने में असमर्थ था। डाउनलोड की गई बाइनरी फ़ाइल का डिजिटल हस्ताक्षर सत्यापित नहीं किया जा सका।"
+  },
+  {
+    "id": "api.upgrade_to_enterprise_status.app_error",
+    "translation": "मैटरमॉस्ट एंटरप्राइज़ संस्करण में अपग्रेड करने में असमर्थ था।"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
+    "translation": "मैटरमॉस्ट एंटरप्राइज़ संस्करण में अपग्रेड करने में असमर्थ था। यह सुविधा केवल x86-64 आर्किटेक्चर वाले Linux सिस्टम पर काम करेगी।"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-user.app_error",
+    "translation": "मैटरमॉस्ट एंटरप्राइज़ संस्करण में अपग्रेड करने में असमर्थ था। मैटरमोस्ट सिस्टम उपयोगकर्ता {{.MattermostUsername}} के पास आवश्यक बाइनरी फ़ाइल तक लेखन पहुंच नहीं है। एक सिस्टम व्यवस्थापक सर्वर पर निम्न आदेश निष्पादित करके फ़ाइल अनुमतियों को अद्यतन कर सकता है जहां मैटरमॉस्ट स्थापित है:\n\n```\nचुना हुआ {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nफ़ाइल अनुमतियों को बदलने के बाद, मैटरमोस्ट को फिर से अपग्रेड करने का प्रयास करें। जब आपने अपग्रेड और पुनरारंभ किया है, तो मूल बाइनरी फ़ाइल अनुमतियों को पुनर्स्थापित करना याद रखें:\n\n```\nचुना हुआ {{.FileUsername}} \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
+    "translation": "मैटरमॉस्ट एंटरप्राइज़ संस्करण में अपग्रेड करने में असमर्थ था। मैटरमोस्ट सिस्टम उपयोगकर्ता {{.MattermostUsername}} के पास आवश्यक बाइनरी फ़ाइल तक लेखन पहुंच नहीं है। एक सिस्टम व्यवस्थापक सर्वर पर निम्न आदेश निष्पादित करके फ़ाइल अनुमतियों को अद्यतन कर सकता है जहां मैटरमॉस्ट स्थापित है:\n\n```\nचुना हुआ {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nफ़ाइल अनुमतियों को बदलने के बाद, मैटरमोस्ट को फिर से अपग्रेड करने का प्रयास करें। जब आपने अपग्रेड और पुनरारंभ किया है, तो मूल बाइनरी फ़ाइल अनुमतियों को पुनर्स्थापित करना याद रखें:\n\n```\nचुना हुआ {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
+    "translation": "मैटरमॉस्ट एंटरप्राइज़ संस्करण में अपग्रेड करने में असमर्थ था। मैटरमोस्ट सिस्टम उपयोगकर्ता {{.MattermostUsername}} के पास आवश्यक बाइनरी फ़ाइल तक लेखन पहुंच नहीं है। एक सिस्टम व्यवस्थापक सर्वर पर निम्न आदेश निष्पादित करके फ़ाइल अनुमतियों को अद्यतन कर सकता है जहां मैटरमॉस्ट स्थापित है:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nफ़ाइल अनुमतियों को बदलने के बाद, मैटरमोस्ट को फिर से अपग्रेड करने का प्रयास करें। जब आपने अपग्रेड और पुनरारंभ किया है, तो मूल बाइनरी फ़ाइल अनुमतियों को पुनर्स्थापित करना याद रखें:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.generic_error.app_error",
+    "translation": "मैटरमॉस्ट एंटरप्राइज़ संस्करण में अपग्रेड करने में असमर्थ था।"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.app_error",
+    "translation": "मैटरमॉस्ट एंटरप्राइज़ संस्करण में अपग्रेड पहले से चल रहा है।"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
+    "translation": "आप अपग्रेड नहीं कर सकते क्योंकि आप पहले से ही मैटरमॉस्ट एंटरप्राइज संस्करण चला रहे हैं।"
+  },
+  {
+    "id": "api.upgrade_to_enterprise.already-done.app_error",
+    "translation": "आप पहले ही मैटरमॉस्ट एंटरप्राइज संस्करण में अपग्रेड कर चुके हैं। कृपया अपग्रेड समाप्त करने के लिए सर्वर को पुनरारंभ करें।"
+  },
+  {
+    "id": "api.unmarshal_error",
+    "translation": "अनमार्शल करने में विफल।"
+  },
+  {
+    "id": "api.templates.mfa_activated_body.title",
+    "translation": "बहु-कारक प्रमाणीकरण जोड़ा गया था"
+  },
+  {
+    "id": "api.templates.mfa_activated_body.info",
+    "translation": "{{ .SiteURL }} पर आपके खाते में बहु-कारक प्रमाणीकरण जोड़ दिया गया है।"
+  },
+  {
+    "id": "api.templates.deactivate_subject",
+    "translation": "[{{ .SiteName }}] {{ .ServerURL }} पर आपका अकाऊंत निष्क्रिय कर दिया गया है"
+  },
+  {
+    "id": "api.templates.deactivate_body.warning",
+    "translation": "यदि यह परिवर्तन आपके द्वारा शुरू नहीं किया गया था या आप अपने अकाऊंत को पुनः सक्रिय करना चाहते हैं, तो अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.templates.deactivate_body.title",
+    "translation": "आपका अकाऊंत {{ .ServerURL }} पर निष्क्रिय कर दिया गया है"
+  },
+  {
+    "id": "api.templates.deactivate_body.info",
+    "translation": "आपने अपना अकाऊंत {{ .SiteURL }} पर निष्क्रिय कर दिया है।"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.mm_apps",
+    "translation": "मोबाइल और डेस्कटॉप ऐप्स"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.invite_sub_info",
+    "translation": "अपने सदस्यों को {{.WorkSpace}} में शामिल होने के लिए आमंत्रित करने के लिए इस लिंक को साझा करें:"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.invite_info",
+    "translation": "लोगों को अपने कार्यक्षेत्र में आमंत्रित करें"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info2",
+    "translation": "भविष्य में उपयोग के लिए अपने लिंक को सहेजना या बुकमार्क करना सुनिश्चित करें।"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info",
+    "translation": "बनाने के लिए धन्यवाद "
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.download_mm_info",
+    "translation": "मैटरमोस्ट ऐप डाउनलोड करें"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.button",
+    "translation": "ओपन मैटरमोस्ट"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.app_market_place",
+    "translation": "ऐप मार्केटप्लेस।"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_sub_info",
+    "translation": "Github, Google Calendar और Chrome जैसे टूल के साथ अपने काम को सुव्यवस्थित करें। हमारे पास मौजूद सभी एकीकरणों का अन्वेषण करें"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_info",
+    "translation": "अपने कार्यक्षेत्र में ऐप्स जोड़ें"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.title",
+    "translation": "मैटरमॉस्ट का आपका नि:शुल्क 14-दिवसीय परीक्षण जल्द ही समाप्त हो रहा है"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.subtitle",
+    "translation": "{{.Name}}, आपका मैटरमॉस्ट का 14-दिवसीय परीक्षण {{.TrialEnd}} को 3 दिनों में समाप्त हो रहा है। यह सुनिश्चित करने के लिए कि आपकी टीम मैटरमोस्ट क्लाउड के लाभों का आनंद लेना जारी रख सके, कृपया अपनी भुगतान जानकारी जोड़ें।"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.subject",
+    "translation": "मैटरमोस्ट क्लाउड ट्रायल खत्म हो रहा है"
+  },
+  {
+    "id": "api.user.oauth_to_email.not_available.app_error",
+    "translation": "प्रमाणीकरण स्थानांतरण कॉन्फ़िगर नहीं किया गया है या इस सर्वर पर उपलब्ध नहीं है।"
+  },
+  {
+    "id": "api.command_leave.name",
+    "translation": "लीव"
+  },
+  {
+    "id": "api.command_leave.fail.app_error",
+    "translation": "चैनल छोड़ते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.command_leave.desc",
+    "translation": "वर्तमान चैनल छोड़ें"
+  },
+  {
+    "id": "api.command_kick.name",
+    "translation": "किक"
+  },
+  {
+    "id": "api.command_join.name",
+    "translation": "जुडे"
+  },
+  {
+    "id": "api.command_join.missing.app_error",
+    "translation": "चैनल ढूंढ़ने में असमर्थ."
+  },
+  {
+    "id": "api.command_join.list.app_error",
+    "translation": "चैनलस लिस्ट करते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.command_join.hint",
+    "translation": "~[channel]"
+  },
+  {
+    "id": "api.command_join.fail.app_error",
+    "translation": "चैनल से जुड़ते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.command_join.desc",
+    "translation": "ओपन चैनल से जुड़ें"
+  },
+  {
+    "id": "api.command_invite_people.permission.app_error",
+    "translation": "आपको इस सर्वर पर नए उपयोगकर्ताओं को आमंत्रित करने की अनुमति नहीं है।"
+  },
+  {
+    "id": "api.command_invite.user_not_in_team.app_error",
+    "translation": "@{{.Username}} टीम का सदस्य नहीं है।"
+  },
+  {
+    "id": "api.command_invite.user_already_in_channel.app_error",
+    "translation": "{{.User}} पहले से ही चैनल में है।"
+  },
+  {
+    "id": "api.command_invite.success",
+    "translation": "{{.User}} को {{.Channel}} चैनल में जोड़ा गया।"
+  },
+  {
+    "id": "api.command_invite.private_channel.app_error",
+    "translation": "चैनल {{.Channel}} नहीं मिला। चैनलों की पहचान करने के लिए कृपया चैनल हैंडल का उपयोग करें।"
+  },
+  {
+    "id": "api.command_invite.permission.app_error",
+    "translation": "आपके पास {{.User}} को {{.Channel}} में जोड़ने के लिए पर्याप्त अनुमतियां नहीं हैं।"
+  },
+  {
+    "id": "api.command_invite.name",
+    "translation": "आमंत्रण"
+  },
+  {
+    "id": "api.command_invite.missing_user.app_error",
+    "translation": "हमें उपयोगकर्ता नहीं मिला. हो सकता है कि उन्हें सिस्टम व्यवस्थापक द्वारा निष्क्रिय कर दिया गया हो।"
+  },
+  {
+    "id": "api.command_invite.missing_message.app_error",
+    "translation": "उपयोगकर्ता नाम और चैनल गुम है."
+  },
+  {
+    "id": "api.command_invite.hint",
+    "translation": "@[username] ~[channel]"
+  },
+  {
+    "id": "api.command_invite.group_constrained_user_denied",
+    "translation": "इस चैनल का प्रबंधन समूहों द्वारा किया जाता है। यह उपयोगकर्ता उस समूह का हिस्सा नहीं है जो इस चैनल से समन्वयित है।"
+  },
+  {
+    "id": "api.command_invite.fail.app_error",
+    "translation": "चैनल में शामिल होते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.command_invite.directchannel.app_error",
+    "translation": "आप किसी को डायरैक्ट मैसेज चैनल में नहीं जोड़ सकते।"
+  },
+  {
+    "id": "api.command_invite.channel.error",
+    "translation": "चैनल {{.Channel}} नहीं मिला। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://about.mattermost.com/default-channel-handle-documentation) का उपयोग करें।"
+  },
+  {
+    "id": "api.command_invite.channel.app_error",
+    "translation": "वर्तमान चैनल को पुनः प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_help.name",
+    "translation": "सहायता"
+  },
+  {
+    "id": "api.command_help.desc",
+    "translation": "मैटरमोस्ट सहायता पृष्ठ खोलें"
+  },
+  {
+    "id": "api.command_groupmsg.permission.app_error",
+    "translation": "आपके पास नया ग्रूप मैसेज बनाने के लिए उपयुक्त अनुमतियाँ नहीं हैं।"
+  },
+  {
+    "id": "api.command_groupmsg.name",
+    "translation": "मैसेज"
+  },
+  {
+    "id": "api.command_groupmsg.min_users.app_error",
+    "translation": "ग्रूप मैसेज कम से कम {{.MinUsers}} उपयोगकर्ताओं तक सीमित हैं।"
+  },
+  {
+    "id": "api.command_groupmsg.max_users.app_error",
+    "translation": "ग्रूप मैसेज अधिकतम {{.MaxUsers}} उपयोगकर्ताओं तक सीमित हैं।"
+  },
+  {
+    "id": "api.command_groupmsg.invalid_user.app_error",
+    "translation": {
+      "one": "उपयोगकर्ता ढूंढने में असमर्थ: {{.Users}}",
+      "other": "उपयोगकर्ताओं को ढूंढने में असमर्थ: {{.Users}}"
+    }
+  },
+  {
+    "id": "api.command_groupmsg.hint",
+    "translation": "@[username1],@[username2] 'message'"
+  },
+  {
+    "id": "api.command_groupmsg.group_fail.app_error",
+    "translation": "ग्रूप मैसेज बनाते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.command_groupmsg.fail.app_error",
+    "translation": "उपयोगकर्ताओं को मैसेज भेजते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.command_groupmsg.desc",
+    "translation": "निर्दिष्ट उपयोगकर्ताओं को एक समूह मैसेज भेजता है"
+  },
+  {
+    "id": "api.command_expand_collapse.fail.app_error",
+    "translation": "प्रिवीउस विस्तृत करते समय एक त्रुटि हुई."
+  },
+  {
+    "id": "api.command_expand.success",
+    "translation": "इमेज लिंक अब डिफ़ॉल्ट रूप से विस्तृत होते हैं"
+  },
+  {
+    "id": "api.command_expand.name",
+    "translation": "विस्तार"
+  },
+  {
+    "id": "api.command_expand.desc",
+    "translation": "इमेज प्रिवीउस का औटो कोलैप्सिंग बंद करें"
+  },
+  {
+    "id": "api.command_echo.message.app_error",
+    "translation": "/echo कमांड के साथ एक मैसेज अवश्य दिया जाना चाहिए।"
+  },
+  {
+    "id": "api.command_echo.hint",
+    "translation": "'मैसेज' [सेकंड में देरी]"
+  },
+  {
+    "id": "api.command_echo.delay.app_error",
+    "translation": "विलंब 10000 सेकंड से कम होना चाहिए।"
+  },
+  {
+    "id": "api.command_dnd.success",
+    "translation": "डू नॉट डिस्टर्ब सक्षम है। डू नॉट डिस्टर्ब बंद होने तक आपको डेस्कटॉप या मोबाइल पुश नोटिफिकेशन प्राप्त नहीं होंगे।"
+  },
+  {
+    "id": "api.command_dnd.name",
+    "translation": "डीएनडी"
+  },
+  {
+    "id": "api.command_dnd.desc",
+    "translation": "परेशान न करें डेस्कटॉप और मोबाइल पुश सूचनाओं को अक्षम करता है।"
+  },
+  {
+    "id": "api.command_collapse.success",
+    "translation": "इमेज लिंक अब डिफ़ॉल्ट रूप से कोलैप्स हो जाते हैं"
+  },
+  {
+    "id": "api.command_collapse.name",
+    "translation": "कोलैप्स"
+  },
+  {
+    "id": "api.command.command_post.forbidden.app_error",
+    "translation": "निर्दिष्ट उपयोगकर्ता निर्दिष्ट चैनल का सदस्य नहीं है।"
+  },
+  {
+    "id": "api.command.admin_only.app_error",
+    "translation": "इंटीग्रेश्न्स केवल व्यवस्थापकों तक ही सीमित है।"
+  },
+  {
+    "id": "api.cloud.request_error",
+    "translation": "CWS को अनुरोध संसाधित करने में त्रुटि।"
+  },
+  {
+    "id": "api.cloud.license_error",
+    "translation": "आपका लाइसेंस क्लाउड अनुरोधों का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "api.cloud.cws_webhook_event_missing_error",
+    "translation": "वैबहुक ईवेंट को हैंडल नहीं किया गया था। या तो यह गायब है या यह मान्य नहीं है।"
+  },
+  {
+    "id": "api.cloud.app_error",
+    "translation": "क्लाउड एपीआई अनुरोध के दौरान आंतरिक त्रुटि।"
+  },
+  {
+    "id": "api.channel.update_team_member_roles.scheme_role.app_error",
+    "translation": "प्रदान की गई भूमिका एक स्कीम द्वारा प्रबंधित की जाती है और इसलिए इसे सीधे टीम सदस्य पर लागू नहीं किया जा सकता है।"
+  },
+  {
+    "id": "api.channel.update_team_member_roles.changing_guest_role.app_error",
+    "translation": "अमान्य टीम सदस्य अपडेट: आप अतिथि भूमिका को मैन्युअल रूप से जोड़ या हटा नहीं सकते हैं।"
+  },
+  {
+    "id": "api.channel.update_channel_scheme.scheme_scope.error",
+    "translation": "स्कीम को चैनल पर सेट करने में असमर्थ क्योंकि आपूर्ति की गई स्कीम एक चैनल स्कीम नहीं है।"
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.guest_and_user.app_error",
+    "translation": "अमान्य चैनल सदस्य अपडेट: उपयोगकर्ता को अतिथि या उपयोगकर्ता होना चाहिए, लेकिन दोनों नहीं।"
+  },
+  {
+    "id": "api.channel.restore_channel.unarchived",
+    "translation": "{{.Username}} ने चैनल को असंग्रहित कर दिया।"
+  },
+  {
+    "id": "api.channel.rename_channel.cant_rename_group_messages.app_error",
+    "translation": "आप ग्रूप मैसेज चैनल का नाम नहीं बदल सकते।"
+  },
+  {
+    "id": "api.channel.rename_channel.cant_rename_direct_messages.app_error",
+    "translation": "आप डायरैक्ट मैसेज चैनल का नाम नहीं बदल सकते।"
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "डायरैक्ट या ग्रूप मैसेज चैनलों को स्थानांतरित करने में असमर्थ"
+  },
+  {
+    "id": "api.channel.leave.direct.app_error",
+    "translation": "एक डायरैक्ट मैसेज चैनल छोड़ने में असमर्थ।"
+  },
+  {
+    "id": "api.channel.delete_channel.type.invalid",
+    "translation": "डायरैक्ट या ग्रूप मैसेज चैनलों को हटाने में असमर्थ"
+  },
+  {
+    "id": "api.channel.create_direct_channel.invalid_user.app_error",
+    "translation": "डायरैक्ट चैनल बनाने के लिए अमान्य उपयोगकर्ता आईडी."
+  },
+  {
+    "id": "api.channel.create_default_channels.town_square",
+    "translation": "टाउन स्कवायर"
+  },
+  {
+    "id": "api.channel.create_default_channels.off_topic",
+    "translation": "ऑफ-टौपिक"
+  },
+  {
+    "id": "api.user.login.use_auth_service.app_error",
+    "translation": "कृपया {{.AuthService}} का उपयोग करके साइन इन करें।"
+  },
+  {
+    "id": "model.group.name.invalid_length.app_error",
+    "translation": "नाम 1 से 64 लोअरकेस अक्षरांकीय वर्णों का होना चाहिए।"
+  },
+  {
+    "id": "model.file_info.is_valid.user_id.app_error",
+    "translation": "user_id के लिए अमान्य मान."
+  },
+  {
+    "id": "model.file_info.is_valid.update_at.app_error",
+    "translation": "update_at के लिए अमान्य मान।"
+  },
+  {
+    "id": "model.file_info.is_valid.post_id.app_error",
+    "translation": "post_id के लिए अमान्य मान।"
+  },
+  {
+    "id": "model.file_info.is_valid.path.app_error",
+    "translation": "पथ के लिए अमान्य मान."
+  },
+  {
+    "id": "model.file_info.is_valid.id.app_error",
+    "translation": "आईडी के लिए अमान्य मान."
+  },
+  {
+    "id": "model.file_info.is_valid.create_at.app_error",
+    "translation": "create_at के लिए अमान्य मान।"
+  },
+  {
+    "id": "model.file_info.get.gif.app_error",
+    "translation": "जीआईएफ डीकोड नहीं कर सका।"
+  },
+  {
+    "id": "model.emoji.user_id.app_error",
+    "translation": "अमान्य क्रिएटर आईडी."
+  },
+  {
+    "id": "model.emoji.name.app_error",
+    "translation": "नाम 1 से 64 लोअरकेस अक्षरांकीय वर्णों का होना चाहिए।"
+  },
+  {
+    "id": "model.emoji.id.app_error",
+    "translation": "अमान्य इमोजी आईडी."
+  },
+  {
+    "id": "model.config.is_valid.websocket_url.app_error",
+    "translation": "वेबसोकेट URL एक मान्य URL होना चाहिए और ws:// या wss:// से शुरू होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.webserver_security.app_error",
+    "translation": "वेबसर्वर कनेक्शन सुरक्षा के लिए अमान्य मान."
+  },
+  {
+    "id": "model.config.is_valid.tls_overwrite_cipher.app_error",
+    "translation": "TLS ओवरराइट सिफर के लिए अमान्य मान पारित किया गया - कृपया मान्य मानों के लिए दस्तावेज़ीकरण देखें।"
+  },
+  {
+    "id": "model.config.is_valid.tls_key_file_missing.app_error",
+    "translation": "TLS कुंजी फ़ाइल के लिए अमान्य मान - या तो LetsEncrypt का उपयोग करें या मौजूदा कुंजी फ़ाइल के लिए पथ सेट करें।"
+  },
+  {
+    "id": "model.config.is_valid.tls_cert_file_missing.app_error",
+    "translation": "TLS प्रमाणपत्र फ़ाइल के लिए अमान्य मान - या तो LetsEncrypt का उपयोग करें या मौजूदा प्रमाणपत्र फ़ाइल के लिए पथ सेट करें।"
+  },
+  {
+    "id": "model.config.is_valid.time_between_user_typing.app_error",
+    "translation": "उपयोगकर्ता टाइपिंग अपडेट के बीच का समय 1000 मिलीसेकंड से कम पर सेट नहीं किया जाना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.teammate_name_display.app_error",
+    "translation": "अमान्य टीममेट डिस्पले। 'full_name', 'nickname_full_name' या 'username' होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.sql_query_timeout.app_error",
+    "translation": "SQL सेटिंग्स के लिए अमान्य क्वेरी टाइमआउट। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.sql_max_conn.app_error",
+    "translation": "SQL सेटिंग्स के लिए अमान्य अधिकतम खुला कनेक्शन। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.sql_idle.app_error",
+    "translation": "SQL सेटिंग्स के लिए अमान्य अधिकतम निष्क्रिय कनेक्शन। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.sql_driver.app_error",
+    "translation": "SQL सेटिंग्स के लिए अमान्य ड्राइवर नाम। 'mysql' या 'postgres' होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.sql_data_src.app_error",
+    "translation": "SQL सेटिंग्स के लिए अमान्य डेटा स्रोत। सेट होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.sql_conn_max_lifetime_milliseconds.app_error",
+    "translation": "SQL सेटिंग्स के लिए अमान्य कनेक्शन अधिकतम जीवनकाल। एक गैर-ऋणात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.sitename_length.app_error",
+    "translation": "साइट का नाम {{.MaxLength}} वर्णों से कम या उसके बराबर होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.site_url_email_batching.app_error",
+    "translation": "जब SiteURL सेट नहीं है, तो ईमेल बैचिंग सक्षम करने में असमर्थ।"
+  },
+  {
+    "id": "model.config.is_valid.site_url.app_error",
+    "translation": "साइट URL एक वैध URL होना चाहिए और http:// या https:// से शुरू होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.saml_username_attribute.app_error",
+    "translation": "अमान्य उपयोगकर्ता नाम विशेषता। सेट होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.saml_signature_algorithm.app_error",
+    "translation": "अमान्य हस्ताक्षर एल्गोरिथम।"
+  },
+  {
+    "id": "api.command_share.fetch_remote.error",
+    "translation": "सुरक्षित कनेक्शन लाने में त्रुटि: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.desc",
+    "translation": "मौजूदा चैनल को बाहरी मैटरमोस्ट इंस्टेंस के साथ साझा करता है।"
+  },
+  {
+    "id": "api.command_share.could_not_uninvite.error",
+    "translation": "`{{.RemoteId}}` को आमंत्रित नहीं किया जा सका: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.check_channel_exist.error",
+    "translation": "साझा चैनल मौजूद है या नहीं, इसकी जाँच करते समय त्रुटि: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.channel_status_id",
+    "translation": "चैनल आईडी का स्टेटस`{{.ChannelId}}`"
+  },
+  {
+    "id": "api.command_share.channel_shared",
+    "translation": "यह चैनल अब साझा किया गया है।"
+  },
+  {
+    "id": "api.command_share.channel_remote_id_not_exists",
+    "translation": "इस चैनल के लिए साझा चैनल सुरक्षित कनेक्शन `{{.RemoteId}}` मौजूद नहीं है।"
+  },
+  {
+    "id": "api.command_share.channel_invite_not_home.error",
+    "translation": "कहीं और से शुरू होने वाले किसी साझा चैनल से सुरक्षित कनेक्शन को आमंत्रित नहीं कर सकता।"
+  },
+  {
+    "id": "api.command_share.channel_invite.error",
+    "translation": "इस चैनल में `{{.Name}}` को आमंत्रित करने में त्रुटि: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.available_actions",
+    "translation": "उपलब्ध कार्रवाइयाँ: {{.Actions}}"
+  },
+  {
+    "id": "api.command_settings.unsupported.app_error",
+    "translation": "आपके डिवाइस पर सेटिंग कमांड समर्थित नहीं है।"
+  },
+  {
+    "id": "api.command_settings.name",
+    "translation": "सेटिंगस"
+  },
+  {
+    "id": "api.command_settings.desc",
+    "translation": "अकाऊंत सेटिंग संवाद खोलें"
+  },
+  {
+    "id": "api.command_search.hint",
+    "translation": "[text]"
+  },
+  {
+    "id": "api.command_remove.name",
+    "translation": "निकाले"
+  },
+  {
+    "id": "api.command_remove.hint",
+    "translation": "@[username]"
+  },
+  {
+    "id": "api.command_remove.direct_group.app_error",
+    "translation": "आप किसी को डायरैक्ट मैसेज चैनल से नहीं हटा सकते।"
+  },
+  {
+    "id": "api.command_remote.remote_table_header",
+    "translation": "| सुरक्षित कनेक्शन | डिस्पले नाम | कनेक्शन आईडी | साइट URL | आमंत्रण स्वीकृत | ऑनलाइन | अंतिम पिंग |"
+  },
+  {
+    "id": "api.command_remote.remote_add_remove.help",
+    "translation": "सुरक्षित कनेक्शन जोड़ें/हटाएं। उपलब्ध कार्रवाइयाँ: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.invite_summary",
+    "translation": "पासवर्ड के साथ बाहरी मैटरमोस्ट सिस्टम एडमिन को निम्नलिखित एईएस 256-बिट एन्क्रिप्टेड आमंत्रण भेजें। वे आमंत्रण स्वीकार करने के लिए `{{.Command}}` स्लैश कमांड का उपयोग करेंगे।\n\n```\n{{.निमंत्रण}}\n```\n\n**सुनिश्चित करें कि सुरक्षित कनेक्शन ** {{.SiteURL}} के माध्यम से आपके मैटरमोस्ट इंस्टेंस तक पहुंच सकता है"
+  },
+  {
+    "id": "api.command_remote.hint",
+    "translation": "[action]"
+  },
+  {
+    "id": "api.command_msg.permission.app_error",
+    "translation": "आपके पास इस उपयोगकर्ता को डायरैक्ट मैसेज भेजने के लिए उपयुक्त अनुमतियाँ नहीं हैं।"
+  },
+  {
+    "id": "api.command_msg.name",
+    "translation": "मैसेज"
+  },
+  {
+    "id": "api.command_msg.missing.app_error",
+    "translation": "उपयोगकर्ता को खोजने में असमर्थ।"
+  },
+  {
+    "id": "api.command_msg.hint",
+    "translation": "@[username] 'message'"
+  },
+  {
+    "id": "api.command_msg.fail.app_error",
+    "translation": "उपयोगकर्ता को मैसेज भेजते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.command_msg.dm_fail.app_error",
+    "translation": "डायरैक्ट मैसेज बनाते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.command_msg.desc",
+    "translation": "किसी उपयोगकर्ता को डायरैक्ट मैसेज भेजें"
+  },
+  {
+    "id": "api.command_me.name",
+    "translation": "मैं"
+  },
+  {
+    "id": "api.command_me.hint",
+    "translation": "[मैसेज]"
+  },
+  {
+    "id": "api.command_me.desc",
+    "translation": "एक क्रिया करें"
+  },
+  {
+    "id": "api.command_logout.name",
+    "translation": "लॉगआउट"
+  },
+  {
+    "id": "api.command_logout.desc",
+    "translation": "मैटरमोस्ट से लॉगआउट करे"
   }
 ]
