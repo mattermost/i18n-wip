@@ -4707,5 +4707,13 @@
   {
     "id": "api.command_remote.missing_command",
     "translation": "लापता आदेश। उपलब्ध कार्रवाइयाँ: {{.क्रियाएँ}}"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.notification_failure.message",
+    "translation": "संदेश भेजा नहीं जा सका|"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.notification_failure.body",
+    "translation": "कृपया हमें ईमेल करें।"
   }
 ]
