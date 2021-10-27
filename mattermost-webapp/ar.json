@@ -4087,7 +4087,6 @@
   "signup_user_completed.validEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
   "signup_user_completed.whatis": "ما هو عنوان البريد الإلكتروني الخاص بك؟",
   "someting.string": "defaultString",
-  "status_dropdown.custom_status.tooltip_clear": "صافي",
   "status_dropdown.menuAriaLabel": "تعيين الحالة",
   "status_dropdown.set_away": "بعيد",
   "status_dropdown.set_custom": "تعيين الحالة مخصص",

@@ -3850,7 +3850,6 @@
   "signup_user_completed.validEmail": "Vui lòng nhập địa chỉ email hợp lệ",
   "signup_user_completed.whatis": "Địa chỉ email của bạn là gì?",
   "someting.string": "defaultString",
-  "status_dropdown.custom_status.tooltip_clear": "Xóa",
   "status_dropdown.menuAriaLabel": "đặt trạng thái",
   "status_dropdown.set_away": "Vắng",
   "status_dropdown.set_custom": "Cài Trạng Thái Tùy Chỉnh",
