@@ -146,6 +146,8 @@
   "add_oauth_app.nameRequired": "OAuth 2.0 एप्लिकेशन के लिए नाम आवश्यक है।",
   "add_oauth_app.url": "**URL(s)**: {url}",
   "add_outgoing_webhook.callbackUrls": "कॉलबैक URL (एक प्रति पंक्ति)",
+  "add_outgoing_webhook.callbackUrls.help": "वह URL निर्दिष्ट करें जिस पर संदेश भेजे जाएंगे। यदि URL निजी है, तो उसे {link} के रूप में जोड़ें।",
+  "add_outgoing_webhook.callbackUrls.helpLinkText": "विश्वसनीय आंतरिक कनेक्शन",
   "add_outgoing_webhook.cancel": "रद्द करना",
   "add_outgoing_webhook.description": "विवरण",
   "add_outgoing_webhook.displayName": "शीर्षक",
