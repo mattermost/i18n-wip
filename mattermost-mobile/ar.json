@@ -246,5 +246,8 @@
   "edit_post.save": "حفظ",
   "api.channel.guest_join_channel.post_and_forget": "انضم {username} إلى القناة كضيف.",
   "api.channel.add_member.added": "تمت إضافة {addedUsername} إلى القناة بواسطة {username}.",
-  "api.channel.add_guest.added": "تمت إضافة {addedUsername} إلى القناة كضيف بواسطة {username}."
+  "api.channel.add_guest.added": "تمت إضافة {addedUsername} إلى القناة كضيف بواسطة {username}.",
+  "apps.error.form.no_form": "لم يتم تعريف `form`.",
+  "apps.error.form.no_call": "لم يتم تعريف `call`.",
+  "apps.error.command.field_missing": "خانة مطلوبة ولم يتم تعبئتها: `{fieldName}`."
 }
