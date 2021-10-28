@@ -4727,5 +4727,21 @@
   {
     "id": "api.channel.post_channel_privacy_message.error",
     "translation": "चैनल गोपनीयता अद्यतन संदेश पोस्ट करने में विफल।"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.connection_url.app_error",
+    "translation": "Elasticsearch ConnectionUrl सेटिंग Elasticsearch अनुक्रमण सक्षम होने पर प्रदान की जानी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.bulk_indexing_time_window_seconds.app_error",
+    "translation": "Elasticsearch बल्क इंडेक्सिंग टाइम विंडो कम से कम 1 सेकंड की होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.aggregate_posts_after_days.app_error",
+    "translation": "Elasticsearch AggregatePostsAfterDays सेटिंग 1 से बड़ी या उसके बराबर संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.display.custom_url_schemes.app_error",
+    "translation": "कस्टम URL स्कीम {{.Scheme}} अमान्य है। कस्टम URL स्कीमों को एक अक्षर से शुरू होना चाहिए और इसमें केवल अक्षर, संख्याएँ, प्लस (+), अवधि (.) और हाइफ़न (-) होना चाहिए।"
   }
 ]
