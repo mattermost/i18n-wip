@@ -77,5 +77,7 @@
   "apps.error.form.refresh_no_refresh": "কোন রিফ্রেশ ফিল্ডে রিফ্রেশ বলা হয়।",
   "apps.error.form.submit.pretext": "মোডাল জমা দেওয়ার সময় একটি ত্রুটি হয়েছে। অ্যাপ ডেভেলপারের সাথে যোগাযোগ করুন। বিস্তারিত: {details}",
   "apps.error.lookup.error_preparing_request": "অনুসন্ধান অনুরোধ প্রস্তুত করার সময় ত্রুটি: {errorMessage}",
-  "apps.error.parser": "বিশ্লেষণ ত্রুটি: {ত্রুটি}"
+  "apps.error.parser": "বিশ্লেষণ ত্রুটি: {ত্রুটি}",
+  "apps.error.parser.empty_value": "খালি মান অনুমোদিত নয়",
+  "apps.error.parser.missing_field_value": "field মান অনুপস্থিত."
 }
