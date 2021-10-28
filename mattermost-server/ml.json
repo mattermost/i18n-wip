@@ -253,7 +253,7 @@
   },
   {
     "id": "api.channel.add_guest.added",
-    "translation": "%v  യെ  ചാനലിലേക്കു വിരുന്നുകാരൻ/വിരുന്നുകാരി ആയി %v ചേർത്തിരിക്കുന്നു."
+    "translation": "%v യെ ചാനലിലേക്കു വിരുന്നുകാരൻ/വിരുന്നുകാരി ആയി %v ചേർത്തിരിക്കുന്നു."
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
