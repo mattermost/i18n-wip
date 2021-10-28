@@ -26,5 +26,7 @@
   "about.hashee": "EE বিল্ড হ্যাশ:",
   "about.enterpriseEditionSt": "আপনার ফায়ারওয়ালের পিছনে থেকে আধুনিক যোগাযোগ।",
   "about.enterpriseEditionLearn": "এন্টারপ্রাইজ সংস্করণ সম্পর্কে আরও জানুন ",
-  "apps.error.parser": "বিশ্লেষণ ত্রুটি: {ত্রুটি}"
+  "apps.error.parser": "বিশ্লেষণ ত্রুটি: {ত্রুটি}",
+  "apps.error.parser.missing_field_value": "field মান অনুপস্থিত.",
+  "apps.error.parser.empty_value": "খালি মান অনুমোদিত নয়"
 }
