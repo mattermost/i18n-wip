@@ -59,7 +59,7 @@
   "apps.error": "തെറ്റ്: {error}",
   "apps.error.command.field_missing": "ആവശ്യമായ ഫീൽഡുകൾ കാണുന്നില്ല: `{fieldName}`.",
   "apps.error.command.unknown_channel": "ഫീൽഡിനായുള്ള അജ്ഞാത ചാനൽ `{fieldName}`: `{option}`.",
-  "apps.error.command.unknown_user": "ഫീൽഡിനായുള്ള അജ്ഞാത ഉപയോക്താവ് ``{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_user": "ഫീൽഡിനായുള്ള അജ്ഞാത ഉപയോക്താവ് `{fieldName}`: `{option}`.",
   "apps.error.form.no_call": "`call` നിർവ്വചിച്ചിട്ടില്ല.",
   "apps.error.form.no_form": "`form` നിർവ്വചിച്ചിട്ടില്ല.",
   "apps.error.form.submit.pretext": "മോഡൽ സമർപ്പിക്കുന്നതിൽ ഒരു പിശകുണ്ടായി. ആപ്പ് ഡെവലപ്പറുമായി ബന്ധപ്പെടുക.വിശദാംശങ്ങൾ: {details}",
@@ -68,5 +68,5 @@
   "apps.error.parser.multiple_equal": "അനേക `=` അടയാളങ്ങൾ അനുവദനീയമല്ല.",
   "apps.error.parser.no_argument_pos_x": "argument തിരിച്ചറിയാൻ കഴിയുന്നില്ല.",
   "apps.error.parser.no_slash_start": "കമാൻഡ് ആരംഭിക്കേണ്ടത് `/`.",
-  "apps.error.parser.unexpected_error": "അപ്രതീക്ഷിത പിശക്."
+  "apps.error.parser.unexpected_error": "അപ്രതീക്ഷിത തെറ്റ്."
 }
