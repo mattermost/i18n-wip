@@ -65,5 +65,10 @@
   "channel_header.notificationPreference.mention": "പരാമർശിക്കുന്നു",
   "channel_header.notificationPreference.default": "സ്ഥിരസ്ഥിതി",
   "channel_header.notificationPreference.all": "എല്ലാം",
-  "channel_header.notificationPreference": "മൊബൈൽ അറിയിപ്പുകൾ"
+  "channel_header.notificationPreference": "മൊബൈൽ അറിയിപ്പുകൾ",
+  "apps.error.parser.unexpected_whitespace": "എത്തിച്ചേരാനാകാത്തത്: അപ്രതീക്ഷിതമായ ഇടം.",
+  "apps.error.parser.unexpected_state": "എത്തിച്ചേരാനാകുന്നില്ല: മാച്ച് ബൈൻഡിംഗിലെ അപ്രതീക്ഷിത അവസ്ഥ: `{state}`.",
+  "apps.error.parser.missing_field_value": "ഫീൽഡ് മൂല്യം കാണുന്നില്ല.",
+  "apps.error.parser.empty_value": "ശൂന്യമായ മൂല്യങ്ങൾ അനുവദനീയമല്ല",
+  "apps.error.parser": "പാഴ്സിംഗിലെ തെറ്റ്:{error}"
 }
