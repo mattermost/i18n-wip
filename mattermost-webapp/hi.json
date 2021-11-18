@@ -473,7 +473,6 @@
   "intro_messages.noCreator": "यह {नाम} चैनल की शुरुआत है, जो {दिनांक} पर बनाया गया है।",
   "intro_messages.onlyInvited": " केवल आमंत्रित सदस्य ही इस निजी चैनल को देख सकते हैं।",
   "invitation-modal.confirm.people-header": "लोग",
-  "invitation_modal.members.share_link.copy_button": "प्रतिरूप जोड़ना",
   "last_users_message.added_to_channel.type": "** चैनल से ** को {अभिनेता} द्वारा जोड़ा गया।",
   "last_users_message.added_to_team.type": "** ** अभिनेता {द्वारा} टीम में जोड़े गए।",
   "last_users_message.first": "{FirstUser} और ",

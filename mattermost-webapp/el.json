@@ -318,7 +318,6 @@
   "intro_messages.group_message": "Αυτή είναι η αρχή των ομαδικών σας μηνυμάτων με αυτά τα μέλη. Τα μηνύματα και τα αρχεία που κοινοποιούνται εδώ δεν εμφανίζονται σε άτομα εκτός αυτής της περιοχής.",
   "intro_messages.noCreator": "Αυτή είναι η έναρξη του καναλιού {name}, που δημιουργήθηκε στις {date}.",
   "intro_messages.onlyInvited": " Μόνο τα προσκεκλημένα μέλη μπορούν να δουν αυτό το ιδιωτικό κανάλι.",
-  "invitation_modal.members.share_link.copy_button": "Αντιγραφή Συνδέσμου",
   "last_users_message.added_to_channel.type": "**προστέθηκαν στο κανάλι** από {actor}.",
   "last_users_message.added_to_team.type": "**προστέθηκαν στην ομάδα** από {actor}.",
   "last_users_message.first": "{firstUser} και ",
