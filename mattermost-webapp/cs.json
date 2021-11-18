@@ -1849,7 +1849,6 @@
   "intro_messages.setHeader": "Nastavit záhlaví",
   "intro_messages.teammate": "To je začátek historie vašich přímých zpráv s tímto členem týmu. Přímé zprávy a soubory sdílené zde nejsou viditelné ostatním členům.",
   "invitation-modal.confirm.details-header": "Detaily",
-  "invitation_modal.guests.invite_button": "Pozvat návštěvníky",
   "invitation_modal.members.search-and-add.placeholder-email-disabled": "Přidat členy",
   "last_users_message.added_to_channel.type": "byli **přidáni do kanálu** uživatelem {actor}.",
   "last_users_message.added_to_team.type": "byli **přidáni do týmu** uživatelem {actor}.",
