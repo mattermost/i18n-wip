@@ -552,7 +552,6 @@
   "admin.license.key": "Licensnøgle: ",
   "admin.license.keyRemove": "Fjern Enterprise-Licens og nedgrader server",
   "admin.license.removing": "Fjernelse af Licens...",
-  "admin.license.uploadDesc": "Upload en licens nøgle for Mattermost Enterprise Edition til at opgradere denne server. [Besøg os online](!http://mattermost.com) for at lære mere om fordelene ved Enterprise Edition eller for at købe en nøgle.",
   "admin.license.uploading": "Upload Licens...",
   "admin.log.consoleDescription": "Typisk sat til false i produktion. Udviklere kan indstille dette felt til at sande til, at output log beskeder til konsol baseret på konsollen niveau indstilling. Hvis det er sandt, server skriver beskeder til standard output stream (stdout). Ændring af denne indstilling kræver en server genstarter computeren, før de træder i kraft.",
   "admin.log.consoleJsonTitle": "Output konsol logs som JSON:",
