@@ -526,5 +526,189 @@
   {
     "id": "api.channel.update_channel_member_roles.changing_guest_role.app_error",
     "translation": "അസാധുവായ ചാനൽ അംഗം അപ്‌ഡേറ്റ്: നിങ്ങൾക്ക് അതിഥി റോൾ സ്വമേധയാ ചേർക്കാനോ നീക്കംചെയ്യാനോ കഴിയില്ല."
+  },
+  {
+    "id": "api.command_channel_rename.permission.app_error",
+    "translation": "ചാനലിന്റെ പേരുമാറ്റാൻ നിങ്ങൾക്ക് ഉചിതമായ അനുമതികൾ ഇല്ല."
+  },
+  {
+    "id": "api.command_channel_rename.name",
+    "translation": "പേരുമാറ്റുക"
+  },
+  {
+    "id": "api.command_channel_rename.message.app_error",
+    "translation": "/rename കമാൻഡ് ഉപയോഗിച്ച് ഒരു സന്ദേശം നൽകണം."
+  },
+  {
+    "id": "api.command_channel_rename.hint",
+    "translation": "[വാചകം]"
+  },
+  {
+    "id": "api.command_channel_rename.direct_group.app_error",
+    "translation": "നേരിട്ടുള്ള സന്ദേശ ചാനലുകളുടെ പേരുമാറ്റാൻ കഴിയുന്നില്ല."
+  },
+  {
+    "id": "api.command_channel_rename.desc",
+    "translation": "ചാനലിന്റെ പേര് മാറ്റുക"
+  },
+  {
+    "id": "api.command_channel_rename.channel.app_error",
+    "translation": "നിലവിലെ ചാനൽ വീണ്ടെടുക്കുന്നതിൽ പിശക്."
+  },
+  {
+    "id": "api.command_channel_remove.channel.app_error",
+    "translation": "നിലവിലെ ചാനൽ വീണ്ടെടുക്കുന്നതിൽ പിശക്."
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.max_length",
+    "translation": "നൽകിയ വാചകം പ്രതീക പരിധി കവിയുന്നു. ചാനൽ ഉദ്ദേശ്യം {{.MaxLength}} പ്രതീകങ്ങളായി പരിമിതപ്പെടുത്തിയിരിക്കുന്നു."
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.app_error",
+    "translation": "ചാനൽ ഉദ്ദേശ്യം അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പിശക്."
+  },
+  {
+    "id": "api.command_channel_purpose.permission.app_error",
+    "translation": "ചാനൽ ഉദ്ദേശ്യം എഡിറ്റുചെയ്യുന്നതിന് നിങ്ങൾക്ക് ഉചിതമായ അനുമതികൾ ഇല്ല."
+  },
+  {
+    "id": "api.command_channel_purpose.name",
+    "translation": "ഉദ്ദേശ്യം"
+  },
+  {
+    "id": "api.command_channel_purpose.message.app_error",
+    "translation": "/ഉദ്ദേശ്യ കമാൻഡ് ഉപയോഗിച്ച് ഒരു സന്ദേശം നൽകണം."
+  },
+  {
+    "id": "api.command_channel_purpose.hint",
+    "translation": "[വാചകം]"
+  },
+  {
+    "id": "api.command_channel_purpose.direct_group.app_error",
+    "translation": "നേരിട്ടുള്ള സന്ദേശ ചാനലുകൾക്കായി ഉദ്ദേശ്യം സജ്ജീകരിക്കാനായില്ല. പകരം തലക്കെട്ട് സജ്ജീകരിക്കാൻ /ഹെഡർ ഉപയോഗിക്കുക."
+  },
+  {
+    "id": "api.command_channel_purpose.desc",
+    "translation": "ചാനൽ ഉദ്ദേശ്യം എഡിറ്റ് ചെയ്യുക"
+  },
+  {
+    "id": "api.command_channel_purpose.channel.app_error",
+    "translation": "നിലവിലെ ചാനൽ വീണ്ടെടുക്കുന്നതിൽ പിശക്."
+  },
+  {
+    "id": "api.command_channel_header.update_channel.max_length",
+    "translation": "നൽകിയ വാചകം പ്രതീക പരിധി കവിയുന്നു. ചാനൽ തലക്കെട്ട് {{.MaxLength}} പ്രതീകങ്ങളായി പരിമിതപ്പെടുത്തിയിരിക്കുന്നു."
+  },
+  {
+    "id": "api.command_channel_header.update_channel.app_error",
+    "translation": "ചാനൽ തലക്കെട്ട് അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പിശക്."
+  },
+  {
+    "id": "api.command_channel_header.permission.app_error",
+    "translation": "ചാനൽ തലക്കെട്ട് എഡിറ്റ് ചെയ്യാൻ നിങ്ങൾക്ക് ഉചിതമായ അനുമതികൾ ഇല്ല."
+  },
+  {
+    "id": "api.command_channel_header.name",
+    "translation": "തലക്കെട്ട്"
+  },
+  {
+    "id": "api.command_channel_header.message.app_error",
+    "translation": "/ഹെഡർ കമാൻഡ് ഉപയോഗിച്ച് ടെക്സ്റ്റ് നൽകണം."
+  },
+  {
+    "id": "api.command_channel_header.hint",
+    "translation": "[വാചകം]"
+  },
+  {
+    "id": "api.command.team_mismatch.app_error",
+    "translation": "ടീമുകളിലുടനീളം കമാൻഡുകൾ അപ്‌ഡേറ്റ് ചെയ്യാനാവുന്നില്ല."
+  },
+  {
+    "id": "api.command.invite_people.sent",
+    "translation": "ഇമെയിൽ ക്ഷണം(കൾ) അയച്ചു"
+  },
+  {
+    "id": "api.command.invite_people.no_email",
+    "translation": "ഒന്നോ അതിലധികമോ സാധുവായ ഇമെയിൽ വിലാസങ്ങൾ വ്യക്തമാക്കുക"
+  },
+  {
+    "id": "api.command.invite_people.name",
+    "translation": "ആളുകളെ_ക്ഷണിക്കുക"
+  },
+  {
+    "id": "api.command.invite_people.invite_off",
+    "translation": "ഈ സെർവറിൽ ഉപയോക്തൃ സൃഷ്‌ടി പ്രവർത്തനരഹിതമാക്കിയിരിക്കുന്നു, ക്ഷണങ്ങളൊന്നും അയച്ചിട്ടില്ല"
+  },
+  {
+    "id": "api.command.invite_people.hint",
+    "translation": "[ പേര്@ഡൊമൈൻ.കോം …]"
+  },
+  {
+    "id": "api.command.invite_people.fail",
+    "translation": "ഇമെയിൽ ക്ഷണം(കൾ) അയക്കുന്നതിൽ ഒരു പിശക് നേരിട്ടു"
+  },
+  {
+    "id": "api.command.invite_people.email_off",
+    "translation": "ഇമെയിൽ കോൺഫിഗർ ചെയ്തിട്ടില്ല, ക്ഷണങ്ങളൊന്നും അയച്ചിട്ടില്ല"
+  },
+  {
+    "id": "api.command.invite_people.email_invitations_off",
+    "translation": "ഇമെയിൽ ക്ഷണങ്ങൾ പ്രവർത്തനരഹിതമാക്കി, ക്ഷണങ്ങളൊന്നും അയച്ചിട്ടില്ല"
+  },
+  {
+    "id": "api.command.invite_people.desc",
+    "translation": "നിങ്ങളുടെ മറ്റെർമോസ്റ് ടീമിന് ഒരു ഇമെയിൽ ക്ഷണം അയയ്ക്കുക"
+  },
+  {
+    "id": "api.command.execute_command.start.app_error",
+    "translation": "കമാൻഡ് ട്രിഗറൊന്നും കണ്ടെത്തിയില്ല."
+  },
+  {
+    "id": "api.command.execute_command.not_found.app_error",
+    "translation": "'{{.Trigger}}' എന്ന ട്രിഗർ ഉള്ള കമാൻഡ് കണ്ടെത്തിയില്ല. \"/\" എന്ന് തുടങ്ങുന്ന ഒരു സന്ദേശം അയക്കാൻ, സന്ദേശത്തിന്റെ തുടക്കത്തിൽ ഒരു ശൂന്യമായ ഇടം ചേർക്കാൻ ശ്രമിക്കുക."
+  },
+  {
+    "id": "api.command.execute_command.format.app_error",
+    "translation": "കമാൻഡ് ട്രിഗർ പദത്തിൽ മുൻനിര സ്ലാഷ് പ്രതീകം നഷ്‌ടമായി"
+  },
+  {
+    "id": "api.command.execute_command.failed_resp.app_error",
+    "translation": "'{{.Trigger}}' എന്ന ട്രിഗർ ഉള്ള കമാൻഡ് {{.Status}} എന്ന പ്രതികരണം നൽകി."
+  },
+  {
+    "id": "api.command.execute_command.failed_empty.app_error",
+    "translation": "'{{.Trigger}}' എന്ന ട്രിഗർ ഉള്ള കമാൻഡ് ഒരു ശൂന്യമായ പ്രതികരണം നൽകി."
+  },
+  {
+    "id": "api.command.execute_command.failed.app_error",
+    "translation": "'{{.Trigger}}' എന്ന ട്രിഗർ ഉള്ള കമാൻഡ് പരാജയപ്പെട്ടു."
+  },
+  {
+    "id": "api.command.execute_command.create_post_failed.app_error",
+    "translation": "പ്രതികരണം പോസ്റ്റ് ചെയ്യുന്നതിൽ '{{.Trigger}}' കമാൻഡ് പരാജയപ്പെട്ടു. നിങ്ങളുടെ സിസ്റ്റം അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക."
+  },
+  {
+    "id": "api.command.duplicate_trigger.app_error",
+    "translation": "ഈ ട്രിഗർ വാക്ക് ഇതിനകം ഉപയോഗത്തിലുണ്ട്. ദയവായി മറ്റൊരു വാക്ക് തിരഞ്ഞെടുക്കുക."
+  },
+  {
+    "id": "api.command.disabled.app_error",
+    "translation": "സിസ്റ്റം അഡ്മിൻ കമാൻഡുകൾ പ്രവർത്തനരഹിതമാക്കി."
+  },
+  {
+    "id": "api.command.command_post.forbidden.app_error",
+    "translation": "നിർദ്ദിഷ്ട ഉപയോക്താവ് നിർദ്ദിഷ്ട ചാനലിൽ അംഗമല്ല."
+  },
+  {
+    "id": "api.command.admin_only.app_error",
+    "translation": "സംയോജനങ്ങൾ അഡ്മിൻമാർക്ക് മാത്രമായി പരിമിതപ്പെടുത്തിയിരിക്കുന്നു."
+  },
+  {
+    "id": "api.channel.update_channel.tried.app_error",
+    "translation": "{{.Channel}} എന്ന ഡിഫോൾട്ട് ചാനലിന്റെ ഒരു അസാധുവായ അപ്‌ഡേറ്റ് നടത്താൻ ശ്രമിച്ചു."
+  },
+  {
+    "id": "api.cloud.cws_webhook_event_missing_error",
+    "translation": "വെബ്ഹുക്ക് ഇവന്റ് കൈകാര്യം ചെയ്തില്ല. ഒന്നുകിൽ അത് കാണുന്നില്ല അല്ലെങ്കിൽ അത് സാധുവല്ല."
   }
 ]
