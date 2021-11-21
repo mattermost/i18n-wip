@@ -710,5 +710,204 @@
   {
     "id": "api.cloud.cws_webhook_event_missing_error",
     "translation": "വെബ്ഹുക്ക് ഇവന്റ് കൈകാര്യം ചെയ്തില്ല. ഒന്നുകിൽ അത് കാണുന്നില്ല അല്ലെങ്കിൽ അത് സാധുവല്ല."
+  },
+  {
+    "id": "api.command_join.desc",
+    "translation": "തുറന്ന ചാനലിൽ ചേരുക"
+  },
+  {
+    "id": "api.command_invite_people.permission.app_error",
+    "translation": "ഈ സെർവറിലേക്ക് പുതിയ ഉപയോക്താക്കളെ ക്ഷണിക്കാൻ നിങ്ങൾക്ക് അനുമതിയില്ല."
+  },
+  {
+    "id": "api.command_invite.user_not_in_team.app_error",
+    "translation": "@{{.Username}} ടീമിലെ അംഗമല്ല."
+  },
+  {
+    "id": "api.command_invite.user_already_in_channel.app_error",
+    "translation": "{{.User}} ഇതിനകം ചാനലിലുണ്ട്."
+  },
+  {
+    "id": "api.command_invite.success",
+    "translation": "{{.ചാനൽ}} ചാനലിൽ {{.User}} ചേർത്തു."
+  },
+  {
+    "id": "api.command_invite.private_channel.app_error",
+    "translation": "ചാനൽ {{.Channel}} കണ്ടെത്താൻ കഴിഞ്ഞില്ല. ചാനലുകൾ തിരിച്ചറിയാൻ ചാനൽ ഹാൻഡിൽ ഉപയോഗിക്കുക."
+  },
+  {
+    "id": "api.command_invite.permission.app_error",
+    "translation": "{{.Channel}}-ൽ {{.User}}-നെ ചേർക്കാൻ നിങ്ങൾക്ക് മതിയായ അനുമതികളില്ല."
+  },
+  {
+    "id": "api.command_invite.name",
+    "translation": "ക്ഷണിക്കുക"
+  },
+  {
+    "id": "api.command_invite.missing_user.app_error",
+    "translation": "ഞങ്ങൾക്ക് ഉപയോക്താവിനെ കണ്ടെത്താൻ കഴിഞ്ഞില്ല. സിസ്റ്റം അഡ്മിനിസ്ട്രേറ്റർ അവ നിർജ്ജീവമാക്കിയിരിക്കാം."
+  },
+  {
+    "id": "api.command_invite.missing_message.app_error",
+    "translation": "ഉപയോക്തൃനാമവും ചാനലും വിട്ടുപോയിരിക്കുന്നു."
+  },
+  {
+    "id": "api.command_invite.group_constrained_user_denied",
+    "translation": "ഈ ചാനൽ നിയന്ത്രിക്കുന്നത് ഗ്രൂപ്പുകളാണ്. ഈ ചാനലുമായി സമന്വയിപ്പിച്ച ഒരു ഗ്രൂപ്പിന്റെ ഭാഗമല്ല ഈ ഉപയോക്താവ്."
+  },
+  {
+    "id": "api.command_invite.fail.app_error",
+    "translation": "ചാനലിൽ ചേരുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_invite.directchannel.app_error",
+    "translation": "നേരിട്ടുള്ള സന്ദേശ ചാനലിലേക്ക് നിങ്ങൾക്ക് ഒരാളെ ചേർക്കാനാകില്ല."
+  },
+  {
+    "id": "api.command_invite.desc",
+    "translation": "ഒരു ചാനലിലേക്ക് ഒരു ഉപയോക്താവിനെ ക്ഷണിക്കുക"
+  },
+  {
+    "id": "api.command_invite.channel.error",
+    "translation": "ചാനൽ {{.Channel}} കണ്ടെത്താൻ കഴിഞ്ഞില്ല. ചാനലുകൾ തിരിച്ചറിയാൻ ദയവായി [ചാനൽ ഹാൻഡിൽ](https://about.mattermost.com/default-channel-handle-documentation) ഉപയോഗിക്കുക."
+  },
+  {
+    "id": "api.command_invite.channel.app_error",
+    "translation": "നിലവിലെ ചാനൽ വീണ്ടെടുക്കുന്നതിൽ തെറ്റ്."
+  },
+  {
+    "id": "api.command_help.name",
+    "translation": "സഹായം"
+  },
+  {
+    "id": "api.command_help.desc",
+    "translation": "മറ്റെർമോസ്റ് സഹായ പേജ് തുറക്കുക"
+  },
+  {
+    "id": "api.command_groupmsg.permission.app_error",
+    "translation": "ഒരു പുതിയ ഗ്രൂപ്പ് സന്ദേശം സൃഷ്ടിക്കാൻ നിങ്ങൾക്ക് ഉചിതമായ അനുമതികൾ ഇല്ല."
+  },
+  {
+    "id": "api.command_groupmsg.name",
+    "translation": "സന്ദേശം"
+  },
+  {
+    "id": "api.command_groupmsg.min_users.app_error",
+    "translation": "ഗ്രൂപ്പ് സന്ദേശങ്ങൾ കുറഞ്ഞത് {{.MinUsers}} ഉപയോക്താക്കൾക്ക് മാത്രമായി പരിമിതപ്പെടുത്തിയിരിക്കുന്നു."
+  },
+  {
+    "id": "api.command_groupmsg.max_users.app_error",
+    "translation": "ഗ്രൂപ്പ് സന്ദേശങ്ങൾ പരമാവധി {{.MaxUsers}} ഉപയോക്താക്കൾക്ക് മാത്രമായി പരിമിതപ്പെടുത്തിയിരിക്കുന്നു."
+  },
+  {
+    "id": "api.command_groupmsg.invalid_user.app_error",
+    "translation": {
+      "one": "ഉപയോക്താവിനെ കണ്ടെത്താനായില്ല: {{.Users}}",
+      "other": "ഉപയോക്താക്കളെ കണ്ടെത്താനായില്ല: {{.Users}}"
+    }
+  },
+  {
+    "id": "api.command_groupmsg.group_fail.app_error",
+    "translation": "ഗ്രൂപ്പ് സന്ദേശം സൃഷ്ടിക്കുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_groupmsg.fail.app_error",
+    "translation": "ഉപയോക്താക്കൾക്ക് സന്ദേശമയയ്‌ക്കുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_groupmsg.desc",
+    "translation": "നിർദ്ദിഷ്ട ഉപയോക്താക്കൾക്ക് ഒരു ഗ്രൂപ്പ് സന്ദേശം അയയ്ക്കുന്നു"
+  },
+  {
+    "id": "api.command_expand_collapse.fail.app_error",
+    "translation": "പ്രിവ്യൂ വിപുലീകരിക്കുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_expand.success",
+    "translation": "ഇമേജ് ലിങ്കുകൾ ഇപ്പോൾ ഡിഫോൾട്ടായി വികസിക്കുന്നു"
+  },
+  {
+    "id": "api.command_expand.name",
+    "translation": "വികസിപ്പിക്കുക"
+  },
+  {
+    "id": "api.command_expand.desc",
+    "translation": "ഇമേജ് പ്രിവ്യൂകളുടെ സ്വയമേവ തകരുന്നത് ഓഫാക്കുക"
+  },
+  {
+    "id": "api.command_echo.name",
+    "translation": "പ്രതിധ്വനി"
+  },
+  {
+    "id": "api.command_echo.message.app_error",
+    "translation": "/echo കമാൻഡ് ഉപയോഗിച്ച് ഒരു സന്ദേശം നൽകണം."
+  },
+  {
+    "id": "api.command_echo.hint",
+    "translation": "'സന്ദേശം' [സെക്കൻഡിനുള്ളിൽ കാലതാമസം]"
+  },
+  {
+    "id": "api.command_echo.high_volume.app_error",
+    "translation": "ഉയർന്ന അളവിലുള്ള എക്കോ അഭ്യർത്ഥന, അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്യാൻ കഴിയില്ല."
+  },
+  {
+    "id": "api.command_echo.desc",
+    "translation": "നിങ്ങളുടെ അക്കൗണ്ടിൽ നിന്ന് എക്കോ ബാക്ക് ടെക്സ്റ്റ്"
+  },
+  {
+    "id": "api.command_echo.delay.app_error",
+    "translation": "കാലതാമസം 10000 സെക്കൻഡിൽ താഴെയായിരിക്കണം."
+  },
+  {
+    "id": "api.command_dnd.success",
+    "translation": "ശല്യപ്പെടുത്തരുത് പ്രവർത്തനക്ഷമമാക്കി. ശല്യപ്പെടുത്തരുത് ഓഫാക്കുന്നതുവരെ നിങ്ങൾക്ക് ഡെസ്ക്ടോപ്പ് അല്ലെങ്കിൽ മൊബൈൽ പുഷ് അറിയിപ്പുകൾ ലഭിക്കില്ല."
+  },
+  {
+    "id": "api.command_dnd.desc",
+    "translation": "ശല്യപ്പെടുത്തരുത് ഡെസ്ക്ടോപ്പ്, മൊബൈൽ പുഷ് അറിയിപ്പുകൾ പ്രവർത്തനരഹിതമാക്കുന്നു."
+  },
+  {
+    "id": "api.command_collapse.success",
+    "translation": "ഇമേജ് ലിങ്കുകൾ ഇപ്പോൾ ഡിഫോൾട്ടായി തകരുന്നു"
+  },
+  {
+    "id": "api.command_collapse.name",
+    "translation": "തകർച്ച"
+  },
+  {
+    "id": "api.command_collapse.desc",
+    "translation": "ഇമേജ് പ്രിവ്യൂകളുടെ സ്വയമേവ തകരുന്നത് ഓണാക്കുക"
+  },
+  {
+    "id": "api.command_code.name",
+    "translation": "കോഡ്"
+  },
+  {
+    "id": "api.command_code.message.app_error",
+    "translation": "/കോഡ് കമാൻഡ് ഉപയോഗിച്ച് ഒരു സന്ദേശം നൽകണം."
+  },
+  {
+    "id": "api.command_code.hint",
+    "translation": "[ടെക്സ്റ്റ്]"
+  },
+  {
+    "id": "api.command_code.desc",
+    "translation": "ഒരു കോഡ് ബ്ലോക്കായി ടെക്സ്റ്റ് പ്രദർശിപ്പിക്കുക"
+  },
+  {
+    "id": "api.command_channel_rename.update_channel.app_error",
+    "translation": "നിലവിലെ ചാനൽ അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ തെറ്റ്."
+  },
+  {
+    "id": "api.command_channel_rename.too_short.app_error",
+    "translation": "ചാനലിന്റെ പേര് {{.Length}} അല്ലെങ്കിൽ കൂടുതൽ പ്രതീകങ്ങൾ ആയിരിക്കണം."
+  },
+  {
+    "id": "api.command_channel_rename.too_long.app_error",
+    "translation": "ചാനലിന്റെ പേര് {{.Length}} അല്ലെങ്കിൽ കുറച്ച് പ്രതീകങ്ങൾ ആയിരിക്കണം."
+  },
+  {
+    "id": "api.cloud.request_error",
+    "translation": "CWS-ലേക്കുള്ള അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്യുന്നതിൽ തെറ്റ്."
   }
 ]
