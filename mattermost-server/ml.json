@@ -836,7 +836,7 @@
   },
   {
     "id": "api.command_echo.name",
-    "translation": "പ്രതിധ്വനി"
+    "translation": "എക്കോ"
   },
   {
     "id": "api.command_echo.message.app_error",
@@ -909,5 +909,285 @@
   {
     "id": "api.cloud.request_error",
     "translation": "CWS-ലേക്കുള്ള അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്യുന്നതിൽ തെറ്റ്."
+  },
+  {
+    "id": "api.command_remove.hint",
+    "translation": "@[ഉപയോക്തൃനാമം]"
+  },
+  {
+    "id": "api.command_remove.group_constrained_user_denied",
+    "translation": "ഈ ചാനലുമായി ലിങ്ക് ചെയ്‌തിരിക്കുന്ന ഗ്രൂപ്പുകളിൽ അംഗമായതിനാൽ ഉപയോക്താവിനെ നിങ്ങൾക്ക് ചാനലിൽ നിന്ന് നീക്കം ചെയ്യാൻ കഴിയില്ല. ഈ ചാനലിൽ നിന്ന് അവരെ നീക്കം ചെയ്യാൻ, ലിങ്ക് ചെയ്ത ഗ്രൂപ്പുകളിൽ നിന്ന് അവരെ നീക്കം ചെയ്യണം."
+  },
+  {
+    "id": "api.command_remove.direct_group.app_error",
+    "translation": "നേരിട്ടുള്ള സന്ദേശ ചാനലിൽ നിന്ന് നിങ്ങൾക്ക് ഒരാളെ നീക്കം ചെയ്യാൻ കഴിയില്ല."
+  },
+  {
+    "id": "api.command_remove.desc",
+    "translation": "ചാനലിൽ നിന്ന് ഒരു അംഗത്തെ നീക്കം ചെയ്യുക"
+  },
+  {
+    "id": "api.command_remote.remote_add_remove.help",
+    "translation": "സുരക്ഷിത കണക്ഷനുകൾ ചേർക്കുക/നീക്കം ചെയ്യുക. ലഭ്യമായ പ്രവർത്തനങ്ങൾ: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.invite.help",
+    "translation": "ഒരു സുരക്ഷിത കണക്ഷൻ ക്ഷണിക്കുക"
+  },
+  {
+    "id": "api.command_remote.invitation_created",
+    "translation": "ക്ഷണം സൃഷ്ടിച്ചു."
+  },
+  {
+    "id": "api.command_remote.fetch_status.error",
+    "translation": "സുരക്ഷിത കണക്ഷനുകൾ ലഭ്യമാക്കാൻ കഴിഞ്ഞില്ല: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.encrypt_invitation.error",
+    "translation": "ക്ഷണം എൻക്രിപ്റ്റ് ചെയ്യാൻ കഴിഞ്ഞില്ല: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.decode_invitation.error",
+    "translation": "ക്ഷണം ഡീകോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.cluster_removed",
+    "translation": "സുരക്ഷിത കണക്ഷൻ {{.RemoteId}} {{.Result}}."
+  },
+  {
+    "id": "api.command_remote.add_remote.error",
+    "translation": "സുരക്ഷിത കണക്ഷൻ ചേർക്കാൻ കഴിഞ്ഞില്ല: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept_invitation.error",
+    "translation": "ക്ഷണം സ്വീകരിക്കാൻ കഴിഞ്ഞില്ല: {{.Error}}"
+  },
+  {
+    "id": "api.command_mute.name",
+    "translation": "നിശബ്ദമാക്കുക"
+  },
+  {
+    "id": "api.command_offline.desc",
+    "translation": "നിങ്ങളുടെ സ്റ്റാറ്റസ് ഓഫ്‌ലൈനായി സജ്ജമാക്കുക"
+  },
+  {
+    "id": "api.command_open.name",
+    "translation": "തുറക്കുക"
+  },
+  {
+    "id": "api.command_online.success",
+    "translation": "നിങ്ങൾ ഇപ്പോൾ ഓൺലൈനിലാണ്"
+  },
+  {
+    "id": "api.command_online.name",
+    "translation": "ഓൺലൈൻ"
+  },
+  {
+    "id": "api.command_online.desc",
+    "translation": "നിങ്ങളുടെ സ്റ്റാറ്റസ് ഓൺലൈനിൽ സജ്ജമാക്കുക"
+  },
+  {
+    "id": "api.command_offline.success",
+    "translation": "നിങ്ങൾ ഇപ്പോൾ ഓഫ്‌ലൈനാണ്"
+  },
+  {
+    "id": "api.command_offline.name",
+    "translation": "ഓഫ്‌ലൈൻ"
+  },
+  {
+    "id": "api.command_mute.success_unmute_direct_msg",
+    "translation": "ഈ ചാനൽ ഇനി നിശബ്ദമാക്കിയിട്ടില്ല."
+  },
+  {
+    "id": "api.command_mute.success_unmute",
+    "translation": "{{.Channel}} ഇപ്പോൾ നിശബ്ദമാക്കിയിട്ടില്ല."
+  },
+  {
+    "id": "api.command_mute.success_mute_direct_msg",
+    "translation": "ചാനൽ നിശബ്‌ദമാക്കുന്നത് ഓഫാക്കുന്നതുവരെ ഈ ചാനലിനായി നിങ്ങൾക്ക് അറിയിപ്പുകൾ ലഭിക്കില്ല."
+  },
+  {
+    "id": "api.command_mute.success_mute",
+    "translation": "ചാനൽ നിശബ്ദമാക്കുന്നത് വരെ നിങ്ങൾക്ക് {{.Channel}}-നായി അറിയിപ്പുകൾ ലഭിക്കില്ല."
+  },
+  {
+    "id": "api.command_mute.not_member.error",
+    "translation": "നിങ്ങൾ അംഗമല്ലാത്തതിനാൽ {{.Channel}} ചാനൽ നിശബ്ദമാക്കാൻ കഴിഞ്ഞില്ല."
+  },
+  {
+    "id": "api.command_mute.no_channel.error",
+    "translation": "നിർദ്ദിഷ്ട ചാനൽ കണ്ടെത്താൻ കഴിഞ്ഞില്ല. ചാനലുകൾ തിരിച്ചറിയാൻ ദയവായി [ചാനൽ ഹാൻഡിൽ](https://about.mattermost.com/default-channel-handle-documentation) ഉപയോഗിക്കുക."
+  },
+  {
+    "id": "api.command_msg.hint",
+    "translation": "@[ഉപയോക്തൃനാമം] 'സന്ദേശം'"
+  },
+  {
+    "id": "api.command_msg.missing.app_error",
+    "translation": "ഉപയോക്താവിനെ കണ്ടെത്താനായില്ല."
+  },
+  {
+    "id": "api.command_me.desc",
+    "translation": "ഒരു പ്രവർത്തനം നടത്തുക"
+  },
+  {
+    "id": "api.command_join.hint",
+    "translation": "~[ചാനൽ]"
+  },
+  {
+    "id": "api.command_me.hint",
+    "translation": "[സന്ദേശം]"
+  },
+  {
+    "id": "api.command_mute.hint",
+    "translation": "~[ചാനൽ]"
+  },
+  {
+    "id": "api.command_mute.error",
+    "translation": "ചാനൽ {{.Channel}} കണ്ടെത്താൻ കഴിഞ്ഞില്ല. ചാനലുകൾ തിരിച്ചറിയാൻ ദയവായി [ചാനൽ ഹാൻഡിൽ](https://about.mattermost.com/default-channel-handle-documentation) ഉപയോഗിക്കുക."
+  },
+  {
+    "id": "api.command_mute.desc",
+    "translation": "ഡെസ്‌ക്‌ടോപ്പ്, ഇമെയിൽ, പുഷ് അറിയിപ്പുകൾ എന്നിവ നിലവിലെ ചാനലിന് അല്ലെങ്കിൽ വ്യക്തമാക്കിയ [ചാനൽ] ഓഫാക്കുന്നു."
+  },
+  {
+    "id": "api.command_msg.permission.app_error",
+    "translation": "ഈ ഉപയോക്താവിന് നേരിട്ട് സന്ദേശം അയയ്‌ക്കാൻ നിങ്ങൾക്ക് ഉചിതമായ അനുമതികൾ ഇല്ല."
+  },
+  {
+    "id": "api.command_msg.name",
+    "translation": "സന്ദേശം"
+  },
+  {
+    "id": "api.command_msg.fail.app_error",
+    "translation": "ഉപയോക്താവിന് സന്ദേശമയയ്‌ക്കുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_msg.dm_fail.app_error",
+    "translation": "നേരിട്ടുള്ള സന്ദേശം സൃഷ്ടിക്കുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_msg.desc",
+    "translation": "ഒരു ഉപയോക്താവിന് നേരിട്ടുള്ള സന്ദേശം അയയ്‌ക്കുക"
+  },
+  {
+    "id": "api.command_me.name",
+    "translation": "എന്നെ"
+  },
+  {
+    "id": "api.command_logout.name",
+    "translation": "ലോഗൗട്ട്"
+  },
+  {
+    "id": "api.command_logout.desc",
+    "translation": "മാറ്റർമോസ്റ്റിന്റെ ലോഗ്ഔട്ട്"
+  },
+  {
+    "id": "api.command_leave.fail.app_error",
+    "translation": "ചാനൽ വിടുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_leave.desc",
+    "translation": "നിലവിലെ ചാനൽ വിടുക"
+  },
+  {
+    "id": "api.command_join.name",
+    "translation": "ചേരുക"
+  },
+  {
+    "id": "api.command_join.missing.app_error",
+    "translation": "ചാനൽ കണ്ടെത്താനായില്ല."
+  },
+  {
+    "id": "api.command_join.list.app_error",
+    "translation": "ചാനലുകൾ ലിസ്റ്റുചെയ്യുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_join.fail.app_error",
+    "translation": "ചാനലിൽ ചേരുമ്പോൾ ഒരു തെറ്റ് സംഭവിച്ചു."
+  },
+  {
+    "id": "api.command_custom_status.name",
+    "translation": "സ്റ്റാറ്റസ്"
+  },
+  {
+    "id": "api.command_custom_status.success",
+    "translation": "നിങ്ങളുടെ സ്റ്റാറ്റസ് “{{.EmojiName}} {{.StatusMessage}}” ആയി സജ്ജീകരിച്ചിരിക്കുന്നു. ചാനൽ സൈഡ്‌ബാർ ഹെഡറിലെ സ്റ്റാറ്റസ് പോപ്പോവറിൽ നിന്ന് നിങ്ങൾക്ക് നിങ്ങളുടെ സ്റ്റാറ്റസ് മാറ്റാനാകും."
+  },
+  {
+    "id": "api.command_custom_status.desc",
+    "translation": "നിങ്ങളുടെ സ്റ്റാറ്റസ് സജ്ജമാക്കുക അല്ലെങ്കിൽ മായ്‌ക്കുക"
+  },
+  {
+    "id": "api.command_custom_status.clear.success",
+    "translation": "നിങ്ങളുടെ നില മായ്ച്ചു."
+  },
+  {
+    "id": "api.command_custom_status.clear.app_error",
+    "translation": "സ്റ്റാറ്റസ് മായ്‌ക്കുന്നതിൽ തെറ്റ്."
+  },
+  {
+    "id": "api.command_custom_status.app_error",
+    "translation": "സ്റ്റാറ്റസ് സജ്ജീകരിക്കുന്നതിൽ തെറ്റ്."
+  },
+  {
+    "id": "api.command_share.permission_required",
+    "translation": "പങ്കിട്ട ചാനലുകൾ നിയന്ത്രിക്കാൻ നിങ്ങൾക്ക് `{{.Permission}}` അനുമതി ആവശ്യമാണ്."
+  },
+  {
+    "id": "api.command_share.channel_status.help",
+    "translation": "ഈ പങ്കിട്ട ചാനലിന്റെ സ്റ്റാറ്റസ് പ്രദർശിപ്പിക്കുന്നു"
+  },
+  {
+    "id": "api.command_share.channel_shared",
+    "translation": "ഈ ചാനൽ ഇപ്പോൾ പങ്കിട്ടു."
+  },
+  {
+    "id": "api.command_share.channel_remote_id_not_exists",
+    "translation": "പങ്കിട്ട ചാനൽ സുരക്ഷിത കണക്ഷൻ `{{.RemoteId}}` ഈ ചാനലിനായി നിലവിലില്ല."
+  },
+  {
+    "id": "api.command_share.channel_invite_not_home.error",
+    "translation": "മറ്റെവിടെയെങ്കിലും ഉത്ഭവിക്കുന്ന പങ്കിട്ട ചാനലിലേക്ക് സുരക്ഷിത കണക്ഷൻ ക്ഷണിക്കാനാവില്ല."
+  },
+  {
+    "id": "api.command_search.name",
+    "translation": "തിരയുക"
+  },
+  {
+    "id": "api.command_settings.unsupported.app_error",
+    "translation": "settings കമാൻഡ് നിങ്ങളുടെ ഉപകരണത്തിൽ പിന്തുണയ്ക്കുന്നില്ല."
+  },
+  {
+    "id": "api.command_settings.name",
+    "translation": "ക്രമീകരണങ്ങൾ"
+  },
+  {
+    "id": "api.command_search.unsupported.app_error",
+    "translation": "നിങ്ങളുടെ ഉപകരണത്തിൽ search കമാൻഡ് പിന്തുണയ്ക്കുന്നില്ല."
+  },
+  {
+    "id": "api.command_search.desc",
+    "translation": "സന്ദേശങ്ങളിൽ ടെക്സ്റ്റ് തിരയുക"
+  },
+  {
+    "id": "api.command_remove.user_not_in_channel",
+    "translation": "{{.Username}} ഈ ചാനലിൽ അംഗമല്ല."
+  },
+  {
+    "id": "api.command_remove.permission.app_error",
+    "translation": "അംഗത്തെ നീക്കം ചെയ്യുന്നതിനുള്ള ഉചിതമായ അനുമതികൾ നിങ്ങൾക്കില്ല."
+  },
+  {
+    "id": "api.command_remove.name",
+    "translation": "നീക്കം ചെയ്യുക"
+  },
+  {
+    "id": "api.command_remove.missing.app_error",
+    "translation": "ഞങ്ങൾക്ക് ഉപയോക്താവിനെ കണ്ടെത്താൻ കഴിഞ്ഞില്ല. സിസ്റ്റം അഡ്മിനിസ്ട്രേറ്റർ അവ നിർജ്ജീവമാക്കിയിരിക്കാം."
+  },
+  {
+    "id": "api.command_remove.message.app_error",
+    "translation": "/remove അല്ലെങ്കിൽ /kick കമാൻഡ് ഉപയോഗിച്ച് ഒരു സന്ദേശം നൽകണം."
   }
 ]
