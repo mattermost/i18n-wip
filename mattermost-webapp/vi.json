@@ -560,7 +560,6 @@
   "admin.data_retention.customPolicies.addPolicy": "Thêm chính sách",
   "admin.data_retention.customPolicies.subTitle": "Tùy chỉnh thời lượng các nhóm và kênh cụ thể sẽ lưu giữ tin nhắn.",
   "admin.data_retention.customPolicies.title": "Chính sách lưu trữ tùy chỉnh",
-  "admin.data_retention.note.description": "Thận trọng: Sau khi xóa một thư hoặc một tệp, hành động sẽ không thể thay đổi được. Hãy cẩn thận khi thiết lập chính sách lưu giữ dữ liệu tùy chỉnh. Hãy xem {documentLink} để tìm hiểu thêm.",
   "admin.data_retention.title": "Chính sách lưu giữ dữ liệu",
   "admin.database.title": "Cơ sở dữ liệu",
   "admin.developer.title": "Cài đặt dành cho nhà phát triển",

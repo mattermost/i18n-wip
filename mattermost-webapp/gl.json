@@ -533,7 +533,6 @@
   "admin.data_grid.loading": "Cargando",
   "admin.data_grid.paginatorCount": "{startCount, number} - {endCount, number} de {total, number}",
   "admin.data_retention.createJob.title": "Executar o traballo de eliminación agora",
-  "admin.data_retention.note.description": "Precaución: unha vez que se elimina unha mensaxe ou un ficheiro, a acción é irreversíbel. Teña coidado ao estabelecer unha norma de retención de datos personalizada. Vexa {documentationLink} para obter máis información.",
   "admin.data_retention.title": "Norma de retención de datos",
   "admin.database.title": "Base de datos",
   "admin.developer.title": "Axustes do desenvolvedor",
