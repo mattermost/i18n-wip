@@ -539,7 +539,6 @@
   "admin.customization.iosAppDownloadLinkDesc": "Přidání odkazu ke stažení iOS aplikace. Uživatelé, kteří navštíví stránku v mobilním prohlížeči budou odkázáni na stránku, která jim umožní stáhnout aplikaci. Ponechte toto pole prázdné, abyste zabránili zobrazování stránky.",
   "admin.customization.iosAppDownloadLinkTitle": "Odkaz ke stažení iOS aplikace:",
   "admin.data_grid.loading": "Nahrávám",
-  "admin.data_retention.keepFilesForTime": "Zachovat soubory po určitou dobu",
   "admin.database.title": "Databáze",
   "admin.developer.title": "Nastavení vývojáře",
   "admin.elasticsearch.connectionUrlDescription": "Adresa serveru Elasticsearch. {documentationLink}",

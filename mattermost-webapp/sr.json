@@ -147,7 +147,6 @@
   "admin.customization.iosAppDownloadLinkDesc": "Додајте везу за преузимање iOS апликације. Корисници који приступају сајту преко мобилног веб прегледача ће бити упитани на страници да преузму апликацију. Оставите ово поље празним да бисте спречили појављивање ове странице.",
   "admin.customization.iosAppDownloadLinkTitle": "Веза за преузимање iOS апликације:",
   "admin.data_retention.createJob.title": "Покрени посао брисања одмах",
-  "admin.data_retention.keepMessageForTime": "Задржи поруке одређено време",
   "admin.developer.title": "Програмерска подешавања",
   "admin.elasticsearch.connectionUrlDescription": "Адреса Elasticsearch сервера. {documentationLink}",
   "admin.elasticsearch.connectionUrlExample": "Нпр.: \"https://elasticsearch.primer.rs:9200\"",
