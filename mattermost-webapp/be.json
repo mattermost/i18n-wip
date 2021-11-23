@@ -186,7 +186,6 @@
   "admin.data_retention.globalPoliciesTable.description": "Апісанне",
   "admin.data_retention.globalPoliciesTable.edit": "Рэдагаваць",
   "admin.data_retention.globalPoliciesTable.files": "Файлы",
-  "admin.data_retention.note.description.documentationLinkText": "дакументацыя",
   "admin.database.title": "База дадзеных",
   "admin.elasticsearch.title": "Elasticsearch",
   "admin.environment.notifications": "Апавяшчэнні",
