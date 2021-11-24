@@ -1036,7 +1036,7 @@
   },
   {
     "id": "api.command_search.name",
-    "translation": "جسجتو"
+    "translation": "جستجو"
   },
   {
     "id": "api.command_search.unsupported.app_error",
@@ -1084,7 +1084,7 @@
   },
   {
     "id": "api.config.get_config.restricted_merge.app_error",
-    "translation": ""
+    "translation": "پیکربندی داده شده ادغام نشد."
   },
   {
     "id": "api.config.migrate_config.app_error",
@@ -1092,7 +1092,7 @@
   },
   {
     "id": "api.config.patch_config.restricted_merge.app_error",
-    "translation": ""
+    "translation": "پیکربندی داده شده ادغام نشد."
   },
   {
     "id": "api.config.update_config.clear_siteurl.app_error",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
-    "translation": "بارگذاری پرونده (ها) امکان پذیر نیست. برای {{.NumFiles}} پرونده دارای {{.NumClientIds}}  سرویس گیرنده_یست."
+    "translation": "بارگذاری پرونده (ها) امکان پذیر نیست. برای {{.NumFiles}} پرونده دارای {{.NumClientIds}} سرویس گیرنده_یست."
   },
   {
     "id": "api.file.upload_file.incorrect_number_of_files.app_error",
@@ -1427,7 +1427,7 @@
   },
   {
     "id": "api.license.request_trial_license.no-site-url.app_error",
-    "translation": "درخواست مجوز آزمایشی امکان پذیر نیست. لطفاً یک URL سایت را در بخش وب سرور  سیستم کنسول Mattermost پیکربندی کنید."
+    "translation": "درخواست مجوز آزمایشی امکان پذیر نیست. لطفاً یک URL سایت را در بخش وب سرور سیستم کنسول Mattermost پیکربندی کنید."
   },
   {
     "id": "api.marshal_error",
@@ -1491,11 +1491,11 @@
   },
   {
     "id": "api.oauth.get_access_token.missing_code.app_error",
-    "translation": "invalid_request: کد موجود نیست"
+    "translation": "invalid_request: کد موجود نیست."
   },
   {
     "id": "api.oauth.get_access_token.missing_refresh_token.app_error",
-    "translation": "invalid_request:  refresh_token موجود نیست."
+    "translation": "invalid_request: refresh_token موجود نیست."
   },
   {
     "id": "api.oauth.get_access_token.redirect_uri.app_error",
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "api.post.check_for_out_of_channel_groups_mentions.message.multiple",
-    "translation": "@{{.Usernames}}  و @{{.LastUsername}} به دلیل اینکه در کانال نیستند ، با این ذکر شدن به آنها اطلاع داده نشد. نمی توانند به کانال اضافه شوند زیرا عضوی از گروه های پیوندی نیستند. برای افزودن آنها به این کانال ، باید به گروه های پیوندی اضافه شوند."
+    "translation": "@{{.Usernames}} و @{{.LastUsername}} به دلیل اینکه در کانال نیستند ، با این ذکر شدن به آنها اطلاع داده نشد. نمی توانند به کانال اضافه شوند زیرا عضوی از گروه های پیوندی نیستند. برای افزودن آنها به این کانال ، باید به گروه های پیوندی اضافه شوند."
   },
   {
     "id": "api.post.check_for_out_of_channel_groups_mentions.message.one",
@@ -1685,7 +1685,7 @@
   },
   {
     "id": "api.post.send_notifications_and_forget.push_message",
-    "translation": "برای شما پیغام فرستاد"
+    "translation": "برای شما پیغام فرستاد."
   },
   {
     "id": "api.post.update_post.can_not_update_post_in_deleted.error",
@@ -1813,7 +1813,7 @@
   },
   {
     "id": "api.server.start_server.rate_limiting_memory_store",
-    "translation": "ذخیره سازی حافظه محدود کننده سرعت امکان پذیر نیست. تنظیمات پیکربندی  اندازه ذخیره حافظه را بررسی کنید."
+    "translation": "ذخیره سازی حافظه محدود کننده سرعت امکان پذیر نیست. تنظیمات پیکربندی اندازه ذخیره حافظه را بررسی کنید."
   },
   {
     "id": "api.server.start_server.rate_limiting_rate_limiter",
@@ -1857,11 +1857,11 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.message",
-    "translation": "پیام ارسال نشد"
+    "translation": "پیام ارسال نشد."
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "از اینکه با Mattermost تماس گرفتید متشکریم ما به زودی با شما در ارتباط خواهیم بود"
+    "translation": "از اینکه با Mattermost تماس گرفتید متشکریم ما به زودی با شما در ارتباط خواهیم بود."
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
@@ -2021,7 +2021,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
-    "translation": "درخواست  تماس Mattermost .من علاقه مندم در مورد بهبود عملکرد با Elasticsearch بیشتر بدانم.\r\n"
+    "translation": "درخواست تماس Mattermost .من علاقه مندم در مورد بهبود عملکرد با Elasticsearch بیشتر بدانم.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
@@ -2033,7 +2033,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "سیستم Mattermost شما تعداد زیادی پیام دارد. جستجوی پیش فرض پایگاه داده Mattermost شروع به نشان دادن تخریب عملکرد در حدود 2.5 میلیون پست می کند. با بیش از 5 میلیون پست ، Elasticsearch می تواند با جستجو و موارد ذکر شده از مشکلات قابل توجه عملکرد ، مانند وقفه زمانی ، جلوگیری کند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما اطلاع دهید که چگونه می توانیم کمک کنیم. \r\n\r\n [درباره بهبود عملکرد بیشتر بدانید](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/privacy-policy/) ، و دریافت ایمیل های محصول  موافقت می کنم ."
+    "translation": "سیستم Mattermost شما تعداد زیادی پیام دارد. جستجوی پیش فرض پایگاه داده Mattermost شروع به نشان دادن تخریب عملکرد در حدود 2.5 میلیون پست می کند. با بیش از 5 میلیون پست ، Elasticsearch می تواند با جستجو و موارد ذکر شده از مشکلات قابل توجه عملکرد ، مانند وقفه زمانی ، جلوگیری کند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما اطلاع دهید که چگونه می توانیم کمک کنیم. \n\n[درباره بهبود عملکرد بیشتر بدانید](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nبا کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/privacy-policy/) ، و دریافت ایمیل های محصول موافقت می کنم ."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
@@ -2177,7 +2177,7 @@
   },
   {
     "id": "api.system.update_viewed_notices.failed",
-    "translation": ""
+    "translation": "به روز رسانی اعلامیه های مشاهده شده انجام نشد"
   },
   {
     "id": "api.team.add_members.error",
@@ -7546,5 +7546,633 @@
   {
     "id": "web.incoming_webhook.user.app_error",
     "translation": "کاربر یافت نشد."
+  },
+  {
+    "id": "api.server.warn_metric.support_email_not_configured.notification_title",
+    "translation": "آدرس ایمیل پشتیبانی خود را تنظیم کنید"
+  },
+  {
+    "id": "api.server.license_up_for_renewal.error_sending_email",
+    "translation": "مجوز برای ایمیل های تمدید ارسال نشد"
+  },
+  {
+    "id": "api.remote_cluster.update.app_error",
+    "translation": "در به روز رسانی اتصال ایمن با خطایی مواجه شدیم."
+  },
+  {
+    "id": "api.remote_cluster.get.app_error",
+    "translation": "در بازیابی اتصال ایمن با خطایی مواجه شدیم."
+  },
+  {
+    "id": "api.remote_cluster.delete.app_error",
+    "translation": "هنگام حذف اتصال ایمن با خطایی مواجه شدیم."
+  },
+  {
+    "id": "api.push_notification.title.collapsed_threads_dm",
+    "translation": "پاسخ را در دایرکت پیام دهید"
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_comment_on_crt_thread_dm",
+    "translation": " به یک تاپیک پاسخ داد."
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_comment_on_crt_thread",
+    "translation": " به موضوعی که دنبال می کنید پاسخ داد."
+  },
+  {
+    "id": "api.oauth.redirecting_back",
+    "translation": "هدایت مجدد شما به برنامه."
+  },
+  {
+    "id": "api.oauth.close_browser",
+    "translation": "اکنون می توانید این برگه مرورگر را ببندید."
+  },
+  {
+    "id": "api.oauth.click_redirect",
+    "translation": "اگر به طور خودکار هدایت نشدید، لطفاً روی <a href='{{.Link}}'>لینک</a> کلیک کنید"
+  },
+  {
+    "id": "api.oauth.auth_complete",
+    "translation": "احراز هویت کامل شد"
+  },
+  {
+    "id": "api.no_license",
+    "translation": "مجوز E10 یا E20 برای استفاده از این نقطه پایانی مورد نیاز است."
+  },
+  {
+    "id": "api.license.upgrade_needed.app_error",
+    "translation": "ویژگی نیاز به ارتقاء به نسخه Enterprise دارد."
+  },
+  {
+    "id": "api.license.request_renewal_link.app_error",
+    "translation": "خطا در دریافت لینک تمدید مجوز"
+  },
+  {
+    "id": "api.license.request-trial.can-start-trial.not-allowed",
+    "translation": "این کلید مجوز آزمایشی برای Mattermost Enterprise Edition منقضی شده است و دیگر معتبر نیست. اگر می‌خواهید دوره آزمایشی خود را تمدید کنید، لطفاً [با تیم فروش ما تماس بگیرید] (https://mattermost.com/contact-us/)."
+  },
+  {
+    "id": "api.license.request-trial.can-start-trial.error",
+    "translation": "نمی توان بررسی کرد که آیا آزمایشی می تواند شروع شود یا خیر"
+  },
+  {
+    "id": "api.job.unable_to_download_job.incorrect_job_type",
+    "translation": "نوع کاری که می‌خواهید دانلود کنید در حال حاضر پشتیبانی نمی‌شود"
+  },
+  {
+    "id": "api.job.unable_to_create_job.incorrect_job_type",
+    "translation": "نوع کار کاری که می‌خواهید ایجاد کنید نامعتبر است"
+  },
+  {
+    "id": "api.job.retrieve.nopermissions",
+    "translation": "انواع کارهایی از یک کار که می‌خواهید بازیابی کنید شامل مجوز نیست"
+  },
+  {
+    "id": "api.invalid_redirect_url",
+    "translation": "URL تغییر مسیر نامعتبر ارائه شده است"
+  },
+  {
+    "id": "api.invalid_custom_url_scheme",
+    "translation": "طرح url سفارشی نامعتبر ارائه شده است"
+  },
+  {
+    "id": "api.getThreadsForUser.bad_params",
+    "translation": "پارامترهای قبل و بعد برای getThreadsForUser متقابلا منحصر به فرد هستند"
+  },
+  {
+    "id": "api.file.write_file.app_error",
+    "translation": "امکان نوشتن فایل وجود ندارد."
+  },
+  {
+    "id": "api.file.test_connection_s3_bucket_does_not_exist.app_error",
+    "translation": "اطمینان حاصل کنید که bucket آمازون S3 شما در دسترس است و مجوزهای bucket خود را تأیید کنید."
+  },
+  {
+    "id": "api.file.test_connection_s3_auth.app_error",
+    "translation": "امکان اتصال به S3 وجود ندارد. پارامترهای مجوز اتصال آمازون S3 و تنظیمات احراز هویت را تأیید کنید."
+  },
+  {
+    "id": "api.file.test_connection.app_error",
+    "translation": "دسترسی به حافظه فایل امکان پذیر نیست."
+  },
+  {
+    "id": "api.file.remove_file.app_error",
+    "translation": "حذف فایل ممکن نیست."
+  },
+  {
+    "id": "api.file.remove_directory.app_error",
+    "translation": "حذف دایرکتوری ممکن نیست."
+  },
+  {
+    "id": "api.file.read_file.app_error",
+    "translation": "هیچ درایور فایلی انتخاب نشده است."
+  },
+  {
+    "id": "api.file.move_file.app_error",
+    "translation": "انتقال فایل ممکن نیست."
+  },
+  {
+    "id": "api.file.list_directory.app_error",
+    "translation": "فهرست دایرکتوری ممکن نیست."
+  },
+  {
+    "id": "api.file.file_size.app_error",
+    "translation": "نمی توان اندازه فایل را دریافت کرد."
+  },
+  {
+    "id": "api.file.file_reader.app_error",
+    "translation": "دریافت فایل خوان امکان پذیر نیست."
+  },
+  {
+    "id": "api.file.file_mod_time.app_error",
+    "translation": "دریافت آخرین زمان اصلاح برای فایل ممکن نیست."
+  },
+  {
+    "id": "api.file.file_exists.app_error",
+    "translation": "بررسی وجود فایل ممکن نیست."
+  },
+  {
+    "id": "api.file.append_file.app_error",
+    "translation": "امکان افزودن داده به فایل وجود ندارد."
+  },
+  {
+    "id": "api.export.export_not_found.app_error",
+    "translation": "فایل صادراتی پیدا نشد."
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.title",
+    "translation": "شما پیام های جدیدی دارید"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.time",
+    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.subTitle",
+    "translation": "برای خلاصه ای از پیام های جدید خود به زیر مراجعه کنید."
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.messageButton",
+    "translation": "مشاهده این پیام"
+  },
+  {
+    "id": "api.email_batching.send_batched_email_notification.button",
+    "translation": "Mattermost را باز کنید"
+  },
+  {
+    "id": "api.custom_status.set_custom_statuses.update.app_error",
+    "translation": "وضعیت سفارشی به‌روزرسانی نشد. لطفاً وضعیت شکلک یا متن سفارشی یا هر دو را اضافه کنید."
+  },
+  {
+    "id": "api.custom_status.recent_custom_statuses.delete.app_error",
+    "translation": "وضعیت اخیر حذف نشد. لطفاً ابتدا وضعیت را اضافه کنید یا برای جزئیات با سرپرست سیستم خود تماس بگیرید."
+  },
+  {
+    "id": "api.custom_status.disabled",
+    "translation": "ویژگی وضعیت سفارشی غیرفعال شده است. لطفاً برای جزئیات بیشتر با مدیر سیستم خود تماس بگیرید."
+  },
+  {
+    "id": "api.context.remote_id_missing.app_error",
+    "translation": "شناسه اتصال ایمن وجود ندارد."
+  },
+  {
+    "id": "api.context.remote_id_mismatch.app_error",
+    "translation": "عدم تطابق شناسه اتصال ایمن."
+  },
+  {
+    "id": "api.context.remote_id_invalid.app_error",
+    "translation": "شناسه اتصال ایمن {{.RemoteId}} پیدا نشد."
+  },
+  {
+    "id": "api.context.json_encoding.app_error",
+    "translation": "خطا در رمزگذاری JSON."
+  },
+  {
+    "id": "api.context.invitation_expired.error",
+    "translation": "دعوتنامه منقضی شده است."
+  },
+  {
+    "id": "api.config.update_config.not_allowed_security.app_error",
+    "translation": "تغییر {{.Name}} به دلایل امنیتی مجاز نیست."
+  },
+  {
+    "id": "api.config.update_config.diff.app_error",
+    "translation": "تفاوت پیکربندی ها ناموفق بود"
+  },
+  {
+    "id": "api.config.reload_config.app_error",
+    "translation": "بارگیری مجدد پیکربندی انجام نشد."
+  },
+  {
+    "id": "api.config.patch_config.diff.app_error",
+    "translation": "تفاوت پیکربندی ها ناموفق بود"
+  },
+  {
+    "id": "api.command_share.unshare_channel.help",
+    "translation": "اشتراک‌گذاری کانال فعلی را لغو می‌کند"
+  },
+  {
+    "id": "api.command_share.unknown_action",
+    "translation": "عملکرد ناشناخته`{{.Action}}`. عملکردهای موجود: {{.Actions}}"
+  },
+  {
+    "id": "api.command_share.uninvite_remote_id.help",
+    "translation": "شناسه اتصال امن برای لغو دعوت."
+  },
+  {
+    "id": "api.command_share.uninvite_remote.help",
+    "translation": "یک اتصال امن را از این کانال مشترک، لغو دعوت می کند"
+  },
+  {
+    "id": "api.command_share.shared_channel_unshare.error",
+    "translation": "اشتراک‌گذاری این کانال امکان‌پذیر نیست: {{.Error}}."
+  },
+  {
+    "id": "api.command_share.shared_channel_unavailable",
+    "translation": "این کانال دیگر به اشتراک گذاشته نمی شود."
+  },
+  {
+    "id": "api.command_share.share_read_only.help",
+    "translation": "کانال در حالت فقط خواندنی به اشتراک گذاشته خواهد شد"
+  },
+  {
+    "id": "api.command_share.share_channel.error",
+    "translation": "نمی توان این کانال را به اشتراک گذاشت: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.service_disabled",
+    "translation": "سرویس کانال های مشترک غیرفعال است."
+  },
+  {
+    "id": "api.command_share.remote_uninvited",
+    "translation": "اتصال ایمن `{{.RemoteId}}` دعوت نشده است."
+  },
+  {
+    "id": "api.command_share.remote_table_header",
+    "translation": "| اتصال ایمن | آدرس سایت | فقط خواندن | دعوت پذیرفته شد | آنلاین | آخرین همگام سازی |"
+  },
+  {
+    "id": "api.command_share.remote_not_valid",
+    "translation": "برای لغو دعوت باید یک شناسه اتصال امن معتبر مشخص کنید"
+  },
+  {
+    "id": "api.command_share.remote_id_invalid.error",
+    "translation": "شناسه اتصال امن نامعتبر است: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.remote_id.help",
+    "translation": "شناسه اتصال ایمن موجود. برای افزودن یک اتصال ایمن به دستور`اتصال امن` مراجعه کنید."
+  },
+  {
+    "id": "api.command_share.remote_already_invited",
+    "translation": "اتصال امن قبلاً دعوت شده است."
+  },
+  {
+    "id": "api.command_share.permission_required",
+    "translation": "برای مدیریت کانال های به اشتراک گذاشته شده به مجوز `{{.Permission}}` نیاز دارید."
+  },
+  {
+    "id": "api.command_share.not_shared_channel_unshare",
+    "translation": "اشتراک گذاری کانالی که به اشتراک گذاشته نشده است را نمی توان لغو کرد."
+  },
+  {
+    "id": "api.command_share.no_remote_invited",
+    "translation": "هیچ اتصال امنی به این کانال دعوت نشده است."
+  },
+  {
+    "id": "api.command_share.name",
+    "translation": "اشتراک گذاری کانال"
+  },
+  {
+    "id": "api.command_share.must_specify_valid_remote",
+    "translation": "برای دعوت باید یک شناسه اتصال امن معتبر مشخص کنید."
+  },
+  {
+    "id": "api.command_share.missing_action",
+    "translation": "اقدام از دست رفته است. عملکردهای موجود: {{.Actions}}"
+  },
+  {
+    "id": "api.command_share.invite_remote.help",
+    "translation": "یک نمونه خارجی Mattermost را به کانال مشترک فعلی دعوت می کند"
+  },
+  {
+    "id": "api.command_share.invitation_sent",
+    "translation": "دعوتنامه کانال مشترک به`{{.Name}} {{.SiteURL}}` ارسال شده است."
+  },
+  {
+    "id": "api.command_share.invalid_value.error",
+    "translation": "مقدار نامعتبر برای '{{.Arg}}': {{.Error}}"
+  },
+  {
+    "id": "api.command_share.hint",
+    "translation": "[action]"
+  },
+  {
+    "id": "api.command_share.fetch_remote_status.error",
+    "translation": "وضعیت برای اتصالات امن واکشی نشد: {{.Error}}."
+  },
+  {
+    "id": "api.command_share.fetch_remote.error",
+    "translation": "خطا در واکشی اتصالات ایمن: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.desc",
+    "translation": "کانال فعلی را با یک نمونه خارجی Mattermost به اشتراک می گذارد."
+  },
+  {
+    "id": "api.command_share.could_not_uninvite.error",
+    "translation": "`{{.RemoteId}}` لغو دعوت نشد: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.check_channel_exist.error",
+    "translation": "خطا هنگام بررسی وجود کانال مشترک: {{.Error}}"
+  },
+  {
+    "id": "api.command_share.channel_status_id",
+    "translation": "وضعیت شناسه کانال `{{.ChannelId}}`"
+  },
+  {
+    "id": "api.command_share.channel_status.help",
+    "translation": "وضعیت این کانال مشترک را نمایش می دهد"
+  },
+  {
+    "id": "api.command_share.channel_shared",
+    "translation": "این کانال اکنون به اشتراک گذاشته شده است."
+  },
+  {
+    "id": "api.command_share.channel_remote_id_not_exists",
+    "translation": "اتصال ایمن کانال مشترک `{{.RemoteId}}` برای این کانال وجود ندارد."
+  },
+  {
+    "id": "api.command_share.channel_invite_not_home.error",
+    "translation": "نمی توان اتصال ایمن را به کانال مشترکی که از جای دیگری سرچشمه می گیرد دعوت کرد."
+  },
+  {
+    "id": "api.command_share.channel_invite.error",
+    "translation": "خطا در دعوت از `{{.Name}}` به این کانال: {.Error}}"
+  },
+  {
+    "id": "api.command_share.available_actions",
+    "translation": "عملکردهای موجود: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.unknown_action",
+    "translation": "عملکرد ناشناخته`{{.Action}}`"
+  },
+  {
+    "id": "api.command_remote.status.help",
+    "translation": "وضعیت تمام اتصالات امن را نمایش می دهد"
+  },
+  {
+    "id": "api.command_remote.site_url_not_set",
+    "translation": "URL سایت تنظیم نشده است. لطفاً این را تنظیم کنید در System Console > Environment > Web Server."
+  },
+  {
+    "id": "api.command_remote.service_not_enabled",
+    "translation": "سرویس اتصال ایمن فعال نیست."
+  },
+  {
+    "id": "api.command_remote.service_disabled",
+    "translation": "سرویس اتصال ایمن غیرفعال است."
+  },
+  {
+    "id": "api.command_remote.remove_remote_id.help",
+    "translation": "شناسه اتصال ایمن برای حذف."
+  },
+  {
+    "id": "api.command_remote.remove_remote.error",
+    "translation": "اتصال ایمن حذف نشد: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.remove.help",
+    "translation": "اتصال ایمن را حذف می کند"
+  },
+  {
+    "id": "api.command_remote.remotes_not_found",
+    "translation": "هیچ اتصال امنی پیدا نشد."
+  },
+  {
+    "id": "api.command_remote.remote_table_header",
+    "translation": "| اتصال ایمن | نام نمایشی | شناسه اتصال | آدرس سایت | دعوت پذیرفته شد | آنلاین | آخرین پینگ |"
+  },
+  {
+    "id": "api.command_remote.remote_add_remove.help",
+    "translation": "افزودن/حذف اتصالات امن. عملکردهای موجود: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.permission_required",
+    "translation": "برای مدیریت اتصالات ایمن به مجوز `{{.Permission}}` نیاز دارید."
+  },
+  {
+    "id": "api.command_remote.name.hint",
+    "translation": "یک نام منحصر به فرد برای اتصال امن"
+  },
+  {
+    "id": "api.command_remote.name.help",
+    "translation": "نام اتصال ایمن"
+  },
+  {
+    "id": "api.command_remote.name",
+    "translation": "ارتباط امن"
+  },
+  {
+    "id": "api.command_remote.missing_empty",
+    "translation": "`{{.Arg}}` وجود ندارد یا خالی است"
+  },
+  {
+    "id": "api.command_remote.missing_command",
+    "translation": "دستور گم شده. عملکردهای موجود: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.invite_summary",
+    "translation": "دعوتنامه رمزگذاری شده AES 256 بیتی زیر را به همراه رمز عبور به مدیر سیستم خارجی Mattermost ارسال کنید. آنها از دستور اسلش `{{.Command}}` برای پذیرش دعوت استفاده خواهند کرد.\n\n```\n{{.Invitation}}\n```\n\n**مطمئن شوید که اتصال ایمن می تواند به نمونه Mattermost شما از طریق ** {{.SiteURL}} دسترسی داشته باشد."
+  },
+  {
+    "id": "api.command_remote.invite_password.hint",
+    "translation": "رمز عبوری که برای رمزگذاری دعوتنامه استفاده می شود"
+  },
+  {
+    "id": "api.command_remote.invite_password.help",
+    "translation": "رمز دعوت"
+  },
+  {
+    "id": "api.command_remote.invite.help",
+    "translation": "یک اتصال امن دعوت کنید"
+  },
+  {
+    "id": "api.command_remote.invitation_created",
+    "translation": "دعوتنامه ایجاد شد."
+  },
+  {
+    "id": "api.command_remote.invitation.hint",
+    "translation": "دعوتنامه رمزگذاری شده از یک اتصال امن"
+  },
+  {
+    "id": "api.command_remote.invitation.help",
+    "translation": "دعوت از اتصال امن"
+  },
+  {
+    "id": "api.command_remote.incorrect_password.error",
+    "translation": "دعوت رمزگشایی نشد. رمز عبور نادرست یا دعوت نامه خراب است: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.hint",
+    "translation": "[action]"
+  },
+  {
+    "id": "api.command_remote.fetch_status.error",
+    "translation": "اتصالات امن واکشی نشد: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.encrypt_invitation.error",
+    "translation": "دعوتنامه رمزگذاری نشد: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.displayname.help",
+    "translation": "نام نمایشی اتصال امن"
+  },
+  {
+    "id": "api.command_remote.desc",
+    "translation": "از اتصالات امن برای ارتباط در سراسر موارد Mattermost دعوت کنید."
+  },
+  {
+    "id": "api.command_remote.displayname.hint",
+    "translation": "یک نام نمایشی برای اتصال ایمن"
+  },
+  {
+    "id": "api.command_remote.decode_invitation.error",
+    "translation": "دعوتنامه رمزگشایی نشد: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.cluster_removed",
+    "translation": "اتصال ایمن {{.RemoteId}} {{.Result}}."
+  },
+  {
+    "id": "api.command_remote.add_remote.error",
+    "translation": "اتصال ایمن اضافه نشد: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept_invitation.error",
+    "translation": "نمی‌توان دعوت را قبول کرد: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.accept_invitation",
+    "translation": "دعوت پذیرفته و تایید شد.\nSiteURL: {{.SiteURL}}"
+  },
+  {
+    "id": "api.command_remote.accept.help",
+    "translation": "دعوت از یک نمونه خارجی Mattermost را بپذیرید"
+  },
+  {
+    "id": "api.command_custom_status.success",
+    "translation": "وضعیت شما روی “{{.EmojiName}} {{.StatusMessage}}” تنظیم شده است. می توانید وضعیت خود را از popover وضعیت در هدر نوار کناری کانال تغییر دهید."
+  },
+  {
+    "id": "api.command_custom_status.name",
+    "translation": "وضعیت"
+  },
+  {
+    "id": "api.command_custom_status.hint",
+    "translation": "[:emoji_name:] [status_message] یا پاک شود"
+  },
+  {
+    "id": "api.command_custom_status.desc",
+    "translation": "وضعیت خود را تنظیم یا پاک کنید"
+  },
+  {
+    "id": "api.command_custom_status.clear.success",
+    "translation": "وضعیت شما پاک شد."
+  },
+  {
+    "id": "api.command_custom_status.clear.app_error",
+    "translation": "خطا در پاک کردن وضعیت."
+  },
+  {
+    "id": "api.command_custom_status.app_error",
+    "translation": "خطا در تنظیم وضعیت."
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.max_length",
+    "translation": "متن وارد شده از حد مجاز کاراکتر بیشتر است. هدف کانال محدود به {{.MaxLength}} نویسه است."
+  },
+  {
+    "id": "api.command_channel_header.update_channel.max_length",
+    "translation": "متن وارد شده از حد مجاز کاراکتر بیشتر است. هدر کانال به {{.MaxLength}} نویسه محدود شده است."
+  },
+  {
+    "id": "api.cloud.get_subscription.error",
+    "translation": "خطا در دریافت اشتراک ابری."
+  },
+  {
+    "id": "api.cloud.get_admins_emails.error",
+    "translation": "خطا در دریافت ایمیل مدیران سیستم."
+  },
+  {
+    "id": "api.cloud.cws_webhook_event_missing_error",
+    "translation": "رویداد Webhook رسیدگی نشد. یا مفقود است یا معتبر نیست."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "خطا در باطل کردن حافظه پنهان"
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "نمی توان یک کانال مستقیم بین این کاربران ایجاد کرد زیرا آنها تیم مشترکی ندارند."
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "بازگشت به {{.SiteName}}"
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "بازنشانی فیلد AuthData به ایمیل انجام نشد."
+  },
+  {
+    "id": "api.team.invite_guests_to_channels.invalid_body.app_error",
+    "translation": "متن درخواست نامعتبر است یا وجود ندارد."
+  },
+  {
+    "id": "api.team.cloud.subscription.error",
+    "translation": "خطا در دریافت اشتراک ابری"
+  },
+  {
+    "id": "api.server.license_up_for_renewal.error_generating_link",
+    "translation": "لینک تمدید مجوز ایجاد نشد"
+  },
+  {
+    "id": "api.roles.patch_roles.not_allowed_permission.error",
+    "translation": "یک یا چند مورد از مجوزهای زیر که می‌خواهید اضافه یا حذف کنید مجاز نیست"
+  },
+  {
+    "id": "api.remote_cluster.update_not_unique.app_error",
+    "translation": "ارتباط ایمن با همان URL از قبل وجود دارد."
+  },
+  {
+    "id": "api.remote_cluster.service_not_enabled.app_error",
+    "translation": "سرویس کلاستر راه دور فعال نیست."
+  },
+  {
+    "id": "api.remote_cluster.save_not_unique.app_error",
+    "translation": "اتصال ایمن قبلاً اضافه شده است."
+  },
+  {
+    "id": "api.remote_cluster.save.app_error",
+    "translation": "هنگام ذخیره اتصال ایمن با خطایی مواجه شدیم."
+  },
+  {
+    "id": "api.remote_cluster.invalid_topic.app_error",
+    "translation": "موضوع نامعتبر."
+  },
+  {
+    "id": "api.remote_cluster.invalid_id.app_error",
+    "translation": "شناسه نامعتبر."
+  },
+  {
+    "id": "api.push_notification.title.collapsed_threads",
+    "translation": "پاسخ در {{.channelName}}"
+  },
+  {
+    "id": "api.post.search_files.invalid_body.app_error",
+    "translation": "تجزیه بدنه درخواست ممکن نیست."
   }
 ]
