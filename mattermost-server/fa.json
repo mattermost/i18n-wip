@@ -185,7 +185,7 @@
   },
   {
     "id": "api.channel.add_member.added",
-    "translation": "%v  توسط %v  به کانال اضافه شد."
+    "translation": "%v توسط %v به کانال اضافه شد."
   },
   {
     "id": "api.channel.add_members.error",
@@ -337,7 +337,7 @@
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
-    "translation": "%s عنوان کانال را از:%s به:%s به روز کرد"
+    "translation": "%s عنوان کانال را از: %s به: %s به روز کرد"
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
@@ -565,7 +565,7 @@
   },
   {
     "id": "api.command_channel_header.update_channel.app_error",
-    "translation": "خطا در به روزرسانی کانال فعلی."
+    "translation": "بروزرسانی سربرگ کانال با خطا روبرو شد."
   },
   {
     "id": "api.command_channel_purpose.channel.app_error",
@@ -597,7 +597,7 @@
   },
   {
     "id": "api.command_channel_purpose.update_channel.app_error",
-    "translation": "خطا در به روزرسانی کانال فعلی."
+    "translation": "خطا در به روزرسانی عنوان هدف کانال."
   },
   {
     "id": "api.command_channel_remove.channel.app_error",
@@ -5509,7 +5509,7 @@
   },
   {
     "id": "ent.elasticsearch.search_channels.disabled",
-    "translation": "جستجوی جستجوی الاستیک در این سرور غیرفعال است"
+    "translation": "جستجوی الاستیک در این سرور غیرفعال است"
   },
   {
     "id": "ent.elasticsearch.search_channels.search_failed",
@@ -5521,7 +5521,7 @@
   },
   {
     "id": "ent.elasticsearch.search_posts.disabled",
-    "translation": "جستجوی جستجوی الاستیک در این سرور غیرفعال است"
+    "translation": "جستجوی الاستیک در این سرور غیرفعال است"
   },
   {
     "id": "ent.elasticsearch.search_posts.parse_matches_failed",
@@ -6253,7 +6253,7 @@
   },
   {
     "id": "model.compliance.is_valid.start_end_at.app_error",
-    "translation": "باید بزرگتر از از باشد."
+    "translation": "باید بزرگتر از باشد."
   },
   {
     "id": "model.config.is_valid.allow_cookies_for_subdomains.app_error",
