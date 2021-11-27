@@ -2220,7 +2220,6 @@
   "update_outgoing_webhook.confirm": "Upravit odchozí webhook",
   "update_outgoing_webhook.question": "Vaše změny mohou rozbít stávající odchozí webhook. Jsi si jistý, že jej chcete aktualizovat?",
   "update_outgoing_webhook.update": "Aktualizovat",
-  "upgrade.cloud_modal_body": "Bezplatné pásmo je limitiváno na 10 uživatelů. Povyšte Mattermost Cloud.",
   "upload_overlay.info": "Upusťte sem soubor, který chcete nahrát.",
   "user.settings.advance.confirmDeactivateAccountTitle": "Potvrdit deaktivaci",
   "user.settings.advance.deactivateAccountTitle": "Deaktivovat účet",
