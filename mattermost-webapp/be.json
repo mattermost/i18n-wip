@@ -480,7 +480,6 @@
   "claim.ldap_to_email.enterLdapPwd": "{пароль ldap}:",
   "claim.ldap_to_email.pwd": "Пароль",
   "combined_system_message.you": "Вы",
-  "confirm.notification_sent_to_admin.modal_done": "Гатова",
   "confirm_modal.cancel": "Адмяніць",
   "create_category_modal.create": "Стварыць",
   "create_comment.commentTitle": "Каментаваць",
