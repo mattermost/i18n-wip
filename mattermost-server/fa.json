@@ -81,7 +81,7 @@
   },
   {
     "id": "api.admin.ldap.not_available.app_error",
-    "translation": "LDAP در دسترس نیست"
+    "translation": "LDAP در دسترس نیست."
   },
   {
     "id": "api.admin.remove_certificate.delete.app_error",
@@ -145,7 +145,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost  - آزمایش تنظیمات ایمیل"
+    "translation": "Mattermost - آزمایش تنظیمات ایمیل"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -1431,7 +1431,7 @@
   },
   {
     "id": "api.marshal_error",
-    "translation": "خطای مارشال"
+    "translation": "خطای مارشال."
   },
   {
     "id": "api.migrate_to_saml.error",
@@ -2577,7 +2577,7 @@
   },
   {
     "id": "api.templates.user_access_token_subject",
-    "translation": "[{{ .SiteName }}]  توکن دسترسی شخصی به حساب شما اضافه شد"
+    "translation": "[{{ .SiteName }}] توکن دسترسی شخصی به حساب شما اضافه شد"
   },
   {
     "id": "api.templates.username_change_body.info",
@@ -2637,7 +2637,7 @@
   },
   {
     "id": "api.templates.welcome_body.app_download_info",
-    "translation": "برای بهترین تجربه ، برنامه ها را برای رایانه شخصی ، Mac ، iOS و Android بارگیری کنید:"
+    "translation": "برای بهترین تجربه ، برنامه ها را برای رایانه شخصی ، Mac ، iOS و Android بارگیری کنید."
   },
   {
     "id": "api.templates.welcome_body.button",
@@ -2665,7 +2665,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "در حال حاضر ارتقا  نسخه تجاری در حال اجرا است."
+    "translation": "در حال حاضر ارتقا نسخه تجاری در حال اجرا است."
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
@@ -2673,7 +2673,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Mattermost {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سرور محل نصب Mattermost به روز کند: \n\n```\nchmod +w \"{{.Path}}\"\n```\n\n  پس از تغییر مجوزهای فایل ، دوباره سعی کنید Mattermost را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Mattermost {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سرور محل نصب Mattermost به روز کند: \n\n```\nchmod +w \"{{.Path}}\"\n```\n\nپس از تغییر مجوزهای فایل ، دوباره سعی کنید Mattermost را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
@@ -2693,7 +2693,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری  نبود. امضای دیجیتالی پرونده باینری بارگیری شده تأیید نمی شود."
+    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. امضای دیجیتالی پرونده باینری بارگیری شده تأیید نمی شود."
   },
   {
     "id": "api.upload.get_upload.forbidden.app_error",
@@ -2757,7 +2757,7 @@
   },
   {
     "id": "api.user.check_user_login_attempts.too_many.app_error",
-    "translation": "حساب شما به دلیل تلاشهای ناموفق برای رمز عبور قفل شده است. لطفاً گذرواژه خود را تنظیم کنید"
+    "translation": "حساب شما به دلیل تلاشهای ناموفق برای رمز عبور قفل شده است. لطفاً گذرواژه خود را دوباره تنظیم کنید."
   },
   {
     "id": "api.user.check_user_mfa.bad_code.app_error",
@@ -2957,7 +2957,7 @@
   },
   {
     "id": "api.user.oauth_to_email.context.app_error",
-    "translation": "به روزرسانی رمز ورود  انجام نشد زیرا user_id زمینه با شناسه ارائه شده کاربر مطابقت ندارد."
+    "translation": "به روزرسانی رمز ورود انجام نشد زیرا user_id زمینه با شناسه ارائه شده کاربر مطابقت ندارد."
   },
   {
     "id": "api.user.oauth_to_email.not_available.app_error",
@@ -2969,7 +2969,7 @@
   },
   {
     "id": "api.user.reset_password.broken_token.app_error",
-    "translation": "به نظر نمی رسد توکن  تنظیم مجدد رمز عبورمعتبر باشد."
+    "translation": "به نظر نمی رسد توکن تنظیم مجدد رمز عبورمعتبر باشد."
   },
   {
     "id": "api.user.reset_password.invalid_link.app_error",
@@ -3013,7 +3013,7 @@
   },
   {
     "id": "api.user.send_sign_in_change_email_and_forget.error",
-    "translation": "ایمیل به روزرسانی رمز عبور  با موفقیت ارسال نشد"
+    "translation": "ایمیل به روزرسانی رمز عبور با موفقیت ارسال نشد"
   },
   {
     "id": "api.user.send_verify_email_and_forget.failed.error",
@@ -3229,7 +3229,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} غیرفعال شد. آنها حساب های ربات زیر را که اکنون غیرفعال شده اند مدیریت کردند. \n\n{{.BotNames}}{{else}}{{.UserName}}  غیرفعال شد. آنها حساب های ربات {{.NumBots}} را که اکنون غیرفعال شده اند ، مدیریت می کنند ، از جمله موارد زیر: \n\n{{.BotNames}}{{end}} با فعال کردن ربات می توانید در ** ادغام > حساب های ربات ** مالکیت آن را بدست آورید و ایجاد نشانه های جدید برای ربات کنید. \n\n برای اطلاعات بیشتر ، به [مستندات](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled)ما مراجعه کنید . {{else}}{{if .printAllBots}}{{.UserName}} غیرفعال شد. آنها حساب های ربات زیر را که هنوز فعال هستند مدیریت کردند.\n\n{{.BotNames}}\n{{else}}{{.UserName}} غیرفعال شد. آنها حساب های ربات {{.NumBots}} را که هنوز فعال هستند ، از جمله موارد زیر را مدیریت کردند: \n\n{{.BotNames}}{{end}} ما اکیداً به شما توصیه می کنیم با فعال کردن مجدد ربات ، در  ** ادغام ها> حساب های ربات **آنرا   مالکیت کنید و ایجاد رمزهای جدید برای ربات کنید. .\n\n برای اطلاعات بیشتر ، به [مستندات](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\n اگر می خواهید حساب ربات پس از غیرفعال شدن مالک به طور خودکار غیرفعال شود ، '** غیرفعال کردن حساب های ربات هنگام غیرفعال شدن مالک' را در ** سیستم کنسول> ادغام ها> حساب های ربات **  به صحیح  تنظیم کنید . {{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} غیرفعال شد. آنها حساب های ربات زیر را که اکنون غیرفعال شده اند مدیریت کردند.\n\n{{.BotNames}}{{else}}{{.UserName}} غیرفعال شد. آنها حساب های ربات {{.NumBots}} را که اکنون غیرفعال شده اند ، مدیریت می کنند ، از جمله موارد زیر:\n\n{{.BotNames}}{{end}} با فعال کردن ربات می توانید در ** ادغام > حساب های ربات ** مالکیت آن را بدست آورید و ایجاد نشانه های جدید برای ربات کنید.\n\nبرای اطلاعات بیشتر ، به [مستندات](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled)ما مراجعه کنید . {{else}}{{if .printAllBots}}{{.UserName}} غیرفعال شد. آنها حساب های ربات زیر را که هنوز فعال هستند مدیریت کردند.\n\n{{.BotNames}}\n{{else}}{{.UserName}} غیرفعال شد. آنها حساب های ربات {{.NumBots}} را که هنوز فعال هستند ، از جمله موارد زیر را مدیریت کردند:\n\n{{.BotNames}}{{end}} ما اکیداً به شما توصیه می کنیم با فعال کردن مجدد ربات ، در ** ادغام ها> حساب های ربات **آنرا مالکیت کنید و ایجاد رمزهای جدید برای ربات کنید. .\n\nبرای اطلاعات بیشتر ، به [مستندات](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nاگر می خواهید حساب ربات پس از غیرفعال شدن مالک به طور خودکار غیرفعال شود ، '** غیرفعال کردن حساب های ربات هنگام غیرفعال شدن مالک' را در ** سیستم کنسول> ادغام ها> حساب های ربات ** به صحیح تنظیم کنید . {{end}}"
   },
   {
     "id": "app.bot.getbot.internal_error",
@@ -3597,7 +3597,7 @@
   },
   {
     "id": "app.email.rate_limit_exceeded.app_error",
-    "translation": " نامه های الکترونیکی دعوت بیش از حد دعوت است. تایمر بعد از {{.ResetAfter}} ثانیه تنظیم می شود. لطفاً پس از {{.RetryAfter}} ثانیه دوباره امتحان کنید."
+    "translation": "نامه های الکترونیکی دعوت بیش از حد دعوت است. تایمر بعد از {{.ResetAfter}} ثانیه تنظیم می شود. لطفاً پس از {{.RetryAfter}} ثانیه دوباره امتحان کنید."
   },
   {
     "id": "app.email.setup_rate_limiter.app_error",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "app.import.import_channel.team_not_found.error",
-    "translation": "خطا در وارد کردن کانال. تیم با نام \"{{.TeamName}}\"  یافت نشد."
+    "translation": "خطا در وارد کردن کانال. تیم با نام \"{{.TeamName}}\" یافت نشد."
   },
   {
     "id": "app.import.import_direct_channel.create_direct_channel.error",
@@ -3733,35 +3733,35 @@
   },
   {
     "id": "app.import.import_line.null_channel.error",
-    "translation": "خط واردات داده نوع  \"channel\" را دارد اما شی channel تهی است."
+    "translation": "خط واردات داده نوع \"channel\" را دارد اما شی channel تهی است."
   },
   {
     "id": "app.import.import_line.null_direct_channel.error",
-    "translation": "خط واردات داده نوع  \"direct_channel\" را دارد اما شی direct_channel تهی است."
+    "translation": "خط واردات داده نوع \"direct_channel\" را دارد اما شی direct_channel تهی است."
   },
   {
     "id": "app.import.import_line.null_direct_post.error",
-    "translation": "خط واردات داده نوع  \"direct_post\" را دارد اما شی direct_post تهی است."
+    "translation": "خط واردات داده نوع \"direct_post\" را دارد اما شی direct_post تهی است."
   },
   {
     "id": "app.import.import_line.null_emoji.error",
-    "translation": "خط واردات داده نوع  \"emoji\" را دارد اما شی emoji تهی است."
+    "translation": "خط واردات داده نوع \"emoji\" را دارد اما شی emoji تهی است."
   },
   {
     "id": "app.import.import_line.null_post.error",
-    "translation": "خط واردات داده نوع  \"post\" را دارد اما شی post تهی است."
+    "translation": "خط واردات داده نوع \"post\" را دارد اما شی post تهی است."
   },
   {
     "id": "app.import.import_line.null_scheme.error",
-    "translation": "خط واردات داده نوع  \"scheme\" را دارد اما شی scheme تهی است.."
+    "translation": "خط واردات داده نوع \"scheme\" را دارد اما شی scheme تهی است.."
   },
   {
     "id": "app.import.import_line.null_team.error",
-    "translation": "خط واردات داده نوع  \"team\" را دارد اما شی team تهی است.."
+    "translation": "خط واردات داده نوع \"team\" را دارد اما شی team تهی است.."
   },
   {
     "id": "app.import.import_line.null_user.error",
-    "translation": "خط واردات داده نوع  \"user\" را دارد اما شی user تهی است."
+    "translation": "خط واردات داده نوع \"user\" را دارد اما شی user تهی است."
   },
   {
     "id": "app.import.import_line.unknown_line_type.error",
@@ -4061,7 +4061,7 @@
   },
   {
     "id": "app.import.validate_team_import_data.display_name_length.error",
-    "translation": "display_name تیم در محدودیت های  مجاز نیست."
+    "translation": "display_name تیم در محدودیت های مجاز نیست."
   },
   {
     "id": "app.import.validate_team_import_data.display_name_missing.error",
@@ -4173,7 +4173,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.notify_props_desktop_invalid.error",
-    "translation": "مقداراعلان  دسکتاپ برای کاربر نامعتبر."
+    "translation": "مقداراعلان دسکتاپ برای کاربر نامعتبر."
   },
   {
     "id": "app.import.validate_user_import_data.notify_props_desktop_sound_invalid.error",
@@ -4997,7 +4997,7 @@
   },
   {
     "id": "app.upload.upload_data.large_image.app_error",
-    "translation": "ابعاد {{.Filename}} ({{.Width}} در{{.Height}}  پیکسل) بیش از حد مجاز است."
+    "translation": "ابعاد {{.Filename}} ({{.Width}} در{{.Height}} پیکسل) بیش از حد مجاز است."
   },
   {
     "id": "app.upload.upload_data.read_file.app_error",
@@ -5685,7 +5685,7 @@
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
-    "translation": "خطا در  قابلیت همگام سازی"
+    "translation": "خطا در قابلیت همگام سازی"
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
@@ -5693,7 +5693,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "بیش از حد مجاز [حداکثر اندازه صفحه](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded) را امتحان کنید "
+    "translation": "بیش از حد مجاز [حداکثر اندازه صفحه](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded) را امتحان کنید"
   },
   {
     "id": "ent.ldap.validate_admin_filter.app_error",
@@ -5717,7 +5717,7 @@
   },
   {
     "id": "ent.ldap_groups.members_of_group_error",
-    "translation": "خطا در بازیابی اعضای گروه "
+    "translation": "خطا در بازیابی اعضای گروه"
   },
   {
     "id": "ent.ldap_groups.no_rows",
@@ -5901,7 +5901,7 @@
   },
   {
     "id": "groups.unsupported_syncable_type",
-    "translation": "نوع همگام سازی پشتیبانی نشده  '{{.Value}}'."
+    "translation": "نوع همگام سازی پشتیبانی نشده '{{.Value}}'."
   },
   {
     "id": "interactive_message.decode_trigger_id.base64_decode_failed",
@@ -6385,7 +6385,7 @@
   },
   {
     "id": "model.config.is_valid.ldap_id",
-    "translation": "قسمت AD/LDAP \"ویژگی شناسه  \" لازم است."
+    "translation": "قسمت AD/LDAP \"ویژگی شناسه \" لازم است."
   },
   {
     "id": "model.config.is_valid.ldap_login_id",
@@ -6561,7 +6561,7 @@
   },
   {
     "id": "model.config.is_valid.site_url_email_batching.app_error",
-    "translation": "هنگامی که SiteURL تنظیم نشده است ، نمی توان دسته دسته ایمیل را فعال کرد."
+    "translation": "هنگامی که SiteURL تنظیم نشده است ، نمی توان دسته ایمیل را فعال کرد."
   },
   {
     "id": "model.config.is_valid.sitename_length.app_error",
@@ -7161,7 +7161,7 @@
   },
   {
     "id": "model.user.is_valid.create_at.app_error",
-    "translation": "ایجاد  باید زمان معتبری باشد."
+    "translation": "ایجاد باید زمان معتبری باشد."
   },
   {
     "id": "model.user.is_valid.email.app_error",
@@ -7261,7 +7261,7 @@
   },
   {
     "id": "model.user.is_valid.update_at.app_error",
-    "translation": "به روزرسانی  باید یک زمان معتبر باشد."
+    "translation": "به روزرسانی باید یک زمان معتبر باشد."
   },
   {
     "id": "model.user.is_valid.username.app_error",
@@ -7537,7 +7537,7 @@
   },
   {
     "id": "web.incoming_webhook.split_props_length.app_error",
-    "translation": "بخش های وب هوک قابل تقسیم به {{.Max}} نویسه  نیست."
+    "translation": "بخش های وب هوک قابل تقسیم به {{.Max}} نویسه نیست."
   },
   {
     "id": "web.incoming_webhook.text.app_error",
