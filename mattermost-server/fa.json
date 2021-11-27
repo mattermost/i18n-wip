@@ -2453,7 +2453,7 @@
   },
   {
     "id": "api.templates.email_footer",
-    "translation": "برای تغییر تنظیمات اعلان ، وارد سایت تیم خود شوید و به تنظیمات حساب> اعلان ها بروید."
+    "translation": "برای تغییر تنظیمات اعلان ، وارد سایت تیم خود شوید و به تنظیمات > اعلان ها بروید."
   },
   {
     "id": "api.templates.email_info1",
@@ -2533,7 +2533,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
-    "translation": "مجوز تجاری منقضی شده است و برخی از ویژگی ها ممکن است غیرفعال شوند. لطفا تمدید کنید."
+    "translation": "مجوز تجاری شما منقضی شده است و برخی از ویژگی ها ممکن است غیرفعال شوند. لطفا اشتراکتان را تمدید کنید."
   },
   {
     "id": "api.templates.remove_expired_license.subject",
@@ -2545,7 +2545,7 @@
   },
   {
     "id": "api.templates.reset_body.title",
-    "translation": "شما درخواست بازنشانی گذرواژه کردید"
+    "translation": "رمز عبور خود را بازنشانی کنید"
   },
   {
     "id": "api.templates.reset_subject",
@@ -2597,11 +2597,11 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "لطفاً با کلیک زیر آدرس ایمیل خود را تأیید کنید."
+    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Mattermost استفاده شده است."
   },
   {
     "id": "api.templates.verify_body.title",
-    "translation": "شما پیوسته اید {{ .ServerURL }}"
+    "translation": "آدرس ایمیل خود را تایید کنید"
   },
   {
     "id": "api.templates.verify_subject",
@@ -2645,11 +2645,11 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "لطفاً با کلیک زیر آدرس ایمیل خود را تأیید کنید."
+    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Mattermost استفاده شده است."
   },
   {
     "id": "api.templates.welcome_body.title",
-    "translation": "شما پیوسته اید {{ .ServerURL }}"
+    "translation": "به تیم خوش آمدید"
   },
   {
     "id": "api.templates.welcome_subject",
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "api.user.authorize_oauth_user.unsupported.app_error",
-    "translation": "ارائه دهنده خدمات OAuth پشتیبانی نمی شود."
+    "translation": "{{.Service}} SSO از طریق OAuth 2.0 در این سرور موجود نیست."
   },
   {
     "id": "api.user.autocomplete_users.missing_team_id.app_error",
@@ -3073,7 +3073,7 @@
   },
   {
     "id": "api.user.update_user_roles.license.app_error",
-    "translation": ""
+    "translation": "طرح‌های مجوز سفارشی توسط مجوز فعلی پشتیبانی نمی‌شوند"
   },
   {
     "id": "api.user.upload_profile_user.array.app_error",
@@ -3461,7 +3461,7 @@
   },
   {
     "id": "app.channel.save_member.exists.app_error",
-    "translation": ""
+    "translation": "یک عضو کانال با آن شناسه از قبل وجود دارد."
   },
   {
     "id": "app.channel.search.app_error",
@@ -5861,7 +5861,7 @@
   },
   {
     "id": "ent.saml.do_login.invalid_time.app_error",
-    "translation": "زمان نامعتبری در پاسخ از طرف ارائه دهنده هویت دریافت کردیم. لطفا با سرپرست سیستم خود تماس بگیرید."
+    "translation": "ما یک زمان نامعتبر در پاسخ از Identity Provider دریافت کردیم. لطفا با سرپرست سیستم خود تماس بگیرید."
   },
   {
     "id": "ent.saml.do_login.parse.app_error",
@@ -6961,7 +6961,7 @@
   },
   {
     "id": "model.post.is_valid.file_ids.app_error",
-    "translation": "شناسه های پرونده نامعتبر است. توجه داشته باشید که بارگذاری حداکثر به 5 پرونده محدود می شود. لطفا برای ارسال فایلهای بیشتر از پستهای اضافی استفاده کنید."
+    "translation": "شناسه فایل نامعتبر است. توجه داشته باشید که آپلود حداکثر به 10 فایل محدود می شود. لطفا برای فایل های بیشتر از پست های اضافی استفاده کنید."
   },
   {
     "id": "model.post.is_valid.filenames.app_error",
@@ -8486,5 +8486,605 @@
   {
     "id": "api.templates.over_limit_14_days_subject",
     "translation": "پرداخت برای اشتراک Mattermost Cloud شما به تاخیر افتاده است"
+  },
+  {
+    "id": "ent.elasticsearch.search_files.disabled",
+    "translation": "جستجوی فایل های Elasticsearch در این سرور غیرفعال است"
+  },
+  {
+    "id": "ent.elasticsearch.search_files.unmarshall_file_failed",
+    "translation": "رمزگشایی نتایج جستجو انجام نشد"
+  },
+  {
+    "id": "extrac_content.worker.do_job.invalid_input.from",
+    "translation": "مقدار ورودی نامعتبر 'from'"
+  },
+  {
+    "id": "import_process.worker.do_job.file_exists",
+    "translation": "پردازش import ممکن نیست: فایل وجود ندارد."
+  },
+  {
+    "id": "import_process.worker.do_job.missing_file",
+    "translation": "پردازش import ممکن نیست: پارامتر import_file وجود ندارد."
+  },
+  {
+    "id": "import_process.worker.do_job.missing_jsonl",
+    "translation": "پردازش import ممکن نیست: فایل JSON وجود ندارد."
+  },
+  {
+    "id": "model.config.is_valid.export.directory.app_error",
+    "translation": "مقدار دایرکتوری نباید خالی باشد."
+  },
+  {
+    "id": "model.config.is_valid.export.retention_days_too_low.app_error",
+    "translation": "مقدار نامعتبر برای RetentionDays. مقدار باید بیشتر از 0 باشد"
+  },
+  {
+    "id": "model.config.is_valid.import.directory.app_error",
+    "translation": "مقدار نامعتبر برای دایرکتوری."
+  },
+  {
+    "id": "sharedchannel.permalink.not_found",
+    "translation": "این پست حاوی لینک های دائمی به کانال های دیگر است که ممکن است برای کاربران سایت های دیگر قابل مشاهده نباشد."
+  },
+  {
+    "id": "app.user.get_by_auth.missing_account.app_error",
+    "translation": "نمی‌توان یک حساب موجود مطابق با نوع احراز هویت شما برای این تیم پیدا کرد. این تیم ممکن است به دعوت مالک تیم برای پیوستن نیاز داشته باشد."
+  },
+  {
+    "id": "app.select_error",
+    "translation": "خطا را انتخاب کنید"
+  },
+  {
+    "id": "app.license.generate_renewal_token.no_license",
+    "translation": "مجوزی وجود ندارد"
+  },
+  {
+    "id": "api.templates.upgrade_request_title",
+    "translation": "{{ .UserName }} می‌خواهد اعضا را به فضای کاری شما دعوت کند"
+  },
+  {
+    "id": "api.templates.upgrade_request_subject",
+    "translation": "ارتقای درخواست کاربر Mattermost برای فضای کاری"
+  },
+  {
+    "id": "api.templates.upgrade_request_info4_2",
+    "translation": "فردی اخیراً سعی کرد به فضای کاری شما بپیوندد اما نتوانست به دلیل اینکه فضای کاری شما به حد مجاز کاربر نسخه رایگان Mattermost ابری رسیده است. اکنون ارتقا دهید تا کاربران بیشتری به فضای کاری شما بپیوندند."
+  },
+  {
+    "id": "api.templates.upgrade_request_info4",
+    "translation": "از آنجایی که فضای کاری شما به محدودیت کاربری نسخه رایگان ابری Mattermost رسیده است، دعوت‌نامه‌ها ارسال نمی‌شوند. اکنون ارتقا دهید تا کاربران بیشتری به فضای کاری شما بپیوندند."
+  },
+  {
+    "id": "api.templates.upgrade_mattermost_cloud",
+    "translation": "ارتقا دهید"
+  },
+  {
+    "id": "api.templates.over_limit_title",
+    "translation": "فضای کاری شما کاربر بیش از حد، برای ردیف رایگان دارد"
+  },
+  {
+    "id": "api.templates.over_limit_subject",
+    "translation": "محیط کاری Mattermost Cloud بیش از حد کاربر"
+  },
+  {
+    "id": "api.templates.over_limit_info2",
+    "translation": "از طرف دیگر، می‌توانید کاربران را در کنسول مدیریت غیرفعال کنید تا نقاطی را برای کاربران بیشتری باز کنند یا کمتر از محدودیت کاربر رایگان باقی بمانند."
+  },
+  {
+    "id": "api.templates.over_limit_30_days_title",
+    "translation": "محیط کاری Mattermost Cloudتعلیق شد"
+  },
+  {
+    "id": "api.templates.license_up_for_renewal_title",
+    "translation": "اشتراک Mattermost شما آماده تمدید است"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info",
+    "translation": "وارد فضای کاری خود شوید در"
+  },
+  {
+    "id": "api.error_get_first_admin_visit_marketplace_status",
+    "translation": "خطا در بازیابی اولین وضعیت بازدید مدیر از بازار از فروشگاه."
+  },
+  {
+    "id": "api.command_share.share_read_only.hint",
+    "translation": "[readonly] - 'Y' یا 'N'. پیش‌فرض «N»"
+  },
+  {
+    "id": "ent.elasticsearch.index_file.error",
+    "translation": "ایندکس کردن فایل انجام نشد"
+  },
+  {
+    "id": "ent.elasticsearch.post.get_files_batch_for_indexing.error",
+    "translation": "نمی توان دسته ای از فایل ها را برای ایندکس سازی دریافت کرد."
+  },
+  {
+    "id": "ent.elasticsearch.search_files.search_failed",
+    "translation": "جستجو کامل نشد"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.unable_to_connect_smtp_server.app_error",
+    "translation": "اتصال به سرور smtp امکان پذیر نیست"
+  },
+  {
+    "id": "error",
+    "translation": "خطا"
+  },
+  {
+    "id": "import_process.worker.do_job.open_file",
+    "translation": "پردازش import انجام نشد: فایل باز نشد."
+  },
+  {
+    "id": "mfa.activate.app_error",
+    "translation": "وضعیت فعال MFA برای کاربر به روز رسانی نمی شود."
+  },
+  {
+    "id": "mfa.deactivate.app_error",
+    "translation": "وضعیت فعال MFA برای کاربر به روز رسانی نمی شود."
+  },
+  {
+    "id": "model.channel_member.is_valid.roles_limit.app_error",
+    "translation": "نقش‌های عضو کانال نامعتبر بیش از {{.Limit}} کاراکتر است."
+  },
+  {
+    "id": "model.config.is_valid.collapsed_threads.app_error",
+    "translation": "تنظیم CollapsedThreads باید غیرفعال، پیش‌فرض_روشن یا پیش‌فرض_خاموش باشد"
+  },
+  {
+    "id": "model.config.is_valid.import.retention_days_too_low.app_error",
+    "translation": "مقدار نامعتبر برای RetentionDays. ارزش خیلی کم است."
+  },
+  {
+    "id": "model.config.is_valid.sql_conn_max_idle_time_milliseconds.app_error",
+    "translation": "حداکثر زمان بیکاری اتصال نامعتبر برای تنظیمات SQL. باید یک عدد غیر منفی باشد."
+  },
+  {
+    "id": "model.reaction.is_valid.update_at.app_error",
+    "translation": "به روز رسانی باید در یک زمان معتبر باشد."
+  },
+  {
+    "id": "model.session.is_valid.roles_limit.app_error",
+    "translation": "نقش‌های جلسه نامعتبر بیش از {{.Limit}} کاراکتر است."
+  },
+  {
+    "id": "model.team_member.is_valid.roles_limit.app_error",
+    "translation": "نقش‌های اعضای تیم نامعتبر بیش از {{.Limit}} کاراکتر است."
+  },
+  {
+    "id": "model.user.is_valid.roles_limit.app_error",
+    "translation": "نقش‌های کاربر نامعتبر بیش از {{.Limit}} کاراکتر است."
+  },
+  {
+    "id": "store.sql_file_info.search.disabled",
+    "translation": "جستجوی فایل ها در این سرور غیرفعال شده است. لطفا با سرپرست سیستم خود تماس بگیرید."
+  },
+  {
+    "id": "app.user.get_by_auth.other.app_error",
+    "translation": "در تلاش برای یافتن حساب بر اساس نوع احراز هویت با خطایی مواجه شدیم."
+  },
+  {
+    "id": "app.user.get.app_error",
+    "translation": "در یافتن حساب با خطایی مواجه شدیم."
+  },
+  {
+    "id": "app.user.demote_user_to_guest.user_update.app_error",
+    "translation": "کاربر به روز نشد."
+  },
+  {
+    "id": "app.user.clear_all_custom_role_assignments.select.app_error",
+    "translation": "بازیابی کاربران انجام نشد."
+  },
+  {
+    "id": "app.user.analytics_get_inactive_users_count.app_error",
+    "translation": "ما نتوانستیم کاربران غیرفعال را بشماریم."
+  },
+  {
+    "id": "app.upload.upload_data.move_file.app_error",
+    "translation": "انتقال فایل آپلود شده انجام نشد."
+  },
+  {
+    "id": "app.update_error",
+    "translation": "خطای به روز رسانی"
+  },
+  {
+    "id": "app.post.get_files_batch_for_indexing.get.app_error",
+    "translation": "نمی توان دسته ای از فایل ها را برای نمایه سازی دریافت کرد."
+  },
+  {
+    "id": "app.notification.body.thread_gm.subTitle",
+    "translation": "زمانی که شما دور بودید، {{.SenderName}} به یک گفت و گو در گروه شما پاسخ داد."
+  },
+  {
+    "id": "app.notification.body.thread_dm.subTitle",
+    "translation": "زمانی که شما دور بودید، {{.SenderName}} به یک گفت و گو در پیام مستقیم شما پاسخ داد."
+  },
+  {
+    "id": "app.notification.body.thread_channel_full.subTitle",
+    "translation": "زمانی که شما دور بودید، {{.SenderName}} به گفت و گویی که در {{.ChannelName}} دنبال می‌کنید پاسخ داد."
+  },
+  {
+    "id": "app.notification.body.thread_channel.subTitle",
+    "translation": "زمانی که شما دور بودید، {{.SenderName}} به گفت و گویی که دنبال می‌کنید پاسخ داد."
+  },
+  {
+    "id": "app.notification.body.thread.title",
+    "translation": "{{.SenderName}} به یک گفت و گو پاسخ داد"
+  },
+  {
+    "id": "app.license.generate_renewal_token.bad_license",
+    "translation": "این نوع مجوز از تولید توکن تمدید، پشتیبانی نمی کند"
+  },
+  {
+    "id": "app.license.generate_renewal_token.app_error",
+    "translation": "ایجاد توکن تمدید جدید ناموفق بود."
+  },
+  {
+    "id": "app.insert_error",
+    "translation": "خطای درج"
+  },
+  {
+    "id": "app.import.marshal.app_error",
+    "translation": "قادر به پاسخ مارشال نیست."
+  },
+  {
+    "id": "app.import.bulk_import.process_attachments.error",
+    "translation": "خطا هنگام پردازش پیوست‌های import انبوه."
+  },
+  {
+    "id": "app.import.attachment.read_file_data.error",
+    "translation": "در حین import کردن، پیوست فایل خوانده نشد."
+  },
+  {
+    "id": "app.group.uniqueness_error",
+    "translation": "عضو گروه از قبل وجود دارد"
+  },
+  {
+    "id": "app.group.permanent_delete_members_by_user.app_error",
+    "translation": "حذف عضو گروه با شناسه کاربری \"{{.UserId}}\" ممکن نیست."
+  },
+  {
+    "id": "app.group.no_rows",
+    "translation": "هیچ گروه منطبقی پیدا نشد"
+  },
+  {
+    "id": "app.group.id.app_error",
+    "translation": "ویژگی شناسه نامعتبر برای گروه."
+  },
+  {
+    "id": "app.group.group_syncable_already_deleted",
+    "translation": "همگام‌سازی گروه قبلاً حذف شده بود"
+  },
+  {
+    "id": "app.export.marshal.app_error",
+    "translation": "قادر به پاسخ مارشال نیست."
+  },
+  {
+    "id": "app.export.export_attachment.mkdirall.error",
+    "translation": "ایجاد دایرکتوری در حین export انجام نشد."
+  },
+  {
+    "id": "app.export.export_attachment.create_file.error",
+    "translation": "در حین export فایل ایجاد نشد."
+  },
+  {
+    "id": "app.export.export_attachment.copy_file.error",
+    "translation": "فایل در حین export کپی نشد."
+  },
+  {
+    "id": "app.bot.get_warn_metrics_bot.empty_admin_list.app_error",
+    "translation": "لیست ادمین ها خالی است."
+  },
+  {
+    "id": "app.bot.get_system_bot.empty_admin_list.app_error",
+    "translation": "لیست ادمین ها خالی است."
+  },
+  {
+    "id": "api.user.upload_profile_user.check_image_limits.app_error",
+    "translation": "بررسی محدودیت های تصویر ناموفق بود. رزولوشن خیلی بالاست."
+  },
+  {
+    "id": "api.user.update_user_auth.invalid_request",
+    "translation": "در درخواست، پارامتر AuthData یا AuthService وجود ندارد."
+  },
+  {
+    "id": "api.user.update_user.login_provider_attribute_set.app_error",
+    "translation": "فیلد '{{.Field}}' باید از طریق ارائه دهنده ورود به سیستم کاربر تنظیم شود."
+  },
+  {
+    "id": "api.user.patch_user.login_provider_attribute_set.app_error",
+    "translation": "فیلد '{{.Field}}' باید از طریق ارائه دهنده ورود به سیستم کاربر تنظیم شود."
+  },
+  {
+    "id": "api.user.invalidate_verify_email_tokens_parse.error",
+    "translation": "هنگام باطل کردن توکن های تأیید ایمیل، توکن تجزیه نمی‌شود"
+  },
+  {
+    "id": "api.user.invalidate_verify_email_tokens_delete.error",
+    "translation": "هنگام باطل کردن توکن های تأیید ایمیل، توکن حذف نمی‌شود"
+  },
+  {
+    "id": "api.user.invalidate_verify_email_tokens.error",
+    "translation": "هنگام باطل کردن توکن های تأیید ایمیل، توکن ها بر اساس نوع دریافت نمی‌شوند"
+  },
+  {
+    "id": "api.user.get_authorization_code.endpoint.app_error",
+    "translation": "خطا در بازیابی نقطه پایانی از Discovery Document."
+  },
+  {
+    "id": "api.unable_to_read_file_from_backend",
+    "translation": "خطا در خواندن فایل از backend"
+  },
+  {
+    "id": "api.unable_to_create_zip_file",
+    "translation": "خطا در ایجاد فایل فشرده."
+  },
+  {
+    "id": "api.templates.welcome_body.subTitle2",
+    "translation": "ممنون که به ما پیوستید"
+  },
+  {
+    "id": "api.templates.welcome_body.serverURL",
+    "translation": "{{ .ServerURL }}."
+  },
+  {
+    "id": "api.templates.welcome_body.info1",
+    "translation": "اگر شما نبودید، می توانید با خیال راحت این ایمیل را نادیده بگیرید."
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_title",
+    "translation": "برنامه های دسکتاپ و موبایل را دانلود کنید"
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_button",
+    "translation": "دانلود"
+  },
+  {
+    "id": "api.templates.verify_body.subTitle2",
+    "translation": "برای تایید آدرس ایمیل خود در زیر کلیک کنید."
+  },
+  {
+    "id": "api.templates.verify_body.subTitle1",
+    "translation": "ممنون که به ما پیوستید "
+  },
+  {
+    "id": "api.templates.verify_body.serverURL",
+    "translation": "{{ .ServerURL }}."
+  },
+  {
+    "id": "api.templates.verify_body.info1",
+    "translation": "اگر شما نبودید، می توانید با خیال راحت این ایمیل را نادیده بگیرید."
+  },
+  {
+    "id": "api.templates.upgrade_request_title2",
+    "translation": "کاربران جدید نمی توانند به فضای کاری شما بپیوندند"
+  },
+  {
+    "id": "sharedchannel.cannot_deliver_post",
+    "translation": "یک یا چند پست به سایت راه دور {{.Remote}} تحویل داده نشد زیرا آفلاین است. پست(ها) زمانی که سایت آنلاین باشد تحویل داده می شود."
+  },
+  {
+    "id": "model.user.is_valid.marshal.app_error",
+    "translation": "کدگذاری فیلد به JSON انجام نشد"
+  },
+  {
+    "id": "model.session.is_valid.user_id.app_error",
+    "translation": "فیلد UserId برای جلسه نامعتبر است."
+  },
+  {
+    "id": "model.session.is_valid.id.app_error",
+    "translation": "فیلد شناسه نامعتبر برای جلسه."
+  },
+  {
+    "id": "model.session.is_valid.create_at.app_error",
+    "translation": "فیلد CreateAt برای جلسه نامعتبر است."
+  },
+  {
+    "id": "model.config.is_valid.tls_key_file_missing.app_error",
+    "translation": "مقدار نامعتبر برای فایل کلید TLS - یا از LetsEncrypt استفاده کنید یا مسیر فایل کلید موجود را تنظیم کنید."
+  },
+  {
+    "id": "model.config.is_valid.tls_cert_file_missing.app_error",
+    "translation": "مقدار نامعتبر برای فایل گواهی TLS - از LetsEncrypt استفاده کنید یا مسیر را برای فایل گواهی موجود تنظیم کنید."
+  },
+  {
+    "id": "model.config.is_valid.collapsed_threads.autofollow.app_error",
+    "translation": "برای فعال کردن CollapsedThreads، ThreadAutoFollow باید درست باشد"
+  },
+  {
+    "id": "fix_crt_channel_unreads.worker.do_job.mark_channel_as_read",
+    "translation": "علامت گذاری کانال به عنوان خوانده شده انجام نشد"
+  },
+  {
+    "id": "fix_crt_channel_unreads.worker.do_job.kill_orphan_jobs",
+    "translation": "کشتن مشاغل بی سرپرست"
+  },
+  {
+    "id": "fix_crt_channel_unreads.worker.do_job.get_post_types",
+    "translation": "دریافت انواع پست منحصر به فرد ناموفق بود"
+  },
+  {
+    "id": "fix_crt_channel_unreads.worker.do_job.get_bad_channel_memberships",
+    "translation": "عضویت بد کانال دریافت نشد"
+  },
+  {
+    "id": "extract_content.worker.do_job.file_info",
+    "translation": "اطلاعات فایل برای استخراج محتوا دریافت نشد."
+  },
+  {
+    "id": "extrac_content.worker.do_job.invalid_input.to",
+    "translation": "مقدار ورودی نامعتبر 'to'"
+  },
+  {
+    "id": "ent.elasticsearch.getAllTeamMembers.error",
+    "translation": "دریافت همه اعضای تیم ناموفق بود"
+  },
+  {
+    "id": "ent.elasticsearch.getAllChannelMembers.error",
+    "translation": "دریافت همه اعضای کانال انجام نشد"
+  },
+  {
+    "id": "ent.data_retention.run_failed.error",
+    "translation": "کار حفظ داده ناموفق بود."
+  },
+  {
+    "id": "ent.data_retention.policies.invalid_policy",
+    "translation": "خط مشی نامعتبر است."
+  },
+  {
+    "id": "ent.data_retention.policies.internal_error",
+    "translation": "در اجرای عملیات درخواستی با خطا مواجه شدیم."
+  },
+  {
+    "id": "brand.save_brand_image.check_image_limits.app_error",
+    "translation": "بررسی محدودیت های تصویر ناموفق بود. رزولوشن خیلی بالاست"
+  },
+  {
+    "id": "bleveengine.indexer.do_job.get_oldest_entity.error",
+    "translation": "قدیمی ترین موجودیت (کاربر، کانال یا پست) را نمی توان از پایگاه داده بازیابی کرد."
+  },
+  {
+    "id": "app.valid_password_generic.app_error",
+    "translation": "رمز عبور معتبر نیست"
+  },
+  {
+    "id": "app.user.store_is_empty.app_error",
+    "translation": "بررسی خالی بودن فروشگاه کاربر انجام نشد."
+  },
+  {
+    "id": "app.user.send_auto_response.app_error",
+    "translation": "پاسخ خودکار از کاربر ارسال نمی شود."
+  },
+  {
+    "id": "app.user.get_thread_membership_for_user.not_found",
+    "translation": "عضویت تاپیک کاربر وجود ندارد"
+  },
+  {
+    "id": "app.user.get_thread_membership_for_user.app_error",
+    "translation": "امکان دریافت عضویت در موضوع کاربر وجود ندارد"
+  },
+  {
+    "id": "app.user.get_thread_count_for_user.app_error",
+    "translation": "ما نتوانستیم تعداد موضوعات را برای کاربر دریافت کنیم."
+  },
+  {
+    "id": "app.team.get_common_team_ids_for_users.app_error",
+    "translation": "نمی توان شناسه های مشترک تیم را دریافت کرد."
+  },
+  {
+    "id": "app.system.system_bot.bot_displayname",
+    "translation": "سیستم"
+  },
+  {
+    "id": "app.sharedchannel.dm_channel_creation.internal_error",
+    "translation": "هنگام ایجاد یک کانال به اشتراک گذاشته شده مستقیم با خطایی مواجه شد."
+  },
+  {
+    "id": "app.session.extend_session_expiry.app_error",
+    "translation": "امکان افزایش طول جلسه وجود ندارد"
+  },
+  {
+    "id": "app.role.get_all.app_error",
+    "translation": "قادر به دریافت همه نقش ها نیست."
+  },
+  {
+    "id": "app.post.marshal.app_error",
+    "translation": "پست مارشال انجام نشد."
+  },
+  {
+    "id": "app.notification.footer.title",
+    "translation": "آیا می خواهید تنظیمات اعلان های خود را تغییر دهید؟"
+  },
+  {
+    "id": "app.notification.footer.infoLogin",
+    "translation": "وارد Mattermost شوید"
+  },
+  {
+    "id": "app.notification.footer.info",
+    "translation": " و به Settings > Notifications بروید"
+  },
+  {
+    "id": "app.notification.body.mention.title",
+    "translation": "{{.SenderName}} از شما در پیامی نام برد"
+  },
+  {
+    "id": "app.notification.body.mention.subTitle",
+    "translation": "زمانی که شما دور بودید، {{.SenderName}} از شما در کانال {{.ChannelName}} نام برد."
+  },
+  {
+    "id": "app.notification.body.group.title",
+    "translation": "{{.SenderName}} یک پیام جدید برای شما ارسال کرد"
+  },
+  {
+    "id": "app.notification.body.group.subTitle",
+    "translation": "زمانی که شما دور بودید، {{.SenderName}} پیامی به گروه شما ارسال کرد."
+  },
+  {
+    "id": "app.notification.body.dm.title",
+    "translation": "{{.SenderName}} یک پیام جدید برای شما ارسال کرد"
+  },
+  {
+    "id": "app.notification.body.dm.time",
+    "translation": "{{.Hour}}:{{.Minute}} {{.TimeZone}}"
+  },
+  {
+    "id": "app.notification.body.dm.subTitle",
+    "translation": "زمانی که شما دور بودید، {{.SenderName}} یک پیام مستقیم جدید برای شما ارسال کرد."
+  },
+  {
+    "id": "app.import.generate_password.app_error",
+    "translation": "خطا در ایجاد رمز عبور."
+  },
+  {
+    "id": "app.channel.autofollow.app_error",
+    "translation": "عضویت تاپیک برای کاربر مذکور به روز نشد"
+  },
+  {
+    "id": "api.user.view_archived_channels.get_users_in_channel.app_error",
+    "translation": "نمی توان کاربران را برای یک کانال بایگانی شده بازیابی کرد"
+  },
+  {
+    "id": "api.user.view_archived_channels.get_posts_for_channel.app_error",
+    "translation": "نمی توان پست های یک کانال بایگانی شده را بازیابی کرد"
+  },
+  {
+    "id": "api.user.upload_profile_user.login_provider_attribute_set.app_error",
+    "translation": "تصویر نمایه باید از طریق ارائه دهنده ورود به سیستم کاربر تنظیم شود."
+  },
+  {
+    "id": "api.user.update_active.cloud_at_or_over_limit_check_overcapacity",
+    "translation": "نمی‌توان کاربران بیشتری را فعال کرد زیرا ظرفیت حساب ابری بیش از حد است."
+  },
+  {
+    "id": "api.user.update_active.cloud_at_limit_check_error",
+    "translation": "بررسی تعداد کاربران در نمونه ابری Mattermost شما ممکن نیست."
+  },
+  {
+    "id": "api.user.send_cloud_welcome_email.error",
+    "translation": "ایمیل خوش آمدگویی ابری ارسال نشد"
+  },
+  {
+    "id": "api.user.create_user.bad_token_email_data.app_error",
+    "translation": "آدرس ایمیل موجود در نشانه با آدرس موجود در داده های کاربر مطابقت ندارد."
+  },
+  {
+    "id": "api.unmarshal_error",
+    "translation": "بازگشایی نشد."
+  },
+  {
+    "id": "api.templates.reset_body.subTitle",
+    "translation": "برای بازنشانی رمز عبور روی دکمه زیر کلیک کنید. اگر این را درخواست نکرده‌اید، می‌توانید با خیال راحت این ایمیل را نادیده بگیرید."
+  },
+  {
+    "id": "api.templates.reset_body.info",
+    "translation": "لینک بازنشانی رمز عبور 24 ساعت دیگر منقضی می شود."
+  },
+  {
+    "id": "api.server.warn_metric.support_email_not_configured.start_trial.notification_body",
+    "translation": "لطفاً به **کنسول سیستم > پیکربندی سایت > سفارشی‌سازی** بروید تا [ایمیل پشتیبانی] (https://docs.mattermost.com/administration/config-settings.html#support-email) را به عنوان پشتیبانی IT داخلی سازمان خود تنظیم کنید. آدرس ایمیل میز برای بازخورد کاربر نهایی، اعلان‌های ایمیل، و درخواست‌های پشتیبانی."
+  },
+  {
+    "id": "api.error_set_first_admin_visit_marketplace_status",
+    "translation": "خطا در تلاش برای ذخیره اولین وضعیت بازدید مدیر از بازار در فروشگاه."
   }
 ]
