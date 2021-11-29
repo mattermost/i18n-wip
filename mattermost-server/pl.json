@@ -1,1 +1,62 @@
-{}
+[
+  {
+    "id": "api.admin.add_certificate.open.app_error",
+    "translation": "Nie można otworzyć pliku certyfikatu."
+  },
+  {
+    "id": "api.admin.add_certificate.no_file.app_error",
+    "translation": "Brak pliku pod \"certyfikat\" w żądaniu."
+  },
+  {
+    "id": "api.admin.add_certificate.array.app_error",
+    "translation": "Brak pliku pod \"certyfikat\" w żądaniu."
+  },
+  {
+    "id": "September",
+    "translation": "Wrzesień"
+  },
+  {
+    "id": "October",
+    "translation": "Październik"
+  },
+  {
+    "id": "November",
+    "translation": "Listopad"
+  },
+  {
+    "id": "May",
+    "translation": "Maj"
+  },
+  {
+    "id": "March",
+    "translation": "Marzec"
+  },
+  {
+    "id": "June",
+    "translation": "Czerwiec"
+  },
+  {
+    "id": "July",
+    "translation": "Lipiec"
+  },
+  {
+    "id": "January",
+    "translation": "Styczeń"
+  },
+  {
+    "id": "February",
+    "translation": "Luty"
+  },
+  {
+    "id": "December",
+    "translation": "Grudzień"
+  },
+  {
+    "id": "August",
+    "translation": "Sierpień"
+  },
+  {
+    "id": "April",
+    "translation": "Kwiecień"
+  }
+]
