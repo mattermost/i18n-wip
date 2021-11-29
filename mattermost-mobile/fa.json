@@ -511,7 +511,7 @@
   "global_threads.markAllRead.message": "با این کار هر وضعیت خوانده نشده برای همه رشته های شما که در اینجا نشان داده شده اند پاک می شود",
   "global_threads.emptyUnreads.message": "به نظر می رسد همه شما گرفتار شده اید.",
   "friendly_date.yearsAgo": "{count} {تعداد، جمع، یک {سال} دیگر {سال}} پیش",
-  "friendly_date.monthsAgo": "{count} {تعداد، جمع، یک {ماه} دیگر {ماه}} پیش",
+  "friendly_date.monthsAgo": "{count} {count, plural, one {month} other {months}} قبل",
   "friendly_date.minsAgo": "{count} {count, plural, one {min} دیگری {mins}} قبل",
   "friendly_date.hoursAgo": "{count} {count, plural, one {hour} other {hours}} پیش",
   "friendly_date.daysAgo": "{count} {تعداد، جمع، یک {day} دیگر {روز}} پیش",
@@ -764,7 +764,7 @@
   "apps.error.form.submit.pretext": "در ارسال modal خطایی رخ داده است. با توسعه دهنده برنامه تماس بگیرید. جزئیات: {details}",
   "apps.error.form.refresh": "هنگام واکشی فیلدهای انتخابی خطایی روی داد. با توسعه دهنده برنامه تماس بگیرید. جزئیات: {details}",
   "apps.error.form.no_lookup_call": "performLookupCall props.call تعریف نشده است",
-  "apps.error.form.no_form": "`form تعریف نشده است.",
+  "apps.error.form.no_form": "`form`تعریف نشده است.",
   "apps.error.form.no_call": "`call` تعریف نشده است.",
   "apps.error.command.unknown_user": "کاربر ناشناس برای فیلد`{fieldName}`: `{option}`.",
   "apps.error.command.unknown_option": "گزینه ناشناخته برای فیلد `{fieldName}`: `{option}`.",
@@ -780,5 +780,8 @@
   "combined_system_message.added_to_channel.two": "{firstUser} و {secondUser} **توسط {actor} به کانال اضافه شد**.",
   "combined_system_message.added_to_channel.one_you": "شما توسط {actor} **به کانال** اضافه شدید.",
   "combined_system_message.added_to_channel.one": "{firstUser} **به کانال** توسط {actor} اضافه شد.",
-  "combined_system_message.added_to_channel.many_expanded": "{users} و {lastUser} توسط {actor} **به کانال** اضافه شدند."
+  "combined_system_message.added_to_channel.many_expanded": "{users} و {lastUser} توسط {actor} **به کانال** اضافه شدند.",
+  "permalink.show_dialog_warn.join": "محلق شوید",
+  "permalink.show_dialog_warn.title": "به کانال خصوصی ملحق شوید",
+  "signup.google": "برنامه های گوگل"
 }
