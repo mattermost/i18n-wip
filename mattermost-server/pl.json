@@ -90,5 +90,9 @@
   {
     "id": "api.admin.add_certificate.parseform.app_error",
     "translation": "Błąd przetwarzania żądania wielopostaciowego"
+  },
+  {
+    "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
+    "translation": "Napotkany błąd podczas przetwarzania informacji metadanych otrzymanych od Identity Provider do certyfikatu."
   }
 ]
