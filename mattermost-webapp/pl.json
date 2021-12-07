@@ -11,5 +11,7 @@
   "about.teamEditiont1": "Edycja Enterprise",
   "about.title": "O {appTitle}",
   "api.channel.add_guest.added": "{addedUsername} został dodany do kanału jako gość przez {username}.",
-  "api.channel.add_member.added": "{addedUsername} został dodany do kanału przez {username}."
+  "api.channel.add_member.added": "{addedUsername} został dodany do kanału przez {username}.",
+  "api.channel.guest_join_channel.post_and_forget": "{username} dołączył/a do kanału jako gość.",
+  "apps.error": "Błąd: {error}"
 }
