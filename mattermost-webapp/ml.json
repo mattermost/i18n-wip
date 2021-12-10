@@ -256,6 +256,7 @@
   "intro_messages.onlyInvited": " ക്ഷണിക്കപ്പെട്ട അംഗങ്ങൾക്ക് മാത്രമേ ഈ സ്വകാര്യ ചാനൽ കാണാനാകൂ.",
   "last_users_message.added_to_channel.type": "**ചാനലിൽ ചേർക്കുന്നത്** {actor} ആണ്.",
   "last_users_message.added_to_team.type": "{നടൻ} ആണ് **ടീമിലേക്ക് ചേർത്തത്**.",
+  "last_users_message.first": "{firstUser} ഒപ്പം ",
   "last_users_message.joined_channel.type": "**ചാനലിൽ ചേർന്നു**.",
   "last_users_message.joined_team.type": "**ടീമിൽ ചേർന്നു**.",
   "last_users_message.left_channel.type": "**ചാനൽ വിട്ടു**.",
