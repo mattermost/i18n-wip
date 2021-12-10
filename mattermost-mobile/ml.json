@@ -246,5 +246,22 @@
   "intro_messages.anyMember": " ഏതൊരു അംഗത്തിനും ഈ ചാനൽ ചേരാനും വായിക്കാനും കഴിയും.",
   "integrations.add": "ചേർക്കുക",
   "global_threads.markAllRead.message": "ഇവിടെ കാണിച്ചിരിക്കുന്ന നിങ്ങളുടെ എല്ലാ ത്രെഡുകൾക്കുമായി ഇത് വായിക്കാത്ത സ്റ്റാറ്റസ് മായ്‌ക്കും",
-  "friendly_date.now": "ഇപ്പോൾ"
+  "friendly_date.now": "ഇപ്പോൾ",
+  "mobile.channel_drawer.search": "ചാനൽ കണ്ടെത്തുക",
+  "mobile.channel_info.alertMessageConvertChannel": "നിങ്ങൾ {displayName} ഒരു സ്വകാര്യ ചാനലിലേക്ക് പരിവർത്തനം ചെയ്യുമ്പോൾ, ചരിത്രവും അംഗത്വവും സംരക്ഷിക്കപ്പെടും. പൊതുവായി പങ്കിട്ട ഫയലുകൾ ലിങ്കുള്ള ആർക്കും ആക്‌സസ് ചെയ്യാനാകും. ഒരു സ്വകാര്യ ചാനലിലെ അംഗത്വം ക്ഷണത്തിലൂടെ മാത്രമാണ്.\n\n\nമാറ്റം ശാശ്വതമാണ്, അത് പഴയപടിയാക്കാനാകില്ല.\n\n\n\n{displayName} ഒരു സ്വകാര്യ ചാനലിലേക്ക് പരിവർത്തനം ചെയ്യണമെന്ന് തീർച്ചയാണോ?",
+  "mobile.camera_video_permission_denied_description": "വീഡിയോകൾ എടുത്ത് അവ നിങ്ങളുടെ മാറ്റർമോസ്റ്റ് ഇൻസ്‌റ്റൻസിലേക്ക് അപ്‌ലോഡ് ചെയ്യുക അല്ലെങ്കിൽ അവ നിങ്ങളുടെ ഉപകരണത്തിൽ സംരക്ഷിക്കുക. നിങ്ങളുടെ ക്യാമറയിലേക്ക് Mattermost Read and Write ആക്‌സസ് അനുവദിക്കുന്നതിന് ക്രമീകരണം തുറക്കുക.",
+  "mobile.camera_photo_permission_denied_title": "{applicationName} നിങ്ങളുടെ ക്യാമറ ആക്സസ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു",
+  "mobile.calendar.monthNamesShort": "ജനുവരി, ഫെബ്രുവരി, മാർച്ച്, ഏപ്രിൽ, മെയ്, ജൂൺ, ജൂലൈ, ഓഗസ്റ്റ്, സെപ്റ്റംബർ, ഒക്ടോബർ, നവംബർ, ഡിസംബർ",
+  "mobile.calendar.dayNamesShort": "ഞായർ, തിങ്കൾ, ചൊവ്വ, ബുധൻ, വ്യാഴം, വെള്ളി, ശനി",
+  "mobile.calendar.dayNames": "ഞായറാഴ്ച ,തിങ്കളാഴ്ച ,ചൊവ്വാഴ്ച, ബുധനാഴ്ച ,വ്യാഴാഴ്ച, വെള്ളിയാഴ്ച ,ശനിയാഴ്ച",
+  "mobile.action_menu.select": "ഒരു ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക",
+  "mobile.account.settings.save": "സേവ്",
+  "mobile.account_notifications.threads_start_participate": "ഞാൻ ആരംഭിക്കുന്നതോ പങ്കെടുക്കുന്നതോ ആയ ത്രെഡുകൾ",
+  "mobile.account_notifications.threads_start": "ഞാൻ ആരംഭിക്കുന്ന ത്രെഡുകൾ",
+  "mobile.account_notifications.threads_mentions": "ത്രെഡുകളിലെ പരാമർശങ്ങൾ",
+  "mobile.account_notifications.reply.header": "ഇതിനായി മറുപടി അറിയിപ്പുകൾ അയയ്‌ക്കുക",
+  "mobile.about.serverVersionNoBuild": "സെർവർ പതിപ്പ്: {version}",
+  "mobile.about.database": "ഡാറ്റാബേസ്: {type}",
+  "last_users_message.first": "{firstUser} ഒപ്പം ",
+  "global_threads.unreads": "വായിക്കാത്തവ"
 }
