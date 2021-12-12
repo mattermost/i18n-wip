@@ -177,6 +177,7 @@
   "channel_loader.someone": "ആരോ",
   "channel_modal.cancel": "നിര്‍ത്തലാക്കുക",
   "channel_modal.descriptionHelp": "ഈ ചാനൽ എങ്ങനെ ഉപയോഗിക്കണമെന്ന് വിവരിക്കുക.",
+  "channel_modal.header": "തലക്കെട്ട്",
   "channel_modal.headerEx": "ഉദാ: \"[ലിങ്ക് ശീർഷകം](http://example.com)\"",
   "channel_modal.headerHelp": "ചാനലിന്റെ പേരിന് അരികിൽ ചാനലിന്റെ തലക്കെട്ടിൽ ദൃശ്യമാകുന്ന വാചകം സജ്ജീകരിക്കുക. ഉദാഹരണത്തിന്, [ലിങ്ക് ശീർഷകം](http://example.com) എന്ന് ടൈപ്പ് ചെയ്തുകൊണ്ട് പതിവായി ഉപയോഗിക്കുന്ന ലിങ്കുകൾ ഉൾപ്പെടുത്തുക.",
   "channel_modal.name": "പേര്",
