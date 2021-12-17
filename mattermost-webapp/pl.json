@@ -28,5 +28,12 @@
   "apps.error.parser.execute_non_leaf": "Musisz wybrać podpolecenie.",
   "apps.error.parser.missing_call": "Nieodebrane połączenia.",
   "apps.error.parser.missing_field_value": "Brakująca wartość pola.",
-  "apps.error.parser.missing_quote": "Oczekiwany podwójny cudzysłów przed zakończeniem wprowadzania danych."
+  "apps.error.parser.missing_quote": "Oczekiwany podwójny cudzysłów przed zakończeniem wprowadzania danych.",
+  "apps.error.parser.missing_tick": "Oczekiwany podwójny cudzysłów przed zakończeniem wprowadzania danych.",
+  "apps.error.parser.multiple_equal": "Wielokrotne znaki `=` nie są dozwolone.",
+  "apps.error.parser.no_argument_pos_x": "Nie można zidentyfikować argumentu.",
+  "apps.error.parser.no_bindings": "Brak powiązań z poleceniami.",
+  "apps.error.parser.no_match": "`{command}`: Nie znaleziono pasującej komendy w tym obszarze roboczym.",
+  "apps.error.parser.no_slash_start": "Komenda musi zaczynać się od `/`.",
+  "apps.error.parser.unexpected_error": "Nieoczekiwany błąd."
 }
