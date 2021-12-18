@@ -3893,7 +3893,6 @@
   "sidebar.tutorialProductSwitcher.admin": "مدیران سیستم همچنین می توانند Mattermost را با استفاده از **System Console** پیکربندی و سفارشی کنند و Mattermost Apps را از **Marketplace** نصب کنند.",
   "sidebar.tutorialProductSwitcher.switchProducts": "سایر محصولات Mattermost را از اینجا راه اندازی کنید، از جمله **Boards** و **Playbooks**.",
   "sidebar.tutorialProductSwitcher.title": "تخته‌ها و کتاب‌های بازی را امتحان کنید",
-  "sidebar.tutorialScreen3.body2": "همچنین می توانید با کلیک بر روی علامت **\"+\"** در کنار هدر کانال عمومی یا خصوصی، یک کانال جدید ایجاد کنید.",
   "sidebar.tutorialSettings.settings": "در قسمت نمایه، در دسترس بودن خود را تنظیم کنید، یک وضعیت سفارشی اضافه کنید و تصویر نمایه خود را تنظیم کنید. **تنظیمات** را انتخاب کنید تا تجربه خود را سفارشی کنید، از جمله تنظیمات برگزیده اعلان، رنگ های تم سفارشی و موارد دیگر.",
   "sidebar.tutorialSettings.title": "تجربه خود را سفارشی کنید",
   "sidebar.types.channels": "کانال ها",
