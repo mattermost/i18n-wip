@@ -31,5 +31,12 @@
   "apps.error.command.unknown_user": "Nieznany użytkownik dla pola `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_option": "Nieznana opcja dla pola `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_channel": "Nieznany kanał dla pola `{fieldName}`: `{option}`.",
-  "apps.error.command.field_missing": "Brakujące wymagane pola: `{fieldName}`."
+  "apps.error.command.field_missing": "Brakujące wymagane pola: `{fieldName}`.",
+  "apps.error.parser.unexpected_error": "Nieoczekiwany błąd.",
+  "apps.error.parser.no_slash_start": "Komenda musi zaczynać się od `/`.",
+  "apps.error.parser.no_match": "`{command}`: Nie znaleziono pasującej komendy w tym obszarze roboczym.",
+  "apps.error.parser.no_bindings": "Brak powiązań z poleceniami.",
+  "apps.error.parser.no_argument_pos_x": "Nie można zidentyfikować argumentu.",
+  "apps.error.parser.multiple_equal": "Wielokrotne znaki `=` nie są dozwolone.",
+  "apps.error.parser.missing_tick": "Oczekiwany podwójny cudzysłów przed zakończeniem wprowadzania danych."
 }
