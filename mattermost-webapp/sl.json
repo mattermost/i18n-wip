@@ -1106,7 +1106,6 @@
   "search_header.loading": "Iskanje ...",
   "search_item.channelArchived": "Arhivirano",
   "search_item.direct": "Neposredno sporočilo (z {username})",
-  "search_results.usage.dataRetention": "Vrnejo se samo sporočila, objavljena v zadnjih {days} dneh. Za več podrobnosti se obrnite na skrbnika sistema.",
   "select_team.icon": "Izberi ikono ekipe",
   "setting_picture.help.profile": "Naložite sliko v formatu BMP, JPG ali PNG. Največja velikost datoteke: {max}",
   "setting_picture.help.team": "Naložite ikono ekipe v formatu BMP, JPG ali PNG.\nPriporočajo se kvadratne slike s polno barvo ozadja.",
