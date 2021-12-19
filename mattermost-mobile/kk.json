@@ -5,5 +5,7 @@
   "about.enterpriseEditionSt": "Сіздің Firewall'дың аржағындағы заманауи байланыс.",
   "about.enterpriseEditionLearn": "Enterprise Edition туралы көбірек білініз ",
   "about.enterpriseEditione1": "Enterprise Edition",
-  "about.date": "Build күні:"
+  "about.date": "Build күні:",
+  "about.title": "{appTitle} туралы",
+  "about.teamEditiont1": "Enterprise Edition"
 }
