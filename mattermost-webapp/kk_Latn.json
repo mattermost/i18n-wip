@@ -114,5 +114,19 @@
   "add_incoming_webhook.cancel": "Boldırmau",
   "add_incoming_webhook.channel": "Arna",
   "add_incoming_webhook.channel.help": "Būl webhook jüktemelerin kabıldaytın ädepki public nemese private arna.  Webhook'ti ornatu kezinde siz private arnaga teiesili boluıŋız kerek.",
-  "add_incoming_webhook.channelLocked": "Osı arnanı kūlıptau"
+  "add_incoming_webhook.channelLocked": "Osı arnanı kūlıptau",
+  "add_incoming_webhook.channelLocked.help": "Ornatılgan bolsa, kiris webhook tek taŋdalgan arnaga jareialay aladı.",
+  "add_incoming_webhook.channelRequired": "Jaramdı arna kajet",
+  "add_incoming_webhook.description": "Seipattama",
+  "add_incoming_webhook.description.help": "Kiris webhook'ti seipattaŋız.",
+  "add_incoming_webhook.displayName": "Atau",
+  "add_incoming_webhook.displayName.help": "Webhook baptau betiniŋ atauın keltitiniz. 64 taŋbaga deyin rūksat.",
+  "add_incoming_webhook.doneHelp": "Kiris webhook ornatıldı. derekterdi kelesi URL mekenjayına jiberiniz. (mälimetter: [Kiris Webhook'tar](!https://docs.mattermost.com/developer/webhooks-incoming.html)).",
+  "add_incoming_webhook.icon_url": "Profayıl Sureti",
+  "add_incoming_webhook.icon_url.help": "Jareialau kezinde osı integıratenniŋ profayıl sureti ücin .png nemese .jpg fayıldıŋ URL mekenjayın eŋgiziniz. Fayıl keminde 128 de 128 peiksel boluı kerek. Bos kaldırgan bolsa, webhook jasaucınıŋ profayıl sureti paydalanıladı.",
+  "add_incoming_webhook.save": "Saktau",
+  "add_incoming_webhook.saving": "Saktaluda...",
+  "add_incoming_webhook.url": "**URL**: {url}",
+  "add_incoming_webhook.username": "Koldanucı atı",
+  "add_incoming_webhook.username.help": "Būl integıraten jareialaytın koldanucı atın keltiriniz. Koldanucı attarı kici ärippen, 22 taŋbaga deyin boluı kerek jäne sandar men \"-\", \"_\", \".\" taŋbaların kamtuı mümkin. Bos kaldırılgan bolsa, webhook jasaucıniŋ atı paydalanıladı."
 }
