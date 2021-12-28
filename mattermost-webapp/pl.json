@@ -35,5 +35,20 @@
   "apps.error.parser.no_bindings": "Brak powiązań z poleceniami.",
   "apps.error.parser.no_match": "`{command}`: Nie znaleziono pasującej komendy w tym obszarze roboczym.",
   "apps.error.parser.no_slash_start": "Komenda musi zaczynać się od `/`.",
-  "apps.error.parser.unexpected_error": "Nieoczekiwany błąd."
+  "apps.error.parser.unexpected_error": "Nieoczekiwany błąd.",
+  "apps.error.parser.unexpected_flag": "Komenda nie akceptuje flagi `{flagName}`.",
+  "apps.error.parser.unexpected_state": "Nieosiągalne: Nieoczekiwany stan matchBinding: `{state}`.",
+  "apps.error.parser.unexpected_whitespace": "Nieosiągalne: Nieoczekiwana spacja.",
+  "apps.error.responses.form.no_form": "Typ odpowiedzi to `form`, ale żaden formularz nie został zawarty w odpowiedzi.",
+  "apps.error.responses.navigate.no_submit": "Typ odpowiedzi to `navigate`, ale wywołanie nie było zgłoszone.",
+  "apps.error.responses.navigate.no_url": "Typ odpowiedzi to `navigate`, ale żaden adres url nie został zawarty w odpowiedzi.",
+  "apps.error.responses.unexpected_error": "Otrzymano nieoczekiwany błąd.",
+  "apps.error.responses.unknown_type": "Typ odpowiedzi aplikacji nie jest obsługiwany. Typ odpowiedzi: {type}.",
+  "apps.error.unknown": "Wystąpił nieznany błąd.",
+  "apps.suggestion.dynamic.error": "Błąd dynamicznego wyboru",
+  "apps.suggestion.errors.parser_error": "Błąd przetwarzania",
+  "apps.suggestion.no_dynamic": "Nie zwrócono żadnych danych dla sugestii dynamicznych",
+  "apps.suggestion.no_static": "Brak pasujących opcji.",
+  "apps.suggestion.no_suggestion": "Brak pasujących sugestii.",
+  "archivedChannelMessage": "Przeglądasz **zarchiwizowany kanał**. Nowe wiadomości nie mogą być wysłane."
 }
