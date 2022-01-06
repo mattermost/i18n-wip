@@ -4743,5 +4743,89 @@
   {
     "id": "model.config.is_valid.display.custom_url_schemes.app_error",
     "translation": "कस्टम URL स्कीम {{.Scheme}} अमान्य है। कस्टम URL स्कीमों को एक अक्षर से शुरू होना चाहिए और इसमें केवल अक्षर, संख्याएँ, प्लस (+), अवधि (.) और हाइफ़न (-) होना चाहिए।"
+  },
+  {
+    "id": "api.plugin.verify_plugin.app_error",
+    "translation": "प्लगइन हस्ताक्षर सत्यापित करने में असमर्थ।"
+  },
+  {
+    "id": "api.plugin.upload.no_file.app_error",
+    "translation": "मल्टीपार्ट/फॉर्म अनुरोध में अनुपलब्ध फ़ाइल।"
+  },
+  {
+    "id": "api.oauth.revoke_access_token.del_token.app_error",
+    "translation": "डीबी से एक्सेस टोकन हटाने में त्रुटि।"
+  },
+  {
+    "id": "api.oauth.revoke_access_token.del_session.app_error",
+    "translation": "DB से सत्र हटाने में त्रुटि।"
+  },
+  {
+    "id": "api.oauth.get_access_token.refresh_token.app_error",
+    "translation": "अमान्य_ग्रांट: अमान्य ताज़ा टोकन।"
+  },
+  {
+    "id": "api.oauth.get_access_token.missing_refresh_token.app_error",
+    "translation": "अमान्य_अनुरोध: ताज़ा_टोकन गुम है।"
+  },
+  {
+    "id": "api.oauth.click_redirect",
+    "translation": "यदि आप स्वचालित रूप से पुनर्निर्देशित नहीं होते हैं, तो कृपया क्लिक करें<a href='{{.Link}}'>link</a>"
+  },
+  {
+    "id": "api.license.request_renewal_link.cannot_renew_on_cws",
+    "translation": "पोर्टल पर इस लाइसेंस का नवीनीकरण संभव नहीं है"
+  },
+  {
+    "id": "api.license.add_license.no_file.app_error",
+    "translation": "अनुरोध में 'लाइसेंस' के तहत कोई फ़ाइल नहीं।"
+  },
+  {
+    "id": "api.license.add_license.invalid_count.app_error",
+    "translation": "कुल अद्वितीय उपयोगकर्ताओं की गणना करने में असमर्थ।"
+  },
+  {
+    "id": "api.license.add_license.array.app_error",
+    "translation": "अनुरोध में 'लाइसेंस' के तहत खाली सरणी।"
+  },
+  {
+    "id": "api.ldap_group.not_found",
+    "translation": "एलडीएपी समूह नहीं मिला"
+  },
+  {
+    "id": "api.file.get_file_preview.no_preview.app_error",
+    "translation": "फ़ाइल में पूर्वावलोकन छवि नहीं है।"
+  },
+  {
+    "id": "api.context.local_origin_required.app_error",
+    "translation": "इस समापन बिंदु को स्थानीय अनुरोध मूल की आवश्यकता है।"
+  },
+  {
+    "id": "api.command_shrug.name",
+    "translation": "श्रग्"
+  },
+  {
+    "id": "api.command_share.uninvite_remote_id.help",
+    "translation": "आमंत्रण रद्द करने के लिए सुरक्षित कनेक्शन की आईडी।"
+  },
+  {
+    "id": "api.command_share.remote_id.help",
+    "translation": "मौजूदा सुरक्षित कनेक्शन की आईडी। देखो `secure-connection` आदेश एक सुरक्षित कनेक्शन जोड़ने के लिए।"
+  },
+  {
+    "id": "api.command_share.not_shared_channel_unshare",
+    "translation": "किसी चैनल को साझा नहीं किया जा सकता जो साझा नहीं किया गया है।"
+  },
+  {
+    "id": "api.command_echo.name",
+    "translation": "एको"
+  },
+  {
+    "id": "api.command_echo.high_volume.app_error",
+    "translation": "इको अनुरोध की उच्च मात्रा, अनुरोध को संसाधित नहीं कर सकती।"
+  },
+  {
+    "id": "api.command_echo.desc",
+    "translation": "अपने खाते से एको बैक टेक्स्ट"
   }
 ]
