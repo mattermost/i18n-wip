@@ -4827,5 +4827,13 @@
   {
     "id": "api.command_echo.desc",
     "translation": "अपने खाते से एको बैक टेक्स्ट"
+  },
+  {
+    "id": "api.command_custom_status.app_error",
+    "translation": "स्थिति सेट करने में त्रुटि."
+  },
+  {
+    "id": "api.cloud.get_subscription.error",
+    "translation": "क्लाउड सदस्यता प्राप्त करने में त्रुटि।"
   }
 ]
