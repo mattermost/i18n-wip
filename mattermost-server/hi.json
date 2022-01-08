@@ -4835,5 +4835,9 @@
   {
     "id": "api.cloud.get_subscription.error",
     "translation": "क्लाउड सदस्यता प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "api.command_collapse.desc",
+    "translation": "छवि पूर्वावलोकन का स्वतः-संक्षिप्त करना चालू करें"
   }
 ]
