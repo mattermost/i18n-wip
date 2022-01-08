@@ -81,6 +81,8 @@
   "add_command.saving": "저장중...",
   "add_command.token": "**토큰**:{token}",
   "add_command.trigger": "명령어 트리거 단어",
+  "add_incoming_webhook.url": "**URL**: {url}",
+  "add_oauth_app.clientId": "**클라이언트 ID**: {id}",
   "apps.error": "오류: {error}",
   "apps.error.form.no_call": "`call`이 정의되지 않았습니다.",
   "apps.error.form.no_form": "`form`이 정의되지 않았습니다."
