@@ -26,6 +26,7 @@
   "apps.error.parser": "Błąd składni: {error}",
   "apps.error.parser.empty_value": "puste wartości nie są dozwolone",
   "apps.error.parser.execute_non_leaf": "Musisz wybrać podpolecenie.",
+  "apps.error.parser.missing_binding": "Brakujące nawiązania poleceń.",
   "apps.error.parser.missing_call": "Nieodebrane połączenia.",
   "apps.error.parser.missing_field_value": "Brakująca wartość pola.",
   "apps.error.parser.missing_quote": "Oczekiwany podwójny cudzysłów przed zakończeniem wprowadzania danych.",
@@ -131,5 +132,13 @@
   "emoji_picker.people-body": "Ludzie i ciało",
   "emoji_picker.searchResults": "Wyniki Wyszukiwania",
   "emoji_picker.smileys-emotion": "Uśmieszki i Emotikony",
-  "emoji_picker.symbols": "Symbole"
+  "emoji_picker.symbols": "Symbole",
+  "integrations.add": "Dodaj",
+  "intro_messages.anyMember": " Każdy użytkownik może dołączyć i przeczytać ten kanał.",
+  "intro_messages.beginning": "Początek {name}",
+  "intro_messages.creator": "To jest początek kanału {name}, stworzonego przez {creator} dnia {date}.",
+  "intro_messages.creatorPrivate": "To jest początek prywatnego kanału {name}, stworzonego przez {creator} dnia {date}.",
+  "intro_messages.group_message": "To jest początek historii wiadomości grupowych z tymi zespołami. Wiadomości i pliki udostępnione w tym miejscu nie są wyświetlane osobom spoza tego obszaru.",
+  "intro_messages.noCreator": "To początek kanału {name}, utworzony dnia {date}.",
+  "intro_messages.onlyInvited": " Tylko zaproszeni użytkownicy mogą zobaczyć ten prywatny kanał."
 }
