@@ -13,11 +13,11 @@
   },
   {
     "id": "api.user.upload_profile_user.parse.app_error",
-    "translation": "Ne može se pročitati obrazac s više dijelova"
+    "translation": "Neuspjela obrada višedjelnog obrasca."
   },
   {
     "id": "api.user.upload_profile_user.open.app_error",
-    "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    "translation": "Neuspjelo otvaranje slikovne datoteke."
   },
   {
     "id": "api.user.upload_profile_user.no_file.app_error",
@@ -41,11 +41,11 @@
   },
   {
     "id": "api.team.set_team_icon.parse.app_error",
-    "translation": "Ne može se pročitati obrazac s više dijelova"
+    "translation": "Neuspjela obrada višedjelnog obrasca."
   },
   {
     "id": "api.team.set_team_icon.open.app_error",
-    "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    "translation": "Neuspjelo otvaranje slikovne datoteke."
   },
   {
     "id": "api.team.set_team_icon.no_file.app_error",
@@ -57,11 +57,11 @@
   },
   {
     "id": "api.team.import_team.parse.app_error",
-    "translation": "Ne može se pročitati obrazac s više dijelova"
+    "translation": "Neuspjela obrada višedjelnog obrasca."
   },
   {
     "id": "api.team.import_team.open.app_error",
-    "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    "translation": "Neuspjelo otvaranje datoteke."
   },
   {
     "id": "api.team.import_team.no_file.app_error",
@@ -73,7 +73,7 @@
   },
   {
     "id": "api.license.add_license.open.app_error",
-    "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    "translation": "Neuspjelo otvaranje datoteke licence."
   },
   {
     "id": "api.license.add_license.no_file.app_error",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.upload_brand_image.parse.app_error",
-    "translation": "Ne može se pročitati obrazac s više dijelova"
+    "translation": "Neuspjela obrada višedjelnog obrasca."
   },
   {
     "id": "api.admin.upload_brand_image.no_file.app_error",
@@ -121,7 +121,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "<br/><br/><br/>Mattermost mail je pravilno postavljen!"
+    "translation": "Čini se da je tvoja Mattermost e-mail adresa pravilno postavljena!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -129,31 +129,31 @@
   },
   {
     "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
-    "translation": "Neuspjelo spremanje datoteke s crtifikatom"
+    "translation": "Neuspjelo spremanje datoteke certifikata."
   },
   {
     "id": "api.admin.get_brand_image.storage.app_error",
-    "translation": "Spremište za slike nije postavljeno"
+    "translation": "Spremište slika nije konfigurirano."
   },
   {
     "id": "api.admin.file_read_error",
-    "translation": "Greška kod čitanja log datoteke"
+    "translation": "Greška u čitanju datoteke dnevnika."
   },
   {
     "id": "api.admin.add_certificate.saving.app_error",
-    "translation": "Neuspjelo spremanje datoteke s crtifikatom"
+    "translation": "Neuspjelo spremanje datoteke certifikata."
   },
   {
     "id": "api.admin.add_certificate.open.app_error",
-    "translation": "Neuspjelo otvaranje datoteke s certifikatom"
+    "translation": "Neuspjelo otvaranje datoteke certifikata."
   },
   {
     "id": "api.admin.add_certificate.no_file.app_error",
-    "translation": "Nije potrebna datoteka u polju 'certifikat'"
+    "translation": "U zahtjevu nema datoteke u polju 'certifikat'."
   },
   {
     "id": "api.admin.add_certificate.array.app_error",
-    "translation": "Nije potrebna datoteka u polju 'certifikat'"
+    "translation": "U zahtjevu nema datoteke u polju 'certifikat'."
   },
   {
     "id": "September",
@@ -202,5 +202,17 @@
   {
     "id": "April",
     "translation": "travanj"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.button",
+    "translation": "Otvori Mattermost"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.app_market_place",
+    "translation": "tržnici programa."
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.add_apps_sub_info",
+    "translation": "Optimiraj tok tvog rada pomoću alata kao što su Github, Jira i Zoom. Istraži sve naše integracije na"
   }
 ]
