@@ -4839,5 +4839,569 @@
   {
     "id": "api.command_collapse.desc",
     "translation": "छवि पूर्वावलोकन का स्वतः-संक्षिप्त करना चालू करें"
+  },
+  {
+    "id": "api.templates.mfa_deactivated_body.title",
+    "translation": "बहु-कारक प्रमाणीकरण हटा दिया गया था"
+  },
+  {
+    "id": "api.remote_cluster.save.app_error",
+    "translation": "सुरक्षित कनेक्शन सहेजने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_comment_on_crt_thread",
+    "translation": " आप जिस धागे का अनुसरण कर रहे हैं उसका उत्तर दिया।"
+  },
+  {
+    "id": "api.error_set_first_admin_visit_marketplace_status",
+    "translation": "स्टोर में पहले व्यवस्थापक विज़िट मार्केटप्लेस स्थिति को सहेजने का प्रयास करने में त्रुटि।"
+  },
+  {
+    "id": "api.user.invalidate_verify_email_tokens_delete.error",
+    "translation": "ईमेल सत्यापन टोकन को अमान्य करते समय टोकन निकालने में असमर्थ"
+  },
+  {
+    "id": "api.user.invalidate_verify_email_tokens.error",
+    "translation": "ईमेल सत्यापन टोकन को अमान्य करते समय प्रकार के अनुसार टोकन प्राप्त करने में असमर्थ"
+  },
+  {
+    "id": "api.user.get_user_by_email.permissions.app_error",
+    "translation": "ईमेल द्वारा उपयोगकर्ता प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "api.user.get_uploads_for_user.forbidden.app_error",
+    "translation": "अपलोड प्राप्त करने में विफल।"
+  },
+  {
+    "id": "api.user.email_to_oauth.not_available.app_error",
+    "translation": "प्रमाणीकरण स्थानांतरण कॉन्फ़िगर नहीं किया गया है या इस सर्वर पर उपलब्ध नहीं है।"
+  },
+  {
+    "id": "api.user.email_to_ldap.not_available.app_error",
+    "translation": "इस सर्वर पर AD/LDAP उपलब्ध नहीं है।"
+  },
+  {
+    "id": "api.user.demote_user_to_guest.already_guest.app_error",
+    "translation": "उपयोक्ता को अतिथि में बदलने में असमर्थ क्योंकि वह पहले से ही अतिथि है."
+  },
+  {
+    "id": "api.user.delete_user.not_enabled.app_error",
+    "translation": "स्थायी उपयोगकर्ता हटाने की सुविधा सक्षम नहीं है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.user.delete_team.not_enabled.app_error",
+    "translation": "स्थायी टीम हटाने की सुविधा सक्षम नहीं है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.user.delete_channel.not_enabled.app_error",
+    "translation": "स्थायी चैनल हटाने की सुविधा सक्षम नहीं है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.user.create_user.signup_link_invalid.app_error",
+    "translation": "साइनअप लिंक मान्य प्रतीत नहीं होता है।"
+  },
+  {
+    "id": "api.user.create_user.signup_link_expired.app_error",
+    "translation": "साइनअप लिंक की समय सीमा समाप्त हो गई है।"
+  },
+  {
+    "id": "api.user.create_user.signup_email_disabled.app_error",
+    "translation": "ईमेल के साथ उपयोगकर्ता साइन-अप अक्षम है।"
+  },
+  {
+    "id": "api.user.create_user.no_open_server",
+    "translation": "यह सर्वर खुले साइनअप की अनुमति नहीं देता है। आमंत्रण प्राप्त करने के लिए कृपया अपने व्यवस्थापक से बात करें।"
+  },
+  {
+    "id": "api.user.create_user.invalid_invitation_type.app_error",
+    "translation": "उपयोगकर्ता बनाने में असमर्थ, अमान्य आमंत्रण।"
+  },
+  {
+    "id": "api.user.create_user.guest_accounts.license.app_error",
+    "translation": "आपका लाइसेंस अतिथि खातों का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "api.user.create_user.guest_accounts.disabled.app_error",
+    "translation": "अतिथि खाते अक्षम हैं।"
+  },
+  {
+    "id": "api.user.create_user.disabled.app_error",
+    "translation": "उपयोगकर्ता निर्माण अक्षम है।"
+  },
+  {
+    "id": "api.user.create_user.bad_token_email_data.app_error",
+    "translation": "टोकन में ईमेल पता उपयोगकर्ता डेटा से मेल नहीं खाता है।"
+  },
+  {
+    "id": "api.user.create_user.accepted_domain.app_error",
+    "translation": "आपके द्वारा प्रदान किया गया ईमेल किसी स्वीकृत डोमेन से संबंधित नहीं है। कृपया अपने व्यवस्थापक से संपर्क करें या किसी भिन्न ईमेल से साइन अप करें।"
+  },
+  {
+    "id": "api.user.create_profile_image.initial.app_error",
+    "translation": "उपयोगकर्ता के आरंभिक को डिफ़ॉल्ट प्रोफ़ाइल चित्र में नहीं जोड़ा जा सका।"
+  },
+  {
+    "id": "api.user.create_profile_image.encode.app_error",
+    "translation": "डिफ़ॉल्ट प्रोफ़ाइल छवि को एन्कोड नहीं किया जा सका।"
+  },
+  {
+    "id": "api.user.create_profile_image.default_font.app_error",
+    "translation": "डिफ़ॉल्ट प्रोफ़ाइल छवि फ़ॉन्ट नहीं बनाया जा सका."
+  },
+  {
+    "id": "api.user.create_password_token.error",
+    "translation": "पासवर्ड पुनर्प्राप्ति टोकन बनाने में असमर्थ"
+  },
+  {
+    "id": "api.user.create_oauth_user.create.app_error",
+    "translation": "{{.Service}} उपयोगकर्ता ऑब्जेक्ट से उपयोगकर्ता नहीं बनाया जा सका।"
+  },
+  {
+    "id": "api.user.create_email_token.error",
+    "translation": "ईमेल सत्यापन के लिए टोकन डेटा बनाने में विफल"
+  },
+  {
+    "id": "api.user.complete_switch_with_oauth.blank_email.app_error",
+    "translation": "खाली ईमेल।"
+  },
+  {
+    "id": "api.user.check_user_password.invalid.app_error",
+    "translation": "अमान्य पासवर्ड के कारण लॉगिन विफल रहा।"
+  },
+  {
+    "id": "api.user.check_user_mfa.bad_code.app_error",
+    "translation": "अमान्य एमएफए टोकन।"
+  },
+  {
+    "id": "api.user.check_user_login_attempts.too_many.app_error",
+    "translation": "बहुत से विफल पासवर्ड प्रयासों के कारण आपका खाता लॉक कर दिया गया है। अपना पासवर्ड रीसेट करें।"
+  },
+  {
+    "id": "api.user.autocomplete_users.missing_team_id.app_error",
+    "translation": "चैनल द्वारा स्वतः पूर्ण करने के लिए टीम आईडी पैरामीटर आवश्यक है।"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.token_failed.app_error",
+    "translation": "टोकन अनुरोध विफल रहा।"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.service.app_error",
+    "translation": "{{.Service}} को टोकन अनुरोध विफल रहा।"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.response.app_error",
+    "translation": "OAuth सेवा प्रदाता से अमान्य प्रतिक्रिया प्राप्त हुई।"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.missing.app_error",
+    "translation": "एक्सेस टोकन मौजूद नहीं है."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.invalid_state.app_error",
+    "translation": "अमान्य स्थिति"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.bad_token.app_error",
+    "translation": "खराब टोकन प्रकार।"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.bad_response.app_error",
+    "translation": "टोकन अनुरोध से खराब प्रतिक्रिया।"
+  },
+  {
+    "id": "api.user.activate_mfa.email_and_ldap_only.app_error",
+    "translation": "इस प्रकार के खाते के लिए एमएफए उपलब्ध नहीं है।"
+  },
+  {
+    "id": "api.upload.upload_data.invalid_content_type",
+    "translation": "मल्टीपार्ट अपलोड के लिए अमान्य सामग्री-प्रकार।"
+  },
+  {
+    "id": "api.templates.invite_body.title.reminder",
+    "translation": "अनुस्मारक"
+  },
+  {
+    "id": "api.templates.email_footer",
+    "translation": "अपनी अधिसूचना प्राथमिकताएं बदलने के लिए, अपनी टीम साइट पर लॉग इन करें और सेटिंग > सूचनाएं पर जाएं।"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.signin_sub_info",
+    "translation": "कार्यक्षेत्र में साइन इन करें"
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.add_payment_method",
+    "translation": "भुगतान विधि जोड़ें"
+  },
+  {
+    "id": "api.templates.cloud_trial_ended_email.title",
+    "translation": "मैटरमॉस्ट का आपका नि:शुल्क 14-दिवसीय परीक्षण आज समाप्त हो गया है"
+  },
+  {
+    "id": "api.templates.cloud_trial_ended_email.subject",
+    "translation": "मैटरमोस्ट क्लाउड ट्रायल समाप्त हो गया है"
+  },
+  {
+    "id": "api.templates.cloud_trial_ended_email.start_subscription",
+    "translation": "सदस्यता शुरू करें"
+  },
+  {
+    "id": "api.team.update_team_scheme.scheme_scope.error",
+    "translation": "योजना को टीम में सेट करने में असमर्थ क्योंकि आपूर्ति की गई योजना टीम योजना नहीं है।"
+  },
+  {
+    "id": "api.team.update_team_scheme.license.error",
+    "translation": "आपका लाइसेंस टीम की योजना को अपडेट करने का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.team.update_team_member_roles.guest_and_user.app_error",
+    "translation": "अमान्य टीम सदस्य अद्यतन: उपयोगकर्ता को अतिथि या उपयोगकर्ता होना चाहिए, लेकिन दोनों नहीं।"
+  },
+  {
+    "id": "api.team.update_member_roles.not_a_member",
+    "translation": "निर्दिष्ट उपयोगकर्ता निर्दिष्ट टीम का सदस्य नहीं है।"
+  },
+  {
+    "id": "api.team.team_icon.update.app_error",
+    "translation": "टीम आइकन को अपडेट करते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.team.set_team_icon.write_file.app_error",
+    "translation": "टीम आइकन सहेजा नहीं जा सका।"
+  },
+  {
+    "id": "api.team.set_team_icon.too_large.app_error",
+    "translation": "टीम आइकन अपलोड करने में असमर्थ. फ़ाइल बहुत बड़ी है।"
+  },
+  {
+    "id": "api.team.set_team_icon.storage.app_error",
+    "translation": "टीम आइकन अपलोड करने में असमर्थ. छवि संग्रहण कॉन्फ़िगर नहीं किया गया है।"
+  },
+  {
+    "id": "api.team.set_team_icon.parse.app_error",
+    "translation": "मल्टीपार्ट फॉर्म को पार्स नहीं किया जा सका।"
+  },
+  {
+    "id": "api.team.set_team_icon.open.app_error",
+    "translation": "छवि फ़ाइल नहीं खोल सका।"
+  },
+  {
+    "id": "api.team.set_team_icon.no_file.app_error",
+    "translation": "अनुरोध में 'छवि' के अंतर्गत कोई फ़ाइल नहीं है।"
+  },
+  {
+    "id": "api.team.set_team_icon.get_team.app_error",
+    "translation": "टीम प्राप्त करने में एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.team.set_team_icon.encode.app_error",
+    "translation": "टीम आइकन को एन्कोड नहीं किया जा सका."
+  },
+  {
+    "id": "api.team.set_team_icon.decode.app_error",
+    "translation": "टीम आइकन को डिकोड नहीं कर सका।"
+  },
+  {
+    "id": "api.team.set_team_icon.check_image_limits.app_error",
+    "translation": "छवि सीमा जांच विफल। संकल्प बहुत अधिक है।"
+  },
+  {
+    "id": "api.team.set_team_icon.array.app_error",
+    "translation": "अनुरोध में 'छवि' के तहत खाली सरणी।"
+  },
+  {
+    "id": "api.team.move_channel.post.error",
+    "translation": "चैनल स्थानांतरण संदेश पोस्ट करने में विफल।"
+  },
+  {
+    "id": "api.team.invite_guests_to_channels.invalid_body.app_error",
+    "translation": "अमान्य या अनुपलब्ध अनुरोध निकाय।"
+  },
+  {
+    "id": "api.team.import_team.unknown_import_from.app_error",
+    "translation": "अज्ञात आयात स्रोत।"
+  },
+  {
+    "id": "api.team.import_team.integer.app_error",
+    "translation": "Filesize एक पूर्णांक नहीं है।"
+  },
+  {
+    "id": "api.team.import_team.array.app_error",
+    "translation": "अनुरोध में 'फ़ाइल' के तहत खाली सरणी।"
+  },
+  {
+    "id": "api.team.add_team_member.invalid_body.app_error",
+    "translation": "अनुरोध के मुख्य भाग को पार्स करने में असमर्थ।"
+  },
+  {
+    "id": "api.system.update_notices.validating_failed",
+    "translation": "उत्पाद सूचना शर्तों को सत्यापित करना विफल रहा"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.notification_title",
+    "translation": "उन्नत अनुमतियों का उपयोग करना"
+  },
+  {
+    "id": "api.server.warn_metric.email_us",
+    "translation": "हमें ईमेल करें"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.notification_title",
+    "translation": "अतिथि खाते बनाना"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.contact_us.email_body",
+    "translation": "Mattermost हमसे संपर्क करें अनुरोध। मुझे अतिथि खातों का उपयोग करने के बारे में और जानने में दिलचस्पी है।\n"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_subject",
+    "translation": "Mattermost हमसे संपर्क करें अनुरोध"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_site_url_header",
+    "translation": "साइट यूआरएल: {{.SiteUrl}}"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_registered_users_header",
+    "translation": "कुल सक्रिय उपयोगकर्ता: {{.NoRegisteredUsers}}"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_footer",
+    "translation": "यदि आपके पास कोई अतिरिक्त पूछताछ है, तो कृपया support@mattermost.com पर संपर्क करें"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_email_header",
+    "translation": "ईमेल: {{.Email}}"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_diagnostic_id_header",
+    "translation": "डायग्नोस्टिक आईडी: {{.DiagnosticId}}"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_contact_header",
+    "translation": "संपर्क:{ {.Contact}}"
+  },
+  {
+    "id": "api.server.start_server.starting.critical",
+    "translation": "सर्वर प्रारंभ करने में त्रुटि, err:%v"
+  },
+  {
+    "id": "api.server.start_server.rate_limiting_rate_limiter",
+    "translation": "सीमित दर प्रारंभ करने में असमर्थ."
+  },
+  {
+    "id": "api.server.start_server.rate_limiting_memory_store",
+    "translation": "दर सीमित स्मृति भंडार प्रारंभ करने में असमर्थ। मेमोरीस्टोरसाइज कॉन्फ़िगरेशन सेटिंग जांचें।"
+  },
+  {
+    "id": "api.server.start_server.forward80to443.enabled_but_listening_on_wrong_port",
+    "translation": "पोर्ट %s पर सुनते समय पोर्ट 80 को पोर्ट 443 पर अग्रेषित करने में असमर्थ: यदि प्रॉक्सी सर्वर का उपयोग कर रहे हैं तो Forward80To443 अक्षम करें"
+  },
+  {
+    "id": "api.server.start_server.forward80to443.disabled_while_using_lets_encrypt",
+    "translation": "LetsEncrypt का उपयोग करते समय Forward80To443 को सक्षम करना चाहिए"
+  },
+  {
+    "id": "api.server.license_up_for_renewal.error_sending_email",
+    "translation": "नवीनीकरण ईमेल के लिए लाइसेंस भेजने में विफल"
+  },
+  {
+    "id": "api.server.license_up_for_renewal.error_generating_link",
+    "translation": "लाइसेंस नवीनीकरण लिंक उत्पन्न करने में विफल"
+  },
+  {
+    "id": "api.scheme.patch_scheme.license.error",
+    "translation": "आपका लाइसेंस अद्यतन अनुमति योजनाओं का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.scheme.get_teams_for_scheme.scope.error",
+    "translation": "योजना के लिए टीमें प्राप्त करने में असमर्थ क्योंकि आपूर्ति की गई योजना टीम योजना नहीं है।"
+  },
+  {
+    "id": "api.scheme.get_channels_for_scheme.scope.error",
+    "translation": "योजना के लिए चैनल प्राप्त करने में असमर्थ क्योंकि आपूर्ति की गई योजना एक चैनल योजना नहीं है।"
+  },
+  {
+    "id": "api.scheme.delete_scheme.license.error",
+    "translation": "आपका लाइसेंस हटाने की अनुमति योजनाओं का समर्थन नहीं करता"
+  },
+  {
+    "id": "api.scheme.create_scheme.license.error",
+    "translation": "आपका लाइसेंस अनुमति योजना बनाने का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "api.roles.patch_roles.license.error",
+    "translation": "आपका लाइसेंस उन्नत अनुमतियों का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "api.restricted_system_admin",
+    "translation": "यह क्रिया प्रतिबंधित सिस्टम व्यवस्थापक के लिए प्रतिबंधित है।"
+  },
+  {
+    "id": "api.remote_cluster.update_not_unique.app_error",
+    "translation": "उसी यूआरएल के साथ सुरक्षित कनेक्शन पहले से मौजूद है।"
+  },
+  {
+    "id": "api.remote_cluster.update.app_error",
+    "translation": "सुरक्षित कनेक्शन को अपडेट करने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.remote_cluster.service_not_enabled.app_error",
+    "translation": "दूरस्थ क्लस्टर सेवा सक्षम नहीं है।"
+  },
+  {
+    "id": "api.remote_cluster.save_not_unique.app_error",
+    "translation": "सुरक्षित कनेक्शन पहले ही जोड़ा जा चुका है।"
+  },
+  {
+    "id": "api.remote_cluster.invalid_topic.app_error",
+    "translation": "अमान्य विषय।"
+  },
+  {
+    "id": "api.remote_cluster.invalid_id.app_error",
+    "translation": "अमान्य पहचान पत्र।"
+  },
+  {
+    "id": "api.remote_cluster.get.app_error",
+    "translation": "सुरक्षित कनेक्शन को हटाने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.remote_cluster.delete.app_error",
+    "translation": "सुरक्षित कनेक्शन को हटाने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "api.reaction.save_reaction.user_id.app_error",
+    "translation": "आप अन्य उपयोगकर्ता के लिए प्रतिक्रिया सहेज नहीं सकते।"
+  },
+  {
+    "id": "api.reaction.delete.archived_channel.app_error",
+    "translation": "आप किसी संग्रहीत चैनल में प्रतिक्रिया नहीं निकाल सकते।"
+  },
+  {
+    "id": "api.push_notifications_ack.message.parse.app_error",
+    "translation": "पुश सूचना ack संदेश बनाने में कोई त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "api.push_notifications_ack.forward.app_error",
+    "translation": "पुश सूचना सेवा को रसीद वितरण भेजते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "api.preference.update_preferences.update_sidebar.app_error",
+    "translation": "अपडेट की गई प्राथमिकताओं से मेल खाने के लिए साइडबार को अपडेट करने में असमर्थ"
+  },
+  {
+    "id": "api.preference.update_preferences.set.app_error",
+    "translation": "उपयोक्ता वरीयताएँ सेट करने में असमर्थ."
+  },
+  {
+    "id": "api.preference.preferences_category.get.app_error",
+    "translation": "उपयोगकर्ता वरीयताएँ प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "api.preference.delete_preferences.update_sidebar.app_error",
+    "translation": "हटाई गई प्राथमिकताओं से मेल खाने के लिए साइडबार को अपडेट करने में असमर्थ"
+  },
+  {
+    "id": "api.post.posts_by_ids.invalid_body.request_error",
+    "translation": "प्राप्त पोस्ट आईडी की संख्या अधिकतम आकार से अधिक हो गई है {{.MaxLength}}"
+  },
+  {
+    "id": "api.post.error_get_post_id.pending",
+    "translation": "लंबित पद प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "api.post.do_action.action_integration.app_error",
+    "translation": "क्रिया एकीकरण त्रुटि।"
+  },
+  {
+    "id": "api.post.deduplicate_create_post.failed_to_get",
+    "translation": "एक ही अनुरोध को दोहराने वाले क्लाइंट को डुप्लिकेट करने के बाद मूल पोस्ट लाने में विफल।"
+  },
+  {
+    "id": "api.post.create_post.root_id.app_error",
+    "translation": "अमान्य RootId पैरामीटर।"
+  },
+  {
+    "id": "api.post.create_post.channel_root_id.app_error",
+    "translation": "Invalid ChannelId के लिये RootId पैरामीटर।"
+  },
+  {
+    "id": "api.post.create_post.can_not_post_to_deleted.error",
+    "translation": "हटाए गए चैनल पर पोस्ट नहीं कर सकते।"
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_mentions.message.one",
+    "translation": "@{{.Username}} इस उल्लेख द्वारा अधिसूचित नहीं किया गया क्योंकि वे चैनल में नहीं हैं।"
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_mentions.message.multiple",
+    "translation": "@{{.Usernames}} और @{{.LastUsername}} इस उल्लेख द्वारा अधिसूचित नहीं किया गया क्योंकि वे चैनल में नहीं हैं।"
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_groups_mentions.message.one",
+    "translation": "@{{.Username}} इस उल्लेख द्वारा अधिसूचित नहीं किया गया क्योंकि वे चैनल में नहीं हैं। उन्हें चैनल में नहीं जोड़ा जा सकता क्योंकि वे लिंक किए गए समूहों के सदस्य नहीं हैं। उन्हें इस चैनल में जोड़ने के लिए, उन्हें लिंक किए गए समूहों में जोड़ा जाना चाहिए।"
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_groups_mentions.message.multiple",
+    "translation": "@{{.Usernames}} तथा @{{.LastUsername}} इस उल्लेख द्वारा अधिसूचित नहीं किया गया क्योंकि वे चैनल में नहीं हैं। उन्हें चैनल में नहीं जोड़ा जा सकता क्योंकि वे लिंक किए गए समूहों के सदस्य नहीं हैं। उन्हें इस चैनल में जोड़ने के लिए, उन्हें लिंक किए गए समूहों में जोड़ा जाना चाहिए।"
+  },
+  {
+    "id": "api.plugin.upload.file.app_error",
+    "translation": "मल्टीपार्ट/फॉर्म अनुरोध में फ़ाइल खोलने में असमर्थ।"
+  },
+  {
+    "id": "api.plugin.upload.array.app_error",
+    "translation": "मल्टीपार्ट/फॉर्म अनुरोध में फ़ाइल सरणी खाली है।"
+  },
+  {
+    "id": "api.oauth.revoke_access_token.get.app_error",
+    "translation": "हटाने से पहले डीबी से एक्सेस टोकन प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "api.oauth.get_access_token.missing_code.app_error",
+    "translation": "अमान्य_अनुरोध: गुम कोड।"
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_grant.app_error",
+    "translation": "अमान्य_अनुरोध: गलत अनुदान_प्रकार।"
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_secret.app_error",
+    "translation": "अमान्य_अनुरोध: अनुपलब्ध client_secret."
+  },
+  {
+    "id": "api.oauth.get_access_token.bad_client_id.app_error",
+    "translation": "अमान्य_अनुरोध: खराब क्लाइंट_आईडी।"
+  },
+  {
+    "id": "api.oauth.allow_oauth.redirect_callback.app_error",
+    "translation": "अमान्य_अनुरोध: आपूर्ति की गई रीडायरेक्ट_यूरी पंजीकृत कॉलबैक_यूआरएल से मेल नहीं खाती।"
+  },
+  {
+    "id": "api.job.unable_to_create_job.incorrect_job_type",
+    "translation": "आप जिस कार्य को बनाने का प्रयास कर रहे हैं वह कार्य प्रकार अमान्य है"
+  },
+  {
+    "id": "api.job.retrieve.nopermissions",
+    "translation": "आप जिस प्रकार की नौकरी को पुनः प्राप्त करने का प्रयास कर रहे हैं, उसमें अनुमतियाँ नहीं हैं"
+  },
+  {
+    "id": "api.invalid_channel",
+    "translation": "अनुरोध में सूचीबद्ध चैनल उपयोगकर्ता का नहीं है"
+  },
+  {
+    "id": "api.file.read_file.reading_local.app_error",
+    "translation": "स्थानीय सर्वर फ़ाइल संग्रहण से पढ़ने में त्रुटि आई।"
+  },
+  {
+    "id": "api.custom_status.set_custom_statuses.update.app_error",
+    "translation": "पसंद के मुताबिक स्थिति अपडेट करने में विफल. कृपया इमोजी या कस्टम टेक्स्ट स्थिति या दोनों जोड़ें।"
+  },
+  {
+    "id": "api.command_share.uninvite_remote.help",
+    "translation": "इस साझा चैनल से एक सुरक्षित कनेक्शन को आमंत्रित करता है"
+  },
+  {
+    "id": "api.command_share.invitation_sent",
+    "translation": "साझा चैनल आमंत्रण भेज दिया गया है `{{.Name}} {{.SiteURL}}`."
   }
 ]
