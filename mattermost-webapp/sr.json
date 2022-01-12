@@ -230,7 +230,6 @@
   "admin.ldap.portEx": "Нпр.: \"60\"",
   "admin.ldap.skipCertificateVerification": "Прескочи проверу сертификата: ",
   "admin.license.removing": "Уклањам лиценцу...",
-  "admin.license.uploading": "Отпремам лиценцу...",
   "admin.manage_roles.postAllPublicRole": "Приступ за објављивање у свим Mattermost јавним каналима.",
   "admin.manage_roles.postAllRole": "Приступ за објављивање у свим Mattermost каналима, укључујући и директне поруке.",
   "admin.member_list_group.name": "Име",

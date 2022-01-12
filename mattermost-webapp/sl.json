@@ -442,7 +442,6 @@
   "admin.ldap.usernameAttrDesc": "Atribut v strežniku AD/LDAP, ki je uporabljen za zapolnitev polja z uporabniškim imenom v Mattermost. Ta je lahko enak kot atribut ID za prijavo.",
   "admin.license.key": "Ključ licence: ",
   "admin.license.removing": "Odstranjevanje licence ...",
-  "admin.license.uploading": "Nalaganje licence ...",
   "admin.log.consoleDescription": "Običajno je v produkciji nastaljeno na false. Razvijalci lahko to polje nastavijo na true, da izpisujejo sporočila dnevnika na konzolo na podlagi možnosti konzolne ravni. Če je true, strežnik zapiše sporočila v standardni izhodni tok (stdout). Spreminjanje te nastavitve zahteva ponovni zagon strežnika, preden začne delovati.",
   "admin.log.enableDiagnostics": "Omogoči diagnostiko in poročanje o napakah:",
   "admin.log.enableDiagnosticsDescription": "Omogočite to funkcijo, da izboljšate kakovost in zmogljivost aplikacije Mattermost, tako da pošljete poročanje o napakah in diagnostične informacije podjetju Mattermost, Inc. Preberite naš [privacy policy](!https://about.mattermost.com/default-privacy-policy/) za več informacij.",

@@ -536,7 +536,6 @@
   "admin.license.key": "Lisenssiavain: ",
   "admin.license.keyRemove": "Poista Enterprise lisenssi ja pudota palvelimen tasoa",
   "admin.license.removing": "Poistetaan lisenssi...",
-  "admin.license.uploading": "Lähetetään lisenssiä...",
   "admin.log.consoleJsonTitle": "Tulosta konsolilogit JSON-muodossa:",
   "admin.log.consoleTitle": "Tulosta lokit konsoliin: ",
   "admin.log.fileJsonTitle": "Tulosta tiedostologit JSON-muodossa:",
