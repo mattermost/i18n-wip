@@ -775,7 +775,6 @@
   "admin.license.keyRemove": "Odstranit Enterprise licenci a downgradovat server",
   "admin.license.removing": "Odstraňuji licenci...",
   "admin.license.title": "Edice a licence",
-  "admin.license.uploading": "Nahrávám licenci...",
   "admin.log.consoleJsonTitle": "Výstup logů konzole jako JSON:",
   "admin.log.consoleTitle": "Výstup logů do konzole: ",
   "admin.log.enableDiagnostics": "Zapnout diagnostiku a nahlašování chyb:",

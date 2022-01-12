@@ -1205,7 +1205,6 @@
   "admin.license.trial-request.loading": "Đang dùng thử",
   "admin.license.trial-request.submit": "Bắt đầu dùng thử",
   "admin.license.upgraded-restart": "Bạn đã nâng cấp tệp nhị phân của mình lên doanh nghiệp Mattermost, vui lòng khởi động lại máy chủ để bắt đầu sử dụng tệp nhị phân mới. Bạn có thể thực hiện ngay tại đây:",
-  "admin.license.uploading": "Giấy phép Tải lên ...",
   "admin.lockTeammateNameDisplay": "Khóa Hiển thị tên đồng đội cho tất cả người dùng: ",
   "admin.lockTeammateNameDisplayHelpText": "Khi đúng, vô hiệu hóa khả năng thay đổi cài đặt của người dùng trong Menu chính> Cài đặt tài khoản> Hiển thị> Hiển thị tên đồng đội.",
   "admin.log.consoleDescription": "Thường được đặt thành false trong sản xuất. Nhà phát triển có thể đặt trường này thành true để xuất thông báo nhật ký tới bảng điều khiển dựa trên tùy chọn cấp bảng điều khiển. Nếu đúng, máy chủ ghi thông báo vào luồng đầu ra chuẩn (stdout) . Thay đổi cài đặt này yêu cầu khởi động lại máy chủ trước khi có hiệu lực.",

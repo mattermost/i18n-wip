@@ -1207,7 +1207,6 @@
   "admin.license.upgradeTitle": "ارتقا به طرح حرفه ای",
   "admin.license.upgradeToEnterprise": "به طرح Enterprise ارتقا دهید",
   "admin.license.upgraded-restart": "شما باینری خود را به مهم ترین سازمانی ارتقا داده اید، لطفاً برای شروع استفاده از باینری جدید سرور را مجددا راه اندازی کنید. شما می توانید آن را درست در اینجا انجام دهید:",
-  "admin.license.uploading": "در حال بارگذاری مجوز...",
   "admin.license.warn.renew": "تمدید کنید",
   "admin.lockTeammateNameDisplay": "قفل نمایش نام هم تیمی برای همه کاربران: ",
   "admin.lockTeammateNameDisplayHelpText": "وقتی درست است، توانایی کاربران را برای تغییر تنظیمات در قسمت **تنظیمات > نمایشگر > نمایش نام هم تیمی** غیرفعال می کند.",

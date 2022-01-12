@@ -1062,7 +1062,6 @@
   "admin.license.trial-request.loading": "Obtendo a proba",
   "admin.license.trial-request.submit": "Comezar a proba",
   "admin.license.upgraded-restart": "Actualizou o seu binario á versión empresarial de Mattermost. Reinicie o servidor para comezar a usar o novo binario. Pode facelo aquí mesmo:",
-  "admin.license.uploading": "Enviando a licenza…",
   "admin.lockTeammateNameDisplay": "Bloquear a vista do nome do compañeiro de equipo para todos os usuarios: ",
   "admin.lockTeammateNameDisplayHelpText": "Cando é verdadeiro, desactiva a capacidade dos usuarios para cambiar a configuración no Menú principal > Axustes da conta | Amosar > Amosar o nome dos compañeiros do equipo.",
   "admin.log.consoleDescription": "Normalmente estabelécese como falso na produción. Os desenvolvedores poden estabelecer este campo como verdadeiro para emitir mensaxes de rexistro para consola en función da opción de nivel de consola. Se é verdadeiro, o servidor escribe mensaxes no fluxo de saída estándar (stdout). Para cambiar esta configuración é necesario reiniciar o servidor para que teña efecto.",
