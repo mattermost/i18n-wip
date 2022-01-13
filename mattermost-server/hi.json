@@ -5403,5 +5403,533 @@
   {
     "id": "api.command_share.invitation_sent",
     "translation": "साझा चैनल आमंत्रण भेज दिया गया है `{{.Name}} {{.SiteURL}}`."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.emoji_name_length.error",
+    "translation": "प्रतिक्रिया इमोजीनाम संपत्ति अधिकतम अनुमत लंबाई से अधिक लंबी है।"
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.create_at_zero.error",
+    "translation": "प्रतिक्रिया CreateAt गुण शून्य नहीं होना चाहिए।"
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.create_at_missing.error",
+    "translation": "आवश्यक प्रतिक्रिया गुण गुम है: create_at."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.create_at_before_parent.error",
+    "translation": "प्रतिक्रिया CreateAt संपत्ति मूल पोस्ट CreateAt से बड़ी होनी चाहिए।"
+  },
+  {
+    "id": "app.import.validate_post_import_data.team_missing.error",
+    "translation": "आवश्यक पोस्ट संपत्ति गुम है: Team."
+  },
+  {
+    "id": "app.import.validate_post_import_data.user_missing.error",
+    "translation": "आवश्यक पोस्ट संपत्ति गुम है: User."
+  },
+  {
+    "id": "app.import.validate_post_import_data.props_too_large.error",
+    "translation": "पोस्ट प्रॉप्स अधिकतम अनुमत लंबाई से अधिक लंबे होते हैं।"
+  },
+  {
+    "id": "app.import.validate_emoji_import_data.name_missing.error",
+    "translation": "आयात इमोजी नाम फ़ील्ड अनुपलब्ध या रिक्त है।"
+  },
+  {
+    "id": "app.import.validate_emoji_import_data.image_missing.error",
+    "translation": "आयात इमोजी छवि फ़ील्ड अनुपलब्ध या रिक्त है।"
+  },
+  {
+    "id": "app.import.validate_channel_import_data.display_name_missing.error",
+    "translation": "आवश्यक चैनल गुण गुम है: display_name"
+  },
+  {
+    "id": "app.import.process_import_data_file_version_line.invalid_version.error",
+    "translation": "डेटा आयात फ़ाइल का संस्करण पढ़ने में असमर्थ।"
+  },
+  {
+    "id": "app.import.import_user_teams.save_preferences.error",
+    "translation": "टीम थीम प्राथमिकताएं सहेजने में असमर्थ"
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.max_accounts.app_error",
+    "translation": "टीम सदस्यता आयात करने में असमर्थ क्योंकि उस टीम में अधिक सदस्यों की अनुमति नहीं है"
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.error",
+    "translation": "टीम सदस्यता आयात करने में असमर्थ"
+  },
+  {
+    "id": "app.import.import_user_teams.save_members.conflict.app_error",
+    "translation": "नई टीम सदस्यता आयात करने में असमर्थ क्योंकि यह पहले से मौजूद है"
+  },
+  {
+    "id": "app.import.import_user_channels.save_preferences.error",
+    "translation": "उपयोगकर्ता चैनल सदस्यता आयात करने में त्रुटि। प्राथमिकताएं सहेजने में विफल।"
+  },
+  {
+    "id": "app.import.import_user_channels.channel_not_found.error",
+    "translation": "उपयोगकर्ता चैनल आयात करने में त्रुटि। चैनल नहीं मिला।"
+  },
+  {
+    "id": "app.import.import_user.save_preferences.error",
+    "translation": "उपयोगकर्ता प्राथमिकताएं आयात करने में त्रुटि. प्राथमिकताएं सहेजने में विफल।"
+  },
+  {
+    "id": "app.import.import_team.scheme_wrong_scope.error",
+    "translation": "टीम को टीम के दायरे वाली योजना के लिए असाइन किया जाना चाहिए।"
+  },
+  {
+    "id": "app.import.import_team.scheme_deleted.error",
+    "translation": "किसी टीम को हटाई गई योजना का उपयोग करने के लिए सेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.import.import_scheme.scope_change.error",
+    "translation": "थोक आयातक पहले से मौजूद योजना के दायरे को नहीं बदल सकता है।"
+  },
+  {
+    "id": "app.import.import_post.user_not_found.error",
+    "translation": "पोस्ट आयात करने में त्रुटि. उपयोगकर्ता नाम \"{{.Username}}\" वाला उपयोगकर्ता नहीं मिला।"
+  },
+  {
+    "id": "app.import.import_post.save_preferences.error",
+    "translation": "पोस्ट आयात करने में त्रुटि. प्राथमिकताएं सहेजने में विफल।"
+  },
+  {
+    "id": "app.import.import_line.null_user.error",
+    "translation": "आयात डेटा लाइन में \"उपयोगकर्ता\" प्रकार है लेकिन उपयोगकर्ता ऑब्जेक्ट शून्य है।"
+  },
+  {
+    "id": "app.import.import_line.null_team.error",
+    "translation": "आयात डेटा लाइन में \"team\" टाइप है लेकिन टीम ऑब्जेक्ट शून्य है।"
+  },
+  {
+    "id": "app.import.import_line.null_scheme.error",
+    "translation": "आयात डेटा लाइन में \"स्कीम\" टाइप है लेकिन स्कीम ऑब्जेक्ट शून्य है।"
+  },
+  {
+    "id": "app.import.import_line.null_post.error",
+    "translation": "आयात डेटा लाइन में \"पोस्ट\" टाइप है लेकिन पोस्ट ऑब्जेक्ट शून्य है।"
+  },
+  {
+    "id": "app.import.import_line.null_emoji.error",
+    "translation": "आयात डेटा लाइन में \"emoji\" टाइप है लेकिन इमोजी ऑब्जेक्ट शून्य है।"
+  },
+  {
+    "id": "app.import.import_line.null_direct_post.error",
+    "translation": "आयात डेटा लाइन में \"direct_post\" टाइप है लेकिन Direct_post ऑब्जेक्ट शून्य है।"
+  },
+  {
+    "id": "app.import.import_line.null_direct_channel.error",
+    "translation": "आयात डेटा लाइन में \"direct_channel\" टाइप है लेकिन Direct_channel ऑब्जेक्ट शून्य है।"
+  },
+  {
+    "id": "app.import.import_line.null_channel.error",
+    "translation": "आयात डेटा लाइन में \"चैनल\" टाइप है लेकिन चैनल ऑब्जेक्ट शून्य है।"
+  },
+  {
+    "id": "app.import.import_direct_post.create_group_channel.error",
+    "translation": "समूह चैनल प्राप्त करने में विफल"
+  },
+  {
+    "id": "app.import.import_direct_post.create_direct_channel.error",
+    "translation": "सीधा चैनल पाने में विफल"
+  },
+  {
+    "id": "app.import.import_direct_channel.update_header_failed.error",
+    "translation": "सीधा चैनल हैडर अपडेट करने में विफल"
+  },
+  {
+    "id": "app.import.import_direct_channel.create_group_channel.error",
+    "translation": "समूह चैनल बनाने में विफल"
+  },
+  {
+    "id": "app.import.import_direct_channel.create_direct_channel.error",
+    "translation": "सीधा चैनल बनाने में विफल"
+  },
+  {
+    "id": "app.import.import_channel.scheme_wrong_scope.error",
+    "translation": "चैनल को चैनल-स्कोप्ड स्कीम को असाइन किया जाना चाहिए।"
+  },
+  {
+    "id": "app.import.import_channel.scheme_deleted.error",
+    "translation": "किसी चैनल को हटाई गई योजना का उपयोग करने के लिए सेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.import.emoji.bad_file.error",
+    "translation": "आयात इमोजी छवि फ़ाइल पढ़ने में त्रुटि। नाम वाला इमोजी: \"{{.EmojiName}}\""
+  },
+  {
+    "id": "app.import.bulk_import.unsupported_version.error",
+    "translation": "डेटा आयात फ़ाइल में गलत या अनुपलब्ध संस्करण। सुनिश्चित करें कि संस्करण आपकी आयात फ़ाइल में पहला ऑब्जेक्ट है और पुनः प्रयास करें।"
+  },
+  {
+    "id": "app.import.bulk_import.process_attachments.error",
+    "translation": "बल्क आयात अनुलग्नकों को संसाधित करते समय त्रुटि।"
+  },
+  {
+    "id": "app.import.bulk_import.file_scan.error",
+    "translation": "आयात डेटा फ़ाइल पढ़ने में त्रुटि।"
+  },
+  {
+    "id": "app.file_info.permanent_delete_by_user.app_error",
+    "translation": "प्रयोक्ता के अनुलग्‍नक हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.export.export_write_line.json_marshall.error",
+    "translation": "निर्यात के लिए JSON डेटा को मार्शल करते हुए एक त्रुटि हुई।"
+  },
+  {
+    "id": "app.export.export_write_line.io_writer.error",
+    "translation": "निर्यात डेटा लिखते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "app.email.setup_rate_limiter.app_error",
+    "translation": "दर सीमक में त्रुटि हुई।"
+  },
+  {
+    "id": "app.email.no_rate_limiter.app_error",
+    "translation": "दर सीमक स्थापित नहीं है।"
+  },
+  {
+    "id": "app.command.updatecommand.internal_error",
+    "translation": "आदेश को अद्यतन करने में असमर्थ।"
+  },
+  {
+    "id": "app.command.tryexecutecustomcommand.internal_error",
+    "translation": "कस्टम आदेश निष्पादित करने में असमर्थ।"
+  },
+  {
+    "id": "app.command.regencommandtoken.internal_error",
+    "translation": "आदेश टोकन पुन: उत्पन्न करने में असमर्थ।"
+  },
+  {
+    "id": "app.command.movecommand.internal_error",
+    "translation": "आदेश को स्थानांतरित करने में असमर्थ।"
+  },
+  {
+    "id": "app.command.listteamcommands.internal_error",
+    "translation": "टीम कमांड को सूचीबद्ध करने में असमर्थ।"
+  },
+  {
+    "id": "app.command.listautocompletecommands.internal_error",
+    "translation": "स्वत: पूर्ण आदेशों को सूचीबद्ध करने में असमर्थ।"
+  },
+  {
+    "id": "app.command.listallcommands.internal_error",
+    "translation": "आदेशों को सूचीबद्ध करने में असमर्थ।"
+  },
+  {
+    "id": "app.command.getcommand.internal_error",
+    "translation": "आदेश प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.command.deletecommand.internal_error",
+    "translation": "आदेश को हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.command.createcommand.internal_error",
+    "translation": "आदेश सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.channel_member_history.log_leave_event.internal_error",
+    "translation": "चैनल सदस्य इतिहास रिकॉर्ड करने में विफल। मौजूदा शामिल होने के रिकॉर्ड को अपडेट करने में विफल"
+  },
+  {
+    "id": "app.channel_member_history.log_join_event.internal_error",
+    "translation": "चैनल सदस्य इतिहास रिकॉर्ड करने में विफल।"
+  },
+  {
+    "id": "app.channel.user_belongs_to_channels.app_error",
+    "translation": "यह निर्धारित करने में असमर्थ कि उपयोगकर्ता चैनलों की सूची से संबंधित है या नहीं।"
+  },
+  {
+    "id": "app.channel.update_last_viewed_at_post.app_error",
+    "translation": "चैनल को अपठित के रूप में चिह्नित करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.update_last_viewed_at.app_error",
+    "translation": "अंतिम बार देखे गए समय को अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.update_channel.internal_error",
+    "translation": "चैनल अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.update.bad_id",
+    "translation": "चैनल अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.sidebar_categories.app_error",
+    "translation": "डेटाबेस में रिकॉर्ड डालने में विफल।"
+  },
+  {
+    "id": "app.channel.search_group_channels.app_error",
+    "translation": "दिए गए उपयोगकर्ता और अवधि के लिए समूह चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.search.app_error",
+    "translation": "हमें चैनल खोजने में त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.channel.save_member.exists.app_error",
+    "translation": "उस आईडी वाला एक चैनल सदस्य पहले से मौजूद है।"
+  },
+  {
+    "id": "app.channel.restore.app_error",
+    "translation": "चैनल को पुनर्स्थापित करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.reset_all_channel_schemes.app_error",
+    "translation": "हम चैनल योजनाओं को रीसेट नहीं कर सके।"
+  },
+  {
+    "id": "app.channel.remove_member.app_error",
+    "translation": "चैनल सदस्य को निकालने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.remove_all_deactivated_members.app_error",
+    "translation": "हम निष्क्रिय किए गए उपयोगकर्ताओं को चैनल से नहीं निकाल सके।"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.updated_to",
+    "translation": "%s ने चैनल के उद्देश्य को इस पर अपडेट किया: %s"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.removed",
+    "translation": "%s ने चैनल का उद्देश्य हटा दिया (was: %s)"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.post.error",
+    "translation": "चैनल उद्देश्य संदेश पोस्ट करने में विफल"
+  },
+  {
+    "id": "app.channel.pinned_posts.app_error",
+    "translation": "पिन की गई पोस्ट ढूंढने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.permanent_delete_members_by_user.app_error",
+    "translation": "चैनल सदस्य को निकालने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.permanent_delete.app_error",
+    "translation": "चैनल को हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.move_channel.members_do_not_match.error",
+    "translation": "किसी चैनल को तब तक स्थानांतरित करने में असमर्थ जब तक कि उसके सभी सदस्य पहले से ही गंतव्य टीम के सदस्य न हों।"
+  },
+  {
+    "id": "app.channel.migrate_channel_members.select.app_error",
+    "translation": "चैनल सदस्यों के बैच का चयन करने में विफल।"
+  },
+  {
+    "id": "app.channel.increment_mention_count.app_error",
+    "translation": "उल्लेखों की संख्या बढ़ाने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_unread.app_error",
+    "translation": "चैनल को अपठित संदेश प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_public_channels.get.app_error",
+    "translation": "सार्वजनिक चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_private_channels.get.app_error",
+    "translation": "निजी चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_pinnedpost_count.app_error",
+    "translation": "चैनल पिन की गई पोस्ट गणना प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_more_channels.get.app_error",
+    "translation": "चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_members_by_ids.app_error",
+    "translation": "चैनल के सदस्य प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_members.app_error",
+    "translation": "चैनल के सदस्य प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_member_count.app_error",
+    "translation": "चैनल सदस्य संख्या प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_member.missing.app_error",
+    "translation": "उस उपयोगकर्ता आईडी और चैनल आईडी के लिए कोई चैनल सदस्य नहीं मिला।"
+  },
+  {
+    "id": "app.channel.get_member.app_error",
+    "translation": "चैनल सदस्य प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_for_post.app_error",
+    "translation": "दी गई पोस्ट के लिए चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_deleted.missing.app_error",
+    "translation": "कोई हटाए गए चैनल मौजूद नहीं हैं।"
+  },
+  {
+    "id": "app.channel.get_deleted.existing.app_error",
+    "translation": "मौजूदा हटाए गए चैनल को खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.not_found.app_error",
+    "translation": "कोई चैनल नहीं मिला।"
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.get.app_error",
+    "translation": "चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.app_error",
+    "translation": "आईडी द्वारा चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_channels_batch_for_indexing.get.app_error",
+    "translation": "अनुक्रमण के लिए चैनल बैच प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_channels.not_found.app_error",
+    "translation": "कोई चैनल नहीं मिला।"
+  },
+  {
+    "id": "app.channel.get_channels.get.app_error",
+    "translation": "चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_channel_counts.get.app_error",
+    "translation": "चैनल की गिनती प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_by_scheme.app_error",
+    "translation": "प्रदान की गई योजना के लिए चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_by_name.missing.app_error",
+    "translation": "चैनल मौजूद नहीं है।"
+  },
+  {
+    "id": "app.channel.get_by_name.existing.app_error",
+    "translation": "मौजूदा चैनल खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_all_direct.app_error",
+    "translation": "सभी प्रत्यक्ष चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_all_channels_count.app_error",
+    "translation": "सभी चैनल गिनने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_all_channels.app_error",
+    "translation": "सभी चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get_all.app_error",
+    "translation": "सभी चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.get.find.app_error",
+    "translation": "हमें चैनल खोजने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.channel.get.existing.app_error",
+    "translation": "मौजूदा चैनल खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.delete.app_error",
+    "translation": "चैनल को हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.create_initial_sidebar_categories.internal_error",
+    "translation": "उपयोगकर्ता के लिए आरंभिक साइडबार श्रेणियां बनाने में असमर्थ।"
+  },
+  {
+    "id": "app.channel.create_direct_channel.internal_error",
+    "translation": "सीधा चैनल सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.audit.save.saving.app_error",
+    "translation": "हमें लेखापरीक्षा को सहेजने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.admin.saml.invalid_response_from_idp.app_error",
+    "translation": "पहचान प्रदाता से प्राप्त प्रतिक्रिया को नहीं पढ़ सका।"
+  },
+  {
+    "id": "api.user.view_archived_channels.get_users_in_channel.app_error",
+    "translation": "किसी संग्रहीत चैनल के लिए उपयोगकर्ताओं को पुनर्प्राप्त नहीं किया जा सकता"
+  },
+  {
+    "id": "api.user.view_archived_channels.get_posts_for_channel.app_error",
+    "translation": "किसी संग्रहीत चैनल के लिए पोस्ट पुनर्प्राप्त नहीं कर सकता"
+  },
+  {
+    "id": "api.user.upload_profile_user.array.app_error",
+    "translation": "अनुरोध में 'छवि' के तहत खाली सरणी।"
+  },
+  {
+    "id": "api.user.update_user_roles.license.app_error",
+    "translation": "कस्टम अनुमति योजनाएं वर्तमान लाइसेंस द्वारा समर्थित नहीं हैं"
+  },
+  {
+    "id": "api.user.update_active.cannot_enable_guest_when_guest_feature_is_disabled.app_error",
+    "translation": "आप अतिथि खाते को सक्रिय नहीं कर सकते क्योंकि अतिथि पहुंच सुविधा सक्षम नहीं है।"
+  },
+  {
+    "id": "api.user.send_verify_email_and_forget.failed.error",
+    "translation": "सत्यापन ईमेल सफलतापूर्वक भेजने में विफल"
+  },
+  {
+    "id": "api.user.send_sign_in_change_email_and_forget.error",
+    "translation": "अपडेट पासवर्ड ईमेल सफलतापूर्वक भेजने में विफल"
+  },
+  {
+    "id": "api.user.send_email_change_verify_email_and_forget.error",
+    "translation": "ईमेल परिवर्तन सत्यापन ईमेल सफलतापूर्वक भेजने में विफल"
+  },
+  {
+    "id": "api.user.send_deactivate_email_and_forget.failed.error",
+    "translation": "निष्क्रिय खाता ईमेल सफलतापूर्वक भेजने में विफल"
+  },
+  {
+    "id": "api.user.login.guest_accounts.disabled.error",
+    "translation": "अतिथि खाते अक्षम हैं"
+  },
+  {
+    "id": "api.user.login.client_side_cert.license.app_error",
+    "translation": "एक वैध एंटरप्राइज़ लाइसेंस के बिना प्रायोगिक सुविधा ClientSideCertEnable का उपयोग करने का प्रयास करें।"
+  },
+  {
+    "id": "api.user.login.client_side_cert.certificate.app_error",
+    "translation": "एक मान्य प्रमाणपत्र प्रदान किए बिना प्रयोगात्मक सुविधा ClientSideCert का उपयोग करके साइन इन करने का प्रयास किया गया।"
+  },
+  {
+    "id": "api.user.login.bot_login_forbidden.app_error",
+    "translation": "बॉट लॉगिन निषिद्ध है।"
+  },
+  {
+    "id": "api.user.login.blank_pwd.app_error",
+    "translation": "पासवर्ड फ़ील्ड खाली नहीं होना चाहिए"
+  },
+  {
+    "id": "api.user.ldap_to_email.not_ldap_account.app_error",
+    "translation": "यह उपयोगकर्ता खाता AD/LDAP का उपयोग नहीं करता है।"
+  },
+  {
+    "id": "api.user.ldap_to_email.not_available.app_error",
+    "translation": "इस सर्वर पर AD/LDAP उपलब्ध नहीं है।"
+  },
+  {
+    "id": "api.user.invalidate_verify_email_tokens_parse.error",
+    "translation": "ईमेल सत्यापन टोकन को अमान्य करते समय टोकन निकालने में असमर्थ"
   }
 ]
