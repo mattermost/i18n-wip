@@ -8892,18 +8892,6 @@
     "translation": "برای فعال کردن CollapsedThreads، ThreadAutoFollow باید درست باشد"
   },
   {
-    "id": "fix_crt_channel_unreads.worker.do_job.mark_channel_as_read",
-    "translation": "علامت گذاری کانال به عنوان خوانده شده انجام نشد"
-  },
-  {
-    "id": "fix_crt_channel_unreads.worker.do_job.kill_orphan_jobs",
-    "translation": "کشتن کارهای بی سرپرست"
-  },
-  {
-    "id": "fix_crt_channel_unreads.worker.do_job.get_post_types",
-    "translation": "دریافت انواع پست منحصر به فرد ناموفق بود"
-  },
-  {
     "id": "fix_crt_channel_unreads.worker.do_job.get_bad_channel_memberships",
     "translation": "عضویت بد کانال دریافت نشد"
   },
