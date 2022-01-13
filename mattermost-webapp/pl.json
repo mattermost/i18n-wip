@@ -140,5 +140,6 @@
   "intro_messages.creatorPrivate": "To jest początek prywatnego kanału {name}, stworzonego przez {creator} dnia {date}.",
   "intro_messages.group_message": "To jest początek historii wiadomości grupowych z tymi zespołami. Wiadomości i pliki udostępnione w tym miejscu nie są wyświetlane osobom spoza tego obszaru.",
   "intro_messages.noCreator": "To początek kanału {name}, utworzony dnia {date}.",
-  "intro_messages.onlyInvited": " Tylko zaproszeni użytkownicy mogą zobaczyć ten prywatny kanał."
+  "intro_messages.onlyInvited": " Tylko zaproszeni użytkownicy mogą zobaczyć ten prywatny kanał.",
+  "last_users_message.added_to_channel.type": "zostało **dodanych do kanału** przez {actor}."
 }
