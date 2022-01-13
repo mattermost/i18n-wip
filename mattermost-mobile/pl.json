@@ -235,5 +235,6 @@
   "integrations.add": "Dodaj",
   "global_threads.unreads": "Nieprzeczytane",
   "global_threads.options.unfollow": "Przestań obserwować Wątek",
-  "apps.error.parser.missing_binding": "Brakujące nawiązania poleceń."
+  "apps.error.parser.missing_binding": "Brakujące nawiązania poleceń.",
+  "last_users_message.added_to_channel.type": "zostało **dodanych do kanału** przez {actor}."
 }
