@@ -8892,10 +8892,6 @@
     "translation": "برای فعال کردن CollapsedThreads، ThreadAutoFollow باید درست باشد"
   },
   {
-    "id": "fix_crt_channel_unreads.worker.do_job.get_bad_channel_memberships",
-    "translation": "عضویت بد کانال دریافت نشد"
-  },
-  {
     "id": "extract_content.worker.do_job.file_info",
     "translation": "اطلاعات فایل برای استخراج محتوا دریافت نشد."
   },
