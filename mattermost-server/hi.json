@@ -5931,5 +5931,333 @@
   {
     "id": "api.user.invalidate_verify_email_tokens_parse.error",
     "translation": "ईमेल सत्यापन टोकन को अमान्य करते समय टोकन निकालने में असमर्थ"
+  },
+  {
+    "id": "app.import.validate_user_import_data.advanced_props_show_unread_section.error",
+    "translation": "उपयोगकर्ता के लिए अमान्य शो अपठित अनुभाग सेटिंग"
+  },
+  {
+    "id": "app.import.validate_user_import_data.advanced_props_formatting.error",
+    "translation": "उपयोगकर्ता के लिए अमान्य पोस्ट स्वरूपण सेटिंग"
+  },
+  {
+    "id": "app.import.validate_user_import_data.advanced_props_feature_markdown_preview.error",
+    "translation": "उपयोगकर्ता के लिए अमान्य मार्कडाउन पूर्वावलोकन सेटिंग"
+  },
+  {
+    "id": "app.import.validate_user_import_data.advanced_props_email_interval.error",
+    "translation": "उपयोगकर्ता के लिए अमान्य ईमेल बैचिंग अंतराल सेटिंग"
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.invalid_roles.error",
+    "translation": "उपयोगकर्ता की चैनल सदस्यता के लिए अमान्य भूमिकाएं."
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.invalid_notify_props_mobile.error",
+    "translation": "उपयोगकर्ता की चैनल सदस्यता के लिए अमान्य मोबाइल NotifyProps।"
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.invalid_notify_props_mark_unread.error",
+    "translation": "उपयोगकर्ता की चैनल सदस्यता के लिए अमान्य MarkUnread NotifyProps।"
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.invalid_notify_props_desktop.error",
+    "translation": "उपयोगकर्ता की चैनल सदस्यता के लिए अमान्य डेस्कटॉप NotifyProps।"
+  },
+  {
+    "id": "app.import.validate_user_channels_import_data.channel_name_missing.error",
+    "translation": "उपयोगकर्ता की चैनल सदस्यता से चैनल का नाम गायब है।"
+  },
+  {
+    "id": "app.import.validate_team_import_data.type_missing.error",
+    "translation": "आवश्यक टीम संपत्ति गुम है: प्रकार।"
+  },
+  {
+    "id": "app.import.validate_team_import_data.type_invalid.error",
+    "translation": "टीम प्रकार मान्य नहीं है।"
+  },
+  {
+    "id": "app.import.validate_team_import_data.scheme_invalid.error",
+    "translation": "टीम के लिए अमान्य योजना का नाम।"
+  },
+  {
+    "id": "app.import.validate_team_import_data.name_reserved.error",
+    "translation": "टीम के नाम में आरक्षित शब्द हैं।"
+  },
+  {
+    "id": "app.import.validate_team_import_data.name_missing.error",
+    "translation": "टीम की आवश्यक संपत्ति गुम है: name."
+  },
+  {
+    "id": "app.import.validate_team_import_data.name_length.error",
+    "translation": "टीम का नाम बहुत लंबा है।"
+  },
+  {
+    "id": "app.import.validate_team_import_data.name_characters.error",
+    "translation": "टीम के नाम में अमान्य वर्ण हैं।"
+  },
+  {
+    "id": "app.import.validate_team_import_data.display_name_missing.error",
+    "translation": "टीम की आवश्यक संपत्ति गुम है: display_name."
+  },
+  {
+    "id": "app.import.validate_team_import_data.display_name_length.error",
+    "translation": "टीम display_name अनुमत लंबाई सीमा के भीतर नहीं है।"
+  },
+  {
+    "id": "app.import.validate_team_import_data.description_length.error",
+    "translation": "टीम विवरण बहुत लंबा है।"
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.wrong_roles_for_scope.error",
+    "translation": "इस दायरे वाली योजना के लिए गलत भूमिकाएँ प्रदान की गईं।"
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.unknown_scheme.error",
+    "translation": "अज्ञात योजना का दायरा।"
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.null_scope.error",
+    "translation": "योजना का दायरा आवश्यक है।"
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.name_invalid.error",
+    "translation": "अमान्य योजना का नाम।"
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.display_name_invalid.error",
+    "translation": "अमान्य योजना प्रदर्शन नाम।"
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.description_invalid.error",
+    "translation": "अमान्य योजना विवरण।"
+  },
+  {
+    "id": "app.import.validate_role_import_data.name_invalid.error",
+    "translation": "अमान्य भूमिका का नाम।"
+  },
+  {
+    "id": "app.import.validate_role_import_data.invalid_permission.error",
+    "translation": "भूमिका पर अमान्य अनुमति।"
+  },
+  {
+    "id": "app.import.validate_role_import_data.display_name_invalid.error",
+    "translation": "अमान्य भूमिका प्रदर्शन नाम."
+  },
+  {
+    "id": "app.import.validate_role_import_data.description_invalid.error",
+    "translation": "अमान्य भूमिका विवरण."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.user_missing.error",
+    "translation": "आवश्यक उत्तर गुण गुम है: User."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.message_missing.error",
+    "translation": "गुम आवश्यक उत्तर संपत्ति: Message."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.message_length.error",
+    "translation": "उत्तर संदेश गुण अधिकतम अनुमत लंबाई से अधिक लंबा है।"
+  },
+  {
+    "id": "app.import.validate_reply_import_data.create_at_zero.error",
+    "translation": "उत्तर दें CreateAt गुण शून्य नहीं होना चाहिए।"
+  },
+  {
+    "id": "app.import.validate_reply_import_data.create_at_missing.error",
+    "translation": "आवश्यक उत्तर गुण गुम है: create_at."
+  },
+  {
+    "id": "app.import.validate_reply_import_data.create_at_before_parent.error",
+    "translation": "उत्तर दें CreateAt संपत्ति मूल पोस्ट CreateAt से बड़ी होनी चाहिए।"
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.user_missing.error",
+    "translation": "आवश्यक प्रतिक्रिया गुण गुम है: User."
+  },
+  {
+    "id": "app.import.validate_reaction_import_data.emoji_name_missing.error",
+    "translation": "आवश्यक प्रतिक्रिया गुण गुम है: इमोजीनाम।"
+  },
+  {
+    "id": "app.import.import_post.channel_not_found.error",
+    "translation": "पोस्ट आयात करने में त्रुटि. \"{{.ChannelName}}\" नाम वाला चैनल नहीं मिला।"
+  },
+  {
+    "id": "app.import.import_line.unknown_line_type.error",
+    "translation": "आयात डेटा लाइन में अज्ञात प्रकार \"{{.Type}}\" है।"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.updated_from",
+    "translation": "%s ने चैनल के उद्देश्य को इस से अपडेट किया: %s से: %s"
+  },
+  {
+    "id": "app.channel.post_update_channel_purpose_message.retrieve_user.error",
+    "translation": "चैनल उद्देश्य संदेश %v . को अपडेट करते समय उपयोगकर्ता को पुनः प्राप्त करने में विफल"
+  },
+  {
+    "id": "api.user.create_oauth_user.already_attached.app_error",
+    "translation": "{{.Service}} के अलावा किसी अन्य साइन इन पद्धति का उपयोग करके उस ईमेल पते से पहले से एक खाता संबद्ध है। कृपया {{.Auth}} का उपयोग करके साइन इन करें।"
+  },
+  {
+    "id": "api.user.complete_switch_with_oauth.parse.app_error",
+    "translation": "{{.Service}} उपयोगकर्ता ऑब्जेक्ट से प्रमाणीकरण डेटा पार्स नहीं किया जा सका।"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.unsupported.app_error",
+    "translation": "{{.Service}} OAuth 2.0 के माध्यम से SSO इस सर्वर पर उपलब्ध नहीं है।"
+  },
+  {
+    "id": "api.templates.mfa_deactivated_body.info",
+    "translation": "{{ .SiteURL }} पर आपके खाते से बहु-कारक प्रमाणीकरण हटा दिया गया है।"
+  },
+  {
+    "id": "api.team.import_team.unavailable.app_error",
+    "translation": "विकृत अनुरोध: फाइलसाइज फील्ड मौजूद नहीं है।"
+  },
+  {
+    "id": "api.team.import_team.no_import_from.app_error",
+    "translation": "विकृत अनुरोध: importFrom मौजूद नहीं है।"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.merge_existing",
+    "translation": "मेल खाने वाले ईमेल {{.Email}} और उपयोगकर्ता नाम {{.Username}} के साथ स्लैक उपयोगकर्ता का मौजूदा मैटरमोस्ट उपयोगकर्ता के साथ विलय हो गया।\n"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
+    "translation": "सबसे महत्वपूर्ण हमसे संपर्क करें अनुरोध। मुझे टीम योजनाओं के साथ उन्नत अनुमतियों के बारे में अधिक जानने में दिलचस्पी है।\n"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.notification_title",
+    "translation": "बहु-कारक प्रमाणीकरण लागू करना"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.contact_us.email_body",
+    "translation": "सबसे महत्वपूर्ण हमसे संपर्क करें अनुरोध। मुझे मल्टी-फैक्टर ऑथेंटिकेशन लागू करने के बारे में और जानने में दिलचस्पी है।\n"
+  },
+  {
+    "id": "api.post.check_for_out_of_channel_group_users.message.none",
+    "translation": "@{{.GroupName}} का इस टीम में कोई सदस्य नहीं है"
+  },
+  {
+    "id": "api.email_batching.add_notification_email_to_batch.channel_full.app_error",
+    "translation": "ईमेल बैचिंग कार्य का प्राप्तकर्ता चैनल भरा हुआ था। कृपया EmailBatchingBufferSize बढ़ाएँ।"
+  },
+  {
+    "id": "api.context.token_provided.app_error",
+    "translation": "सत्र OAuth नहीं है लेकिन क्वेरी स्ट्रिंग में टोकन प्रदान किया गया था।"
+  },
+  {
+    "id": "app.job.get_count_by_status_and_type.app_error",
+    "translation": "स्थिति और प्रकार के अनुसार कार्य गणना प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.job.get_all.app_error",
+    "translation": "नौकरी नहीं मिल पा रही है।"
+  },
+  {
+    "id": "app.job.get.app_error",
+    "translation": "नौकरी नहीं मिल पा रही है।"
+  },
+  {
+    "id": "app.job.download_export_results_not_enabled",
+    "translation": "config.json में DownloadExportResults गलत है। इस नौकरी के परिणाम डाउनलोड करने के लिए कृपया इसे सही पर सेट करें।"
+  },
+  {
+    "id": "app.import.validate_user_teams_import_data.team_name_missing.error",
+    "translation": "उपयोगकर्ता की टीम सदस्यता से टीम का नाम गायब है।"
+  },
+  {
+    "id": "app.import.validate_user_teams_import_data.invalid_team_theme.error",
+    "translation": "उपयोगकर्ता के लिए अमान्य टीम थीम"
+  },
+  {
+    "id": "app.import.validate_user_teams_import_data.invalid_roles.error",
+    "translation": "उपयोगकर्ता की टीम सदस्यता के लिए अमान्य भूमिकाएँ।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.username_missing.error",
+    "translation": "गुम उपयोगकर्ता संपत्ति की आवश्यकता है: उपयोगकर्ता नाम।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.username_invalid.error",
+    "translation": "आपका यूसरनेम गलत है।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.roles_invalid.error",
+    "translation": "उपयोगकर्ता भूमिकाएं मान्य नहीं हैं।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.profile_image.error",
+    "translation": "अमान्य प्रोफ़ाइल चित्र।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.position_length.error",
+    "translation": "उपयोगकर्ता स्थिति बहुत लंबी है।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.password_length.error",
+    "translation": "उपयोगकर्ता पासवर्ड की लंबाई अमान्य है।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_mobile_push_status_invalid.error",
+    "translation": "अमान्य मोबाइल पुश स्थिति उपयोगकर्ता के लिए प्रोप को सूचित करें।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_mobile_invalid.error",
+    "translation": "अमान्य मोबाइल उपयोगकर्ता के लिए प्रोप मूल्य सूचित करें।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_email_invalid.error",
+    "translation": "अमान्य ईमेल उपयोगकर्ता के लिए प्रोप मान को सूचित करें।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_desktop_sound_invalid.error",
+    "translation": "अमान्य डेस्कटॉप ध्वनि उपयोगकर्ता के लिए Prop मान को सूचित करें।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_desktop_invalid.error",
+    "translation": "अमान्य डेस्कटॉप उपयोगकर्ता के लिए Prop मान को सूचित करें।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_comments_trigger_invalid.error",
+    "translation": "उपयोगकर्ता के लिए अमान्य टिप्पणियाँ प्रोप मान।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.notify_props_channel_trigger_invalid.error",
+    "translation": "अमान्य चैनल ट्रिगर उपयोगकर्ता के लिए प्रोप को सूचित करें।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.nickname_length.error",
+    "translation": "उपयोगकर्ता उपनाम बहुत लंबा है।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.last_name_length.error",
+    "translation": "उपयोगकर्ता उपनाम बहुत लंबा है।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.first_name_length.error",
+    "translation": "उपयोगकर्ता प्रथम नाम बहुत लंबा है."
+  },
+  {
+    "id": "app.import.validate_user_import_data.email_missing.error",
+    "translation": "आवश्यक उपयोगकर्ता संपत्ति गुम है: ईमेल।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.email_length.error",
+    "translation": "उपयोगकर्ता ईमेल की लंबाई अमान्य है।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_length.error",
+    "translation": "उपयोगकर्ता AuthData बहुत लंबा है।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_and_service_dependency.error",
+    "translation": "उपयोगकर्ता AuthService और AuthData परस्पर समावेशी हैं।"
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_and_password.error",
+    "translation": "उपयोगकर्ता AuthData और पासवर्ड परस्पर अनन्य हैं।"
   }
 ]
