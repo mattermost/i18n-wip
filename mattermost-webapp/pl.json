@@ -141,5 +141,22 @@
   "intro_messages.group_message": "To jest początek historii wiadomości grupowych z tymi zespołami. Wiadomości i pliki udostępnione w tym miejscu nie są wyświetlane osobom spoza tego obszaru.",
   "intro_messages.noCreator": "To początek kanału {name}, utworzony dnia {date}.",
   "intro_messages.onlyInvited": " Tylko zaproszeni użytkownicy mogą zobaczyć ten prywatny kanał.",
-  "last_users_message.added_to_channel.type": "zostało **dodanych do kanału** przez {actor}."
+  "last_users_message.added_to_channel.type": "zostało **dodanych do kanału** przez {actor}.",
+  "last_users_message.added_to_team.type": "zostało **dodanych do zespołu** przez {actor}.",
+  "last_users_message.first": "{firstUser} i ",
+  "last_users_message.joined_channel.type": "**dołączył do kanału**.",
+  "last_users_message.joined_team.type": "**dołączył do zespołu**.",
+  "last_users_message.left_channel.type": "**opuścił kanał**.",
+  "last_users_message.left_team.type": "**opuścił zespół**.",
+  "last_users_message.others": "{numOthers} innych ",
+  "last_users_message.removed_from_channel.type": "został **usunięty z kanału**.",
+  "last_users_message.removed_from_team.type": "został **usunięty z zespołu**.",
+  "login.email": "E-mail",
+  "login.invalidPassword": "Hasło jest nieprawidłowe.",
+  "login.ldapUsername": "Nazwa użytkownika AD/LDAP",
+  "login.ldapUsernameLower": "Nazwa użytkownika AD/LDAP",
+  "login.noEmail": "Podaj adres e-mail",
+  "login.noEmailLdapUsername": "Proszę, wpisz swój adres e-mail lub {ldapUsername}",
+  "login_mfa.enterToken": "Aby zakończyć procedurę logowania, proszę wpisać token uwierzytelniający z smartfonu",
+  "login_mfa.token": "MFA Token"
 }
