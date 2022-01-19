@@ -157,6 +157,17 @@
   "login.ldapUsernameLower": "Nazwa użytkownika AD/LDAP",
   "login.noEmail": "Podaj adres e-mail",
   "login.noEmailLdapUsername": "Proszę, wpisz swój adres e-mail lub {ldapUsername}",
+  "login.noEmailUsername": "Proszę, wpisz adres e-mail lub nazwę użytkownika",
+  "login.noEmailUsernameLdapUsername": "Proszę, wpisz adres e-mail, nazwa użytkownika lub {ldapUsername}",
+  "login.noLdapUsername": "Proszę wprowadzić {ldapUsername}",
+  "login.noPassword": "Proszę wprowadzić hasło",
+  "login.noUsername": "Proszę wprowadź nazwę użytkownika",
+  "login.noUsernameLdapUsername": "Proszę, wpisz login lub {ldapUsername}",
+  "login.or": "lub",
+  "login.password": "Hasło",
+  "login.signIn": "Zaloguj się",
+  "login.userNotFound": "Nie mogliśmy znaleźć konta pasującego do danych logowania.",
+  "login.username": "Nazwa użytkownika",
   "login_mfa.enterToken": "Aby zakończyć procedurę logowania, proszę wpisać token uwierzytelniający z smartfonu",
   "login_mfa.token": "MFA Token"
 }
