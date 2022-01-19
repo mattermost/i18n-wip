@@ -6259,5 +6259,21 @@
   {
     "id": "app.import.validate_user_import_data.auth_data_and_password.error",
     "translation": "उपयोगकर्ता AuthData और पासवर्ड परस्पर अनन्य हैं।"
+  },
+  {
+    "id": "app.notification.body.dm.subTitle",
+    "translation": "जब आप दूर थे, तब {{.SenderName}} ने आपको एक नया सीधा संदेश भेजा था।"
+  },
+  {
+    "id": "app.job.update.app_error",
+    "translation": "कार्य अद्यतन करने में असमर्थ।"
+  },
+  {
+    "id": "app.job.save.app_error",
+    "translation": "कार्य सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.job.get_newest_job_by_status_and_type.app_error",
+    "translation": "स्थिति और प्रकार के आधार पर नवीनतम नौकरी पाने में असमर्थ।"
   }
 ]
