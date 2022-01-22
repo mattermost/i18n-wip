@@ -6275,5 +6275,57 @@
   {
     "id": "app.job.get_newest_job_by_status_and_type.app_error",
     "translation": "स्थिति और प्रकार के आधार पर नवीनतम नौकरी पाने में असमर्थ।"
+  },
+  {
+    "id": "app.notification.footer.title",
+    "translation": "अपनी सूचना सेटिंग बदलना चाहते हैं?"
+  },
+  {
+    "id": "app.notification.footer.infoLogin",
+    "translation": "मैटरमोस्ट में लॉगिन करें"
+  },
+  {
+    "id": "app.notification.footer.info",
+    "translation": " और सेटिंग> नोटिफिकेशन पर जाएं"
+  },
+  {
+    "id": "app.notification.body.thread_gm.subTitle",
+    "translation": "जब आप दूर थे, {{.SenderName}} ने आपके समूह में एक सूत्र का उत्तर दिया।"
+  },
+  {
+    "id": "app.notification.body.thread_dm.subTitle",
+    "translation": "जब आप दूर थे, {{.SenderName}} ने आपके सीधे संदेश में एक सूत्र का उत्तर दिया।"
+  },
+  {
+    "id": "app.notification.body.thread_channel_full.subTitle",
+    "translation": "जब आप दूर थे, {{.SenderName}} ने उस थ्रेड का उत्तर दिया जिसका आप {{.ChannelName}} में अनुसरण कर रहे हैं।"
+  },
+  {
+    "id": "app.notification.body.thread_channel.subTitle",
+    "translation": "जब आप दूर थे, {{.SenderName}} ने आपके द्वारा अनुसरण किए जा रहे थ्रेड का उत्तर दिया।"
+  },
+  {
+    "id": "app.notification.body.thread.title",
+    "translation": "{{.SenderName}} ने एक सूत्र का उत्तर दिया"
+  },
+  {
+    "id": "app.notification.body.mention.title",
+    "translation": "{{.SenderName}} ने एक संदेश में आपका उल्लेख किया"
+  },
+  {
+    "id": "app.notification.body.mention.subTitle",
+    "translation": "जब आप दूर थे, {{.SenderName}} ने {{.ChannelName}} चैनल में आपका उल्लेख किया।"
+  },
+  {
+    "id": "app.notification.body.group.title",
+    "translation": "{{.SenderName}} ने आपको एक नया संदेश भेजा है"
+  },
+  {
+    "id": "app.notification.body.group.subTitle",
+    "translation": "जब आप दूर थे, {{.SenderName}} ने आपके समूह को एक संदेश भेजा।"
+  },
+  {
+    "id": "app.notification.body.dm.title",
+    "translation": "{{.SenderName}} ने आपको एक नया संदेश भेजा है"
   }
 ]
