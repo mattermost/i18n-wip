@@ -120,7 +120,6 @@
   "admin.billing.payment_info_edit.cancel": "Адмяніць",
   "admin.billing.purchaseModal.editPaymentInfoButton": "Рэдагаваць",
   "admin.billing.subscription.cloudTrial.subscribe": "Падпiсацца",
-  "admin.billing.subscription.creditCardHasExpired.please": "Калi ласка ",
   "admin.billing.subscription.perMonth": " /месяц",
   "admin.billing.subscription.perUserPerMonth": " /карыстальнiк/месяц",
   "admin.billing.subscription.planDetails.perUserPerMonth": "/карыстальнiк/месяц.",
