@@ -711,7 +711,6 @@
   "camera_type.video.option": "ضبط ویدیو",
   "camera_type.title": "اقدامی را انتخاب کنید",
   "camera_type.photo.option": "عکس گرفتن",
-  "call_message.call_ended_at": "در {time} به پایان رسید",
   "apps.suggestion.no_suggestion": "هیچ پیشنهاد منطبقی وجود ندارد.",
   "apps.suggestion.no_static": "هیچ گزینه منطبقی وجود ندارد.",
   "apps.suggestion.no_dynamic": "هیچ داده ای برای پیشنهادات پویا بازگردانده نشد",
