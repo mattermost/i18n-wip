@@ -41,7 +41,6 @@
   "apps.error.parser.missing_tick": "Oczekiwany podwójny cudzysłów przed zakończeniem wprowadzania danych.",
   "camera_type.title": "Wybierz działanie",
   "camera_type.photo.option": "Przechwyć zdjęcie",
-  "call.screen_share_user": "Wyświetlany jest ekran {userDisplayName}",
   "call_message.started_a_call": "{user} rozpoczął połączenie",
   "archivedChannelMessage": "Przeglądasz **zarchiwizowany kanał**. Nowe wiadomości nie mogą być wysłane.",
   "apps.suggestion.no_suggestion": "Brak pasujących sugestii.",
