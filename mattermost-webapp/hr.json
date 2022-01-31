@@ -1,7 +1,11 @@
 {
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Sva prava pridržana",
+  "about.buildnumber": "Broj gradnje:",
+  "about.cloudEdition": "Oblak",
+  "about.copyright": "Copyright 2015. – {currentYear} Mattermost, Inc. Sva prava pridržana",
   "about.database": "Baza podataka:",
   "about.date": "Datum izgradnje:",
+  "about.dbversion": "Verzija sheme baze podataka:",
+  "about.enterpriseEditione1": "Izdanje za poduzeća",
   "admin.team_channel_settings.groupMembers.close": "Zatvori",
   "admin.team_channel_settings.usersToBeRemovedModal.close": "Zatvori",
   "bot.create_token.close": "Zatvori",
