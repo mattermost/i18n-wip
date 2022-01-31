@@ -28,5 +28,6 @@
   "gallery.unsuppored": "Pregled se ne podržava za ovu vrstu datoteke",
   "gallery.open_file": "Otvori datoteku",
   "gallery.footer.channel_name": "Dijeljeno u kanalu {channelName}",
-  "gallery.download_file": "Preuzmi datoteku"
+  "gallery.download_file": "Preuzmi datoteku",
+  "about.enterpriseEditione1": "Izdanje za poduzeća"
 }
