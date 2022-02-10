@@ -302,7 +302,6 @@
   "admin.billing.subscription.planDetails.features.autoComplianceExports": "Xuất tuân thủ tự động",
   "admin.billing.subscription.planDetails.features.channelModeration": "Kiểm duyệt kênh",
   "admin.billing.subscription.planDetails.features.customRetentionPolicies": "Chính sách lưu trữ tùy chỉnh",
-  "admin.billing.subscription.planDetails.features.enterpriseAdministration": "Quản trị doanh nghiệp & SSO",
   "admin.billing.subscription.planDetails.features.groupAndOneToOneMessaging": "Nhắn tin nhóm và một-một, chia sẻ tệp và tìm kiếm",
   "admin.billing.subscription.planDetails.features.guestAccounts": "Tài khoản Khách",
   "admin.billing.subscription.planDetails.features.incidentCollaboration": "Hợp tác trong sự cố",
