@@ -304,7 +304,6 @@
   "admin.billing.subscription.planDetails.features.autoComplianceExports": "صادرات الامتثال الآلي",
   "admin.billing.subscription.planDetails.features.channelModeration": "الاعتدال قناة",
   "admin.billing.subscription.planDetails.features.customRetentionPolicies": "سياسات الاحتفاظ بالبيانات مخصص",
-  "admin.billing.subscription.planDetails.features.enterpriseAdminSso": "إدارة المشاريع وSSO",
   "admin.billing.subscription.planDetails.features.enterpriseAdministration": "إدارة المشاريع وSSO",
   "admin.billing.subscription.planDetails.features.groupAndOneToOneMessaging": "مجموعة واحدة الى واحد والرسائل، وتبادل الملفات، والبحث",
   "admin.billing.subscription.planDetails.features.guestAccounts": "حسابات الضيوف",

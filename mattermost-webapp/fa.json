@@ -289,7 +289,6 @@
   "admin.billing.subscription.planDetails.features.autoComplianceExports": "صادرات انطباق خودکار",
   "admin.billing.subscription.planDetails.features.channelModeration": "تعدیل کانال",
   "admin.billing.subscription.planDetails.features.customRetentionPolicies": "خط مشی های نگهداری داده های سفارشی",
-  "admin.billing.subscription.planDetails.features.enterpriseAdminSso": "مدیریت سازمانی و SSO",
   "admin.billing.subscription.planDetails.features.enterpriseAdministration": "مدیریت سازمانی و SSO",
   "admin.billing.subscription.planDetails.features.groupAndOneToOneMessaging": "پیام رسانی گروهی و یک به یک، اشتراک گذاری فایل و جستجو",
   "admin.billing.subscription.planDetails.features.guestAccounts": "حساب های مهمان",
