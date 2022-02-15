@@ -8888,10 +8888,6 @@
     "translation": "برای فعال کردن CollapsedThreads، ThreadAutoFollow باید درست باشد"
   },
   {
-    "id": "extrac_content.worker.do_job.invalid_input.to",
-    "translation": "مقدار ورودی نامعتبر 'to'"
-  },
-  {
     "id": "ent.elasticsearch.getAllTeamMembers.error",
     "translation": "دریافت همه اعضای تیم ناموفق بود"
   },
