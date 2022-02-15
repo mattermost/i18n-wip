@@ -8496,10 +8496,6 @@
     "translation": "رمزگشایی نتایج جستجو انجام نشد"
   },
   {
-    "id": "extrac_content.worker.do_job.invalid_input.from",
-    "translation": "مقدار ورودی نامعتبر 'from'"
-  },
-  {
     "id": "import_process.worker.do_job.file_exists",
     "translation": "پردازش import ممکن نیست: فایل وجود ندارد."
   },
@@ -8890,10 +8886,6 @@
   {
     "id": "model.config.is_valid.collapsed_threads.autofollow.app_error",
     "translation": "برای فعال کردن CollapsedThreads، ThreadAutoFollow باید درست باشد"
-  },
-  {
-    "id": "extract_content.worker.do_job.file_info",
-    "translation": "اطلاعات فایل برای استخراج محتوا دریافت نشد."
   },
   {
     "id": "extrac_content.worker.do_job.invalid_input.to",
