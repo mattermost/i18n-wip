@@ -6327,5 +6327,1085 @@
   {
     "id": "app.notification.body.dm.title",
     "translation": "{{.SenderName}} ने आपको एक नया संदेश भेजा है"
+  },
+  {
+    "id": "app.user_access_token.delete.app_error",
+    "translation": "व्यक्तिगत पहुंच टोकन को हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.user.get_thread_membership_for_user.app_error",
+    "translation": "उपयोगकर्ता थ्रेड सदस्यता प्राप्त करने में असमर्थ"
+  },
+  {
+    "id": "app.team.get_member.app_error",
+    "translation": "टीम के सदस्य प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.system.permanent_delete_by_name.app_error",
+    "translation": "हम सिस्टम तालिका प्रविष्टि को स्थायी रूप से हटा नहीं सके।"
+  },
+  {
+    "id": "app.user_access_token.get_all.app_error",
+    "translation": "सभी व्यक्तिगत पहुंच टोकन प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.user_access_token.disabled",
+    "translation": "इस सर्वर पर व्यक्तिगत पहुंच टोकन अक्षम हैं। विवरण के लिए कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "app.user.send_auto_response.app_error",
+    "translation": "उपयोगकर्ता से स्वतः प्रतिक्रिया भेजने में असमर्थ।"
+  },
+  {
+    "id": "app.user.permanentdeleteuser.internal_error",
+    "translation": "उपयोगकर्ता को हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.user.get_thread_membership_for_user.not_found",
+    "translation": "उपयोगकर्ता थ्रेड सदस्यता मौजूद नहीं है"
+  },
+  {
+    "id": "app.user.get_thread_count_for_user.app_error",
+    "translation": "हम उपयोगकर्ता के लिए थ्रेड काउंट प्राप्त नहीं कर सके।"
+  },
+  {
+    "id": "app.user.convert_bot_to_user.app_error",
+    "translation": "बॉट को उपयोगकर्ता में बदलने में असमर्थ।"
+  },
+  {
+    "id": "app.upload.upload_data.update.app_error",
+    "translation": "अपलोड सत्र को अपडेट करने में विफल।"
+  },
+  {
+    "id": "app.upload.upload_data.save.app_error",
+    "translation": "फ़ाइल जानकारी सहेजने में विफल।"
+  },
+  {
+    "id": "app.upload.upload_data.read_file.app_error",
+    "translation": "फ़ाइल पढ़ने में विफल।"
+  },
+  {
+    "id": "app.upload.upload_data.large_image.app_error",
+    "translation": "{{.Filename}} आयाम ({{.Width}} गुणा {{.Height}} पिक्सल) सीमा से अधिक हैं।"
+  },
+  {
+    "id": "app.upload.upload_data.first_part_too_small.app_error",
+    "translation": "डेटा अपलोड करने में विफल. पहला भाग कम से कम {{.Size}} बाइट्स का होना चाहिए।"
+  },
+  {
+    "id": "app.upload.upload_data.concurrent.app_error",
+    "translation": "एक से अधिक अनुरोध से डेटा अपलोड करने में असमर्थ।"
+  },
+  {
+    "id": "app.upload.run_plugins_hook.rejected",
+    "translation": "फ़ाइल अपलोड करने में असमर्थ {{.Filename}}. प्लगइन द्वारा अस्वीकृत: {{.Reason}}"
+  },
+  {
+    "id": "app.upload.run_plugins_hook.move_fail",
+    "translation": "फ़ाइल ले जाने में विफल।"
+  },
+  {
+    "id": "app.upload.get_for_user.app_error",
+    "translation": "उपयोगकर्ता के लिए अपलोड प्राप्त करने में विफल।"
+  },
+  {
+    "id": "app.upload.get.app_error",
+    "translation": "अपलोड प्राप्त करने में विफल।"
+  },
+  {
+    "id": "app.upload.create.upload_too_large.app_error",
+    "translation": "फाइल अपलोड करने में असमर्थ। फ़ाइल बहुत बड़ी है।"
+  },
+  {
+    "id": "app.upload.create.save.app_error",
+    "translation": "अपलोड सहेजने में विफल।"
+  },
+  {
+    "id": "app.upload.create.incorrect_channel_id.app_error",
+    "translation": "निर्दिष्ट चैनल पर अपलोड नहीं किया जा सकता।"
+  },
+  {
+    "id": "app.upload.create.cannot_upload_to_deleted_channel.app_error",
+    "translation": "हटाए गए चैनल पर अपलोड नहीं किया जा सकता।"
+  },
+  {
+    "id": "app.terms_of_service.get.no_rows.app_error",
+    "translation": "सेवा की कोई शर्तें नहीं मिलीं।"
+  },
+  {
+    "id": "app.terms_of_service.get.app_error",
+    "translation": "सेवा की शर्तें लाने में असमर्थ।"
+  },
+  {
+    "id": "app.terms_of_service.create.existing.app_error",
+    "translation": "मौजूदा सेवा की शर्तों के लिए सेव को कॉल नहीं करना चाहिए।"
+  },
+  {
+    "id": "app.terms_of_service.create.app_error",
+    "translation": "सेवा की शर्तें सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.team.user_belongs_to_teams.app_error",
+    "translation": "यह निर्धारित करने में असमर्थ कि उपयोगकर्ता टीमों की सूची से संबंधित है या नहीं।"
+  },
+  {
+    "id": "app.team.update.updating.app_error",
+    "translation": "टीम को अपडेट करने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.team.update.find.app_error",
+    "translation": "अद्यतन करने के लिए मौजूदा टीम को खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.team.search_private_team.app_error",
+    "translation": "निजी टीमों को खोजने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.team.search_open_team.app_error",
+    "translation": "खुली टीमों को खोजने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.team.search_all_team.app_error",
+    "translation": "हमें टीमों को खोजने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.team.save_member.save.app_error",
+    "translation": "टीम के सदस्य को सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.team.save.existing.app_error",
+    "translation": "मौजूदा टीम के लिए अपडेट कॉल करना चाहिए।"
+  },
+  {
+    "id": "app.team.save.app_error",
+    "translation": "टीम को बचाने में असमर्थ।"
+  },
+  {
+    "id": "app.team.reset_all_team_schemes.app_error",
+    "translation": "हम टीम योजनाओं को रीसेट नहीं कर सके।"
+  },
+  {
+    "id": "app.team.rename_team.name_occupied",
+    "translation": "टीम का नाम बदलने में असमर्थ, नाम पहले से प्रयोग में है।"
+  },
+  {
+    "id": "app.team.remove_member.app_error",
+    "translation": "टीम के सदस्य को निकालने में असमर्थ।"
+  },
+  {
+    "id": "app.team.permanentdeleteteam.internal_error",
+    "translation": "टीम को हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.team.permanent_delete.app_error",
+    "translation": "मौजूदा टीम को हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.team.migrate_team_members.update.app_error",
+    "translation": "टीम के सदस्य को अपडेट करने में विफल।"
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.max_accounts.app_error",
+    "translation": "नई टीम सदस्यता बनाने में असमर्थ क्योंकि टीम सदस्यों की सीमा तक पहुंच गई है"
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.conflict.app_error",
+    "translation": "नई टीम सदस्यता बनाने में असमर्थ क्योंकि यह पहले से मौजूद है"
+  },
+  {
+    "id": "app.team.join_user_to_team.save_member.app_error",
+    "translation": "नई टीम सदस्यता बनाने में असमर्थ"
+  },
+  {
+    "id": "app.team.join_user_to_team.max_accounts.app_error",
+    "translation": "यह टीम अनुमत खातों की अधिकतम संख्या तक पहुंच गई है। उच्च सीमा निर्धारित करने के लिए अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "app.team.invite_token.group_constrained.error",
+    "translation": "टोकन द्वारा समूह-विवश टीम में शामिल होने में असमर्थ।"
+  },
+  {
+    "id": "app.team.invite_id.group_constrained.error",
+    "translation": "आमंत्रण द्वारा समूह-विवश टीम में शामिल होने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_user_team_ids.app_error",
+    "translation": "उपयोगकर्ता की टीमों की सूची प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_unread.app_error",
+    "translation": "टीमों को अपठित संदेश प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_members_by_ids.app_error",
+    "translation": "टीम के सदस्यों को प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_members.app_error",
+    "translation": "टीम के सदस्यों को प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_member_count.app_error",
+    "translation": "टीम के सदस्यों की गिनती करने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_member.missing.app_error",
+    "translation": "उस यूजर आईडी और टीम आईडी के लिए टीम का कोई सदस्य नहीं मिला।"
+  },
+  {
+    "id": "app.team.get_common_team_ids_for_users.app_error",
+    "translation": "सामान्य टीम आईडी प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_by_scheme.app_error",
+    "translation": "प्रदान की गई योजना के लिए चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_by_name.missing.app_error",
+    "translation": "मौजूदा टीम को खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_by_name.app_error",
+    "translation": "मौजूदा टीम को खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_by_invite_id.finding.app_error",
+    "translation": "मौजूदा टीम को खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get_all_team_listing.app_error",
+    "translation": "हमें सभी टीमें नहीं मिलीं।"
+  },
+  {
+    "id": "app.team.get_all_private_team_listing.app_error",
+    "translation": "हमें सभी निजी टीमें नहीं मिलीं।"
+  },
+  {
+    "id": "app.team.get_all.app_error",
+    "translation": "हमें सभी टीमें नहीं मिलीं।"
+  },
+  {
+    "id": "app.team.get_active_member_count.app_error",
+    "translation": "टीम के सदस्यों की गिनती करने में असमर्थ।"
+  },
+  {
+    "id": "app.team.get.finding.app_error",
+    "translation": "हमें टीम खोजने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.team.get.find.app_error",
+    "translation": "मौजूदा टीम को खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.team.clear_all_custom_role_assignments.select.app_error",
+    "translation": "टीम के सदस्यों को पुनः प्राप्त करने में विफल।"
+  },
+  {
+    "id": "app.team.analytics_team_count.app_error",
+    "translation": "टीमों की गिनती करने में असमर्थ।"
+  },
+  {
+    "id": "app.system_install_date.parse_int.app_error",
+    "translation": "स्थापना तिथि को पार्स करने में विफल।"
+  },
+  {
+    "id": "app.system.warn_metric.store.app_error",
+    "translation": "{{.WarnMetricName}} के लिए मान संग्रहीत करने में विफल"
+  },
+  {
+    "id": "app.system.warn_metric.notification.invalid_metric.app_error",
+    "translation": "मीट्रिक नहीं मिल सका."
+  },
+  {
+    "id": "app.system.warn_metric.notification.empty_admin_list.app_error",
+    "translation": "व्यवस्थापकों की सूची खाली है।"
+  },
+  {
+    "id": "app.system.warn_metric.bot_displayname",
+    "translation": "मैटरमोस्ट सलाहकार"
+  },
+  {
+    "id": "app.system.system_bot.bot_displayname",
+    "translation": "प्रणाली"
+  },
+  {
+    "id": "app.system.save.app_error",
+    "translation": "सिस्टम गुण को सहेजने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.user_terms_of_service.get_by_user.app_error",
+    "translation": "सेवा की शर्तें लाने में असमर्थ।"
+  },
+  {
+    "id": "app.user_terms_of_service.delete.app_error",
+    "translation": "सेवा की शर्तें हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.user_access_token.update_token_enable.app_error",
+    "translation": "पहुंच टोकन सक्षम करने में असमर्थ।"
+  },
+  {
+    "id": "app.user_access_token.update_token_disable.app_error",
+    "translation": "पहुंच टोकन अक्षम करने में असमर्थ।"
+  },
+  {
+    "id": "app.user_access_token.search.app_error",
+    "translation": "हमें उपयोगकर्ता पहुंच टोकन खोजने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.user_access_token.save.app_error",
+    "translation": "व्यक्तिगत पहुंच टोकन सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.user_access_token.invalid_or_missing",
+    "translation": "अमान्य या अनुपलब्ध टोकन।"
+  },
+  {
+    "id": "app.user_access_token.get_by_user.app_error",
+    "translation": "उपयोगकर्ता द्वारा व्यक्तिगत पहुंच टोकन प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "migrations.worker.run_migration.unknown_key",
+    "translation": "अज्ञात माइग्रेशन कुंजी के कारण माइग्रेशन कार्य चलाने में असमर्थ।"
+  },
+  {
+    "id": "migrations.worker.run_advanced_permissions_phase_2_migration.invalid_progress",
+    "translation": "अमान्य प्रगति डेटा के कारण माइग्रेशन विफल रहा।"
+  },
+  {
+    "id": "migrations.system.save.app_error",
+    "translation": "सिस्टम गुण को सहेजने में हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "mfa.validate_token.authenticate.app_error",
+    "translation": "अमान्य एमएफए टोकन।"
+  },
+  {
+    "id": "mfa.mfa_disabled.app_error",
+    "translation": "इस सर्वर पर बहु-कारक प्रमाणीकरण अक्षम कर दिया गया है।"
+  },
+  {
+    "id": "mfa.generate_qr_code.create_code.app_error",
+    "translation": "क्यूआर कोड जनरेट करने में त्रुटि।"
+  },
+  {
+    "id": "mfa.activate.bad_token.app_error",
+    "translation": "अमान्य एमएफए टोकन।"
+  },
+  {
+    "id": "mattermost.bulletin.subject",
+    "translation": "सबसे महत्वपूर्ण सुरक्षा बुलेटिन"
+  },
+  {
+    "id": "manaultesting.test_autolink.unable.app_error",
+    "translation": "चैनल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "manaultesting.manual_test.parse.app_error",
+    "translation": "यूआरएल पार्स करने में असमर्थ।"
+  },
+  {
+    "id": "jobs.set_job_error.update.error",
+    "translation": "नौकरी की स्थिति को त्रुटि पर सेट करने में विफल"
+  },
+  {
+    "id": "jobs.request_cancellation.status.error",
+    "translation": "नौकरी के लिए रद्दीकरण का अनुरोध नहीं किया जा सका जो रद्द करने योग्य स्थिति में नहीं है।"
+  },
+  {
+    "id": "interactive_message.generate_trigger_id.signing_failed",
+    "translation": "सहभागी संवाद के लिए उत्पन्न ट्रिगर आईडी पर हस्ताक्षर करने में विफल।"
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.verify_signature_failed",
+    "translation": "इंटरैक्टिव डायलॉग के लिए ट्रिगर आईडी का हस्ताक्षर सत्यापन विफल रहा।"
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.signature_decode_failed",
+    "translation": "इंटरैक्टिव संवाद के लिए ट्रिगर आईडी के बेस 64 हस्ताक्षर को डीकोड करने में विफल।"
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.missing_data",
+    "translation": "इंटरैक्टिव डायलॉग के लिए ट्रिगर आईडी में ज़रूरी डेटा नहीं है."
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.expired",
+    "translation": "सहभागी संवाद के लिए ट्रिगर आईडी की समय-सीमा समाप्त हो गई है। ट्रिगर आईडी अधिकतम {{.Seconds}} सेकंड के लिए लाइव होते हैं।"
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.base64_decode_failed_signature",
+    "translation": "इंटरैक्टिव संवाद के लिए ट्रिगर आईडी के बेस 64 हस्ताक्षर को डीकोड करने में विफल।"
+  },
+  {
+    "id": "interactive_message.decode_trigger_id.base64_decode_failed",
+    "translation": "सहभागी संवाद के लिए ट्रिगर आईडी के लिए बेस 64 को डीकोड करने में विफल।"
+  },
+  {
+    "id": "groups.unsupported_syncable_type",
+    "translation": "असमर्थित सिंक करने योग्य प्रकार '{{.Value}}'।"
+  },
+  {
+    "id": "group_not_associated_to_synced_team",
+    "translation": "समूह को चैनल से तब तक संबद्ध नहीं किया जा सकता जब तक कि वह पहले पैरेंट समूह-समन्वयित टीम से संबद्ध नहीं हो जाता।"
+  },
+  {
+    "id": "ent.user.complete_switch_with_oauth.blank_email.app_error",
+    "translation": "एक खाली ईमेल पते के साथ SAML लॉगिन पूरा करने में असमर्थ।"
+  },
+  {
+    "id": "ent.saml.service_disable.app_error",
+    "translation": "SAML 2.0 इस सर्वर पर कॉन्फ़िगर या समर्थित नहीं है।"
+  },
+  {
+    "id": "ent.saml.save_user.username_exists.saml_app_error",
+    "translation": "उस उपयोगकर्ता नाम वाला एक खाता पहले से मौजूद है। कृपया अपने व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.save_user.email_exists.saml_app_error",
+    "translation": "यह खाता SAML प्रमाणीकरण का उपयोग नहीं करता है। कृपया ईमेल और पासवर्ड का उपयोग करके साइन इन करें।"
+  },
+  {
+    "id": "ent.saml.metadata.app_error",
+    "translation": "सेवा प्रदाता मेटाडेटा बनाते समय कोई त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "ent.saml.license_disable.app_error",
+    "translation": "आपका लाइसेंस SAML प्रमाणीकरण का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "ent.saml.do_login.validate.app_error",
+    "translation": "पहचान प्रदाता से प्रतिक्रिया की पुष्टि करते समय एक त्रुटि उत्पन्न हुई। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.do_login.parse.app_error",
+    "translation": "पहचान प्रदाता से प्रतिक्रिया को पार्स करते समय एक त्रुटि उत्पन्न हुई। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.do_login.invalid_time.app_error",
+    "translation": "हमें पहचान प्रदाता से प्रतिक्रिया में एक अमान्य समय प्राप्त हुआ। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.do_login.invalid_signature.app_error",
+    "translation": "हमें पहचान प्रदाता से प्रतिक्रिया में एक अमान्य हस्ताक्षर प्राप्त हुआ। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.do_login.empty_response.app_error",
+    "translation": "हमें पहचान प्रदाता से एक खाली प्रतिक्रिया मिली।"
+  },
+  {
+    "id": "ent.saml.do_login.decrypt.app_error",
+    "translation": "SAML लॉगिन असफल रहा क्योंकि पहचान प्रदाता से प्रतिक्रिया को डिक्रिप्ट करते समय एक त्रुटि हुई। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.configure.not_encrypted_response.app_error",
+    "translation": "SAML लॉगिन असफल रहा क्योंकि पहचान प्रदाता प्रतिक्रिया एन्क्रिप्टेड नहीं है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.configure.load_private_key.app_error",
+    "translation": "SAML लॉगिन असफल रहा क्योंकि सेवा प्रदाता निजी कुंजी नहीं मिली थी। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.configure.load_idp_cert.app_error",
+    "translation": "पहचान प्रदाता सार्वजनिक प्रमाणपत्र फ़ाइल नहीं मिली। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.configure.encryption_not_enabled.app_error",
+    "translation": "SAML लॉगिन असफल रहा क्योंकि एन्क्रिप्शन सक्षम नहीं है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.build_request.encoding.app_error",
+    "translation": "पहचान प्रदाता के लिए अनुरोध को कूटबद्ध करते समय एक त्रुटि उत्पन्न हुई। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.build_request.app_error",
+    "translation": "पहचान प्रदाता के लिए अनुरोध शुरू करते समय एक त्रुटि उत्पन्न हुई। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.saml.attribute.app_error",
+    "translation": "SAML लॉगिन असफल रहा क्योंकि विशेषताओं में से एक गलत है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
+    "translation": "उपयोगकर्ता नाम पहले से ही किसी अन्य मैटरमॉस्ट उपयोगकर्ता द्वारा उपयोग किया जा रहा है।"
+  },
+  {
+    "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
+    "translation": "उपयोगकर्ता फ़ाइल में उपयोगकर्ता नहीं मिला।"
+  },
+  {
+    "id": "ent.migration.migratetosaml.email_already_used_by_other_user",
+    "translation": "ईमेल पहले से ही किसी अन्य SAML उपयोगकर्ता द्वारा उपयोग किया जा रहा है।"
+  },
+  {
+    "id": "ent.migration.migratetoldap.user_not_found",
+    "translation": "AD/LDAP सर्वर पर उपयोगकर्ता ढूँढने में असमर्थ: "
+  },
+  {
+    "id": "ent.migration.migratetoldap.duplicate_field",
+    "translation": "निर्दिष्ट फ़ील्ड के साथ AD/LDAP उपयोगकर्ताओं को माइग्रेट करने में असमर्थ। डुप्लिकेट प्रविष्टि का पता चला। कृपया सभी डुप्लिकेट निकालें और पुनः प्रयास करें।"
+  },
+  {
+    "id": "ent.message_export.run_export.app_error",
+    "translation": "संदेश निर्यात डेटा का चयन करने में विफल।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.get_attachment_error",
+    "translation": "किसी पोस्ट के लिए फ़ाइल जानकारी प्राप्त करने में विफल।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.unable_to_open_zip_file_data.app_error",
+    "translation": "निर्यात अस्थायी फ़ाइल को खोलने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.unable_to_open_email_file.app_error",
+    "translation": "अस्थायी फ़ाइल से ईमेल प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.unable_to_get_file_info.app_error",
+    "translation": "निर्यात अस्थायी फ़ाइल की जानकारी प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.to_address.app_error",
+    "translation": "पते पर ईमेल सेट करने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.parse_mail.app_error",
+    "translation": "ईमेल जानकारी पढ़ने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.msg_data.app_error",
+    "translation": "ईमेल संदेश लिखने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.msg.app_error",
+    "translation": "ईमेल संदेश सेट करने में असमर्थ."
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.from_address.app_error",
+    "translation": "ईमेल पते से सेट करने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay_export.deliver.close.app_error",
+    "translation": "ग्लोबल रिले को ईमेल डिलीवर करने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay.generate_email.app_error",
+    "translation": "ईएमएल फ़ाइल डेटा जनरेट करने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay.create_file_in_zip.app_error",
+    "translation": "ईएमएल फ़ाइल बनाने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.global_relay.close_zip_file.app_error",
+    "translation": "ज़िप फ़ाइल बंद करने में असमर्थ."
+  },
+  {
+    "id": "ent.message_export.global_relay.attach_file.app_error",
+    "translation": "ग्लोबल रिले एक्सपोर्ट में अटैचमेंट जोड़ने में असमर्थ।"
+  },
+  {
+    "id": "ent.message_export.csv_export.get_attachment_error",
+    "translation": "किसी पोस्ट के लिए फ़ाइल जानकारी प्राप्त करने में विफल."
+  },
+  {
+    "id": "ent.message_export.actiance_export.get_attachment_error",
+    "translation": "किसी पोस्ट के लिए फ़ाइल जानकारी प्राप्त करने में विफल।"
+  },
+  {
+    "id": "ent.ldap_id_migrate.app_error",
+    "translation": "माइग्रेट करने में असमर्थ।"
+  },
+  {
+    "id": "ent.ldap_groups.reachable_groups_error",
+    "translation": "उपयोगकर्ता के लिए समूह पुनर्प्राप्त करने में त्रुटि"
+  },
+  {
+    "id": "ent.ldap_groups.no_rows",
+    "translation": "मेल खाने वाले यूआईडी के साथ कोई समूह नहीं मिला"
+  },
+  {
+    "id": "ent.ldap_groups.members_of_group_error",
+    "translation": "समूह के सदस्यों को पुनः प्राप्त करने में त्रुटि"
+  },
+  {
+    "id": "ent.ldap_groups.groups_search_error",
+    "translation": "एलडीएपी समूह पुनर्प्राप्त करने में त्रुटि"
+  },
+  {
+    "id": "ent.ldap_groups.group_search_error",
+    "translation": "एलडीएपी समूह पुनर्प्राप्त करने में त्रुटि"
+  },
+  {
+    "id": "ent.ldap.validate_guest_filter.app_error",
+    "translation": "अमान्य AD/LDAP अतिथि फ़िल्टर।"
+  },
+  {
+    "id": "ent.ldap.validate_filter.app_error",
+    "translation": "अमान्य AD/LDAP फ़िल्टर।"
+  },
+  {
+    "id": "ent.ldap.validate_admin_filter.app_error",
+    "translation": "अमान्य AD/LDAP व्यवस्थापक फ़िल्टर।"
+  },
+  {
+    "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
+    "translation": "आकार सीमा पार हो गई। अपने [अधिकतम पृष्ठ आकार](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded) की जाँच करके देखें।"
+  },
+  {
+    "id": "ent.ldap.syncronize.search_failure.app_error",
+    "translation": "AD/LDAP में उपयोगकर्ताओं को खोजने में विफल। परीक्षण करें कि क्या मैटरमोस्ट सर्वर आपके AD/LDAP सर्वर से जुड़ सकता है और पुनः प्रयास करें।"
+  },
+  {
+    "id": "ent.ldap.syncronize.populate_syncables",
+    "translation": "सिंकेबल्स को पॉप्युलेट करने में त्रुटि"
+  },
+  {
+    "id": "ent.ldap.syncronize.get_all_groups.app_error",
+    "translation": "समूह पुनर्प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "ent.ldap.syncronize.get_all.app_error",
+    "translation": "AD/LDAP का उपयोग करने वाले सभी उपयोगकर्ताओं को प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "ent.ldap.syncronize.delete_group_constained_memberships",
+    "translation": "टीम या चैनल सदस्यता हटाने में त्रुटि"
+  },
+  {
+    "id": "ent.ldap.save_user.username_exists.ldap_app_error",
+    "translation": "उस उपयोगकर्ता नाम वाला एक खाता पहले से मौजूद है। कृपया अपने व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.ldap.save_user.email_exists.ldap_app_error",
+    "translation": "यह खाता AD/LDAP प्रमाणीकरण का उपयोग नहीं करता है। कृपया ईमेल और पासवर्ड का उपयोग करके साइन इन करें।"
+  },
+  {
+    "id": "ent.ldap.no.users.checkcertificate",
+    "translation": "कोई LDAP उपयोगकर्ता नहीं मिला, अपना उपयोगकर्ता फ़िल्टर और प्रमाणपत्र जांचें।"
+  },
+  {
+    "id": "ent.ldap.do_login.x509.app_error",
+    "translation": "कुंजी युग्म बनाने में त्रुटि"
+  },
+  {
+    "id": "ent.ldap.do_login.user_not_registered.app_error",
+    "translation": "उपयोगकर्ता AD/LDAP सर्वर पर पंजीकृत नहीं है।"
+  },
+  {
+    "id": "ent.ldap.do_login.user_filtered.app_error",
+    "translation": "आपके AD/LDAP खाते को इस मैटरमॉस्ट सर्वर का उपयोग करने की अनुमति नहीं है। कृपया अपने सिस्टम व्यवस्थापक से AD/LDAP उपयोगकर्ता फ़िल्टर की जाँच करने के लिए कहें।"
+  },
+  {
+    "id": "ent.ldap.do_login.unable_to_connect.app_error",
+    "translation": "AD/LDAP सर्वर से कनेक्ट करने में असमर्थ।"
+  },
+  {
+    "id": "ent.ldap.do_login.search_ldap_server.app_error",
+    "translation": "AD/LDAP सर्वर खोजने में विफल।"
+  },
+  {
+    "id": "ent.ldap.do_login.matched_to_many_users.app_error",
+    "translation": "दिया गया उपयोगकर्ता नाम एकाधिक उपयोगकर्ताओं से मेल खाता है।"
+  },
+  {
+    "id": "ent.ldap.do_login.licence_disable.app_error",
+    "translation": "AD/LDAP कार्यक्षमता वर्तमान लाइसेंस द्वारा अक्षम की गई है। अपने एंटरप्राइज़ लाइसेंस को अपग्रेड करने के बारे में कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "ent.ldap.do_login.key.app_error",
+    "translation": "LDAP TLS कुंजी फ़ाइल लोड करने में त्रुटि."
+  },
+  {
+    "id": "ent.ldap.do_login.invalid_password.app_error",
+    "translation": "अवैध पासवर्ड।"
+  },
+  {
+    "id": "ent.ldap.do_login.certificate.app_error",
+    "translation": "LDAP TLS प्रमाणपत्र फ़ाइल लोड करने में त्रुटि।"
+  },
+  {
+    "id": "ent.ldap.do_login.bind_admin_user.app_error",
+    "translation": "AD/LDAP सर्वर से जुड़ने में असमर्थ। बाइंड यूज़रनेम और बाइंडपासवर्ड की जाँच करें।"
+  },
+  {
+    "id": "ent.ldap.disabled.app_error",
+    "translation": "AD/LDAP अक्षम या लाइसेंस AD/LDAP का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "ent.ldap.create_fail",
+    "translation": "LDAP उपयोगकर्ता बनाने में असमर्थ।"
+  },
+  {
+    "id": "ent.ldap.app_error",
+    "translation": "ldap इंटरफ़ेस शून्य था।"
+  },
+  {
+    "id": "ent.jobs.start_synchronize_job.timeout",
+    "translation": "AD/LDAP सिंक्रोनाइज़ेशन जॉब टाइमआउट पर पहुँच गया।"
+  },
+  {
+    "id": "ent.jobs.do_job.batch_start_timestamp.parse_error",
+    "translation": "संदेश निर्यात कार्य ExportFromTimestamp पार्स नहीं कर सका।"
+  },
+  {
+    "id": "ent.jobs.do_job.batch_size.parse_error",
+    "translation": "संदेश निर्यात कार्य बैच आकार को पार्स नहीं कर सका।"
+  },
+  {
+    "id": "ent.id_loaded.license_disable.app_error",
+    "translation": "आपका लाइसेंस आईडी लोडेड पुश नोटिफिकेशन का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "ent.get_users_in_channel_during",
+    "translation": "निर्दिष्ट समयावधि के दौरान चैनल में उपयोगकर्ताओं को लाने में विफल।"
+  },
+  {
+    "id": "ent.elasticsearch.test_config.reenter_password",
+    "translation": "Elasticsearch सर्वर URL या उपयोगकर्ता नाम बदल गया है। कृपया कनेक्शन का परीक्षण करने के लिए इलास्टिक्स खोज पासवर्ड फिर से दर्ज करें।"
+  },
+  {
+    "id": "ent.elasticsearch.test_config.license.error",
+    "translation": "आपका लाइसेंस इलास्टिक्स खोज का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "ent.elasticsearch.test_config.indexing_disabled.error",
+    "translation": "लोचदार खोज अक्षम है।"
+  },
+  {
+    "id": "ent.elasticsearch.test_config.connect_failed",
+    "translation": "Elasticsearch सर्वर से कनेक्ट करना विफल रहा।"
+  },
+  {
+    "id": "ent.elasticsearch.stop.already_stopped.app_error",
+    "translation": "इलास्टिक्स खोज पहले ही रोक दी गई है।"
+  },
+  {
+    "id": "ent.elasticsearch.start.start_bulk_processor_failed.app_error",
+    "translation": "Elasticsearch बल्क प्रोसेसर प्रारंभ करने में विफल।"
+  },
+  {
+    "id": "ent.elasticsearch.start.parse_server_version.app_error",
+    "translation": "Elasticsearch सर्वर संस्करण को पार्स करने में विफल।"
+  },
+  {
+    "id": "ent.elasticsearch.start.get_server_version.app_error",
+    "translation": "Elasticsearch सर्वर संस्करण प्राप्त करने में विफल।"
+  },
+  {
+    "id": "ent.elasticsearch.start.create_bulk_processor_failed.app_error",
+    "translation": "Elasticsearch बल्क प्रोसेसर बनाने में विफल।"
+  },
+  {
+    "id": "ent.elasticsearch.start.already_started.app_error",
+    "translation": "इलास्टिक्स खोज पहले ही शुरू हो चुकी है।"
+  },
+  {
+    "id": "ent.elasticsearch.search_users.unmarshall_user_failed",
+    "translation": "खोज परिणामों को डीकोड करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.search_users.search_failed",
+    "translation": "खोज पूरी नहीं हो सकी"
+  },
+  {
+    "id": "ent.elasticsearch.search_posts.unmarshall_post_failed",
+    "translation": "खोज परिणामों को डीकोड करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.search_posts.search_failed",
+    "translation": "खोज पूरी नहीं हो सकी"
+  },
+  {
+    "id": "ent.elasticsearch.search_posts.parse_matches_failed",
+    "translation": "खोज परिणाम मिलानों को पार्स करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.search_posts.disabled",
+    "translation": "इस सर्वर पर इलास्टिक्स खोज अक्षम है"
+  },
+  {
+    "id": "ent.elasticsearch.search_channels.unmarshall_channel_failed",
+    "translation": "खोज परिणामों को डीकोड करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.search_channels.search_failed",
+    "translation": "खोज पूरी नहीं हो सकी"
+  },
+  {
+    "id": "ent.elasticsearch.search_channels.disabled",
+    "translation": "इस सर्वर पर इलास्टिक्स खोज अक्षम है"
+  },
+  {
+    "id": "ent.elasticsearch.refresh_indexes.refresh_failed",
+    "translation": "Elasticsearch अनुक्रमणिका ताज़ा करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.purge_indexes.delete_failed",
+    "translation": "इलास्टिक्स खोज इंडेक्स को हटाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.post.get_posts_batch_for_indexing.error",
+    "translation": "अनुक्रमण के लिए पोस्ट बैच प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "ent.elasticsearch.not_started.error",
+    "translation": "लोचदार खोज शुरू नहीं हुई है"
+  },
+  {
+    "id": "ent.elasticsearch.indexer.index_batch.nothing_left_to_index.error",
+    "translation": "सभी संस्थाओं के पूर्ण होने पर एक नए बैच को अनुक्रमित करने का प्रयास किया जा रहा है"
+  },
+  {
+    "id": "ent.elasticsearch.indexer.do_job.parse_start_time.error",
+    "translation": "इलास्टिक्स खोज अनुक्रमण कार्यकर्ता प्रारंभ समय को पार्स करने में विफल रहा"
+  },
+  {
+    "id": "ent.elasticsearch.indexer.do_job.parse_end_time.error",
+    "translation": "इलास्टिक्स खोज अनुक्रमण कार्यकर्ता समाप्ति समय को पार्स करने में विफल रहा"
+  },
+  {
+    "id": "ent.elasticsearch.index_channels_batch.error",
+    "translation": "अनुक्रमण के लिए चैनल बैच प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "ent.elasticsearch.getAllTeamMembers.error",
+    "translation": "टीम के सभी सदस्यों को प्राप्त करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.getAllChannelMembers.error",
+    "translation": "चैनल के सभी सदस्य प्राप्त करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.generic.disabled",
+    "translation": "इस सर्वर पर इलास्टिक्स खोज सक्षम नहीं है"
+  },
+  {
+    "id": "ent.elasticsearch.delete_channel_posts.error",
+    "translation": "चैनल पोस्ट हटाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.delete_channel.error",
+    "translation": "चैनल को हटाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.data_retention_delete_indexes.get_indexes.error",
+    "translation": "Elasticsearch अनुक्रमणिका प्राप्त करने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.data_retention_delete_indexes.delete_index.error",
+    "translation": "इलास्टिक्स खोज इंडेक्स को हटाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.create_template_users_if_not_exists.template_create_failed",
+    "translation": "उपयोगकर्ताओं के लिए इलास्टिक्स खोज टेम्प्लेट बनाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.create_template_posts_if_not_exists.template_create_failed",
+    "translation": "पदों के लिए इलास्टिक्स खोज टेम्पलेट बनाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.create_template_channels_if_not_exists.template_create_failed",
+    "translation": "चैनलों के लिए इलास्टिक्स खोज टेम्पलेट बनाने में विफल"
+  },
+  {
+    "id": "ent.elasticsearch.create_client.connect_failed",
+    "translation": "Elasticsearch क्लाइंट सेट करना विफल"
+  },
+  {
+    "id": "ent.elasticsearch.aggregator_worker.index_job_failed.error",
+    "translation": "अनुक्रमण कार्य विफल होने के कारण इलास्टिक्स खोज एग्रीगेटर कार्यकर्ता विफल रहा"
+  },
+  {
+    "id": "ent.elasticsearch.aggregator_worker.get_indexes.error",
+    "translation": "इलास्टिक्स खोज एग्रीगेटर कार्यकर्ता अनुक्रमणिका प्राप्त करने में विफल रहा"
+  },
+  {
+    "id": "ent.elasticsearch.aggregator_worker.delete_indexes.error",
+    "translation": "इलास्टिक्स खोज एग्रीगेटर कार्यकर्ता इंडेक्स को हटाने में विफल रहा"
+  },
+  {
+    "id": "ent.elasticsearch.aggregator_worker.create_index_job.error",
+    "translation": "इलास्टिक्स खोज एग्रीगेटर कार्यकर्ता अनुक्रमण कार्य बनाने में विफल रहा"
+  },
+  {
+    "id": "ent.data_retention.run_failed.error",
+    "translation": "डेटा प्रतिधारण कार्य विफल रहा।"
+  },
+  {
+    "id": "ent.data_retention.policies.invalid_policy",
+    "translation": "नीति अमान्य है।"
+  },
+  {
+    "id": "ent.data_retention.policies.internal_error",
+    "translation": "हमें अनुरोधित कार्रवाई करने में त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "ent.data_retention.generic.license.error",
+    "translation": "आपका लाइसेंस डेटा प्रतिधारण का समर्थन नहीं करता है।"
+  },
+  {
+    "id": "ent.compliance.run_failed.error",
+    "translation": "'{{.JobName}}' कार्य के लिए '{{.FilePath}}' पर अनुपालन निर्यात विफल रहा"
+  },
+  {
+    "id": "ent.compliance.run_export.template_watcher.appError",
+    "translation": "निर्यात टेम्प्लेट लोड करने में असमर्थ. कृपया पुन: प्रयास करें।"
+  },
+  {
+    "id": "ent.compliance.global_relay.rewind_temporary_file.appError",
+    "translation": "ग्लोबल रिले अस्थायी निर्यात फ़ाइल को फिर से पढ़ने में असमर्थ।"
+  },
+  {
+    "id": "ent.compliance.csv.zip.creation.appError",
+    "translation": "ज़िप निर्यात फ़ाइल बनाने में असमर्थ।"
+  },
+  {
+    "id": "ent.compliance.csv.metadata.json.marshalling.appError",
+    "translation": "मेटाडेटा को जेसन में बदलने में असमर्थ।"
+  },
+  {
+    "id": "ent.compliance.csv.metadata.export.appError",
+    "translation": "ज़िप फ़ाइल में मेटाडेटा फ़ाइल जोड़ने में असमर्थ।"
+  },
+  {
+    "id": "ent.compliance.csv.header.export.appError",
+    "translation": "सीएसवी निर्यात में हेडर जोड़ने में असमर्थ।"
+  },
+  {
+    "id": "ent.compliance.csv.file.creation.appError",
+    "translation": "अस्थायी CSV निर्यात फ़ाइल बनाने में असमर्थ।"
+  },
+  {
+    "id": "ent.cluster.404.app_error",
+    "translation": "क्लस्टर API समापन बिंदु नहीं मिला।"
+  },
+  {
+    "id": "brand.save_brand_image.check_image_limits.app_error",
+    "translation": "छवि सीमा जांच विफल। संकल्प बहुत अधिक है।"
+  },
+  {
+    "id": "bleveengine.purge_user_index.error",
+    "translation": "उपयोगकर्ता अनुक्रमणिका को शुद्ध करने में विफल।"
+  },
+  {
+    "id": "bleveengine.purge_post_index.error",
+    "translation": "पोस्ट इंडेक्स को शुद्ध करने में विफल।"
+  },
+  {
+    "id": "bleveengine.purge_channel_index.error",
+    "translation": "चैनल अनुक्रमणिका को शुद्ध करने में विफल।"
+  },
+  {
+    "id": "bleveengine.indexer.do_job.parse_start_time.error",
+    "translation": "Bleve अनुक्रमण कार्यकर्ता प्रारंभ समय को पार्स करने में विफल रहा।"
+  },
+  {
+    "id": "bleveengine.indexer.do_job.parse_end_time.error",
+    "translation": "Bleve अनुक्रमण कार्यकर्ता समाप्ति समय को पार्स करने में विफल रहा।"
+  },
+  {
+    "id": "bleveengine.indexer.do_job.engine_inactive",
+    "translation": "Bleve अनुक्रमणिका कार्य चलाने में विफल: इंजन निष्क्रिय है।"
+  },
+  {
+    "id": "bleveengine.create_user_index.error",
+    "translation": "ब्लीव यूजर इंडेक्स बनाने में त्रुटि।"
+  },
+  {
+    "id": "bleveengine.create_post_index.error",
+    "translation": "ब्लीव पोस्ट इंडेक्स बनाने में त्रुटि।"
+  },
+  {
+    "id": "bleveengine.create_channel_index.error",
+    "translation": "ब्लेव चैनल इंडेक्स बनाने में त्रुटि।"
+  },
+  {
+    "id": "app.user_terms_of_service.save.app_error",
+    "translation": "सेवा की शर्तें सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.user_terms_of_service.get_by_user.no_rows.app_error",
+    "translation": "सेवा की कोई शर्तें नहीं मिलीं।"
+  },
+  {
+    "id": "model.command.is_valid.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.command.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.command.is_valid.autocomplete_data.app_error",
+    "translation": "अमान्य स्वतपूर्ण डेटा"
+  },
+  {
+    "id": "model.cluster.is_valid.type.app_error",
+    "translation": "प्रकार सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "model.cluster.is_valid.name.app_error",
+    "translation": "ClusterName सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "model.cluster.is_valid.last_ping_at.app_error",
+    "translation": "LastPingAt सेट होना चाहिए।"
+  },
+  {
+    "id": "model.cluster.is_valid.create_at.app_error",
+    "translation": "CreateAt सेट होना चाहिए।"
+  },
+  {
+    "id": "model.channel_member.is_valid.unread_level.app_error",
+    "translation": "अमान्य मार्क अपठित स्तर।"
+  },
+  {
+    "id": "model.channel_member.is_valid.notify_level.app_error",
+    "translation": "अमान्य सूचना स्तर।"
+  },
+  {
+    "id": "model.channel_member.is_valid.ignore_channel_mentions_value.app_error",
+    "translation": "अमान्य अनदेखा चैनल स्थिति का उल्लेख करता है।"
+  },
+  {
+    "id": "model.channel.is_valid.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.channel.is_valid.name.app_error",
+    "translation": "अमान्य चैनल नाम. गैर-प्रत्यक्ष संदेश चैनलों के लिए चैनल नाम में उपयोगकर्ता आईडी की अनुमति नहीं है।"
+  },
+  {
+    "id": "model.channel.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.bot.is_valid.update_at.app_error",
+    "translation": "पर अमान्य अद्यतन।"
+  },
+  {
+    "id": "model.bot.is_valid.create_at.app_error",
+    "translation": "अवैध निर्माण पर।"
+  },
+  {
+    "id": "model.authorize.is_valid.redirect_uri.app_error",
+    "translation": "अमान्य रीडायरेक्ट uri।"
+  },
+  {
+    "id": "model.authorize.is_valid.expires.app_error",
+    "translation": "समाप्त होने वाला है सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "model.authorize.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.access.is_valid.client_id.app_error",
+    "translation": "अमान्य क्लाइंट आईडी।"
+  },
+  {
+    "id": "model.access.is_valid.access_token.app_error",
+    "translation": "अमान्य पहुँच टोकन।"
   }
 ]
