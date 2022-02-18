@@ -7407,5 +7407,888 @@
   {
     "id": "model.access.is_valid.access_token.app_error",
     "translation": "अमान्य पहुँच टोकन।"
+  },
+  {
+    "id": "app.notification.body.dm.time",
+    "translation": "{{.घंटा}}:{{.मिनट}} {{.समयक्षेत्र}}"
+  },
+  {
+    "id": "api.user.add_direct_channels_and_forget.failed.error",
+    "translation": "उपयोगकर्ता user_id={{.UserId}}, team_id={{.TeamId}}, err={{.Error}} के लिए सीधे चैनल वरीयताएँ जोड़ने में विफल"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.start_trial_notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। अतिथि खातों को सक्षम करने के लिए **System Console > Authentication > Guest Access** पर जाएं।"
+  },
+  {
+    "id": "api.error_set_first_admin_complete_setup",
+    "translation": "स्टोर में पहले व्यवस्थापक पूर्ण सेटअप को सहेजने का प्रयास करने में त्रुटि।"
+  },
+  {
+    "id": "model.config.is_valid.saml_spidentifier_attribute.app_error",
+    "translation": "सेवा प्रदाता पहचानकर्ता आवश्यक है"
+  },
+  {
+    "id": "model.config.is_valid.saml_private_key.app_error",
+    "translation": "सेवा प्रदाता निजी कुंजी गायब है। क्या आप इसे अपलोड करना भूल गए?"
+  },
+  {
+    "id": "model.config.is_valid.saml_idp_descriptor_url.app_error",
+    "translation": "पहचान प्रदाता जारीकर्ता यूआरएल एक वैध यूआरएल होना चाहिए और http:// या https:// से शुरू होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.saml_email_attribute.app_error",
+    "translation": "अमान्य ईमेल विशेषता। सेट होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.max_notify_per_channel.app_error",
+    "translation": "टीम सेटिंग के लिए प्रति चैनल अमान्य अधिकतम सूचनाएं। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.listen_address.app_error",
+    "translation": "सेवा सेटिंग के लिए अमान्य सुनने का पता सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.ldap_username",
+    "translation": "AD/LDAP फ़ील्ड \"उपयोगकर्ता नाम विशेषता\" आवश्यक है।"
+  },
+  {
+    "id": "model.config.is_valid.ldap_security.app_error",
+    "translation": "AD/LDAP सेटिंग्स के लिए अमान्य कनेक्शन सुरक्षा। '', 'TLS', या 'STARTTLS' होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.file_driver.app_error",
+    "translation": "फ़ाइल सेटिंग्स के लिए अमान्य ड्राइवर नाम। 'स्थानीय' या 'अमेज़ॅन3' होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.collapsed_threads.autofollow.app_error",
+    "translation": "संक्षिप्त किए गए थ्रेड को सक्षम करने के लिए ThreadAutoFollow सही होना चाहिए"
+  },
+  {
+    "id": "model.compliance.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.command_hook.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "app.plugin.marketplace_disabled.app_error",
+    "translation": "मार्केटप्लेस अक्षम कर दिया गया है. विवरण के लिए कृपया अपने लॉग जांचें।"
+  },
+  {
+    "id": "app.plugin.marketplace_client.failed_to_fetch",
+    "translation": "मार्केटप्लेस सर्वर से प्लगइन्स प्राप्त करने में विफल।"
+  },
+  {
+    "id": "app.plugin.marketplace_client.app_error",
+    "translation": "मार्केटप्लेस क्लाइंट बनाने में विफल।"
+  },
+  {
+    "id": "app.plugin.manifest.app_error",
+    "translation": "निकाले गए प्लगइन के लिए मेनिफेस्ट खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.invalid_version.app_error",
+    "translation": "प्लगइन संस्करण को पार्स नहीं किया जा सका।"
+  },
+  {
+    "id": "app.plugin.invalid_id.app_error",
+    "translation": "प्लगइन Id कम से कम {{.Min}} वर्ण, अधिकतम {{.Max}} वर्णों का होना चाहिए और {{.Regex}} से मेल खाना चाहिए।"
+  },
+  {
+    "id": "app.plugin.install_marketplace_plugin.app_error",
+    "translation": "मार्केटप्लेस प्लगइन स्थापित करने में विफल।"
+  },
+  {
+    "id": "app.plugin.install_id_failed_remove.app_error",
+    "translation": "प्लगइन स्थापित करने में असमर्थ। समान आईडी वाला प्लग इन पहले से ही स्थापित है और निकालने में विफल रहा है।"
+  },
+  {
+    "id": "app.plugin.install_id.app_error",
+    "translation": "प्लगइन स्थापित करने में असमर्थ। समान आईडी वाला प्लग इन पहले से ही स्थापित है।"
+  },
+  {
+    "id": "app.plugin.install.app_error",
+    "translation": "प्लगइन स्थापित करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.get_statuses.app_error",
+    "translation": "प्लगइन स्थिति प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.get_public_key.get_file.app_error",
+    "translation": "स्टोर से सार्वजनिक कुंजी प्राप्त करते समय कोई त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "app.plugin.get_plugins.app_error",
+    "translation": "सक्रिय प्लगइन्स प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.get_cluster_plugin_statuses.app_error",
+    "translation": "क्लस्टर से प्लगइन स्थिति प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.flag_managed.app_error",
+    "translation": "फ़ाइल स्टोर द्वारा प्रबंधित प्लगइन सेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.filesystem.app_error",
+    "translation": "फाइल सिस्टम त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.plugin.extract.app_error",
+    "translation": "प्लगइन बंडल निकालने में एक त्रुटि हुई।"
+  },
+  {
+    "id": "app.plugin.disabled.app_error",
+    "translation": "प्लगइन्स अक्षम कर दिए गए हैं। विवरण के लिए कृपया अपने लॉग जांचें।"
+  },
+  {
+    "id": "app.plugin.delete_public_key.delete.app_error",
+    "translation": "सार्वजनिक कुंजी को हटाते समय कोई त्रुटि उत्पन्न हुई।"
+  },
+  {
+    "id": "app.plugin.deactivate.app_error",
+    "translation": "प्लगइन निष्क्रिय करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.config.app_error",
+    "translation": "config में प्लगइन स्थिति सहेजने में त्रुटि।"
+  },
+  {
+    "id": "app.plugin.cluster.save_config.app_error",
+    "translation": "क्लस्टरिंग सक्षम के साथ ReadOnlyConfig का उपयोग करते समय आपकी config.json फ़ाइल में प्लगइन कॉन्फ़िगरेशन को मैन्युअल रूप से अपडेट किया जाना चाहिए।"
+  },
+  {
+    "id": "app.oauth.update_app.updating.app_error",
+    "translation": "हमें ऐप को अपडेट करने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.oauth.update_app.find.app_error",
+    "translation": "अद्यतन करने के लिए मौजूदा ऐप को खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.oauth.save_app.save.app_error",
+    "translation": "ऐप्लिकेशन सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.oauth.save_app.existing.app_error",
+    "translation": "मौजूदा ऐप के लिए अपडेट कॉल करना होगा।"
+  },
+  {
+    "id": "app.oauth.remove_access_data.app_error",
+    "translation": "पहुंच टोकन को निकालने में असमर्थ।"
+  },
+  {
+    "id": "app.notification.subject.group_message.full",
+    "translation": "[{{ .SiteName }}] {{.ChannelName}} में {{.Month}} {{.Day}}, {{.Year}} को नया ग्रुप मैसेज"
+  },
+  {
+    "id": "app.notification.subject.direct.full",
+    "translation": "[{{.SiteName}}] {{.SenderDisplayName}} की ओर से {{.Month}} {{.Day}}, {{.Year}} को नया सीधा संदेश"
+  },
+  {
+    "id": "api.user.authorize_oauth_user.saml_response_too_long.app_error",
+    "translation": "SAML प्रतिक्रिया बहुत लंबी है"
+  },
+  {
+    "id": "api.templates.cloud_trial_ended_email.subtitle",
+    "translation": "{{.Name}}, मैटरमोस्ट क्लाउड एंटरप्राइज का आपका 14-दिवसीय नि:शुल्क परीक्षण आज, {{.TodayDate}} को समाप्त हो गया है। यह सुनिश्चित करने के लिए कृपया अपनी भुगतान जानकारी जोड़ें कि आपकी टीम क्लाउड एंटरप्राइज के लाभों का आनंद लेना जारी रख सके।"
+  },
+  {
+    "id": "api.team.update_restricted_domains.mismatch.app_error",
+    "translation": "सिस्टम कॉन्फिग द्वारा टीम को {{ .Domain }} तक प्रतिबंधित करने की अनुमति नहीं है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.slackimport.slack_add_users.merge_existing_failed",
+    "translation": "मेल खाने वाले ईमेल {{.Email}} और उपयोगकर्ता नाम {{.Username}} के साथ स्लैक उपयोगकर्ता का मौजूदा मैटरमोस्ट उपयोगकर्ता के साथ विलय हो गया, लेकिन वह उपयोगकर्ता को अपनी टीम में जोड़ने में असमर्थ था।\n"
+  },
+  {
+    "id": "api.server.warn_metric.support_email_not_configured.start_trial.notification_body",
+    "translation": "[सहायता ईमेल](https://docs.mattermost.com/administration/config-settings.html#support-email) को अपने संगठन के आंतरिक आईटी समर्थन के रूप में सेट करने के लिए कृपया **System Console > Site Configuration > Customization** पर जाएं। अंतिम उपयोगकर्ता फ़ीडबैक, ईमेल सूचनाओं और समर्थन अनुरोधों के लिए डेस्क ईमेल पता।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। एक बार आपके पास इलास्टिक्स खोज सर्वर होने के बाद, इलास्टिक्स खोज को कॉन्फ़िगर करने के लिए **System Console > Environment > Elasticsearch** पर जाएं।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। अपने SAML 2.0 प्रदाता के साथ एकीकृत करने के लिए **सिस्टम कंसोल> प्रमाणीकरण> SAML 2.0** पर जाएं।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। अपनी AD/LDAP सेवा को एकीकृत करने के लिए **सिस्टम कंसोल> प्रमाणीकरण> AD/LDAP** पर जाएं।"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
+    "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। बहु-कारक प्रमाणीकरण लागू करने के लिए **System Console > Authentication > MFA** पर जाएं।"
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.notification_body",
+    "translation": "परियोजनाओं में अक्सर संगठन के अंदर और बाहर दोनों जगह के लोग शामिल होते हैं। अतिथि खातों के साथ, आप बाहरी भागीदारों को अपने मैटरमोस्ट सिस्टम में ला सकते हैं और निर्दिष्ट कर सकते हैं कि वे किसके साथ काम कर सकते हैं और वे क्या देख सकते हैं।\n\n[अतिथि खातों को सक्षम करने के बारे में अधिक जानें](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)।\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.post.get_message_for_notification.images_sent",
+    "translation": {
+      "one": "{{.Count}} छवि भेजी गई: {{.Filenames}}",
+      "other": "{{.Count}} छवियां भेजी गईं: {{.Filenames}}"
+    }
+  },
+  {
+    "id": "api.error_get_first_admin_complete_setup",
+    "translation": "स्टोर से पहला व्यवस्थापक पूर्ण सेटअप पुनर्प्राप्त करने का प्रयास करने में त्रुटि।"
+  },
+  {
+    "id": "model.config.is_valid.saml_public_cert.app_error",
+    "translation": "सर्विस प्रोवाइडर पब्लिक सर्टिफिकेट गायब है। क्या आप इसे अपलोड करना भूल गए?"
+  },
+  {
+    "id": "model.config.is_valid.saml_idp_url.app_error",
+    "translation": "एसएएमएल एसएसओ यूआरएल एक मान्य यूआरएल होना चाहिए और http:// या https:// से शुरू होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.saml_idp_cert.app_error",
+    "translation": "पहचान प्रदाता सार्वजनिक प्रमाणपत्र गुम है। क्या आप इसे अपलोड करना भूल गए?"
+  },
+  {
+    "id": "model.config.is_valid.saml_guest_attribute.app_error",
+    "translation": "अमान्य अतिथि विशेषता। 'field=value' के रूप में होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.saml_canonical_algorithm.app_error",
+    "translation": "अमान्य विहित एल्गोरिथम।"
+  },
+  {
+    "id": "model.config.is_valid.saml_assertion_consumer_service_url.app_error",
+    "translation": "सेवा प्रदाता लॉगिन यूआरएल एक वैध यूआरएल होना चाहिए और http:// या https:// से शुरू होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.saml_admin_attribute.app_error",
+    "translation": "अमान्य व्यवस्थापक विशेषता। 'field=value' के रूप में होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.restrict_direct_message.app_error",
+    "translation": "अमान्य प्रत्यक्ष संदेश प्रतिबंध। 'कोई', या 'टीम' होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.read_timeout.app_error",
+    "translation": "पठन टाइमआउट के लिए अमान्य मान।"
+  },
+  {
+    "id": "model.config.is_valid.rate_sec.app_error",
+    "translation": "दर सीमा सेटिंग के लिए अमान्य प्रति सेकंड। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.rate_mem.app_error",
+    "translation": "दर सीमा सेटिंग्स के लिए अमान्य मेमोरी स्टोर आकार। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.password_length.app_error",
+    "translation": "न्यूनतम पासवर्ड लंबाई {{.MinLength}} से अधिक या उसके बराबर और {{.MaxLength}} से कम या उसके बराबर होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.smtp_username.app_error",
+    "translation": "संदेश निर्यात कार्य GlobalRelaySettings.SmtpUsername सेट होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.smtp_password.app_error",
+    "translation": "संदेश निर्यात कार्य GlobalRelaySettings.SmtpPassword अवश्य सेट होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.email_address.app_error",
+    "translation": "संदेश निर्यात कार्य GlobalRelaySettings.EmailAddress को एक मान्य ईमेल पते पर सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.customer_type.app_error",
+    "translation": "संदेश निर्यात GlobalRelaySettings.CustomerType को 'A9' या 'A10' में से किसी एक पर सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.global_relay.config_missing.app_error",
+    "translation": "संदेश निर्यात कार्य ExportFormat 'globalrelay' पर सेट है, लेकिन GlobalRelaySettings अनुपलब्ध हैं।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.export_type.app_error",
+    "translation": "संदेश निर्यात कार्य ExportFormat 'क्रिया', 'csv' या 'globalrelay' में से एक होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.export_from.app_error",
+    "translation": "संदेश निर्यात कार्य ExportFromTimestamp एक टाइमस्टैम्प होना चाहिए (यूनिक्स युग के बाद से सेकंड में व्यक्त)। केवल इस टाइमस्टैम्प के बाद भेजे गए संदेशों को निर्यात किया जाएगा।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.enable.app_error",
+    "translation": "संदेश निर्यात कार्य EnableExport सेटिंग या तो सही या गलत होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.daily_runtime.app_error",
+    "translation": "संदेश निर्यात कार्य DailyRuntime HH:MM के रूप में 24-घंटे का टाइम स्टैम्प होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.message_export.batch_size.app_error",
+    "translation": "संदेश निर्यात कार्य बैच आकार एक धनात्मक पूर्णांक होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.max_users.app_error",
+    "translation": "टीम सेटिंग के लिए प्रति टीम अमान्य अधिकतम उपयोगकर्ता। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.max_file_size.app_error",
+    "translation": "फ़ाइल सेटिंग के लिए अमान्य अधिकतम फ़ाइल आकार। शून्य से बड़ी एक पूर्ण संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.max_burst.app_error",
+    "translation": "अधिकतम बर्स्ट आकार शून्य से बड़ा होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.login_attempts.app_error",
+    "translation": "सेवा सेटिंग्स के लिए अमान्य अधिकतम लॉगिन प्रयास। अवश्य ही एक धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.localization.available_locales.app_error",
+    "translation": "उपलब्ध भाषाओं में डिफ़ॉल्ट क्लाइंट भाषा होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.ldap_sync_interval.app_error",
+    "translation": "अमान्य सिंक अंतराल समय। कम से कम एक मिनट होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.ldap_server",
+    "translation": "AD/LDAP फ़ील्ड \"AD/LDAP सर्वर\" आवश्यक है।"
+  },
+  {
+    "id": "model.config.is_valid.ldap_max_page_size.app_error",
+    "translation": "अमान्य अधिकतम पृष्ठ आकार मान."
+  },
+  {
+    "id": "model.config.is_valid.ldap_login_id",
+    "translation": "AD/LDAP फ़ील्ड \"लॉगिन आईडी विशेषता\" आवश्यक है।"
+  },
+  {
+    "id": "model.config.is_valid.ldap_id",
+    "translation": "AD/LDAP फ़ील्ड \"आईडी विशेषता\" आवश्यक है।"
+  },
+  {
+    "id": "model.config.is_valid.ldap_email",
+    "translation": "AD/LDAP फ़ील्ड \"ईमेल विशेषता\" आवश्यक है।"
+  },
+  {
+    "id": "model.config.is_valid.ldap_basedn",
+    "translation": "AD/LDAP फ़ील्ड \"बेसडीएन\" आवश्यक है।"
+  },
+  {
+    "id": "model.config.is_valid.image_proxy_type.app_error",
+    "translation": "अमान्य छवि प्रॉक्सी प्रकार. 'local' या 'atmos/camo' होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.group_unread_channels.app_error",
+    "translation": "सेवा सेटिंग के लिए अमान्य समूह अपठित चैनल. 'अक्षम', 'डिफ़ॉल्ट_ऑन', या 'डिफ़ॉल्ट_ऑफ़' होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.file_salt.app_error",
+    "translation": "फ़ाइल सेटिंग के लिए अमान्य सार्वजनिक लिंक नमक. 32 वर्ण या अधिक होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.encrypt_sql.app_error",
+    "translation": "SQL सेटिंग्स के लिए रेस्ट एनक्रिप्ट कुंजी पर अमान्य। 32 वर्ण या अधिक होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.email_security.app_error",
+    "translation": "ईमेल सेटिंग के लिए अमान्य कनेक्शन सुरक्षा. '', 'TLS', या 'STARTTLS' होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.email_notification_contents_type.app_error",
+    "translation": "ईमेल सेटिंग के लिए अमान्य ईमेल सूचना सामग्री प्रकार। या तो 'पूर्ण' या 'सामान्य' में से एक होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.email_batching_interval.app_error",
+    "translation": "ईमेल सेटिंग के लिए अमान्य ईमेल बैचिंग अंतराल. 30 सेकंड या उससे अधिक का होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.email_batching_buffer_size.app_error",
+    "translation": "ईमेल सेटिंग के लिए अमान्य ईमेल बैचिंग बफ़र आकार. शून्य या धनात्मक संख्या होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.request_timeout_seconds.app_error",
+    "translation": "इलास्टिक्स खोज अनुरोध टाइमआउट कम से कम 1 सेकंड होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.posts_aggregator_job_start_time.app_error",
+    "translation": "Elasticsearch PostsAggregatorJobStartTime सेटिंग \"hh:mm\" प्रारूप में एक समय होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.live_indexing_batch_size.app_error",
+    "translation": "Elasticsearch लाइव इंडेक्सिंग बैच का आकार कम से कम 1 होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.enable_searching.app_error",
+    "translation": "जब Elasticsearch EnableSearching को सही पर सेट किया जाता है, तो Elasticsearch EnableIndexing सेटिंग को सही पर सेट किया जाना चाहिए"
+  },
+  {
+    "id": "model.config.is_valid.elastic_search.enable_autocomplete.app_error",
+    "translation": "Elasticsearch EnableIndexing सेटिंग को सत्य पर सेट किया जाना चाहिए जब Elasticsearch सक्षम स्वत: पूर्ण सत्य पर सेट हो"
+  },
+  {
+    "id": "model.config.is_valid.directory.app_error",
+    "translation": "अमान्य स्थानीय संग्रहण निर्देशिका। एक गैर-रिक्त स्ट्रिंग होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.data_retention.message_retention_days_too_low.app_error",
+    "translation": "संदेश प्रतिधारण एक दिन या उससे अधिक समय का होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.data_retention.file_retention_days_too_low.app_error",
+    "translation": "फ़ाइल प्रतिधारण एक दिन या उससे अधिक समय तक होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.data_retention.deletion_job_start_time.app_error",
+    "translation": "डेटा प्रतिधारण कार्य प्रारंभ समय HH:MM के रूप में 24-घंटे का टाइम स्टैम्प होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.cluster_email_batching.app_error",
+    "translation": "क्लस्टरिंग सक्षम होने पर ईमेल बैचिंग सक्षम करने में असमर्थ।"
+  },
+  {
+    "id": "model.config.is_valid.bleve_search.filename.app_error",
+    "translation": "Bleve IndexingDir सेटिंग तब सेट की जानी चाहिए जब Bleve EnableIndexing सही पर सेट हो"
+  },
+  {
+    "id": "model.config.is_valid.bleve_search.enable_searching.app_error",
+    "translation": "जब Bleve EnableSearching को सही पर सेट किया जाता है, तो Bleve EnableIndexing सेटिंग को सही पर सेट किया जाना चाहिए"
+  },
+  {
+    "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
+    "translation": "जब Bleve EnableAutocomplete को सही पर सेट किया जाता है, तो Bleve EnableIndexing सेटिंग को सही पर सेट किया जाना चाहिए"
+  },
+  {
+    "id": "model.config.is_valid.bleve_search.bulk_indexing_time_window_seconds.app_error",
+    "translation": "Bleve बल्क इंडेक्सिंग टाइम विंडो कम से कम 1 सेकंड की होनी चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.atmos_camo_image_proxy_url.app_error",
+    "translation": "Atmos/camo के लिए अमान्य RemoteImageProxyURL. आपकी साझा कुंजी पर सेट होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.atmos_camo_image_proxy_options.app_error",
+    "translation": "atmos/camo के लिए अमान्य RemoteImageProxyOptions। आपकी साझा कुंजी पर सेट होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.allow_cookies_for_subdomains.app_error",
+    "translation": "उप डोमेन के लिए कुकीज़ की अनुमति देने के लिए SiteURL को सेट करना आवश्यक है।"
+  },
+  {
+    "id": "model.compliance.is_valid.start_end_at.app_error",
+    "translation": "To बड़ा होना चाहिए From से।"
+  },
+  {
+    "id": "model.compliance.is_valid.start_at.app_error",
+    "translation": "से एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.compliance.is_valid.end_at.app_error",
+    "translation": "के लिए एक वैध समय होना चाहिए।"
+  },
+  {
+    "id": "model.link_metadata.is_valid.data_type.app_error",
+    "translation": "लिंक मेटाडेटा डेटा दिए गए प्रकार से मेल नहीं खाता।"
+  },
+  {
+    "id": "model.link_metadata.is_valid.data.app_error",
+    "translation": "लिंक मेटाडेटा डेटा शून्य नहीं हो सकता।"
+  },
+  {
+    "id": "model.license_record.is_valid.id.app_error",
+    "translation": "लाइसेंस अपलोड करते समय आईडी के लिए अमान्य मान।"
+  },
+  {
+    "id": "model.license_record.is_valid.create_at.app_error",
+    "translation": "लाइसेंस अपलोड करते समय create_at के लिए अमान्य मान।"
+  },
+  {
+    "id": "model.job.is_valid.type.app_error",
+    "translation": "अमान्य कार्य प्रकार।"
+  },
+  {
+    "id": "model.job.is_valid.status.app_error",
+    "translation": "अमान्य कार्य स्थिति।"
+  },
+  {
+    "id": "model.job.is_valid.id.app_error",
+    "translation": "अमान्य कार्य Id।"
+  },
+  {
+    "id": "model.job.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.incoming_hook.username.app_error",
+    "translation": "अमान्य उपयोगकर्ता नाम।"
+  },
+  {
+    "id": "model.incoming_hook.user_id.app_error",
+    "translation": "अमान्य उपयोगकर्ता आइ डी।"
+  },
+  {
+    "id": "model.incoming_hook.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.incoming_hook.team_id.app_error",
+    "translation": "अमान्य टीम आईडी।"
+  },
+  {
+    "id": "model.incoming_hook.parse_data.app_error",
+    "translation": "आने वाले डेटा को पार्स करने में असमर्थ।"
+  },
+  {
+    "id": "model.incoming_hook.id.app_error",
+    "translation": "अमान्य पहचान पत्र।"
+  },
+  {
+    "id": "model.incoming_hook.icon_url.app_error",
+    "translation": "अमान्य पोस्ट आइकन।"
+  },
+  {
+    "id": "model.incoming_hook.display_name.app_error",
+    "translation": "अमान्य शीर्षक।"
+  },
+  {
+    "id": "model.incoming_hook.description.app_error",
+    "translation": "अमान्य विवरण।"
+  },
+  {
+    "id": "model.incoming_hook.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.incoming_hook.channel_id.app_error",
+    "translation": "अमान्य चैनल आईडी।"
+  },
+  {
+    "id": "model.guest.is_valid.email.app_error",
+    "translation": "अमान्य ईमेल।"
+  },
+  {
+    "id": "model.guest.is_valid.channel.app_error",
+    "translation": "अमान्य चैनल।"
+  },
+  {
+    "id": "model.group_syncable.syncable_id.app_error",
+    "translation": "समूह syncable करने योग्य के लिए अमान्य syncable करने योग्य आईडी।"
+  },
+  {
+    "id": "model.group_syncable.group_id.app_error",
+    "translation": "समूह syncable करने योग्य के लिए अमान्य समूह आईडी संपत्ति।"
+  },
+  {
+    "id": "model.group_member.user_id.app_error",
+    "translation": "समूह सदस्य के लिए अमान्य उपयोगकर्ता आईडी संपत्ति।"
+  },
+  {
+    "id": "model.group_member.group_id.app_error",
+    "translation": "समूह सदस्य के लिए अमान्य समूह आईडी संपत्ति।"
+  },
+  {
+    "id": "model.group.update_at.app_error",
+    "translation": "समूह के लिए संपत्ति पर अमान्य अद्यतन।"
+  },
+  {
+    "id": "model.group.source.app_error",
+    "translation": "समूह के लिए अमान्य स्रोत संपत्ति।"
+  },
+  {
+    "id": "model.group.remote_id.app_error",
+    "translation": "समूह के लिए अमान्य दूरस्थ आईडी संपत्ति।"
+  },
+  {
+    "id": "model.group.name.invalid_chars.app_error",
+    "translation": "समूह के लिए नाम संपत्ति में अमान्य वर्ण"
+  },
+  {
+    "id": "model.group.name.app_error",
+    "translation": "समूह के लिए अमान्य नाम संपत्ति।"
+  },
+  {
+    "id": "model.group.display_name.app_error",
+    "translation": "समूह के लिए अमान्य प्रदर्शन नाम संपत्ति।"
+  },
+  {
+    "id": "model.group.description.app_error",
+    "translation": "समूह के लिए अमान्य विवरण संपत्ति।"
+  },
+  {
+    "id": "model.group.create_at.app_error",
+    "translation": "समूह के लिए संपत्ति पर अवैध निर्माण।"
+  },
+  {
+    "id": "model.emoji.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.emoji.system_emoji_name.app_error",
+    "translation": "नाम मौजूदा सिस्टम इमोजी नाम के साथ विरोध करता है।"
+  },
+  {
+    "id": "model.emoji.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.config.is_valid.write_timeout.app_error",
+    "translation": "टाइमआउट लिखने के लिए अमान्य मान।"
+  },
+  {
+    "id": "app.system.warn_metric.bot_description",
+    "translation": "[सबसे महत्वपूर्ण सलाहकार के बारे में अधिक जानें](https://about.mattermost.com/default-channel-handle-documentation)"
+  },
+  {
+    "id": "app.system.get_onboarding_request.app_error",
+    "translation": "ऑनबोर्डिंग पूर्णता स्थिति प्राप्त करने में विफल।"
+  },
+  {
+    "id": "app.system.get_by_name.app_error",
+    "translation": "सिस्टम चर खोजने में असमर्थ।"
+  },
+  {
+    "id": "app.system.get.app_error",
+    "translation": "हमें सिस्टम गुण खोजने में त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.system.complete_onboarding_request.no_first_user",
+    "translation": "ऑनबोर्डिंग केवल एक सिस्टम प्रशासक द्वारा पूरा किया जा सकता है।"
+  },
+  {
+    "id": "app.system.complete_onboarding_request.app_error",
+    "translation": "संपूर्ण ऑनबोर्डिंग अनुरोध को डीकोड करने में विफल।"
+  },
+  {
+    "id": "app.submit_interactive_dialog.json_error",
+    "translation": "इंटरैक्टिव संवाद के लिए JSON को एन्कोड करने में त्रुटि हुई।"
+  },
+  {
+    "id": "app.status.get.missing.app_error",
+    "translation": "उस स्थिति के लिए कोई प्रविष्टि मौजूद नहीं है।"
+  },
+  {
+    "id": "app.status.get.app_error",
+    "translation": "स्थिति प्राप्त करने में त्रुटि आई।"
+  },
+  {
+    "id": "app.sharedchannel.dm_channel_creation.internal_error",
+    "translation": "एक सीधा साझा चैनल बनाते समय एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.session.update_device_id.app_error",
+    "translation": "डिवाइस आईडी अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.session.save.existing.app_error",
+    "translation": "मौजूदा सत्र को अपडेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.session.save.app_error",
+    "translation": "सत्र सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.session.remove_all_sessions_for_team.app_error",
+    "translation": "सभी सत्र निकालने में असमर्थ।"
+  },
+  {
+    "id": "app.session.remove.app_error",
+    "translation": "सत्र निकालने में असमर्थ।"
+  },
+  {
+    "id": "app.session.permanent_delete_sessions_by_user.app_error",
+    "translation": "उपयोगकर्ता के लिए सभी सत्र निकालने में असमर्थ।"
+  },
+  {
+    "id": "app.session.get_sessions.app_error",
+    "translation": "उपयोगकर्ता सत्र ढूंढते समय हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.session.get.app_error",
+    "translation": "हमें सत्र खोजने में एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.session.extend_session_expiry.app_error",
+    "translation": "सत्र की लंबाई बढ़ाने में असमर्थ"
+  },
+  {
+    "id": "app.session.analytics_session_count.app_error",
+    "translation": "सत्रों की गणना करने में असमर्थ।"
+  },
+  {
+    "id": "app.role.get_all.app_error",
+    "translation": "सारे रोल नहीं मिल पा रहे हैं।"
+  },
+  {
+    "id": "app.reaction.save.save.app_error",
+    "translation": "प्रतिक्रिया सहेजने में असमर्थ।"
+  },
+  {
+    "id": "app.preference.save.updating.app_error",
+    "translation": "प्राथमिकताएं अपडेट करते समय हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.preference.permanent_delete_by_user.app_error",
+    "translation": "वरीयताएँ हटाते समय हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.preference.get_category.app_error",
+    "translation": "प्राथमिकताएं ढूंढते समय हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.preference.get_all.app_error",
+    "translation": "प्राथमिकताएं ढूंढते समय हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.preference.get.app_error",
+    "translation": "प्राथमिकताएं ढूंढते समय हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.preference.delete.app_error",
+    "translation": "वरीयताएँ हटाते समय हमें एक त्रुटि का सामना करना पड़ा।"
+  },
+  {
+    "id": "app.post.permanent_delete_by_user.app_error",
+    "translation": "उपयोगकर्ता के लिए हटाने के लिए पदों का चयन करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.overwrite.app_error",
+    "translation": "पोस्ट को अधिलेखित करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.get_posts_batch_for_indexing.get.app_error",
+    "translation": "अनुक्रमण के लिए पोस्ट बैच प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.get_posts.app_error",
+    "translation": "पेजिंग के लिए सीमा पार हो गई है।"
+  },
+  {
+    "id": "app.post.get_post_id_around.app_error",
+    "translation": "समय से पोस्ट नहीं मिल पा रहा है।"
+  },
+  {
+    "id": "app.post.get_post_after_time.app_error",
+    "translation": "समय सीमा के बाद पोस्ट प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.get_flagged_posts.app_error",
+    "translation": "फ़्लैग किए गए पोस्ट प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.get_direct_posts.app_error",
+    "translation": "सीधे पोस्ट प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.get.app_error",
+    "translation": "पोस्ट नहीं मिल पा रहा है।"
+  },
+  {
+    "id": "app.post.delete.app_error",
+    "translation": "पोस्ट को हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.post.analytics_user_counts_posts_by_day.app_error",
+    "translation": "पोस्ट के साथ उपयोगकर्ता संख्या प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.analytics_posts_count_by_day.app_error",
+    "translation": "दिन के हिसाब से पोस्ट की संख्या प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.post.analytics_posts_count.app_error",
+    "translation": "पद संख्या प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin_store.save.app_error",
+    "translation": "प्लगइन कुंजी मान को सहेज या अपडेट नहीं कर सका।"
+  },
+  {
+    "id": "app.plugin_store.list.app_error",
+    "translation": "सभी प्लगइन कुंजियों को सूचीबद्ध करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin_store.get.app_error",
+    "translation": "प्लगइन कुंजी मान नहीं मिल सका।"
+  },
+  {
+    "id": "app.plugin_store.delete.app_error",
+    "translation": "प्लग इन कुंजी मान मिटाया नहीं जा सका।"
+  },
+  {
+    "id": "app.plugin.write_file.saving.app_error",
+    "translation": "फ़ाइल सहेजते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "app.plugin.write_file.read.app_error",
+    "translation": "फ़ाइल पढ़ते समय एक त्रुटि हुई।"
+  },
+  {
+    "id": "app.plugin.webapp_bundle.app_error",
+    "translation": "प्लगइन वेबएप बंडल जनरेट करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.upload_disabled.app_error",
+    "translation": "प्लगइन्स और/या प्लगइन अपलोड अक्षम कर दिए गए हैं।"
+  },
+  {
+    "id": "app.plugin.sync.read_local_folder.app_error",
+    "translation": "स्थानीय प्लगइन्स फ़ोल्डर पढ़ने में त्रुटि।"
+  },
+  {
+    "id": "app.plugin.sync.list_filestore.app_error",
+    "translation": "फ़ाइल संग्रह में प्लग इन फ़ोल्डर से फ़ाइलें पढ़ने में त्रुटि."
+  },
+  {
+    "id": "app.plugin.store_signature.app_error",
+    "translation": "कॉन्फ़िगर की गई फ़ाइल संग्रह में प्लग इन हस्ताक्षर संगृहीत करने में असमर्थ."
+  },
+  {
+    "id": "app.plugin.store_bundle.app_error",
+    "translation": "प्लग इन को कॉन्फ़िगर की गई फ़ाइल स्टोर में संग्रहीत करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.signature_decode.app_error",
+    "translation": "बेस 64 हस्ताक्षर को डीकोड करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.restart.app_error",
+    "translation": "अपग्रेड पर प्लग इन को पुनरारंभ करने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.remove_bundle.app_error",
+    "translation": "फ़ाइल स्टोर से प्लगइन बंडल को निकालने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.remove.app_error",
+    "translation": "प्लगइन हटाने में असमर्थ।"
+  },
+  {
+    "id": "app.plugin.not_installed.app_error",
+    "translation": "प्लगइन स्थापित नहीं है।"
+  },
+  {
+    "id": "app.plugin.mvdir.app_error",
+    "translation": "प्लगइन को अस्थायी निर्देशिका से अंतिम गंतव्य तक ले जाने में असमर्थ। एक अन्य प्लगइन समान निर्देशिका नाम का उपयोग कर सकता है।"
+  },
+  {
+    "id": "app.plugin.modify_saml.app_error",
+    "translation": "saml फ़ाइलों को संशोधित नहीं कर सकता।"
+  },
+  {
+    "id": "app.plugin.marshal.app_error",
+    "translation": "मार्केटप्लेस प्लगइन्स को मार्शल करने में विफल।"
+  },
+  {
+    "id": "app.plugin.marketplace_plugins.signature_not_found.app_error",
+    "translation": "अनुरोधित मार्केटप्लेस प्लगइन हस्ताक्षर नहीं मिल सका।"
+  },
+  {
+    "id": "app.plugin.marketplace_plugins.not_found.app_error",
+    "translation": "अनुरोधित मार्केटप्लेस प्लगइन नहीं मिला।"
+  },
+  {
+    "id": "app.plugin.marketplace_plugin_request.app_error",
+    "translation": "मार्केटप्लेस प्लगइन अनुरोध को डीकोड करने में विफल।"
   }
 ]
