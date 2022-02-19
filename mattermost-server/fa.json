@@ -1868,10 +1868,6 @@
     "translation": "مجوز آزمایشی بازیابی نمی شود. برای درخواست مجوز به https://mattermost.com/trial/ مراجعه کنید."
   },
   {
-    "id": "api.server.warn_metric.contact_us",
-    "translation": "تماس با ما"
-  },
-  {
     "id": "api.server.warn_metric.contacting_us",
     "translation": "تماس با ما"
   },
@@ -2058,10 +2054,6 @@
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",
     "translation": "دوره آزمایشی تجاری شما اکنون فعال است. برای فعال کردن مجوزهای پیشرفته به ** سیستم کنسول> مدیریت کاربر> مجوزها ** بروید."
-  },
-  {
-    "id": "api.server.warn_metric.start_trial",
-    "translation": "شروع آزمایش"
   },
   {
     "id": "api.server.warn_metric.starting_trial",
@@ -4756,16 +4748,8 @@
     "translation": "در ذخیره ویژگی سیستم با خطایی روبرو شدیم."
   },
   {
-    "id": "app.system.warn_metric.bot_description",
-    "translation": "[درباره مشاوربیشتر بدانید](https://about.mattermost.com/default-channel-handle-documentation)"
-  },
-  {
     "id": "app.system.warn_metric.bot_displayname",
     "translation": "مشاور Mattermost"
-  },
-  {
-    "id": "app.system.warn_metric.notification.empty_admin_list.app_error",
-    "translation": "لیست مدیران خالی است"
   },
   {
     "id": "app.system.warn_metric.notification.invalid_metric.app_error",
@@ -7548,10 +7532,6 @@
     "translation": "کاربر یافت نشد."
   },
   {
-    "id": "api.server.warn_metric.support_email_not_configured.notification_title",
-    "translation": "آدرس ایمیل پشتیبانی خود را تنظیم کنید"
-  },
-  {
     "id": "api.server.license_up_for_renewal.error_sending_email",
     "translation": "مجوز برای ایمیل های تمدید ارسال نشد"
   },
@@ -9050,10 +9030,6 @@
   {
     "id": "api.templates.reset_body.info",
     "translation": "لینک بازنشانی رمز عبور 24 ساعت دیگر منقضی می شود."
-  },
-  {
-    "id": "api.server.warn_metric.support_email_not_configured.start_trial.notification_body",
-    "translation": "لطفاً به **کنسول سیستم > پیکربندی سایت > سفارشی‌سازی** بروید تا [ایمیل پشتیبانی] (https://docs.mattermost.com/administration/config-settings.html#support-email) را به عنوان پشتیبانی IT داخلی سازمان خود تنظیم کنید. آدرس ایمیل میز برای بازخورد کاربر نهایی، اعلان‌های ایمیل، و درخواست‌های پشتیبانی."
   },
   {
     "id": "api.error_set_first_admin_visit_marketplace_status",

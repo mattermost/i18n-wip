@@ -2936,16 +2936,8 @@
     "translation": "ईमेल {{.Email}} और पासवर्ड {{.Password}} के साथ इंटीग्रेशन/स्लैक बॉट उपयोगकर्ता आयात किया गया है।\n"
   },
   {
-    "id": "api.server.warn_metric.support_email_not_configured.notification_title",
-    "translation": "अपना समर्थन ईमेल सेट करें"
-  },
-  {
     "id": "api.server.warn_metric.starting_trial",
     "translation": "परीक्षण प्राप्त करना"
-  },
-  {
-    "id": "api.server.warn_metric.start_trial",
-    "translation": "शुरू परीक्षण"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",
@@ -3861,10 +3853,6 @@
   {
     "id": "app.webhooks.save_outgoing.app_error",
     "translation": "आउटगोइंगवेबहुक को सहेजने में असमर्थ।"
-  },
-  {
-    "id": "api.server.warn_metric.contacting_us",
-    "translation": "हमसे संपर्क करना"
   },
   {
     "id": "api.server.warn_metric.contact_us",
@@ -6613,10 +6601,6 @@
     "translation": "{{.WarnMetricName}} के लिए मान संग्रहीत करने में विफल"
   },
   {
-    "id": "app.system.warn_metric.notification.invalid_metric.app_error",
-    "translation": "मीट्रिक नहीं मिल सका."
-  },
-  {
     "id": "app.system.warn_metric.notification.empty_admin_list.app_error",
     "translation": "व्यवस्थापकों की सूची खाली है।"
   },
@@ -7605,10 +7589,6 @@
     "translation": "मेल खाने वाले ईमेल {{.Email}} और उपयोगकर्ता नाम {{.Username}} के साथ स्लैक उपयोगकर्ता का मौजूदा मैटरमोस्ट उपयोगकर्ता के साथ विलय हो गया, लेकिन वह उपयोगकर्ता को अपनी टीम में जोड़ने में असमर्थ था।\n"
   },
   {
-    "id": "api.server.warn_metric.support_email_not_configured.start_trial.notification_body",
-    "translation": "[सहायता ईमेल](https://docs.mattermost.com/administration/config-settings.html#support-email) को अपने संगठन के आंतरिक आईटी समर्थन के रूप में सेट करने के लिए कृपया **System Console > Site Configuration > Customization** पर जाएं। अंतिम उपयोगकर्ता फ़ीडबैक, ईमेल सूचनाओं और समर्थन अनुरोधों के लिए डेस्क ईमेल पता।"
-  },
-  {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
     "translation": "आपका एंटरप्राइज़ परीक्षण अब सक्रिय है। एक बार आपके पास इलास्टिक्स खोज सर्वर होने के बाद, इलास्टिक्स खोज को कॉन्फ़िगर करने के लिए **System Console > Environment > Elasticsearch** पर जाएं।"
   },
@@ -8034,10 +8014,6 @@
   {
     "id": "model.config.is_valid.write_timeout.app_error",
     "translation": "टाइमआउट लिखने के लिए अमान्य मान।"
-  },
-  {
-    "id": "app.system.warn_metric.bot_description",
-    "translation": "[सबसे महत्वपूर्ण सलाहकार के बारे में अधिक जानें](https://about.mattermost.com/default-channel-handle-documentation)"
   },
   {
     "id": "app.system.get_onboarding_request.app_error",

@@ -5416,10 +5416,6 @@
     "translation": "Napište nám e-mail"
   },
   {
-    "id": "api.server.warn_metric.contacting_us",
-    "translation": "Kontaktujte nás"
-  },
-  {
     "id": "api.server.warn_metric.contact_us",
     "translation": "Kontaktujte nás"
   },
@@ -5692,10 +5688,6 @@
     "translation": "Nepodařilo se smazat webhook."
   },
   {
-    "id": "app.system.warn_metric.notification.empty_admin_list.app_error",
-    "translation": "Seznam správců je prázdný."
-  },
-  {
     "id": "app.oauth.save_app.save.app_error",
     "translation": "Nepodařilo se uložit aplikaci."
   },
@@ -5914,10 +5906,6 @@
   {
     "id": "app.role.get_by_name.app_error",
     "translation": "Nemohu získat roli."
-  },
-  {
-    "id": "app.system.warn_metric.notification.invalid_metric.app_error",
-    "translation": "Nemohu najít metriku."
   },
   {
     "id": "store.sql_command.update.missing.app_error",
@@ -6424,10 +6412,6 @@
     "translation": "Vyčištění starých oznámení selhalo"
   },
   {
-    "id": "api.server.warn_metric.starting_trial",
-    "translation": "Získání testu"
-  },
-  {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",
     "translation": "Váš Enterprise test je nyní aktivní. Jděte do **Systémová konzole > Správa uživatelů > Oprávnění ** pro povolení Pokročilých oprávnění."
   },
@@ -6902,10 +6886,6 @@
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
     "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
-  },
-  {
-    "id": "api.server.warn_metric.start_trial",
-    "translation": "Zahájit test"
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",

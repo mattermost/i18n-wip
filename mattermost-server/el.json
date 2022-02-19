@@ -1411,10 +1411,6 @@
     "translation": "Αίτημα επικοινωνίας με τη Mattermost. Ενδιαφέρομαι να μάθω περισσότερα σχετικά με τη χρήση Λογαριασμών Επισκεπτών.\n"
   },
   {
-    "id": "api.server.warn_metric.contacting_us",
-    "translation": "Επικοινωνήστε μαζί μας"
-  },
-  {
     "id": "api.server.warn_metric.contact_us",
     "translation": "Επικοινωνήστε μαζί μας"
   },
@@ -2223,16 +2219,8 @@
     "translation": "Έγινε εισαγωγή του χρήστη Integration/Slack Bot με email {{.Email}} και κωδικό πρόσβασης {{.Password}}.\n"
   },
   {
-    "id": "api.server.warn_metric.support_email_not_configured.start_trial.notification_body",
-    "translation": "Μεταβείτε στην ενότητα **Κονσόλα συστήματος > Διαμόρφωση ιστότοπου > Προσαρμογή** για να ορίσετε το [Email υποστήριξης](https://docs.mattermost.com/administration/config-settings.html#support-email) του τμήματος πληροφορικής υποστήριξης του οργανισμού σας για να λαμβάνετε σχόλια τελικών χρηστών, ειδοποιήσεις μέσω email και αιτήματα υποστήριξης."
-  },
-  {
     "id": "api.server.warn_metric.support_email_not_configured.notification_title",
     "translation": "Ορίστε τη διεύθυνση email υποστήριξης"
-  },
-  {
-    "id": "api.server.warn_metric.starting_trial",
-    "translation": "Λαμβάνοντας τη δοκιμή"
   },
   {
     "id": "api.server.warn_metric.start_trial",
