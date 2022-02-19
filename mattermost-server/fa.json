@@ -1868,10 +1868,6 @@
     "translation": "مجوز آزمایشی بازیابی نمی شود. برای درخواست مجوز به https://mattermost.com/trial/ مراجعه کنید."
   },
   {
-    "id": "api.server.warn_metric.contacting_us",
-    "translation": "تماس با ما"
-  },
-  {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
     "translation": "درخواست تماس با ما Mattermost. من علاقه مندم درباره استفاده از حساب های مهمان بیشتر بیاموزم. \r\n"
   },
@@ -2054,10 +2050,6 @@
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",
     "translation": "دوره آزمایشی تجاری شما اکنون فعال است. برای فعال کردن مجوزهای پیشرفته به ** سیستم کنسول> مدیریت کاربر> مجوزها ** بروید."
-  },
-  {
-    "id": "api.server.warn_metric.starting_trial",
-    "translation": "در حال گرفتن آزمایش"
   },
   {
     "id": "api.slackimport.slack_add_bot_user.email_pwd",
@@ -4750,10 +4742,6 @@
   {
     "id": "app.system.warn_metric.bot_displayname",
     "translation": "مشاور Mattermost"
-  },
-  {
-    "id": "app.system.warn_metric.notification.invalid_metric.app_error",
-    "translation": "معیار یافت نشد."
   },
   {
     "id": "app.system.warn_metric.store.app_error",

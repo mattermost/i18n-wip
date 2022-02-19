@@ -12,20 +12,12 @@
     "translation": "\nДададзеныя каналы:\n"
   },
   {
-    "id": "api.server.warn_metric.start_trial",
-    "translation": "Пачаць пробную версію"
-  },
-  {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
     "translation": "Павышэнне Прадукцыйнасці"
   },
   {
     "id": "api.server.warn_metric.email_us",
     "translation": "Напішыце нам"
-  },
-  {
-    "id": "api.server.warn_metric.contact_us",
-    "translation": "Звяжыцеся з намі"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_email_header",

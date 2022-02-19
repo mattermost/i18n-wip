@@ -1411,10 +1411,6 @@
     "translation": "Αίτημα επικοινωνίας με τη Mattermost. Ενδιαφέρομαι να μάθω περισσότερα σχετικά με τη χρήση Λογαριασμών Επισκεπτών.\n"
   },
   {
-    "id": "api.server.warn_metric.contact_us",
-    "translation": "Επικοινωνήστε μαζί μας"
-  },
-  {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
     "translation": "Δεν ήταν δυνατή η ανάκτηση της δοκιμαστικής άδειας. Επισκεφτείτε τη διεύθυνση https://mattermost.com/trial/ για να αποκτήσετε μία."
   },
@@ -2217,10 +2213,6 @@
   {
     "id": "api.slackimport.slack_add_bot_user.email_pwd",
     "translation": "Έγινε εισαγωγή του χρήστη Integration/Slack Bot με email {{.Email}} και κωδικό πρόσβασης {{.Password}}.\n"
-  },
-  {
-    "id": "api.server.warn_metric.support_email_not_configured.notification_title",
-    "translation": "Ορίστε τη διεύθυνση email υποστήριξης"
   },
   {
     "id": "api.server.warn_metric.start_trial",

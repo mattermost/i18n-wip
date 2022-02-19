@@ -5416,10 +5416,6 @@
     "translation": "Napište nám e-mail"
   },
   {
-    "id": "api.server.warn_metric.contact_us",
-    "translation": "Kontaktujte nás"
-  },
-  {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
     "translation": "Děkujeme, že jste se obrátili na Mattermost. Brzy se vám ozveme."
   },
