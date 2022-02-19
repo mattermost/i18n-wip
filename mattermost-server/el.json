@@ -2215,10 +2215,6 @@
     "translation": "Έγινε εισαγωγή του χρήστη Integration/Slack Bot με email {{.Email}} και κωδικό πρόσβασης {{.Password}}.\n"
   },
   {
-    "id": "api.server.warn_metric.start_trial",
-    "translation": "Ξεκινήστε τη δοκιμή"
-  },
-  {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",
     "translation": "Η Εταιρική σας δοκιμαστική έκδοση είναι πλέον ενεργή. Μεταβείτε στην ενότητα **Κονσόλα συστήματος > Διαχείριση χρηστών > Δικαιώματα** για να ενεργοποιήσετε τα Προηγμένα δικαιώματα."
   },
