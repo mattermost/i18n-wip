@@ -465,5 +465,9 @@
   "mobile.offlineIndicator.offline": "ഇന്റർനെറ്റ് കണക്ഷനില്ല",
   "mobile.offlineIndicator.connecting": "ബന്ധിപ്പിക്കുന്നു...",
   "mobile.offlineIndicator.connected": "ബന്ധിപ്പിച്ചു",
-  "mobile.oauth.try_again": "വീണ്ടും ശ്രമിക്കുക"
+  "mobile.oauth.try_again": "വീണ്ടും ശ്രമിക്കുക",
+  "post_body.commentedOn": "{name}{apostrophe} സന്ദേശത്തിൽ അഭിപ്രായമിട്ടു: ",
+  "post_body.check_for_out_of_channel_mentions.message.one": "പരാമർശിച്ചെങ്കിലും ചാനലിൽ ഇല്ല. ഇഷ്ടമുണ്ടോ ",
+  "post_body.check_for_out_of_channel_mentions.message.multiple": "പരാമർശിച്ചെങ്കിലും അവ ചാനലിലില്ല. ഇഷ്ടമുണ്ടോ ",
+  "post_body.check_for_out_of_channel_mentions.message_last": "? അവർക്ക് എല്ലാ സന്ദേശ ചരിത്രത്തിലേക്കും ആക്സസ് ഉണ്ടായിരിക്കും."
 }
