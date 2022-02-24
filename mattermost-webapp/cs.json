@@ -1176,7 +1176,6 @@
   "admin.sql.traceDescription": "(Vývojářský režim), Když je pravda, spouštění příkazů SQL je zaznamenáváno do protokolu.",
   "admin.support.aboutDesc": "Adresa URL pro odkaz O nás na stránkách pro přihlášení a registraci do Mattermost. Pokud je toto pole prázdné, je odkaz O nás před uživateli skrytý.",
   "admin.support.aboutTitle": "O odkazu:",
-  "admin.support.emailHelp": "E-mailová adresa pro zasílání požadavků na podporu, zobrazená v emailových upozorněních a tutoriálu pro uživatele.",
   "admin.support.emailTitle": "Email na podporu:",
   "admin.support.helpDesc": "Adresa URL pro odkaz O nás na stránkách pro přihlášení a registraci do Mattermost. Pokud je toto pole prázdné, je odkaz O nás před uživateli skrytý.",
   "admin.support.helpTitle": "Odkaz nápověda:",

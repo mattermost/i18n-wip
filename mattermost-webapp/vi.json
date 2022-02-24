@@ -1985,7 +1985,6 @@
   "admin.sql.traceTitle": "Ghi nhật ký câu lệnh SQL: ",
   "admin.support.aboutDesc": "URL cho liên kết Giới thiệu trên các trang đăng ký và đăng nhập Mattermost. Nếu trường này trống, liên kết Giới thiệu bị ẩn khỏi người dùng.",
   "admin.support.aboutTitle": "Giới thiệu về Liên kết:",
-  "admin.support.emailHelp": "Địa chỉ email hiển thị trên thông báo email và trong khi hướng dẫn người dùng cuối đặt câu hỏi hỗ trợ.",
   "admin.support.emailTitle": "Email Hỗ trợ:",
   "admin.support.enableAskCommunityDesc": "Khi đúng, liên kết \"Hỏi cộng đồng \"xuất hiện trên giao diện người dùng Mattermost và Menu chính, cho phép người dùng tham gia Cộng đồng Mattermost để đặt câu hỏi và giúp người khác khắc phục sự cố. Khi sai, liên kết bị ẩn với người dùng.",
   "admin.support.enableAskCommunityTitle": "Bật Liên kết Cộng đồng Hỏi:",
