@@ -8254,5 +8254,133 @@
   {
     "id": "app.plugin.marketplace_plugin_request.app_error",
     "translation": "मार्केटप्लेस प्लगइन अनुरोध को डीकोड करने में विफल।"
+  },
+  {
+    "id": "model.user_access_token.is_valid.token.app_error",
+    "translation": "अमान्य प्रवेश टोकन।"
+  },
+  {
+    "id": "model.user.is_valid.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.locale.app_error",
+    "translation": "अमान्य स्थान।"
+  },
+  {
+    "id": "model.user.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.user.is_valid.auth_data_type.app_error",
+    "translation": "अमान्य उपयोगकर्ता, प्रमाणन डेटा को प्रमाणन प्रकार के साथ सेट किया जाना चाहिए।"
+  },
+  {
+    "id": "model.team.is_valid.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.team.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.session.is_valid.user_id.app_error",
+    "translation": "सत्र के लिए अमान्य UserId फ़ील्ड।"
+  },
+  {
+    "id": "model.session.is_valid.id.app_error",
+    "translation": "सत्र के लिए अमान्य आईडी फ़ील्ड।"
+  },
+  {
+    "id": "model.session.is_valid.create_at.app_error",
+    "translation": "सत्र के लिए अमान्य CreateAt फ़ील्ड।"
+  },
+  {
+    "id": "model.search_params_list.is_valid.include_deleted_channels.app_error",
+    "translation": "सभी शामिल हटाए गए चैनल पैरा का एक ही मान होना चाहिए।"
+  },
+  {
+    "id": "model.reaction.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.post.is_valid.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.post.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.oauth.is_valid.update_at.app_error",
+    "translation": "पर अद्यतन एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.oauth.is_valid.description.app_error",
+    "translation": "अमान्य विवरण।"
+  },
+  {
+    "id": "model.oauth.is_valid.creator_id.app_error",
+    "translation": "अमान्य क्रिएटर आईडी।"
+  },
+  {
+    "id": "model.oauth.is_valid.create_at.app_error",
+    "translation": "पर बनाएं एक मान्य समय होना चाहिए।"
+  },
+  {
+    "id": "model.oauth.is_valid.client_secret.app_error",
+    "translation": "अमान्य ग्राहक रहस्य।"
+  },
+  {
+    "id": "model.oauth.is_valid.callback.app_error",
+    "translation": "कॉलबैक यूआरएल एक वैध यूआरएल होना चाहिए और http:// या https:// से शुरू होना चाहिए।"
+  },
+  {
+    "id": "model.oauth.is_valid.app_id.app_error",
+    "translation": "अमान्य ऐप्लिकेशन आईडी।"
+  },
+  {
+    "id": "model.link_metadata.is_valid.url.app_error",
+    "translation": "लिंक मेटाडेटा URL सेट होना चाहिए।"
+  },
+  {
+    "id": "model.link_metadata.is_valid.type.app_error",
+    "translation": "अमान्य लिंक मेटाडेटा प्रकार।"
+  },
+  {
+    "id": "model.link_metadata.is_valid.timestamp.app_error",
+    "translation": "लिंक मेटाडेटा टाइमस्टैम्प गैर-शून्य होना चाहिए और निकटतम घंटे तक गोल होना चाहिए।"
+  },
+  {
+    "id": "Boards",
+    "translation": "बोर्डों"
+  },
+  {
+    "id": "web.error.unsupported_browser.browser_title.edge",
+    "translation": "माइक्रोसॉफ्ट एज"
+  },
+  {
+    "id": "store.sql.convert_string_map",
+    "translation": "FromDb: StringMap को *string . में बदलने में असमर्थ"
+  },
+  {
+    "id": "store.sql.convert_string_interface",
+    "translation": "FromDb: StringInterface को *string . में बदलने में असमर्थ"
+  },
+  {
+    "id": "store.sql.convert_string_array",
+    "translation": "FromDb: StringArray को *string . में बदलने में असमर्थ"
+  },
+  {
+    "id": "searchengine.bleve.disabled.error",
+    "translation": "Bleve अनुक्रमणिका को शुद्ध करने में त्रुटि: इंजन अक्षम है"
   }
 ]
