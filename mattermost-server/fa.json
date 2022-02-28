@@ -1,1 +1,82 @@
-{}
+[
+  {
+    "id": "app.webhooks.save_outgoing.override.app_error",
+    "translation": "شما نمی توانید یک وب هوک خروجی موجود را باز نویسی کنید."
+  },
+  {
+    "id": "app.webhooks.save_incoming.app_error",
+    "translation": "نمی توان وب هوک های ورودی را ذخیره کرد."
+  },
+  {
+    "id": "app.webhooks.analytics_outgoing_count.app_error",
+    "translation": "نمی توان وب هوک های خروجی را شمارش کرد."
+  },
+  {
+    "id": "app.webhooks.analytics_incoming_count.app_error",
+    "translation": "نمی توان وب هوک های ورودی را شمارش کرد."
+  },
+  {
+    "id": "app.valid_password_generic.app_error",
+    "translation": "کلمه عبور معتبر نمی باشد"
+  },
+  {
+    "id": "app.webhooks.delete_incoming.app_error",
+    "translation": "حذف وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.delete_outgoing.app_error",
+    "translation": "حذف وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_team.app_error",
+    "translation": "دریافت وب هوک ها ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_channel.app_error",
+    "translation": "حذف وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_outgoing_by_user.app_error",
+    "translation": "حذف وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_user.app_error",
+    "translation": "حذف وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.permanent_delete_incoming_by_channel.app_error",
+    "translation": "حذف وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.get_outgoing.app_error",
+    "translation": "دریافت وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.get_outgoing_by_channel.app_error",
+    "translation": "دریافت وب هوک ها ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_user.app_error",
+    "translation": "دریافت وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.get_incoming.app_error",
+    "translation": "دریافت وب هوک ممکن نیست."
+  },
+  {
+    "id": "app.webhooks.get_incoming_by_channel.app_error",
+    "translation": "دریافت وب هوک ها ممکن نیست."
+  },
+  {
+    "id": "Channels",
+    "translation": "کانال ها"
+  },
+  {
+    "id": "app.webhooks.save_outgoing.app_error",
+    "translation": "نمی توان وب هوک های خروجی را ذخیره کرد."
+  },
+  {
+    "id": "app.webhooks.save_incoming.existing.app_error",
+    "translation": "شما نمی توانید یک وب هوک ورودی موجود را باز نویسی کنید."
+  }
+]
