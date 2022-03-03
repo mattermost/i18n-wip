@@ -3768,10 +3768,6 @@
     "translation": "Hlavička kanálu je příliš dlouhá."
   },
   {
-    "id": "app.import.validate_channel_import_data.display_name_missing.error",
-    "translation": "Chybějící požadovaná vlastnost kanálu: display_name"
-  },
-  {
     "id": "api.outgoing_webhook.disabled.app_error",
     "translation": "Odchozí webhooky byly zakázány systémovým administrátorem."
   },

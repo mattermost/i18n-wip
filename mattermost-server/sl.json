@@ -3446,10 +3446,6 @@
     "translation": "Glava kanala je predolga."
   },
   {
-    "id": "app.import.validate_channel_import_data.display_name_missing.error",
-    "translation": "Manjka zahtevana lastnost kanala: display_name"
-  },
-  {
     "id": "app.import.validate_channel_import_data.display_name_length.error",
     "translation": "Kanal display_name ni znotraj dovoljenih omejitev dolžine."
   },

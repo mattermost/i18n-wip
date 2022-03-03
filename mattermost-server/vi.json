@@ -1260,10 +1260,6 @@
     "translation": "Tên kênh quá dài."
   },
   {
-    "id": "app.import.validate_channel_import_data.display_name_missing.error",
-    "translation": "Thiếu thuộc tính kênh bắt buộc: display_name"
-  },
-  {
     "id": "app.import.validate_channel_import_data.display_name_length.error",
     "translation": "Kênh display_name không nằm trong giới hạn độ dài cho phép."
   },

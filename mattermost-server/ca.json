@@ -1312,10 +1312,6 @@
     "translation": "L'encapçalament del canal és massa llarg."
   },
   {
-    "id": "app.import.validate_channel_import_data.display_name_missing.error",
-    "translation": "Falta la propietat necessària del canal: «display_name»"
-  },
-  {
     "id": "app.import.validate_channel_import_data.display_name_length.error",
     "translation": "El «display_name» del canal no està dins de les restriccions de longitud permeses."
   },

@@ -2052,10 +2052,6 @@
     "translation": "Kanavan otsikko on liian pitkä."
   },
   {
-    "id": "app.import.validate_channel_import_data.display_name_missing.error",
-    "translation": "Puuttuva vaadittu kanavan ominaisuus: display_name"
-  },
-  {
     "id": "app.import.validate_channel_import_data.display_name_length.error",
     "translation": "Kanavan display_name ei ole sallittujen pituusrajojen mukainen."
   },
