@@ -5701,10 +5701,6 @@
     "translation": "चैनल सदस्यों के बैच का चयन करने में विफल।"
   },
   {
-    "id": "app.channel.increment_mention_count.app_error",
-    "translation": "उल्लेखों की संख्या बढ़ाने में असमर्थ।"
-  },
-  {
     "id": "app.channel.get_unread.app_error",
     "translation": "चैनल को अपठित संदेश प्राप्त करने में असमर्थ।"
   },

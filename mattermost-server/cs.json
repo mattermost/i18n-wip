@@ -7152,10 +7152,6 @@
     "translation": "Selhal hromadný výběr členů kanálu."
   },
   {
-    "id": "app.channel.increment_mention_count.app_error",
-    "translation": "Nepodařilo se navýšit počet sdílení."
-  },
-  {
     "id": "app.channel.get_unread.app_error",
     "translation": "Nepodařilo se zjistit počet nepřečtených zpráv v kanálu."
   },
