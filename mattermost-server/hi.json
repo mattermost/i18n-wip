@@ -3860,7 +3860,7 @@
   },
   {
     "id": "api.preference.delete_preferences.delete.app_error",
-    "translation": "उपयोक्ता वरीयताएँ मिटाने में असमर्थ."
+    "translation": "उपयोक्ता वरीयताएँ मिटाने में असमर्थ।"
   },
   {
     "id": "api.post.send_notifications_and_forget.push_general_message",
@@ -4494,7 +4494,7 @@
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
-    "translation": "`{{.RemoteId}}` को आमंत्रित नहीं किया जा सका: {{.Error}}"
+    "translation": "`{{.RemoteId}}`: {{.Error}} को आमंत्रित नहीं किया जा सका"
   },
   {
     "id": "api.command_share.check_channel_exist.error",
@@ -8374,5 +8374,277 @@
   {
     "id": "searchengine.bleve.disabled.error",
     "translation": "Bleve अनुक्रमणिका को शुद्ध करने में त्रुटि: इंजन अक्षम है"
+  },
+  {
+    "id": "api.templates.at_limit_title",
+    "translation": "आप फ़्री टियर के लिए उपयोगकर्ता सीमा तक पहुँच गए हैं "
+  },
+  {
+    "id": "api.templates.at_limit_subject",
+    "translation": "मैटरमोस्ट क्लाउड उपयोगकर्ता सीमा तक पहुंच गया"
+  },
+  {
+    "id": "api.templates.at_limit_info5",
+    "translation": "वैकल्पिक रूप से, आप उपयोगकर्ताओं के लिए स्पॉट खोलने और मुफ़्त उपयोगकर्ता सीमा से नीचे रहने के लिए सिस्टम कंसोल में उपयोगकर्ताओं को अक्षम कर सकते हैं।"
+  },
+  {
+    "id": "api.templates.at_limit_info2",
+    "translation": "वैकल्पिक रूप से, आप अधिक उपयोगकर्ताओं के लिए स्पॉट खोलने या निःशुल्क उपयोगकर्ता सीमा से नीचे रहने के लिए Admin Console में उपयोगकर्ताओं को अक्षम कर सकते हैं।"
+  },
+  {
+    "id": "api.templates.at_limit_info1",
+    "translation": "ऐसा लगता है कि आपके कार्यक्षेत्र में अभी 10 या अधिक उपयोगकर्ता हैं — यह बहुत अच्छा है! यदि आप टीम के अधिक सदस्यों को आमंत्रित करना चाहते हैं, तो मैटरमॉस्ट क्लाउड को अभी अपग्रेड करने पर विचार करें।"
+  },
+  {
+    "id": "api.team.cloud.subscription.error",
+    "translation": "क्लाउड सदस्यता प्राप्त करने में त्रुटि"
+  },
+  {
+    "id": "api.roles.patch_roles.not_allowed_permission.error",
+    "translation": "निम्न में से एक या अधिक अनुमतियाँ जिन्हें आप जोड़ने या निकालने का प्रयास कर रहे हैं, की अनुमति नहीं है"
+  },
+  {
+    "id": "api.post.search_files.invalid_body.app_error",
+    "translation": "अनुरोध के मुख्य भाग को पार्स करने में असमर्थ।"
+  },
+  {
+    "id": "api.oauth.redirecting_back",
+    "translation": "आपको ऐप पर वापस रीडायरेक्ट कर रहा है।"
+  },
+  {
+    "id": "api.oauth.close_browser",
+    "translation": "अब आप इस ब्राउज़र टैब को बंद कर सकते हैं।"
+  },
+  {
+    "id": "api.oauth.auth_complete",
+    "translation": "प्रमाणीकरण पूर्ण"
+  },
+  {
+    "id": "api.no_license",
+    "translation": "इस समापन बिंदु का उपयोग करने के लिए E10 या E20 लाइसेंस की आवश्यकता है।"
+  },
+  {
+    "id": "api.license.request_renewal_link.app_error",
+    "translation": "लाइसेंस नवीनीकरण लिंक प्राप्त करने में त्रुटि"
+  },
+  {
+    "id": "api.job.unable_to_download_job.incorrect_job_type",
+    "translation": "आप जिस कार्य प्रकार को डाउनलोड करने का प्रयास कर रहे हैं वह इस समय समर्थित नहीं है"
+  },
+  {
+    "id": "api.invalid_redirect_url",
+    "translation": "अमान्य रीडायरेक्ट url प्रदान किया गया है"
+  },
+  {
+    "id": "api.invalid_custom_url_scheme",
+    "translation": "अमान्य कस्टम url योजना प्रदान की गई है"
+  },
+  {
+    "id": "api.getThreadsForUser.bad_params",
+    "translation": "GetThreadsForUser के पहले और बाद के पैरामीटर परस्पर अनन्य हैं"
+  },
+  {
+    "id": "api.file.write_file.app_error",
+    "translation": "फ़ाइल लिखने में असमर्थ।"
+  },
+  {
+    "id": "api.file.test_connection.app_error",
+    "translation": "फ़ाइल संग्रहण तक पहुँचने में असमर्थ।"
+  },
+  {
+    "id": "api.file.remove_file.app_error",
+    "translation": "फ़ाइल को निकालने में असमर्थ।"
+  },
+  {
+    "id": "api.file.remove_directory.app_error",
+    "translation": "निर्देशिका को निकालने में असमर्थ।"
+  },
+  {
+    "id": "api.file.read_file.app_error",
+    "translation": "फ़ाइल को पढ़ने में असमर्थ।"
+  },
+  {
+    "id": "api.file.move_file.app_error",
+    "translation": "फ़ाइल ले जाने में असमर्थ।"
+  },
+  {
+    "id": "api.file.list_directory.app_error",
+    "translation": "निर्देशिका सूचीबद्ध करने में असमर्थ।"
+  },
+  {
+    "id": "api.file.file_size.app_error",
+    "translation": "फ़ाइल का आकार प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "api.file.file_reader.app_error",
+    "translation": "फ़ाइल रीडर प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "api.file.file_mod_time.app_error",
+    "translation": "फ़ाइल के लिए अंतिम संशोधन समय प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "api.file.file_exists.app_error",
+    "translation": "फ़ाइल मौजूद है या नहीं यह जाँचने में असमर्थ।"
+  },
+  {
+    "id": "api.file.append_file.app_error",
+    "translation": "फ़ाइल में डेटा जोड़ने में असमर्थ।"
+  },
+  {
+    "id": "api.export.export_not_found.app_error",
+    "translation": "निर्यात फ़ाइल ढूँढने में असमर्थ।"
+  },
+  {
+    "id": "api.custom_status.recent_custom_statuses.delete.app_error",
+    "translation": "हाल की स्थिति हटाने में विफल। कृपया पहले स्थिति जोड़ने का प्रयास करें या विवरण के लिए अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.custom_status.disabled",
+    "translation": "कस्टम स्थिति सुविधा अक्षम कर दी गई है। विवरण के लिए कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
+  },
+  {
+    "id": "api.config.update_config.not_allowed_security.app_error",
+    "translation": "सुरक्षा कारणों से {{.Name}} को बदलने की अनुमति नहीं है।"
+  },
+  {
+    "id": "api.command_custom_status.success",
+    "translation": "आपकी स्थिति “{{.EmojiName}} {{.StatusMessage}}” पर सेट है। आप चैनल साइडबार हेडर में स्थिति पॉपओवर से अपनी स्थिति बदल सकते हैं।"
+  },
+  {
+    "id": "api.command_custom_status.name",
+    "translation": "स्थिति"
+  },
+  {
+    "id": "api.command_custom_status.hint",
+    "translation": "[:emoji_name:] [status_message] या साफ़ करें"
+  },
+  {
+    "id": "api.command_custom_status.desc",
+    "translation": "अपनी स्थिति सेट या साफ़ करें"
+  },
+  {
+    "id": "api.command_custom_status.clear.success",
+    "translation": "आपकी स्थिति साफ़ कर दी गई थी।"
+  },
+  {
+    "id": "api.command_custom_status.clear.app_error",
+    "translation": "स्थिति साफ़ करने में त्रुटि।"
+  },
+  {
+    "id": "api.cloud.get_admins_emails.error",
+    "translation": "सिस्टम व्यवस्थापक ईमेल प्राप्त करने में त्रुटि।"
+  },
+  {
+    "id": "Playbooks",
+    "translation": "प्लेबुक"
+  },
+  {
+    "id": "plugin_api.send_mail.missing_to",
+    "translation": "के लिये पता लापता।"
+  },
+  {
+    "id": "model.guest.is_valid.emails.app_error",
+    "translation": "अमान्य ईमेल।"
+  },
+  {
+    "id": "model.guest.is_valid.channels.app_error",
+    "translation": "अमान्य चैनल।"
+  },
+  {
+    "id": "app.prepackged-plugin.invalid_version.app_error",
+    "translation": "पहले से पैक किए गए प्लगइन संस्करण को पार्स नहीं किया जा सका।"
+  },
+  {
+    "id": "app.member_count",
+    "translation": "सदस्य संख्या पुनर्प्राप्त करने में त्रुटि"
+  },
+  {
+    "id": "app.job.get_all_jobs_by_type_and_status.app_error",
+    "translation": "प्रकार और स्थिति के अनुसार सभी कार्य प्राप्त करने में असमर्थ।"
+  },
+  {
+    "id": "app.group.crud_permission",
+    "translation": "उस स्रोत प्रकार के लिए कार्रवाई करने में असमर्थ।"
+  },
+  {
+    "id": "app.custom_group.unique_name",
+    "translation": "समूह का नाम अद्वितीय नहीं है"
+  },
+  {
+    "id": "api.templates.server_inactivity_title",
+    "translation": "इन शानदार सुविधाओं के साथ बढ़ी हुई उत्पादकता को अनलॉक करें"
+  },
+  {
+    "id": "api.templates.server_inactivity_subtitle",
+    "translation": "हे {{.Name}}, हमने देखा है कि आपका मैटरमॉस्ट सर्वर थोड़ी धूल जमा कर रहा है। कुछ विशेषताओं पर एक नज़र डालें जो आपकी टीम के कार्यभार को कम करने में सहायता कर सकती हैं।"
+  },
+  {
+    "id": "api.templates.server_inactivity_subject",
+    "translation": "हे! अपनी टीम की उत्पादकता बढ़ाने के लिए मैटरमोस्ट खोलें!"
+  },
+  {
+    "id": "api.templates.server_inactivity_info_bullet2",
+    "translation": "का उपयोग करते हुए कार्यों का प्रबंधन करें "
+  },
+  {
+    "id": "api.templates.server_inactivity_info_bullet1",
+    "translation": "वर्कफ़्लो प्रबंधन के साथ "
+  },
+  {
+    "id": "api.templates.server_inactivity_info_bullet",
+    "translation": "निर्दिष्ट करने के लिए अतिथि पहुँच "
+  },
+  {
+    "id": "api.templates.server_inactivity_info",
+    "translation": "आइए और इसे देखिए!"
+  },
+  {
+    "id": "api.templates.server_inactivity_button",
+    "translation": "ओपन मैटरमोस्ट"
+  },
+  {
+    "id": "api.team.invite_members.unable_to_send_email_with_defaults.app_error",
+    "translation": "SMTP सिस्टम कंसोल में कॉन्फ़िगर नहीं किया गया है"
+  },
+  {
+    "id": "api.team.invite_members.unable_to_send_email.app_error",
+    "translation": "ईमेल भेजते समय त्रुटि"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में अब कई टीमें हैं। कई टीमों के पास समन्वय और सहयोग करने का अपना पसंदीदा तरीका होता है, जिसमें चैनल कैसे बनाए जाते हैं, नए साथियों को कौन आमंत्रित कर सकता है, और एकीकरण कैसे प्रबंधित किया जाता है। टीम ओवरराइड योजनाएं आपको प्रत्येक टीम के भीतर उपयोगकर्ता अनुमतियों को उनकी विशिष्ट आवश्यकताओं को पूरा करने के लिए अनुकूलित करने की अनुमति देती हैं।\n\n[उन्नत अनुमतियों का उपयोग करने के बारे में अधिक जानें](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)।\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
+    "translation": "मैटरमोस्ट दृढ़ता से अनुशंसा करता है कि 500 से अधिक उपयोगकर्ताओं की तैनाती उपयोगकर्ता प्रबंधन, सर्वर क्लस्टरिंग और प्रदर्शन निगरानी जैसी सुविधाओं का लाभ उठाएं। अधिक जानने के लिए हमसे संपर्क करें और हमें बताएं कि हम कैसे मदद कर सकते हैं।\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.license_error",
+    "translation": "एपीआई समापन बिंदु के लिए लाइसेंस की आवश्यकता होती है"
+  },
+  {
+    "id": "api.license.client.old_format.app_error",
+    "translation": "क्लाइंट लाइसेंस के लिए नया प्रारूप अभी समर्थित नहीं है। कृपया क्वेरी स्ट्रिंग में format=old निर्दिष्ट करें।"
+  },
+  {
+    "id": "api.custom_groups.no_remote_id",
+    "translation": "remote_id कस्टम समूह के लिए खाली होना चाहिए"
+  },
+  {
+    "id": "api.custom_groups.must_be_referenceable",
+    "translation": "कस्टम समूहों के लिए allow_reference 'सत्य' होना चाहिए"
+  },
+  {
+    "id": "api.custom_groups.license_error",
+    "translation": "कस्टम समूहों के लिए लाइसेंस प्राप्त नहीं है"
+  },
+  {
+    "id": "api.custom_groups.feature_disabled",
+    "translation": "कस्टम समूह सुविधा अक्षम है"
+  },
+  {
+    "id": "api.custom_groups.count_err",
+    "translation": "त्रुटि गिनती समूह"
   }
 ]
