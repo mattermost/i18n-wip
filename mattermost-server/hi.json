@@ -8646,5 +8646,93 @@
   {
     "id": "api.custom_groups.count_err",
     "translation": "त्रुटि गिनती समूह"
+  },
+  {
+    "id": "api.unable_to_read_file_from_backend",
+    "translation": "बैकएंड से फ़ाइल पढ़ने में त्रुटि"
+  },
+  {
+    "id": "api.unable_to_create_zip_file",
+    "translation": "ज़िप फ़ाइल बनाने में त्रुटि।"
+  },
+  {
+    "id": "api.templates.welcome_body.subTitle2",
+    "translation": "अपना ईमेल पता सत्यापित करने के लिए नीचे क्लिक करें।"
+  },
+  {
+    "id": "api.templates.welcome_body.subTitle1",
+    "translation": "जुड़ने के लिए धन्यवाद "
+  },
+  {
+    "id": "api.templates.welcome_body.info1",
+    "translation": "यदि यह आप नहीं थे, तो आप सुरक्षित रूप से इस ईमेल को अनदेखा कर सकते हैं।"
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_title",
+    "translation": "डेस्कटॉप और मोबाइल ऐप डाउनलोड करें"
+  },
+  {
+    "id": "api.templates.welcome_body.app_download_button",
+    "translation": "डाउनलोड"
+  },
+  {
+    "id": "api.templates.verify_body.subTitle2",
+    "translation": "अपना ईमेल पता सत्यापित करने के लिए नीचे क्लिक करें।"
+  },
+  {
+    "id": "api.templates.verify_body.subTitle1",
+    "translation": "जुड़ने के लिए धन्यवाद "
+  },
+  {
+    "id": "api.templates.verify_body.serverURL",
+    "translation": "{{ .ServerURL}}।"
+  },
+  {
+    "id": "api.templates.verify_body.info1",
+    "translation": "यदि यह आप नहीं थे, तो आप सुरक्षित रूप से इस ईमेल को अनदेखा कर सकते हैं।"
+  },
+  {
+    "id": "api.templates.upgrade_request_title2",
+    "translation": "नए उपयोगकर्ता आपके कार्यक्षेत्र में शामिल नहीं हो पा रहे हैं"
+  },
+  {
+    "id": "api.templates.upgrade_request_title",
+    "translation": "{{ .UserName }} सदस्यों को आपके कार्यक्षेत्र में आमंत्रित करना चाहते हैं"
+  },
+  {
+    "id": "api.templates.upgrade_request_subject",
+    "translation": "सबसे महत्वपूर्ण उपयोगकर्ता कार्यस्थान के उन्नयन का अनुरोध करता है"
+  },
+  {
+    "id": "api.templates.upgrade_request_info4_2",
+    "translation": "किसी ने हाल ही में आपके कार्यक्षेत्र में शामिल होने का प्रयास किया था, लेकिन ऐसा करने में असमर्थ था क्योंकि आपका कार्यक्षेत्र मैटरमॉस्ट क्लाउड के मुफ़्त संस्करण के लिए उपयोगकर्ता सीमा तक पहुंच गया है। अधिक उपयोगकर्ताओं को आपके कार्यक्षेत्र में शामिल होने की अनुमति देने के लिए अभी अपग्रेड करें।"
+  },
+  {
+    "id": "api.templates.upgrade_request_info4",
+    "translation": "चूँकि आपका कार्यक्षेत्र मैटरमॉस्ट क्लाउड के मुफ़्त संस्करण के लिए उपयोगकर्ता सीमा तक पहुँच गया है, इसलिए आमंत्रण नहीं भेजे जा सकते। अधिक उपयोगकर्ताओं को आपके कार्यक्षेत्र में शामिल होने की अनुमति देने के लिए अभी अपग्रेड करें।"
+  },
+  {
+    "id": "api.templates.upgrade_mattermost_cloud",
+    "translation": "अपग्रेड"
+  },
+  {
+    "id": "api.templates.questions_footer.title",
+    "translation": "प्रशन?"
+  },
+  {
+    "id": "api.templates.questions_footer.info",
+    "translation": "हमें किसी भी समय ईमेल करें "
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.title",
+    "translation": "आपका सबसे महत्वपूर्ण क्लाउड चालान देय है"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.subject",
+    "translation": "आपकी मैटरमोस्ट क्लाउड सदस्यता के लिए भुगतान देय है"
+  },
+  {
+    "id": "api.templates.payment_failed_no_card.info3",
+    "translation": "पोस्ट करते समय इस एकीकरण के प्रोफ़ाइल चित्र के लिए .png या .jpg फ़ाइल का URL दर्ज करें। फ़ाइल कम से कम 128 पिक्सेल गुणा 128 पिक्सेल की होनी चाहिए. यदि खाली छोड़ दिया जाता है, तो वेबहुक निर्माता द्वारा निर्दिष्ट प्रोफ़ाइल चित्र का उपयोग किया जाता है।"
   }
 ]
