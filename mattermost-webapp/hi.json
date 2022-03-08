@@ -371,6 +371,7 @@
   "admin.billing.subscriptions.billing_summary.noBillingHistory.description": "भविष्य में, यह वह जगह है जहां आपका सबसे हाल का बिल सारांश दिखाई देगा।",
   "admin.billing.subscriptions.billing_summary.noBillingHistory.link": "देखें कि बिलिंग कैसे काम करती है",
   "admin.billing.subscriptions.billing_summary.noBillingHistory.title": "अभी तक कोई बिलिंग इतिहास नहीं",
+  "admin.bleve.bulkIndexingTitle": "थोक अनुक्रमण:",
   "admin.channel_settings.channel_list.nameHeader": "नाम",
   "admin.channel_settings.channel_moderation.manageMembers": "सदस्यों को प्रबंधित करें",
   "admin.compliance_table.download": "डाउनलोड",
