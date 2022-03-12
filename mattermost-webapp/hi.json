@@ -463,7 +463,7 @@
   "admin.channel_settings.channel_moderation.manageMembers.disabledBoth": "सदस्यों और मेहमानों के लिए सदस्यों को प्रबंधित करें [{scheme_name}](../permissions/{scheme_link}) में अक्षम हैं।",
   "admin.channel_settings.channel_moderation.manageMembers.disabledGuest": "मेहमानों के लिए सदस्यों को प्रबंधित करें [{scheme_name}](../permissions/{scheme_link}) में अक्षम हैं।",
   "admin.channel_settings.channel_moderation.manageMembers.disabledMember": "[{scheme_name}](../permissions/{scheme_link}) में सदस्यों के लिए सदस्यों को प्रबंधित करना अक्षम है।",
-  "admin.channel_settings.channel_moderation.manageMembersDesc": "सदस्यों को लोगों को जोड़ने और हटाने की क्षमता",
+  "admin.channel_settings.channel_moderation.manageMembersDesc": "सदस्यों को लोगों को जोड़ने और हटाने की क्षमता।",
   "admin.channel_settings.channel_moderation.members": "सदस्यों",
   "admin.channel_settings.channel_moderation.permissions": "अनुमतियां",
   "admin.channel_settings.channel_moderation.postReactions": "प्रतिक्रिया के बाद",
