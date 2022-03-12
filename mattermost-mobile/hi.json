@@ -54,7 +54,7 @@
   "mobile.channel_info.alertMessageLeaveChannel": "क्या आप वाकई {शब्द} {नाम} छोड़ना चाहते हैं?",
   "mobile.channel_info.alertMessageDeleteChannel": "क्या आप वाकई {शब्द} {नाम} को संग्रहित करना चाहते हैं?",
   "mobile.channel_info.alertMessageConvertChannel": "जब आप {displayName} को निजी चैनल में परिवर्तित करते हैं, तो इतिहास और सदस्यता संरक्षित होती है। सार्वजनिक रूप से साझा की गई फाइलें लिंक वाले किसी भी व्यक्ति के लिए सुलभ हैं। एक निजी चैनल में सदस्यता केवल निमंत्रण द्वारा होती है।\n\nपरिवर्तन स्थायी है और पूर्ववत नहीं किया जा सकता है।\n\nक्या आप वाकई {displayName} को निजी चैनल में बदलना चाहते हैं?",
-  "mobile.channel_drawer.search": "पर कूदना...",
+  "mobile.channel_drawer.search": "चैनल खोजें",
   "mobile.camera_video_permission_denied_title": "{applicationName} आपके कैमरे तक पहुंचना चाहेगा",
   "mobile.camera_video_permission_denied_description": "वीडियो ले लो और उन्हें अपने मामले में अपलोड करें या उन्हें अपने डिवाइस पर सहेजें। Mattermost पढ़ें और अपने कैमरे तक पहुंच लिखने के लिए सेटिंग्स खोलें।",
   "mobile.camera_photo_permission_denied_title": "{applicationName} आपके कैमरे तक पहुंचना चाहेगा",
@@ -284,5 +284,6 @@
   "apps.error.parser.unexpected_whitespace": "पहुंच से बाहर: अनपेक्षित खाली स्थान।",
   "apps.error.parser.unexpected_state": "पहुंच से बाहर: मैच बाइंडिंग में अनपेक्षित स्थिति: `{state}`।",
   "apps.error.parser.unexpected_flag": "कमांड फ्लैग `{flagName}` को स्वीकार नहीं करता है।",
-  "apps.error.parser.missing_binding": "अनुपलब्ध कमांड बाइंडिंग।"
+  "apps.error.parser.missing_binding": "अनुपलब्ध कमांड बाइंडिंग।",
+  "custom_status.expiry_dropdown.dont_clear": "साफ़ मत करें"
 }
