@@ -1284,10 +1284,6 @@
     "translation": "Kohdattiin virhe etsiessä auditeja"
   },
   {
-    "id": "store.sql.convert_string_interface",
-    "translation": "FromDb: Ei voitu muuttaa StringInterfacea muotoon *string"
-  },
-  {
     "id": "plugin_api.send_mail.missing_to",
     "translation": "Puuttuva vastaanottajan osoite."
   },

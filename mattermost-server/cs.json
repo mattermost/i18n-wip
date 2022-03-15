@@ -100,10 +100,6 @@
     "translation": "Došlo k chybě při hledání audit záznamů."
   },
   {
-    "id": "store.sql.convert_string_interface",
-    "translation": "FromDb: Nelze převést StringInterface na *řetězec"
-  },
-  {
     "id": "plugin_api.get_file_link.no_post.app_error",
     "translation": "K souboru nelze zajistit veřejný odkaz. Soubor musí být přiložen ke zprávě, která je čitelná aktuálnímu uživateli."
   },

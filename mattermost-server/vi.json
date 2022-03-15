@@ -2884,10 +2884,6 @@
     "translation": "Chúng tôi đã gặp lỗi khi kiểm lỗi"
   },
   {
-    "id": "store.sql.convert_string_interface",
-    "translation": "FromDb: Không thể chuyển đổi StringInterface sang *string"
-  },
-  {
     "id": "plugin_api.send_mail.missing_to",
     "translation": "Thiếu địa chỉ."
   },

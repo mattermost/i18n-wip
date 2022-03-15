@@ -8360,10 +8360,6 @@
     "translation": "माइक्रोसॉफ्ट एज"
   },
   {
-    "id": "store.sql.convert_string_interface",
-    "translation": "FromDb: StringInterface को *string . में बदलने में असमर्थ"
-  },
-  {
     "id": "searchengine.bleve.disabled.error",
     "translation": "Bleve अनुक्रमणिका को शुद्ध करने में त्रुटि: इंजन अक्षम है"
   },
