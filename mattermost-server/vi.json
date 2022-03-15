@@ -2884,16 +2884,8 @@
     "translation": "Chúng tôi đã gặp lỗi khi kiểm lỗi"
   },
   {
-    "id": "store.sql.convert_string_map",
-    "translation": "FromDb: Không thể chuyển đổi StringMap sang *string"
-  },
-  {
     "id": "store.sql.convert_string_interface",
     "translation": "FromDb: Không thể chuyển đổi StringInterface sang *string"
-  },
-  {
-    "id": "store.sql.convert_string_array",
-    "translation": "FromDb: Không thể chuyển đổi StringArray sang *string"
   },
   {
     "id": "plugin_api.send_mail.missing_to",

@@ -132,16 +132,8 @@
     "translation": "Pri iskanju revizij smo naleteli na napako"
   },
   {
-    "id": "store.sql.convert_string_map",
-    "translation": "FromDb: StringMap ni mogoče pretvoriti v *string"
-  },
-  {
     "id": "store.sql.convert_string_interface",
     "translation": "FromDb: StringInterface ni mogoče pretvoriti v *string"
-  },
-  {
-    "id": "store.sql.convert_string_array",
-    "translation": "FromDb: StringArray ni mogoče pretvoriti v *string"
   },
   {
     "id": "plugin_api.send_mail.missing_to",

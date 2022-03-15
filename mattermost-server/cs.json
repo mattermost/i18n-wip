@@ -100,16 +100,8 @@
     "translation": "Došlo k chybě při hledání audit záznamů."
   },
   {
-    "id": "store.sql.convert_string_map",
-    "translation": "FromDb: Nelze konvertovat StringMap to *string"
-  },
-  {
     "id": "store.sql.convert_string_interface",
     "translation": "FromDb: Nelze převést StringInterface na *řetězec"
-  },
-  {
-    "id": "store.sql.convert_string_array",
-    "translation": "FromDb: Nelze konvertovat StringMap to *string"
   },
   {
     "id": "plugin_api.get_file_link.no_post.app_error",

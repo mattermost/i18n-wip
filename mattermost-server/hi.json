@@ -8360,16 +8360,8 @@
     "translation": "माइक्रोसॉफ्ट एज"
   },
   {
-    "id": "store.sql.convert_string_map",
-    "translation": "FromDb: StringMap को *string . में बदलने में असमर्थ"
-  },
-  {
     "id": "store.sql.convert_string_interface",
     "translation": "FromDb: StringInterface को *string . में बदलने में असमर्थ"
-  },
-  {
-    "id": "store.sql.convert_string_array",
-    "translation": "FromDb: StringArray को *string . में बदलने में असमर्थ"
   },
   {
     "id": "searchengine.bleve.disabled.error",
