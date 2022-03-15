@@ -702,6 +702,7 @@
   "admin.elasticsearch.percentComplete": "{percent}% पूर्ण",
   "admin.elasticsearch.purgeIndexesButton": "पर्ज इंडेक्स",
   "admin.elasticsearch.purgeIndexesButton.error": "अनुक्रमणिका को शुद्ध करने में विफल:{error}",
+  "admin.elasticsearch.purgeIndexesButton.label": "पर्ज इंडेक्स:",
   "admin.elasticsearch.purgeIndexesButton.success": "अनुक्रमणिका को सफलतापूर्वक शुद्ध किया गया।",
   "admin.elasticsearch.purgeIndexesHelpText": "पर्जिंग Elasticsearch सर्वर पर इंडेक्स को पूरी तरह से हटा देगा। खोज परिणाम तब तक अधूरे हो सकते हैं जब तक कि मौजूदा डेटाबेस के थोक सूचकांक का पुनर्निर्माण नहीं किया जाता है।",
   "admin.elasticsearch.skipTLSVerificationDescription": "सही होने पर, मैटरमॉस्ट को Elasticsearch प्रमाणपत्र को किसी विश्वसनीय प्रमाणपत्र प्राधिकारी द्वारा हस्ताक्षरित किए जाने की आवश्यकता नहीं होगी।",
