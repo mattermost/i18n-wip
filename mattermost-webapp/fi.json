@@ -1118,7 +1118,6 @@
   "edit_channel_purpose_modal.title1": "Muokkaa tarkoitusta",
   "edit_channel_purpose_modal.title2": "Muokkaa tarkoitusta ",
   "edit_command.update": "Päivitä",
-  "edit_post.edit": "Muokkaa {title}",
   "edit_post.editPost": "Muokkaa viestiä...",
   "edit_post.time_limit_button.for_n_seconds": "{n} sekunnin ajan",
   "edit_post.time_limit_modal.description": "Aikarajan asettaminen vaikuttaa kaikkiin käyttäjiin joilla on \"Muokkaa viestiä\" oikeuksia missä tahansa oikeusjärjestelyssä.",

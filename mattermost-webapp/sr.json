@@ -320,7 +320,6 @@
   "edit_channel_purpose_modal.body": "Описује како овај канал треба да се користи. Овај текст се појављује у списку канала, у менију „Више...“ и помаже другима да се одлуче о приступању тиму.",
   "edit_channel_purpose_modal.title1": "Уреди опис сврхе",
   "edit_channel_purpose_modal.title2": "Уреди опис сврхе за ",
-  "edit_post.edit": "Уреди {title}",
   "edit_post.editPost": "Уреди објаву...",
   "emoji_list.delete.confirm.title": "Обриши прилагођени емоџи",
   "emoji_list.image": "Слика",

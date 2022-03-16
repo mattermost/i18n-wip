@@ -782,7 +782,6 @@
   "edit_channel_purpose_modal.title1": "Uredi namen",
   "edit_channel_purpose_modal.title2": "Uredi namen za ",
   "edit_command.update": "Posodobi",
-  "edit_post.edit": "Uredi {title}",
   "edit_post.editPost": "Uredi objavo ...",
   "edit_post.time_limit_button.for_n_seconds": "Za {n} sekund",
   "edit_post.time_limit_modal.description": "Nastavitev časovne omejitve velja za vse uporabnike, ki imajo dovoljenje »Uredi objavo« v kateri koli shemi dovoljenj.",
