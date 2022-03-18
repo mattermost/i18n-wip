@@ -8730,5 +8730,57 @@
   {
     "id": "Channels",
     "translation": "चैनल"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में 100 से अधिक उपयोगकर्ता हैं। जैसे-जैसे आपका उपयोगकर्ता आधार बढ़ता है, नए खातों का प्रावधान करना समय लेने वाला हो सकता है। हम अनुशंसा करते हैं कि आप अपने संगठन की सक्रिय निर्देशिका/एलडीएपी को एकीकृत करें, जो किसी भी व्यक्ति को खाते के साथ मैटरमोस्ट तक पहुंचने की अनुमति देगा।\n\n[AD/LDAP के साथ एकीकरण के बारे में अधिक जानें](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
+  },
+  {
+    "id": "api.server.warn_metric.mfa.start_trial.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में बहु-कारक प्रमाणीकरण सक्षम है, जो उपयोगकर्ताओं को पासवर्ड से परे प्रमाणीकरण के अतिरिक्त साधनों के साथ अपने खातों को सुरक्षित करने का विकल्प देता है। पूरे सिस्टम में सुरक्षा में सुधार के लिए आपको सभी मैटरमोस्ट खातों को बहु-कारक प्रमाणीकरण का उपयोग करने की आवश्यकता हो सकती है।\n\n[मल्टी-फैक्टर ऑथेंटिकेशन लागू करने के बारे में ज़्यादा जानें](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में 100 से अधिक उपयोगकर्ता हैं। जैसे-जैसे आपका उपयोगकर्ता आधार बढ़ता है, नए खातों का प्रावधान करना समय लेने वाला हो सकता है। हम अनुशंसा करते हैं कि आप अपने संगठन की सक्रिय निर्देशिका/एलडीएपी को एकीकृत करें, जो किसी भी व्यक्ति को खाते के साथ मैटरमोस्ट तक पहुंचने की अनुमति देगा।\n\n[AD/LDAP के साथ एकीकरण के बारे में अधिक जानें](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में अब 200 उपयोगकर्ता हैं। जब आप मैटरमोस्ट को अपने संगठन के एकल साइन-ऑन प्रदाता से कनेक्ट करते हैं, तो उपयोगकर्ता अपने क्रेडेंशियल्स को फिर से दर्ज किए बिना मैटरमॉस्ट तक पहुंच सकते हैं। हम अनुशंसा करते हैं कि आप अपने एसएएमएल 2.0 प्रदाता को अपने मैटरमोस्ट सर्वर के साथ एकीकृत करें। .\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में अब 200 उपयोगकर्ता हैं। जब आप मैटरमॉस्ट को अपने संगठन के एकल साइन-ऑन प्रदाता से कनेक्ट करते हैं, तो उपयोगकर्ता अपने क्रेडेंशियल्स को फिर से दर्ज किए बिना मैटरमॉस्ट तक पहुंच सकते हैं। हम अनुशंसा करते हैं कि आप अपने एसएएमएल 2.0 प्रदाता को अपने मैटरमोस्ट सर्वर के साथ एकीकृत करें।\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में अब कई टीमें हैं। कई टीमों के पास समन्वय और सहयोग करने का अपना पसंदीदा तरीका होता है, जिसमें चैनल कैसे बनाए जाते हैं, नए साथियों को कौन आमंत्रित कर सकता है, और एकीकरण कैसे प्रबंधित किया जाता है। टीम ओवरराइड योजनाएं आपको प्रत्येक टीम के भीतर उपयोगकर्ता अनुमतियों को उनकी विशिष्ट आवश्यकताओं को पूरा करने के लिए अनुकूलित करने की अनुमति देती हैं।\n\n[उन्नत अनुमतियों का उपयोग करने के बारे में अधिक जानें](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में बड़ी संख्या में संदेश हैं। डिफ़ॉल्ट मैटरमॉस्ट डेटाबेस खोज लगभग 2.5 मिलियन पोस्ट पर प्रदर्शन में गिरावट दिखाना शुरू कर देती है। 5 मिलियन से अधिक पोस्ट के साथ, Elasticsearch महत्वपूर्ण प्रदर्शन समस्याओं से बचने में मदद कर सकता है, जैसे कि टाइमआउट, खोज और उल्लेख के साथ। अधिक जानने के लिए हमसे संपर्क करें और हमें बताएं कि हम कैसे मदद कर सकते हैं।\n\n[प्रदर्शन सुधारने के बारे में और जानें](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
+    "translation": "आपके मैटरमॉस्ट सिस्टम में बड़ी संख्या में संदेश हैं। डिफ़ॉल्ट मैटरमॉस्ट डेटाबेस खोज लगभग 2.5 मिलियन पोस्ट पर प्रदर्शन में गिरावट दिखाना शुरू कर देती है। 5 मिलियन से अधिक पोस्ट के साथ, Elasticsearch महत्वपूर्ण प्रदर्शन समस्याओं से बचने में मदद कर सकता है, जैसे कि टाइमआउट, खोज और उल्लेख के साथ। अधिक जानने के लिए हमसे संपर्क करें और हमें बताएं कि हम कैसे मदद कर सकते हैं।\n\n[प्रदर्शन सुधारने के बारे में और जानें](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
+    "translation": "चैनल संचार को बेहतर बनाने में मदद करते हैं, लेकिन मैटरमोस्ट के उपयोगकर्ताओं के साथ जुड़ने और चैनल बनाने के साथ, सिस्टम को व्यवस्थित रखने की चुनौती बढ़ जाती है। उन्नत अनुमतियां आपको यह सेट करने में सक्षम बनाती हैं कि कौन से उपयोगकर्ता या भूमिकाएं कुछ क्रियाएं कर सकती हैं, जिसमें चैनल सेटिंग और सदस्यों को प्रबंधित करना, उपयोगकर्ताओं के व्यापक समूहों को टैग करने के लिए @चैनल या @here का उपयोग करना और नए वेबहुक बनाना शामिल है।\n\n[उन्नत अनुमतियों का उपयोग करने के बारे में और जानें](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.notification_body",
+    "translation": "चैनल संचार को बेहतर बनाने में मदद करते हैं, लेकिन मैटरमोस्ट के उपयोगकर्ताओं के साथ जुड़ने और चैनल बनाने के साथ, सिस्टम को व्यवस्थित रखने की चुनौती बढ़ जाती है। उन्नत अनुमतियां आपको यह सेट करने में सक्षम बनाती हैं कि कौन से उपयोगकर्ता या भूमिकाएं कुछ क्रियाएं कर सकती हैं, जिसमें चैनल सेटिंग और सदस्यों को प्रबंधित करना, उपयोगकर्ताओं के व्यापक समूहों को टैग करने के लिए @चैनल या @here का उपयोग करना और नए वेबहुक बनाना शामिल है।\n\n[उन्नत अनुमतियों का उपयोग करने के बारे में और जानें](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
+    "translation": "मैटरमोस्ट दृढ़ता से अनुशंसा करता है कि 500 से अधिक उपयोगकर्ताओं की तैनाती उपयोगकर्ता प्रबंधन, सर्वर क्लस्टरिंग और प्रदर्शन निगरानी जैसी सुविधाओं का लाभ उठाएं। अधिक जानने के लिए हमसे संपर्क करें और हमें बताएं कि हम कैसे मदद कर सकते हैं।\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
+    "translation": "मैटरमॉस्ट में इतनी अधिक बातचीत होने के कारण, यह जानना चुनौतीपूर्ण हो सकता है कि महत्वपूर्ण जानकारी को कहाँ खोजा जाए। यदि आप एक संदेश को बड़े दर्शकों तक प्रसारित करना चाहते हैं, तो आप केवल-पढ़ने के लिए घोषणा चैनल सेट कर सकते हैं, जहां कोई भी शामिल हो सकता है, लेकिन केवल चैनल व्यवस्थापक ही संदेश पोस्ट कर सकते हैं।\n\n[केवल पढ़ने के लिए घोषणा चैनल बनाने के बारे में अधिक जानें](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
+    "translation": "मैटरमॉस्ट में इतनी अधिक बातचीत होने के कारण, यह जानना चुनौतीपूर्ण हो सकता है कि महत्वपूर्ण जानकारी को कहाँ खोजा जाए। यदि आप एक संदेश को बड़े दर्शकों तक प्रसारित करना चाहते हैं, तो आप केवल-पढ़ने के लिए घोषणा चैनल सेट कर सकते हैं, जहां कोई भी शामिल हो सकता है, लेकिन केवल चैनल व्यवस्थापक ही संदेश पोस्ट कर सकते हैं।\n\n[केवल पढ़ने के लिए घोषणा चैनल बनाने के बारे में अधिक जानें](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
   }
 ]
