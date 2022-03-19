@@ -2491,7 +2491,6 @@
   "channel_header.unmute": "Bật âm thanh kênh",
   "channel_header.userHelpGuide": "Trợ giúp",
   "channel_header.viewMembers": "Xem thành viên",
-  "channel_info.notFound": "Không tìm thấy kênh",
   "channel_invite.addNewMembers": "Thêm mọi người vào {channel}",
   "channel_loader.posted": "Đã đăng",
   "channel_loader.postedImage": " đã đăng một hình ảnh",

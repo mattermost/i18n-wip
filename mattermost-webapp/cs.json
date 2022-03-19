@@ -1431,7 +1431,6 @@
   "channel_header.unarchive": "Archivovat kanál",
   "channel_header.userHelpGuide": "Nápověda",
   "channel_header.viewMembers": "Zobrazit členy",
-  "channel_info.notFound": "Kanál nenalezen",
   "channel_invite.addNewMembers": "Přidat nové členy do {channel}",
   "channel_loader.posted": "Publikováno",
   "channel_loader.postedImage": " publikoval obrázek",

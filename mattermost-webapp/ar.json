@@ -2676,7 +2676,6 @@
   "channel_header.unmuteConversation": "إلغاء كتم المحادثة",
   "channel_header.userHelpGuide": "مساعدة",
   "channel_header.viewMembers": "رؤية الأعضاء",
-  "channel_info.notFound": "العثور على أي قناة",
   "channel_invite.addNewMembers": "إضافة أشخاص إلى {قناة}",
   "channel_loader.posted": "نشر",
   "channel_loader.postedImage": " نشر صورة",
