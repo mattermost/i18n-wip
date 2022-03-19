@@ -825,7 +825,6 @@
   "channel_header.groupMessageHasGuests": "इस समूह संदेश में अतिथि हैं",
   "channel_header.manageMembers": "सदस्यों को प्रबंधित करें",
   "channel_header.viewMembers": "सदस्य देखें",
-  "channel_info.purpose": "उद्देश्य:",
   "channel_loader.someone": "कोई व्यक्ति",
   "channel_modal.cancel": "रद्द करना",
   "channel_modal.descriptionHelp": "बताएं कि इस चैनल का उपयोग कैसे किया जाना चाहिए।",

@@ -56,7 +56,6 @@
   "channel_header.directchannel.you": "{displayname} (Ty) ",
   "channel_header.manageMembers": "Zarządzaj Użytkownikami",
   "channel_header.viewMembers": "Wyświetl Użytkowników",
-  "channel_info.purpose": "Cel:",
   "channel_loader.someone": "Ktoś",
   "channel_modal.cancel": "Anuluj",
   "channel_modal.descriptionHelp": "Opisz jak ten kanał powinien być używany.",

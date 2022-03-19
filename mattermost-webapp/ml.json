@@ -177,7 +177,6 @@
   "channel_header.directchannel.you": "{displayname} (നിങ്ങൾ) ",
   "channel_header.manageMembers": "അംഗങ്ങളെ നിയന്ത്രിക്കുക",
   "channel_header.viewMembers": "അംഗങ്ങളെ കാണുക",
-  "channel_info.purpose": "ഉദ്ദേശം:",
   "channel_loader.someone": "ആരോ",
   "channel_modal.cancel": "നിര്‍ത്തലാക്കുക",
   "channel_modal.descriptionHelp": "ഈ ചാനൽ എങ്ങനെ ഉപയോഗിക്കണമെന്ന് വിവരിക്കുക.",
