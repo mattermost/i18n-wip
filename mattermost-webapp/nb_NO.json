@@ -150,7 +150,6 @@
   "apps.error.command.unknown_channel": "ukjent kanal for felt `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_option": "Ukjent verdi for feltet `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_user": "Ukjent bruker for felt `{fieldName}`: `{option}`.",
-  "apps.error.form.no_call": "`spørring` er ikke er definert.",
   "apps.error.form.no_form": "`skjema` er ikke er definert.",
   "apps.error.parser.empty_value": "tome verdier er ikke akseptert",
   "apps.error.parser.missing_field_value": "Missing binding call.",

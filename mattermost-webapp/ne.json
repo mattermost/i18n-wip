@@ -112,7 +112,6 @@
   "apps.error.command.unknown_channel": "क्षेत्रको लागि अज्ञात च्यानल `{fieldName}`: `{option}`।",
   "apps.error.command.unknown_option": "क्षेत्रको लागि अज्ञात विकल्प `{fieldName}`: `{option}`।",
   "apps.error.command.unknown_user": "क्षेत्रको लागि अज्ञात प्रयोगकर्ता `{fieldName}`: `{option}`।",
-  "apps.error.form.no_call": "`call` परिभाषित छैन।",
   "apps.error.form.no_form": "`form` परिभाषित छैन।",
   "apps.error.form.submit.pretext": "मोडल बुझाउने क्रममा केहि त्रुटि भयो।अनुप्रयोग विकासकर्तालाई सम्पर्क गर्नुहोस। विवरण : {details}",
   "archivedChannelMessage": "तपाईं एक ** संग्रहीत च्यानल ** हेर्दै हुनुहुन्छ। नयाँ सन्देशहरू पोस्ट गर्न सकिदैन।",

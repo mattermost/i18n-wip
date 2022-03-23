@@ -287,7 +287,6 @@
   "apps.error.command.unknown_channel": "Непознат канал за поље `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_option": "Непозната опција за поље `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_user": "Непознат корисник за поље `{fieldName}`: `{option}`.",
-  "apps.error.form.no_call": "`call` није дефинисан.",
   "apps.error.form.no_form": "`form` није дефинисана.",
   "backstage_list.search": "Претрага",
   "bot.add.post_all.help": "Приступ за објављивање у свим Mattermost каналима, укључујући и директне поруке.",

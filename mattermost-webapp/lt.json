@@ -67,7 +67,6 @@
   "apps.error.command.unknown_channel": "Nežinomas kanalas laukui`{fieldName}`: `{option}`.",
   "apps.error.command.unknown_option": "Nežinoma lauko parinktis `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_user": "Nežinomas lauko naudotojas `{fieldName}`: `{option}`.",
-  "apps.error.form.no_call": "`call` nėra apibrėžtas.",
   "apps.error.form.no_form": "`form` nėra apibrėžta.",
   "apps.error.form.refresh_no_refresh": "Iššauktas atnaujinimas ant nenaujinamo lauko.",
   "apps.error.form.submit.pretext": "Pateikiant modalinį failą įvyko klaida. Susisiekite su programos kūrėju. Išsami informacija: {details}",

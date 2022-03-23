@@ -72,7 +72,6 @@
   "apps.error.command.unknown_channel": "`{FieldName}` ক্ষেত্রের জন্য অজানা চ্যানেল: `{option}`।",
   "apps.error.command.unknown_option": "`{FieldName}` ক্ষেত্রের জন্য অজানা বিকল্প: `{option}`।",
   "apps.error.command.unknown_user": "`{FieldName}` ক্ষেত্রের জন্য অজানা ব্যবহারকারী: `{option}`।",
-  "apps.error.form.no_call": "`কল` সংজ্ঞায়িত নয়।",
   "apps.error.form.no_form": "`ফর্ম` সংজ্ঞায়িত নয়।",
   "apps.error.form.refresh_no_refresh": "কোন রিফ্রেশ ফিল্ডে রিফ্রেশ বলা হয়।",
   "apps.error.form.submit.pretext": "মোডাল জমা দেওয়ার সময় একটি ত্রুটি হয়েছে। অ্যাপ ডেভেলপারের সাথে যোগাযোগ করুন। বিস্তারিত: {details}",
