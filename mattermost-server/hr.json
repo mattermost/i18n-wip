@@ -230,5 +230,21 @@
   {
     "id": "api.admin.ldap.not_available.app_error",
     "translation": "LDAP nije dostupan."
+  },
+  {
+    "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
+    "translation": "Neuspjelo dobivanje metapodataka s URL-a pružatelja usluge identifikacije."
+  },
+  {
+    "id": "api.admin.remove_certificate.delete.app_error",
+    "translation": "Dogodila se greška tijekom brisanja certifikata."
+  },
+  {
+    "id": "api.admin.delete_brand_image.storage.not_found",
+    "translation": "Nije moguće izbrisati sliku brenda, nije pronađena."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Greška u obradi zahtjeva s višebrojnim obrascima"
   }
 ]
