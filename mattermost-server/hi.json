@@ -8784,10 +8784,6 @@
     "translation": "मैटरमॉस्ट में इतनी अधिक बातचीत होने के कारण, यह जानना चुनौतीपूर्ण हो सकता है कि महत्वपूर्ण जानकारी को कहाँ खोजा जाए। यदि आप एक संदेश को बड़े दर्शकों तक प्रसारित करना चाहते हैं, तो आप केवल-पढ़ने के लिए घोषणा चैनल सेट कर सकते हैं, जहां कोई भी शामिल हो सकता है, लेकिन केवल चैनल व्यवस्थापक ही संदेश पोस्ट कर सकते हैं।\n\n[केवल पढ़ने के लिए घोषणा चैनल बनाने के बारे में अधिक जानें](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
-    "id": "app.system.applied_migrations.not_authorized",
-    "translation": "आपके पास उचित अनुमतियां नहीं हैं।"
-  },
-  {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
     "translation": "परियोजनाओं में अक्सर संगठन के अंदर और बाहर दोनों जगह के लोग शामिल होते हैं। अतिथि खातों के साथ, आप बाहरी भागीदारों को अपने मैटरमोस्ट सिस्टम में ला सकते हैं और निर्दिष्ट कर सकते हैं कि वे किसके साथ काम कर सकते हैं और क्या देख सकते हैं।\n\n[अतिथि खातों को सक्षम करने के बारे में और जानें](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nपरीक्षण प्रारंभ करें क्लिक करके, मैं [Mattermost सॉफ़्टवेयर मूल्यांकन अनुबंध](https://mattermost.com/software-evaluation-agreement/), [गोपनीयता नीति](https://mattermost.com/privacy-policy/) से सहमत हूं , और उत्पाद ईमेल प्राप्त करना।"
   },
