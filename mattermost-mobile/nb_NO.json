@@ -20,7 +20,6 @@
   "apps.error.parser.missing_field_value": "Missing binding call.",
   "apps.error.parser.empty_value": "tome verdier er ikke akseptert",
   "apps.error.form.no_form": "`skjema` er ikke er definert.",
-  "apps.error.form.no_call": "`spørring` er ikke er definert.",
   "apps.error.command.unknown_user": "Ukjent bruker for felt `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_option": "Ukjent verdi for feltet `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_channel": "ukjent kanal for felt `{fieldName}`: `{option}`.",
@@ -32,6 +31,5 @@
   "about.teamEditiont1": "Enterprise-versjon",
   "about.enterpriseEditione1": "Enterprise-versjon",
   "api.channel.guest_join_channel.post_and_forget": "{username} ble med som gjest i kanalen.",
-  "api.channel.add_guest.added": "{addedUsername} ble lagt til som gjest i kanalen av {username}.",
-  "apps.error.form.no_lookup_call": "performLookupCall props.call er ikke definert"
+  "api.channel.add_guest.added": "{addedUsername} ble lagt til som gjest i kanalen av {username}."
 }
