@@ -40,7 +40,6 @@
   "api.channel.add_member.added": "{addedUsername} បានបន្ថែមទៅក្នុង channel ដោយ {username}.",
   "apps.error": "កំហុស: {error}",
   "bot.create_token.close": "បិទ",
-  "change_url.close": "បិទ",
   "emoji_picker.close": "បិទ",
   "full_screen_modal.close": "បិទ",
   "general_button.close": "បិទ",

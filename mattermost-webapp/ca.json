@@ -76,8 +76,6 @@
   "admin.user_grid.name": "Nom",
   "admin.user_item.resetPwd": "Restableix la contrasenya",
   "bot.create_token.close": "Tanca",
-  "change_url.close": "Tanca",
-  "channel_modal.name": "Nom",
   "create_post.read_only": "Aquest canal és de només lectura. Només els membres amb permís poden publicar aquí.",
   "emoji_list.image": "Imatge",
   "emoji_list.name": "Nom",
