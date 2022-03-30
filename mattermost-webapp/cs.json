@@ -1442,7 +1442,6 @@
   "channel_members_modal.members": " Členové",
   "channel_modal.cancel": "Zrušit",
   "channel_modal.modalTitle": "Nový kanál",
-  "channel_modal.type": "Typ",
   "channel_notifications.allActivity": "Pro všechny aktivity",
   "channel_notifications.globalDefault": "Globálně výchozí ({notifyLevel})",
   "channel_notifications.ignoreChannelMentions.off.title": "Vypnuto",

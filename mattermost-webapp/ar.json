@@ -2690,7 +2690,6 @@
   "channel_modal.cancel": "إلغاء",
   "channel_modal.createNew": "إنشاء قناة",
   "channel_modal.modalTitle": "قناة جديدة",
-  "channel_modal.purpose": "الغرض",
   "channel_notifications.allActivity": "لجميع الأنشطة",
   "channel_notifications.globalDefault": "الافتراضي العالمي ({} notifyLevel)",
   "channel_notifications.ignoreChannelMentions": "تجاهل يذكر لchannel،here و @جميع",

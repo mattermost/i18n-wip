@@ -2506,7 +2506,6 @@
   "channel_modal.cancel": "Hủy",
   "channel_modal.createNew": "Tạo kênh",
   "channel_modal.modalTitle": "Kênh mới",
-  "channel_modal.purpose": "Mục đích",
   "channel_notifications.allActivity": "Dành cho tất cả hoạt động",
   "channel_notifications.globalDefault": "Mặc định chung ({InformLevel})",
   "channel_notifications.ignoreChannelMentions": "Bỏ qua các lượt đề cập cho @channel, @here và @all",
