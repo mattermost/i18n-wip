@@ -185,7 +185,6 @@
   "channel_loader.someone": "Κάποιος",
   "channel_members_dropdown.channel_members": "Μέλη Καναλιού",
   "channel_modal.cancel": "Ακύρωση",
-  "channel_modal.headerEx": "Π.χ .: \"[Τίτλος συνδέσμου] (http://example.com)\"",
   "channel_modal.optional": "(προαιρετικό)",
   "channel_notifications.allActivity": "Για όλες τις δραστηριότητες",
   "channel_notifications.levels.all": "Όλα",

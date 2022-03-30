@@ -176,7 +176,6 @@
   "channel_header.viewMembers": "അംഗങ്ങളെ കാണുക",
   "channel_loader.someone": "ആരോ",
   "channel_modal.cancel": "നിര്‍ത്തലാക്കുക",
-  "channel_modal.headerHelp": "ചാനലിന്റെ പേരിന് അരികിൽ ചാനലിന്റെ തലക്കെട്ടിൽ ദൃശ്യമാകുന്ന വാചകം സജ്ജീകരിക്കുക. ഉദാഹരണത്തിന്, [ലിങ്ക് ശീർഷകം](http://example.com) എന്ന് ടൈപ്പ് ചെയ്തുകൊണ്ട് പതിവായി ഉപയോഗിക്കുന്ന ലിങ്കുകൾ ഉൾപ്പെടുത്തുക.",
   "channel_modal.purpose": "ഉദ്ദേശ്യം",
   "channel_notifications.muteChannel.settings": "ചാനൽ നിശബ്ദമാക്കുക",
   "combined_system_message.added_to_channel.many_expanded": "{users}, {lastUser} എന്നിവരെ **ചാനലിലേക്ക്** ചേർത്തത് {actor} ആണ്.",

@@ -865,7 +865,6 @@
   "channel_header.viewMembers": "सदस्य देखें",
   "channel_loader.someone": "कोई व्यक्ति",
   "channel_modal.cancel": "रद्द करना",
-  "channel_modal.headerHelp": "वह टेक्स्ट सेट करें जो चैनल के हेडर में चैनल के नाम के साथ दिखाई देगा। उदाहरण के लिए, [लिंक शीर्षक] (http://example.com) टाइप करके अक्सर उपयोग किए जाने वाले लिंक शामिल करें।",
   "channel_modal.purpose": "उद्देश्य",
   "channel_notifications.allActivity": "सभी गतिविधि के लिए",
   "channel_notifications.levels.all": "सब",

@@ -55,7 +55,6 @@
   "channel_header.viewMembers": "Wyświetl Użytkowników",
   "channel_loader.someone": "Ktoś",
   "channel_modal.cancel": "Anuluj",
-  "channel_modal.headerHelp": "Ustaw tekst który pojawi się w nagłówku kanału, obok nazwy kanału. Na przykład, dodaj często używane linki wpisując [Tytuł Linka](http://example.com).",
   "channel_modal.purpose": "Cel",
   "channel_notifications.muteChannel.settings": "Wycisz kanał",
   "combined_system_message.added_to_channel.many_expanded": "{users} i {lastUser} zostali **dodani do kanału** przez {actor}.",
