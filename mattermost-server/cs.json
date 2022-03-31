@@ -6660,16 +6660,8 @@
     "translation": "Vaše bankovní instituce zamítla platbu přes {{.CardBrand}} ****{{.LastFour}} připojené k Vašemu Mattermost Cloud workspace."
   },
   {
-    "id": "api.templates.over_limit_90_days_info1",
-    "translation": "Toto je závěrečné upozornění, že jsme doposud neobdrželi platbu za předplatné Mattermost Cloud workspace, která je v prodlení od {{ .OverLimitDate }}. Zítra dojde k pozastavení služeb."
-  },
-  {
     "id": "api.templates.over_limit_fix_now",
     "translation": "Vyřešit nyní"
-  },
-  {
-    "id": "api.templates.over_limit_30_days_info2_item2",
-    "translation": "Nebudete moci aktualizovat platební údaje bez asistence naší podpory"
   },
   {
     "id": "api.templates.email_us_anytime_at",
