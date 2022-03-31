@@ -3174,7 +3174,6 @@
   "invitation-modal.confirm.not-valid-channel": "Không đúng với tên kênh hợp lệ.",
   "invitation-modal.confirm.not-valid-user-or-email": "Không khớp với người dùng hoặc email hợp lệ.",
   "invitation-modal.confirm.people-header": "Người Dùng",
-  "invitation-modal.notify-admin.sent": "Đã gửi!",
   "invitation_modal.confirm.done": "Hoàn Thành",
   "invitation_modal.confirm.not-sent-header": "Lời Mời Chưa Được Gửi",
   "invitation_modal.confirm.sent-header": "Gửi Lời Mời Thành Công",
