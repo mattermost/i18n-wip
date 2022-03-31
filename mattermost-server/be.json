@@ -866,5 +866,121 @@
   {
     "id": "model.guest.is_valid.email.app_error",
     "translation": "Няправільны адрас электроннай пошты."
+  },
+  {
+    "id": "app.channel.get_channels_by_ids.not_found.app_error",
+    "translation": "Ніводны канал не знойдзены."
+  },
+  {
+    "id": "app.admin.test_email.failure",
+    "translation": "Падключэнне не атрымалася: {{.Error}}"
+  },
+  {
+    "id": "api.websocket_handler.invalid_param.app_error",
+    "translation": "Няправільны параметр {{.Name}}."
+  },
+  {
+    "id": "api.templates.welcome_body.subTitle1",
+    "translation": "Дзякуй што далучыліся "
+  },
+  {
+    "id": "api.templates.welcome_body.serverURL",
+    "translation": "{{ .ServerURL }}."
+  },
+  {
+    "id": "api.templates.warn_metric_ack.body.registered_users_header",
+    "translation": "Агульная Колькасць Карыстальнікаў: "
+  },
+  {
+    "id": "api.templates.verify_body.subTitle1",
+    "translation": "Дзякуй што далучыліся "
+  },
+  {
+    "id": "api.templates.verify_body.serverURL",
+    "translation": "{{ .ServerURL }}."
+  },
+  {
+    "id": "api.templates.signin_change_email.body.method_email",
+    "translation": "электронная пошта і пароль"
+  },
+  {
+    "id": "api.templates.reset_body.title",
+    "translation": "Скіньце Свой Пароль"
+  },
+  {
+    "id": "api.templates.remove_expired_license.body.renew_button",
+    "translation": "Абнавіць Ліцэнзію"
+  },
+  {
+    "id": "api.templates.over_limit_14_days_title",
+    "translation": "Плацёж не прыняты"
+  },
+  {
+    "id": "api.templates.invite_body_footer.title",
+    "translation": "Што такое Mattermost?"
+  },
+  {
+    "id": "api.templates.cloud_welcome_email.info",
+    "translation": "Дзякуй за стварэнне "
+  },
+  {
+    "id": "api.templates.cloud_trial_ending_email.add_payment_method",
+    "translation": "Дадаць метад аплаты"
+  },
+  {
+    "id": "api.team.import_team.unknown_import_from.app_error",
+    "translation": "Невядомая крыніца імпарту."
+  },
+  {
+    "id": "api.status.user_not_found.app_error",
+    "translation": "Карыстальнік ня знойдзены."
+  },
+  {
+    "id": "api.server.warn_metric.email_domain.notification_title",
+    "translation": "Стварэнне Гасцявых Аккаунтаў"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.notification_failure.body",
+    "translation": "Дашліце нам электронную паштоўку, калі ласка."
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_site_url_header",
+    "translation": "URL сайта: {{.SiteUrl}}"
+  },
+  {
+    "id": "api.push_notification.title.collapsed_threads",
+    "translation": "Адказаць у {{.channelName}}"
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_image_only",
+    "translation": " далучыў файл."
+  },
+  {
+    "id": "api.post.send_notifications_and_forget.push_general_message",
+    "translation": " адправіў паведамленне."
+  },
+  {
+    "id": "api.post.send_notification_and_forget.push_channel_mention",
+    "translation": " паведаміў канал."
+  },
+  {
+    "id": "api.post.create_webhook_post.creating.app_error",
+    "translation": "Памылка стварэння публікацыі."
+  },
+  {
+    "id": "api.templates.server_inactivity_button",
+    "translation": "Адкрыць Mattermost"
+  },
+  {
+    "id": "Playbooks",
+    "translation": "Сцэнары"
+  },
+  {
+    "id": "Channels",
+    "translation": "Каналы"
+  },
+  {
+    "id": "Boards",
+    "translation": "Дошкі"
   }
 ]
