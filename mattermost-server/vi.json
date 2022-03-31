@@ -204,10 +204,6 @@
     "translation": "Cài đặt kết nối Elasticsearch phải được cung cấp khi lập chỉ mục Elasticsearch được bật."
   },
   {
-    "id": "model.config.is_valid.elastic_search.bulk_indexing_time_window_seconds.app_error",
-    "translation": "Cửa sổ thời gian lập chỉ mục hàng loạt của Elaticsearch phải có ít nhất 1 giây."
-  },
-  {
     "id": "model.config.is_valid.elastic_search.aggregate_posts_after_days.app_error",
     "translation": "Cài đặt Elasticsearch AggregatePostsAfterDays phải là một số lớn hơn hoặc bằng 1"
   },
@@ -238,10 +234,6 @@
   {
     "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
     "translation": "Cài đặt Elasticsearch IndexingEnabled phải được bật lên khi Elastic Search AutocompleteEnabled được bật."
-  },
-  {
-    "id": "model.config.is_valid.bleve_search.bulk_indexing_time_window_seconds.app_error",
-    "translation": "Cửa sổ thời gian lập chỉ mục hàng loạt của Elaticsearch phải có ít nhất 1 giây."
   },
   {
     "id": "model.config.is_valid.atmos_camo_image_proxy_url.app_error",

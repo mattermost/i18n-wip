@@ -1956,10 +1956,6 @@
     "translation": "El valor de cerca «ConnectionUrl» de l'Elastic s'ha de proporcionar quan la indexació de cerca de l'Elastic estigui activada."
   },
   {
-    "id": "model.config.is_valid.elastic_search.bulk_indexing_time_window_seconds.app_error",
-    "translation": "La finestra de temps d'indexació massiva de l'Elasticsearch ha de ser com a mínim 1 segon."
-  },
-  {
     "id": "model.config.is_valid.elastic_search.aggregate_posts_after_days.app_error",
     "translation": "El valor «AggregatePostsAfterDays» de l'Elasticsearch ha de ser un número superior o igual a 1"
   },
@@ -1990,10 +1986,6 @@
   {
     "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
     "translation": "El valor d'Elastic Search «IndexingEnabled» ha de ser verdader quan el valor d'Elastic Search «SearchEnabled» és verdader."
-  },
-  {
-    "id": "model.config.is_valid.bleve_search.bulk_indexing_time_window_seconds.app_error",
-    "translation": "La finestra de temps d'indexació massiva de l'Elasticsearch ha de ser com a mínim 1 segon."
   },
   {
     "id": "model.config.is_valid.atmos_camo_image_proxy_url.app_error",

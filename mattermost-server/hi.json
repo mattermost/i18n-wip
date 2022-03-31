@@ -4713,10 +4713,6 @@
     "translation": "Elasticsearch ConnectionUrl सेटिंग Elasticsearch अनुक्रमण सक्षम होने पर प्रदान की जानी चाहिए।"
   },
   {
-    "id": "model.config.is_valid.elastic_search.bulk_indexing_time_window_seconds.app_error",
-    "translation": "Elasticsearch बल्क इंडेक्सिंग टाइम विंडो कम से कम 1 सेकंड की होनी चाहिए।"
-  },
-  {
     "id": "model.config.is_valid.elastic_search.aggregate_posts_after_days.app_error",
     "translation": "Elasticsearch AggregatePostsAfterDays सेटिंग 1 से बड़ी या उसके बराबर संख्या होनी चाहिए।"
   },
@@ -7818,10 +7814,6 @@
   {
     "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
     "translation": "जब Bleve EnableAutocomplete को सही पर सेट किया जाता है, तो Bleve EnableIndexing सेटिंग को सही पर सेट किया जाना चाहिए"
-  },
-  {
-    "id": "model.config.is_valid.bleve_search.bulk_indexing_time_window_seconds.app_error",
-    "translation": "Bleve बल्क इंडेक्सिंग टाइम विंडो कम से कम 1 सेकंड की होनी चाहिए।"
   },
   {
     "id": "model.config.is_valid.atmos_camo_image_proxy_url.app_error",
