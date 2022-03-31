@@ -2752,10 +2752,6 @@
     "translation": "आमंत्रित करने वाला कोई नहीं।"
   },
   {
-    "id": "api.team.invite_members.limit_reached.app_error",
-    "translation": "आप फ़्री टियर उपयोगकर्ता सीमा तक पहुँच चुके हैं"
-  },
-  {
     "id": "api.team.invite_members.invalid_email.app_error",
     "translation": "निम्नलिखित ईमेल एक स्वीकृत डोमेन से संबंधित नहीं हैं: {{.Addresses}}। विवरण के लिए कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
   },
@@ -3218,10 +3214,6 @@
   {
     "id": "api.user.update_active.not_enable.app_error",
     "translation": "आप स्वयं को निष्क्रिय नहीं कर सकते क्योंकि यह सुविधा सक्षम नहीं है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
-  },
-  {
-    "id": "api.user.update_active.cloud_at_or_over_limit_check_overcapacity",
-    "translation": "अधिक उपयोगकर्ताओं को सक्रिय करने में असमर्थ क्योंकि क्लाउड खाता क्षमता से अधिक है।"
   },
   {
     "id": "api.user.update_active.cloud_at_limit_check_error",
@@ -4807,10 +4799,6 @@
   {
     "id": "api.command_custom_status.app_error",
     "translation": "स्थिति सेट करने में त्रुटि."
-  },
-  {
-    "id": "api.cloud.get_subscription.error",
-    "translation": "क्लाउड सदस्यता प्राप्त करने में त्रुटि।"
   },
   {
     "id": "api.command_collapse.desc",
@@ -8356,24 +8344,12 @@
     "translation": "Bleve अनुक्रमणिका को शुद्ध करने में त्रुटि: इंजन अक्षम है"
   },
   {
-    "id": "api.templates.at_limit_title",
-    "translation": "आप फ़्री टियर के लिए उपयोगकर्ता सीमा तक पहुँच गए हैं "
-  },
-  {
     "id": "api.templates.at_limit_subject",
     "translation": "मैटरमोस्ट क्लाउड उपयोगकर्ता सीमा तक पहुंच गया"
   },
   {
-    "id": "api.templates.at_limit_info5",
-    "translation": "वैकल्पिक रूप से, आप उपयोगकर्ताओं के लिए स्पॉट खोलने और मुफ़्त उपयोगकर्ता सीमा से नीचे रहने के लिए सिस्टम कंसोल में उपयोगकर्ताओं को अक्षम कर सकते हैं।"
-  },
-  {
     "id": "api.templates.at_limit_info2",
     "translation": "वैकल्पिक रूप से, आप अधिक उपयोगकर्ताओं के लिए स्पॉट खोलने या निःशुल्क उपयोगकर्ता सीमा से नीचे रहने के लिए Admin Console में उपयोगकर्ताओं को अक्षम कर सकते हैं।"
-  },
-  {
-    "id": "api.templates.at_limit_info1",
-    "translation": "ऐसा लगता है कि आपके कार्यक्षेत्र में अभी 10 या अधिक उपयोगकर्ता हैं — यह बहुत अच्छा है! यदि आप टीम के अधिक सदस्यों को आमंत्रित करना चाहते हैं, तो मैटरमॉस्ट क्लाउड को अभी अपग्रेड करने पर विचार करें।"
   },
   {
     "id": "api.team.cloud.subscription.error",
@@ -8510,10 +8486,6 @@
   {
     "id": "api.command_custom_status.clear.app_error",
     "translation": "स्थिति साफ़ करने में त्रुटि।"
-  },
-  {
-    "id": "api.cloud.get_admins_emails.error",
-    "translation": "सिस्टम व्यवस्थापक ईमेल प्राप्त करने में त्रुटि।"
   },
   {
     "id": "Playbooks",
@@ -8672,24 +8644,12 @@
     "translation": "यदि यह आप नहीं थे, तो आप सुरक्षित रूप से इस ईमेल को अनदेखा कर सकते हैं।"
   },
   {
-    "id": "api.templates.upgrade_request_title2",
-    "translation": "नए उपयोगकर्ता आपके कार्यक्षेत्र में शामिल नहीं हो पा रहे हैं"
-  },
-  {
     "id": "api.templates.upgrade_request_title",
     "translation": "{{ .UserName }} सदस्यों को आपके कार्यक्षेत्र में आमंत्रित करना चाहते हैं"
   },
   {
-    "id": "api.templates.upgrade_request_subject",
-    "translation": "सबसे महत्वपूर्ण उपयोगकर्ता कार्यस्थान के उन्नयन का अनुरोध करता है"
-  },
-  {
     "id": "api.templates.upgrade_request_info4_2",
     "translation": "किसी ने हाल ही में आपके कार्यक्षेत्र में शामिल होने का प्रयास किया था, लेकिन ऐसा करने में असमर्थ था क्योंकि आपका कार्यक्षेत्र मैटरमॉस्ट क्लाउड के मुफ़्त संस्करण के लिए उपयोगकर्ता सीमा तक पहुंच गया है। अधिक उपयोगकर्ताओं को आपके कार्यक्षेत्र में शामिल होने की अनुमति देने के लिए अभी अपग्रेड करें।"
-  },
-  {
-    "id": "api.templates.upgrade_request_info4",
-    "translation": "चूँकि आपका कार्यक्षेत्र मैटरमॉस्ट क्लाउड के मुफ़्त संस्करण के लिए उपयोगकर्ता सीमा तक पहुँच गया है, इसलिए आमंत्रण नहीं भेजे जा सकते। अधिक उपयोगकर्ताओं को आपके कार्यक्षेत्र में शामिल होने की अनुमति देने के लिए अभी अपग्रेड करें।"
   },
   {
     "id": "api.templates.upgrade_mattermost_cloud",

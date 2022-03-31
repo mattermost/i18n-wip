@@ -2271,10 +2271,6 @@
     "translation": "Οι λογαριασμοί επισκεπτών είναι απενεργοποιημένοι."
   },
   {
-    "id": "api.team.cloud.subscription.error",
-    "translation": "Σφάλμα κατά τη λήψη της cloud συνδρομής"
-  },
-  {
     "id": "api.team.add_user_to_team_from_invite.guest.app_error",
     "translation": "Οι επισκέπτες δεν επιτρέπεται να συμμετέχουν σε μια ομάδα μέσω ενός συνδέσμου πρόσκλησης. Ζητήστε από την ομάδα να σας στείλει μέσω email μια πρόσκληση επισκεπτών."
   },
@@ -3035,10 +3031,6 @@
   {
     "id": "api.team.invite_members.no_one.app_error",
     "translation": "Δεν υπάρχει κανείς να προσκαλεστεί."
-  },
-  {
-    "id": "api.team.invite_members.limit_reached.app_error",
-    "translation": "Έχετε φτάσει στο όριο χρηστών της δωρεάν βαθμίδας"
   },
   {
     "id": "api.team.invite_members.invalid_email.app_error",

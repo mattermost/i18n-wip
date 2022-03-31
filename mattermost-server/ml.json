@@ -440,10 +440,6 @@
     "translation": "ചാനൽ തരം പരിഷ്‌കരിക്കാൻ കഴിയില്ല."
   },
   {
-    "id": "api.cloud.get_admins_emails.error",
-    "translation": "സിസ്റ്റം അഡ്മിൻമാരുടെ ഇമെയിൽ ലഭിക്കുന്നതിൽ പിശക്."
-  },
-  {
     "id": "api.channel.restore_channel.restored.app_error",
     "translation": "ചാനൽ ആർക്കൈവുചെയ്യാനാകുന്നില്ല. ചാനൽ ആർക്കൈവുചെയ്‌തിട്ടില്ല."
   },
@@ -478,10 +474,6 @@
   {
     "id": "api.cloud.license_error",
     "translation": "നിങ്ങളുടെ അനുമതിപത്രം ക്ലൗഡ് അഭ്യർത്ഥനകളെ പിന്തുണയ്ക്കുന്നില്ല."
-  },
-  {
-    "id": "api.cloud.get_subscription.error",
-    "translation": "ക്ലൗഡ് സബ്സ്ക്രിപ്ഷൻ ലഭിക്കുന്നതിൽ പിശക്."
   },
   {
     "id": "api.command_away.name",

@@ -256,24 +256,12 @@
     "translation": "A súa factura de Mattermost Cloud está pendente de pago"
   },
   {
-    "id": "api.templates.upgrade_mattermost_cloud",
-    "translation": "Anovar"
-  },
-  {
     "id": "api.templates.payment_failed_no_card.button",
     "translation": "Pagar agora"
   },
   {
-    "id": "api.templates.over_limit_suspended_contact_support",
-    "translation": "Póñase en contacto co servizo de asistencia"
-  },
-  {
     "id": "api.templates.over_limit_fix_now",
     "translation": "Arranxalo agora"
-  },
-  {
-    "id": "api.templates.over_limit_7_days_title",
-    "translation": "Non hai ningún método de pago rexistrado"
   },
   {
     "id": "api.templates.over_limit_14_days_title",

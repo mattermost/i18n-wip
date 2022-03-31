@@ -80,10 +80,6 @@
     "translation": "бяспечнае-злучэнне"
   },
   {
-    "id": "api.templates.upgrade_mattermost_cloud",
-    "translation": "Абнавіць"
-  },
-  {
     "id": "api.templates.questions_footer.title",
     "translation": "Пытаннi?"
   },
@@ -446,10 +442,6 @@
   {
     "id": "api.templates.payment_failed.title",
     "translation": "Няўдалы Плацёж"
-  },
-  {
-    "id": "api.templates.over_limit_suspended_contact_support",
-    "translation": "Звярнуцца ў падтрымку"
   },
   {
     "id": "api.templates.over_limit_fix_now",
@@ -910,10 +902,6 @@
   {
     "id": "api.templates.remove_expired_license.body.renew_button",
     "translation": "Абнавіць Ліцэнзію"
-  },
-  {
-    "id": "api.templates.over_limit_14_days_title",
-    "translation": "Плацёж не прыняты"
   },
   {
     "id": "api.templates.invite_body_footer.title",
