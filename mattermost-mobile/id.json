@@ -79,5 +79,13 @@
   "api.channel.add_guest.added": "{addedUsername} ditambahkan ke kanal sebagai tamu oleh {username}.",
   "about.hashee": "EE Membangun Hash:",
   "about.hash": "Membangun Hash:",
-  "about.enterpriseEditionSt": "Komunikasi modern dari balik firewall Anda."
+  "about.enterpriseEditionSt": "Komunikasi modern dari balik firewall Anda.",
+  "apps.error.form.no_lookup": "`lookup` tidak terdefinisi.",
+  "apps.error.parser.missing_list_end": "Butuh penutup daftar token.",
+  "apps.error.parser.missing_binding": "Binding perintah tidak ada.",
+  "apps.error.form.no_submit": "`submit` tidak ditentukan",
+  "apps.error.form.no_source": "`sumber` tidak ditentukan.",
+  "apps.error.command.same_user": "User diulang untuk bidang `{fieldName}`: `{option}`.",
+  "apps.error.command.same_option": "Opsi diulang untuk bidang `{fieldName}`: `{option}`.",
+  "apps.error.command.same_channel": "kanal diulang untuk bidang `{fieldName}`: `{option}`."
 }
