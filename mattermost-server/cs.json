@@ -6660,56 +6660,28 @@
     "translation": "Vaše bankovní instituce zamítla platbu přes {{.CardBrand}} ****{{.LastFour}} připojené k Vašemu Mattermost Cloud workspace."
   },
   {
-    "id": "api.templates.over_limit_suspended_title",
-    "translation": "Pozastavení Mattermost Cloud Workspace"
-  },
-  {
     "id": "api.templates.over_limit_suspended_info2",
     "translation": "Kontaktujte nás chcete-li znovu aktivovat workspace."
-  },
-  {
-    "id": "api.templates.over_limit_90_days_info4",
-    "translation": "Poté, co služba workspace bude pozastavena, veškerý obsah a data z ní budou smazána během 1-3 měsíců."
   },
   {
     "id": "api.templates.over_limit_90_days_info1",
     "translation": "Toto je závěrečné upozornění, že jsme doposud neobdrželi platbu za předplatné Mattermost Cloud workspace, která je v prodlení od {{ .OverLimitDate }}. Zítra dojde k pozastavení služeb."
   },
   {
-    "id": "api.templates.over_limit_30_days_info2",
-    "translation": "V případě, že nebudete jednat, služba workspace bude pozastavena"
-  },
-  {
     "id": "api.templates.over_limit_suspended_info1",
     "translation": "Služba Mattermost workspace byla pozastavena. Veškerý obsah a data budou smazána během 1-3 měsíců."
-  },
-  {
-    "id": "api.templates.over_limit_subject",
-    "translation": "Mattermost Cloud Workspace dosáhl limitu uživatelů"
   },
   {
     "id": "api.templates.over_limit_fix_now",
     "translation": "Vyřešit nyní"
   },
   {
-    "id": "api.templates.over_limit_90_days_info2",
-    "translation": "Chcete-li zabránit omezení služeb, zadejte platební údaje"
-  },
-  {
     "id": "api.templates.over_limit_7_days_subject",
     "translation": "Platba za Mattermost Cloud je ve zpoždění"
   },
   {
-    "id": "api.templates.over_limit_30_days_subject",
-    "translation": " Jednejte, ať si udržíte své předplatné k Mattermost Cloudu"
-  },
-  {
     "id": "api.templates.over_limit_30_days_info2_item2",
     "translation": "Nebudete moci aktualizovat platební údaje bez asistence naší podpory"
-  },
-  {
-    "id": "api.templates.over_limit_30_days_info1",
-    "translation": "Stále je čas udržet si Mattermost Cloud workspace vyřešením problémů s platbou. Chcete-li zabránit omezení služeb, prosím aktualizujte si platební údaje."
   },
   {
     "id": "api.templates.over_limit_14_days_subject",
@@ -6722,10 +6694,6 @@
   {
     "id": "api.templates.copyright",
     "translation": "© 2020 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
-  },
-  {
-    "id": "api.templates.at_limit_subject",
-    "translation": "Dosažen limit počtu uživatelů pro Mattermost Cloud"
   },
   {
     "id": "api.templates.at_limit_info2",

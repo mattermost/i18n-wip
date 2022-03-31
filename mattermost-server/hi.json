@@ -3216,10 +3216,6 @@
     "translation": "आप स्वयं को निष्क्रिय नहीं कर सकते क्योंकि यह सुविधा सक्षम नहीं है। कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें।"
   },
   {
-    "id": "api.user.update_active.cloud_at_limit_check_error",
-    "translation": "आपके मैटरमोस्ट क्लाउड इंस्टेंस में उपयोगकर्ताओं की संख्या जांचने में असमर्थ।"
-  },
-  {
     "id": "api.user.send_password_reset.sso.app_error",
     "translation": "SSO अकाऊंत के लिए पासवर्ड रीसेट करने में असमर्थ।"
   },
@@ -8344,16 +8340,8 @@
     "translation": "Bleve अनुक्रमणिका को शुद्ध करने में त्रुटि: इंजन अक्षम है"
   },
   {
-    "id": "api.templates.at_limit_subject",
-    "translation": "मैटरमोस्ट क्लाउड उपयोगकर्ता सीमा तक पहुंच गया"
-  },
-  {
     "id": "api.templates.at_limit_info2",
     "translation": "वैकल्पिक रूप से, आप अधिक उपयोगकर्ताओं के लिए स्पॉट खोलने या निःशुल्क उपयोगकर्ता सीमा से नीचे रहने के लिए Admin Console में उपयोगकर्ताओं को अक्षम कर सकते हैं।"
-  },
-  {
-    "id": "api.team.cloud.subscription.error",
-    "translation": "क्लाउड सदस्यता प्राप्त करने में त्रुटि"
   },
   {
     "id": "api.roles.patch_roles.not_allowed_permission.error",
@@ -8644,16 +8632,8 @@
     "translation": "यदि यह आप नहीं थे, तो आप सुरक्षित रूप से इस ईमेल को अनदेखा कर सकते हैं।"
   },
   {
-    "id": "api.templates.upgrade_request_title",
-    "translation": "{{ .UserName }} सदस्यों को आपके कार्यक्षेत्र में आमंत्रित करना चाहते हैं"
-  },
-  {
     "id": "api.templates.upgrade_request_info4_2",
     "translation": "किसी ने हाल ही में आपके कार्यक्षेत्र में शामिल होने का प्रयास किया था, लेकिन ऐसा करने में असमर्थ था क्योंकि आपका कार्यक्षेत्र मैटरमॉस्ट क्लाउड के मुफ़्त संस्करण के लिए उपयोगकर्ता सीमा तक पहुंच गया है। अधिक उपयोगकर्ताओं को आपके कार्यक्षेत्र में शामिल होने की अनुमति देने के लिए अभी अपग्रेड करें।"
-  },
-  {
-    "id": "api.templates.upgrade_mattermost_cloud",
-    "translation": "अपग्रेड"
   },
   {
     "id": "api.templates.questions_footer.title",
