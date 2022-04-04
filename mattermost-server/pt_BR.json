@@ -1,1 +1,346 @@
-{}
+[
+  {
+    "id": "api.channel.patch_update_channel.forbidden.app_error",
+    "translation": "Falha ao atualizar o canal."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.license.error",
+    "translation": "Sua licença não suporta moderação de canal"
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "Erro na validação do cache"
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "Impossível mover canais de mensagem direta ou de grupo"
+  },
+  {
+    "id": "api.channel.leave.left",
+    "translation": "%v saiu do canal."
+  },
+  {
+    "id": "api.channel.leave.last_member.app_error",
+    "translation": "Você é o último membro, tente remover o canal privado ao invés de sair."
+  },
+  {
+    "id": "api.channel.leave.direct.app_error",
+    "translation": "Impossível sair de um canal de mensagem direta."
+  },
+  {
+    "id": "api.channel.leave.default.app_error",
+    "translation": "Impossível sair do canal padrão {{.Channel}}."
+  },
+  {
+    "id": "api.channel.join_channel.post_and_forget",
+    "translation": "%v entrou no canal."
+  },
+  {
+    "id": "api.channel.join_channel.permissions.app_error",
+    "translation": "Você não tem as permissões necessárias."
+  },
+  {
+    "id": "api.channel.guest_join_channel.post_and_forget",
+    "translation": "%v entrou no canal como convidado."
+  },
+  {
+    "id": "api.channel.get_channel_moderations.license.error",
+    "translation": "Sua licença não suporta moderação de canal"
+  },
+  {
+    "id": "api.channel.delete_channel.type.invalid",
+    "translation": "Impossível remover canais de mensagem direta ou de grupo"
+  },
+  {
+    "id": "api.channel.delete_channel.deleted.app_error",
+    "translation": "O canal foi arquivado ou removido."
+  },
+  {
+    "id": "api.channel.delete_channel.cannot.app_error",
+    "translation": "Impossível remover o canal padrão {{.Channel}}."
+  },
+  {
+    "id": "api.channel.delete_channel.archived",
+    "translation": "%v arquivou o canal."
+  },
+  {
+    "id": "api.channel.create_group.bad_user.app_error",
+    "translation": "Um dos usuários fornecidos não existe."
+  },
+  {
+    "id": "api.channel.create_group.bad_size.app_error",
+    "translation": "Canais de mensagens de grupo precisam ter de 3 a 8 usuários."
+  },
+  {
+    "id": "api.channel.create_direct_channel.invalid_user.app_error",
+    "translation": "ID de usuário inválido para a criação de um canal de mensagens diretas."
+  },
+  {
+    "id": "api.channel.create_default_channels.town_square",
+    "translation": "Praça Pública"
+  },
+  {
+    "id": "api.channel.create_default_channels.off_topic",
+    "translation": "Off-Topic"
+  },
+  {
+    "id": "api.channel.create_channel.max_channel_limit.app_error",
+    "translation": "Impossível criar mais de {{.MaxChannelsPerTeam}} canais para a equipe atual."
+  },
+  {
+    "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
+    "translation": "Falha ao adicionar o usuário ao canal, pois o mesmo foi removido da equipe."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "Um canal de mensagens diretas não pode ser criado entre esses usuários, pois não possuem uma equipe em comum."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.app_error",
+    "translation": "Necessário utilizar a API de serviço createDirectChannel para a criação de um canal de mensagens diretas."
+  },
+  {
+    "id": "api.channel.channel_member_counts_by_group.license.error",
+    "translation": "Sua licença não suporta grupos"
+  },
+  {
+    "id": "api.channel.change_channel_privacy.public_to_private",
+    "translation": "Esse canal foi convertido a Privado."
+  },
+  {
+    "id": "api.channel.change_channel_privacy.private_to_public",
+    "translation": "Este canal foi convertido para Público e poderá ser acessado por qualquer membro da equipe."
+  },
+  {
+    "id": "api.channel.add_user_to_channel.type.app_error",
+    "translation": "Não é possível adicionar o usuário a esse tipo de canal."
+  },
+  {
+    "id": "api.channel.add_user.to.channel.failed.app_error",
+    "translation": "Falha ao adicionar o usuário ao canal."
+  },
+  {
+    "id": "api.channel.add_members.user_denied",
+    "translation": "Permissão negada ao adicionar os seguintes usuários como membros do canal, devido as restrições do grupo: {{ .UserIDs }}"
+  },
+  {
+    "id": "api.channel.add_members.error",
+    "translation": "Erro ao adicionar os membro(s) do canal."
+  },
+  {
+    "id": "api.channel.add_member.added",
+    "translation": "%v adicionado ao canal por %v."
+  },
+  {
+    "id": "api.channel.add_guest.added",
+    "translation": "%v adicionado ao canal por %v como convidado."
+  },
+  {
+    "id": "api.bot.teams_channels.add_message_mobile",
+    "translation": "Por favor me adicione aos times e canais que você deseja que eu interaja.Para fazer isso, user o navegador ou o Aplicativo Mattermost Desktop."
+  },
+  {
+    "id": "api.bot.create_disabled",
+    "translation": "A criação de bots está desabilitada."
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "Voltar para {{.SiteName}}"
+  },
+  {
+    "id": "api.admin.upload_brand_image.too_large.app_error",
+    "translation": "Não foi possível enviar o arquivo. O arquivo é muito grande."
+  },
+  {
+    "id": "api.admin.upload_brand_image.storage.app_error",
+    "translation": "Não foi possível enviar a imagem. O servidor de imagens não está configurado."
+  },
+  {
+    "id": "api.admin.upload_brand_image.parse.app_error",
+    "translation": "Não foi possível analisar o formulário multipart."
+  },
+  {
+    "id": "api.admin.upload_brand_image.no_file.app_error",
+    "translation": "Nenhum arquivo sob a requisição 'image'."
+  },
+  {
+    "id": "api.admin.upload_brand_image.array.app_error",
+    "translation": "Array vazia sob a requisição 'image'."
+  },
+  {
+    "id": "api.admin.test_email.missing_server",
+    "translation": "Servidor SMTP é necessário"
+  },
+  {
+    "id": "api.admin.test_s3.missing_s3_bucket",
+    "translation": "S3 Bucket é necessário"
+  },
+  {
+    "id": "api.admin.test_email.subject",
+    "translation": "Mattermost - Configurações de teste de e-mail"
+  },
+  {
+    "id": "api.admin.test_email.reenter_password",
+    "translation": "O servidor SMTP, porta, ou usuário foi modificado. Por favor redigite a senha do SMTP para testar a conexão."
+  },
+  {
+    "id": "api.admin.test_email.body",
+    "translation": "Parece que seu e-mail Mattermost está configurado corretamente!"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+    "translation": "Tipo de conteúdo ausente."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "Tipo de conteúdo inválido."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+    "translation": "Texto de certificado inválido."
+  },
+  {
+    "id": "api.admin.saml.not_available.app_error",
+    "translation": "SAML 2.0 não está configurado ou não é suportado pelo servidor."
+  },
+  {
+    "id": "api.admin.saml.metadata.app_error",
+    "translation": "Um erro ocorreu durante a construção dos Metadados do Provedor de Serviços."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
+    "translation": "Descritores de Login Único do Provedor de Identidade ausentes no XML."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_ssoservices.app_error",
+    "translation": "Serviços de Login Único do Provedor de Identidade ausentes no XML."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_keydescriptor.app_error",
+    "translation": "Chave dos descritores do Provedor de Identidade ausentes no XML."
+  },
+  {
+    "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
+    "translation": "Não foi possível salvar o arquivo de certificado."
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "Falha ao limpar o campo de e-mail AuthData."
+  },
+  {
+    "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
+    "translation": "Falha ao obter as informações dos metadados do provedor de identidade para o certificado."
+  },
+  {
+    "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
+    "translation": "Falha ao obter os metadados do provedor de identidade (URL)."
+  },
+  {
+    "id": "api.admin.remove_certificate.delete.app_error",
+    "translation": "Um erro ocorreu durante a remoção do certificado."
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "Servidor LDAP indisponível."
+  },
+  {
+    "id": "api.admin.get_brand_image.storage.app_error",
+    "translation": "Imagem de armazenamento não configurada."
+  },
+  {
+    "id": "api.admin.file_read_error",
+    "translation": "Erro ao ler o arquivo de log."
+  },
+  {
+    "id": "api.admin.delete_brand_image.storage.not_found",
+    "translation": "Não foi encontrada a imagem para remoção. Impossível remover."
+  },
+  {
+    "id": "api.admin.add_certificate.saving.app_error",
+    "translation": "Não foi possível salvar o arquivo de certificado."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Erro ao analisar a requisição multiform."
+  },
+  {
+    "id": "api.admin.add_certificate.open.app_error",
+    "translation": "Não foi possível abrir o arquivo de certificado."
+  },
+  {
+    "id": "api.admin.add_certificate.array.app_error",
+    "translation": "Nenhum arquivo certificado na requisição."
+  },
+  {
+    "id": "api.admin.add_certificate.no_file.app_error",
+    "translation": "Nenhum arquivo certificado na requisição."
+  },
+  {
+    "id": "September",
+    "translation": "Setembro"
+  },
+  {
+    "id": "Playbooks",
+    "translation": "Planejamento"
+  },
+  {
+    "id": "October",
+    "translation": "Outubro"
+  },
+  {
+    "id": "November",
+    "translation": "Novembro"
+  },
+  {
+    "id": "May",
+    "translation": "Maio"
+  },
+  {
+    "id": "March",
+    "translation": "Março"
+  },
+  {
+    "id": "June",
+    "translation": "Junho"
+  },
+  {
+    "id": "July",
+    "translation": "Julho"
+  },
+  {
+    "id": "January",
+    "translation": "Janeiro"
+  },
+  {
+    "id": "February",
+    "translation": "Fevereiro"
+  },
+  {
+    "id": "December",
+    "translation": "Dezembro"
+  },
+  {
+    "id": "Channels",
+    "translation": "Canais"
+  },
+  {
+    "id": "Boards",
+    "translation": "Quadros"
+  },
+  {
+    "id": "August",
+    "translation": "Agosto"
+  },
+  {
+    "id": "April",
+    "translation": "Abril"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
+    "translation": "Falha ao postar a mensagem de atualização do nome de exibição"
+  },
+  {
+    "id": "api.channel.post_channel_privacy_message.error",
+    "translation": "Falha ao postar mensagem de atualização de privacidade do canal."
+  }
+]
