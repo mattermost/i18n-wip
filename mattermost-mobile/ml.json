@@ -465,5 +465,7 @@
   "post_body.commentedOn": "{name}{apostrophe} സന്ദേശത്തിൽ അഭിപ്രായമിട്ടു: ",
   "post_body.check_for_out_of_channel_mentions.message.one": "പരാമർശിച്ചെങ്കിലും ചാനലിൽ ഇല്ല. ഇഷ്ടമുണ്ടോ ",
   "post_body.check_for_out_of_channel_mentions.message.multiple": "പരാമർശിച്ചെങ്കിലും അവ ചാനലിലില്ല. ഇഷ്ടമുണ്ടോ ",
-  "post_body.check_for_out_of_channel_mentions.message_last": "? അവർക്ക് എല്ലാ സന്ദേശ ചരിത്രത്തിലേക്കും ആക്സസ് ഉണ്ടായിരിക്കും."
+  "post_body.check_for_out_of_channel_mentions.message_last": "? അവർക്ക് എല്ലാ സന്ദേശ ചരിത്രത്തിലേക്കും ആക്സസ് ഉണ്ടായിരിക്കും.",
+  "apps.error.parser.missing_binding": "കമാൻഡ് ബൈൻഡിംഗുകൾ നഷ്‌ടമായി.",
+  "apps.error.malformed_binding": "ഈ ബൈൻഡിങ് ശരിയായി രൂപപ്പെട്ടിട്ടില്ല. ആപ്പ് ഡെവലപ്പറെ ബന്ധപ്പെടുക."
 }
