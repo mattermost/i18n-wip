@@ -970,5 +970,369 @@
   {
     "id": "Boards",
     "translation": "Дошкі"
+  },
+  {
+    "id": "model.config.is_valid.saml_signature_algorithm.app_error",
+    "translation": "Няправільны алгарытм подпісу."
+  },
+  {
+    "id": "model.config.is_valid.saml_canonical_algorithm.app_error",
+    "translation": "Некарэктны алгарытм кананізацыі."
+  },
+  {
+    "id": "model.command_hook.root_id.app_error",
+    "translation": "Некарэктны каранёвы ідэнтыфікатар."
+  },
+  {
+    "id": "model.command.is_valid.team_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар каманды."
+  },
+  {
+    "id": "model.command.is_valid.plugin_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар плагіна."
+  },
+  {
+    "id": "model.channel_member.is_valid.notify_level.app_error",
+    "translation": "Недапушчальны ўзровень апавяшчэнняў."
+  },
+  {
+    "id": "model.channel_member.is_valid.channel_id.app_error",
+    "translation": "Няправiльны ідэнтыфікатар канала."
+  },
+  {
+    "id": "model.channel.is_valid.display_name.app_error",
+    "translation": "Недапушчальнае імя для адлюстравання."
+  },
+  {
+    "id": "model.channel.is_valid.creator_id.app_error",
+    "translation": "Недапушчальны ідэнтыфікатар стваральніка."
+  },
+  {
+    "id": "model.bot.is_valid.update_at.app_error",
+    "translation": "Недапушчальны параметр 'абноўлена ў'."
+  },
+  {
+    "id": "model.bot.is_valid.creator_id.app_error",
+    "translation": "Недапушчальны ідэнтыфікатар стваральніка."
+  },
+  {
+    "id": "model.bot.is_valid.create_at.app_error",
+    "translation": "Недапушчальны параметр 'створана ў'."
+  },
+  {
+    "id": "model.authorize.is_valid.redirect_uri.app_error",
+    "translation": "Недапушчальны адрас рэдырэкту."
+  },
+  {
+    "id": "model.access.is_valid.redirect_uri.app_error",
+    "translation": "Недапушчальны адрас рэдырэкту."
+  },
+  {
+    "id": "mattermost.bulletin.subject",
+    "translation": "Бюлетэнь бяспекі Mattermost"
+  },
+  {
+    "id": "ent.ldap_id_migrate.app_error",
+    "translation": "немагчыма мігрыраваць."
+  },
+  {
+    "id": "ent.ldap.syncronize.populate_syncables",
+    "translation": "памылка запаўнення сінхранізаваных"
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.unknown_scheme.error",
+    "translation": "Невядомая вобласць ахопу схемы."
+  },
+  {
+    "id": "api.web_socket_router.no_action.app_error",
+    "translation": "Няма websocket дзеяння."
+  },
+  {
+    "id": "api.server.warn_metric.mfa.notification_title",
+    "translation": "Забяспечыць шматфактарную аўтэнтыфікацыю"
+  },
+  {
+    "id": "api.post.do_action.action_integration.app_error",
+    "translation": "Памылка інтэграцыі дзеянняў."
+  },
+  {
+    "id": "api.post.do_action.action_id.app_error",
+    "translation": "Несапраўдны ідэнтыфікатар дзеяння."
+  },
+  {
+    "id": "app.user.group_name_conflict",
+    "translation": " "
+  },
+  {
+    "id": "app.user.get_by_name_failure",
+    "translation": " "
+  },
+  {
+    "id": "app.group.username_conflict",
+    "translation": " "
+  },
+  {
+    "id": "app.group.get_by_username_failure",
+    "translation": " "
+  },
+  {
+    "id": "api.users.invalid_emails.enable_open_server.app_error",
+    "translation": " "
+  },
+  {
+    "id": "model.github_release_info.is_valid.id.app_error",
+    "translation": " "
+  },
+  {
+    "id": "app.admin.latest_version_unmarshal.failure",
+    "translation": " "
+  },
+  {
+    "id": "app.admin.latest_version_set_cache.failure",
+    "translation": " "
+  },
+  {
+    "id": "app.admin.latest_version_read_all.failure",
+    "translation": " "
+  },
+  {
+    "id": "app.admin.latest_version_external_error.failure",
+    "translation": " "
+  },
+  {
+    "id": "model.user.is_valid.last_name.app_error",
+    "translation": "Няправільная прозвішча."
+  },
+  {
+    "id": "model.user.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.bot.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.outgoing_hook.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.reaction.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.websocket_client.connect_fail.app_error",
+    "translation": "Немагчыма падлучыцца да сервера WebSocket."
+  },
+  {
+    "id": "model.utils.decode_json.app_error",
+    "translation": "немагчыма раскадаваць."
+  },
+  {
+    "id": "model.user_access_token.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.command_hook.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.preference.is_valid.value.app_error",
+    "translation": "Занадта доўгае значэнне."
+  },
+  {
+    "id": "model.authorize.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.name_invalid.error",
+    "translation": "Няправільная назва схемы."
+  },
+  {
+    "id": "app.import.validate_scheme_import_data.description_invalid.error",
+    "translation": "Няправільнае апісанне схемы."
+  },
+  {
+    "id": "app.import.validate_role_import_data.name_invalid.error",
+    "translation": "Няправільная назва ролі."
+  },
+  {
+    "id": "app.import.validate_role_import_data.description_invalid.error",
+    "translation": "Няправільнае апісанне ролі."
+  },
+  {
+    "id": "app.import.generate_password.app_error",
+    "translation": "Памылка стварэння пароля."
+  },
+  {
+    "id": "api.web_socket_router.bad_action.app_error",
+    "translation": "Невядомае дзеянне WebSocket."
+  },
+  {
+    "id": "api.user.update_password.failed.app_error",
+    "translation": "Не атрымалася абнавіць пароль."
+  },
+  {
+    "id": "api.user.check_user_mfa.bad_code.app_error",
+    "translation": "Няправiльны MFA токен."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.token_failed.app_error",
+    "translation": "Запыт токена не атрымался."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.missing.app_error",
+    "translation": "Адсутнічае токен доступу."
+  },
+  {
+    "id": "api.user.authorize_oauth_user.bad_token.app_error",
+    "translation": "Памылковы тып токену."
+  },
+  {
+    "id": "api.templates.email_info3",
+    "translation": "Каманда {{.SiteName}}"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_teams_5.notification_title",
+    "translation": "Выкарыстоўваюцца дадатковыя дазволы"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_channels_50.notification_title",
+    "translation": "Выкарыстоўваюцца дадатковыя дазволы"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
+    "translation": "Маштабаванне з Mattermost"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
+    "translation": "Маштабаванне з Mattermost"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
+    "translation": "Маштабаванне з Mattermost"
+  },
+  {
+    "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
+    "translation": "Каналы аб'яваў толькі для чытання"
+  },
+  {
+    "id": "api.server.warn_metric.bot_response.mailto_diagnostic_id_header",
+    "translation": "Дыягнастычны Id: {{.DiagnosticId}}"
+  },
+  {
+    "id": "api.post.update_post.permissions_details.app_error",
+    "translation": "Ужо выдалены id={{.PostId}}."
+  },
+  {
+    "id": "api.templates.invite_body.title.reminder",
+    "translation": "Напамінальнік"
+  },
+  {
+    "id": "model.preference.is_valid.id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.post.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.command_hook.command_id.app_error",
+    "translation": "Несапраўдны ідэнтыфікатар каманды."
+  },
+  {
+    "id": "model.command_hook.channel_id.app_error",
+    "translation": "Няправiльны ідэнтыфікатар канала."
+  },
+  {
+    "id": "model.command.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.incoming_hook.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.channel_member.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.team_member.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.authorize.is_valid.response_type.app_error",
+    "translation": "Памылковы тып адказу."
+  },
+  {
+    "id": "model.authorize.is_valid.client_id.app_error",
+    "translation": "Несапраўдны ідэнтыфікатар кліента."
+  },
+  {
+    "id": "model.authorize.is_valid.auth_code.app_error",
+    "translation": "Несапраўдны код аўтарызацыі."
+  },
+  {
+    "id": "model.access.is_valid.user_id.app_error",
+    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+  },
+  {
+    "id": "model.access.is_valid.refresh_token.app_error",
+    "translation": "Несапраўдны токен абнаўлення."
+  },
+  {
+    "id": "model.access.is_valid.client_id.app_error",
+    "translation": "Несапраўдны ідэнтыфікатар кліента."
+  },
+  {
+    "id": "model.access.is_valid.access_token.app_error",
+    "translation": "Несапраўдны токен доступу."
+  },
+  {
+    "id": "mfa.validate_token.authenticate.app_error",
+    "translation": "Няправiльны MFA токен."
+  },
+  {
+    "id": "mfa.activate.bad_token.app_error",
+    "translation": "Няправiльны MFA токен."
+  },
+  {
+    "id": "ent.ldap.validate_filter.app_error",
+    "translation": "Няправільны фільтар AD/LDAP."
+  },
+  {
+    "id": "ent.ldap.syncronize.get_all_groups.app_error",
+    "translation": "памылка атрымання груп."
+  },
+  {
+    "id": "ent.elasticsearch.test_config.indexing_disabled.error",
+    "translation": "Elasticsearch адключаны."
+  },
+  {
+    "id": "ent.data_retention.policies.invalid_policy",
+    "translation": "Няправільная палітыка."
+  },
+  {
+    "id": "ent.api.post.send_notifications_and_forget.push_image_only",
+    "translation": " далучыў файл."
+  },
+  {
+    "id": "app.post.search.app_error",
+    "translation": "Памылка пошуку паведамленняў"
+  },
+  {
+    "id": "app.plugin.filesystem.app_error",
+    "translation": "Адбылася памылка файлавай сістэмы."
+  },
+  {
+    "id": "app.notification.footer.infoLogin",
+    "translation": "Вайсці у Mattermost"
+  },
+  {
+    "id": "app.license.generate_renewal_token.no_license",
+    "translation": "Няма ліцензіі"
+  },
+  {
+    "id": "app.import.validate_user_import_data.profile_image.error",
+    "translation": "Няправільны відарыс профілю."
   }
 ]
