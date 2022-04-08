@@ -705,7 +705,7 @@
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
-    "translation": "Windows 7+"
+    "translation": "Windows 8.1+"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.mac",
@@ -713,11 +713,11 @@
   },
   {
     "id": "web.error.unsupported_browser.min_browser_version.safari",
-    "translation": "Версія 12+"
+    "translation": "Версія 14.1+"
   },
   {
     "id": "web.error.unsupported_browser.min_browser_version.firefox",
-    "translation": "Версія 78+"
+    "translation": "Версія 91+"
   },
   {
     "id": "web.error.unsupported_browser.min_browser_version.edge",
@@ -1257,7 +1257,7 @@
   },
   {
     "id": "model.team_member.is_valid.user_id.app_error",
-    "translation": "Няправільны ідэнтыфікатар карыстальніка."
+    "translation": "Недапушчальны ідэнтыфікатар карыстальніка."
   },
   {
     "id": "model.authorize.is_valid.response_type.app_error",
@@ -1725,11 +1725,11 @@
   },
   {
     "id": "plugin_api.send_mail.missing_subject",
-    "translation": "Адсутнічае тэма ліста."
+    "translation": "Адсутнічае тэма email-ліста."
   },
   {
     "id": "plugin_api.send_mail.missing_htmlbody",
-    "translation": "Адсутнічае цела HTML."
+    "translation": "Адсутнічае HTML Body."
   },
   {
     "id": "plugin_api.get_file_link.no_post.app_error",
@@ -1757,7 +1757,7 @@
   },
   {
     "id": "model.user_access_token.is_valid.token.app_error",
-    "translation": "Няправільны токен доступу."
+    "translation": "Несапраўдны токен доступу."
   },
   {
     "id": "model.user_access_token.is_valid.id.app_error",
@@ -1853,7 +1853,7 @@
   },
   {
     "id": "model.user.is_valid.first_name.app_error",
-    "translation": "Некарэктнае імя."
+    "translation": "Недапушчальнае імя."
   },
   {
     "id": "model.user.is_valid.create_at.app_error",
@@ -1869,7 +1869,7 @@
   },
   {
     "id": "model.user.is_valid.auth_data.app_error",
-    "translation": "Некарэктныя дадзеныя аўтарызацыі."
+    "translation": "Недапушчальныя дадзеныя аўтарызацыі."
   },
   {
     "id": "model.upload_session.is_valid.user_id.app_error",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "model.token.is_valid.expiry",
-    "translation": "Няправільны тэрмін дзеяння токена"
+    "translation": "Недапушчальны тэрмін дзеяння токена"
   },
   {
     "id": "model.team_member.is_valid.team_id.app_error",
@@ -1917,7 +1917,7 @@
   },
   {
     "id": "model.team.is_valid.url.app_error",
-    "translation": "Некарэктны ідэнтыфікатар URL."
+    "translation": "Недапушчальны ідэнтыфікатар URL."
   },
   {
     "id": "model.team.is_valid.update_at.app_error",
@@ -1929,11 +1929,11 @@
   },
   {
     "id": "model.team.is_valid.invite_id.app_error",
-    "translation": "Некарэктны ідэнтыфікатар запрашэння."
+    "translation": "Недапушчальны ідэнтыфікатар запрашэння."
   },
   {
     "id": "model.team.is_valid.domains.app_error",
-    "translation": "Некарэктныя дазволеныя дамены."
+    "translation": "Недапушчальныя дазволеныя дамены."
   },
   {
     "id": "model.team.is_valid.create_at.app_error",
@@ -1941,7 +1941,7 @@
   },
   {
     "id": "model.team.is_valid.company.app_error",
-    "translation": "Некарэктнае імя кампаніі."
+    "translation": "Недапушчальнае імя кампаніі."
   },
   {
     "id": "model.team.is_valid.characters.app_error",
@@ -1957,11 +1957,11 @@
   },
   {
     "id": "model.reaction.is_valid.post_id.app_error",
-    "translation": "Няправільны ідэнтыфікатар паведамлення."
+    "translation": "Недапушчальны ідэнтыфікатар паведамлення."
   },
   {
     "id": "model.reaction.is_valid.emoji_name.app_error",
-    "translation": "Недапушчальная назва смайліка."
+    "translation": "Недапушчальная назва эмоджы."
   },
   {
     "id": "model.reaction.is_valid.create_at.app_error",
@@ -1973,11 +1973,11 @@
   },
   {
     "id": "model.post.is_valid.root_id.app_error",
-    "translation": "Некарэктны каранёвы ідэнтыфікатар."
+    "translation": "Недапушчальны каранёвы ідэнтыфікатар."
   },
   {
     "id": "model.post.is_valid.original_id.app_error",
-    "translation": "Некарэктны ідэнтыфікатар арыгінала."
+    "translation": "Недапушчальны ідэнтыфікатар арыгінала."
   },
   {
     "id": "model.post.is_valid.file_ids.app_error",
@@ -1989,7 +1989,7 @@
   },
   {
     "id": "model.post.is_valid.channel_id.app_error",
-    "translation": "Некарэктны ідэнтыфікатар канала."
+    "translation": "Недапушчальны ідэнтыфікатар канала."
   },
   {
     "id": "model.post.channel_notifications_disabled_in_channel.message",
@@ -2021,7 +2021,7 @@
   },
   {
     "id": "model.outgoing_hook.is_valid.words.app_error",
-    "translation": "Некарэктны трыгер слоў."
+    "translation": "Некарэктныя словы-трыгеры."
   },
   {
     "id": "model.outgoing_hook.is_valid.url.app_error",
@@ -2033,7 +2033,7 @@
   },
   {
     "id": "model.outgoing_hook.is_valid.trigger_words.app_error",
-    "translation": "Некарэктны трыгер слоў."
+    "translation": "Некарэктныя словы-трыгеры."
   },
   {
     "id": "model.outgoing_hook.is_valid.team_id.app_error",
@@ -2049,11 +2049,11 @@
   },
   {
     "id": "model.outgoing_hook.is_valid.channel_id.app_error",
-    "translation": "Некарэктны ідэнтыфікатар канала."
+    "translation": "Няправiльны ідэнтыфікатар канала."
   },
   {
     "id": "model.outgoing_hook.is_valid.callback.app_error",
-    "translation": "Няправільны адрас колбэка."
+    "translation": "Няправільныя URL-адрасы зваротнага выкліку."
   },
   {
     "id": "model.oauth.is_valid.update_at.app_error",
@@ -2069,7 +2069,7 @@
   },
   {
     "id": "model.oauth.is_valid.creator_id.app_error",
-    "translation": "Недапушчальны ідэнтыфікатар аўтара."
+    "translation": "Недапушчальны ідэнтыфікатар стваральніка."
   },
   {
     "id": "model.oauth.is_valid.create_at.app_error",
@@ -2137,7 +2137,7 @@
   },
   {
     "id": "model.incoming_hook.team_id.app_error",
-    "translation": "Недапушчальны ідэнтыфікатар каманды."
+    "translation": "Няправільны ідэнтыфікатар каманды."
   },
   {
     "id": "model.incoming_hook.parse_data.app_error",
@@ -2153,7 +2153,7 @@
   },
   {
     "id": "model.incoming_hook.channel_id.app_error",
-    "translation": "Некарэктны ідэнтыфікатар канала."
+    "translation": "Няправiльны ідэнтыфікатар канала."
   },
   {
     "id": "model.group_syncable.syncable_id.app_error",
@@ -2237,7 +2237,7 @@
   },
   {
     "id": "model.emoji.user_id.app_error",
-    "translation": "Недапушчальны ідэнтыфікатар аўтара."
+    "translation": "Недапушчальны ідэнтыфікатар стваральніка."
   },
   {
     "id": "model.emoji.update_at.app_error",
@@ -2249,7 +2249,7 @@
   },
   {
     "id": "model.emoji.id.app_error",
-    "translation": "Некарэктны ідэнтыфікатар смайліка."
+    "translation": "Некарэктны ідэнтыфікатар эмоджы."
   },
   {
     "id": "model.emoji.create_at.app_error",
@@ -7685,11 +7685,11 @@
   },
   {
     "id": "api.command_custom_status.clear.app_error",
-    "translation": "Памылка ачысткі статуту."
+    "translation": "Памылка ачысткі статусу."
   },
   {
     "id": "api.command_custom_status.app_error",
-    "translation": "Памылка наладкі статуту."
+    "translation": "Памылка наладкі статусу."
   },
   {
     "id": "api.command_collapse.success",
@@ -7761,7 +7761,7 @@
   },
   {
     "id": "api.command_channel_purpose.desc",
-    "translation": "Рэдагаваць мэту канала"
+    "translation": "Рэдагаваць прызначэнне канала"
   },
   {
     "id": "api.command_channel_purpose.channel.app_error",
@@ -7829,7 +7829,7 @@
   },
   {
     "id": "api.command.execute_command.start.app_error",
-    "translation": "Не знойдзены камандны трыгер."
+    "translation": "Не знойдзены трыгер каманды."
   },
   {
     "id": "api.command.execute_command.not_found.app_error",
@@ -8125,7 +8125,7 @@
   },
   {
     "id": "api.channel.add_members.error",
-    "translation": "Памылка пры дабаўленні ўдзельніка каналаў."
+    "translation": "Памылка пры дабаўленні ўдзельніка(ў) каналаў."
   },
   {
     "id": "api.channel.add_member.added",
@@ -9222,5 +9222,21 @@
   {
     "id": "api.command_join.list.app_error",
     "translation": "Пры пералічэнні каналаў адбылася памылка."
+  },
+  {
+    "id": "api.license.request_trial_license.embargoed",
+    "translation": "Мы не змаглі апрацаваць запыт з-за абмежаванняў для краін, на якія распаўсюджваецца эмбарга. [Даведацца больш у нашай дакументацыі](https://mattermost.com/pl/limitations-for-embargoed-countries) або звяртайцеся па адрасе legal@mattermost.com па пытаннях адносна абмежаванняў на экспарт."
+  },
+  {
+    "id": "api.getThreadsForUser.bad_only_params",
+    "translation": "Параметры OnlyThreads і OnlyTotals для getThreadsForUser ўзаемавыключальныя"
+  },
+  {
+    "id": "api.file.test_connection_s3_settings_nil.app_error",
+    "translation": "Налады захоўвання файлаў маюць неўсталяваныя значэнні."
+  },
+  {
+    "id": "api.file.test_connection_email_settings_nil.app_error",
+    "translation": "Налады электроннай пошты маюць неўсталяваныя значэнні."
   }
 ]
