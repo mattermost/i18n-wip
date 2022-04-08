@@ -3420,7 +3420,6 @@
   "invitation_modal.confirm.not-sent-header": "دعوات لم يتم إرسال",
   "invitation_modal.confirm.sent-header": "يدعو ناجحة",
   "invitation_modal.guests.add_channels.title": "بحث واضافة قنوات",
-  "invitation_modal.guests.custom-message.description": "إنشاء رسالة مخصصة لجعل دعوة الخاص بك أكثر شخصية.",
   "invitation_modal.guests.custom-message.link": "تعيين رسالة مخصصة",
   "invitation_modal.guests.custom-message.title": "رسالة مخصصة",
   "invitation_modal.guests.users_emails_input.valid_email": "دعوة ** {البريد الإلكتروني} ** كضيف",

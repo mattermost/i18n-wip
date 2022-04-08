@@ -3178,7 +3178,6 @@
   "invitation_modal.confirm.not-sent-header": "Lời Mời Chưa Được Gửi",
   "invitation_modal.confirm.sent-header": "Gửi Lời Mời Thành Công",
   "invitation_modal.guests.add_channels.title": "Tìm kiếm và thêm kênh",
-  "invitation_modal.guests.custom-message.description": "Tạo một tin nhắn tùy chỉnh để làm cho lời mời của bạn trở nên cá nhân hơn.",
   "invitation_modal.guests.custom-message.link": "Đặt thông báo tùy chỉnh",
   "invitation_modal.guests.custom-message.title": "Tín nhắn tùy chỉnh",
   "invitation_modal.guests.users_emails_input.valid_email": "Mời **{email}** với tư cách Khách",
