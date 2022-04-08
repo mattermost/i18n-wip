@@ -3566,7 +3566,6 @@
   "invitation_modal.confirm.not-sent-header": "Запрашэнні не адпраўлены",
   "invitation_modal.confirm.sent-header": "Запрашэнні адпраўлены паспяхова",
   "invitation_modal.guests.add_channels.title": "Пошук і даданне каналаў",
-  "invitation_modal.guests.custom-message.description": "Стварыце ўласнае паведамленне, каб зрабіць ваша запрашэнне больш асабістым.",
   "invitation_modal.guests.custom-message.link": "Устанавіць уласнае паведамленне",
   "invitation_modal.guests.custom-message.title": "Уласнае паведамленне",
   "invitation_modal.guests.users_emails_input.valid_email": "Запрасіць **{email}** у якасці госця",
