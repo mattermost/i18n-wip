@@ -7985,7 +7985,7 @@
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.retrieve_user.error",
-    "translation": "Не атрымалася атрымаць карыстальніка пры спробе абнаўлення паведамлення загалоўка канала"
+    "translation": "Не атрымалася атрымаць карыстальніка пры спробе абнаўлення загалоўка канала"
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.removed",
@@ -7993,15 +7993,15 @@
   },
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
-    "translation": "Не атрымалася апублікаваць паведамленне абнаўлення загалоўка канала"
+    "translation": "Не атрымалася апублікаваць абнаўлення загалоўка канала"
   },
   {
     "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
-    "translation": "%s абнавіў адлюстраванае імя канала з: %s на: %s"
+    "translation": "%s абнавіў імя канала з: %s на: %s"
   },
   {
     "id": "api.channel.post_update_channel_displayname_message_and_forget.retrieve_user.error",
-    "translation": "Не атрымалася атрымаць карыстальніка пры спробе абнаўлення якое адлюстроўваецца імя канала"
+    "translation": "Не атрымалася атрымаць карыстальніка пры спробе абнаўлення імя канала"
   },
   {
     "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
@@ -8029,7 +8029,7 @@
   },
   {
     "id": "api.channel.leave.last_member.app_error",
-    "translation": "Вы адзіны пакінуты ўдзельнік, паспрабуйце выдаліць прыватны канал замест таго, каб пакінуць."
+    "translation": "Вы адзіны ўдзельнік, паспрабуйце выдаліць прыватны канал замест таго, каб пакінуць."
   },
   {
     "id": "api.channel.leave.direct.app_error",
@@ -8077,7 +8077,7 @@
   },
   {
     "id": "api.channel.create_group.bad_size.app_error",
-    "translation": "Канал групы павінен змяшчаць не менш за 3 і не больш за 8 карыстальнікаў."
+    "translation": "Канал групы карыстальнікаў павінен змяшчаць не менш за 3 і не больш за 8 карыстальнікаў."
   },
   {
     "id": "api.channel.create_direct_channel.invalid_user.app_error",
@@ -8085,7 +8085,7 @@
   },
   {
     "id": "api.channel.create_channel.max_channel_limit.app_error",
-    "translation": "Нельга стварыць больш {{.MaxChannelsPerTeam}} каналаў для гэтай каманды."
+    "translation": "Нельга стварыць больш за {{.MaxChannelsPerTeam}} каналаў для гэтай каманды."
   },
   {
     "id": "api.channel.create_channel.direct_channel.team_restricted_error",
@@ -8133,7 +8133,7 @@
   },
   {
     "id": "api.channel.add_guest.added",
-    "translation": "%v дададзены(ла) ў канал як госць карыстальнікам %v."
+    "translation": "%v дададзены(а) ў канал як госць карыстальнікам %v."
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
@@ -8141,7 +8141,7 @@
   },
   {
     "id": "api.bot.create_disabled",
-    "translation": "Стварэнне робата было адключана."
+    "translation": "Стварэнне робатаў было адключана."
   },
   {
     "id": "api.admin.upload_brand_image.too_large.app_error",
