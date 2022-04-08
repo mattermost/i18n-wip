@@ -787,5 +787,7 @@
   "channel_modal.nameEx": "Напрыклад: \"Bugs\", \"Маркетынг\", \"客户支持\"",
   "channel_modal.headerHelp": "Задайце тэкст, які з'явіцца ў загалоўку канала побач з назвай. Напрыклад, вы можаце ўключыць спасылкі, якія часта выкарыстоўваюцца, увёўшы [Тэкст спасылкі](http://example.com).",
   "channel_modal.headerEx": "Напрыклад: \"[Загаловак спасылкі](http://example.com)\"",
-  "channel_modal.descriptionHelp": "Апішыце, як трэба выкарыстоўваць гэты канал."
+  "channel_modal.descriptionHelp": "Апішыце, як трэба выкарыстоўваць гэты канал.",
+  "mobile.microphone_permission_denied_title": "{applicationName} хоча атрымаць доступ да вашага мікрафона",
+  "mobile.microphone_permission_denied_description": "Каб прыняць удзел у гэтым выкліку, адкрыйце Налады, каб даць Mattermost доступ да вашага мікрафона."
 }
