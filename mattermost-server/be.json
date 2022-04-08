@@ -729,11 +729,11 @@
   },
   {
     "id": "web.error.unsupported_browser.install_guide.windows",
-    "translation": "Кіраўніцтва па ўстаноўцы"
+    "translation": "Інструкцыя па ўстаноўцы"
   },
   {
     "id": "web.error.unsupported_browser.install_guide.mac",
-    "translation": "Кіраўніцтва па ўстаноўцы"
+    "translation": "Інструкцыя па ўстаноўцы"
   },
   {
     "id": "web.error.unsupported_browser.browser_title.edge",
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Загрузіце прыкладанне Mattermost або выкарыстоўвайце падтрымліваемы браўзэр для лепшай працы."
+    "translation": "Загрузіце дадатак Mattermost або выкарыстоўвайце падтрымліваемы браўзэр для лепшай працы."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -6786,8 +6786,8 @@
   {
     "id": "api.post.get_message_for_notification.images_sent",
     "translation": {
-      "few": "",
-      "many": "",
+      "few": "{{.Count}} выявы адпраўлена: {{.Filenames}}",
+      "many": "{{.Count}} выяў адпраўлена: {{.Filenames}}",
       "one": "{{.Count}} выява адпраўлена: {{.Filenames}}"
     }
   },
@@ -8149,7 +8149,7 @@
   },
   {
     "id": "api.admin.upload_brand_image.storage.app_error",
-    "translation": "Немагчыма загрузіць выяву. Сховішча малюнкаў не наладжана."
+    "translation": "Немагчыма загрузіць выяву. Сховішча выяў не наладжана."
   },
   {
     "id": "api.admin.upload_brand_image.parse.app_error",
@@ -8165,7 +8165,7 @@
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
-    "translation": "Неабходны S3 Bucket"
+    "translation": "Патрабуецца S3 Bucket"
   },
   {
     "id": "api.admin.test_email.subject",
@@ -8629,7 +8629,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Здаецца, ваша электронная пошта Mattermost ўстаноўлена дакладна!"
+    "translation": "Здаецца, ваша электронная пошта Mattermost наладжаная правільна!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -8641,27 +8641,27 @@
   },
   {
     "id": "api.admin.saml.invalid_xml_missing_ssoservices.app_error",
-    "translation": "Адсутнічае вузел службаў SSO Identity Provider у XML."
+    "translation": "Адсутнічае вузел паслуг SSO пастаўшчыка паслугі ідэнтыфікацыі ў XML."
   },
   {
     "id": "api.admin.saml.invalid_xml_missing_keydescriptor.app_error",
-    "translation": "Адсутнічае вузел дэскрыптараў ключоў правайдэра ідэнтыфікацыі ў XML."
+    "translation": "Адсутнічае вузел дэскрыптараў ключоў пастаўшчыка паслугі ідэнтыфікацыі ў XML."
   },
   {
     "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
-    "translation": "Адсутнічае вузел дэскрыптараў SSO Identity Provider у XML."
+    "translation": "Адсутнічае вузел дэскрыптараў SSO пастаўшчыка паслугі ідэнтыфікацыі ў XML."
   },
   {
     "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
-    "translation": "Не ўдалося скінуць поле AuthData у Email."
+    "translation": "Не ўдалося скінуць поле AuthData на Email."
   },
   {
     "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
-    "translation": "Выяўлена памылка пры аналізе інфармацыі метададзеных, атрыманай ад пастаўшчыка пасведчанняў у сертыфікат."
+    "translation": "Выяўлена памылка пры разборы інфармацыі метададзеных, атрыманай ад пастаўшчыка паслугі ідэнтыфікацыі ў сертыфікат."
   },
   {
     "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
-    "translation": "Не атрымалася атрымаць метададзеныя з URL-адрасы пастаўшчыка пасведчанняў."
+    "translation": "Не ўдалося атрымаць метададзеныя з URL-адраса пастаўшчыка паслугі ідэнтыфікацыі."
   },
   {
     "id": "api.admin.remove_certificate.delete.app_error",
@@ -8669,11 +8669,11 @@
   },
   {
     "id": "api.admin.get_brand_image.storage.app_error",
-    "translation": "Сховішча малюнкаў не наладжана."
+    "translation": "Сховішча выяў не наладжана."
   },
   {
     "id": "api.admin.delete_brand_image.storage.not_found",
-    "translation": "Немагчыма выдаліць выяву, не знойдзена."
+    "translation": "Немагчыма выдаліць выяву брэнда, не знойдзена."
   },
   {
     "id": "api.admin.add_certificate.no_file.app_error",
