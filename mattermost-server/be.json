@@ -4501,7 +4501,7 @@
   },
   {
     "id": "app.group.uniqueness_error",
-    "translation": "удзельнік гурта ўжо існуе"
+    "translation": "удзельнік групы ўжо існуе"
   },
   {
     "id": "app.group.permanent_delete_members_by_user.app_error",
@@ -5229,7 +5229,7 @@
   },
   {
     "id": "app.emoji.create.internal_error",
-    "translation": "Не ўдалося захаваць смайлік."
+    "translation": "Не ўдалося захаваць эмоджы."
   },
   {
     "id": "app.email.setup_rate_limiter.app_error",
@@ -6041,7 +6041,7 @@
   },
   {
     "id": "app.plugin.not_installed.app_error",
-    "translation": "Убудова не ўсталяваны."
+    "translation": "Убудова не ўсталявана."
   },
   {
     "id": "app.plugin.mvdir.app_error",
@@ -6889,7 +6889,7 @@
   },
   {
     "id": "api.oauth.singup_with_oauth.disabled.app_error",
-    "translation": "Рэгістрацыя карыстальніка адключана."
+    "translation": "Рэгістрацыя карыстальнікаў адключана."
   },
   {
     "id": "api.oauth.revoke_access_token.get.app_error",
@@ -7065,7 +7065,7 @@
   },
   {
     "id": "api.ldap_groups.existing_group_name_error",
-    "translation": "імя гурта ўжо існуе"
+    "translation": "імя групы ўжо існуе"
   },
   {
     "id": "api.ldap_group.not_found",
@@ -7885,7 +7885,7 @@
   },
   {
     "id": "api.cloud.app_error",
-    "translation": "Унутраная памылка падчас запыту хмарнага API."
+    "translation": "Унутраная памылка падчас запыту воблачнага API."
   },
   {
     "id": "api.channel.update_team_member_roles.scheme_role.app_error",
@@ -8381,7 +8381,7 @@
   },
   {
     "id": "api.team.invite_members.no_one.app_error",
-    "translation": "Нікога няма для запрашэння."
+    "translation": "Няма нікога для запрашэння."
   },
   {
     "id": "api.team.invite_members.invalid_email.app_error",
@@ -8433,7 +8433,7 @@
   },
   {
     "id": "api.team.import_team.integer.app_error",
-    "translation": "Памер файла не з'яўляецца цэлым лікам."
+    "translation": "Памер файла не з'яўляецца цэлым."
   },
   {
     "id": "api.team.import_team.array.app_error",
