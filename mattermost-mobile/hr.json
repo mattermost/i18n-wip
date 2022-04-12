@@ -29,5 +29,10 @@
   "gallery.open_file": "Otvori datoteku",
   "gallery.footer.channel_name": "Dijeljeno u kanalu {channelName}",
   "gallery.download_file": "Preuzmi datoteku",
-  "about.enterpriseEditione1": "Izdanje za poduzeća"
+  "about.enterpriseEditione1": "Izdanje za poduzeća",
+  "about.title": "O programu {appTitle}",
+  "about.teamEditiont1": "Izdanje za poduzeća",
+  "about.teamEditiont0": "Timsko izdanje",
+  "about.teamEditionLearn": "Pridruži se Mattermost zajednici na ",
+  "about.enterpriseEditionLearn": "Saznaj više o izdanju za poduzeća na "
 }
