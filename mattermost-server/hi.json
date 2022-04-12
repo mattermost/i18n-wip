@@ -2664,10 +2664,6 @@
     "translation": "अमान्य क्रिएटर आईडी."
   },
   {
-    "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "नाम 2 या अधिक लोअरकेस अल्फ़ान्यूमेरिक वर्ण होना चाहिए।"
-  },
-  {
     "id": "model.bot.is_valid.username.app_error",
     "translation": "अमान्य उपयोगकर्ता नाम।"
   },

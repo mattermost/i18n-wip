@@ -2720,10 +2720,6 @@
     "translation": "\"Створана ў\" павінна быць карэктным часам."
   },
   {
-    "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "Імя павінна складацца з 2 ці больш малых літар і лічбаў."
-  },
-  {
     "id": "model.authorize.is_valid.expires.app_error",
     "translation": "Тэрмін дзеяння павінен быць устаноўлены."
   },

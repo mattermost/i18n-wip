@@ -464,10 +464,6 @@
     "translation": "Trường Create_at phải là thời gian hợp lệ."
   },
   {
-    "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "Tên phải bao gồm ít nhất 2 ký tự thường hoặc chữ số."
-  },
-  {
     "id": "model.bot.is_valid.username.app_error",
     "translation": "User id không hợp lệ."
   },
