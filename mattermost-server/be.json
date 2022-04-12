@@ -7541,7 +7541,7 @@
   },
   {
     "id": "api.command_invite.user_not_in_team.app_error",
-    "translation": "{{.Username}} не з'яўляецца ўдзельнікам каманды."
+    "translation": "@{{.Username}} не з'яўляецца ўдзельнікам каманды."
   },
   {
     "id": "api.command_invite.user_already_in_channel.app_error",
@@ -7585,7 +7585,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Не ўдалося знайсці канал {{.Channel}}. Для ідэнтыфікацыі каналаў выкарыстоўвайце [назву канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)."
+    "translation": "Не ўдалося знайсці канал {{.Channel}}. Для ідэнтыфікацыі каналаў выкарыстоўвайце [дэскрыптар канала](https://docs.mattermost.com/channels/channel-naming-conventions.html)."
   },
   {
     "id": "api.command_invite.channel.app_error",
@@ -7629,7 +7629,7 @@
   },
   {
     "id": "api.command_expand_collapse.fail.app_error",
-    "translation": "Адбылася памылка пры адкрыцці прэв'ю."
+    "translation": "Адбылася памылка пры адкрыцці перадпряглядаў."
   },
   {
     "id": "api.command_expand.success",
@@ -7637,7 +7637,7 @@
   },
   {
     "id": "api.command_expand.desc",
-    "translation": "Адключыць аўтаматычнае згортванне малюнкаў папярэдняга прагляду"
+    "translation": "Адключыць аўтаматычнае згортванне малюнкаў перадпрагляду"
   },
   {
     "id": "api.command_echo.message.app_error",
@@ -7661,7 +7661,7 @@
   },
   {
     "id": "api.command_dnd.success",
-    "translation": "Рэжым \"Не турбаваць\" уключаны. Вы не будзеце атрымліваць абвесткі на працоўным стале або мабільных прыладах да таго часу, пакуль не адключыце рэжым \"Не турбаваць\"."
+    "translation": "Рэжым \"Не турбаваць\" уключаны. Вы не будзеце атрымліваць абвесткі на працоўным стале або мабільных прыладах да таго часу, пакуль не адключыце гэты рэжым."
   },
   {
     "id": "api.command_dnd.desc",
@@ -7693,11 +7693,11 @@
   },
   {
     "id": "api.command_collapse.success",
-    "translation": "Цяпер спасылкі на выявы скарачаюцца"
+    "translation": "Цяпер спасылкі на выявы сгортваюцца"
   },
   {
     "id": "api.command_collapse.desc",
-    "translation": "Уключыць згортванне мініяцюр малюнкаў"
+    "translation": "Уключыць згортванне перадпрагляда малюнкаў"
   },
   {
     "id": "api.command_code.message.app_error",
@@ -7745,11 +7745,11 @@
   },
   {
     "id": "api.command_channel_purpose.update_channel.app_error",
-    "translation": "Памылка абнаўлення мэты канала."
+    "translation": "Памылка абнаўлення прызначэння канала."
   },
   {
     "id": "api.command_channel_purpose.permission.app_error",
-    "translation": "У вас няма правоў для рэдагавання мэты канала."
+    "translation": "У вас няма правоў для рэдагавання прызначэння канала."
   },
   {
     "id": "api.command_channel_purpose.message.app_error",
@@ -7809,7 +7809,7 @@
   },
   {
     "id": "api.command.invite_people.invite_off",
-    "translation": "На гэтым серверы адключана стварэнне карыстальніка, запрашэнне(я) не адпраўлена"
+    "translation": "На гэтым серверы адключана стварэнне карыстальнікаў, запрашэнне(я) не адпраўлена"
   },
   {
     "id": "api.command.invite_people.fail",
@@ -7833,11 +7833,11 @@
   },
   {
     "id": "api.command.execute_command.not_found.app_error",
-    "translation": "Каманда з трыгерам '{{.Trigger}}' не знойдзена. Каб адправіць паведамленне, якое пачынаецца з \"/\", паспрабуйце дадаць пустую прастору ў пачатку паведамлення."
+    "translation": "Каманда з трыгерам '{{.Trigger}}' не знойдзена. Каб адправіць паведамленне, якое пачынаецца з \"/\", паспрабуйце дадаць прабел ў пачатку паведамлення."
   },
   {
     "id": "api.command.execute_command.format.app_error",
-    "translation": "У слове трыгера каманды адсутнічае пачатковы сімвал касой рысы"
+    "translation": "У слове-трыгеры каманды адсутнічае пачатковы сімвал слэш"
   },
   {
     "id": "api.command.execute_command.failed_resp.app_error",
@@ -7877,11 +7877,11 @@
   },
   {
     "id": "api.cloud.license_error",
-    "translation": "Ваша ліцэнзія не падтрымлівае хмарныя запыты."
+    "translation": "Ваша ліцэнзія не падтрымлівае воблачныя запыты."
   },
   {
     "id": "api.cloud.cws_webhook_event_missing_error",
-    "translation": "Падзея Webhook не была апрацавана. Або яно адсутнічае, або некарэктна."
+    "translation": "Падзея вэбхука не была апрацавана. Або яна адсутнічае, або некарэктная."
   },
   {
     "id": "api.cloud.app_error",
@@ -8005,7 +8005,7 @@
   },
   {
     "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
-    "translation": "Ну атрымалася адправіць паведамленне аб абнаўленні якое адлюстроўваецца імя канала"
+    "translation": "Ну атрымалася адправіць паведамленне аб абнаўленні бачнага імя канала"
   },
   {
     "id": "api.channel.post_channel_privacy_message.error",
@@ -9181,7 +9181,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Не ўдалося знайсці канал {{.Channel}}. Для ідэнтыфікацыі каналаў выкарыстоўвайце [назву канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)."
+    "translation": "Не ўдалося знайсці канал {{.Channel}}. Для ідэнтыфікацыі каналаў выкарыстоўвайце [дэскрыптар канала](https://docs.mattermost.com/channels/channel-naming-conventions.html)."
   },
   {
     "id": "api.command_mute.desc",
