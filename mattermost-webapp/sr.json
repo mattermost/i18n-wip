@@ -369,7 +369,6 @@
   "leave_team_modal.title": "Напустити тим?",
   "login.createTeam": "Направи нови тим",
   "members_popover.button.message": "порука",
-  "members_popover.manageMembers": "Управљај члановима",
   "more_channels.show_public_channels": "Нови јавни канал",
   "more_direct_channels.title": "Директне поруке",
   "msg_typing.isTyping": "{user} пише...",
