@@ -2180,10 +2180,6 @@
     "translation": "«Create at» ha de ser un temps vàlid"
   },
   {
-    "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "El nom ha de tenir 2 o més caràcters alfanumèrics en minúscula"
-  },
-  {
     "id": "model.bot.is_valid.username.app_error",
     "translation": "Nom d'usuari no vàlid."
   },

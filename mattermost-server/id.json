@@ -660,10 +660,6 @@
     "translation": "Pembuatan harus saat waktu yang valid"
   },
   {
-    "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "Nama harus berupa 2 atau lebih huruf kecil alfanumerik"
-  },
-  {
     "id": "model.bot.is_valid.username.app_error",
     "translation": "Nama tidak valid"
   },

@@ -556,10 +556,6 @@
     "translation": "Create at arvon oltava validi aika"
   },
   {
-    "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "Nimen on oltava vähintään 2 pientä kirjainta tai numeroa"
-  },
-  {
     "id": "model.bot.is_valid.username.app_error",
     "translation": "Virheellinen käyttäjänimi."
   },

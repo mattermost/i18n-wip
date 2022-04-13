@@ -2288,10 +2288,6 @@
     "translation": "Ustvari na mora biti veljaven čas"
   },
   {
-    "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "Ime mora vsebovati 2 ali več malih alfanumeričnih znakov"
-  },
-  {
     "id": "model.bot.is_valid.username.app_error",
     "translation": "Neveljavno uporabniško ime."
   },

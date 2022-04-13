@@ -2304,10 +2304,6 @@
     "translation": "Čas vytvoření musí být platný časový údaj."
   },
   {
-    "id": "model.channel.is_valid.2_or_more.app_error",
-    "translation": "Název musí obsahovat 2 nebo více malých alfanumerických znaků."
-  },
-  {
     "id": "model.bot.is_valid.username.app_error",
     "translation": "Neplatné uživatelské jméno."
   },
