@@ -1618,7 +1618,6 @@
   "login.username": "Nome de usuario",
   "login_mfa.enterToken": "Para completar o proceso de rexistro, introduza un testemuño do autenticador do teléfono intelixente",
   "login_mfa.token": "Testemulo MFA",
-  "members_popover.viewMembers": "Ver os membros",
   "mfa.setup.save": "Gardar",
   "multiselect.add": "Engadir",
   "multiselect.loading": "Cargando…",

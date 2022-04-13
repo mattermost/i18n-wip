@@ -1345,7 +1345,6 @@
   "marketplace_modal.list.update_available": "Päivitys on tarjolla",
   "marketplace_modal.list.update_confirmation.confirm_button": "Päivitä",
   "members_popover.button.message": "viesti",
-  "members_popover.title": "Kanavan jäsenet",
   "message_submit_error.invalidCommand": "Ei löydetty komentoa joka laukaistaan '{command}'. ",
   "message_submit_error.sendAsMessageLink": "Klikkaa tästä lähettääksesi viestinä.",
   "mfa.confirm.complete": "**Käyttöönotto valmis!**",

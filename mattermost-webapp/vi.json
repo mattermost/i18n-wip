@@ -3290,7 +3290,6 @@
   "marketplace_modal.search": "Tìm kiếm Plugin",
   "marketplace_modal.title": "Thị trường plugin",
   "members_popover.button.message": "Tin nhắn",
-  "members_popover.title": "Thành viên kênh",
   "message_submit_error.invalidCommand": "Không tìm thấy lệnh có trình kích hoạt '' {command} ''. ",
   "message_submit_error.sendAsMessageLink": "Nhấp vào đây để gửi dưới dạng tin nhắn.",
   "mfa.confirm.complete": "** Thiết lập hoàn tất! **",

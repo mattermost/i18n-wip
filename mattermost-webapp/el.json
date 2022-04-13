@@ -337,7 +337,6 @@
   "marketplace_modal.list.update": "Αναβάθμιση",
   "marketplace_modal.list.update_confirmation.confirm_button": "Αναβάθμιση",
   "members_popover.button.message": "μήνυμα",
-  "members_popover.title": "Μέλη Καναλιού",
   "mfa.setup.save": "Αποθήκευση",
   "modal.manual_status.auto_responder.message_": "Θέλετε να αλλάξετε την κατάστασή σας σε \"{status}\" και να απενεργοποιήσετε τις Αυτόματες Απαντήσεις;",
   "modal.manual_status.auto_responder.message_away": "Θέλετε να αλλάξετε την κατάστασή σας σε \"Εκτός\" και να απενεργοποιήσετε τις Αυτόματες Απαντήσεις;",
