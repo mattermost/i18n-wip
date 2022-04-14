@@ -9069,7 +9069,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Адпраўце наступны зашыфраваны (AES256 + Base64) блог адміністратару выдаленага сайта разам з паролем. Для прыняцця запрашэння яны будуць выкарыстоўваць каманду `{{.Command}}` слэш каманда.\n\n```\n{{.Invitation}}\n```\n\n**Прадастаўце выдаленаму сайту доступ да вашага кластара праз** {{.SiteURL}}"
+    "translation": "Адпраўце наступнае зашыфраванае AES256-bit запрашэнне адміністратару знешняга сервера Mattermost разам з паролем. Для прыняцця запрашэння яны будуць выкарыстоўваць слэш-каманду `{{.Command}}`.\n\n```\n{{.Invitation}}\n```\n\n**Прадастаўце знешняму сайту шыфраванае злучэнне да вашага кластара праз** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -9089,7 +9089,7 @@
   },
   {
     "id": "api.command_remote.incorrect_password.error",
-    "translation": "Не ўдалося расшыфраваць запрашэнне. Няправільны пароль або сапсаванае запрашэнне: {{.Error}}"
+    "translation": "Не атрымалася расшыфраваць запрашэнне. Няправільны пароль або сапсаванае запрашэнне: {{.Error}}"
   },
   {
     "id": "api.command_remote.fetch_status.error",
@@ -9097,15 +9097,15 @@
   },
   {
     "id": "api.command_remote.encrypt_invitation.error",
-    "translation": "Не ўдалося зашыфраваць запрашэнне: {{.Error}}"
+    "translation": "Не атрымалася зашыфраваць запрашэнне: {{.Error}}"
   },
   {
     "id": "api.command_remote.displayname.hint",
-    "translation": "Які адлюстроўваецца назва бяспечнага злучэння"
+    "translation": "Як адлюстроўваецца назва бяспечнага злучэння"
   },
   {
     "id": "api.command_remote.displayname.help",
-    "translation": "Які адлюстроўваецца назва бяспечнага злучэння"
+    "translation": "Як адлюстроўваецца назва бяспечнага злучэння"
   },
   {
     "id": "api.command_remote.desc",
@@ -9113,7 +9113,7 @@
   },
   {
     "id": "api.command_remote.decode_invitation.error",
-    "translation": "Не ўдалося дэкадаваць запрашэнне: {{.Error}}"
+    "translation": "Не атрымалася дэкадаваць запрашэнне: {{.Error}}"
   },
   {
     "id": "api.command_remote.cluster_removed",
@@ -9121,11 +9121,11 @@
   },
   {
     "id": "api.command_remote.add_remote.error",
-    "translation": "Не ўдалося дадаць бяспечнае злучэнне: {{.Error}}"
+    "translation": "Не атрымалася дадаць бяспечнае злучэнне: {{.Error}}"
   },
   {
     "id": "api.command_remote.accept_invitation.error",
-    "translation": "Не ўдалося прыняць запрашэнне: {{.Error}}"
+    "translation": "Не атрымалася прыняць запрашэнне: {{.Error}}"
   },
   {
     "id": "api.command_remote.accept_invitation",
@@ -9133,7 +9133,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Прыняць запрашэнне ад знешняга кластара Mattermost"
+    "translation": "Прыняць запрашэнне ад знешняга сервера Mattermost"
   },
   {
     "id": "api.command_online.success",
@@ -9153,7 +9153,7 @@
   },
   {
     "id": "api.command_mute.success_unmute_direct_msg",
-    "translation": "Гэты канал больш не адключаны."
+    "translation": "Паведамленні ў гэтым канале больш не адключаны."
   },
   {
     "id": "api.command_mute.success_unmute",
@@ -9165,7 +9165,7 @@
   },
   {
     "id": "api.command_mute.success_mute",
-    "translation": "Вы не будзеце атрымліваць апавяшчэнні для {{.Channel}} да таго часу, пакуль адключаны гук."
+    "translation": "Вы не будзеце атрымліваць апавяшчэнні для {{.Channel}} да таго часу, пакуль адключаны апавяшчэнні."
   },
   {
     "id": "api.command_mute.not_member.error",
@@ -9185,7 +9185,7 @@
   },
   {
     "id": "api.command_msg.permission.app_error",
-    "translation": "У вас не мае рацыю для адпраўкі асабістага паведамлення гэтаму карыстачу."
+    "translation": "У вас няма правоў для адпраўкі асабістага паведамлення гэтаму карыстачу."
   },
   {
     "id": "api.command_msg.missing.app_error",
@@ -9234,5 +9234,41 @@
   {
     "id": "api.file.test_connection_email_settings_nil.app_error",
     "translation": "Налады электроннай пошты маюць неўсталяваныя значэнні."
+  },
+  {
+    "id": "model.channel.is_valid.1_or_more.app_error",
+    "translation": "Імя павінна складацца з 1 або больш малога літару і лічбаў."
+  },
+  {
+    "id": "model.member.is_valid.emails.app_error",
+    "translation": "Спіс электроннай пошты пусты"
+  },
+  {
+    "id": "model.member.is_valid.channel.app_error",
+    "translation": "Назва канала несапраўдная"
+  },
+  {
+    "id": "api.templates.invite_team_and_channels_subject",
+    "translation": "[{{ .SiteName }}] {{ .SenderName }} запрашае вас далучыцца да каналаў {{ .ChannelsLen }} у камандзе {{ .TeamDisplayName }}"
+  },
+  {
+    "id": "api.templates.invite_team_and_channels_body.title",
+    "translation": "{{ .SenderName }} запрасіў вас далучыцца да каналаў {{ .ChannelsLen }} у камандзе {{ .TeamDisplayName }}"
+  },
+  {
+    "id": "api.templates.invite_team_and_channel_subject",
+    "translation": "[{{ .SiteName }}] {{ .SenderName }} запрашае вас далучыцца да {{ .ChannelName }} у камандзе {{ .TeamDisplayName }}"
+  },
+  {
+    "id": "api.templates.invite_team_and_channel_body.title",
+    "translation": "{{ .SenderName }} запрасіў вас далучыцца да {{ .ChannelName }} у камандзе {{ .TeamDisplayName }}"
+  },
+  {
+    "id": "api.team.invite_members_to_team_and_channels.invalid_body_parsing.app_error",
+    "translation": "Памылка пры аналізе даных цела."
+  },
+  {
+    "id": "api.team.invite_members_to_team_and_channels.invalid_body.app_error",
+    "translation": "Несапраўднае цела запыту."
   }
 ]
