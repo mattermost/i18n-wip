@@ -7549,7 +7549,7 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "Немагчыма знайсці канал {{.Channel}}. Калі ласка, выкарыстоўвайце кіраванне каналам для ідэнтыфікацыі."
+    "translation": "Немагчыма знайсці канал {{.Channel}}. Калі ласка, выкарыстоўвайце спіс каналаў для ідэнтыфікацыі."
   },
   {
     "id": "api.command_invite.permission.app_error",
