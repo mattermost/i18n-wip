@@ -246,5 +246,45 @@
   {
     "id": "api.admin.add_certificate.parseform.app_error",
     "translation": "Greška u obradi zahtjeva s višebrojnim obrascima"
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "Natrag na {{.SiteName}}"
+  },
+  {
+    "id": "api.admin.test_s3.missing_s3_bucket",
+    "translation": "Potreban je S3 Bucket"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+    "translation": "Nedostaje vrsta sadržaja."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "Nevaljana vrsta sadržaja."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+    "translation": "Nevaljani tekst certifikata."
+  },
+  {
+    "id": "api.admin.saml.metadata.app_error",
+    "translation": "Došlo je do greške prilikom izgradnje metapodataka pružatelja usluga."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_ssoservices.app_error",
+    "translation": "Nedostaje čvor SSO usluga pružatelja identiteta u XML-u."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_keydescriptor.app_error",
+    "translation": "Nedostaje ključ SSO deskriptora pružatelja identiteta u XML-u."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
+    "translation": "Nedostaje čvor SSO deskriptora pružatelja identiteta u XML-u."
+  },
+  {
+    "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
+    "translation": "Greška prilikom obrade informacija metapodataka primljenih od pružatelja identiteta za certifikat."
   }
 ]
