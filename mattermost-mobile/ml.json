@@ -467,5 +467,17 @@
   "post_body.check_for_out_of_channel_mentions.message.multiple": "പരാമർശിച്ചെങ്കിലും അവ ചാനലിലില്ല. ഇഷ്ടമുണ്ടോ ",
   "post_body.check_for_out_of_channel_mentions.message_last": "? അവർക്ക് എല്ലാ സന്ദേശ ചരിത്രത്തിലേക്കും ആക്സസ് ഉണ്ടായിരിക്കും.",
   "apps.error.parser.missing_binding": "കമാൻഡ് ബൈൻഡിംഗുകൾ നഷ്‌ടമായി.",
-  "apps.error.malformed_binding": "ഈ ബൈൻഡിങ് ശരിയായി രൂപപ്പെട്ടിട്ടില്ല. ആപ്പ് ഡെവലപ്പറെ ബന്ധപ്പെടുക."
+  "apps.error.malformed_binding": "ഈ ബൈൻഡിങ് ശരിയായി രൂപപ്പെട്ടിട്ടില്ല. ആപ്പ് ഡെവലപ്പറെ ബന്ധപ്പെടുക.",
+  "user.settings.notifications.allActivity": "എല്ലാ പ്രവർത്തനത്തിനും",
+  "user.settings.modal.notifications": "അറിയിപ്പുകൾ",
+  "user.settings.general.username": "ഉപയോക്തൃനാമം",
+  "user.settings.general.field_handled_externally": "നിങ്ങളുടെ ലോഗിൻ പ്രൊവൈഡർ വഴിയാണ് ഈ ഫീൽഡ് കൈകാര്യം ചെയ്യുന്നത്. നിങ്ങൾക്ക് ഇത് മാറ്റണമെങ്കിൽ, നിങ്ങളുടെ ലോഗിൻ പ്രൊവൈഡർ വഴി അത് മാറ്റേണ്ടതുണ്ട്.",
+  "user.settings.general.emailSamlCantUpdate": "SAML വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailOffice365CantUpdate": "ഓഫീസ് 365 വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailLdapCantUpdate": "AD/LDAP വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailHelp2": "നിങ്ങളുടെ സിസ്റ്റം അഡ്മിനിസ്ട്രേറ്റർ ഇമെയിൽ പ്രവർത്തനരഹിതമാക്കി. ഇത് പ്രവർത്തനക്ഷമമാക്കുന്നത് വരെ അറിയിപ്പ് ഇമെയിലുകളൊന്നും അയയ്‌ക്കില്ല.",
+  "user.settings.general.emailGoogleCantUpdate": "ലോഗിൻ ചെയ്യുന്നത് ഗൂഗിൾ വഴിയാണ്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailGitlabCantUpdate": "ഗിറ്റ്ലാബ് വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailCantUpdate": "ഒരു വെബ് ക്ലയന്റ് അല്ലെങ്കിൽ ഡെസ്ക്ടോപ്പ് ആപ്ലിക്കേഷൻ ഉപയോഗിച്ച് ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യണം.",
+  "user.settings.general.email": "ഇമെയിൽ"
 }
