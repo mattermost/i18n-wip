@@ -278,5 +278,15 @@
   "login.username": "ഉപയോക്തൃനാമം",
   "login_mfa.enterToken": "സൈൻ ഇൻ പ്രോസസ്സ് പൂർത്തിയാക്കാൻ, നിങ്ങളുടെ സ്മാർട്ട്ഫോണിന്റെ ഓതന്റിക്കേറ്ററിൽ നിന്ന് ഒരു ടോക്കൺ നൽകുക",
   "login_mfa.token": "MFA ടോക്കൺ",
-  "post_body.check_for_out_of_channel_mentions.message_last": "? അവർക്ക് എല്ലാ സന്ദേശ ചരിത്രത്തിലേക്കും ആക്സസ് ഉണ്ടായിരിക്കും."
+  "post_body.check_for_out_of_channel_mentions.message_last": "? അവർക്ക് എല്ലാ സന്ദേശ ചരിത്രത്തിലേക്കും ആക്സസ് ഉണ്ടായിരിക്കും.",
+  "user.settings.general.email": "ഇമെയിൽ",
+  "user.settings.general.emailGitlabCantUpdate": "ഗിറ്റ്ലാബ് വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailGoogleCantUpdate": "ലോഗിൻ ചെയ്യുന്നത് ഗൂഗിൾ വഴിയാണ്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailLdapCantUpdate": "AD/LDAP വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailOffice365CantUpdate": "ഓഫീസ് 365 വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.emailSamlCantUpdate": "SAML വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
+  "user.settings.general.field_handled_externally": "നിങ്ങളുടെ ലോഗിൻ പ്രൊവൈഡർ വഴിയാണ് ഈ ഫീൽഡ് കൈകാര്യം ചെയ്യുന്നത്. നിങ്ങൾക്ക് ഇത് മാറ്റണമെങ്കിൽ, നിങ്ങളുടെ ലോഗിൻ പ്രൊവൈഡർ വഴി അത് മാറ്റേണ്ടതുണ്ട്.",
+  "user.settings.general.username": "ഉപയോക്തൃനാമം",
+  "user.settings.modal.notifications": "അറിയിപ്പുകൾ",
+  "user.settings.notifications.allActivity": "എല്ലാ പ്രവർത്തനത്തിനും"
 }
