@@ -8757,11 +8757,11 @@
   },
   {
     "id": "api.context.invalid_url_param.app_error",
-    "translation": "Няправільны ці прапушчаны параметр {{.Name}} у запыце URL."
+    "translation": "Няправільны ці прапушчаны параметр {{.Name}} у URL запыта."
   },
   {
     "id": "api.context.invalid_token.error",
-    "translation": "Няверны токен сесіі={{.Token}}, err={{.Error}}"
+    "translation": "Няправільны токен сесіі={{.Token}}, err={{.Error}}"
   },
   {
     "id": "api.context.invalid_body_param.app_error",
@@ -8773,11 +8773,11 @@
   },
   {
     "id": "api.context.404.app_error",
-    "translation": "Выбачыце, мы не змаглі знайсці старонку."
+    "translation": "Прабачце, мы не змаглі знайсці старонку."
   },
   {
     "id": "api.config.update_config.restricted_merge.app_error",
-    "translation": "Памылка пры ўкараненні перададзенай канфігурацыі."
+    "translation": "Памылка аб'яднання з дадзенай канфігурацыяй."
   },
   {
     "id": "api.config.update_config.not_allowed_security.app_error",
@@ -8785,7 +8785,7 @@
   },
   {
     "id": "api.config.update_config.diff.app_error",
-    "translation": "Не ўдалося правесці адрозненне канфігурацый"
+    "translation": "Не ўдалося правесці параўнанне канфігурацый"
   },
   {
     "id": "api.config.update_config.clear_siteurl.app_error",
@@ -8793,15 +8793,15 @@
   },
   {
     "id": "api.config.reload_config.app_error",
-    "translation": "Не ўдалося перазагрузіць канфігурацыю."
+    "translation": "Не атрымалася перазагрузіць канфігурацыю."
   },
   {
     "id": "api.config.patch_config.restricted_merge.app_error",
-    "translation": "Памылка merge дадзенай канфігурацыі."
+    "translation": "Памылка аб'яднання з дадзенай канфігурацыяй."
   },
   {
     "id": "api.config.patch_config.diff.app_error",
-    "translation": "Не ўдалося правесці адрозненне канфігурацый"
+    "translation": "Не ўдалося правесці параўнанне канфігурацый"
   },
   {
     "id": "api.config.migrate_config.app_error",
@@ -8809,7 +8809,7 @@
   },
   {
     "id": "api.config.get_config.restricted_merge.app_error",
-    "translation": "Памылка merge дадзенай канфігурацыі."
+    "translation": "Памылка аб'яднання з дадзенай канфігурацыяй."
   },
   {
     "id": "api.config.client.old_format.app_error",
@@ -8817,7 +8817,7 @@
   },
   {
     "id": "api.command_shrug.desc",
-    "translation": "Дадаць ¯\\_(ツ)_/¯ у паведамленне"
+    "translation": "Дадаць ¯\\_(ツ)_/¯ у ваша паведамленне"
   },
   {
     "id": "api.command_shortcuts.unsupported.app_error",
@@ -8829,7 +8829,7 @@
   },
   {
     "id": "api.command_share.unshare_channel.help",
-    "translation": "Адмяніць уласцівасць \"агульны\" для бягучага канала"
+    "translation": "Адмяніць уласцівасць \"сумесны\" для бягучага канала"
   },
   {
     "id": "api.command_share.unknown_action",
@@ -8837,19 +8837,19 @@
   },
   {
     "id": "api.command_share.uninvite_remote_id.help",
-    "translation": "Ідэнтыфікатар бяспечнага падлучэння да незапрошанага госця."
+    "translation": "Ідэнтыфікатар бяспечнага падлучэння для адмены запрашэння."
   },
   {
     "id": "api.command_share.uninvite_remote.help",
-    "translation": "Адмена запрашэння на бяспечнае злучэнне ад гэтага агульнага канала"
+    "translation": "Адмена запрашэння на бяспечнае злучэнне ад гэтага сумеснага канала"
   },
   {
     "id": "api.command_share.shared_channel_unshare.error",
-    "translation": "Не атрымалася адключыць доступ да гэтага канала: {{.Error}}."
+    "translation": "Не атрымалася адключыць абагульванне да гэтага канала: {{.Error}}."
   },
   {
     "id": "api.command_share.shared_channel_unavailable",
-    "translation": "Гэты канал больш не агульны."
+    "translation": "Гэты канал больш не абагулены."
   },
   {
     "id": "api.command_share.share_read_only.hint",
@@ -8857,19 +8857,19 @@
   },
   {
     "id": "api.command_share.share_read_only.help",
-    "translation": "Канал будзе прадстаўлены ў рэжыме толькі для чытання"
+    "translation": "Канал будзе абагулены ў рэжыме толькі для чытання"
   },
   {
     "id": "api.command_share.share_channel.error",
-    "translation": "Не атрымалася падзяліцца гэтым каналам: {{.Error}}"
+    "translation": "Не атрымалася абагуліць гэты канал: {{.Error}}"
   },
   {
     "id": "api.command_share.service_disabled",
-    "translation": "Служба агульных каналаў адключана."
+    "translation": "Служба сумесных каналаў адключана."
   },
   {
     "id": "api.command_share.remote_uninvited",
-    "translation": "Бяспечнае злучэнне з `{{.RemoteId}}`незапрошаным."
+    "translation": "Адмненена запрашэнне для бяспечнаго злучэння `{{.RemoteId}}`."
   },
   {
     "id": "api.command_share.remote_table_header",
@@ -8877,7 +8877,7 @@
   },
   {
     "id": "api.command_share.remote_not_valid",
-    "translation": "Для адключэння павінна быць указана сапраўднае бяспечнае злучэнне."
+    "translation": "Для адмены запрашэння павінна быць указана сапраўднае бяспечнае злучэнне."
   },
   {
     "id": "api.command_share.remote_id_invalid.error",
@@ -8897,11 +8897,11 @@
   },
   {
     "id": "api.command_share.not_shared_channel_unshare",
-    "translation": "Нельга адмяніць уласцівасць \"агульны\" для канала, які не з'яўляецца агульным."
+    "translation": "Нельга адмяніць уласцівасць \"сумесны\" для канала, які не з'яўляецца сумесным."
   },
   {
     "id": "api.command_share.no_remote_invited",
-    "translation": "Ніякія бяспечныя злучэнні ў гэты агульны канал не запрашаліся."
+    "translation": "Ніякія бяспечныя злучэнні ў гэты канал не запрашаліся."
   },
   {
     "id": "api.command_share.must_specify_valid_remote",
@@ -8913,11 +8913,11 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Запрашае выдаленую інсталяцыю ў бягучы агульны канал"
+    "translation": "Запрашае вонкавы асобнік Mattermost ў бягучы сумесны канал"
   },
   {
     "id": "api.command_share.invitation_sent",
-    "translation": "Запрашэнне агульнага канала адпраўлена `{{.Name}} {{.SiteURL}}`."
+    "translation": "Запрашэнне сумеснага канала адпраўлена `{{.Name}} {{.SiteURL}}`."
   },
   {
     "id": "api.command_share.invalid_value.error",
@@ -8933,7 +8933,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Падзяляе бягучы канал з выдаленым асобнікам Mattermost."
+    "translation": "Абагульвае бягучы канал з вонкавым серверам Mattermost."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -8941,7 +8941,7 @@
   },
   {
     "id": "api.command_share.check_channel_exist.error",
-    "translation": "Памылка пры праверцы існавання агульнага канала: {{.Error}}"
+    "translation": "Памылка пры праверцы існавання сумеснага канала: {{.Error}}"
   },
   {
     "id": "api.command_share.channel_status_id",
@@ -8949,15 +8949,15 @@
   },
   {
     "id": "api.command_share.channel_status.help",
-    "translation": "Адлюстроўвае статус для гэтага агульнага канала"
+    "translation": "Адлюстроўвае статус для гэтага сумеснага канала"
   },
   {
     "id": "api.command_share.channel_shared",
-    "translation": "Гэты канал зараз агульны."
+    "translation": "Гэты канал зараз абагулены."
   },
   {
     "id": "api.command_share.channel_remote_id_not_exists",
-    "translation": "Выдаленае бяспечнае злучэнне агульнага канала `{{.RemoteId}}` не існуе для гэтага канала."
+    "translation": "Бяспечнае злучэнне агульнага канала `{{.RemoteId}}` не існуе для гэтага канала."
   },
   {
     "id": "api.command_share.channel_invite_not_home.error",
@@ -8969,7 +8969,7 @@
   },
   {
     "id": "api.command_settings.unsupported.app_error",
-    "translation": "Налады не даступныя на прыладзе."
+    "translation": "Налады праз каманду не даступныя на прыладзе."
   },
   {
     "id": "api.command_settings.desc",
