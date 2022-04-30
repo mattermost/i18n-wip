@@ -2285,7 +2285,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "चैनल {{.Channel}} ढूंढा नहीं जा सका। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://about.mattermost.com/default-channel-handle-documentation) का उपयोग करें।"
+    "translation": "चैनल {{.Channel}} ढूंढा नहीं जा सका। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) का उपयोग करें।"
   },
   {
     "id": "api.command_mute.desc",
@@ -4171,7 +4171,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "चैनल {{.Channel}} नहीं मिला। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://about.mattermost.com/default-channel-handle-documentation) का उपयोग करें।"
+    "translation": "चैनल {{.Channel}} नहीं मिला। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) का उपयोग करें।"
   },
   {
     "id": "api.command_invite.channel.app_error",
