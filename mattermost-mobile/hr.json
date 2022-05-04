@@ -1,7 +1,7 @@
 {
   "mobile.about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Sva prava pridržana",
   "mobile.share_extension.error_close": "Zatvori",
-  "about.date": "Datum izgradnje:",
+  "about.date": "Datum gradnje:",
   "permalink.show_dialog_warn.description": "Pridružit ćeš se kanalu „{channel}” bez izričitog dodavanja od administratora kanala. Stvarno se želiš pridružiti ovom privatnom kanalu?",
   "signup.google": "Google programi",
   "permalink.show_dialog_warn.title": "Pridruži se privatnom kanalu",
@@ -34,5 +34,9 @@
   "about.teamEditiont1": "Izdanje za poduzeća",
   "about.teamEditiont0": "Timsko izdanje",
   "about.teamEditionLearn": "Pridruži se Mattermost zajednici na ",
-  "about.enterpriseEditionLearn": "Saznaj više o izdanju za poduzeća na "
+  "about.enterpriseEditionLearn": "Saznaj više o izdanju za poduzeća na ",
+  "about.hashee": "Hash gradnje za izdanje za poduzeće:",
+  "about.teamEditionSt": "Sva timska komunikacija na jednom mjestu, pretraživa i dostupna s bilo kojeg mjesta.",
+  "about.hash": "Hash gradnje:",
+  "about.enterpriseEditionSt": "Moderna komunikacija iza vatrozida."
 }
