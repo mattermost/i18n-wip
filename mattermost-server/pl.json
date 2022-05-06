@@ -94,5 +94,9 @@
   {
     "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
     "translation": "Napotkany błąd podczas przetwarzania informacji metadanych otrzymanych od Identity Provider do certyfikatu."
+  },
+  {
+    "id": "Boards",
+    "translation": "Tablice"
   }
 ]
