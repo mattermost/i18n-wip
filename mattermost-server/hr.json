@@ -286,5 +286,25 @@
   {
     "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
     "translation": "Greška prilikom obrade informacija metapodataka primljenih od pružatelja identiteta za certifikat."
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "Neuspjelo resetiranje podataka autentifikacije u e-mail."
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_and_password.error",
+    "translation": "Korisnički podaci autentifikacije i lozinka su međusobno isključivi."
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_and_service_dependency.error",
+    "translation": "Korisnički podaci autentifikacije i podaci autentifikacije su međusobno uključivi."
+  },
+  {
+    "id": "app.import.validate_user_import_data.auth_data_length.error",
+    "translation": "Korisnički podaci autentifikacije su predugački."
+  },
+  {
+    "id": "api.user.update_user_auth.invalid_request",
+    "translation": "Zahtjevu nedostaje parametar podatka autentifikacije ili usluge autentifikacije."
   }
 ]
