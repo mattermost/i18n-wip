@@ -1049,7 +1049,6 @@
   "copy_url_context_menu.getChannelLink": "Kopioi linkki",
   "create_category_modal.create": "Luo",
   "create_comment.addComment": "Lisää kommentti...",
-  "create_comment.comment": "Lisää kommentti",
   "create_comment.file": "Tiedostoa lähetetään",
   "create_comment.files": "Tiedostoja lähetetään",
   "create_post.error_message": "Viestisi on liian pitkä. Kirjainmerkkejä: {length}/{limit}",
