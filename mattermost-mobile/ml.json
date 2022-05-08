@@ -479,5 +479,17 @@
   "user.settings.general.emailGoogleCantUpdate": "ലോഗിൻ ചെയ്യുന്നത് ഗൂഗിൾ വഴിയാണ്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
   "user.settings.general.emailGitlabCantUpdate": "ഗിറ്റ്ലാബ് വഴിയാണ് ലോഗിൻ ചെയ്യുന്നത്. ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല. അറിയിപ്പുകൾക്കായി ഉപയോഗിക്കുന്ന ഇമെയിൽ വിലാസം {email} ആണ്.",
   "user.settings.general.emailCantUpdate": "ഒരു വെബ് ക്ലയന്റ് അല്ലെങ്കിൽ ഡെസ്ക്ടോപ്പ് ആപ്ലിക്കേഷൻ ഉപയോഗിച്ച് ഇമെയിൽ അപ്ഡേറ്റ് ചെയ്യണം.",
-  "user.settings.general.email": "ഇമെയിൽ"
+  "user.settings.general.email": "ഇമെയിൽ",
+  "search_header.results": "തിരയൽ ഫലങ്ങൾ",
+  "search_bar.search": "തിരയുക",
+  "rhs_thread.rootPostDeletedMessage.body": "ഡാറ്റ നിലനിർത്തൽ നയം കാരണം ഈ ത്രെഡിന്റെ ഒരു ഭാഗം ഇല്ലാതാക്കി. നിങ്ങൾക്ക് ഇനി ഈ ത്രെഡിന് മറുപടി നൽകാനാകില്ല.",
+  "posts_view.newMsg": "പുതിയ സന്ദേശങ്ങൾ",
+  "post_info.edit": "എഡിറ്റ് ചെയ്യുക",
+  "post_info.del": "ഇല്ലാതാക്കുക",
+  "post_body.check_for_out_of_channel_mentions.link.public": "അവരെ ചാനലിൽ ചേർക്കുക",
+  "post_body.check_for_out_of_channel_mentions.link.private": "അവരെ ഈ സ്വകാര്യ ചാനലിൽ ചേർക്കുക",
+  "post_body.check_for_out_of_channel_groups_mentions.message": "അവർ ചാനലിൽ ഇല്ലാത്തതിനാൽ ഈ പരാമർശം അറിയിപ്പ് ലഭിച്ചില്ല. ഈ ചാനലുമായി ലിങ്ക് ചെയ്‌തിരിക്കുന്ന ഗ്രൂപ്പുകളിൽ അവരും അംഗമല്ല.",
+  "permalink.show_dialog_warn.title": "സ്വകാര്യ ചാനലിൽ ചേരുക",
+  "permalink.show_dialog_warn.join": "ചേരുക",
+  "permalink.show_dialog_warn.description": "ചാനൽ അഡ്‌മിൻ വ്യക്തമായി ചേർക്കാതെ തന്നെ നിങ്ങൾ \"{channel}\"-ൽ ചേരാൻ പോകുകയാണ്. ഈ സ്വകാര്യ ചാനലിൽ ചേരണമെന്ന് തീർച്ചയാണോ?"
 }
