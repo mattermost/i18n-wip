@@ -38,5 +38,7 @@
   "about.hashee": "Hash gradnje za izdanje za poduzeće:",
   "about.teamEditionSt": "Sva timska komunikacija na jednom mjestu, pretraživa i dostupna s bilo kojeg mjesta.",
   "about.hash": "Hash gradnje:",
-  "about.enterpriseEditionSt": "Moderna komunikacija iza vatrozida."
+  "about.enterpriseEditionSt": "Moderna komunikacija iza vatrozida.",
+  "announcment_banner.dont_show_again": "Nemoj ponovo prikazati",
+  "apps.error": "Greška: {error}"
 }
