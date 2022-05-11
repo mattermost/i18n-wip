@@ -1485,7 +1485,7 @@
   },
   {
     "id": "api.custom_status.set_custom_statuses.update.app_error",
-    "translation": "Не атрымалася абнавіць які наладжваецца статут. Калі ласка, дадайце статус эмодзі ці адвольны тэкст ці і тое, і іншае."
+    "translation": "Не атрымалася абнавіць карыстацкі статус. Калі ласка, дадайце эмоджы ці уласны тэкст ці абодва."
   },
   {
     "id": "app.role.get_all.app_error",
@@ -7309,7 +7309,7 @@
   },
   {
     "id": "api.getThreadsForUser.bad_params",
-    "translation": "Параметры Before і After запыту getThreadsForUser з'яўляюцца ўзаемавыключальнымі"
+    "translation": "Параметры Before і After з'яўляюцца ўзаемавыключальнымі з getThreadsForUser"
   },
   {
     "id": "api.file.write_file.app_error",
@@ -7325,7 +7325,7 @@
   },
   {
     "id": "api.file.upload_file.read_request.app_error",
-    "translation": "Немагчыма загрузіць файл(ы). Памылка чытання ці апрацоўкі запытаных дадзеных."
+    "translation": "Немагчыма загрузіць файл(ы). Памылка чытання ці апрацоўкі дадзеных запыта."
   },
   {
     "id": "api.file.upload_file.read_form_value.app_error",
@@ -7341,7 +7341,7 @@
   },
   {
     "id": "api.file.upload_file.large_image.app_error",
-    "translation": "Памер файла перавышае максімальны памер і не можа быць загружаны: {{.Filename}}"
+    "translation": "Памер файла перавышае максімальныя памеры і не можа быць загружаны: {{.Filename}}"
   },
   {
     "id": "api.file.upload_file.incorrect_number_of_files.app_error",
@@ -7445,39 +7445,39 @@
   },
   {
     "id": "api.error_set_first_admin_visit_marketplace_status",
-    "translation": "Памылка пры спробе захаваць статут першага наведвання рынка адміністратарам у краме."
+    "translation": "Памылка пры спробе захаваць статус першага наведвання крамы адміністратарам у краме."
   },
   {
     "id": "api.error_get_first_admin_visit_marketplace_status",
-    "translation": "Памылка пры спробе атрымаць з крамы статут першага наведвання рынка адміністратарам."
+    "translation": "Памылка пры спробе атрымаць з крамы статус першага наведвання крамы адміністратарам."
   },
   {
     "id": "api.emoji.upload.open.app_error",
-    "translation": "Немагчыма стварыць смайлік. Адбылася памылка пры спробе адкрыць прымацаваную выяву."
+    "translation": "Немагчыма стварыць эмоджы. Адбылася памылка пры спробе адкрыць прымацаваную выяву."
   },
   {
     "id": "api.emoji.upload.large_image.too_large.app_error",
-    "translation": "Немагчыма стварыць смайлік. Выява павінна быць менш {{.MaxWidth}} {{.MaxHeight}}."
+    "translation": "Немагчыма стварыць эмоджы. Выява павінна быць менш {{.MaxWidth}} х {{.MaxHeight}}."
   },
   {
     "id": "api.emoji.upload.large_image.gif_encode_error",
-    "translation": "Немагчыма стварыць смайлік. Адбылася памылка пры кадаванні GIF выявы."
+    "translation": "Немагчыма стварыць эмоджы. Адбылася памылка пры кадаванні GIF выявы."
   },
   {
     "id": "api.emoji.upload.large_image.gif_decode_error",
-    "translation": "Немагчыма стварыць смайлік. Адбылася памылка пры дэкадаванні GIF выявы."
+    "translation": "Немагчыма стварыць эмоджы. Адбылася памылка пры дэкадаванні GIF выявы."
   },
   {
     "id": "api.emoji.upload.large_image.encode_error",
-    "translation": "Немагчыма стварыць смайлік. Адбылася памылка пры кадаванні выявы."
+    "translation": "Немагчыма стварыць эмоджы. Адбылася памылка пры кадаванні выявы."
   },
   {
     "id": "api.emoji.upload.large_image.decode_error",
-    "translation": "Немагчыма стварыць смайлік. Адбылася памылка пры дэкадаванні выявы."
+    "translation": "Немагчыма стварыць эмоджы. Адбылася памылка пры дэкадаванні выявы."
   },
   {
     "id": "api.emoji.upload.image.app_error",
-    "translation": "Немагчыма стварыць смайлік. Павінен быць PNG, JPEG ці GIF файл."
+    "translation": "Немагчыма стварыць эмоджы. Павінен быць PNG, JPEG ці GIF файл."
   },
   {
     "id": "api.emoji.storage.app_error",
@@ -7485,11 +7485,11 @@
   },
   {
     "id": "api.emoji.get_image.read.app_error",
-    "translation": "Не атрымалася прачытаць файл выявы для смайліка."
+    "translation": "Не атрымалася прачытаць файл выявы для эмоджы."
   },
   {
     "id": "api.emoji.get_image.decode.app_error",
-    "translation": "Не атрымалася дэкадаваць файл выявы для смайліка."
+    "translation": "Не атрымалася дэкадаваць файл выявы для эмоджы."
   },
   {
     "id": "api.emoji.disabled.app_error",
@@ -7497,19 +7497,19 @@
   },
   {
     "id": "api.emoji.create.too_large.app_error",
-    "translation": "Немагчыма стварыць смайлік. Выява павінна быць не больш за 1 MB."
+    "translation": "Немагчыма стварыць эмоджы. Выява павінна быць не больш за 1 MB."
   },
   {
     "id": "api.emoji.create.parse.app_error",
-    "translation": "Немагчыма стварыць смайлік. Незразумелы запыт."
+    "translation": "Немагчыма стварыць эмоджы. Незразумелы запыт."
   },
   {
     "id": "api.emoji.create.internal_error",
-    "translation": "server_error: Адбылася ўнутраная памылка сервера пры стварэнні смайлікаў."
+    "translation": "server_error: Адбылася ўнутраная памылка сервера пры стварэнні эмоджы."
   },
   {
     "id": "api.emoji.create.duplicate.app_error",
-    "translation": "Не ўдалося стварыць смайлік. Ужо існуе іншы смайлік з такім жа імем."
+    "translation": "Не ўдалося стварыць эмоджы. Ужо існуе іншы эмоджы з такім жа імем."
   },
   {
     "id": "api.email_batching.send_batched_email_notification.title",
@@ -8697,7 +8697,7 @@
   },
   {
     "id": "api.email.send_warn_metric_ack.invalid_warn_metric.app_error",
-    "translation": "Не ўдалося знайсці папярэджанне метрыкі."
+    "translation": "Немагчыма знайсці метрыку папяраджання."
   },
   {
     "id": "api.email.send_warn_metric_ack.failure.app_error",
@@ -8705,7 +8705,7 @@
   },
   {
     "id": "api.custom_status.recent_custom_statuses.delete.app_error",
-    "translation": "Не ўдалося выдаліць апошні па часе статус. Паспрабуйце спачатку дадаць статус або зьвяжыцеся з адміністратарам для атрымання падрабязнай інфармацыі."
+    "translation": "Не ўдалося выдаліць апошні статус. Паспрабуйце спачатку дадаць статус або зьвяжыцеся з адміністратарам для атрымання падрабязнай інфармацыі."
   },
   {
     "id": "api.custom_status.disabled",
@@ -8733,15 +8733,15 @@
   },
   {
     "id": "api.context.remote_id_missing.app_error",
-    "translation": "Адсутнічае ID выдаленага кластара."
+    "translation": "Адсутнічае ID бяспечнага злучэння."
   },
   {
     "id": "api.context.remote_id_mismatch.app_error",
-    "translation": "Неадпаведнасць ID выдаленага кластара."
+    "translation": "Неадпаведнасць ID бяспечнага злучэння."
   },
   {
     "id": "api.context.remote_id_invalid.app_error",
-    "translation": "Немагчыма знайсці бяспечны ID падключэння {{.RemoteId}}."
+    "translation": "Немагчыма знайсці бяспечны ID злучэння {{.RemoteId}}."
   },
   {
     "id": "api.context.permissions.app_error",
@@ -8753,7 +8753,7 @@
   },
   {
     "id": "api.context.local_origin_required.app_error",
-    "translation": "Гэтая канчатковая кропка патрабуе лакальнага крыніцы запыту."
+    "translation": "Гэтая канчатковая кропка патрабуе лакальнай крыніцы запыту."
   },
   {
     "id": "api.context.invalid_url_param.app_error",
@@ -9001,7 +9001,7 @@
   },
   {
     "id": "api.command_remove.group_constrained_user_denied",
-    "translation": "Карыстальнік не можа быць выдалены з канала, паколькі ён з'яўляецца ўдзельнікам груп, злучаных з гэтым каналам. Каб выдаліць яго з гэтага канала, ён павінен быць выдалены з злучаных груп."
+    "translation": "Карыстальнік не можа быць выдалены вамі з канала, паколькі ён з'яўляецца ўдзельнікам груп, злучаных з гэтым каналам. Каб выдаліць яго з гэтага канала, ён павінен быць выдалены з злучаных груп."
   },
   {
     "id": "api.command_remove.direct_group.app_error",
@@ -9077,7 +9077,7 @@
   },
   {
     "id": "api.command_remote.invite.help",
-    "translation": "Стварыць абароненае злучэнне"
+    "translation": "Стварыць бяспечнае злучэнне"
   },
   {
     "id": "api.command_remote.invitation.hint",
@@ -9109,7 +9109,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Стварыце бяспечныя злучэнні для сувязі паміж асобнікамі Mattermost."
+    "translation": "Запрасіць бяспечныя злучэнні для сувязі паміж асобнікамі Mattermost."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -9169,7 +9169,7 @@
   },
   {
     "id": "api.command_mute.not_member.error",
-    "translation": "Не ўдалося адключыць канал {{.Channel}}, паколькі вы не з'яўляецеся яго ўдзельнікам."
+    "translation": "Немагчыма адключыць канал {{.Channel}}, таму што вы не з'яўляецеся яго ўдзельнікам."
   },
   {
     "id": "api.command_mute.no_channel.error",
@@ -9225,7 +9225,7 @@
   },
   {
     "id": "api.getThreadsForUser.bad_only_params",
-    "translation": "Параметры OnlyThreads і OnlyTotals для getThreadsForUser ўзаемавыключальныя"
+    "translation": "Параметры OnlyThreads і OnlyTotals ўзаемавыключальныя з getThreadsForUser"
   },
   {
     "id": "api.file.test_connection_s3_settings_nil.app_error",
