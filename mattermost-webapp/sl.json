@@ -922,7 +922,6 @@
   "login.createTeam": "Ustvari novo ekipo",
   "login.noPassword": "Vnesite svoje trenutno geslo",
   "login.office365": "Office 365",
-  "login.password": "Geslo",
   "login.session_expired.notification": "Seja je potekla: Prijavite se, da boste še naprej prejemali obvestila.",
   "login.terms_rejected": "Preden pridete do {siteName}, se morate strinjati s pogoji storitve. Za več podrobnosti se obrnite na skrbnika sistema.",
   "marketplace_list.count_total_page": "{startCount, number} - {endCount, number} {count, plural, one {user} other {users}} of {total, number} total",
