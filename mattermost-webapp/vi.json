@@ -3245,7 +3245,6 @@
   "login.session_expired": "Phiên của bạn đã hết hạn. Vui lòng đăng nhập lại.",
   "login.session_expired.notification": "Phiên đã hết hạn: Vui lòng đăng nhập để tiếp tục nhận thông báo.",
   "login.session_expired.title": "* {siteName} - Phiên đã hết hạn",
-  "login.signInLoading": "Đang đăng nhập ...",
   "login.terms_rejected": "Bạn phải đồng ý với các điều khoản dịch vụ trước khi truy cập {siteName}. Vui lòng liên hệ với Quản trị viên Hệ thống của bạn để biết thêm chi tiết.",
   "login.userNotFound": "Chúng tôi không thể tìm thấy tài khoản khớp với thông tin đăng nhập của bạn.",
   "login.username": "Tên người dùng",

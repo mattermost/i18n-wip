@@ -272,7 +272,6 @@
   "login.noUsername": "ദയവായി നിങ്ങളുടെ ഉപയോക്തൃനാമം നൽകുക",
   "login.noUsernameLdapUsername": "ദയവായി നിങ്ങളുടെ ഉപയോക്തൃനാമം അല്ലെങ്കിൽ {ldapUsername} നൽകുക",
   "login.or": "അഥവാ",
-  "login.signIn": "സൈൻ ഇൻ",
   "login.userNotFound": "നിങ്ങളുടെ ലോഗിൻ ക്രെഡൻഷ്യലുകളുമായി പൊരുത്തപ്പെടുന്ന ഒരു അക്കൗണ്ട് കണ്ടെത്താൻ ഞങ്ങൾക്ക് കഴിഞ്ഞില്ല.",
   "login.username": "ഉപയോക്തൃനാമം",
   "login_mfa.token": "MFA ടോക്കൺ",

@@ -130,7 +130,6 @@
   "login.noUsername": "Ju lutem shkruani emrin e përdoruesit tuaj",
   "login.noUsernameLdapUsername": "Ju lutem shkruani emrin e perdoruesit tuaj ose {ldapEmrin e perdoruesit}",
   "login.or": "ose",
-  "login.signIn": "Hyni",
   "login.userNotFound": "Ne nuk mund të gjenim një llogari që përputhet me kredencialet tuaja të hyrjes.",
   "login.username": "Emri i përdoruesit",
   "marketplace_modal.list.update": "Rinovo",

@@ -1612,7 +1612,6 @@
   "login.noUsername": "Introduza o seu nome de usuario",
   "login.noUsernameLdapUsername": "Introduza o seu nome de usuario ou {ldapUsername}",
   "login.or": "ou",
-  "login.signIn": "Rexistro",
   "login.userNotFound": "Non puidemos atopar unha conta que coincida coas súas credenciais de inicio de sesión.",
   "login.username": "Nome de usuario",
   "login_mfa.token": "Testemulo MFA",

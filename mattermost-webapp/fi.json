@@ -1328,7 +1328,6 @@
   "login.session_expired": "Istuntosi on vanhentunut. Kirjaudu uudestaan sisään.",
   "login.session_expired.notification": "Istunto vanhentunut: Kirjaudu sisään saadaksesi yhä ilmoituksia.",
   "login.session_expired.title": "* {siteName} - Istunto vanhentunut",
-  "login.signInLoading": "Kirjaudutaan sisään...",
   "login.terms_rejected": "Sinun on hyväksyttävä palveluehdot ennen {siteName} käyttöä. Ota yhteys järjestelmänvalvojaasi lisätietoja varten.",
   "login.userNotFound": "Ei löydetty tiliä joka täsmää kirjautumistietoihisi.",
   "login.verified": " Sähköposti vahvistettu",

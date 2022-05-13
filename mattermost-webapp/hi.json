@@ -2011,7 +2011,6 @@
   "login.noUsername": "अपने उपयोगकर्ता नाम दर्ज करें",
   "login.noUsernameLdapUsername": "कृपया अपना उपयोगकर्ता नाम या {ldapUsername} दर्ज करें",
   "login.or": "या",
-  "login.signIn": "साइन इन करें",
   "login.userNotFound": "हमें आपके लॉगिन प्रमाण - पत्र से मेल खाने वाला खाता नहीं मिला।",
   "login.username": "उपयोगकर्ता नाम",
   "login_mfa.token": "एमएफए टोकन",

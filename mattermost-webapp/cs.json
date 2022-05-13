@@ -1828,7 +1828,6 @@
   "login.session_expired": "Vaše relace vypršela. Přihlašte se prosím znovu.",
   "login.session_expired.notification": "Sezení vypršelo: Přihlaste se, abyste nadále dostávali upozornění.",
   "login.session_expired.title": "* {siteName} - Relace vypršela",
-  "login.signInLoading": "Přihlašuji...",
   "login.userNotFound": "Nelze najít účet s daným přihlašovacím jménem nebo heslem.",
   "login.username": "Uživatelské jméno",
   "login.verified": " E-mail ověřen",
