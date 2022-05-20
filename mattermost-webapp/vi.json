@@ -3374,7 +3374,6 @@
   "navbar_dropdown.switchTo": "Chuyển sang ",
   "navbar_dropdown.teamSettings": "Cài đặt nhóm",
   "navbar_dropdown.viewMembers": "Xem Thành viên",
-  "next_steps_view.invite_members_step.invitationsSent": "Đã gửi {num} lời mời",
   "next_steps_view.team_profile_step.nameTooBig": "Tên nhóm phải ít hơn 64 ký tự",
   "next_steps_view.welcomeToMattermost": "Chào mừng bạn đến với Mattermost",
   "no_results.channel_search.subtitle": "Kiểm tra chính tả hoặc thử tìm kiếm khác.",
