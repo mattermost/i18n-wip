@@ -172,7 +172,6 @@
   "admin.billing.subscription.cancelSubscriptionSection.contactUs": "Bizben Baylanısınız",
   "admin.billing.subscription.cancelSubscriptionSection.title": "Jazıluınızdı toktau",
   "admin.billing.subscription.cloudTrial.daysLeftOnTrial": "Tegin baykamanızdıŋ {daysLeftOnTrial} küni kaldı",
-  "admin.billing.subscription.cloudTrial.menuCloudTrial": "Cloud baykamanızdıŋ {daysLeftOnTrial} küni kaldı.",
   "admin.billing.subscription.cloudTrial.moreThan3Days": "Sizdiŋ baykamanız bastaldı! {daysLeftOnTrial} kün kaldı",
   "admin.billing.subscription.cloudTrial.subscribe": "Jazılu",
   "admin.billing.subscription.cloudTrial.subscribeButton": "Däl kazir jazılu",
