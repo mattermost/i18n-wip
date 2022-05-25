@@ -90,7 +90,6 @@
   "members_popover.button.message": "message",
   "multiselect.add": "Afegeix",
   "rhs_header.closeSidebarTooltip": "Tanca",
-  "signup_user_completed.no_open_server": "Aquest servidor no permet els registres oberts.  Parla amb el teu administrador per rebre una invitació.",
   "user.settings.general.close": "Tanca",
   "user.settings.general.imageTooLarge": "No s'ha pogut pujar la imatge de perfil. El fitxer és massa gran.",
   "user.settings.security.close": "Tanca",
