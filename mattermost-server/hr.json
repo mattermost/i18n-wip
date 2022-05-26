@@ -306,5 +306,25 @@
   {
     "id": "api.user.update_user_auth.invalid_request",
     "translation": "Zahtjevu nedostaje parametar podatka autentifikacije ili usluge autentifikacije."
+  },
+  {
+    "id": "api.channel.add_user.to.channel.failed.app_error",
+    "translation": "Neuspjelo dodavanje korisnika u kanal."
+  },
+  {
+    "id": "api.channel.add_members.error",
+    "translation": "Greška u dodavanju članova kanala."
+  },
+  {
+    "id": "api.channel.add_member.added",
+    "translation": "%v je dodan/a u kanal od %v."
+  },
+  {
+    "id": "api.channel.add_guest.added",
+    "translation": "%v je dodan/a u kanal kao gost od %v."
+  },
+  {
+    "id": "api.bot.create_disabled",
+    "translation": "Stvaranje bota je deaktivirano."
   }
 ]
