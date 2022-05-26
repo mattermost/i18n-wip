@@ -289,7 +289,6 @@
   "admin.billing.subscription.privateCloudCard.contactSupport": "Póñase en contacto co servizo de asistencia",
   "admin.billing.subscription.stateprovince": "Provincia/Estado",
   "admin.billing.subscription.title": "Subscricións",
-  "admin.billing.subscription.upgradeCloudSubscription": "Anovar a súa subscrición a Mattermost Cloud",
   "admin.billing.subscription.upgradeMattermostCloud.description": "O nivel de balde **está limitado a 10 usuarios.** Acceda a máis usuarios, equipos e outras excelentes funcionalidades",
   "admin.billing.subscription.upgradeMattermostCloud.title": "Necesita máis usuarios?",
   "admin.billing.subscription.upgradeMattermostCloud.upgradeButton": "Anovar Mattermost Cloud",

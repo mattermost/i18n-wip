@@ -307,7 +307,6 @@
   "admin.billing.subscription.stateprovince": "Kraj/provincie",
   "admin.billing.subscription.title": "Předplatné",
   "admin.billing.subscription.updatePaymentInfo": "Aktualizovat platební informace",
-  "admin.billing.subscription.upgradeCloudSubscription": "Aktualizuj předplatné pro Mattermost Cloud",
   "admin.billing.subscription.upgradeMattermostCloud.description": "Bezplatné pásmo je **limitováno na 10 uživatelů.** Získej přístup pro více uživatelů, týmů a další skvělé vychytávky",
   "admin.billing.subscription.upgradeMattermostCloud.title": "Potřebuješ více uživatelů?",
   "admin.billing.subscription.upgradeMattermostCloud.upgradeButton": "Povýšit Mattermost Cloud",
