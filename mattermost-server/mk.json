@@ -1,1 +1,194 @@
-{}
+[
+  {
+    "id": "api.channel.create_default_channels.town_square",
+    "translation": "Градски Плоштад"
+  },
+  {
+    "id": "api.channel.add_members.error",
+    "translation": "Грешка во додавање на кориник/ци на каналот."
+  },
+  {
+    "id": "api.channel.add_member.added",
+    "translation": "%v додаден во каналот од %v."
+  },
+  {
+    "id": "api.channel.add_guest.added",
+    "translation": "%v додаден во каналот како гостин од %v."
+  },
+  {
+    "id": "api.admin.test_s3.missing_s3_bucket",
+    "translation": "S3 Bucket е потребно"
+  },
+  {
+    "id": "api.admin.saml.failure_save_idp_certificate_file.app_error",
+    "translation": "Неможе да се сними сертификат фајл."
+  },
+  {
+    "id": "api.admin.remove_certificate.delete.app_error",
+    "translation": "Грешка при бришење на сертификатот."
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "LDAP не е достапен."
+  },
+  {
+    "id": "api.admin.get_brand_image.storage.app_error",
+    "translation": "Складиштето за слики не е подесено."
+  },
+  {
+    "id": "api.admin.file_read_error",
+    "translation": "Грешка во читање на лог фајлот."
+  },
+  {
+    "id": "api.admin.delete_brand_image.storage.not_found",
+    "translation": "Неможе да се избрише бренд сликата, неможе да се најде."
+  },
+  {
+    "id": "api.admin.add_certificate.saving.app_error",
+    "translation": "Неможеше да се сними сертификат фајл."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Грешка во парсирање на мултиформско барање"
+  },
+  {
+    "id": "api.admin.add_certificate.open.app_error",
+    "translation": "Не може да се отвори сертификат фајл."
+  },
+  {
+    "id": "api.admin.add_certificate.no_file.app_error",
+    "translation": "Нема фајл под 'certificate' во барањето."
+  },
+  {
+    "id": "api.admin.add_certificate.array.app_error",
+    "translation": "Нема фајл под 'certificate' во барањето."
+  },
+  {
+    "id": "September",
+    "translation": "Септември"
+  },
+  {
+    "id": "October",
+    "translation": "Октомври"
+  },
+  {
+    "id": "November",
+    "translation": "Ноември"
+  },
+  {
+    "id": "May",
+    "translation": "Мај"
+  },
+  {
+    "id": "March",
+    "translation": "Март"
+  },
+  {
+    "id": "June",
+    "translation": "Јуни"
+  },
+  {
+    "id": "July",
+    "translation": "Јули"
+  },
+  {
+    "id": "January",
+    "translation": "Јануари"
+  },
+  {
+    "id": "February",
+    "translation": "Февруари"
+  },
+  {
+    "id": "December",
+    "translation": "Декември"
+  },
+  {
+    "id": "Channels",
+    "translation": "Канали"
+  },
+  {
+    "id": "Boards",
+    "translation": "Табли"
+  },
+  {
+    "id": "August",
+    "translation": "Август"
+  },
+  {
+    "id": "April",
+    "translation": "Април"
+  },
+  {
+    "id": "api.bot.create_disabled",
+    "translation": "Создавањето на ботови е оневозможено."
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "Назад во {{.SiteName}}"
+  },
+  {
+    "id": "api.admin.upload_brand_image.too_large.app_error",
+    "translation": "Неможеше да се уплоадира фајлот. Фајлот е преголем."
+  },
+  {
+    "id": "api.admin.upload_brand_image.storage.app_error",
+    "translation": "Неможеше да се уплоадира сликата. Складиштето за слики не е конфигурирано."
+  },
+  {
+    "id": "api.admin.upload_brand_image.no_file.app_error",
+    "translation": "Нема фајл под 'image' во барањето."
+  },
+  {
+    "id": "api.admin.upload_brand_image.array.app_error",
+    "translation": "Празна низа под 'image' во барањето."
+  },
+  {
+    "id": "api.admin.test_email.subject",
+    "translation": "Mattermost - Испробување на емаил подесувања"
+  },
+  {
+    "id": "api.admin.test_email.reenter_password",
+    "translation": "SMTP серверот, портата, или корисничкото име се сменети. Внесете ја СМТП лозинката за да се испроба коненцијата."
+  },
+  {
+    "id": "api.admin.test_email.missing_server",
+    "translation": "SMTP Сервер е потребен"
+  },
+  {
+    "id": "api.admin.test_email.body",
+    "translation": "Изгледа дека вашиот Mattermost емаил не е исправно подесен!"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+    "translation": "Недостаток на тип на соддржина."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "Невалиден тип на содржина."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+    "translation": "Невалиден сертификат текст."
+  },
+  {
+    "id": "api.admin.saml.not_available.app_error",
+    "translation": "SAML 2.0 не е конфигуриран или поддржан на овој сервер."
+  },
+  {
+    "id": "api.admin.saml.metadata.app_error",
+    "translation": "Грешка додека се градеше Service Provider метадата."
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "Неуспешно беше ресетирањето на AuthData полето во Email."
+  },
+  {
+    "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
+    "translation": "Неуспех додека се парсираше метадата информацијата добиена од Идентитет Провајдер во сертификат."
+  },
+  {
+    "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
+    "translation": "Неможеше да се приземе метадата од Идентитет Провајдер УРЛ."
+  }
+]
