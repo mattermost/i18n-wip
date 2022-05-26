@@ -38,7 +38,6 @@
   "admin.authentication.mfa": "बहु-फ्याक्टर प्रमाणीकरण",
   "admin.billing.company_info_edit.cancel": "क्यानसेल",
   "admin.billing.payment_info_edit.cancel": "क्यानसेल",
-  "admin.billing.subscription.upgrade": "अपग्रेड",
   "admin.channel_list.archived": "अभिलेख राखियो",
   "admin.channel_settings.channel_detail.membersTitle": "सदस्यहरू",
   "admin.channel_settings.channel_details.archiveChannel": "अभिलेख च्यानल",

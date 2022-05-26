@@ -55,7 +55,6 @@
   "admin.authentication.mfa": "Έλεγχος Ταυτότητας Πολλαπλών Παραγόντων",
   "admin.billing.company_info_edit.cancel": "Ακύρωση",
   "admin.billing.payment_info_edit.cancel": "Ακύρωση",
-  "admin.billing.subscription.upgrade": "Αναβάθμιση",
   "admin.channel_list.archived": "Αρχειοθετημένα",
   "admin.channel_settings.channel_detail.membersTitle": "Μέλη",
   "admin.channel_settings.channel_details.archiveChannel": "Αρχειοθέτηση Καναλιού",
