@@ -1152,10 +1152,6 @@
     "translation": "Falta la propietat necessària de la resposta: «create_at»."
   },
   {
-    "id": "app.import.validate_reply_import_data.create_at_before_parent.error",
-    "translation": "La propietat «CreateAt» ha de ser major a la propietat «CreateAt» del missatge principal."
-  },
-  {
     "id": "app.import.validate_reaction_import_data.user_missing.error",
     "translation": "Falta la propietat necessària de la reacció: «User»."
   },
