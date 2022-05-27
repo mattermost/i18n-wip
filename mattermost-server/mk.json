@@ -190,5 +190,113 @@
   {
     "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
     "translation": "Неможеше да се приземе метадата од Идентитет Провајдер УРЛ."
+  },
+  {
+    "id": "model.guest.is_valid.channels.app_error",
+    "translation": "Невалидни канали."
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.windows",
+    "translation": "Виндоус 8.1+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_os_version.mac",
+    "translation": "macOS 10.14+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.safari",
+    "translation": "Верзија 14.1+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.firefox",
+    "translation": "Верзија 91+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.edge",
+    "translation": "Верзија 44+"
+  },
+  {
+    "id": "web.error.unsupported_browser.min_browser_version.chrome",
+    "translation": "Верзија 100+"
+  },
+  {
+    "id": "web.error.unsupported_browser.system_browser_or",
+    "translation": "или"
+  },
+  {
+    "id": "api.command_msg.missing.app_error",
+    "translation": "Неможе да се најде корисникот."
+  },
+  {
+    "id": "api.command_msg.hint",
+    "translation": "@[корисничко име] 'порака'"
+  },
+  {
+    "id": "api.command_msg.fail.app_error",
+    "translation": "Се случи грешка при праќањето на порака кон корисникот."
+  },
+  {
+    "id": "api.command_msg.dm_fail.app_error",
+    "translation": "Се случи грешка при создавањето на директната порака."
+  },
+  {
+    "id": "api.command_msg.desc",
+    "translation": "Прати Директна Порака до корисникот"
+  },
+  {
+    "id": "api.command_me.name",
+    "translation": "јас"
+  },
+  {
+    "id": "api.command_me.hint",
+    "translation": "[порака]"
+  },
+  {
+    "id": "api.command_me.desc",
+    "translation": "Изврши акција"
+  },
+  {
+    "id": "api.command_logout.name",
+    "translation": "одлогирање"
+  },
+  {
+    "id": "api.command_logout.desc",
+    "translation": "Одлогирај се од Mattermost"
+  },
+  {
+    "id": "api.command_leave.name",
+    "translation": "напушти"
+  },
+  {
+    "id": "api.command_leave.fail.app_error",
+    "translation": "Се случи грешка при напуштањето на каналот."
+  },
+  {
+    "id": "api.command_leave.desc",
+    "translation": "Напушти го тековниот канал"
+  },
+  {
+    "id": "api.command_kick.name",
+    "translation": "удри"
+  },
+  {
+    "id": "api.command_join.name",
+    "translation": "приклучи се"
+  },
+  {
+    "id": "model.guest.is_valid.channel.app_error",
+    "translation": "Невалиден канал."
+  },
+  {
+    "id": "web.incoming_webhook.user.app_error",
+    "translation": "Неможеше да се најде корисникот."
+  },
+  {
+    "id": "web.incoming_webhook.channel.app_error",
+    "translation": "Неможеше да се најде каналот."
+  },
+  {
+    "id": "api.command_msg.name",
+    "translation": "порака"
   }
 ]
