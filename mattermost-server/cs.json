@@ -1516,10 +1516,6 @@
     "translation": "Chybí požadovaná vlastnost odpovědi: create_at."
   },
   {
-    "id": "app.import.validate_reply_import_data.create_at_before_parent.error",
-    "translation": "Položka CreateAt v odpovědi musí být větší než je CreateAt u nadřazeného příspěvku."
-  },
-  {
     "id": "app.import.validate_reaction_import_data.user_missing.error",
     "translation": "Chybí požadovaná vlastnost odpovědi: Uživatel."
   },

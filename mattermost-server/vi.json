@@ -1088,10 +1088,6 @@
     "translation": "Thiếu thuộc tình Trả lời yêu cầu: create_at."
   },
   {
-    "id": "app.import.validate_reply_import_data.create_at_before_parent.error",
-    "translation": "Trả lời thuộc tính CreateAt phải lớn hơn bài đăng gốc của CreatAt."
-  },
-  {
     "id": "app.import.validate_reaction_import_data.user_missing.error",
     "translation": "Thiếu thuộc tính Reaction yêu cầu: Người dùng."
   },

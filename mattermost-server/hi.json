@@ -6017,10 +6017,6 @@
     "translation": "आवश्यक उत्तर गुण गुम है: create_at."
   },
   {
-    "id": "app.import.validate_reply_import_data.create_at_before_parent.error",
-    "translation": "उत्तर दें CreateAt संपत्ति मूल पोस्ट CreateAt से बड़ी होनी चाहिए।"
-  },
-  {
     "id": "app.import.validate_reaction_import_data.user_missing.error",
     "translation": "आवश्यक प्रतिक्रिया गुण गुम है: User."
   },

@@ -4116,10 +4116,6 @@
     "translation": "Zorunlu yanıt özelliği eksik: olusturulma_zamani."
   },
   {
-    "id": "app.import.validate_reply_import_data.create_at_before_parent.error",
-    "translation": "Yanıt oluşturulma zamanı özelliği üst iletinin oluşturulma zamanından sonra olmalıdır."
-  },
-  {
     "id": "app.import.validate_reaction_import_data.user_missing.error",
     "translation": "Zorunlu tepki özelliği eksik: Kullanıcı."
   },

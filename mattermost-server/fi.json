@@ -1136,10 +1136,6 @@
     "translation": "Puuttuva vaadittu vastauksen ominaisuus: create_at."
   },
   {
-    "id": "app.import.validate_reply_import_data.create_at_before_parent.error",
-    "translation": "Vastauksen CreateAt arvon oltava suurempi kuin emoviestin CreateAt."
-  },
-  {
     "id": "app.import.validate_reaction_import_data.user_missing.error",
     "translation": "Puuttuva vaadittu reaktion ominaisuus: User."
   },
