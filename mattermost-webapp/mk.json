@@ -1,1 +1,13 @@
-{}
+{
+  "about.date": "Датум на градба:",
+  "about.enterpriseEditionLearn": "Научете повеќе за Претпријателското Издание на ",
+  "about.enterpriseEditione1": "Претпријателско Издание",
+  "about.hash": "Градбен Хеш:",
+  "about.teamEditiont0": "Тимско Издание",
+  "about.teamEditiont1": "Претпријателско Издание",
+  "about.title": "За {appTitle}",
+  "apps.error": "Грешка: {error}",
+  "apps.error.command.field_missing": "Недостасува задолжителено поле: `{fieldName}`.",
+  "apps.error.parser": "Грешка при парсирање: {error}",
+  "apps.error.parser.empty_value": "празни вредности не се дозволени"
+}
