@@ -10,5 +10,17 @@
   "about.hash": "Градбен Хеш:",
   "about.enterpriseEditionLearn": "Научете повеќе за Претпријателското Издание на ",
   "about.enterpriseEditione1": "Претпријателско Издание",
-  "about.date": "Датум на градба:"
+  "about.date": "Датум на градба:",
+  "apps.error.command.unknown_option": "Непозната опција за поле `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_channel": "Непознат канал за поле `{fieldName}`: `{option}`.",
+  "apps.error.command.same_user": "Корисник повторен за поле `{fieldName}`: `{option}`.",
+  "apps.error.command.same_option": "Опција повторена за поле `{fieldName}`: `{option}`.",
+  "apps.error.command.same_channel": "Каналот повторен за полето `{fieldName}`: `{option}`.",
+  "api.channel.add_member.added": "{addedUsername} беше приклучен на каналот од {username}.",
+  "api.channel.add_guest.added": "{addedUsername} беше приклучен на каналот како гостин од {username}.",
+  "about.teamEditionSt": "Целата тимска комуникација на едно место, инстанто пребарување и достапност насекаде.",
+  "about.teamEditionLearn": "Придружи се на Mattermost заедницата на ",
+  "about.hashee": "Хеш на Пр. Градба:",
+  "api.channel.guest_join_channel.post_and_forget": "{username} се приклучи на каналот како гостин.",
+  "about.enterpriseEditionSt": "Модерна комуникација позади вашиот заштитен ѕид."
 }
