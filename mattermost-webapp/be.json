@@ -2882,7 +2882,6 @@
   "claim.oauth_to_email.switchTo": "Перайсці з {type} да выкарыстання e-mail і пароля",
   "claim.oauth_to_email.title": "Пераключыць акаўнт {type} на E-Mail",
   "cloud_subscribe.contact_support": "Параўнаць планы",
-  "collapsed_reply_threads_beta_modal.title": "Вы атрымліваеце доступ да ранняй бэта-версіі згорнутых ланцужкоў адказаў",
   "collapsed_reply_threads_modal.confirm": "Зразумела",
   "collapsed_reply_threads_modal.description": "Тэмы былі перапрацаваны, каб дапамагчы вам арганізаваць арганізаваную размову вакол пэўных паведамленняў. Цяпер каналы будуць выглядаць менш загрувашчанымі, бо адказы згорнутыя пад зыходным паведамленнем, а ўсе размовы, за якімі вы сочыце, даступныя ў вашым уяўленні **Размовы **. Завяршэце экскурсію, каб даведацца, што новага.",
   "collapsed_reply_threads_modal.skip_tour": "Прапусціць знаёмства",
