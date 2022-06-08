@@ -7009,10 +7009,6 @@
     "translation": "लोचदार खोज अक्षम है।"
   },
   {
-    "id": "ent.elasticsearch.test_config.connect_failed",
-    "translation": "Elasticsearch सर्वर से कनेक्ट करना विफल रहा।"
-  },
-  {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
     "translation": "इलास्टिक्स खोज पहले ही रोक दी गई है।"
   },

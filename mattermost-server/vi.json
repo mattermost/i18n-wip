@@ -856,10 +856,6 @@
     "translation": "Elaticsearch bị vô hiệu hóa."
   },
   {
-    "id": "ent.elasticsearch.test_config.connect_failed",
-    "translation": "Kết nối với máy chủ Elaticsearch không thành công."
-  },
-  {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
     "translation": "Elasticsearch đã bị dừng"
   },

@@ -936,10 +936,6 @@
     "translation": "Elasticsearch je onemogočen."
   },
   {
-    "id": "ent.elasticsearch.test_config.connect_failed",
-    "translation": "Povezava s strežnikom Elasticsearch ni uspela."
-  },
-  {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
     "translation": "Elasticsearch je že ustavljen"
   },

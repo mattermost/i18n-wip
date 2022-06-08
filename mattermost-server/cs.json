@@ -2700,10 +2700,6 @@
     "translation": "Elasticsearch je vypnutý."
   },
   {
-    "id": "ent.elasticsearch.test_config.connect_failed",
-    "translation": "Připojení k serveru Elasticsearch se nezdařilo."
-  },
-  {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
     "translation": "Elasticsearch je už zastaven."
   },

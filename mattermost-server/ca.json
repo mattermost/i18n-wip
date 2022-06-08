@@ -2528,10 +2528,6 @@
     "translation": "L'Elasticsearch està desactivat."
   },
   {
-    "id": "ent.elasticsearch.test_config.connect_failed",
-    "translation": "S'ha produït un error en connectar-se al servidor Elasticsearch."
-  },
-  {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
     "translation": "L'Elasticsearch ja s'ha aturat"
   },

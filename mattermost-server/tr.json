@@ -740,10 +740,6 @@
     "translation": "Elasticsearch devre dışı."
   },
   {
-    "id": "ent.elasticsearch.test_config.connect_failed",
-    "translation": "Elasticsearch sunucusuna bağlanılamadı."
-  },
-  {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
     "translation": "Elasticsearch zaten durdurulmuş."
   },

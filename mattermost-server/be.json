@@ -4628,10 +4628,6 @@
     "translation": "Ваша версія сервера Mattermost не падтрымлівае Elasticsearch."
   },
   {
-    "id": "ent.elasticsearch.test_config.connect_failed",
-    "translation": "Не ўдалося падключыцца да сервера Elasticsearch."
-  },
-  {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
     "translation": "Elasticsearch ужо спынены."
   },
