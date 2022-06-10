@@ -279,7 +279,6 @@
   "admin.billing.subscription.freeTrial.title": "Aktuálně využíváte bezplatnou zkušební verzi",
   "admin.billing.subscription.goBackTryAgain": "Jdi zpátky a zkus to znovu",
   "admin.billing.subscription.howItWorks": "Zobrazit, jak předplatné funguje",
-  "admin.billing.subscription.letsGo": "Jdeme na to!",
   "admin.billing.subscription.mostRecentPaymentFailed": "Poslední platba neproběhla",
   "admin.billing.subscription.nextBillingDate": "Počínaje dnem {date} budete zpoplatněn na základě počtu povolených uživatelů",
   "admin.billing.subscription.paymentFailed": "Platba selhala. Prosím zkus to znovu nebo kontaktuj podporu.",
