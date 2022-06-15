@@ -449,7 +449,6 @@
   "admin.channel_settings.description": "Quản lý cài đặt kênh.",
   "admin.channel_settings.groupsPageTitle": "Kênh {siteName}",
   "admin.channel_settings.title": "Kênh",
-  "admin.cloud.import.header.TrialBadge": "Thử nghiệm",
   "admin.cluster.ClusterName": "Tên cụm:",
   "admin.cluster.ClusterNameDesc": "Cụm để kết hợp theo tên. Chỉ các nút có cùng tên cụm mới kết hợp với nhau. Điều này nhằm hỗ trợ triển khai Blue-Green hoặc dàn trỏ đến cùng một cơ sở dữ liệu.",
   "admin.cluster.ClusterNameEx": "Ví dụ: \"Production\" hoặc \"Staging\"",
