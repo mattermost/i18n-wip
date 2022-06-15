@@ -456,7 +456,6 @@
   "admin.channel_settings.description": "Кіраванне наладамі канала.",
   "admin.channel_settings.groupsPageTitle": "Каналы {siteName}",
   "admin.channel_settings.title": "Каналы",
-  "admin.cloud.import.header.TrialBadge": "Пробная падпіска",
   "admin.cluster.ClusterName": "Назва кластара:",
   "admin.cluster.ClusterNameDesc": "Кластар для далучэння па імені. Толькі вузлы з аднолькавым імем кластара аб'ядноўваюцца. Гэта зроблена для падтрымкі Blue-Green deployments ці прамежкавага доступу да адной і той жа базы дадзеных.",
   "admin.cluster.ClusterNameEx": "Напрыклад: \"Production\" ці \"Staging\"",

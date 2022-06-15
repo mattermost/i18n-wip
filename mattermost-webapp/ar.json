@@ -451,7 +451,6 @@
   "admin.channel_settings.description": "إدارة إعدادات القنوات.",
   "admin.channel_settings.groupsPageTitle": "{SITENAME} القنوات",
   "admin.channel_settings.title": "قنوات",
-  "admin.cloud.import.header.TrialBadge": "محاكمة",
   "admin.cluster.ClusterName": "اسم المجموعة:",
   "admin.cluster.ClusterNameDesc": "الكتلة للانضمام بالاسم. والعقد الوحيد الذي يحمل نفس اسم الكتلة الانضمام معا. هذا هو لدعم نشر الأخضر والأزرق أو افتا انطلاق إلى نفس قاعدة البيانات.",
   "admin.cluster.ClusterNameEx": "على سبيل المثال: \"إنتاج\" أو \"التدريج\"",

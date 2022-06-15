@@ -315,6 +315,5 @@
   "admin.channel_settings.description": "Arna baptauların baskaru.",
   "admin.channel_settings.groupsPageTitle": "{siteName} Arnaları",
   "admin.channel_settings.title": "Arnalar",
-  "admin.cloud.import.header.TrialBadge": "Baykama",
   "admin.cluster.ClusterName": "Cluster Atauı:"
 }
