@@ -285,7 +285,6 @@
   "admin.billing.subscription.howItWorks": "انظر كيف يعمل الفواتير",
   "admin.billing.subscription.mostRecentPaymentFailed": "فشل دفعك الأخير",
   "admin.billing.subscription.nextBillingDate": "بدءا من {تاريخ} سيتم محاسبتك على أساس عدد من المستخدمين تمكين",
-  "admin.billing.subscription.paymentBegins": "يبدأ الدفع بتاريخ: {beginDate}",
   "admin.billing.subscription.paymentFailed": "عملية الدفع فشلت. يرجى المحاولة مرة أخرى أو الاتصال بالدعم.",
   "admin.billing.subscription.paymentVerificationFailed": "عذرا، فشل التحقق من الدفع",
   "admin.billing.subscription.planDetails.currentPlan": "الخطة الحالية",

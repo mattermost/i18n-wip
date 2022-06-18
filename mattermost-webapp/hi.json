@@ -292,7 +292,6 @@
   "admin.billing.subscription.howItWorks": "देखें कि बिलिंग कैसे काम करती है",
   "admin.billing.subscription.mostRecentPaymentFailed": "आपका हाल का भुगतान विफल रहा",
   "admin.billing.subscription.nextBillingDate": "योजना की सभी सुविधाओं तक पहुँचने के लिए कुछ ही मिनटों में अपने कार्यक्षेत्र की जाँच करें। सक्षम उपयोगकर्ताओं की संख्या के आधार पर आपसे {date} से शुल्क लिया जाएगा.",
-  "admin.billing.subscription.paymentBegins": "भुगतान शुरू: {beginDate}",
   "admin.billing.subscription.paymentFailed": "भुगतान विफल रही। कृपया पुन: प्रयास करें या समर्थन से संपर्क करें।",
   "admin.billing.subscription.paymentVerificationFailed": "क्षमा करें, भुगतान सत्यापन विफल रहा",
   "admin.billing.subscription.planDetails.currentPlan": "(वर्तमान योजना)",

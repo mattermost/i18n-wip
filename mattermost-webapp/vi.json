@@ -283,7 +283,6 @@
   "admin.billing.subscription.howItWorks": "Xem cách thanh toán hoạt động",
   "admin.billing.subscription.mostRecentPaymentFailed": "Thanh toán gần đây nhất của bạn không thành công",
   "admin.billing.subscription.nextBillingDate": "Kiểm tra không gian làm việc của bạn sau vài phút để truy cập tất cả các tính năng của gói. Bắt đầu từ {date}, bạn sẽ bị tính phí dựa trên số lượng người dùng đã bật.",
-  "admin.billing.subscription.paymentBegins": "Thanh toán bắt đầu: {beginDate}",
   "admin.billing.subscription.paymentFailed": "Thanh toán không thành công. Vui lòng thử lại hoặc liên hệ với bộ phận hỗ trợ.",
   "admin.billing.subscription.paymentVerificationFailed": "Xin lỗi, xác minh thanh toán không thành công",
   "admin.billing.subscription.planDetails.currentPlan": "(Gói hiện tại)",

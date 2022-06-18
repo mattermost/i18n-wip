@@ -288,7 +288,6 @@
   "admin.billing.subscription.howItWorks": "Паглядзіце, як працуе білінг",
   "admin.billing.subscription.mostRecentPaymentFailed": "Апошні плацёж не прайшоў",
   "admin.billing.subscription.nextBillingDate": "Праверце сваю працоўную прастору праз некалькі хвілін, каб атрымаць доступ да ўсіх функцый тарыфнага плана. Пачынаючы з {date}, з Вас будзе брацца плата ў залежнасці ад колькасці ўключаных карыстальнікаў.",
-  "admin.billing.subscription.paymentBegins": "Аплата пачынаецца: {beginDate}",
   "admin.billing.subscription.paymentFailed": "Плацёж не прайшоў. Калі ласка, паспрабуйце яшчэ раз ці звярніцеся ў службу падтрымкі.",
   "admin.billing.subscription.paymentVerificationFailed": "Выбачыце, праверка плацяжу не прайшла",
   "admin.billing.subscription.planDetails.currentPlan": "(Бягучы план)",

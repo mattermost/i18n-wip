@@ -183,7 +183,6 @@
   "admin.billing.subscription.goBackTryAgain": "Keri kaytıp kayta köriniz",
   "admin.billing.subscription.howItWorks": "Töleuler kalay jūmıs isteytinin köriniz",
   "admin.billing.subscription.mostRecentPaymentFailed": "Sizdiŋ soŋgı töleminiz orındalmadı",
-  "admin.billing.subscription.paymentBegins": "Tölem bastaladı: {beginDate}",
   "admin.billing.subscription.paymentFailed": "Tölem orındalmdı. Kayta körudı ötinemiz nemese koldaumen baylanısınız.",
   "admin.billing.subscription.paymentVerificationFailed": "Keciriniz, tölemdi tekseru sätsiz ayaktaldı",
   "admin.billing.subscription.planDetails.currentPlan": "(Käzirgi Plan)",
