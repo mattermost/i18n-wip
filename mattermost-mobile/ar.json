@@ -255,5 +255,18 @@
   "emoji_picker.animals-nature": "الحيوانات و الطبيعة",
   "custom_status.expiry_dropdown.dont_clear": "لا تحذف",
   "apps.error.parser.missing_binding": "روابط ألاوامر مفقودة.",
-  "apps.error.parser.execute_non_leaf": "يجب تحديد أمر فرعي."
+  "apps.error.parser.execute_non_leaf": "يجب تحديد أمر فرعي.",
+  "apps.error.lookup.error_preparing_request": "خطأ أثناء تحضير بيانات البحث. {errorMessage}",
+  "apps.error.form.submit.pretext": "حدث خطأ أثناء محاولة ارسال البيانات. الرجاء مراسلة مطور التطبيق. التفاصيل: {details}",
+  "apps.error.form.refresh_no_refresh": "استخدام تحديث المحتوى على محتوى لا يمكن تحديثه.",
+  "apps.error.form.refresh": "لقد حدث مشكلة أثناء محاولة تحميل بيانات الحقل المختار. الرجاء مراسلة مطور التطبيق. التفاصيل: {details}",
+  "apps.error.command.unknown_user": "مستخدم غير معروف للحقل `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_option": "قيمة غير معروفة للحقل `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_channel": "قناة غير معروفة للحقل `{fieldName}`: `{option}`.",
+  "apps.error.command.same_user": "تكرار المستخدم للحقل `{fieldName}`: `{option}`.",
+  "apps.error.command.same_option": "تكرار الخيار للحقل `{fieldName}`: `{option}`.",
+  "apps.error.command.same_channel": "تكرار القناة للحقل `{fieldName}`: `{option}`.",
+  "apps.error.form.no_submit": "`ارسال الطلب` غير محدد",
+  "apps.error.form.no_source": "`المصدر` غير محدد.",
+  "apps.error.form.no_lookup": "`مفتاح البحث`غير محدد."
 }
