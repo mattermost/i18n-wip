@@ -3608,7 +3608,6 @@
   "invite_modal.invited": "{inviteType} запрошаны ў {team_name}",
   "invite_modal.invited_guests": "Госці",
   "invite_modal.invited_members": "Удзельнiкi",
-  "invite_modal.members": "удзельнікі",
   "invite_modal.no_permissions.description": "У вас няма правоў на даданне карыстальнікаў ці гасцей. Калі гэта падобна на памылку, звернецеся да сістэмнага адміністратара.",
   "invite_modal.no_permissions.title": "Немагчыма працягнуць",
   "invite_modal.title": "Запрасіць {inviteType} у {team_name}",

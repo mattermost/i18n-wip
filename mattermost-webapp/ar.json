@@ -3420,7 +3420,6 @@
   "invite_modal.invited": "تمت دعوة {} إلى {}",
   "invite_modal.invited_guests": "ضيوف",
   "invite_modal.invited_members": "الاعضاء",
-  "invite_modal.members": "الاعضاء",
   "invite_modal.no_permissions.description": "ليس لديك أذونات لإضافة مستخدمين أو ضيوف. إذا كان هذا يبدو خطأ ، يرجى التواصل مع مسؤول النظام لديك.",
   "invite_modal.no_permissions.title": "حدث خطأ!",
   "invite_modal.title": "قم بدعوة {} إلى {}",
