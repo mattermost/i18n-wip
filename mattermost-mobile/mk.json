@@ -22,5 +22,12 @@
   "about.teamEditionLearn": "Придружи се на Mattermost заедницата на ",
   "about.hashee": "Хеш на Пр. Градба:",
   "api.channel.guest_join_channel.post_and_forget": "{username} се приклучи на каналот како гостин.",
-  "about.enterpriseEditionSt": "Модерна комуникација позади вашиот заштитен ѕид."
+  "about.enterpriseEditionSt": "Модерна комуникација позади вашиот заштитен ѕид.",
+  "apps.error.form.submit.pretext": "Имаше грешка при поднесувањето на модалот. Контактирајте го развивачот на апликацијата. Детали: {details}",
+  "apps.error.form.refresh_no_refresh": "Се повика refresh на поле што нема refresh.",
+  "apps.error.form.no_submit": "`submit` не е дефиниран",
+  "apps.error.form.no_source": "`source` не е дефиниран.",
+  "apps.error.form.no_lookup": "`lookup` не е дефинирана.",
+  "apps.error.form.no_form": "`form` не е дефинирана.",
+  "apps.error.command.unknown_user": "Непознат корисник за поле `{fieldName}`: `{option}`."
 }
