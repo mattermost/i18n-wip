@@ -20,6 +20,12 @@
   "apps.error.command.same_user": "Корисник повторен за поле `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_channel": "Непознат канал за поле `{fieldName}`: `{option}`.",
   "apps.error.command.unknown_option": "Непозната опција за поле `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_user": "Непознат корисник за поле `{fieldName}`: `{option}`.",
+  "apps.error.form.no_form": "`form` не е дефинирана.",
+  "apps.error.form.no_lookup": "`lookup` не е дефинирана.",
+  "apps.error.form.no_source": "`source` не е дефиниран.",
+  "apps.error.form.refresh_no_refresh": "Се повика refresh на поле што нема refresh.",
+  "apps.error.form.submit.pretext": "Имаше грешка при поднесувањето на модалот. Контактирајте го развивачот на апликацијата. Детали: {details}",
   "apps.error.parser": "Грешка при парсирање: {error}",
   "apps.error.parser.empty_value": "празни вредности не се дозволени"
 }
