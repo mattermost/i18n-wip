@@ -4973,10 +4973,6 @@
     "translation": "कार्यक्षेत्र में साइन इन करें"
   },
   {
-    "id": "api.templates.cloud_trial_ended_email.start_subscription",
-    "translation": "सदस्यता शुरू करें"
-  },
-  {
     "id": "api.team.update_team_scheme.scheme_scope.error",
     "translation": "योजना को टीम में सेट करने में असमर्थ क्योंकि आपूर्ति की गई योजना टीम योजना नहीं है।"
   },

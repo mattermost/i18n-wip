@@ -3387,10 +3387,6 @@
     "translation": "Προσθέστε εφαρμογές στον χώρο εργασίας σας"
   },
   {
-    "id": "api.templates.cloud_trial_ending_email.add_payment_method",
-    "translation": "Προσθήκη τρόπου πληρωμής"
-  },
-  {
     "id": "api.templates.cloud_trial_ended_email.start_subscription",
     "translation": "Έναρξη συνδρομής"
   },
