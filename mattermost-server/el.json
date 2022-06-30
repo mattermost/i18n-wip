@@ -3387,32 +3387,16 @@
     "translation": "Προσθέστε εφαρμογές στον χώρο εργασίας σας"
   },
   {
-    "id": "api.templates.cloud_trial_ending_email.title",
-    "translation": "Η δωρεάν δοκιμή 14 ημερών του Mattermost λήγει σύντομα"
-  },
-  {
     "id": "api.templates.cloud_trial_ending_email.subtitle",
     "translation": "{{.Name}}, η δοκιμαστική περίοδος 14 ημερών του Mattermost Cloud Professional λήγει σε 3 ημέρες, στις {{.TrialEnd}}. Προσθέστε τα στοιχεία πληρωμής σας για να διασφαλίσετε ότι η ομάδα σας θα συνεχίσει να απολαμβάνει τα οφέλη του Cloud Professional."
-  },
-  {
-    "id": "api.templates.cloud_trial_ending_email.subject",
-    "translation": "Η δοκιμαστική έκδοση για το Mattermost cloud τελειώνει"
   },
   {
     "id": "api.templates.cloud_trial_ending_email.add_payment_method",
     "translation": "Προσθήκη τρόπου πληρωμής"
   },
   {
-    "id": "api.templates.cloud_trial_ended_email.title",
-    "translation": "Η δωρεάν δοκιμαστική έκδοση 14 ημερών του Mattermost έχει λήξει σήμερα"
-  },
-  {
     "id": "api.templates.cloud_trial_ended_email.subtitle",
     "translation": "{{.Name}}, η δωρεάν δοκιμαστική έκδοση 14 ημερών του Mattermost Cloud Professional έληξε σήμερα, {{.TodayDate}}. Προσθέστε τα στοιχεία πληρωμής σας για να διασφαλίσετε ότι η ομάδα σας θα συνεχίσει να απολαμβάνει τα οφέλη του Cloud Professional."
-  },
-  {
-    "id": "api.templates.cloud_trial_ended_email.subject",
-    "translation": "Η δοκιμαστική άδεια χρήσης του Mattermost cloud έχει λήξει"
   },
   {
     "id": "api.templates.cloud_trial_ended_email.start_subscription",

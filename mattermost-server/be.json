@@ -1,9 +1,5 @@
 [
   {
-    "id": "api.templates.cloud_trial_ended_email.start_subscription",
-    "translation": "Пачаць падпіску"
-  },
-  {
     "id": "api.slackimport.slack_add_users.created",
     "translation": "\nКарыстальнiкi створаны:\n"
   },
@@ -910,10 +906,6 @@
   {
     "id": "api.templates.cloud_welcome_email.info",
     "translation": "Дзякуй за стварэнне "
-  },
-  {
-    "id": "api.templates.cloud_trial_ending_email.add_payment_method",
-    "translation": "Дадаць метад аплаты"
   },
   {
     "id": "api.team.import_team.unknown_import_from.app_error",
@@ -8224,24 +8216,12 @@
     "translation": "Дадаць прыкладання ў вашу працоўную прастору"
   },
   {
-    "id": "api.templates.cloud_trial_ending_email.title",
-    "translation": "Ваша бясплатная 14-дзённая пробная падпіска на Mattermost хутка скончыцца"
-  },
-  {
     "id": "api.templates.cloud_trial_ending_email.subtitle",
     "translation": "{{.Name}}, Ваша 14-дзённая пробная версія Mattermost заканчваецца праз 3 дні {{.TrialEnd}}. Калі ласка, дадайце сваю аплатную інфармацыю, каб Ваша каманда магла працягваць карыстацца перавагамі Mattermost Cloud."
   },
   {
-    "id": "api.templates.cloud_trial_ending_email.subject",
-    "translation": "Завяршэнне выпрабавальнай падпіскі на Mattermost cloud"
-  },
-  {
     "id": "api.templates.cloud_trial_ended_email.title",
     "translation": "Ваша бясплатная 14-дзённая пробная версія Mattermost скончылася сёння"
-  },
-  {
-    "id": "api.templates.cloud_trial_ended_email.subtitle",
-    "translation": "{{.Name}}, ваша 14-дзённая бясплатная пробная версія Mattermost Cloud Enterprise скончылася сёння, {{.TodayDate}}. Дадайце аплатную інфармацыю, каб ваша каманда магла працягваць карыстацца перавагамі Cloud Enterprise. Калі вы не дадасце сваю аплатную інфармацыю на працягу 30 дзён, мы назаўжды выдалім вашу працоўную вобласць у воблаку, і вы страціце ўсе звязаныя з ёй дадзеныя."
   },
   {
     "id": "api.templates.cloud_trial_ended_email.subject",
