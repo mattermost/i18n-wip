@@ -8216,16 +8216,8 @@
     "translation": "Дадаць прыкладання ў вашу працоўную прастору"
   },
   {
-    "id": "api.templates.cloud_trial_ending_email.subtitle",
-    "translation": "{{.Name}}, Ваша 14-дзённая пробная версія Mattermost заканчваецца праз 3 дні {{.TrialEnd}}. Калі ласка, дадайце сваю аплатную інфармацыю, каб Ваша каманда магла працягваць карыстацца перавагамі Mattermost Cloud."
-  },
-  {
     "id": "api.templates.cloud_trial_ended_email.title",
     "translation": "Ваша бясплатная 14-дзённая пробная версія Mattermost скончылася сёння"
-  },
-  {
-    "id": "api.templates.cloud_trial_ended_email.subject",
-    "translation": "Завяршэнне выпрабавальнай падпіскі на Mattermost cloud"
   },
   {
     "id": "api.team.update_team_scheme.scheme_scope.error",

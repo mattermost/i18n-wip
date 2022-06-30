@@ -4062,10 +4062,6 @@
     "translation": "अपने कार्यक्षेत्र में ऐप्स जोड़ें"
   },
   {
-    "id": "api.templates.cloud_trial_ending_email.subtitle",
-    "translation": "{{.Name}}, आपका मैटरमॉस्ट का 14-दिवसीय परीक्षण {{.TrialEnd}} को 3 दिनों में समाप्त हो रहा है। यह सुनिश्चित करने के लिए कि आपकी टीम मैटरमोस्ट क्लाउड के लाभों का आनंद लेना जारी रख सके, कृपया अपनी भुगतान जानकारी जोड़ें।"
-  },
-  {
     "id": "api.user.oauth_to_email.not_available.app_error",
     "translation": "प्रमाणीकरण स्थानांतरण कॉन्फ़िगर नहीं किया गया है या इस सर्वर पर उपलब्ध नहीं है।"
   },
@@ -4975,10 +4971,6 @@
   {
     "id": "api.templates.cloud_welcome_email.signin_sub_info",
     "translation": "कार्यक्षेत्र में साइन इन करें"
-  },
-  {
-    "id": "api.templates.cloud_trial_ended_email.title",
-    "translation": "मैटरमॉस्ट का आपका नि:शुल्क 14-दिवसीय परीक्षण आज समाप्त हो गया है"
   },
   {
     "id": "api.templates.cloud_trial_ended_email.start_subscription",
