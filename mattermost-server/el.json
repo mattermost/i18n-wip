@@ -3387,10 +3387,6 @@
     "translation": "Προσθέστε εφαρμογές στον χώρο εργασίας σας"
   },
   {
-    "id": "api.templates.cloud_trial_ended_email.start_subscription",
-    "translation": "Έναρξη συνδρομής"
-  },
-  {
     "id": "api.team.update_team_member_roles.guest_and_user.app_error",
     "translation": "Μη έγκυρη ενημέρωση μέλους ομάδας: Ένας χρήστης πρέπει να είναι είτε επισκέπτης είτε χρήστης, όχι και τα δύο."
   },
