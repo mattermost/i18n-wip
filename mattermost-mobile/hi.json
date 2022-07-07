@@ -281,5 +281,19 @@
   "apps.error.parser.unexpected_state": "पहुंच से बाहर: मैच बाइंडिंग में अनपेक्षित स्थिति: `{state}`।",
   "apps.error.parser.unexpected_flag": "कमांड फ्लैग `{flagName}` को स्वीकार नहीं करता है।",
   "apps.error.parser.missing_binding": "अनुपलब्ध कमांड बाइंडिंग।",
-  "custom_status.expiry_dropdown.dont_clear": "साफ़ मत करें"
+  "custom_status.expiry_dropdown.dont_clear": "साफ़ मत करें",
+  "apps.error.parser.unexpected_squared_bracket": "अनपेक्षित सूची खोलने।",
+  "apps.error.parser.unexpected_comma": "अनपेक्षित अल्पविराम।",
+  "apps.error.parser.unexpected_character": "अनपेक्षित वर्ण।",
+  "apps.error.parser.no_form": "कोई प्रपत्र नहीं मिला।",
+  "apps.error.parser.missing_submit": "बाइंडिंग या फॉर्म में कोई सबमिट कॉल नहीं।",
+  "apps.error.parser.missing_source": "फॉर्म में न तो सबमिट किया गया है और न ही स्रोत।",
+  "apps.error.parser.missing_list_end": "अपेक्षित सूची समापन टोकन।",
+  "apps.error.malformed_binding": "यह बंधन ठीक से नहीं बनता है। अनुप्रयोग डेवलपर से संपर्क करें।",
+  "apps.error.form.no_submit": "'submit' को परिभाषित नहीं किया गया है",
+  "apps.error.form.no_source": "`source` परिभाषित नहीं है।",
+  "apps.error.form.no_lookup": "`lookup` परिभाषित नहीं है।",
+  "apps.error.command.same_user": "फ़ील्ड के लिए उपयोगकर्ता दोहराया गया '{fieldName}' : '{option}'.",
+  "apps.error.command.same_option": "फ़ील्ड के लिए दोहराया गया विकल्प '{fieldName}': '{option}'.",
+  "apps.error.command.same_channel": "फ़ील्ड के लिए दोहराया गया चैनल '{fieldName}' : '{option}'."
 }
