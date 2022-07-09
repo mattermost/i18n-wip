@@ -27,5 +27,10 @@
   "apps.error.form.refresh_no_refresh": "Се повика refresh на поле што нема refresh.",
   "apps.error.form.submit.pretext": "Имаше грешка при поднесувањето на модалот. Контактирајте го развивачот на апликацијата. Детали: {details}",
   "apps.error.parser": "Грешка при парсирање: {error}",
-  "apps.error.parser.empty_value": "празни вредности не се дозволени"
+  "apps.error.parser.empty_value": "празни вредности не се дозволени",
+  "apps.error.parser.execute_non_leaf": "Морате да изберете подкоманда.",
+  "apps.error.parser.missing_field_value": "Недостига вредноста на полето.",
+  "apps.error.parser.multiple_equal": "Не се дозволени повеќекратни `=` знаци.",
+  "apps.error.parser.no_argument_pos_x": "Неможеше да се идентификува аргументот.",
+  "apps.error.parser.no_form": "Не се најде форма."
 }
