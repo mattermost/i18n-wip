@@ -29,5 +29,11 @@
   "apps.error.form.no_source": "`source` не е дефиниран.",
   "apps.error.form.no_lookup": "`lookup` не е дефинирана.",
   "apps.error.form.no_form": "`form` не е дефинирана.",
-  "apps.error.command.unknown_user": "Непознат корисник за поле `{fieldName}`: `{option}`."
+  "apps.error.command.unknown_user": "Непознат корисник за поле `{fieldName}`: `{option}`.",
+  "apps.error.parser.no_form": "Не се најде форма.",
+  "apps.error.parser.no_argument_pos_x": "Неможеше да се идентификува аргументот.",
+  "apps.error.parser.multiple_equal": "Не се дозволени повеќекратни `=` знаци.",
+  "apps.error.parser.missing_field_value": "Недостига вредноста на полето.",
+  "apps.error.parser.execute_non_leaf": "Морате да изберете подкоманда.",
+  "apps.error.form.refresh": "Грешка во превзимање на одбраните полиња. Контактирајте го развивачот на апликацијата. Детали: {details}"
 }
