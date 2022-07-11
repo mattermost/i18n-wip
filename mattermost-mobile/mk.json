@@ -35,5 +35,16 @@
   "apps.error.parser.multiple_equal": "Не се дозволени повеќекратни `=` знаци.",
   "apps.error.parser.missing_field_value": "Недостига вредноста на полето.",
   "apps.error.parser.execute_non_leaf": "Морате да изберете подкоманда.",
-  "apps.error.form.refresh": "Грешка во превзимање на одбраните полиња. Контактирајте го развивачот на апликацијата. Детали: {details}"
+  "apps.error.form.refresh": "Грешка во превзимање на одбраните полиња. Контактирајте го развивачот на апликацијата. Детали: {details}",
+  "apps.error.parser.unexpected_error": "Неочекувана грешка.",
+  "apps.error.parser.unexpected_comma": "Неочекувана запирка.",
+  "apps.error.parser.unexpected_character": "Неочекуван карактер.",
+  "apps.error.parser.no_slash_start": "Командата мора да започне со `/`.",
+  "apps.error.parser.no_match": "`{command}`: Не е пронајдена соодветна команда во овој работен простор.",
+  "apps.error.parser.no_bindings": "Нема командни врзувања.",
+  "apps.error.parser.missing_source": "Формата нема ни submit ни source.",
+  "apps.error.parser.missing_list_end": "Се очекуваше токен за затварање на листата.",
+  "apps.error.parser.missing_binding": "Недостигаат командните врзувања.",
+  "apps.error.malformed_binding": "Ова врзување не е правилно форматирано. Контактирајте го развивачот на апликацијата.",
+  "apps.error.lookup.error_preparing_request": "Грешка при подготовката на барањето за пребарување: {errorMessage}"
 }
