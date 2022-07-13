@@ -46,5 +46,9 @@
   "apps.error.parser.missing_list_end": "Се очекуваше токен за затварање на листата.",
   "apps.error.parser.missing_binding": "Недостигаат командните врзувања.",
   "apps.error.malformed_binding": "Ова врзување не е правилно форматирано. Контактирајте го развивачот на апликацијата.",
-  "apps.error.lookup.error_preparing_request": "Грешка при подготовката на барањето за пребарување: {errorMessage}"
+  "apps.error.lookup.error_preparing_request": "Грешка при подготовката на барањето за пребарување: {errorMessage}",
+  "apps.error.parser.unexpected_squared_bracket": "Неочекувано отварање на листа.",
+  "apps.error.parser.unexpected_flag": "Командата не го прифаќа знамето `{flagName}`.",
+  "apps.error.parser.missing_tick": "Совпаден надреден знак се очекуваше пред крајот на влезните податоци.",
+  "apps.error.parser.missing_quote": "Совпаден двоен цитат се очекуваше пред крајот на влезните податоци."
 }
