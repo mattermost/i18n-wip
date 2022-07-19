@@ -5490,5 +5490,13 @@
   {
     "id": "web.error.unsupported_browser.no_longer_support",
     "translation": "Trình duyệt này không còn được Mattermost hỗ trợ"
+  },
+  {
+    "id": "Channels",
+    "translation": "Kênh"
+  },
+  {
+    "id": "Boards",
+    "translation": "Bảng"
   }
 ]
