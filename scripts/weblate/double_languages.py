@@ -2,6 +2,8 @@ import wlc
 import apikey
 import requests
 import math
+from requests.exceptions import HTTPError
+
 
 w=wlc.Weblate(apikey.myAPIKey)
 projects={'mobile':{},'server':{},'webapp':{},'glossary':{}}
@@ -53,9 +55,16 @@ for project in projects:
     try:
       headers = {'Content-Type': 'application/json',}
       values = '{ "text": "Removing '+languageToRemove+' from '+project+'"}'
-      response = requests.post(apikey.i18nWebhook,headers=headers,data=values)
-      r=w.request('delete','https://translate.mattermost.com/api/translations/i18n-wip/'+projects[project]['wip']+'/'+languageToRemove+'/')
-    except:
-      print ('Oops https://translate.mattermost.com/api/translations/i18n-wip/'+projects[project]['wip']+'/'+languageToRemove+'/')
-    finally:
-      print('more oops')
+      responseMattermost = requests.post(apikey.i18nWebhook,headers=headers,data=values)
+      responseMattermost.raise_for_status()
+    except HTTPError as http_err:
+        print('HTTP error occurred while notifying Mattermost channel: '+http_err) 
+    except Exception as err:
+        print('Other error occurred while notifying Mattermost channel: '+err.message+' '+err.args)
+    try:
+      responseWeblate=w.request('post','https://translate.mattermost.com/api/translations/i18n-wip/'+projects[project]['wip']+'/lock/')
+      responseWeblate.raise_for_status()
+    except HTTPError as http_err:
+        print('HTTP error occurred while locking '+projects[project]['wip']+': '+http_err) 
+    except Exception as err:
+        print('Other error occurred while locking : '+ projects[project]['wip']+' '+err.message+' '+err.args)

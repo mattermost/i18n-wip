@@ -5,6 +5,8 @@ import wlc
 import apikey
 import json
 import requests
+from requests.exceptions import HTTPError
+
 
 projects={'mobile':{},'server':{},'webapp':{},'desktop':{},'glossary':{}}
 projects['mobile']='mattermost/mattermost-mobile_master'
@@ -31,8 +33,11 @@ for project in projects:
       headers = {'Content-Type': 'application/json',}
       print(values)
       response = requests.post(apikey.communityWebhook,headers=headers,data=values)
-    except:
-      print ('')
-    finally:
-      print('')
+      response.raise_for_status()
+    except HTTPError as http_err:
+        print(f'HTTP error occurred while notifying Mattermost-channel: {http_err}')
+    except Exception as err:
+        print(f'Other error occurred while notifying Mattermost-channel: {err.message} {err.args}')
+    else:
+        print('Success!')
 json.dump(current_locks,open("locks.txt",'w'))
