@@ -2609,10 +2609,6 @@
     "translation": "Δεν ήταν δυνατή η μεταφόρτωση του αρχείου που υπερβαίνει τις μέγιστες διαστάσεις: {{.Filename}}"
   },
   {
-    "id": "api.file.upload_file.incorrect_number_of_files.app_error",
-    "translation": "Δεν είναι δυνατή η μεταφόρτωση αρχείων. Καθορίστηκε εσφαλμένος αριθμός αρχείων."
-  },
-  {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Δεν είναι δυνατή η μεταφόρτωση αρχείων. Έχετε {{.NumClientIds}} client_ids για {{.NumFiles}} αρχεία."
   },

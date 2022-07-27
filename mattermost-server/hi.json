@@ -3600,10 +3600,6 @@
     "translation": "अधिकतम आयामों से ऊपर की फ़ाइल अपलोड नहीं की जा सकी: {{.Filename}}"
   },
   {
-    "id": "api.file.upload_file.incorrect_number_of_files.app_error",
-    "translation": "फ़ाइलें अपलोड करने में असमर्थ. निर्दिष्ट फाइलों की गलत संख्या।"
-  },
-  {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "फ़ाइल अपलोड करने में असमर्थ। {{.NumFiles}} फ़ाइलों के लिए {{.NumClientIds}} client_ids हैं।"
   },
