@@ -13,14 +13,14 @@ projects['server']['shipped']='mattermost-server_master'
 projects['server']['wip']='mattermost-server-wip'
 projects['webapp']['shipped']='mattermost-webapp_master'
 projects['webapp']['wip']='mattermost-webapp-wip'
-projects['glossary']['shipped']='glossary'
+=projects['glossary']['shipped']='glossary'
 projects['glossary']['wip']='glossary'
 
 for project in projects:
   shippedLanguages={}
   WIPLanguages={}
 ### GETTING THE SHIPPED LANGUAGES ###
-  print('GETTING SHIPPED LANGUAGES FOR '+project)
+  #print('GETTING SHIPPED LANGUAGES FOR '+project)
   shippedProjects=w.get('https://translate.mattermost.com/api/components/mattermost/'+projects[project]['shipped']+'/translations/')
   for shippedLanguage in shippedProjects['results']:
     if shippedLanguage['language']['code']=='en':
@@ -30,7 +30,6 @@ for project in projects:
     shippedLanguages[shippedLanguageCode]=shippedLanguageName
 
 ### GETTING THE WIP LANGUAGES ###
-  print('GETTING WIP LANGUAGES FOR '+project)
   page=1
   next='https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/translations/'
   WIPProjects=w.get(next)
@@ -47,14 +46,13 @@ for project in projects:
       WIPLanguages[WIPLanguageCode]=WIPLanguageName
 
 ### GETTING REMOVING THE WIP LANGUAGES THAT ARE ALREADY IN SHIPPED ###
-  print("*********************************")
-  print(shippedLanguages.keys());
-  print(WIPLanguages.keys());
   for languageToRemove in shippedLanguages.keys() & WIPLanguages.keys():
     print('REMOVING LANGUAGE '+languageToRemove +' FOR '+project)  
+    print(shippedLanguages.keys());
+    print(WIPLanguages.keys());
     try:
       headers = {'Content-Type': 'application/json',}
-      values = '{ "text": "Removing '+languageToRemove+' from '+project+'"}'
+      values = '{ "text": "Double '+languageToRemove+' from '+project+'"}'
       responseMattermost = requests.post(apikey.i18nWebhook,headers=headers,data=values)
       responseMattermost.raise_for_status()
     except HTTPError as http_err:
@@ -62,8 +60,7 @@ for project in projects:
     except Exception as err:
         print('Other error occurred while notifying Mattermost channel: '+err.message+' '+err.args)
     try:
-      responseWeblate=w.request('post','https://translate.mattermost.com/api/translations/i18n-wip/'+projects[project]['wip']+'/lock/')
-      responseWeblate.raise_for_status()
+        responseWeblate=w.request('post','https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/lock/',{'lock':True})
     except HTTPError as http_err:
         print('HTTP error occurred while locking '+projects[project]['wip']+': '+http_err) 
     except Exception as err:
