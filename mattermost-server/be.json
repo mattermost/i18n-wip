@@ -7328,10 +7328,6 @@
     "translation": "Памер файла перавышае максімальныя памеры і не можа быць загружаны: {{.Filename}}"
   },
   {
-    "id": "api.file.upload_file.incorrect_number_of_files.app_error",
-    "translation": "Не ўдалося загрузіць файлы. Няправільная колькасць паказаных файлаў."
-  },
-  {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Не атрымалася загрузіць файл(ы). Ёсць {{.NumClientIds}} client_id для {{.NumFiles}} файлаў."
   },

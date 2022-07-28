@@ -4056,10 +4056,6 @@
     "translation": "Tệp tin vượt quá kích thước tối đa có thể không được tải lên: {{.Filename}}"
   },
   {
-    "id": "api.file.upload_file.incorrect_number_of_files.app_error",
-    "translation": "Không thể tải các tệp tin. Số lượng tệp tin không đúng."
-  },
-  {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Không thể tải tệp tin. Có {{.NumClientIds}} client_ids cho {{.NumFiles}} tệp tin."
   },

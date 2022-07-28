@@ -3078,10 +3078,6 @@
     "translation": "No es pot penjar un fitxer que supera les dimensions màximes: {{.Filename}}"
   },
   {
-    "id": "api.file.upload_file.incorrect_number_of_files.app_error",
-    "translation": "No s'han pogut penjar els fitxers. S'ha especificat un número incorrecte de fitxers."
-  },
-  {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "No es poden penjar els fitxers. Hi ha {{.NumClientIds}} «clients_ids» per a {{.NumFiles}} fitxers."
   },

@@ -16,5 +16,8 @@
   "about.enterpriseEditionSt": "Comunicació moderna des de darrere del teu tallafoc.",
   "about.enterpriseEditionLearn": "Més informació sobre l'edició empresarial a ",
   "about.date": "Data de compilació:",
-  "mobile.share_extension.too_long_title": "El missatge és massa llarg"
+  "mobile.share_extension.too_long_title": "El missatge és massa llarg",
+  "about.title": "Sobre {appTitle}",
+  "about.teamEditiont1": "Edició per a empreses",
+  "about.enterpriseEditione1": "Edició per a empreses"
 }

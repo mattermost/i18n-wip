@@ -13,7 +13,7 @@ projects['server']['shipped']='mattermost-server_master'
 projects['server']['wip']='mattermost-server-wip'
 projects['webapp']['shipped']='mattermost-webapp_master'
 projects['webapp']['wip']='mattermost-webapp-wip'
-projects['glossary']['shipped']='glossary'
+=projects['glossary']['shipped']='glossary'
 projects['glossary']['wip']='glossary'
 
 for project in projects:
@@ -30,7 +30,6 @@ for project in projects:
     shippedLanguages[shippedLanguageCode]=shippedLanguageName
 
 ### GETTING THE WIP LANGUAGES ###
-  #print('GETTING WIP LANGUAGES FOR '+project)
   page=1
   next='https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/translations/'
   WIPProjects=w.get(next)
@@ -47,7 +46,6 @@ for project in projects:
       WIPLanguages[WIPLanguageCode]=WIPLanguageName
 
 ### GETTING REMOVING THE WIP LANGUAGES THAT ARE ALREADY IN SHIPPED ###
-  #print("*********************************")
   for languageToRemove in shippedLanguages.keys() & WIPLanguages.keys():
     print('REMOVING LANGUAGE '+languageToRemove +' FOR '+project)  
     print(shippedLanguages.keys());
