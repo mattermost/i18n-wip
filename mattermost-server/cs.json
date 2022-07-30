@@ -7334,5 +7334,13 @@
   {
     "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
     "translation": "Nepodařilo se resetovat pole AuthData na Email."
+  },
+  {
+    "id": "api.cloud.notify_admin_to_upgrade_error.already_notified",
+    "translation": "Administrátor byl již upozorněn"
+  },
+  {
+    "id": "Channels",
+    "translation": "Kanály"
   }
 ]
