@@ -6960,10 +6960,6 @@
     "translation": "Для гэтай функцыі патрабуецца абнаўленне да Enterprise Edition."
   },
   {
-    "id": "api.license.request_trial_license.no-site-url.app_error",
-    "translation": "Немагчыма запытаць пробную ліцэнзію. Калі ласка, наладзьце URL сайта ў раздзеле Сістэмная кансоль вэб-сервера Mattermost."
-  },
-  {
     "id": "api.license.request_trial_license.fail_get_user_count.app_error",
     "translation": "Не ўдалося атрымаць пробную ліцэнзію, паспрабуйце яшчэ раз ці зьвяжыцеся з support@mattermost.com. Немагчыма атрымаць колькасць зарэгістраваных карыстальнікаў."
   },

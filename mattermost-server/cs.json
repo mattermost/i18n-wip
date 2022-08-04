@@ -5412,10 +5412,6 @@
     "translation": "@{{.GroupName}} nemá členy z tohoto týmu"
   },
   {
-    "id": "api.license.request_trial_license.no-site-url.app_error",
-    "translation": "Nelze požádat o zkušební licenci. Nakonfigurujte URL stránky v nastavení webového serveru v systémové konzoli Mattermostu."
-  },
-  {
     "id": "api.license.request_trial_license.app_error",
     "translation": "Zkušební licenci nelze získat, zkuste to znovu nebo se obraťte na support@mattermost.com."
   },
