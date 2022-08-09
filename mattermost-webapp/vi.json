@@ -1165,7 +1165,6 @@
   "admin.license.renewalCard.usersNumbers": "** Người dùng đang hoạt động: ** {activeUsersNum}",
   "admin.license.title": "Phiên bản và Giấy phép",
   "admin.license.trial-request.accept-terms": "Bằng cách nhấp vào ** Bắt đầu dùng thử **, tôi đồng ý với [Thỏa thuận Đánh giá Phần mềm Mattermost] (! https://mattermost.com/software-evaluation-agosystem/ ), [Chính sách quyền riêng tư] (! https://mattermost.com/privacy-policy/) và nhận email sản phẩm.",
-  "admin.license.trial-request.loading": "Đang dùng thử",
   "admin.license.upgraded-restart": "Bạn đã nâng cấp tệp nhị phân của mình lên doanh nghiệp Mattermost, vui lòng khởi động lại máy chủ để bắt đầu sử dụng tệp nhị phân mới. Bạn có thể thực hiện ngay tại đây:",
   "admin.lockTeammateNameDisplay": "Khóa Hiển thị tên đồng đội cho tất cả người dùng: ",
   "admin.lockTeammateNameDisplayHelpText": "Khi đúng, vô hiệu hóa khả năng thay đổi cài đặt của người dùng trong Menu chính> Cài đặt tài khoản> Hiển thị> Hiển thị tên đồng đội.",

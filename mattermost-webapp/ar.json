@@ -1217,7 +1217,6 @@
   "admin.license.starterEdition.title": "بداية",
   "admin.license.title": "طبعة والترخيص",
   "admin.license.trial-request.accept-terms": "من خلال النقر ** محاكمة البدء **، أنا أوافق على [اتفاق Mattermost تقييم البرامج] (HTTPS: //mattermost.com/software-evaluation-agreement/)!، [سياسة الخصوصية] (HTTPS: //mattermost.com / الخصوصية السياسة /)، وتلقي رسائل البريد الإلكتروني المنتج.",
-  "admin.license.trial-request.loading": "الحصول على محاكمة",
   "admin.license.trial-request.title": "تمتع بتجربة إصدار Mattermost Enterprise مجانا لمدة 30 يوما القادمة. لا يتطلب أي التزام بالشراء أو بطاقة ائتمان. ",
   "admin.license.trialCard.contactSales": "مبيعات الاتصال",
   "admin.license.trialCard.description": "سيكون لديك تجربة مجانية تنتهي في ** {} {daysCount daysCount، الجمع، {يوم واحد} أخرى {أيام}} **. زيارة بوابة العملاء لشراء ترخيص الآن إلى الاستمرار في استخدام E10 و E20 ميزات بعد انتهاء المحاكمة.",

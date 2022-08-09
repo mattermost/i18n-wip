@@ -1237,7 +1237,6 @@
   "admin.license.title": "Рэдакцыя і ліцэнзія",
   "admin.license.trial-request.accept-terms": "Націснуўшы **Паспрабаваць**, я прымаю [Пагадненне аб ацэнцы праграмнага забеспячэння Mattermost](!https://mattermost.com/software-evaluation-agreement/), [Палітыку прыватнасці](!https://mattermost.com/privacy -policy/), і атрыманне паведамленняў электроннай пошты аб прадукце.",
   "admin.license.trial-request.embargoed": "Мы не змаглі апрацаваць запыт з-за абмежаванняў для краін, на якія распаўсюджваецца эмбарга.<link> Даведайцеся больш у нашай дакументацыі</link> , або звяртайцеся па адрасе legal@mattermost.com па пытаннях адносна абмежаванняў на экспарт.",
-  "admin.license.trial-request.loading": "Атрыманне пробнай версіі",
   "admin.license.trial-request.title": "Паспрабуйце Mattermost Enterprise Edition бясплатна на працягу наступных 30 дзён. Ніякіх абавязацельстваў у пакупцы або крэдытнай карце не патрабуецца. ",
   "admin.license.trialCard.contactSales": "Кантакты аддзела продажаў",
   "admin.license.trialCard.description": "Тэрмін дзеяння вашай бясплатнай пробнай версіі заканчваецца праз **{daysCount} {daysCount, plural, one {дзень} few {дня} other {дзён}}**. Наведайце наш кліенцкі партал, каб набыць ліцэнзію, каб працягнуць выкарыстанне функцый Mattermost Professional і Enterprise пасля заканчэння выпрабавальнага перыяду.",
