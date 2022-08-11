@@ -13,5 +13,8 @@
   "about.title": "Sobre {appTitle}",
   "about.teamEditionLearn": "Adere à comunidade Mattermost em ",
   "about.enterpriseEditionLearn": "Sabe mais sobre a Edição Entreprise em ",
-  "about.enterpriseEditione1": "Edição Enterprise"
+  "about.enterpriseEditione1": "Edição Enterprise",
+  "about.enterpriseEditionSt": "Comunicação moderna por trás de seu firewall.",
+  "about.teamEditiont0": "Edição Equipes",
+  "about.teamEditionSt": "Toda a comunicação da sua equipe em um só lugar, pesquisável instantaneamente e acessível em qualquer lugar."
 }
