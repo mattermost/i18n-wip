@@ -298,5 +298,21 @@
   {
     "id": "api.command_msg.name",
     "translation": "порака"
+  },
+  {
+    "id": "api.bot.teams_channels.add_message_mobile",
+    "translation": "Ве молам додадете ме на тимовите и каналите во кои што сакате да учествувам. За да го направите тоа, користете браузер или Mattermost десктоп апликацијата."
+  },
+  {
+    "id": "api.authorization_error.guest",
+    "translation": " "
+  },
+  {
+    "id": "api.admin.upload_brand_image.parse.app_error",
+    "translation": "Неможеше да се парсира повеќеделна форма."
+  },
+  {
+    "id": "Playbooks",
+    "translation": "Работни Книги"
   }
 ]
