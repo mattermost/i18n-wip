@@ -3694,10 +3694,6 @@
     "translation": "Maksimiulottuvuudet ylittävää tiedostoa ei voitu lähettää: {{.Filename}}"
   },
   {
-    "id": "api.file.upload_file.incorrect_number_of_files.app_error",
-    "translation": "Ei voida lähettää tiedostoa. Tiedostojen määrä on virheellinen."
-  },
-  {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Tiedoston lataaminen epäonnistui. {{.NumClientIds}} client_id arvoa {{.NumFiles}} tiedostolle."
   },

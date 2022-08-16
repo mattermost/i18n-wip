@@ -3510,10 +3510,6 @@
     "translation": "Slika dimenzijsko prevelika: {{.Filename}}"
   },
   {
-    "id": "api.file.upload_file.incorrect_number_of_files.app_error",
-    "translation": "Datotek ni mogoče naložiti. Nepravilno število navedenih datotek."
-  },
-  {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Datotek/e ni mogoče naložiti. Morate imeti {{.NumClientIds}} client_id za {{.NumFiles}} datotek."
   },

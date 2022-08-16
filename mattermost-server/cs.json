@@ -3940,10 +3940,6 @@
     "translation": "Soubor větší než povolený rozměr nemohl být nahrán: {{.Filename}}"
   },
   {
-    "id": "api.file.upload_file.incorrect_number_of_files.app_error",
-    "translation": "Soubory nelze nahrát. Nesprávný počet zadaných souborů."
-  },
-  {
     "id": "api.file.upload_file.incorrect_number_of_client_ids.app_error",
     "translation": "Soubor(y) nelze nahrát. Máte {{.NumClientIds}} client_ids pro {{.NumFiles}} souborů."
   },
