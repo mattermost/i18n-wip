@@ -27,7 +27,7 @@ mention['glossary']=''
 
 w=wlc.Weblate(key=apikey.myAPIKey)
 current_locks={}
-previous_locks= json.load(open("/home/tom/scripts/mattermost/locks.txt"))
+previous_locks= json.load(open("locks.txt"))
 
 
 
@@ -50,4 +50,4 @@ for project in projects:
         print(f'Other error occurred while notifying Mattermost-channel: {err.message} {err.args}')
     else:
         print('Success!')
-json.dump(current_locks,open("/home/tom/scripts/mattermost/locks.txt",'w'))
+json.dump(current_locks,open("locks.txt",'w'))

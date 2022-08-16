@@ -60,7 +60,7 @@ for project in projects:
     except Exception as err:
         print('Other error occurred while notifying Mattermost channel: '+err.message+' '+err.args)
     try:
-        responseWeblate=w.request('post','https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/lock/',{'lock':True
+        responseWeblate=w.request('post','https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/lock/',{'lock':True})
     except HTTPError as http_err:
         print('HTTP error occurred while locking '+projects[project]['wip']+': '+http_err) 
     except Exception as err:
