@@ -2050,10 +2050,6 @@
     "translation": "Unable to get a trial license, please try again or contact with support@mattermost.com. Cannot obtain the number of registered users."
   },
   {
-    "id": "api.license.request_trial_license.no-site-url.app_error",
-    "translation": "Unable to request a trial license. Please configure a Site URL in the web server section of the Mattermost System Console."
-  },
-  {
     "id": "api.license.upgrade_needed.app_error",
     "translation": "Feature requires an upgrade to Enterprise Edition."
   },
@@ -5836,6 +5832,10 @@
     "translation": "Unable to get the flagged posts."
   },
   {
+    "id": "app.post.get_new_team_members_since.app_error",
+    "translation": " "
+  },
+  {
     "id": "app.post.get_post_after_time.app_error",
     "translation": "Unable to get post after time bound."
   },
@@ -5913,7 +5913,7 @@
   },
   {
     "id": "app.post_reminder_dm",
-    "translation": "Hi there, you asked me to remind you about {{.SiteURL}}/{{.TeamName}}/pl/{{.PostId}} by @{{.Username}}"
+    "translation": "Hi there, here's your reminder about this message from @{{.Username}}: {{.SiteURL}}/{{.TeamName}}/pl/{{.PostId}}"
   },
   {
     "id": "app.preference.delete.app_error",
@@ -6150,6 +6150,10 @@
   {
     "id": "app.team.clear_all_custom_role_assignments.select.app_error",
     "translation": "Failed to retrieve the team members."
+  },
+  {
+    "id": "app.team.clear_cache.app_error",
+    "translation": "Error clearing team member cache"
   },
   {
     "id": "app.team.get.find.app_error",

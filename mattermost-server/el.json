@@ -2689,10 +2689,6 @@
     "translation": "σφάλμα διευθέτησης"
   },
   {
-    "id": "api.license.request_trial_license.no-site-url.app_error",
-    "translation": "Δεν είναι δυνατή η αίτηση για δοκιμαστική άδεια χρήσης. Παρακαλούμε ρυθμίστε μια διεύθυνση URL ιστότοπου στην ενότητα διακομιστή ιστού της κονσόλας συστήματος του Mattermost."
-  },
-  {
     "id": "api.license.request_trial_license.fail_get_user_count.app_error",
     "translation": "Δεν είναι δυνατή η λήψη μιας δοκιμαστικής άδειας, δοκιμάστε ξανά ή επικοινωνήστε με το support@mattermost.com. Δεν είναι δυνατή η απόκτηση του αριθμού των εγγεγραμμένων χρηστών."
   },
