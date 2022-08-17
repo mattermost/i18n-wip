@@ -29,7 +29,7 @@ for project in projects:
     shippedLanguageName=shippedLanguage['language']['name']
     shippedLanguages[shippedLanguageCode]=shippedLanguageName
 
-### GETTING THE WIP LANGUAGES ###
+  #print('GETTING WIP LANGUAGES FOR '+project)
   page=1
   next='https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/translations/'
   WIPProjects=w.get(next)
