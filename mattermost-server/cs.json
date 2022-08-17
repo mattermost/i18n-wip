@@ -6576,10 +6576,6 @@
     "translation": "chyba při vložení"
   },
   {
-    "id": "app.import.marshal.app_error",
-    "translation": "Nepodařilo se sestavit odpověď."
-  },
-  {
     "id": "app.group.uniqueness_error",
     "translation": "člen skupiny již existuje"
   },

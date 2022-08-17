@@ -4320,10 +4320,6 @@
     "translation": "Немагчыма прачытаць версію імпартнага файла дадзеных."
   },
   {
-    "id": "app.import.marshal.app_error",
-    "translation": "Немагчыма арганізаваць адказ."
-  },
-  {
     "id": "app.import.import_user_teams.save_preferences.error",
     "translation": "Не атрымалася захаваць настройкі тэмы каманды"
   },
