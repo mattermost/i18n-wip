@@ -21,6 +21,7 @@ mention={}
 mention['mobile']='cc: @guillermo.vaya,@zef.hemel'
 mention['server']='cc: @guillermo.vaya,@zef.hemel'
 mention['webapp']='cc: @guillermo.vaya,@zef.hemel'
+mention['desktop']='cc: @devin.binnie'
 mention['focalboard']='cc: @jesus.espino,@scott.bishel'
 mention['playbooks']='cc: @jesse.hallam,@caleb.roseland'
 mention['glossary']=''
