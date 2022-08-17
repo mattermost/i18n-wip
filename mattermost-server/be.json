@@ -1524,10 +1524,6 @@
     "translation": "Недапушчальныя ролі ўдзельнікаў канала даўжэй {{.Limit}} сімвалаў."
   },
   {
-    "id": "app.import.bulk_import.process_attachments.error",
-    "translation": "Памылка пры апрацоўцы ўкладанняў згрупаванага імпарту."
-  },
-  {
     "id": "app.notification.body.thread_gm.subTitle",
     "translation": "Пакуль Вас не было, {{.SenderName}} адказаў на абмеркаванне ў Вашай групе."
   },

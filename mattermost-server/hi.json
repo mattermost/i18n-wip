@@ -5481,10 +5481,6 @@
     "translation": "डेटा आयात फ़ाइल में गलत या अनुपलब्ध संस्करण। सुनिश्चित करें कि संस्करण आपकी आयात फ़ाइल में पहला ऑब्जेक्ट है और पुनः प्रयास करें।"
   },
   {
-    "id": "app.import.bulk_import.process_attachments.error",
-    "translation": "बल्क आयात अनुलग्नकों को संसाधित करते समय त्रुटि।"
-  },
-  {
     "id": "app.import.bulk_import.file_scan.error",
     "translation": "आयात डेटा फ़ाइल पढ़ने में त्रुटि।"
   },
