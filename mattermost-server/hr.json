@@ -109,7 +109,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Testiranje mail postavki"
+    "translation": "Mattermost – Testiranje postavki e-pošte"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -121,7 +121,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Čini se da je tvoja Mattermost e-mail adresa pravilno postavljena!"
+    "translation": "Čini se da je tvoja Mattermost e-pošta pravilno postavljena!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -289,7 +289,7 @@
   },
   {
     "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
-    "translation": "Neuspjelo resetiranje podataka autentifikacije u e-mail."
+    "translation": "Neuspjelo resetiranje polja podataka autentifikacije za e-poštu."
   },
   {
     "id": "app.import.validate_user_import_data.auth_data_and_password.error",
@@ -326,5 +326,153 @@
   {
     "id": "api.bot.create_disabled",
     "translation": "Stvaranje bota je deaktivirano."
+  },
+  {
+    "id": "api.command_msg.name",
+    "translation": "poruka"
+  },
+  {
+    "id": "api.command_leave.name",
+    "translation": "napusti"
+  },
+  {
+    "id": "api.command_kick.name",
+    "translation": "izbaci"
+  },
+  {
+    "id": "api.command_join.name",
+    "translation": "pridruži se"
+  },
+  {
+    "id": "api.command_invite.name",
+    "translation": "pozovi"
+  },
+  {
+    "id": "api.command_help.name",
+    "translation": "pomoć"
+  },
+  {
+    "id": "api.command_groupmsg.name",
+    "translation": "poruka"
+  },
+  {
+    "id": "api.command_expand.name",
+    "translation": "rasklopi"
+  },
+  {
+    "id": "api.command_code.name",
+    "translation": "kȏd"
+  },
+  {
+    "id": "api.command_dnd.name",
+    "translation": "ne smetaj"
+  },
+  {
+    "id": "api.command_dnd.desc",
+    "translation": "„Ne smetaj” deaktivira automatsko slanje obavijesti na radnu površinu i mobilni uređaj."
+  },
+  {
+    "id": "api.command_custom_status.name",
+    "translation": "stanje"
+  },
+  {
+    "id": "api.command_code.hint",
+    "translation": "[tekst]"
+  },
+  {
+    "id": "api.command_custom_status.hint",
+    "translation": "[:emoji_name:] [status_message] ili izbriši"
+  },
+  {
+    "id": "api.command_custom_status.desc",
+    "translation": "Postavi ili izbriši tvoje stanje"
+  },
+  {
+    "id": "api.command_collapse.success",
+    "translation": "Poveznice na slike se sada standardno sklapaju"
+  },
+  {
+    "id": "api.command_collapse.name",
+    "translation": "sklopi"
+  },
+  {
+    "id": "api.command_channel_rename.message.app_error",
+    "translation": "Mora se zadati poruka s naredbom /preimenuj."
+  },
+  {
+    "id": "api.command_channel_rename.name",
+    "translation": "preimenuj"
+  },
+  {
+    "id": "api.command_channel_rename.hint",
+    "translation": "[tekst]"
+  },
+  {
+    "id": "api.command_channel_rename.direct_group.app_error",
+    "translation": "Nije moguće preimenovati kanale izravnih poruka."
+  },
+  {
+    "id": "api.command_channel_rename.desc",
+    "translation": "Preimenuj kanal"
+  },
+  {
+    "id": "api.command_channel_purpose.name",
+    "translation": "svrha"
+  },
+  {
+    "id": "api.command_channel_purpose.hint",
+    "translation": "[tekst]"
+  },
+  {
+    "id": "api.command_channel_header.name",
+    "translation": "zaglavlje"
+  },
+  {
+    "id": "api.command_channel_header.message.app_error",
+    "translation": "Tekst se mora navesti s naredbom /header."
+  },
+  {
+    "id": "api.command_channel_header.hint",
+    "translation": "[tekst]"
+  },
+  {
+    "id": "api.command_channel_header.desc",
+    "translation": "Uredi zaglavlje kanala"
+  },
+  {
+    "id": "api.command_away.success",
+    "translation": "Sada si odsutan/na"
+  },
+  {
+    "id": "api.command_away.name",
+    "translation": "odsutan"
+  },
+  {
+    "id": "api.command.invite_people.invite_off",
+    "translation": "Stvaranje korisnika je deaktivirano na ovom poslužitelju, nijedna pozivnica nije poslana"
+  },
+  {
+    "id": "api.command.invite_people.hint",
+    "translation": "[ime@domena.hr …]"
+  },
+  {
+    "id": "api.command.invite_people.fail",
+    "translation": "Dogodila se greška tijekom slanja e-mail pozivnica"
+  },
+  {
+    "id": "api.command.invite_people.email_off",
+    "translation": "E-pošta nije konfigurirna, nijedna pozivnica nije poslana"
+  },
+  {
+    "id": "api.command.invite_people.sent",
+    "translation": "E-mail pozivnice su poslane"
+  },
+  {
+    "id": "api.command.invite_people.email_invitations_off",
+    "translation": "E-mail pozivnice su deaktivirane, nijedna pozivnica nije poslana"
+  },
+  {
+    "id": "api.command.invite_people.desc",
+    "translation": "Pošalji e-mail pozivnicu tvom Mattermost timu"
   }
 ]
