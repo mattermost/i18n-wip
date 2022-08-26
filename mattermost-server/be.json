@@ -1052,10 +1052,6 @@
     "translation": "Несапраўдны ідэнтыфікатар дзеяння."
   },
   {
-    "id": "app.group.get_by_username_failure",
-    "translation": " "
-  },
-  {
     "id": "app.admin.latest_version_set_cache.failure",
     "translation": " "
   },
