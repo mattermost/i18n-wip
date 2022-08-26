@@ -1052,23 +1052,11 @@
     "translation": "Несапраўдны ідэнтыфікатар дзеяння."
   },
   {
-    "id": "app.user.get_by_name_failure",
-    "translation": " "
-  },
-  {
     "id": "app.group.get_by_username_failure",
     "translation": " "
   },
   {
-    "id": "model.github_release_info.is_valid.id.app_error",
-    "translation": " "
-  },
-  {
     "id": "app.admin.latest_version_set_cache.failure",
-    "translation": " "
-  },
-  {
-    "id": "app.admin.latest_version_external_error.failure",
     "translation": " "
   },
   {
