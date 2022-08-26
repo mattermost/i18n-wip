@@ -1052,10 +1052,6 @@
     "translation": "Несапраўдны ідэнтыфікатар дзеяння."
   },
   {
-    "id": "app.admin.latest_version_set_cache.failure",
-    "translation": " "
-  },
-  {
     "id": "model.user.is_valid.last_name.app_error",
     "translation": "Няправільная прозвішча."
   },
