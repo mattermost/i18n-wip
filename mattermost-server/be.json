@@ -1052,15 +1052,7 @@
     "translation": "Несапраўдны ідэнтыфікатар дзеяння."
   },
   {
-    "id": "app.user.group_name_conflict",
-    "translation": " "
-  },
-  {
     "id": "app.user.get_by_name_failure",
-    "translation": " "
-  },
-  {
-    "id": "app.group.username_conflict",
     "translation": " "
   },
   {
@@ -1068,23 +1060,11 @@
     "translation": " "
   },
   {
-    "id": "api.users.invalid_emails.enable_open_server.app_error",
-    "translation": " "
-  },
-  {
     "id": "model.github_release_info.is_valid.id.app_error",
     "translation": " "
   },
   {
-    "id": "app.admin.latest_version_unmarshal.failure",
-    "translation": " "
-  },
-  {
     "id": "app.admin.latest_version_set_cache.failure",
-    "translation": " "
-  },
-  {
-    "id": "app.admin.latest_version_read_all.failure",
     "translation": " "
   },
   {
