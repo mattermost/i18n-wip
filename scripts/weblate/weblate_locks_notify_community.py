@@ -37,9 +37,9 @@ for project in projects:
   current_locks[projects[project]]=current_lock['locked']
   if (previous_locks[projects[project]]!=current_lock['locked']):
     print("LOCKED/UNLOCKED")
-    values = '{ "text": "# Shipped Languages '+projects[project]+' is unlocked now in Weblate '+mention[project]+' "}'
+    values = '{ "text": "#### Shipped Languages '+projects[project]+' is unlocked now in Weblate '+mention[project]+' "}'
     if current_lock['locked']==True:
-      values = '{ "text": "# Shipped Languages '+projects[project]+' is locked now in Weblate '+mention[project]+' "}'
+      values = '{ "text": "##### Shipped Languages '+projects[project]+' is locked now in Weblate '+mention[project]+' "}'
     try:
       headers = {'Content-Type': 'application/json',}
       print(values)
