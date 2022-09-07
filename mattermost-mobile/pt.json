@@ -16,5 +16,7 @@
   "about.enterpriseEditione1": "Edição Enterprise",
   "about.enterpriseEditionSt": "Comunicação moderna por trás de seu firewall.",
   "about.teamEditiont0": "Edição Equipes",
-  "about.teamEditionSt": "Toda a comunicação da sua equipe em um só lugar, pesquisável instantaneamente e acessível em qualquer lugar."
+  "about.teamEditionSt": "Toda a comunicação da sua equipe em um só lugar, pesquisável instantaneamente e acessível em qualquer lugar.",
+  "apps.error.command.same_user": "Utilizador repetido no campo `{fieldName}`: `{option}`.",
+  "apps.error.command.same_option": "Opção repetida no campo `{fieldName}`: `{option}`."
 }
