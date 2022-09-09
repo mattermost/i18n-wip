@@ -6636,10 +6636,6 @@
     "translation": "Vaše bankovní instituce zamítla platbu přes {{.CardBrand}} ****{{.LastFour}} připojené k Vašemu Mattermost Cloud workspace."
   },
   {
-    "id": "api.templates.over_limit_fix_now",
-    "translation": "Vyřešit nyní"
-  },
-  {
     "id": "api.templates.email_us_anytime_at",
     "translation": "Napište nám kdykoliv na "
   },

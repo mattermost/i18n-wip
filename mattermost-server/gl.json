@@ -260,10 +260,6 @@
     "translation": "Pagar agora"
   },
   {
-    "id": "api.templates.over_limit_fix_now",
-    "translation": "Arranxalo agora"
-  },
-  {
     "id": "api.templates.email_us_anytime_at",
     "translation": "Envíenos un correo-e en calquera momento a "
   },
