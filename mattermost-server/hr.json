@@ -474,5 +474,153 @@
   {
     "id": "api.command.invite_people.desc",
     "translation": "Pošalji e-mail pozivnicu tvom Mattermost timu"
+  },
+  {
+    "id": "api.channel.remove_member.removed",
+    "translation": "%v je uklonjen/a iz kanala."
+  },
+  {
+    "id": "api.channel.remove_channel_member.type.app_error",
+    "translation": "Nije moguće ukloniti korisnika iz kanala."
+  },
+  {
+    "id": "api.channel.remove.default.app_error",
+    "translation": "Nije moguće ukloniti korisnika iz standardnog kanala {{.Channel}}."
+  },
+  {
+    "id": "api.channel.post_user_add_remove_message_and_forget.error",
+    "translation": "Neuspjelo objavljivanje poruke o pridruživanju/napuštanju"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
+    "translation": "%s je aktualizirao/la zaglavlje kanala u: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
+    "translation": "%s je aktualizirao/la zaglavlje kanala iz: %s u: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.removed",
+    "translation": "%s je uklonio/la zaglavlje kanala (bilo je: %s)"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
+    "translation": "Neuspjela objava poruke o aktualiziranju zaglavlja kanala"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
+    "translation": "%s je aktualizirao/la ime kanala iz: %s u: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
+    "translation": "Neuspjela objava poruke o aktualiziranju prikaznog imena"
+  },
+  {
+    "id": "api.channel.post_channel_privacy_message.error",
+    "translation": "Neuspjela objava poruke o aktualiziranju privatnog kanala."
+  },
+  {
+    "id": "api.channel.patch_update_channel.forbidden.app_error",
+    "translation": "Neuspjelo aktualiziranje kanala."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.license.error",
+    "translation": "Tvoja licenca ne podržava moderiranje kanala"
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "Nije moguće premjestiti izravne ili grupne kanale poruka"
+  },
+  {
+    "id": "api.channel.leave.left",
+    "translation": "%v je napustio/la kanal."
+  },
+  {
+    "id": "api.channel.leave.last_member.app_error",
+    "translation": "Ti si jedini preostali član. Pokušaj ukloniti privatni kanal umjesto da ga napustiš."
+  },
+  {
+    "id": "api.channel.leave.direct.app_error",
+    "translation": "Nije moguće napustiti kanal izravne poruke."
+  },
+  {
+    "id": "api.channel.leave.default.app_error",
+    "translation": "Nije moguće napustiti standardni kanal {{.Channel}}."
+  },
+  {
+    "id": "api.channel.join_channel.post_and_forget",
+    "translation": "%v se pridružio/la kanalu."
+  },
+  {
+    "id": "api.channel.join_channel.permissions.app_error",
+    "translation": "Nemaš odgovarajuće dozvole."
+  },
+  {
+    "id": "api.channel.guest_join_channel.post_and_forget",
+    "translation": "%v se pridružio/la kanalu kao gost."
+  },
+  {
+    "id": "api.channel.get_channel_moderations.license.error",
+    "translation": "Tvoja licenca ne podržava moderiranje kanala"
+  },
+  {
+    "id": "api.channel.delete_channel.type.invalid",
+    "translation": "Nije moguće izbrisati kanale izravne ili grupne poruke"
+  },
+  {
+    "id": "api.channel.delete_channel.deleted.app_error",
+    "translation": "Kanal je arhiviran ili izbrisan."
+  },
+  {
+    "id": "api.channel.delete_channel.cannot.app_error",
+    "translation": "Nije moguće izbrisati standardni kanal {{.Channel}}."
+  },
+  {
+    "id": "api.channel.delete_channel.archived",
+    "translation": "%v je arhivirao/la kanal."
+  },
+  {
+    "id": "api.channel.create_group.bad_user.app_error",
+    "translation": "Jedan od navedenih korisnika ne postoji."
+  },
+  {
+    "id": "api.channel.create_group.bad_size.app_error",
+    "translation": "Kanali grupnih poruka moraju sadržavati najmanje 3 i ne više od 8 korisnika."
+  },
+  {
+    "id": "api.channel.create_direct_channel.invalid_user.app_error",
+    "translation": "Neispravan korisnički ID za izravnu izradu kanala."
+  },
+  {
+    "id": "api.channel.create_channel.max_channel_limit.app_error",
+    "translation": "Nije moguće stvoriti više od {{.MaxChannelsPerTeam}} kanala za trenutačni tim."
+  },
+  {
+    "id": "api.channel.channel_member_counts_by_group.license.error",
+    "translation": "Tvoja licenca ne podržava grupe"
+  },
+  {
+    "id": "api.channel.change_channel_privacy.public_to_private",
+    "translation": "Ovaj kanal je pretvoren u privatni kanal."
+  },
+  {
+    "id": "api.channel.change_channel_privacy.private_to_public",
+    "translation": "Ovaj je kanal pretvoren u javni kanal i može mu se pridružiti bilo koji član tima."
+  },
+  {
+    "id": "api.channel.add_user_to_channel.type.app_error",
+    "translation": "Nije moguće dodati korisnika ovoj vrsti kanala."
+  },
+  {
+    "id": "api.channel.add_user.to.channel.failed.deleted.app_error",
+    "translation": "Dodavanje korisnika na kanal nije uspjelo jer je uklonjen iz tima."
+  },
+  {
+    "id": "api.channel.add_members.user_denied",
+    "translation": "Članstvo u kanalu je odbijeno sljedećim korisnicima zbog ograničenja grupe: {{ .UserIDs }}"
+  },
+  {
+    "id": "api.bot.teams_channels.add_message_mobile",
+    "translation": "Dodaj me timovima i kanalima u kojima želiš da interagiram. Za to koristi preglednik ili aplikaciju Mattermost Desktop."
   }
 ]
