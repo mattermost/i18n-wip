@@ -2762,7 +2762,6 @@
   "create_category_modal.createCategory": "إنشاء فئة جديدة",
   "create_comment.addComment": "إضافة تعليق…",
   "create_comment.commentTitle": "تعليق",
-  "create_comment.files": "تحميل الملفات",
   "create_post.comment": "تعليق",
   "create_post.deactivated": "تقوم بعرضها قناة المحفوظة مع مستخدم المعطل ** **. لا يمكن نشر رسائل جديدة.",
   "create_post.error_message": "رسالتك طويلة جدا. شخصية العدد: {طول} / {حد}",
