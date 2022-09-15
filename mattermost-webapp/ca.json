@@ -47,7 +47,6 @@
   "accessibility.sections.lhsNavigator": "regió de navegació del canal",
   "accessibility.sections.rhs": "regió complementaria de {regionTitle}",
   "accessibility.sections.rhsContent": "regió complementaria dels detalls de missatge",
-  "accessibility.sections.rhsFooter": "regió de redactat de resposta",
   "accessibility.sidebar.types.mention": "menció",
   "accessibility.sidebar.types.mentions": "mencions",
   "accessibility.sidebar.types.private": "canal privat",

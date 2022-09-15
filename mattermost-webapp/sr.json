@@ -307,7 +307,6 @@
   "channel_notifications.allActivity": "За све активности",
   "channel_notifications.levels.none": "Ништа",
   "create_comment.addComment": "Додај коментар...",
-  "create_comment.file": "Отпремање датотеке",
   "create_comment.files": "Отпремање датотека",
   "delete_post.question": "Да ли сте сигурни да желите да обришете ставку {term}?",
   "edit_channel_header.editHeader": "Уреди заглавље канала...",
