@@ -5082,5 +5082,141 @@
   {
     "id": "web.error.unsupported_browser.system_browser_or",
     "translation": "tai"
+  },
+  {
+    "id": "api.cloud.request_error",
+    "translation": "Virhe CWS-pyynnön käsittelyssä."
+  },
+  {
+    "id": "api.cloud.notify_admin_to_upgrade_error.already_notified",
+    "translation": "Ylläpidolle on jo ilmoitettu"
+  },
+  {
+    "id": "api.cloud.cws_webhook_event_missing_error",
+    "translation": "Webhook tapahtumaa ei käsitelty. Se puuttuu tai on virheellinen."
+  },
+  {
+    "id": "api.cloud.app_error",
+    "translation": "Sisäinen virhe pilvirajapintapyynnön aikana."
+  },
+  {
+    "id": "api.channel.update_team_member_roles.changing_guest_role.app_error",
+    "translation": "Epäkelpo tiimijäsenyyden muuto: Vierasroolia ei voi lisätä tai poistaa manuaalisesti."
+  },
+  {
+    "id": "api.channel.update_channel_privacy.default_channel_error",
+    "translation": "Oletuskanavaa ei voi asettaa yksityiseksi."
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.guest_and_user.app_error",
+    "translation": "Epäkelpo kanavajäsenyyden muutos: Käyttäjän rooli voi olla vieras tai käyttäjä, mutta ei molemmat."
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.changing_guest_role.app_error",
+    "translation": "Epäkelpo kanavajäsenyyden muutos: Vierasroolia ei voi lisätä tai poistaa manuaalisesti."
+  },
+  {
+    "id": "api.channel.update_channel.typechange.app_error",
+    "translation": "Tätä kanavatyyppiä ei voida päivittää."
+  },
+  {
+    "id": "api.channel.restore_channel.unarchived",
+    "translation": "{{.Username}} poisti kanavan arkistoinnin."
+  },
+  {
+    "id": "api.channel.restore_channel.restored.app_error",
+    "translation": "Kanavaa ei voida arkistoida. Kanavaa ei ole arkistoitu."
+  },
+  {
+    "id": "api.channel.remove_members.denied",
+    "translation": "Ryhmähallinta estää kanavajäsenyyden poistamisen käyttäjiltä: {{ .UserIDs }}"
+  },
+  {
+    "id": "api.channel.remove_member.group_constrained.app_error",
+    "translation": "Käyttäjän poistaminen ryhmähallitusta kanavasta ei ole mahdollista."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "Virhe välimuistin tyhjentämisessä"
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "Suoria ja ryhmäviestikanavia ei voi siirtää"
+  },
+  {
+    "id": "api.channel.guest_join_channel.post_and_forget",
+    "translation": "%v liittyi kanavalle vieraana."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "Suoraa kanavaa näiden käyttäjien välille ei voida luoda, koska heillä ei ole yhteistä tiimiä."
+  },
+  {
+    "id": "api.channel.add_members.user_denied",
+    "translation": "Kanavalle liittyminen on ryhmän rajoitusten vuoksi estetty näiltä käyttäjiltä: {{ .UserIDs }}"
+  },
+  {
+    "id": "api.bot.teams_channels.add_message_mobile",
+    "translation": "Lisää minut niihin tiimeihin ja kanaviin joissa haluat minun toimivan. Voit käyttää selainta tai Mattermostin työpöytäsovellusta."
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "Takaisin sivustoon {{.SiteName}}"
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+    "translation": "Puuttuva sisältötyyppi."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "Epäkelpo sisältötyyppi."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+    "translation": "Epäkelpo sertifikaattiteksti."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_ssoservices.app_error",
+    "translation": "XML:stä puuttuu Identity Providerin SSO Services -osio."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_keydescriptor.app_error",
+    "translation": "XML:stä puuttuu Identity Providerin SSO Descriptor -osiot."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
+    "translation": "XML:stä puuttuu Identity Providerin SSO Descriptor -osio."
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "AuthData kentän asettaminen Sähköpostiksi epäonnistui."
+  },
+  {
+    "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
+    "translation": "Identity Providerilta toimitettujen metatietojen tulkinnassa sertifikaatiksi ilmeni virhe."
+  },
+  {
+    "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
+    "translation": "Metatietojen saanti Indentity Provider URL:stä epäonnistui."
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "LDAP ei ole käytettävissä."
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Virhe multiform pyynnön tulkinnassa"
+  },
+  {
+    "id": "Playbooks",
+    "translation": "Pelikirjat"
+  },
+  {
+    "id": "Channels",
+    "translation": "Kanavat"
+  },
+  {
+    "id": "Boards",
+    "translation": "Taulut"
   }
 ]
