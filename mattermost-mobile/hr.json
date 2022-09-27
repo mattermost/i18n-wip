@@ -50,7 +50,7 @@
   "user.settings.push_notification.away": "Odstutan ili offline",
   "user.settings.notifications.onlyMentions": "Samo za spominjanja i izravne poruke",
   "user.settings.notifications.never": "Nikada",
-  "user.settings.notifications.emailInfo": "E-mail obavijesti se šalju za spominjanje i izravne poruke kad nemaš internetsku vezu ili kad si odsutan/na više od 5 minuta.",
+  "user.settings.notifications.emailInfo": "E-mail obavijesti se šalju za spominjanja i izravne poruke kad nemaš internetsku vezu ili kad si odsutan/na više od 5 minuta.",
   "user.settings.notifications.email.send": "Pošalji e-mail obavijesti",
   "user.settings.notifications.email.never": "Nikada",
   "user.settings.notifications.email.immediately": "Trenutačno",
@@ -141,5 +141,6 @@
   "terms_of_service.api_error": "Nije moguće izvršiti zahtjev. Ako ovaj problem ne nestane, obrati se svom administratoru sustava.",
   "terms_of_service.agreeButton": "Slažem se",
   "suggestion.search.public": "Javni kanali",
-  "suggestion.search.private": "Privatni kanali"
+  "suggestion.search.private": "Privatni kanali",
+  "center_panel.archived.closeChannel": "Zatvori ploču kanala"
 }
