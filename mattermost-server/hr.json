@@ -622,5 +622,13 @@
   {
     "id": "api.bot.teams_channels.add_message_mobile",
     "translation": "Dodaj me timovima i kanalima u kojima želiš da interagiram. Za to koristi preglednik ili aplikaciju Mattermost Desktop."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.app_error",
+    "translation": "Mora koristiti API uslugu createDirectChannel za stvaranje izravnog kanala za poruke."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "Izravni kanal se ne može stvoriti između ovih korisnika jer ne dijele zajednički tim."
   }
 ]
