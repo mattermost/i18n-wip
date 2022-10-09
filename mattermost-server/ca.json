@@ -2556,10 +2556,6 @@
     "translation": "Els canals de la invitació han de pertànyer a l'equip que convida."
   },
   {
-    "id": "api.team.invate_guests_to_channels.license.error",
-    "translation": "La teva llicència no suporta comptes de convidats"
-  },
-  {
     "id": "api.team.invate_guests_to_channels.disabled.error",
     "translation": "Els comptes de convidat estan desactivats"
   },

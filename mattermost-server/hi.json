@@ -2760,10 +2760,6 @@
     "translation": "आमंत्रण के चैनल आमंत्रण की टीम का हिस्सा होना चाहिए।"
   },
   {
-    "id": "api.team.invate_guests_to_channels.license.error",
-    "translation": "आपका लाइसेंस अतिथि अकाऊंत का समर्थन नहीं करता"
-  },
-  {
     "id": "api.team.invate_guests_to_channels.disabled.error",
     "translation": "अतिथि खाते अक्षम हैं"
   },

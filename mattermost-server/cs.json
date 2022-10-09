@@ -3104,10 +3104,6 @@
     "translation": "Kanály v pozvánce musí patřit k týmu v pozvánce."
   },
   {
-    "id": "api.team.invate_guests_to_channels.license.error",
-    "translation": "vaše licence nepodporuje účty typu Host"
-  },
-  {
     "id": "api.team.invate_guests_to_channels.disabled.error",
     "translation": "Účty typu host jsou vypnuté"
   },

@@ -3580,10 +3580,6 @@
     "translation": "Các kênh được mời vào phải là của các team gửi lời mời."
   },
   {
-    "id": "api.team.invate_guests_to_channels.license.error",
-    "translation": "Giấy phép của bạn không hỗ trợ tài khoản khách."
-  },
-  {
     "id": "api.team.invate_guests_to_channels.disabled.error",
     "translation": "Tài khoản khách đã bị vô hiệu hoá."
   },

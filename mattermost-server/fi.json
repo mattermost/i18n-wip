@@ -2664,10 +2664,6 @@
     "translation": "Sähköpostikutsut on kytketty pois."
   },
   {
-    "id": "api.team.invate_guests_to_channels.license.error",
-    "translation": "Lisenssisi ei tue vierailijatilejä"
-  },
-  {
     "id": "api.team.import_team.unavailable.app_error",
     "translation": "Virheellinen pyyntö: filesize kenttää ei löydetty."
   },
