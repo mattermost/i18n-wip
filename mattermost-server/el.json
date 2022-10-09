@@ -2119,10 +2119,6 @@
     "translation": "Δεν είναι δυνατή η ανάλυση του αιτήματος."
   },
   {
-    "id": "api.team.invate_guests_to_channels.disabled.error",
-    "translation": "Οι λογαριασμοί επισκεπτών είναι απενεργοποιημένοι"
-  },
-  {
     "id": "api.team.invalidate_all_email_invites.app_error",
     "translation": "Σφάλμα κατά την ακύρωση προσκλήσεων email."
   },

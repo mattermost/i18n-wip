@@ -2760,10 +2760,6 @@
     "translation": "आमंत्रण के चैनल आमंत्रण की टीम का हिस्सा होना चाहिए।"
   },
   {
-    "id": "api.team.invate_guests_to_channels.disabled.error",
-    "translation": "अतिथि खाते अक्षम हैं"
-  },
-  {
     "id": "api.team.invalidate_all_email_invites.app_error",
     "translation": "ईमेल आमंत्रणों को अमान्य करने में त्रुटि."
   },

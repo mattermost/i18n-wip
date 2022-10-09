@@ -3104,10 +3104,6 @@
     "translation": "Kanály v pozvánce musí patřit k týmu v pozvánce."
   },
   {
-    "id": "api.team.invate_guests_to_channels.disabled.error",
-    "translation": "Účty typu host jsou vypnuté"
-  },
-  {
     "id": "api.team.invalidate_all_email_invites.app_error",
     "translation": "Chyba při zneplatňování emailových pozvánek."
   },

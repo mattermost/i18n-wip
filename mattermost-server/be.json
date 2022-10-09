@@ -8296,10 +8296,6 @@
     "translation": "Каналы ў запрашэнні павінны быць часткай каманды ў запрашэнні."
   },
   {
-    "id": "api.team.invate_guests_to_channels.disabled.error",
-    "translation": "Гасцявыя ўліковыя запісы адключаныя"
-  },
-  {
     "id": "api.team.invalidate_all_email_invites.app_error",
     "translation": "Памылка анулявання e-mail запрашэнняў."
   },
