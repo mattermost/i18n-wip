@@ -211,6 +211,7 @@
   "add_user_to_channel_modal.title": "चैनल में {name} जोड़ें",
   "add_users_to_role.title": "उपयोगकर्ताओं को {roleName} में जोड़ें",
   "add_users_to_team.title": "{teamName} टीम में नए सदस्य जोड़ें",
+  "adldap_upsell_banner.confirm.learn_more": "अधिक जानें",
   "admin.advance.cluster": "उच्च उपलब्धता",
   "admin.advance.metrics": "निष्पादन की निगरानी",
   "admin.announcement_banner_feature_discovery.copy": "महत्वपूर्ण जानकारी के सभी सदस्यों को सूचित करने के लिए घोषणा बैनर बनाएं।",
