@@ -630,5 +630,7 @@
   "apps.error.form.no_lookup": "`lookup` परिभाषित गरिएको छैन।",
   "apps.error.command.same_user": "क्षेत्र `{fieldName}`: `{option}` को लागि प्रयोगकर्ता दोहोरिएको छ।",
   "apps.error.command.same_option": "क्षेत्र `{fieldName}`: `{option}` को लागि दोहोरिएको विकल्प।",
-  "apps.error.command.same_channel": "क्षेत्र `{fieldName}`: `{option}` को लागि च्यानल दोहोरिएको छ।"
+  "apps.error.command.same_channel": "क्षेत्र `{fieldName}`: `{option}` को लागि च्यानल दोहोरिएको छ।",
+  "apps.error.parser.no_match": "बोर्डहरू",
+  "apps.error.parser.no_form": "फारम भेटाउन असमर्थ ।"
 }
