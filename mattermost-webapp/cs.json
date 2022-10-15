@@ -1908,7 +1908,6 @@
   "passwordRequirements": "Požadavky na heslo:",
   "password_form.change": "Změnit heslo",
   "password_form.enter": "Zadejte nové heslo pro váš {siteName} účet.",
-  "password_form.error": "Zadejte alespoň {chars} znaků.",
   "password_form.pwd": "Heslo",
   "password_form.title": "Resetování hesla",
   "password_send.checkInbox": "Prosím, zkontrolujte svůj inbox.",
