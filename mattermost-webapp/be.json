@@ -3895,7 +3895,6 @@
   "passwordRequirements": "Патрабаванні да пароля:",
   "password_form.change": "Змяніць пароль",
   "password_form.enter": "Увядзіце новы пароль для акаўнта на {siteName}.",
-  "password_form.error": "Калі ласка, увядзіце як мінімум {chars} сімвалаў.",
   "password_form.pwd": "Пароль",
   "password_form.title": "Скід пароля",
   "password_send.checkInbox": "Праверце сваю паштовую скрыню.",

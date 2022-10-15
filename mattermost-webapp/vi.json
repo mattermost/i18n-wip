@@ -3363,7 +3363,6 @@
   "passwordRequirements": "Yêu cầu mật khẩu:",
   "password_form.change": "Thay đổi mật khẩu của tôi",
   "password_form.enter": "Nhập mật khẩu mới cho tài khoản {siteName} của bạn.",
-  "password_form.error": "Vui lòng nhập ít nhất {chars} ký tự.",
   "password_form.pwd": "Mật khẩu",
   "password_form.title": "Đặt lại mật khẩu",
   "password_send.checkInbox": "Vui lòng kiểm tra hộp thư đến của bạn.",

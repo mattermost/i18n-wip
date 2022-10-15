@@ -1005,7 +1005,6 @@
   "passwordRequirements": "Zahteve za geslo:",
   "password_form.change": "Spremenite moje geslo",
   "password_form.enter": "Vnesi novo geslo za uporabniški račun {siteName}.",
-  "password_form.error": "Vnesite vsaj {chars} znake.",
   "password_form.pwd": "Geslo",
   "password_send.checkInbox": "Preveri svojo mapo »Prejeto«.",
   "password_send.description": "Če želiš ponastaviti geslo, vnesi e-poštni naslov, s katerim si se prijavil",

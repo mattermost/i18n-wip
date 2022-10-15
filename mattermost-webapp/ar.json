@@ -3640,7 +3640,6 @@
   "passwordRequirements": "متطلبات كلمة المرور:",
   "password_form.change": "تغيير كلمة المرور الخاصة بي",
   "password_form.enter": "أدخل كلمة مرور جديدة لبك {SITENAME} الحساب.",
-  "password_form.error": "الرجاء إدخال ما لا يقل عن {حرف} حرفا.",
   "password_form.pwd": "كلمه السر",
   "password_form.title": "إعادة تعيين الكلمة السرية",
   "password_send.checkInbox": "يرجى فحص صندوق البريد.",
