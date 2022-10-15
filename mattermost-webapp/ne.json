@@ -128,6 +128,8 @@
   "apps.error.parser.missing_source": "फारम न पेश गरिएको छ न त स्रोत नै छ।",
   "apps.error.parser.multiple_equal": "एकभन्दा बढी `=` चिन्हहरू अनुमति छैन।",
   "apps.error.parser.no_argument_pos_x": "तर्क पहिचान गर्न असमर्थ।",
+  "apps.error.parser.no_form": "फारम भेटाउन असमर्थ ।",
+  "apps.error.parser.no_match": "बोर्डहरू",
   "apps.error.parser.no_slash_start": "आदेश `/` बाट सुरु हुनुपर्छ।",
   "apps.error.parser.unexpected_character": "अनपेक्षित चरित्र।",
   "apps.error.parser.unexpected_comma": "अनपेक्षित अल्पविराम।",
