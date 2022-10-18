@@ -2740,10 +2740,6 @@
     "translation": "Vabila po e-pošti so onemogočena."
   },
   {
-    "id": "api.team.invate_guests_to_channels.license.error",
-    "translation": "vaša licenca ne podpira skupin ldap"
-  },
-  {
     "id": "api.team.import_team.unavailable.app_error",
     "translation": "Okvarjena zahteva: polje velikost datoteke ne obstaja."
   },

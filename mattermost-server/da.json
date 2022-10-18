@@ -382,5 +382,65 @@
   {
     "id": "Boards",
     "translation": "Boards"
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_ssoservices.app_error",
+    "translation": "Manglende identitetsudbyder SSO Services node i XML."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_keydescriptor.app_error",
+    "translation": "Manglende identitetsudbyder Key Descriptors node i XML."
+  },
+  {
+    "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
+    "translation": "Manglende identitetsudbyder SSO Descriptors node i XML."
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "Kunne ikke nulstille AuthData felt til e-post."
+  },
+  {
+    "id": "api.admin.saml.failure_parse_idp_certificate.app_error",
+    "translation": "Fejlede under fortolkning af metadata information modtaget af identitetsudbyderen af et certifikat."
+  },
+  {
+    "id": "api.admin.saml.failure_get_metadata_from_idp.app_error",
+    "translation": "Ikke muligt at finde metadata fra identitetsudbyderens URL."
+  },
+  {
+    "id": "api.admin.ldap.not_available.app_error",
+    "translation": "LDAP er ikke tilgængelig."
+  },
+  {
+    "id": "api.channel.channel_member_counts_by_group.license.error",
+    "translation": "Deres licens understøtter ikke support grupper"
+  },
+  {
+    "id": "api.channel.add_members.user_denied",
+    "translation": "Kanalmedlemskabs nægtet til følgende brugere på grund af gruppebegrænsninger: {{ .UserIDs }}"
+  },
+  {
+    "id": "api.channel.add_members.error",
+    "translation": "En fejl opstod ved at tilføje medlemmer til kanalen."
+  },
+  {
+    "id": "api.bot.teams_channels.add_message_mobile",
+    "translation": "Tilføj mig til hold og kanaler, som jeg skal interagere med. For at opnå dette, brug browser eller Mattermost skrivebordsapplikation."
+  },
+  {
+    "id": "api.bot.create_disabled",
+    "translation": "Oprettelse af bot er blevet deaktiveret."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
+    "translation": "Manglende indholdstype."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_content_type.app_error",
+    "translation": "Ugyldig indholdstype."
+  },
+  {
+    "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
+    "translation": "Ugyldig certifikat tekst."
   }
 ]

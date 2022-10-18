@@ -2760,14 +2760,6 @@
     "translation": "आमंत्रण के चैनल आमंत्रण की टीम का हिस्सा होना चाहिए।"
   },
   {
-    "id": "api.team.invate_guests_to_channels.license.error",
-    "translation": "आपका लाइसेंस अतिथि अकाऊंत का समर्थन नहीं करता"
-  },
-  {
-    "id": "api.team.invate_guests_to_channels.disabled.error",
-    "translation": "अतिथि खाते अक्षम हैं"
-  },
-  {
     "id": "api.team.invalidate_all_email_invites.app_error",
     "translation": "ईमेल आमंत्रणों को अमान्य करने में त्रुटि."
   },
@@ -5479,10 +5471,6 @@
   {
     "id": "app.import.bulk_import.unsupported_version.error",
     "translation": "डेटा आयात फ़ाइल में गलत या अनुपलब्ध संस्करण। सुनिश्चित करें कि संस्करण आपकी आयात फ़ाइल में पहला ऑब्जेक्ट है और पुनः प्रयास करें।"
-  },
-  {
-    "id": "app.import.bulk_import.process_attachments.error",
-    "translation": "बल्क आयात अनुलग्नकों को संसाधित करते समय त्रुटि।"
   },
   {
     "id": "app.import.bulk_import.file_scan.error",

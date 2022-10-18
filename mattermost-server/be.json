@@ -440,10 +440,6 @@
     "translation": "Няўдалы Плацёж"
   },
   {
-    "id": "api.templates.over_limit_fix_now",
-    "translation": "Выпраўце зараз"
-  },
-  {
     "id": "api.templates.license_up_for_renewal_renew_now",
     "translation": "Падоўжыць зараз"
   },
@@ -1052,46 +1048,6 @@
     "translation": "Несапраўдны ідэнтыфікатар дзеяння."
   },
   {
-    "id": "app.user.group_name_conflict",
-    "translation": " "
-  },
-  {
-    "id": "app.user.get_by_name_failure",
-    "translation": " "
-  },
-  {
-    "id": "app.group.username_conflict",
-    "translation": " "
-  },
-  {
-    "id": "app.group.get_by_username_failure",
-    "translation": " "
-  },
-  {
-    "id": "api.users.invalid_emails.enable_open_server.app_error",
-    "translation": " "
-  },
-  {
-    "id": "model.github_release_info.is_valid.id.app_error",
-    "translation": " "
-  },
-  {
-    "id": "app.admin.latest_version_unmarshal.failure",
-    "translation": " "
-  },
-  {
-    "id": "app.admin.latest_version_set_cache.failure",
-    "translation": " "
-  },
-  {
-    "id": "app.admin.latest_version_read_all.failure",
-    "translation": " "
-  },
-  {
-    "id": "app.admin.latest_version_external_error.failure",
-    "translation": " "
-  },
-  {
     "id": "model.user.is_valid.last_name.app_error",
     "translation": "Няправільная прозвішча."
   },
@@ -1522,10 +1478,6 @@
   {
     "id": "model.channel_member.is_valid.roles_limit.app_error",
     "translation": "Недапушчальныя ролі ўдзельнікаў канала даўжэй {{.Limit}} сімвалаў."
-  },
-  {
-    "id": "app.import.bulk_import.process_attachments.error",
-    "translation": "Памылка пры апрацоўцы ўкладанняў згрупаванага імпарту."
   },
   {
     "id": "app.notification.body.thread_gm.subTitle",
@@ -4322,10 +4274,6 @@
   {
     "id": "app.import.process_import_data_file_version_line.invalid_version.error",
     "translation": "Немагчыма прачытаць версію імпартнага файла дадзеных."
-  },
-  {
-    "id": "app.import.marshal.app_error",
-    "translation": "Немагчыма арганізаваць адказ."
   },
   {
     "id": "app.import.import_user_teams.save_preferences.error",
@@ -8346,14 +8294,6 @@
   {
     "id": "api.team.invite_guests.channel_in_invalid_team.app_error",
     "translation": "Каналы ў запрашэнні павінны быць часткай каманды ў запрашэнні."
-  },
-  {
-    "id": "api.team.invate_guests_to_channels.license.error",
-    "translation": "Ваша ліцэнзія не падтрымлівае гасцявыя ўліковыя запісы"
-  },
-  {
-    "id": "api.team.invate_guests_to_channels.disabled.error",
-    "translation": "Гасцявыя ўліковыя запісы адключаныя"
   },
   {
     "id": "api.team.invalidate_all_email_invites.app_error",
