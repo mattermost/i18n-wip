@@ -1,1 +1,13 @@
-{}
+{
+  "about.buildnumber": "Número de Build:",
+  "about.cloudEdition": "Nube",
+  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Todos los derechos reservados",
+  "about.database": "Base de datos:",
+  "about.date": "Fecha de construcción:",
+  "about.dbversion": "Versión de esquema de base de datos:",
+  "about.enterpriseEditionLearn": "Aprende más acerca de la edición Enterprise en ",
+  "about.enterpriseEditione1": "Edición Enterprise",
+  "about.hash": "Hash de construcción:",
+  "about.hashee": "Hash de construción EE:",
+  "about.hashwebapp": "Hash de construcción de Webapp:"
+}
