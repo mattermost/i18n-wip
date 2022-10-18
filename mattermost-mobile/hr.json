@@ -142,5 +142,6 @@
   "terms_of_service.agreeButton": "Slažem se",
   "suggestion.search.public": "Javni kanali",
   "suggestion.search.private": "Privatni kanali",
-  "center_panel.archived.closeChannel": "Zatvori ploču kanala"
+  "center_panel.archived.closeChannel": "Zatvori ploču kanala",
+  "mobile.participants.you": "(ti)"
 }
