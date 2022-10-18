@@ -51,4 +51,3 @@ for project in projects:
         print(f'Other error occurred while notifying Mattermost-channel: {err.message} {err.args}')
     else:
         print('Success!')
-json.dump(current_locks,open("locks.txt",'w'))
