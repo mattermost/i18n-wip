@@ -18,9 +18,9 @@ projects['playbooks']='playbooks/webapp'
 projects['glossary']='mattermost/glossary'
 
 mention={}
-mention['mobile']='cc: @guillermo.vaya,@zef.hemel'
-mention['server']='cc: @guillermo.vaya,@zef.hemel'
-mention['webapp']='cc: @guillermo.vaya,@zef.hemel'
+mention['mobile']='cc: @guillermo.vaya,@pantelis.vratsalis'
+mention['server']='cc: @guillermo.vaya,@pantelis.vratsalis'
+mention['webapp']='cc: @guillermo.vaya,@pantelis.vratsalis'
 mention['desktop']='cc: @devin.binnie'
 mention['focalboard']='cc: @jesus.espino,@scott.bishel'
 mention['playbooks']='cc: @jesse.hallam,@caleb.roseland'
