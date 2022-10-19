@@ -1,7 +1,10 @@
+
+
 import wlc
 import apikey
 import requests
 import math
+import json
 from requests.exceptions import HTTPError
 
 
@@ -13,8 +16,10 @@ projects['server']['shipped']='mattermost-server_master'
 projects['server']['wip']='mattermost-server-wip'
 projects['webapp']['shipped']='mattermost-webapp_master'
 projects['webapp']['wip']='mattermost-webapp-wip'
-=projects['glossary']['shipped']='glossary'
+projects['glossary']['shipped']='glossary'
 projects['glossary']['wip']='glossary'
+current_notification_state={"state":"false"}
+previous_notification_state= json.load(open("./notification_state.txt"))
 
 for project in projects:
   shippedLanguages={}
@@ -47,21 +52,21 @@ for project in projects:
 
 ### GETTING REMOVING THE WIP LANGUAGES THAT ARE ALREADY IN SHIPPED ###
   for languageToRemove in shippedLanguages.keys() & WIPLanguages.keys():
-    print('REMOVING LANGUAGE '+languageToRemove +' FOR '+project)  
-    print(shippedLanguages.keys());
-    print(WIPLanguages.keys());
-    try:
-      headers = {'Content-Type': 'application/json',}
-      values = '{ "text": "Double '+languageToRemove+' from '+project+'"}'
-      responseMattermost = requests.post(apikey.i18nWebhook,headers=headers,data=values)
-      responseMattermost.raise_for_status()
-    except HTTPError as http_err:
-        print('HTTP error occurred while notifying Mattermost channel: '+http_err) 
-    except Exception as err:
-        print('Other error occurred while notifying Mattermost channel: '+err.message+' '+err.args)
-    try:
-        responseWeblate=w.request('post','https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/lock/',{'lock':True})
-    except HTTPError as http_err:
-        print('HTTP error occurred while locking '+projects[project]['wip']+': '+http_err) 
-    except Exception as err:
-        print('Other error occurred while locking : '+ projects[project]['wip']+' '+err.message+' '+err.args)
+    current_notification_state['state']="true"
+    if (previous_notification_state['state']=="false"):
+      try:
+        headers = {'Content-Type': 'application/json',}
+        values = '{ "text": "Hi @ctlaltdieliet and @carrie.warner: a shipped language is detected in WIP  ('+languageToRemove+') in this '+project+' This project is locked now"}'
+        responseMattermost = requests.post(apikey.i18nWebhook,headers=headers,data=values)
+        responseMattermost.raise_for_status()
+      except HTTPError as http_err:
+          print('HTTP error occurred while notifying Mattermost channel: '+http_err) 
+      except Exception as err:
+          print('Other error occurred while notifying Mattermost channel: '+err.message+' '+err.args)
+      try:
+          responseWeblate=w.request('post','https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/lock/',{'lock':True})
+      except HTTPError as http_err:
+          print('HTTP error occurred while locking '+projects[project]['wip']+': '+http_err) 
+      except Exception as err:
+          print('Other error occurred while locking : '+ projects[project]['wip']+' '+err.message+' '+err.args)
+json.dump(current_notification_state,open("./notification_state.txt",'w'))
