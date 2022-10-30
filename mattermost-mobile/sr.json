@@ -6,10 +6,10 @@
   "sidebar.pg": "ПРИВАТНИ КАНАЛИ",
   "sidebar.direct": "ДИРЕКТНЕ ПОРУКЕ",
   "sidebar.channels": "ЈАВНИ КАНАЛИ",
-  "mobile.flagged_posts.empty_description": "Ознаке су начин за означавање порука за поновно читање. Ваше ознаке су личне и њих не могу видети други корисници.",
+  "mobile.flagged_posts.empty_description": "Сачуване поруке су видљиве само вама. Означите поруке за праћење или сачувајте нешто за касније тако што ћете дуго притиснути поруку и изабрати Сачувај из менија.",
   "search_header.title2": "Недавна спомињања",
   "search_header.results": "Резултати претраге",
-  "mobile.post_info.flag": "Ознака",
+  "mobile.post_info.flag": "Сачувај",
   "posts_view.newMsg": "Нове поруке",
   "post_message_view.edited": "(измењено)",
   "mobile.post_pre_header.pinned": "Закачено",
@@ -75,5 +75,7 @@
   "apps.error": "Грешка: {error}",
   "api.channel.add_member.added": "(addedUsername) додат на канал од стране {username}.",
   "announcment_banner.dont_show_again": "Не приказуј поново",
-  "about.title": "O (appTitle)"
+  "about.title": "O (appTitle)",
+  "about.teamEditiont1": "ентерпрајз издање",
+  "about.enterpriseEditione1": "Ентерпрајз издање"
 }
