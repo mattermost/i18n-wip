@@ -1792,7 +1792,6 @@
   "leave_team_modal_public.desc": "**Budeš odstraněn(a) z {num_of_public_channels} { num_of_public_channels,plural,one {veřejného kanálu} other {veřejných kanálů} } v tomto týmu.** Jsi si jist(a)?",
   "loading_screen.loading": "Nahrávám",
   "login.changed": " Přihlašovací metoda byla úspěšně změněna",
-  "login.create": "Vytvořit nový účet.",
   "login.createTeam": "Vytvořit nový tým",
   "login.email": "Email",
   "login.forgot": "Zapomněl jsem heslo.",
