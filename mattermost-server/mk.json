@@ -334,5 +334,21 @@
   {
     "id": "api.admin.saml.invalid_xml_missing_idpssodescriptors.app_error",
     "translation": "Недостига Identity Provider SSO Descriptors јазол во XML."
+  },
+  {
+    "id": "api.channel.channel_member_counts_by_group.license.error",
+    "translation": "Вашата лиценца не поддржува групи"
+  },
+  {
+    "id": "api.channel.change_channel_privacy.public_to_private",
+    "translation": "Овој канал беше променет во Приватен Канал."
+  },
+  {
+    "id": "api.channel.change_channel_privacy.private_to_public",
+    "translation": "Овој канал беше променет во Јавен Канал и може да се придружи од сите членови на тимот."
+  },
+  {
+    "id": "api.channel.add_user_to_channel.type.app_error",
+    "translation": "Неможе да се додаде корисникот на овој тип на канал."
   }
 ]
