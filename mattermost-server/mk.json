@@ -350,5 +350,13 @@
   {
     "id": "api.channel.add_user_to_channel.type.app_error",
     "translation": "Неможе да се додаде корисникот на овој тип на канал."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.team_restricted_error",
+    "translation": "Директен канал неможе да се креира помеѓу овие корисничи поради тоа што немаат ништо заедничко."
+  },
+  {
+    "id": "api.channel.create_channel.direct_channel.app_error",
+    "translation": "Мора да се користи createDirectChannel АПИ сервис за креирање на канали за директни пораки."
   }
 ]
