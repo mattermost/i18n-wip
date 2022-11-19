@@ -358,5 +358,25 @@
   {
     "id": "api.channel.create_channel.direct_channel.app_error",
     "translation": "Мора да се користи createDirectChannel АПИ сервис за креирање на канали за директни пораки."
+  },
+  {
+    "id": "api.channel.create_group.bad_user.app_error",
+    "translation": "Еден од наведените корисници не постои."
+  },
+  {
+    "id": "api.channel.create_group.bad_size.app_error",
+    "translation": "Канали за групни пораки мора да имаат најмалце 3 и најмногу 8 корисници."
+  },
+  {
+    "id": "api.channel.create_direct_channel.invalid_user.app_error",
+    "translation": "Невалиден кориснички ИД за креација на директен канал."
+  },
+  {
+    "id": "api.channel.create_default_channels.off_topic",
+    "translation": "Оф-топик"
+  },
+  {
+    "id": "api.channel.create_channel.max_channel_limit.app_error",
+    "translation": "Неможе да се создаде повеќе од {{.MaxChannelsPerTeam}} за тековниот тим."
   }
 ]
