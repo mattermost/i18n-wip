@@ -2330,7 +2330,6 @@
   "analytics.system.totalReadDbConnections": "طبق الاصل DB Conns",
   "analytics.system.totalSessions": "إجمالي جلسات",
   "analytics.system.totalTeams": "عدد فرق",
-  "analytics.system.totalUsers": "مجموع الأعضاء النشيطين",
   "analytics.system.totalWebsockets": "WebSocket Conns",
   "analytics.team.activeUsers": "الأعضاء النشيطين مع المشاركات",
   "analytics.team.newlyCreated": "المستخدمين مكون حديثا",

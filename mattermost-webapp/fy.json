@@ -2514,7 +2514,6 @@
   "analytics.system.totalReadDbConnections": "Replica DB Conns",
   "analytics.system.totalSessions": "Totaal aantal sessies",
   "analytics.system.totalTeams": "Totaal aantal teams",
-  "analytics.system.totalUsers": "Totaal Actieve Gebruikers",
   "analytics.system.totalWebsockets": "WebSocket Conns",
   "analytics.team.activeUsers": "Actieve gebruikers met berichten",
   "analytics.team.newlyCreated": "Nieuw gemaakte gebruikers",

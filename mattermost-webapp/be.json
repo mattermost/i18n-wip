@@ -2424,7 +2424,6 @@
   "analytics.system.totalReadDbConnections": "Падлучэнняў да рэплікі БД",
   "analytics.system.totalSessions": "Усяго сесій",
   "analytics.system.totalTeams": "Усяго каманд",
-  "analytics.system.totalUsers": "Усяго актыўных карыстальнікаў",
   "analytics.system.totalWebsockets": "Злучэнняў Websocket",
   "analytics.team.activeUsers": "Актыўныя карыстальнікі з паведамленнямі",
   "analytics.team.newlyCreated": "Новыя карыстальнікі",

@@ -2179,7 +2179,6 @@
   "analytics.system.totalReadDbConnections": "Replica DB Conns",
   "analytics.system.totalSessions": "Tổng số phiên",
   "analytics.system.totalTeams": "Tổng số đội",
-  "analytics.system.totalUsers": "Tổng số người dùng đang hoạt động",
   "analytics.system.totalWebsockets": "Kết nối WebSocket",
   "analytics.team.activeUsers": "Người dùng đang hoạt động có bài đăng",
   "analytics.team.newlyCreated": "Người dùng mới tạo",
