@@ -378,5 +378,69 @@
   {
     "id": "api.channel.create_channel.max_channel_limit.app_error",
     "translation": "Неможе да се создаде повеќе од {{.MaxChannelsPerTeam}} за тековниот тим."
+  },
+  {
+    "id": "api.channel.patch_update_channel.forbidden.app_error",
+    "translation": "Неуспех при ажурирање на каналот."
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.license.error",
+    "translation": "Вашата лиценца не поддржува модерација на канали"
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "Грешка при поништување на кеш"
+  },
+  {
+    "id": "api.channel.move_channel.type.invalid",
+    "translation": "Неможеше да се преместат канали за директни или групни пораки"
+  },
+  {
+    "id": "api.channel.leave.left",
+    "translation": "%v го напушти каналот."
+  },
+  {
+    "id": "api.channel.leave.last_member.app_error",
+    "translation": "Вие сте единствениот останат член, пробајте да го отстраните Приватниот Канал наместо да го напуштите."
+  },
+  {
+    "id": "api.channel.leave.direct.app_error",
+    "translation": "Неможе да се напушти канал за директни пораки."
+  },
+  {
+    "id": "api.channel.leave.default.app_error",
+    "translation": "Неможеше да се напушти стандардниот канал {{.Channel}}."
+  },
+  {
+    "id": "api.channel.join_channel.post_and_forget",
+    "translation": "%v се приклучи во каналот."
+  },
+  {
+    "id": "api.channel.join_channel.permissions.app_error",
+    "translation": "Немате соодветни дозволи."
+  },
+  {
+    "id": "api.channel.guest_join_channel.post_and_forget",
+    "translation": "%v се приклучи во каналот како гостин."
+  },
+  {
+    "id": "api.channel.get_channel_moderations.license.error",
+    "translation": "Вашата лиценца не поддржува канална модерација"
+  },
+  {
+    "id": "api.channel.delete_channel.type.invalid",
+    "translation": "Неможеше да се избришат канали за директни или групни пораки"
+  },
+  {
+    "id": "api.channel.delete_channel.deleted.app_error",
+    "translation": "Каналот бил архивиран или избришен."
+  },
+  {
+    "id": "api.channel.delete_channel.cannot.app_error",
+    "translation": "Неможеше да се избрише стандарниот канал {{.Channel}}."
+  },
+  {
+    "id": "api.channel.delete_channel.archived",
+    "translation": "%v го архивираше каналот."
   }
 ]
