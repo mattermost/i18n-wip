@@ -488,10 +488,6 @@
     "translation": "Error processing request to CWS."
   },
   {
-    "id": "api.cloud.subscription.update_error",
-    "translation": "Error updating subscription from webhook."
-  },
-  {
     "id": "api.cloud.teams_limit_reached.create",
     "translation": "Unable to create team because teams limit has been reached"
   },
@@ -3912,6 +3908,10 @@
     "translation": "Mattermost was unable to upgrade to Enterprise Edition. The digital signature of the downloaded binary file could not be verified."
   },
   {
+    "id": "api.upload.create.upload_too_large.app_error",
+    "translation": "Unable to upload file. File is too large."
+  },
+  {
     "id": "api.upload.get_upload.forbidden.app_error",
     "translation": "Failed to get upload."
   },
@@ -6542,10 +6542,6 @@
   {
     "id": "app.upload.create.save.app_error",
     "translation": "Failed to save upload."
-  },
-  {
-    "id": "app.upload.create.upload_too_large.app_error",
-    "translation": "Unable to upload file. File is too large."
   },
   {
     "id": "app.upload.get.app_error",
@@ -9509,7 +9505,7 @@
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.mac",
-    "translation": "macOS 10.14+"
+    "translation": "macOS 11+"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
