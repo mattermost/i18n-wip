@@ -442,5 +442,37 @@
   {
     "id": "api.channel.delete_channel.archived",
     "translation": "%v го архивираше каналот."
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.retrieve_user.error",
+    "translation": "Неуспеа да се поврати корисникот при ажурирање на заглавието на каналот"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.removed",
+    "translation": "%s го избриша заглавието на каналот (беше: %s)"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.post.error",
+    "translation": "Неуспех при постирање на ажурирана порака за заглавието на каналот"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.updated_from",
+    "translation": "%s го ажурираше екранското име од: %s во: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.retrieve_user.error",
+    "translation": "Неуспех при повратување на корисник при ажурирање на полето за екранско име на каналот"
+  },
+  {
+    "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
+    "translation": "Неуспех при постирање на ажурирана порака за екранско име"
+  },
+  {
+    "id": "api.channel.post_channel_privacy_message.error",
+    "translation": "Неуспех при постирање на ажурирања порака за приватноста на каналот."
+  },
+  {
+    "id": "api.admin.syncables_error",
+    "translation": "неуспех при додадање корисници во групни-тимови и груни-канали"
   }
 ]
