@@ -64,6 +64,7 @@
   "activity_log.moreInfo": "Više informacija",
   "activity_log.os": "OS: {os}",
   "activity_log.sessionId": "ID sesije: {id}",
+  "activity_log.sessionsDescription": "Sesije se stvaraju kad se prijaviš putem novog preglednika na uređaju. Sesije omogućuju korištenje Mattermost-a bez potrebe za ponovnom prijavom u vremenskom razdoblju koje je odredio administrator sustava. Za brži završetak sesije koristi gumb „Odjava”.",
   "activity_log_modal.android": "Android",
   "activity_log_modal.androidNativeApp": "Izvorna Android aplikacija",
   "activity_log_modal.androidNativeClassicApp": "Klasična izvorna Android aplikacija",
