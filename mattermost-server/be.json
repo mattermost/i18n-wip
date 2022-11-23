@@ -3324,10 +3324,6 @@
     "translation": "Не ўдалося атрымаць загрузкі."
   },
   {
-    "id": "app.upload.create.upload_too_large.app_error",
-    "translation": "Немагчыма загрузіць файл. Ён занадта вялікі."
-  },
-  {
     "id": "app.upload.create.save.app_error",
     "translation": "Не ўдалося захаваць загружанае."
   },

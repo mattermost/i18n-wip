@@ -6309,10 +6309,6 @@
     "translation": "अपलोड प्राप्त करने में विफल।"
   },
   {
-    "id": "app.upload.create.upload_too_large.app_error",
-    "translation": "फाइल अपलोड करने में असमर्थ। फ़ाइल बहुत बड़ी है।"
-  },
-  {
     "id": "app.upload.create.save.app_error",
     "translation": "अपलोड सहेजने में विफल।"
   },
