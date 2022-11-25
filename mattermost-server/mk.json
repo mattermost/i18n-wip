@@ -201,7 +201,7 @@
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.mac",
-    "translation": "macOS 10.14+"
+    "translation": "macOS 11+"
   },
   {
     "id": "web.error.unsupported_browser.min_browser_version.safari",
@@ -474,5 +474,29 @@
   {
     "id": "api.admin.syncables_error",
     "translation": "неуспех при додадање корисници во групни-тимови и груни-канали"
+  },
+  {
+    "id": "api.channel.remove_member.group_constrained.app_error",
+    "translation": "Неуспеа да се извади корисникот од каналот ограничен со група."
+  },
+  {
+    "id": "api.channel.remove_channel_member.type.app_error",
+    "translation": "Неусепа да се извади корисникот од каналот."
+  },
+  {
+    "id": "api.channel.remove.default.app_error",
+    "translation": "Неуспеа да се извади корисникот од стандардниот канал {{.Channel}}."
+  },
+  {
+    "id": "api.channel.post_user_add_remove_message_and_forget.error",
+    "translation": "Неуспеа да се постира пораката за приклучување/напуштување"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_from",
+    "translation": "%s го промени заглавието на каналот од: %s во: %s"
+  },
+  {
+    "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
+    "translation": "%s го промени заглавието на каналот во: %s"
   }
 ]
