@@ -4876,7 +4876,6 @@
   "workspace_limits.boards_cards.usage": "{actual} з {limit} картак ({percent}%)",
   "workspace_limits.file_storage": "Файлавае сховішча",
   "workspace_limits.file_storage.usage": "{actual} з {limit} ({percent}%)",
-  "workspace_limits.integrations_enabled.usage": "{actual} з {limit} інтэграцый ({percent}%)",
   "workspace_limits.message_history": "Гісторыя паведамленняў",
   "workspace_limits.message_history.usage": "{actual} з {limit} паведамленняў ({percent}%)",
   "workspace_limits.upgrade": "Абнавіце, каб пазбегнуць абмежаванняў на дадзеныя ў {planName}",
