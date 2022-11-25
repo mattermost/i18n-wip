@@ -5377,7 +5377,6 @@
   "workspace_limits.file_storage.short.usage": "{actual} / {limit}",
   "workspace_limits.file_storage.single_usage": "{actual} van {limit}",
   "workspace_limits.file_storage.usage": "{actual} van {limit} ({percent}%)",
-  "workspace_limits.integrations_enabled.usage.short": "{actual} / {limit} integraties",
   "workspace_limits.menu_limit.board_card": "Limiet voor Boardkaarten",
   "workspace_limits.menu_limit.critical.boards_cards": "Je nadert de {limit} boardkaartenlimiet. <a>{callToAction}</a>",
   "workspace_limits.menu_limit.critical.files_storage": "Je nadert de {limit} bestandsopslaglimiet. <a>{callToAction}</a>",
