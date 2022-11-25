@@ -331,7 +331,6 @@
   "admin.billing.subscription.planDetails.features.ldapUserSync": "AD/LDAP उपयोगकर्ता सिंक्रनाइज़ेशन",
   "admin.billing.subscription.planDetails.features.limitedBoardCards": "प्रति कार्यस्थान {limit} बोर्ड कार्ड तक सीमित",
   "admin.billing.subscription.planDetails.features.limitedFileStorage": "{limit} फ़ाइल संग्रहण तक सीमित",
-  "admin.billing.subscription.planDetails.features.limitedIntegrationsEnabled": "{limit} ऐप्लिकेशन और प्लगइन्स तक सीमित",
   "admin.billing.subscription.planDetails.features.limitedMessageHistory": "{limit} संदेशों के संदेश इतिहास तक सीमित",
   "admin.billing.subscription.planDetails.features.mfa": "बहु-कारक प्रमाणीकरण (MFA)",
   "admin.billing.subscription.planDetails.features.mfaEnforcement": "MFA प्रवर्तन",
