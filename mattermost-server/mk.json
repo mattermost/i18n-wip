@@ -498,5 +498,33 @@
   {
     "id": "api.channel.post_update_channel_header_message_and_forget.updated_to",
     "translation": "%s го промени заглавието на каналот во: %s"
+  },
+  {
+    "id": "api.channel.rename_channel.cant_rename_group_messages.app_error",
+    "translation": "Не може да се преименува канал за групни пораки."
+  },
+  {
+    "id": "api.channel.rename_channel.cant_rename_direct_messages.app_error",
+    "translation": "Не може да се преименува канал за директни пораки."
+  },
+  {
+    "id": "api.channel.remove_user_from_channel.app_error",
+    "translation": "Не може да се отстрани корсникот од овој тип на канал."
+  },
+  {
+    "id": "api.channel.remove_member.removed",
+    "translation": "%v отстранет од каналот."
+  },
+  {
+    "id": "api.acknowledgement.save.archived_channel.app_error",
+    "translation": "Не можете да потврдите во архивиран канал."
+  },
+  {
+    "id": "api.acknowledgement.delete.deadline.app_error",
+    "translation": "Не можете да избришете потврда откако 5 минути се поминати."
+  },
+  {
+    "id": "api.acknowledgement.delete.archived_channel.app_error",
+    "translation": "Не можете да отстраните потврда во архириван канал."
   }
 ]
