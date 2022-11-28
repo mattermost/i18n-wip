@@ -630,5 +630,13 @@
   {
     "id": "api.channel.create_channel.direct_channel.team_restricted_error",
     "translation": "Izravni kanal se ne može stvoriti između ovih korisnika jer ne dijele zajednički tim."
+  },
+  {
+    "id": "api.acknowledgement.delete.deadline.app_error",
+    "translation": "Ne možeš ukloniti potvrdu nakon što prođe 5 minuta."
+  },
+  {
+    "id": "api.acknowledgement.delete.archived_channel.app_error",
+    "translation": "Ne možeš ukloniti potvrdu u arhiviranom kanalu."
   }
 ]
