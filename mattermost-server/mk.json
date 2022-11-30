@@ -526,5 +526,33 @@
   {
     "id": "api.acknowledgement.delete.archived_channel.app_error",
     "translation": "Не можете да отстраните потврда во архириван канал."
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.changing_guest_role.app_error",
+    "translation": "Невалиден членска промена на каналот. Неможете да ја додавате или отстраните гостинската улога."
+  },
+  {
+    "id": "api.channel.update_channel.typechange.app_error",
+    "translation": "Типот на каналот не може да се промени."
+  },
+  {
+    "id": "api.channel.update_channel.tried.app_error",
+    "translation": "Проба да се направи невалидно ажурирање на стандардниот канал {{.Channel}}."
+  },
+  {
+    "id": "api.channel.update_channel.deleted.app_error",
+    "translation": "Каналот беше архивиран или избришан."
+  },
+  {
+    "id": "api.channel.restore_channel.unarchived",
+    "translation": "{{.Username}} го деархивираше каналот."
+  },
+  {
+    "id": "api.channel.restore_channel.restored.app_error",
+    "translation": "Не може да се деархивира каналот. Каналот не е архивиран."
+  },
+  {
+    "id": "api.channel.remove_members.denied",
+    "translation": "Отстранувањето на членовите на каналот е одбиено на следните корисници поради групни ограничувања: {{ .UserIDs }}"
   }
 ]
