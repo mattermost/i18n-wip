@@ -554,5 +554,25 @@
   {
     "id": "api.channel.remove_members.denied",
     "translation": "Отстранувањето на членовите на каналот е одбиено на следните корисници поради групни ограничувања: {{ .UserIDs }}"
+  },
+  {
+    "id": "api.channel.update_channel_scheme.scheme_scope.error",
+    "translation": "Не можеше да се промени шемата на каналот поради тоа што наведената шема не е шема за канал."
+  },
+  {
+    "id": "api.channel.update_channel_scheme.license.error",
+    "translation": "Вашата лиценца не поддржува промена на шема на каналот"
+  },
+  {
+    "id": "api.channel.update_channel_privacy.default_channel_error",
+    "translation": "Стандардниот канал не може да се направи приватен."
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.scheme_role.app_error",
+    "translation": "Наведената улога е управувана од шема и затоа не може да се примени директно на членот на каналот."
+  },
+  {
+    "id": "api.channel.update_channel_member_roles.guest_and_user.app_error",
+    "translation": "Невалидена промена на членовите на каналот: Корисникот мора да биде или гостин или корисник, но не двете."
   }
 ]
