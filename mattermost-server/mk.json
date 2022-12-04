@@ -574,5 +574,25 @@
   {
     "id": "api.channel.update_channel_member_roles.guest_and_user.app_error",
     "translation": "Невалидена промена на членовите на каналот: Корисникот мора да биде или гостин или корисник, но не двете."
+  },
+  {
+    "id": "api.server.start_server.forward80to443.enabled_but_listening_on_wrong_port",
+    "translation": "Неможе да се препати порта 80 на порта 443 додека се слуша на порта %s: исклучете Forward80To443 ако користите прокси сервер"
+  },
+  {
+    "id": "api.server.start_server.forward80to443.disabled_while_using_lets_encrypt",
+    "translation": "Мора да се вклучи Forward80To443 кога се користи LetsEncrypt"
+  },
+  {
+    "id": "api.server.license_up_for_renewal.error_sending_email",
+    "translation": "Не успеа да се прати лиценца за имејли за обновување"
+  },
+  {
+    "id": "api.server.license_up_for_renewal.error_generating_link",
+    "translation": "Неуспех при генерирање на линк за обновување на лиценцата"
+  },
+  {
+    "id": "api.scheme.patch_scheme.license.error",
+    "translation": "Вашата лиценца не поддржува ажурирање на шеми за дозволи"
   }
 ]
