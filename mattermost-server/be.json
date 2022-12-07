@@ -9172,10 +9172,6 @@
     "translation": "Цяпер Ваш сервер абноўлены!"
   },
   {
-    "id": "api.templates.cloud_upgrade_confirmation.subtitle",
-    "translation": "Ваша працоўная прастора {{.WorkspaceName}} абноўлена. Вам будзе выстаўлены рахунак пачынаючы з {{.TrialEnd}}"
-  },
-  {
     "id": "api.templates.cloud_upgrade_confirmation.subject",
     "translation": "Пацвярджэнне абнаўлення Mattermost"
   },
