@@ -594,5 +594,17 @@
   {
     "id": "api.scheme.patch_scheme.license.error",
     "translation": "Вашата лиценца не поддржува ажурирање на шеми за дозволи"
+  },
+  {
+    "id": "api.cloud.app_error",
+    "translation": "Внатрешна грешка при клауд апи барање."
+  },
+  {
+    "id": "api.channel.update_team_member_roles.scheme_role.app_error",
+    "translation": "Наведената улога е менаџирана од Шема и поради тоа неможе да се аплицира директно на Член на Тимот."
+  },
+  {
+    "id": "api.channel.update_team_member_roles.changing_guest_role.app_error",
+    "translation": "Невалидно ажурирање на член на тимот: Не можете да додадете или отстранете гостинската улога рачно."
   }
 ]
