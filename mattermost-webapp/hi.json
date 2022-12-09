@@ -375,7 +375,6 @@
   "admin.billing.subscription.viewBilling": "बिलिंग देखें",
   "admin.billing.subscriptions.billing_summary.explore_enterprise": "एंटरप्राइज़ सुविधाओं का अन्वेषण करें",
   "admin.billing.subscriptions.billing_summary.explore_enterprise.cta": "सभी सुविधाएँ देखें",
-  "admin.billing.subscriptions.billing_summary.lastInvoice.downloadInvoice": "इनवाइस को डाउनलोड करो",
   "admin.billing.subscriptions.billing_summary.lastInvoice.failed": "अनुत्तीर्ण होना",
   "admin.billing.subscriptions.billing_summary.lastInvoice.monthlyFlatFee": "मासिक फ्लैट शुल्क",
   "admin.billing.subscriptions.billing_summary.lastInvoice.paid": "भुगतान किया गया",

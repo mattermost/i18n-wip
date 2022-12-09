@@ -332,7 +332,6 @@
   "admin.billing.subscription.updatePaymentInfo": "Абнавіць плацёжную інфармацыю",
   "admin.billing.subscription.upgradedSuccess": "Выдатна! Вы абнавіліся",
   "admin.billing.subscription.verifyPaymentInformation": "Праверка плацежных дадзеных",
-  "admin.billing.subscriptions.billing_summary.lastInvoice.downloadInvoice": "Спампаваць рахунак-фактуру",
   "admin.billing.subscriptions.billing_summary.lastInvoice.failed": "Не атрымалася",
   "admin.billing.subscriptions.billing_summary.lastInvoice.monthlyFlatFee": "Штомесячная фіксаваная плата",
   "admin.billing.subscriptions.billing_summary.lastInvoice.paid": "Аплачаны",

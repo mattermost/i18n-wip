@@ -224,7 +224,6 @@
   "admin.billing.subscription.updatePaymentInfo": "Tölem akparatın jaŋartıŋız",
   "admin.billing.subscription.upgradedSuccess": "Tamaca! Siz jaŋgırtıldıŋız",
   "admin.billing.subscription.verifyPaymentInformation": "Tölem akparatıŋız tekserilude",
-  "admin.billing.subscriptions.billing_summary.lastInvoice.downloadInvoice": "Cot-faktur'di jükteu",
   "admin.billing.subscriptions.billing_summary.lastInvoice.failed": "Sätsiz",
   "admin.billing.subscriptions.billing_summary.lastInvoice.monthlyFlatFee": "Aylık Tūraktı Tölem",
   "admin.billing.subscriptions.billing_summary.lastInvoice.paid": "Tölendi",

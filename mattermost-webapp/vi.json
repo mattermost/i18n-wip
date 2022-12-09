@@ -325,7 +325,6 @@
   "admin.billing.subscription.updatePaymentInfo": "Cập nhật Thông tin Thanh toán",
   "admin.billing.subscription.upgradedSuccess": "Tuyệt vời! Bạn hiện đã được nâng cấp",
   "admin.billing.subscription.verifyPaymentInformation": "Xác minh thông tin thanh toán của bạn",
-  "admin.billing.subscriptions.billing_summary.lastInvoice.downloadInvoice": "Tải xuống hóa đơn",
   "admin.billing.subscriptions.billing_summary.lastInvoice.failed": "Không thành công",
   "admin.billing.subscriptions.billing_summary.lastInvoice.monthlyFlatFee": "Phí cố định hàng tháng",
   "admin.billing.subscriptions.billing_summary.lastInvoice.paid": "Trả phí",

@@ -310,7 +310,6 @@
   "admin.billing.subscription.updatePaymentInfo": "Aktualizovat platební informace",
   "admin.billing.subscription.upgradedSuccess": "Skvělé! Nyní máš povýšeno",
   "admin.billing.subscription.verifyPaymentInformation": "Ověřuji platební informace",
-  "admin.billing.subscriptions.billing_summary.lastInvoice.downloadInvoice": "Stáhnout fakturu",
   "admin.billing.subscriptions.billing_summary.lastInvoice.failed": "Selhalo",
   "admin.billing.subscriptions.billing_summary.lastInvoice.paid": "Placený",
   "admin.billing.subscriptions.billing_summary.lastInvoice.partialCharges": "Částečné platby",

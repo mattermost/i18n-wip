@@ -327,7 +327,6 @@
   "admin.billing.subscription.updatePaymentInfo": "تحديث معلومات الدفع",
   "admin.billing.subscription.upgradedSuccess": "رائعة! أنت الآن ترقية",
   "admin.billing.subscription.verifyPaymentInformation": "التحقق من معلومات الدفع الخاصة بك",
-  "admin.billing.subscriptions.billing_summary.lastInvoice.downloadInvoice": "تحميل فاتورة",
   "admin.billing.subscriptions.billing_summary.lastInvoice.failed": "باءت بالفشل",
   "admin.billing.subscriptions.billing_summary.lastInvoice.monthlyFlatFee": "رسوم شهرية ثابتة",
   "admin.billing.subscriptions.billing_summary.lastInvoice.paid": "مدفوع",

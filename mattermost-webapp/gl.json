@@ -276,7 +276,6 @@
   "admin.billing.subscription.title": "Subscricións",
   "admin.billing.subscription.upgradedSuccess": "Estupendo! Ya está anovada",
   "admin.billing.subscription.verifyPaymentInformation": "Verificando a súa información de pagamento",
-  "admin.billing.subscriptions.billing_summary.lastInvoice.downloadInvoice": "Descargar factura",
   "admin.billing.subscriptions.billing_summary.lastInvoice.failed": "Erróneo",
   "admin.billing.subscriptions.billing_summary.lastInvoice.paid": "Pagado",
   "admin.billing.subscriptions.billing_summary.lastInvoice.partialCharges": "Cargos parciais",
