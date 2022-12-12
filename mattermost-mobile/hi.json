@@ -295,5 +295,7 @@
   "apps.error.form.no_lookup": "`lookup` परिभाषित नहीं है।",
   "apps.error.command.same_user": "फ़ील्ड के लिए उपयोगकर्ता दोहराया गया '{fieldName}' : '{option}'.",
   "apps.error.command.same_option": "फ़ील्ड के लिए दोहराया गया विकल्प '{fieldName}': '{option}'.",
-  "apps.error.command.same_channel": "फ़ील्ड के लिए दोहराया गया चैनल '{fieldName}' : '{option}'."
+  "apps.error.command.same_channel": "फ़ील्ड के लिए दोहराया गया चैनल '{fieldName}' : '{option}'.",
+  "custom_status.suggestions.working_from_home": "घर से काम",
+  "custom_status.suggestions.title": "सुझाव"
 }
