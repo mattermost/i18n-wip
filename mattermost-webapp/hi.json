@@ -2139,6 +2139,8 @@
   "custom_status.expiry_dropdown.thirty_minutes": "30 मिनट",
   "custom_status.expiry_dropdown.this_week": "इस सप्ताह",
   "custom_status.expiry_dropdown.today": "आज",
+  "custom_status.suggestions.title": "सुझाव",
+  "custom_status.suggestions.working_from_home": "घर से काम",
   "date_separator.today": "आज",
   "date_separator.yesterday": "बिता कल",
   "datetime.today": "आज",
