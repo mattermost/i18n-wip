@@ -606,5 +606,57 @@
   {
     "id": "api.channel.update_team_member_roles.changing_guest_role.app_error",
     "translation": "Невалидно ажурирање на член на тимот: Не можете да додадете или отстранете гостинската улога рачно."
+  },
+  {
+    "id": "api.cloud.teams_limit_reached.create",
+    "translation": "Не може да се создаде тимот бидејќи се достигна ограничувањето за тимови"
+  },
+  {
+    "id": "api.cloud.request_error",
+    "translation": "Грешка при процесирање барањето на CWS."
+  },
+  {
+    "id": "api.cloud.notify_admin_to_upgrade_error.already_notified",
+    "translation": "Веќе е известен администраторот"
+  },
+  {
+    "id": "api.cloud.license_error",
+    "translation": "Вашата лиценца не поддржува клауд барања."
+  },
+  {
+    "id": "api.cloud.delinquency_email.missing_email_to_trigger",
+    "translation": "Недостигаат потребни полиња за да се прати имејлот за деликвенција."
+  },
+  {
+    "id": "api.cloud.cws_webhook_event_missing_error",
+    "translation": "Веб кука настанот не беше обработен. Или недостига или не е валиден."
+  },
+  {
+    "id": "api.command.execute_command.failed.app_error",
+    "translation": "Наредба со активирач '{{.Trigger}}' не успеа."
+  },
+  {
+    "id": "api.command.execute_command.create_post_failed.app_error",
+    "translation": "Наредба '{{.Trigger}}' не успеа да постира одговор. Молиме контактирајте го вашиот Системски Администратор."
+  },
+  {
+    "id": "api.command.duplicate_trigger.app_error",
+    "translation": "Овој збор за активирање веќе се користи. Молиме изберете друг збор."
+  },
+  {
+    "id": "api.command.disabled.app_error",
+    "translation": "Наредбите се оневозможени од системскиот администратор."
+  },
+  {
+    "id": "api.command.command_post.forbidden.app_error",
+    "translation": "Наведениот корисник не е член на наведениот канал."
+  },
+  {
+    "id": "api.command.admin_only.app_error",
+    "translation": "Интеграциите се ограничени само за администратори."
+  },
+  {
+    "id": "api.cloud.teams_limit_reached.restore",
+    "translation": "Не може да се врати тимот бидејќи ограничувањето за тимови беше достигнато"
   }
 ]
