@@ -2273,7 +2273,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "निर्दिष्ट चैनल नहीं मिल सका। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://about.mattermost.com/default-channel-handle-documentation) का उपयोग करें।"
+    "translation": "निर्दिष्ट चैनल नहीं मिल सका। चैनलों की पहचान करने के लिए कृपया [चैनल हैंडल](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) का उपयोग करें।"
   },
   {
     "id": "api.command_mute.name",
@@ -4155,7 +4155,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "मैटरमोस्ट सहायता पृष्ठ खोलें"
+    "translation": "मैटरमोस्ट सहायता संदेश दिखाएं"
   },
   {
     "id": "api.command_groupmsg.permission.app_error",
@@ -4490,7 +4490,7 @@
   },
   {
     "id": "api.command_settings.desc",
-    "translation": "अकाऊंत सेटिंग संवाद खोलें"
+    "translation": "सेटिंग्स संवाद खोलें"
   },
   {
     "id": "api.command_search.hint",
@@ -8646,5 +8646,53 @@
   {
     "id": "api.server.warn_metric.mfa.notification_body",
     "translation": "आपके मैटरमॉस्ट सिस्टम में बहु-कारक प्रमाणीकरण सक्षम है, जो उपयोगकर्ताओं को पासवर्ड से परे प्रमाणीकरण के अतिरिक्त साधनों के साथ अपने खातों को सुरक्षित करने का विकल्प देता है। पूरे सिस्टम में सुरक्षा को बेहतर बनाने के लिए आपको सभी मैटरमोस्ट खातों को बहु-कारक प्रमाणीकरण का उपयोग करने की आवश्यकता हो सकती है।\n\n[मल्टी-फैक्टर ऑथेंटिकेशन लागू करने के बारे में और जानें](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)।\n\nहमसे संपर्क करें क्लिक करके, आप मैटरमोस्ट, इंक. के साथ अपनी जानकारी साझा करेंगे। [अधिक जानें](https://mattermost.com/pl/default-admin-advisory)"
+  },
+  {
+    "id": "api.command_marketplace.unsupported.app_error",
+    "translation": "मार्केटप्लेस कमांड आपके डिवाइस पर समर्थित नहीं है।"
+  },
+  {
+    "id": "api.command_marketplace.name",
+    "translation": "बाजार"
+  },
+  {
+    "id": "api.command_marketplace.desc",
+    "translation": "बाज़ार खोलें"
+  },
+  {
+    "id": "api.command_help.success",
+    "translation": "मैटरमोस्ट सुरक्षित संचार, सहयोग और उपकरणों और टीमों के काम के ऑर्केस्ट्रेशन के लिए एक खुला स्रोत मंच है।\nमैटरमोस्ट में तीन प्रमुख उपकरण हैं:\n\n**चैनल** - 1:1 और समूह संदेश के माध्यम से अपनी टीम से जुड़े रहें।\n**[प्लेबुक](/प्लेबुक)** - विशिष्ट और अनुमानित परिणाम प्राप्त करने के लिए दोहराने योग्य प्रक्रियाओं का निर्माण और कॉन्फ़िगर करें।\n**[Boards](/boards)** - अपनी टीम को प्रमुख मील के पत्थर हासिल करने में मदद करने के लिए कानबन बोर्ड संरचना में परियोजनाओं और कार्यों को प्रबंधित करें।\n\n[दस्तावेज़ीकरण और मार्गदर्शिकाएँ देखें]({{.HelpLink}})"
+  },
+  {
+    "id": "api.cloud.teams_limit_reached.restore",
+    "translation": "टीम को बहाल करने में असमर्थ क्योंकि टीमों की सीमा पूरी हो चुकी है"
+  },
+  {
+    "id": "api.cloud.teams_limit_reached.create",
+    "translation": "टीम बनाने में असमर्थ क्योंकि टीमों की सीमा पूरी हो चुकी है"
+  },
+  {
+    "id": "api.cloud.notify_admin_to_upgrade_error.already_notified",
+    "translation": "व्यवस्थापक को पहले ही सूचित कर दिया गया है"
+  },
+  {
+    "id": "api.cloud.delinquency_email.missing_email_to_trigger",
+    "translation": "चूक ईमेल भेजने के लिए आवश्यक फ़ील्ड गुम हैं।"
+  },
+  {
+    "id": "api.admin.syncables_error",
+    "translation": "उपयोगकर्ता को समूह-टीमों और समूह-चैनलों में जोड़ने में विफल रहा"
+  },
+  {
+    "id": "api.acknowledgement.save.archived_channel.app_error",
+    "translation": "आप संग्रहीत चैनल में पावती नहीं दे सकते।"
+  },
+  {
+    "id": "api.acknowledgement.delete.deadline.app_error",
+    "translation": "5 मिनट बीत जाने के बाद आप पावती नहीं हटा सकते।"
+  },
+  {
+    "id": "api.acknowledgement.delete.archived_channel.app_error",
+    "translation": "आप संग्रहीत चैनल में पावती नहीं निकाल सकते।"
   }
 ]
