@@ -650,5 +650,9 @@
   {
     "id": "api.email.send_warn_metric_ack.failure.app_error",
     "translation": "Neuspjelo slanje administratorske e-mail poruke potvrde"
+  },
+  {
+    "id": "api.channel.create_default_channels.town_square",
+    "translation": "Gradski trg"
   }
 ]
