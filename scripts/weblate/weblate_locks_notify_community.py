@@ -9,7 +9,7 @@ from requests.exceptions import HTTPError
 
 
 projects={'mobile':{},'server':{},'webapp':{},'desktop':{},'glossary':{}}
-projects['mobile']='mattermost/mattermost-mobile_master'
+projects['mobile']='mattermost/mattermost-mobile-v2'
 projects['server']='mattermost/mattermost-server_master'
 projects['webapp']='mattermost/mattermost-webapp_master'
 projects['desktop']='mattermost/mattermost-desktop'
