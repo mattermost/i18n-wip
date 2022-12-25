@@ -275,6 +275,10 @@
   "login.userNotFound": "നിങ്ങളുടെ ലോഗിൻ ക്രെഡൻഷ്യലുകളുമായി പൊരുത്തപ്പെടുന്ന ഒരു അക്കൗണ്ട് കണ്ടെത്താൻ ഞങ്ങൾക്ക് കഴിഞ്ഞില്ല.",
   "login.username": "ഉപയോക്തൃനാമം",
   "login_mfa.token": "MFA ടോക്കൺ",
+  "password_send.checkInbox": "ദയവായി നിങ്ങളുടെ ഇൻബോക്സ് പരിശോധിക്കുക.",
+  "password_send.description": "നിങ്ങളുടെ പാസ്‌വേഡ് പുനഃസജ്ജമാക്കാൻ, നിങ്ങൾ സൈൻ അപ്പ് ചെയ്യാൻ ഉപയോഗിച്ച ഇമെയിൽ വിലാസം നൽകുക",
+  "password_send.error": "ശരിയായ ഒരു ഇമെയിൽ വിലാസം നൽകുക.",
+  "password_send.link": "അക്കൗണ്ട് നിലവിലുണ്ടെങ്കിൽ, ഒരു പാസ്‌വേഡ് റീസെറ്റ് ഇമെയിൽ ഇതിലേക്ക് അയയ്‌ക്കും:",
   "permalink.show_dialog_warn.join": "ചേരുക",
   "permalink.show_dialog_warn.title": "സ്വകാര്യ ചാനലിൽ ചേരുക",
   "post_body.check_for_out_of_channel_mentions.message_last": "? അവർക്ക് എല്ലാ സന്ദേശ ചരിത്രത്തിലേക്കും ആക്സസ് ഉണ്ടായിരിക്കും.",
@@ -288,5 +292,6 @@
   "user.settings.general.field_handled_externally": "നിങ്ങളുടെ ലോഗിൻ പ്രൊവൈഡർ വഴിയാണ് ഈ ഫീൽഡ് കൈകാര്യം ചെയ്യുന്നത്. നിങ്ങൾക്ക് ഇത് മാറ്റണമെങ്കിൽ, നിങ്ങളുടെ ലോഗിൻ പ്രൊവൈഡർ വഴി അത് മാറ്റേണ്ടതുണ്ട്.",
   "user.settings.general.username": "ഉപയോക്തൃനാമം",
   "user.settings.modal.notifications": "അറിയിപ്പുകൾ",
-  "user.settings.notifications.allActivity": "എല്ലാ പ്രവർത്തനത്തിനും"
+  "user.settings.notifications.allActivity": "എല്ലാ പ്രവർത്തനത്തിനും",
+  "web.root.signup_info": "എല്ലാ ടീം ആശയവിനിമയങ്ങളും ഒരിടത്ത്, തിരയാനും എവിടെയും ആക്‌സസ് ചെയ്യാനും കഴിയും"
 }

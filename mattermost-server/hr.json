@@ -630,5 +630,29 @@
   {
     "id": "api.channel.create_channel.direct_channel.team_restricted_error",
     "translation": "Izravni kanal se ne može stvoriti između ovih korisnika jer ne dijele zajednički tim."
+  },
+  {
+    "id": "api.acknowledgement.delete.deadline.app_error",
+    "translation": "Ne možeš ukloniti potvrdu nakon što prođe 5 minuta."
+  },
+  {
+    "id": "api.acknowledgement.delete.archived_channel.app_error",
+    "translation": "Ne možeš ukloniti potvrdu u arhiviranom kanalu."
+  },
+  {
+    "id": "api.channel.create_default_channels.off_topic",
+    "translation": "Van teme"
+  },
+  {
+    "id": "api.admin.syncables_error",
+    "translation": "nije uspio/uspjela dodati korisnika timovima grupe i kanalima grupe"
+  },
+  {
+    "id": "api.email.send_warn_metric_ack.failure.app_error",
+    "translation": "Neuspjelo slanje administratorske e-mail poruke potvrde"
+  },
+  {
+    "id": "api.channel.create_default_channels.town_square",
+    "translation": "Gradski trg"
   }
 ]

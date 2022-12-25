@@ -494,5 +494,14 @@
   "permalink.show_dialog_warn.description": "ചാനൽ അഡ്‌മിൻ വ്യക്തമായി ചേർക്കാതെ തന്നെ നിങ്ങൾ \"{channel}\"-ൽ ചേരാൻ പോകുകയാണ്. ഈ സ്വകാര്യ ചാനലിൽ ചേരണമെന്ന് തീർച്ചയാണോ?",
   "mobile.notification_settings_mobile.test": "എനിക്ക് ഒരു ടെസ്റ്റ് അറിയിപ്പ് അയയ്ക്കുക",
   "mobile.microphone_permission_denied_title": "{applicationName} നിങ്ങളുടെ മൈക്രോഫോൺ ആക്സസ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു",
-  "mobile.microphone_permission_denied_description": "ഈ കോളിൽ പങ്കെടുക്കാൻ, നിങ്ങളുടെ മൈക്രോഫോണിലേക്ക് Mattermost ആക്‌സസ് അനുവദിക്കുന്നതിന് ക്രമീകരണം തുറക്കുക."
+  "mobile.microphone_permission_denied_description": "ഈ കോളിൽ പങ്കെടുക്കാൻ, നിങ്ങളുടെ മൈക്രോഫോണിലേക്ക് Mattermost ആക്‌സസ് അനുവദിക്കുന്നതിന് ക്രമീകരണം തുറക്കുക.",
+  "signup.email": "ഇമെയിലും പാസ്‌വേഡും",
+  "sidebar_right_menu.report": "ഒരു പ്രശ്നം രേഖപ്പെടുത്തുക",
+  "sidebar_right_menu.logout": "ലോഗൗട്ട്",
+  "password_send.link": "അക്കൗണ്ട് നിലവിലുണ്ടെങ്കിൽ, ഒരു പാസ്‌വേഡ് റീസെറ്റ് ഇമെയിൽ ഇതിലേക്ക് അയയ്‌ക്കും:",
+  "password_send.error": "ശരിയായ ഒരു ഇമെയിൽ വിലാസം നൽകുക.",
+  "password_send.description": "നിങ്ങളുടെ പാസ്‌വേഡ് പുനഃസജ്ജമാക്കാൻ, നിങ്ങൾ സൈൻ അപ്പ് ചെയ്യാൻ ഉപയോഗിച്ച ഇമെയിൽ വിലാസം നൽകുക",
+  "password_send.checkInbox": "ദയവായി നിങ്ങളുടെ ഇൻബോക്സ് പരിശോധിക്കുക.",
+  "navbar.more_options.button": "കൂടുതൽ ഓപ്ഷനുകൾ",
+  "web.root.signup_info": "എല്ലാ ടീം ആശയവിനിമയങ്ങളും ഒരിടത്ത്, തിരയാനും എവിടെയും ആക്‌സസ് ചെയ്യാനും കഴിയും"
 }

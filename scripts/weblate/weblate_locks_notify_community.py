@@ -35,6 +35,12 @@ def notificateChannel(project,current_lock):
   values = '{ "text": "#### Shipped Languages '+projects[project]+' is unlocked now in Weblate '+mention[project]+' "}'
   if current_lock['locked']==True:
     values = '{ "text": "##### Shipped Languages '+projects[project]+' is locked now in Weblate '+mention[project]+' "}'
+  current_locks[projects[project]]=current_lock['locked']
+  if (previous_locks[projects[project]]!=current_lock['locked']):
+    print("LOCKED/UNLOCKED")
+    values = '{ "text": "#### Shipped Languages '+projects[project]+' is unlocked now in Weblate '+mention[project]+' "}'
+    if current_lock['locked']==True:
+      values = '{ "text": "##### Shipped Languages '+projects[project]+' is locked now in Weblate '+mention[project]+' "}'
     try:
       headers = {'Content-Type': 'application/json',}
       current_locks[projects[project]]=current_lock['locked']
@@ -61,3 +67,4 @@ for project in projects:
       notificateChannel(project,current_lock)
       current_locks[projects[project]+"-channel_notified"]=now
 json.dump(current_locks,open("locks.txt",'w'))
+
