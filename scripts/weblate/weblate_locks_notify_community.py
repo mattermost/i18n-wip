@@ -57,11 +57,13 @@ def notificateChannel(project,current_lock):
 for project in projects:
   now=datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
   current_lock=w.get('https://translate.mattermost.com/api/components/'+projects[project]+'/lock/')
+  current_locks[projects[project]]=current_lock
   if (previous_locks[projects[project]]!=current_lock):
     notificateChannel(project,current_lock)
     current_locks[projects[project]+"-channel_notified"]=now
   else:
     previous_notification = datetime.strptime(previous_locks[projects[project]+"-channel_notified"], '%Y-%m-%d, %H:%M:%S')
+    current_locks[projects[project]+"-channel_notified"]=previous_locks[projects[project]+"-channel_notified"]
     if (datetime.now()-DT.timedelta(days=7))>previous_notification and current_lock:
       print("reminder for "+str(projects[project]))
       notificateChannel(project,current_lock)
