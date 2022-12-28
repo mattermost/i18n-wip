@@ -781,7 +781,7 @@
   },
   {
     "id": "api.command_channel_header.message.app_error",
-    "translation": "Потребно је доставити текст преко наредбе /заглавље."
+    "translation": "Потребно је доставити текст преко наредбе /header."
   },
   {
     "id": "api.command_channel_header.hint",

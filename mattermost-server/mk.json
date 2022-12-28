@@ -658,5 +658,53 @@
   {
     "id": "api.cloud.teams_limit_reached.restore",
     "translation": "Не може да се врати тимот бидејќи ограничувањето за тимови беше достигнато"
+  },
+  {
+    "id": "api.command.execute_command.format.app_error",
+    "translation": "Наредбата за зборот за активирање недостасува водечката коса црта"
+  },
+  {
+    "id": "api.command.execute_command.failed_resp.app_error",
+    "translation": "Командата со активирач на '{{.Trigger}}' врати одговор {{.Status}}."
+  },
+  {
+    "id": "api.command.execute_command.failed_empty.app_error",
+    "translation": "Командата со активирач на '{{.Trigger}}' врати празен одговор."
+  },
+  {
+    "id": "model.config.is_valid.teammate_name_display.app_error",
+    "translation": "Невалиден приказ на тимски член. Мора да биде 'full_name', 'nickname_full_name' или 'username'."
+  },
+  {
+    "id": "api.command_channel_header.name",
+    "translation": "заглавје"
+  },
+  {
+    "id": "api.command_channel_header.message.app_error",
+    "translation": "Текстот мора да биде наведен со командата /header."
+  },
+  {
+    "id": "api.command_channel_header.hint",
+    "translation": "[текст]"
+  },
+  {
+    "id": "api.command_channel_header.desc",
+    "translation": "Уреди го заглавјето на каналот"
+  },
+  {
+    "id": "api.command_channel_header.channel.app_error",
+    "translation": "Грешка при добавување на сегашниот канал."
+  },
+  {
+    "id": "api.command_away.success",
+    "translation": "Вие сте сега отсутни"
+  },
+  {
+    "id": "api.command_away.name",
+    "translation": "отсутен"
+  },
+  {
+    "id": "api.command_away.desc",
+    "translation": "Подесете го вашиот статус како отсутен"
   }
 ]
