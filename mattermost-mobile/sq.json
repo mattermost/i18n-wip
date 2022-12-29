@@ -526,5 +526,6 @@
   "combined_system_message.joined_channel.many_expanded": "{përdoruesit} dhe {Përdoruesiifundit} ** u bashkuan në kanalin **.",
   "channel_modal.purposeEx": "P.sh .: \"Një kanal për të regjistruar gabime dhe përmirësime\"",
   "channel_modal.headerEx": "P.sh .: \"[Titulli i Lidhjes] (http://example.com)\"",
-  "channel_header.notificationPreference.mention": "Përmendje"
+  "channel_header.notificationPreference.mention": "Përmendje",
+  "apps.error.command.field_missing": "Fusha e kërkuar mungon: `{Emri i fushës}`."
 }
