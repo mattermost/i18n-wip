@@ -46,6 +46,7 @@
   "admin.team_settings.title": "Grupe",
   "admin.user_grid.name": "Emri",
   "api.channel.add_member.added": "{Emri i përdoruesit shtuar} shtuar në kanalin nga {përdoruesi}.",
+  "apps.error.command.field_missing": "Fusha e kërkuar mungon: `{Emri i fushës}`.",
   "archivedChannelMessage": "Jeni duke ndjekur një ** kanal të arkivuar**. Mesazhe të reja nuk mund të postohen.",
   "bot.create_token.close": "Mbyll",
   "bots.manage.edit.title": "Rinovo",
