@@ -143,5 +143,19 @@
   "suggestion.search.public": "Javni kanali",
   "suggestion.search.private": "Privatni kanali",
   "center_panel.archived.closeChannel": "Zatvori ploču kanala",
-  "mobile.participants.you": "(ti)"
+  "mobile.participants.you": "(ti)",
+  "apps.error.form.no_submit": "`submit` nije definirano",
+  "apps.error.form.no_source": "`source` nije definiran.",
+  "apps.error.form.no_lookup": "`lookup` nije definiran.",
+  "apps.error.form.no_form": "`form` nije definiran.",
+  "apps.error.command.unknown_user": "Nepoznat korisnik za polje `{fieldName}`: `{option}`.",
+  "apps.error.command.unknown_channel": "Nepoznat kanal za polje `{fieldName}`: `{option}`.",
+  "apps.error.command.same_user": "Korisnik je ponovljen za polje `{fieldName}`: `{option}`.",
+  "apps.error.command.same_option": "Opcija je ponovljena za polje `{fieldName}`: `{option}`.",
+  "apps.error.command.field_missing": "Nedostaju obavezna polja: `{fieldName}`.",
+  "api.channel.add_member.added": "{username} je dodao/la {addedUsername} u kanal.",
+  "api.channel.add_guest.added": "{username} je dodao/la {addedUsername} u kanal kao gosta.",
+  "apps.error.command.unknown_option": "Nepoznata opcija za polje `{fieldName}`: `{option}`.",
+  "apps.error.command.same_channel": "Kanal je ponovljen za polje `{fieldName}`: `{option}`.",
+  "api.channel.guest_join_channel.post_and_forget": "{username} se pridružio/la kanalu kao gost."
 }
