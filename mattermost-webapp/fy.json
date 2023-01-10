@@ -5358,7 +5358,6 @@
   "workspace_limits.archived_file.archived_compact": "(gearchiveerd)",
   "workspace_limits.archived_file.tooltip_description": "Jouw werkruimte heeft de bestandsopslaglimiet van {storageLimit} bereikt. Om dit opnieuw te bekijken, upgrade naar een betaald plan",
   "workspace_limits.archived_file.tooltip_title": "Haal dit bestand uit het archief door te upgraden",
-  "workspace_limits.banner_upgrade_reason.professional": "Jouw werkruimte heeft de bestandsopslaglimiet voor Professional overschreden. Upgrade naar Enterprise voor onbeperkt gegevensgebruik.",
   "workspace_limits.boards_cards": "Boardskaarten per server",
   "workspace_limits.boards_cards.short": "Kaarten van Boards",
   "workspace_limits.boards_cards.usage": "{actual} van {limit} kaarten ({percent}%)",
@@ -5413,6 +5412,5 @@
   "workspace_limits.teams_limit_reached.upgrade_to_unarchive": "Upgrade om het archiveren ongedaan te maken",
   "workspace_limits.teams_limit_reached.view_upgrade_options": "Bekijk de upgrade-opties",
   "workspace_limits.upgrade": "Upgrade om {planName} datalimieten te vermijden",
-  "workspace_limits.upgrade_professional": "Professional plan data limiet",
   "yourcomputer": "Jo kompjûter"
 }
