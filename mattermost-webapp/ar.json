@@ -3798,7 +3798,6 @@
   "search_header.title5": "معلومات اضافية",
   "search_item.channelArchived": "تم أرشفتها",
   "search_item.direct": "رسالة مباشرة (مع {اسم المستخدم})",
-  "search_item.file_badge.group_message": "رسالة مجموعة",
   "search_item.jump": "الانتقال السريع ل",
   "search_item.thread": "مؤشر الترابط في {}",
   "search_item.thread_direct": "مؤشر الترابط في الرسالة المباشرة مع {}",

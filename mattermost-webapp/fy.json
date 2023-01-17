@@ -4426,7 +4426,6 @@
   "search_header.title5": "Extra informatie",
   "search_item.channelArchived": "Argivearre",
   "search_item.direct": "Direct bericht (met {username})",
-  "search_item.file_badge.group_message": "Groepsbericht",
   "search_item.jump": "Spring",
   "search_item.thread": "Draadje in {channel}",
   "search_item.thread_direct": "Draadje in privé-bericht met {username}",
