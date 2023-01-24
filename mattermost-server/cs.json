@@ -4121,7 +4121,7 @@
   },
   {
     "id": "api.command_shortcuts.desc",
-    "translation": "Zobrazit seznam klávesových zkratek"
+    "translation": "Zobrazí seznam klávesových zkratek"
   },
   {
     "id": "api.command_settings.unsupported.app_error",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "api.command_online.desc",
-    "translation": "Změna stavu na připojený"
+    "translation": "Nastavení stavu online"
   },
   {
     "id": "api.command_offline.success",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "api.command_code.desc",
-    "translation": "Zobrazit text jako blok"
+    "translation": "Zobrazení textu jako bloku kódu"
   },
   {
     "id": "api.command_channel_rename.update_channel.app_error",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "api.command_channel_purpose.desc",
-    "translation": "Změňte popis kanálu"
+    "translation": "Úprava účelu kanálu"
   },
   {
     "id": "api.command_channel_purpose.channel.app_error",
@@ -5533,27 +5533,27 @@
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
-    "translation": "Windows 7+"
+    "translation": "Windows 8.1+"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.mac",
-    "translation": "macOS 10.9+"
+    "translation": "macOS 11+"
   },
   {
     "id": "web.error.unsupported_browser.min_browser_version.safari",
-    "translation": "Verze 12+"
+    "translation": "Verze 14.1+"
   },
   {
     "id": "web.error.unsupported_browser.min_browser_version.firefox",
-    "translation": "Verze 60+"
+    "translation": "Verze 91+"
   },
   {
     "id": "web.error.unsupported_browser.min_browser_version.edge",
-    "translation": "Verze 44+"
+    "translation": "Verze 95+"
   },
   {
     "id": "web.error.unsupported_browser.min_browser_version.chrome",
-    "translation": "Verze 61+"
+    "translation": "Verze 106+"
   },
   {
     "id": "web.error.unsupported_browser.install_guide.mac",
@@ -7322,5 +7322,85 @@
   {
     "id": "Channels",
     "translation": "Kanály"
+  },
+  {
+    "id": "worktemplate.product_teams.feature_release.description.playbook",
+    "translation": "Vytvořte transparentní pracovní postupy napříč vývojovými týmy, abyste zajistili bezproblémový proces vývoje funkcí."
+  },
+  {
+    "id": "api.admin.syncables_error",
+    "translation": "Nepodařilo se přidat uživatele do skupinových týmů a skupinových kanálů"
+  },
+  {
+    "id": "api.command_remote.fetch_status.error",
+    "translation": "Nepodařilo se načíst zabezpečená připojení: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.encrypt_invitation.error",
+    "translation": "Pozvánku se nepodařilo zašifrovat: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.displayname.hint",
+    "translation": "Zobrazovaný název zabezpečeného připojení"
+  },
+  {
+    "id": "api.command_remote.displayname.help",
+    "translation": "Zobrazovaný název zabezpečeného připojení"
+  },
+  {
+    "id": "api.command_remote.desc",
+    "translation": "Pozvat zabezpečené připojení pro komunikaci mezi instancemi Mattermost."
+  },
+  {
+    "id": "api.command_marketplace.unsupported.app_error",
+    "translation": "Příkaz marketplace není na vašem zařízení podporován."
+  },
+  {
+    "id": "api.command_marketplace.name",
+    "translation": "obchod"
+  },
+  {
+    "id": "api.command_marketplace.desc",
+    "translation": "Otevřít obchod"
+  },
+  {
+    "id": "api.cloud.teams_limit_reached.restore",
+    "translation": "Tým nelze obnovit, protože bylo dosaženo limitu týmů"
+  },
+  {
+    "id": "api.cloud.teams_limit_reached.create",
+    "translation": "Tým nelze vytvořit, protože bylo dosaženo limitu týmů"
+  },
+  {
+    "id": "api.cloud.delinquency_email.missing_email_to_trigger",
+    "translation": "Chybějící povinná pole pro odeslání e-mailu o prodlení."
+  },
+  {
+    "id": "web.error.unsupported_browser.no_longer_support",
+    "translation": "Tento prohlížeč již Mattermost nepodporuje"
+  },
+  {
+    "id": "web.incoming_webhook.channel_locked.app_error",
+    "translation": "Tento webhook nemá povoleno přispívat na požadovaný kanál."
+  },
+  {
+    "id": "api.acknowledgement.save.archived_channel.app_error",
+    "translation": "V archivovaném kanálu nemůžete potvrdit potvrzení."
+  },
+  {
+    "id": "api.acknowledgement.delete.deadline.app_error",
+    "translation": "Po 5 minutách již potvrzení nelze smazat."
+  },
+  {
+    "id": "api.acknowledgement.delete.archived_channel.app_error",
+    "translation": "V archivovaném kanálu nelze odebrat potvrzení."
+  },
+  {
+    "id": "Playbooks",
+    "translation": "Scénáře"
+  },
+  {
+    "id": "Boards",
+    "translation": "Nástěnky"
   }
 ]
