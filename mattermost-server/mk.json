@@ -706,5 +706,57 @@
   {
     "id": "api.command_away.desc",
     "translation": "Подесете го вашиот статус како отсутен"
+  },
+  {
+    "id": "api.command.invite_people.desc",
+    "translation": "Прати имејл покана до вашиот Mattermost тим"
+  },
+  {
+    "id": "api.command.execute_command.start.app_error",
+    "translation": "Не беше најдена команда со активирач."
+  },
+  {
+    "id": "api.command.execute_command.not_found.app_error",
+    "translation": "Команда со активирач '{{.Trigger}}' не беше пронајдена. Да пратите порака што почнува со \"/\", пробајте да додадете празно место на почетокот на пораката."
+  },
+  {
+    "id": "app.channel.get_channels.not_found.app_error",
+    "translation": "Не беа најдени канали."
+  },
+  {
+    "id": "app.channel.get_channels.get.app_error",
+    "translation": "Неможе да се превземат каналите."
+  },
+  {
+    "id": "app.channel.get_channel_counts.get.app_error",
+    "translation": "Не може да се превземат бројките на каналот."
+  },
+  {
+    "id": "app.channel.get_by_scheme.app_error",
+    "translation": "Не може да се превземат каналите за наведената шема."
+  },
+  {
+    "id": "app.channel.get_by_name.missing.app_error",
+    "translation": "Каналот не постои."
+  },
+  {
+    "id": "app.channel.get_by_name.existing.app_error",
+    "translation": "Не може да се најдат постојани канали."
+  },
+  {
+    "id": "app.channel.get_all_direct.app_error",
+    "translation": "Не може да се превземат сите директни канали."
+  },
+  {
+    "id": "app.channel.get_all_channels_count.app_error",
+    "translation": "Не може да се избројат сите канали."
+  },
+  {
+    "id": "api.command.invite_people.email_off",
+    "translation": "Имејл не беше подесен, покани не беа испратени"
+  },
+  {
+    "id": "api.command.invite_people.email_invitations_off",
+    "translation": "Имејл поканите се исклучени, не беше пратено"
   }
 ]
