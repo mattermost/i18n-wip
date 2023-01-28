@@ -758,5 +758,41 @@
   {
     "id": "api.command.invite_people.email_invitations_off",
     "translation": "Имејл поканите се исклучени, не беше пратено"
+  },
+  {
+    "id": "api.command_channel_header.update_channel.app_error",
+    "translation": "Грешка при ажурирањето на заглавјето на каналот."
+  },
+  {
+    "id": "api.command_channel_header.permission.app_error",
+    "translation": "Немате соодветни привилегии за да го уредите заглавјето на каналот."
+  },
+  {
+    "id": "api.command.team_mismatch.app_error",
+    "translation": "Не можеше да се ажурираат командите низ тимовите."
+  },
+  {
+    "id": "api.command.invite_people.sent",
+    "translation": "Имејл покани испратени"
+  },
+  {
+    "id": "api.command.invite_people.no_email",
+    "translation": "Молиме наведете еден или повеќе валидни имејл адреси"
+  },
+  {
+    "id": "api.command.invite_people.name",
+    "translation": "покани_луѓе"
+  },
+  {
+    "id": "api.command.invite_people.invite_off",
+    "translation": "Создавање на корисници е исклучено на овој сервер, не се пратија покани"
+  },
+  {
+    "id": "api.command.invite_people.hint",
+    "translation": "[ime@domen.com.mk ...]"
+  },
+  {
+    "id": "api.command.invite_people.fail",
+    "translation": "При праќање на емејл покан(а/и) имаше грешка"
   }
 ]
