@@ -5347,7 +5347,6 @@
   "workspace_limits.archived_file.archived_compact": "(gearchiveerd)",
   "workspace_limits.archived_file.tooltip_description": "Jouw werkruimte heeft de bestandsopslaglimiet van {storageLimit} bereikt. Om dit opnieuw te bekijken, upgrade naar een betaald plan",
   "workspace_limits.archived_file.tooltip_title": "Haal dit bestand uit het archief door te upgraden",
-  "workspace_limits.boards_cards.usage.short": "{actual} / {limit} Kaarten",
   "workspace_limits.file_storage": "Bestandsopslag",
   "workspace_limits.file_storage.short": "Bestanden",
   "workspace_limits.file_storage.short.usage": "{actual} / {limit}",
