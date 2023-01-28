@@ -4863,7 +4863,6 @@
   "widgets.users_emails_input.loading": "Загрузка",
   "widgets.users_emails_input.no_user_found_matching": "Нічога не знойдзена па запыце **{text}**. Увядзіце іх адрасы электроннай пошты, каб запрасіць.",
   "widgets.users_emails_input.valid_email": "Дадаць **{email}**",
-  "workspace_limits.boards_cards.usage": "{actual} з {limit} картак ({percent}%)",
   "workspace_limits.file_storage": "Файлавае сховішча",
   "workspace_limits.file_storage.usage": "{actual} з {limit} ({percent}%)",
   "workspace_limits.message_history": "Гісторыя паведамленняў",
