@@ -7402,5 +7402,81 @@
   {
     "id": "Boards",
     "translation": "Nástěnky"
+  },
+  {
+    "id": "api.command_remote.remotes_not_found",
+    "translation": "Nebyla nalezena žádná zabezpečená připojení."
+  },
+  {
+    "id": "api.command_remote.remote_table_header",
+    "translation": "| Zabezpečené připojení | Zobrazované jméno | ID připojení | Adresa URL webu | Přijatá pozvánka | Online | Poslední ping |"
+  },
+  {
+    "id": "api.command_remote.remote_add_remove.help",
+    "translation": "Přidání/odstranění zabezpečených připojení. Dostupné akce: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.permission_required",
+    "translation": "Ke správě zabezpečených připojení potřebujete oprávnění `{{.Permission}}`."
+  },
+  {
+    "id": "api.command_remote.name.hint",
+    "translation": "Zobrazovaný název zabezpečeného připojení"
+  },
+  {
+    "id": "api.command_remote.name.help",
+    "translation": "Název zabezpečeného připojení"
+  },
+  {
+    "id": "api.command_remote.name",
+    "translation": "zabezpečené připojení"
+  },
+  {
+    "id": "api.command_remote.missing_empty",
+    "translation": "Chybějící nebo prázdný `{{.Arg}}`"
+  },
+  {
+    "id": "api.command_remote.missing_command",
+    "translation": "Chybějící příkaz. Dostupné akce: {{.Actions}}"
+  },
+  {
+    "id": "api.command_remote.invite_summary",
+    "translation": "Externímu správci systému Mattermost odešlete následující pozvánku zašifrovanou 256bitovým algoritmem AES spolu s heslem. K přijetí pozvánky použije příkaz `{{.Command}}` s lomítkem.\n\n```\n{{.Invitation}}\n```\n\n**Zajistěte, aby zabezpečené připojení mohlo přistupovat k vaší instanci Mattermostu prostřednictvím** {{.SiteURL}}"
+  },
+  {
+    "id": "api.command_remote.invite_password.hint",
+    "translation": "Heslo, které se použije k zašifrování pozvánky"
+  },
+  {
+    "id": "api.command_remote.invite_password.help",
+    "translation": "Heslo pozvánky"
+  },
+  {
+    "id": "api.command_remote.invite.help",
+    "translation": "Pozvání k zabezpečenému připojení"
+  },
+  {
+    "id": "api.command_remote.invitation_created",
+    "translation": "Vytvořená pozvánka."
+  },
+  {
+    "id": "api.command_remote.invitation.hint",
+    "translation": "Šifrovaná pozvánka ze zabezpečeného připojení"
+  },
+  {
+    "id": "api.command_remote.invitation.help",
+    "translation": "Pozvánka ze zabezpečeného připojení"
+  },
+  {
+    "id": "api.command_remote.incorrect_password.error",
+    "translation": "Pozvánku se nepodařilo dešifrovat. Nesprávné heslo nebo poškozená pozvánka: {{.Error}}"
+  },
+  {
+    "id": "api.command_remote.hint",
+    "translation": "[akce]"
+  },
+  {
+    "id": "api.command_help.success",
+    "translation": "Mattermost je open source platforma pro bezpečnou komunikaci, spolupráci a orchestraci práce napříč nástroji a týmy.\nMattermost obsahuje tři klíčové nástroje:\n\n**Kanály** - Zůstaňte ve spojení se svým týmem prostřednictvím zpráv 1:1 a skupinových zpráv.\n**[Playbooks](/playbooks)** - Vytvářejte a konfigurujte opakovatelné procesy k dosažení konkrétních a předvídatelných výsledků.\n**[Nástěnky](/boards)** - Spravujte projekty a úkoly ve struktuře nástěnky Kanban, která vašemu týmu pomůže dosáhnout klíčových milníků.\n\n[Zobrazit dokumentaci a průvodce]({{.HelpLink}})"
   }
 ]
