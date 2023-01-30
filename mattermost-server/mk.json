@@ -794,5 +794,49 @@
   {
     "id": "api.command.invite_people.fail",
     "translation": "При праќање на емејл покан(а/и) имаше грешка"
+  },
+  {
+    "id": "api.command_channel_purpose.desc",
+    "translation": "Уреди ја целта на каналот"
+  },
+  {
+    "id": "api.command_channel_purpose.channel.app_error",
+    "translation": "Грешка при превземање на сегашниот канал."
+  },
+  {
+    "id": "api.command_channel_header.update_channel.max_length",
+    "translation": "Внесениот текст надминува лимитот за карактери. Заглабјето на каналот е лимитирано на {{.MaxLength}} карактери."
+  },
+  {
+    "id": "api.command_channel_remove.channel.app_error",
+    "translation": "Грешка при преземање на тековниот канал."
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.max_length",
+    "translation": "Внесениот текст го надминува лимитот на карактери. Целта на каналот е лимитирано на {{.MaxLength}} карактери."
+  },
+  {
+    "id": "api.command_channel_purpose.update_channel.app_error",
+    "translation": "Грешка при ажурирањето на целта на каналот."
+  },
+  {
+    "id": "api.command_channel_purpose.permission.app_error",
+    "translation": "Немате соодветни дозволи за уредување на целта на каналот."
+  },
+  {
+    "id": "api.command_channel_purpose.name",
+    "translation": "цел"
+  },
+  {
+    "id": "api.command_channel_purpose.message.app_error",
+    "translation": "Пораката мора да е наведена со командата /purpose."
+  },
+  {
+    "id": "api.command_channel_purpose.hint",
+    "translation": "[текст]"
+  },
+  {
+    "id": "api.command_channel_purpose.direct_group.app_error",
+    "translation": "Не може да се постави цел за каналите за директни пораки. Kористете /header за да го поставите заглавието наместо."
   }
 ]
