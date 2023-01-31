@@ -838,5 +838,29 @@
   {
     "id": "api.command_channel_purpose.direct_group.app_error",
     "translation": "Не може да се постави цел за каналите за директни пораки. Kористете /header за да го поставите заглавието наместо."
+  },
+  {
+    "id": "api.command_channel_rename.name",
+    "translation": "преименувај"
+  },
+  {
+    "id": "api.command_channel_rename.message.app_error",
+    "translation": "Порака мора да се наведе со /rename командата."
+  },
+  {
+    "id": "api.command_channel_rename.hint",
+    "translation": "[текст]"
+  },
+  {
+    "id": "api.command_channel_rename.direct_group.app_error",
+    "translation": "Не може да се преименуваат каналите за директни пораки."
+  },
+  {
+    "id": "api.command_channel_rename.desc",
+    "translation": "Преименувај го каналот"
+  },
+  {
+    "id": "api.command_channel_rename.channel.app_error",
+    "translation": "Грешка при добавување на сегашниот канал."
   }
 ]
