@@ -282,7 +282,6 @@
   "admin.billing.subscription.freeTrial.lastDay.title": "Ваш бясплатны пробны перыяд заканчваецца сёння",
   "admin.billing.subscription.freeTrial.lessThan3Days.description": "Тэрмін дзеяння вашай бясплатнай пробнай версіі скончыцца праз {daysLeftOnTrial, number} {daysLeftOnTrial, plural, one {дзень} few{дня} other {дзён}}. Дадайце плацёжную інфармацыю, каб і надалей карыстацца перавагамі Cloud Professional.",
   "admin.billing.subscription.freeTrial.title": "У цяперашні час вы карыстаецеся бясплатнай выпрабавальнай версіяй",
-  "admin.billing.subscription.freeTrialDisclaimer": "Ваш рахунак разлічваецца ў канцы плацежнага цыкла на аснове колькасці ўключаных карыстальнікаў. ",
   "admin.billing.subscription.goBackTryAgain": "Вярнуцца і паспрабаваць яшчэ раз",
   "admin.billing.subscription.howItWorks": "Паглядзіце, як працуе білінг",
   "admin.billing.subscription.mostRecentPaymentFailed": "Апошні плацёж не прайшоў",

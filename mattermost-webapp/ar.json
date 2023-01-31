@@ -279,7 +279,6 @@
   "admin.billing.subscription.freeTrial.lastDay.title": "انتهاء الفترة التجريبية المجانية اليوم",
   "admin.billing.subscription.freeTrial.lessThan3Days.description": "سينتهي بك تجريبية مجانية في {daysLeftOnTrial، عدد} {daysLeftOnTrial، الجمع، {يوم واحد} أخرى {أيام}}. إضافة معلومات الدفع لمواصلة التمتع بفوائد سحابة المهنية.",
   "admin.billing.subscription.freeTrial.title": "انت حاليا على نسخة تجريبية مجانية",
-  "admin.billing.subscription.freeTrialDisclaimer": "يتم احتساب الفاتورة في نهاية دورة الفوترة على أساس عدد من المستخدمين تمكين. ",
   "admin.billing.subscription.goBackTryAgain": "العودة والمحاولة مرة أخرى",
   "admin.billing.subscription.howItWorks": "انظر كيف يعمل الفواتير",
   "admin.billing.subscription.mostRecentPaymentFailed": "فشل دفعك الأخير",

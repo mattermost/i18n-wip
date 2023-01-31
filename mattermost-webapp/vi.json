@@ -277,7 +277,6 @@
   "admin.billing.subscription.freeTrial.lastDay.title": "Giai đoạn dùng thử của bạn sẽ kết thúc ngày hôm nay",
   "admin.billing.subscription.freeTrial.lessThan3Days.description": "Thời gian dùng thử miễn phí của bạn sẽ kết thúc sau{daysLeftOnTrial, number} {daysLeftOnTrial, plural, one {day} other {days}}. Thêm thông tin thanh toán để tiếp tục tận hưởng các lợi ích của Cloud Professional.",
   "admin.billing.subscription.freeTrial.title": "Bạn đang trong giai đoạn dùng thử",
-  "admin.billing.subscription.freeTrialDisclaimer": "Hóa đơn của bạn được tính vào cuối chu kỳ thanh toán dựa trên số lượng người dùng đã bật. ",
   "admin.billing.subscription.goBackTryAgain": "Quay lại và thử lại",
   "admin.billing.subscription.howItWorks": "Xem cách thanh toán hoạt động",
   "admin.billing.subscription.mostRecentPaymentFailed": "Thanh toán gần đây nhất của bạn không thành công",

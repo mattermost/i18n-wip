@@ -311,7 +311,6 @@
   "admin.billing.subscription.freeTrial.lastDay.title": "Je gratis proefperiode eindigt vandaag",
   "admin.billing.subscription.freeTrial.lessThan3Days.description": "Je gratis proefperiode zal eindigen in {daysLeftOnTrial, number} {daysLeftOnTrial, plural, one {dag} other {dagen}}. Voeg betalingsinformatie toe om verder te genieten van de voordelen van Cloud Professional.",
   "admin.billing.subscription.freeTrial.title": "Je hebt momenteel een gratis proefversie",
-  "admin.billing.subscription.freeTrialDisclaimer": "Jouw factuur wordt aan het einde van de factureringscyclus berekend op basis van het aantal ingeschakelde gebruikers. ",
   "admin.billing.subscription.goBackTryAgain": "Keer terug en probeer opnieuw",
   "admin.billing.subscription.howItWorks": "Meer info over de facturatie",
   "admin.billing.subscription.mostRecentPaymentFailed": "Je meest recente betaling is niet gelukt",

@@ -311,7 +311,6 @@
   "admin.billing.subscription.freeTrial.lastDay.title": "आपका नि:शुल्क परीक्षण आज समाप्त हो रहा है",
   "admin.billing.subscription.freeTrial.lessThan3Days.description": "आपका नि:शुल्क परीक्षण {daysLeftOnTrial, number} {daysLeftOnTrial, plural, one {day} other {days}} में समाप्त हो जाएगा। Cloud Professional के लाभों का आनंद लेना जारी रखने के लिए भुगतान जानकारी जोड़ें।",
   "admin.billing.subscription.freeTrial.title": "आप वर्तमान में नि:शुल्क परीक्षण पर हैं",
-  "admin.billing.subscription.freeTrialDisclaimer": "आपके बिल की गणना बिलिंग चक्र के अंत में सक्षम उपयोगकर्ताओं की संख्या के आधार पर की जाती है। ",
   "admin.billing.subscription.goBackTryAgain": "वापस जाएं और पुन: प्रयास करें",
   "admin.billing.subscription.howItWorks": "देखें कि बिलिंग कैसे काम करती है",
   "admin.billing.subscription.mostRecentPaymentFailed": "आपका हाल का भुगतान विफल रहा",
