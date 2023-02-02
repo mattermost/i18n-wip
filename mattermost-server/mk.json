@@ -862,5 +862,85 @@
   {
     "id": "api.command_channel_rename.channel.app_error",
     "translation": "Грешка при добавување на сегашниот канал."
+  },
+  {
+    "id": "api.command_dnd.desc",
+    "translation": "\"Не вознемирувај\" ги оневозможува известувањата за десктоп и мобилен."
+  },
+  {
+    "id": "api.command_dnd.success",
+    "translation": "\"Не вознемирувај\" е вклучено. Нема да добивате известувања за десктоп или мобилен додека не се исклучи \"Не вознемирувај\"."
+  },
+  {
+    "id": "api.command_dnd.name",
+    "translation": "нв"
+  },
+  {
+    "id": "api.command_custom_status.success",
+    "translation": "Вашиот статус е подесен на „{{.EmojiName}} {{.StatusMessage}}“. Можете да го промените вашиот статус од статус поповерот во насловот на страничната лента на каналот."
+  },
+  {
+    "id": "api.command_custom_status.name",
+    "translation": "статус"
+  },
+  {
+    "id": "api.command_custom_status.desc",
+    "translation": "Подесете или исчистете го вашиот статус"
+  },
+  {
+    "id": "api.command_custom_status.clear.success",
+    "translation": "Вашиот статус е исчистен."
+  },
+  {
+    "id": "api.command_custom_status.clear.app_error",
+    "translation": "Грешка при чистење на статусот."
+  },
+  {
+    "id": "api.command_custom_status.app_error",
+    "translation": "Грешка при подесување на статусот."
+  },
+  {
+    "id": "api.command_collapse.success",
+    "translation": "Линкови со слики сега стандардно се склопуваат"
+  },
+  {
+    "id": "api.command_collapse.name",
+    "translation": "склопи"
+  },
+  {
+    "id": "api.command_collapse.desc",
+    "translation": "Вклучете автоматско склопување на прегледи на слики"
+  },
+  {
+    "id": "api.command_code.name",
+    "translation": "код"
+  },
+  {
+    "id": "api.command_code.message.app_error",
+    "translation": "Порака мора да се наведе со /code командата."
+  },
+  {
+    "id": "api.command_code.hint",
+    "translation": "[текст]"
+  },
+  {
+    "id": "api.command_code.desc",
+    "translation": "Прикажете го текстот како коден блок"
+  },
+  {
+    "id": "api.command_channel_rename.update_channel.app_error",
+    "translation": "Грешка при ажурирање на тековниот канал."
+  },
+  {
+    "id": "api.command_channel_rename.too_short.app_error",
+    "translation": "Името на каналот мора да биде {{.Length}} или повеќе карактери."
+  },
+  {
+    "id": "api.command_channel_rename.too_long.app_error",
+    "translation": "Името на каналот мора да биде {{.Length}} или помалку карактери."
+  },
+  {
+    "id": "api.command_channel_rename.permission.app_error",
+    "translation": "Немате соодветни дозволи за преименување на каналот."
   }
 ]
