@@ -333,7 +333,6 @@
   "admin.billing.subscription.planDetails.features.incidentCollaboration": "Spolupráce na incidentu",
   "admin.billing.subscription.planDetails.features.ldapSync": "Synchronizace skupin AD/LDAP s týmy a kanály",
   "admin.billing.subscription.planDetails.features.ldapUserSync": "Synchronizace uživatelů AD/LDAP",
-  "admin.billing.subscription.planDetails.features.limitedBoardCards": "Omezeno na {limit} karet desek na pracovní prostor",
   "admin.billing.subscription.planDetails.features.limitedFileStorage": "Omezeno na {limit} ukládání souborů",
   "admin.billing.subscription.planDetails.features.limitedMessageHistory": "Omezeno na historii zpráv {limit} zpráv",
   "admin.billing.subscription.planDetails.features.mfa": "Vícefaktorová Autentizace",

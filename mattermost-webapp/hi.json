@@ -328,7 +328,6 @@
   "admin.billing.subscription.planDetails.features.incidentCollaboration": "घटना सहयोग",
   "admin.billing.subscription.planDetails.features.ldapSync": "AD/LDAP समूह टीमों और चैनलों के साथ समन्वयित करता है",
   "admin.billing.subscription.planDetails.features.ldapUserSync": "AD/LDAP उपयोगकर्ता सिंक्रनाइज़ेशन",
-  "admin.billing.subscription.planDetails.features.limitedBoardCards": "प्रति कार्यस्थान {limit} बोर्ड कार्ड तक सीमित",
   "admin.billing.subscription.planDetails.features.limitedFileStorage": "{limit} फ़ाइल संग्रहण तक सीमित",
   "admin.billing.subscription.planDetails.features.limitedMessageHistory": "{limit} संदेशों के संदेश इतिहास तक सीमित",
   "admin.billing.subscription.planDetails.features.mfa": "बहु-कारक प्रमाणीकरण (MFA)",
