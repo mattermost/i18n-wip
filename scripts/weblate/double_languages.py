@@ -27,8 +27,7 @@ for project in projects:
   page=1
   next='https://translate.mattermost.com/api/components/mattermost/'+projects[project]['shipped']+'/translations/'
   shippedProjects=w.get(next)
-  lastpage=math.ceil(shippedProjects['count']/20)
-  
+  lastpage=math.ceil(shippedProjects['count']/20)  
   while page<=lastpage:
     page=page+1
     for shippedLanguage in shippedProjects['results']:
