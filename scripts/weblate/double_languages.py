@@ -16,18 +16,18 @@ projects['webapp']['shipped']='mattermost-webapp_master'
 projects['webapp']['wip']='mattermost-webapp-wip'
 projects['glossary']['shipped']='glossary'
 projects['glossary']['wip']='glossary'
+
 current_notification_state={"state":"false"}
 previous_notification_state= json.load(open("/home/tom/scripts/mattermost/notification_state.txt"))
 
 for project in projects:
   shippedLanguages={}
   WIPLanguages={}
-### GETTING THE SHIPPED LANGUAGES ###
-  #print('GETTING SHIPPED LANGUAGES FOR '+project)
   page=1
   next='https://translate.mattermost.com/api/components/mattermost/'+projects[project]['shipped']+'/translations/'
   shippedProjects=w.get(next)
   lastpage=math.ceil(shippedProjects['count']/20)  
+
   while page<=lastpage:
     page=page+1
     for shippedLanguage in shippedProjects['results']:
@@ -36,8 +36,7 @@ for project in projects:
       shippedLanguageCode=shippedLanguage['language']['code']
       shippedLanguageName=shippedLanguage['language']['name']
       shippedLanguages[shippedLanguageCode]=shippedLanguageName
-### GETTING THE WIP LANGUAGES ###
-  #print('GETTING WIP LANGUAGES FOR '+project)
+
   page=1
   next='https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/translations/'
   WIPProjects=w.get(next)
@@ -52,13 +51,8 @@ for project in projects:
       WIPLanguageCode=WIPLanguage['language']['code']
       WIPLanguageName=WIPLanguage['language']['name']
       WIPLanguages[WIPLanguageCode]=WIPLanguageName
-### GETTING REMOVING THE WIP LANGUAGES THAT ARE ALREADY IN SHIPPED ###
-  #print("*********************************")
 
   for languageToRemove in shippedLanguages.keys() & WIPLanguages.keys():
-    print('REMOVING LANGUAGE '+languageToRemove +' FOR '+project)
-    print(shippedLanguages.keys());
-    print(WIPLanguages.keys());
     current_notification_state['state']="true"
 
     if (previous_notification_state['state']=="false"):
