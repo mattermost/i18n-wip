@@ -18,7 +18,7 @@ projects['glossary']['shipped']='glossary'
 projects['glossary']['wip']='glossary'
 
 current_notification_state={"state":"false"}
-previous_notification_state= json.load(open("/home/tom/scripts/mattermost/notification_state.txt"))
+previous_notification_state= json.load(open("./notification_state.txt"))
 
 for project in projects:
   shippedLanguages={}
@@ -73,4 +73,4 @@ for project in projects:
           print('HTTP error occurred while locking '+projects[project]['wip']+': '+http_err)
       except Exception as err:
           print('Other error occurred while locking : '+ projects[project]['wip']+' '+err.message+' '+err.args)
-json.dump(current_notification_state,open("/home/tom/scripts/mattermost/notification_state.txt",'w'))
+json.dump(current_notification_state,open("./notification_state.txt",'w'))
