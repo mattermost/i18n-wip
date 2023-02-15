@@ -45,12 +45,9 @@ def notificateChannel(project,current_lock):
     print(f'HTTP error occurred while notifying Mattermost-channel: {http_err}')
   except Exception as err:
     print(f'Other error occurred while notifying Mattermost-channel: {err.message} {err.args}')
-  else:
-    print('Success!')
 
 for project in projects:
   now=datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
-  print(now)
   current_lock=w.get('https://translate.mattermost.com/api/components/'+projects[project]+'/lock/')
   current_locks[projects[project]]=current_lock
   if (previous_locks[projects[project]]!=current_lock):

@@ -6929,14 +6929,6 @@
     "translation": "AD/LDAP सिंक्रोनाइज़ेशन जॉब टाइमआउट पर पहुँच गया।"
   },
   {
-    "id": "ent.jobs.do_job.batch_start_timestamp.parse_error",
-    "translation": "संदेश निर्यात कार्य ExportFromTimestamp पार्स नहीं कर सका।"
-  },
-  {
-    "id": "ent.jobs.do_job.batch_size.parse_error",
-    "translation": "संदेश निर्यात कार्य बैच आकार को पार्स नहीं कर सका।"
-  },
-  {
     "id": "ent.id_loaded.license_disable.app_error",
     "translation": "आपका लाइसेंस आईडी लोडेड पुश नोटिफिकेशन का समर्थन नहीं करता है।"
   },

@@ -4540,14 +4540,6 @@
     "translation": "Дасягнуты тайм-аўт задання сінхранізацыі AD/LDAP."
   },
   {
-    "id": "ent.jobs.do_job.batch_start_timestamp.parse_error",
-    "translation": "Не атрымалася разабраць заданне экспарту паведамлення ExportFromTimestamp."
-  },
-  {
-    "id": "ent.jobs.do_job.batch_size.parse_error",
-    "translation": "Не ўдалося прааналізаваць заданне экспарту паведамлення BatchSize."
-  },
-  {
     "id": "ent.id_loaded.license_disable.app_error",
     "translation": "Ваша ліцэнзія не падтрымлівае push-паведамлення з ідэнтыфікатарам."
   },
