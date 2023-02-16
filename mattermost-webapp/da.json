@@ -550,7 +550,6 @@
   "admin.log.locationTitle": "Fil Log Bibliotek:",
   "admin.log.logLevel": "Log Niveau",
   "admin.logs.bannerDesc": "For at se brugere ud fra Bruger-ID eller Token-ID, skal du gå til Rapportering > Brugere og indsætte ID til søgning filter.",
-  "admin.logs.reload": "Genindlæs",
   "admin.manage_roles.additionalRoles": "Vælg yderligere tilladelser til kontoen. [Læs mere om roller og tilladelser](!https://about.mattermost.com/default-permissions).",
   "admin.manage_roles.allowUserAccessTokens": "Tillad, at denne konto til at generere [personlig adgang tokens](!https://about.mattermost.com/default-user-access-tokens).",
   "admin.manage_roles.allowUserAccessTokensDesc": "Fjernes denne tilladelse isletter det ikke eksisterende tokens. For at slette dem, skal du gå til brugerens \"Administrer Tokens\" menu.",

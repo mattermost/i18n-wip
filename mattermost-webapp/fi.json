@@ -572,7 +572,6 @@
   "admin.log.levelTitle": "Konsolilokin taso:",
   "admin.log.locationTitle": "Lokitiedoston sijainti:",
   "admin.log.logLevel": "Lokitaso",
-  "admin.logs.reload": "Lataa uudestaan",
   "admin.manage_roles.allowUserAccessTokensDesc": "Tämän oikeuden poistaminen ei poista olemassaolevia tokeneita. Poistaaksesi ne, mene käyttäjän Tokenien hallinta -valikkoon.",
   "admin.manage_roles.postAllPublicRole": "Pääsy kirjoittamaan kaikille Mattermostin julkisille kanaville.",
   "admin.manage_roles.postAllRole": "Pääsy kirjoittamaan kaikille Mattermostin kanaville mukaanlukien suoraviestit.",
