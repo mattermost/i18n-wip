@@ -23,13 +23,10 @@ previous_notification_state= json.load(open("./notification_state.txt"))
 for project in projects:
   shippedLanguages={}
   WIPLanguages={}
-  page=1
-  next='https://translate.mattermost.com/api/components/mattermost/'+projects[project]['shipped']+'/translations/'
-  shippedProjects=w.get(next)
-  lastpage=math.ceil(shippedProjects['count']/20)  
-
-  while page<=lastpage:
-    page=page+1
+  page='https://translate.mattermost.com/api/components/mattermost/'+projects[project]['shipped']+'/translations/'
+  while page :
+    shippedProjects=w.get(page)
+    page=shippedProjects['next']
     for shippedLanguage in shippedProjects['results']:
       if shippedLanguage['language']['code']=='en':
         continue
@@ -37,14 +34,11 @@ for project in projects:
       shippedLanguageName=shippedLanguage['language']['name']
       shippedLanguages[shippedLanguageCode]=shippedLanguageName
 
-  page=1
-  next='https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/translations/'
-  WIPProjects=w.get(next)
-  lastpage=math.ceil(WIPProjects['count']/20)
-  while page<=lastpage:
-    next='https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/translations/?page='+str(page)
-    WIPProjects=w.get(next)
-    page=page+1
+  
+  page='https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/translations/'
+  while page :
+    WIPProjects=w.get(page)
+    page=WIPProjects['next']
     for WIPLanguage in WIPProjects['results']:
       if WIPLanguage['language']['code']=='en':
         continue
@@ -68,7 +62,6 @@ for project in projects:
           print('Other error occurred while notifying Mattermost channel: '+err.message+' '+err.args)
       try:
           responseWeblate=w.request('post','https://translate.mattermost.com/api/components/i18n-wip/'+projects[project]['wip']+'/lock/',{'lock':True})
-          #responseWeblate.raise_for_status()
       except HTTPError as http_err:
           print('HTTP error occurred while locking '+projects[project]['wip']+': '+http_err)
       except Exception as err:
