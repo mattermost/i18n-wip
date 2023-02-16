@@ -1264,7 +1264,6 @@
   "admin.log.locationTitle": "Каталог з файлам часопіса:",
   "admin.log.logLevel": "Узровень вядзення часопіса",
   "admin.logs.bannerDesc": "Каб знайсці карыстальнікаў па User ID або Token ID, перайдзіце ў раздзел \"Кіраванне карыстальнікамі > Карыстальнікі\" і ўстаўце ID у пошукавы фільтр.",
-  "admin.logs.prev": "Папярэдняя",
   "admin.logs.title": "Часопіс сервера",
   "admin.manage_roles.additionalRoles": "Выберыце дадатковыя дазволы для ўліковага запісу. [Больш падрабязна аб ролях і дазволах] (!https://developers.mattermost.com/integrate/admin-guide/admin-personal-access-token/).",
   "admin.manage_roles.allowUserAccessTokens": "Дазволіць гэтага ўліковага запісу ствараць [токены асабістага доступу] (!https://developers.mattermost.com/integrate/admin-guide/admin-personal-access-token/).",
