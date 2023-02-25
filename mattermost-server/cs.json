@@ -7478,5 +7478,13 @@
   {
     "id": "api.command_help.success",
     "translation": "Mattermost je open source platforma pro bezpečnou komunikaci, spolupráci a orchestraci práce napříč nástroji a týmy.\nMattermost obsahuje tři klíčové nástroje:\n\n**Kanály** - Zůstaňte ve spojení se svým týmem prostřednictvím zpráv 1:1 a skupinových zpráv.\n**[Playbooks](/playbooks)** - Vytvářejte a konfigurujte opakovatelné procesy k dosažení konkrétních a předvídatelných výsledků.\n**[Nástěnky](/boards)** - Spravujte projekty a úkoly ve struktuře nástěnky Kanban, která vašemu týmu pomůže dosáhnout klíčových milníků.\n\n[Zobrazit dokumentaci a průvodce]({{.HelpLink}})"
+  },
+  {
+    "id": "api.command_custom_status.clear.app_error",
+    "translation": "Chyba při mazání stavu"
+  },
+  {
+    "id": "api.command_custom_status.app_error",
+    "translation": "Chyba při nastavování stavu"
   }
 ]
