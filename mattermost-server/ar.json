@@ -1394,5 +1394,41 @@
   {
     "id": "api.command_settings.name",
     "translation": "command"
+  },
+  {
+    "id": "api.back_to_app",
+    "translation": "رجوع إلى {{.SiteName}}"
+  },
+  {
+    "id": "api.admin.syncables_error",
+    "translation": "فشل في إضافة المستخدم إلى مجموعات الفرق وقنوات المجموعة"
+  },
+  {
+    "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
+    "translation": "فشلت إعادة تعيين حقل AuthData إلى البريد الإلكتروني."
+  },
+  {
+    "id": "api.acknowledgement.save.archived_channel.app_error",
+    "translation": "لا يمكنك الإقرار في قناة مؤرشفة."
+  },
+  {
+    "id": "api.acknowledgement.delete.deadline.app_error",
+    "translation": "لا يمكنك حذف إقرار بعد مرور 5 دقائق."
+  },
+  {
+    "id": "api.acknowledgement.delete.archived_channel.app_error",
+    "translation": "لا يمكنك إزالة الإقرار عن قناة مؤرشفة."
+  },
+  {
+    "id": "Playbooks",
+    "translation": "كتيبات العمل (Playbooks)"
+  },
+  {
+    "id": "Channels",
+    "translation": "القنوات"
+  },
+  {
+    "id": "Boards",
+    "translation": "المساحات"
   }
 ]
