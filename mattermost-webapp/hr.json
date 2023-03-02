@@ -136,6 +136,7 @@
   "add_groups_to_team.title": "Dodaj nove grupe u tim {teamName}",
   "add_incoming_webhook.cancel": "Odustani",
   "add_incoming_webhook.channel": "Kanal",
+  "add_incoming_webhook.channelLocked": "Prikvači na ovaj kanal",
   "add_incoming_webhook.channelRequired": "Mora se zadati valjani kanal",
   "add_incoming_webhook.description": "Opis",
   "add_incoming_webhook.displayName": "Naslov",
