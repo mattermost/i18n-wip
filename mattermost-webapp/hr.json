@@ -200,7 +200,7 @@
   "admin.billing.company_info_edit.sameAsBillingAddress": "Isto kao i adresa za naplatu",
   "admin.billing.company_info_edit.save": "Spremi podatke",
   "admin.billing.company_info_edit.title": "Uredi podatke poduzeća",
-  "admin.billing.history.allPaymentsShowHere": "Ovdje će se prikazati sva tvoja mjesečna plaćanja",
+  "admin.billing.history.allPaymentsShowHere": "Ovdje će se prikazati svi tvoji računi",
   "admin.billing.history.date": "Datum",
   "admin.billing.history.description": "Opis",
   "admin.billing.history.fractionalUsers": "{fractionalUsers} korisnici",
