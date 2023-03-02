@@ -654,5 +654,9 @@
   {
     "id": "api.channel.create_default_channels.town_square",
     "translation": "Gradski trg"
+  },
+  {
+    "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
+    "translation": "Greška u poništavanju predmemorije"
   }
 ]
