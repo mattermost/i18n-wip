@@ -2797,7 +2797,6 @@
   "create_team.team_url.unavailable": "يتم أخذ هذه URL أو غير متوفر. يرجى المحاولة مرة أخرى.",
   "create_team.team_url.webAddress": "اختيار الموقع الإلكتروني ل فريقك الجديد:",
   "custom_emoji.header": "رموز تعبيرية مخصص",
-  "custom_status.expiry.date_picker.title": "تاريخ",
   "custom_status.expiry.time_picker.title": "وقت",
   "custom_status.expiry.until": "إلى غاية",
   "custom_status.expiry_dropdown.choose_date_and_time": "اختر التاريخ والوقت",

@@ -2938,7 +2938,6 @@
   "create_team.team_url.unavailable": "Гэты URL заняты або недаступны. Калі ласка, паспрабуйце іншы.",
   "create_team.team_url.webAddress": "Абярыце адрас вашай новай каманды:",
   "custom_emoji.header": "Карыстальніцкія смайлы",
-  "custom_status.expiry.date_picker.title": "Дата",
   "custom_status.expiry.time_picker.title": "Час",
   "custom_status.expiry.until": "Да",
   "custom_status.expiry_dropdown.choose_date_and_time": "Выберыце дату і час",
