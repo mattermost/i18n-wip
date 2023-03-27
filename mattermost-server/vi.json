@@ -1729,7 +1729,7 @@
   },
   {
     "id": "model.group.name.app_error",
-    "translation": " tên tài sản cho nhóm không hợp lệ"
+    "translation": "tên thuộc tính cho nhóm không hợp lệ."
   },
   {
     "id": "model.group.display_name.app_error",
@@ -3853,27 +3853,27 @@
   },
   {
     "id": "api.post.send_notifications_and_forget.push_image_only",
-    "translation": "đã đính kèm một tập tin."
+    "translation": " đã tải file lên."
   },
   {
     "id": "api.post.send_notifications_and_forget.push_general_message",
-    "translation": "đã đăng một tin nhắn."
+    "translation": " đã nhắn tin."
   },
   {
     "id": "api.post.send_notifications_and_forget.push_explicit_mention",
-    "translation": "đề cập đến bạn."
+    "translation": " đề cập đến bạn."
   },
   {
     "id": "api.post.send_notification_and_forget.push_comment_on_thread",
-    "translation": "đã bình luận về một chủ đề bạn tham gia."
+    "translation": " đã bình luận về một chủ đề bạn tham gia."
   },
   {
     "id": "api.post.send_notification_and_forget.push_comment_on_post",
-    "translation": "đã bình luận vào bài đăng của bạn."
+    "translation": " đã bình luận vào bài đăng của bạn."
   },
   {
     "id": "api.post.send_notification_and_forget.push_channel_mention",
-    "translation": "thông báo cho kênh."
+    "translation": " thông báo của kênh."
   },
   {
     "id": "api.post.patch_post.can_not_update_post_in_deleted.error",
@@ -5486,5 +5486,25 @@
   {
     "id": "Boards",
     "translation": "Bảng"
+  },
+  {
+    "id": "api.admin.add_certificate.parseform.app_error",
+    "translation": "Lỗi trong quá trình đọc request dữ liệu multiform"
+  },
+  {
+    "id": "api.acknowledgement.save.archived_channel.app_error",
+    "translation": "Bạn không thể đăng nội dung trong kênh đã lưu trữ."
+  },
+  {
+    "id": "api.acknowledgement.delete.deadline.app_error",
+    "translation": "Bạn không thể xoá nội dung sau 5 phút."
+  },
+  {
+    "id": "api.acknowledgement.delete.archived_channel.app_error",
+    "translation": "Bạn không thể gỡ nội dung trong kênh đã lưu trữ."
+  },
+  {
+    "id": "Playbooks",
+    "translation": "Thư viện"
   }
 ]

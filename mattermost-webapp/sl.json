@@ -447,7 +447,6 @@
   "admin.log.enableDiagnosticsDescription": "Omogočite to funkcijo, da izboljšate kakovost in zmogljivost aplikacije Mattermost, tako da pošljete poročanje o napakah in diagnostične informacije podjetju Mattermost, Inc. Preberite naš [privacy policy](!https://about.mattermost.com/default-privacy-policy/) za več informacij.",
   "admin.log.locationPlaceholder": "Vnesite lokacijo datoteke",
   "admin.logs.bannerDesc": "Če želite poiskati uporabnike z ID-jem uporabnika ali z ID-jem žetona, pojdite v Poročanje > Uporabniki in prilepite ID v iskalni filter.",
-  "admin.logs.reload": "Osveži",
   "admin.manage_roles.additionalRoles": "Izberite dodatna dovoljenja za račun. [Read more about roles and permissions](!https://about.mattermost.com/default-permissions).",
   "admin.manage_roles.allowUserAccessTokens": "Dovoli temu računu, da ustvari [personal access tokens](!https://about.mattermost.com/default-user-access-tokens).",
   "admin.manage_roles.allowUserAccessTokensDesc": "Če odstranite to dovoljenje, ne izbrišete obstoječih žetonov. Če jih želite izbrisati, pojdite v meni Upravljanje z žetoni uporabnika.",
