@@ -10,9 +10,9 @@ from datetime import datetime
 import datetime as DT
 
 projects={'mobile':{},'server':{},'webapp':{},'desktop':{},'glossary':{}}
-projects['mobile']='mattermost/mattermost-mobile-v2'
-projects['server']='mattermost/mattermost-server_master'
-projects['webapp']='mattermost/mattermost-webapp_master'
+projects['mobile']='mattermost/mattermost-mobile_master'
+projects['server']='mattermost/mattermost-server-monorepo'
+projects['webapp']='mattermost/webapp_monorepo'
 projects['desktop']='mattermost/mattermost-desktop'
 projects['focalboard']='focalboard/webapp'
 projects['playbooks']='playbooks/webapp'
