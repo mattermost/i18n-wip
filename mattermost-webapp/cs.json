@@ -2216,7 +2216,6 @@
   "modal.manual_status.message_dnd": "Chcete svůj stav změnit na \"Nerušit\"?",
   "modal.manual_status.message_offline": "Chcete svůj stav změnit na \"Offline\"?",
   "modal.manual_status.message_online": "Chcete svůj stav změnit na \"Online\"?",
-  "more_channels.createClick": "Pro vytvoření nového kanálu klikněte na tlačítko 'Vytvořit Nový Kanál'",
   "more_channels.next": "Další",
   "more_channels.noMore": "Žádné další kanály dostupné pro připojení",
   "more_channels.prev": "Předchozí",

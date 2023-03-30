@@ -1384,8 +1384,6 @@
   "modal.manual_status.title_away": "Tilasi on \"Away\"",
   "modal.manual_status.title_offline": "Tilasi on \"Offline\"",
   "modal.manual_status.title_ooo": "Tilasi on \"Poissa Toimistolta\"",
-  "more_channels.createClick": "Klikkaa 'Luo uusi kanava' luodaksesi kanavan",
-  "more_channels.joining": "Liitytään...",
   "more_channels.show_public_channels": "Uusi julkinen kanava",
   "more_channels.title": "Lisää kanavia",
   "more_direct_channels.title": "Suoraviestit",

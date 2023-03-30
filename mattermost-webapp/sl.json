@@ -958,8 +958,6 @@
   "modal.manual_status.title_dnd": "Vaše stanje je nastavljeno na \"Ne moti\"",
   "modal.manual_status.title_offline": "Vaše stanje je nastavljeno na \"Brez povezave\"",
   "modal.manual_status.title_ooo": "Vaše stanje je nastavljeno na \"Izven pisarne\"",
-  "more_channels.createClick": "Če želite ustvariti novega, kliknite »Ustvari nov kanal«",
-  "more_channels.joining": "Pridruževanje...",
   "more_channels.noMore": "Ni več kanalov za pridružitev",
   "more_channels.title": "Več kanalov",
   "more_direct_channels.directchannel.deactivated": "{displayname} - Onemogočen",
