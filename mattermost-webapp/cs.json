@@ -954,6 +954,8 @@
   "admin.experimental.timeBetweenUserTypingUpdatesMilliseconds.example": "Např.: \"5000\"",
   "admin.experimental.timeBetweenUserTypingUpdatesMilliseconds.title": "Časový limit pro oznámení o aktivitě uživatele:",
   "admin.experimental.useChannelInEmailNotifications.desc": "Pokud je zapnuto, název kanálu a týmu se zobrazí v předmětu e-mailového oznámení. Užitečné pro servery používající pouze jeden tým. Pokud je hodnota false, v předmětu e-mailového oznámení se zobrazí pouze název týmu.",
+  "admin.experimental.useChannelInEmailNotifications.title": "Použití názvu kanálu v e-mailových oznámeních:",
+  "admin.experimental.userStatusAwayTimeout.desc": "Toto nastavení určuje počet sekund, po kterých se indikátor stavu uživatele změní na \"Away\", když je mimo Mattermost.",
   "admin.experimental.userStatusAwayTimeout.example": "Např.: \"300\"",
   "admin.false": "nepravda",
   "admin.feature_flags.flag": "Značka",
