@@ -957,6 +957,7 @@
   "admin.experimental.useChannelInEmailNotifications.title": "Použití názvu kanálu v e-mailových oznámeních:",
   "admin.experimental.userStatusAwayTimeout.desc": "Toto nastavení určuje počet sekund, po kterých se indikátor stavu uživatele změní na \"Away\", když je mimo Mattermost.",
   "admin.experimental.userStatusAwayTimeout.example": "Např.: \"300\"",
+  "admin.experimental.userStatusAwayTimeout.title": "Čas nečinnosti:",
   "admin.false": "nepravda",
   "admin.feature_flags.flag": "Značka",
   "admin.feature_flags.flag_value": "Hodnota",
