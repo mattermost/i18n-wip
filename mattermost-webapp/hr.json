@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Broj gradnje:",
   "about.cloudEdition": "Oblak",
-  "about.copyright": "Copyright 2015. – {currentYear} Mattermost, Inc. Sva prava pridržana",
+  "about.copyright": "Autorska prava 2015. – {currentYear}. Mattermost, Inc. Sva prava pridržana",
   "about.database": "Baza podataka:",
   "about.date": "Datum gradnje:",
   "about.dbversion": "Verzija sheme baze podataka:",
@@ -37,7 +37,7 @@
   "accessibility.button.link": "poveznica",
   "accessibility.button.numbered_list": "brojčani popis",
   "accessibility.button.preview": "pregled",
-  "accessibility.button.quote": "navodnici",
+  "accessibility.button.quote": "citat",
   "accessibility.button.strike": "prekriži",
   "accessibility.sections.centerContent": "glavno područje popisa poruka",
   "accessibility.sections.centerFooter": "dodatno područje unosa poruke",
