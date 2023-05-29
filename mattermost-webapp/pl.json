@@ -1,1 +1,14 @@
-{}
+{
+  "admin.cluster.status_table.reload": " Przeładuj stan klastra",
+  "admin.data_retention.form.fileRetention": "Przechowywanie plików",
+  "admin.ldap.baseTitle": "Podstawowy DN:",
+  "admin.ldap.portTitle": "Port AD/LDAP:",
+  "admin.office365.directoryIdTitle": "Identyfikator katalogu (dzierżawcy):",
+  "admin.permissions.group.guest_use_group_mentions.name": "Wzmianki w Grupie",
+  "admin.permissions.permission.use_group_mentions.name": "Wzmianki w Grupie",
+  "admin.permissions.sysconsole_section_authentication_openid.name": "Połączenie OpenID",
+  "apps.error.parser.no_argument_pos_x": "Nie można zidentyfikować argumentu.",
+  "marketplace_command.disabled": "Sklep jest wyłączony. W celu uzyskania szczegółowych informacji należy skontaktować się z administratorem systemu.",
+  "navbar_dropdown.userGroups.modal.titleAdminPreTrial": "Wypróbuj nieograniczoną liczbę grup użytkowników dzięki bezpłatnej wersji próbnej",
+  "search_list_option.exclude": "Wyklucz wyszukiwane hasła"
+}
