@@ -28,5 +28,6 @@
   "search_list_option.exclude": "Wyklucz wyszukiwane hasła",
   "suggestion.mention.groups": "Wzmianki w Grupie",
   "suggestion.user.isCurrent": "(ty)",
-  "upsell_advantages.openid": "Połączenie OpenID"
+  "upsell_advantages.openid": "Połączenie OpenID",
+  "user.settings.notifications.sounds_info": "Dźwięki powiadomień są dostępne w przeglądarkach Firefox, Edge, Safari, Chrome i aplikacjach desktopotych Mattermost."
 }
