@@ -522,5 +522,7 @@
   "emoji_picker.symbols": "Ký hiệu",
   "emoji_picker.smileys-emotion": "Biểu tượng mặt cười và cảm xúc",
   "emoji_picker.searchResults": "Kết quả tìm kiếm",
-  "apps.error.command.same_channel": "Kênh được lặp lại cho trường `{fieldName}`: `{option}`."
+  "apps.error.command.same_channel": "Kênh được lặp lại cho trường `{fieldName}`: `{option}`.",
+  "apps.error.command.same_option": "Tùy chọn lặp lại cho trường `{fieldName}`: `{option}`.",
+  "apps.error.command.same_user": "Người dùng lặp lại cho trường `{fieldName}`: `{option}`."
 }
