@@ -524,5 +524,12 @@
   "emoji_picker.searchResults": "Kết quả tìm kiếm",
   "apps.error.command.same_channel": "Kênh được lặp lại cho trường `{fieldName}`: `{option}`.",
   "apps.error.command.same_option": "Tùy chọn lặp lại cho trường `{fieldName}`: `{option}`.",
-  "apps.error.command.same_user": "Người dùng lặp lại cho trường `{fieldName}`: `{option}`."
+  "apps.error.command.same_user": "Người dùng lặp lại cho trường `{fieldName}`: `{option}`.",
+  "apps.error.parser.missing_binding": "Thiếu ràng buộc lệnh.",
+  "apps.error.form.no_submit": "`submit` không được định nghĩa",
+  "apps.error.form.no_source": "`source` không được định nghĩa.",
+  "apps.error.form.no_lookup": "`lookup` không được định nghĩa.",
+  "apps.error.malformed_binding": "Liên kết này không được hình thành đúng cách. Liên hệ với nhà phát triển ứng dụng.",
+  "apps.error.parser.missing_list_end": "Cần mã đóng danh sách.",
+  "apps.error.parser.missing_source": "Biểu mẫu không có nơi gửi cũng như nguồn."
 }
