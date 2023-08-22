@@ -1,1 +1,9 @@
-{}
+{
+  "about.buildnumber": "Номер сборки:",
+  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Все права сохранены",
+  "about.database": "База данных:",
+  "about.date": "Дата сборки:",
+  "about.dbversion": "Версия схемы базы данных:",
+  "about.enterpriseEditionLearn": "Узнать больше о корпоративной версии ",
+  "about.enterpriseEditione1": "Корпоративная версия"
+}
