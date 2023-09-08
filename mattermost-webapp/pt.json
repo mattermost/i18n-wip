@@ -79,5 +79,6 @@
   "apps.error.command.same_channel": "Canal repetido para o campo `{fieldName}`: `{option}`.",
   "apps.error.command.same_option": "Opção repetida no campo `{fieldName}`: `{option}`.",
   "apps.error.command.same_user": "Utilizador repetido no campo `{fieldName}`: `{option}`.",
+  "web.root.signup_info": "Toda a comunicação da equipa num só lugar, pesquisável e acessível em qualquer lugar",
   "yourcomputer": "O seu computador"
 }
