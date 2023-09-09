@@ -18,5 +18,6 @@
   "about.teamEditiont0": "Edição Equipes",
   "about.teamEditionSt": "Toda a comunicação da sua equipe em um só lugar, pesquisável instantaneamente e acessível em qualquer lugar.",
   "apps.error.command.same_user": "Utilizador repetido no campo `{fieldName}`: `{option}`.",
-  "apps.error.command.same_option": "Opção repetida no campo `{fieldName}`: `{option}`."
+  "apps.error.command.same_option": "Opção repetida no campo `{fieldName}`: `{option}`.",
+  "web.root.signup_info": "Toda a comunicação da equipa num só lugar, pesquisável e acessível em qualquer lugar"
 }
